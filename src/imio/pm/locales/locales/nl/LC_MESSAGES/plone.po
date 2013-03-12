@@ -18,10 +18,6 @@ msgstr ""
 "Preferred-encodings: utf-8 latin1\n"
 "X-is-fallback-for: nl-be\n"
 
-#. Default: "Advices"
-msgid "Advices"
-msgstr "Adviezen"
-
 # This way, the "typedescription macro in base_edit does not display 'MeetingItem' above the title.
 #. Default: "Annexes"
 msgid "Annexes"
@@ -157,7 +153,8 @@ msgstr "Activeren"
 msgid "active"
 msgstr "Actief"
 
-#. Default: "Advices"
+#. Default: "Advices and access"
+#, fuzzy
 msgid "advices"
 msgstr "adviezen"
 

@@ -23,10 +23,6 @@ msgstr ""
 msgid "Add Todo Portlet"
 msgstr ""
 
-#. Default: "Advices"
-msgid "Advices"
-msgstr "Adviezen"
-
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Bijlagen (beslissing)"
@@ -119,6 +115,10 @@ msgstr "Acroniem"
 
 #. Default: "Advice style"
 msgid "PloneMeeting_label_adviceStyle"
+msgstr ""
+
+#. Default: "Advices"
+msgid "PloneMeeting_label_advices"
 msgstr ""
 
 #. Default: "Group"
@@ -1058,11 +1058,13 @@ msgstr ""
 msgid "advice_style_descr"
 msgstr ""
 
-#. Default: "Advices"
+#. Default: "Advices and access"
+#, fuzzy
 msgid "advices"
 msgstr "adviezen"
 
-#. Default: "Advices"
+#. Default: "Advices and access"
+#, fuzzy
 msgid "advices_config"
 msgstr "Adviezen"
 
@@ -2482,7 +2484,7 @@ msgstr "A meeting having the same date and hour already exists. Please choose an
 msgid "meeting_workflow_descr"
 msgstr "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting meeting: either 'meeting_workflow', the default meeting workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the meetings of this meeting configuration."
 
-#. Default: "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item."
+#. Default: "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item.  Moreover, this section will give you the possibility to define some access rules."
 msgid "meetingconfig_advice_descr"
 msgstr ""
 

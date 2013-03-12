@@ -15,10 +15,6 @@ msgstr ""
 "Domain: plone\n"
 "X-is-fallback-for: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
 
-#. Default: "Advices"
-msgid "Advices"
-msgstr "Avis"
-
 # This way, the typedescription macro in base_edit does not display 'MeetingItem' above the title.
 #. Default: "Annexes"
 msgid "Annexes"
@@ -153,9 +149,9 @@ msgstr "Activer"
 msgid "active"
 msgstr "Actif"
 
-#. Default: "Advices"
+#. Default: "Advices and access"
 msgid "advices"
-msgstr "Avis"
+msgstr "Avis et accès"
 
 #. Default: "Archive"
 msgid "archive"
@@ -529,4 +525,3 @@ msgstr "Votes"
 #. Default: "Workflows"
 msgid "workflow"
 msgstr "Workflows"
-

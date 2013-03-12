@@ -23,10 +23,6 @@ msgstr "Ajout d'un portlet 'PloneMeeting'"
 msgid "Add Todo Portlet"
 msgstr "Ajout d'un portlet 'à faire'"
 
-#. Default: "Advices"
-msgid "Advices"
-msgstr "Avis"
-
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Annexes (décision)"
@@ -119,6 +115,10 @@ msgstr "Acronyme"
 #. Default: "Advice style"
 msgid "PloneMeeting_label_adviceStyle"
 msgstr "Style des avis"
+
+#. Default: "Advices"
+msgid "PloneMeeting_label_advices"
+msgstr "Avis"
 
 #. Default: "Group"
 msgid "PloneMeeting_label_adviserName"
@@ -1056,13 +1056,13 @@ msgstr "Optionnel"
 msgid "advice_style_descr"
 msgstr "Choisissez ici le style des icônes qui représentent les avis."
 
-#. Default: "Advices"
+#. Default: "Advices and access"
 msgid "advices"
-msgstr "Avis"
+msgstr "Avis et accès"
 
-#. Default: "Advices"
+#. Default: "Advices and access"
 msgid "advices_config"
-msgstr "Avis"
+msgstr "Avis et accès"
 
 #. Default: "Hands"
 msgid "advices_hands"
@@ -2476,9 +2476,9 @@ msgstr "Une séance ayant la même date et heure existe déjà. Veuillez choisir
 msgid "meeting_workflow_descr"
 msgstr "Dans cette liste, vous voyez tous les workflows définis dans votre site Plone. Choisissez-en un qui a été spécifiquement conçu pour gérer le cycle de vie d'une séance PloneMeeting: soit 'meeting_workflow', le workflow pour séances qui est livré avec PloneMeeting, soit un autre workflow qui a été spécifiquement conçu, par des développeurs au sein d'un produit Plone tiers, pour les points de cette configuration de séance."
 
-#. Default: "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item."
+#. Default: "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item.  Moreover, this section will give you the possibility to define some access rules."
 msgid "meetingconfig_advice_descr"
-msgstr "Cette section permet de paramétrer la fonctionnalité de gestion des avis. Un avis est une sorte de commentaire, positif ou négatif, qu'une personne, selon ses habilitations, peut ou doit donner sur un point."
+msgstr "Cette section permet de paramétrer la fonctionnalité de gestion des avis. Un avis est une sorte de commentaire, positif ou négatif, qu'une personne, selon ses habilitations, peut ou doit donner sur un point.  De plus c'est dans cette section que certaines règles d'accès peuvent être configurées."
 
 #. Default: "Parameters in this section allow to customize some elements linked to attributes of and associations between the 2 main content types managed by PloneMeeting: items and meetings."
 msgid "meetingconfig_data_descr"

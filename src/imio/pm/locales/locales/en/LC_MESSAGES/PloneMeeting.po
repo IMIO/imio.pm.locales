@@ -23,10 +23,6 @@ msgstr ""
 msgid "Add Todo Portlet"
 msgstr ""
 
-#. Default: "Advices"
-msgid "Advices"
-msgstr "Advices"
-
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Annexes (decision)"
@@ -88,7 +84,6 @@ msgid "Number of items to display"
 msgstr ""
 
 #. Default: "Paste item(s)"
-#, fuzzy
 msgid "Paste PloneMeeting"
 msgstr "Paste"
 
@@ -120,6 +115,10 @@ msgstr "Acronym"
 #. Default: "Advice style"
 msgid "PloneMeeting_label_adviceStyle"
 msgstr "Advice style"
+
+#. Default: "Advices"
+msgid "PloneMeeting_label_advices"
+msgstr ""
 
 #. Default: "Group"
 msgid "PloneMeeting_label_adviserName"
@@ -1057,13 +1056,14 @@ msgstr "Optional"
 msgid "advice_style_descr"
 msgstr "Choose here the style for the icons that represent advices."
 
-#. Default: "Advices"
+#. Default: "Advices and access"
+#, fuzzy
 msgid "advices"
 msgstr "Advices"
 
-#. Default: "Advices"
+#. Default: "Advices and access"
 msgid "advices_config"
-msgstr "Advices"
+msgstr "Advices and access"
 
 #. Default: "Hands"
 msgid "advices_hands"
@@ -1443,19 +1443,16 @@ msgid "create_meeting"
 msgstr "create a meeting"
 
 #. Default: "Create an item"
-#, fuzzy
 msgid "create_meeting_item"
-msgstr "create an item"
+msgstr "Create an item"
 
 #. Default: "Create an item from..."
-#, fuzzy
 msgid "create_meeting_item_from"
-msgstr "create an item from..."
+msgstr "Create an item from..."
 
 #. Default: "Create an item in the current folder"
-#, fuzzy
 msgid "create_meeting_item_in_current_folder"
-msgstr "create an item here"
+msgstr "Create an item here"
 
 #. Default: "Creator"
 msgid "creator"
@@ -2483,7 +2480,8 @@ msgstr "A meeting having the same date and hour already exists. Please choose an
 msgid "meeting_workflow_descr"
 msgstr "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting meeting: either 'meeting_workflow', the default meeting workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the meetings of this meeting configuration."
 
-#. Default: "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item."
+#. Default: "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item.  Moreover, this section will give you the possibility to define some access rules."
+#, fuzzy
 msgid "meetingconfig_advice_descr"
 msgstr "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item."
 

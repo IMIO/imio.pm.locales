@@ -15,10 +15,6 @@ msgstr ""
 "Domain: plone\n"
 "X-Is-Fallback-For: de-be de-at de-li de-lu de-ch de-de\n"
 
-#. Default: "Advices"
-msgid "Advices"
-msgstr "Kommentare"
-
 # This way, the "typedescription macro in base_edit does not display 'MeetingItem' above the title.
 #. Default: "Annexes"
 msgid "Annexes"
@@ -155,7 +151,8 @@ msgstr "Aktivieren"
 msgid "active"
 msgstr "Aktiv"
 
-#. Default: "Advices"
+#. Default: "Advices and access"
+#, fuzzy
 msgid "advices"
 msgstr "Kommentare"
 

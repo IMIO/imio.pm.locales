@@ -23,10 +23,6 @@ msgstr "PloneMeeting Portlet hinzufügen"
 msgid "Add Todo Portlet"
 msgstr "Zu erledigen Portlet hinzufügen"
 
-#. Default: "Advices"
-msgid "Advices"
-msgstr "Kommentare"
-
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Anhänge (Beschluss)"
@@ -120,6 +116,10 @@ msgstr "Akronym"
 #. Default: "Advice style"
 msgid "PloneMeeting_label_adviceStyle"
 msgstr "Kommentardarstellung "
+
+#. Default: "Advices"
+msgid "PloneMeeting_label_advices"
+msgstr ""
 
 #. Default: "Group"
 msgid "PloneMeeting_label_adviserName"
@@ -1058,11 +1058,13 @@ msgstr ""
 msgid "advice_style_descr"
 msgstr "Wählen Sie hier die Darstellung aus, die die Zustimmungsgrade anzeigen."
 
-#. Default: "Advices"
+#. Default: "Advices and access"
+#, fuzzy
 msgid "advices"
 msgstr "Kommentare"
 
-#. Default: "Advices"
+#. Default: "Advices and access"
+#, fuzzy
 msgid "advices_config"
 msgstr "Kommentare"
 
@@ -2486,7 +2488,8 @@ msgstr "Eine Sitzung zur selben Zeit existiert bereits. Bitte wählen Sie ein an
 msgid "meeting_workflow_descr"
 msgstr "In dieser Liste sehen Sie alle Arbeitsabläufe die auf ihrer Plone-Seite definiert sind. Wählen sie einen der speziell für die Verwaltung von PloneMeeting-Sitzungen bestimmten Arbeitsablauf: entweder 'meeting_workflow', der standardmässige Arbeitsablauf der in PloneMeeting enthalten ist, oder ein anderer Arbeitsablauf der in einem anderen Plone-Produkt der speziell für Sitzungen in dieser Sitzungs-Konfiguration erstellt wurde."
 
-#. Default: "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item."
+#. Default: "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item.  Moreover, this section will give you the possibility to define some access rules."
+#, fuzzy
 msgid "meetingconfig_advice_descr"
 msgstr "In diesem Abschnitt können Sie die Funktionalität der 'Kommentare' einrichten konfigurieren. Ein Kommentar ist eine positive oder negative Bewertung die jemand, aufgrund seiner Funktion, zu einem TOP geben muss oder darf. "
 
