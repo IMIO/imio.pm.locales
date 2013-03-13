@@ -1124,10 +1124,6 @@ msgstr "Type d'annexe"
 msgid "annexes"
 msgstr "Annexes"
 
-#. Default: "PloneMeeting"
-msgid "app_name"
-msgstr "PloneMeeting"
-
 #. Default: "The definitive decisions have been archived for this meeting."
 msgid "archive_done_descr"
 msgstr "Les décisions définitives de cette séance ont été archivées."
@@ -2900,6 +2896,10 @@ msgstr "Actif ?"
 msgid "pod_templates_descr"
 msgstr "Cette section vous permet de gérer les canevas de documents que vous pouvez spécifier pour produire des documents depuis les types de contenu gérés par PloneMeeting (points, séances, annexes, etc)."
 
+#. Default: "Manage"
+msgid "portlet_pm_header_label"
+msgstr "Gestion"
+
 #. Default: "Decisions"
 msgid "portletdecisions_title"
 msgstr "Décisions"
@@ -3667,7 +3667,7 @@ msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux wo
 
 #. Default: "Are you sure you want to ${transition_name} this element? If yes, you can enter a comment below (optional)."
 msgid "workflow_confirm"
-msgstr "Êtes-vous certain de vouloir ${transition_name} cet élément? Si oui, vous pouvez entrer un commentaire ci-dessous (facultatif) et cliquer sur le bouton 'Enregistrer', sinon, fermez cette fenêtre via la croix ci-contre."
+msgstr "Êtes-vous certain de vouloir ${transition_name} cet élément? Si oui, vous pouvez entrer un commentaire ci-dessous (facultatif) et cliquer sur le bouton 'Enregistrer'."
 
 #. Default: "Every field that you select in this list will, every time its object will be created or updated, undergo the transform(s) defined in the next field."
 msgid "xhtml_transform_fields_descr"
@@ -3680,4 +3680,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

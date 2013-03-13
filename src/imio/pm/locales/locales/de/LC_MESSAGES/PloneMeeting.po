@@ -1128,10 +1128,6 @@ msgstr "Typ des Anhangs"
 msgid "annexes"
 msgstr "Anhänge"
 
-#. Default: "PloneMeeting"
-msgid "app_name"
-msgstr "PloneMeeting"
-
 #. Default: "The definitive decisions have been archived for this meeting."
 msgid "archive_done_descr"
 msgstr "Die definitiven Beschlüsse für diese Sitzung wurden archiviert."
@@ -2911,6 +2907,10 @@ msgstr "Aktiv?"
 #. Default: "This section allows you manage the document templates that you may specify for producing documents from content managed by PloneMeeting (items, meetings, annexes, etc)."
 msgid "pod_templates_descr"
 msgstr "Dieser Abschnitt gibt Ihnen die Möglichkeit die Vorlagen von Dokumenten zu bezeichnen die Dokumente mit Inhalt auf Basis von PloneMeeting Inhalte erstellen (TOP, Sitzungen, Anlagen, usw...)"
+
+#. Default: "Manage"
+msgid "portlet_pm_header_label"
+msgstr ""
 
 # Portlet "decisions"
 #. Default: "Decisions"

@@ -1128,10 +1128,6 @@ msgstr "Type van de bijlage"
 msgid "annexes"
 msgstr "Bijlagen"
 
-#. Default: "PloneMeeting"
-msgid "app_name"
-msgstr "PloneMeeting"
-
 #. Default: "The definitive decisions have been archived for this meeting."
 msgid "archive_done_descr"
 msgstr "De definitieve beslissingen zijn gearchiveerd voor deze vergadering."
@@ -2905,6 +2901,10 @@ msgstr "Actief ?"
 
 #. Default: "This section allows you manage the document templates that you may specify for producing documents from content managed by PloneMeeting (items, meetings, annexes, etc)."
 msgid "pod_templates_descr"
+msgstr ""
+
+#. Default: "Manage"
+msgid "portlet_pm_header_label"
 msgstr ""
 
 # Portlet "decisions"
