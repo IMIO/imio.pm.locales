@@ -2863,9 +2863,9 @@ msgstr "Mettre à jour les 'Super observateurs'"
 msgid "podByMail_mail_body"
 msgstr "Veuillez consulter le fichier joint."
 
-#. Default: "${portalTitle} - ${objectTitle}."
+#. Default: "${podTemplateTitle} - ${objectTitle}."
 msgid "podByMail_mail_subject"
-msgstr "${portalTitle} - ${objectTitle}."
+msgstr "${podTemplateTitle} - ${objectTitle}."
 
 #. Default: "If this condition is True (and if the user has the appropriate permission(s) as defined in the next field), the user will be able to generate documents from this template (an icon will show up). This condition must be expressed as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted object. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
 msgid "pod_condition_descr"
