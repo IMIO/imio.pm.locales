@@ -2968,12 +2968,20 @@ msgstr ""
 msgid "recurringItemWorkflowError_mail_body"
 msgstr ""
 
-#. Default: "${podTemplateTitle} - ${objectTitle}."
-msgid "podByMail_mail_subject"
+#. Default: "${meetingConfigTitle} - ${podTemplateTitle} - ${objectTitle}."
+msgid "podItemByMail_mail_subject"
 msgstr ""
 
 #. Default: "Please consult the attached document."
-msgid "podByMail_mail_body"
+msgid "podItemByMail_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - ${podTemplateTitle} - ${meetingLongTitle}."
+msgid "podMeetingByMail_mail_subject"
+msgstr ""
+
+#. Default: "Please consult the attached document."
+msgid "podMeetingByMail_mail_body"
 msgstr ""
 
 # Other

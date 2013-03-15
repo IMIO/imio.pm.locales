@@ -1150,7 +1150,7 @@ msgstr "Tri ascendant"
 
 #. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as copyGroup for an item.  We receive 'item' as the meeting item.  WARNING, if the 'suffix' returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
 msgid "as_copy_group_on_descr"
-msgstr "Spécifiez une expression TAL qui retourne une liste de suffixes de groupes Plone (par exemple ['creators', 'reviewers', ]) qui devront être automatiquement sélectionnés comme groupes en copie lors de la création du point.  L'élément 'item' (point) est utilisable dans l'expression. ATTENTION: si le groupe Plone lié au suffixe n'est pas défini dans la liste des 'Groupes qui pourront être mis en copie' sur la 'Configuration de séance' du point, le groupe ne sera pas mis en copie et ce, quel que soit le résultat de l'expression.  Exemple d'expression : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
+msgstr "Spécifiez une expression TAL qui retourne une liste de suffixes de groupes Plone (par exemple ['creators', 'reviewers', ]) qui devront être automatiquement sélectionnés comme groupes en copie lors d'un point.  L'expression est évaluée à chaque modification du point (création et éditions suivantes).  L'élément 'item' (point) est utilisable dans l'expression. ATTENTION: si le groupe Plone lié au suffixe n'est pas défini dans la liste des 'Groupes qui pourront être mis en copie' sur la 'Configuration de séance' du point, le groupe ne sera pas mis en copie et ce, quel que soit le résultat de l'expression.  Exemple d'expression : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
 
 #. Default: "As recurring item"
 msgid "as_recurring_item"
@@ -2860,12 +2860,20 @@ msgid "pm_update_powerobservers"
 msgstr "Mettre à jour les 'Super observateurs'"
 
 #. Default: "Please consult the attached document."
-msgid "podByMail_mail_body"
+msgid "podItemByMail_mail_body"
 msgstr "Veuillez consulter le fichier joint."
 
-#. Default: "${podTemplateTitle} - ${objectTitle}."
-msgid "podByMail_mail_subject"
-msgstr "${podTemplateTitle} - ${objectTitle}."
+#. Default: "${meetingConfigTitle} - ${podTemplateTitle} - ${objectTitle}."
+msgid "podItemByMail_mail_subject"
+msgstr "${meetingConfigTitle} - ${podTemplateTitle} - ${objectTitle}."
+
+#. Default: "Please consult the attached document."
+msgid "podMeetingByMail_mail_body"
+msgstr "Veuillez consulter le fichier joint."
+
+#. Default: "${meetingConfigTitle} - ${podTemplateTitle} - ${meetingLongTitle}."
+msgid "podMeetingByMail_mail_subject"
+msgstr "${meetingConfigTitle} - ${podTemplateTitle} - ${meetingLongTitle}."
 
 #. Default: "If this condition is True (and if the user has the appropriate permission(s) as defined in the next field), the user will be able to generate documents from this template (an icon will show up). This condition must be expressed as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted object. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
 msgid "pod_condition_descr"
