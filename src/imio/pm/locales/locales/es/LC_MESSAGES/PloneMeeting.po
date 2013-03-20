@@ -396,6 +396,10 @@ msgstr "Las columnas a mostrar en las listas de temas"
 msgid "PloneMeeting_label_itemConditionsInterface"
 msgstr "La interfaz siguiente es usada para un especifico adaptador de Zope3 para modificar las acciones definidas en las transiciones del flujo de trabajo de tema"
 
+#. Default: "Item decided states"
+msgid "PloneMeeting_label_itemDecidedStates"
+msgstr ""
+
 #. Default: "Initiator of this item"
 msgid "PloneMeeting_label_itemInitiator"
 msgstr ""
@@ -2026,6 +2030,10 @@ msgstr "Seleccione aquí cuales columnas se mostraran cuando se en listen temas 
 #. Default: "On the item workflow, some boolean expressions guard the execution of the transitions from one state to another. Those conditions, together with other conditions useful at various levels within PloneMeeting, are defined as methods of a Python interface. You can modify those conditions at will, through the development of another Plone product into which you must: <ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions are documented."
 msgid "item_conditions_interface_descr"
 msgstr "En el flujo de trabajo de tema, algún expresiones booleanas guardan la ejecución del la transición desde un estado a otro. Esas condiciones, junto con otras condiciones hacen muy útil a los varios niveles con PloneMeeting, son definida como métodos de una interfaz Python. Usted puede modificar esas condiciones, a través del desarrollo de otro producto de Plone dentro del cual debe: <ul><li>crear una interfaz Python que herede desde la interfaz Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (usted debe introducir el nombre completo del paquete de esta interfaz en el siguiente campo);</li><li>crear y declarar en el archivo ZCML un adaptador que adapte la interfaz Products.PloneMeeting.interfaces.IMeetingItem a la interfaz que usted tiene definida en el paso anterior.</li></ul>Su adaptador tal ves herede desde el adaptador por defecto Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: eso le permitirá a usted anular solo métodos por los cuales usted quiera un comportamiento alterno. Todos los métodos propuestos por la interfaz Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions son documentado."
+
+#. Default: "Choose decided state for an item"
+msgid "item_decided_states_descr"
+msgstr ""
 
 #. Default: "No move occurred because you specified the item number or this number plus one. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
 msgid "item_did_not_move"
