@@ -392,6 +392,10 @@ msgstr "Colonnes à afficher sur les listes de points"
 msgid "PloneMeeting_label_itemConditionsInterface"
 msgstr "Interface permettant d'utiliser un adapter Zope3 spécifique pour modifier les conditions définies sur les transitions du workflow gouvernant les points"
 
+#. Default: "Item decided states"
+msgid "PloneMeeting_label_itemDecidedStates"
+msgstr "Etats des points décidés"
+
 #. Default: "Initiator of this item"
 msgid "PloneMeeting_label_itemInitiator"
 msgstr "A l'initiative de ce point"
@@ -2012,6 +2016,10 @@ msgstr "Choisissez ici les colonnes à afficher sur les listes de points (par ex
 #. Default: "On the item workflow, some boolean expressions guard the execution of the transitions from one state to another. Those conditions, together with other conditions useful at various levels within PloneMeeting, are defined as methods of a Python interface. You can modify those conditions at will, through the development of another Plone product into which you must: <ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions are documented."
 msgid "item_conditions_interface_descr"
 msgstr "Sur le workflow gouvernant les points, une série d'expressions booléennes conditionnent l'exécution des transitions entre états. Ces conditions, ainsi que d'autres conditions utiles à divers niveaux au sein de PloneMeeting, sont définies en tant que méthodes d'une interface Python. Vous pouvez modifier comme vous le voulez ces conditions, via le développement d'un produit Plone tiers dans lequel vous devez:<ul><li>créer une interface Python qui hérite de l'interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (c'est le nom complet de cette interface que vous devez spécifier dans ce champ);</li><li>créer et déclarer en ZCML un adapter qui adapte l'interface Products.PloneMeeting.interfaces.IMeetingItem vers l'interface que vous avez définie au point précédent.</li></ul>Vous pouvez faire hériter votre adapter de l'adapter par défaut Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: cela vous permettra d'overrider uniquement les méthodes pour lesquelles vous voulez un comportement différent. Toutes les méthodes proposées par l'interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions sont documentées."
+
+#. Default: "Choose decided state for an item"
+msgid "item_decided_states_descr"
+msgstr "Choisissez les états décidés."
 
 #. Default: "No move occurred because you specified the item number or this number plus one. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
 msgid "item_did_not_move"
@@ -3688,3 +3696,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+
