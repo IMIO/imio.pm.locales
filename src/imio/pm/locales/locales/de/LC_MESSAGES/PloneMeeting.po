@@ -690,7 +690,8 @@ msgstr "Bemerkungen zur vorbereitenden Sitzung"
 msgid "PloneMeeting_label_preObservations2"
 msgstr "Bemerkungen zur vorbereitenden Sitzung"
 
-#. Default: "Predecessor"
+#. Default: "Linked items"
+#, fuzzy
 msgid "PloneMeeting_label_predecessor"
 msgstr "Vorlage"
 
@@ -1838,9 +1839,9 @@ msgid "heading_actions"
 msgstr "Aktionen"
 
 # Other
-#. Default: "Check/uncheck items (for document generation)"
-msgid "helpSelectForPrintingIcon"
-msgstr "Die markierten TOP werden für die Dokumenten-Erstellung (ODT, PDF, ...) ausgewählt."
+#. Default: "Check/uncheck items"
+msgid "helpSelectItemsIcon"
+msgstr ""
 
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
