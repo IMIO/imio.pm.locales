@@ -845,6 +845,10 @@ msgstr "Zeige das Feld 'zu Besprechen' auf die Liste der verspäteten TOP"
 msgid "PloneMeeting_label_toDoListTopics"
 msgstr "Liste von TOP die im 'Todo' Portlet angezeigt werden"
 
+#. Default: "To print ?"
+msgid "PloneMeeting_label_toPrint"
+msgstr ""
+
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
 msgstr "Transition zu bestätigen"
@@ -1124,6 +1128,22 @@ msgstr "${portalTitle} - ${meetingTitle} - Ein Anhang wurde gerade zu einem TOP 
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titel"
+
+#. Default: "The annex will not be printed."
+msgid "annex_to_print_no"
+msgstr ""
+
+#. Default: "The annex will not be printed. Click on the image to print it."
+msgid "annex_to_print_no_edit"
+msgstr ""
+
+#. Default: "The annex will be printed."
+msgid "annex_to_print_yes"
+msgstr ""
+
+#. Default: "The annex will be printed. Click on the image not to print it."
+msgid "annex_to_print_yes_edit"
+msgstr ""
 
 #. Default: "Annex type"
 msgid "annex_type"

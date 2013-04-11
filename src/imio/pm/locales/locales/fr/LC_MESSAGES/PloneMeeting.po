@@ -843,6 +843,10 @@ msgstr "Montrer le champ 'à discuter' sur les listes de points en retard"
 msgid "PloneMeeting_label_toDoListTopics"
 msgstr "Dossiers automatiques à afficher dans le portlet 'A faire'"
 
+#. Default: "To print ?"
+msgid "PloneMeeting_label_toPrint"
+msgstr "A imprimer ?"
+
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
 msgstr "Transitions à confirmer"
@@ -1119,6 +1123,22 @@ msgstr "${portalTitle} - ${meetingTitle} - Une annexe vient d'être ajoutée à 
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titre"
+
+#. Default: "The annex will not be printed."
+msgid "annex_to_print_no"
+msgstr "L'annexe ne sera pas imprimée."
+
+#. Default: "The annex will not be printed. Click on the image to print it."
+msgid "annex_to_print_no_edit"
+msgstr "L'annexe ne sera pas imprimée. Cliquez sur l'image pour que l'annexe soit imprimée."
+
+#. Default: "The annex will be printed."
+msgid "annex_to_print_yes"
+msgstr "L'annexe sera imprimée."
+
+#. Default: "The annex will be printed. Click on the image not to print it."
+msgid "annex_to_print_yes_edit"
+msgstr "L'annexe sera imprimée. Cliquez sur l'image pour que l'annexe ne soit pas imprimée."
 
 #. Default: "Annex type"
 msgid "annex_type"
@@ -3700,4 +3720,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

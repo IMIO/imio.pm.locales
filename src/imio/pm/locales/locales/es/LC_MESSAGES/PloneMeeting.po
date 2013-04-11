@@ -848,6 +848,10 @@ msgstr "Mostrar campo 'a discutir' en la lista de temas retardados"
 msgid "PloneMeeting_label_toDoListTopics"
 msgstr "Listas de tópicos a mostrar en el portlet 'Por hacer'"
 
+#. Default: "To print ?"
+msgid "PloneMeeting_label_toPrint"
+msgstr ""
+
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
 msgstr "Transiciones a confirmar"
@@ -1127,6 +1131,22 @@ msgstr "${portalTitle} - ${meetingTitle} - Un anexo se acaba de agregar a un tem
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titulo"
+
+#. Default: "The annex will not be printed."
+msgid "annex_to_print_no"
+msgstr ""
+
+#. Default: "The annex will not be printed. Click on the image to print it."
+msgid "annex_to_print_no_edit"
+msgstr ""
+
+#. Default: "The annex will be printed."
+msgid "annex_to_print_yes"
+msgstr ""
+
+#. Default: "The annex will be printed. Click on the image not to print it."
+msgid "annex_to_print_yes_edit"
+msgstr ""
 
 #. Default: "Annex type"
 msgid "annex_type"
