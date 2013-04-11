@@ -690,7 +690,7 @@ msgstr ""
 msgid "PloneMeeting_label_preObservations2"
 msgstr ""
 
-#. Default: "Predecessor"
+#. Default: "Linked items"
 msgid "PloneMeeting_label_predecessor"
 msgstr ""
 
@@ -1527,6 +1527,10 @@ msgstr "More information on ${portalUrl}."
 msgid "decide_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - The (temporary) decisions have been published."
 
+#. Default: "For every selected items, apply following action"
+msgid "decide_several_items_help"
+msgstr ""
+
 #. Default: "Decision"
 msgid "decision"
 msgstr "Besluit"
@@ -1835,9 +1839,9 @@ msgid "heading_actions"
 msgstr "Acties"
 
 # Other
-#. Default: "Check/uncheck items (for document generation)"
-msgid "helpSelectForPrintingIcon"
-msgstr "Selekteer/deselekteer punten (voor dokumentgeneratie)"
+#. Default: "Check/uncheck items"
+msgid "helpSelectItemsIcon"
+msgstr ""
 
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"

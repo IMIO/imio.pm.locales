@@ -689,9 +689,9 @@ msgstr "Observations pour la réunion préparatoire"
 msgid "PloneMeeting_label_preObservations2"
 msgstr "Observations pour la réunion préparatoire"
 
-#. Default: "Predecessor"
+#. Default: "Linked items"
 msgid "PloneMeeting_label_predecessor"
-msgstr "Prédécesseur"
+msgstr "Point(s) lié(s)"
 
 #. Default: "Predefined title that will be assigned to every uploaded file having this type"
 msgid "PloneMeeting_label_predefinedTitle"
@@ -1520,6 +1520,10 @@ msgstr "Rendez-vous sur ${portalUrl}."
 #. Default: "${portalTitle} - ${meetingTitle} - The (temporary) decisions have been published."
 msgid "decide_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - Les décisions (provisoires) viennent d'être publiées."
+
+#. Default: "For every selected items, apply following action"
+msgid "decide_several_items_help"
+msgstr "Pour les points sélectionnés, effectuer l'action suivante"
 
 #. Default: "Decision"
 msgid "decision"
@@ -3696,3 +3700,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+

@@ -689,7 +689,8 @@ msgstr "Observations for the preparatory meeting"
 msgid "PloneMeeting_label_preObservations2"
 msgstr "Observations for the preparatory meeting"
 
-#. Default: "Predecessor"
+#. Default: "Linked items"
+#, fuzzy
 msgid "PloneMeeting_label_predecessor"
 msgstr "Predecessor"
 
@@ -1522,6 +1523,10 @@ msgstr "More information on ${portalUrl}."
 msgid "decide_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - The (temporary) decisions have been published."
 
+#. Default: "For every selected items, apply following action"
+msgid "decide_several_items_help"
+msgstr ""
+
 #. Default: "Decision"
 msgid "decision"
 msgstr "Decision"
@@ -1830,9 +1835,9 @@ msgid "heading_actions"
 msgstr "Actions"
 
 # Other
-#. Default: "Check/uncheck items (for document generation)"
-msgid "helpSelectForPrintingIcon"
-msgstr "Check/uncheck items (for document generation)"
+#. Default: "Check/uncheck items"
+msgid "helpSelectItemsIcon"
+msgstr ""
 
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
