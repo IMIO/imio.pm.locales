@@ -17,11 +17,11 @@ msgstr ""
 
 #. Default: "Add PloneMeeting Portlet"
 msgid "Add PloneMeeting Portlet"
-msgstr ""
+msgstr "Add PloneMeeting Portlet"
 
 #. Default: "Add Todo Portlet"
 msgid "Add Todo Portlet"
-msgstr ""
+msgstr "Add Todo Portlet"
 
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
@@ -41,31 +41,35 @@ msgstr "Item classifiers"
 
 #. Default: "Copy PloneMeeting"
 msgid "Copy PloneMeeting"
-msgstr ""
+msgstr "Copy PloneMeeting"
+
+#. Default: "Download annex"
+msgid "Download annex"
+msgstr "Download annex"
 
 #. Default: "Edit"
 msgid "Edit"
-msgstr ""
+msgstr "Edit"
 
 #. Default: "Edit PloneMeeting Portlet"
 msgid "Edit PloneMeeting Portlet"
-msgstr ""
+msgstr "Edit PloneMeeting Portlet"
 
 #. Default: "Edit Todo Portlet"
 msgid "Edit Todo Portlet"
-msgstr ""
+msgstr "Edit Todo Portlet"
 
 #. Default: "How many items to list in each topic."
 msgid "How many items to list in each topic."
-msgstr ""
+msgstr "How many items to list in each topic."
 
 #. Default: "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
 msgid "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
-msgstr ""
+msgstr "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
 
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
-msgstr ""
+msgstr "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 
 #. Default: "Category"
 msgid "MeetingCategory"
@@ -77,11 +81,11 @@ msgstr "Annex types"
 
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
-msgstr ""
+msgstr "Number of characters of the title to show"
 
 #. Default: "Number of items to display"
 msgid "Number of items to display"
-msgstr ""
+msgstr "Number of items to display"
 
 #. Default: "Paste item(s)"
 msgid "Paste PloneMeeting"
@@ -89,7 +93,7 @@ msgstr "Paste"
 
 #. Default: "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgid "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
-msgstr ""
+msgstr "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 
 #. Default: "PloneMeeting 'folder' view"
 msgid "PloneMeetingFolderView"
@@ -118,7 +122,7 @@ msgstr "Advice style"
 
 #. Default: "Advices"
 msgid "PloneMeeting_label_advices"
-msgstr ""
+msgstr "Advices"
 
 #. Default: "Group"
 msgid "PloneMeeting_label_adviserName"
@@ -138,7 +142,7 @@ msgstr "Answers"
 
 #. Default: "As copy group on"
 msgid "PloneMeeting_label_asCopyGroupOn"
-msgstr ""
+msgstr "As copy group on"
 
 #. Default: "Default assembly"
 msgid "PloneMeeting_label_assembly"
@@ -170,7 +174,7 @@ msgstr "Default value for the 'budget information' field"
 
 #. Default: "Budgetary informations"
 msgid "PloneMeeting_label_budgetInfos"
-msgstr ""
+msgstr "Budgetary informations"
 
 #. Default: "This item is related to budgetary information"
 msgid "PloneMeeting_label_budgetRelated"
@@ -186,7 +190,7 @@ msgstr "Category identifier"
 
 #. Default: "Certified signatures"
 msgid "PloneMeeting_label_certifiedSignatures"
-msgstr ""
+msgstr "Certified signatures"
 
 #. Default: "Classifier"
 msgid "PloneMeeting_label_classifier"
@@ -358,7 +362,7 @@ msgstr "This configuration is the default meeting configuration"
 
 #. Default: "Absents for the item"
 msgid "PloneMeeting_label_itemAbsents"
-msgstr ""
+msgstr "Absents for the item"
 
 #. Default: "Interface allowing to use a specific Zope3 adapter for modifying the actions defined on the transitions of the item workflow"
 msgid "PloneMeeting_label_itemActionsInterface"
@@ -378,11 +382,11 @@ msgstr "Item states allowing to define advices"
 
 #. Default: "Item states allowing advisers to continue to view the item"
 msgid "PloneMeeting_label_itemAdviceViewStates"
-msgstr ""
+msgstr "Item states allowing advisers to continue to view the item"
 
 #. Default: "Assembly that is specific to this meeting item"
 msgid "PloneMeeting_label_itemAssembly"
-msgstr ""
+msgstr "Assembly that is specific to this meeting item"
 
 #. Default: "Columns to display in lists of items"
 msgid "PloneMeeting_label_itemColumns"
@@ -394,15 +398,15 @@ msgstr "Interface allowing to use a specific Zope3 adapter for modifying the con
 
 #. Default: "Item decided states"
 msgid "PloneMeeting_label_itemDecidedStates"
-msgstr ""
+msgstr "Item decided states"
 
 #. Default: "Initiator of this item"
 msgid "PloneMeeting_label_itemInitiator"
-msgstr ""
+msgstr "Initiator of this item"
 
 #. Default: "Item is signed ?"
 msgid "PloneMeeting_label_itemIsSigned"
-msgstr ""
+msgstr "Item is signed ?"
 
 #. Default: "Keywords"
 msgid "PloneMeeting_label_itemKeywords"
@@ -414,7 +418,7 @@ msgstr "Number"
 
 #. Default: "Item states in wich powerObservers can see the items"
 msgid "PloneMeeting_label_itemPowerObserversStates"
-msgstr ""
+msgstr "Item states in wich powerObservers can see the items"
 
 #. Default: "Format of the item reference"
 msgid "PloneMeeting_label_itemReferenceFormat"
@@ -422,7 +426,7 @@ msgstr "Format of the item reference"
 
 #. Default: "Signatories for the item"
 msgid "PloneMeeting_label_itemSignatories"
-msgstr ""
+msgstr "Signatories for the item"
 
 #. Default: "Signatures which are specific to this meeting item"
 msgid "PloneMeeting_label_itemSignatures"
@@ -542,7 +546,7 @@ msgstr "Identifier of the configuration's version that is linked to this meeting
 
 #. Default: "Meeting configs to clone items to"
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
-msgstr ""
+msgstr "Meeting configs to clone items to"
 
 #. Default: "Title of the folder that PloneMeeting creates in each user folder"
 msgid "PloneMeeting_label_meetingFolderTitle"
@@ -562,7 +566,7 @@ msgstr "Observations"
 
 #. Default: "Meeting states in wich powerObservers can see the meetings"
 msgid "PloneMeeting_label_meetingPowerObserversStates"
-msgstr ""
+msgstr "Meeting states in wich powerObservers can see the meetings"
 
 #. Default: "Meeting states that condition the display of meetings in the 'meetings' portlet"
 msgid "PloneMeeting_label_meetingTopicStates"
@@ -635,11 +639,11 @@ msgstr "Optional advisers"
 
 #. Default: "Oral question ?"
 msgid "PloneMeeting_label_oralQuestion"
-msgstr ""
+msgstr "Oral question ?"
 
 #. Default: "Other meeting configs clonable to"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableTo"
-msgstr ""
+msgstr "Other meeting configs clonable to"
 
 #. Default: "Place"
 msgid "PloneMeeting_label_place"
@@ -804,7 +808,7 @@ msgstr "Macro shipped with an external task module, that allows to display tasks
 
 #. Default: "Restrict usage of this template to following groups"
 msgid "PloneMeeting_label_templateUsingGroups"
-msgstr ""
+msgstr "Restrict usage of this template to following groups"
 
 # MeetingFileType
 #. Default: "Icon (16x16 pixels for optimal rendering)"
@@ -846,7 +850,7 @@ msgstr "List of topics to display in the 'todo' portlet"
 
 #. Default: "To print ?"
 msgid "PloneMeeting_label_toPrint"
-msgstr ""
+msgstr "To print ?"
 
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
@@ -906,7 +910,7 @@ msgstr "Vote values in use"
 
 #. Default: "Restrict the category to following groups"
 msgid "PloneMeeting_label_usingGroups"
-msgstr ""
+msgstr "Restrict the category to following groups"
 
 #. Default: "Vote condition"
 msgid "PloneMeeting_label_voteCondition"
@@ -954,7 +958,7 @@ msgstr "Predefined items"
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
-msgstr ""
+msgstr "Select in the list the type of item you want to add"
 
 #. Default: "state"
 msgid "State"
@@ -962,24 +966,24 @@ msgstr "State"
 
 #. Default: "The field here above is not used, check the 'users' tab."
 msgid "The field here above is not used, check the 'users' tab."
-msgstr ""
+msgstr "The field here above is not used, check the 'users' tab."
 
 #. Default: "This portlet shows controls of PloneMeeting."
 msgid "This portlet shows controls of PloneMeeting."
-msgstr ""
+msgstr "This portlet shows controls of PloneMeeting."
 
 #. Default: "This portlet shows things to do."
 msgid "This portlet shows things to do."
-msgstr ""
+msgstr "This portlet shows things to do."
 
 #. Default: "To do"
 msgid "To do"
-msgstr ""
+msgstr "To do"
 
-# This way, the "typedescription macro in base_edit does not display 'Meeting' above the title.
+# This way, the "typedescription" macro in base_edit does not display 'Meeting' above the title.
 #. Default: "Show / hide details"
 msgid "Toggle descriptions of items"
-msgstr ""
+msgstr "Show / hide details"
 
 #. Default: "Topics"
 msgid "Topics"
@@ -999,7 +1003,7 @@ msgstr "Access information was removed for deleted users ${usersRemoved}."
 
 #. Default: "The element has been activated."
 msgid "activate_done_descr"
-msgstr ""
+msgstr "The element has been activated."
 
 #. Default: "Add an annex"
 msgid "add_annex"
@@ -1080,7 +1084,7 @@ msgstr "Hands"
 
 #. Default: "Advices on this item have been invalidated!"
 msgid "advices_invalidated"
-msgstr ""
+msgstr "Advices on this item have been invalidated!"
 
 #. Default: "Standard"
 msgid "advices_standard"
@@ -1126,21 +1130,25 @@ msgstr "${portalTitle} - ${meetingTitle} - An annex was just added to an item."
 msgid "annex_title"
 msgstr "Title"
 
+#. Default: "The annex is not printable because it can not be converted.  Please use common office formats."
+msgid "annex_to_print_disabled"
+msgstr "The annex is not printable because it can not be converted.  Please use common office formats."
+
 #. Default: "The annex will not be printed."
 msgid "annex_to_print_no"
-msgstr ""
+msgstr "The annex will not be printed."
 
 #. Default: "The annex will not be printed. Click on the image to print it."
 msgid "annex_to_print_no_edit"
-msgstr ""
+msgstr "The annex will not be printed. Click on the image to print it."
 
 #. Default: "The annex will be printed."
 msgid "annex_to_print_yes"
-msgstr ""
+msgstr "The annex will be printed."
 
 #. Default: "The annex will be printed. Click on the image not to print it."
 msgid "annex_to_print_yes_edit"
-msgstr ""
+msgstr "The annex will be printed. Click on the image not to print it."
 
 #. Default: "Annex type"
 msgid "annex_type"
@@ -1168,15 +1176,15 @@ msgstr "Are you sure?"
 
 #. Default: "Sort order desc"
 msgid "arrow_down"
-msgstr ""
+msgstr "Sort order desc"
 
 #. Default: "Sort order asc"
 msgid "arrow_up"
-msgstr ""
+msgstr "Sort order asc"
 
 #. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as copyGroup for an item.  We receive 'item' as the meeting item.  WARNING, if the 'suffix' returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
 msgid "as_copy_group_on_descr"
-msgstr ""
+msgstr "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as copyGroup for an item.  We receive 'item' as the meeting item.  WARNING, if the 'suffix' returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
 
 #. Default: "As recurring item"
 msgid "as_recurring_item"
@@ -1196,7 +1204,7 @@ msgstr "${portalTitle} - ${meetingTitle} - ${user}, belonging to group(s) ${grou
 
 #. Default: "Assembly as defined on the linked meeting"
 msgid "assembly_defined_on_meeting"
-msgstr ""
+msgstr "Assembly as defined on the linked meeting"
 
 #. Default: "Define here the default assembly (for example you may type a list of names and first names separated by colons or new lines) that will be automatically selected on newly created meetings. If you want a more structured way to define attendees, absents and excused people on a meeting, do not fill this field, create, in the tab 'data', special users having characteristic 'assembly member' and select, in the same tab, 'attendees', 'absents' and/or 'excused' attributes as attributes used for a meeting."
 msgid "assembly_descr"
@@ -1345,7 +1353,7 @@ msgstr "The item has been removed from the meeting agenda."
 
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
-msgstr ""
+msgstr "You can not paste an item coming from another meeting configuration !"
 
 #. Default: "This removal may not occur. Possible reasons: you try to remove a meeting already containing items, or an item already presented into a meeting."
 msgid "cant_delete_object"
@@ -1373,11 +1381,11 @@ msgstr "Please specify a category."
 
 #. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
 msgid "category_using_groups_descr"
-msgstr ""
+msgstr "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
 
 #. Default: "Define here the signatures that will be used on templates as certified signatures.  This field will need to be updated regularly to match existing situation."
 msgid "certified_signatures_descr"
-msgstr ""
+msgstr "Define here the signatures that will be used on templates as certified signatures.  This field will need to be updated regularly to match existing situation."
 
 #. Default: "What kind of item would you like to create?"
 msgid "choose_item_template"
@@ -1389,7 +1397,7 @@ msgstr "A classifier is a bit like a category. You can assign an item a given cl
 
 #. Default: "Clone to"
 msgid "clone_to"
-msgstr ""
+msgstr "Clone to"
 
 #. Default: "The definitive decisions have been published for this meeting."
 msgid "close_done_descr"
@@ -1529,7 +1537,7 @@ msgstr "Synchronize users"
 
 #. Default: "The element has been deactivated."
 msgid "deactivate_done_descr"
-msgstr ""
+msgstr "The element has been deactivated."
 
 #. Default: "The temporary decisions have been published for this meeting."
 msgid "decide_done_descr"
@@ -1545,7 +1553,7 @@ msgstr "${portalTitle} - ${meetingTitle} - The (temporary) decisions have been p
 
 #. Default: "For every selected items, apply following action"
 msgid "decide_several_items_help"
-msgstr ""
+msgstr "For every selected items, apply following action"
 
 #. Default: "Decision"
 msgid "decision"
@@ -1663,7 +1671,7 @@ msgstr "An advice on an item has been invalidated"
 
 #. Default: "An item as been cloned to this meetingConfig"
 msgid "event_item_clone_to_this_mc"
-msgstr ""
+msgstr "An item as been cloned to this meetingConfig"
 
 #. Default: "An item has been delayed"
 msgid "event_item_delayed"
@@ -1687,7 +1695,7 @@ msgstr "Annexes"
 
 #. Default: "Votes"
 msgid "existing_votes"
-msgstr ""
+msgstr "Votes"
 
 #. Default: "If 'notifications' is among usages, specify here the types of events that will produce notifications to the external application."
 msgid "extapp_notify_events_descr"
@@ -1731,11 +1739,11 @@ msgstr "If you check this box, every time an annex will be uploaded, its content
 
 #. Default: "Cancel edit."
 msgid "fastedit_cancel"
-msgstr ""
+msgstr "Cancel edit."
 
 #. Default: "Save changes."
 msgid "fastedit_save_changes"
-msgstr ""
+msgstr "Save changes."
 
 #. Default: "Please fill this field."
 msgid "field_required"
@@ -1747,7 +1755,7 @@ msgstr "Please choose a file by clicking on the 'Browse' button."
 
 #. Default: "Filter by a keyword"
 msgid "filter_by_a_key"
-msgstr ""
+msgstr "Filter by a keyword"
 
 #. Default: "In the PloneMeeting folder of every member, a sub-folder is created for each meeting configuration. The name of this sub-folder is defined here."
 msgid "folder_title_descr"
@@ -1791,7 +1799,7 @@ msgstr "F"
 
 #. Default: "Miss"
 msgid "gender_f_extended"
-msgstr ""
+msgstr "Miss"
 
 #. Default: "M"
 msgid "gender_m"
@@ -1799,7 +1807,7 @@ msgstr "M"
 
 #. Default: "Mister"
 msgid "gender_m_extended"
-msgstr ""
+msgstr "Mister"
 
 #. Default: "Specify here a TAL expression that will return True if the group must give a mandatory advice on an item.  We receive 'item' as the meeting item to give an advice on.  WARNING if the group of advisers linked to this PloneMeeting group os empty, it will no be considered, despite the result of the TAL expression"
 msgid "gives_mandatory_advice_on_descr"
@@ -1835,15 +1843,15 @@ msgstr "Active?"
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "group_item_advice_edit_states_descr"
-msgstr ""
+msgstr "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to add an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "group_item_advice_states_descr"
-msgstr ""
+msgstr "When an item is in one of the states you choose here, it will be possible for an adviser of this group to add an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser selected on this item to continue to view the item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "group_item_advice_view_states_descr"
-msgstr ""
+msgstr "When an item is in one of the states you choose here, it will be possible for an adviser selected on this item to continue to view the item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 
 #. Default: "User interface"
 msgid "gui"
@@ -1857,7 +1865,11 @@ msgstr "Actions"
 # Other
 #. Default: "Check/uncheck items"
 msgid "helpSelectItemsIcon"
-msgstr ""
+msgstr "Check/uncheck items"
+
+#. Default: "No preview available because this type of file can not be converted.  Please use common office formats.  You can download the file, look in the 'actions' column."
+msgid "help_no_preview_available"
+msgstr "No preview available because this type of file can not be converted.  Please use common office formats.  You can download the file, look in the 'actions' column."
 
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
@@ -1923,9 +1935,29 @@ msgstr "This site allows you to manage your official meetings."
 msgid "hs_welcome_title"
 msgstr "Welcome to PloneMeeting!"
 
+#. Default: "Delayed"
+msgid "icon_help_delayed"
+msgstr "Delayed"
+
+#. Default: "Late"
+msgid "icon_help_late"
+msgstr "Late"
+
+#. Default: "The validation deadline for meeting freezing has not been respected"
+msgid "icon_help_publish_deadline_ko"
+msgstr "The validation deadline for meeting freezing has not been respected"
+
+#. Default: "The validation deadline for meeting publication has not been respected"
+msgid "icon_help_publish_freeze_ko"
+msgstr "The validation deadline for meeting publication has not been respected"
+
+#. Default: "Refused"
+msgid "icon_help_refused"
+msgstr "Refused"
+
 #. Default: "To use this functionnality, it is necessary that the icon '${iconname}' that will trigger the action exists.  Please creates it before continuing..."
 msgid "iconname_does_not_exist"
-msgstr ""
+msgstr "To use this functionnality, it is necessary that the icon '${iconname}' that will trigger the action exists.  Please creates it before continuing..."
 
 #. Default: "Public"
 msgid "ip_public"
@@ -1965,11 +1997,11 @@ msgstr "Voter?"
 
 #. Default: "You can consult the item new at ${objectUrl}."
 msgid "itemClonedToThisMC_mail_body"
-msgstr ""
+msgstr "You can consult the item new at ${objectUrl}."
 
 #. Default: "${itemTitle} has been transfered to ${'meetingConfigTitle'}."
 msgid "itemClonedToThisMC_mail_subject"
-msgstr ""
+msgstr "${itemTitle} has been transfered to ${'meetingConfigTitle'}."
 
 #. Default: "While this item is still in the meeting, but marked as 'delayed', a copy of it has been created at ${objectUrl}. You can work on it again and propose it to another meeting."
 msgid "itemDelayed_mail_body"
@@ -2015,19 +2047,19 @@ msgstr "When an item is in one of the states you choose here, it will be possibl
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for groups the advice is asked for, to continue to view the item.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "item_advice_view_states_descr"
-msgstr ""
+msgstr "When an item is in one of the states you choose here, it will be possible for groups the advice is asked for, to continue to view the item.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 
 #. Default: "If you don't fill this field, meeting assembly will be used for this item."
 msgid "item_assembly_descr"
-msgstr ""
+msgstr "If you don't fill this field, meeting assembly will be used for this item."
 
 #. Default: "Attendees for the item"
 msgid "item_attendees"
-msgstr ""
+msgstr "Attendees for the item"
 
 #. Default: "Budgetary informations"
 msgid "item_budgetinfos_descr"
-msgstr ""
+msgstr "Budgetary informations"
 
 #. Default: "Category"
 msgid "item_category_descr"
@@ -2047,7 +2079,7 @@ msgstr "On the item workflow, some boolean expressions guard the execution of th
 
 #. Default: "Choose decided state for an item"
 msgid "item_decided_states_descr"
-msgstr ""
+msgstr "Choose decided state for an item"
 
 #. Default: "No move occurred because you specified the item number or this number plus one. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
 msgid "item_did_not_move"
@@ -2055,11 +2087,11 @@ msgstr "No move occurred because you specified the item number or this number pl
 
 #. Default: "The item has been duplicated: you currently see the duplicated item."
 msgid "item_duplicated"
-msgstr ""
+msgstr "The item has been duplicated: you currently see the duplicated item."
 
 #. Default: "The item has been duplicated and a link to the original item has been kept: you currently see the duplicated item."
 msgid "item_duplicated_and_link_kept"
-msgstr ""
+msgstr "The item has been duplicated and a link to the original item has been kept: you currently see the duplicated item."
 
 #. Default: "You can't make this move. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
 msgid "item_illegal_move"
@@ -2067,7 +2099,7 @@ msgstr "You can't make this move. If you specify a number X, the item will go ju
 
 #. Default: "Use CTRL+click to select several initiators."
 msgid "item_initiator_descr"
-msgstr ""
+msgstr "Use CTRL+click to select several initiators."
 
 #. Default: "The item is not signed."
 msgid "item_is_signed_no"
@@ -2075,15 +2107,15 @@ msgstr "The item is signed. Click on the image to unisgn to remove signature."
 
 #. Default: "The item is not signed. Click on the image to apply signature."
 msgid "item_is_signed_no_edit"
-msgstr ""
+msgstr "The item is not signed. Click on the image to apply signature."
 
 #. Default: "The item is signed."
 msgid "item_is_signed_yes"
-msgstr ""
+msgstr "The item is signed."
 
 #. Default: "The item is signed. Click on the image to remove signature."
 msgid "item_is_signed_yes_edit"
-msgstr ""
+msgstr "The item is signed. Click on the image to remove signature."
 
 #. Default: "No move occurred: please specify a valid number."
 msgid "item_number_invalid"
@@ -2091,7 +2123,7 @@ msgstr "No move occurred: please specify a valid number."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for powerObservers of this meetingConfig to see the item."
 msgid "item_powerobservers_states_descr"
-msgstr ""
+msgstr "When an item is in one of the states you choose here, it will be possible for powerObservers of this meetingConfig to see the item."
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted item. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
 msgid "item_reference_format_descr"
@@ -2131,7 +2163,7 @@ msgstr "The item and its decicion have been archived."
 
 #. Default: "The item has been frozen."
 msgid "itemfreeze_done_descr"
-msgstr ""
+msgstr "The item has been frozen."
 
 #. Default: "This item has been published."
 msgid "itempublish_done_descr"
@@ -2147,11 +2179,11 @@ msgstr "The page that displays a meeting contains potentially several tables fil
 
 #. Default: "Choose an element in the list"
 msgid "label_choose_element_in_list"
-msgstr ""
+msgstr "Choose an element in the list"
 
 #. Default: "Create an element of this type"
 msgid "label_create_an_element"
-msgstr ""
+msgstr "Create an element of this type"
 
 #. Default: "Edit"
 msgid "label_edit"
@@ -2220,10 +2252,6 @@ msgstr "Within every meeting configuration, items are numbered thanks to a seque
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
 msgstr "Within every meeting configuration, meetings are numbered sequentially."
-
-#. Default: "Late"
-msgid "late"
-msgstr "Late"
 
 #. Default: "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
 msgid "lateItem_mail_body"
@@ -2380,7 +2408,7 @@ msgstr "Similarly to interfaces defined for items, the conditions expressed on t
 
 #. Default: "Select here the other meetingConfigs the user will be able to clone an item of this meetingConfig to"
 msgid "meeting_configs_to_clone_to_descr"
-msgstr ""
+msgstr "Select here the other meetingConfigs the user will be able to clone an item of this meetingConfig to"
 
 #. Default: "Management of meeting configurations"
 msgid "meeting_configurations"
@@ -2422,7 +2450,7 @@ msgstr "Meeting of"
 
 #. Default: "When a meeting is in one of the states you choose here, it will be possible for powerObservers of this meetingConfig to see the meeting."
 msgid "meeting_powerobservers_states_descr"
-msgstr ""
+msgstr "When a meeting is in one of the states you choose here, it will be possible for powerObservers of this meetingConfig to see the meeting."
 
 #. Default: "Signatories"
 msgid "meeting_signatories"
@@ -2479,7 +2507,7 @@ msgstr "The title of this meeting user is the 'fullname' of the corresponding Pl
 
 #. Default: "Asker"
 msgid "meeting_user_usage_asker"
-msgstr ""
+msgstr "Asker"
 
 #. Default: "Assembly member"
 msgid "meeting_user_usage_assemblyMember"
@@ -2499,7 +2527,7 @@ msgstr "For what will this user be useful for?"
 
 #. Default: "<p class=\"discreet\">While activated (by selecting 'attendees', 'absents', 'excused', 'lateAttendees' and 'signatories' as used meeting attributes in the 'data' tab), assemblies and signatures on items and meetings are managed here.</p><p class=\"discreet\">Management options are defined like this :</p><ul class=\"discreet\"><li>assembly members on a meeting or an item will use MeetingUsers having the 'assembly member' usage;</li><li>signatories on a meeting or an item will use MeetingUsers habing the 'signatory' usage;</li><li>voters on an item (if relevant functionnality is activated in the 'votes' tab) will use MeetingUsers having the 'voter' usage;</li><li>certified signatures on an item will be generated by returning every MeetingUsers having the 'signatory' usage and being a 'default signature';</li><li>item initiators (if relevant field is activated on the item) will use MeetingUsers having the 'initiator' usage.</li></ul><p class=\"discreet\">If you deactivate a MeetingUsers, older meetings and items for wich this MeetingUser was selected will still behave correctly but it will not be selectable anymore for existing and new meetings and items.</p>"
 msgid "meeting_users_descr"
-msgstr ""
+msgstr "<p class=\"discreet\">While activated (by selecting 'attendees', 'absents', 'excused', 'lateAttendees' and 'signatories' as used meeting attributes in the 'data' tab), assemblies and signatures on items and meetings are managed here.</p><p class=\"discreet\">Management options are defined like this :</p><ul class=\"discreet\"><li>assembly members on a meeting or an item will use MeetingUsers having the 'assembly member' usage;</li><li>signatories on a meeting or an item will use MeetingUsers habing the 'signatory' usage;</li><li>voters on an item (if relevant functionnality is activated in the 'votes' tab) will use MeetingUsers having the 'voter' usage;</li><li>certified signatures on an item will be generated by returning every MeetingUsers having the 'signatory' usage and being a 'default signature';</li><li>item initiators (if relevant field is activated on the item) will use MeetingUsers having the 'initiator' usage.</li></ul><p class=\"discreet\">If you deactivate a MeetingUsers, older meetings and items for wich this MeetingUser was selected will still behave correctly but it will not be selectable anymore for existing and new meetings and items.</p>"
 
 #. Default: "A meeting having the same date and hour already exists. Please choose another date and/or hour."
 msgid "meeting_with_same_date_exists"
@@ -2545,7 +2573,7 @@ msgstr "Parameters in this section allow to choose and adapt the workflows that 
 
 #. Default: "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
 msgid "meetinggroup_users_transfered_to_observers_plonegroup_if_disabled"
-msgstr ""
+msgstr "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
 
 #. Default: "Metadata"
 msgid "metadata"
@@ -2605,7 +2633,7 @@ msgstr "There are ${nb} task(s) foreseen for next night."
 
 #. Default: "Nil"
 msgid "nil"
-msgstr ""
+msgstr "Nil"
 
 #. Default: "No access information was removed."
 msgid "no_access_info_purged"
@@ -2758,11 +2786,11 @@ msgstr "Follow categories order"
 
 #. Default: "Follow the privacy then the categories order"
 msgid "on_privacy_then_categories"
-msgstr ""
+msgstr "Follow the privacy then the categories order"
 
 #. Default: "Follow the privacy then the proposing groups order"
 msgid "on_privacy_then_proposing_groups"
-msgstr ""
+msgstr "Follow the privacy then the proposing groups order"
 
 #. Default: "Follow proposing groups order"
 msgid "on_proposing_groups"
@@ -2798,7 +2826,7 @@ msgstr "Parameters defined if the user has a specific function"
 
 #. Default: "Specify here the name of the key (in the HTTP header) that will store the password."
 msgid "password_header_key_descr"
-msgstr ""
+msgstr "Specify here the name of the key (in the HTTP header) that will store the password."
 
 #. Default: "A password, please."
 msgid "password_mandatory"
@@ -2846,7 +2874,7 @@ msgstr "Welcome to the administrative pages of PloneMeeting. PloneMeeting allows
 
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
-msgstr ""
+msgstr "Identifier"
 
 #. Default: "Creation date"
 msgid "pm_creation_date"
@@ -2883,11 +2911,11 @@ msgstr "(Un-)select all"
 
 #. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of hig use!"
 msgid "pm_tool_updates_warning"
-msgstr ""
+msgstr "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of hig use!"
 
 #. Default: "Update all advices"
 msgid "pm_update_all_advices"
-msgstr ""
+msgstr "Update all advices"
 
 #. Default: "Update annex indexes"
 msgid "pm_update_annex_indexes"
@@ -2895,23 +2923,23 @@ msgstr "Update annex indexes"
 
 #. Default: "Update PowerObservers"
 msgid "pm_update_powerobservers"
-msgstr ""
+msgstr "Update PowerObservers"
 
 #. Default: "Please consult the attached document."
 msgid "podItemByMail_mail_body"
-msgstr ""
+msgstr "Please consult the attached document."
 
 #. Default: "${meetingConfigTitle} - ${podTemplateTitle} - ${objectTitle}."
 msgid "podItemByMail_mail_subject"
-msgstr ""
+msgstr "${meetingConfigTitle} - ${podTemplateTitle} - ${objectTitle}."
 
 #. Default: "Please consult the attached document."
 msgid "podMeetingByMail_mail_body"
-msgstr ""
+msgstr "Please consult the attached document."
 
 #. Default: "${meetingConfigTitle} - ${podTemplateTitle} - ${meetingLongTitle}."
 msgid "podMeetingByMail_mail_subject"
-msgstr ""
+msgstr "${meetingConfigTitle} - ${podTemplateTitle} - ${meetingLongTitle}."
 
 #. Default: "If this condition is True (and if the user has the appropriate permission(s) as defined in the next field), the user will be able to generate documents from this template (an icon will show up). This condition must be expressed as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted object. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
 msgid "pod_condition_descr"
@@ -2944,7 +2972,7 @@ msgstr "This section allows you manage the document templates that you may speci
 
 #. Default: "Manage"
 msgid "portlet_pm_header_label"
-msgstr ""
+msgstr "Manage"
 
 # Portlet "decisions"
 #. Default: "Decisions"
@@ -2966,7 +2994,7 @@ msgstr "Positive with remarks"
 
 #. Default: "Power observers"
 msgid "powerobservers"
-msgstr ""
+msgstr "Power observers"
 
 #. Default: "The preparatory meeting must occur before the meeting."
 msgid "pre_date_after_meeting_date"
@@ -3026,7 +3054,7 @@ msgstr "Proposing group's acronym"
 
 #. Default: "As the item is used as recurring item, the proposing group is mandatory."
 msgid "proposing_group_required"
-msgstr ""
+msgstr "As the item is used as recurring item, the proposing group is mandatory."
 
 #. Default: "Define here lists of people to which files generated from this template will be sent by email. You must write one list per line. Every line must have the format &lt;listTitle&gt;;&lt;condition&gt;;&lt;userIds&gt;, where &lt;listTitle&gt; is the name of the mailing list, &lt;condition&gt; is a TAL expression that returns a boolean value and indicates under which circumstances the mailing list will be active; &lt;userIds&gt; is a comma-separated list of user ids. &lt;condition&gt; receives, in its context, 'obj' as the object on which the template is computed, and 'member' as the currently logged user."
 msgid "pt_mailing_lists_descr"
@@ -3040,17 +3068,9 @@ msgstr "The document has been sent."
 msgid "publish_deadline_default_descr"
 msgstr "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use the functionnality."
 
-#. Default: "The validation deadline for meeting freezing has not been respected"
-msgid "publish_deadline_ko"
-msgstr "The validation deadline for meeting freezing has not been respected"
-
 #. Default: "The meeting agenda has been published."
 msgid "publish_done_descr"
 msgstr "The meeting agenda has been published."
-
-#. Default: "The validation deadline for meeting publication has not been respected"
-msgid "publish_freeze_ko"
-msgstr "The validation deadline for meeting publication has not been respected"
 
 #. Default: "More information on ${portalUrl}."
 msgid "publish_mail_body"
@@ -3293,19 +3313,19 @@ msgstr "Send a test request"
 
 #. Default: "Unable to send this item to the ${meetingConfigTitle} meetingConfig because the user to create the item to does not have a personal folder in this meetingConfig.  If necessary, the concerned user can connect for this folder to be created automatically."
 msgid "sendto_inexistent_destfolder_error"
-msgstr ""
+msgstr "Unable to send this item to the ${meetingConfigTitle} meetingConfig because the user to create the item to does not have a personal folder in this meetingConfig.  If necessary, the concerned user can connect for this folder to be created automatically."
 
 #. Default: "The item has been successfully transfered to the plonegov assembly."
 msgid "sendto_plonegov-assembly_success"
-msgstr ""
+msgstr "The item has been successfully transfered to the plonegov assembly."
 
 #. Default: "The item has been successfully transfered to the plonemeeting assembly."
 msgid "sendto_plonemeeting-assembly_success"
-msgstr ""
+msgstr "The item has been successfully transfered to the plonemeeting assembly."
 
 #. Default: "Item sent to ${meetingConfigTitle}"
 msgid "sentto_othermeetingconfig"
-msgstr ""
+msgstr "Item sent to ${meetingConfigTitle}"
 
 #. Default: "This short name (3 or 4 letters maximum, without special characters or accents) is used internally by PloneMeeting, ie for deriving meeting-configuration-specific item and meeting content types. Note that all content types representing 'items' share the same meta-type (=the same Python class). The same is true for all content types representing 'meetings'."
 msgid "short_name_descr"
@@ -3330,7 +3350,7 @@ msgstr "Show / hide persons"
 
 #. Default: "A signatory can not be in the absents list."
 msgid "signatories_absents_mismatch"
-msgstr ""
+msgstr "A signatory can not be in the absents list."
 
 #. Default: "Signatures"
 msgid "signatures"
@@ -3338,7 +3358,7 @@ msgstr "Signatures"
 
 #. Default: "Signatures as defined on the linked meeting"
 msgid "signatures_defined_on_meeting"
-msgstr ""
+msgstr "Signatures as defined on the linked meeting"
 
 #. Default: "Define here the default signatures that will be automatically selected on newly created meetings. This will be applicable only if you use attribute 'Signatures' for meetings."
 msgid "signatures_descr"
@@ -3367,7 +3387,7 @@ msgstr "Switch mode (secret / not secret)"
 
 #. Default: "You can not switch votes mode (secret / not secret) because some votes are already encoded.  Remove every votes before being able to switch."
 msgid "switch_votes_why_cannot"
-msgstr ""
+msgstr "You can not switch votes mode (secret / not secret) because some votes are already encoded.  Remove every votes before being able to switch."
 
 #. Default: "Choose, among this list of all roles defined in your Plone site, the one that is defined by the external task module and that allows one to create tasks."
 msgid "task_creator_role_descr"
@@ -3387,7 +3407,7 @@ msgstr "You can connect PloneMeeting to an external module that manages tasks (i
 
 #. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
 msgid "template_using_groups_descr"
-msgstr ""
+msgstr "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
 
 #. Default: "The voter himself"
 msgid "the_voter_himself"
@@ -3395,27 +3415,27 @@ msgstr "The voter himself"
 
 #. Default: "This item is an oral question"
 msgid "this_item_is_an_oral_question"
-msgstr ""
+msgstr "This item is an oral question"
 
 #. Default: "This item is NOT an oral question"
 msgid "this_item_is_not_an_oral_question"
-msgstr ""
+msgstr "This item is NOT an oral question"
 
 #. Default: "Move item bottom"
 msgid "title_move_item_bottom"
-msgstr ""
+msgstr "Move item bottom"
 
 #. Default: "Move the item down"
 msgid "title_move_item_down"
-msgstr ""
+msgstr "Move the item down"
 
 #. Default: "Move item top"
 msgid "title_move_item_top"
-msgstr ""
+msgstr "Move item top"
 
 #. Default: "Move the item up"
 msgid "title_move_item_up"
-msgstr ""
+msgstr "Move the item up"
 
 #. Default: "A title is required."
 msgid "title_required"
@@ -3699,7 +3719,7 @@ msgstr "Warning: if you modify the title or description and save this form, all 
 
 #. Default: "If you modify this field, all given advices will be invalidated."
 msgid "warning_invalidate_advices_fastedit"
-msgstr ""
+msgstr "If you modify this field, all given advices will be invalidated."
 
 #. Default: "Warning: if you add an annex through this form or if you delete an annex, all advices given on this item will be invalidated."
 msgid "warning_invalidate_advices_with_annex"
@@ -3729,4 +3749,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

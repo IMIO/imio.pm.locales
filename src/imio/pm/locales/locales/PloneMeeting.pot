@@ -717,6 +717,10 @@ msgstr ""
 msgid "item_is_signed_no_edit"
 msgstr ""
 
+#. Default: "The annex is not printable because it can not be converted.  Please use common office formats."
+msgid "annex_to_print_disabled"
+msgstr ""
+
 #. Default: "The annex will be printed."
 msgid "annex_to_print_yes"
 msgstr ""
@@ -3378,7 +3382,7 @@ msgid "iconname_does_not_exist"
 msgstr ""
 
 #. Default: "Late"
-msgid "late"
+msgid "icon_help_late"
 msgstr ""
 
 #. Default: "Transfer"
@@ -3518,11 +3522,19 @@ msgid "backToRefused_done_descr"
 msgstr ""
 
 #. Default: "The validation deadline for meeting publication has not been respected"
-msgid "publish_freeze_ko"
+msgid "icon_help_publish_freeze_ko"
 msgstr ""
 
 #. Default: "The validation deadline for meeting freezing has not been respected"
-msgid "publish_deadline_ko"
+msgid "icon_help_publish_deadline_ko"
+msgstr ""
+
+#. Default: "Delayed"
+msgid "icon_help_delayed"
+msgstr ""
+
+#. Default: "Refused"
+msgid "icon_help_refused"
 msgstr ""
 
 #. Default: "In order to perform this action, at least one item should be inserted into this meeting."
@@ -3744,4 +3756,12 @@ msgstr ""
 
 #. Default: "The field here above is not used, check the 'users' tab."
 msgid "The field here above is not used, check the 'users' tab."
+msgstr ""
+
+#. Default: "No preview available because this type of file can not be converted.  Please use common office formats.  You can download the file, look in the 'actions' column."
+msgid "help_no_preview_available"
+msgstr ""
+
+#. Default: "Download annex"
+msgid "Download annex"
 msgstr ""
