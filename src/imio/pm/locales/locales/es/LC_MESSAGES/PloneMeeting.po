@@ -46,6 +46,10 @@ msgstr "Clasificadores de tema"
 msgid "Copy PloneMeeting"
 msgstr "Copiar PloneMeeting"
 
+#. Default: "Delete advice"
+msgid "Delete advice"
+msgstr ""
+
 #. Default: "Download annex"
 msgid "Download annex"
 msgstr ""
@@ -1057,6 +1061,10 @@ msgstr "Comentario (opcional)"
 #. Default: "The advice has been deleted."
 msgid "advice_deleted"
 msgstr "Este consejo ha sido borrado."
+
+#. Default: "Edit advice"
+msgid "advice_edit"
+msgstr ""
 
 #. Default: "The advice has been created or updated."
 msgid "advice_edited"
@@ -3762,3 +3770,4 @@ msgstr "Seleccione aquí los tipos de transformación para aplicarla en los camp
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si usted marca esta casilla, el número de la reunión  auto incrementado será definido a cero cada año. Eso significa que la primera reunión de cada año obtendrá un número."
+
