@@ -43,6 +43,14 @@ msgstr "Klassifizierung"
 msgid "Copy PloneMeeting"
 msgstr "Kopiere TOP"
 
+#. Default: "Delete advice"
+msgid "Delete advice"
+msgstr ""
+
+#. Default: "Download annex"
+msgid "Download annex"
+msgstr ""
+
 #. Default: "Edit"
 msgid "Edit"
 msgstr ""
@@ -845,6 +853,10 @@ msgstr "Zeige das Feld 'zu Besprechen' auf die Liste der verspäteten TOP"
 msgid "PloneMeeting_label_toDoListTopics"
 msgstr "Liste von TOP die im 'Todo' Portlet angezeigt werden"
 
+#. Default: "To print ?"
+msgid "PloneMeeting_label_toPrint"
+msgstr ""
+
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
 msgstr "Transition zu bestätigen"
@@ -1047,6 +1059,10 @@ msgstr "Kommentieren (optional)"
 msgid "advice_deleted"
 msgstr "Der Kommentar wurde gelöscht"
 
+#. Default: "Edit advice"
+msgid "advice_edit"
+msgstr ""
+
 #. Default: "The advice has been created or updated."
 msgid "advice_edited"
 msgstr "Der Kommentar wurde erstellt oder aktualisiert"
@@ -1124,6 +1140,26 @@ msgstr "${portalTitle} - ${meetingTitle} - Ein Anhang wurde gerade zu einem TOP 
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titel"
+
+#. Default: "The annex is not printable because it can not be converted.  Please use common office formats."
+msgid "annex_to_print_disabled"
+msgstr ""
+
+#. Default: "The annex will not be printed."
+msgid "annex_to_print_no"
+msgstr ""
+
+#. Default: "The annex will not be printed. Click on the image to print it."
+msgid "annex_to_print_no_edit"
+msgstr ""
+
+#. Default: "The annex will be printed."
+msgid "annex_to_print_yes"
+msgstr ""
+
+#. Default: "The annex will be printed. Click on the image not to print it."
+msgid "annex_to_print_yes_edit"
+msgstr ""
 
 #. Default: "Annex type"
 msgid "annex_type"
@@ -1847,6 +1883,10 @@ msgstr "Aktionen"
 msgid "helpSelectItemsIcon"
 msgstr ""
 
+#. Default: "No preview available because this type of file can not be converted.  Please use common office formats.  You can download the file, look in the 'actions' column."
+msgid "help_no_preview_available"
+msgstr ""
+
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
 msgstr "Diese Seite ist zur Zeit nicht verfügbar. Sitzungsmanager werden Ihnen bald den Zugriff wieder erlauben. Entschuldigen Sie bitte die Unannehmlichkeiten."
@@ -1910,6 +1950,26 @@ msgstr "Dieser Site ermöglicht Ihnen ihre offiziellen Sitzungen zu verwalten. "
 #. Default: "Welcome to PloneMeeting!"
 msgid "hs_welcome_title"
 msgstr "Herzlich willkommen bei PloneMeeting!"
+
+#. Default: "Delayed"
+msgid "icon_help_delayed"
+msgstr "Verschoben"
+
+#. Default: "Late"
+msgid "icon_help_late"
+msgstr "Verspätet"
+
+#. Default: "The validation deadline for meeting freezing has not been respected"
+msgid "icon_help_publish_deadline_ko"
+msgstr "Die Frist der Validierung beim Sperren für diese Sitzung wurde nicht eingehalten"
+
+#. Default: "The validation deadline for meeting publication has not been respected"
+msgid "icon_help_publish_freeze_ko"
+msgstr "Die Frist zur Validierung der Veröffentlichung der Sitzung wurde nicht eingehalten"
+
+#. Default: "Refused"
+msgid "icon_help_refused"
+msgstr "Abgelehnt"
 
 #. Default: "To use this functionnality, it is necessary that the icon '${iconname}' that will trigger the action exists.  Please creates it before continuing..."
 msgid "iconname_does_not_exist"
@@ -2208,10 +2268,6 @@ msgstr "In jeder Sitzungs-Konfiguration werden TOP mit Hilfe einer fortlaufenden
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
 msgstr "In jeder Sitzungs-Konfiguration werden Sutzungen mit Hilfe einer fortlaufenden Nummer nummeriert."
-
-#. Default: "Late"
-msgid "late"
-msgstr "Verspätet"
 
 #. Default: "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
 msgid "lateItem_mail_body"
@@ -3027,17 +3083,9 @@ msgstr "Das Dokument wurde verschickt"
 msgid "publish_deadline_default_descr"
 msgstr "Definieren Sie hier die Frist bis wann TOP validiert sein müssen um in eine Sitzung aufgenommen werden zu können. Diese Frist muss realtiv zum Datum der Sitzung eingegeben werden. Z.B., '5.9:30' (Ohne Anführungszeichen eintragen) bedeutet '5 Tage vor dem Sitzungsdatum, um 9:30 Uhr'."
 
-#. Default: "The validation deadline for meeting freezing has not been respected"
-msgid "publish_deadline_ko"
-msgstr "Die Frist der Validierung beim Sperren für diese Sitzung wurde nicht eingehalten"
-
 #. Default: "The meeting agenda has been published."
 msgid "publish_done_descr"
 msgstr "Die Tagesordnung für die Sitzung wurde veröffentlicht."
-
-#. Default: "The validation deadline for meeting publication has not been respected"
-msgid "publish_freeze_ko"
-msgstr "Die Frist zur Validierung der Veröffentlichung der Sitzung wurde nicht eingehalten"
 
 #. Default: "More information on ${portalUrl}."
 msgid "publish_mail_body"

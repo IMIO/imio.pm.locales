@@ -43,6 +43,14 @@ msgstr ""
 msgid "Copy PloneMeeting"
 msgstr ""
 
+#. Default: "Delete advice"
+msgid "Delete advice"
+msgstr ""
+
+#. Default: "Download annex"
+msgid "Download annex"
+msgstr ""
+
 #. Default: "Edit"
 msgid "Edit"
 msgstr ""
@@ -844,6 +852,10 @@ msgstr ""
 msgid "PloneMeeting_label_toDoListTopics"
 msgstr ""
 
+#. Default: "To print ?"
+msgid "PloneMeeting_label_toPrint"
+msgstr ""
+
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
 msgstr ""
@@ -1046,6 +1058,10 @@ msgstr ""
 msgid "advice_deleted"
 msgstr ""
 
+#. Default: "Edit advice"
+msgid "advice_edit"
+msgstr ""
+
 #. Default: "The advice has been created or updated."
 msgid "advice_edited"
 msgstr ""
@@ -1123,6 +1139,26 @@ msgstr "${portalTitle} - ${meetingTitle} - An annex was just added to an item."
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titel"
+
+#. Default: "The annex is not printable because it can not be converted.  Please use common office formats."
+msgid "annex_to_print_disabled"
+msgstr ""
+
+#. Default: "The annex will not be printed."
+msgid "annex_to_print_no"
+msgstr ""
+
+#. Default: "The annex will not be printed. Click on the image to print it."
+msgid "annex_to_print_no_edit"
+msgstr ""
+
+#. Default: "The annex will be printed."
+msgid "annex_to_print_yes"
+msgstr ""
+
+#. Default: "The annex will be printed. Click on the image not to print it."
+msgid "annex_to_print_yes_edit"
+msgstr ""
 
 #. Default: "Annex type"
 msgid "annex_type"
@@ -1843,6 +1879,10 @@ msgstr "Acties"
 msgid "helpSelectItemsIcon"
 msgstr ""
 
+#. Default: "No preview available because this type of file can not be converted.  Please use common office formats.  You can download the file, look in the 'actions' column."
+msgid "help_no_preview_available"
+msgstr ""
+
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
 msgstr ""
@@ -1905,6 +1945,26 @@ msgstr ""
 
 #. Default: "Welcome to PloneMeeting!"
 msgid "hs_welcome_title"
+msgstr ""
+
+#. Default: "Delayed"
+msgid "icon_help_delayed"
+msgstr ""
+
+#. Default: "Late"
+msgid "icon_help_late"
+msgstr "Laat"
+
+#. Default: "The validation deadline for meeting freezing has not been respected"
+msgid "icon_help_publish_deadline_ko"
+msgstr ""
+
+#. Default: "The validation deadline for meeting publication has not been respected"
+msgid "icon_help_publish_freeze_ko"
+msgstr ""
+
+#. Default: "Refused"
+msgid "icon_help_refused"
 msgstr ""
 
 #. Default: "To use this functionnality, it is necessary that the icon '${iconname}' that will trigger the action exists.  Please creates it before continuing..."
@@ -2203,10 +2263,6 @@ msgstr "Within every meeting configuration, items are numbered thanks to a seque
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
 msgstr "In iedere vergadering configuratie worden de vergaderingen sequentieel genummerd."
-
-#. Default: "Late"
-msgid "late"
-msgstr "Laat"
 
 #. Default: "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
 msgid "lateItem_mail_body"
@@ -3021,17 +3077,9 @@ msgstr ""
 msgid "publish_deadline_default_descr"
 msgstr ""
 
-#. Default: "The validation deadline for meeting freezing has not been respected"
-msgid "publish_deadline_ko"
-msgstr ""
-
 #. Default: "The meeting agenda has been published."
 msgid "publish_done_descr"
 msgstr "De meeting agenda werd gepubliceerd."
-
-#. Default: "The validation deadline for meeting publication has not been respected"
-msgid "publish_freeze_ko"
-msgstr ""
 
 #. Default: "More information on ${portalUrl}."
 msgid "publish_mail_body"

@@ -46,6 +46,14 @@ msgstr "Clasificadores de tema"
 msgid "Copy PloneMeeting"
 msgstr "Copiar PloneMeeting"
 
+#. Default: "Delete advice"
+msgid "Delete advice"
+msgstr ""
+
+#. Default: "Download annex"
+msgid "Download annex"
+msgstr ""
+
 #. Default: "Edit"
 msgid "Edit"
 msgstr ""
@@ -848,6 +856,10 @@ msgstr "Mostrar campo 'a discutir' en la lista de temas retardados"
 msgid "PloneMeeting_label_toDoListTopics"
 msgstr "Listas de tópicos a mostrar en el portlet 'Por hacer'"
 
+#. Default: "To print ?"
+msgid "PloneMeeting_label_toPrint"
+msgstr ""
+
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
 msgstr "Transiciones a confirmar"
@@ -1050,6 +1062,10 @@ msgstr "Comentario (opcional)"
 msgid "advice_deleted"
 msgstr "Este consejo ha sido borrado."
 
+#. Default: "Edit advice"
+msgid "advice_edit"
+msgstr ""
+
 #. Default: "The advice has been created or updated."
 msgid "advice_edited"
 msgstr "El consejo ha sido creado o actualizado."
@@ -1127,6 +1143,26 @@ msgstr "${portalTitle} - ${meetingTitle} - Un anexo se acaba de agregar a un tem
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titulo"
+
+#. Default: "The annex is not printable because it can not be converted.  Please use common office formats."
+msgid "annex_to_print_disabled"
+msgstr ""
+
+#. Default: "The annex will not be printed."
+msgid "annex_to_print_no"
+msgstr ""
+
+#. Default: "The annex will not be printed. Click on the image to print it."
+msgid "annex_to_print_no_edit"
+msgstr ""
+
+#. Default: "The annex will be printed."
+msgid "annex_to_print_yes"
+msgstr ""
+
+#. Default: "The annex will be printed. Click on the image not to print it."
+msgid "annex_to_print_yes_edit"
+msgstr ""
 
 #. Default: "Annex type"
 msgid "annex_type"
@@ -1850,6 +1886,10 @@ msgstr "Acciones"
 msgid "helpSelectItemsIcon"
 msgstr ""
 
+#. Default: "No preview available because this type of file can not be converted.  Please use common office formats.  You can download the file, look in the 'actions' column."
+msgid "help_no_preview_available"
+msgstr ""
+
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
 msgstr "Esta página no está accesible. Los administradores de Reunión pronto le permitirán acceder de nuevo. Disculpe las molestias."
@@ -1913,6 +1953,26 @@ msgstr "Este sitio le permite gestionar sus reuniones oficiales."
 #. Default: "Welcome to PloneMeeting!"
 msgid "hs_welcome_title"
 msgstr "¡Bienvenido a PloneMeeting!"
+
+#. Default: "Delayed"
+msgid "icon_help_delayed"
+msgstr "Demorado"
+
+#. Default: "Late"
+msgid "icon_help_late"
+msgstr "Tardío"
+
+#. Default: "The validation deadline for meeting freezing has not been respected"
+msgid "icon_help_publish_deadline_ko"
+msgstr "La fecha límite de validación para la congelación de la reunión no se ha respetado"
+
+#. Default: "The validation deadline for meeting publication has not been respected"
+msgid "icon_help_publish_freeze_ko"
+msgstr "La fecha límite de validación para la publicación de la reunión no se ha respetado"
+
+#. Default: "Refused"
+msgid "icon_help_refused"
+msgstr "Negado"
 
 #. Default: "To use this functionnality, it is necessary that the icon '${iconname}' that will trigger the action exists.  Please creates it before continuing..."
 msgid "iconname_does_not_exist"
@@ -2212,10 +2272,6 @@ msgstr "Dentro de cada configuración de reunión, los temas están numerados, g
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
 msgstr "Con cada configuración de reunión, las reuniones son numerados secuencialmente."
-
-#. Default: "Late"
-msgid "late"
-msgstr "Tardío"
 
 #. Default: "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
 msgid "lateItem_mail_body"
@@ -3031,17 +3087,9 @@ msgstr "El documento ha sido enviado."
 msgid "publish_deadline_default_descr"
 msgstr "Especifique aquí la fecha límite para la validación de los temas que se insertan en una reunión dada. Usted tiene la necesidad de expresar este plazo en relación con la fecha de la reunión. Por ejemplo, '5 .9:30' (no escriba las comillas) eso significa: '5 días antes de la fecha de la reunión, a las 9:30'."
 
-#. Default: "The validation deadline for meeting freezing has not been respected"
-msgid "publish_deadline_ko"
-msgstr "La fecha límite de validación para la congelación de la reunión no se ha respetado"
-
 #. Default: "The meeting agenda has been published."
 msgid "publish_done_descr"
 msgstr "La agenda de reunión han sido publicada."
-
-#. Default: "The validation deadline for meeting publication has not been respected"
-msgid "publish_freeze_ko"
-msgstr "La fecha límite de validación para la publicación de la reunión no se ha respetado"
 
 #. Default: "More information on ${portalUrl}."
 msgid "publish_mail_body"

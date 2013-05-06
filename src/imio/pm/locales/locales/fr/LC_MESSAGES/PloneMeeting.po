@@ -43,6 +43,14 @@ msgstr "Classificateurs"
 msgid "Copy PloneMeeting"
 msgstr "Copier points"
 
+#. Default: "Delete advice"
+msgid "Delete advice"
+msgstr "Supprimer l'avis"
+
+#. Default: "Download annex"
+msgid "Download annex"
+msgstr "Télécharger"
+
 #. Default: "Edit"
 msgid "Edit"
 msgstr "Modifier"
@@ -843,6 +851,10 @@ msgstr "Montrer le champ 'à discuter' sur les listes de points en retard"
 msgid "PloneMeeting_label_toDoListTopics"
 msgstr "Dossiers automatiques à afficher dans le portlet 'A faire'"
 
+#. Default: "To print ?"
+msgid "PloneMeeting_label_toPrint"
+msgstr "A imprimer ?"
+
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
 msgstr "Transitions à confirmer"
@@ -1044,6 +1056,10 @@ msgstr "Commentaire (optionnel)"
 msgid "advice_deleted"
 msgstr "L'avis a été supprimé."
 
+#. Default: "Edit advice"
+msgid "advice_edit"
+msgstr "Editer l'avis"
+
 #. Default: "The advice has been created or updated."
 msgid "advice_edited"
 msgstr "L'avis a été créé ou modifié."
@@ -1119,6 +1135,26 @@ msgstr "${portalTitle} - ${meetingTitle} - Une annexe vient d'être ajoutée à 
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titre"
+
+#. Default: "The annex is not printable because it can not be converted.  Please use common office formats."
+msgid "annex_to_print_disabled"
+msgstr "L'annexe ne peut être convertie dans un format imprimable.  Utilisez des formats bureautiques courants tels que .doc, .xls, .odt, ..."
+
+#. Default: "The annex will not be printed."
+msgid "annex_to_print_no"
+msgstr "L'annexe ne sera pas imprimée."
+
+#. Default: "The annex will not be printed. Click on the image to print it."
+msgid "annex_to_print_no_edit"
+msgstr "L'annexe ne sera pas imprimée. Cliquez sur l'image pour que l'annexe soit imprimée."
+
+#. Default: "The annex will be printed."
+msgid "annex_to_print_yes"
+msgstr "L'annexe sera imprimée."
+
+#. Default: "The annex will be printed. Click on the image not to print it."
+msgid "annex_to_print_yes_edit"
+msgstr "L'annexe sera imprimée. Cliquez sur l'image pour que l'annexe ne soit pas imprimée."
 
 #. Default: "Annex type"
 msgid "annex_type"
@@ -1837,6 +1873,10 @@ msgstr "Actions"
 msgid "helpSelectItemsIcon"
 msgstr "Cocher/décocher les points"
 
+#. Default: "No preview available because this type of file can not be converted.  Please use common office formats.  You can download the file, look in the 'actions' column."
+msgid "help_no_preview_available"
+msgstr "Aucune prévisualisation pour cette annexe car ce type de fichier ne peut être converti correctement.  Utilisez un format bureautique courant (.doc, .xls, .odt, ...).  Vous pouvez cependant télécharger cette annexe en utilisant l'action 'Télécharger' dans la colonne 'Actions'."
+
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
 msgstr "Cette page n'est pas accessible pour le moment. Les gestionnaires de séance vous y donneront à nouveau accès bientôt. Désolé pour le désagrément."
@@ -1900,6 +1940,26 @@ msgstr "Ce site vous permet de gérer vos réunions officielles."
 #. Default: "Welcome to PloneMeeting!"
 msgid "hs_welcome_title"
 msgstr "Bienvenue sur PloneMeeting!"
+
+#. Default: "Delayed"
+msgid "icon_help_delayed"
+msgstr "Reporté"
+
+#. Default: "Late"
+msgid "icon_help_late"
+msgstr "En retard"
+
+#. Default: "The validation deadline for meeting freezing has not been respected"
+msgid "icon_help_publish_deadline_ko"
+msgstr "L'échéance de validation pour le gel de cette séance n'a pas été respectée"
+
+#. Default: "The validation deadline for meeting publication has not been respected"
+msgid "icon_help_publish_freeze_ko"
+msgstr "L'échéance de validation pour publication dans cette séance n'a pas été respectée"
+
+#. Default: "Refused"
+msgid "icon_help_refused"
+msgstr "Refusé"
 
 #. Default: "To use this functionnality, it is necessary that the icon '${iconname}' that will trigger the action exists.  Please creates it before continuing..."
 msgid "iconname_does_not_exist"
@@ -2196,10 +2256,6 @@ msgstr "Au sein de chaque configuration de séance, les points sont numérotés 
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
 msgstr "Au sein de chaque configuration, les séances sont numérotées en séquence."
-
-#. Default: "Late"
-msgid "late"
-msgstr "En retard"
 
 #. Default: "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
 msgid "lateItem_mail_body"
@@ -3013,17 +3069,9 @@ msgstr "Le document a été envoyé."
 msgid "publish_deadline_default_descr"
 msgstr "Spécifiez ici l'échéance pour valider des points à insérer dans une séance donnée. Vous devez exprimer cette échéance comme étant relative à la date de la séance. Par exemple, '5.9:30' (n'encodez pas d'apostrophes) signifie '5 jours avant la date de la séance, à 9:30'.  Laissez le champ vide si vous ne souhaitez pas utiliser cette fonctionnalité."
 
-#. Default: "The validation deadline for meeting freezing has not been respected"
-msgid "publish_deadline_ko"
-msgstr "L'échéance de validation pour le gel de cette séance n'a pas été respectée"
-
 #. Default: "The meeting agenda has been published."
 msgid "publish_done_descr"
 msgstr "L'ordre du jour de cette séance a été publié."
-
-#. Default: "The validation deadline for meeting publication has not been respected"
-msgid "publish_freeze_ko"
-msgstr "L'échéance de validation pour publication dans cette séance n'a pas été respectée"
 
 #. Default: "More information on ${portalUrl}."
 msgid "publish_mail_body"
@@ -3700,4 +3748,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
