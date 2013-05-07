@@ -698,9 +698,8 @@ msgid "PloneMeeting_label_preObservations2"
 msgstr "Observations for the preparatory meeting"
 
 #. Default: "Linked items"
-#, fuzzy
 msgid "PloneMeeting_label_predecessor"
-msgstr "Predecessor"
+msgstr "Linked items"
 
 #. Default: "Predefined title that will be assigned to every uploaded file having this type"
 msgid "PloneMeeting_label_predefinedTitle"
@@ -1078,9 +1077,8 @@ msgid "advice_style_descr"
 msgstr "Choose here the style for the icons that represent advices."
 
 #. Default: "Advices and access"
-#, fuzzy
 msgid "advices"
-msgstr "Advices"
+msgstr "Advices and access"
 
 #. Default: "Advices and access"
 msgid "advices_config"
@@ -1134,13 +1132,21 @@ msgstr "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
 msgid "annexAdded_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - An annex was just added to an item."
 
+#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}."
+msgid "annexConversionError_mail_body"
+msgstr ""
+
+#. Default: "${itemTitle} - There was an error while converting an annex."
+msgid "annexConversionError_mail_subject"
+msgstr ""
+
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Title"
 
-#. Default: "The annex is not printable because it can not be converted.  Please use common office formats."
+#. Default: "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
 msgid "annex_to_print_disabled"
-msgstr "The annex is not printable because it can not be converted.  Please use common office formats."
+msgstr "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
 
 #. Default: "The annex will not be printed."
 msgid "annex_to_print_no"
@@ -1676,6 +1682,10 @@ msgstr "A reviewer wants to discuss an item"
 #. Default: "An advice on an item has been invalidated"
 msgid "event_invalidate_advice"
 msgstr "An advice on an item has been invalidated"
+
+#. Default: "An error occured while converting an annex"
+msgid "event_item_annex_conversion_error"
+msgstr ""
 
 #. Default: "An item as been cloned to this meetingConfig"
 msgid "event_item_clone_to_this_mc"
@@ -2556,9 +2566,8 @@ msgid "meeting_workflow_descr"
 msgstr "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting meeting: either 'meeting_workflow', the default meeting workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the meetings of this meeting configuration."
 
 #. Default: "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item.  Moreover, this section will give you the possibility to define some access rules."
-#, fuzzy
 msgid "meetingconfig_advice_descr"
-msgstr "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item."
+msgstr "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item.  Moreover, this section will give you the possibility to define some access rules."
 
 #. Default: "Parameters in this section allow to customize some elements linked to attributes of and associations between the 2 main content types managed by PloneMeeting: items and meetings."
 msgid "meetingconfig_data_descr"
@@ -3391,9 +3400,8 @@ msgid "sort_all_item_tags_descr"
 msgstr "Check this box if you want to sort the tags in alphabetic order."
 
 #. Default: "Choose the method that will define where the item will be added by default when inserted into a meeting."
-#, fuzzy
 msgid "sorting_method_on_add_item_descr"
-msgstr "Choose the method that will define where the item will be added when inserted into a meeting.  It can be 'At the end' of the meeting, it can 'Follow proposing groups order' or it can 'Follow categories order'."
+msgstr "Choose the method that will define where the item will be added by default when inserted into a meeting."
 
 #. Default: "state_color"
 msgid "state_color"
@@ -3752,9 +3760,8 @@ msgid "workflow_adaptations_descr"
 msgstr "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling."
 
 #. Default: "Are you sure you want to ${transition_name} this element? If yes, you can enter a comment below (optional)."
-#, fuzzy
 msgid "workflow_confirm"
-msgstr "Are you sure you want to perform this action? If yes, you can enter a comment below (optional)."
+msgstr "Are you sure you want to ${transition_name} this element? If yes, you can enter a comment below (optional)."
 
 #. Default: "Every field that you select in this list will, every time its object will be created or updated, undergo the transform(s) defined in the next field."
 msgid "xhtml_transform_fields_descr"
@@ -3767,4 +3774,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

@@ -1140,11 +1140,19 @@ msgstr "El tema esta autorizado '${itemTitle}'. Más información en ${portalUrl
 msgid "annexAdded_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - Un anexo se acaba de agregar a un tema."
 
+#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}."
+msgid "annexConversionError_mail_body"
+msgstr ""
+
+#. Default: "${itemTitle} - There was an error while converting an annex."
+msgid "annexConversionError_mail_subject"
+msgstr ""
+
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titulo"
 
-#. Default: "The annex is not printable because it can not be converted.  Please use common office formats."
+#. Default: "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
 msgid "annex_to_print_disabled"
 msgstr ""
 
@@ -1685,6 +1693,10 @@ msgstr "Un revisor quiere discutir un tema"
 #. Default: "An advice on an item has been invalidated"
 msgid "event_invalidate_advice"
 msgstr "Una consejo en un tema ha sido invalidada"
+
+#. Default: "An error occured while converting an annex"
+msgid "event_item_annex_conversion_error"
+msgstr ""
 
 #. Default: "An item as been cloned to this meetingConfig"
 msgid "event_item_clone_to_this_mc"

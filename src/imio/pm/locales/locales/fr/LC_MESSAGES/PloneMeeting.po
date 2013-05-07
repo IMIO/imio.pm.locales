@@ -1132,13 +1132,21 @@ msgstr "Le titre du point est '${itemTitle}'. Rendez-vous sur ${portalUrl}."
 msgid "annexAdded_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - Une annexe vient d'être ajoutée à un point."
 
+#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}."
+msgid "annexConversionError_mail_body"
+msgstr "Une annexe n'a pu être convertie correctement.  La prévisualitation dans le navigateur web ne sera pas possible et il ne sera pas possible non plus de l'imprimer dans un document généré (délibération, ordre du jour, ...).  Consultez le point ici : ${objectUrl}."
+
+#. Default: "${itemTitle} - There was an error while converting an annex."
+msgid "annexConversionError_mail_subject"
+msgstr "${itemTitle} - Une erreur est survenue lors de la conversion d'une annexe de ce point."
+
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titre"
 
-#. Default: "The annex is not printable because it can not be converted.  Please use common office formats."
+#. Default: "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
 msgid "annex_to_print_disabled"
-msgstr "L'annexe ne peut être convertie dans un format imprimable.  Utilisez des formats bureautiques courants tels que .doc, .xls, .odt, ..."
+msgstr "L'annexe ne peut être convertie dans un format imprimable (format non pris en charge ou erreur lors de la conversion).  Utilisez des formats bureautiques courants tels que .doc, .xls, .odt, ..."
 
 #. Default: "The annex will not be printed."
 msgid "annex_to_print_no"
@@ -1674,6 +1682,10 @@ msgstr "Un validateur souhaite évoquer un point"
 #. Default: "An advice on an item has been invalidated"
 msgid "event_invalidate_advice"
 msgstr "Un avis a été invalidé sur un point"
+
+#. Default: "An error occured while converting an annex"
+msgid "event_item_annex_conversion_error"
+msgstr "Une erreur est survenue lors de la conversion d'une annexe"
 
 #. Default: "An item as been cloned to this meetingConfig"
 msgid "event_item_clone_to_this_mc"
