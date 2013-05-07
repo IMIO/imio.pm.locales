@@ -1877,6 +1877,14 @@ msgstr "Cocher/décocher les points"
 msgid "help_no_preview_available"
 msgstr "Aucune prévisualisation pour cette annexe car ce type de fichier ne peut être converti correctement.  Utilisez un format bureautique courant (.doc, .xls, .odt, ...).  Vous pouvez cependant télécharger cette annexe en utilisant l'action 'Télécharger' dans la colonne 'Actions'."
 
+#. Default: "No preview available because there was an error during conversion to a previewable format.  Please contact system administrator that will have access to more debugging informations."
+msgid "help_no_preview_available_conversion_error"
+msgstr "Aucune prévisualisation pour cette annexe car une erreur est survenue durant la conversion.  Contactez votre administrateur système qui aura accès à davantage d'informations concernant cette erreur."
+
+#. Default: "No preview available because there was an error during conversion to a previewable format.  Click on the annex to access debugging informations."
+msgid "help_no_preview_available_conversion_error_manager"
+msgstr "Aucune prévisualisation pour cette annexe car une erreur est survenue durant la conversion.  Cliquez sur le titre de l'annexe pour accéder à une page affichant davantage d'informations concernant cette erreur."
+
 #. Default: "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 1 or 2 seconds by page."
 msgid "help_no_preview_available_under_conversion"
 msgstr "L'annexe est en cours de conversion vers un format prévisualisable.  Rechargez la page dans quelques minutes.  La conversion prend généralement 1 à 2 secondes par page à convertir."

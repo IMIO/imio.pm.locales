@@ -3766,6 +3766,10 @@ msgstr ""
 msgid "The field here above is not used, check the 'users' tab."
 msgstr ""
 
+#. Default: "Download annex"
+msgid "Download annex"
+msgstr ""
+
 #. Default: "No preview available because this type of file can not be converted.  Please use common office formats.  You can download the file, look in the 'actions' column."
 msgid "help_no_preview_available"
 msgstr ""
@@ -3774,6 +3778,10 @@ msgstr ""
 msgid "help_no_preview_available_under_conversion"
 msgstr ""
 
-#. Default: "Download annex"
-msgid "Download annex"
+#. Default: "No preview available because there was an error during conversion to a previewable format.  Please contact system administrator that will have access to more debugging informations."
+msgid "help_no_preview_available_conversion_error"
+msgstr ""
+
+#. Default: "No preview available because there was an error during conversion to a previewable format.  Click on the annex to access debugging informations."
+msgid "help_no_preview_available_conversion_error_manager"
 msgstr ""

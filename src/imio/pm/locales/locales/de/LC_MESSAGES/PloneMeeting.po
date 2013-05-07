@@ -1886,7 +1886,15 @@ msgstr ""
 msgid "help_no_preview_available"
 msgstr ""
 
-#. Default: "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 2 or 3 seconds by page."
+#. Default: "No preview available because there was an error during conversion to a previewable format.  Please contact system administrator that will have access to more debugging informations."
+msgid "help_no_preview_available_conversion_error"
+msgstr ""
+
+#. Default: "No preview available because there was an error during conversion to a previewable format.  Click on the annex to access debugging informations."
+msgid "help_no_preview_available_conversion_error_manager"
+msgstr ""
+
+#. Default: "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 1 or 2 seconds by page."
 msgid "help_no_preview_available_under_conversion"
 msgstr ""
 
