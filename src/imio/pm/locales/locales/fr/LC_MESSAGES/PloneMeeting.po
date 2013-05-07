@@ -1877,6 +1877,10 @@ msgstr "Cocher/décocher les points"
 msgid "help_no_preview_available"
 msgstr "Aucune prévisualisation pour cette annexe car ce type de fichier ne peut être converti correctement.  Utilisez un format bureautique courant (.doc, .xls, .odt, ...).  Vous pouvez cependant télécharger cette annexe en utilisant l'action 'Télécharger' dans la colonne 'Actions'."
 
+#. Default: "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 1 or 2 seconds by page."
+msgid "help_no_preview_available_under_conversion"
+msgstr "L'annexe est en cours de conversion vers un format prévisualisable.  Rechargez la page dans quelques minutes.  La conversion prend généralement 1 à 2 secondes par page à convertir."
+
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
 msgstr "Cette page n'est pas accessible pour le moment. Les gestionnaires de séance vous y donneront à nouveau accès bientôt. Désolé pour le désagrément."

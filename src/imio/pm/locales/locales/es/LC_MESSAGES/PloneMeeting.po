@@ -1864,7 +1864,6 @@ msgid "group_item_advice_edit_states_descr"
 msgstr "Cuando un tema tiene uno de los estados que usted selecciona aquí, eso le permitirá a un consejero de este grupo para modificar o eliminar un consejo en este tema. Si usted no especifica ningún estado aquí, una lista de estados, global a todos los grupos, son definidos al nivel de configuración a ser usado en su lugar."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to add an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
-#, fuzzy
 msgid "group_item_advice_states_descr"
 msgstr "Cuando un tema tiene uno de los estados que usted selecciono aquí, eso le permitirá a un consejero de este grupo para agregar un consejo en este tema. Si usted no especifica ningún estado aquí, una lista de estados, global a todos los grupos, son definidos al nivel de configuración a ser usado en su lugar."
 
@@ -1888,6 +1887,10 @@ msgstr ""
 
 #. Default: "No preview available because this type of file can not be converted.  Please use common office formats.  You can download the file, look in the 'actions' column."
 msgid "help_no_preview_available"
+msgstr ""
+
+#. Default: "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 2 or 3 seconds by page."
+msgid "help_no_preview_available_under_conversion"
 msgstr ""
 
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
@@ -2051,7 +2054,6 @@ msgid "item_actions_interface_descr"
 msgstr "Similarmente a el campo precedido, todos las acciones que son activadas cuando un consejo va de un estado a otro son configurables a través del desarrollo de otro módulo de Plone dentro del cual debe: <ul><li>crear una interfaz Python que herede desde la interfaz Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions (usted debe introducir el nombre completo del paquete de esta interfaz en el siguiente campo);</li><li>crear y declarar en el archivo ZCML un adaptador que adapte la interfaz Products.PloneMeeting.interfaces.IMeetingItem a la interfaz que usted tiene definida en el paso anterior.</li></ul>Su adaptador tal ves herede desde el adaptador por defecto Products.PloneMeeting.MeetingItem.MeetingItemWorkflowActions: eso le permitirá a usted anular solo métodos por los cuales usted quiera un comportamiento alterno. Todos los métodos propuestos por la interfaz Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions son documentado."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible to modify or delete an advice on this item.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
-#, fuzzy
 msgid "item_advice_edit_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados que elija aquí, será posible modificar o borrar un consejo sobre este tema."
 
@@ -2060,7 +2062,6 @@ msgid "item_advice_invalidate_states"
 msgstr "Cuando la invalidación de consejo es habilitada, será el único caso de los temas que se encuentran en uno de los estados seleccionado aquí."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible to add an advice on this item.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
-#, fuzzy
 msgid "item_advice_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados que elija aquí, será posible agregar un consejo a este tema."
 
