@@ -296,6 +296,10 @@ msgstr ""
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Habilitar invalidación consejos"
 
+#. Default: "Enable annex preview"
+msgid "PloneMeeting_label_enableAnnexPreview"
+msgstr ""
+
 #. Default: "Enable 'Go to item' functionality"
 msgid "PloneMeeting_label_enableGotoItem"
 msgstr "Habilitar funcionalidad 'Ir a tema'"
@@ -977,6 +981,14 @@ msgstr "Estado"
 msgid "The field here above is not used, check the 'users' tab."
 msgstr ""
 
+#. Default: "There was an error during annex conversion, please contact system administrator."
+msgid "There was an error during annex conversion, please contact system administrator."
+msgstr ""
+
+#. Default: "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
+msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
+msgstr ""
+
 #. Default: "This portlet shows controls of PloneMeeting."
 msgid "This portlet shows controls of PloneMeeting."
 msgstr "Este portlet muestra controles de PloneMeeting."
@@ -1140,7 +1152,7 @@ msgstr "El tema esta autorizado '${itemTitle}'. Más información en ${portalUrl
 msgid "annexAdded_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - Un anexo se acaba de agregar a un tema."
 
-#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}."
+#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}/annexes_form."
 msgid "annexConversionError_mail_body"
 msgstr ""
 
@@ -1648,6 +1660,10 @@ msgstr "${portalTitle} - ${objectTitle} - Un problema ocurrió generando un docu
 #. Default: "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A 'change' is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."
 msgid "enable_advice_invalidation_descr"
 msgstr "Cuando la invalidación consejo es permitido, todo cambio a un tema para el que ya por lo menos un consejo que se ha dado invalidará a todos los consejos dados. Un 'cambio' se considera como cada vez que el título o la descripción de un tema es cambiado y cada vez que se agrega o elimina un anexo en el tema."
+
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser."
+msgid "enable_annex_preview_descr"
+msgstr ""
 
 #. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."
 msgid "enable_goto_item_descr"

@@ -292,6 +292,10 @@ msgstr "Duty in the second language"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Enable advice invalidation"
 
+#. Default: "Enable annex preview"
+msgid "PloneMeeting_label_enableAnnexPreview"
+msgstr ""
+
 #. Default: "Enable 'Go to item' functionality"
 msgid "PloneMeeting_label_enableGotoItem"
 msgstr "Enable 'Go to item' functionality"
@@ -971,6 +975,14 @@ msgstr "State"
 msgid "The field here above is not used, check the 'users' tab."
 msgstr "The field here above is not used, check the 'users' tab."
 
+#. Default: "There was an error during annex conversion, please contact system administrator."
+msgid "There was an error during annex conversion, please contact system administrator."
+msgstr ""
+
+#. Default: "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
+msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
+msgstr ""
+
 #. Default: "This portlet shows controls of PloneMeeting."
 msgid "This portlet shows controls of PloneMeeting."
 msgstr "This portlet shows controls of PloneMeeting."
@@ -1132,7 +1144,7 @@ msgstr "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
 msgid "annexAdded_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - An annex was just added to an item."
 
-#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}."
+#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}/annexes_form."
 msgid "annexConversionError_mail_body"
 msgstr ""
 
@@ -1637,6 +1649,10 @@ msgstr "${portalTitle} - ${objectTitle} - A problem occurred while generating a 
 #. Default: "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A 'change' is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."
 msgid "enable_advice_invalidation_descr"
 msgstr "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A 'change' is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."
+
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser."
+msgid "enable_annex_preview_descr"
+msgstr ""
 
 #. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."
 msgid "enable_goto_item_descr"
@@ -3774,3 +3790,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+

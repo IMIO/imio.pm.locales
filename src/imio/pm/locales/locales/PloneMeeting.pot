@@ -1215,6 +1215,14 @@ msgstr ""
 msgid "enable_user_preferences_descr"
 msgstr ""
 
+#. Default: "Enable annex preview"
+msgid "PloneMeeting_label_enableAnnexPreview"
+msgstr ""
+
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser."
+msgid "enable_annex_preview_descr"
+msgstr ""
+
 #. Default: "Site start date"
 msgid "PloneMeeting_label_siteStartDate"
 msgstr ""
@@ -3032,7 +3040,7 @@ msgstr ""
 msgid "annexConversionError_mail_subject"
 msgstr ""
 
-#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}."
+#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}/annexes_form."
 msgid "annexConversionError_mail_body"
 msgstr ""
 
@@ -3796,4 +3804,12 @@ msgstr ""
 
 #. Default: "No preview available because there was an error during conversion to a previewable format.  Click on the annex to access debugging informations."
 msgid "help_no_preview_available_conversion_error_manager"
+msgstr ""
+
+#. Default: "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
+msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
+msgstr ""
+
+#. Default: "There was an error during annex conversion, please contact system administrator."
+msgid "There was an error during annex conversion, please contact system administrator."
 msgstr ""

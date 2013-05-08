@@ -292,6 +292,10 @@ msgstr "Fonction dans la seconde langue"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Activer l'invalidation des avis"
 
+#. Default: "Enable annex preview"
+msgid "PloneMeeting_label_enableAnnexPreview"
+msgstr "Activer la prévisualisation des annexes"
+
 #. Default: "Enable 'Go to item' functionality"
 msgid "PloneMeeting_label_enableGotoItem"
 msgstr "Activer la fonctionnalité 'Aller au point'"
@@ -971,6 +975,14 @@ msgstr "État"
 msgid "The field here above is not used, check the 'users' tab."
 msgstr "Ce champ n'est pas utilisé, vérifiez l'onglet 'Utilisateurs'."
 
+#. Default: "There was an error during annex conversion, please contact system administrator."
+msgid "There was an error during annex conversion, please contact system administrator."
+msgstr "Une erreur est survenue pendant la conversion de l'annexe.  Contactez votre administrateur système."
+
+#. Default: "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
+msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
+msgstr "Une erreur est survenue en essayant de définir cette annexe comme 'à imprimer'.  Le message d'erreur est : ${error}.  Contactez votre administrateur système."
+
 #. Default: "This portlet shows controls of PloneMeeting."
 msgid "This portlet shows controls of PloneMeeting."
 msgstr "Ce portlet affiche les contrôles nécessaires pour PloneMeeting."
@@ -1132,9 +1144,9 @@ msgstr "Le titre du point est '${itemTitle}'. Rendez-vous sur ${portalUrl}."
 msgid "annexAdded_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - Une annexe vient d'être ajoutée à un point."
 
-#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}."
+#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}/annexes_form."
 msgid "annexConversionError_mail_body"
-msgstr "Une annexe n'a pu être convertie correctement.  La prévisualitation dans le navigateur web ne sera pas possible et il ne sera pas possible non plus de l'imprimer dans un document généré (délibération, ordre du jour, ...).  Consultez le point ici : ${objectUrl}."
+msgstr "Une erreur est survenue lors de la conversion d'une annexe.  La prévisualitation dans le navigateur web ne sera pas possible et il ne sera pas possible non plus de l'imprimer dans un document généré (délibération, ordre du jour, ...).  Consultez le point ici : ${objectUrl}/annexes_form."
 
 #. Default: "${itemTitle} - There was an error while converting an annex."
 msgid "annexConversionError_mail_subject"
@@ -1638,6 +1650,10 @@ msgstr "${portalTitle} - ${objectTitle} - Un problème est survenu lors de la g�
 msgid "enable_advice_invalidation_descr"
 msgstr "Quand l'invalidation des avis est activée, tout changement sur un point pour lequel au moins un avis a été rendu invalidera tous les avis rendus sur ce point. Par 'changement', nous entendons toute modification du titre ou de la description du point ainsi que tout ajout et toute suppression d'annexe."
 
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser."
+msgid "enable_annex_preview_descr"
+msgstr "Si la prévisualisation est activée, les annexes seront converties dans un format qui pourra être lu par le navigateur web.  Ceci évite les problèmes de logiciel manquant pour ouvrir une annexe (plus besoin de Word pour ouvrir un .doc, plus besoin d'Acrobat Reader pour ouvrir un .pdf, ...)."
+
 #. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."
 msgid "enable_goto_item_descr"
 msgstr "Si vous cochez cette case, lorsque les listes de points paginées apparaissent (à la consultation d'une séance), vous verrez également apparaître un champ spécifique 'Aller au point'. Introduire un numéro de point dans ce champ vous mènera à la page de consultation du point en question."
@@ -1891,11 +1907,11 @@ msgstr "Aucune prévisualisation pour cette annexe car ce type de fichier ne peu
 
 #. Default: "No preview available because there was an error during conversion to a previewable format.  Please contact system administrator that will have access to more debugging informations."
 msgid "help_no_preview_available_conversion_error"
-msgstr "Aucune prévisualisation pour cette annexe car une erreur est survenue durant la conversion.  Contactez votre administrateur système qui aura accès à davantage d'informations concernant cette erreur."
+msgstr "Aucune prévisualisation pour cette annexe car une erreur est survenue pendant la conversion.  Contactez votre administrateur système qui aura accès à davantage d'informations concernant cette erreur."
 
 #. Default: "No preview available because there was an error during conversion to a previewable format.  Click on the annex to access debugging informations."
 msgid "help_no_preview_available_conversion_error_manager"
-msgstr "Aucune prévisualisation pour cette annexe car une erreur est survenue durant la conversion.  Cliquez sur le titre de l'annexe pour accéder à une page affichant davantage d'informations concernant cette erreur."
+msgstr "Aucune prévisualisation pour cette annexe car une erreur est survenue pendant la conversion.  Cliquez sur le titre de l'annexe pour accéder à une page affichant davantage d'informations concernant cette erreur."
 
 #. Default: "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 1 or 2 seconds by page."
 msgid "help_no_preview_available_under_conversion"
