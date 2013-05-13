@@ -23,6 +23,10 @@ msgstr "Ajout d'un portlet 'PloneMeeting'"
 msgid "Add Todo Portlet"
 msgstr "Ajout d'un portlet 'à faire'"
 
+#. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
+msgid "Annexes preview must be enabled to launch complete annexes conversion process."
+msgstr "N'effectuez la conversion des annexes que si la prévisualisation des annexes est activée."
+
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Annexes (décision)"
@@ -1666,9 +1670,9 @@ msgstr "${portalTitle} - ${objectTitle} - Un problème est survenu lors de la g�
 msgid "enable_advice_invalidation_descr"
 msgstr "Quand l'invalidation des avis est activée, tout changement sur un point pour lequel au moins un avis a été rendu invalidera tous les avis rendus sur ce point. Par 'changement', nous entendons toute modification du titre ou de la description du point ainsi que tout ajout et toute suppression d'annexe."
 
-#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser."
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
-msgstr "Si la prévisualisation est activée, les annexes seront converties dans un format qui pourra être lu par le navigateur web.  Ceci évite les problèmes de logiciel manquant pour ouvrir une annexe (plus besoin de Word pour ouvrir un .doc, plus besoin d'Acrobat Reader pour ouvrir un .pdf, ...)."
+msgstr "Si la prévisualisation est activée, les annexes seront converties dans un format qui pourra être lu par le navigateur web.  Ceci évite les problèmes de logiciel manquant pour ouvrir une annexe (plus besoin de Word pour ouvrir un .doc, plus besoin d'Acrobat Reader pour ouvrir un .pdf, ...).  <span style='color: red';>Si vous activez la prévisualisation sur un site contenant déjà des points et annexes, n'oubliez pas de lancer la procédure de conversion des annexes!</span>"
 
 #. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."
 msgid "enable_goto_item_descr"
@@ -2933,6 +2937,10 @@ msgstr "Bienvenue sur l'interface d'administration de PloneMeeting. PloneMeeting
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
 msgstr "Identifiant"
+
+#. Default: "Convert annexes for preview"
+msgid "pm_convert_annexes"
+msgstr "Convertir les annexes pour la prévisualisation"
 
 #. Default: "Creation date"
 msgid "pm_creation_date"

@@ -1219,7 +1219,7 @@ msgstr ""
 msgid "PloneMeeting_label_enableAnnexPreview"
 msgstr ""
 
-#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser."
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
 msgstr ""
 
@@ -1289,6 +1289,14 @@ msgstr ""
 
 #. Default: "Update annex indexes"
 msgid "pm_update_annex_indexes"
+msgstr ""
+
+#. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
+msgid "Annexes preview must be enabled to launch complete annexes conversion process."
+msgstr ""
+
+#. Default: "Convert annexes for preview"
+msgid "pm_convert_annexes"
 msgstr ""
 
 #. Default: "Update all advices"

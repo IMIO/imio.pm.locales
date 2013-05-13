@@ -23,6 +23,10 @@ msgstr "PloneMeeting Portlet hinzufügen"
 msgid "Add Todo Portlet"
 msgstr "Zu erledigen Portlet hinzufügen"
 
+#. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
+msgid "Annexes preview must be enabled to launch complete annexes conversion process."
+msgstr ""
+
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Anhänge (Beschluss)"
@@ -1674,7 +1678,7 @@ msgstr "${portalTitle} - ${objectTitle} - Ein Problem ist aufgetreten beim Gener
 msgid "enable_advice_invalidation_descr"
 msgstr "Wenn die Funktion 'Kommentar ungültig setzen' aktiviert ist, werden bei jeder Änderung an einem TOP, welcher schon einen Kommentar hatte, alle vorhandenen Kommentare zu diesem TOP ungültig. Eine 'Änderung' ist jedesmal wenn in einem TOP der Titel oder die Beschreibung verändert wurde und diese Änderung gespeichert wurde oder wenn eine Anlage hinzugefügt oder gelöscht wurde."
 
-#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser."
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
 msgstr ""
 
@@ -2945,6 +2949,10 @@ msgstr "Willkommen zu der PloneMeeting-Verwaltung. PloneMeeting erlaubt es Tages
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
 msgstr "Indentifizierer"
+
+#. Default: "Convert annexes for preview"
+msgid "pm_convert_annexes"
+msgstr ""
 
 #. Default: "Creation date"
 msgid "pm_creation_date"

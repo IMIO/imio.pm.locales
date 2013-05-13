@@ -26,6 +26,10 @@ msgstr "Agregar Portlet PloneMeeting"
 msgid "Add Todo Portlet"
 msgstr "Agregar Portlet Todo"
 
+#. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
+msgid "Annexes preview must be enabled to launch complete annexes conversion process."
+msgstr ""
+
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Anexos (decisión)"
@@ -1677,7 +1681,7 @@ msgstr "${portalTitle} - ${objectTitle} - Un problema ocurrió generando un docu
 msgid "enable_advice_invalidation_descr"
 msgstr "Cuando la invalidación consejo es permitido, todo cambio a un tema para el que ya por lo menos un consejo que se ha dado invalidará a todos los consejos dados. Un 'cambio' se considera como cada vez que el título o la descripción de un tema es cambiado y cada vez que se agrega o elimina un anexo en el tema."
 
-#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser."
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
 msgstr ""
 
@@ -2947,6 +2951,10 @@ msgstr "Bienvenidos a las páginas administrativas de PloneMeeting. PloneMeeting
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
 msgstr "Identificador"
+
+#. Default: "Convert annexes for preview"
+msgid "pm_convert_annexes"
+msgstr ""
 
 #. Default: "Creation date"
 msgid "pm_creation_date"

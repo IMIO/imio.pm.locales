@@ -23,6 +23,10 @@ msgstr ""
 msgid "Add Todo Portlet"
 msgstr ""
 
+#. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
+msgid "Annexes preview must be enabled to launch complete annexes conversion process."
+msgstr ""
+
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Bijlagen (beslissing)"
@@ -1673,7 +1677,7 @@ msgstr ""
 msgid "enable_advice_invalidation_descr"
 msgstr ""
 
-#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser."
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
 msgstr ""
 
@@ -2940,6 +2944,10 @@ msgstr "Welcome to the administrative pages of PloneMeeting. PloneMeeting allows
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
 msgstr "Gebruikersnaam"
+
+#. Default: "Convert annexes for preview"
+msgid "pm_convert_annexes"
+msgstr ""
 
 #. Default: "Creation date"
 msgid "pm_creation_date"
