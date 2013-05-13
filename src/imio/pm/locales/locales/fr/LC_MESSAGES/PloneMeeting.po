@@ -140,6 +140,14 @@ msgstr "Marqueurs"
 msgid "PloneMeeting_label_allItemsAtOnce"
 msgstr "Points présentés à cette séance (y compris après publication de celle-ci)"
 
+#. Default: "Decision annex to print default value"
+msgid "PloneMeeting_label_annexDecisionToPrintDefault"
+msgstr "Marquer les annexes à la décision comme 'à imprimer' par défaut?"
+
+#. Default: "Annex to print default value"
+msgid "PloneMeeting_label_annexToPrintDefault"
+msgstr "Marquer les annexes comme 'à imprimer' par défaut?"
+
 #. Default: "Answers"
 msgid "PloneMeeting_label_answerers"
 msgstr "Réponses"
@@ -1152,9 +1160,17 @@ msgstr "Une erreur est survenue lors de la conversion d'une annexe.  La prévisu
 msgid "annexConversionError_mail_subject"
 msgstr "${itemTitle} - Une erreur est survenue lors de la conversion d'une annexe de ce point."
 
+#. Default: "Default value of the 'to print' checkbox for decision annexes."
+msgid "annex_decision_to_print_default_descr"
+msgstr "Si vous cochez cette case, les annexes à la décision ajoutées à un point seront marquées comme 'à imprimer' par défaut."
+
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titre"
+
+#. Default: "Default value of the 'to print' checkbox for annexes."
+msgid "annex_to_print_default_descr"
+msgstr "Si vous cochez cette case, les annexes ajoutées à un point seront marquées comme 'à imprimer' par défaut."
 
 #. Default: "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
 msgid "annex_to_print_disabled"

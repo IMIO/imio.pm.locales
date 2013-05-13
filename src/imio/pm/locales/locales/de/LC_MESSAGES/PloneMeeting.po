@@ -141,6 +141,14 @@ msgstr "Tags"
 msgid "PloneMeeting_label_allItemsAtOnce"
 msgstr "In dieser Sitzung präsentierte TOP (inklusive der TOP die nach der Veröffentlichung dieser Sitzung präsentiert wurden)."
 
+#. Default: "Decision annex to print default value"
+msgid "PloneMeeting_label_annexDecisionToPrintDefault"
+msgstr ""
+
+#. Default: "Annex to print default value"
+msgid "PloneMeeting_label_annexToPrintDefault"
+msgstr ""
+
 #. Default: "Answers"
 msgid "PloneMeeting_label_answerers"
 msgstr ""
@@ -1157,9 +1165,17 @@ msgstr ""
 msgid "annexConversionError_mail_subject"
 msgstr ""
 
+#. Default: "Default value of the 'to print' checkbox for decision annexes."
+msgid "annex_decision_to_print_default_descr"
+msgstr ""
+
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titel"
+
+#. Default: "Default value of the 'to print' checkbox for annexes."
+msgid "annex_to_print_default_descr"
+msgstr ""
 
 #. Default: "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
 msgid "annex_to_print_disabled"
