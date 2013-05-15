@@ -717,7 +717,7 @@ msgstr ""
 msgid "item_is_signed_no_edit"
 msgstr ""
 
-#. Default: "The annex is not printable because it can not be converted.  Please use common office formats."
+#. Default: "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
 msgid "annex_to_print_disabled"
 msgstr ""
 
@@ -1215,6 +1215,14 @@ msgstr ""
 msgid "enable_user_preferences_descr"
 msgstr ""
 
+#. Default: "Enable annex preview"
+msgid "PloneMeeting_label_enableAnnexPreview"
+msgstr ""
+
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
+msgid "enable_annex_preview_descr"
+msgstr ""
+
 #. Default: "Site start date"
 msgid "PloneMeeting_label_siteStartDate"
 msgstr ""
@@ -1281,6 +1289,14 @@ msgstr ""
 
 #. Default: "Update annex indexes"
 msgid "pm_update_annex_indexes"
+msgstr ""
+
+#. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
+msgid "Annexes preview must be enabled to launch complete annexes conversion process."
+msgstr ""
+
+#. Default: "Convert annexes for preview"
+msgid "pm_convert_annexes"
 msgstr ""
 
 #. Default: "Update all advices"
@@ -1623,6 +1639,22 @@ msgstr ""
 
 #. Default: "Identifier of this meeting configuration"
 msgid "PloneMeeting_label_configVersion"
+msgstr ""
+
+#. Default: "Annex to print default value"
+msgid "PloneMeeting_label_annexToPrintDefault"
+msgstr ""
+
+#. Default: "Default value of the 'to print' checkbox for annexes."
+msgid "annex_to_print_default_descr"
+msgstr ""
+
+#. Default: "Decision annex to print default value"
+msgid "PloneMeeting_label_annexDecisionToPrintDefault"
+msgstr ""
+
+#. Default: "Default value of the 'to print' checkbox for decision annexes."
+msgid "annex_decision_to_print_default_descr"
 msgstr ""
 
 #. Default: "If this meeting configuration corresponds to an organization, institution or group that gives an identifier to its successive forms (ie: City council 2000-2006, 5th Parliament, VIIIth Government...), you can write here the identifier of the current form (ie: 'CC00_06', 'P5', 'Gov VIII'...)."
@@ -2221,6 +2253,10 @@ msgstr ""
 
 #. Default: "An item as been cloned to this meetingConfig"
 msgid "event_item_clone_to_this_mc"
+msgstr ""
+
+#. Default: "An error occured while converting an annex"
+msgid "event_item_annex_conversion_error"
 msgstr ""
 
 #. Default: "List of topics to display in the 'todo' portlet"
@@ -3024,6 +3060,14 @@ msgstr ""
 msgid "podMeetingByMail_mail_body"
 msgstr ""
 
+#. Default: "${itemTitle} - There was an error while converting an annex."
+msgid "annexConversionError_mail_subject"
+msgstr ""
+
+#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}/annexes_form."
+msgid "annexConversionError_mail_body"
+msgstr ""
+
 # Other
 #. Default: "Check/uncheck items"
 msgid "helpSelectItemsIcon"
@@ -3766,6 +3810,10 @@ msgstr ""
 msgid "The field here above is not used, check the 'users' tab."
 msgstr ""
 
+#. Default: "Download annex"
+msgid "Download annex"
+msgstr ""
+
 #. Default: "No preview available because this type of file can not be converted.  Please use common office formats.  You can download the file, look in the 'actions' column."
 msgid "help_no_preview_available"
 msgstr ""
@@ -3776,4 +3824,20 @@ msgstr ""
 
 #. Default: "Download annex"
 msgid "Download annex"
+msgstr ""
+
+#. Default: "No preview available because there was an error during conversion to a previewable format.  Please contact system administrator that will have access to more debugging informations."
+msgid "help_no_preview_available_conversion_error"
+msgstr ""
+
+#. Default: "No preview available because there was an error during conversion to a previewable format.  Click on the annex to access debugging informations."
+msgid "help_no_preview_available_conversion_error_manager"
+msgstr ""
+
+#. Default: "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
+msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
+msgstr ""
+
+#. Default: "There was an error during annex conversion, please contact system administrator."
+msgid "There was an error during annex conversion, please contact system administrator."
 msgstr ""

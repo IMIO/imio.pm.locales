@@ -23,6 +23,10 @@ msgstr "PloneMeeting Portlet hinzufügen"
 msgid "Add Todo Portlet"
 msgstr "Zu erledigen Portlet hinzufügen"
 
+#. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
+msgid "Annexes preview must be enabled to launch complete annexes conversion process."
+msgstr ""
+
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Anhänge (Beschluss)"
@@ -140,6 +144,14 @@ msgstr "Tags"
 #. Default: "Items presented to this meeting (including those that were presented after the meeting was published)."
 msgid "PloneMeeting_label_allItemsAtOnce"
 msgstr "In dieser Sitzung präsentierte TOP (inklusive der TOP die nach der Veröffentlichung dieser Sitzung präsentiert wurden)."
+
+#. Default: "Decision annex to print default value"
+msgid "PloneMeeting_label_annexDecisionToPrintDefault"
+msgstr ""
+
+#. Default: "Annex to print default value"
+msgid "PloneMeeting_label_annexToPrintDefault"
+msgstr ""
 
 #. Default: "Answers"
 msgid "PloneMeeting_label_answerers"
@@ -292,6 +304,10 @@ msgstr ""
 #. Default: "Enable advice invalidation"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Ungültig setzen von Kommentaren zulassen"
+
+#. Default: "Enable annex preview"
+msgid "PloneMeeting_label_enableAnnexPreview"
+msgstr ""
 
 #. Default: "Enable 'Go to item' functionality"
 msgid "PloneMeeting_label_enableGotoItem"
@@ -974,6 +990,14 @@ msgstr "Status"
 msgid "The field here above is not used, check the 'users' tab."
 msgstr ""
 
+#. Default: "There was an error during annex conversion, please contact system administrator."
+msgid "There was an error during annex conversion, please contact system administrator."
+msgstr ""
+
+#. Default: "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
+msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
+msgstr ""
+
 #. Default: "This portlet shows controls of PloneMeeting."
 msgid "This portlet shows controls of PloneMeeting."
 msgstr "Dieses Portlet zeigt die benötigten Einstellungen von PloneMeeting"
@@ -1137,11 +1161,27 @@ msgstr "Der TOP trägt dem Namen '${itemTitle}'. Mehr Informationen auf ${portal
 msgid "annexAdded_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - Ein Anhang wurde gerade zu einem TOP zugefügt."
 
+#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}/annexes_form."
+msgid "annexConversionError_mail_body"
+msgstr ""
+
+#. Default: "${itemTitle} - There was an error while converting an annex."
+msgid "annexConversionError_mail_subject"
+msgstr ""
+
+#. Default: "Default value of the 'to print' checkbox for decision annexes."
+msgid "annex_decision_to_print_default_descr"
+msgstr ""
+
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titel"
 
-#. Default: "The annex is not printable because it can not be converted.  Please use common office formats."
+#. Default: "Default value of the 'to print' checkbox for annexes."
+msgid "annex_to_print_default_descr"
+msgstr ""
+
+#. Default: "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
 msgid "annex_to_print_disabled"
 msgstr ""
 
@@ -1638,6 +1678,10 @@ msgstr "${portalTitle} - ${objectTitle} - Ein Problem ist aufgetreten beim Gener
 msgid "enable_advice_invalidation_descr"
 msgstr "Wenn die Funktion 'Kommentar ungültig setzen' aktiviert ist, werden bei jeder Änderung an einem TOP, welcher schon einen Kommentar hatte, alle vorhandenen Kommentare zu diesem TOP ungültig. Eine 'Änderung' ist jedesmal wenn in einem TOP der Titel oder die Beschreibung verändert wurde und diese Änderung gespeichert wurde oder wenn eine Anlage hinzugefügt oder gelöscht wurde."
 
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
+msgid "enable_annex_preview_descr"
+msgstr ""
+
 #. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."
 msgid "enable_goto_item_descr"
 msgstr "Wenn Sie diese Box auswählen, wird beim Aufruf der TOP in Listenform (beim Betrachten einer Sitzung), ein Feld angezeigt 'Gehe zu TOP'. Durch das Eintragen der Nummer eines TOP in dieses Feld gelangen Sie zu den Einzelheiten des TOP."
@@ -1682,6 +1726,10 @@ msgstr "Ein Rezensent möchte einen TOP diskutieren"
 #. Default: "An advice on an item has been invalidated"
 msgid "event_invalidate_advice"
 msgstr "Ein Kommentar oder ein TOP sind ungültig geworden"
+
+#. Default: "An error occured while converting an annex"
+msgid "event_item_annex_conversion_error"
+msgstr ""
 
 #. Default: "An item as been cloned to this meetingConfig"
 msgid "event_item_clone_to_this_mc"
@@ -1861,7 +1909,6 @@ msgid "group_item_advice_edit_states_descr"
 msgstr "Wenn ein TOP in einem Status ist, den Sie hier definieren, ist es für einen Kommentator dieser Gruppe möglich einen Kommentar zu ändern oder zu löschen. Wenn Sie hier keinen Status definieren, wird eine Liste von globalen Status aller Gruppen, die auf der Ebene der Sitzungskonfiguration definiert wurden, an deren Stelle benutzt."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to add an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
-#, fuzzy
 msgid "group_item_advice_states_descr"
 msgstr "Wenn ein TOP in einem Status ist, den Sie hier definieren, ist es für einen Kommentator dieser Gruppe möglich einen Kommentar ab zu geben. Wenn Sie hier keinen Status definieren, wird eine Liste von globalen Status aller Gruppen, die auf der Ebene der Sitzungskonfiguration definiert wurden, an deren Stelle benutzt."
 
@@ -1887,7 +1934,15 @@ msgstr ""
 msgid "help_no_preview_available"
 msgstr ""
 
-#. Default: "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 2 or 3 seconds by page."
+#. Default: "No preview available because there was an error during conversion to a previewable format.  Please contact system administrator that will have access to more debugging informations."
+msgid "help_no_preview_available_conversion_error"
+msgstr ""
+
+#. Default: "No preview available because there was an error during conversion to a previewable format.  Click on the annex to access debugging informations."
+msgid "help_no_preview_available_conversion_error_manager"
+msgstr ""
+
+#. Default: "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 1 or 2 seconds by page."
 msgid "help_no_preview_available_under_conversion"
 msgstr ""
 
@@ -2894,6 +2949,10 @@ msgstr "Willkommen zu der PloneMeeting-Verwaltung. PloneMeeting erlaubt es Tages
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
 msgstr "Indentifizierer"
+
+#. Default: "Convert annexes for preview"
+msgid "pm_convert_annexes"
+msgstr ""
 
 #. Default: "Creation date"
 msgid "pm_creation_date"
