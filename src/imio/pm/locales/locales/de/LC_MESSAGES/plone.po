@@ -252,6 +252,10 @@ msgstr "Diese Konfiguration kann nicht gelöscht werden, da mindestens ein Plone
 msgid "can_not_delete_meetingconfig_meetingitem"
 msgstr "Diese Konfiguration kann nicht gelöscht werden, da mindestens ein TOP besteht der zu dieser Konfiguration verlinkt ist!"
 
+#. Default: "This file type can not be deleted, at least one annex is using it!"
+msgid "can_not_delete_meetingfiletype_meetingfile"
+msgstr ""
+
 #. Default: "This group can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}"
 msgid "can_not_delete_meetinggroup_config_meetingitem"
 msgstr ""
