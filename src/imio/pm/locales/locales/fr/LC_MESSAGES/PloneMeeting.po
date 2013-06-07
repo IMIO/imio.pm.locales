@@ -308,6 +308,10 @@ msgstr "Activer l'invalidation des avis"
 msgid "PloneMeeting_label_enableAnnexPreview"
 msgstr "Activer la prévisualisation des annexes"
 
+#. Default: "Enable annex to print"
+msgid "PloneMeeting_label_enableAnnexToPrint"
+msgstr "Activer l'impression des annexes"
+
 #. Default: "Enable 'Go to item' functionality"
 msgid "PloneMeeting_label_enableGotoItem"
 msgstr "Activer la fonctionnalité 'Aller au point'"
@@ -1673,6 +1677,10 @@ msgstr "Quand l'invalidation des avis est activée, tout changement sur un point
 #. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
 msgstr "Si la prévisualisation est activée, les annexes seront converties dans un format qui pourra être lu par le navigateur web.  Ceci évite les problèmes de logiciel manquant pour ouvrir une annexe (plus besoin de Word pour ouvrir un .doc, plus besoin d'Acrobat Reader pour ouvrir un .pdf, ...).  <span style='color: red';>Si vous activez la prévisualisation sur un site contenant déjà des points et annexes, n'oubliez pas de lancer la procédure de conversion des annexes!</span>"
+
+#. Default: "Let the user specify if an annex needs to be printed or not.  WARNING, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
+msgid "enable_annex_to_print_descr"
+msgstr "Permet à l'utilisateur de spécifier si une annexe doit être imprimée ou non.  ATTENTION, si vous désactivez cette fonctionnalité, les deux paramètres suivants 'Marquer les annexes comme 'à imprimer' par défaut?' et 'Marquer les annexes à la décision comme 'à imprimer' par défaut?' seront automatiquement remis à 'Non'."
 
 #. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."
 msgid "enable_goto_item_descr"
@@ -3812,4 +3820,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

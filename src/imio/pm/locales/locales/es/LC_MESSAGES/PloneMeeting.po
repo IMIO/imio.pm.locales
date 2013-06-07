@@ -312,6 +312,10 @@ msgstr "Habilitar invalidación consejos"
 msgid "PloneMeeting_label_enableAnnexPreview"
 msgstr ""
 
+#. Default: "Enable annex to print"
+msgid "PloneMeeting_label_enableAnnexToPrint"
+msgstr ""
+
 #. Default: "Enable 'Go to item' functionality"
 msgid "PloneMeeting_label_enableGotoItem"
 msgstr "Habilitar funcionalidad 'Ir a tema'"
@@ -1683,6 +1687,10 @@ msgstr "Cuando la invalidación consejo es permitido, todo cambio a un tema para
 
 #. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
+msgstr ""
+
+#. Default: "Let the user specify if an annex needs to be printed or not.  WARNING, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
+msgid "enable_annex_to_print_descr"
 msgstr ""
 
 #. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."

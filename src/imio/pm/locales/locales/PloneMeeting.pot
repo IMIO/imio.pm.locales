@@ -1641,6 +1641,14 @@ msgstr ""
 msgid "PloneMeeting_label_configVersion"
 msgstr ""
 
+#. Default: "Enable annex to print"
+msgid "PloneMeeting_label_enableAnnexToPrint"
+msgstr ""
+
+#. Default: "Let the user specify if an annex needs to be printed or not.  WARNING, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
+msgid "enable_annex_to_print_descr"
+msgstr ""
+
 #. Default: "Annex to print default value"
 msgid "PloneMeeting_label_annexToPrintDefault"
 msgstr ""
