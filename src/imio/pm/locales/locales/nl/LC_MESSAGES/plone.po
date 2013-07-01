@@ -19,10 +19,6 @@ msgstr ""
 "X-is-fallback-for: nl-be\n"
 "X-Generator: Poedit 1.5.5\n"
 
-#. Default: "Advices"
-msgid "Advices"
-msgstr "Adviezen"
-
 # This way, the "typedescription macro in base_edit does not display 'MeetingItem' above the title.
 #. Default: "Annexes"
 msgid "Annexes"
@@ -133,9 +129,7 @@ msgid "You can not copy this element : '${title}' is not an item."
 msgstr "Je kan dit elemant niet kopiëren : '${title}' is geen artikel"
 
 #. Default: "You can not copy this item : ${title}, your are not in the same proposing group (${proposingGroup})."
-msgid ""
-"You can not copy this item : ${title}, your are not in the same proposing "
-"group (${proposingGroup})."
+msgid "You can not copy this item : ${title}, your are not in the same proposing group (${proposingGroup})."
 msgstr "U hebt niet de rechten om dit artikel te kpiëren"
 
 # Workflow transitions
@@ -159,7 +153,8 @@ msgstr "Activeren"
 msgid "active"
 msgstr "Actief"
 
-#. Default: "Advices"
+#. Default: "Advices and access"
+#, fuzzy
 msgid "advices"
 msgstr "adviezen"
 
@@ -243,6 +238,10 @@ msgstr "Paswoord vergeten?"
 msgid "can_not_delete_meeting_container"
 msgstr "Kan deze vergadering niet verwijderen"
 
+#. Default: "This category can not be deleted, at least one item is linked to this category!"
+msgid "can_not_delete_meetingcategory_meetingitem"
+msgstr ""
+
 #. Default: "This configuration can not be deleted, at least one meeting linked to this configuration exists!"
 msgid "can_not_delete_meetingconfig_meeting"
 msgstr "Kan de instellingen van deze vergadering niet verwijderen"
@@ -254,6 +253,14 @@ msgstr "Kan de map van de vergadering niet verwijderen"
 #. Default: "This configuration can not be deleted, at least one item linked to this configuration exists!"
 msgid "can_not_delete_meetingconfig_meetingitem"
 msgstr "Kan intstellingen van de vergadering en artikel niet verwijderen"
+
+#. Default: "This file type can not be deleted, at least one annex is using it!"
+msgid "can_not_delete_meetingfiletype_meetingfile"
+msgstr ""
+
+#. Default: "This group can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}"
+msgid "can_not_delete_meetinggroup_config_meetingitem"
+msgstr ""
 
 #. Default: "This group can not be deleted, it is referenced in a meeting configuration"
 msgid "can_not_delete_meetinggroup_meetingconfig"
@@ -536,3 +543,4 @@ msgstr "stemmen"
 #. Default: "Workflows"
 msgid "workflow"
 msgstr "Werkschema's"
+
