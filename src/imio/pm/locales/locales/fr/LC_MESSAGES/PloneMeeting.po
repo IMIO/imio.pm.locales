@@ -1525,9 +1525,9 @@ msgstr "Créer une séance"
 msgid "create_meeting_item"
 msgstr "Créer un point"
 
-#. Default: "Create an item from..."
+#. Default: "Create an item from a template"
 msgid "create_meeting_item_from"
-msgstr "Créer un point depuis..."
+msgstr "Créer un point depuis un modèle"
 
 #. Default: "Create an item in the current folder"
 msgid "create_meeting_item_in_current_folder"
@@ -1654,9 +1654,9 @@ msgstr "Le point vient d'être mis dans l'état 'reporté'. De plus, il a été 
 msgid "delete_archived_meetings"
 msgstr "Supprimer les séances archivées"
 
-#. Default: "You are just able to see visible elements here."
+#. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 msgid "description_only_see_visible_items"
-msgstr "Vous êtes seulement autorisé à consulter les éléments visibles."
+msgstr "Vous êtes seulement autorisé à consulter les éléments visibles.  Utilisez la boîte 'Gestion' ci-contre pour consulter le contenu que vous pouvez voir."
 
 #. Default: "Documents"
 msgid "doc"
@@ -3317,11 +3317,11 @@ msgstr "Au"
 
 #. Default: "annexes"
 msgid "search_type_annexes"
-msgstr "les annexes"
+msgstr "Les annexes"
 
 #. Default: "items"
 msgid "search_type_items"
-msgstr "les points"
+msgstr "Les points"
 
 #. Default: "Search:"
 msgid "search_type_label"
@@ -3329,7 +3329,7 @@ msgstr "Rechercher:"
 
 #. Default: "meetings"
 msgid "search_type_meetings"
-msgstr "les séances"
+msgstr "Les séances"
 
 #. Default: "Keywords"
 msgid "search_words"
@@ -3337,31 +3337,31 @@ msgstr "Mots-clé"
 
 #. Default: "advised items"
 msgid "searchalladviseditems"
-msgstr "avis donnés"
+msgstr "Avis donnés"
 
 #. Default: "all decisions"
 msgid "searchalldecisions"
-msgstr "toutes les décisions"
+msgstr "Toutes les décisions"
 
 #. Default: "all items"
 msgid "searchallitems"
-msgstr "tous les points"
+msgstr "Tous les points"
 
 #. Default: "items in copy"
 msgid "searchallitemsincopy"
-msgstr "points en copie"
+msgstr "Points en copie"
 
 #. Default: "items to advice"
 msgid "searchallitemstoadvice"
-msgstr "avis à donner"
+msgstr "Avis à donner"
 
 #. Default: "available meetings"
 msgid "searchallmeetings"
-msgstr "séances disponibles"
+msgstr "Séances disponibles"
 
 #. Default: "my items"
 msgid "searchmyitems"
-msgstr "mes points"
+msgstr "Mes points"
 
 #. Default: "If you use this site for search purposes, you must specify here the 'web' URL of the distant site. Indeed, the URL defined above is the WebDAV URL."
 msgid "second_url_descr"
@@ -3820,4 +3820,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

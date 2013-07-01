@@ -1525,7 +1525,8 @@ msgstr "create a meeting"
 msgid "create_meeting_item"
 msgstr "Create an item"
 
-#. Default: "Create an item from..."
+#. Default: "Create an item from a template"
+#, fuzzy
 msgid "create_meeting_item_from"
 msgstr "Create an item from..."
 
@@ -1654,7 +1655,8 @@ msgstr "The item has been flagged as 'delayed'. Moreover, it has been duplicated
 msgid "delete_archived_meetings"
 msgstr "Delete archived meetings"
 
-#. Default: "You are just able to see visible elements here."
+#. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
+#, fuzzy
 msgid "description_only_see_visible_items"
 msgstr "You are just able to see visible elements here."
 

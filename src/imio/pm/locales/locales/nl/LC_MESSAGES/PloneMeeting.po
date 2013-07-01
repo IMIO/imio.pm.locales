@@ -1528,7 +1528,8 @@ msgstr "Creatie van een vergadering"
 msgid "create_meeting_item"
 msgstr "Aanmaak agenda punt"
 
-#. Default: "Create an item from..."
+#. Default: "Create an item from a template"
+#, fuzzy
 msgid "create_meeting_item_from"
 msgstr "Maak agendapunt aan van "
 
@@ -1657,7 +1658,7 @@ msgstr "Het item werd gemarkeerd als uitgesteld"
 msgid "delete_archived_meetings"
 msgstr "Verwijder gearchiveerde meetings"
 
-#. Default: "You are just able to see visible elements here."
+#. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 msgid "description_only_see_visible_items"
 msgstr ""
 
