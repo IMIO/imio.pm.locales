@@ -2,26 +2,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2005-05-17 15:00-100\n"
-"PO-Revision-Date: 2008-04-25 12:53+0100\n"
-"Last-Translator: Wim Boucquaert <wim@infrae.com>\n"
+"PO-Revision-Date: 2013-07-01 08:15+0100\n"
+"Last-Translator: Jan <jan.vangrinsven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Language-Code: nl\n"
 "Language-Name: Nederlands\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: PloneMeeting\n"
 "X-is-fallback-for: nl-be\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #. Default: "Add PloneMeeting Portlet"
 msgid "Add PloneMeeting Portlet"
-msgstr ""
+msgstr "Voeg plonemeeting Portlet toe"
 
 #. Default: "Add Todo Portlet"
 msgid "Add Todo Portlet"
-msgstr ""
+msgstr "Voeg ToDo Portlet toe"
 
 #. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
 msgid "Annexes preview must be enabled to launch complete annexes conversion process."
@@ -41,11 +42,11 @@ msgstr "Item categorieën"
 
 #. Default: "Item classifiers"
 msgid "Classifiers"
-msgstr ""
+msgstr "Classificaties"
 
 #. Default: "Copy PloneMeeting"
 msgid "Copy PloneMeeting"
-msgstr ""
+msgstr "Copy Plone Meeting"
 
 #. Default: "Delete advice"
 msgid "Delete advice"
@@ -57,27 +58,27 @@ msgstr ""
 
 #. Default: "Edit"
 msgid "Edit"
-msgstr ""
+msgstr "Editeer"
 
 #. Default: "Edit PloneMeeting Portlet"
 msgid "Edit PloneMeeting Portlet"
-msgstr ""
+msgstr "Editeer Plonemeeting Portlet"
 
 #. Default: "Edit Todo Portlet"
 msgid "Edit Todo Portlet"
-msgstr ""
+msgstr "Editeer ToDo Portlet"
 
 #. Default: "How many items to list in each topic."
 msgid "How many items to list in each topic."
-msgstr ""
+msgstr "Aantal punten in onderwerp"
 
 #. Default: "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
 msgid "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
-msgstr ""
+msgstr "Als je de meetinggroep de-activeerd zullen alle leden overgebracht worden naar de groep van observeerders. "
 
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
-msgstr ""
+msgstr "Beperkt het aantal getoonde karakters in de title"
 
 #. Default: "Category"
 msgid "MeetingCategory"
@@ -89,16 +90,15 @@ msgstr "Type bijlagen"
 
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
-msgstr ""
+msgstr "Aanta getoondel karakters in de titel"
 
 #. Default: "Number of items to display"
 msgid "Number of items to display"
-msgstr ""
+msgstr "Aantal agendapunten dat getoond zal worden"
 
 #. Default: "Paste item(s)"
-#, fuzzy
 msgid "Paste PloneMeeting"
-msgstr "Plakken"
+msgstr "Plak plonemeeting"
 
 #. Default: "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgid "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
@@ -982,12 +982,11 @@ msgstr "Voorgedefinieerde punten"
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
-msgstr ""
+msgstr "Selecteer een punt om toe te voegen"
 
 #. Default: "state"
-#, fuzzy
 msgid "State"
-msgstr "Staat"
+msgstr "Staat "
 
 #. Default: "The field here above is not used, check the 'users' tab."
 msgid "The field here above is not used, check the 'users' tab."
@@ -1007,11 +1006,11 @@ msgstr ""
 
 #. Default: "This portlet shows things to do."
 msgid "This portlet shows things to do."
-msgstr ""
+msgstr "Deze portlet toont uw ToDo lijst"
 
 #. Default: "To do"
 msgid "To do"
-msgstr ""
+msgstr "To Do"
 
 # This way, the "typedescription macro in base_edit does not display 'Meeting' above the title.
 #. Default: "Show / hide details"
@@ -1024,7 +1023,7 @@ msgstr "Onderwerpen"
 
 #. Default: "A meeting manager"
 msgid "a_meeting_manager"
-msgstr ""
+msgstr "Meeting beheerder"
 
 #. Default: "The decision linked to this item has been accepted."
 msgid "accept_done_descr"
@@ -1048,7 +1047,7 @@ msgstr "Een nieuwe gebruiker toevoegen"
 
 #. Default: "Add a new topic"
 msgid "add_topic"
-msgstr ""
+msgstr "Onderwerp toevoegen"
 
 #. Default: "More information at ${objectUrl}."
 msgid "adviceEdited_mail_body"
@@ -1076,15 +1075,15 @@ msgstr ""
 
 #. Default: "Add an advice"
 msgid "advice_add"
-msgstr ""
+msgstr "Advies toevoegen"
 
 #. Default: "Comment (optional)"
 msgid "advice_comment"
-msgstr ""
+msgstr "Advies commentaar"
 
 #. Default: "The advice has been deleted."
 msgid "advice_deleted"
-msgstr ""
+msgstr "Advies verwijderd"
 
 #. Default: "Edit advice"
 msgid "advice_edit"
@@ -1092,15 +1091,15 @@ msgstr ""
 
 #. Default: "The advice has been created or updated."
 msgid "advice_edited"
-msgstr ""
+msgstr "Advies aangepast"
 
 #. Default: "Mandatory"
 msgid "advice_mandatory"
-msgstr ""
+msgstr "Advies verplicht"
 
 #. Default: "Optional"
 msgid "advice_optional"
-msgstr ""
+msgstr "advies optioneel"
 
 #. Default: "Choose here the style for the icons that represent advices."
 msgid "advice_style_descr"
@@ -1118,7 +1117,7 @@ msgstr "Adviezen"
 
 #. Default: "Hands"
 msgid "advices_hands"
-msgstr ""
+msgstr "Advies toevoeging"
 
 #. Default: "Advices on this item have been invalidated!"
 msgid "advices_invalidated"
@@ -1126,7 +1125,7 @@ msgstr ""
 
 #. Default: "Standard"
 msgid "advices_standard"
-msgstr ""
+msgstr "Advies standaard"
 
 #. Default: "Adviser"
 msgid "adviser"
@@ -1226,7 +1225,7 @@ msgstr "${portalTitle} - ${meetingTitle} - The (definitive) decisions have been 
 
 #. Default: "Are you sure?"
 msgid "are_you_sure"
-msgstr ""
+msgstr "Ben je zeker"
 
 #. Default: "Sort order desc"
 msgid "arrow_down"
@@ -1279,7 +1278,7 @@ msgstr ""
 
 #. Default: "Using attribute(s) 'excused' and/or 'absents' requires the use of attribute 'attendees'."
 msgid "attendees_required"
-msgstr ""
+msgstr "leden verplicht"
 
 #. Default: "If you let this field blank, the user interface will be presented in the language defined by the user's browser. If you encode a list of comma-separated ISO 2-chars language codes, the user interface language will be chosen by the user in a dropdown containing one entry per encoded language code."
 msgid "available_interface_languages_descr"
@@ -1526,18 +1525,17 @@ msgid "create_meeting"
 msgstr "Creatie van een vergadering"
 
 #. Default: "Create an item"
-#, fuzzy
 msgid "create_meeting_item"
-msgstr "Creatie van een punt"
+msgstr "Aanmaak agenda punt"
 
-#. Default: "Create an item from..."
+#. Default: "Create an item from a template"
+#, fuzzy
 msgid "create_meeting_item_from"
-msgstr ""
+msgstr "Maak agendapunt aan van "
 
 #. Default: "Create an item in the current folder"
-#, fuzzy
 msgid "create_meeting_item_in_current_folder"
-msgstr "Creatie van een punt in de huidige folder"
+msgstr "Aanmaak van een punt in de huidige folder"
 
 #. Default: "Creator"
 msgid "creator"
@@ -1557,7 +1555,7 @@ msgstr ""
 
 #. Default: "In this field, you can enter any text, and also special symbols that correspond to date parts. For example: '%s/%m/%Y' could yield '12/06/1968'. The following symbols are available:<br/>%d (day)<br/>%dt (translated day name)<br/>%DT (translated day name, first letter is uppercase)<br/>%m (month)<br/>%mt (translated month name)<br/>%MT (translated month name, first letter uppercase)<br/>%Y (year, with century)<br/>%y (year, without century)."
 msgid "date_format_descr"
-msgstr ""
+msgstr "Datum formaat omschrijving"
 
 #. Default: "Export"
 msgid "davexport_meeting"
@@ -1653,15 +1651,14 @@ msgid "deferred_notifs_handling_descr"
 msgstr ""
 
 #. Default: "The item has been flagged as 'delayed'. Moreover, it has been duplicated: the proposing group will be able to propose its copy to another meeting. Note that if you cancel this action, the copy will not be deleted."
-#, fuzzy
 msgid "delay_done_descr"
-msgstr "Het item werd gemarkeerd als 'uitgesteld'."
+msgstr "Het item werd gemarkeerd als uitgesteld"
 
 #. Default: "Delete archived meetings"
 msgid "delete_archived_meetings"
-msgstr ""
+msgstr "Verwijder gearchiveerde meetings"
 
-#. Default: "You are just able to see visible elements here."
+#. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 msgid "description_only_see_visible_items"
 msgstr ""
 
@@ -1763,7 +1760,7 @@ msgstr "Bijlagen"
 
 #. Default: "Votes"
 msgid "existing_votes"
-msgstr ""
+msgstr "Bestaande stemmen"
 
 #. Default: "If 'notifications' is among usages, specify here the types of events that will produce notifications to the external application."
 msgid "extapp_notify_events_descr"
@@ -1831,7 +1828,7 @@ msgstr "In the PloneMeeting folder of every member, a sub-folder is created for 
 
 #. Default: "For the administrator only"
 msgid "for_admin_only"
-msgstr ""
+msgstr "Enkel toegankelijk voor de beheerder"
 
 #. Default: "Specify here the deadline for validating late items to be inserted in a given meeting.  Leave the field empty not to use this functionality."
 msgid "freeze_deadline_default_descr"
@@ -1863,7 +1860,7 @@ msgstr ""
 
 #. Default: "F"
 msgid "gender_f"
-msgstr ""
+msgstr "Geslacht F"
 
 #. Default: "Miss"
 msgid "gender_f_extended"
@@ -1871,7 +1868,7 @@ msgstr ""
 
 #. Default: "M"
 msgid "gender_m"
-msgstr ""
+msgstr "geslacht M"
 
 #. Default: "Mister"
 msgid "gender_m_extended"
@@ -1883,7 +1880,7 @@ msgstr ""
 
 #. Default: "Back to the first elements"
 msgid "goto_first"
-msgstr ""
+msgstr "ga naar eerste"
 
 #. Default: "Go to item numbered"
 msgid "goto_item"
@@ -1891,11 +1888,11 @@ msgstr "Ga naar agendapunt"
 
 #. Default: "Go to the last elements"
 msgid "goto_last"
-msgstr ""
+msgstr "Ga naar laatste"
 
 #. Default: "Next ${number} element(s)"
 msgid "goto_next"
-msgstr ""
+msgstr "Ga naar volgende"
 
 #. Default: "Go to page containing item"
 msgid "goto_page"
@@ -1903,7 +1900,7 @@ msgstr "Ga naar pagina met agendapunt"
 
 #. Default: "Previous ${number} elements"
 msgid "goto_previous"
-msgstr ""
+msgstr "Ga naar vorige"
 
 #. Default: "Active?"
 msgid "group_is_active"
@@ -1953,7 +1950,7 @@ msgstr ""
 
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
-msgstr ""
+msgstr "Verberg meeting voorbeeld"
 
 #. Default: "For every field you select here, PloneMeeting will keep track of any change on any item, if it is in one of the 'historizable' states as defined below."
 msgid "historized_item_attrs_descr"
@@ -2021,7 +2018,7 @@ msgstr ""
 
 #. Default: "Late"
 msgid "icon_help_late"
-msgstr "Laat"
+msgstr ""
 
 #. Default: "The validation deadline for meeting freezing has not been respected"
 msgid "icon_help_publish_deadline_ko"
@@ -3241,7 +3238,7 @@ msgstr ""
 
 #. Default: "Save"
 msgid "save"
-msgstr ""
+msgstr "Opslaan"
 
 #. Default: "No annex found."
 msgid "search_MeetingFile_empty"
@@ -3383,7 +3380,7 @@ msgstr ""
 # Portlet "meeting items"
 #. Default: "See everything..."
 msgid "see_everything"
-msgstr ""
+msgstr "Toon alles"
 
 #. Default: "Select groups that the creator of an item will be able to choose"
 msgid "selectable_copy_groups_descr"
@@ -3669,11 +3666,11 @@ msgstr ""
 
 #. Default: "Preferences"
 msgid "user_preferences"
-msgstr ""
+msgstr "Gebruikers instellingen"
 
 #. Default: "Users"
 msgid "users"
-msgstr ""
+msgstr "gebruikers"
 
 #. Default: "Your item has been reviewed: it is now visible to (a) meeting manager(s), that may decide to present it to a meeting."
 msgid "validate_done_descr"
@@ -3685,7 +3682,7 @@ msgstr ""
 
 #. Default: "Number of votes"
 msgid "vote_count"
-msgstr ""
+msgstr "Telling van de stemmen"
 
 #. Default: "At least one of the counts is invalid. Please correct."
 msgid "vote_count_not_int"
@@ -3697,7 +3694,7 @@ msgstr ""
 
 #. Default: "Vote"
 msgid "vote_value"
-msgstr ""
+msgstr "Waarde van de stem"
 
 #. Default: "Abstain"
 msgid "vote_value_abstain"
@@ -3705,7 +3702,7 @@ msgstr ""
 
 #. Default: "Blank"
 msgid "vote_value_blank"
-msgstr ""
+msgstr "Blanco stem"
 
 #. Default: "Does not vote"
 msgid "vote_value_does_not_vote"
@@ -3713,7 +3710,7 @@ msgstr ""
 
 #. Default: "Invalid ballot"
 msgid "vote_value_invalid"
-msgstr ""
+msgstr "Ongeldige waarde van de stem"
 
 #. Default: "No"
 msgid "vote_value_no"
@@ -3725,7 +3722,7 @@ msgstr ""
 
 #. Default: "Not found in the urn"
 msgid "vote_value_not_found"
-msgstr ""
+msgstr "Waarde van de stem niet gevonden"
 
 #. Default: "Not yet encoded"
 msgid "vote_value_not_yet"
@@ -3741,7 +3738,7 @@ msgstr ""
 
 #. Default: "Votes"
 msgid "votes"
-msgstr ""
+msgstr "Stemmen"
 
 #. Default: "You can choose here who will effectively encode the votes. Several choices are possible."
 msgid "votes_encoder_descr"

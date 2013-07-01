@@ -2,13 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2005-05-17 15:00-100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"Last-Translator: Wim Boucquaert <wim@infrae.com>\n"
+"PO-Revision-Date: 2013-06-30 19:42+0100\n"
+"Last-Translator: Jan <jan.vangrinsven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Language-name: Nederlands\n"
 "Preferred-encodings: utf-8 latin1\n"
 "X-is-fallback-for: nl-be\n"
+"X-Generator: Poedit 1.5.5\n"
 
 # This way, the "typedescription macro in base_edit does not display 'MeetingItem' above the title.
 #. Default: "Annexes"
@@ -29,12 +30,12 @@ msgstr "Bijlagen (van de beslissing)"
 
 #. Default: "CopyItem"
 msgid "CopyItem"
-msgstr ""
+msgstr "Artikel kopiëren"
 
 # Creation action displayed in history
 #. Default: "Created"
 msgid "Created"
-msgstr ""
+msgstr "Aangemaakt"
 
 #. Default: "Creator"
 msgid "Creator"
@@ -46,7 +47,7 @@ msgstr "Duplicaat"
 
 #. Default: "Duplicate and keep link"
 msgid "Duplicate and keep link"
-msgstr ""
+msgstr "Kopieer met behoud van link"
 
 #. Default: "External application"
 msgid "ExternalApplication"
@@ -59,7 +60,7 @@ msgstr "Login mislukt"
 
 #. Default: "Meeting"
 msgid "Meeting"
-msgstr ""
+msgstr "Vergadering"
 
 #. Default: "Category"
 msgid "MeetingCategory"
@@ -84,7 +85,7 @@ msgstr "PloneMeeting groep"
 
 #. Default: "Item"
 msgid "MeetingItem"
-msgstr ""
+msgstr "Onderwerp Vergadering"
 
 #. Default: "Item"
 msgid "MeetingItemPga"
@@ -104,11 +105,11 @@ msgstr "PloneMeeting assembly"
 
 #. Default: "User characteristics"
 msgid "MeetingUser"
-msgstr ""
+msgstr "Vergadering gebruiker"
 
 #. Default: "No meeting to delete."
 msgid "No meeting to delete."
-msgstr ""
+msgstr "Geen vergadering om te verwijderen"
 
 #. Default: "PloneMeeting 'folder' view"
 msgid "PloneMeetingFolderView"
@@ -120,17 +121,16 @@ msgid "PodTemplate"
 msgstr ""
 
 #. Default: "state"
-#, fuzzy
 msgid "State"
 msgstr "Staat"
 
 #. Default: "You can not copy this element : '${title}' is not an item."
 msgid "You can not copy this element : '${title}' is not an item."
-msgstr ""
+msgstr "Je kan dit elemant niet kopiëren : '${title}' is geen artikel"
 
 #. Default: "You can not copy this item : ${title}, your are not in the same proposing group (${proposingGroup})."
 msgid "You can not copy this item : ${title}, your are not in the same proposing group (${proposingGroup})."
-msgstr ""
+msgstr "U hebt niet de rechten om dit artikel te kpiëren"
 
 # Workflow transitions
 #. Default: "On creation"
@@ -236,7 +236,7 @@ msgstr "Paswoord vergeten?"
 
 #. Default: "You can not delete a container containing one or several meetings!"
 msgid "can_not_delete_meeting_container"
-msgstr ""
+msgstr "Kan deze vergadering niet verwijderen"
 
 #. Default: "This category can not be deleted, at least one item is linked to this category!"
 msgid "can_not_delete_meetingcategory_meetingitem"
@@ -244,15 +244,15 @@ msgstr ""
 
 #. Default: "This configuration can not be deleted, at least one meeting linked to this configuration exists!"
 msgid "can_not_delete_meetingconfig_meeting"
-msgstr ""
+msgstr "Kan de instellingen van deze vergadering niet verwijderen"
 
 #. Default: "This configuration can not be deleted, at least one member folder designed to store PloneMeeting objects is not empty!"
 msgid "can_not_delete_meetingconfig_meetingfolder"
-msgstr ""
+msgstr "Kan de map van de vergadering niet verwijderen"
 
 #. Default: "This configuration can not be deleted, at least one item linked to this configuration exists!"
 msgid "can_not_delete_meetingconfig_meetingitem"
-msgstr ""
+msgstr "Kan intstellingen van de vergadering en artikel niet verwijderen"
 
 #. Default: "This file type can not be deleted, at least one annex is using it!"
 msgid "can_not_delete_meetingfiletype_meetingfile"
@@ -264,27 +264,27 @@ msgstr ""
 
 #. Default: "This group can not be deleted, it is referenced in a meeting configuration"
 msgid "can_not_delete_meetinggroup_meetingconfig"
-msgstr ""
+msgstr "Kan de groep van de vergadering niet verwijderen"
 
 #. Default: "This group can not be deleted, it is linked to one existing item at least"
 msgid "can_not_delete_meetinggroup_meetingitem"
-msgstr ""
+msgstr "Kan de groep niet verwijderen"
 
 #. Default: "This group can not be deleted, the linked Plone groups are not empty"
 msgid "can_not_delete_meetinggroup_plonegroup"
-msgstr ""
+msgstr "Kan de plone groep niet verwijderen"
 
 #. Default: "You can not delete a container containing one or several items!"
 msgid "can_not_delete_meetingitem_container"
-msgstr ""
+msgstr "Kan de vergader map niet verwijderen"
 
 #. Default: "You can not delete this element!"
 msgid "can_not_delete_object"
-msgstr ""
+msgstr "Kan object niet verwijderen"
 
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
-msgstr ""
+msgstr "Kan het artikel niet plakken van een andere vergadering"
 
 #. Default: "Close"
 msgid "close"
@@ -304,19 +304,19 @@ msgstr "Bevestigd"
 
 #. Default: "Create from delayed item"
 msgid "create_from_predecessor"
-msgstr ""
+msgstr "Aanmaak formulier"
 
 #. Default: "Create a plonegov item from a plonemeeting item"
 msgid "create_to_plonegov-assembly_from_plonemeeting-assembly"
-msgstr ""
+msgstr "Maak artikel op basis van vergadering"
 
 #. Default: "Item created from a Plonemeeting assembly item"
 msgid "create_to_plonegov-assembly_from_plonemeeting-assembly_comments"
-msgstr ""
+msgstr "Artikel aangemaakt van andere vergadering"
 
 #. Default: "Create a plonmeeting item from a plonegov item"
 msgid "create_to_plonemeeting-assembly_from_plonegov-assembly"
-msgstr ""
+msgstr "Maak een plon vergadering van een plone gov artikel"
 
 #. Default: "Item created from a Plonegov assembly item"
 msgid "create_to_plonemeeting-assembly_from_plonegov-assembly_comments"
@@ -333,7 +333,7 @@ msgstr "Data"
 
 #. Default: "Deactivate"
 msgid "deactivate"
-msgstr ""
+msgstr "deactiveren"
 
 #. Default: "Decide"
 msgid "decide"
@@ -367,11 +367,11 @@ msgstr ""
 # Meeting-related vocabulary
 #. Default: ""
 msgid "description_edit_meeting"
-msgstr " "
+msgstr " Omschrijving aanpassen meeting"
 
 #. Default: ""
 msgid "description_edit_meetingitem"
-msgstr " "
+msgstr " beschrijving aanpassing agendapunt"
 
 #. Default: "Document template that conforms to POD (Python Open Document)."
 msgid "description_edit_podtemplate"
@@ -405,7 +405,7 @@ msgstr "${itemtype} om aan te maken of bewerken"
 
 #. Default: "Inactive"
 msgid "inactive"
-msgstr ""
+msgstr "niet actief"
 
 #. Default: "Archive"
 msgid "itemarchive"
@@ -461,7 +461,7 @@ msgstr "e-Mails"
 
 #. Default: "Metadata"
 msgid "metadata"
-msgstr ""
+msgstr "metadata"
 
 #. Default: "The element was deleted."
 msgid "object_deleted"
@@ -522,24 +522,23 @@ msgstr "Taken"
 # Workflow transitions
 #. Default: "Transfer"
 msgid "transfer"
-msgstr ""
+msgstr "omzetting"
 
 #. Default: "Users"
 msgid "users"
-msgstr ""
+msgstr "gebruikers"
 
 #. Default: "Validate"
 msgid "validate"
 msgstr "Bevestigen"
 
 #. Default: "Validated"
-#, fuzzy
 msgid "validated"
 msgstr "Bevestigd"
 
 #. Default: "Votes"
 msgid "votes"
-msgstr ""
+msgstr "stemmen"
 
 #. Default: "Workflows"
 msgid "workflow"
