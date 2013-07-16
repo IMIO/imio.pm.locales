@@ -421,6 +421,10 @@ msgstr "Anzuzeigende Spalten in TOP-Listen"
 msgid "PloneMeeting_label_itemConditionsInterface"
 msgstr "Interface das es erlaubt einen speziellen Zope 3-Adapter zu verwenden um die Bedingungen für Statusübergänge im TOP-Arbeitsablauf anzupassen."
 
+#. Default: "Item states allowing copy groups to view the item"
+msgid "PloneMeeting_label_itemCopyGroupsStates"
+msgstr ""
+
 #. Default: "Item decided states"
 msgid "PloneMeeting_label_itemDecidedStates"
 msgstr ""
@@ -1027,7 +1031,8 @@ msgstr "Themen"
 msgid "a_meeting_manager"
 msgstr "Ein Sitzungsmanager"
 
-#. Default: "The decision linked to this item has been accepted."
+#. Default: "The item has been accepted."
+#, fuzzy
 msgid "accept_done_descr"
 msgstr "Der Beschluss der mit diesem TOP verknüpft ist wurde akzeptiert."
 
@@ -1265,6 +1270,10 @@ msgstr ""
 msgid "assembly_descr"
 msgstr "Definieren Sie hier die Standardsitzungsteilnehmer (Sie können zum Beispiel eine Liste von Nach- und Vornamen getrennt durch Semikolons oder Zeilenumbrüche eingeben) diese werden im 'Versammlung'-Feld jeder neu erstellten Sitzung automatisch eingefügt. Wenn Sie eine strukturiertere Art benötigen um Sitzungsteilnehmer zu verwalten wie abwesend, anwesend und entschuldigt, füllen Sie dieses Feld nicht aus. Erstellen Sie dann im Tab 'Daten', spezielle Benutzer, die verschiedene Attribute haben können wie Sitzungsteilnehmer, Unterschreiben, Abstimmen. Diese können dann in den Sitzungen ausgewählt werden."
 
+#. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]])"
+msgid "assembly_meeting_descr"
+msgstr ""
+
 #. Default: "Use 'CTRL+click' to select several associated groups."
 msgid "associated_group_item_descr"
 msgstr ""
@@ -1374,7 +1383,8 @@ msgstr "Der Beschluss über diesen TOP wurde zurückgezogen."
 msgid "backToItemPublished_done_descr"
 msgstr "Der veröffentlichte TOP ist nicht mehr gesperrt."
 
-#. Default: "Validation has been canceled."
+#. Default: "The item has been set back to 'presented'.."
+#, fuzzy
 msgid "backToPresented_done_descr"
 msgstr "Die Validierung wurde zurückgezogen."
 
@@ -1654,7 +1664,8 @@ msgstr ""
 msgid "deferred_notifs_handling_descr"
 msgstr ""
 
-#. Default: "The item has been flagged as 'delayed'. Moreover, it has been duplicated: the proposing group will be able to propose its copy to another meeting. Note that if you cancel this action, the copy will not be deleted."
+#. Default: "The item has been delayed.  It has been duplicated for the corresponding proposing group so it can propose it again easily."
+#, fuzzy
 msgid "delay_done_descr"
 msgstr "Der TOP wurde als 'verschoben' markiert. Zusätzlich wurde er dupliziert: die vorschlagende Gruppen kann diese Kopie für eine andere Sitzung vorschlagen. Notiz: wenn Sie diese Aktion abbrechen, wird diese Kopie nicht gelöscht."
 
@@ -1840,7 +1851,8 @@ msgstr "Nur für den Administrator"
 msgid "freeze_deadline_default_descr"
 msgstr "Spezifizieren Sie hier die Frist um verspätete TOP in eine definierte Sitzung hinzufügen zu können"
 
-#. Default: "The published agenda has been frozen."
+#. Default: "The meeting has been frozen."
+#, fuzzy
 msgid "freeze_done_descr"
 msgstr "Die veröffentlichte Tagesordnung wurde gesperrt."
 
@@ -2133,7 +2145,7 @@ msgstr "Wenn ein TOP in einem von den Stati ist, die hier ausgewählt wurden, da
 msgid "item_advice_view_states_descr"
 msgstr ""
 
-#. Default: "If you don't fill this field, meeting assembly will be used for this item."
+#. Default: "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])"
 msgid "item_assembly_descr"
 msgstr ""
 
@@ -2160,6 +2172,10 @@ msgstr "Wählen Sie hier die Spalten aus, die Sie bei den TOP-Listen anzeigen wo
 #. Default: "On the item workflow, some boolean expressions guard the execution of the transitions from one state to another. Those conditions, together with other conditions useful at various levels within PloneMeeting, are defined as methods of a Python interface. You can modify those conditions at will, through the development of another Plone product into which you must: <ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions are documented."
 msgid "item_conditions_interface_descr"
 msgstr "Im Arbeitsablauf der TOP werden die Statusübergänge von boolschen Ausdrücken geschützt. Diese Bedingungen werden, zusammen mit anderen nützlichen Bedingungen in verschiedenen Bereichen von PloneMeeting, als Methoden eines Python interfaces definiert. Sie können diese Bedingungen anpassen indem Sie ein zusätzliches Plone-Produkt entwickeln in dem Sie: <ul><li>ein Python Interface definieren das von dem Interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (Sie müssen den vollen Paketnamen des Interfaces in dem Feld unten eintragen);</li><li>einen Adapter in ZCML erstellen und deklarieren der das Interface Products.PloneMeeting.interfaces.IMeetingItem zu dem Interface das Sie definiert haben adaptiert.</li></ul>Ihr Adapter kann vom Standardadapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions erben: das ermöglicht es Ihnen nur die Methoden für die sie ein anderes Verhalten wünschen zu überschreiben. Alle Methoden die im Interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowCondition definiert werden sind dokumentiert."
+
+#. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red';>If you change this parameter, do not forget to update copy groups!</span>"
+msgid "item_copygroups_states_descr"
+msgstr ""
 
 #. Default: "Choose decided state for an item"
 msgid "item_decided_states_descr"
@@ -3007,6 +3023,10 @@ msgstr ""
 #. Default: "Update annex indexes"
 msgid "pm_update_annex_indexes"
 msgstr "Aktualisiert den Index für die Anlagen."
+
+#. Default: "Update copyGroups"
+msgid "pm_update_copygroups"
+msgstr ""
 
 #. Default: "Update PowerObservers"
 msgid "pm_update_powerobservers"

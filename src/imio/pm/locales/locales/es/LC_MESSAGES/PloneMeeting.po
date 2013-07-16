@@ -424,6 +424,10 @@ msgstr "Las columnas a mostrar en las listas de temas"
 msgid "PloneMeeting_label_itemConditionsInterface"
 msgstr "La interfaz siguiente es usada para un especifico adaptador de Zope3 para modificar las acciones definidas en las transiciones del flujo de trabajo de tema"
 
+#. Default: "Item states allowing copy groups to view the item"
+msgid "PloneMeeting_label_itemCopyGroupsStates"
+msgstr ""
+
 #. Default: "Item decided states"
 msgid "PloneMeeting_label_itemDecidedStates"
 msgstr ""
@@ -1030,7 +1034,8 @@ msgstr "Tópicos"
 msgid "a_meeting_manager"
 msgstr "Un administrador de reunión"
 
-#. Default: "The decision linked to this item has been accepted."
+#. Default: "The item has been accepted."
+#, fuzzy
 msgid "accept_done_descr"
 msgstr "La decisión enlazada con este tema han sido aceptada."
 
@@ -1268,6 +1273,10 @@ msgstr ""
 msgid "assembly_descr"
 msgstr "Defina aquí la asamblea por defecto (por ejemplo, puede escribir una lista de nombres y apellidos separados por dos puntos o líneas nuevas) que se seleccionará automáticamente en la creación de nuevas reuniones. Si desea una forma más estructurada para definir a los asistentes, ausentes y personas excusadas en una reunión, no llene este campo, crear, en la pestaña \"datos\", los usuarios especial que tienen la característica de 'miembro de la asamblea' y seleccione, en la misma pestaña, los atributos  'asistentes', 'ausentes' y / o 'excusado' como atributos que se utilizan para una reunión."
 
+#. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]])"
+msgid "assembly_meeting_descr"
+msgstr ""
+
 #. Default: "Use 'CTRL+click' to select several associated groups."
 msgid "associated_group_item_descr"
 msgstr ""
@@ -1377,7 +1386,8 @@ msgstr "La decisión tomada en este tema ha sido cancelada."
 msgid "backToItemPublished_done_descr"
 msgstr "Este tema de publicación ya no estará más congelado."
 
-#. Default: "Validation has been canceled."
+#. Default: "The item has been set back to 'presented'.."
+#, fuzzy
 msgid "backToPresented_done_descr"
 msgstr "La validación ha sido cancelada."
 
@@ -1657,7 +1667,8 @@ msgstr "Marque esta casilla si desea diferir la importación de las reuniones a 
 msgid "deferred_notifs_handling_descr"
 msgstr "Si marca esta casilla, manipula las notificaciones recibidas desde sistemas externos la cuales serán manipuladas solamente durante la próxima noche. Hacer esto si usted espera que la importación tome un largo tiempo."
 
-#. Default: "The item has been flagged as 'delayed'. Moreover, it has been duplicated: the proposing group will be able to propose its copy to another meeting. Note that if you cancel this action, the copy will not be deleted."
+#. Default: "The item has been delayed.  It has been duplicated for the corresponding proposing group so it can propose it again easily."
+#, fuzzy
 msgid "delay_done_descr"
 msgstr "El tema se ha marcado como 'retardado'. Por otra parte, se ha duplicado: el grupo proponente podrá proponer su copia a otra reunión. Tenga en cuenta que si cancela esta acción, la copia no se eliminará."
 
@@ -1843,7 +1854,8 @@ msgstr "Para la administración solamente"
 msgid "freeze_deadline_default_descr"
 msgstr "Especifique aquí el limite para la validación de temas retardados a ser insertados en un reunión dada."
 
-#. Default: "The published agenda has been frozen."
+#. Default: "The meeting has been frozen."
+#, fuzzy
 msgid "freeze_done_descr"
 msgstr "La agenda publicada ha sido congelada."
 
@@ -2134,7 +2146,7 @@ msgstr "Cuando un tema se encuentra en uno de los estados que elija aquí, será
 msgid "item_advice_view_states_descr"
 msgstr ""
 
-#. Default: "If you don't fill this field, meeting assembly will be used for this item."
+#. Default: "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])"
 msgid "item_assembly_descr"
 msgstr ""
 
@@ -2161,6 +2173,10 @@ msgstr "Seleccione aquí cuales columnas se mostraran cuando se en listen temas 
 #. Default: "On the item workflow, some boolean expressions guard the execution of the transitions from one state to another. Those conditions, together with other conditions useful at various levels within PloneMeeting, are defined as methods of a Python interface. You can modify those conditions at will, through the development of another Plone product into which you must: <ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions are documented."
 msgid "item_conditions_interface_descr"
 msgstr "En el flujo de trabajo de tema, algún expresiones booleanas guardan la ejecución del la transición desde un estado a otro. Esas condiciones, junto con otras condiciones hacen muy útil a los varios niveles con PloneMeeting, son definida como métodos de una interfaz Python. Usted puede modificar esas condiciones, a través del desarrollo de otro producto de Plone dentro del cual debe: <ul><li>crear una interfaz Python que herede desde la interfaz Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (usted debe introducir el nombre completo del paquete de esta interfaz en el siguiente campo);</li><li>crear y declarar en el archivo ZCML un adaptador que adapte la interfaz Products.PloneMeeting.interfaces.IMeetingItem a la interfaz que usted tiene definida en el paso anterior.</li></ul>Su adaptador tal ves herede desde el adaptador por defecto Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: eso le permitirá a usted anular solo métodos por los cuales usted quiera un comportamiento alterno. Todos los métodos propuestos por la interfaz Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions son documentado."
+
+#. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red';>If you change this parameter, do not forget to update copy groups!</span>"
+msgid "item_copygroups_states_descr"
+msgstr ""
 
 #. Default: "Choose decided state for an item"
 msgid "item_decided_states_descr"
@@ -3009,6 +3025,10 @@ msgstr ""
 #. Default: "Update annex indexes"
 msgid "pm_update_annex_indexes"
 msgstr "Actualizar los índices de los anexos"
+
+#. Default: "Update copyGroups"
+msgid "pm_update_copygroups"
+msgstr ""
 
 #. Default: "Update PowerObservers"
 msgid "pm_update_powerobservers"

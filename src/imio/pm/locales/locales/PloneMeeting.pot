@@ -48,7 +48,11 @@ msgstr ""
 msgid "PloneMeeting_label_itemAssembly"
 msgstr ""
 
-#. Default: "If you don't fill this field, meeting assembly will be used for this item."
+#. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]])"
+msgid "assembly_meeting_descr"
+msgstr ""
+
+#. Default: "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])"
 msgid "item_assembly_descr"
 msgstr ""
 
@@ -1307,6 +1311,10 @@ msgstr ""
 msgid "pm_update_powerobservers"
 msgstr ""
 
+#. Default: "Update copyGroups"
+msgid "pm_update_copygroups"
+msgstr ""
+
 #. Default: "English"
 msgid "language_eng"
 msgstr ""
@@ -2049,6 +2057,14 @@ msgstr ""
 
 #. Default: "Select groups that the creator of an item will be able to choose"
 msgid "selectable_copy_groups_descr"
+msgstr ""
+
+#. Default: "Item states allowing copy groups to view the item"
+msgid "PloneMeeting_label_itemCopyGroupsStates"
+msgstr ""
+
+#. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red';>If you change this parameter, do not forget to update copy groups!</span>"
+msgid "item_copygroups_states_descr"
 msgstr ""
 
 #. Default: "Item states which are relevant for searches defined in the 'items' portlets"
@@ -3449,7 +3465,7 @@ msgstr ""
 msgid "itemfreeze_done_descr"
 msgstr ""
 
-#. Default: "The published agenda has been frozen."
+#. Default: "The meeting has been frozen."
 msgid "freeze_done_descr"
 msgstr ""
 
@@ -3533,11 +3549,11 @@ msgstr ""
 msgid "backToItemCreated_done_descr"
 msgstr ""
 
-#. Default: "The item has been flagged as 'delayed'. Moreover, it has been duplicated: the proposing group will be able to propose its copy to another meeting. Note that if you cancel this action, the copy will not be deleted."
+#. Default: "The item has been delayed.  It has been duplicated for the corresponding proposing group so it can propose it again easily."
 msgid "delay_done_descr"
 msgstr ""
 
-#. Default: "The decision linked to this item has been accepted."
+#. Default: "The item has been accepted."
 msgid "accept_done_descr"
 msgstr ""
 
@@ -3549,7 +3565,7 @@ msgstr ""
 msgid "refuse_done_descr"
 msgstr ""
 
-#. Default: "Validation has been canceled."
+#. Default: "The item has been set back to 'presented'.."
 msgid "backToPresented_done_descr"
 msgstr ""
 
