@@ -264,6 +264,10 @@ msgstr "Los estados de la reunión que condiciona la visualización de las reuni
 msgid "PloneMeeting_label_defaultAdviceType"
 msgstr "Tipo de consejo por defecto"
 
+#. Default: "Default value for the 'motivation' field"
+msgid "PloneMeeting_label_defaultMeetingItemMotivation"
+msgstr ""
+
 #. Default: "Default OCR language"
 msgid "PloneMeeting_label_defaultOcrLanguage"
 msgstr "Idioma por defecto para el reconocimiento óptico de caracteres"
@@ -619,6 +623,10 @@ msgstr ""
 #. Default: "Model adaptations"
 msgid "PloneMeeting_label_modelAdaptations"
 msgstr "Adaptaciones del Modelo"
+
+#. Default: "Motivation"
+msgid "PloneMeeting_label_motivation"
+msgstr ""
 
 #. Default: "Does the navigation portlet allow to navigate in the user folder only"
 msgid "PloneMeeting_label_navigateLocally"
@@ -1490,6 +1498,10 @@ msgstr "Si el color del sistema es habilitado (parámetro anterior), ese deshabi
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
 msgstr "Define aquí alguno texto predefinido que se presentará en el campo 'información presupuestaria' cada ves que un usuario crea un nuevo tema."
+
+#. Default: "Define here some predefined text that will be present in field 'motivation' every time a user creates a new item."
+msgid "config_default_meetingitem_motivation_descr"
+msgstr ""
 
 #. Default: "Active?"
 msgid "config_is_active"

@@ -64,6 +64,10 @@ msgstr ""
 msgid "PloneMeeting_label_budgetInfos"
 msgstr ""
 
+#. Default: "Motivation"
+msgid "PloneMeeting_label_motivation"
+msgstr ""
+
 #. Default: "This item is NOT an oral question"
 msgid "this_item_is_not_an_oral_question"
 msgstr ""
@@ -1595,6 +1599,14 @@ msgstr ""
 
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
+msgstr ""
+
+#. Default: "Default value for the 'motivation' field"
+msgid "PloneMeeting_label_defaultMeetingItemMotivation"
+msgstr ""
+
+#. Default: "Define here some predefined text that will be present in field 'motivation' every time a user creates a new item."
+msgid "config_default_meetingitem_motivation_descr"
 msgstr ""
 
 #. Default: "Name of the folder linked to this configuration"

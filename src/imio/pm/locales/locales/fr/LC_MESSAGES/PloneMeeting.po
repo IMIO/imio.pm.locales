@@ -260,6 +260,10 @@ msgstr "Etats des séances conditionnant l'affichage de celles-ci dans la portle
 msgid "PloneMeeting_label_defaultAdviceType"
 msgstr "Type d'avis par défaut"
 
+#. Default: "Default value for the 'motivation' field"
+msgid "PloneMeeting_label_defaultMeetingItemMotivation"
+msgstr "Valeur par défaut du champ 'Motivation'"
+
 #. Default: "Default OCR language"
 msgid "PloneMeeting_label_defaultOcrLanguage"
 msgstr "Langue par défaut pour l'OCR"
@@ -615,6 +619,10 @@ msgstr "Date de fin de la première partie"
 #. Default: "Model adaptations"
 msgid "PloneMeeting_label_modelAdaptations"
 msgstr "Adaptations au modèle de données"
+
+#. Default: "Motivation"
+msgid "PloneMeeting_label_motivation"
+msgstr "Motivation"
 
 #. Default: "Does the navigation portlet allow to navigate in the user folder only"
 msgid "PloneMeeting_label_navigateLocally"
@@ -1481,6 +1489,10 @@ msgstr "Si le système de couleurs est activé (paramètre précédent), il sera
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
 msgstr "Définissez ici le texte prédéfini qui sera présent dans le champ 'Informations budgétaires' chaque fois qu'un utilisateur crée un nouveau point."
+
+#. Default: "Define here some predefined text that will be present in field 'motivation' every time a user creates a new item."
+msgid "config_default_meetingitem_motivation_descr"
+msgstr "Définissez ici le texte prédéfini qui sera présent dans le champ 'Motivation' chaque fois qu'un utilisateur crée un nouveau point."
 
 #. Default: "Active?"
 msgid "config_is_active"
