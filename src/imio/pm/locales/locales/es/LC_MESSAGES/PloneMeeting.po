@@ -1782,6 +1782,10 @@ msgstr "Un tema ha sido demorado"
 msgid "event_item_presented"
 msgstr "Un tema ha sido agregado dentro de una reunión"
 
+#. Default: "An item has been sent back to the service"
+msgid "event_item_returned_to_service"
+msgstr ""
+
 #. Default: "An item has been removed from a meeting"
 msgid "event_item_unpresented"
 msgstr "Un tema ha sido removido de una reunión"
@@ -3270,6 +3274,18 @@ msgstr "${portalTitle} - ${meetingTitle} - La agenda ha sido publicada (otra ves
 #. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"
 msgstr "Si usted marca esta casilla, PloneMeeting entrará en una especie de modo \"emergencia\" que le permite, estar bajo carga pesada, a fin de limitar el número de usuarios autorizados a acceder a la página 'Vista de Reunión'. Si este modo está activado, sólo MeetingManagers y los usuarios que figuran en el siguiente campo se puede ver la página 'Vista de Reunión'."
+
+#. Default: "The item ahs been sent to the service for corrections.  When done, the service will send the item back to the meeting managers."
+msgid "return_to_service_done_descr"
+msgstr ""
+
+#. Default: "You can access this item here : '${objectUrl}'."
+msgid "returnedToService_mail_body"
+msgstr ""
+
+#. Default: "The item '${itemTitle}' has been sent back to you for corrections."
+msgid "returnedToService_mail_subject"
+msgstr ""
 
 #. Default: "Validator"
 msgid "reviewer"

@@ -1773,6 +1773,10 @@ msgstr ""
 msgid "event_item_presented"
 msgstr ""
 
+#. Default: "An item has been sent back to the service"
+msgid "event_item_returned_to_service"
+msgstr ""
+
 #. Default: "An item has been removed from a meeting"
 msgid "event_item_unpresented"
 msgstr ""
@@ -3258,6 +3262,18 @@ msgstr "${portalTitle} - ${meetingTitle} - The agenda has been published (again)
 
 #. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"
+msgstr ""
+
+#. Default: "The item ahs been sent to the service for corrections.  When done, the service will send the item back to the meeting managers."
+msgid "return_to_service_done_descr"
+msgstr ""
+
+#. Default: "You can access this item here : '${objectUrl}'."
+msgid "returnedToService_mail_body"
+msgstr ""
+
+#. Default: "The item '${itemTitle}' has been sent back to you for corrections."
+msgid "returnedToService_mail_subject"
 msgstr ""
 
 #. Default: "Validator"

@@ -1386,7 +1386,6 @@ msgid "backToItemPublished_done_descr"
 msgstr "Vous venez d'annuler le gel de la publication sur ce point."
 
 #. Default: "The item has been set back to 'presented'.."
-#, fuzzy
 msgid "backToPresented_done_descr"
 msgstr "Le point a été remis dans l'état \"présenté\"."
 
@@ -1767,6 +1766,10 @@ msgstr "Un point a été reporté"
 #. Default: "An item has been inserted into a meeting"
 msgid "event_item_presented"
 msgstr "Un point a été inséré dans une séance"
+
+#. Default: "An item has been sent back to the service"
+msgid "event_item_returned_to_service"
+msgstr "Un point a été renvoyé pour correction dans un service"
 
 #. Default: "An item has been removed from a meeting"
 msgid "event_item_unpresented"
@@ -3251,6 +3254,18 @@ msgstr "${portalTitle} - ${meetingTitle} - L'ordre du jour vient d'être (à nou
 #. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"
 msgstr "Si vous cochez cette case, PloneMeeting entre dans une sorte de mode d'urgence qui permet, lors de fortes charges, de limiter le nombre d'utilisateurs ayant accès à la page de visualisation des séances. Si ce mode est activé, seuls les gestionnaires de séance (rôle MeetingManager) et les utilisateurs listés dans le champ ci-dessous pourront accéder aux pages de visualisation des séances."
+
+#. Default: "The item ahs been sent to the service for corrections.  When done, the service will send the item back to the meeting managers."
+msgid "return_to_service_done_descr"
+msgstr "Le point a été renvoyé pour corrections au service proposant.  Lorsque les corrections nécessaires auront été apportées, le service renverra le point aux gestionnaires de séances."
+
+#. Default: "You can access this item here : '${objectUrl}'."
+msgid "returnedToService_mail_body"
+msgstr "Vous pouvez accéder au point ici : '${objectUrl}'."
+
+#. Default: "The item '${itemTitle}' has been sent back to you for corrections."
+msgid "returnedToService_mail_subject"
+msgstr "Le point '${itemTitle}' vous a été renvoyé pour corrections."
 
 #. Default: "Validator"
 msgid "reviewer"
