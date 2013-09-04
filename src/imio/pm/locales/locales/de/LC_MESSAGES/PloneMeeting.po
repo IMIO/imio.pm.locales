@@ -1779,8 +1779,8 @@ msgstr "Ein TOP wurde verschoben"
 msgid "event_item_presented"
 msgstr "Ein TOP wurde zu einer Sitzung hinzugefügt"
 
-#. Default: "An item has been sent back to the service"
-msgid "event_item_returned_to_service"
+#. Default: "An item has been sent back to the proposing group"
+msgid "event_item_returned_to_proposing_group"
 msgstr ""
 
 #. Default: "An item has been removed from a meeting"
@@ -2070,6 +2070,10 @@ msgstr "Die Frist zur Validierung der Veröffentlichung der Sitzung wurde nicht 
 #. Default: "Refused"
 msgid "icon_help_refused"
 msgstr "Abgelehnt"
+
+#. Default: "Returned to proposing group"
+msgid "icon_help_returned_to_proposing_group"
+msgstr ""
 
 #. Default: "To use this functionnality, it is necessary that the icon '${iconname}' that will trigger the action exists.  Please creates it before continuing..."
 msgid "iconname_does_not_exist"
@@ -3273,16 +3277,20 @@ msgstr "${portalTitle} - ${meetingTitle} - Die Tagesordnung wurde (wieder) verö
 msgid "restrict_users_descr"
 msgstr "Wenn Sie diese Box auswählen, wird PloneMeeting in eine Art Alarmzustand versetzt wenn zu viele Anfragen laufen, um die Anzahle Benutzer zu beschränken die Zugriff auf die Sitzungsseiten haben. Wenn dieser Zustand aktiviert ist, können nur die Sitzungsmanager (Rolle MeetingManager) und die Benutzer die in dem untenstehenden Feld aufgelistet sind die Sitzungen aufrufen und konsultieren."
 
-#. Default: "The item ahs been sent to the service for corrections.  When done, the service will send the item back to the meeting managers."
-msgid "return_to_service_done_descr"
+#. Default: "The item has been sent back to the meeting managers."
+msgid "return_to_meeting_done_descr"
+msgstr ""
+
+#. Default: "The item has been sent to the proposing group for corrections.  When done, the proposing group will send the item back to the meeting managers."
+msgid "return_to_proposing_group_done_descr"
 msgstr ""
 
 #. Default: "You can access this item here : '${objectUrl}'."
-msgid "returnedToService_mail_body"
+msgid "returnedToProposingGroup_mail_body"
 msgstr ""
 
 #. Default: "The item '${itemTitle}' has been sent back to you for corrections."
-msgid "returnedToService_mail_subject"
+msgid "returnedToProposingGroup_mail_subject"
 msgstr ""
 
 #. Default: "Validator"
@@ -3853,6 +3861,10 @@ msgstr "Nur die Ersteller von TOP können TOP löschen"
 #. Default: "Item pre-validation"
 msgid "wa_pre_validation"
 msgstr "Vor-Validierung der TOP"
+
+#. Default: "Return to proposing group for corrections"
+msgid "wa_return_to_proposing_group"
+msgstr ""
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"
