@@ -1427,6 +1427,10 @@ msgstr "El archivo de este tema y su decisión ha sido cancelada."
 msgid "backToValidated_done_descr"
 msgstr "El tema ha sido removida de la agenda de reuniones."
 
+#. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
+msgid "can_not_return_to_meeting_because_of_meeting_state"
+msgstr ""
+
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
 msgstr ""

@@ -1424,6 +1424,10 @@ msgstr "Die Archivierung dieses TOPs und des zugehörigen Beschlusses wurde abge
 msgid "backToValidated_done_descr"
 msgstr "Der TOP wurde von der Tagesordnung der Sitzung entfernt."
 
+#. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
+msgid "can_not_return_to_meeting_because_of_meeting_state"
+msgstr ""
+
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
 msgstr ""

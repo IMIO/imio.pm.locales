@@ -1417,6 +1417,10 @@ msgstr "Vous venez d'annuler l'archivage de ce point et de sa décision."
 msgid "backToValidated_done_descr"
 msgstr "Le point a été retiré de l'ordre du jour."
 
+#. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
+msgid "can_not_return_to_meeting_because_of_meeting_state"
+msgstr "Ce point ne peut plus être renvoyé vers les gestionnaires de séance car la séance dans laquelle ce point est présenté est dans un état qui ne l'autorise pas (${meetingState})."
+
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
 msgstr "Vous ne pouvez pas coller un point provenant d'un autre type de séance !"
