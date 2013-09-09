@@ -1064,11 +1064,13 @@ msgstr "Ein neues Objekt hinzufügen"
 msgid "add_topic"
 msgstr "Einen neuen Topic hinzufügen"
 
-#. Default: "More information at ${objectUrl}."
+#. Default: "You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "adviceEdited_mail_body"
 msgstr "Mehr Informationen hier ${objectUrl}."
 
-#. Default: "An advice has been added or modified on the item '${itemTitle}'."
+#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item '${itemTitle}'."
+#, fuzzy
 msgid "adviceEdited_mail_subject"
 msgstr "Ein Kommentar wurde gerade zum TOP '${itemTitle}' hinzugefügt oder geändert."
 
@@ -1076,15 +1078,16 @@ msgstr "Ein Kommentar wurde gerade zum TOP '${itemTitle}' hinzugefügt oder geä
 msgid "adviceInvalidated_mail_body"
 msgstr "Sie können diesen TOP hier ${objectUrl} begutachten. Ihr Kommentar ist jetzt wieder mit einem Fragezeichen versehen. Sie können den Kommentar editieren indem Sie auf den Stift klicken."
 
-#. Default: "One or your advices has been invalidated on the item '${itemTitle}'."
+#. Default: "${meetingConfigTitle} - One or your advices has been invalidated on the item '${itemTitle}'."
+#, fuzzy
 msgid "adviceInvalidated_mail_subject"
 msgstr "Einer Ihrer Kommentare ist ungültig geworden in folgendem TOP: '${itemTitle}'. "
 
-#. Default: "The item is entitled '${itemTitle}'. Please consult it at ${objectUrl}."
+#. Default: "You can access this item here: ${objectUrl}."
 msgid "adviceToGive_mail_body"
 msgstr ""
 
-#. Default: "Your advice (${type}) is requested on an item."
+#. Default: "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 msgid "adviceToGive_mail_subject"
 msgstr ""
 
@@ -1170,11 +1173,13 @@ msgstr "Beschreibung und Entscheidung"
 msgid "and_description"
 msgstr ", Beschreibung"
 
-#. Default: "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
+#. Default: "An annex has been added to the item '${itemTitle}' that was already presented to the meeting.  You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "annexAdded_mail_body"
 msgstr "Der TOP trägt dem Namen '${itemTitle}'. Mehr Informationen auf ${portalUrl}."
 
-#. Default: "${portalTitle} - ${meetingTitle} - An annex was just added to an item."
+#. Default: "${meetingConfigTitle} - ${meetingTitle} - An annex was just added to an item."
+#, fuzzy
 msgid "annexAdded_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - Ein Anhang wurde gerade zu einem TOP zugefügt."
 
@@ -1182,7 +1187,7 @@ msgstr "${portalTitle} - ${meetingTitle} - Ein Anhang wurde gerade zu einem TOP 
 msgid "annexConversionError_mail_body"
 msgstr ""
 
-#. Default: "${itemTitle} - There was an error while converting an annex."
+#. Default: "${meetingConfigTitle} - There was an error while converting an annex."
 msgid "annexConversionError_mail_subject"
 msgstr ""
 
@@ -1262,11 +1267,13 @@ msgstr "Als wiederkehrender TOP"
 msgid "as_template_item"
 msgstr "Als Vorlage für TOP"
 
-#. Default: "The item is entitled '${itemNumber} - ${itemTitle}'. More information on ${portalUrl}."
+#. Default: "The item is entitled '${itemNumber} - ${itemTitle}'. You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "askDiscussItem_mail_body"
 msgstr "Der TOP trägt dem Namen '${itemTitle}'. Mehr Informationen auf ${portalUrl}."
 
-#. Default: "${portalTitle} - ${meetingTitle} - ${user}, belonging to group(s) ${groups}, would like to discuss an item."
+#. Default: "${meetingConfigTitle} - ${meetingTitle} - ${user}, belonging to group(s) ${groups}, would like to discuss an item."
+#, fuzzy
 msgid "askDiscussItem_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - ${user}, zur Gruppe ${groups} gehörend, möchte einen TOP diskutieren."
 
@@ -1782,6 +1789,10 @@ msgstr "Ein TOP wurde verschoben"
 msgid "event_item_presented"
 msgstr "Ein TOP wurde zu einer Sitzung hinzugefügt"
 
+#. Default: "An item has been corrected and sent to the meeting managers"
+msgid "event_item_returned_to_meeting_managers"
+msgstr ""
+
 #. Default: "An item has been sent back to the proposing group"
 msgid "event_item_returned_to_proposing_group"
 msgstr ""
@@ -2130,23 +2141,28 @@ msgstr ""
 msgid "itemDelayed_mail_body"
 msgstr "Dieser TOP steht noch auf eine Sitzung ist aber als 'verschoben' markiert, deshalb wurde ein Kopie auf diese URL ${objectURL} erstellt. Sie können diesen TOP nachbearbeiten und für eine andere Sitzung vorschlagen."
 
-#. Default: "One of your items, ${itemTitle}, has been delayed from a meeting."
+#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
+#, fuzzy
 msgid "itemDelayed_mail_subject"
 msgstr "Einer Ihrer TOP, ${itemTitle}, aus einer Sitzung wurde verschoben."
 
-#. Default: "The meeting is this one: ${meetingTitle}."
+#. Default: "This meeting may still be under construction and is potentially inaccessible.  You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "itemPresented_mail_body"
 msgstr "Die Sitzung ist folgende: ${meetingTitle}."
 
-#. Default: "One of your items, ${itemTitle}, has been inserted into a meeting. This meeting may still be under construction and is potentially inaccessible."
+#. Default: "${meetingConfigTitle} - One of your items: "${itemTitle}", has been inserted into a meeting."
+#, fuzzy
 msgid "itemPresented_mail_subject"
 msgstr "Einer Ihrer TOP, ${itemTitle}, wurde zu einer Sitzung hinzugefügt. Diese Sitzung kann noch im Erstellungsstatus sein und ist deshalb nicht zugreifbar."
 
-#. Default: "The meeting is this one: ${meetingTitle}."
+#. Default: "You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "itemUnpresented_mail_body"
 msgstr "Die Sitzung ist folgende: ${meetingTitle}."
 
-#. Default: "One of your items, ${itemTitle}, has been removed from a meeting. This meeting may still be under construction and is potentially inaccessible."
+#. Default: "${meetingConfigTitle} - One of your items: "${itemTitle}", has been removed from a meeting."
+#, fuzzy
 msgid "itemUnpresented_mail_subject"
 msgstr "Einer Ihrer TOP, ${itemTitle}, wurde von einer Sitzung gestrichen. Diese Sitzung kann noch im Erstellungsstatus sein und ist deshalb nicht zugreifbar."
 
@@ -2380,12 +2396,14 @@ msgstr "In jeder Sitzungs-Konfiguration werden TOP mit Hilfe einer fortlaufenden
 msgid "last_meeting_number_descr"
 msgstr "In jeder Sitzungs-Konfiguration werden Sutzungen mit Hilfe einer fortlaufenden Nummer nummeriert."
 
-#. Default: "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "lateItem_mail_body"
 msgstr "Der TOP trägt dem Namen '${itemTitle}'. Mehr Informationen auf ${portalUrl}."
 
 # Mails (item-related)
-#. Default: "${portalTitle} A 'late' item has been validated."
+#. Default: "${meetingConfigTitle} - A 'late' item has been validated."
+#, fuzzy
 msgid "lateItem_mail_subject"
 msgstr "${portalTitle} - Ein 'verspäteter' TOP wurde bestätigt."
 
@@ -3288,11 +3306,19 @@ msgstr ""
 msgid "return_to_proposing_group_done_descr"
 msgstr ""
 
-#. Default: "You can access this item here : '${objectUrl}'."
+#. Default: "You can access this item here: '${objectUrl}'."
+msgid "returnedToMeetingManagers_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - The item '${itemTitle}' has been corrected and sent back to the meeting managers."
+msgid "returnedToMeetingManagers_mail_subject"
+msgstr ""
+
+#. Default: "You can access this item here: '${objectUrl}'."
 msgid "returnedToProposingGroup_mail_body"
 msgstr ""
 
-#. Default: "The item '${itemTitle}' has been sent back to you for corrections."
+#. Default: "${meetingConfigTitle} - The item '${itemTitle}' has been sent back to you for corrections."
 msgid "returnedToProposingGroup_mail_subject"
 msgstr ""
 

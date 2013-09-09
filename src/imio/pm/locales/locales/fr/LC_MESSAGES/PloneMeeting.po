@@ -1060,29 +1060,29 @@ msgstr "En ajouter un(e)"
 msgid "add_topic"
 msgstr "Ajouter un dossier automatique"
 
-#. Default: "More information at ${objectUrl}."
+#. Default: "You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
-msgstr "Plus d'information ici: ${objectUrl}."
+msgstr "Accédez à ce point ici: ${objectUrl}."
 
-#. Default: "An advice has been added or modified on the item '${itemTitle}'."
+#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item '${itemTitle}'."
 msgid "adviceEdited_mail_subject"
-msgstr "Un avis a été rendu ou modifié sur le point '${itemTitle}'."
+msgstr "${meetingConfigTitle} - Un avis a été rendu ou modifié sur le point '${itemTitle}'."
 
 #. Default: "You can consult this item at ${objectUrl}. You advice is now back in the menu with a question mark icon. You can edit it again by clicking on the pen besides it."
 msgid "adviceInvalidated_mail_body"
-msgstr "Vous pouvez consulter ce point ici: ${objectUrl}. Votre avis est de retour dans le menu avec un point d'interrogation. Vous pouvez l'éditer à nouveau en cliquant sur le crayon à sa droite."
+msgstr "Votre avis est de retour dans le menu avec un point d'interrogation. Vous pouvez l'éditer à nouveau en cliquant sur le crayon à sa droite. Accédez à ce point ici: ${objectUrl}."
 
-#. Default: "One or your advices has been invalidated on the item '${itemTitle}'."
+#. Default: "${meetingConfigTitle} - One or your advices has been invalidated on the item '${itemTitle}'."
 msgid "adviceInvalidated_mail_subject"
-msgstr "Un des avis que vous avez rendus sur le point '${itemTitle}' a été invalidé."
+msgstr "${meetingConfigTitle} - Un des avis que vous avez rendus sur le point '${itemTitle}' a été invalidé."
 
-#. Default: "The item is entitled '${itemTitle}'. Please consult it at ${objectUrl}."
+#. Default: "You can access this item here: ${objectUrl}."
 msgid "adviceToGive_mail_body"
-msgstr "Le point s'intitule '${itemTitle}'. Vous pouvez le consulter ici: ${objectUrl}."
+msgstr "Accédez à ce point ici: ${objectUrl}."
 
-#. Default: "Your advice (${type}) is requested on an item."
+#. Default: "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 msgid "adviceToGive_mail_subject"
-msgstr "Votre avis (${type}) est demandé sur un point."
+msgstr "${meetingConfigTitle} - Votre avis est demandé sur le point '${itemTitle}'."
 
 #. Default: "Add an advice"
 msgid "advice_add"
@@ -1164,21 +1164,21 @@ msgstr ", description et décision"
 msgid "and_description"
 msgstr ", description"
 
-#. Default: "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
+#. Default: "An annex has been added to the item '${itemTitle}' that was already presented to the meeting.  You can access this item here: ${objectUrl}."
 msgid "annexAdded_mail_body"
-msgstr "Le titre du point est '${itemTitle}'. Rendez-vous sur ${portalUrl}."
+msgstr "Une annexe a été ajoutée au point '${itemTitle}' alors qu'il était déjà présenté dans une séance. Accédez à ce point ici: ${objectUrl}."
 
-#. Default: "${portalTitle} - ${meetingTitle} - An annex was just added to an item."
+#. Default: "${meetingConfigTitle} - ${meetingTitle} - An annex was just added to an item."
 msgid "annexAdded_mail_subject"
-msgstr "${portalTitle} - ${meetingTitle} - Une annexe vient d'être ajoutée à un point."
+msgstr "${meetingConfigTitle} - ${meetingTitle} - Une annexe vient d'être ajoutée à un point."
 
 #. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}/annexes_form."
 msgid "annexConversionError_mail_body"
-msgstr "Une erreur est survenue lors de la conversion d'une annexe.  La prévisualitation dans le navigateur web ne sera pas possible et il ne sera pas possible non plus de l'imprimer dans un document généré (délibération, ordre du jour, ...).  Consultez le point ici : ${objectUrl}/annexes_form."
+msgstr "La prévisualitation dans le navigateur web ne sera pas possible et il ne sera pas possible non plus de l'imprimer dans un document généré (délibération, ordre du jour, ...).  Accédez au point ici: ${objectUrl}/annexes_form."
 
-#. Default: "${itemTitle} - There was an error while converting an annex."
+#. Default: "${meetingConfigTitle} - There was an error while converting an annex."
 msgid "annexConversionError_mail_subject"
-msgstr "${itemTitle} - Une erreur est survenue lors de la conversion d'une annexe de ce point."
+msgstr "${meetingConfigTitle} - Une erreur est survenue lors de la conversion d'une annexe."
 
 #. Default: "Default value of the 'to print' checkbox for decision annexes."
 msgid "annex_decision_to_print_default_descr"
@@ -1256,13 +1256,13 @@ msgstr "Comme point récurrent"
 msgid "as_template_item"
 msgstr "Comme canevas de point"
 
-#. Default: "The item is entitled '${itemNumber} - ${itemTitle}'. More information on ${portalUrl}."
+#. Default: "The item is entitled '${itemNumber} - ${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "askDiscussItem_mail_body"
-msgstr "Le titre du point est '${itemNumber} - ${itemTitle}'. Rendez-vous sur ${portalUrl}."
+msgstr "Le titre du point est '${itemNumber} - ${itemTitle}'. Accédez à ce point ici: ${objectUrl}."
 
-#. Default: "${portalTitle} - ${meetingTitle} - ${user}, belonging to group(s) ${groups}, would like to discuss an item."
+#. Default: "${meetingConfigTitle} - ${meetingTitle} - ${user}, belonging to group(s) ${groups}, would like to discuss an item."
 msgid "askDiscussItem_mail_subject"
-msgstr "${portalTitle} - ${meetingTitle} - ${user}, appartenant au(x) groupe(s) ${groups}, souhaiterait évoquer un point."
+msgstr "${meetingConfigTitle} - ${meetingTitle} - ${user}, appartenant au(x) groupe(s) ${groups}, souhaiterait évoquer un point."
 
 #. Default: "Assembly as defined on the linked meeting"
 msgid "assembly_defined_on_meeting"
@@ -1771,6 +1771,10 @@ msgstr "Un point a été reporté"
 msgid "event_item_presented"
 msgstr "Un point a été inséré dans une séance"
 
+#. Default: "An item has been corrected and sent to the meeting managers"
+msgid "event_item_returned_to_meeting_managers"
+msgstr "Un point corrigé par le groupe proposant a été renvoyé aux gestionnaires de séances"
+
 #. Default: "An item has been sent back to the proposing group"
 msgid "event_item_returned_to_proposing_group"
 msgstr "Un point a été renvoyé pour correction au groupe proposant"
@@ -2115,27 +2119,27 @@ msgstr "Le point \"${itemTitle}\" a été envoyé vers la séance \"${meetingCon
 
 #. Default: "While this item is still in the meeting, but marked as 'delayed', a copy of it has been created at ${objectUrl}. You can work on it again and propose it to another meeting."
 msgid "itemDelayed_mail_body"
-msgstr "Alors que ce point est toujours dans la séance mais marqué comme 'reporté', une copie en a été créée à l'URL ${objectUrl}. Vous pouver retravailler ce point et le proposer à une autre séance."
+msgstr "Ce point est toujours dans la séance mais marqué comme 'reporté', une copie en a été créée ici: ${objectUrl}. Vous pouver retravailler ce point et le proposer à une autre séance."
 
-#. Default: "One of your items, ${itemTitle}, has been delayed from a meeting."
+#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
 msgid "itemDelayed_mail_subject"
-msgstr "Un de vos points, ${itemTitle}, a été reporté d'une séance."
+msgstr "${meetingConfigTitle} - Un de vos points: ${itemTitle}, a été reporté."
 
-#. Default: "The meeting is this one: ${meetingTitle}."
+#. Default: "This meeting may still be under construction and is potentially inaccessible.  You can access this item here: ${objectUrl}."
 msgid "itemPresented_mail_body"
-msgstr "La séance est celle-ci: ${meetingTitle}."
+msgstr "La séance est peut-être encore en cours d'élaboration et donc inaccessible pour l'instant.  Accédez au point ici: ${objectUrl}."
 
-#. Default: "One of your items, ${itemTitle}, has been inserted into a meeting. This meeting may still be under construction and is potentially inaccessible."
+#. Default: "${meetingConfigTitle} - One of your items: "${itemTitle}", has been inserted into a meeting."
 msgid "itemPresented_mail_subject"
-msgstr "Un de vos points, ${itemTitle}, a été inséré dans une séance. Cette séance est potentiellement en cours d'élaboration et peut ne pas être accessible."
+msgstr "${meetingConfigTitle} - Un de vos points : '${itemTitle}', a été inséré dans une séance."
 
-#. Default: "The meeting is this one: ${meetingTitle}."
+#. Default: "You can access this item here: ${objectUrl}."
 msgid "itemUnpresented_mail_body"
-msgstr "La séance est celle-ci: ${meetingTitle}."
+msgstr "Accédez au point ici: ${objectUrl}."
 
-#. Default: "One of your items, ${itemTitle}, has been removed from a meeting. This meeting may still be under construction and is potentially inaccessible."
+#. Default: "${meetingConfigTitle} - One of your items: "${itemTitle}", has been removed from a meeting."
 msgid "itemUnpresented_mail_subject"
-msgstr "Un de vos points, ${itemTitle}, a été retiré d'une séance. Cette séance est potentiellement en cours d'élaboration et peut ne pas être accessible."
+msgstr "${meetingConfigTitle} - Un de vos points : '${itemTitle}', a été retiré d'une séance."
 
 #. Default: "Similarly to the preceding field, all the actions that are triggered when an item goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions are documented."
 msgid "item_actions_interface_descr"
@@ -2365,14 +2369,14 @@ msgstr "Au sein de chaque configuration de séance, les points sont numérotés 
 msgid "last_meeting_number_descr"
 msgstr "Au sein de chaque configuration, les séances sont numérotées en séquence."
 
-#. Default: "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "lateItem_mail_body"
-msgstr "Le titre du point est '${itemTitle}'. Rendez-vous sur ${portalUrl}."
+msgstr "Le titre du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}."
 
 # Mails (item-related)
-#. Default: "${portalTitle} A 'late' item has been validated."
+#. Default: "${meetingConfigTitle} - A 'late' item has been validated."
 msgid "lateItem_mail_subject"
-msgstr "${portalTitle} - Un point en retard vient d'être validé."
+msgstr "${meetingConfigTitle} - Un point en retard vient d'être validé."
 
 #. Default: "Items presented after the meeting has been published"
 msgid "late_presented_items"
@@ -3271,13 +3275,21 @@ msgstr "Le point a été renvoyé aux gestionnaires de séances."
 msgid "return_to_proposing_group_done_descr"
 msgstr "Le point a été renvoyé pour corrections au groupe proposant.  Lorsque les corrections nécessaires auront été apportées, le groupe proposant renverra le point aux gestionnaires de séances."
 
-#. Default: "You can access this item here : '${objectUrl}'."
-msgid "returnedToProposingGroup_mail_body"
-msgstr "Vous pouvez accéder au point ici : '${objectUrl}'."
+#. Default: "You can access this item here: '${objectUrl}'."
+msgid "returnedToMeetingManagers_mail_body"
+msgstr "Vous pouvez accéder au point ici: '${objectUrl}'."
 
-#. Default: "The item '${itemTitle}' has been sent back to you for corrections."
+#. Default: "${meetingConfigTitle} - The item '${itemTitle}' has been corrected and sent back to the meeting managers."
+msgid "returnedToMeetingManagers_mail_subject"
+msgstr "${meetingConfigTitle} - Le point '${itemTitle}' a été corrigé par le groupe proposant et renvoyé aux gestionnaires de séances."
+
+#. Default: "You can access this item here: '${objectUrl}'."
+msgid "returnedToProposingGroup_mail_body"
+msgstr "Vous pouvez accéder au point ici: '${objectUrl}'."
+
+#. Default: "${meetingConfigTitle} - The item '${itemTitle}' has been sent back to you for corrections."
 msgid "returnedToProposingGroup_mail_subject"
-msgstr "Le point '${itemTitle}' vous a été renvoyé pour corrections."
+msgstr "${meetingConfigTitle} - Le point '${itemTitle}' vous a été renvoyé pour corrections."
 
 #. Default: "Validator"
 msgid "reviewer"
@@ -3884,4 +3896,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

@@ -2303,6 +2303,10 @@ msgstr ""
 msgid "event_item_returned_to_proposing_group"
 msgstr ""
 
+#. Default: "An item has been corrected and sent to the meeting managers"
+msgid "event_item_returned_to_meeting_managers"
+msgstr ""
+
 #. Default: "List of topics to display in the 'todo' portlet"
 msgid "PloneMeeting_label_toDoListTopics"
 msgstr ""
@@ -2881,31 +2885,31 @@ msgid "searchalldecisions"
 msgstr ""
 
 # Mails (item-related)
-#. Default: "${portalTitle} A 'late' item has been validated."
+#. Default: "${meetingConfigTitle} - A 'late' item has been validated."
 msgid "lateItem_mail_subject"
 msgstr ""
 
-#. Default: "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "lateItem_mail_body"
 msgstr ""
 
-#. Default: "One of your items, ${itemTitle}, has been inserted into a meeting. This meeting may still be under construction and is potentially inaccessible."
+#. Default: "${meetingConfigTitle} - One of your items: "${itemTitle}", has been inserted into a meeting."
 msgid "itemPresented_mail_subject"
 msgstr ""
 
-#. Default: "The meeting is this one: ${meetingTitle}."
+#. Default: "This meeting may still be under construction and is potentially inaccessible.  You can access this item here: ${objectUrl}."
 msgid "itemPresented_mail_body"
 msgstr ""
 
-#. Default: "One of your items, ${itemTitle}, has been removed from a meeting. This meeting may still be under construction and is potentially inaccessible."
+#. Default: "${meetingConfigTitle} - One of your items: "${itemTitle}", has been removed from a meeting."
 msgid "itemUnpresented_mail_subject"
 msgstr ""
 
-#. Default: "The meeting is this one: ${meetingTitle}."
+#. Default: "You can access this item here: ${objectUrl}."
 msgid "itemUnpresented_mail_body"
 msgstr ""
 
-#. Default: "One of your items, ${itemTitle}, has been delayed from a meeting."
+#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
 msgid "itemDelayed_mail_subject"
 msgstr ""
 
@@ -2913,39 +2917,47 @@ msgstr ""
 msgid "itemDelayed_mail_body"
 msgstr ""
 
-#. Default: "${portalTitle} - ${meetingTitle} - An annex was just added to an item."
+#. Default: "${meetingConfigTitle} - ${meetingTitle} - An annex was just added to an item."
 msgid "annexAdded_mail_subject"
 msgstr ""
 
-#. Default: "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
+#. Default: "An annex has been added to the item '${itemTitle}' that was already presented to the meeting.  You can access this item here: ${objectUrl}."
 msgid "annexAdded_mail_body"
 msgstr ""
 
-#. Default: "The item '${itemTitle}' has been sent back to you for corrections."
+#. Default: "${meetingConfigTitle} - The item '${itemTitle}' has been sent back to you for corrections."
 msgid "returnedToProposingGroup_mail_subject"
 msgstr ""
 
-#. Default: "You can access this item here : '${objectUrl}'."
+#. Default: "You can access this item here: '${objectUrl}'."
 msgid "returnedToProposingGroup_mail_body"
 msgstr ""
 
-#. Default: "Your advice (${type}) is requested on an item."
+#. Default: "${meetingConfigTitle} - The item '${itemTitle}' has been corrected and sent back to the meeting managers."
+msgid "returnedToMeetingManagers_mail_subject"
+msgstr ""
+
+#. Default: "You can access this item here: '${objectUrl}'."
+msgid "returnedToMeetingManagers_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 msgid "adviceToGive_mail_subject"
 msgstr ""
 
-#. Default: "The item is entitled '${itemTitle}'. Please consult it at ${objectUrl}."
+#. Default: "You can access this item here: ${objectUrl}."
 msgid "adviceToGive_mail_body"
 msgstr ""
 
-#. Default: "An advice has been added or modified on the item '${itemTitle}'."
+#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item '${itemTitle}'."
 msgid "adviceEdited_mail_subject"
 msgstr ""
 
-#. Default: "More information at ${objectUrl}."
+#. Default: "You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
 msgstr ""
 
-#. Default: "One or your advices has been invalidated on the item '${itemTitle}'."
+#. Default: "${meetingConfigTitle} - One or your advices has been invalidated on the item '${itemTitle}'."
 msgid "adviceInvalidated_mail_subject"
 msgstr ""
 
@@ -2961,11 +2973,11 @@ msgstr ""
 msgid "itemClonedToThisMC_mail_body"
 msgstr ""
 
-#. Default: "${portalTitle} - ${meetingTitle} - ${user}, belonging to group(s) ${groups}, would like to discuss an item."
+#. Default: "${meetingConfigTitle} - ${meetingTitle} - ${user}, belonging to group(s) ${groups}, would like to discuss an item."
 msgid "askDiscussItem_mail_subject"
 msgstr ""
 
-#. Default: "The item is entitled '${itemNumber} - ${itemTitle}'. More information on ${portalUrl}."
+#. Default: "The item is entitled '${itemNumber} - ${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "askDiscussItem_mail_body"
 msgstr ""
 
@@ -3108,7 +3120,7 @@ msgstr ""
 msgid "podMeetingByMail_mail_body"
 msgstr ""
 
-#. Default: "${itemTitle} - There was an error while converting an annex."
+#. Default: "${meetingConfigTitle} - There was an error while converting an annex."
 msgid "annexConversionError_mail_subject"
 msgstr ""
 
