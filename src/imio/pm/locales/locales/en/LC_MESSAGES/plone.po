@@ -29,12 +29,12 @@ msgstr "Annexes (to the decision)"
 
 #. Default: "CopyItem"
 msgid "CopyItem"
-msgstr ""
+msgstr "Copy item(s)"
 
 # Creation action displayed in history
 #. Default: "Created"
 msgid "Created"
-msgstr ""
+msgstr "Created"
 
 #. Default: "Creator"
 msgid "Creator"
@@ -46,7 +46,7 @@ msgstr "Duplicate"
 
 #. Default: "Duplicate and keep link"
 msgid "Duplicate and keep link"
-msgstr ""
+msgstr "Duplicate and keep link"
 
 #. Default: "External application"
 msgid "ExternalApplication"
@@ -59,7 +59,7 @@ msgstr "Login failed"
 
 #. Default: "Meeting"
 msgid "Meeting"
-msgstr ""
+msgstr "Meeting"
 
 #. Default: "Category"
 msgid "MeetingCategory"
@@ -84,7 +84,7 @@ msgstr "PloneMeeting group"
 
 #. Default: "Item"
 msgid "MeetingItem"
-msgstr ""
+msgstr "Item"
 
 #. Default: "Item"
 msgid "MeetingItemPga"
@@ -108,7 +108,7 @@ msgstr "User characteristics"
 
 #. Default: "No meeting to delete."
 msgid "No meeting to delete."
-msgstr ""
+msgstr "No meeting to delete."
 
 #. Default: "PloneMeeting 'folder' view"
 msgid "PloneMeetingFolderView"
@@ -120,17 +120,16 @@ msgid "PodTemplate"
 msgstr "Document template"
 
 #. Default: "state"
-#, fuzzy
 msgid "State"
 msgstr "State"
 
 #. Default: "You can not copy this element : '${title}' is not an item."
 msgid "You can not copy this element : '${title}' is not an item."
-msgstr ""
+msgstr "You can not copy this element : '${title}' is not an item."
 
 #. Default: "You can not copy this item : ${title}, your are not in the same proposing group (${proposingGroup})."
 msgid "You can not copy this item : ${title}, your are not in the same proposing group (${proposingGroup})."
-msgstr ""
+msgstr "You can not copy this item : ${title}, your are not in the same proposing group (${proposingGroup})."
 
 # Workflow transitions
 #. Default: "On creation"
@@ -154,9 +153,8 @@ msgid "active"
 msgstr "Active"
 
 #. Default: "Advices and access"
-#, fuzzy
 msgid "advices"
-msgstr "Advices"
+msgstr "Advices and access"
 
 #. Default: "Archive"
 msgid "archive"
@@ -240,7 +238,7 @@ msgstr "You can not delete a container containing one or several meetings!"
 
 #. Default: "This category can not be deleted, at least one item is linked to this category!"
 msgid "can_not_delete_meetingcategory_meetingitem"
-msgstr ""
+msgstr "This category can not be deleted, at least one item is linked to this category!"
 
 #. Default: "This configuration can not be deleted, at least one meeting linked to this configuration exists!"
 msgid "can_not_delete_meetingconfig_meeting"
@@ -256,11 +254,11 @@ msgstr "This configuration can not be deleted, at least one item linked to this 
 
 #. Default: "This file type can not be deleted, at least one annex is using it!"
 msgid "can_not_delete_meetingfiletype_meetingfile"
-msgstr ""
+msgstr "This file type can not be deleted, at least one annex is using it!"
 
 #. Default: "This group can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}"
 msgid "can_not_delete_meetinggroup_config_meetingitem"
-msgstr ""
+msgstr "This group can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}"
 
 #. Default: "This group can not be deleted, it is referenced in a meeting configuration"
 msgid "can_not_delete_meetinggroup_meetingconfig"
@@ -284,7 +282,7 @@ msgstr "You can not delete this element!"
 
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
-msgstr ""
+msgstr "You can not paste an item coming from another meeting configuration !"
 
 #. Default: "Close"
 msgid "close"
@@ -304,23 +302,23 @@ msgstr "Confirmed"
 
 #. Default: "Create from delayed item"
 msgid "create_from_predecessor"
-msgstr ""
+msgstr "Create from delayed item"
 
 #. Default: "Create a plonegov item from a plonemeeting item"
 msgid "create_to_plonegov-assembly_from_plonemeeting-assembly"
-msgstr ""
+msgstr "Create a plonegov item from a plonemeeting item"
 
 #. Default: "Item created from a Plonemeeting assembly item"
 msgid "create_to_plonegov-assembly_from_plonemeeting-assembly_comments"
-msgstr ""
+msgstr "Item created from a Plonemeeting assembly item"
 
 #. Default: "Create a plonmeeting item from a plonegov item"
 msgid "create_to_plonemeeting-assembly_from_plonegov-assembly"
-msgstr ""
+msgstr "Create a plonmeeting item from a plonegov item"
 
 #. Default: "Item created from a Plonegov assembly item"
 msgid "create_to_plonemeeting-assembly_from_plonegov-assembly_comments"
-msgstr ""
+msgstr "Item created from a Plonegov assembly item"
 
 # Workflow states
 #. Default: "Created"
@@ -362,7 +360,7 @@ msgstr "Delete, incl. items"
 
 #. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
 msgid "description_copyright"
-msgstr ""
+msgstr "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
 
 # Meeting-related vocabulary
 #. Default: ""
@@ -469,7 +467,7 @@ msgstr "The element was deleted."
 
 #. Default: "PloneMeeting view redirecting to the application when logged in"
 msgid "plonemeeting_redirect_to_app_view"
-msgstr ""
+msgstr "PloneMeeting view redirecting to the application when logged in"
 
 #. Default: "Present"
 msgid "present"
@@ -514,6 +512,18 @@ msgstr "Refused"
 #. Default: "Republish"
 msgid "republish"
 msgstr "Republish"
+
+#. Default: "Return to meeting managers"
+msgid "return_to_meeting"
+msgstr "Return to meeting managers"
+
+#. Default: "Return to proposing group for corrections"
+msgid "return_to_proposing_group"
+msgstr "Return to proposing group for corrections"
+
+#. Default: "Returned to proposing group for corrections"
+msgid "returned_to_proposing_group"
+msgstr "Returned to proposing group for corrections"
 
 #. Default: "Tasks"
 msgid "tasks"

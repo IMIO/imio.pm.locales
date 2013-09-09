@@ -2055,6 +2055,10 @@ msgstr ""
 msgid "wa_local_meeting_managers"
 msgstr ""
 
+#. Default: "Return to proposing group for corrections"
+msgid "wa_return_to_proposing_group"
+msgstr ""
+
 #. Default: "Use copies"
 msgid "PloneMeeting_label_useCopies"
 msgstr ""
@@ -2293,6 +2297,10 @@ msgstr ""
 
 #. Default: "An error occured while converting an annex"
 msgid "event_item_annex_conversion_error"
+msgstr ""
+
+#. Default: "An item has been sent back to the proposing group"
+msgid "event_item_returned_to_proposing_group"
 msgstr ""
 
 #. Default: "List of topics to display in the 'todo' portlet"
@@ -2913,6 +2921,14 @@ msgstr ""
 msgid "annexAdded_mail_body"
 msgstr ""
 
+#. Default: "The item '${itemTitle}' has been sent back to you for corrections."
+msgid "returnedToProposingGroup_mail_subject"
+msgstr ""
+
+#. Default: "You can access this item here : '${objectUrl}'."
+msgid "returnedToProposingGroup_mail_body"
+msgstr ""
+
 #. Default: "Your advice (${type}) is requested on an item."
 msgid "adviceToGive_mail_subject"
 msgstr ""
@@ -3477,6 +3493,14 @@ msgstr ""
 msgid "itemfreeze_done_descr"
 msgstr ""
 
+#. Default: "The item has been sent to the proposing group for corrections.  When done, the proposing group will send the item back to the meeting managers."
+msgid "return_to_proposing_group_done_descr"
+msgstr ""
+
+#. Default: "The item has been sent back to the meeting managers."
+msgid "return_to_meeting_done_descr"
+msgstr ""
+
 #. Default: "The meeting has been frozen."
 msgid "freeze_done_descr"
 msgstr ""
@@ -3577,7 +3601,7 @@ msgstr ""
 msgid "refuse_done_descr"
 msgstr ""
 
-#. Default: "The item has been set back to 'presented'.."
+#. Default: "The item has been set back to 'presented'."
 msgid "backToPresented_done_descr"
 msgstr ""
 
@@ -3621,6 +3645,10 @@ msgstr ""
 msgid "icon_help_refused"
 msgstr ""
 
+#. Default: "Returned to proposing group"
+msgid "icon_help_returned_to_proposing_group"
+msgstr ""
+
 #. Default: "In order to perform this action, at least one item should be inserted into this meeting."
 msgid "item_required_to_publish"
 msgstr ""
@@ -3635,6 +3663,10 @@ msgstr ""
 
 #. Default: "At least one mandatory advice for this item is not positive or has not been given."
 msgid "mandatory_advice_ko"
+msgstr ""
+
+#. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
+msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr ""
 
 #. Default: "General"

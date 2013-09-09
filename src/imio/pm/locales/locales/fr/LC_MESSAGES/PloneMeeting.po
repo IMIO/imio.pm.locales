@@ -1385,7 +1385,7 @@ msgstr "Vous venez d'annuler la décision prise sur ce point."
 msgid "backToItemPublished_done_descr"
 msgstr "Vous venez d'annuler le gel de la publication sur ce point."
 
-#. Default: "The item has been set back to 'presented'.."
+#. Default: "The item has been set back to 'presented'."
 #, fuzzy
 msgid "backToPresented_done_descr"
 msgstr "Le point a été remis dans l'état \"présenté\"."
@@ -1417,6 +1417,10 @@ msgstr "Vous venez d'annuler l'archivage de ce point et de sa décision."
 #. Default: "The item has been removed from the meeting agenda."
 msgid "backToValidated_done_descr"
 msgstr "Le point a été retiré de l'ordre du jour."
+
+#. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
+msgid "can_not_return_to_meeting_because_of_meeting_state"
+msgstr "Ce point ne peut plus être renvoyé vers les gestionnaires de séance car la séance dans laquelle ce point est présenté est dans un état qui ne l'autorise pas (${meetingState})."
 
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
@@ -1768,6 +1772,10 @@ msgstr "Un point a été reporté"
 msgid "event_item_presented"
 msgstr "Un point a été inséré dans une séance"
 
+#. Default: "An item has been sent back to the proposing group"
+msgid "event_item_returned_to_proposing_group"
+msgstr "Un point a été renvoyé pour correction au groupe proposant"
+
 #. Default: "An item has been removed from a meeting"
 msgid "event_item_unpresented"
 msgstr "Un point a été retiré d'une séance"
@@ -2053,6 +2061,10 @@ msgstr "L'échéance de validation pour publication dans cette séance n'a pas �
 #. Default: "Refused"
 msgid "icon_help_refused"
 msgstr "Refusé"
+
+#. Default: "Returned to proposing group"
+msgid "icon_help_returned_to_proposing_group"
+msgstr "Renvoyé au groupe proposant"
 
 #. Default: "To use this functionnality, it is necessary that the icon '${iconname}' that will trigger the action exists.  Please creates it before continuing..."
 msgid "iconname_does_not_exist"
@@ -3252,6 +3264,22 @@ msgstr "${portalTitle} - ${meetingTitle} - L'ordre du jour vient d'être (à nou
 msgid "restrict_users_descr"
 msgstr "Si vous cochez cette case, PloneMeeting entre dans une sorte de mode d'urgence qui permet, lors de fortes charges, de limiter le nombre d'utilisateurs ayant accès à la page de visualisation des séances. Si ce mode est activé, seuls les gestionnaires de séance (rôle MeetingManager) et les utilisateurs listés dans le champ ci-dessous pourront accéder aux pages de visualisation des séances."
 
+#. Default: "The item has been sent back to the meeting managers."
+msgid "return_to_meeting_done_descr"
+msgstr "Le point a été renvoyé aux gestionnaires de séances."
+
+#. Default: "The item has been sent to the proposing group for corrections.  When done, the proposing group will send the item back to the meeting managers."
+msgid "return_to_proposing_group_done_descr"
+msgstr "Le point a été renvoyé pour corrections au groupe proposant.  Lorsque les corrections nécessaires auront été apportées, le groupe proposant renverra le point aux gestionnaires de séances."
+
+#. Default: "You can access this item here : '${objectUrl}'."
+msgid "returnedToProposingGroup_mail_body"
+msgstr "Vous pouvez accéder au point ici : '${objectUrl}'."
+
+#. Default: "The item '${itemTitle}' has been sent back to you for corrections."
+msgid "returnedToProposingGroup_mail_subject"
+msgstr "Le point '${itemTitle}' vous a été renvoyé pour corrections."
+
 #. Default: "Validator"
 msgid "reviewer"
 msgstr "Validateur"
@@ -3818,6 +3846,10 @@ msgstr "Seuls les créateurs de points peuvent supprimer des points"
 msgid "wa_pre_validation"
 msgstr "Pré-validation des points"
 
+#. Default: "Return to proposing group for corrections"
+msgid "wa_return_to_proposing_group"
+msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance"
+
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"
 msgstr "Attention: si vous modifiez une donnée et cliquez sur le bouton 'Enregister' au bas du formulaire, tous les avis déjà donnés sur ce point seront invalidés!  Pour ne pas invalider les avis, cliquez sur le bouton 'Annuler' au bas du formulaire."
@@ -3853,3 +3885,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+
