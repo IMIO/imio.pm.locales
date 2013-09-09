@@ -25,7 +25,7 @@ msgstr "Add Todo Portlet"
 
 #. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
 msgid "Annexes preview must be enabled to launch complete annexes conversion process."
-msgstr ""
+msgstr "Annexes preview must be enabled to launch complete annexes conversion process."
 
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
@@ -49,7 +49,7 @@ msgstr "Copy PloneMeeting"
 
 #. Default: "Delete advice"
 msgid "Delete advice"
-msgstr ""
+msgstr "Delete advice"
 
 #. Default: "Download annex"
 msgid "Download annex"
@@ -146,11 +146,11 @@ msgstr "Items presented to this meeting (including those that were presented aft
 
 #. Default: "Decision annex to print default value"
 msgid "PloneMeeting_label_annexDecisionToPrintDefault"
-msgstr ""
+msgstr "Decision annex to print default value"
 
 #. Default: "Annex to print default value"
 msgid "PloneMeeting_label_annexToPrintDefault"
-msgstr ""
+msgstr "Annex to print default value"
 
 #. Default: "Answers"
 msgid "PloneMeeting_label_answerers"
@@ -262,7 +262,7 @@ msgstr "Default advice type"
 
 #. Default: "Default value for the 'motivation' field"
 msgid "PloneMeeting_label_defaultMeetingItemMotivation"
-msgstr ""
+msgstr "Default value for the 'motivation' field"
 
 #. Default: "Default OCR language"
 msgid "PloneMeeting_label_defaultOcrLanguage"
@@ -310,11 +310,11 @@ msgstr "Enable advice invalidation"
 
 #. Default: "Enable annex preview"
 msgid "PloneMeeting_label_enableAnnexPreview"
-msgstr ""
+msgstr "Enable annex preview"
 
 #. Default: "Enable annex to print"
 msgid "PloneMeeting_label_enableAnnexToPrint"
-msgstr ""
+msgstr "Enable annex to print"
 
 #. Default: "Enable 'Go to item' functionality"
 msgid "PloneMeeting_label_enableGotoItem"
@@ -426,7 +426,7 @@ msgstr "Interface allowing to use a specific Zope3 adapter for modifying the con
 
 #. Default: "Item states allowing copy groups to view the item"
 msgid "PloneMeeting_label_itemCopyGroupsStates"
-msgstr ""
+msgstr "Item states allowing copy groups to view the item"
 
 #. Default: "Item decided states"
 msgid "PloneMeeting_label_itemDecidedStates"
@@ -622,7 +622,7 @@ msgstr "Model adaptations"
 
 #. Default: "Motivation"
 msgid "PloneMeeting_label_motivation"
-msgstr ""
+msgstr "Motivation"
 
 #. Default: "Does the navigation portlet allow to navigate in the user folder only"
 msgid "PloneMeeting_label_navigateLocally"
@@ -1005,11 +1005,11 @@ msgstr "The field here above is not used, check the 'users' tab."
 
 #. Default: "There was an error during annex conversion, please contact system administrator."
 msgid "There was an error during annex conversion, please contact system administrator."
-msgstr ""
+msgstr "There was an error during annex conversion, please contact system administrator."
 
 #. Default: "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
 msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
-msgstr ""
+msgstr "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
 
 #. Default: "This portlet shows controls of PloneMeeting."
 msgid "This portlet shows controls of PloneMeeting."
@@ -1037,9 +1037,8 @@ msgid "a_meeting_manager"
 msgstr "A meeting manager"
 
 #. Default: "The item has been accepted."
-#, fuzzy
 msgid "accept_done_descr"
-msgstr "The decision linked to this item has been accepted."
+msgstr "The item has been accepted."
 
 #. Default: "Access information was removed for deleted users ${usersRemoved}."
 msgid "access_info_purged"
@@ -1099,7 +1098,7 @@ msgstr "The advice has been deleted."
 
 #. Default: "Edit advice"
 msgid "advice_edit"
-msgstr ""
+msgstr "Edit advice"
 
 #. Default: "The advice has been created or updated."
 msgid "advice_edited"
@@ -1175,15 +1174,15 @@ msgstr "${portalTitle} - ${meetingTitle} - An annex was just added to an item."
 
 #. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}/annexes_form."
 msgid "annexConversionError_mail_body"
-msgstr ""
+msgstr "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}/annexes_form."
 
 #. Default: "${itemTitle} - There was an error while converting an annex."
 msgid "annexConversionError_mail_subject"
-msgstr ""
+msgstr "${itemTitle} - There was an error while converting an annex."
 
 #. Default: "Default value of the 'to print' checkbox for decision annexes."
 msgid "annex_decision_to_print_default_descr"
-msgstr ""
+msgstr "Default value of the 'to print' checkbox for decision annexes."
 
 #. Default: "Title"
 msgid "annex_title"
@@ -1191,7 +1190,7 @@ msgstr "Title"
 
 #. Default: "Default value of the 'to print' checkbox for annexes."
 msgid "annex_to_print_default_descr"
-msgstr ""
+msgstr "Default value of the 'to print' checkbox for annexes."
 
 #. Default: "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
 msgid "annex_to_print_disabled"
@@ -1275,7 +1274,7 @@ msgstr "Define here the default assembly (for example you may type a list of nam
 
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]])"
 msgid "assembly_meeting_descr"
-msgstr ""
+msgstr "Add [[ ]] around absent people (like [[Mister Sample Peter]])"
 
 #. Default: "Use 'CTRL+click' to select several associated groups."
 msgid "associated_group_item_descr"
@@ -1386,10 +1385,9 @@ msgstr "The decision taken on this item has been canceled."
 msgid "backToItemPublished_done_descr"
 msgstr "This published item is not frozen anymore."
 
-#. Default: "The item has been set back to 'presented'.."
-#, fuzzy
+#. Default: "The item has been set back to 'presented'."
 msgid "backToPresented_done_descr"
-msgstr "Validation has been canceled."
+msgstr "The item has been set back to 'presented'."
 
 #. Default: "Validation has been canceled."
 msgid "backToPrevalidated_done_descr"
@@ -1421,7 +1419,7 @@ msgstr "The item has been removed from the meeting agenda."
 
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
-msgstr ""
+msgstr "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
@@ -1465,7 +1463,7 @@ msgstr "What kind of item would you like to create?"
 
 #. Default: "Highlight in red"
 msgid "ckeditor_style_highlight_in_red"
-msgstr ""
+msgstr "Highlight in red"
 
 #. Default: "A classifier is a bit like a category. You can assign an item a given classifier almost the same way you can assign it a given category. The difference resides in the widget used: the 'category chooser' is a listbox, while the 'classifier chooser' is a ReferenceBrowserWidget (=a popup with filtering capabilities). So if you have many 'categories', you may prefer to use 'classifiers' instead."
 msgid "classifiers_descr"
@@ -1497,7 +1495,7 @@ msgstr "Define here some predefined text that will be present in field 'budget i
 
 #. Default: "Define here some predefined text that will be present in field 'motivation' every time a user creates a new item."
 msgid "config_default_meetingitem_motivation_descr"
-msgstr ""
+msgstr "Define here some predefined text that will be present in field 'motivation' every time a user creates a new item."
 
 #. Default: "Active?"
 msgid "config_is_active"
@@ -1556,9 +1554,8 @@ msgid "create_meeting_item"
 msgstr "Create an item"
 
 #. Default: "Create an item from a template"
-#, fuzzy
 msgid "create_meeting_item_from"
-msgstr "Create an item from..."
+msgstr "Create an item from a template"
 
 #. Default: "Create an item in the current folder"
 msgid "create_meeting_item_in_current_folder"
@@ -1678,18 +1675,16 @@ msgid "deferred_notifs_handling_descr"
 msgstr "If you check this box, handling of notifications received from external systems will be handled only during next night. Do this if you expect this handling to take a long time."
 
 #. Default: "The item has been delayed.  It has been duplicated for the corresponding proposing group so it can propose it again easily."
-#, fuzzy
 msgid "delay_done_descr"
-msgstr "The item has been flagged as 'delayed'. Moreover, it has been duplicated: the proposing group will be able to propose its copy to another meeting. Note that if you cancel this action, the copy will not be deleted."
+msgstr "The item has been delayed.  It has been duplicated for the corresponding proposing group so it can propose it again easily."
 
 #. Default: "Delete archived meetings"
 msgid "delete_archived_meetings"
 msgstr "Delete archived meetings"
 
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
-#, fuzzy
 msgid "description_only_see_visible_items"
-msgstr "You are just able to see visible elements here."
+msgstr "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 
 #. Default: "Documents"
 msgid "doc"
@@ -1709,11 +1704,11 @@ msgstr "When advice invalidation is enabled, every change to an item for which a
 
 #. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
-msgstr ""
+msgstr "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 
 #. Default: "Let the user specify if an annex needs to be printed or not.  WARNING, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
 msgid "enable_annex_to_print_descr"
-msgstr ""
+msgstr "Let the user specify if an annex needs to be printed or not.  WARNING, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
 
 #. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."
 msgid "enable_goto_item_descr"
@@ -1762,7 +1757,7 @@ msgstr "An advice on an item has been invalidated"
 
 #. Default: "An error occured while converting an annex"
 msgid "event_item_annex_conversion_error"
-msgstr ""
+msgstr "An error occured while converting an annex"
 
 #. Default: "An item as been cloned to this meetingConfig"
 msgid "event_item_clone_to_this_mc"
@@ -1778,7 +1773,7 @@ msgstr "An item has been inserted into a meeting"
 
 #. Default: "An item has been sent back to the proposing group"
 msgid "event_item_returned_to_proposing_group"
-msgstr ""
+msgstr "An item has been sent back to the proposing group"
 
 #. Default: "An item has been removed from a meeting"
 msgid "event_item_unpresented"
@@ -1869,9 +1864,8 @@ msgid "freeze_deadline_default_descr"
 msgstr "Specify here the deadline for validating late items to be inserted in a given meeting.  Leave the field empty not to use this functionnality."
 
 #. Default: "The meeting has been frozen."
-#, fuzzy
 msgid "freeze_done_descr"
-msgstr "The published agenda has been frozen."
+msgstr "The meeting has been frozen."
 
 #. Default: "When the event selected in this list occurs on a given object in Plone, a document for this object will be generated from this POD template into the Plone database. Subsequent requests for generating a document from this POD template for the same object will return the 'frozen' document instead of recomputing it using POD."
 msgid "freeze_event_descr"
@@ -1973,15 +1967,15 @@ msgstr "No preview available because this type of file can not be converted.  Pl
 
 #. Default: "No preview available because there was an error during conversion to a previewable format.  Please contact system administrator that will have access to more debugging informations."
 msgid "help_no_preview_available_conversion_error"
-msgstr ""
+msgstr "No preview available because there was an error during conversion to a previewable format.  Please contact system administrator that will have access to more debugging informations."
 
 #. Default: "No preview available because there was an error during conversion to a previewable format.  Click on the annex to access debugging informations."
 msgid "help_no_preview_available_conversion_error_manager"
-msgstr ""
+msgstr "No preview available because there was an error during conversion to a previewable format.  Click on the annex to access debugging informations."
 
 #. Default: "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 1 or 2 seconds by page."
 msgid "help_no_preview_available_under_conversion"
-msgstr ""
+msgstr "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 1 or 2 seconds by page."
 
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
@@ -2069,7 +2063,7 @@ msgstr "Refused"
 
 #. Default: "Returned to proposing group"
 msgid "icon_help_returned_to_proposing_group"
-msgstr ""
+msgstr "Returned to proposing group"
 
 #. Default: "To use this functionnality, it is necessary that the icon '${iconname}' that will trigger the action exists.  Please creates it before continuing..."
 msgid "iconname_does_not_exist"
@@ -2164,9 +2158,8 @@ msgid "item_advice_view_states_descr"
 msgstr "When an item is in one of the states you choose here, it will be possible for groups the advice is asked for, to continue to view the item.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 
 #. Default: "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])"
-#, fuzzy
 msgid "item_assembly_descr"
-msgstr "If you don't fill this field, meeting assembly will be used for this item."
+msgstr "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])"
 
 #. Default: "Attendees for the item"
 msgid "item_attendees"
@@ -2194,7 +2187,7 @@ msgstr "On the item workflow, some boolean expressions guard the execution of th
 
 #. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red';>If you change this parameter, do not forget to update copy groups!</span>"
 msgid "item_copygroups_states_descr"
-msgstr ""
+msgstr "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red';>If you change this parameter, do not forget to update copy groups!</span>"
 
 #. Default: "Choose decided state for an item"
 msgid "item_decided_states_descr"
@@ -2936,7 +2929,7 @@ msgstr "Choose advisers that will have to issue an optional advice for this item
 
 #. Default: ""
 msgid "oral_question_item_descr"
-msgstr ""
+msgstr " "
 
 #. Default: "Parameters defined if the user has a specific function"
 msgid "params_as_special_user"
@@ -2996,7 +2989,7 @@ msgstr "Identifier"
 
 #. Default: "Convert annexes for preview"
 msgid "pm_convert_annexes"
-msgstr ""
+msgstr "Convert annexes for preview"
 
 #. Default: "Creation date"
 msgid "pm_creation_date"
@@ -3045,7 +3038,7 @@ msgstr "Update annex indexes"
 
 #. Default: "Update copyGroups"
 msgid "pm_update_copygroups"
-msgstr ""
+msgstr "Update copyGroups"
 
 #. Default: "Update PowerObservers"
 msgid "pm_update_powerobservers"
@@ -3242,7 +3235,7 @@ msgstr "You manage here predefined items that will serve, for different purposes
 
 #. Default: "You have been redirected here because you do not have access anymore to the element you just changed the state for."
 msgid "redirected_after_transition_not_viewable"
-msgstr ""
+msgstr "You have been redirected here because you do not have access anymore to the element you just changed the state for."
 
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
@@ -3274,19 +3267,19 @@ msgstr "If you check this box, PloneMeeting will enter into a kind of 'emergency
 
 #. Default: "The item has been sent back to the meeting managers."
 msgid "return_to_meeting_done_descr"
-msgstr ""
+msgstr "The item has been sent back to the meeting managers."
 
 #. Default: "The item has been sent to the proposing group for corrections.  When done, the proposing group will send the item back to the meeting managers."
 msgid "return_to_proposing_group_done_descr"
-msgstr ""
+msgstr "The item has been sent to the proposing group for corrections.  When done, the proposing group will send the item back to the meeting managers."
 
 #. Default: "You can access this item here : '${objectUrl}'."
 msgid "returnedToProposingGroup_mail_body"
-msgstr ""
+msgstr "You can access this item here : '${objectUrl}'."
 
 #. Default: "The item '${itemTitle}' has been sent back to you for corrections."
 msgid "returnedToProposingGroup_mail_subject"
-msgstr ""
+msgstr "The item '${itemTitle}' has been sent back to you for corrections."
 
 #. Default: "Validator"
 msgid "reviewer"
@@ -3856,7 +3849,7 @@ msgstr "Item pre-validation"
 
 #. Default: "Return to proposing group for corrections"
 msgid "wa_return_to_proposing_group"
-msgstr ""
+msgstr "Return to proposing group for corrections"
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"
@@ -3893,4 +3886,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-
