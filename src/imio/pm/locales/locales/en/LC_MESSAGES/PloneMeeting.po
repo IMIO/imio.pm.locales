@@ -35,6 +35,18 @@ msgstr "Annexes (decision)"
 msgid "Any meeting"
 msgstr "No preference"
 
+#. Default: "Apply"
+msgid "Apply"
+msgstr ""
+
+#. Default: "Apply until item number"
+msgid "Apply until item number"
+msgstr ""
+
+#. Default: "Cancel"
+msgid "Cancel"
+msgstr ""
+
 #. Default: "Item categories"
 msgid "Categories"
 msgstr "Item categories"
@@ -67,6 +79,14 @@ msgstr "Edit PloneMeeting Portlet"
 msgid "Edit Todo Portlet"
 msgstr "Edit Todo Portlet"
 
+#. Default: "Enter the item assembly to be applied.  The value displayed by default is the value of the current item."
+msgid "Enter the item assembly to be applied.  The value displayed by default is the value of the current item."
+msgstr ""
+
+#. Default: "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
+msgid "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
+msgstr ""
+
 #. Default: "How many items to list in each topic."
 msgid "How many items to list in each topic."
 msgstr "How many items to list in each topic."
@@ -75,9 +95,41 @@ msgstr "How many items to list in each topic."
 msgid "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
 msgstr "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
 
+#. Default: "If you specify a number, the item assembly entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
+msgid "If you specify a number, the item assembly entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
+msgstr ""
+
+#. Default: "If you specify a number, the item signatures entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
+msgid "If you specify a number, the item signatures entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
+msgstr ""
+
+#. Default: "Item assemblies have been updated."
+msgid "Item assemblies have been updated."
+msgstr ""
+
+#. Default: "Item assembly to apply"
+msgid "Item assembly to apply"
+msgstr ""
+
+#. Default: "Item signatures have been updated."
+msgid "Item signatures have been updated."
+msgstr ""
+
+#. Default: "Item signatures to apply"
+msgid "Item signatures to apply"
+msgstr ""
+
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
+
+#. Default: "Manage item assembly"
+msgid "Manage item assembly"
+msgstr ""
+
+#. Default: "Manage item signatures"
+msgid "Manage item signatures"
+msgstr ""
 
 #. Default: "Category"
 msgid "MeetingCategory"
@@ -1696,6 +1748,14 @@ msgstr "Delete archived meetings"
 msgid "description_only_see_visible_items"
 msgstr "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 
+#. Default: "Assembly stored on the linked meeting"
+msgid "display_meeting_assembly_legend"
+msgstr ""
+
+#. Default: "signatures stored on the linked meeting"
+msgid "display_meeting_signatures_legend"
+msgstr ""
+
 #. Default: "Documents"
 msgid "doc"
 msgstr "Documents"
@@ -2176,13 +2236,13 @@ msgstr "When an item is in one of the states you choose here, it will be possibl
 msgid "item_advice_view_states_descr"
 msgstr "When an item is in one of the states you choose here, it will be possible for groups the advice is asked for, to continue to view the item.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 
+#. Default: "Assembly for the item"
+msgid "item_assembly"
+msgstr ""
+
 #. Default: "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])"
 msgid "item_assembly_descr"
 msgstr "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])"
-
-#. Default: "Attendees for the item"
-msgid "item_attendees"
-msgstr "Attendees for the item"
 
 #. Default: "Budgetary informations"
 msgid "item_budgetinfos_descr"
@@ -2474,6 +2534,10 @@ msgstr "Test"
 #. Default: "--Make a choice--"
 msgid "make_a_choice"
 msgstr "--Make a choice--"
+
+#. Default: "Unable to update following items because you can not edit them, item numbers : ${itemNumbers}"
+msgid "manage_item_not_update_items_numbers"
+msgstr ""
 
 #. Default: "At least one mandatory advice for this item is not positive or has not been given."
 msgid "mandatory_advice_ko"

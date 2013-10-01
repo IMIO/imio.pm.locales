@@ -35,6 +35,18 @@ msgstr "Annexes (décision)"
 msgid "Any meeting"
 msgstr "Pas de préférence"
 
+#. Default: "Apply"
+msgid "Apply"
+msgstr "Appliquer"
+
+#. Default: "Apply until item number"
+msgid "Apply until item number"
+msgstr "Appliquer jusqu'au point numéro"
+
+#. Default: "Cancel"
+msgid "Cancel"
+msgstr "Annuler"
+
 #. Default: "Item categories"
 msgid "Categories"
 msgstr "Catégories de points"
@@ -67,6 +79,14 @@ msgstr "Edition d'un portlet 'PloneMeeting'"
 msgid "Edit Todo Portlet"
 msgstr "Edition du portlet 'à faire'"
 
+#. Default: "Enter the item assembly to be applied.  The value displayed by default is the value of the current item."
+msgid "Enter the item assembly to be applied.  The value displayed by default is the value of the current item."
+msgstr "Encodez l'assemblée qui devra être appliquée.  La valeur affichée par défaut dans ce champ est la valeur définie sur le point courant."
+
+#. Default: "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
+msgid "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
+msgstr "Encodez les signatures qui devront être appliquées.  La valeur affichée par défaut dans ce champ est la valeur définie sur le point courant."
+
 #. Default: "How many items to list in each topic."
 msgid "How many items to list in each topic."
 msgstr "Nombre d'éléments à afficher par recherche dans le portlet."
@@ -75,9 +95,41 @@ msgstr "Nombre d'éléments à afficher par recherche dans le portlet."
 msgid "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
 msgstr "Si vous désactivez ce groupe PloneMeeting, tous les utilisateurs des groupes Plone liés seront transférés dans le sous-groupe '(Observateurs)' de sorte qu'ils puissent toujours avoir un accès en lecture aux points existants mais qu'il ne puisse plus en créer de nouveaux. De plus, ce groupe sera enlevé des groupes qui pourront être mis en copies dans les différentes configurations de séance."
 
+#. Default: "If you specify a number, the item assembly entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
+msgid "If you specify a number, the item assembly entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
+msgstr "Si vous spécifiez un numéro, l'assemblée définie dans le champ ci-dessus sera appliquée à partir du point courant jusqu'au point ayant ce numéro.  Laissez ce champ vide pour appliquer uniquement sur le point courant."
+
+#. Default: "If you specify a number, the item signatures entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
+msgid "If you specify a number, the item signatures entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
+msgstr "Si vous spécifiez un numéro, les signatures définies dans le champ ci-dessus seront appliquées à partir du point courant jusqu'au point ayant ce numéro.  Laissez ce champ vide pour appliquer uniquement sur le point courant."
+
+#. Default: "Item assemblies have been updated."
+msgid "Item assemblies have been updated."
+msgstr "Les assemblées des points ont été mises à jour."
+
+#. Default: "Item assembly to apply"
+msgid "Item assembly to apply"
+msgstr "Assemblée à appliquer"
+
+#. Default: "Item signatures have been updated."
+msgid "Item signatures have been updated."
+msgstr "Les signatures des points ont été mises à jour."
+
+#. Default: "Item signatures to apply"
+msgid "Item signatures to apply"
+msgstr "Signatures à appliquer"
+
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr "Limite le nombre de caractères du titre du point qui seront affichés dans le portlet pour éviter les titres trop longs."
+
+#. Default: "Manage item assembly"
+msgid "Manage item assembly"
+msgstr "Gestion de l'assemblée spécifique pour les points"
+
+#. Default: "Manage item signatures"
+msgid "Manage item signatures"
+msgstr "Gestion des signatures spécifiques pour les points"
 
 #. Default: "Category"
 msgid "MeetingCategory"
@@ -1686,6 +1738,14 @@ msgstr "Supprimer les séances archivées"
 msgid "description_only_see_visible_items"
 msgstr "Vous êtes seulement autorisé à consulter les éléments visibles.  Utilisez la boîte 'Gestion' ci-contre pour consulter le contenu que vous pouvez voir."
 
+#. Default: "Assembly stored on the linked meeting"
+msgid "display_meeting_assembly_legend"
+msgstr "Assemblée définie sur la séance"
+
+#. Default: "signatures stored on the linked meeting"
+msgid "display_meeting_signatures_legend"
+msgstr "Signatures définies sur la séance"
+
 #. Default: "Documents"
 msgid "doc"
 msgstr "Documents"
@@ -2161,13 +2221,13 @@ msgstr "Quand un point est dans un des états que vous sélectionnez ici, il ser
 msgid "item_advice_view_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera toujours visible par les personnes auxquelles un avis est demandé sur le point.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les avis!</span>"
 
+#. Default: "Assembly for the item"
+msgid "item_assembly"
+msgstr "Assemblée pour ce point"
+
 #. Default: "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])"
 msgid "item_assembly_descr"
 msgstr "Si vous ne remplissez pas ce champ, l'assemblée définie sur la séance sera utilisée. Ajoutez des double crochets [[ ]] autour des personnes absentes, par exemple : [[Mr. Untel Didier]]"
-
-#. Default: "Attendees for the item"
-msgid "item_attendees"
-msgstr "Présents pour ce point"
 
 #. Default: "Budgetary informations"
 msgid "item_budgetinfos_descr"
@@ -2457,6 +2517,10 @@ msgstr "Test"
 #. Default: "--Make a choice--"
 msgid "make_a_choice"
 msgstr "--Choisissez--"
+
+#. Default: "Unable to update following items because you can not edit them, item numbers : ${itemNumbers}"
+msgid "manage_item_not_update_items_numbers"
+msgstr "Impossible de mettre à jour le(s) point(s) suivant(s) car vous n'avez pas la permission de le(s) modifier, point(s) numéro(s) : ${itemNumbers}"
 
 #. Default: "At least one mandatory advice for this item is not positive or has not been given."
 msgid "mandatory_advice_ko"
