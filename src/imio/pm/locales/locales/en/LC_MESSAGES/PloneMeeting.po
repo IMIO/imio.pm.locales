@@ -1284,14 +1284,6 @@ msgstr "Annexes"
 msgid "archive_done_descr"
 msgstr "The definitive decisions have been archived for this meeting."
 
-#. Default: "More information on ${portalUrl}."
-msgid "archive_mail_body"
-msgstr "More information on ${portalUrl}."
-
-#. Default: "${portalTitle} - ${meetingTitle} - The (definitive) decisions have been archived."
-msgid "archive_mail_subject"
-msgstr "${portalTitle} - ${meetingTitle} - The (definitive) decisions have been archived."
-
 #. Default: "Are you sure?"
 msgid "are_you_sure"
 msgstr "Are you sure?"
@@ -1383,14 +1375,6 @@ msgstr "You just canceled the confirmation of the accepted decision linked to th
 msgid "backToClosed_done_descr"
 msgstr "The archiving of definitive decisions has been canceled."
 
-#. Default: "More information on ${portalUrl}. Decisions will be archived later on."
-msgid "backToClosed_mail_body"
-msgstr "More information on ${portalUrl}. Decisions will be archived later on."
-
-#. Default: "${portalTitle} - ${meetingTitle} - The archiving of (definitive) decisions has been canceled."
-msgid "backToClosed_mail_subject"
-msgstr "${portalTitle} - ${meetingTitle} - The archiving of (definitive) decisions has been canceled."
-
 #. Default: "The archiving of this item and its decision has been canceled."
 msgid "backToConfirmed_done_descr"
 msgstr "The archiving of this item and its decision has been canceled."
@@ -1399,25 +1383,9 @@ msgstr "The archiving of this item and its decision has been canceled."
 msgid "backToCreated_done_descr"
 msgstr "The publication of the meeting agenda has been canceled."
 
-#. Default: "More information on ${portalUrl}. The agenda will be published later on."
-msgid "backToCreated_mail_body"
-msgstr "More information on ${portalUrl}. The agenda will be published later on."
-
-#. Default: "${portalTitle} - ${meetingTitle} - The publication of the agenda has been canceled."
-msgid "backToCreated_mail_subject"
-msgstr "${portalTitle} - ${meetingTitle} - The publication of the agenda has been canceled."
-
 #. Default: "The publication of definitive decisions has been canceled."
 msgid "backToDecided_done_descr"
 msgstr "The publication of definitive decisions has been canceled."
-
-#. Default: "More information on ${portalUrl}. (Definitive) decisions will be published later on."
-msgid "backToDecided_mail_body"
-msgstr "More information on ${portalUrl}. (Definitive) decisions will be published later on."
-
-#. Default: "${portalTitle} - ${meetingTitle} - The publication of (definitive) decisions has been canceled."
-msgid "backToDecided_mail_subject"
-msgstr "${portalTitle} - ${meetingTitle} - The publication of (definitive) decisions has been canceled."
 
 #. Default: "The archiving of this item and its decision has been canceled."
 msgid "backToDelayed_done_descr"
@@ -1426,14 +1394,6 @@ msgstr "The archiving of this item and its decision has been canceled."
 #. Default: "The publication of temporary decisions has been canceled."
 msgid "backToFrozen_done_descr"
 msgstr "The publication of temporary decisions has been canceled."
-
-#. Default: "More information on ${portalUrl}. Decisions will be published later on."
-msgid "backToFrozen_mail_body"
-msgstr "More information on ${portalUrl}. Decisions will be published later on."
-
-#. Default: "${portalTitle} - ${meetingTitle} - The publication of (temporary) decisions has been canceled."
-msgid "backToFrozen_mail_subject"
-msgstr "${portalTitle} - ${meetingTitle} - The publication of (temporary) decisions has been canceled."
 
 #. Default: "This item is back in its initial state. The person who created it (or another creator within the same group) can now modify it and will need to propose it again once finished."
 msgid "backToItemCreated_done_descr"
@@ -1462,14 +1422,6 @@ msgstr "This item is not reviewed anymore: (the) meeting manager(s) can't see it
 #. Default: "The meeting agenda is not frozen anymore."
 msgid "backToPublished_done_descr"
 msgstr "The meeting agenda is not frozen anymore."
-
-#. Default: "More information on ${portalUrl}. The published agenda will soon be frozen again."
-msgid "backToPublished_mail_body"
-msgstr "More information on ${portalUrl}. The published agenda will soon be frozen again."
-
-#. Default: "${portalTitle} - ${meetingTitle} - The published agenda is not frozen anymore."
-msgid "backToPublished_mail_subject"
-msgstr "${portalTitle} - ${meetingTitle} - The published agenda is not frozen anymore."
 
 #. Default: "The archiving of this item and its decision has been canceled."
 msgid "backToRefused_done_descr"
@@ -1538,14 +1490,6 @@ msgstr "Clone to"
 #. Default: "The definitive decisions have been published for this meeting."
 msgid "close_done_descr"
 msgstr "The definitive decisions have been published for this meeting."
-
-#. Default: "More information on ${portalUrl}."
-msgid "close_mail_body"
-msgstr "More information on ${portalUrl}."
-
-#. Default: "${portalTitle} - ${meetingTitle} - The (definitive) decisions have been published."
-msgid "close_mail_subject"
-msgstr "${portalTitle} - ${meetingTitle} - The (definitive) decisions have been published."
 
 #. Default: "If the color system is enabled (previous parameter), it will be disabled for the users whose ids are specified here (one user id per line)."
 msgid "color_system_disabled_for_descr"
@@ -1682,14 +1626,6 @@ msgstr "The element has been deactivated."
 #. Default: "The temporary decisions have been published for this meeting."
 msgid "decide_done_descr"
 msgstr "The temporary decisions have been published for this meeting."
-
-#. Default: "More information on ${portalUrl}."
-msgid "decide_mail_body"
-msgstr "More information on ${portalUrl}."
-
-#. Default: "${portalTitle} - ${meetingTitle} - The (temporary) decisions have been published."
-msgid "decide_mail_subject"
-msgstr "${portalTitle} - ${meetingTitle} - The (temporary) decisions have been published."
 
 #. Default: "For every selected items, apply following action"
 msgid "decide_several_items_help"
@@ -1945,14 +1881,6 @@ msgstr "The meeting has been frozen."
 msgid "freeze_event_descr"
 msgstr "When the event selected in this list occurs on a given object in Plone, a document for this object will be generated from this POD template into the Plone database. Subsequent requests for generating a document from this POD template for the same object will return the 'frozen' document instead of recomputing it using POD."
 
-#. Default: "More information on ${portalUrl}."
-msgid "freeze_mail_body"
-msgstr "More information on ${portalUrl}."
-
-#. Default: "${portalTitle} - ${meetingTitle} - The published agenda has been frozen."
-msgid "freeze_mail_subject"
-msgstr "${portalTitle} - ${meetingTitle} - The published agenda has been frozen."
-
 #. Default: "In Plone, by default, you can only define one 'admin' (email and name). This admin is used a.o. as 'from' address of all emails sent by the Plone site and is used by PloneMeeting for, ie, sending emails when some errors occur. This default situation can cause problems if the Plone site running PloneMeeting is operated by a person which is not a webmaster but a guy having functional knowlegde and no technical knowledge. If you encounter such problems, you can define here the email address of a 'functional administrator'. If defined, this email address will be used as 'from' address for all PloneMeeting email notifications (instead of the standard admin email adress). So if people reply to those notifications, the functional administrator will get it, not the standard admin (='technical administrator' in this case). Indeed, this could be needed for confidentiality reasons. Technical messages and posts from the 'contact form' will be sent to the technical administrator."
 msgid "functional_admin_email_descr"
 msgstr "In Plone, by default, you can only define one 'admin' (email and name). This admin is used a.o. as 'from' address of all emails sent by the Plone site and is used by PloneMeeting for, ie, sending emails when some errors occur. This default situation can cause problems if the Plone site running PloneMeeting is operated by a person which is not a webmaster but a guy having functional knowlegde and no technical knowledge. If you encounter such problems, you can define here the email address of a 'functional administrator'. If defined, this email address will be used as 'from' address for all PloneMeeting email notifications (instead of the standard admin email adress). So if people reply to those notifications, the functional administrator will get it, not the standard admin (='technical administrator' in this case). Indeed, this could be needed for confidentiality reasons. Technical messages and posts from the 'contact form' will be sent to the technical administrator."
@@ -2179,7 +2107,8 @@ msgstr "Signer?"
 msgid "is_voter"
 msgstr "Voter?"
 
-#. Default: "You can consult the item new at ${objectUrl}."
+#. Default: "You can consult the new item at ${objectUrl}."
+#, fuzzy
 msgid "itemClonedToThisMC_mail_body"
 msgstr "You can consult the item new at ${objectUrl}."
 
@@ -2339,6 +2268,19 @@ msgstr "Specifically, for this item:"
 #. Default: "State"
 msgid "item_state"
 msgstr "State"
+
+#. Default: "You can consult this item at ${objectUrl}."
+msgid "item_state_changed_default_mail_body"
+msgstr ""
+
+# Mails (item-related)
+# Default translation for mails sent upon item transition
+# This default is used if no accurate translation can be found. We will try for example to translate
+# item_state_changed_decided_mail_subject, if not found (by default), we use item_state_changed_default_mail_subject.
+# This way we can have specific mail message for each different transition
+#. Default: "${meetingConfigTitle} - ${itemTitle} - The item is now in state '${itemState}'."
+msgid "item_state_changed_default_mail_subject"
+msgstr ""
 
 #. Default: "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
 msgid "item_topic_states_descr"
@@ -2657,6 +2599,19 @@ msgstr "Signatories"
 msgid "meeting_signatures"
 msgstr "Signatures"
 
+#. Default: "You can consult this meeting at ${objectUrl}."
+msgid "meeting_state_changed_default_mail_body"
+msgstr ""
+
+# Mails (meeting-related)
+# Default translation for mails sent upon meeting transition
+# This default is used if no accurate translation can be found. We will try for example to translate
+# meeting_state_changed_decided_mail_subject, if not found (by default), we use meeting_state_changed_default_mail_subject.
+# This way we can have specific mail message for each different transition
+#. Default: "${meetingConfigTitle} - ${meetingTitle} - The meeting is now in state '${meetingState}'."
+msgid "meeting_state_changed_default_mail_subject"
+msgstr ""
+
 #. Default: "Meetings being in the states you select here will appear in the 'meetings' portlet. Typically you will display there meetings under creation or published meetings that did not took place yet. The idea is to select here a given set of states and to select, in the next field, all the other states. This way, users can distinguish between future and past meetings (past meetings are the object of the next field)."
 msgid "meeting_topic_states_descr"
 msgstr "Meetings being in the states you select here will appear in the 'meetings' portlet. Typically you will display there meetings under creation or published meetings that did not took place yet. The idea is to select here a given set of states and to select, in the next field, all the other states. This way, users can distinguish between future and past meetings (past meetings are the object of the next field)."
@@ -2782,10 +2737,6 @@ msgstr "Select here some standard adaptations that can be applied to data struct
 #. Default: "modification_color"
 msgid "modification_color"
 msgstr "Colorize depending on modification"
-
-#. Default: "Modified field"
-msgid "modified_field"
-msgstr "Modified field"
 
 #. Default: "Move the item down"
 msgid "move_item_down"
@@ -3244,10 +3195,6 @@ msgstr "Items presented to this meeting"
 msgid "prevalidate_done_descr"
 msgstr "Your item has been pre-reviewed: it is now visible to (a) reviewer(s), that may decide to validate it."
 
-#. Default: "Modification (or previous value)"
-msgid "previous_value"
-msgstr "Modification (or previous value)"
-
 #. Default: "Your item has been proposed. It must now be reviewed by someone in your group before being visible to a meeting manager. If you are yourself reviewer in your group, the 'validate' button is shown below."
 msgid "propose_done_descr"
 msgstr "Your item has been proposed. It must now be reviewed by someone in your group before being visible to a meeting manager. If you are yourself reviewer in your group, the 'validate' button is shown below."
@@ -3275,15 +3222,6 @@ msgstr "Specify here the deadline for validating items to be inserted in a given
 #. Default: "The meeting agenda has been published."
 msgid "publish_done_descr"
 msgstr "The meeting agenda has been published."
-
-#. Default: "More information on ${portalUrl}."
-msgid "publish_mail_body"
-msgstr "More information on ${portalUrl}."
-
-# Mails (meeting-related)
-#. Default: "${portalTitle} - ${meetingTitle} - The agenda has been published."
-msgid "publish_mail_subject"
-msgstr "${portalTitle} - ${meetingTitle} - The agenda has been published."
 
 #. Default: "Remove access info for deleted users"
 msgid "purge_user_access_info"
@@ -3337,14 +3275,6 @@ msgstr "Remove this information"
 #. Default: "The meeting agenda has been published again."
 msgid "republish_done_descr"
 msgstr "The meeting agenda has been published again."
-
-#. Default: "More information on ${portalUrl}."
-msgid "republish_mail_body"
-msgstr "More information on ${portalUrl}."
-
-#. Default: "${portalTitle} - ${meetingTitle} - The agenda has been published (again)."
-msgid "republish_mail_subject"
-msgstr "${portalTitle} - ${meetingTitle} - The agenda has been published (again)."
 
 #. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"

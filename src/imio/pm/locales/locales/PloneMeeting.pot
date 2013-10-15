@@ -2953,6 +2953,18 @@ msgid "searchalldecisions"
 msgstr ""
 
 # Mails (item-related)
+# Default translation for mails sent upon item transition
+# This default is used if no accurate translation can be found. We will try for example to translate
+# item_state_changed_decided_mail_subject, if not found (by default), we use item_state_changed_default_mail_subject.
+# This way we can have specific mail message for each different transition
+#. Default: "${meetingConfigTitle} - ${itemTitle} - The item is now in state '${itemState}'."
+msgid "item_state_changed_default_mail_subject"
+msgstr ""
+
+#. Default: "You can consult this item at ${objectUrl}."
+msgid "item_state_changed_default_mail_body"
+msgstr ""
+
 #. Default: "${meetingConfigTitle} - A 'late' item has been validated."
 msgid "lateItem_mail_subject"
 msgstr ""
@@ -3037,7 +3049,7 @@ msgstr ""
 msgid "itemClonedToThisMC_mail_subject"
 msgstr ""
 
-#. Default: "You can consult the item new at ${objectUrl}."
+#. Default: "You can consult the new item at ${objectUrl}."
 msgid "itemClonedToThisMC_mail_body"
 msgstr ""
 
@@ -3050,92 +3062,16 @@ msgid "askDiscussItem_mail_body"
 msgstr ""
 
 # Mails (meeting-related)
-#. Default: "${portalTitle} - ${meetingTitle} - The agenda has been published."
-msgid "publish_mail_subject"
+# Default translation for mails sent upon meeting transition
+# This default is used if no accurate translation can be found. We will try for example to translate
+# meeting_state_changed_decided_mail_subject, if not found (by default), we use meeting_state_changed_default_mail_subject.
+# This way we can have specific mail message for each different transition
+#. Default: "${meetingConfigTitle} - ${meetingTitle} - The meeting is now in state '${meetingState}'."
+msgid "meeting_state_changed_default_mail_subject"
 msgstr ""
 
-#. Default: "More information on ${portalUrl}."
-msgid "publish_mail_body"
-msgstr ""
-
-#. Default: "${portalTitle} - ${meetingTitle} - The agenda has been published (again)."
-msgid "republish_mail_subject"
-msgstr ""
-
-#. Default: "More information on ${portalUrl}."
-msgid "republish_mail_body"
-msgstr ""
-
-#. Default: "${portalTitle} - ${meetingTitle} - The published agenda has been frozen."
-msgid "freeze_mail_subject"
-msgstr ""
-
-#. Default: "More information on ${portalUrl}."
-msgid "freeze_mail_body"
-msgstr ""
-
-#. Default: "${portalTitle} - ${meetingTitle} - The (temporary) decisions have been published."
-msgid "decide_mail_subject"
-msgstr ""
-
-#. Default: "More information on ${portalUrl}."
-msgid "decide_mail_body"
-msgstr ""
-
-#. Default: "${portalTitle} - ${meetingTitle} - The (definitive) decisions have been published."
-msgid "close_mail_subject"
-msgstr ""
-
-#. Default: "More information on ${portalUrl}."
-msgid "close_mail_body"
-msgstr ""
-
-#. Default: "${portalTitle} - ${meetingTitle} - The (definitive) decisions have been archived."
-msgid "archive_mail_subject"
-msgstr ""
-
-#. Default: "More information on ${portalUrl}."
-msgid "archive_mail_body"
-msgstr ""
-
-#. Default: "${portalTitle} - ${meetingTitle} - The publication of (definitive) decisions has been canceled."
-msgid "backToDecided_mail_subject"
-msgstr ""
-
-#. Default: "More information on ${portalUrl}. (Definitive) decisions will be published later on."
-msgid "backToDecided_mail_body"
-msgstr ""
-
-#. Default: "${portalTitle} - ${meetingTitle} - The archiving of (definitive) decisions has been canceled."
-msgid "backToClosed_mail_subject"
-msgstr ""
-
-#. Default: "More information on ${portalUrl}. Decisions will be archived later on."
-msgid "backToClosed_mail_body"
-msgstr ""
-
-#. Default: "${portalTitle} - ${meetingTitle} - The published agenda is not frozen anymore."
-msgid "backToPublished_mail_subject"
-msgstr ""
-
-#. Default: "More information on ${portalUrl}. The published agenda will soon be frozen again."
-msgid "backToPublished_mail_body"
-msgstr ""
-
-#. Default: "${portalTitle} - ${meetingTitle} - The publication of the agenda has been canceled."
-msgid "backToCreated_mail_subject"
-msgstr ""
-
-#. Default: "More information on ${portalUrl}. The agenda will be published later on."
-msgid "backToCreated_mail_body"
-msgstr ""
-
-#. Default: "${portalTitle} - ${meetingTitle} - The publication of (temporary) decisions has been canceled."
-msgid "backToFrozen_mail_subject"
-msgstr ""
-
-#. Default: "More information on ${portalUrl}. Decisions will be published later on."
-msgid "backToFrozen_mail_body"
+#. Default: "You can consult this meeting at ${objectUrl}."
+msgid "meeting_state_changed_default_mail_body"
 msgstr ""
 
 # Mails (event notifications)
@@ -3523,14 +3459,6 @@ msgstr ""
 
 #. Default: "Data change"
 msgid "data_change"
-msgstr ""
-
-#. Default: "Modified field"
-msgid "modified_field"
-msgstr ""
-
-#. Default: "Modification (or previous value)"
-msgid "previous_value"
 msgstr ""
 
 #. Default: "Details"
