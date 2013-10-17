@@ -3436,6 +3436,14 @@ msgstr "Points corrigés"
 msgid "searchitemstocorrect"
 msgstr "Points à corriger"
 
+#. Default: "Items to prevalidate"
+msgid "searchitemstoprevalidate"
+msgstr "Points à pré-valider"
+
+#. Default: "Items to validate"
+msgid "searchitemstovalidate"
+msgstr "Points à valider"
+
 #. Default: "my items"
 msgid "searchmyitems"
 msgstr "Mes points"
@@ -3829,6 +3837,10 @@ msgstr "Les décisions d'un point sont pré-encodées par le créateur de ce poi
 #. Default: "Everyone reads everything in every state"
 msgid "wa_everyone_reads_all"
 msgstr "Tout le monde peut tout consulter dans tout état"
+
+#. Default: "Hide the decision to the proposing group when it is under writing"
+msgid "wa_hide_decisions_when_under_writing"
+msgstr "Cacher les décisions au service pendant leur rédaction par les gestionnaires de séances"
 
 #. Default: "Items come validated"
 msgid "wa_items_come_validated"

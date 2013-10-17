@@ -3458,6 +3458,14 @@ msgstr ""
 msgid "searchitemstocorrect"
 msgstr ""
 
+#. Default: "Items to prevalidate"
+msgid "searchitemstoprevalidate"
+msgstr ""
+
+#. Default: "Items to validate"
+msgid "searchitemstovalidate"
+msgstr ""
+
 #. Default: "my items"
 msgid "searchmyitems"
 msgstr "my items"
@@ -3851,6 +3859,10 @@ msgstr "Item decision is pre-encoded by item creator"
 #. Default: "Everyone reads everything in every state"
 msgid "wa_everyone_reads_all"
 msgstr "Everyone reads everything in every state"
+
+#. Default: "Hide the decision to the proposing group when it is under writing"
+msgid "wa_hide_decisions_when_under_writing"
+msgstr ""
 
 #. Default: "Items come validated"
 msgid "wa_items_come_validated"
