@@ -88,6 +88,10 @@ msgid "field_required"
 msgstr ""
 
 # MeetingItem
+#. Default: "Object"
+msgid "PloneMeeting_label_itemTitle"
+msgstr ""
+
 #. Default: "Description"
 msgid "PloneMeeting_label_description"
 msgstr ""
@@ -1691,14 +1695,6 @@ msgstr ""
 
 #. Default: "The default meeting configuration is the one the user is redirected to when logging in."
 msgid "config_is_default_descr"
-msgstr ""
-
-#. Default: "Number of the last item of the last meeting"
-msgid "PloneMeeting_label_lastItemNumber"
-msgstr ""
-
-#. Default: "Within every meeting configuration, items are numbered thanks to a sequence number. Every time decisions are taken for a given meeting, items of this meeting receive their definitive sequence number and the field hereafter takes the value of the last sequence number taken by the last item of the meeting whose decisions were taken."
-msgid "last_item_number_descr"
 msgstr ""
 
 #. Default: "Number of the last meeting in this config"
@@ -3932,4 +3928,16 @@ msgstr ""
 
 #. Default: "Unable to update following items because you can not edit them, item numbers : ${itemNumbers}"
 msgid "manage_item_not_update_items_numbers"
+msgstr ""
+
+#. Default: "Welcome to PloneMeeting!"
+msgid "front_page_title"
+msgstr ""
+
+#. Default: "Manage here your official meetings."
+msgid "front_page_description"
+msgstr ""
+
+#. Default: "<p>PloneMeeting body in HTML format.</p>"
+msgid "front_page_body"
 msgstr ""

@@ -524,6 +524,11 @@ msgstr "Firmas los cuales están especificadas en este tema de reunión"
 msgid "PloneMeeting_label_itemTags"
 msgstr "Etiquetas"
 
+# MeetingItem
+#. Default: "Object"
+msgid "PloneMeeting_label_itemTitle"
+msgstr ""
+
 #. Default: "Item states which are relevant for searches defined in the 'items' portlets"
 msgid "PloneMeeting_label_itemTopicStates"
 msgstr "Estado del tema el cual es relevante para las búsquedas definidas en el portlets 'temas'"
@@ -543,10 +548,6 @@ msgstr "Contar temas"
 #. Default: "Columns to display for items within meetings"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Las columnas a mostrar en los temas dentro de las reuniones"
-
-#. Default: "Number of the last item of the last meeting"
-msgid "PloneMeeting_label_lastItemNumber"
-msgstr "Número del ultimo tema de la ultima reunión"
 
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
@@ -1893,6 +1894,18 @@ msgstr "La agenda publicada ha sido congelada."
 msgid "freeze_event_descr"
 msgstr "Cuando el caso seleccionado esta en la lista ocurre en un objeto dado en Plone, un documento por este objeto será generado por esta plantilla POD dentro de la base de datos de Plone. Las subsecuentes solicitudes para generar un documento desde esta plantilla POD por el mismo objeto será retornado el mismo documento \"congelado\" en lugar de volver a generarlo usando POD."
 
+#. Default: "<p>PloneMeeting body in HTML format.</p>"
+msgid "front_page_body"
+msgstr ""
+
+#. Default: "Manage here your official meetings."
+msgid "front_page_description"
+msgstr ""
+
+#. Default: "Welcome to PloneMeeting!"
+msgid "front_page_title"
+msgstr ""
+
 #. Default: "In Plone, by default, you can only define one 'admin' (email and name). This admin is used a.o. as 'from' address of all emails sent by the Plone site and is used by PloneMeeting for, ie, sending emails when some errors occur. This default situation can cause problems if the Plone site running PloneMeeting is operated by a person which is not a webmaster but a guy having functional knowlegde and no technical knowledge. If you encounter such problems, you can define here the email address of a 'functional administrator'. If defined, this email address will be used as 'from' address for all PloneMeeting email notifications (instead of the standard admin email adress). So if people reply to those notifications, the functional administrator will get it, not the standard admin (='technical administrator' in this case). Indeed, this could be needed for confidentiality reasons. Technical messages and posts from the 'contact form' will be sent to the technical administrator."
 msgid "functional_admin_email_descr"
 msgstr "En Plone, por defecto, usted puede solamente definir un usuario administrador 'admin' (correo electrónico y nombre). Este administrador es usado por a.o. como la dirección 'desde' de todos los correos electrónicos se envían por el sitio de Plone y es usado por PloneMeeting para, por ejemplo, enviar correos electrónicos cuando algunos errores ocurren. Esta situación por defecto puede causar problemas si el sitio de Plone corre PloneMeeting esta operando por una persona la cual no sea Webmaster pero sea una persona que tenga conocimientos funcionales de Plone y no conocimientos técnicos. Si usted encuentra algún problema, usted puede definir aquí la dirección de correo electrónico de un 'administrador funcional'. Si es definido, esta dirección de correo electrónico deberá ser usada como formulario 'desde' para todas las notificaciones de correo electrónico PloneMeeting (en lugar del estándar de dirección de correo electrónico del administrador). Si la gente responde a esas notificaciones , el administrador funcional las tendrá, no el administrador estándar (='administrador técnico' en este caso). En verdad, esto puede ser necesario por razones de confidencialidad. Los mensajes técnicos y envíos desde el 'formulario de contactos' será enviados al administrador técnico."
@@ -2390,10 +2403,6 @@ msgstr "Español, Castellano"
 #. Default: "Vietnamese"
 msgid "language_vie"
 msgstr "Vietnamita"
-
-#. Default: "Within every meeting configuration, items are numbered thanks to a sequence number. Every time decisions are taken for a given meeting, items of this meeting receive their definitive sequence number and the field hereafter takes the value of the last sequence number taken by the last item of the meeting whose decisions were taken."
-msgid "last_item_number_descr"
-msgstr "Dentro de cada configuración de reunión, los temas están numerados, gracias a una secuencia de número. Cada vez que se tomen las decisiones son tomadas, los temas de esta reunión definitiva recibirá su número de secuencia y el campo en lo sucesivo toma el valor de la última secuencia del número tomada por último número de la reunión cuyas decisiones fueron tomadas."
 
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"

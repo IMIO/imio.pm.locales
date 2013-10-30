@@ -121,7 +121,7 @@ msgstr "Signatures à appliquer"
 
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
-msgstr "Limite le nombre de caractères du titre du point qui seront affichés dans le portlet pour éviter les titres trop longs."
+msgstr "Limite le nombre de caractères de l'objet du point qui seront affichés dans le portlet pour éviter les libellés trop longs."
 
 #. Default: "Manage item assembly"
 msgid "Manage item assembly"
@@ -141,7 +141,7 @@ msgstr "Types d'annexes"
 
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
-msgstr "Nombre de caratère du titre du point à afficher"
+msgstr "Nombre de caratère de l'objet du point à afficher"
 
 #. Default: "Number of items to display"
 msgid "Number of items to display"
@@ -520,6 +520,11 @@ msgstr "Signatures spécifiques liées à ce point"
 msgid "PloneMeeting_label_itemTags"
 msgstr "Marqueurs"
 
+# MeetingItem
+#. Default: "Object"
+msgid "PloneMeeting_label_itemTitle"
+msgstr "Objet"
+
 #. Default: "Item states which are relevant for searches defined in the 'items' portlets"
 msgid "PloneMeeting_label_itemTopicStates"
 msgstr "Etats dont tiennent compte les recherches de points dans la portlet 'points'"
@@ -539,10 +544,6 @@ msgstr "Nombre de points utilisant cette catégorie"
 #. Default: "Columns to display for items within meetings"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Colonnes à afficher pour les points d'une séance"
-
-#. Default: "Number of the last item of the last meeting"
-msgid "PloneMeeting_label_lastItemNumber"
-msgstr "Numéro du dernier point de la dernière séance"
 
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
@@ -933,7 +934,7 @@ msgstr "Montrer le champ 'à discuter' sur les listes de points en retard"
 
 #. Default: "List of topics to display in the 'todo' portlet"
 msgid "PloneMeeting_label_toDoListTopics"
-msgstr "Dossiers automatiques à afficher dans le portlet 'A faire'"
+msgstr "Recherches préconfigurées à afficher dans le portlet 'A faire'"
 
 #. Default: "To print ?"
 msgid "PloneMeeting_label_toPrint"
@@ -1082,7 +1083,7 @@ msgstr "Afficher / masquer les détails des points dans les tableaux de recherch
 
 #. Default: "Topics"
 msgid "Topics"
-msgstr "Dossiers automatiques"
+msgstr "Recherches préconfigurées"
 
 #. Default: "A meeting manager"
 msgid "a_meeting_manager"
@@ -1206,7 +1207,7 @@ msgstr "Vous pouvez définir ici une liste de marqueurs (ou 'tags') propres à c
 
 #. Default: "In this field, you may modify at once information about all items presented in this meeting. While editing this field, please try to avoid modifying the item numbers or deleting elements (a whole item or a just a title, for example). You can't add new items through this field."
 msgid "all_items_explanation"
-msgstr "Dans ce champ, vous pouvez modifier en une seule fois des informations concernant tous les points présentés à cette séance. Durant l'édition, faites attention de ne pas modifier les numéros des points ni de supprimer des éléments (un point entier ou un titre par exemple). Vous ne pouvez pas non plus ajouter des nouveaux points via ce champ."
+msgstr "Dans ce champ, vous pouvez modifier en une seule fois des informations concernant tous les points présentés à cette séance. Durant l'édition, faites attention de ne pas modifier les numéros des points ni de supprimer des éléments (un point entier ou un objet par exemple). Vous ne pouvez pas non plus ajouter des nouveaux points via ce champ."
 
 #. Default: ", description and decision"
 msgid "and_decision"
@@ -1302,7 +1303,7 @@ msgstr "Comme canevas de point"
 
 #. Default: "The item is entitled '${itemNumber} - ${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "askDiscussItem_mail_body"
-msgstr "Le titre du point est '${itemNumber} - ${itemTitle}'. Accédez à ce point ici: ${objectUrl}."
+msgstr "L'objet du point est '${itemNumber} - ${itemTitle}'. Accédez à ce point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - ${meetingTitle} - ${user}, belonging to group(s) ${groups}, would like to discuss an item."
 msgid "askDiscussItem_mail_subject"
@@ -1535,7 +1536,7 @@ msgstr "Il y a un problème de numérotation. Soit vous avez ajouté ou supprim�
 
 #. Default: "The title of an item is wrong. Please check that each title begins with a number followed by a dot and the item title. Check also that you did not add style information to the number or the title (bold, underline, italic, etc)."
 msgid "corruptedTitle"
-msgstr "Un titre pose problème. Veuillez vérifier que chaque titre commence par un numéro suivi d'un point et du titre du point. Vérifiez également que vous n'avez pas ajouté d'informations de mise en forme dans le numéro ou le titre (gras, souligné, italique, etc)."
+msgstr "Un objet pose problème. Veuillez vérifier que chaque objet commence par un numéro suivi d'un point et de l'objet du point. Vérifiez également que vous n'avez pas ajouté d'informations de mise en forme dans le numéro ou l'objet (gras, souligné, italique, etc)."
 
 #. Default: "This item has been created from a delayed item."
 msgid "create_from_predecessor_comments"
@@ -1696,7 +1697,7 @@ msgstr "${portalTitle} - ${objectTitle} - Un problème est survenu lors de la g�
 
 #. Default: "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A 'change' is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."
 msgid "enable_advice_invalidation_descr"
-msgstr "Quand l'invalidation des avis est activée, tout changement sur un point pour lequel au moins un avis a été rendu invalidera tous les avis rendus sur ce point. Par 'changement', nous entendons toute modification du titre ou de la description du point ainsi que tout ajout et toute suppression d'annexe."
+msgstr "Quand l'invalidation des avis est activée, tout changement sur un point pour lequel au moins un avis a été rendu invalidera tous les avis rendus sur ce point. Par 'changement', nous entendons toute modification de l'objet ou de la description du point ainsi que tout ajout et toute suppression d'annexe."
 
 #. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
@@ -1871,6 +1872,18 @@ msgstr "La séance vient d'être gelée."
 msgid "freeze_event_descr"
 msgstr "Quand l'événement choisi ici se produit sur un objet particulier dans Plone, un document pour cet objet sera généré depuis ce canevas POD dans la base de données de Plone. Toute demande subséquente de production d'un document pour ce même objet depuis ce canevas POD retournera le document 'gelé' dans la base de données au lieu de le recalculer avec POD."
 
+#. Default: "<p>PloneMeeting body in HTML format.</p>"
+msgid "front_page_body"
+msgstr "<p>Avant de tester, nous vous recommandons de lire la <span class=\"link-external\"><a target=\"_blank\" href=\"http://www.imio.be/support/documentation/manual/plonemeeting30\">documentation</a></span> qui explique en détails le fonctionnement du logiciel. Ce manuel évolue constamment.</p>"
+
+#. Default: "Manage here your official meetings."
+msgid "front_page_description"
+msgstr "Cet outil permet de gérer vos séances délibératoires."
+
+#. Default: "Welcome to PloneMeeting!"
+msgid "front_page_title"
+msgstr "Bienvenue dans PloneMeeting!"
+
 #. Default: "In Plone, by default, you can only define one 'admin' (email and name). This admin is used a.o. as 'from' address of all emails sent by the Plone site and is used by PloneMeeting for, ie, sending emails when some errors occur. This default situation can cause problems if the Plone site running PloneMeeting is operated by a person which is not a webmaster but a guy having functional knowlegde and no technical knowledge. If you encounter such problems, you can define here the email address of a 'functional administrator'. If defined, this email address will be used as 'from' address for all PloneMeeting email notifications (instead of the standard admin email adress). So if people reply to those notifications, the functional administrator will get it, not the standard admin (='technical administrator' in this case). Indeed, this could be needed for confidentiality reasons. Technical messages and posts from the 'contact form' will be sent to the technical administrator."
 msgid "functional_admin_email_descr"
 msgstr "Dans Plone, par défaut, vous pouvez uniquement définir un seul administreur de site (courriel et nom). Ce courriel est utilisé entre autres comme expéditeur des notifications par courriel et est également utilisé comme destinataire des messages décrivant l'occurrence d'erreurs au niveau de PloneMeeting par exemple. Cette situation peut poser des problèmes si le site Plone qui fait tourner PloneMeeting est géré par une personne n'étant pas webmestre (n'ayant que des compétences de nature fonctionnelle). Si vous rencontrez ce problème, vous pouvez définir ici le courriel d'un 'administrateur fonctionnel'. Si défini, il sera utilisé comme expéditeur des notifications. Si les utilisateurs répondent à ces notifications, l'administrateur fonctionnel les recevra et non l'administrateur 'technique' (=l'administrateur classique): cela peut être nécessaire pour des raisons de confidentialité. Les messages techniques et les envois depuis le formulaire de contact du site sont toujours envoyés à l'administrateur technique."
@@ -2027,7 +2040,7 @@ msgstr "Autre"
 
 #. Default: "This site allows you to manage your official meetings."
 msgid "hs_welcome_body"
-msgstr "Ce site vous permet de gérer vos réunions officielles."
+msgstr "Ce site vous permet de gérer vos séances délibératoires."
 
 #. Default: "Welcome to PloneMeeting!"
 msgid "hs_welcome_title"
@@ -2292,7 +2305,7 @@ msgstr "point(s)"
 
 #. Default: "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
 msgid "items_list_visible_columns_descr"
-msgstr "L'écran d'affichage d'une séance présente potentiellement plusieurs tableaux de points. Vous pouvez choisir ici quelles colonnes seront affichées ou non dans ces tableaux, sachant qu'un nombre fixé de colonnes sera toujours visible (la colonne 'titre du point', par exemple)."
+msgstr "L'écran d'affichage d'une séance présente potentiellement plusieurs tableaux de points. Vous pouvez choisir ici quelles colonnes seront affichées ou non dans ces tableaux, sachant qu'un nombre fixé de colonnes sera toujours visible (la colonne 'objet du point', par exemple)."
 
 #. Default: "Choose an element in the list"
 msgid "label_choose_element_in_list"
@@ -2362,17 +2375,13 @@ msgstr "Espagnol"
 msgid "language_vie"
 msgstr "Vietnamien"
 
-#. Default: "Within every meeting configuration, items are numbered thanks to a sequence number. Every time decisions are taken for a given meeting, items of this meeting receive their definitive sequence number and the field hereafter takes the value of the last sequence number taken by the last item of the meeting whose decisions were taken."
-msgid "last_item_number_descr"
-msgstr "Au sein de chaque configuration de séance, les points sont numérotés à l'aide d'un numéro de séquence. Chaque fois que des décisions sont actées pour une séance, les points reçoivent leur numéro de séquence définitif et ce champ prend la valeur du dernier numéro de séquence pris par le dernier point de la séance pour laquelle les décisions ont été actées."
-
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
 msgstr "Au sein de chaque configuration, les séances sont numérotées en séquence."
 
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "lateItem_mail_body"
-msgstr "Le titre du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}."
+msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}."
 
 # Mails (item-related)
 #. Default: "${meetingConfigTitle} - A 'late' item has been validated."
@@ -2401,7 +2410,7 @@ msgstr "Taille"
 
 #. Default: "Title"
 msgid "listingheader_title"
-msgstr "Titre"
+msgstr "Objet"
 
 #. Default: "List archived meetings on the current site"
 msgid "localget_meetings"
@@ -3346,7 +3355,7 @@ msgstr "Si vous sélectionnez des états ici, sur l'écran de recherche, l'utili
 
 #. Default: "item's titles and descriptions"
 msgid "search_item_titles"
-msgstr "les titres et descriptions des points"
+msgstr "les objets et descriptions des points"
 
 #. Default: "The keyword search encompasses the following fields:"
 msgid "search_keywords"
@@ -3596,7 +3605,7 @@ msgstr "Remonter l'élément"
 
 #. Default: "A title is required."
 msgid "title_required"
-msgstr "Veuillez spécifier un titre."
+msgstr "Veuillez spécifier un objet."
 
 #. Default: "Sending emails to meeting managers has been disabled. Please contact them through other means for asking them to discuss this item."
 msgid "to_discuss_ask_mail_not_sent"
@@ -3644,7 +3653,7 @@ msgstr "A évoquer en séance, cliquez sur l'image pour ne pas évoquer ce point
 
 #. Default: "Select here topics you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any topic, the portlet will not shows up for users"
 msgid "to_do_list_topics"
-msgstr "Sélectionnez les dossiers automatiques à prendre en compte pour le portlet 'A faire'. Si vous ne sélectionnez aucun dossier automatique, le portlet sera caché pour les utilisateurs."
+msgstr "Sélectionnez les recherches préconfigurées à prendre en compte pour le portlet 'A faire'. Si vous ne sélectionnez aucun dossier automatique, le portlet sera caché pour les utilisateurs."
 
 #. Default: "Other parameters"
 msgid "tool_plonemeeting_misc"
@@ -3672,7 +3681,7 @@ msgstr "Condition d'affichage"
 
 #. Default: "Topics defined here are used in the main portlet. We recommand not modifying them."
 msgid "topics_descr"
-msgstr "Les dossiers automatiques définis ici sont ceux qui sont utilisés dans la portlet principale. Il est vivement conseillé de ne pas les modifier."
+msgstr "Les recherches préconfigurées définies ici seront affichées dans le portlet 'Gestion' dans l'application. Il est vivement conseillé de ne pas les modifier."
 
 #. Default: "Transfer"
 msgid "transfer"
@@ -3724,11 +3733,11 @@ msgstr "Spécifiez ici quels types d'avis vous voulez utiliser."
 
 #. Default: "Select between available systems of color : no colorization mean that the items will appear as simple links, colorization based on workflow state is the default behaviour and means that the link on the item will be colored depending on his workflow state.  The new PloneMeeting color system based on last modification allows users to see in a specific color what has changed since the last time they consulted PloneMeeting pages: new items, items whose title or description has changed, newly uploaded annexes. Enabling this last feature will take more space in the Plone database, because PloneMeeting will need to remember the last access time of every item and annex for every user. Enabling this feature on a non empty database may lead to visual inconsistencies due to annexes stored in browsers' caches."
 msgid "used_color_system_descr"
-msgstr "Les systèmes de coloration disponibles sont 'Ne pas coloriser' ce qui signifie que les liens vers les séances, les points et annexes seront représentés dans la couleur par défaut.  'Coloriser suivant l'état du workflow' colore le lien vers les séances et les points en fonction de l'état du workflow dans lequel ils sont.  'Coloriser suivant les modifications' est un système qui permet aux utilisateurs de voir dans une couleur spécifique ce qui a changé depuis leur dernière consultation des pages de PloneMeeting: nouveaux points, points dont le titre ou la description a changé, nouvelles annexes uploadées. L'activation de cette fonctionnalité prendra plus de place dans la base de données de Plone, car PloneMeeting aura besoin de se souvenir, pour chaque utilisateur, de la date du dernier accès à chaque point et annexe. Activer cette fonctionnalité sur une base de données non vide peut causer des inconsistences visuelles à cause d'annexes potentiellement stockées dans le cache des navigateurs."
+msgstr "Les systèmes de coloration disponibles sont 'Ne pas coloriser' ce qui signifie que les liens vers les séances, les points et annexes seront représentés dans la couleur par défaut.  'Coloriser suivant l'état du workflow' colore le lien vers les séances et les points en fonction de l'état du workflow dans lequel ils sont.  'Coloriser suivant les modifications' est un système qui permet aux utilisateurs de voir dans une couleur spécifique ce qui a changé depuis leur dernière consultation des pages de PloneMeeting: nouveaux points, points dont l'objet ou la description a changé, nouvelles annexes uploadées. L'activation de cette fonctionnalité prendra plus de place dans la base de données de Plone, car PloneMeeting aura besoin de se souvenir, pour chaque utilisateur, de la date du dernier accès à chaque point et annexe. Activer cette fonctionnalité sur une base de données non vide peut causer des inconsistences visuelles à cause d'annexes potentiellement stockées dans le cache des navigateurs."
 
 #. Default: "While some item attributes are fixed (the item title, the field where the decision must be written, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (maybe in the form allowing to create items or in the table displaying items presented in a meeting...). If you want to select more than one attribute, click on them while keeping the 'control' key pressed."
 msgid "used_item_attributes_descr"
-msgstr "Bien que certains attributs caractérisant un point soient fixes (le titre du point, le champ permettant d'introduire la décision, etc), d'autres, repris dans cette liste, sont optionnels. En fonction de votre choix, ils s'afficheront ou non à divers endroits dans les interfaces utilisateurs (peut-être dans le formulaire de création d'un point ou sur certains affichages des points en liste, etc). Pour en sélectionner plusieurs, vous devez cliquer dessus tout en appuyant sur la touche 'control'."
+msgstr "Bien que certains attributs caractérisant un point soient fixes (l'objet du point, le champ permettant d'introduire la décision, etc), d'autres, repris dans cette liste, sont optionnels. En fonction de votre choix, ils s'afficheront ou non à divers endroits dans les interfaces utilisateurs (peut-être dans le formulaire de création d'un point ou sur certains affichages des points en liste, etc). Pour en sélectionner plusieurs, vous devez cliquer dessus tout en appuyant sur la touche 'control'."
 
 #. Default: "While some meeting attributes are fixed (the title, the date, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (in the form allowing to create meetings, in the screen that displays information about a meeting...). If you want to select more than one attribute, click on them while keeping the 'control' key pressed."
 msgid "used_meeting_attributes_descr"

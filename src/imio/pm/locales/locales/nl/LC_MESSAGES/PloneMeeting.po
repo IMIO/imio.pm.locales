@@ -521,6 +521,11 @@ msgstr "Handtekeningen specifiek voor dit vergadering item"
 msgid "PloneMeeting_label_itemTags"
 msgstr ""
 
+# MeetingItem
+#. Default: "Object"
+msgid "PloneMeeting_label_itemTitle"
+msgstr ""
+
 #. Default: "Item states which are relevant for searches defined in the 'items' portlets"
 msgid "PloneMeeting_label_itemTopicStates"
 msgstr "Statussen van een Item die relevant zijn voor zoekopdrachten gedefinieerd in de 'items' portlets."
@@ -540,10 +545,6 @@ msgstr ""
 #. Default: "Columns to display for items within meetings"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Aantal weer te geven kolommen voor een tabelweergave van items"
-
-#. Default: "Number of the last item of the last meeting"
-msgid "PloneMeeting_label_lastItemNumber"
-msgstr "Nummer van het laatste item van de laatste vergadering"
 
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
@@ -1880,6 +1881,18 @@ msgstr "De gepubliceerde agenda werd bevroren."
 msgid "freeze_event_descr"
 msgstr ""
 
+#. Default: "<p>PloneMeeting body in HTML format.</p>"
+msgid "front_page_body"
+msgstr ""
+
+#. Default: "Manage here your official meetings."
+msgid "front_page_description"
+msgstr ""
+
+#. Default: "Welcome to PloneMeeting!"
+msgid "front_page_title"
+msgstr ""
+
 #. Default: "In Plone, by default, you can only define one 'admin' (email and name). This admin is used a.o. as 'from' address of all emails sent by the Plone site and is used by PloneMeeting for, ie, sending emails when some errors occur. This default situation can cause problems if the Plone site running PloneMeeting is operated by a person which is not a webmaster but a guy having functional knowlegde and no technical knowledge. If you encounter such problems, you can define here the email address of a 'functional administrator'. If defined, this email address will be used as 'from' address for all PloneMeeting email notifications (instead of the standard admin email adress). So if people reply to those notifications, the functional administrator will get it, not the standard admin (='technical administrator' in this case). Indeed, this could be needed for confidentiality reasons. Technical messages and posts from the 'contact form' will be sent to the technical administrator."
 msgid "functional_admin_email_descr"
 msgstr ""
@@ -2371,10 +2384,6 @@ msgstr ""
 #. Default: "Vietnamese"
 msgid "language_vie"
 msgstr ""
-
-#. Default: "Within every meeting configuration, items are numbered thanks to a sequence number. Every time decisions are taken for a given meeting, items of this meeting receive their definitive sequence number and the field hereafter takes the value of the last sequence number taken by the last item of the meeting whose decisions were taken."
-msgid "last_item_number_descr"
-msgstr "Within every meeting configuration, items are numbered thanks to a sequence number. Every time decisions are taken for a given meeting, items of this meeting receive their definitive sequence number and the field hereafter takes the value of the last sequence number taken by the last item of the meeting whose decisions were taken."
 
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
