@@ -3826,8 +3826,8 @@ msgstr ""
 msgid "sendto_inexistent_destfolder_error"
 msgstr ""
 
-#. Default: "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
-msgid "meetinggroup_users_transfered_to_observers_plonegroup_if_disabled"
+#. Default: "As the group has been deactivated, it has been removed from the 'selectable copy groups' field of every meeting configs."
+msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups"
 msgstr ""
 
 #. Default: "Create an element of this type"
