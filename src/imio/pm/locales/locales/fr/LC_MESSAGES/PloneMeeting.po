@@ -2712,9 +2712,9 @@ msgstr "Cette section vous permet de configurer le système de gestion des votes
 msgid "meetingconfig_workflow_descr"
 msgstr "Les paramètres liés aux workflows permettent de choisir et d'adapter les workflows gouvernant le cycle de vie des points et séances."
 
-#. Default: "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
-msgid "meetinggroup_users_transfered_to_observers_plonegroup_if_disabled"
-msgstr "Si vous désactivez ce groupe PloneMeeting, tous les utilisateurs des groupes Plone liés seront transférés dans le sous-groupe '(Observateurs)' de sorte qu'ils puissent toujours avoir un accès en lecture aux points existants mais qu'il ne puisse plus en créer de nouveaux. De plus, ce groupe sera enlevé des groupes qui pourront être mis en copies dans les différentes configurations de séance."
+#. Default: "As the group has been deactivated, it has been removed from the 'selectable copy groups' field of every meeting configs."
+msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups"
+msgstr "Comme le groupe a été désactivé, il a été enlevé des 'Groupes qui pourront être mis en copie' (onglet [Avis et accès]) de chaque configuration de séance."
 
 #. Default: "Metadata"
 msgid "metadata"
