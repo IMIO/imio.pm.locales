@@ -3907,10 +3907,6 @@ msgstr "Workflows"
 msgid "workflow_adaptations_descr"
 msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. Vos changements ne seront appliqués que lors de la prochaine réinstallation."
 
-#. Default: "Are you sure you want to ${transition_name} this element? If yes, you can enter a comment below (optional)."
-msgid "workflow_confirm"
-msgstr "Êtes-vous certain de vouloir ${transition_name} cet élément? Si oui, vous pouvez entrer un commentaire ci-dessous (facultatif) et cliquer sur le bouton 'Enregistrer'."
-
 #. Default: "Every field that you select in this list will, every time its object will be created or updated, undergo the transform(s) defined in the next field."
 msgid "xhtml_transform_fields_descr"
 msgstr "Chaque champ que vous sélectionnez dans cette liste subira, lors de chaque création ou modification de l'objet qui le contient, la (les) transformation(s) définie(s) dans le champ suivant."
@@ -3922,3 +3918,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+
