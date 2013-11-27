@@ -1,0 +1,171 @@
+# translation of PloneMeeting-es.po to Spanish
+# Leonardo Caballero <leonardocaballero@gmail.com>, 2009, 2010, 2011.
+# Spanish translation team <plone-conosur@lists.plone.org>
+msgid ""
+msgstr ""
+"Project-Id-Version: PloneMeeting 1.6\n"
+"POT-Creation-Date: 2005-05-17 15:00-100\n"
+"PO-Revision-Date: 2011-08-16 15:19-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: Spanish <plone-conosur@lists.plone.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Code: es\n"
+"Language-Name: Spanish\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: imio.actionspanel\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+#. Default: "The item has been accepted."
+#, fuzzy
+msgid "accept_done_descr"
+msgstr "La decisión enlazada con este tema han sido aceptada."
+
+#. Default: "The element has been activated."
+msgid "activate_done_descr"
+msgstr ""
+
+#. Default: "The definitive decisions have been archived for this meeting."
+msgid "archive_done_descr"
+msgstr "La decisiones definitivas han sido archivadas para esta reunión."
+
+#. Default: "You just canceled the fact that the decision linked to this item, that is accepted, is confirmed."
+msgid "backToAccepted_done_descr"
+msgstr "Usted sólo cancela el hecho de que la decisión vinculada a este tema, que es aceptada, se confirma."
+
+#. Default: "The archiving of definitive decisions has been canceled."
+msgid "backToClosed_done_descr"
+msgstr "El archivo de las decisiones definitivas han sido cancelada."
+
+#. Default: "The archiving of this item and its decision has been canceled."
+msgid "backToConfirmed_done_descr"
+msgstr "El archivo de este tema y su decisión han sido cancelada."
+
+#. Default: "The publication of the meeting agenda has been canceled."
+msgid "backToCreated_done_descr"
+msgstr "La publicación de la agenda de reuniones han sido cancelada."
+
+#. Default: "The publication of definitive decisions has been canceled."
+msgid "backToDecided_done_descr"
+msgstr "La publicación de las decisiones definitivas han sido canceladas."
+
+#. Default: "The archiving of this item and its decision has been canceled."
+msgid "backToDelayed_done_descr"
+msgstr "El archivo de este tema y su decisión han sido cancelada."
+
+#. Default: "The publication of temporary decisions has been canceled."
+msgid "backToFrozen_done_descr"
+msgstr "La publicación de decisiones temporarias ha sido cancelada."
+
+#. Default: "This item is back in its initial state. The person who created it (or another creator within the same group) can now modify it and will need to propose it again once finished."
+msgid "backToItemCreated_done_descr"
+msgstr "Este tema vuelve a su estado inicial. La persona quien creo esto (o otro creador con el mismo grupo) puede ahora modificarlo y necesitará proponerlo otra ves una ves finalizado."
+
+#. Default: "The decision taken on this item has been canceled."
+msgid "backToItemFrozen_done_descr"
+msgstr "La decisión tomada en este tema ha sido cancelada."
+
+#. Default: "This published item is not frozen anymore."
+msgid "backToItemPublished_done_descr"
+msgstr "Este tema de publicación ya no estará más congelado."
+
+#. Default: "The item has been set back to 'presented'."
+msgid "backToPresented_done_descr"
+msgstr "La validación ha sido cancelada."
+
+#. Default: "Validation has been canceled."
+msgid "backToPrevalidated_done_descr"
+msgstr "Validación ha sido cancelada."
+
+#. Default: "This item is not reviewed anymore: (the) meeting manager(s) can't see it anymore. After the needed modification will have been done on it, this item will need to be reviewed again."
+msgid "backToProposed_done_descr"
+msgstr "Este tema no es revisado nunca más: (El/Los) administrador(es) de reuniones no puede ver eso nunca más. Después de la modificación necesaria tendrá que terminarlo, este tema necesitará revisarse a través."
+
+#. Default: "The meeting agenda is not frozen anymore."
+msgid "backToPublished_done_descr"
+msgstr "La agenda de reunión ya no estará más congelado."
+
+#. Default: "The archiving of this item and its decision has been canceled."
+msgid "backToRefused_done_descr"
+msgstr "El archivo de este tema y su decisión ha sido cancelada."
+
+#. Default: "The item has been removed from the meeting agenda."
+msgid "backToValidated_done_descr"
+msgstr "El tema ha sido removida de la agenda de reuniones."
+
+#. Default: "The definitive decisions have been published for this meeting."
+msgid "close_done_descr"
+msgstr "Las decisiones definitivas ha sido publicada para esta reunión."
+
+#. Default: "The acceptance of the decision linked to this item has been confirmed."
+msgid "confirm_done_descr"
+msgstr "Lo aceptado de la decisión enlazada a este tema ha sido confirmado."
+
+#. Default: "The element has been deactivated."
+msgid "deactivate_done_descr"
+msgstr ""
+
+#. Default: "The temporary decisions have been published for this meeting."
+msgid "decide_done_descr"
+msgstr "Las decisiones temporales están publicadas por esta reunión."
+
+#. Default: "The item has been delayed.  It has been duplicated for the corresponding proposing group so it can propose it again easily."
+#, fuzzy
+msgid "delay_done_descr"
+msgstr "El tema se ha marcado como 'retardado'. Por otra parte, se ha duplicado: el grupo proponente podrá proponer su copia a otra reunión. Tenga en cuenta que si cancela esta acción, la copia no se eliminará."
+
+#. Default: "The meeting has been frozen."
+#, fuzzy
+msgid "freeze_done_descr"
+msgstr "La agenda publicada ha sido congelada."
+
+#. Default: "The item and its decicion have been archived."
+msgid "itemarchive_done_descr"
+msgstr "El tema y esta decisión tiene que ser archivada."
+
+#. Default: "The item has been frozen."
+msgid "itemfreeze_done_descr"
+msgstr ""
+
+#. Default: "This item has been published."
+msgid "itempublish_done_descr"
+msgstr "Este tema ha sido publicado."
+
+#. Default: "The item has been inserted into the meeting agenda."
+msgid "present_done_descr"
+msgstr "Este tema ha sido insertado dentro de la agenda de reunión."
+
+#. Default: "Your item has been pre-reviewed: it is now visible to (a) reviewer(s), that may decide to validate it."
+msgid "prevalidate_done_descr"
+msgstr "Su tema ha sido pre-revisado: este ahoar es visible a un(los) revisor(es), que tal ves decida validarlo."
+
+#. Default: "Your item has been proposed. It must now be reviewed by someone in your group before being visible to a meeting manager. If you are yourself reviewer in your group, the 'validate' button is shown below."
+msgid "propose_done_descr"
+msgstr "Sus temas ha sido propuesto. Esos deben ahora estar siendo revisado por alguien en su grupo antes de ser visible a un administrador de reunión. Si usted es su propio revisor en su grupo, presione en el siguiente botón 'validar' para mostrarlo."
+
+#. Default: "The meeting agenda has been published."
+msgid "publish_done_descr"
+msgstr "La agenda de reunión han sido publicada."
+
+#. Default: "The decision linked to this item has been refused."
+msgid "refuse_done_descr"
+msgstr "La decisión enlazada a este tema ha sido negada."
+
+#. Default: "The meeting agenda has been published again."
+msgid "republish_done_descr"
+msgstr "La agenda de reunión han sido publicada otra ves."
+
+#. Default: "The item has been sent back to the meeting managers."
+msgid "return_to_meeting_done_descr"
+msgstr ""
+
+#. Default: "The item has been sent to the proposing group for corrections.  When done, the proposing group will send the item back to the meeting managers."
+msgid "return_to_proposing_group_done_descr"
+msgstr ""
+
+#. Default: "Your item has been reviewed: it is now visible to (a) meeting manager(s), that may decide to present it to a meeting."
+msgid "validate_done_descr"
+msgstr "Su tema ha sido revisado: es ahora visible a (un/unos) administrador(es) de reunión, que tal ves decidan presentar eso en una reunión."
+

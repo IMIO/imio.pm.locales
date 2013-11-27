@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PloneMeeting\n"
+"POT-Creation-Date: 2005-05-17 15:00-100\n"
+"PO-Revision-Date: 2011-06-17 14:49+0100\n"
+"Last-Translator: Arnold François <arnold.francois@oshz-eupen.be>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: de\n"
+"Language-Name: Deutsh\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: imio.actionspanel\n"
+"X-Is-Fallback-For: de-be de-at de-li de-lu de-ch de-de\n"
+
+#. Default: "The item has been accepted."
+#, fuzzy
+msgid "accept_done_descr"
+msgstr "Der Beschluss der mit diesem TOP verknüpft ist wurde akzeptiert."
+
+#. Default: "The element has been activated."
+msgid "activate_done_descr"
+msgstr ""
+
+#. Default: "The definitive decisions have been archived for this meeting."
+msgid "archive_done_descr"
+msgstr "Die definitiven Beschlüsse für diese Sitzung wurden archiviert."
+
+#. Default: "You just canceled the fact that the decision linked to this item, that is accepted, is confirmed."
+msgid "backToAccepted_done_descr"
+msgstr "Sie haben soeben die Validierung für diesen akzeptierten TOP zurückgezogen."
+
+#. Default: "The archiving of definitive decisions has been canceled."
+msgid "backToClosed_done_descr"
+msgstr "Die Archivierung der definitiven Beschlüsse wurde abgebrochen."
+
+#. Default: "The archiving of this item and its decision has been canceled."
+msgid "backToConfirmed_done_descr"
+msgstr "Die Archivierung dieses TOPs und des zugehörigen Beschlusses wurde zurückgezogen."
+
+#. Default: "The publication of the meeting agenda has been canceled."
+msgid "backToCreated_done_descr"
+msgstr "Die Veröffentlichung der Tagesordnung wurde abgebrochen."
+
+#. Default: "The publication of definitive decisions has been canceled."
+msgid "backToDecided_done_descr"
+msgstr "Die Veröffentlichung der definitiven Beschlüsse wurde abgebrochen."
+
+#. Default: "The archiving of this item and its decision has been canceled."
+msgid "backToDelayed_done_descr"
+msgstr "Die Archivierung dieses TOPs und des zugehörigen Beschlusses wurde zurückgezogen."
+
+#. Default: "The publication of temporary decisions has been canceled."
+msgid "backToFrozen_done_descr"
+msgstr "Die Veröffentlichung der vorläufigen Beschlüsse wurde abgebrochen."
+
+#. Default: "This item is back in its initial state. The person who created it (or another creator within the same group) can now modify it and will need to propose it again once finished."
+msgid "backToItemCreated_done_descr"
+msgstr "Der TOP ist wieder in seinem Ausgangsstatus. Die Person die ihn erstellt hat (oder ein anderer Ersteller in derselben Gruppe) kann ihn nun anpassen und muss ihn erneut vorschlagen wenn die Änderungen vollständig sind."
+
+#. Default: "The decision taken on this item has been canceled."
+msgid "backToItemFrozen_done_descr"
+msgstr "Der Beschluss über diesen TOP wurde zurückgezogen."
+
+#. Default: "This published item is not frozen anymore."
+msgid "backToItemPublished_done_descr"
+msgstr "Der veröffentlichte TOP ist nicht mehr gesperrt."
+
+#. Default: "The item has been set back to 'presented'."
+msgid "backToPresented_done_descr"
+msgstr "Die Validierung wurde zurückgezogen."
+
+#. Default: "Validation has been canceled."
+msgid "backToPrevalidated_done_descr"
+msgstr "Die Validierung wurde annuliert."
+
+#. Default: "This item is not reviewed anymore: (the) meeting manager(s) can't see it anymore. After the needed modification will have been done on it, this item will need to be reviewed again."
+msgid "backToProposed_done_descr"
+msgstr "Dieser TOP ist nicht mehr validiert: Die Sitzungsleitung kann ihn nicht mehr sehen. Nachdem die nötigen Anpassungen daran erledigt wurden, muss der TOP erneut validiert werden."
+
+#. Default: "The meeting agenda is not frozen anymore."
+msgid "backToPublished_done_descr"
+msgstr "Die Tagesordnung ist nicht mehr gesperrt."
+
+#. Default: "The archiving of this item and its decision has been canceled."
+msgid "backToRefused_done_descr"
+msgstr "Die Archivierung dieses TOPs und des zugehörigen Beschlusses wurde abgebrochen."
+
+#. Default: "The item has been removed from the meeting agenda."
+msgid "backToValidated_done_descr"
+msgstr "Der TOP wurde von der Tagesordnung der Sitzung entfernt."
+
+#. Default: "The definitive decisions have been published for this meeting."
+msgid "close_done_descr"
+msgstr "Die definitiven Beschlüsse für diese Sitzung wurden veröffentlicht."
+
+#. Default: "The acceptance of the decision linked to this item has been confirmed."
+msgid "confirm_done_descr"
+msgstr "Die Zustimmung zu dem Beschluss der mit diesem TOP verknüpft ist wurde bestätigt."
+
+#. Default: "The element has been deactivated."
+msgid "deactivate_done_descr"
+msgstr ""
+
+#. Default: "The temporary decisions have been published for this meeting."
+msgid "decide_done_descr"
+msgstr "Die vorläufigen Beschlüsse für diese Sitzung wurden veröffentlicht."
+
+#. Default: "The item has been delayed.  It has been duplicated for the corresponding proposing group so it can propose it again easily."
+#, fuzzy
+msgid "delay_done_descr"
+msgstr "Der TOP wurde als 'verschoben' markiert. Zusätzlich wurde er dupliziert: die vorschlagende Gruppen kann diese Kopie für eine andere Sitzung vorschlagen. Notiz: wenn Sie diese Aktion abbrechen, wird diese Kopie nicht gelöscht."
+
+#. Default: "The meeting has been frozen."
+#, fuzzy
+msgid "freeze_done_descr"
+msgstr "Die veröffentlichte Tagesordnung wurde gesperrt."
+
+#. Default: "The item and its decicion have been archived."
+msgid "itemarchive_done_descr"
+msgstr "Der TOP und der zugehörige Beschluss wurden archiviert."
+
+#. Default: "The item has been frozen."
+msgid "itemfreeze_done_descr"
+msgstr ""
+
+#. Default: "This item has been published."
+msgid "itempublish_done_descr"
+msgstr "Dieser TOP wurde veröffentlicht."
+
+#. Default: "The item has been inserted into the meeting agenda."
+msgid "present_done_descr"
+msgstr "Der TOP wurde in die Agenda der Sitzung übernommen."
+
+#. Default: "Your item has been pre-reviewed: it is now visible to (a) reviewer(s), that may decide to validate it."
+msgid "prevalidate_done_descr"
+msgstr "Ihr TOP wurde Vor-Validiert. Ein Validierer kann jetzt entscheiden den TOP zu validieren. Wenn Sie selber diese Rolle haben, ist der vorgesehene Button hier unten vorhanden."
+
+#. Default: "Your item has been proposed. It must now be reviewed by someone in your group before being visible to a meeting manager. If you are yourself reviewer in your group, the 'validate' button is shown below."
+msgid "propose_done_descr"
+msgstr "Ihr TOP wurde vorgeschlagen. Es muss nun von jemandem in Ihrer Gruppe validiert werden bevor es für die Sitzungsleitung sichtbar wird. Wenn Sie selbst Prüfer in Ihrer Gruppe sind wird der 'validieren'-Knopf unten angezeigt."
+
+#. Default: "The meeting agenda has been published."
+msgid "publish_done_descr"
+msgstr "Die Tagesordnung für die Sitzung wurde veröffentlicht."
+
+#. Default: "The decision linked to this item has been refused."
+msgid "refuse_done_descr"
+msgstr "Der Beschluss der mit diesem TOP verknüpft ist wurde abgelehnt."
+
+#. Default: "The meeting agenda has been published again."
+msgid "republish_done_descr"
+msgstr "Die Tagesordnung wurde wieder veröffentlicht."
+
+#. Default: "The item has been sent back to the meeting managers."
+msgid "return_to_meeting_done_descr"
+msgstr ""
+
+#. Default: "The item has been sent to the proposing group for corrections.  When done, the proposing group will send the item back to the meeting managers."
+msgid "return_to_proposing_group_done_descr"
+msgstr ""
+
+#. Default: "Your item has been reviewed: it is now visible to (a) meeting manager(s), that may decide to present it to a meeting."
+msgid "validate_done_descr"
+msgstr "Ihr TOP wurde validiert: es ist nun für die Sitzungsleitung sichtbar die es bei einer Sitzung präsentieren können."
+

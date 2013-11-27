@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PloneMeeting\n"
+"POT-Creation-Date: 2005-05-17 15:00-100\n"
+"PO-Revision-Date: 2010-02-23 10:14+0100\n"
+"Last-Translator: Gaetan Delannay <gaetan.delannay@geezteem.com>\n"
+"Language-Team: English <gaetan.delannay@geezteem.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: imio.actionspanel\n"
+"X-is-fallback-for: en-us en-ca\n"
+
+#. Default: "The item has been accepted."
+msgid "accept_done_descr"
+msgstr "The item has been accepted."
+
+#. Default: "The element has been activated."
+msgid "activate_done_descr"
+msgstr "The element has been activated."
+
+#. Default: "The definitive decisions have been archived for this meeting."
+msgid "archive_done_descr"
+msgstr "The definitive decisions have been archived for this meeting."
+
+#. Default: "You just canceled the fact that the decision linked to this item, that is accepted, is confirmed."
+msgid "backToAccepted_done_descr"
+msgstr "You just canceled the confirmation of the accepted decision linked to this item."
+
+#. Default: "The archiving of definitive decisions has been canceled."
+msgid "backToClosed_done_descr"
+msgstr "The archiving of definitive decisions has been canceled."
+
+#. Default: "The archiving of this item and its decision has been canceled."
+msgid "backToConfirmed_done_descr"
+msgstr "The archiving of this item and its decision has been canceled."
+
+#. Default: "The publication of the meeting agenda has been canceled."
+msgid "backToCreated_done_descr"
+msgstr "The publication of the meeting agenda has been canceled."
+
+#. Default: "The publication of definitive decisions has been canceled."
+msgid "backToDecided_done_descr"
+msgstr "The publication of definitive decisions has been canceled."
+
+#. Default: "The archiving of this item and its decision has been canceled."
+msgid "backToDelayed_done_descr"
+msgstr "The archiving of this item and its decision has been canceled."
+
+#. Default: "The publication of temporary decisions has been canceled."
+msgid "backToFrozen_done_descr"
+msgstr "The publication of temporary decisions has been canceled."
+
+#. Default: "This item is back in its initial state. The person who created it (or another creator within the same group) can now modify it and will need to propose it again once finished."
+msgid "backToItemCreated_done_descr"
+msgstr "This item is back in its initial state. The person who created it (or another creator within the same group) can now modify it and will need to propose it again once finished."
+
+#. Default: "The decision taken on this item has been canceled."
+msgid "backToItemFrozen_done_descr"
+msgstr "The decision taken on this item has been canceled."
+
+#. Default: "This published item is not frozen anymore."
+msgid "backToItemPublished_done_descr"
+msgstr "This published item is not frozen anymore."
+
+#. Default: "The item has been set back to 'presented'."
+msgid "backToPresented_done_descr"
+msgstr "The item has been set back to 'presented'."
+
+#. Default: "Validation has been canceled."
+msgid "backToPrevalidated_done_descr"
+msgstr "Validation has been canceled."
+
+#. Default: "This item is not reviewed anymore: (the) meeting manager(s) can't see it anymore. After the needed modification will have been done on it, this item will need to be reviewed again."
+msgid "backToProposed_done_descr"
+msgstr "This item is not reviewed anymore: (the) meeting manager(s) can't see it anymore. After the needed modification will have been done on it, this item will need to be reviewed again."
+
+#. Default: "The meeting agenda is not frozen anymore."
+msgid "backToPublished_done_descr"
+msgstr "The meeting agenda is not frozen anymore."
+
+#. Default: "The archiving of this item and its decision has been canceled."
+msgid "backToRefused_done_descr"
+msgstr "The archiving of this item and its decision has been canceled."
+
+#. Default: "The item has been removed from the meeting agenda."
+msgid "backToValidated_done_descr"
+msgstr "The item has been removed from the meeting agenda."
+
+#. Default: "The definitive decisions have been published for this meeting."
+msgid "close_done_descr"
+msgstr "The definitive decisions have been published for this meeting."
+
+#. Default: "The acceptance of the decision linked to this item has been confirmed."
+msgid "confirm_done_descr"
+msgstr "The acceptance of the decision linked to this item has been confirmed."
+
+#. Default: "The element has been deactivated."
+msgid "deactivate_done_descr"
+msgstr "The element has been deactivated."
+
+#. Default: "The temporary decisions have been published for this meeting."
+msgid "decide_done_descr"
+msgstr "The temporary decisions have been published for this meeting."
+
+#. Default: "The item has been delayed.  It has been duplicated for the corresponding proposing group so it can propose it again easily."
+msgid "delay_done_descr"
+msgstr "The item has been delayed.  It has been duplicated for the corresponding proposing group so it can propose it again easily."
+
+#. Default: "The meeting has been frozen."
+msgid "freeze_done_descr"
+msgstr "The meeting has been frozen."
+
+#. Default: "The item and its decicion have been archived."
+msgid "itemarchive_done_descr"
+msgstr "The item and its decicion have been archived."
+
+#. Default: "The item has been frozen."
+msgid "itemfreeze_done_descr"
+msgstr "The item has been frozen."
+
+#. Default: "This item has been published."
+msgid "itempublish_done_descr"
+msgstr "This item has been published."
+
+#. Default: "The item has been inserted into the meeting agenda."
+msgid "present_done_descr"
+msgstr "The item has been inserted into the meeting agenda."
+
+#. Default: "Your item has been pre-reviewed: it is now visible to (a) reviewer(s), that may decide to validate it."
+msgid "prevalidate_done_descr"
+msgstr "Your item has been pre-reviewed: it is now visible to (a) reviewer(s), that may decide to validate it."
+
+#. Default: "Your item has been proposed. It must now be reviewed by someone in your group before being visible to a meeting manager. If you are yourself reviewer in your group, the 'validate' button is shown below."
+msgid "propose_done_descr"
+msgstr "Your item has been proposed. It must now be reviewed by someone in your group before being visible to a meeting manager. If you are yourself reviewer in your group, the 'validate' button is shown below."
+
+#. Default: "The meeting agenda has been published."
+msgid "publish_done_descr"
+msgstr "The meeting agenda has been published."
+
+#. Default: "The decision linked to this item has been refused."
+msgid "refuse_done_descr"
+msgstr "The decision linked to this item has been refused."
+
+#. Default: "The meeting agenda has been published again."
+msgid "republish_done_descr"
+msgstr "The meeting agenda has been published again."
+
+#. Default: "The item has been sent back to the meeting managers."
+msgid "return_to_meeting_done_descr"
+msgstr "The item has been sent back to the meeting managers."
+
+#. Default: "The item has been sent to the proposing group for corrections.  When done, the proposing group will send the item back to the meeting managers."
+msgid "return_to_proposing_group_done_descr"
+msgstr "The item has been sent to the proposing group for corrections.  When done, the proposing group will send the item back to the meeting managers."
+
+#. Default: "Your item has been reviewed: it is now visible to (a) meeting manager(s), that may decide to present it to a meeting."
+msgid "validate_done_descr"
+msgstr "Your item has been reviewed: it is now visible to (a) meeting manager(s), that may decide to present it to a meeting."
+

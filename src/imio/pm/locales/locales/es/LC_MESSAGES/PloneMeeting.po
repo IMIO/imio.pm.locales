@@ -1099,11 +1099,6 @@ msgstr "Tópicos"
 msgid "a_meeting_manager"
 msgstr "Un administrador de reunión"
 
-#. Default: "The item has been accepted."
-#, fuzzy
-msgid "accept_done_descr"
-msgstr "La decisión enlazada con este tema han sido aceptada."
-
 #. Default: "Access information was removed for deleted users ${usersRemoved}."
 msgid "access_info_purged"
 msgstr "La información de accesos fue removida por usuarios eliminados ${usersRemoved}."
@@ -1291,10 +1286,6 @@ msgstr "Tipo de anexo"
 msgid "annexes"
 msgstr "Anexos"
 
-#. Default: "The definitive decisions have been archived for this meeting."
-msgid "archive_done_descr"
-msgstr "La decisiones definitivas han sido archivadas para esta reunión."
-
 #. Default: "Are you sure?"
 msgid "are_you_sure"
 msgstr ""
@@ -1378,70 +1369,6 @@ msgstr "Especifique aquí los paquetes de idiomas que haya instalado para Tesser
 msgid "back"
 msgstr "Volver"
 
-#. Default: "You just canceled the fact that the decision linked to this item, that is accepted, is confirmed."
-msgid "backToAccepted_done_descr"
-msgstr "Usted sólo cancela el hecho de que la decisión vinculada a este tema, que es aceptada, se confirma."
-
-#. Default: "The archiving of definitive decisions has been canceled."
-msgid "backToClosed_done_descr"
-msgstr "El archivo de las decisiones definitivas han sido cancelada."
-
-#. Default: "The archiving of this item and its decision has been canceled."
-msgid "backToConfirmed_done_descr"
-msgstr "El archivo de este tema y su decisión han sido cancelada."
-
-#. Default: "The publication of the meeting agenda has been canceled."
-msgid "backToCreated_done_descr"
-msgstr "La publicación de la agenda de reuniones han sido cancelada."
-
-#. Default: "The publication of definitive decisions has been canceled."
-msgid "backToDecided_done_descr"
-msgstr "La publicación de las decisiones definitivas han sido canceladas."
-
-#. Default: "The archiving of this item and its decision has been canceled."
-msgid "backToDelayed_done_descr"
-msgstr "El archivo de este tema y su decisión han sido cancelada."
-
-#. Default: "The publication of temporary decisions has been canceled."
-msgid "backToFrozen_done_descr"
-msgstr "La publicación de decisiones temporarias ha sido cancelada."
-
-#. Default: "This item is back in its initial state. The person who created it (or another creator within the same group) can now modify it and will need to propose it again once finished."
-msgid "backToItemCreated_done_descr"
-msgstr "Este tema vuelve a su estado inicial. La persona quien creo esto (o otro creador con el mismo grupo) puede ahora modificarlo y necesitará proponerlo otra ves una ves finalizado."
-
-#. Default: "The decision taken on this item has been canceled."
-msgid "backToItemFrozen_done_descr"
-msgstr "La decisión tomada en este tema ha sido cancelada."
-
-#. Default: "This published item is not frozen anymore."
-msgid "backToItemPublished_done_descr"
-msgstr "Este tema de publicación ya no estará más congelado."
-
-#. Default: "The item has been set back to 'presented'."
-msgid "backToPresented_done_descr"
-msgstr "La validación ha sido cancelada."
-
-#. Default: "Validation has been canceled."
-msgid "backToPrevalidated_done_descr"
-msgstr "Validación ha sido cancelada."
-
-#. Default: "This item is not reviewed anymore: (the) meeting manager(s) can't see it anymore. After the needed modification will have been done on it, this item will need to be reviewed again."
-msgid "backToProposed_done_descr"
-msgstr "Este tema no es revisado nunca más: (El/Los) administrador(es) de reuniones no puede ver eso nunca más. Después de la modificación necesaria tendrá que terminarlo, este tema necesitará revisarse a través."
-
-#. Default: "The meeting agenda is not frozen anymore."
-msgid "backToPublished_done_descr"
-msgstr "La agenda de reunión ya no estará más congelado."
-
-#. Default: "The archiving of this item and its decision has been canceled."
-msgid "backToRefused_done_descr"
-msgstr "El archivo de este tema y su decisión ha sido cancelada."
-
-#. Default: "The item has been removed from the meeting agenda."
-msgid "backToValidated_done_descr"
-msgstr "El tema ha sido removida de la agenda de reuniones."
-
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr ""
@@ -1498,10 +1425,6 @@ msgstr "Un clasificador es un como una categoría. Puede asignar un tema casi un
 msgid "clone_to"
 msgstr ""
 
-#. Default: "The definitive decisions have been published for this meeting."
-msgid "close_done_descr"
-msgstr "Las decisiones definitivas ha sido publicada para esta reunión."
-
 #. Default: "If the color system is enabled (previous parameter), it will be disabled for the users whose ids are specified here (one user id per line)."
 msgid "color_system_disabled_for_descr"
 msgstr "Si el color del sistema es habilitado (parámetro anterior), ese deshabilitará para todos los identificadores de usuarios (ids) especificados aquí (un identificador de usuario por linea)."
@@ -1533,10 +1456,6 @@ msgstr "Si esta configuración de reunión corresponde a una organización, inst
 #. Default: "Are you sure? All archived meetings, items and annexes included, whose date is earlier than the date besides this button, will be deleted. Ensure those meetings have been transferred to an archive site or backed up."
 msgid "confirm_delete_archived_meetings"
 msgstr "¿Está seguro? Todas las reuniones archivados, los temas y anexos incluidos, cuya fecha es anterior a la fecha, también se borrarán. Asegúrese de que las reuniones han sido trasladados a un sitio de archivo o una copia de seguridad."
-
-#. Default: "The acceptance of the decision linked to this item has been confirmed."
-msgid "confirm_done_descr"
-msgstr "Lo aceptado de la decisión enlazada a este tema ha sido confirmado."
 
 #. Default: "Select here groups that will be able to see this item"
 msgid "copy_groups_item_descr"
@@ -1637,10 +1556,6 @@ msgstr "Sincronizar usuarios"
 msgid "deactivate_done_descr"
 msgstr ""
 
-#. Default: "The temporary decisions have been published for this meeting."
-msgid "decide_done_descr"
-msgstr "Las decisiones temporales están publicadas por esta reunión."
-
 #. Default: "Selected items have been decided."
 msgid "decide_several_items_done"
 msgstr ""
@@ -1689,11 +1604,6 @@ msgstr "Marque esta casilla si desea diferir la importación de las reuniones a 
 #. Default: "If you check this box, handling of notifications received from external systems will be handled only during next night. Do this if you expect this handling to take a long time."
 msgid "deferred_notifs_handling_descr"
 msgstr "Si marca esta casilla, manipula las notificaciones recibidas desde sistemas externos la cuales serán manipuladas solamente durante la próxima noche. Hacer esto si usted espera que la importación tome un largo tiempo."
-
-#. Default: "The item has been delayed.  It has been duplicated for the corresponding proposing group so it can propose it again easily."
-#, fuzzy
-msgid "delay_done_descr"
-msgstr "El tema se ha marcado como 'retardado'. Por otra parte, se ha duplicado: el grupo proponente podrá proponer su copia a otra reunión. Tenga en cuenta que si cancela esta acción, la copia no se eliminará."
 
 #. Default: "Delete archived meetings"
 msgid "delete_archived_meetings"
@@ -1892,11 +1802,6 @@ msgstr "Para la administración solamente"
 #. Default: "Specify here the deadline for validating late items to be inserted in a given meeting.  Leave the field empty not to use this functionality."
 msgid "freeze_deadline_default_descr"
 msgstr "Especifique aquí el limite para la validación de temas retardados a ser insertados en un reunión dada."
-
-#. Default: "The meeting has been frozen."
-#, fuzzy
-msgid "freeze_done_descr"
-msgstr "La agenda publicada ha sido congelada."
 
 #. Default: "When the event selected in this list occurs on a given object in Plone, a document for this object will be generated from this POD template into the Plone database. Subsequent requests for generating a document from this POD template for the same object will return the 'frozen' document instead of recomputing it using POD."
 msgid "freeze_event_descr"
@@ -2323,18 +2228,6 @@ msgstr "Con el portlet de 'temas', algunos enlaces permiten activar búsquedas d
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
 msgid "item_workflow_descr"
 msgstr "En esta lista usted puede ver todos los flujos de trabajos definidos en su sitio de Plone. Elegir un que fue específicamente diseñado para gestionar el ciclo de vida de un tema PloneMeeting: tampoco 'meetingitem_workflow', el flujo de trabajo por defecto de tema que trabaja con PloneMeeting, y otro flujo de trabajo que fue específicamente creado por desarrolladores con otros productos de Plone para los temas de esta configuración de reunión."
-
-#. Default: "The item and its decicion have been archived."
-msgid "itemarchive_done_descr"
-msgstr "El tema y esta decisión tiene que ser archivada."
-
-#. Default: "The item has been frozen."
-msgid "itemfreeze_done_descr"
-msgstr ""
-
-#. Default: "This item has been published."
-msgid "itempublish_done_descr"
-msgstr "Este tema ha sido publicado."
 
 #. Default: "item(s)"
 msgid "items_count"
@@ -3201,10 +3094,6 @@ msgstr ""
 msgid "prereviewers"
 msgstr "Pre-validadores"
 
-#. Default: "The item has been inserted into the meeting agenda."
-msgid "present_done_descr"
-msgstr "Este tema ha sido insertado dentro de la agenda de reunión."
-
 #. Default: "Presents all selected items at once."
 msgid "present_several_items"
 msgstr "Todos los temas seleccionados presentados a la vez."
@@ -3220,14 +3109,6 @@ msgstr "Reunión dentro de la cual este tema es presentado"
 #. Default: "Items presented to this meeting"
 msgid "presented_items"
 msgstr "Temas presentado a esta reunión"
-
-#. Default: "Your item has been pre-reviewed: it is now visible to (a) reviewer(s), that may decide to validate it."
-msgid "prevalidate_done_descr"
-msgstr "Su tema ha sido pre-revisado: este ahoar es visible a un(los) revisor(es), que tal ves decida validarlo."
-
-#. Default: "Your item has been proposed. It must now be reviewed by someone in your group before being visible to a meeting manager. If you are yourself reviewer in your group, the 'validate' button is shown below."
-msgid "propose_done_descr"
-msgstr "Sus temas ha sido propuesto. Esos deben ahora estar siendo revisado por alguien en su grupo antes de ser visible a un administrador de reunión. Si usted es su propio revisor en su grupo, presione en el siguiente botón 'validar' para mostrarlo."
 
 #. Default: "Proposing group's acronym"
 msgid "proposing_group_acronym"
@@ -3248,10 +3129,6 @@ msgstr "El documento ha sido enviado."
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use this functionality."
 msgid "publish_deadline_default_descr"
 msgstr "Especifique aquí la fecha límite para la validación de los temas que se insertan en una reunión dada. Usted tiene la necesidad de expresar este plazo en relación con la fecha de la reunión. Por ejemplo, '5 .9:30' (no escriba las comillas) eso significa: '5 días antes de la fecha de la reunión, a las 9:30'."
-
-#. Default: "The meeting agenda has been published."
-msgid "publish_done_descr"
-msgstr "La agenda de reunión han sido publicada."
 
 #. Default: "Remove access info for deleted users"
 msgid "purge_user_access_info"
@@ -3290,29 +3167,13 @@ msgstr "Usted puede manejar aquí temas predefinidos que servirán, para diferen
 msgid "refresh_votes"
 msgstr "Actualizar valores de voto"
 
-#. Default: "The decision linked to this item has been refused."
-msgid "refuse_done_descr"
-msgstr "La decisión enlazada a este tema ha sido negada."
-
 #. Default: "Remove this information"
 msgid "remove_info"
 msgstr ""
 
-#. Default: "The meeting agenda has been published again."
-msgid "republish_done_descr"
-msgstr "La agenda de reunión han sido publicada otra ves."
-
 #. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"
 msgstr "Si usted marca esta casilla, PloneMeeting entrará en una especie de modo \"emergencia\" que le permite, estar bajo carga pesada, a fin de limitar el número de usuarios autorizados a acceder a la página 'Vista de Reunión'. Si este modo está activado, sólo MeetingManagers y los usuarios que figuran en el siguiente campo se puede ver la página 'Vista de Reunión'."
-
-#. Default: "The item has been sent back to the meeting managers."
-msgid "return_to_meeting_done_descr"
-msgstr ""
-
-#. Default: "The item has been sent to the proposing group for corrections.  When done, the proposing group will send the item back to the meeting managers."
-msgid "return_to_proposing_group_done_descr"
-msgstr ""
 
 #. Default: "You can access this item here: '${objectUrl}'."
 msgid "returnedToMeetingManagers_mail_body"
@@ -3794,10 +3655,6 @@ msgstr "Preferencia"
 #. Default: "Users"
 msgid "users"
 msgstr "Usuarios"
-
-#. Default: "Your item has been reviewed: it is now visible to (a) meeting manager(s), that may decide to present it to a meeting."
-msgid "validate_done_descr"
-msgstr "Su tema ha sido revisado: es ahora visible a (un/unos) administrador(es) de reunión, que tal ves decidan presentar eso en una reunión."
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name 'item'). If it returns False, no vote may occur on the item."
 msgid "vote_condition_descr"
