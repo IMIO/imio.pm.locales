@@ -1641,6 +1641,10 @@ msgstr ""
 msgid "decide_done_descr"
 msgstr "Las decisiones temporales están publicadas por esta reunión."
 
+#. Default: "Selected items have been decided."
+msgid "decide_several_items_done"
+msgstr ""
+
 #. Default: "For every selected items, apply following action"
 msgid "decide_several_items_help"
 msgstr ""
@@ -3281,10 +3285,6 @@ msgstr "${portalTitle} - Un problema ocurrió mientras estaba insertando el tema
 #. Default: "You manage here predefined items that will serve, for different purposes, as templates for creating real items."
 msgid "recurring_items_descr"
 msgstr "Usted puede manejar aquí temas predefinidos que servirán, para diferentes propósitos, como plantillas para crear temas reales."
-
-#. Default: "You have been redirected here because you do not have access anymore to the element you just changed the state for."
-msgid "redirected_after_transition_not_viewable"
-msgstr ""
 
 #. Default: "Refresh vote values"
 msgid "refresh_votes"

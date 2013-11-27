@@ -1622,6 +1622,10 @@ msgstr "L'élément a été désactivé."
 msgid "decide_done_descr"
 msgstr "Les décisions provisoires de cette séance ont été publiées."
 
+#. Default: "Selected items have been decided."
+msgid "decide_several_items_done"
+msgstr "Les éléments sélectionnés ont été décidés."
+
 #. Default: "For every selected items, apply following action"
 msgid "decide_several_items_help"
 msgstr "Pour les points sélectionnés, effectuer l'action suivante"
@@ -3249,10 +3253,6 @@ msgstr "${portalTitle} - Un problème est survenu lors de l'insertion du point r
 msgid "recurring_items_descr"
 msgstr "Vous gérez ici des points prédéfinis qui vont servir, dans divers cas, comme canevas pour créer des points réels."
 
-#. Default: "You have been redirected here because you do not have access anymore to the element you just changed the state for."
-msgid "redirected_after_transition_not_viewable"
-msgstr "Vous avez été redirigé ici parce que l'élément pour lequel vous venez de changer l'état ne vous est plus accessible."
-
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Rafraîchir les valeurs de vote"
@@ -3918,4 +3918,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
