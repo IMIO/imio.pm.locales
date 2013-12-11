@@ -26,6 +26,10 @@ msgstr "Agregar Portlet PloneMeeting"
 msgid "Add Todo Portlet"
 msgstr "Agregar Portlet Todo"
 
+#. Default: "Advice comment"
+msgid "Advice comment"
+msgstr ""
+
 #. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
 msgid "Annexes preview must be enabled to launch complete annexes conversion process."
 msgstr ""
@@ -53,6 +57,14 @@ msgstr ""
 #. Default: "Item categories"
 msgid "Categories"
 msgstr "Categorías de tema"
+
+#. Default: "Choose a group."
+msgid "Choose a group."
+msgstr ""
+
+#. Default: "Choose a type."
+msgid "Choose a type."
+msgstr ""
 
 #. Default: "Item classifiers"
 msgid "Classifiers"
@@ -82,12 +94,20 @@ msgstr "Editar Portlet PloneMeeting"
 msgid "Edit Todo Portlet"
 msgstr "Editar Portlet Todo"
 
+#. Default: "Enter an optional comment."
+msgid "Enter an optional comment."
+msgstr ""
+
 #. Default: "Enter the item assembly to be applied.  The value displayed by default is the value of the current item."
 msgid "Enter the item assembly to be applied.  The value displayed by default is the value of the current item."
 msgstr ""
 
 #. Default: "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
 msgid "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
+msgstr ""
+
+#. Default: "Group"
+msgid "Group"
 msgstr ""
 
 #. Default: "How many items to list in each topic."
@@ -132,6 +152,10 @@ msgstr ""
 
 #. Default: "Manage item signatures"
 msgid "Manage item signatures"
+msgstr ""
+
+#. Default: "Advice"
+msgid "MeetingAdvice"
 msgstr ""
 
 #. Default: "Category"
@@ -187,10 +211,6 @@ msgstr "Estilo de Consejo"
 #. Default: "Advices"
 msgid "PloneMeeting_label_advices"
 msgstr ""
-
-#. Default: "Group"
-msgid "PloneMeeting_label_adviserName"
-msgstr "Grupo"
 
 #. Default: "Tags"
 msgid "PloneMeeting_label_allItemTags"
@@ -457,6 +477,7 @@ msgid "PloneMeeting_label_itemActionsInterface"
 msgstr "La interfaz siguiente es usada para un especifico adaptador de Zope3 para modificar las acciones definidas en las transiciones del flujo de trabajo de tema"
 
 #. Default: "Item states allowing to modify or delete advices"
+#, fuzzy
 msgid "PloneMeeting_label_itemAdviceEditStates"
 msgstr "Los estados del tema siguiente para modificar o eliminar consejos"
 
@@ -1095,6 +1116,10 @@ msgstr "Descripciones de cambiar de temas"
 msgid "Topics"
 msgstr "Tópicos"
 
+#. Default: "Type"
+msgid "Type"
+msgstr ""
+
 #. Default: "A meeting manager"
 msgid "a_meeting_manager"
 msgstr "Un administrador de reunión"
@@ -1153,10 +1178,6 @@ msgstr "Agregar un consejo"
 #. Default: "Comment (optional)"
 msgid "advice_comment"
 msgstr "Comentario (opcional)"
-
-#. Default: "The advice has been deleted."
-msgid "advice_deleted"
-msgstr "Este consejo ha sido borrado."
 
 #. Default: "Edit advice"
 msgid "advice_edit"
@@ -2046,6 +2067,10 @@ msgstr "¿Firmar?"
 msgid "is_voter"
 msgstr "¿Votante?"
 
+#. Default: "Values defined in the 'itemEditStates' field must contains at least every values selected in the 'itemAdvicesStates' field!  Missing states is (are) : ${missingStates}."
+msgid "itemAdviceEditStates_validation_error"
+msgstr ""
+
 #. Default: "You can consult the new item at ${objectUrl}."
 msgid "itemClonedToThisMC_mail_body"
 msgstr ""
@@ -2087,7 +2112,8 @@ msgstr "Uno de sus temas, ${itemTitle}, ha sido removido de una reunión. Esta r
 msgid "item_actions_interface_descr"
 msgstr "Similarmente a el campo precedido, todos las acciones que son activadas cuando un consejo va de un estado a otro son configurables a través del desarrollo de otro módulo de Plone dentro del cual debe: <ul><li>crear una interfaz Python que herede desde la interfaz Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions (usted debe introducir el nombre completo del paquete de esta interfaz en el siguiente campo);</li><li>crear y declarar en el archivo ZCML un adaptador que adapte la interfaz Products.PloneMeeting.interfaces.IMeetingItem a la interfaz que usted tiene definida en el paso anterior.</li></ul>Su adaptador tal ves herede desde el adaptador por defecto Products.PloneMeeting.MeetingItem.MeetingItemWorkflowActions: eso le permitirá a usted anular solo métodos por los cuales usted quiera un comportamiento alterno. Todos los métodos propuestos por la interfaz Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions son documentado."
 
-#. Default: "When an item is in one of the states you choose here, it will be possible to modify or delete an advice on this item.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible to modify or delete an advice on this item.  States defined here must contains at least every states defined in the 'Item states allowing to define advices' field here above.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+#, fuzzy
 msgid "item_advice_edit_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados que elija aquí, será posible modificar o borrar un consejo sobre este tema."
 

@@ -24,6 +24,10 @@ msgstr "Voeg plonemeeting Portlet toe"
 msgid "Add Todo Portlet"
 msgstr "Voeg ToDo Portlet toe"
 
+#. Default: "Advice comment"
+msgid "Advice comment"
+msgstr ""
+
 #. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
 msgid "Annexes preview must be enabled to launch complete annexes conversion process."
 msgstr ""
@@ -51,6 +55,14 @@ msgstr ""
 #. Default: "Item categories"
 msgid "Categories"
 msgstr "Item categorieën"
+
+#. Default: "Choose a group."
+msgid "Choose a group."
+msgstr ""
+
+#. Default: "Choose a type."
+msgid "Choose a type."
+msgstr ""
 
 #. Default: "Item classifiers"
 msgid "Classifiers"
@@ -80,12 +92,20 @@ msgstr "Editeer Plonemeeting Portlet"
 msgid "Edit Todo Portlet"
 msgstr "Editeer ToDo Portlet"
 
+#. Default: "Enter an optional comment."
+msgid "Enter an optional comment."
+msgstr ""
+
 #. Default: "Enter the item assembly to be applied.  The value displayed by default is the value of the current item."
 msgid "Enter the item assembly to be applied.  The value displayed by default is the value of the current item."
 msgstr ""
 
 #. Default: "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
 msgid "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
+msgstr ""
+
+#. Default: "Group"
+msgid "Group"
 msgstr ""
 
 #. Default: "How many items to list in each topic."
@@ -130,6 +150,10 @@ msgstr ""
 
 #. Default: "Manage item signatures"
 msgid "Manage item signatures"
+msgstr ""
+
+#. Default: "Advice"
+msgid "MeetingAdvice"
 msgstr ""
 
 #. Default: "Category"
@@ -184,10 +208,6 @@ msgstr ""
 #. Default: "Advices"
 msgid "PloneMeeting_label_advices"
 msgstr ""
-
-#. Default: "Group"
-msgid "PloneMeeting_label_adviserName"
-msgstr "Groep"
 
 #. Default: "Tags"
 msgid "PloneMeeting_label_allItemTags"
@@ -1090,6 +1110,10 @@ msgstr ""
 msgid "Topics"
 msgstr "Onderwerpen"
 
+#. Default: "Type"
+msgid "Type"
+msgstr ""
+
 #. Default: "A meeting manager"
 msgid "a_meeting_manager"
 msgstr "Meeting beheerder"
@@ -1145,10 +1169,6 @@ msgstr "Advies toevoegen"
 #. Default: "Comment (optional)"
 msgid "advice_comment"
 msgstr "Advies commentaar"
-
-#. Default: "The advice has been deleted."
-msgid "advice_deleted"
-msgstr "Advies verwijderd"
 
 #. Default: "Edit advice"
 msgid "advice_edit"
@@ -2032,6 +2052,10 @@ msgstr ""
 msgid "is_voter"
 msgstr ""
 
+#. Default: "Values defined in the 'itemEditStates' field must contains at least every values selected in the 'itemAdvicesStates' field!  Missing states is (are) : ${missingStates}."
+msgid "itemAdviceEditStates_validation_error"
+msgstr ""
+
 #. Default: "You can consult the new item at ${objectUrl}."
 msgid "itemClonedToThisMC_mail_body"
 msgstr ""
@@ -2068,7 +2092,7 @@ msgstr ""
 msgid "item_actions_interface_descr"
 msgstr ""
 
-#. Default: "When an item is in one of the states you choose here, it will be possible to modify or delete an advice on this item.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible to modify or delete an advice on this item.  States defined here must contains at least every states defined in the 'Item states allowing to define advices' field here above.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "item_advice_edit_states_descr"
 msgstr ""
 

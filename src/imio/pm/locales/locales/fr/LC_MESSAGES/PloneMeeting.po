@@ -23,6 +23,10 @@ msgstr "Ajout d'un portlet 'PloneMeeting'"
 msgid "Add Todo Portlet"
 msgstr "Ajout d'un portlet 'à faire'"
 
+#. Default: "Advice comment"
+msgid "Advice comment"
+msgstr "Commentaire"
+
 #. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
 msgid "Annexes preview must be enabled to launch complete annexes conversion process."
 msgstr "N'effectuez la conversion des annexes que si la prévisualisation des annexes est activée."
@@ -50,6 +54,14 @@ msgstr "Annuler"
 #. Default: "Item categories"
 msgid "Categories"
 msgstr "Catégories de points"
+
+#. Default: "Choose a group."
+msgid "Choose a group."
+msgstr "Choisissez le groupe au nom duquel l'avis sera remis."
+
+#. Default: "Choose a type."
+msgid "Choose a type."
+msgstr "Choisissez un type d'avis."
 
 #. Default: "Item classifiers"
 msgid "Classifiers"
@@ -79,6 +91,10 @@ msgstr "Edition d'un portlet 'PloneMeeting'"
 msgid "Edit Todo Portlet"
 msgstr "Edition du portlet 'à faire'"
 
+#. Default: "Enter an optional comment."
+msgid "Enter an optional comment."
+msgstr "Entrez un commentaire (optionnel)."
+
 #. Default: "Enter the item assembly to be applied.  The value displayed by default is the value of the current item."
 msgid "Enter the item assembly to be applied.  The value displayed by default is the value of the current item."
 msgstr "Encodez l'assemblée qui devra être appliquée.  La valeur affichée par défaut dans ce champ est la valeur définie sur le point courant."
@@ -86,6 +102,10 @@ msgstr "Encodez l'assemblée qui devra être appliquée.  La valeur affichée pa
 #. Default: "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
 msgid "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
 msgstr "Encodez les signatures qui devront être appliquées.  La valeur affichée par défaut dans ce champ est la valeur définie sur le point courant."
+
+#. Default: "Group"
+msgid "Group"
+msgstr "Groupe"
 
 #. Default: "How many items to list in each topic."
 msgid "How many items to list in each topic."
@@ -130,6 +150,10 @@ msgstr "Gestion de l'assemblée spécifique pour les points"
 #. Default: "Manage item signatures"
 msgid "Manage item signatures"
 msgstr "Gestion des signatures spécifiques pour les points"
+
+#. Default: "Advice"
+msgid "MeetingAdvice"
+msgstr "Avis"
 
 #. Default: "Category"
 msgid "MeetingCategory"
@@ -183,10 +207,6 @@ msgstr "Style des avis"
 #. Default: "Advices"
 msgid "PloneMeeting_label_advices"
 msgstr "Avis"
-
-#. Default: "Group"
-msgid "PloneMeeting_label_adviserName"
-msgstr "Groupe"
 
 #. Default: "Tags"
 msgid "PloneMeeting_label_allItemTags"
@@ -1089,6 +1109,10 @@ msgstr "Afficher / masquer les détails des points dans les tableaux de recherch
 msgid "Topics"
 msgstr "Recherches préconfigurées"
 
+#. Default: "Type"
+msgid "Type"
+msgstr "Type d'avis"
+
 #. Default: "A meeting manager"
 msgid "a_meeting_manager"
 msgstr "Un gestionnaire de séance"
@@ -1144,10 +1168,6 @@ msgstr "Ajouter un avis"
 #. Default: "Comment (optional)"
 msgid "advice_comment"
 msgstr "Commentaire (optionnel)"
-
-#. Default: "The advice has been deleted."
-msgid "advice_deleted"
-msgstr "L'avis a été supprimé."
 
 #. Default: "Edit advice"
 msgid "advice_edit"
@@ -2026,6 +2046,10 @@ msgstr "Signataire?"
 msgid "is_voter"
 msgstr "Votant?"
 
+#. Default: "Values defined in the 'itemEditStates' field must contains at least every values selected in the 'itemAdvicesStates' field!  Missing states is (are) : ${missingStates}."
+msgid "itemAdviceEditStates_validation_error"
+msgstr "Les états sélectionnés ici doivent reprendre au moins tous les états définis dans le champ 'Etats des points dans lesquels on peut donner un avis' ci-dessus! Etat(s) manquant(s) : ${missingStates}."
+
 #. Default: "You can consult the new item at ${objectUrl}."
 msgid "itemClonedToThisMC_mail_body"
 msgstr "Vous pouvez consulter le point transféré ici : ${objectUrl}."
@@ -2062,9 +2086,9 @@ msgstr "${meetingConfigTitle} - Un de vos points : '${itemTitle}', a été retir
 msgid "item_actions_interface_descr"
 msgstr "A l'instar du champ précédent, toutes les actions qui sont déclenchées lorsqu'un point passe d'un état à un autre sont configurables via le développement d'un produit Plone tiers dans lequel vous devez:<ul><li>créer une interface Python qui hérite de l'interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions (c'est le nom complet de cette interface que vous devez spécifier dans ce champ);</li><li>créer et déclarer en ZCML un adapter qui adapte l'interface Products.PloneMeeting.interfaces.IMeetingItem vers l'interface que vous avez définie au point précédent.</li></ul>Vous pouvez faire hériter votre adapter de l'adapter par défaut Products.PloneMeeting.MeetingItem.MeetingItemWorkflowActions: cela vous permettra de remplacer ou overrider uniquement les méthodes pour lesquelles vous voulez un comportement différent. Toutes les méthodes proposées par l'interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions sont documentées."
 
-#. Default: "When an item is in one of the states you choose here, it will be possible to modify or delete an advice on this item.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible to modify or delete an advice on this item.  States defined here must contains at least every states defined in the 'Item states allowing to define advices' field here above.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "item_advice_edit_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible de modifier ou supprimer un avis donné.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les avis!</span>"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible de modifier ou supprimer un avis donné.  Attention, les états sélectionnés ici doivent reprendre au moins tous les états définis dans le champ 'Etats des points dans lesquels on peut donner un avis' ci-dessus.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les avis!</span>"
 
 #. Default: "When advice invalidation is enabled, it will be the case only for items which are in one of the states selected here."
 msgid "item_advice_invalidate_states"
@@ -3778,4 +3802,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
