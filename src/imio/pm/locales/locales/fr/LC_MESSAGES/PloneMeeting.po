@@ -15,6 +15,10 @@ msgstr ""
 "Domain: PloneMeeting\n"
 "X-is-fallback-for: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
 
+#. Default: "Access detailled advice"
+msgid "Access detailled advice"
+msgstr "Accéder à l'avis en détail"
+
 #. Default: "Add PloneMeeting Portlet"
 msgid "Add PloneMeeting Portlet"
 msgstr "Ajout d'un portlet 'PloneMeeting'"
@@ -1091,6 +1095,10 @@ msgstr "Une erreur est survenue pendant la conversion de l'annexe.  Contactez vo
 #. Default: "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
 msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
 msgstr "Une erreur est survenue en essayant de définir cette annexe comme 'à imprimer'.  Le message d'erreur est : ${error}.  Contactez votre administrateur système."
+
+#. Default: "This advice has not been given yet."
+msgid "This advice has not been given yet."
+msgstr "Cet avis n'a pas encore été rendu."
 
 #. Default: "This portlet shows controls of PloneMeeting."
 msgid "This portlet shows controls of PloneMeeting."
