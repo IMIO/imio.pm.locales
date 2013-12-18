@@ -232,6 +232,10 @@ msgstr "Marqueurs"
 msgid "PloneMeeting_label_allItemsAtOnce"
 msgstr "Points présentés à cette séance (y compris après publication de celle-ci)"
 
+#. Default: "Advice annex to print default value"
+msgid "PloneMeeting_label_annexAdviceToPrintDefault"
+msgstr "Marquer les annexes à un avis comme 'à imprimer' par défaut?"
+
 #. Default: "Decision annex to print default value"
 msgid "PloneMeeting_label_annexDecisionToPrintDefault"
 msgstr "Marquer les annexes à la décision comme 'à imprimer' par défaut?"
@@ -1272,6 +1276,10 @@ msgstr "La prévisualitation dans le navigateur web ne sera pas possible et il n
 #. Default: "${meetingConfigTitle} - There was an error while converting an annex."
 msgid "annexConversionError_mail_subject"
 msgstr "${meetingConfigTitle} - Une erreur est survenue lors de la conversion d'une annexe."
+
+#. Default: "Default value of the 'to print' checkbox for advice annexes."
+msgid "annex_advice_to_print_default_descr"
+msgstr "Si vous cochez cette case, les annexes ajoutées à un avis seront marquées comme 'à imprimer' par défaut."
 
 #. Default: "Default value of the 'to print' checkbox for decision annexes."
 msgid "annex_decision_to_print_default_descr"

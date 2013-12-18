@@ -232,6 +232,10 @@ msgstr "Tags"
 msgid "PloneMeeting_label_allItemsAtOnce"
 msgstr "Items presented to this meeting (including those that were presented after the meeting was published)."
 
+#. Default: "Advice annex to print default value"
+msgid "PloneMeeting_label_annexAdviceToPrintDefault"
+msgstr ""
+
 #. Default: "Decision annex to print default value"
 msgid "PloneMeeting_label_annexDecisionToPrintDefault"
 msgstr "Decision annex to print default value"
@@ -1281,6 +1285,10 @@ msgstr "An annex could not be converted correctly and no preview will be availab
 #, fuzzy
 msgid "annexConversionError_mail_subject"
 msgstr "${itemTitle} - There was an error while converting an annex."
+
+#. Default: "Default value of the 'to print' checkbox for advice annexes."
+msgid "annex_advice_to_print_default_descr"
+msgstr ""
 
 #. Default: "Default value of the 'to print' checkbox for decision annexes."
 msgid "annex_decision_to_print_default_descr"

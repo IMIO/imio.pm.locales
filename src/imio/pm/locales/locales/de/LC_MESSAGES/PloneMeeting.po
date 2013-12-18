@@ -233,6 +233,10 @@ msgstr "Tags"
 msgid "PloneMeeting_label_allItemsAtOnce"
 msgstr "In dieser Sitzung präsentierte TOP (inklusive der TOP die nach der Veröffentlichung dieser Sitzung präsentiert wurden)."
 
+#. Default: "Advice annex to print default value"
+msgid "PloneMeeting_label_annexAdviceToPrintDefault"
+msgstr ""
+
 #. Default: "Decision annex to print default value"
 msgid "PloneMeeting_label_annexDecisionToPrintDefault"
 msgstr ""
@@ -1282,6 +1286,10 @@ msgstr ""
 
 #. Default: "${meetingConfigTitle} - There was an error while converting an annex."
 msgid "annexConversionError_mail_subject"
+msgstr ""
+
+#. Default: "Default value of the 'to print' checkbox for advice annexes."
+msgid "annex_advice_to_print_default_descr"
 msgstr ""
 
 #. Default: "Default value of the 'to print' checkbox for decision annexes."
