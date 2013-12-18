@@ -1992,10 +1992,6 @@ msgstr ""
 msgid "hs_all"
 msgstr ""
 
-#. Default: "Configure PloneMeeting"
-msgid "hs_configuration"
-msgstr "PloneMeeting konfigurieren"
-
 #. Default: "Thank you for your visit."
 msgid "hs_logged_out_body"
 msgstr "Vielen Dank für Ihren Besuch"
@@ -2007,10 +2003,6 @@ msgstr "Sie sind jetzt abgemeldet."
 #. Default: "Name"
 msgid "hs_name"
 msgstr ""
-
-#. Default: "Other"
-msgid "hs_other"
-msgstr "Andere"
 
 #. Default: "This site allows you to manage your official meetings."
 msgid "hs_welcome_body"
@@ -2752,7 +2744,8 @@ msgstr "Null"
 msgid "no_access_info_purged"
 msgstr "Es wurde keine Zugriffsinformation gelöscht."
 
-#. Default: "No annex is currently defined for this item."
+#. Default: "No annex is currently defined for this element."
+#, fuzzy
 msgid "no_annexes"
 msgstr "Für diesen TOP ist kein Anhang vorhanden."
 
@@ -2933,6 +2926,10 @@ msgstr "Wähle Berater welche zu diesem TOP einen optionalen Kommentar abgeben s
 msgid "oral_question_item_descr"
 msgstr ""
 
+#. Default: "Other"
+msgid "other_place"
+msgstr "Andere"
+
 #. Default: "Parameters defined if the user has a specific function"
 msgid "params_as_special_user"
 msgstr "Parameter die definiert sind wenn der Benutzer eine spezifische Funktion hat"
@@ -2988,6 +2985,10 @@ msgstr "Willkommen zu der PloneMeeting-Verwaltung. PloneMeeting erlaubt es Tages
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
 msgstr "Indentifizierer"
+
+#. Default: "Configure PloneMeeting"
+msgid "pm_configuration"
+msgstr "PloneMeeting konfigurieren"
 
 #. Default: "Convert annexes for preview"
 msgid "pm_convert_annexes"

@@ -1985,10 +1985,6 @@ msgstr "See last, uncolored version"
 msgid "hs_all"
 msgstr "All"
 
-#. Default: "Configure PloneMeeting"
-msgid "hs_configuration"
-msgstr "Configure PloneMeeting"
-
 #. Default: "Thank you for your visit."
 msgid "hs_logged_out_body"
 msgstr "Thank you for your visit."
@@ -2000,10 +1996,6 @@ msgstr "You are now disconnected."
 #. Default: "Name"
 msgid "hs_name"
 msgstr "Name"
-
-#. Default: "Other"
-msgid "hs_other"
-msgstr "Other"
 
 #. Default: "This site allows you to manage your official meetings."
 msgid "hs_welcome_body"
@@ -2746,7 +2738,8 @@ msgstr "Nil"
 msgid "no_access_info_purged"
 msgstr "No access information was removed."
 
-#. Default: "No annex is currently defined for this item."
+#. Default: "No annex is currently defined for this element."
+#, fuzzy
 msgid "no_annexes"
 msgstr "No annex is currently defined for this item."
 
@@ -2927,6 +2920,10 @@ msgstr "Choose advisers that will have to issue an optional advice for this item
 msgid "oral_question_item_descr"
 msgstr " "
 
+#. Default: "Other"
+msgid "other_place"
+msgstr "Other"
+
 #. Default: "Parameters defined if the user has a specific function"
 msgid "params_as_special_user"
 msgstr "Parameters defined if the user has a specific function"
@@ -2982,6 +2979,10 @@ msgstr "Welcome to the administrative pages of PloneMeeting. PloneMeeting allows
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
 msgstr "Identifier"
+
+#. Default: "Configure PloneMeeting"
+msgid "pm_configuration"
+msgstr "Configure PloneMeeting"
 
 #. Default: "Convert annexes for preview"
 msgid "pm_convert_annexes"

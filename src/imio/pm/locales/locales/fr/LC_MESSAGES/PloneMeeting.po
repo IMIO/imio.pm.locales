@@ -1974,10 +1974,6 @@ msgstr "Voir la dernière version (non colorisée)"
 msgid "hs_all"
 msgstr "Tous"
 
-#. Default: "Configure PloneMeeting"
-msgid "hs_configuration"
-msgstr "Configurer PloneMeeting"
-
 #. Default: "Thank you for your visit."
 msgid "hs_logged_out_body"
 msgstr "Merci pour votre visite."
@@ -1989,10 +1985,6 @@ msgstr "Vous êtes maintenant déconnecté."
 #. Default: "Name"
 msgid "hs_name"
 msgstr "Nom"
-
-#. Default: "Other"
-msgid "hs_other"
-msgstr "Autre"
 
 #. Default: "This site allows you to manage your official meetings."
 msgid "hs_welcome_body"
@@ -2724,9 +2716,9 @@ msgstr "Néant"
 msgid "no_access_info_purged"
 msgstr "Aucune information d'accès n'a été supprimée."
 
-#. Default: "No annex is currently defined for this item."
+#. Default: "No annex is currently defined for this element."
 msgid "no_annexes"
-msgstr "Aucune annexe n'est actuellement définie pour ce point."
+msgstr "Aucune annexe n'est actuellement définie pour cet élément."
 
 #. Default: "Attributes 'assembly' and 'attendees' can't be used together."
 msgid "no_assembly_and_attendees"
@@ -2905,6 +2897,10 @@ msgstr "Choisissez-en plusieurs en maintenant la touche 'Ctrl' enfoncée."
 msgid "oral_question_item_descr"
 msgstr " "
 
+#. Default: "Other"
+msgid "other_place"
+msgstr "Autre"
+
 #. Default: "Parameters defined if the user has a specific function"
 msgid "params_as_special_user"
 msgstr "Paramètres définis si l'utilisateur a une fonction spécifique"
@@ -2960,6 +2956,10 @@ msgstr "Bienvenue sur l'interface d'administration de PloneMeeting. PloneMeeting
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
 msgstr "Identifiant"
+
+#. Default: "Configure PloneMeeting"
+msgid "pm_configuration"
+msgstr "Configurer PloneMeeting"
 
 #. Default: "Convert annexes for preview"
 msgid "pm_convert_annexes"
@@ -3822,4 +3822,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

@@ -1980,10 +1980,6 @@ msgstr ""
 msgid "hs_all"
 msgstr "Alle"
 
-#. Default: "Configure PloneMeeting"
-msgid "hs_configuration"
-msgstr ""
-
 #. Default: "Thank you for your visit."
 msgid "hs_logged_out_body"
 msgstr ""
@@ -1995,10 +1991,6 @@ msgstr ""
 #. Default: "Name"
 msgid "hs_name"
 msgstr "Naam"
-
-#. Default: "Other"
-msgid "hs_other"
-msgstr "Andere"
 
 #. Default: "This site allows you to manage your official meetings."
 msgid "hs_welcome_body"
@@ -2733,7 +2725,8 @@ msgstr "visa"
 msgid "no_access_info_purged"
 msgstr "Geen toegangsinformatie werd verwijderd."
 
-#. Default: "No annex is currently defined for this item."
+#. Default: "No annex is currently defined for this element."
+#, fuzzy
 msgid "no_annexes"
 msgstr "Geen bijlage wordt momenteel bepaald voor dit punt."
 
@@ -2914,6 +2907,10 @@ msgstr ""
 msgid "oral_question_item_descr"
 msgstr ""
 
+#. Default: "Other"
+msgid "other_place"
+msgstr "Andere"
+
 #. Default: "Parameters defined if the user has a specific function"
 msgid "params_as_special_user"
 msgstr ""
@@ -2969,6 +2966,10 @@ msgstr "Welcome to the administrative pages of PloneMeeting. PloneMeeting allows
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
 msgstr "Gebruikersnaam"
+
+#. Default: "Configure PloneMeeting"
+msgid "pm_configuration"
+msgstr ""
 
 #. Default: "Convert annexes for preview"
 msgid "pm_convert_annexes"
