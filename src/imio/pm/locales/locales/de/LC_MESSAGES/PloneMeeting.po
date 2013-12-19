@@ -179,6 +179,10 @@ msgstr "Kategorie"
 msgid "MeetingFileTypes"
 msgstr "Typen für Anhänge"
 
+#. Default: "No complementary comment has been given on this advice."
+msgid "No complementary comment has been given on this advice."
+msgstr ""
+
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
 msgstr ""
@@ -871,6 +875,10 @@ msgstr "Stati der TOP für welche die Speicherung der History aktiviert ist"
 
 #. Default: "Meeting states into which events will be recorded in meeting's history"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
+msgstr ""
+
+#. Default: "Related to"
+msgid "PloneMeeting_label_relatedTo"
 msgstr ""
 
 #. Default: "Duty for users replacing this one"
@@ -2688,6 +2696,18 @@ msgstr "Dieser Bereich ermöglicht es das Abstimmungssytem zu konfigurieren."
 msgid "meetingconfig_workflow_descr"
 msgstr "Einstellungen in diesem Abschnitt ermöglichen es die Arbeitsabläufe der Sitzungen und TOP auszuwählen und anzupassen."
 
+#. Default: "Advice annex"
+msgid "meetingfiletype_related_to_advice"
+msgstr ""
+
+#. Default: "Item annex"
+msgid "meetingfiletype_related_to_item"
+msgstr ""
+
+#. Default: "Item decision annex"
+msgid "meetingfiletype_related_to_item_decision"
+msgstr ""
+
 #. Default: "As the group has been deactivated, it has been removed from the 'selectable copy groups' field of every meeting configs."
 msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups"
 msgstr ""
@@ -3218,6 +3238,10 @@ msgstr "Hier werden vorkonfigurierte TOP verwaltet. Diese können als Vorlage f�
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Abstimmungen aktualisieren"
+
+#. Default: "Define here for wich kind of annex this type of annex applies."
+msgid "related_to_descr"
+msgstr ""
 
 #. Default: "Remove this information"
 msgid "remove_info"

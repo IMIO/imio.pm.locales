@@ -179,6 +179,10 @@ msgstr "Catégorie"
 msgid "MeetingFileTypes"
 msgstr "Types d'annexes"
 
+#. Default: "No complementary comment has been given on this advice."
+msgid "No complementary comment has been given on this advice."
+msgstr "Aucun commentaire complémentaire n'a été ajouté sur cet avis."
+
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
 msgstr "Nombre de caratère de l'objet du point à afficher"
@@ -869,6 +873,10 @@ msgstr "États des points dans lesquels l'historisation est active"
 #. Default: "Meeting states into which events will be recorded in meeting's history"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr "États des séances dans lesquels l'historisation est active"
+
+#. Default: "Related to"
+msgid "PloneMeeting_label_relatedTo"
+msgstr "Associé à"
 
 #. Default: "Duty for users replacing this one"
 msgid "PloneMeeting_label_replacementDuty"
@@ -2660,6 +2668,18 @@ msgstr "Cette section vous permet de configurer le système de gestion des votes
 msgid "meetingconfig_workflow_descr"
 msgstr "Les paramètres liés aux workflows permettent de choisir et d'adapter les workflows gouvernant le cycle de vie des points et séances."
 
+#. Default: "Advice annex"
+msgid "meetingfiletype_related_to_advice"
+msgstr "Annexe à un avis"
+
+#. Default: "Item annex"
+msgid "meetingfiletype_related_to_item"
+msgstr "Annexe à un point"
+
+#. Default: "Item decision annex"
+msgid "meetingfiletype_related_to_item_decision"
+msgstr "Annexe à la décision d'un point"
+
 #. Default: "As the group has been deactivated, it has been removed from the 'selectable copy groups' field of every meeting configs."
 msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups"
 msgstr "Comme le groupe a été désactivé, il a été enlevé des 'Groupes qui pourront être mis en copie' (onglet [Avis et accès]) de chaque configuration de séance."
@@ -3188,6 +3208,10 @@ msgstr "Vous gérez ici des points prédéfinis qui vont servir, dans divers cas
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Rafraîchir les valeurs de vote"
+
+#. Default: "Define here for wich kind of annex this type of annex applies."
+msgid "related_to_descr"
+msgstr "Choisissez ici le type d'annexe auquel ce type de fichier est associé."
 
 #. Default: "Remove this information"
 msgid "remove_info"
