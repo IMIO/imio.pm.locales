@@ -1308,22 +1308,6 @@ msgstr ""
 msgid "enable_annex_preview_descr"
 msgstr ""
 
-#. Default: "Site start date"
-msgid "PloneMeeting_label_siteStartDate"
-msgstr ""
-
-#. Default: "When clicking on button 'Delete archived meetings', the system will delete all archived meetings, items and annexes included, whose date is earlier than this date."
-msgid "site_start_date_descr"
-msgstr ""
-
-#. Default: "Delete archived meetings"
-msgid "delete_archived_meetings"
-msgstr ""
-
-#. Default: "Are you sure? All archived meetings, items and annexes included, whose date is earlier than the date besides this button, will be deleted. Ensure those meetings have been transferred to an archive site or backed up."
-msgid "confirm_delete_archived_meetings"
-msgstr ""
-
 #. Default: "Maximum number of search results"
 msgid "PloneMeeting_label_maxSearchResults"
 msgstr ""
@@ -1426,18 +1410,6 @@ msgstr ""
 
 #. Default: "Vietnamese"
 msgid "language_vie"
-msgstr ""
-
-#. Default: "External applications"
-msgid "external_applications"
-msgstr ""
-
-#. Default: "External applications may access, through WebDAV, to data managed by PloneMeeting (meetings, items and annexes), as soon as meetings and their content are archived. They can be notified, via HTTP requests and/or email, every time a meeting is archived."
-msgid "external_applications_descr"
-msgstr ""
-
-#. Default: "No external application is currenty defined."
-msgid "no_external_application"
 msgstr ""
 
 #. Default: "Other parameters"
@@ -2784,134 +2756,6 @@ msgstr ""
 msgid "cannot_paste_item_from_other_mc"
 msgstr ""
 
-#. Default: "Proxy"
-msgid "PloneMeeting_label_notifyProxy"
-msgstr ""
-
-#. Default: "If the HTTP requests to the external application must go through a proxy, you must specify here the proxy URL and port to be used, ie 'http://proxy.mycompany.org:3128'."
-msgid "notify_proxy_descr"
-msgstr ""
-
-#. Default: "Login"
-msgid "PloneMeeting_label_notifyLogin"
-msgstr ""
-
-#. Default: "If the contacted application requires this site to present credentials (username and password) specify here the username."
-msgid "notify_login_descr"
-msgstr ""
-
-#. Default: "Password"
-msgid "PloneMeeting_label_notifyPassword"
-msgstr ""
-
-#. Default: "If the contacted application requires this site to present credentials (username and password) specify here the password."
-msgid "notify_password_descr"
-msgstr ""
-
-#. Default: "A password, please."
-msgid "password_mandatory"
-msgstr ""
-
-#. Default: "Specify here the name of the key (in the HTTP header) that will store the password."
-msgid "password_header_key_descr"
-msgstr ""
-
-#. Default: "Protocol to use for talking to the external application"
-msgid "PloneMeeting_label_notifyProtocol"
-msgstr ""
-
-#. Default: "Specify here the HTTP-based method or protocol to use for contacting the external application."
-msgid "notify_protocol_descr"
-msgstr ""
-
-#. Default: "Events triggering notifications"
-msgid "PloneMeeting_label_notifyEvents"
-msgstr ""
-
-#. Default: "If 'notifications' is among usages, specify here the types of events that will produce notifications to the external application."
-msgid "extapp_notify_events_descr"
-msgstr ""
-
-#. Default: "Condition for notifying"
-msgid "PloneMeeting_label_notifyCondition"
-msgstr ""
-
-#. Default: "Notifications are normally sent when events as defined by the previous field occur. But you can define an additional condition here: notifications will be send if the specified events occur AND if there is no condition defined here OR if this condition returns True. The condition must be a Python expression accepting, in its context, variables 'obj' (the object of the notification) and 'event' (the name of the event that occurred)."
-msgid "notify_condition_descr"
-msgstr ""
-
-#. Default: "Second URL"
-msgid "PloneMeeting_label_secondUrl"
-msgstr ""
-
-#. Default: "If you use this site for search purposes, you must specify here the 'web' URL of the distant site. Indeed, the URL defined above is the WebDAV URL."
-msgid "second_url_descr"
-msgstr ""
-
-#. Default: "When using this site for search purposes, the second URL is mandatory."
-msgid "second_url_mandatory"
-msgstr ""
-
-#. Default: "Defer the import of meetings"
-msgid "PloneMeeting_label_deferredMeetingImport"
-msgstr ""
-
-#. Default: "Check this box if you want to defer the import of meetings to the next night (applicable only if you use this external application for importing, of course). Do this if you expect the import to take a long time."
-msgid "deferred_meeting_import_descr"
-msgstr ""
-
-#. Default: "Send a test request"
-msgid "send_test_request_external_app"
-msgstr ""
-
-#. Default: "Show/hide already imported meetings"
-msgid "show_hide_imported_meetings"
-msgstr ""
-
-#. Default: "List archived meetings on the current site"
-msgid "localget_meetings"
-msgstr ""
-
-#. Default: "List archived meetings on master site"
-msgid "davget_meetings"
-msgstr ""
-
-#. Default: "List PloneMeeting groups on the master site"
-msgid "davget_groups"
-msgstr ""
-
-#. Default: "Import"
-msgid "davimport_meeting"
-msgstr ""
-
-#. Default: "Export"
-msgid "davexport_meeting"
-msgstr ""
-
-#. Default: "Import selected elements"
-msgid "davimport_selected"
-msgstr ""
-
-#. Default: "Export selected elements"
-msgid "davexport_selected"
-msgstr ""
-
-#. Default: "Synchronize main configuration"
-msgid "davsync_tool"
-msgstr ""
-
-#. Default: "Synchronize users"
-msgid "davsync_users"
-msgstr ""
-
-#. Default: "Already imported."
-msgid "meeting_already_imported"
-msgstr ""
-
-#. Default: "Will be imported next night."
-msgid "meeting_in_nightwork"
-msgstr ""
-
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
 msgstr ""
@@ -3878,4 +3722,3 @@ msgstr ""
 #. Default: "Advice annex"
 msgid "meetingfiletype_related_to_advice"
 msgstr ""
-

@@ -369,10 +369,6 @@ msgstr "Standard OCR Sprache"
 msgid "PloneMeeting_label_defaultVoteValue"
 msgstr "Standard Abstimmungswert"
 
-#. Default: "Defer the import of meetings"
-msgid "PloneMeeting_label_deferredMeetingImport"
-msgstr ""
-
 #. Default: "Defer handling of notifications"
 msgid "PloneMeeting_label_deferredNotificationsHandling"
 msgstr ""
@@ -731,33 +727,9 @@ msgstr ""
 msgid "PloneMeeting_label_navigateLocally"
 msgstr "Erlaubt das Navigations-Portlet nur das Navigieren im Nutzer-Ordner"
 
-#. Default: "Condition for notifying"
-msgid "PloneMeeting_label_notifyCondition"
-msgstr "Bedingungen für die Benachrichtigung"
-
 #. Default: "Email"
 msgid "PloneMeeting_label_notifyEmail"
 msgstr "E-Mail für Benachrichtigungen dieser Anwendung"
-
-#. Default: "Events triggering notifications"
-msgid "PloneMeeting_label_notifyEvents"
-msgstr "Vorgänge die Benachrichtigungen anstoßen"
-
-#. Default: "Login"
-msgid "PloneMeeting_label_notifyLogin"
-msgstr "Login"
-
-#. Default: "Password"
-msgid "PloneMeeting_label_notifyPassword"
-msgstr "Passwort"
-
-#. Default: "Protocol to use for talking to the external application"
-msgid "PloneMeeting_label_notifyProtocol"
-msgstr "Benutztes Protokoll um mit externen Applikationen zu kommunizieren"
-
-#. Default: "Proxy"
-msgid "PloneMeeting_label_notifyProxy"
-msgstr "Proxy"
 
 # ExternalApplication
 #. Default: "URL"
@@ -897,10 +869,6 @@ msgstr "'Eingeschränkter Benutzer' Modus"
 msgid "PloneMeeting_label_searchItemStates"
 msgstr ""
 
-#. Default: "Second URL"
-msgid "PloneMeeting_label_secondUrl"
-msgstr "Zweite URL"
-
 #. Default: "Groups that can be in copy for an item"
 msgid "PloneMeeting_label_selectableCopyGroups"
 msgstr "Gruppen welche eine Kopie für diesen TOP erhalten können"
@@ -924,10 +892,6 @@ msgstr "Diese Unterschrift ist die Standardunterschrift"
 #. Default: "Default signatures"
 msgid "PloneMeeting_label_signatures"
 msgstr "Standard-Unterschriften"
-
-#. Default: "Site start date"
-msgid "PloneMeeting_label_siteStartDate"
-msgstr ""
 
 #. Default: "Sort the tags alphabetically"
 msgid "PloneMeeting_label_sortAllItemTags"
@@ -1507,10 +1471,6 @@ msgstr "Entschuldigen Sie, aber diese Konfiguration ist immer noch die Standarde
 msgid "config_version_descr"
 msgstr "Wenn diese Sitzungs-Konfiguration zu einer Organisation, Institution oder Gruppe gehört die eine Bezeichnung an ihre folgenden Formulare vergibt (zum Beispiel: 'Stadtrat 2000-2006', '5. Parlament', 'VIII Regierung', ...) dann können Sie hier die Bezeichnung des aktuellen Formulars eingeben (zum Beispiel: 'SR00_06', 'P5', 'Reg VIII', ...)."
 
-#. Default: "Are you sure? All archived meetings, items and annexes included, whose date is earlier than the date besides this button, will be deleted. Ensure those meetings have been transferred to an archive site or backed up."
-msgid "confirm_delete_archived_meetings"
-msgstr ""
-
 #. Default: "Select here groups that will be able to see this item"
 msgid "copy_groups_item_descr"
 msgstr "Wählen Sie hier die Gruppen welche diesen TOP sehen soll"
@@ -1574,38 +1534,6 @@ msgstr ""
 msgid "date_format_descr"
 msgstr "In diesem Feld kann gleichwelcher Text und spezielle Symbole eingegeben werden welche zu einem Datumsformat passen. Zum Beispiel: '%s/%m/%Y' würde ergeben '12/06/1968'. Die folgenden Symbole stehen zur Verfügung:<br/>%d (Tag)<br/>%dt (übersetzer Name des Tages)<br/>%DT (übersetzer Name des Tages, erster Buchstabe Großbuchstabe)<br/>%m (monat)<br/>%mt (übersetzer Name des Monates)<br/>%MT (übersetzer Name des Monates, erster Buchstabe Großbuchstabe)<br/><br/>%Y (Jahr mit jahrhundert)<br/>%y (Jahr, ohne Jahrhundert)."
 
-#. Default: "Export"
-msgid "davexport_meeting"
-msgstr "Export"
-
-#. Default: "Export selected elements"
-msgid "davexport_selected"
-msgstr "Exportiere ausgwählte Elemente"
-
-#. Default: "List PloneMeeting groups on the master site"
-msgid "davget_groups"
-msgstr "Liste die PloneMeetinggruppen auf dem Hauptsite"
-
-#. Default: "List archived meetings on master site"
-msgid "davget_meetings"
-msgstr "Liste die archivierten Sitzungen auf dem Hauptsite"
-
-#. Default: "Import"
-msgid "davimport_meeting"
-msgstr "Import"
-
-#. Default: "Import selected elements"
-msgid "davimport_selected"
-msgstr "Importiere ausgewählte Elemente"
-
-#. Default: "Synchronize main configuration"
-msgid "davsync_tool"
-msgstr ""
-
-#. Default: "Synchronize users"
-msgid "davsync_users"
-msgstr ""
-
 #. Default: "The element has been deactivated."
 msgid "deactivate_done_descr"
 msgstr ""
@@ -1651,16 +1579,8 @@ msgstr "Die Sprache die Sie hier auswählen wird als Standardsprache angezeigt w
 msgid "default_vote_value_descr"
 msgstr "Wenn der MeetingManager die Abstimmung selbst einträgt, könnte ein Standardwert vorab ausgefüllt werden: Der Wert den Sie hier auswählen."
 
-#. Default: "Check this box if you want to defer the import of meetings to the next night (applicable only if you use this external application for importing, of course). Do this if you expect the import to take a long time."
-msgid "deferred_meeting_import_descr"
-msgstr ""
-
 #. Default: "If you check this box, handling of notifications received from external systems will be handled only during next night. Do this if you expect this handling to take a long time."
 msgid "deferred_notifs_handling_descr"
-msgstr ""
-
-#. Default: "Delete archived meetings"
-msgid "delete_archived_meetings"
 msgstr ""
 
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
@@ -1785,10 +1705,6 @@ msgstr "Anhänge"
 msgid "existing_votes"
 msgstr "Abstimmungen"
 
-#. Default: "If 'notifications' is among usages, specify here the types of events that will produce notifications to the external application."
-msgid "extapp_notify_events_descr"
-msgstr "Wenn die Benachrichtigungen benutzt werden, geben Sie hier die Typen der Bedingungen an die das Versenden von Nachrichten an die externe Anwendung anstoßen"
-
 #. Default: "As a target site to which we will export meetings"
 msgid "extapp_usage_export"
 msgstr "Als Anwendung zu der Sitzungen exportiert werden"
@@ -1812,14 +1728,6 @@ msgstr ""
 #. Default: "This external application may be used for various purposes."
 msgid "extapp_usages_descr"
 msgstr "Diese externe Anwendung kann für verschiedene Aufgaben benutzt werden"
-
-#. Default: "External applications"
-msgid "external_applications"
-msgstr "Externe Anwendungen"
-
-#. Default: "External applications may access, through WebDAV, to data managed by PloneMeeting (meetings, items and annexes), as soon as meetings and their content are archived. They can be notified, via HTTP requests and/or email, every time a meeting is archived."
-msgid "external_applications_descr"
-msgstr "Externe Anwendungen können mit WebDAV auf Daten die von PloneMeeting verwaltet werden zugreifen (Sitzungen, TOP und Anhänge) sobald Sitzungen und ihre Inhalte archiviert wurden. Sie können mit einem HTTP POST Request und/oder einer E-Mail benachrichtigt werden wenn eine Sitzung archiviert wurde."
 
 #. Default: "If you check this box, every time an annex will be uploaded, its content will be indexed. In the form for uploading an annex, a checkbox will ask the user if the file corresponds to a scanned document. If it is the case, an OCR engine (<a href=\"http://code.google.com/p/tesseract-ocr/\" target=\"_blank\">Tesseract</a>) will be launched for converting the scanned file into text. For installing Tesseract under Ubuntu, type \"sudo apt-get install tesseract-ocr\" in a shell. Tesseract needs to know the language of the scanned document, so it will also be asked to the user in the form. Besides installing Tesseract in itself, you will also need to install additional packages for particular languages (tesseract-fra, tesseract-ita, tesseract-eng...). Note that the scanned document will also be uploaded unchanged (users will still see it when downloading the file) <i>together</i> with the extracted text (that will be used for search purposes)."
 msgid "extract_text_from_files_descr"
@@ -2395,10 +2303,6 @@ msgstr "Größe"
 msgid "listingheader_title"
 msgstr "Titel"
 
-#. Default: "List archived meetings on the current site"
-msgid "localget_meetings"
-msgstr "Listet die archivierten Sitzungen auf diesem Site"
-
 #. Default: "Manage content in a second language"
 msgid "ma_second_language"
 msgstr "Den Inhalt in einer zweiten Sprache verwalten"
@@ -2499,10 +2403,6 @@ msgstr "Wenn die Anzahl der Sitzungen in einem dieser beiden Portlets höher als
 msgid "meeting_actions_interface_descr"
 msgstr "Ähnlich wie im vorherigen Feld können alle Aktionen die bei einem Statusübergang einer Sitzung ausgelöst werden durch ein eigens entwickeltes Plone-Produkt konfiguriert werden in dem Sie:<ul><li>ein Python Interface definieren das von dem Interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (Sie müssen den vollen Paketnamen des Interfaces in dem Feld unten eintragen);</li><li>einen Adapter in ZCML erstellen und deklarieren der das Interface Products.PloneMeeting.interfaces.IMeeting zu dem Interface das Sie definiert haben adaptiert.</li></ul>Ihr Adapter kann vom Standardadapter Products.PloneMeeting.Meeting.MeetingWorkflowActions erben: das ermöglicht es Ihnen nur die Methoden für die sie ein anderes Verhalten wünschen zu überschreiben. Alle Methoden die im Interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions definiert werden sind dokumentiert."
 
-#. Default: "Already imported."
-msgid "meeting_already_imported"
-msgstr "Wurde schon importiert"
-
 #. Default: "Choose here which page will be shown after logon."
 msgid "meeting_app_default_view_descr"
 msgstr "Wählen Sie hier aus welche Seite nach dem Einloggen angezeigt werden soll."
@@ -2547,10 +2447,6 @@ msgstr "Verwaltung der PloneMeeting-spezifischen Gruppen"
 #. Default: "PloneMeeting users are divided into groups. Each group represents an organizational entity (department, section, division...). A button below allows you to add a PloneMeeting group. For each created PloneMeeting group, 4 Plone groups are created:<ul class=\"discreet\"><li>a group of observers, including members that may only see content created by the group;</li><li>a group of creators, including members that may create content;</li><li>a group of advisers, including members that may give an advice on behalf of the group;</li><li>a group of validators, including members that may validate items and make them visible to the meeting manager.</li></ul><p class=\"discreet\">Then, through the classical 'Users and Groups Administration' section in Plone, you may add users and associate them to groups that were generated from PloneMeeting groups defined here.</p><p class=\"discreet\">A user may belong to several Plone groups generated from PloneMeeting groups, even if those groups are tied to different PloneMeeting groups. For example, a user may be observer into a group A and creator + observer within a group B. Every time a meeting item is created, you must specify a proposing group among the several MeetingGroups the user potentially belongs to. PloneMeeting will define local roles on the created item that will allow members of the corresponding Plone groups to get the right permissions to the item. If you change the proposing group for this item, local roles will be updated accordingly. <ul class=\"discreet\"><li>The local role 'MeetingObserverLocal' is given to groups of observers (whose id has the form &lt;PloneMeeting_group_name&gt;_observers');</li><li>the local role 'MeetingMember' is given to groups of creators (whose id has the form &lt;PloneMeeting_group_name&gt;_creators');</li><li>the local role 'MeetingAdviser' is given to groups of advisers (whose id has the form &lt;PloneMeeting_group_name&gt;_advisers');</li><li>the local role 'MeetingReviewer' is given to groups of validators (whose id has the form &lt;PloneMeeting_group_name&gt;_reviewers').</li></ul><p class=\"discreet\">Please do not give those 4 local roles globally to any Plone user or group. Besides those 4 roles, PloneMeeting defines 2 global roles:<ul class=\"discreet\"><li>the role 'MeetingManager' must be given (through the Plone interface for administration of users and groups) to any person who must create meetings, present items into it, etc;</li><li>the role 'MeetingObserverGlobal' allows to consult meetings once they have been published. This role is automatically attributed to any Plone group generated from a PloneMeetingGroup: you normally don't need to give this role yourself to a user or group.</li></ul></p>"
 msgid "meeting_groups_descr"
 msgstr "PloneMeeting-Nutzer werden in Gruppen unterteilt. Jede Gruppe repräsentiert eine organisatorische Einheit (Fachbereich, Abteilung, Fachgruppe...). Mit dem 'Hinzufügen'-Knopf unten können Sie eine neue PloneMeeting-Gruppe anlegen. Für jede PloneMeeting-Gruppe werden 3 Gruppen erstellt:<ul class=\"discreet\"><li>eine Gruppe von Beobachtern für Nutzer die nur Inhalte die von der Gruppe hinzugefügt wurden sehen können;</li><li>eine Gruppe von Erstellern für Nutzer die Inhalte anlegen dürfen;</li><li>eine Gruppe von Rezensenten für Nutzer die TOPs bestätigen und sie damit für die Sitzungsleitung sichtbar machen können.</li></ul><p class=\"discreet\">Anschliessend können Sie in der klassischen 'Benutzer- und Gruppenverwaltung' von Plone Nutzer anlegen und in die von PloneMeeting erstellten Gruppen zuweisen.</p><p class=\"discreet\">Wenn Sie einen Nutzer anlegen, weisen Sie ihn bitte direkt der/den richtigen Gruppe(n) zu. Ein Nutzer darf nur einer PloneMeeting-Gruppe angehören (aber er darf natürlich mehreren Plone-Gruppen angehören die zu einer gemeinsamen PloneMeeting-Gruppe gehören). Wenn Sie einen Nutzer von einer PloneMeeting-Gruppe in eine andere bewegen, kommen Sie bitte auf diese Seite zurück und klicken Sie den Knopf 'Gruppen aktualiseren'. PloneMeeting definiert für jeden Ordner der innerhalb des PloneMeeting Nutzer-Ordners erstellt wird lokale Rollen die den von PloneMeeting erzeugten Gruppen zugewiesen werden:<ul class=\"discreet\"><li>die lokale Rolle 'MeetingObserverLocal' wird den Beobachter-Gruppen zugewiesen (deren ids die Form &lt;PloneMeeting_group_name&gt;_observers' haben);</li><li>die lokale Rolle 'MeetingObserverLocal' wird den Ersteller-Gruppen zugewiesen (deren ids die Form &lt;PloneMeeting_group_name&gt;_creators' haben);</li><li>die lokale Rolle 'MeetingObserverLocal' wird den Rezensenten-Gruppen zugewiesen (deren ids die Form &lt;PloneMeeting_group_name&gt;_reviewers' haben);</li></ul><p class=\"discreet\">Die Aktualisierung dieser Gruppen muss manuell über den Knopf 'Gruppen aktualisieren' erfolgen. Wenn Sie nur die Zuweisung eines Nutzers zu den Plone-Gruppen innerhalb einer PloneMeeting-Gruppe ändern müssen die Gruppen nicht aktualisiert werden. Neben diesen 3 Rollen definiert PloneMeeting noch 2 globale Rollen:<ul class=\"discreet\"><li>die Rolle 'MeetingManager' (Sitzungsleiter) muss jedem Nutzer der Sitzungen erstellen, TOPs in einer Sitzung präsentieren, usw. können muss;</li><li>die Rolle 'MeetingObserverGlobal' erlaubt es Sitzungen anzusehen wenn sie veröffentlicht wurden. Diese Rolle wird automatisch jeder Plone-Gruppe die von einer PloneMeeting-Gruppe generiert wird zugeteilt, Sie brauchen diese Rolle normalerweise nicht manuell einem Nutzer oder einer Gruppe zuweisen.</li></ul></p>"
-
-#. Default: "Will be imported next night."
-msgid "meeting_in_nightwork"
-msgstr ""
 
 #. Default: "In order to perform this action, the meeting date must be in the past."
 msgid "meeting_in_past"
@@ -2794,10 +2690,6 @@ msgstr "Derzeit ist keine Klassifizierung definiert."
 msgid "no_color"
 msgstr "Kein Farbschema"
 
-#. Default: "No external application is currenty defined."
-msgid "no_external_application"
-msgstr "Derzeit ist keine externe Anwendung definiert."
-
 #. Default: "None"
 msgid "no_freeze_event"
 msgstr "Keine"
@@ -2862,29 +2754,9 @@ msgstr "Noch nicht abgegeben"
 msgid "nothing_to_do"
 msgstr "Nichts zu unternehmen."
 
-#. Default: "Notifications are normally sent when events as defined by the previous field occur. But you can define an additional condition here: notifications will be send if the specified events occur AND if there is no condition defined here OR if this condition returns True. The condition must be a Python expression accepting, in its context, variables 'obj' (the object of the notification) and 'event' (the name of the event that occurred)."
-msgid "notify_condition_descr"
-msgstr "Normalerweise werden die Benachrichtigungen versendet wenn die definierten Ereignisse in den vorherigen Feldern eintreten. Aber Sie können hier eine Zusatzbedingung definieren: die Benachrichtigungen werden versendet wenn das Ereignis eintritt UND wenn es keine Bedingung gibt ODER wenn diese ein True zurück gibt. Die Bedingung muss ein Python Ausdruck sein, der in seinem Kontext, die Variablen 'obj' (Das Objekt der Benachrichtigung) und 'event' (der Name des Auslösers) abruft."
-
 #. Default: "Specify here the email of someone responsible for the external application. In some cases, when the URL above cannot be reached, a mail will be sent."
 msgid "notify_email_descr"
 msgstr "Spezifizieren Sie hier die eMail-Adresse der verantwortlichen Person für die externe Anwendung. In manchen Fällen, falls die URL hier unten nicht erreichbar ist, wird eine eMail verschickt."
-
-#. Default: "If the contacted application requires this site to present credentials (username and password) specify here the username."
-msgid "notify_login_descr"
-msgstr "Wenn die aufgerufenen Anwendung Informationen (Benutzername und Passwort) benötigt, spezifizieren Sie hier den Benutzername."
-
-#. Default: "If the contacted application requires this site to present credentials (username and password) specify here the password."
-msgid "notify_password_descr"
-msgstr "Wenn die aufgerufenen Anwendung Informationen (Benutzername und Passwort) benötigt, spezifizieren Sie hier das Passwort."
-
-#. Default: "Specify here the HTTP-based method or protocol to use for contacting the external application."
-msgid "notify_protocol_descr"
-msgstr "Definieren Sie hier die HTTP Methode oder das auf HTTP basierende Protokoll welches benutzt wird um die externe Anwendung aufzurufen."
-
-#. Default: "If the HTTP requests to the external application must go through a proxy, you must specify here the proxy URL and port to be used, ie 'http://proxy.mycompany.org:3128'."
-msgid "notify_proxy_descr"
-msgstr "Wenn die HTTP-Anfragen zu der externen Anwendung über einen Proxy gehen müssen Sie hier die URL des Proxys und den Port angeben, z.B.: 'http://proxy.mycompany.org:3128'."
 
 #. Default: "Specify here the full URL to reach on the external application. If you're using this resource for exporting purposes, and you want to export on the file system, you can specify here the URL of a local folder, starting with 'file://'."
 msgid "notify_url_descr"
@@ -2961,14 +2833,6 @@ msgstr "Andere"
 #. Default: "Parameters defined if the user has a specific function"
 msgid "params_as_special_user"
 msgstr "Parameter die definiert sind wenn der Benutzer eine spezifische Funktion hat"
-
-#. Default: "Specify here the name of the key (in the HTTP header) that will store the password."
-msgid "password_header_key_descr"
-msgstr "Definieren Sie hier den Namen des Schlüssels (in der HTTP-Kopfzeile) der das Passwort speicher."
-
-#. Default: "A password, please."
-msgid "password_mandatory"
-msgstr "Sie müssen Ihr Passwort neu eingeben."
 
 #. Default: "Note this person as leaving the meeting TEMPORARILY, WHILE this item is discussed."
 msgid "person_absent_descr"
@@ -3432,14 +3296,6 @@ msgstr ""
 msgid "searchmyitems"
 msgstr "Meine TOP"
 
-#. Default: "If you use this site for search purposes, you must specify here the 'web' URL of the distant site. Indeed, the URL defined above is the WebDAV URL."
-msgid "second_url_descr"
-msgstr "Falls Sie diese Website gebrauchen um Suchen zu machen, müssen Sie hier seine WEB-URL definieren. Die hier oben definierte URL ist die WebDAV-URL."
-
-#. Default: "When using this site for search purposes, the second URL is mandatory."
-msgid "second_url_mandatory"
-msgstr "Wenn sie eine Website für die Suchen benutzen, ist die zweite URL Pflicht."
-
 # Portlet "meeting items"
 #. Default: "See everything..."
 msgid "see_everything"
@@ -3448,10 +3304,6 @@ msgstr "Zeige alles..."
 #. Default: "Select groups that the creator of an item will be able to choose"
 msgid "selectable_copy_groups_descr"
 msgstr "Gruppen die der Erstellen eines TOP auswählen kann."
-
-#. Default: "Send a test request"
-msgid "send_test_request_external_app"
-msgstr "Sende eine Testanfrage"
 
 #. Default: "Unable to send this item to the ${meetingConfigTitle} meetingConfig because the user to create the item to does not have a personal folder in this meetingConfig.  If necessary, the concerned user can connect for this folder to be created automatically."
 msgid "sendto_inexistent_destfolder_error"
@@ -3472,10 +3324,6 @@ msgstr ""
 #. Default: "This short name (3 or 4 letters maximum, without special characters or accents) is used internally by PloneMeeting, ie for deriving meeting-configuration-specific item and meeting content types. Note that all content types representing 'items' share the same meta-type (=the same Python class). The same is true for all content types representing 'meetings'."
 msgid "short_name_descr"
 msgstr "Dieser Kurzname (maximal 3-4 Zeichen, ohne Sonderzeichen) wird intern von PloneMeeting verwendet um zum Beispiel Inhaltstypen die spezifisch zu einer Sitzungs-Konfiguration gehören abzuleiten. Beachten Sie dass alle Inhaltstypen die TOPs repräsentieren den selben Meta-Type (also die selbe Python-Klasse) verwenden. Dies gilt für alle Inhaltstypen die Sitzungen repräsentieren."
-
-#. Default: "Show/hide already imported meetings"
-msgid "show_hide_imported_meetings"
-msgstr "Zeige/verberge schon importierte Sitzungen"
 
 #. Default: "If you check this box, on the search screen, radio buttons will appear, allowing the user to choose the item-related field that will become the target for item keywords. If these radio buttons are not shown, the search will encompass all fields indexed in the global index 'SearchableText'."
 msgid "show_item_keywords_targets_descr"
@@ -3505,10 +3353,6 @@ msgstr ""
 #. Default: "Define here the default signatures that will be automatically selected on newly created meetings. This will be applicable only if you use attribute 'Signatures' for meetings."
 msgid "signatures_descr"
 msgstr "Definieren Sie hier die Standard Unterschriften die automatsich beim erstellen einer neuen Sitzung ausgewählt werden. Das wird nur ausgeführt, wenn das Attribut 'Unterschriften' für Sitzungen ausgewählt wurde."
-
-#. Default: "When clicking on button 'Delete archived meetings', the system will delete all archived meetings, items and annexes included, whose date is earlier than this date."
-msgid "site_start_date_descr"
-msgstr ""
 
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
