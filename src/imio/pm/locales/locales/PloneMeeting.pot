@@ -1445,20 +1445,12 @@ msgstr ""
 msgid "back"
 msgstr ""
 
-#. Default: "Gives mandatory advice on"
-msgid "PloneMeeting_label_givesMandatoryAdviceOn"
-msgstr ""
-
 #. Default: "As copy group on"
 msgid "PloneMeeting_label_asCopyGroupOn"
 msgstr ""
 
 #. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as copyGroup for an item.  We receive 'item' as the meeting item.  WARNING, if the 'suffix' returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
 msgid "as_copy_group_on_descr"
-msgstr ""
-
-#. Default: "Specify here a TAL expression that will return True if the group must give a mandatory advice on an item.  We receive 'item' as the meeting item to give an advice on.  WARNING if the group of advisers linked to this PloneMeeting group os empty, it will no be considered, despite the result of the TAL expression"
-msgid "gives_mandatory_advice_on_descr"
 msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to add an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
@@ -2396,7 +2388,7 @@ msgstr ""
 msgid "PloneMeeting_label_useAdvices"
 msgstr ""
 
-#. Default: "Check the box if you want advisers to be able to issue advices on items"
+#. Default: "Check the box if you want advisers to be able to issue advices on items."
 msgid "use_advices_descr"
 msgstr ""
 
@@ -2538,6 +2530,14 @@ msgstr ""
 
 #. Default: "Advice style"
 msgid "PloneMeeting_label_adviceStyle"
+msgstr ""
+
+#. Default: "Custom advisers"
+msgid "PloneMeeting_label_customAdvisers"
+msgstr ""
+
+#. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices."
+msgid "custom_advisers_descr"
 msgstr ""
 
 #. Default: "Choose here the style for the icons that represent advices."

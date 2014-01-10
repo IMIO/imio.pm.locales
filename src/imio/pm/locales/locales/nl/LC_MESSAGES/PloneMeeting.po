@@ -321,6 +321,10 @@ msgstr "Identificatie van deze meeting configuratie"
 msgid "PloneMeeting_label_copyGroups"
 msgstr "Kopieer groep"
 
+#. Default: "Custom advisers"
+msgid "PloneMeeting_label_customAdvisers"
+msgstr ""
+
 #. Default: "Date"
 msgid "PloneMeeting_label_date"
 msgstr "Datum"
@@ -467,10 +471,6 @@ msgstr "Email van de funktionele administrator"
 
 #. Default: "Gender"
 msgid "PloneMeeting_label_gender"
-msgstr ""
-
-#. Default: "Gives mandatory advice on"
-msgid "PloneMeeting_label_givesMandatoryAdviceOn"
 msgstr ""
 
 #. Default: "Item attributes for which history must be kept"
@@ -1513,6 +1513,10 @@ msgstr "Aanmaker"
 msgid "creators"
 msgstr "Aanmakers"
 
+#. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices."
+msgid "custom_advisers_descr"
+msgstr ""
+
 #. Default: "Data"
 msgid "data"
 msgstr "Data"
@@ -1792,10 +1796,6 @@ msgstr "geslacht M"
 
 #. Default: "Mister"
 msgid "gender_m_extended"
-msgstr ""
-
-#. Default: "Specify here a TAL expression that will return True if the group must give a mandatory advice on an item.  We receive 'item' as the meeting item to give an advice on.  WARNING if the group of advisers linked to this PloneMeeting group os empty, it will no be considered, despite the result of the TAL expression"
-msgid "gives_mandatory_advice_on_descr"
 msgstr ""
 
 #. Default: "Back to the first elements"
@@ -3508,7 +3508,7 @@ msgstr ""
 msgid "update_votes_yes"
 msgstr ""
 
-#. Default: "Check the box if you want advisers to be able to issue advices on items"
+#. Default: "Check the box if you want advisers to be able to issue advices on items."
 msgid "use_advices_descr"
 msgstr ""
 

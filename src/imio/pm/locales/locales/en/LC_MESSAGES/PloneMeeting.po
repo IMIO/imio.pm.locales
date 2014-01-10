@@ -320,6 +320,10 @@ msgstr "Identifier of this meeting configuration"
 msgid "PloneMeeting_label_copyGroups"
 msgstr "Copy groups"
 
+#. Default: "Custom advisers"
+msgid "PloneMeeting_label_customAdvisers"
+msgstr ""
+
 #. Default: "Date"
 msgid "PloneMeeting_label_date"
 msgstr "Date"
@@ -467,10 +471,6 @@ msgstr "Name of the functional administrator"
 #. Default: "Gender"
 msgid "PloneMeeting_label_gender"
 msgstr "Gender"
-
-#. Default: "Gives mandatory advice on"
-msgid "PloneMeeting_label_givesMandatoryAdviceOn"
-msgstr "Gives mandatory advice on"
 
 #. Default: "Item attributes for which history must be kept"
 msgid "PloneMeeting_label_historizedItemAttributes"
@@ -1517,6 +1517,10 @@ msgstr "Creator"
 msgid "creators"
 msgstr "Creators"
 
+#. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices."
+msgid "custom_advisers_descr"
+msgstr ""
+
 #. Default: "Data"
 msgid "data"
 msgstr "Data"
@@ -1798,10 +1802,6 @@ msgstr "M"
 #. Default: "Mister"
 msgid "gender_m_extended"
 msgstr "Mister"
-
-#. Default: "Specify here a TAL expression that will return True if the group must give a mandatory advice on an item.  We receive 'item' as the meeting item to give an advice on.  WARNING if the group of advisers linked to this PloneMeeting group os empty, it will no be considered, despite the result of the TAL expression"
-msgid "gives_mandatory_advice_on_descr"
-msgstr "Specify here a TAL expression that will return True if the group must give a mandatory advice on an item.  We receive 'item' as the meeting item to give an advice on.  WARNING if the group of advisers linked to this PloneMeeting group os empty, it will no be considered, despite the result of the TAL expression"
 
 #. Default: "Back to the first elements"
 msgid "goto_first"
@@ -3521,7 +3521,8 @@ msgstr "When PloneMeeting is in 'Restrict users' mode, the following users will 
 msgid "update_votes_yes"
 msgstr "Set all votes to 'yes'"
 
-#. Default: "Check the box if you want advisers to be able to issue advices on items"
+#. Default: "Check the box if you want advisers to be able to issue advices on items."
+#, fuzzy
 msgid "use_advices_descr"
 msgstr "Check the box if you want advisers to be able to issue advices on items"
 

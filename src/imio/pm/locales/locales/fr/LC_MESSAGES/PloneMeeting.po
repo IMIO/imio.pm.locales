@@ -320,6 +320,10 @@ msgstr "Identifiant de la version de cette configuration"
 msgid "PloneMeeting_label_copyGroups"
 msgstr "Groupes en copie (lecture seule)"
 
+#. Default: "Custom advisers"
+msgid "PloneMeeting_label_customAdvisers"
+msgstr "Configuration des avis spéciaux"
+
 #. Default: "Date"
 msgid "PloneMeeting_label_date"
 msgstr "Date"
@@ -467,10 +471,6 @@ msgstr "Nom de l'administrateur fonctionnel"
 #. Default: "Gender"
 msgid "PloneMeeting_label_gender"
 msgstr "Genre"
-
-#. Default: "Gives mandatory advice on"
-msgid "PloneMeeting_label_givesMandatoryAdviceOn"
-msgstr "Donnera un avis obligatoire si"
 
 #. Default: "Item attributes for which history must be kept"
 msgid "PloneMeeting_label_historizedItemAttributes"
@@ -744,7 +744,7 @@ msgstr "Port sur lequel OpenOffice tourne en mode serveur"
 
 #. Default: "Optional advisers"
 msgid "PloneMeeting_label_optionalAdvisers"
-msgstr "Emetteurs d'avis optionnels"
+msgstr "Demander l'avis de"
 
 #. Default: "Oral question ?"
 msgid "PloneMeeting_label_oralQuestion"
@@ -1506,6 +1506,10 @@ msgstr "Créateur"
 msgid "creators"
 msgstr "Créateurs"
 
+#. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices."
+msgid "custom_advisers_descr"
+msgstr "Définissez ici les avis spéciaux : les avis demandés automatiquement par l'application et les avis ayant une notion de délai."
+
 #. Default: "Data"
 msgid "data"
 msgstr "Données"
@@ -1787,10 +1791,6 @@ msgstr "M"
 #. Default: "Mister"
 msgid "gender_m_extended"
 msgstr "Monsieur"
-
-#. Default: "Specify here a TAL expression that will return True if the group must give a mandatory advice on an item.  We receive 'item' as the meeting item to give an advice on.  WARNING if the group of advisers linked to this PloneMeeting group os empty, it will no be considered, despite the result of the TAL expression"
-msgid "gives_mandatory_advice_on_descr"
-msgstr "Spécifiez une expression TAL qui retourne 'True' si le groupe doit obligatoirement donner son avis sur le point donné.  L'élément 'item' (point) est utilisable dans l'expression. ATTENTION: si personne n'est mentionné comme donneur d'avis dans ce groupe, celui-ci ne sera pas pris en compte, quel que soit le résultat de l'expression."
 
 #. Default: "Back to the first elements"
 msgid "goto_first"
@@ -3495,9 +3495,9 @@ msgstr "Quand PloneMeeting est en mode 'Utilisateurs restreints', les utilisateu
 msgid "update_votes_yes"
 msgstr "'Pour' à l'unanimité"
 
-#. Default: "Check the box if you want advisers to be able to issue advices on items"
+#. Default: "Check the box if you want advisers to be able to issue advices on items."
 msgid "use_advices_descr"
-msgstr "Donner la possibilité aux émetteurs d'avis de laisser un avis sur les points"
+msgstr "Donner la possibilité aux émetteurs d'avis de laisser un avis sur les points."
 
 #. Default: "Check the box if you want item creators to be able to select copy groups for this item"
 msgid "use_copies_descr"
