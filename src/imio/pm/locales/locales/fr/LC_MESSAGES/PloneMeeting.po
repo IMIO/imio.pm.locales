@@ -3659,6 +3659,10 @@ msgstr "Sauter l'étape de proposition des points"
 msgid "wa_no_publication"
 msgstr "Sauter l'étape de publication"
 
+#. Default: "Only creators may delete items"
+msgid "wa_only_creator_may_delete"
+msgstr "Seuls les créateurs de points peuvent supprimer des points"
+
 #. Default: "Item pre-validation"
 msgid "wa_pre_validation"
 msgstr "Pré-validation des points"
@@ -3698,4 +3702,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
