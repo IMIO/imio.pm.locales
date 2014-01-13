@@ -322,7 +322,7 @@ msgstr "Groupes en copie (lecture seule)"
 
 #. Default: "Custom advisers"
 msgid "PloneMeeting_label_customAdvisers"
-msgstr "Configuration des avis spéciaux"
+msgstr "Configuration des avis particuliers"
 
 #. Default: "Date"
 msgid "PloneMeeting_label_date"
@@ -1508,7 +1508,11 @@ msgstr "Créateurs"
 
 #. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices."
 msgid "custom_advisers_descr"
-msgstr "Définissez ici les avis spéciaux : les avis demandés automatiquement par l'application et les avis ayant une notion de délai."
+msgstr "Définissez ici les avis particuliers : les avis demandés automatiquement par l'application et les avis ayant une notion de délai."
+
+#. Default: "<p>This part of the configuration lets you configure special behaviors around advices.</p><p>You will be able to define :</p><ul><li><strong>advices requested automatically by the application</strong> : under certain conditions, if a defined expression is True, an advice will be automatically asked by the application on an item.  You can also define a special help message that will help the user to find out why this advice was automatically asked and a date from wich newly created items will be affected by this new condiguration;</li><li><strong>advices with concept of delay</strong> : this allows you to define special advices that the user will be able to ask thru the user interface (or will be requested automatically).  An advice so defined has a notion of delay (time in clear day) which means that once applied and visible to the group to whom the advice is requested, it must be given within limit. Once this period has passed, the advice can not be given anymore.</li></ul><p> If the configuration changes (about automatic or delay-aware advice), this will not affect the advices previously requested.</p>"
+msgid "custom_advisers_full_descr"
+msgstr "<p>Cette partie de la configuration vous permet de définir certains comportements particuliers liés aux avis.</p><p>Il vous sera possible de définir:</p><ul><li><strong>des avis automatiquement demandés par l'application</strong> : sous certaines conditions si une expression renseignée est vérifiée (True), un avis sera automatiquement demandé par l'application sur un point.  Vous pourrez également définir un message d'aide qui permettra à un utilisateur de savoir pourquoi cet avis a été automatiquement demandé ainsi qu'une date à partir de laquelle les points nouvellement créés seront affectés par cette configuration;</li><li><strong>des avis ayant une notion de délai</strong> : ceci vous permet de définir des avis que l'utilisateur pourra demander manuellement dans l'application (ou qui seront demandés automatiquement).  Un avis défini de la sorte aura une notion de délai ce qui signifie qu'une fois demandé et visible par le groupe à qui l'avis est demandé, il devra être rendu dans le délai imparti (en jours francs).  Une fois ce délai dépassé, l'avis ne pourra plus être rendu.</li></ul><p>Si la configuration change (une ligne concernant un avis demandé automatiquement ou un avis à délai est supprimée par exemple), ceci n'affectera pas les avis déjà demandés.</p>"
 
 #. Default: "Data"
 msgid "data"
@@ -2006,7 +2010,7 @@ msgstr "${meetingConfigTitle} - Un de vos points: ${itemTitle}, a été reporté
 msgid "itemPresented_mail_body"
 msgstr "La séance est peut-être encore en cours d'élaboration et donc inaccessible pour l'instant.  Accédez au point ici: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - One of your items: "${itemTitle}", has been inserted into a meeting."
+#. Default: "${meetingConfigTitle} - One of your items: '${itemTitle}', has been inserted into a meeting."
 msgid "itemPresented_mail_subject"
 msgstr "${meetingConfigTitle} - Un de vos points : '${itemTitle}', a été inséré dans une séance."
 
@@ -2014,7 +2018,7 @@ msgstr "${meetingConfigTitle} - Un de vos points : '${itemTitle}', a été insé
 msgid "itemUnpresented_mail_body"
 msgstr "Accédez au point ici: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - One of your items: "${itemTitle}", has been removed from a meeting."
+#. Default: "${meetingConfigTitle} - One of your items: '${itemTitle}', has been removed from a meeting."
 msgid "itemUnpresented_mail_subject"
 msgstr "${meetingConfigTitle} - Un de vos points : '${itemTitle}', a été retiré d'une séance."
 
@@ -3698,4 +3702,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

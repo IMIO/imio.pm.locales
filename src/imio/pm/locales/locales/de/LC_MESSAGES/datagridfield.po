@@ -35,12 +35,20 @@ msgstr ""
 msgid "Custom adviser group"
 msgstr ""
 
+#. Default: "Gives automatic advice for item created from"
+msgid "Gives automatic advice for item created from"
+msgstr ""
+
 #. Default: "Enter the delay the adviser will have to give his advice if asked. If it is not considered as an automatically asked advice (nothing defined in the 'Advice will be automatically asked if' column), the advice will be selectable in the 'Ask advice to' list on the item edit form. If no delay is relevant for this advice, leave this field blank."
 msgid "delay_col_description"
 msgstr ""
 
 #. Default: "If you want a specific help message to be displayed on the '?' displayed next to the advice title in the user interface and on the label displayed in the 'Advice to give' list on the item edit form, you can enter it here.  The message will appear between brackets after the message 'Name of the group - delay of X days'."
 msgid "delay_help_message_col_description"
+msgstr ""
+
+#. Default: "The automatic advice will only be asked on items created after defined date.  Please respect following format : YYYY/MM/DD (year 4 digits/month 2 digits/day 2 digits).  Fill this date to avoid that older items created before this rule are affected, especially when updating every advices thru the 'Update all advices' action."
+msgid "gives_auto_advice_for_item_created_from_col_description"
 msgstr ""
 
 #. Default: "Specify here a TAL expression that will return True if the advice of the group must be automatically asked on an item.  We receive 'item' as the meeting item to give an advice on.  WARNING if the group of advisers linked to this PloneMeeting group is empty, it will no be considered, despite the result of the TAL expression.  This advice will NOT be askable manually in the user interface, it is only asked automatically by the application.  If this advice should not be asked automatically, leave this field blank."

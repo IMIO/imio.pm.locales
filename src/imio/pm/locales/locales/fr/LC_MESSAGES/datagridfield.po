@@ -35,6 +35,10 @@ msgstr "Message d'aide supplémentaire pour un avis automatique"
 msgid "Custom adviser group"
 msgstr "Groupe"
 
+#. Default: "Gives automatic advice for item created from"
+msgid "Gives automatic advice for item created from"
+msgstr "L'avis sera automatiquement demandé sur les points créés à partir du"
+
 #. Default: "Enter the delay the adviser will have to give his advice if asked. If it is not considered as an automatically asked advice (nothing defined in the 'Advice will be automatically asked if' column), the advice will be selectable in the 'Ask advice to' list on the item edit form. If no delay is relevant for this advice, leave this field blank."
 msgid "delay_col_description"
 msgstr "Spécifiez le délai en nombre de jours francs que le groupe aura pour rendre son avis s'il a été demandé. Si cet avis n'est pas considéré comme un avis automatique (rien n'a été défini dans la colonne 'L'avis sera automatiquement demandé si'), l'avis sera sélectionnable dans la liste déroulante 'Demander l'avis de' sur le formulaire d'édition d'un point. Si cet avis n'a pas de notion de délai, laissez ce champ vide."
@@ -42,6 +46,10 @@ msgstr "Spécifiez le délai en nombre de jours francs que le groupe aura pour r
 #. Default: "If you want a specific help message to be displayed on the '?' displayed next to the advice title in the user interface and on the label displayed in the 'Advice to give' list on the item edit form, you can enter it here.  The message will appear between brackets after the message 'Name of the group - delay of X days'."
 msgid "delay_help_message_col_description"
 msgstr "Si vous souhaitez qu'un message d'aide spécifique soit affiché au survol du '?' affiché dans l'interface utilisateur à côté du titre d'un avis demandé ainsi qu'à côté du label affiché dans la liste déroulante 'Demander l'avis de' sur le formulaire d'édition d'un point, entrez-le ici.  Ce message apparaîtra entre parenthèses après le message 'Nom du groupe qui doit rendre l'avis - délai de X jours'."
+
+#. Default: "The automatic advice will only be asked on items created after defined date.  Please respect following format : YYYY/MM/DD (year 4 digits/month 2 digits/day 2 digits).  Fill this date to avoid that older items created before this rule are affected, especially when updating every advices thru the 'Update all advices' action."
+msgid "gives_auto_advice_for_item_created_from_col_description"
+msgstr "L'avis de ce groupe sera demandé sur les points créés à partir de la date renseignée.  Respectez le format AAAA/MM/JJ (4 chiffres pour l'année, 2 chiffres pour le mois et 2 chiffres pour le jour).  Renseignez cette date pour éviter que d'anciens points créés avant ne soient impactés par cette nouvelle règle, notamment lors d'une mise à jour globale des avis via l'action 'Mettre à jour les avis'."
 
 #. Default: "Specify here a TAL expression that will return True if the advice of the group must be automatically asked on an item.  We receive 'item' as the meeting item to give an advice on.  WARNING if the group of advisers linked to this PloneMeeting group is empty, it will no be considered, despite the result of the TAL expression.  This advice will NOT be askable manually in the user interface, it is only asked automatically by the application.  If this advice should not be asked automatically, leave this field blank."
 msgid "gives_auto_advice_on_col_description"
