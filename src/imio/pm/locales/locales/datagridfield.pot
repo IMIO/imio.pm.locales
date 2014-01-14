@@ -40,11 +40,11 @@ msgstr ""
 msgid "gives_auto_advice_on_help_message_col_description"
 msgstr ""
 
-#. Default: "Delay for giving advice when it is actually asked (in days)."
-msgid "Custom adviser delay (in days)"
+#. Default: "Delay for giving advice"
+msgid "Delay for giving advice"
 msgstr ""
 
-#. Default: "Enter the delay the adviser will have to give his advice if asked. If it is not considered as an automatically asked advice (nothing defined in the 'Advice will be automatically asked if' column), the advice will be selectable in the 'Ask advice to' list on the item edit form. If no delay is relevant for this advice, leave this field blank."
+#. Default: "Enter the delay the adviser will have to give his advice. If it is not considered as an automatically asked advice (nothing defined in the 'Advice will be automatically asked if' column), the advice will be selectable in the 'Ask advice to' list on the item edit form. If several delays are possible for the same advice, you can enter delays separated by semicolon like : 20;10;5. If no delay is relevant for this advice, leave this field blank."
 msgid "delay_col_description"
 msgstr ""
 

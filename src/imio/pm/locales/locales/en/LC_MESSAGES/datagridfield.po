@@ -14,10 +14,6 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
-#. Default: "Delay for giving advice when it is actually asked (in days)."
-msgid "Custom adviser delay (in days)"
-msgstr "Delay for giving advice when it is actually asked (in days)."
-
 #. Default: "Advice with delay help message"
 msgid "Custom adviser delay help message"
 msgstr "Advice with delay help message"
@@ -34,13 +30,17 @@ msgstr "Automatic asked advice help message"
 msgid "Custom adviser group"
 msgstr "Group"
 
+#. Default: "Delay for giving advice"
+msgid "Delay for giving advice"
+msgstr "Delay for giving advice"
+
 #. Default: "Gives automatic advice for item created from"
 msgid "Gives automatic advice for item created from"
 msgstr "Gives automatic advice for item created from"
 
-#. Default: "Enter the delay the adviser will have to give his advice if asked. If it is not considered as an automatically asked advice (nothing defined in the 'Advice will be automatically asked if' column), the advice will be selectable in the 'Ask advice to' list on the item edit form. If no delay is relevant for this advice, leave this field blank."
+#. Default: "Enter the delay the adviser will have to give his advice. If it is not considered as an automatically asked advice (nothing defined in the 'Advice will be automatically asked if' column), the advice will be selectable in the 'Ask advice to' list on the item edit form. If several delays are possible for the same advice, you can enter delays separated by semicolon like : 20;10;5. If no delay is relevant for this advice, leave this field blank."
 msgid "delay_col_description"
-msgstr "Enter the delay the adviser will have to give his advice if asked. If it is not considered as an automatically asked advice (nothing defined in the 'Advice will be automatically asked if' column), the advice will be selectable in the 'Ask advice to' list on the item edit form. If no delay is relevant for this advice, leave this field blank."
+msgstr "Enter the delay the adviser will have to give his advice. If it is not considered as an automatically asked advice (nothing defined in the 'Advice will be automatically asked if' column), the advice will be selectable in the 'Ask advice to' list on the item edit form. If several delays are possible for the same advice, you can enter delays separated by semicolon like : 20;10;5. If no delay is relevant for this advice, leave this field blank."
 
 #. Default: "If you want a specific help message to be displayed on the '?' displayed next to the advice title in the user interface and on the label displayed in the 'Advice to give' list on the item edit form, you can enter it here.  The message will appear between brackets after the message 'Name of the group - delay of X days'."
 msgid "delay_help_message_col_description"

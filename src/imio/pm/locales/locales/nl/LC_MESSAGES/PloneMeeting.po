@@ -1513,6 +1513,14 @@ msgstr "Aanmaker"
 msgid "creators"
 msgstr "Aanmakers"
 
+#. Default: "There is a problem with a date in the 'Gives automatic advice for item created from' column, please check date encoded for group '${groupName}', the format is YYYY/MM/DD, like 2013/12/31."
+msgid "custom_adviser_wrong_date_format"
+msgstr ""
+
+#. Default: "There is a problem with a delay in the 'Delay for giving advice' column, please check value encoded for group '${groupName}', you should only enter a single digit or digits separated by semicolon for several delays, so like '20' or '20;10;5'."
+msgid "custom_adviser_wrong_delay_format"
+msgstr ""
+
 #. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices."
 msgid "custom_advisers_descr"
 msgstr ""
