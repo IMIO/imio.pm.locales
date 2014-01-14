@@ -1080,6 +1080,10 @@ msgstr "Une erreur est survenue pendant la conversion de l'annexe.  Contactez vo
 msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
 msgstr "Une erreur est survenue en essayant de définir cette annexe comme 'à imprimer'.  Le message d'erreur est : ${error}.  Contactez votre administrateur système."
 
+#. Default: "This advice can not be given in the current item state (${item_review_state})."
+msgid "This advice can not be given in the current item state (${item_review_state})."
+msgstr "Cet avis ne peut être rendu dans l'état actuel du point (${item_review_state})."
+
 #. Default: "This advice has not been given yet."
 msgid "This advice has not been given yet."
 msgstr "Cet avis n'a pas encore été rendu."
