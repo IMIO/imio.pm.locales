@@ -1782,8 +1782,12 @@ msgstr ""
 msgid "custom_adviser_wrong_date_format"
 msgstr ""
 
-#. Default: "There is a problem with a delay in the 'Delay for giving advice' column, please check value encoded for group '${groupName}', you should only enter a single digit or digits separated by semicolon for several delays, so like '20' or '20;10;5'."
-msgid "custom_adviser_wrong_delay_format"
+#. Default: "You can not change the logical values of a configuration that has already been used in the application.  Check the configuration for group '${adviser_group}', it is in use for example by item at ${item_url}. The old value (${column_old_data}) for column '${column_name}' changed. If you need to adapt it, you need to deactivate it by setting a 'For item created until' date and create another configuration."
+msgid "custom_adviser_can_not_edit_used_row"
+msgstr ""
+
+#. Default: "You can not remove a configuration that has already been used in the application.  You removed a configuration for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please add it back (or edit the current MeetingConfig again to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
+msgid "custom_adviser_can_not_remove_used_row"
 msgstr ""
 
 #. Default: "Attributes 'signatures' and 'signatories' can't be used together."
@@ -2544,7 +2548,7 @@ msgstr ""
 msgid "PloneMeeting_label_customAdvisers"
 msgstr ""
 
-#. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices."
+#. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices. <span style='color: red';>If you change this parameter, and any of your change affect already created items (new configuration with a 'Rule activated for item created from' date in the past or change in help messages already used for example), do not forget to update advices!</span>"
 msgid "custom_advisers_descr"
 msgstr ""
 
@@ -3737,4 +3741,24 @@ msgstr ""
 
 #. Default: "Advice annex"
 msgid "meetingfiletype_related_to_advice"
+msgstr ""
+
+#. Default: "Please select among delay-aware advisers"
+msgid "delay_aware_optional_advisers_term"
+msgstr ""
+
+#. Default: "Please select among non delay-aware advisers"
+msgid "non_delay_aware_optional_advisers_term"
+msgstr ""
+
+#. Default: "Delay of ${delay} clear day(s)"
+msgid "delay_of_x_days"
+msgstr ""
+
+#. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the '${removedAdviser}' value."
+msgid "can_not_unselect_already_given_advice"
+msgstr ""
+
+#. Default: "You can not select several values for the same group.  Please select a single value for the same group among available ones."
+msgid "can_not_select_several_optional_advisers_same_group"
 msgstr ""

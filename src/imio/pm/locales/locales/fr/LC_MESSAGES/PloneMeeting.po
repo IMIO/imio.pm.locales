@@ -1382,6 +1382,14 @@ msgstr "Retour"
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "Ce point ne peut plus être renvoyé vers les gestionnaires de séance car la séance dans laquelle ce point est présenté est dans un état qui ne l'autorise pas (${meetingState})."
 
+#. Default: "You can not select several values for the same group.  Please select a single value for the same group among available ones."
+msgid "can_not_select_several_optional_advisers_same_group"
+msgstr "Vous ne pouvez pas sélectionner plusieurs avis optionnels pour le même groupe.  Sélectionnez un type d'avis pour le même groupe parmi ceux disponibles."
+
+#. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the '${removedAdviser}' value."
+msgid "can_not_unselect_already_given_advice"
+msgstr "Vous ne pouvez pas désélectionner un avis optionnel qui a déjà été rendu.  Vérifiez l'avis '${removedAdviser}'."
+
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
 msgstr "Vous ne pouvez pas coller un point provenant d'un autre type de séance !"
@@ -1510,17 +1518,21 @@ msgstr "Créateur"
 msgid "creators"
 msgstr "Créateurs"
 
+#. Default: "You can not change the logical values of a configuration that has already been used in the application.  Check the configuration for group '${adviser_group}', it is in use for example by item at ${item_url}. The old value (${column_old_data}) for column '${column_name}' changed. If you need to adapt it, you need to deactivate it by setting a 'For item created until' date and create another configuration."
+msgid "custom_adviser_can_not_edit_used_row"
+msgstr "Vous ne pouvez plus modifier les valeurs logiques d'une configuration qui a déjà été utilisée.  Vérifiez la configuration pour le groupe '${adviser_group}', par exemple le point '${item_url}' utilise cette configuration.  L'ancienne valeur (${column_old_data}) de la colonne '${column_name}' a changé. Si vous devez changer cette configuration, vous devez la désactiver en définissant une date dans la colonne 'Configuration active pour les points créés jusqu'au' et créer une nouvelle configuration."
+
+#. Default: "You can not remove a configuration that has already been used in the application.  You removed a configuration for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please add it back (or edit the current MeetingConfig again to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
+msgid "custom_adviser_can_not_remove_used_row"
+msgstr "Vous ne pouvez pas supprimer une configuration qui a déjà été utilisée.  Vous avez supprimé la configuration pour le groupe '${adviser_group}', utilisée par exemple par le point '${item_url}'. Rajoutez la configuration (ou éditez à nouveau cette Configuration de séance pour retrouver les anciennes valeurs).  Si vous devez désactiver une configuration utilisée, définissez une date dans la colonne 'Configuration active pour les points créés jusqu'au'."
+
 #. Default: "There is a problem with a date in the 'Gives automatic advice for item created from' column, please check date encoded for group '${groupName}', the format is YYYY/MM/DD, like 2013/12/31."
 msgid "custom_adviser_wrong_date_format"
 msgstr "Il y a un problème avec une des dates encodées dans la colonne 'L'avis sera automatiquement demandé sur les points créés à partir du', vérifiez la date encodée pour le groupe '${groupName}', le format doit être AAAA/MM/DD, par exemple 2013/12/31."
 
-#. Default: "There is a problem with a delay in the 'Delay for giving advice' column, please check value encoded for group '${groupName}', you should only enter a single digit or digits separated by semicolon for several delays, so like '20' or '20;10;5'."
-msgid "custom_adviser_wrong_delay_format"
-msgstr "Il y a un problème avec un des délais encodés dans la colonne 'Délai pour rendre l'avis', vérifiez les données encodées pour le groupe '${groupName}', vous devez entrer un seul chiffre ou plusieurs chiffres séparés par des ';' si vous avez plusieurs délais, donc par exemple '10' ou '20;10;5'."
-
-#. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices."
+#. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices. <span style='color: red';>If you change this parameter, and any of your change affect already created items (new configuration with a 'Rule activated for item created from' date in the past or change in help messages already used for example), do not forget to update advices!</span>"
 msgid "custom_advisers_descr"
-msgstr "Définissez ici les avis particuliers : les avis demandés automatiquement par l'application et les avis ayant une notion de délai."
+msgstr "Définissez ici les avis particuliers : les avis demandés automatiquement par l'application et les avis ayant une notion de délai. <span style='color: red';>Si vous changez ce paramètre et que l'un des changements impacte des points déjà créés (nouvelle règle avec une date 'Configuration active pour les points créés depuis le' dans le passé ou un changement de 'Message d'aide' pour une configuration déjà utilisée par exemple), n'oubliez pas de mettre à jour les avis!</span>"
 
 #. Default: "<p>This part of the configuration lets you configure special behaviors around advices.</p><p>You will be able to define :</p><ul><li><strong>advices requested automatically by the application</strong> : under certain conditions, if a defined expression is True, an advice will be automatically asked by the application on an item.  You can also define a special help message that will help the user to find out why this advice was automatically asked and a date from wich newly created items will be affected by this new condiguration;</li><li><strong>advices with concept of delay</strong> : this allows you to define special advices that the user will be able to ask thru the user interface (or will be requested automatically).  An advice so defined has a notion of delay (time in clear day) which means that once applied and visible to the group to whom the advice is requested, it must be given within limit. Once this period has passed, the advice can not be given anymore.</li></ul><p> If the configuration changes (about automatic or delay-aware advice), this will not affect the advices previously requested.</p>"
 msgid "custom_advisers_full_descr"
@@ -1586,6 +1598,14 @@ msgstr "Quand le gestonnaire de séance encode lui-même les votes, une valeur p
 #. Default: "If you check this box, handling of notifications received from external systems will be handled only during next night. Do this if you expect this handling to take a long time."
 msgid "deferred_notifs_handling_descr"
 msgstr "Cochez cette case si vous voulez différer à la nuit suivante le traitement des notifications en provenance de systèmes externes. Faites cela si vous vous attendez à ce que ce type de traitement prenne un certain temps."
+
+#. Default: "Please select among delay-aware advisers"
+msgid "delay_aware_optional_advisers_term"
+msgstr "* * * Avis optionnels avec délai * * *"
+
+#. Default: "Delay of ${delay} clear day(s)"
+msgid "delay_of_x_days"
+msgstr "Délai de ${delay} jour(s) franc(s)"
 
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 msgid "description_only_see_visible_items"
@@ -2728,6 +2748,10 @@ msgstr "Les attributs 'signatures' et 'signataires' ne peuvent être utilisés e
 #. Default: "No topic is currently defined."
 msgid "no_topic_folder"
 msgstr "Aucun dossier automatique défini pour le moment."
+
+#. Default: "Please select among non delay-aware advisers"
+msgid "non_delay_aware_optional_advisers_term"
+msgstr "* * * Avis optionnels sans délai * * *"
 
 #. Default: "You are a registered user but your account has not been activated yet. Please contact the system administrator."
 msgid "notPloneMeetingUser"

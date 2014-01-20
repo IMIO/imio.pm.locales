@@ -15,8 +15,8 @@ msgstr ""
 "Domain: datagridfield\n"
 "X-Is-Fallback-For: de-be de-at de-li de-lu de-ch de-de\n"
 
-#. Default: "Advice with delay help message"
-msgid "Custom adviser delay help message"
+#. Default: "Advice with delay label"
+msgid "Custom adviser delay label"
 msgstr ""
 
 #. Default: "Advice will be automatically asked if"
@@ -35,20 +35,28 @@ msgstr ""
 msgid "Delay for giving advice"
 msgstr ""
 
-#. Default: "Gives automatic advice for item created from"
-msgid "Gives automatic advice for item created from"
+#. Default: "Rule activated for item created from"
+msgid "Rule activated for item created from"
 msgstr ""
 
-#. Default: "Enter the delay the adviser will have to give his advice. If it is not considered as an automatically asked advice (nothing defined in the 'Advice will be automatically asked if' column), the advice will be selectable in the 'Ask advice to' list on the item edit form. If several delays are possible for the same advice, you can enter delays separated by semicolon like : 20;10;5. If no delay is relevant for this advice, leave this field blank."
+#. Default: "Rule activated for item created until"
+msgid "Rule activated for item created until"
+msgstr ""
+
+#. Default: "Enter the delay the adviser will have to give his advice. If it is not considered as an automatically asked advice (nothing defined in the 'Advice will be automatically asked if' column), the advice will be selectable in the 'Ask advice to' list on the item edit form. A delay is a single digit (like '5' or '10'). If no delay is relevant for this advice, leave this field blank. If several delays are possible for the same advice, you have to define several rows with exactly the same content excepted the delay."
 msgid "delay_col_description"
 msgstr ""
 
-#. Default: "If you want a specific help message to be displayed on the '?' displayed next to the advice title in the user interface and on the label displayed in the 'Advice to give' list on the item edit form, you can enter it here.  The message will appear between brackets after the message 'Name of the group - delay of X days'."
-msgid "delay_help_message_col_description"
+#. Default: "If you want a specific label to be displayed on the label displayed in the 'Advice to give' list on the item edit form and on the '?' displayed next to the advice title in the user interface, you can enter it here.  The label will appear between brackets after the message 'Name of the group - delay of X days'."
+msgid "delay_label_col_description"
 msgstr ""
 
-#. Default: "The automatic advice will only be asked on items created after defined date.  Please respect following format : YYYY/MM/DD (year 4 digits/month 2 digits/day 2 digits).  Fill this date to avoid that older items created before this rule are affected, especially when updating every advices thru the 'Update all advices' action."
-msgid "gives_auto_advice_for_item_created_from_col_description"
+#. Default: "This configuration will be applied on item created from the defined date (defined date included).  Please respect following format : YYYY/MM/DD (year 4 digits/month 2 digits/day 2 digits).  This date will avoid older items created before to be affected, especially when updating every advices thru the 'Update all advices' action."
+msgid "for_item_created_from_col_description"
+msgstr ""
+
+#. Default: "This configuration will be applied on item created until the defined date (defined date not included).  Please respect following format : YYYY/MM/DD (year 4 digits/month 2 digits/day 2 digits).  This date will avoid newer items created after to be affected, especially when updating every advices thru the 'Update all advices' action. This date will be only settable once, when set, this can not be changed anymore."
+msgid "for_item_created_until_col_description"
 msgstr ""
 
 #. Default: "Specify here a TAL expression that will return True if the advice of the group must be automatically asked on an item.  We receive 'item' as the meeting item to give an advice on.  WARNING if the group of advisers linked to this PloneMeeting group is empty, it will no be considered, despite the result of the TAL expression.  This advice will NOT be askable manually in the user interface, it is only asked automatically by the application.  If this advice should not be asked automatically, leave this field blank."

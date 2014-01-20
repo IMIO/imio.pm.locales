@@ -1382,6 +1382,14 @@ msgstr "Back"
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 
+#. Default: "You can not select several values for the same group.  Please select a single value for the same group among available ones."
+msgid "can_not_select_several_optional_advisers_same_group"
+msgstr "You can not select several values for the same group.  Please select a single value for the same group among available ones."
+
+#. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the '${removedAdviser}' value."
+msgid "can_not_unselect_already_given_advice"
+msgstr "You can not unselect an optional adviser that already gave his advice.  Please check the '${removedAdviser}' value."
+
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
 msgstr "You can not paste an item coming from another meeting configuration !"
@@ -1510,17 +1518,21 @@ msgstr "Creator"
 msgid "creators"
 msgstr "Creators"
 
+#. Default: "You can not change the logical values of a configuration that has already been used in the application.  Check the configuration for group '${adviser_group}', it is in use for example by item at ${item_url}. The old value (${column_old_data}) for column '${column_name}' changed. If you need to adapt it, you need to deactivate it by setting a 'For item created until' date and create another configuration."
+msgid "custom_adviser_can_not_edit_used_row"
+msgstr "You can not change the logical values of a configuration that has already been used in the application.  Check the configuration for group '${adviser_group}', it is in use for example by item at ${item_url}. The old value (${column_old_data}) for column '${column_name}' changed. If you need to adapt it, you need to deactivate it by setting a 'For item created until' date and create another configuration."
+
+#. Default: "You can not remove a configuration that has already been used in the application.  You removed a configuration for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please add it back (or edit the current MeetingConfig again to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
+msgid "custom_adviser_can_not_remove_used_row"
+msgstr "You can not remove a configuration that has already been used in the application.  You removed a configuration for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please add it back (or edit the current MeetingConfig again to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
+
 #. Default: "There is a problem with a date in the 'Gives automatic advice for item created from' column, please check date encoded for group '${groupName}', the format is YYYY/MM/DD, like 2013/12/31."
 msgid "custom_adviser_wrong_date_format"
 msgstr "There is a problem with a date in the 'Gives automatic advice for item created from' column, please check date encoded for group '${groupName}', the format is YYYY/MM/DD, like 2013/12/31."
 
-#. Default: "There is a problem with a delay in the 'Delay for giving advice' column, please check value encoded for group '${groupName}', you should only enter a single digit or digits separated by semicolon for several delays, so like '20' or '20;10;5'."
-msgid "custom_adviser_wrong_delay_format"
-msgstr "There is a problem with a delay in the 'Delay for giving advice' column, please check value encoded for group '${groupName}', you should only enter a single digit or digits separated by semicolon for several delays, so like '20' or '20;10;5'."
-
-#. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices."
+#. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices. <span style='color: red';>If you change this parameter, and any of your change affect already created items (new configuration with a 'Rule activated for item created from' date in the past or change in help messages already used for example), do not forget to update advices!</span>"
 msgid "custom_advisers_descr"
-msgstr "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices."
+msgstr "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices. <span style='color: red';>If you change this parameter, and any of your change affect already created items (new configuration with a 'Rule activated for item created from' date in the past or change in help messages already used for example), do not forget to update advices!</span>"
 
 #. Default: "<p>This part of the configuration lets you configure special behaviors around advices.</p><p>You will be able to define :</p><ul><li><strong>advices requested automatically by the application</strong> : under certain conditions, if a defined expression is True, an advice will be automatically asked by the application on an item.  You can also define a special help message that will help the user to find out why this advice was automatically asked and a date from wich newly created items will be affected by this new condiguration;</li><li><strong>advices with concept of delay</strong> : this allows you to define special advices that the user will be able to ask thru the user interface (or will be requested automatically).  An advice so defined has a notion of delay (time in clear day) which means that once applied and visible to the group to whom the advice is requested, it must be given within limit. Once this period has passed, the advice can not be given anymore.</li></ul><p> If the configuration changes (about automatic or delay-aware advice), this will not affect the advices previously requested.</p>"
 msgid "custom_advisers_full_descr"
@@ -1586,6 +1598,14 @@ msgstr "When the MeetingManager encodes the votes himself, a default value may a
 #. Default: "If you check this box, handling of notifications received from external systems will be handled only during next night. Do this if you expect this handling to take a long time."
 msgid "deferred_notifs_handling_descr"
 msgstr "If you check this box, handling of notifications received from external systems will be handled only during next night. Do this if you expect this handling to take a long time."
+
+#. Default: "Please select among delay-aware advisers"
+msgid "delay_aware_optional_advisers_term"
+msgstr "Please select among delay-aware advisers"
+
+#. Default: "Delay of ${delay} clear day(s)"
+msgid "delay_of_x_days"
+msgstr ""
 
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 msgid "description_only_see_visible_items"
@@ -2730,6 +2750,10 @@ msgstr "Attributes 'signatures' and 'signatories' can't be used together."
 msgid "no_topic_folder"
 msgstr "No topic is currently defined."
 
+#. Default: "Please select among non delay-aware advisers"
+msgid "non_delay_aware_optional_advisers_term"
+msgstr "Please select among non delay-aware advisers"
+
 #. Default: "You are a registered user but your account has not been activated yet. Please contact the system administrator."
 msgid "notPloneMeetingUser"
 msgstr "You are a registered user but your account has not been activated yet. Please contact the system administrator."
@@ -3716,3 +3740,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+
