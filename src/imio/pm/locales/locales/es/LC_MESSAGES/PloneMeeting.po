@@ -962,6 +962,10 @@ msgstr "Listas de tópicos a mostrar en el portlet 'Por hacer'"
 msgid "PloneMeeting_label_toPrint"
 msgstr ""
 
+#. Default: "Transition that will reinitialize advice delays"
+msgid "PloneMeeting_label_transitionReinitializingDelays"
+msgstr ""
+
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
 msgstr "Transiciones a confirmar"
@@ -1087,12 +1091,8 @@ msgstr ""
 msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
 msgstr ""
 
-#. Default: "This advice can not be given in the current item state (${item_review_state})."
-msgid "This advice can not be given in the current item state (${item_review_state})."
-msgstr ""
-
-#. Default: "This advice has not been given yet."
-msgid "This advice has not been given yet."
+#. Default: "This advice is not viewable by the advisers in the current item state (${item_review_state})."
+msgid "This advice is not viewable by the advisers in the current item state (${item_review_state})."
 msgstr ""
 
 #. Default: "This portlet shows controls of PloneMeeting."
@@ -3550,6 +3550,10 @@ msgstr "Los tópicos definidos aquí se utilizan en el portlet principal. Nosotr
 #. Default: "Transfer"
 msgid "transfer"
 msgstr "Transferir"
+
+#. Default: "Select the transition triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
+msgid "transition_reinitializing_delays_descr"
+msgstr ""
 
 #. Default: "When the user will click on the corresponding icon or button for every transition you will select in this list, a confirmation popup will show up. In this popup, the user will also be able to enter an optional workflow comment."
 msgid "transitions_to_confirm_descr"

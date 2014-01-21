@@ -2544,6 +2544,10 @@ msgstr ""
 msgid "PloneMeeting_label_adviceStyle"
 msgstr ""
 
+#. Default: "Transition that will reinitialize advice delays"
+msgid "PloneMeeting_label_transitionReinitializingDelays"
+msgstr ""
+
 #. Default: "Custom advisers"
 msgid "PloneMeeting_label_customAdvisers"
 msgstr ""
@@ -2558,6 +2562,10 @@ msgstr ""
 
 #. Default: "Choose here the style for the icons that represent advices."
 msgid "advice_style_descr"
+msgstr ""
+
+#. Default: "Select the transition triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
+msgid "transition_reinitializing_delays_descr"
 msgstr ""
 
 #. Default: "Standard"
@@ -2596,12 +2604,8 @@ msgstr ""
 msgid "advice_mandatory"
 msgstr ""
 
-#. Default: "This advice has not been given yet."
-msgid "This advice has not been given yet."
-msgstr ""
-
-#. Default: "This advice can not be given in the current item state (${item_review_state})."
-msgid "This advice can not be given in the current item state (${item_review_state})."
+#. Default: "This advice is not viewable by the advisers in the current item state (${item_review_state})."
+msgid "This advice is not viewable by the advisers in the current item state (${item_review_state})."
 msgstr ""
 
 #. Default: "Access detailled advice"

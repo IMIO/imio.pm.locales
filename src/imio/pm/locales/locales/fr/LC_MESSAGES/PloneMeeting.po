@@ -956,6 +956,10 @@ msgstr "Recherches préconfigurées à afficher dans le portlet 'A faire'"
 msgid "PloneMeeting_label_toPrint"
 msgstr "A imprimer ?"
 
+#. Default: "Transition that will reinitialize advice delays"
+msgid "PloneMeeting_label_transitionReinitializingDelays"
+msgstr "Transition qui remet à zéro les délais des avis avec délai"
+
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
 msgstr "Transitions à confirmer"
@@ -1080,13 +1084,9 @@ msgstr "Une erreur est survenue pendant la conversion de l'annexe.  Contactez vo
 msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
 msgstr "Une erreur est survenue en essayant de définir cette annexe comme 'à imprimer'.  Le message d'erreur est : ${error}.  Contactez votre administrateur système."
 
-#. Default: "This advice can not be given in the current item state (${item_review_state})."
-msgid "This advice can not be given in the current item state (${item_review_state})."
-msgstr "Cet avis ne peut être rendu dans l'état actuel du point (${item_review_state})."
-
-#. Default: "This advice has not been given yet."
-msgid "This advice has not been given yet."
-msgstr "Cet avis n'a pas encore été rendu."
+#. Default: "This advice is not viewable by the advisers in the current item state (${item_review_state})."
+msgid "This advice is not viewable by the advisers in the current item state (${item_review_state})."
+msgstr "Cet avis n'est pas visible par les donneurs d'avis dans l'état du point actuel (${item_review_state})."
 
 #. Default: "This portlet shows controls of PloneMeeting."
 msgid "This portlet shows controls of PloneMeeting."
@@ -3515,6 +3515,10 @@ msgstr "Les recherches préconfigurées définies ici seront affichées dans le 
 msgid "transfer"
 msgstr "Transférer"
 
+#. Default: "Select the transition triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
+msgid "transition_reinitializing_delays_descr"
+msgstr "Sélectionnez la transition qui, lorqu'elle sera déclenchée sur un point, remettra à zéro les délais déjà démarrés pour les avis avec délai.  Ceci n'impactera que les avis qui n'ont pas encore été rendus."
+
 #. Default: "When the user will click on the corresponding icon or button for every transition you will select in this list, a confirmation popup will show up. In this popup, the user will also be able to enter an optional workflow comment."
 msgid "transitions_to_confirm_descr"
 msgstr "Quand l'utilisateur cliquera sur le bouton ou l'icône correspondant à chaque transition que vous sélectionnerez dans cette liste, une popup de confirmation s'affichera. Dans cette popup, l'utilisateur pourra encoder un commentaire (optionnel)."
@@ -3738,3 +3742,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+

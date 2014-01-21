@@ -956,6 +956,10 @@ msgstr "List of topics to display in the 'todo' portlet"
 msgid "PloneMeeting_label_toPrint"
 msgstr "To print ?"
 
+#. Default: "Transition that will reinitialize advice delays"
+msgid "PloneMeeting_label_transitionReinitializingDelays"
+msgstr ""
+
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
 msgstr "Transitions to confirm"
@@ -1080,13 +1084,9 @@ msgstr "There was an error during annex conversion, please contact system admini
 msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
 msgstr "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
 
-#. Default: "This advice can not be given in the current item state (${item_review_state})."
-msgid "This advice can not be given in the current item state (${item_review_state})."
-msgstr "This advice can not be given in the current item state (${item_review_state})."
-
-#. Default: "This advice has not been given yet."
-msgid "This advice has not been given yet."
-msgstr "This advice has not been given yet."
+#. Default: "This advice is not viewable by the advisers in the current item state (${item_review_state})."
+msgid "This advice is not viewable by the advisers in the current item state (${item_review_state})."
+msgstr ""
 
 #. Default: "This portlet shows controls of PloneMeeting."
 msgid "This portlet shows controls of PloneMeeting."
@@ -3516,6 +3516,10 @@ msgstr "Topics defined here are used in the main portlet. We recommand not modif
 #. Default: "Transfer"
 msgid "transfer"
 msgstr "Transfer"
+
+#. Default: "Select the transition triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
+msgid "transition_reinitializing_delays_descr"
+msgstr ""
 
 #. Default: "When the user will click on the corresponding icon or button for every transition you will select in this list, a confirmation popup will show up. In this popup, the user will also be able to enter an optional workflow comment."
 msgid "transitions_to_confirm_descr"
