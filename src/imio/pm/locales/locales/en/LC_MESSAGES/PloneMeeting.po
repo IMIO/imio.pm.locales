@@ -1550,6 +1550,10 @@ msgstr "You can not remove a configuration that has already been used in the app
 msgid "custom_adviser_wrong_date_format"
 msgstr "There is a problem with a date in the 'Gives automatic advice for item created from' column, please check date encoded for group '${groupName}', the format is YYYY/MM/DD, like 2013/12/31."
 
+#. Default: "There is a problem with a delay in the 'Delay or 'Delay left alert' column, please check encoded value for group '${groupName}', you can only enter a single digit or leave field empty if not relevant."
+msgid "custom_adviser_wrong_delay_format"
+msgstr ""
+
 #. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices. <span style='color: red';>If you change this parameter, and any of your change affect already created items (new configuration with a 'Rule activated for item created from' date in the past or change in help messages already used for example), do not forget to update advices!</span>"
 msgid "custom_advisers_descr"
 msgstr "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices. <span style='color: red';>If you change this parameter, and any of your change affect already created items (new configuration with a 'Rule activated for item created from' date in the past or change in help messages already used for example), do not forget to update advices!</span>"
@@ -3764,3 +3768,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+

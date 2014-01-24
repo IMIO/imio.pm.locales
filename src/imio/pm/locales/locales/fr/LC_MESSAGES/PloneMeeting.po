@@ -1550,6 +1550,10 @@ msgstr "Vous ne pouvez pas supprimer une configuration qui a déjà été utilis
 msgid "custom_adviser_wrong_date_format"
 msgstr "Il y a un problème avec une des dates encodées dans la colonne 'L'avis sera automatiquement demandé sur les points créés à partir du', vérifiez la date encodée pour le groupe '${groupName}', le format doit être AAAA/MM/DD, par exemple 2013/12/31."
 
+#. Default: "There is a problem with a delay in the 'Delay or 'Delay left alert' column, please check encoded value for group '${groupName}', you can only enter a single digit or leave field empty if not relevant."
+msgid "custom_adviser_wrong_delay_format"
+msgstr "Il y a un problème avec un délai encodé dans les colonnes 'Délai pour rendre l'avis' ou 'Seuil d'alerte pour le délai', vérifiez les valeurs encodées pour le groupe ${groupName}, le champ ne peut contenir qu'un chiffre ou être vide."
+
 #. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices. <span style='color: red';>If you change this parameter, and any of your change affect already created items (new configuration with a 'Rule activated for item created from' date in the past or change in help messages already used for example), do not forget to update advices!</span>"
 msgid "custom_advisers_descr"
 msgstr "Définissez ici les avis particuliers : les avis demandés automatiquement par l'application et les avis ayant une notion de délai. <span style='color: red';>Si vous changez ce paramètre et que l'un des changements impacte des points déjà créés (nouvelle règle avec une date 'Configuration active pour les points créés depuis le' dans le passé ou un changement de 'Message d'aide' pour une configuration déjà utilisée par exemple), n'oubliez pas de mettre à jour les avis!</span>"
