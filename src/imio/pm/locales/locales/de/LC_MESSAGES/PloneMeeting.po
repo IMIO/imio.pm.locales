@@ -1204,6 +1204,10 @@ msgstr ""
 msgid "advice_add"
 msgstr "Einen Kommentar hinzufügen"
 
+#. Default: "This advice can no more be given in current item state (${item_review_state})"
+msgid "advice_can_no_more_be_given_in_current_item_state"
+msgstr ""
+
 #. Default: "Comment (optional)"
 msgid "advice_comment"
 msgstr "Kommentieren (optional)"
@@ -1653,6 +1657,14 @@ msgstr ""
 
 #. Default: "Please select among delay-aware advisers"
 msgid "delay_aware_optional_advisers_term"
+msgstr ""
+
+#. Default: ", at this moment, the delay exceeded ${delay_when_stopped} day(s)."
+msgid "delay_exceeded_when_stopped"
+msgstr ""
+
+#. Default: ", at this moment, there was ${delay_when_stopped} day(s) left to give the advice."
+msgid "delay_left_when_stopped"
 msgstr ""
 
 #. Default: "Delay of ${delay} clear day(s)"
@@ -3081,6 +3093,10 @@ msgstr "Positiv"
 #. Default: "Positive with remarks"
 msgid "positive_with_remarks"
 msgstr "Positiv mit Anmerkung"
+
+#. Default: "the possiblity to give an advice was stopped on ${advice_delay_stopped_on}"
+msgid "possibility_to_advice_stopped_on"
+msgstr ""
 
 #. Default: "Power observers"
 msgid "powerobservers"

@@ -1197,6 +1197,10 @@ msgstr "${meetingConfigTitle} - Votre avis est demandé sur le point '${itemTitl
 msgid "advice_add"
 msgstr "Ajouter un avis"
 
+#. Default: "This advice can no more be given in current item state (${item_review_state})"
+msgid "advice_can_no_more_be_given_in_current_item_state"
+msgstr "Cet avis ne peut plus être rendu dans l'état actuel du point (${item_review_state})"
+
 #. Default: "Comment (optional)"
 msgid "advice_comment"
 msgstr "Commentaire (optionnel)"
@@ -1638,6 +1642,14 @@ msgstr "Cochez cette case si vous voulez différer à la nuit suivante le traite
 #. Default: "Please select among delay-aware advisers"
 msgid "delay_aware_optional_advisers_term"
 msgstr "* * * Avis optionnels avec délai * * *"
+
+#. Default: ", at this moment, the delay exceeded ${delay_when_stopped} day(s)."
+msgid "delay_exceeded_when_stopped"
+msgstr "à ce moment, le délai été dépassé de ${delay_when_stopped} jour(s)."
+
+#. Default: ", at this moment, there was ${delay_when_stopped} day(s) left to give the advice."
+msgid "delay_left_when_stopped"
+msgstr "à ce moment, il restait ${delay_when_stopped} jour(s) pour rendre l'avis."
 
 #. Default: "Delay of ${delay} clear day(s)"
 msgid "delay_of_x_days"
@@ -3051,6 +3063,10 @@ msgstr "Positif"
 #. Default: "Positive with remarks"
 msgid "positive_with_remarks"
 msgstr "Positif avec remarques"
+
+#. Default: "the possiblity to give an advice was stopped on ${advice_delay_stopped_on}"
+msgid "possibility_to_advice_stopped_on"
+msgstr "la possibilité de rendre un avis a été stoppée le ${advice_delay_stopped_on}"
 
 #. Default: "Power observers"
 msgid "powerobservers"
