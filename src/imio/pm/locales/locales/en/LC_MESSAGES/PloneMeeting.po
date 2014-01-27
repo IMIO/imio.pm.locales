@@ -27,6 +27,10 @@ msgstr "Add PloneMeeting Portlet"
 msgid "Add Todo Portlet"
 msgstr "Add Todo Portlet"
 
+#. Default: "Advice asked automatically because"
+msgid "Advice asked automatically because"
+msgstr ""
+
 #. Default: "Advice comment"
 msgid "Advice comment"
 msgstr "Advice comment"
@@ -193,7 +197,7 @@ msgstr "Number of items to display"
 
 #. Default: "Once viewable, the adviser will have ${advice_delay} days to give the advice."
 msgid "Once viewable, the adviser will have ${advice_delay} days to give the advice."
-msgstr ""
+msgstr "Once viewable, the adviser will have ${advice_delay} days to give the advice."
 
 #. Default: "Paste item(s)"
 msgid "Paste PloneMeeting"
@@ -962,7 +966,7 @@ msgstr "To print ?"
 
 #. Default: "Transition that will reinitialize advice delays"
 msgid "PloneMeeting_label_transitionReinitializingDelays"
-msgstr ""
+msgstr "Transition that will reinitialize advice delays"
 
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
@@ -1090,23 +1094,31 @@ msgstr "There was an error while trying to set this annex to printable. The erro
 
 #. Default: "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
 msgid "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
-msgstr ""
+msgstr "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
 
 #. Default: "This advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
 msgid "This advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
-msgstr ""
+msgstr "This advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
 
 #. Default: "This advice has not been given yet."
 msgid "This advice has not been given yet."
-msgstr ""
+msgstr "This advice has not been given yet."
 
 #. Default: "This advice is not viewable by the advisers in the current item state (${item_review_state})."
 msgid "This advice is not viewable by the advisers in the current item state (${item_review_state})."
-msgstr ""
+msgstr "This advice is not viewable by the advisers in the current item state (${item_review_state})."
 
 #. Default: "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgid "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
-msgstr ""
+msgstr "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
+
+#. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
+msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"
+msgstr "This automatic advice has been asked by the application (shown by his title not being between brackets)"
+
+#. Default: "This optional advice was asked by the item creators (shown by his title being between brackets)"
+msgid "This optional advice was asked by the item creators (shown by his title being between brackets)"
+msgstr "This optional advice was asked by the item creators (shown by his title being between brackets)"
 
 #. Default: "This portlet shows controls of PloneMeeting."
 msgid "This portlet shows controls of PloneMeeting."
@@ -1552,7 +1564,7 @@ msgstr "There is a problem with a date in the 'Gives automatic advice for item c
 
 #. Default: "There is a problem with a delay in the 'Delay or 'Delay left alert' column, please check encoded value for group '${groupName}', you can only enter a single digit or leave field empty if not relevant."
 msgid "custom_adviser_wrong_delay_format"
-msgstr ""
+msgstr "There is a problem with a delay in the 'Delay or 'Delay left alert' column, please check encoded value for group '${groupName}', you can only enter a single digit or leave field empty if not relevant."
 
 #. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices. <span style='color: red';>If you change this parameter, and any of your change affect already created items (new configuration with a 'Rule activated for item created from' date in the past or change in help messages already used for example), do not forget to update advices!</span>"
 msgid "custom_advisers_descr"
@@ -1629,7 +1641,7 @@ msgstr "Please select among delay-aware advisers"
 
 #. Default: "Delay of ${delay} clear day(s)"
 msgid "delay_of_x_days"
-msgstr ""
+msgstr "Delay of ${delay} clear day(s)"
 
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 msgid "description_only_see_visible_items"
@@ -3315,6 +3327,14 @@ msgstr "available meetings"
 msgid "searchcorrecteditems"
 msgstr "corrected items"
 
+#. Default: "items to advice with delay"
+msgid "searchitemstoadvicewithdelay"
+msgstr "items to advice with delay"
+
+#. Default: "items to advice with exceeded delay"
+msgid "searchitemstoadvicewithdexceededelay"
+msgstr "items to advice with exceeded delay"
+
 #. Default: "items to correct"
 msgid "searchitemstocorrect"
 msgstr "items to correct"
@@ -3543,7 +3563,7 @@ msgstr "Transfer"
 
 #. Default: "Select the transition triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
 msgid "transition_reinitializing_delays_descr"
-msgstr ""
+msgstr "Select the transition triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
 
 #. Default: "When the user will click on the corresponding icon or button for every transition you will select in this list, a confirmation popup will show up. In this popup, the user will also be able to enter an optional workflow comment."
 msgid "transitions_to_confirm_descr"
