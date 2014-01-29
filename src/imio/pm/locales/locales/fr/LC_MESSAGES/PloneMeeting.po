@@ -35,9 +35,17 @@ msgstr "Avis demandé automatiquement car"
 msgid "Advice comment"
 msgstr "Commentaire"
 
+#. Default: "Advice given by"
+msgid "Advice given by"
+msgstr "Avis rendu par"
+
 #. Default: "Advice given on item ${item_title}"
 msgid "Advice given on item ${item_title}"
 msgstr "Avis rendu sur le point ${item_title}"
+
+#. Default: "Advice type"
+msgid "Advice type"
+msgstr "Type d'avis"
 
 #. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
 msgid "Annexes preview must be enabled to launch complete annexes conversion process."
@@ -71,9 +79,9 @@ msgstr "Catégories de points"
 msgid "Choose a group."
 msgstr "Choisissez le groupe au nom duquel l'avis sera remis."
 
-#. Default: "Choose a type."
-msgid "Choose a type."
-msgstr "Choisissez un type d'avis."
+#. Default: "Choose an advice type."
+msgid "Choose an advice type."
+msgstr "Choissisez un type d'avis."
 
 #. Default: "Item classifiers"
 msgid "Classifiers"
@@ -1145,10 +1153,6 @@ msgstr "Afficher / masquer les détails des points dans les tableaux de recherch
 msgid "Topics"
 msgstr "Recherches préconfigurées"
 
-#. Default: "Type"
-msgid "Type"
-msgstr "Type d'avis"
-
 #. Default: "A meeting manager"
 msgid "a_meeting_manager"
 msgstr "Un gestionnaire de séance"
@@ -1584,7 +1588,7 @@ msgstr "Définissez ici les avis particuliers : les avis demandés automatiqueme
 
 #. Default: "<p>This part of the configuration lets you configure special behaviors around advices.</p><p>You will be able to define :</p><ul><li><strong>advices requested automatically by the application</strong> : under certain conditions, if a defined expression is True, an advice will be automatically asked by the application on an item.  You can also define a special help message that will help the user to find out why this advice was automatically asked and a date from wich newly created items will be affected by this new condiguration;</li><li><strong>advices with concept of delay</strong> : this allows you to define special advices that the user will be able to ask thru the user interface (or will be requested automatically).  An advice so defined has a notion of delay (time in clear day) which means that once applied and visible to the group to whom the advice is requested, it must be given within limit. Once this period has passed, the advice can not be given anymore.</li></ul><p> If a configuration is in use (some created items are using it), it will not be possible to change logical values for it (columns 'Group', 'Advice will be automatically asked if', 'Gives automatic advice for item created from', 'Gives automatic advice for item created until' and 'Delay for giving advice').</p>"
 msgid "custom_advisers_full_descr"
-msgstr "<p>Cette partie de la configuration vous permet de définir certains comportements particuliers liés aux avis.</p><p>Il vous sera possible de définir:</p><ul><li><strong>des avis automatiquement demandés par l'application</strong> : sous certaines conditions si une expression renseignée est vérifiée (True), un avis sera automatiquement demandé par l'application sur un point.  Vous pourrez également définir un message d'aide qui permettra à un utilisateur de savoir pourquoi cet avis a été automatiquement demandé ainsi qu'une date à partir de laquelle les points nouvellement créés seront affectés par cette configuration;</li><li><strong>des avis ayant une notion de délai</strong> : ceci vous permet de définir des avis que l'utilisateur pourra demander manuellement dans l'application (ou qui seront demandés automatiquement).  Un avis défini de la sorte aura une notion de délai ce qui signifie qu'une fois demandé et visible par le groupe à qui l'avis est demandé, il devra être rendu dans le délai imparti (en jours francs).  Une fois ce délai dépassé, l'avis ne pourra plus être rendu.</li></ul><p>Si une configuration est utilisée (des points créés l'utilisent), les données logiques ne pourront plus être moidifée (colonnes 'Groupes', 'L'avis sera automatiquement demandé si', 'Configuration active pour les points créés depuis le', 'Delay for giving advice' et 'Délai pour rendre l'avis').</p>"
+msgstr "<p>Cette partie de la configuration vous permet de définir certains comportements particuliers liés aux avis.</p><p>Il vous sera possible de définir:</p><ul><li><strong>des avis automatiquement demandés par l'application</strong> : sous certaines conditions si une expression renseignée est vérifiée (True), un avis sera automatiquement demandé par l'application sur un point.  Vous pourrez également définir un message d'aide qui permettra à un utilisateur de savoir pourquoi cet avis a été automatiquement demandé ainsi qu'une date à partir de laquelle les points nouvellement créés seront affectés par cette configuration;</li><li><strong>des avis ayant une notion de délai</strong> : ceci vous permet de définir des avis que l'utilisateur pourra demander manuellement dans l'application (ou qui seront demandés automatiquement).  Un avis défini de la sorte aura une notion de délai ce qui signifie qu'une fois demandé et visible par le groupe à qui l'avis est demandé, il devra être rendu dans le délai imparti (en jours calendriers).  Une fois ce délai dépassé, l'avis ne pourra plus être rendu.</li></ul><p>Si une configuration est utilisée (des points créés l'utilisent), les données logiques ne pourront plus être moidifée (colonnes 'Groupes', 'L'avis sera automatiquement demandé si', 'Configuration active pour les points créés depuis le', 'Delay for giving advice' et 'Délai pour rendre l'avis').</p>"
 
 #. Default: "Data"
 msgid "data"
@@ -1661,7 +1665,7 @@ msgstr "à ce moment, il restait ${delay_when_stopped} jour(s) pour rendre l'avi
 
 #. Default: "Delay of ${delay} clear day(s)"
 msgid "delay_of_x_days"
-msgstr "Délai de ${delay} jour(s) franc(s)"
+msgstr "Délai de ${delay} jour(s)"
 
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 msgid "description_only_see_visible_items"
@@ -2819,7 +2823,7 @@ msgstr "Vous êtes un utilisateur enregistré mais votre compte n'a pas encore �
 
 #. Default: "Not given yet"
 msgid "not_given"
-msgstr "Non donné"
+msgstr "Non rendu"
 
 #. Default: "Nothing to do."
 msgid "nothing_to_do"
@@ -3818,4 +3822,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
