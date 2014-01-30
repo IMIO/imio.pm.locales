@@ -1581,11 +1581,19 @@ msgstr ""
 msgid "custom_adviser_can_not_remove_used_row"
 msgstr ""
 
+#. Default: "There is a problem with a delay in the 'Delay' or 'Delay left alert' column, please check encoded value for group '${groupName}', make sure that the value defined in the 'Delay' column is higher or equals the value defined in the 'Delay left alert' column.  Leave field 'Delay left alert' empty if not relevant."
+msgid "custom_adviser_delay_left_must_be_inferior_to_delay"
+msgstr ""
+
+#. Default: "There is a problem with a delay in the 'Delay left alert' column, please check encoded value for group '${groupName}', you can not enter a value in this column if no value is defined in the 'Delay' column.  Leave field empty if not relevant."
+msgid "custom_adviser_no_delay_left_if_no_delay"
+msgstr ""
+
 #. Default: "There is a problem with a date in the 'Gives automatic advice for item created from' column, please check date encoded for group '${groupName}', the format is YYYY/MM/DD, like 2013/12/31."
 msgid "custom_adviser_wrong_date_format"
 msgstr ""
 
-#. Default: "There is a problem with a delay in the 'Delay or 'Delay left alert' column, please check encoded value for group '${groupName}', you can only enter a single digit or leave field empty if not relevant."
+#. Default: "There is a problem with a delay in the 'Delay' or 'Delay left alert' column, please check encoded value for group '${groupName}', you can only enter a single digit or leave field empty if not relevant."
 msgid "custom_adviser_wrong_delay_format"
 msgstr ""
 

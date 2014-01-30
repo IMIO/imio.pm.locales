@@ -56,6 +56,14 @@ msgstr ""
 msgid "delay_col_description"
 msgstr ""
 
+#. Default: "Delay left alert"
+msgid "Delay left alert"
+msgstr ""
+
+#. Default: "Enter the treshold beyond wich an alert must be shown regarding left delay.  This will be shown in the UI with a particular color and if activated, a mail notification could be send in this case. Enter a single digit (like '5' or '10') lower than actual 'Delay'. If no treshold is relevant for this advice, leave this field blank."
+msgid "delay_left_alert_col_description"
+msgstr ""
+
 #. Default: "Advice with delay label"
 msgid "Custom adviser delay label"
 msgstr ""

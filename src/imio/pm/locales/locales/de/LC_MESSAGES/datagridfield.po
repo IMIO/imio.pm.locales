@@ -35,6 +35,10 @@ msgstr ""
 msgid "Delay for giving advice"
 msgstr ""
 
+#. Default: "Delay left alert"
+msgid "Delay left alert"
+msgstr ""
+
 #. Default: "Rule activated for item created from"
 msgid "Rule activated for item created from"
 msgstr ""
@@ -49,6 +53,10 @@ msgstr ""
 
 #. Default: "If you want a specific label to be displayed on the label displayed in the 'Advice to give' list on the item edit form and on the '?' displayed next to the advice title in the user interface, you can enter it here.  The label will appear between brackets after the message 'Name of the group - delay of X days'."
 msgid "delay_label_col_description"
+msgstr ""
+
+#. Default: "Enter the treshold beyond wich an alert must be shown regarding left delay.  This will be shown in the UI with a particular color and if activated, a mail notification could be send in this case. Enter a single digit (like '5' or '10') lower than actual 'Delay'. If no treshold is relevant for this advice, leave this field blank."
+msgid "delay_left_alert_col_description"
 msgstr ""
 
 #. Default: "This configuration will be applied on item created from the defined date (defined date included).  Please respect following format : YYYY/MM/DD (year 4 digits/month 2 digits/day 2 digits).  This date will avoid older items created before to be affected, especially when updating every advices thru the 'Update all advices' action."

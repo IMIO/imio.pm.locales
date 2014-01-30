@@ -35,6 +35,10 @@ msgstr "Groupe"
 msgid "Delay for giving advice"
 msgstr "Délai pour rendre l'avis"
 
+#. Default: "Delay left alert"
+msgid "Delay left alert"
+msgstr "Seuil d'alerte pour le délai"
+
 #. Default: "Rule activated for item created from"
 msgid "Rule activated for item created from"
 msgstr "Configuration active pour les points créés depuis le"
@@ -50,6 +54,10 @@ msgstr "Spécifiez le délai en nombre de jours francs que le groupe aura pour r
 #. Default: "If you want a specific label to be displayed on the label displayed in the 'Advice to give' list on the item edit form and on the '?' displayed next to the advice title in the user interface, you can enter it here.  The label will appear between brackets after the message 'Name of the group - delay of X days'."
 msgid "delay_label_col_description"
 msgstr "Si vous souhaitez qu'un libellé soit affiché à côté de la valeur affichée dans la liste déroulante 'Demander l'avis de' sur le formulaire d'édition d'un point ainsi qu'au survol du '?' affiché dans l'interface utilisateur à côté du titre d'un avis demandé, entrez-le ici.  Ce message apparaîtra entre parenthèses après le message 'Nom du groupe qui doit rendre l'avis - délai de X jours'.  Ce libellé doit être le plus concis possible."
+
+#. Default: "Enter the treshold beyond wich an alert must be shown regarding left delay.  This will be shown in the UI with a particular color and if activated, a mail notification could be send in this case. Enter a single digit (like '5' or '10') lower than actual 'Delay'. If no treshold is relevant for this advice, leave this field blank."
+msgid "delay_left_alert_col_description"
+msgstr "Entrez un seuil au delà duquel une alerte doit être affichée concernant le délai restant pour rendre l'avis.  Ceci apparaîtra de manière particulière dans l'interface utilisateur, de plus, si une notification par e-mail est activée pour ce cas, cette valeur sera utilisée pour déclencher l'envoi de la notification.  Entrez une chiffre ('5' ou '10' par exemple) inférieur à la valeur définie dans la colonne 'Délai pour rendre l'avis'.  Laissez ce champ vide si un seuil d'alerte est inutile."
 
 #. Default: "This configuration will be applied on item created from the defined date (defined date included).  Please respect following format : YYYY/MM/DD (year 4 digits/month 2 digits/day 2 digits).  This date will avoid older items created before to be affected, especially when updating every advices thru the 'Update all advices' action."
 msgid "for_item_created_from_col_description"
