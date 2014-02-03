@@ -1665,7 +1665,7 @@ msgstr "Cochez cette case si vous voulez différer à la nuit suivante le traite
 
 #. Default: "Please select among delay-aware advisers"
 msgid "delay_aware_optional_advisers_term"
-msgstr "* * * Avis optionnels avec délai * * *"
+msgstr "* * * Avis avec délai * * *"
 
 #. Default: ", at this moment, the delay exceeded ${delay_when_stopped} day(s)."
 msgid "delay_exceeded_when_stopped"
@@ -2827,7 +2827,7 @@ msgstr "Aucun dossier automatique défini pour le moment."
 
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
-msgstr "* * * Avis optionnels sans délai * * *"
+msgstr "* * * Avis sans délai * * *"
 
 #. Default: "You are a registered user but your account has not been activated yet. Please contact the system administrator."
 msgid "notPloneMeetingUser"
@@ -3352,6 +3352,10 @@ msgstr "Mots-clé"
 #. Default: "advised items"
 msgid "searchalladviseditems"
 msgstr "Avis donnés"
+
+#. Default: "advised items with delay"
+msgid "searchalladviseditemswithdelay"
+msgstr "avis donnés (avec délai)"
 
 #. Default: "all decisions"
 msgid "searchalldecisions"
