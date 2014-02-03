@@ -529,7 +529,7 @@ msgstr ""
 msgid "PloneMeeting_label_itemAssembly"
 msgstr ""
 
-#. Default: "Item states in wich budget impact reviewers can change budgetary informations"
+#. Default: "Item states in wich budget impact editors can change budgetary informations"
 msgid "PloneMeeting_label_itemBudgetInfosStates"
 msgstr ""
 
@@ -1428,8 +1428,8 @@ msgstr ""
 msgid "back"
 msgstr "Terug"
 
-#. Default: "Budget impact reviewers"
-msgid "budgetimpactreviewers"
+#. Default: "Budget impact editors"
+msgid "budgetimpacteditors"
 msgstr ""
 
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
@@ -2156,7 +2156,7 @@ msgstr ""
 msgid "item_assembly_descr"
 msgstr ""
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for budget impact reviewers to edit the budgetary informations."
+#. Default: "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations."
 msgid "item_budget_infos_states_descr"
 msgstr ""
 
@@ -3024,8 +3024,8 @@ msgstr ""
 msgid "pm_update_annex_indexes"
 msgstr ""
 
-#. Default: "Update Budget Impact Reviewers"
-msgid "pm_update_budgetimpactreviewerss"
+#. Default: "Update Budget Impact Editors"
+msgid "pm_update_budgetimpacteditors"
 msgstr ""
 
 #. Default: "Update copyGroups"

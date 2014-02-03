@@ -528,7 +528,7 @@ msgstr "Etats des points dans lesquels les donneurs d'avis de ces points peuvent
 msgid "PloneMeeting_label_itemAssembly"
 msgstr "Assemblée spécifique liée à ce point"
 
-#. Default: "Item states in wich budget impact reviewers can change budgetary informations"
+#. Default: "Item states in wich budget impact editors can change budgetary informations"
 msgid "PloneMeeting_label_itemBudgetInfosStates"
 msgstr "Etats des points dans lesquels les 'Gestionnaires d'informations budgétaires' peuvent modifier les informations budgétaires"
 
@@ -1422,8 +1422,8 @@ msgstr "Spécifiez ici quels fichiers de langues vous avez installés pour Tesse
 msgid "back"
 msgstr "Retour"
 
-#. Default: "Budget impact reviewers"
-msgid "budgetimpactreviewers"
+#. Default: "Budget impact editors"
+msgid "budgetimpacteditors"
 msgstr "Gestionnaires d'informations budgétaires"
 
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
@@ -2150,7 +2150,7 @@ msgstr "Assemblée pour ce point"
 msgid "item_assembly_descr"
 msgstr "Si vous ne remplissez pas ce champ, l'assemblée définie sur la séance sera utilisée. Ajoutez des double crochets [[ ]] autour des personnes absentes, par exemple : [[Mr. Untel Didier]]"
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for budget impact reviewers to edit the budgetary informations."
+#. Default: "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations."
 msgid "item_budget_infos_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour les personnes qui sont dans le groupe de 'Gestionnaires d'informations budgétaires' de cette configuration de séance de modifier les informations budgétaires.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les 'Gestionnaires d'informations budgétaires'!</span>"
 
@@ -3014,8 +3014,8 @@ msgstr "Mettre à jour les avis"
 msgid "pm_update_annex_indexes"
 msgstr "Recalculer les index des annexes"
 
-#. Default: "Update Budget Impact Reviewers"
-msgid "pm_update_budgetimpactreviewerss"
+#. Default: "Update Budget Impact Editors"
+msgid "pm_update_budgetimpacteditors"
 msgstr "Mettre à jour les 'Gestionnaires d'informations budgétaires'"
 
 #. Default: "Update copyGroups"
