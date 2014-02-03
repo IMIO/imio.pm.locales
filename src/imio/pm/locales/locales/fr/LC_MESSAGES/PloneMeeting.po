@@ -802,6 +802,10 @@ msgstr "Permission(s)"
 msgid "PloneMeeting_label_podTemplate"
 msgstr "Canevas POD (fichier ODT)"
 
+#. Default: "Groups to consider as 'Power advisers'"
+msgid "PloneMeeting_label_powerAdvisersGroups"
+msgstr "Groupes considérés comme 'Super émetteurs d'avis'"
+
 #. Default: "Date"
 msgid "PloneMeeting_label_preMeetingDate"
 msgstr "Date"
@@ -3095,6 +3099,10 @@ msgstr "Positif avec remarques"
 #. Default: "the possiblity to give an advice was stopped on ${advice_delay_stopped_on}"
 msgid "possibility_to_advice_stopped_on"
 msgstr "la possibilité de rendre un avis a été stoppée le ${advice_delay_stopped_on}"
+
+#. Default: "Select groups that will be able to give an advice on an item even when not asked"
+msgid "power_advisers_groups_descr"
+msgstr "Sélectionnez les groupes qui pourront rendre un avis sur un point même lorsque leur avis n'aura pas été demandé"
 
 #. Default: "Power observers"
 msgid "powerobservers"

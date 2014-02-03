@@ -802,6 +802,10 @@ msgstr "Permission(s)"
 msgid "PloneMeeting_label_podTemplate"
 msgstr "POD template (ODT file)"
 
+#. Default: "Groups to consider as 'Power advisers'"
+msgid "PloneMeeting_label_powerAdvisersGroups"
+msgstr "Groups to consider as 'Power advisers'"
+
 #. Default: "Date"
 msgid "PloneMeeting_label_preMeetingDate"
 msgstr "Date"
@@ -3097,6 +3101,10 @@ msgstr "Positive with remarks"
 #. Default: "the possiblity to give an advice was stopped on ${advice_delay_stopped_on}"
 msgid "possibility_to_advice_stopped_on"
 msgstr "the possiblity to give an advice was stopped on ${advice_delay_stopped_on}"
+
+#. Default: "Select groups that will be able to give an advice on an item even when not asked"
+msgid "power_advisers_groups_descr"
+msgstr "Select groups that will be able to give an advice on an item even when not asked"
 
 #. Default: "Power observers"
 msgid "powerobservers"
