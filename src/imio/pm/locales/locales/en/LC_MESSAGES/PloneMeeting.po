@@ -2436,9 +2436,9 @@ msgstr "The mail mode allows to choose, in a global way, if you want to activate
 msgid "mail_mode_test"
 msgstr "Test"
 
-#. Default: "--Make a choice--"
+#. Default: "--- Make a choice ---"
 msgid "make_a_choice"
-msgstr "--Make a choice--"
+msgstr "--- Make a choice ---"
 
 #. Default: "Unable to update following items because you can not edit them, item numbers : ${itemNumbers}"
 msgid "manage_item_not_update_items_numbers"
@@ -2829,6 +2829,10 @@ msgstr "No topic is currently defined."
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
 msgstr "Please select among non delay-aware advisers"
+
+#. Default: "--- None, delays can not be cancelled once started ---"
+msgid "none_started_once_for_all"
+msgstr "--- None, delays can not be cancelled once started ---"
 
 #. Default: "You are a registered user but your account has not been activated yet. Please contact the system administrator."
 msgid "notPloneMeetingUser"
@@ -3357,7 +3361,7 @@ msgstr "advised items"
 
 #. Default: "advised items with delay"
 msgid "searchalladviseditemswithdelay"
-msgstr ""
+msgstr "advised items with delay"
 
 #. Default: "all decisions"
 msgid "searchalldecisions"
@@ -3504,6 +3508,10 @@ msgstr "You can connect PloneMeeting to an external module that manages tasks (i
 #. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
 msgid "template_using_groups_descr"
 msgstr "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
+
+#. Default: "the advice was asked after this date."
+msgid "the advice was asked after this date."
+msgstr "the advice was asked after this date."
 
 #. Default: "The voter himself"
 msgid "the_voter_himself"
@@ -3844,4 +3852,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

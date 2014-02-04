@@ -2466,7 +2466,8 @@ msgstr "El modo correo permite elegir, de una manera global, si desea activar o 
 msgid "mail_mode_test"
 msgstr "Prueba"
 
-#. Default: "--Make a choice--"
+#. Default: "--- Make a choice ---"
+#, fuzzy
 msgid "make_a_choice"
 msgstr "--Hacer un elección--"
 
@@ -2859,6 +2860,10 @@ msgstr "Ningún tópico está definido"
 
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
+msgstr ""
+
+#. Default: "--- None, delays can not be cancelled once started ---"
+msgid "none_started_once_for_all"
 msgstr ""
 
 #. Default: "You are a registered user but your account has not been activated yet. Please contact the system administrator."
@@ -3536,6 +3541,10 @@ msgstr "Usted puede conectarse PloneMeeting a un módulo externo que administre 
 
 #. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
 msgid "template_using_groups_descr"
+msgstr ""
+
+#. Default: "the advice was asked after this date."
+msgid "the advice was asked after this date."
 msgstr ""
 
 #. Default: "The voter himself"

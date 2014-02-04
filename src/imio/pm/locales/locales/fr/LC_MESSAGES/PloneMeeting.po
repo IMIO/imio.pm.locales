@@ -2436,9 +2436,9 @@ msgstr "Le mode d'envoi des courriers vous permet de choisir, de manière global
 msgid "mail_mode_test"
 msgstr "Test"
 
-#. Default: "--Make a choice--"
+#. Default: "--- Make a choice ---"
 msgid "make_a_choice"
-msgstr "--Choisissez--"
+msgstr "--- Choisissez ---"
 
 #. Default: "Unable to update following items because you can not edit them, item numbers : ${itemNumbers}"
 msgid "manage_item_not_update_items_numbers"
@@ -2828,6 +2828,10 @@ msgstr "Aucun dossier automatique défini pour le moment."
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
 msgstr "* * * Avis sans délai * * *"
+
+#. Default: "--- None, delays can not be cancelled once started ---"
+msgid "none_started_once_for_all"
+msgstr "--- Aucune, une fois les délais démarrés, ils ne peuvent plus être remis à zéro ---"
 
 #. Default: "You are a registered user but your account has not been activated yet. Please contact the system administrator."
 msgid "notPloneMeetingUser"
@@ -3503,6 +3507,10 @@ msgstr "Vous pouvez connecter PloneMeeting à un module externe de gestion de t�
 msgid "template_using_groups_descr"
 msgstr "Si l'usage de ce point est 'Comme canevas de point', sélectionnez les groupes qui pourront l'utiliser.  Si tous les groupes doivent pouvoir utiliser ce canevas, ne sélectionnez aucun groupe.  Vous pouvez choisir plusieurs groupes en maintenant la touche 'Ctrl' enfoncée."
 
+#. Default: "the advice was asked after this date."
+msgid "the advice was asked after this date."
+msgstr "l'avis a été demandé après cette date."
+
 #. Default: "The voter himself"
 msgid "the_voter_himself"
 msgstr "Le votant lui-même"
@@ -3842,3 +3850,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+

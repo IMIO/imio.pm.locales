@@ -401,8 +401,12 @@ msgstr ""
 msgid "annex_title"
 msgstr ""
 
-#. Default: "--Make a choice--"
+#. Default: "--- Make a choice ---"
 msgid "make_a_choice"
+msgstr ""
+
+#. Default: "--- None, delays can not be cancelled once started ---"
+msgid "none_started_once_for_all"
 msgstr ""
 
 #. Default: "This file is a scanned document"
@@ -3861,6 +3865,10 @@ msgstr ""
 
 #. Default: ", at this moment, the delay exceeded ${delay_when_stopped} day(s)."
 msgid "delay_exceeded_when_stopped"
+msgstr ""
+
+#. Default: "the advice was asked after this date."
+msgid "the advice was asked after this date."
 msgstr ""
 
 #. Default: "Advice given by"
