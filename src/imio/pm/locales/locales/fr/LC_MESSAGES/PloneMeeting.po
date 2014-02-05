@@ -1122,7 +1122,7 @@ msgstr "Cet avis n'a pas encore été rendu."
 
 #. Default: "This advice is not viewable by the advisers in the current item state (${item_review_state})."
 msgid "This advice is not viewable by the advisers in the current item state (${item_review_state})."
-msgstr "Cet avis n'est pas visible par les donneurs d'avis dans l'état du point actuel (${item_review_state})."
+msgstr "Cet avis n'est pas visible par les donneurs d'avis dans l'état actuel du point (${item_review_state})."
 
 #. Default: "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgid "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
@@ -3850,4 +3850,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
