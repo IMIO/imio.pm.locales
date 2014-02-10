@@ -270,7 +270,7 @@ msgstr "Réponses"
 
 #. Default: "As copy group on"
 msgid "PloneMeeting_label_asCopyGroupOn"
-msgstr "Expression déterminant si certains groupes Plone devront être mis en copie d'un point"
+msgstr "Le groupe sera automatiquement mis en copie d'un point si"
 
 #. Default: "Default assembly"
 msgid "PloneMeeting_label_assembly"
@@ -1359,7 +1359,7 @@ msgstr "Tri ascendant"
 
 #. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as copyGroup for an item.  We receive 'item' as the meeting item.  WARNING, if the 'suffix' returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
 msgid "as_copy_group_on_descr"
-msgstr "Spécifiez une expression TAL qui retourne une liste de suffixes de groupes Plone (par exemple ['creators', 'reviewers', ]) qui devront être automatiquement sélectionnés comme groupes en copie lors d'un point.  L'expression est évaluée à chaque modification du point (création et éditions suivantes).  L'élément 'item' (point) est utilisable dans l'expression. ATTENTION: si le groupe Plone lié au suffixe n'est pas défini dans la liste des 'Groupes qui pourront être mis en copie' sur la 'Configuration de séance' du point, le groupe ne sera pas mis en copie et ce, quel que soit le résultat de l'expression.  Exemple d'expression : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
+msgstr "Spécifiez une expression TAL qui retourne une liste de suffixes de groupes Plone (par exemple ['creators', 'reviewers', ]) qui devront être automatiquement sélectionnés comme groupes en copie d'un point.  L'expression est évaluée à chaque modification du point (création et éditions suivantes).  L'élément 'item' (point) est utilisable dans l'expression. ATTENTION: si le groupe Plone lié au suffixe n'est pas défini dans la liste des 'Groupes qui pourront être mis en copie' sur la 'Configuration de séance' du point, le groupe ne sera pas mis en copie et ce, quel que soit le résultat de l'expression.  Exemple d'expression : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
 
 #. Default: "As recurring item"
 msgid "as_recurring_item"
@@ -3850,3 +3850,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+
