@@ -168,67 +168,87 @@ msgstr "Archivieren"
 msgid "archived"
 msgstr "Archiviert"
 
-#. Default: "Correct"
+#. Default: "Back to 'Accepted'"
+#, fuzzy
 msgid "backToAccepted"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Closed'"
+#, fuzzy
 msgid "backToClosed"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Confirmed'"
+#, fuzzy
 msgid "backToConfirmed"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Created'"
+#, fuzzy
 msgid "backToCreated"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Decided'"
+#, fuzzy
 msgid "backToDecided"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Decisions published'"
+msgid "backToDecisionsPublished"
+msgstr ""
+
+#. Default: "Back to 'Delayed'"
+#, fuzzy
 msgid "backToDelayed"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Frozen'"
+#, fuzzy
 msgid "backToFrozen"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Back to 'created'"
+#, fuzzy
 msgid "backToItemCreated"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Frozen'"
+#, fuzzy
 msgid "backToItemFrozen"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Back to 'published'"
+#, fuzzy
 msgid "backToItemPublished"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Presented'"
+#, fuzzy
 msgid "backToPresented"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Pre-validated'"
+#, fuzzy
 msgid "backToPrevalidated"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Proposed'"
+#, fuzzy
 msgid "backToProposed"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Published'"
+#, fuzzy
 msgid "backToPublished"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Refused'"
+#, fuzzy
 msgid "backToRefused"
 msgstr "Korrigieren"
 
-#. Default: "Correct"
+#. Default: "Remove from meeting"
+#, fuzzy
 msgid "backToValidated"
 msgstr "Korrigieren"
 
@@ -344,6 +364,10 @@ msgstr "Entscheiden"
 #. Default: "Decided"
 msgid "decided"
 msgstr "Entschieden"
+
+#. Default: "Decisions published"
+msgid "decisions_published"
+msgstr ""
 
 # Meeting config schemata
 #. Default: "General"
@@ -501,6 +525,10 @@ msgstr "Vorgeschlagen"
 #. Default: "Publish"
 msgid "publish"
 msgstr "Veröffentlichen"
+
+#. Default: "Publish decisions"
+msgid "publish_decisions"
+msgstr ""
 
 #. Default: "Published"
 msgid "published"

@@ -170,67 +170,87 @@ msgstr "Archiveer"
 msgid "archived"
 msgstr "Gearchiveerd"
 
-#. Default: "Correct"
+#. Default: "Back to 'Accepted'"
+#, fuzzy
 msgid "backToAccepted"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Closed'"
+#, fuzzy
 msgid "backToClosed"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Confirmed'"
+#, fuzzy
 msgid "backToConfirmed"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Created'"
+#, fuzzy
 msgid "backToCreated"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Decided'"
+#, fuzzy
 msgid "backToDecided"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Decisions published'"
+msgid "backToDecisionsPublished"
+msgstr ""
+
+#. Default: "Back to 'Delayed'"
+#, fuzzy
 msgid "backToDelayed"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Frozen'"
+#, fuzzy
 msgid "backToFrozen"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Back to 'created'"
+#, fuzzy
 msgid "backToItemCreated"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Frozen'"
+#, fuzzy
 msgid "backToItemFrozen"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Back to 'published'"
+#, fuzzy
 msgid "backToItemPublished"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Presented'"
+#, fuzzy
 msgid "backToPresented"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Pre-validated'"
+#, fuzzy
 msgid "backToPrevalidated"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Proposed'"
+#, fuzzy
 msgid "backToProposed"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Published'"
+#, fuzzy
 msgid "backToPublished"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Back to 'Refused'"
+#, fuzzy
 msgid "backToRefused"
 msgstr "Verbeteren"
 
-#. Default: "Correct"
+#. Default: "Remove from meeting"
+#, fuzzy
 msgid "backToValidated"
 msgstr "Verbeteren"
 
@@ -346,6 +366,10 @@ msgstr "Beslissen"
 #. Default: "Decided"
 msgid "decided"
 msgstr "Beslist"
+
+#. Default: "Decisions published"
+msgid "decisions_published"
+msgstr ""
 
 # Meeting config schemata
 #. Default: "General"
@@ -503,6 +527,10 @@ msgstr "Voorgesteld"
 #. Default: "Publish"
 msgid "publish"
 msgstr "Publiceren"
+
+#. Default: "Publish decisions"
+msgid "publish_decisions"
+msgstr ""
 
 #. Default: "Published"
 msgid "published"
