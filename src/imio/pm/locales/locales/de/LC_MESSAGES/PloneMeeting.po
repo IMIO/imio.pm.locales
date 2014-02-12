@@ -1602,7 +1602,7 @@ msgstr ""
 msgid "custom_adviser_no_delay_left_if_no_delay"
 msgstr ""
 
-#. Default: "There is a problem with a date in the 'Gives automatic advice for item created from' column, please check date encoded for group '${groupName}', the format is YYYY/MM/DD, like 2013/12/31."
+#. Default: "There is a problem with a date defined for group '${groupName}'.  If the date is in the 'Rule activated for item created until', it has to be a date in the future.  Moreover, respect following format YYYY/MM/DD, like 2013/12/31."
 msgid "custom_adviser_wrong_date_format"
 msgstr ""
 

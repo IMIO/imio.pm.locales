@@ -63,7 +63,7 @@ msgstr ""
 msgid "for_item_created_from_col_description"
 msgstr ""
 
-#. Default: "This configuration will be applied on item created until the defined date (defined date not included).  Please respect following format : YYYY/MM/DD (year 4 digits/month 2 digits/day 2 digits).  This date will avoid newer items created after to be affected, especially when updating every advices thru the 'Update all advices' action. This date will be only settable once, when set, this can not be changed anymore."
+#. Default: "This configuration will be applied on item created until the defined date (defined date must be in the future and will not be included).  Please respect following format : YYYY/MM/DD (year 4 digits/month 2 digits/day 2 digits).  This date will avoid newer items created after to be affected, especially when updating every advices thru the 'Update all advices' action. This date will be only settable once, when set, this can not be changed anymore."
 msgid "for_item_created_until_col_description"
 msgstr ""
 
