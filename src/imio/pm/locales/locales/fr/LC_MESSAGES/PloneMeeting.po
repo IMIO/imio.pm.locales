@@ -1122,7 +1122,7 @@ msgstr "Cet avis n'a pas encore été rendu."
 
 #. Default: "This advice is not viewable by the advisers in the current item state (${item_review_state})."
 msgid "This advice is not viewable by the advisers in the current item state (${item_review_state})."
-msgstr "Cet avis n'est pas visible par les donneurs d'avis dans l'état actuel du point (${item_review_state})."
+msgstr "Cet avis n'est pas visible par les émetteurs d'avis dans l'état actuel du point (${item_review_state})."
 
 #. Default: "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgid "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
@@ -1586,9 +1586,9 @@ msgstr "Il y a un problème avec les valeurs encodées dans les champs 'Délai p
 msgid "custom_adviser_no_delay_left_if_no_delay"
 msgstr "Il y a un problème avec la valeur encodée dans le champ 'Seuil d'alerte pour le délai' pour le groupe '${groupName}', vous ne pouvez encoder une valeur dans ce champ que si une valeur a été encodée dans le champ 'Délai pour rendre l'avis'.  Laissez ce champ vide si vous ne souhaitez pas l'utiliser."
 
-#. Default: "There is a problem with a date in the 'Gives automatic advice for item created from' column, please check date encoded for group '${groupName}', the format is YYYY/MM/DD, like 2013/12/31."
+#. Default: "There is a problem with a date defined for group '${groupName}'.  If the date is in the 'Rule activated for item created until', it has to be a date in the future.  Moreover, respect following format YYYY/MM/DD, like 2013/12/31."
 msgid "custom_adviser_wrong_date_format"
-msgstr "Il y a un problème avec une des dates encodées dans la colonne 'L'avis sera automatiquement demandé sur les points créés à partir du', vérifiez la date encodée pour le groupe '${groupName}', le format doit être AAAA/MM/DD, par exemple 2013/12/31."
+msgstr "Il y a un problème avec une des dates encodées pour le groupe '${groupName}'.  Si la date est encodée dans la colonne 'Configuration active pour les points créés jusqu'au', la date doit être obligatoirement dans le futur.  Le format des dates doit être AAAA/MM/DD, par exemple 2013/12/31."
 
 #. Default: "There is a problem with a delay in the 'Delay' or 'Delay left alert' column, please check encoded value for group '${groupName}', you can only enter a single digit or leave field empty if not relevant."
 msgid "custom_adviser_wrong_delay_format"
