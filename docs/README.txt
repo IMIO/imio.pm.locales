@@ -1,4 +1,10 @@
-README.txt
-==========
+Introduction
+============
 
-These are the locales for Products.PloneMeeting
+This package contains the translation files for PloneMeeting and the following
+extra add-ons:
+
+- DataGridField
+- imio.actionspanel
+
+This version is compatible with PloneMeeting version 3.2.1.
