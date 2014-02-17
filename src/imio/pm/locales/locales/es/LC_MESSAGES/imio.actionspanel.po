@@ -1,7 +1,6 @@
 # translation of PloneMeeting-es.po to Spanish
-# Leonardo Caballero <leonardocaballero@gmail.com>, 2009, 2010, 2011.
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2009 - 2014.
 # Spanish translation team <plone-conosur@lists.plone.org>
-# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: PloneMeeting 1.6\n"
@@ -14,13 +13,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
 "Language-Code: es\n"
 "Language-Name: Spanish\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: imio.actionspanel\n"
-"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-"
-"gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
 
 #. Default: "The item has been accepted."
 msgid "accept_done_descr"
@@ -28,7 +25,7 @@ msgstr "La decisión enlazada con este tema han sido aceptada."
 
 #. Default: "The element has been activated."
 msgid "activate_done_descr"
-msgstr "El elemento ha siso activado."
+msgstr "El elemento ha sido activado."
 
 #. Default: "The definitive decisions have been archived for this meeting."
 msgid "archive_done_descr"
