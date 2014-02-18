@@ -1452,6 +1452,14 @@ msgstr ""
 msgid "can_not_unselect_already_given_advice"
 msgstr ""
 
+#. Default: "You can not change this value because this meeting file type is already used by an advice annex added on item, like for example: ${item_url} !"
+msgid "cannot_change_inuse_advice_relatedto"
+msgstr ""
+
+#. Default: "You can not change this value because this meeting file type is already used by an annex added on item, like for example: ${item_url} !"
+msgid "cannot_change_inuse_item_relatedto"
+msgstr ""
+
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
 msgstr ""
@@ -2387,6 +2395,10 @@ msgstr ""
 
 #. Default: "This person has left the meeting while discussing this item"
 msgid "left_now"
+msgstr ""
+
+#. Default: "Object"
+msgid "listingheader_item_title"
 msgstr ""
 
 #. Default: "Last modification"

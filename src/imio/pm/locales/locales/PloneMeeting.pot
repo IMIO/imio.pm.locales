@@ -2820,6 +2820,14 @@ msgstr ""
 msgid "cannot_paste_item_from_other_mc"
 msgstr ""
 
+#. Default: "You can not change this value because this meeting file type is already used by an annex added on item, like for example: ${item_url} !"
+msgid "cannot_change_inuse_item_relatedto"
+msgstr ""
+
+#. Default: "You can not change this value because this meeting file type is already used by an advice annex added on item, like for example: ${item_url} !"
+msgid "cannot_change_inuse_advice_relatedto"
+msgstr ""
+
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
 msgstr ""
@@ -3588,6 +3596,10 @@ msgstr ""
 
 #. Default: "Title"
 msgid "listingheader_title"
+msgstr ""
+
+#. Default: "Object"
+msgid "listingheader_item_title"
 msgstr ""
 
 #. Default: "PloneMeeting 'folder' view"

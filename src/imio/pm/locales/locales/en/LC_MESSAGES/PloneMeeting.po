@@ -1138,7 +1138,7 @@ msgstr "This optional advice was asked by the item creators (shown by his title 
 
 #. Default: "This optional advice was given of initiative by a power adviser"
 msgid "This optional advice was given of initiative by a power adviser"
-msgstr ""
+msgstr "This optional advice was given of initiative by a power adviser"
 
 #. Default: "This portlet shows controls of PloneMeeting."
 msgid "This portlet shows controls of PloneMeeting."
@@ -1445,6 +1445,14 @@ msgstr "You can not select several values for the same group.  Please select a s
 #. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the '${removedAdviser}' value."
 msgid "can_not_unselect_already_given_advice"
 msgstr "You can not unselect an optional adviser that already gave his advice.  Please check the '${removedAdviser}' value."
+
+#. Default: "You can not change this value because this meeting file type is already used by an advice annex added on item, like for example: ${item_url} !"
+msgid "cannot_change_inuse_advice_relatedto"
+msgstr "You can not change this value because this meeting file type is already used by an advice annex added on item, like for example: ${item_url} !"
+
+#. Default: "You can not change this value because this meeting file type is already used by an annex added on item, like for example: ${item_url} !"
+msgid "cannot_change_inuse_item_relatedto"
+msgstr "You can not change this value because this meeting file type is already used by an annex added on item, like for example: ${item_url} !"
 
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
@@ -2380,6 +2388,10 @@ msgstr "This person has left the meeting after item number:"
 #. Default: "This person has left the meeting while discussing this item"
 msgid "left_now"
 msgstr "This person has left the meeting while discussing this item"
+
+#. Default: "Object"
+msgid "listingheader_item_title"
+msgstr "Object"
 
 #. Default: "Last modification"
 msgid "listingheader_modified"
@@ -3861,4 +3873,3 @@ msgstr "If you check this box, the automatically incremented meeting number will
 #. Default: "Meeting configuration"
 msgid "hs_configuration"
 msgstr "Meeting configuration"
-

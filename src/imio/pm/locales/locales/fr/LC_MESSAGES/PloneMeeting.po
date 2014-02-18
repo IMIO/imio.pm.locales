@@ -1446,6 +1446,14 @@ msgstr "Vous ne pouvez pas sélectionner plusieurs avis optionnels pour le même
 msgid "can_not_unselect_already_given_advice"
 msgstr "Vous ne pouvez pas désélectionner un avis optionnel qui a déjà été rendu.  Vérifiez l'avis '${removedAdviser}'."
 
+#. Default: "You can not change this value because this meeting file type is already used by an advice annex added on item, like for example: ${item_url} !"
+msgid "cannot_change_inuse_advice_relatedto"
+msgstr "Vous ne pouvez pas changer cette valeur car ce type d'annexe est déjà utilisé par des annexes ajoutées à un avis, comme par exemple: ${item_url} !"
+
+#. Default: "You can not change this value because this meeting file type is already used by an annex added on item, like for example: ${item_url} !"
+msgid "cannot_change_inuse_item_relatedto"
+msgstr "Vous ne pouvez pas changer cette valeur car ce type d'annexe est déjà utilisé par des annexes ajoutées à un point, comme par exemple: ${item_url} !"
+
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
 msgstr "Vous ne pouvez pas coller un point provenant d'un autre type de séance !"
@@ -2380,6 +2388,10 @@ msgstr "Cette personne a quitté la séance après le point numéro:"
 msgid "left_now"
 msgstr "Cette personne a quitté la séance pendant la discussion sur ce point."
 
+#. Default: "Object"
+msgid "listingheader_item_title"
+msgstr "Objet"
+
 #. Default: "Last modification"
 msgid "listingheader_modified"
 msgstr "Dernière modification"
@@ -2390,7 +2402,7 @@ msgstr "Taille"
 
 #. Default: "Title"
 msgid "listingheader_title"
-msgstr "Objet"
+msgstr "Titre"
 
 #. Default: "Manage content in a second language"
 msgid "ma_second_language"
