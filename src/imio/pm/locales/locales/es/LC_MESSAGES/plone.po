@@ -8,7 +8,6 @@ msgstr ""
 "PO-Revision-Date: 2014-02-16 17:41-0430\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: ES <LL@li.org>\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,7 +16,16 @@ msgstr ""
 "Language-Name: Spanish\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: plone\n"
+"Language: es\n"
 "X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+#. Default: "Advice Given"
+msgid "Advice Given"
+msgstr "Consejo dado"
+
+#. Default: "Advice under edit"
+msgid "Advice under edit"
+msgstr "Bajo edición de Consejo"
 
 #. Default: "Annex correctly added."
 msgid "Annex correctly added."
@@ -31,6 +39,10 @@ msgstr "Anexos"
 #. Default: "Annexes (to the decision)"
 msgid "AnnexesDecision"
 msgstr "Anexos (a la decisión)"
+
+#. Default: "Back to 'Advice Under Edit'"
+msgid "Back to 'Advice Under Edit'"
+msgstr "Volver a 'Bajo edición de Consejo'"
 
 #. Default: "CopyItem"
 msgid "CopyItem"
@@ -57,6 +69,10 @@ msgstr "Duplicar y mantener enlace"
 msgid "ExternalApplication"
 msgstr "Aplicación externa"
 
+#. Default: "Give Advice"
+msgid "Give Advice"
+msgstr "Dar Consejo"
+
 # Plone syntax errors
 #. Default: "Login failed"
 msgid "Login failed"
@@ -65,6 +81,26 @@ msgstr "Inicio de sesión fallido"
 #. Default: "Meeting"
 msgid "Meeting"
 msgstr "Reunión"
+
+#. Default: "Meeting Advice Workflow"
+msgid "Meeting Advice Workflow"
+msgstr "Flujo de trabajo para Consejos de Reunión"
+
+#. Default: "Meeting Item Workflow"
+msgid "Meeting Item Workflow"
+msgstr "Flujo de trabajo para Temas de Reunión"
+
+#. Default: "Meeting Workflow"
+msgid "Meeting Workflow"
+msgstr "Flujo de trabajo de Reunión"
+
+#. Default: "Meeting Archive Observer"
+msgid "MeetingArchiveObserver"
+msgstr "Observador del archivo de Reunión"
+
+#. Default: "Meeting Budget Impact Editor"
+msgid "MeetingBudgetImpactEditor"
+msgstr "Editor de impacto del presupuestario de Reunión"
 
 #. Default: "Category"
 msgid "MeetingCategory"
@@ -99,6 +135,26 @@ msgstr "Tema de reunión PloneGov"
 msgid "MeetingItemPma"
 msgstr "Tema de reunión PloneMeenting"
 
+#. Default: "Meeting Manager"
+msgid "MeetingManager"
+msgstr "Administrador de Reunión"
+
+#. Default: "Meeting Member"
+msgid "MeetingMember"
+msgstr "Miembro de Reunión"
+
+#. Default: "Meeting Observer Global"
+msgid "MeetingObserverGlobal"
+msgstr "Observador Global de Reunión"
+
+#. Default: "Meeting Observer Local"
+msgid "MeetingObserverLocal"
+msgstr "Observador Local de Reunión"
+
+#. Default: "Meeting Observer Unpublished"
+msgid "MeetingObserverUnpublished"
+msgstr "Observador inédito de Reunión"
+
 #. Default: "PloneGov assembly"
 msgid "MeetingPga"
 msgstr "Asamblea PloneGov"
@@ -107,6 +163,10 @@ msgstr "Asamblea PloneGov"
 msgid "MeetingPma"
 msgstr "Asamblea PloneMeenting"
 
+#. Default: "Meeting Reviewer"
+msgid "MeetingReviewer"
+msgstr "Revisor de Reunión"
+
 #. Default: "User characteristics"
 msgid "MeetingUser"
 msgstr "Caracteristicas de Usuario"
@@ -114,6 +174,14 @@ msgstr "Caracteristicas de Usuario"
 #. Default: "No meeting to delete."
 msgid "No meeting to delete."
 msgstr "Si reunión a eliminar."
+
+#. Default: "PloneMeeting Activity Workflow"
+msgid "PloneMeeting Activity Workflow"
+msgstr "Flujo de trabajo Actividad de PloneMeeting"
+
+#. Default: "PloneMeeting One state Workflow"
+msgid "PloneMeeting One state Workflow"
+msgstr "Flujo de trabajo Un estado de PloneMeeting"
 
 #. Default: "PloneMeeting 'folder' view"
 msgid "PloneMeetingFolderView"
@@ -127,6 +195,22 @@ msgstr "Plantilla de documento"
 #. Default: "state"
 msgid "State"
 msgstr "Estado"
+
+#. Default: "This allows to active the tool PloneMeeting."
+msgid "This allows to active the tool PloneMeeting."
+msgstr "Este flujo de trabajo le permite activar la herramienta PloneMeeting."
+
+#. Default: "Workflow for Meeting."
+msgid "Workflow for Meeting."
+msgstr "Flujo de trabajo para las Reuniones de una Asamblea."
+
+#. Default: "Workflow for advices into a meeting."
+msgid "Workflow for advices into a meeting."
+msgstr "Flujo de trabajo para Consejos dentro de una Reunión."
+
+#. Default: "Workflow for every meeting items of tool PloneMeeting."
+msgid "Workflow for every meeting items of tool PloneMeeting."
+msgstr "Flujo de trabajo para cada de Temas de Reunión de la herramienta PloneMeeting."
 
 #. Default: "You can not copy this element : '${title}' is not an item."
 msgid "You can not copy this element : '${title}' is not an item."
@@ -157,6 +241,14 @@ msgstr "Activar"
 msgid "active"
 msgstr "Activo"
 
+#. Default: "Advice Given"
+msgid "advice_given"
+msgstr "Consejo dado"
+
+#. Default: "Advice under edit"
+msgid "advice_under_edit"
+msgstr "Bajo edición de Consejo"
+
 #. Default: "Advices and access"
 msgid "advices"
 msgstr "Consejos y acceso"
@@ -172,6 +264,10 @@ msgstr "Archivado"
 #. Default: "Back to 'Accepted'"
 msgid "backToAccepted"
 msgstr "Volver a 'Aceptado'"
+
+#. Default: "Back to 'Advice Under Edit'"
+msgid "backToAdviceUnderEdit"
+msgstr "Volver a 'Bajo edición de Consejo'"
 
 #. Default: "Back to 'Closed'"
 msgid "backToClosed"
@@ -233,41 +329,13 @@ msgstr "Volver a 'Publicado'"
 msgid "backToRefused"
 msgstr "Volver a 'Rechazado'"
 
-#. Default: "Advice Given"
-msgid "advice_given"
-msgstr "Consejo dado"
-
-#. Default: "Advice under edit"
-msgid "advice_under_edit"
-msgstr "Bajo edición de Consejo"
-
-#. Default: "Back to 'Advice Under Edit'"
-msgid "backToAdviceUnderEdit"
-msgstr "Volver a 'Bajo edición de Consejo'"
-
-#. Default: "Give Advice"
-msgid "giveAdvice"
-msgstr "Dar Consejo"
-
-#. Default: "Advice Given"
-msgid "Advice Given"
-msgstr "Consejo dado"
-
-#. Default: "Advice under edit"
-msgid "Advice under edit"
-msgstr "Bajo edición de Consejo"
-
-#. Default: "Back to 'Advice Under Edit'"
-msgid "Back to 'Advice Under Edit'"
-msgstr "Volver a 'Bajo edición de Consejo'"
-
-#. Default: "Give Advice"
-msgid "Give Advice"
-msgstr "Dar Consejo"
-
 #. Default: "Remove from meeting"
 msgid "backToValidated"
 msgstr "Remover desde la reunión"
+
+#. Default: "Base View"
+msgid "base_view"
+msgstr "Vista Base"
 
 #. Default: "Forgot password?"
 msgid "box_forgot_password_option"
@@ -275,50 +343,35 @@ msgstr "¿Olvido la contraseña?"
 
 #. Default: "You can not delete a container containing one or several meetings!"
 msgid "can_not_delete_meeting_container"
-msgstr ""
-"¡Usted no puede eliminar un contenedor que contiene uno a más reuniones!"
+msgstr "¡Usted no puede eliminar un contenedor que contiene uno a más reuniones!"
 
 #. Default: "This category can not be deleted, at least one item is linked to this category!"
 msgid "can_not_delete_meetingcategory_meetingitem"
-msgstr ""
-"¡Esta categoría no puede ser eliminada, al menos un tema esta vinculado a "
-"esta categoría!"
+msgstr "¡Esta categoría no puede ser eliminada, al menos un tema esta vinculado a esta categoría!"
 
 #. Default: "This configuration can not be deleted, at least one meeting linked to this configuration exists!"
 msgid "can_not_delete_meetingconfig_meeting"
-msgstr ""
-"¡Esta configuración no puede ser eliminada, al menos existe una reunión "
-"enlazada a esta configuración actual!"
+msgstr "¡Esta configuración no puede ser eliminada, al menos existe una reunión enlazada a esta configuración actual!"
 
 #. Default: "This configuration can not be deleted, at least one member folder designed to store PloneMeeting objects is not empty!"
 msgid "can_not_delete_meetingconfig_meetingfolder"
-msgstr ""
-"¡Esta configuración no puede ser eliminada, al menos existe una carpeta de "
-"miembro diseñada para almacenar objetos PloneMeeting no esta vacía!"
+msgstr "¡Esta configuración no puede ser eliminada, al menos existe una carpeta de miembro diseñada para almacenar objetos PloneMeeting no esta vacía!"
 
 #. Default: "This configuration can not be deleted, at least one item linked to this configuration exists!"
 msgid "can_not_delete_meetingconfig_meetingitem"
-msgstr ""
-"¡Esta configuración no puede ser eliminado, al menos existe un tema enlazado "
-"a esta configuración!"
+msgstr "¡Esta configuración no puede ser eliminado, al menos existe un tema enlazado a esta configuración!"
 
 #. Default: "This file type can not be deleted, at least one annex is using it!"
 msgid "can_not_delete_meetingfiletype_meetingfile"
-msgstr ""
-"¡Este tipo de archivo no puede ser eliminado, al menos un anexo esta siendo "
-"usado!"
+msgstr "¡Este tipo de archivo no puede ser eliminado, al menos un anexo esta siendo usado!"
 
 #. Default: "This group can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}"
 msgid "can_not_delete_meetinggroup_config_meetingitem"
-msgstr ""
-"Este grupo no puede ser eliminado, esta vinculado a un tema existente, al "
-"menos en la configuración, por favor, verifique aquí ${url}"
+msgstr "Este grupo no puede ser eliminado, esta vinculado a un tema existente, al menos en la configuración, por favor, verifique aquí ${url}"
 
 #. Default: "This group can not be deleted, it is referenced in a meeting configuration"
 msgid "can_not_delete_meetinggroup_meetingconfig"
-msgstr ""
-"Este grupo no puede eliminarse, este es referenciado en una configuración de "
-"reunión"
+msgstr "Este grupo no puede eliminarse, este es referenciado en una configuración de reunión"
 
 #. Default: "This group can not be deleted, it is linked to one existing item at least"
 msgid "can_not_delete_meetinggroup_meetingitem"
@@ -338,8 +391,7 @@ msgstr "¡Usted no puede eliminar este elemento!"
 
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
-msgstr ""
-"¡Usted no puede pegar un tema que viene de otra configuración de reunión!"
+msgstr "¡Usted no puede pegar un tema que viene de otra configuración de reunión!"
 
 #. Default: "Close"
 msgid "close"
@@ -421,9 +473,7 @@ msgstr "Eliminar, temas incluidos"
 
 #. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
 msgid "description_copyright"
-msgstr ""
-"Esta aplicación es mantenida por <a href='http://www.imio.be'>IMIO</a>, "
-"miembro de la comunidad <a href='http://www.plonegov.org'>PloneGov</a>."
+msgstr "Esta aplicación es mantenida por <a href='http://www.imio.be'>IMIO</a>, miembro de la comunidad <a href='http://www.plonegov.org'>PloneGov</a>."
 
 # Meeting-related vocabulary
 #. Default: ""
@@ -449,6 +499,10 @@ msgstr "Congelar"
 #. Default: "Published (frozen)"
 msgid "frozen"
 msgstr "Publicado (congelado)"
+
+#. Default: "Give Advice"
+msgid "giveAdvice"
+msgstr "Dar Consejo"
 
 #. Default: "User interface"
 msgid "gui"
@@ -519,6 +573,10 @@ msgstr "Tardío"
 #. Default: "Emails"
 msgid "mail"
 msgstr "Correos electrónicos"
+
+#. Default: "Meeting folder redirect View"
+msgid "meetingfolder_redirect_view"
+msgstr "Vista que redirecciona a carpeta Reunión"
 
 #. Default: "Metadata"
 msgid "metadata"
@@ -596,6 +654,10 @@ msgstr "Volver a grupo proponente para correcciones"
 msgid "tasks"
 msgstr "Tareas"
 
+#. Default: "Tool PloneMeeting View"
+msgid "toolplonemeeting_view"
+msgstr "Vista de herramienta PloneMeeting"
+
 # Workflow transitions
 #. Default: "Transfer"
 msgid "transfer"
@@ -621,88 +683,3 @@ msgstr "Votos"
 msgid "workflow"
 msgstr "Flujo de trabajos"
 
-#. Default: "Meeting Archive Observer"
-msgid "MeetingArchiveObserver"
-msgstr "Observador del archivo de Reunión"
-
-#. Default: "Meeting Budget Impact Editor"
-msgid "MeetingBudgetImpactEditor"
-msgstr "Editor de impacto del presupuestario de Reunión"
-
-#. Default: "Meeting Manager"
-msgid "MeetingManager"
-msgstr "Administrador de Reunión"
-
-#. Default: "Meeting Member"
-msgid "MeetingMember"
-msgstr "Miembro de Reunión"
-
-#. Default: "Meeting Observer Global"
-msgid "MeetingObserverGlobal"
-msgstr "Observador Global de Reunión"
-
-#. Default: "Meeting Observer Local"
-msgid "MeetingObserverLocal"
-msgstr "Observador Local de Reunión"
-
-#. Default: "Meeting Observer Unpublished"
-msgid "MeetingObserverUnpublished"
-msgstr "Observador inédito de Reunión"
-
-#. Default: "Meeting Reviewer"
-msgid "MeetingReviewer"
-msgstr "Revisor de Reunión"
-
-#. Default: "Base View"
-msgid "base_view"
-msgstr "Vista Base"
-
-#. Default: "Meeting folder redirect View"
-msgid "meetingfolder_redirect_view"
-msgstr "Vista que redirecciona a carpeta Reunión"
-
-#. Default: "Tool PloneMeeting View"
-msgid "toolplonemeeting_view"
-msgstr "Vista de herramienta PloneMeeting"
-
-#. Default: "Meeting Workflow"
-msgid "Meeting Workflow"
-msgstr "Flujo de trabajo de Reunión"
-
-#. Default: "Workflow for Meeting."
-msgid "Workflow for Meeting."
-msgstr "Flujo de trabajo para las Reuniones de una Asamblea."
-
-#. Default: "PloneMeeting Activity Workflow"
-msgid "PloneMeeting Activity Workflow"
-msgstr "Flujo de trabajo Actividad de PloneMeeting"
-
-#. Default: "This allows to active the tool PloneMeeting."
-msgid "This allows to active the tool PloneMeeting."
-msgstr "Este flujo de trabajo le permite activar la herramienta PloneMeeting."
-
-#. Default: "Meeting Item Workflow"
-msgid "Meeting Item Workflow"
-msgstr "Flujo de trabajo para Temas de Reunión"
-
-#. Default: "Workflow for every meeting items of tool PloneMeeting."
-msgid "Workflow for every meeting items of tool PloneMeeting."
-msgstr ""
-"Flujo de trabajo para cada de Temas de Reunión de la herramienta "
-"PloneMeeting."
-
-#. Default: "Meeting Advice Workflow"
-msgid "Meeting Advice Workflow"
-msgstr "Flujo de trabajo para Consejos de Reunión"
-
-#. Default: "Workflow for advices into a meeting."
-msgid "Workflow for advices into a meeting."
-msgstr "Flujo de trabajo para Consejos dentro de una Reunión."
-
-#. Default: "PloneMeeting One state Workflow"
-msgid "PloneMeeting One state Workflow"
-msgstr "Flujo de trabajo Un estado de PloneMeeting"
-
-#. Default: "This allows to active the tool PloneMeeting."
-msgid "This allows to active the tool PloneMeeting."
-msgstr "Este flujo de trabajo le permite activar la herramienta PloneMeeting."

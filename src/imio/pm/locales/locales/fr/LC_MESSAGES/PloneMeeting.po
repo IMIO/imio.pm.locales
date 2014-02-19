@@ -215,6 +215,11 @@ msgstr "Coller"
 msgid "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgstr "Spécifiez dans la configuration de PloneMeeting une 'Configuration de séance' par défaut parmi les 'Configurations de séance' actives afin que l'utilisateur soit automatiquement redirigé vers celle-ci une fois connecté."
 
+#. Default: "PloneMeeting tool policy"
+#: ./setuphandlers.py:182
+msgid "PloneMeeting tool policy"
+msgstr ""
+
 #. Default: "PloneMeeting 'folder' view"
 msgid "PloneMeetingFolderView"
 msgstr "Vue PloneMeeting de type 'dossier'"
@@ -3867,11 +3872,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
 
-#. Default: "Meeting configuration"
-msgid "hs_configuration"
-msgstr ""
-
-#. Default: "PloneMeeting tool policy"
-#: ./setuphandlers.py:182
-msgid "PloneMeeting tool policy"
-msgstr ""

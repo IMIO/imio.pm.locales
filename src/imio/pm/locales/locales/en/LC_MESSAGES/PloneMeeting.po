@@ -215,6 +215,11 @@ msgstr "Paste"
 msgid "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgstr "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 
+#. Default: "PloneMeeting tool policy"
+#: ./setuphandlers.py:182
+msgid "PloneMeeting tool policy"
+msgstr ""
+
 #. Default: "PloneMeeting 'folder' view"
 msgid "PloneMeetingFolderView"
 msgstr "PloneMeeting 'folder' view"
@@ -3869,13 +3874,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-
-#. Default: "Meeting configuration"
-msgid "hs_configuration"
-msgstr "Meeting configuration"
-
-#. Default: "PloneMeeting tool policy"
-#: ./setuphandlers.py:182
-msgid "PloneMeeting tool policy"
-msgstr ""
 
