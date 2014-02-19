@@ -218,7 +218,7 @@ msgstr "Please specify a default meeting config upon active existing meeting con
 #. Default: "PloneMeeting tool policy"
 #: ./setuphandlers.py:182
 msgid "PloneMeeting tool policy"
-msgstr ""
+msgstr "PloneMeeting tool policy"
 
 #. Default: "PloneMeeting 'folder' view"
 msgid "PloneMeetingFolderView"
@@ -1125,9 +1125,9 @@ msgstr "This advice has not been given yet, it can still be given until the ${ad
 msgid "This advice has not been given yet."
 msgstr "This advice has not been given yet."
 
-#. Default: "This advice is not viewable by the advisers in the current item state (${item_review_state})."
-msgid "This advice is not viewable by the advisers in the current item state (${item_review_state})."
-msgstr "This advice is not viewable by the advisers in the current item state (${item_review_state})."
+#. Default: "This advice is not viewable by the advisers of the group in the current item state (${item_review_state})."
+msgid "This advice is not viewable by the advisers of the group in the current item state (${item_review_state})."
+msgstr "This advice is not viewable by the advisers of the group in the current item state (${item_review_state})."
 
 #. Default: "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgid "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
@@ -1604,9 +1604,8 @@ msgid "custom_adviser_no_delay_left_if_no_delay"
 msgstr "There is a problem with a delay in the 'Delay left alert' column, please check encoded value for group '${groupName}', you can not enter a value in this column if no value is defined in the 'Delay' column.  Leave field empty if not relevant."
 
 #. Default: "There is a problem with a date defined for group '${groupName}'.  If the date is in the 'Rule activated for item created until', it has to be a date in the future.  Moreover, respect following format YYYY/MM/DD, like 2013/12/31."
-#, fuzzy
 msgid "custom_adviser_wrong_date_format"
-msgstr "There is a problem with a date in the 'Gives automatic advice for item created from' column, please check date encoded for group '${groupName}', the format is YYYY/MM/DD, like 2013/12/31."
+msgstr "There is a problem with a date defined for group '${groupName}'.  If the date is in the 'Rule activated for item created until', it has to be a date in the future.  Moreover, respect following format YYYY/MM/DD, like 2013/12/31."
 
 #. Default: "There is a problem with a delay in the 'Delay' or 'Delay left alert' column, please check encoded value for group '${groupName}', you can only enter a single digit or leave field empty if not relevant."
 msgid "custom_adviser_wrong_delay_format"
@@ -3874,4 +3873,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-
