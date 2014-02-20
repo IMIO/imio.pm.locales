@@ -1110,6 +1110,14 @@ msgstr "Estado"
 msgid "The field here above is not used, check the 'users' tab."
 msgstr ""
 
+#. Default: "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
+msgid "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
+msgstr ""
+
+#. Default: "The item is viewable by the advisers of this group but the advice has not been given yet."
+msgid "The item is viewable by the advisers of this group but the advice has not been given yet."
+msgstr ""
+
 #. Default: "There was an error during annex conversion, please contact system administrator."
 msgid "There was an error during annex conversion, please contact system administrator."
 msgstr ""
@@ -1122,16 +1130,8 @@ msgstr ""
 msgid "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
 msgstr ""
 
-#. Default: "This advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
-msgid "This advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
-msgstr ""
-
-#. Default: "This advice has not been given yet."
-msgid "This advice has not been given yet."
-msgstr ""
-
-#. Default: "This advice is not viewable by the advisers of the group in the current item state (${item_review_state})."
-msgid "This advice is not viewable by the advisers of the group in the current item state (${item_review_state})."
+#. Default: "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
+msgid "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
 msgstr ""
 
 #. Default: "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
@@ -2055,6 +2055,10 @@ msgstr "Demorado"
 #. Default: "Late"
 msgid "icon_help_late"
 msgstr "Tardío"
+
+#. Default: "Pre-validated"
+msgid "icon_help_prevalidated"
+msgstr ""
 
 #. Default: "The validation deadline for meeting freezing has not been respected"
 msgid "icon_help_publish_deadline_ko"
