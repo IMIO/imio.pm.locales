@@ -989,6 +989,10 @@ msgstr "To print ?"
 msgid "PloneMeeting_label_transitionReinitializingDelays"
 msgstr "Transition that will reinitialize advice delays"
 
+#. Default: "Transitions for presenting an item"
+msgid "PloneMeeting_label_transitionsForPresentingAnItem"
+msgstr ""
+
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
 msgstr "Transitions to confirm"
@@ -1559,6 +1563,14 @@ msgstr "There is a problem related to items numbering. Either you've added or de
 msgid "corruptedTitle"
 msgstr "The title of an item is wrong. Please check that each title begins with a number followed by a dot and the item title. Check also that you did not add style information to the number or the title (bold, underline, italic, etc)."
 
+#. Default: "The cloned item could not be presented to a meeting because no meeting accepting items is available."
+msgid "could_not_present_item_no_meeting_accepting_items"
+msgstr ""
+
+#. Default: "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please contact system administrator."
+msgid "could_not_trigger_transition_for_cloned_item"
+msgstr ""
+
 #. Default: "This item has been created from a delayed item."
 msgid "create_from_predecessor_comments"
 msgstr "This item has been created from a delayed item."
@@ -1865,6 +1877,10 @@ msgstr "Please choose a file by clicking on the 'Browse' button."
 msgid "filter_by_a_key"
 msgstr "Filter by a keyword"
 
+#. Default: "Please respect order of transitions sequence to present an item, the first given transition is not a transition leaving the item workflow initial state."
+msgid "first_transition_must_leave_wf_initial_state"
+msgstr ""
+
 #. Default: "In the PloneMeeting folder of every member, a sub-folder is created for each meeting configuration. The name of this sub-folder is defined here."
 msgid "folder_title_descr"
 msgstr "In the PloneMeeting folder of every member, a sub-folder is created for each meeting configuration. The name of this sub-folder is defined here."
@@ -1916,6 +1932,10 @@ msgstr "M"
 #. Default: "Mister"
 msgid "gender_m_extended"
 msgstr "Mister"
+
+#. Default: "Please respect order of transitions sequence to present an item, the given sequence of transitions is wrong."
+msgid "given_wf_path_does_not_lead_to_present"
+msgstr ""
 
 #. Default: "Back to the first elements"
 msgid "goto_first"
@@ -2376,6 +2396,10 @@ msgstr "Vietnamese"
 msgid "last_meeting_number_descr"
 msgstr "Within every meeting configuration, meetings are numbered sequentially."
 
+#. Default: "Please respect order of transitions sequence to present an item, the given sequence is not resulting in the 'presented' state."
+msgid "last_transition_must_result_in_presented_state"
+msgstr ""
+
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "lateItem_mail_body"
 msgstr "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
@@ -2396,6 +2420,10 @@ msgstr "This person has left the meeting after item number:"
 #. Default: "This person has left the meeting while discussing this item"
 msgid "left_now"
 msgstr "This person has left the meeting while discussing this item"
+
+#. Default: "--- Do nothing, let the item in the workflow initial state ---"
+msgid "let_item_in_initial_state"
+msgstr ""
 
 #. Default: "Object"
 msgid "listingheader_item_title"
@@ -3650,9 +3678,17 @@ msgstr "Topics defined here are used in the main portlet. We recommand not modif
 msgid "transfer"
 msgstr "Transfer"
 
+#. Default: "This transition was triggered automatically while this item was sent to this meeting config."
+msgid "transition_auto_triggered_item_sent_to_this_config"
+msgstr ""
+
 #. Default: "Select the transition triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
 msgid "transition_reinitializing_delays_descr"
 msgstr "Select the transition triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
+
+#. Default: "Set here the sequence of transitions in the right order to be triggered on an item for it to be presented to a meeting.  The first transition is the one that starts from the initial state and the last transition should be 'present'.  This is used in several functionnalities like recurring items or items sent to another meeting config that need to be presented automatically."
+msgid "transitions_for_presenting_an_item_descr"
+msgstr ""
 
 #. Default: "When the user will click on the corresponding icon or button for every transition you will select in this list, a confirmation popup will show up. In this popup, the user will also be able to enter an optional workflow comment."
 msgid "transitions_to_confirm_descr"
@@ -3877,3 +3913,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+
