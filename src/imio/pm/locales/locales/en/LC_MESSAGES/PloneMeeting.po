@@ -1125,9 +1125,9 @@ msgstr "There was an error during annex conversion, please contact system admini
 msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
 msgstr "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
 
-#. Default: "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
-msgid "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
-msgstr "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
+#. Default: "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
+msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
+msgstr ""
 
 #. Default: "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
 msgid "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."

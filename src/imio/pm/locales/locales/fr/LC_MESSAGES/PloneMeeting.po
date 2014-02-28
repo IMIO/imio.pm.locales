@@ -1125,9 +1125,9 @@ msgstr "Une erreur est survenue pendant la conversion de l'annexe.  Contactez vo
 msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
 msgstr "Une erreur est survenue en essayant de définir cette annexe comme 'à imprimer'.  Le message d'erreur est : ${error}.  Contactez votre administrateur système."
 
-#. Default: "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
-msgid "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
-msgstr "Cet avis ne peut plus être rendu, il pouvait l'être jusqu'au ${advice_delay_limit_date}."
+#. Default: "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
+msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
+msgstr "Cet avis ne peut plus être rendu, il a été demandé le ${advice_delay_started_on} et pouvait l'être jusqu'au ${advice_delay_limit_date}."
 
 #. Default: "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
 msgid "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
@@ -3911,3 +3911,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+

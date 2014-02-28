@@ -1129,9 +1129,9 @@ msgstr "Se produjo un error durante la conversión del anexo, por favor, póngas
 msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
 msgstr "Se produjo un error al intentar configurar este anexo como imprimible. El mensaje de error fue: ${error}. Por favor, póngase en contacto con el administrador del sistema."
 
-#. Default: "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
-msgid "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
-msgstr "Este consejo no se puede dar más, se le podría dar hasta que la ${advice_delay_limit_date}."
+#. Default: "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
+msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
+msgstr ""
 
 #. Default: "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
 msgid "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
