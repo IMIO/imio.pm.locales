@@ -11,10 +11,14 @@ setup(name='imio.pm.locales',
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
-        "Programming Language :: Python",
-        "Framework :: Plone",
+          "Environment :: Web Environment",
+          "Framework :: Plone",
+          "Framework :: Zope2",
+          "License :: OSI Approved :: GNU General Public License (GPL)",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
         ],
-      keywords='',
+      keywords='plone i18n locale translation PloneMeeting egov communesplone imio plonegov',
       author='',
       author_email='',
       url='http://svn.communesplone.org/svn/communesplone/imio.pm.locales/',

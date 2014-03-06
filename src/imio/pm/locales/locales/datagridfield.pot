@@ -71,3 +71,27 @@ msgstr ""
 #. Default: "If you want a specific label to be displayed on the label displayed in the 'Advice to give' list on the item edit form and on the '?' displayed next to the advice title in the user interface, you can enter it here.  The label will appear between brackets after the message 'Name of the group - delay of X days'."
 msgid "delay_label_col_description"
 msgstr ""
+
+#. Default: "Meeting config"
+msgid "Meeting config to clone to Meeting config"
+msgstr ""
+
+#. Default: "The meeting config the item of this meeting config will be sendable to."
+msgid "The meeting config the item of this meeting config will be sendable to."
+msgstr ""
+
+#. Default: "Meeting config to clone to Trigger workflow transitions until"
+msgid "Meeting config to clone to Trigger workflow transitions until"
+msgstr ""
+
+#. Default: "While sent, the new item is in the workflow initial state, some transitions can be automatically triggered for the new item, select until wich transition it will be done (selected transition will also be triggered).  This relies on the 'Transitions for presenting an item' you defined in the 'Workflows' tab of the meeting configuration the item will be sent to."
+msgid "While sent, the new item is in the workflow initial state, some transitions can be automatically triggered for the new item, select until wich transition it will be done (selected transition will also be triggered)."
+msgstr ""
+
+#. Default: "Date"
+msgid "Holiday date"
+msgstr ""
+
+#. Default: "Please use following format : YYYY/MM/DD.  Dates must be sorted (from older to newer)."
+msgid "holiday_date_col_descr"
+msgstr ""

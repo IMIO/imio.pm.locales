@@ -11,7 +11,6 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: PloneMeeting\n"
 
-
 #. Default: "Advice"
 msgid "MeetingAdvice"
 msgstr ""
@@ -1360,6 +1359,30 @@ msgstr ""
 msgid "search_item_states_descr"
 msgstr ""
 
+#. Default: "Holidays"
+msgid "PloneMeeting_label_holidays"
+msgstr ""
+
+#. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "holidays_descr"
+msgstr ""
+
+#. Default: "Working days"
+msgid "PloneMeeting_label_workingDays"
+msgstr ""
+
+#. Default: "This will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "working_days_descr"
+msgstr ""
+
+#. Default: "Delay can not end following days"
+msgid "PloneMeeting_label_delayUnavailableEndDays"
+msgstr ""
+
+#. Default: "Select here the days a computed delay can not ends with.  If a computed delay is ending on one of selected week day, the delay will be extend to next available day.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "delay_unavailable_end_days_descr"
+msgstr ""
+
 #. Default: "Update annex indexes"
 msgid "pm_update_annex_indexes"
 msgstr ""
@@ -2072,7 +2095,7 @@ msgstr ""
 msgid "PloneMeeting_label_workflowAdaptations"
 msgstr ""
 
-#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling."
+#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling.  <span style='color: red';>If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check meeting groups !</span>"
 msgid "workflow_adaptations_descr"
 msgstr ""
 
@@ -2644,8 +2667,8 @@ msgstr ""
 msgid "advice_mandatory"
 msgstr ""
 
-#. Default: "This advice is not viewable by the advisers in the current item state (${item_review_state})."
-msgid "This advice is not viewable by the advisers in the current item state (${item_review_state})."
+#. Default: "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
+msgid "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
 msgstr ""
 
 #. Default: "Access detailled advice"
@@ -2818,6 +2841,14 @@ msgstr ""
 
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
+msgstr ""
+
+#. Default: "You can not change this value because this meeting file type is already used by an annex added on item, like for example: ${item_url} !"
+msgid "cannot_change_inuse_item_relatedto"
+msgstr ""
+
+#. Default: "You can not change this value because this meeting file type is already used by an advice annex added on item, like for example: ${item_url} !"
+msgid "cannot_change_inuse_advice_relatedto"
 msgstr ""
 
 #. Default: "Identifier"
@@ -3490,6 +3521,10 @@ msgstr ""
 msgid "icon_help_publish_deadline_ko"
 msgstr ""
 
+#. Default: "Pre-validated"
+msgid "icon_help_prevalidated"
+msgstr ""
+
 #. Default: "Delayed"
 msgid "icon_help_delayed"
 msgstr ""
@@ -3588,6 +3623,10 @@ msgstr ""
 
 #. Default: "Title"
 msgid "listingheader_title"
+msgstr ""
+
+#. Default: "Object"
+msgid "listingheader_item_title"
 msgstr ""
 
 #. Default: "PloneMeeting 'folder' view"
@@ -3827,16 +3866,16 @@ msgstr ""
 msgid "Once viewable, the adviser will have ${advice_delay} days to give the advice."
 msgstr ""
 
-#. Default: "This advice has not been given yet."
-msgid "This advice has not been given yet."
+#. Default: "The item is viewable by the advisers of this group but the advice has not been given yet."
+msgid "The item is viewable by the advisers of this group but the advice has not been given yet."
 msgstr ""
 
-#. Default: "This advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
-msgid "This advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
+#. Default: "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
+msgid "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
 msgstr ""
 
-#. Default: "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
-msgid "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
+#. Default: "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
+msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
 msgstr ""
 
 #. Default: "This optional advice was asked by the item creators (shown by his title being between brackets)"
@@ -3845,6 +3884,10 @@ msgstr ""
 
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"
+msgstr ""
+
+#. Default: "This optional advice was given of initiative by a power adviser"
+msgid "This optional advice was given of initiative by a power adviser"
 msgstr ""
 
 #. Default: "Advice asked automatically because"
@@ -3873,4 +3916,9 @@ msgstr ""
 
 #. Default: "Advice given by"
 msgid "Advice given by"
+msgstr ""
+
+#. Default: "PloneMeeting tool policy"
+#: ./setuphandlers.py:182
+msgid "PloneMeeting tool policy"
 msgstr ""

@@ -15,6 +15,14 @@ msgstr ""
 "Domain: plone\n"
 "X-Is-Fallback-For: de-be de-at de-li de-lu de-ch de-de\n"
 
+#. Default: "Advice Given"
+msgid "Advice Given"
+msgstr ""
+
+#. Default: "Advice under edit"
+msgid "Advice under edit"
+msgstr ""
+
 #. Default: "Annex correctly added."
 msgid "Annex correctly added."
 msgstr ""
@@ -27,6 +35,10 @@ msgstr "Anhänge"
 #. Default: "Annexes (to the decision)"
 msgid "AnnexesDecision"
 msgstr "Anhängen (an diesen Beschluss)"
+
+#. Default: "Back to 'Advice Under Edit'"
+msgid "Back to 'Advice Under Edit'"
+msgstr ""
 
 #. Default: "CopyItem"
 msgid "CopyItem"
@@ -53,6 +65,10 @@ msgstr ""
 msgid "ExternalApplication"
 msgstr "Externe Anwendung"
 
+#. Default: "Give Advice"
+msgid "Give Advice"
+msgstr ""
+
 # Plone syntax errors
 #. Default: "Login failed"
 msgid "Login failed"
@@ -61,6 +77,26 @@ msgstr "Login fehlgeschlagen"
 #. Default: "Meeting"
 msgid "Meeting"
 msgstr "Sitzung"
+
+#. Default: "Meeting Advice Workflow"
+msgid "Meeting Advice Workflow"
+msgstr ""
+
+#. Default: "Meeting Item Workflow"
+msgid "Meeting Item Workflow"
+msgstr ""
+
+#. Default: "Meeting Workflow"
+msgid "Meeting Workflow"
+msgstr ""
+
+#. Default: "Meeting Archive Observer"
+msgid "MeetingArchiveObserver"
+msgstr ""
+
+#. Default: "Meeting Budget Impact Editor"
+msgid "MeetingBudgetImpactEditor"
+msgstr ""
 
 #. Default: "Category"
 msgid "MeetingCategory"
@@ -96,6 +132,26 @@ msgstr "TOP"
 msgid "MeetingItemPma"
 msgstr "TOP"
 
+#. Default: "Meeting Manager"
+msgid "MeetingManager"
+msgstr ""
+
+#. Default: "Meeting Member"
+msgid "MeetingMember"
+msgstr ""
+
+#. Default: "Meeting Observer Global"
+msgid "MeetingObserverGlobal"
+msgstr ""
+
+#. Default: "Meeting Observer Local"
+msgid "MeetingObserverLocal"
+msgstr ""
+
+#. Default: "Meeting Observer Unpublished"
+msgid "MeetingObserverUnpublished"
+msgstr ""
+
 #. Default: "PloneGov assembly"
 msgid "MeetingPga"
 msgstr "PloneGov Versammlung"
@@ -104,12 +160,24 @@ msgstr "PloneGov Versammlung"
 msgid "MeetingPma"
 msgstr "PloneMeeting Versammlung"
 
+#. Default: "Meeting Reviewer"
+msgid "MeetingReviewer"
+msgstr ""
+
 #. Default: "User characteristics"
 msgid "MeetingUser"
 msgstr "Benutzereinstellungen"
 
 #. Default: "No meeting to delete."
 msgid "No meeting to delete."
+msgstr ""
+
+#. Default: "PloneMeeting Activity Workflow"
+msgid "PloneMeeting Activity Workflow"
+msgstr ""
+
+#. Default: "PloneMeeting One state Workflow"
+msgid "PloneMeeting One state Workflow"
 msgstr ""
 
 #. Default: "PloneMeeting 'folder' view"
@@ -125,6 +193,22 @@ msgstr "POD-Dokumentvorlage"
 #, fuzzy
 msgid "State"
 msgstr "Status"
+
+#. Default: "This allows to active the tool PloneMeeting."
+msgid "This allows to active the tool PloneMeeting."
+msgstr ""
+
+#. Default: "Workflow for Meeting."
+msgid "Workflow for Meeting."
+msgstr ""
+
+#. Default: "Workflow for advices into a meeting."
+msgid "Workflow for advices into a meeting."
+msgstr ""
+
+#. Default: "Workflow for every meeting items of tool PloneMeeting."
+msgid "Workflow for every meeting items of tool PloneMeeting."
+msgstr ""
 
 #. Default: "You can not copy this element : '${title}' is not an item."
 msgid "You can not copy this element : '${title}' is not an item."
@@ -155,6 +239,14 @@ msgstr "Aktivieren"
 msgid "active"
 msgstr "Aktiv"
 
+#. Default: "Advice Given"
+msgid "advice_given"
+msgstr ""
+
+#. Default: "Advice under edit"
+msgid "advice_under_edit"
+msgstr ""
+
 #. Default: "Advices and access"
 #, fuzzy
 msgid "advices"
@@ -172,6 +264,10 @@ msgstr "Archiviert"
 #, fuzzy
 msgid "backToAccepted"
 msgstr "Korrigieren"
+
+#. Default: "Back to 'Advice Under Edit'"
+msgid "backToAdviceUnderEdit"
+msgstr ""
 
 #. Default: "Back to 'Closed'"
 #, fuzzy
@@ -251,6 +347,10 @@ msgstr "Korrigieren"
 #, fuzzy
 msgid "backToValidated"
 msgstr "Korrigieren"
+
+#. Default: "Base View"
+msgid "base_view"
+msgstr ""
 
 #. Default: "Forgot password?"
 msgid "box_forgot_password_option"
@@ -415,6 +515,10 @@ msgstr "Sperren"
 msgid "frozen"
 msgstr "Veröffentlicht (gesperrt)"
 
+#. Default: "Give Advice"
+msgid "giveAdvice"
+msgstr ""
+
 #. Default: "User interface"
 msgid "gui"
 msgstr "Bedieneroberfläche"
@@ -485,6 +589,10 @@ msgstr "Verspätet"
 #. Default: "Emails"
 msgid "mail"
 msgstr "E-Mails"
+
+#. Default: "Meeting folder redirect View"
+msgid "meetingfolder_redirect_view"
+msgstr ""
 
 #. Default: "Metadata"
 msgid "metadata"
@@ -561,6 +669,10 @@ msgstr ""
 #. Default: "Tasks"
 msgid "tasks"
 msgstr "Aufgaben"
+
+#. Default: "Tool PloneMeeting View"
+msgid "toolplonemeeting_view"
+msgstr ""
 
 # Workflow transitions
 #. Default: "Transfer"

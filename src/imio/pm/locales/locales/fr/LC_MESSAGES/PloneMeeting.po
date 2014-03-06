@@ -215,6 +215,11 @@ msgstr "Coller"
 msgid "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgstr "Spécifiez dans la configuration de PloneMeeting une 'Configuration de séance' par défaut parmi les 'Configurations de séance' actives afin que l'utilisateur soit automatiquement redirigé vers celle-ci une fois connecté."
 
+#. Default: "PloneMeeting tool policy"
+#: ./setuphandlers.py:182
+msgid "PloneMeeting tool policy"
+msgstr "Politique du tool PloneMeeting"
+
 #. Default: "PloneMeeting 'folder' view"
 msgid "PloneMeetingFolderView"
 msgstr "Vue PloneMeeting de type 'dossier'"
@@ -392,6 +397,10 @@ msgstr "Valeur de vote par défaut"
 msgid "PloneMeeting_label_deferredNotificationsHandling"
 msgstr "Différer le traitement des notifications"
 
+#. Default: "Delay can not end following days"
+msgid "PloneMeeting_label_delayUnavailableEndDays"
+msgstr "Un délai ne peut pas se terminer les jours suivants"
+
 #. Default: "Deliberation (motivation and decision)"
 msgid "PloneMeeting_label_deliberation"
 msgstr "Délibération (motivation et décision)"
@@ -495,6 +504,10 @@ msgstr "Attributs des points pour lesquels l'historique doit être conservé"
 #. Default: "Meeting attributes for which history must be kept"
 msgid "PloneMeeting_label_historizedMeetingAttributes"
 msgstr "Attributs des séances pour lesquels l'historique doit être conservé"
+
+#. Default: "Holidays"
+msgid "PloneMeeting_label_holidays"
+msgstr "Jours fériés"
 
 #. Default: "This configuration is the default meeting configuration"
 msgid "PloneMeeting_label_isDefault"
@@ -1060,6 +1073,10 @@ msgstr "Qui encode les votes?"
 msgid "PloneMeeting_label_workflowAdaptations"
 msgstr "Adaptation(s) aux workflows"
 
+#. Default: "Working days"
+msgid "PloneMeeting_label_workingDays"
+msgstr "Jours ouvrables"
+
 #. Default: "Rich text fields needing a transform"
 msgid "PloneMeeting_label_xhtmlTransformFields"
 msgstr "Champs de texte riche qui doivent être transformés"
@@ -1100,6 +1117,14 @@ msgstr "État"
 msgid "The field here above is not used, check the 'users' tab."
 msgstr "Ce champ n'est pas utilisé, vérifiez l'onglet 'Utilisateurs'."
 
+#. Default: "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
+msgid "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
+msgstr "Le point est accessible par les émetteurs d'avis de ce groupe mais l'avis n'a pas encore été rendu, il peut l'être jusqu'au ${advice_delay_limit_date}."
+
+#. Default: "The item is viewable by the advisers of this group but the advice has not been given yet."
+msgid "The item is viewable by the advisers of this group but the advice has not been given yet."
+msgstr "Le point est accessible par les émetteurs d'avis de ce groupe mais l'avis n'a pas encore été rendu."
+
 #. Default: "There was an error during annex conversion, please contact system administrator."
 msgid "There was an error during annex conversion, please contact system administrator."
 msgstr "Une erreur est survenue pendant la conversion de l'annexe.  Contactez votre administrateur système."
@@ -1108,21 +1133,13 @@ msgstr "Une erreur est survenue pendant la conversion de l'annexe.  Contactez vo
 msgid "There was an error while trying to set this annex to printable. The error message was : ${error}. Please contact system administrator."
 msgstr "Une erreur est survenue en essayant de définir cette annexe comme 'à imprimer'.  Le message d'erreur est : ${error}.  Contactez votre administrateur système."
 
-#. Default: "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
-msgid "This advice can not be given anymore, it could be given until the ${advice_delay_limit_date}."
-msgstr "Cet avis ne peut plus être rendu, il pouvait l'être jusqu'au ${advice_delay_limit_date}."
+#. Default: "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
+msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
+msgstr "Cet avis ne peut plus être rendu, il a été demandé le ${advice_delay_started_on} et pouvait l'être jusqu'au ${advice_delay_limit_date}."
 
-#. Default: "This advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
-msgid "This advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
-msgstr "Cet avis n'a pas encore été rendu, il peut l'être jusqu'au ${advice_delay_limit_date}."
-
-#. Default: "This advice has not been given yet."
-msgid "This advice has not been given yet."
-msgstr "Cet avis n'a pas encore été rendu."
-
-#. Default: "This advice is not viewable by the advisers in the current item state (${item_review_state})."
-msgid "This advice is not viewable by the advisers in the current item state (${item_review_state})."
-msgstr "Cet avis n'est pas visible par les émetteurs d'avis dans l'état actuel du point (${item_review_state})."
+#. Default: "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
+msgid "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
+msgstr "Cet avis n'est pas visible par les émetteurs d'avis de ce groupe dans l'état actuel du point (${item_review_state})."
 
 #. Default: "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgid "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
@@ -1135,6 +1152,10 @@ msgstr "Cet avis a été automatiquement demandé par l'application (montré par
 #. Default: "This optional advice was asked by the item creators (shown by his title being between brackets)"
 msgid "This optional advice was asked by the item creators (shown by his title being between brackets)"
 msgstr "Cet avis a été demandé manuellement par les créateurs du point (montré par le fait que le titre est entre parenthèses)"
+
+#. Default: "This optional advice was given of initiative by a power adviser"
+msgid "This optional advice was given of initiative by a power adviser"
+msgstr "Cet avis a été rendu d'initiative par le groupe mentionné"
 
 #. Default: "This portlet shows controls of PloneMeeting."
 msgid "This portlet shows controls of PloneMeeting."
@@ -1442,6 +1463,14 @@ msgstr "Vous ne pouvez pas sélectionner plusieurs avis optionnels pour le même
 msgid "can_not_unselect_already_given_advice"
 msgstr "Vous ne pouvez pas désélectionner un avis optionnel qui a déjà été rendu.  Vérifiez l'avis '${removedAdviser}'."
 
+#. Default: "You can not change this value because this meeting file type is already used by an advice annex added on item, like for example: ${item_url} !"
+msgid "cannot_change_inuse_advice_relatedto"
+msgstr "Vous ne pouvez pas changer cette valeur car ce type d'annexe est déjà utilisé par des annexes ajoutées à un avis, comme par exemple: ${item_url} !"
+
+#. Default: "You can not change this value because this meeting file type is already used by an annex added on item, like for example: ${item_url} !"
+msgid "cannot_change_inuse_item_relatedto"
+msgstr "Vous ne pouvez pas changer cette valeur car ce type d'annexe est déjà utilisé par des annexes ajoutées à un point, comme par exemple: ${item_url} !"
+
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
 msgstr "Vous ne pouvez pas coller un point provenant d'un autre type de séance !"
@@ -1678,6 +1707,10 @@ msgstr "à ce moment, il restait ${delay_when_stopped} jour(s) pour rendre l'avi
 #. Default: "Delay of ${delay} clear day(s)"
 msgid "delay_of_x_days"
 msgstr "Délai de ${delay} jour(s)"
+
+#. Default: "Select here the days a computed delay can not ends with.  If a computed delay is ending on one of selected week day, the delay will be extend to next available day.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "delay_unavailable_end_days_descr"
+msgstr "Sélectionnez les jours indisponibles comme dernier jour d'un délai.  Si un délai calculé tombe sur un des jours sélectionnés, le délai sera automatiquement prolongé au prochain jour disponible.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les avis!</span>"
 
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 msgid "description_only_see_visible_items"
@@ -2002,6 +2035,10 @@ msgstr "Inséré par ${userName}"
 msgid "history_last"
 msgstr "Voir la dernière version (non colorisée)"
 
+#. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "holidays_descr"
+msgstr "Ces dates seront utilisées lors du calcul des délais des avis.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les avis!</span>"
+
 #. Default: "All"
 msgid "hs_all"
 msgstr "Tous"
@@ -2033,6 +2070,10 @@ msgstr "Reporté"
 #. Default: "Late"
 msgid "icon_help_late"
 msgstr "En retard"
+
+#. Default: "Pre-validated"
+msgid "icon_help_prevalidated"
+msgstr "Pré-validé"
 
 #. Default: "The validation deadline for meeting freezing has not been respected"
 msgid "icon_help_publish_deadline_ko"
@@ -2376,6 +2417,10 @@ msgstr "Cette personne a quitté la séance après le point numéro:"
 msgid "left_now"
 msgstr "Cette personne a quitté la séance pendant la discussion sur ce point."
 
+#. Default: "Object"
+msgid "listingheader_item_title"
+msgstr "Objet"
+
 #. Default: "Last modification"
 msgid "listingheader_modified"
 msgstr "Dernière modification"
@@ -2386,7 +2431,7 @@ msgstr "Taille"
 
 #. Default: "Title"
 msgid "listingheader_title"
-msgstr "Objet"
+msgstr "Titre"
 
 #. Default: "Manage content in a second language"
 msgid "ma_second_language"
@@ -3835,9 +3880,13 @@ msgstr "Attention: si vous ajoutez ou supprimez une annexe, tous les avis déjà
 msgid "workflow"
 msgstr "Workflows"
 
-#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling."
+#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling.  <span style='color: red';>If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check meeting groups !</span>"
 msgid "workflow_adaptations_descr"
-msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. Vos changements ne seront appliqués que lors de la prochaine réinstallation."
+msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. Vos changements ne seront appliqués que lors de la prochaine réinstallation.  <span style='color: red';>Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets 'Avis et accès' et 'Workflows' et les groupes PloneMeeting !</span>"
+
+#. Default: "This will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "working_days_descr"
+msgstr "Utilisé lors du calcul de délais des avis.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les avis!</span>"
 
 #. Default: "Every field that you select in this list will, every time its object will be created or updated, undergo the transform(s) defined in the next field."
 msgid "xhtml_transform_fields_descr"

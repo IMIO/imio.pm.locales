@@ -1,8 +1,6 @@
-Introduction
-============
+README.txt
+==========
 
-
-
-This product may contain traces of nuts.
+These are the locales for Products.PloneMeeting
 
 For more informations, read docs/README.txt
