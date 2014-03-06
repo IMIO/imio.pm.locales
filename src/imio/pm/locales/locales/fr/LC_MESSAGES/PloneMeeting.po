@@ -3916,9 +3916,9 @@ msgstr "Attention: si vous ajoutez ou supprimez une annexe, tous les avis déjà
 msgid "workflow"
 msgstr "Workflows"
 
-#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling."
+#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling.  <span style='color: red';>If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check meeting groups !</span>"
 msgid "workflow_adaptations_descr"
-msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. Vos changements ne seront appliqués que lors de la prochaine réinstallation."
+msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. Vos changements ne seront appliqués que lors de la prochaine réinstallation.  <span style='color: red';>Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets 'Avis et accès' et 'Workflows' et les groupes PloneMeeting !</span>"
 
 #. Default: "This will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "working_days_descr"

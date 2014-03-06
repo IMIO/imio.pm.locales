@@ -3951,7 +3951,8 @@ msgstr "Achtung: wenn Sie einen Anhang hinzufügen oder löschen und wenn Sie di
 msgid "workflow"
 msgstr "Arbeitsablauf"
 
-#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling."
+#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling.  <span style='color: red';>If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check meeting groups !</span>"
+#, fuzzy
 msgid "workflow_adaptations_descr"
 msgstr "Wählen Sie hier einen oder mehrere Standard Änderungseinträge die angewandt werden an die ausgewählten TOP und/oder Sitzungsworkflows."
 
