@@ -401,6 +401,10 @@ msgstr "Valor por defecto de votación"
 msgid "PloneMeeting_label_deferredNotificationsHandling"
 msgstr "Diferir el tratamiento de las notificaciones"
 
+#. Default: "Delay can not end following days"
+msgid "PloneMeeting_label_delayUnavailableEndDays"
+msgstr ""
+
 #. Default: "Deliberation (motivation and decision)"
 msgid "PloneMeeting_label_deliberation"
 msgstr "Deliberación (motivación y decisión)"
@@ -504,6 +508,10 @@ msgstr "Atributos del tema para los cuales se debe mantener el histórico"
 #. Default: "Meeting attributes for which history must be kept"
 msgid "PloneMeeting_label_historizedMeetingAttributes"
 msgstr "Atributos para los cuales se debe mantener el histórico de las reuniones"
+
+#. Default: "Holidays"
+msgid "PloneMeeting_label_holidays"
+msgstr ""
 
 #. Default: "This configuration is the default meeting configuration"
 msgid "PloneMeeting_label_isDefault"
@@ -1072,6 +1080,10 @@ msgstr "¿Quién escribirá los votos?"
 #. Default: "Workflow adaptation(s)"
 msgid "PloneMeeting_label_workflowAdaptations"
 msgstr "Adaptaciones de Flujo de trabajo"
+
+#. Default: "Working days"
+msgid "PloneMeeting_label_workingDays"
+msgstr ""
 
 #. Default: "Rich text fields needing a transform"
 msgid "PloneMeeting_label_xhtmlTransformFields"
@@ -1712,6 +1724,10 @@ msgstr ", en este momento, hay ${delay_when_stopped} día(s) que se ha dejado pa
 msgid "delay_of_x_days"
 msgstr "Retraso de ${delay} día(s) claro"
 
+#. Default: "Select here the days a computed delay can not ends with.  If a computed delay is ending on one of selected week day, the delay will be extend to next available day.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "delay_unavailable_end_days_descr"
+msgstr ""
+
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 msgid "description_only_see_visible_items"
 msgstr "Usted es capaz de ver sólo temas visibles aquí. Por favor, consulte la caja 'administrar' aquí contrario."
@@ -2042,6 +2058,10 @@ msgstr "Añadido por ${userName}"
 #. Default: "See last, uncolored version"
 msgid "history_last"
 msgstr "Ver ultima, versión descolorada"
+
+#. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "holidays_descr"
+msgstr ""
 
 #. Default: "All"
 msgid "hs_all"
@@ -3907,6 +3927,10 @@ msgstr "Flujo de trabajos"
 #. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling."
 msgid "workflow_adaptations_descr"
 msgstr "Seleccione aquí uno o más definiciones estándar de cambios que serán aplicados a los temas seleccionados y/o flujo de trabajo de reunión. Sus cambios solamente serán aplicados cuando reinstale."
+
+#. Default: "This will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "working_days_descr"
+msgstr ""
 
 #. Default: "Every field that you select in this list will, every time its object will be created or updated, undergo the transform(s) defined in the next field."
 msgid "xhtml_transform_fields_descr"

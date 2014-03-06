@@ -41,6 +41,10 @@ msgstr "Retardo para dar consejos"
 msgid "Delay left alert"
 msgstr "Alerta dejó retardo"
 
+#. Default: "Date"
+msgid "Holiday date"
+msgstr ""
+
 #. Default: "Meeting config"
 msgid "Meeting config to clone to Meeting config"
 msgstr ""
@@ -92,4 +96,8 @@ msgstr "Especifique aquí una expresión TAL que devolverá True si el consejo d
 #. Default: "If you want a specific help message to be displayed on the '?' displayed next to the advice title in the user interface, you can enter it here.  The message will appear between brackets after the message 'This advice has been automatically asked by the application'."
 msgid "gives_auto_advice_on_help_message_col_description"
 msgstr "Si desea visualizar en el un mensaje de ayuda específica '?' que aparece junto al título de asesoramiento en la interfaz de usuario, puede ingresar aquí. Aparecerá el mensaje entre paréntesis tras el mensaje 'Este consejo se ha pedido automáticamente por la aplicación'."
+
+#. Default: "Please use following format : YYYY/MM/DD.  Dates must be sorted (from older to newer)."
+msgid "holiday_date_col_descr"
+msgstr ""
 

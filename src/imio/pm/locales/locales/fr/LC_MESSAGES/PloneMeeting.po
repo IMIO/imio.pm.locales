@@ -397,6 +397,10 @@ msgstr "Valeur de vote par défaut"
 msgid "PloneMeeting_label_deferredNotificationsHandling"
 msgstr "Différer le traitement des notifications"
 
+#. Default: "Delay can not end following days"
+msgid "PloneMeeting_label_delayUnavailableEndDays"
+msgstr "Un délai ne peut pas se terminer les jours suivants"
+
 #. Default: "Deliberation (motivation and decision)"
 msgid "PloneMeeting_label_deliberation"
 msgstr "Délibération (motivation et décision)"
@@ -500,6 +504,10 @@ msgstr "Attributs des points pour lesquels l'historique doit être conservé"
 #. Default: "Meeting attributes for which history must be kept"
 msgid "PloneMeeting_label_historizedMeetingAttributes"
 msgstr "Attributs des séances pour lesquels l'historique doit être conservé"
+
+#. Default: "Holidays"
+msgid "PloneMeeting_label_holidays"
+msgstr "Jours fériés"
 
 #. Default: "This configuration is the default meeting configuration"
 msgid "PloneMeeting_label_isDefault"
@@ -1068,6 +1076,10 @@ msgstr "Qui encode les votes?"
 #. Default: "Workflow adaptation(s)"
 msgid "PloneMeeting_label_workflowAdaptations"
 msgstr "Adaptation(s) aux workflows"
+
+#. Default: "Working days"
+msgid "PloneMeeting_label_workingDays"
+msgstr "Jours ouvrables"
 
 #. Default: "Rich text fields needing a transform"
 msgid "PloneMeeting_label_xhtmlTransformFields"
@@ -1708,6 +1720,10 @@ msgstr "à ce moment, il restait ${delay_when_stopped} jour(s) pour rendre l'avi
 msgid "delay_of_x_days"
 msgstr "Délai de ${delay} jour(s)"
 
+#. Default: "Select here the days a computed delay can not ends with.  If a computed delay is ending on one of selected week day, the delay will be extend to next available day.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "delay_unavailable_end_days_descr"
+msgstr "Sélectionnez les jours indisponibles comme dernier jour d'un délai.  Si un délai calculé tombe sur un des jours sélectionnés, le délai sera automatiquement prolongé au prochain jour disponible.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les avis!</span>"
+
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 msgid "description_only_see_visible_items"
 msgstr "Vous êtes seulement autorisé à consulter les éléments visibles.  Utilisez la boîte 'Gestion' ci-contre pour consulter le contenu que vous pouvez voir."
@@ -2038,6 +2054,10 @@ msgstr "Inséré par ${userName}"
 #. Default: "See last, uncolored version"
 msgid "history_last"
 msgstr "Voir la dernière version (non colorisée)"
+
+#. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "holidays_descr"
+msgstr "Ces dates seront utilisées lors du calcul des délais des avis.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les avis!</span>"
 
 #. Default: "All"
 msgid "hs_all"
@@ -3900,6 +3920,10 @@ msgstr "Workflows"
 msgid "workflow_adaptations_descr"
 msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. Vos changements ne seront appliqués que lors de la prochaine réinstallation."
 
+#. Default: "This will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "working_days_descr"
+msgstr "Utilisé lors du calcul de délais des avis.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les avis!</span>"
+
 #. Default: "Every field that you select in this list will, every time its object will be created or updated, undergo the transform(s) defined in the next field."
 msgid "xhtml_transform_fields_descr"
 msgstr "Chaque champ que vous sélectionnez dans cette liste subira, lors de chaque création ou modification de l'objet qui le contient, la (les) transformation(s) définie(s) dans le champ suivant."
@@ -3911,4 +3935,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

@@ -11,7 +11,6 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: PloneMeeting\n"
 
-
 #. Default: "Advice"
 msgid "MeetingAdvice"
 msgstr ""
@@ -1358,6 +1357,30 @@ msgstr ""
 
 #. Default: "If you select states here, on the search screen, the user will be able to perform a search based on item state by selecting one or more of the states selected here."
 msgid "search_item_states_descr"
+msgstr ""
+
+#. Default: "Holidays"
+msgid "PloneMeeting_label_holidays"
+msgstr ""
+
+#. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "holidays_descr"
+msgstr ""
+
+#. Default: "Working days"
+msgid "PloneMeeting_label_workingDays"
+msgstr ""
+
+#. Default: "This will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "working_days_descr"
+msgstr ""
+
+#. Default: "Delay can not end following days"
+msgid "PloneMeeting_label_delayUnavailableEndDays"
+msgstr ""
+
+#. Default: "Select here the days a computed delay can not ends with.  If a computed delay is ending on one of selected week day, the delay will be extend to next available day.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "delay_unavailable_end_days_descr"
 msgstr ""
 
 #. Default: "Update annex indexes"

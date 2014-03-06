@@ -38,6 +38,10 @@ msgstr ""
 msgid "Delay left alert"
 msgstr ""
 
+#. Default: "Date"
+msgid "Holiday date"
+msgstr ""
+
 #. Default: "Meeting config"
 msgid "Meeting config to clone to Meeting config"
 msgstr ""
@@ -88,5 +92,9 @@ msgstr ""
 
 #. Default: "If you want a specific help message to be displayed on the '?' displayed next to the advice title in the user interface, you can enter it here.  The message will appear between brackets after the message 'This advice has been automatically asked by the application'."
 msgid "gives_auto_advice_on_help_message_col_description"
+msgstr ""
+
+#. Default: "Please use following format : YYYY/MM/DD.  Dates must be sorted (from older to newer)."
+msgid "holiday_date_col_descr"
 msgstr ""
 

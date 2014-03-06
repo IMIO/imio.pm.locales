@@ -398,6 +398,10 @@ msgstr "Standard Abstimmungswert"
 msgid "PloneMeeting_label_deferredNotificationsHandling"
 msgstr ""
 
+#. Default: "Delay can not end following days"
+msgid "PloneMeeting_label_delayUnavailableEndDays"
+msgstr ""
+
 #. Default: "Deliberation (motivation and decision)"
 msgid "PloneMeeting_label_deliberation"
 msgstr ""
@@ -500,6 +504,10 @@ msgstr ""
 
 #. Default: "Meeting attributes for which history must be kept"
 msgid "PloneMeeting_label_historizedMeetingAttributes"
+msgstr ""
+
+#. Default: "Holidays"
+msgid "PloneMeeting_label_holidays"
 msgstr ""
 
 #. Default: "This configuration is the default meeting configuration"
@@ -1071,6 +1079,10 @@ msgstr "Wer pflegt die Abstimmungen ein?"
 #. Default: "Workflow adaptation(s)"
 msgid "PloneMeeting_label_workflowAdaptations"
 msgstr "Anpassung(en) der Workflows"
+
+#. Default: "Working days"
+msgid "PloneMeeting_label_workingDays"
+msgstr ""
 
 #. Default: "Rich text fields needing a transform"
 msgid "PloneMeeting_label_xhtmlTransformFields"
@@ -1724,6 +1736,10 @@ msgstr ""
 msgid "delay_of_x_days"
 msgstr ""
 
+#. Default: "Select here the days a computed delay can not ends with.  If a computed delay is ending on one of selected week day, the delay will be extend to next available day.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "delay_unavailable_end_days_descr"
+msgstr ""
+
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 #, fuzzy
 msgid "description_only_see_visible_items"
@@ -2055,6 +2071,10 @@ msgstr ""
 
 #. Default: "See last, uncolored version"
 msgid "history_last"
+msgstr ""
+
+#. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "holidays_descr"
 msgstr ""
 
 #. Default: "All"
@@ -3934,6 +3954,10 @@ msgstr "Arbeitsablauf"
 #. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling."
 msgid "workflow_adaptations_descr"
 msgstr "Wählen Sie hier einen oder mehrere Standard Änderungseinträge die angewandt werden an die ausgewählten TOP und/oder Sitzungsworkflows."
+
+#. Default: "This will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+msgid "working_days_descr"
+msgstr ""
 
 #. Default: "Every field that you select in this list will, every time its object will be created or updated, undergo the transform(s) defined in the next field."
 msgid "xhtml_transform_fields_descr"
