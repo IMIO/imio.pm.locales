@@ -107,6 +107,14 @@ msgstr "Eliminar consejo"
 msgid "Download annex"
 msgstr "Descargar anexo"
 
+#. Default: "This item has been created by duplicating another item (a link to the original item has been kept)."
+msgid "Duplicate and keep link_comments"
+msgstr ""
+
+#. Default: "This item has been created by duplicating another item."
+msgid "Duplicate_comments"
+msgstr ""
+
 #. Default: "Edit"
 msgid "Edit"
 msgstr "Editar"
@@ -1599,9 +1607,9 @@ msgstr "¿crear una reunión?"
 msgid "create_meeting_item"
 msgstr "Crear un tema"
 
-#. Default: "Create an item from a template"
-msgid "create_meeting_item_from_template"
-msgstr "crear un tema desde una plantilla"
+#. Default: "This item has been created from an item template."
+msgid "create_meeting_item_from_template_comments"
+msgstr ""
 
 #. Default: "Create an item in the current folder"
 msgid "create_meeting_item_in_current_folder"

@@ -103,6 +103,14 @@ msgstr "Delete advice"
 msgid "Download annex"
 msgstr "Download annex"
 
+#. Default: "This item has been created by duplicating another item (a link to the original item has been kept)."
+msgid "Duplicate and keep link_comments"
+msgstr ""
+
+#. Default: "This item has been created by duplicating another item."
+msgid "Duplicate_comments"
+msgstr ""
+
 #. Default: "Edit"
 msgid "Edit"
 msgstr "Edit"
@@ -399,7 +407,7 @@ msgstr "Defer handling of notifications"
 
 #. Default: "Delay can not end following days"
 msgid "PloneMeeting_label_delayUnavailableEndDays"
-msgstr ""
+msgstr "Delay can not end following days"
 
 #. Default: "Deliberation (motivation and decision)"
 msgid "PloneMeeting_label_deliberation"
@@ -507,7 +515,7 @@ msgstr "Meeting attributes for which history must be kept"
 
 #. Default: "Holidays"
 msgid "PloneMeeting_label_holidays"
-msgstr ""
+msgstr "Holidays"
 
 #. Default: "This configuration is the default meeting configuration"
 msgid "PloneMeeting_label_isDefault"
@@ -999,7 +1007,7 @@ msgstr "Transition that will reinitialize advice delays"
 
 #. Default: "Transitions for presenting an item"
 msgid "PloneMeeting_label_transitionsForPresentingAnItem"
-msgstr ""
+msgstr "Transitions for presenting an item"
 
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
@@ -1079,7 +1087,7 @@ msgstr "Workflow adaptation(s)"
 
 #. Default: "Working days"
 msgid "PloneMeeting_label_workingDays"
-msgstr ""
+msgstr "Working days"
 
 #. Default: "Rich text fields needing a transform"
 msgid "PloneMeeting_label_xhtmlTransformFields"
@@ -1139,7 +1147,7 @@ msgstr "There was an error while trying to set this annex to printable. The erro
 
 #. Default: "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
 msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
-msgstr ""
+msgstr "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
 
 #. Default: "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
 msgid "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
@@ -1577,11 +1585,11 @@ msgstr "The title of an item is wrong. Please check that each title begins with 
 
 #. Default: "The cloned item could not be presented to a meeting because no meeting accepting items is available."
 msgid "could_not_present_item_no_meeting_accepting_items"
-msgstr ""
+msgstr "The cloned item could not be presented to a meeting because no meeting accepting items is available."
 
 #. Default: "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please contact system administrator."
 msgid "could_not_trigger_transition_for_cloned_item"
-msgstr ""
+msgstr "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please contact system administrator."
 
 #. Default: "This item has been created from a delayed item."
 msgid "create_from_predecessor_comments"
@@ -1595,9 +1603,9 @@ msgstr "create a meeting"
 msgid "create_meeting_item"
 msgstr "Create an item"
 
-#. Default: "Create an item from a template"
-msgid "create_meeting_item_from_template"
-msgstr "Create an item from a template"
+#. Default: "This item has been created from an item template."
+msgid "create_meeting_item_from_template_comments"
+msgstr "This item has been created from an item template."
 
 #. Default: "Create an item in the current folder"
 msgid "create_meeting_item_in_current_folder"
@@ -1722,7 +1730,7 @@ msgstr "Delay of ${delay} clear day(s)"
 
 #. Default: "Select here the days a computed delay can not ends with.  If a computed delay is ending on one of selected week day, the delay will be extend to next available day.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "delay_unavailable_end_days_descr"
-msgstr ""
+msgstr "Select here the days a computed delay can not ends with.  If a computed delay is ending on one of selected week day, the delay will be extend to next available day.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 msgid "description_only_see_visible_items"
@@ -1895,7 +1903,7 @@ msgstr "Filter by a keyword"
 
 #. Default: "Please respect order of transitions sequence to present an item, the first given transition is not a transition leaving the item workflow initial state."
 msgid "first_transition_must_leave_wf_initial_state"
-msgstr ""
+msgstr "Please respect order of transitions sequence to present an item, the first given transition is not a transition leaving the item workflow initial state."
 
 #. Default: "In the PloneMeeting folder of every member, a sub-folder is created for each meeting configuration. The name of this sub-folder is defined here."
 msgid "folder_title_descr"
@@ -1951,7 +1959,7 @@ msgstr "Mister"
 
 #. Default: "Please respect order of transitions sequence to present an item, the given sequence of transitions is wrong."
 msgid "given_wf_path_does_not_lead_to_present"
-msgstr ""
+msgstr "Please respect order of transitions sequence to present an item, the given sequence of transitions is wrong."
 
 #. Default: "Back to the first elements"
 msgid "goto_first"
@@ -2057,7 +2065,7 @@ msgstr "See last, uncolored version"
 
 #. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "holidays_descr"
-msgstr ""
+msgstr "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 
 #. Default: "All"
 msgid "hs_all"
@@ -2418,7 +2426,7 @@ msgstr "Within every meeting configuration, meetings are numbered sequentially."
 
 #. Default: "Please respect order of transitions sequence to present an item, the given sequence is not resulting in the 'presented' state."
 msgid "last_transition_must_result_in_presented_state"
-msgstr ""
+msgstr "Please respect order of transitions sequence to present an item, the given sequence is not resulting in the 'presented' state."
 
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "lateItem_mail_body"
@@ -2443,7 +2451,7 @@ msgstr "This person has left the meeting while discussing this item"
 
 #. Default: "--- Do nothing, let the item in the workflow initial state ---"
 msgid "let_item_in_initial_state"
-msgstr ""
+msgstr "--- Do nothing, let the item in the workflow initial state ---"
 
 #. Default: "Object"
 msgid "listingheader_item_title"
@@ -3700,7 +3708,7 @@ msgstr "Transfer"
 
 #. Default: "This transition was triggered automatically while this item was sent to this meeting config."
 msgid "transition_auto_triggered_item_sent_to_this_config"
-msgstr ""
+msgstr "This transition was triggered automatically while this item was sent to this meeting config."
 
 #. Default: "Select the transition triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
 msgid "transition_reinitializing_delays_descr"
@@ -3708,7 +3716,7 @@ msgstr "Select the transition triggered on an item that will reinitialize (set b
 
 #. Default: "Set here the sequence of transitions in the right order to be triggered on an item for it to be presented to a meeting.  The first transition is the one that starts from the initial state and the last transition should be 'present'.  This is used in several functionnalities like recurring items or items sent to another meeting config that need to be presented automatically."
 msgid "transitions_for_presenting_an_item_descr"
-msgstr ""
+msgstr "Set here the sequence of transitions in the right order to be triggered on an item for it to be presented to a meeting.  The first transition is the one that starts from the initial state and the last transition should be 'present'.  This is used in several functionnalities like recurring items or items sent to another meeting config that need to be presented automatically."
 
 #. Default: "When the user will click on the corresponding icon or button for every transition you will select in this list, a confirmation popup will show up. In this popup, the user will also be able to enter an optional workflow comment."
 msgid "transitions_to_confirm_descr"
@@ -3925,7 +3933,7 @@ msgstr "Choose here one or more standard sets of changes that will be applied to
 
 #. Default: "This will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "working_days_descr"
-msgstr ""
+msgstr "This will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 
 #. Default: "Every field that you select in this list will, every time its object will be created or updated, undergo the transform(s) defined in the next field."
 msgid "xhtml_transform_fields_descr"

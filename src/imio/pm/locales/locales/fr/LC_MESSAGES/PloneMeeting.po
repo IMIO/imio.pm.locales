@@ -103,6 +103,14 @@ msgstr "Supprimer l'avis"
 msgid "Download annex"
 msgstr "Télécharger"
 
+#. Default: "This item has been created by duplicating another item (a link to the original item has been kept)."
+msgid "Duplicate and keep link_comments"
+msgstr "Ce point a été créé par duplication d'un autre point (un lien vers le point original a été gardé)."
+
+#. Default: "This item has been created by duplicating another item."
+msgid "Duplicate_comments"
+msgstr "Ce point a été créé par duplication d'un autre point."
+
 #. Default: "Edit"
 msgid "Edit"
 msgstr "Modifier"
@@ -1595,9 +1603,9 @@ msgstr "Créer une séance"
 msgid "create_meeting_item"
 msgstr "Créer un point"
 
-#. Default: "Create an item from a template"
-msgid "create_meeting_item_from_template"
-msgstr "Créer un point depuis un modèle"
+#. Default: "This item has been created from an item template."
+msgid "create_meeting_item_from_template_comments"
+msgstr "Ce point a été créé depuis un modèle."
 
 #. Default: "Create an item in the current folder"
 msgid "create_meeting_item_in_current_folder"
@@ -3935,4 +3943,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
