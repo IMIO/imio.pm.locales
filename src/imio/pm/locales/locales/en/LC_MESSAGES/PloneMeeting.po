@@ -105,11 +105,11 @@ msgstr "Download annex"
 
 #. Default: "This item has been created by duplicating another item (a link to the original item has been kept)."
 msgid "Duplicate and keep link_comments"
-msgstr ""
+msgstr "This item has been created by duplicating another item (a link to the original item has been kept)."
 
 #. Default: "This item has been created by duplicating another item."
 msgid "Duplicate_comments"
-msgstr ""
+msgstr "This item has been created by duplicating another item."
 
 #. Default: "Edit"
 msgid "Edit"
@@ -1458,6 +1458,22 @@ msgstr "Specify here what language packs you have installed for Tesseract."
 #. Default: "Back"
 msgid "back"
 msgstr "Back"
+
+#. Default: "This item is not budget related (click on the icon to switch to budget related)."
+msgid "budget_related_no_edit"
+msgstr "This item is not budget related (click on the icon to switch to budget related)."
+
+#. Default: "This item is not budget related."
+msgid "budget_related_no_view"
+msgstr "This item is not budget related."
+
+#. Default: "This item is budget related, check 'Budgetary informations' here under (click on the icon to switch to not budget related)."
+msgid "budget_related_yes_edit"
+msgstr "This item is budget related, check 'Budgetary informations' here under (click on the icon to switch to not budget related)."
+
+#. Default: "This item is budget related, check 'Budgetary informations' here under."
+msgid "budget_related_yes_view"
+msgstr "This item is budget related, check 'Budgetary informations' here under."
 
 #. Default: "Budget impact editors"
 msgid "budgetimpacteditors"
@@ -3946,4 +3962,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

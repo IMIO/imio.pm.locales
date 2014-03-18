@@ -1459,6 +1459,22 @@ msgstr "Spécifiez ici quels fichiers de langues vous avez installés pour Tesse
 msgid "back"
 msgstr "Retour"
 
+#. Default: "This item is not budget related (click on the icon to switch to budget related)."
+msgid "budget_related_no_edit"
+msgstr "Ce point n'a aucune informations budgétaires (cliquez sur l'icône si vous souhaitez encoder des informations budgétaires)."
+
+#. Default: "This item is not budget related."
+msgid "budget_related_no_view"
+msgstr "Ce point n'a aucune informations budgétaires."
+
+#. Default: "This item is budget related, check 'Budgetary informations' here under (click on the icon to switch to not budget related)."
+msgid "budget_related_yes_edit"
+msgstr "Ce point a des informations budgétaires, consultez le champ 'Informations budgétaires' ci-dessous (cliquez sur l'icône pour cacher les informations budgétaires)."
+
+#. Default: "This item is budget related, check 'Budgetary informations' here under."
+msgid "budget_related_yes_view"
+msgstr "Ce point a des informations budgétaires, consultez le champ 'Informations budgétaires' ci-dessous."
+
 #. Default: "Budget impact editors"
 msgid "budgetimpacteditors"
 msgstr "Gestionnaires d'informations budgétaires"
