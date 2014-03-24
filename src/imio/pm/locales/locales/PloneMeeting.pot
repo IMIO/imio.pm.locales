@@ -1849,8 +1849,12 @@ msgstr ""
 msgid "custom_adviser_can_not_edit_used_row"
 msgstr ""
 
-#. Default: "You can not remove a configuration that has already been used in the application.  You removed a configuration for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please add it back (or edit the current MeetingConfig again to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
+#. Default: "You can not remove a configuration that has already been used in the application.  You removed a configuration for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
 msgid "custom_adviser_can_not_remove_used_row"
+msgstr ""
+
+#. Default: "You can not remove a sub type that has already been used in the application.  You removed the sub type with title '${sub_type_title}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate a sub type, you can uncheck the 'Active?' check box."
+msgid "sub_type_can_not_remove_used_row"
 msgstr ""
 
 #. Default: "There is a problem with a delay in the 'Delay' or 'Delay left alert' column, please check encoded value for group '${groupName}', you can only enter a single digit or leave field empty if not relevant."
@@ -2805,6 +2809,10 @@ msgstr ""
 msgid "pm_creator"
 msgstr ""
 
+#. Default: "Annex type"
+msgid "pm_annex_type"
+msgstr ""
+
 #. Default: "Creation date"
 msgid "pm_creation_date"
 msgstr ""
@@ -2824,6 +2832,22 @@ msgstr ""
 
 #. Default: "Define here for wich kind of annex this type of annex applies."
 msgid "related_to_descr"
+msgstr ""
+
+#. Default: "Correspondences while sent to other meeting configs"
+msgid "PloneMeeting_label_otherMCCorrespondences"
+msgstr ""
+
+#. Default: "When an item is sent to another meeting config, the annexes of the new item will use meeting file types of the new meeting config.  Define here the correspondences for each meeting config the items of this meeting config can  be sent to.  If you do not define correspondences, the application will use the default meeting file type (first found).  This will not be used if 'Related to advice' is used in the 'Related to' field here above because advices are not kept while an item is sent to another meeting config.  Please select only one value by meeting config the item is sendable to."
+msgid "other_mc_correspondences_descr"
+msgstr ""
+
+#. Default: "Meeting file sub types"
+msgid "PloneMeeting_label_subTypes"
+msgstr ""
+
+#. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
+msgid "sub_types_descr"
 msgstr ""
 
 #. Default: "Predefined title in the second language"
@@ -3998,4 +4022,3 @@ msgstr ""
 #. Default: "This item has been created by duplicating another item (a link to the original item has been kept)."
 msgid "Duplicate and keep link_comments"
 msgstr ""
-

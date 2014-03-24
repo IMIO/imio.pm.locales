@@ -793,6 +793,10 @@ msgstr "Optionale Berater"
 msgid "PloneMeeting_label_oralQuestion"
 msgstr "Ist dieser TOP ist eine mündliche Anfrage?"
 
+#. Default: "Correspondences while sent to other meeting configs"
+msgid "PloneMeeting_label_otherMCCorrespondences"
+msgstr ""
+
 #. Default: "Other meeting configs clonable to"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableTo"
 msgstr ""
@@ -949,6 +953,10 @@ msgstr "Wählen Sie die Sortiermethode beim hinzufügen eines TOP zur Sitzung au
 #. Default: "Effective start date and hour"
 msgid "PloneMeeting_label_startDate"
 msgstr "Effektives Startdatum und Startuhrzeit"
+
+#. Default: "Meeting file sub types"
+msgid "PloneMeeting_label_subTypes"
+msgstr ""
 
 #. Default: "Role shipped with the external task module, allowing to create tasks"
 msgid "PloneMeeting_label_taskCreatorRole"
@@ -1666,7 +1674,7 @@ msgstr "Ersteller"
 msgid "custom_adviser_can_not_edit_used_row"
 msgstr ""
 
-#. Default: "You can not remove a configuration that has already been used in the application.  You removed a configuration for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please add it back (or edit the current MeetingConfig again to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
+#. Default: "You can not remove a configuration that has already been used in the application.  You removed a configuration for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
 msgid "custom_adviser_can_not_remove_used_row"
 msgstr ""
 
@@ -3055,6 +3063,10 @@ msgstr "Wähle Berater welche zu diesem TOP einen optionalen Kommentar abgeben s
 msgid "oral_question_item_descr"
 msgstr ""
 
+#. Default: "When an item is sent to another meeting config, the annexes of the new item will use meeting file types of the new meeting config.  Define here the correspondences for each meeting config the items of this meeting config can  be sent to.  If you do not define correspondences, the application will use the default meeting file type (first found).  This will not be used if 'Related to advice' is used in the 'Related to' field here above because advices are not kept while an item is sent to another meeting config.  Please select only one value by meeting config the item is sendable to."
+msgid "other_mc_correspondences_descr"
+msgstr ""
+
 #. Default: "Other"
 msgid "other_place"
 msgstr "Andere"
@@ -3106,6 +3118,10 @@ msgstr "Willkommen zu der PloneMeeting-Verwaltung. PloneMeeting erlaubt es Tages
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
 msgstr "Indentifizierer"
+
+#. Default: "Annex type"
+msgid "pm_annex_type"
+msgstr ""
 
 #. Default: "Configure PloneMeeting"
 msgid "pm_configuration"
@@ -3619,6 +3635,14 @@ msgstr "Hier können Sie festlegen wo ein neuer TOP in der Sitzung eingefügt wi
 #. Default: "state_color"
 msgid "state_color"
 msgstr "Statusfarbe"
+
+#. Default: "You can not remove a sub type that has already been used in the application.  You removed the sub type with title '${sub_type_title}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate a sub type, you can uncheck the 'Active?' check box."
+msgid "sub_type_can_not_remove_used_row"
+msgstr ""
+
+#. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
+msgid "sub_types_descr"
+msgstr ""
 
 #. Default: "Switch mode (secret / not secret)"
 msgid "switch_votes"

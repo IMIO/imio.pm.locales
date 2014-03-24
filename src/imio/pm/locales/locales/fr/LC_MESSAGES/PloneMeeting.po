@@ -791,6 +791,10 @@ msgstr "Demander l'avis de"
 msgid "PloneMeeting_label_oralQuestion"
 msgstr "Ce point est une question orale ?"
 
+#. Default: "Correspondences while sent to other meeting configs"
+msgid "PloneMeeting_label_otherMCCorrespondences"
+msgstr "Correspondances lors de l'envoi vers un autre type de séance"
+
 #. Default: "Other meeting configs clonable to"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableTo"
 msgstr "A envoyer vers"
@@ -946,6 +950,10 @@ msgstr "Méthode de tri utilisée lors de l'ajout d'un point dans une séance"
 #. Default: "Effective start date and hour"
 msgid "PloneMeeting_label_startDate"
 msgstr "Date et heure effective de début"
+
+#. Default: "Meeting file sub types"
+msgid "PloneMeeting_label_subTypes"
+msgstr "Sous-types de fichier"
 
 #. Default: "Role shipped with the external task module, allowing to create tasks"
 msgid "PloneMeeting_label_taskCreatorRole"
@@ -1651,9 +1659,9 @@ msgstr "Créateurs"
 msgid "custom_adviser_can_not_edit_used_row"
 msgstr "Vous ne pouvez plus modifier les valeurs logiques d'une configuration qui a déjà été utilisée.  Vérifiez la configuration pour le groupe '${adviser_group}', par exemple le point '${item_url}' utilise cette configuration.  L'ancienne valeur (${column_old_data}) de la colonne '${column_name}' a changé. Si vous devez changer cette configuration, vous devez la désactiver en définissant une date dans la colonne 'Configuration active pour les points créés jusqu'au' et créer une nouvelle configuration."
 
-#. Default: "You can not remove a configuration that has already been used in the application.  You removed a configuration for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please add it back (or edit the current MeetingConfig again to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
+#. Default: "You can not remove a configuration that has already been used in the application.  You removed a configuration for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
 msgid "custom_adviser_can_not_remove_used_row"
-msgstr "Vous ne pouvez pas supprimer une configuration qui a déjà été utilisée.  Vous avez supprimé la configuration pour le groupe '${adviser_group}', utilisée par exemple par le point '${item_url}'. Rajoutez la configuration (ou éditez à nouveau cette Configuration de séance pour retrouver les anciennes valeurs).  Si vous devez désactiver une configuration utilisée, définissez une date dans la colonne 'Configuration active pour les points créés jusqu'au'."
+msgstr "Vous ne pouvez pas supprimer une configuration qui a déjà été utilisée.  Vous avez supprimé la configuration pour le groupe '${adviser_group}', utilisée par exemple par le point '${item_url}'. Rajoutez la configuration (ou cliquez sur l'onglet 'Modifier' ci-dessus pour retrouver les anciennes valeurs).  Si vous devez désactiver une configuration utilisée, définissez une date dans la colonne 'Configuration active pour les points créés jusqu'au'."
 
 #. Default: "There is a problem with a delay in the 'Delay' or 'Delay left alert' column, please check encoded value for group '${groupName}', make sure that the value defined in the 'Delay' column is higher or equals the value defined in the 'Delay left alert' column.  Leave field 'Delay left alert' empty if not relevant."
 msgid "custom_adviser_delay_left_must_be_inferior_to_delay"
@@ -3008,7 +3016,7 @@ msgstr "Configuration d'OpenOffice"
 
 #. Default: "PloneMeeting allows to generate various documents related to items, agendas, decisions, etc. For each meeting configuration you can define precise parameters for generating documents. But at this higher level, it is important to know that if you want to generate documents in another format than Open Document Format Text (ODT), ie Microsoft Word, RTF or PDF, you need to install OpenOffice in server mode on the same machine than PloneMeeting, and specify values for the fields of this section, using the 'edit' tab above."
 msgid "oo_config_descr"
-msgstr "PloneMeeting permet de générer divers documents: points, ordres du jour, décisions, etc. Chaque configuration de séance dispose de paramètres précis à ce sujet. Mais à ce niveau global, il est important de souligner que si vous voulez génerer des documents dans des formats autres que 'Open Document Format Text' (ODT), c'est-à-dire Microsoft Word, RTF ou PDF, vous devez installer OpenOffice en mode serveur sur la même machine que PloneMeeting et spécifier des valeurs pour les champs de cette section en utilisant l'onglet 'modifier' ci-dessus."
+msgstr "PloneMeeting permet de générer divers documents: points, ordres du jour, décisions, etc. Chaque configuration de séance dispose de paramètres précis à ce sujet. Mais à ce niveau global, il est important de souligner que si vous voulez génerer des documents dans des formats autres que 'Open Document Format Text' (ODT), c'est-à-dire Microsoft Word, RTF ou PDF, vous devez installer OpenOffice en mode serveur sur la même machine que PloneMeeting et spécifier des valeurs pour les champs de cette section en utilisant l'onglet 'Modifier' ci-dessus."
 
 #. Default: "Some users want to open annexes in separate windows. Indeed, when the user is consulting a meeting with paginated lists of items, clicking on an annex for downloading it may replace the current page with the annex content if the browser is configured for doing so (in conjunction with a plug-in for viewing PDFs inside the browser for example). In this case, the user is forced to click on 'back' to view the list again. It has 2 disadvantages: the list is refreshed (which slows down the system), and the user is redirected to the first items instead of the page he consulted just before the download."
 msgid "open_annexes_in_separate_windows_descr"
@@ -3025,6 +3033,10 @@ msgstr "Choisissez-en plusieurs en maintenant la touche 'Ctrl' enfoncée."
 #. Default: ""
 msgid "oral_question_item_descr"
 msgstr " "
+
+#. Default: "When an item is sent to another meeting config, the annexes of the new item will use meeting file types of the new meeting config.  Define here the correspondences for each meeting config the items of this meeting config can  be sent to.  If you do not define correspondences, the application will use the default meeting file type (first found).  This will not be used if 'Related to advice' is used in the 'Related to' field here above because advices are not kept while an item is sent to another meeting config.  Please select only one value by meeting config the item is sendable to."
+msgid "other_mc_correspondences_descr"
+msgstr "Lorsqu'un point est envoyé vers un autre type de séance, les annexes du nouveau point utiliseront les types de fichier de la nouvelle configuration de séance.  Définissez ici les correspondances pour chacune des configurations de séance vers lesquelles les points peuvent être envoyés.  Si aucune correspondance n'est définie, le type de fichier par défaut sera utilisé (premier trouvé).  Ce champ ne sera pas utilisé si vous définissez 'Annexe à un avis' dans le champ 'Associé à' ci-dessus car les avis ne sont pas gardés lorsqu'un point est envoyé vers une autre configuration de séance.  Ne sélectionnez qu'une valeur par configuration de séance vers laquelle les points peuvent être envoyés."
 
 #. Default: "Other"
 msgid "other_place"
@@ -3077,6 +3089,10 @@ msgstr "Bienvenue sur l'interface d'administration de PloneMeeting. PloneMeeting
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
 msgstr "Identifiant"
+
+#. Default: "Annex type"
+msgid "pm_annex_type"
+msgstr "Type d'annexe"
 
 #. Default: "Configure PloneMeeting"
 msgid "pm_configuration"
@@ -3587,6 +3603,14 @@ msgstr "Permet de définir où ira se placer un point lorsqu'il est inséré dan
 #. Default: "state_color"
 msgid "state_color"
 msgstr "Coloriser suivant l'état du workflow"
+
+#. Default: "You can not remove a sub type that has already been used in the application.  You removed the sub type with title '${sub_type_title}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate a sub type, you can uncheck the 'Active?' check box."
+msgid "sub_type_can_not_remove_used_row"
+msgstr "Vous ne pouvez pas supprimer un sous-type de fichier qui a déjà été utilisé. Vous avez supprimé le sous-type ayant le titre '${sub_type_title}', utilisé par exemple par le point '${item_url}'. Rajoutez le sous-type (ou cliquez sur l'onglet 'Modifier' ci-dessus pour retrouver les anciennes valeurs). Si vous devez désactiver un sous-type de fichier, décochez la case 'Actif?'."
+
+#. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
+msgid "sub_types_descr"
+msgstr "Définissez ici des sous-types de fichier.  Ces sous-types de fichiers pourront être utilisés comme les types de fichiers, mais lorsqu'une annexe sera ajoutée avec ce sous-type, elle utilisera la même icône que le type de fichier principal.  Il est notamment possible de définir pour chacun de ces sous-types un autre titre (qui apparaîtra dans la liste déroulante de choix du type de fichier sur le formulaire d'ajout d'une annexe) et un titre prédéfini."
 
 #. Default: "Switch mode (secret / not secret)"
 msgid "switch_votes"

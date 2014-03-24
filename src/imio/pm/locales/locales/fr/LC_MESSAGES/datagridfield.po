@@ -59,6 +59,26 @@ msgstr "Configuration active pour les points créés depuis le"
 msgid "Rule activated for item created until"
 msgstr "Configuration active pour les points créés jusqu'au"
 
+#. Default: "Correspondences while sent to other meeting configs"
+msgid "Sub type correspondences while sent to other meeting configs"
+msgstr "Correspondances lors de l'envoi vers un autre type de séance"
+
+#. Default: "Please look the help message of the field 'Correspondences while sent to other meeting configs' here above.  Simply note that if nothing is defined here, the value defined in the field above will be used."
+msgid "Sub type correspondences while sent to other meeting configs description."
+msgstr "Consultez le message de description du champ 'Correspondances lors de l'envoi vers un autre type de séance' ci-dessus.  Notez simplement que si rien n'est défini ici, les valeurs du champ ci-dessus seront utilisées."
+
+#. Default: "Active?"
+msgid "Sub type is active?"
+msgstr "Actif?"
+
+#. Default: "Predefined title"
+msgid "Sub type predefined title"
+msgstr "Titre prédéfini attribué à chaque fichier de ce type qui sera uploadé"
+
+#. Default: "Title"
+msgid "Sub type title"
+msgstr "Titre"
+
 #. Default: "The meeting config the item of this meeting config will be sendable to."
 msgid "The meeting config the item of this meeting config will be sendable to."
 msgstr "Le type de séance vers laquelle les points de ce type de séance pourront être envoyés."
