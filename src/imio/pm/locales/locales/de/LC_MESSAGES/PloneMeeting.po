@@ -595,6 +595,10 @@ msgstr ""
 msgid "PloneMeeting_label_itemReferenceFormat"
 msgstr "Format der TOP-Referenzen"
 
+#. Default: "Item states in wich restricted power observers can see the items"
+msgid "PloneMeeting_label_itemRestrictedPowerObserversStates"
+msgstr ""
+
 #. Default: "Signatories for the item"
 msgid "PloneMeeting_label_itemSignatories"
 msgstr "Unterzeichner für diesen TOP"
@@ -738,6 +742,10 @@ msgstr "Beobachtungen"
 
 #. Default: "Meeting states in wich power observers can see the meetings"
 msgid "PloneMeeting_label_meetingPowerObserversStates"
+msgstr ""
+
+#. Default: "Meeting states in wich restricted power observers can see the meetings"
+msgid "PloneMeeting_label_meetingRestrictedPowerObserversStates"
 msgstr ""
 
 #. Default: "Meeting states that condition the display of meetings in the 'meetings' portlet"
@@ -2355,7 +2363,7 @@ msgstr ""
 msgid "item_number_invalid"
 msgstr "Der TOP konnte nicht verschoben werden, bitte geben Sie eine gültige Nummer an."
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item."
+#. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 msgid "item_powerobservers_states_descr"
 msgstr ""
 
@@ -2366,6 +2374,10 @@ msgstr "Jeder TOP wird mit einer Referenz verknüpft. Das Format der Referenz ka
 #. Default: "In order to perform this action, at least one item should be inserted into this meeting."
 msgid "item_required_to_publish"
 msgstr "Um diesen Befehl auszuführen, muss mindestens ein TOP für diese Sitzung vorhanden sein."
+
+#. Default: "When an item is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the item.  Theorically, there will be fewer states selected here than states selected in the <i>'Item states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
+msgid "item_restricted_powerobservers_states_descr"
+msgstr ""
 
 #. Default: "If you don't select anyone in this list, meeting signatory(ies) will be used for this item."
 msgid "item_signatories_descr"
@@ -2686,8 +2698,12 @@ msgstr "Um diesen Befehl auszuführen, muss das Datum dieser Sitzung in der Verg
 msgid "meeting_of"
 msgstr "Sitzung vom"
 
-#. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting."
+#. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 msgid "meeting_powerobservers_states_descr"
+msgstr ""
+
+#. Default: "When a meeting is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the meeting.  Theorically, there will be fewer states selected here than states selected in the <i>'Meeting states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
+msgid "meeting_restricted_powerobservers_states_descr"
 msgstr ""
 
 #. Default: "Signatories"
@@ -3371,6 +3387,10 @@ msgstr ""
 #. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"
 msgstr "Wenn Sie diese Box auswählen, wird PloneMeeting in eine Art Alarmzustand versetzt wenn zu viele Anfragen laufen, um die Anzahle Benutzer zu beschränken die Zugriff auf die Sitzungsseiten haben. Wenn dieser Zustand aktiviert ist, können nur die Sitzungsmanager (Rolle MeetingManager) und die Benutzer die in dem untenstehenden Feld aufgelistet sind die Sitzungen aufrufen und konsultieren."
+
+#. Default: "Restricted power observers"
+msgid "restrictedpowerobservers"
+msgstr ""
 
 #. Default: "You can access this item here: '${objectUrl}'."
 msgid "returnedToMeetingManagers_mail_body"

@@ -593,6 +593,10 @@ msgstr "Item states in wich powerObservers can see the items"
 msgid "PloneMeeting_label_itemReferenceFormat"
 msgstr "Format of the item reference"
 
+#. Default: "Item states in wich restricted power observers can see the items"
+msgid "PloneMeeting_label_itemRestrictedPowerObserversStates"
+msgstr ""
+
 #. Default: "Signatories for the item"
 msgid "PloneMeeting_label_itemSignatories"
 msgstr "Signatories for the item"
@@ -735,8 +739,13 @@ msgid "PloneMeeting_label_meetingObservations2"
 msgstr "Observations"
 
 #. Default: "Meeting states in wich power observers can see the meetings"
+#, fuzzy
 msgid "PloneMeeting_label_meetingPowerObserversStates"
 msgstr "Meeting states in wich powerObservers can see the meetings"
+
+#. Default: "Meeting states in wich restricted power observers can see the meetings"
+msgid "PloneMeeting_label_meetingRestrictedPowerObserversStates"
+msgstr ""
 
 #. Default: "Meeting states that condition the display of meetings in the 'meetings' portlet"
 msgid "PloneMeeting_label_meetingTopicStates"
@@ -2332,7 +2341,8 @@ msgstr "The item is signed. Click on the image to remove signature."
 msgid "item_number_invalid"
 msgstr "No move occurred: please specify a valid number."
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item."
+#. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
+#, fuzzy
 msgid "item_powerobservers_states_descr"
 msgstr "When an item is in one of the states you choose here, it will be possible for powerObservers of this meetingConfig to see the item."
 
@@ -2343,6 +2353,10 @@ msgstr "A reference is associated to every item. The reference format can be def
 #. Default: "In order to perform this action, at least one item should be inserted into this meeting."
 msgid "item_required_to_publish"
 msgstr "In order to perform this action, at least one item should be inserted into this meeting."
+
+#. Default: "When an item is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the item.  Theorically, there will be fewer states selected here than states selected in the <i>'Item states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
+msgid "item_restricted_powerobservers_states_descr"
+msgstr ""
 
 #. Default: "If you don't select anyone in this list, meeting signatory(ies) will be used for this item."
 msgid "item_signatories_descr"
@@ -2660,9 +2674,14 @@ msgstr "In order to perform this action, the meeting date must be in the past."
 msgid "meeting_of"
 msgstr "Meeting of"
 
-#. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting."
+#. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
+#, fuzzy
 msgid "meeting_powerobservers_states_descr"
 msgstr "When a meeting is in one of the states you choose here, it will be possible for powerObservers of this meetingConfig to see the meeting."
+
+#. Default: "When a meeting is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the meeting.  Theorically, there will be fewer states selected here than states selected in the <i>'Meeting states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
+msgid "meeting_restricted_powerobservers_states_descr"
+msgstr ""
 
 #. Default: "Signatories"
 msgid "meeting_signatories"
@@ -3344,6 +3363,10 @@ msgstr "Remove this information"
 #. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"
 msgstr "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
+
+#. Default: "Restricted power observers"
+msgid "restrictedpowerobservers"
+msgstr ""
 
 #. Default: "You can access this item here: '${objectUrl}'."
 msgid "returnedToMeetingManagers_mail_body"

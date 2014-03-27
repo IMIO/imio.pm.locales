@@ -593,6 +593,10 @@ msgstr "Etats des points dans lesquels les 'Super observateurs' peuvent les voir
 msgid "PloneMeeting_label_itemReferenceFormat"
 msgstr "Format de la référence d'un point"
 
+#. Default: "Item states in wich restricted power observers can see the items"
+msgid "PloneMeeting_label_itemRestrictedPowerObserversStates"
+msgstr "Etats des points dans lesquels les 'Super observateurs restreints' peuvent les voir"
+
 #. Default: "Signatories for the item"
 msgid "PloneMeeting_label_itemSignatories"
 msgstr "Signataires pour ce point"
@@ -737,6 +741,10 @@ msgstr "Observations"
 #. Default: "Meeting states in wich power observers can see the meetings"
 msgid "PloneMeeting_label_meetingPowerObserversStates"
 msgstr "Etats des séances dans lesquels les 'Super observateurs' peuvent les voir"
+
+#. Default: "Meeting states in wich restricted power observers can see the meetings"
+msgid "PloneMeeting_label_meetingRestrictedPowerObserversStates"
+msgstr "Etats des séances dans lesquels les 'Super observateurs restreints' peuvent les voir"
 
 #. Default: "Meeting states that condition the display of meetings in the 'meetings' portlet"
 msgid "PloneMeeting_label_meetingTopicStates"
@@ -2249,7 +2257,7 @@ msgstr "Quand un point est dans un des états que vous sélectionnez ici, il ser
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for groups the advice is asked for, to continue to view the item.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "item_advice_view_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera toujours visible par les personnes auxquelles un avis est demandé sur le point.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les avis!</span>"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera toujours visible par les utilisateurs auxquels un avis est demandé sur le point.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les avis!</span>"
 
 #. Default: "Assembly for the item"
 msgid "item_assembly"
@@ -2261,7 +2269,7 @@ msgstr "Si vous ne remplissez pas ce champ, l'assemblée définie sur la séance
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations."
 msgid "item_budget_infos_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour les personnes qui sont dans le groupe de 'Gestionnaires d'informations budgétaires' de cette configuration de séance de modifier les informations budgétaires.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les 'Gestionnaires d'informations budgétaires'!</span>"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour les utilisateurs qui sont dans le groupe de 'Gestionnaires d'informations budgétaires' de cette configuration de séance de modifier les informations budgétaires.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les 'Gestionnaires d'informations budgétaires'!</span>"
 
 #. Default: "Budgetary informations"
 msgid "item_budgetinfos_descr"
@@ -2331,9 +2339,9 @@ msgstr "Le point est signé, cliquez sur l'image pour enlever la signature."
 msgid "item_number_invalid"
 msgstr "Aucun déplacement n'a eu lieu: veuillez introduire un numéro valide."
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item."
+#. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 msgid "item_powerobservers_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les personnes qui sont dans le groupe de 'Super observateurs' de cette configuration de séance.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les 'Super observateurs'!</span>"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs' de cette configuration de séance.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les 'Super observateurs'!</span>"
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted item. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
 msgid "item_reference_format_descr"
@@ -2342,6 +2350,10 @@ msgstr "A chaque point est associé une référence dont le format peut être d�
 #. Default: "In order to perform this action, at least one item should be inserted into this meeting."
 msgid "item_required_to_publish"
 msgstr "Si vous voulez effectuer cette action, vous devez insérer au moins un point dans la séance."
+
+#. Default: "When an item is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the item.  Theorically, there will be fewer states selected here than states selected in the <i>'Item states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
+msgid "item_restricted_powerobservers_states_descr"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs restreints' de cette configuration de séance.  En théorie, vous aurez moins d'états sélectionnés ici que pour le champ <i>'Etats des points dans lesquels les 'Super observateurs' peuvent les voir'</i> ci-dessus.  Si vous n'utilisez pas cette fonctionnalité, ne sélectionnez aucun état.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les 'Super observateurs'!</span>"
 
 #. Default: "If you don't select anyone in this list, meeting signatory(ies) will be used for this item."
 msgid "item_signatories_descr"
@@ -2658,9 +2670,13 @@ msgstr "Cette action ne peut être effectuée tant que la séance n'a pas eu lie
 msgid "meeting_of"
 msgstr "Séance du"
 
-#. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting."
+#. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 msgid "meeting_powerobservers_states_descr"
-msgstr "Quand une séance est dans un des états que vous sélectionnez ici, elle sera visible par les personnes qui sont dans le groupe de 'Super observateurs' de cette configuration de séance.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les 'Super observateurs'!</span>"
+msgstr "Quand une séance est dans un des états que vous sélectionnez ici, elle sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs' de cette configuration de séance.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les 'Super observateurs'!</span>"
+
+#. Default: "When a meeting is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the meeting.  Theorically, there will be fewer states selected here than states selected in the <i>'Meeting states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
+msgid "meeting_restricted_powerobservers_states_descr"
+msgstr "Quand une séance est dans un des états que vous sélectionnez ici, elle sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs restreints' de cette configuration de séance.  En théorie, vous aurez moins d'états sélectionnés ici que pour le champ <i>'Etats des séances dans lesquels les 'Super observateurs' peuvent les voir'</i> ci-dessus.  Si vous n'utilisez pas cette fonctionnalité, ne sélectionnez aucun état.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les 'Super observateurs'!</span>"
 
 #. Default: "Signatories"
 msgid "meeting_signatories"
@@ -3341,6 +3357,10 @@ msgstr "Supprimer cette information"
 #. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"
 msgstr "Si vous cochez cette case, PloneMeeting entre dans une sorte de mode d'urgence qui permet, lors de fortes charges, de limiter le nombre d'utilisateurs ayant accès à la page de visualisation des séances. Si ce mode est activé, seuls les gestionnaires de séance (rôle MeetingManager) et les utilisateurs listés dans le champ ci-dessous pourront accéder aux pages de visualisation des séances."
+
+#. Default: "Restricted power observers"
+msgid "restrictedpowerobservers"
+msgstr "Super observateurs restreints"
 
 #. Default: "You can access this item here: '${objectUrl}'."
 msgid "returnedToMeetingManagers_mail_body"
