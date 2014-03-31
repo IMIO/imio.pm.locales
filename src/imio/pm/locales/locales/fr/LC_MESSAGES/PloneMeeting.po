@@ -441,6 +441,10 @@ msgstr "Fonction dans la seconde langue"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Activer l'invalidation des avis"
 
+#. Default: "Enable annex confidentiality"
+msgid "PloneMeeting_label_enableAnnexConfidentiality"
+msgstr "Activer la confidentialité des annexes"
+
 #. Default: "Enable annex preview"
 msgid "PloneMeeting_label_enableAnnexPreview"
 msgstr "Activer la prévisualisation des annexes"
@@ -516,6 +520,14 @@ msgstr "Attributs des séances pour lesquels l'historique doit être conservé"
 #. Default: "Holidays"
 msgid "PloneMeeting_label_holidays"
 msgstr "Jours fériés"
+
+#. Default: "Confidential ?"
+msgid "PloneMeeting_label_isConfidential"
+msgstr "Confidentiel?"
+
+#. Default: "Default value of the 'Confidential ?' attribute of created annexes"
+msgid "PloneMeeting_label_isConfidentialDefault"
+msgstr "Valeur par défaut du champ 'Confidentiel?' des annexes créées"
 
 #. Default: "This configuration is the default meeting configuration"
 msgid "PloneMeeting_label_isDefault"
@@ -1362,6 +1374,22 @@ msgstr "Si vous cochez cette case, les annexes ajoutées à un avis seront marqu
 msgid "annex_decision_to_print_default_descr"
 msgstr "Si vous cochez cette case, les annexes à la décision ajoutées à un point seront marquées comme 'à imprimer' par défaut."
 
+#. Default: "The annex is not confidential and will be visible by everybody who has access to this item."
+msgid "annex_is_confidential_no"
+msgstr "Cette annexe n'est pas confidentielle et sera visible par toutes personnes ayant accès au point."
+
+#. Default: "The annex is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
+msgid "annex_is_confidential_no_edit"
+msgstr "Cette annexe n'est pas confidentielle et sera visible par toutes personnes ayant accès au point.  Cliquez sur l'image pour rendre l'annexe confidentielle."
+
+#. Default: "The annex is confidential and will not be visible by restricted power observers."
+msgid "annex_is_confidential_yes"
+msgstr "Cette annexe est confidentielle et ne sera pas visible par les super observateurs restreints."
+
+#. Default: "The annex is confidential and will not be visible by restricted power observers.  Click on the image to set it as not confidential."
+msgid "annex_is_confidential_yes_edit"
+msgstr "Cette annexe est confidentielle et ne sera pas visible par les super observateurs restreints.  Cliquez sur l'image pour rendre l'annexe non confidentielle."
+
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titre"
@@ -1804,6 +1832,10 @@ msgstr "${portalTitle} - ${objectTitle} - Un problème est survenu lors de la g�
 msgid "enable_advice_invalidation_descr"
 msgstr "Quand l'invalidation des avis est activée, tout changement sur un point pour lequel au moins un avis a été rendu invalidera tous les avis rendus sur ce point. Par 'changement', nous entendons toute modification de l'objet ou de la description du point ainsi que tout ajout et toute suppression d'annexe."
 
+#. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  A confidential annex will not be visible by restricted power observers.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
+msgid "enable_annex_confidentiality_descr"
+msgstr "Si vous activez la confidentialité des annexes, il sera possible pour les gestionnaires de séances de définir pour chaque annexe si elle est confidentielle ou non.  Une annexe confidentielle n'est pas visible par les 'Super observateurs restreints'.  Cette information ne sera visible que par les gestionnaires de séances.  Il sera aussi possible de définir une valeur par défaut pour ce champ sur les types d'annexes."
+
 #. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
 msgstr "Si la prévisualisation est activée, les annexes seront converties dans un format qui pourra être lu par le navigateur web.  Ceci évite les problèmes de logiciel manquant pour ouvrir une annexe (plus besoin de Word pour ouvrir un .doc, plus besoin d'Acrobat Reader pour ouvrir un .pdf, ...).  <span style='color: red';>Si vous activez la prévisualisation sur un site contenant déjà des points et annexes, n'oubliez pas de lancer la procédure de conversion des annexes!</span>"
@@ -2182,6 +2214,10 @@ msgstr "Absent?"
 #. Default: "Attendee?"
 msgid "is_attendee"
 msgstr "Présent?"
+
+#. Default: "If annex confidentiality is enabled on the meeting configuration (in the 'Data' tab), you can define here the default value of the 'Confidential ?' attribute for annexes that will be created using this meeting file type.  This default value will be editable on created annexes by meeting managers."
+msgid "is_confidential_default_descr"
+msgstr "Si la confidentialité des annexes est activée pour cette configuration de séance (onglet 'Données'), vous pouvez définir ici la valeur par défaut du champ 'Confidentiel ?' des annexes créées utilisant ce type de fichier.  Cette valeur pourra être modifiée par les gestionnaires de séances sur les annexes créées."
 
 #. Default: "Excused?"
 msgid "is_excused"

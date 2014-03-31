@@ -59,6 +59,14 @@ msgstr "Configuration active pour les points créés depuis le"
 msgid "Rule activated for item created until"
 msgstr "Configuration active pour les points créés jusqu'au"
 
+#. Default: "Default value of the 'Confidential ?' attribute of created annexes"
+msgid "Sub type confidentiality of created annexes"
+msgstr "Valeur par défaut du champ 'Confidentiel?' des annexes créées"
+
+#. Default: "Please look the help message of the field 'Default value of the 'Confidential ?' attribute of created annexes' here above.  Simply note that if nothing is defined here, the value defined in the field above will be used."
+msgid "Sub type confidentiality of created annexes description."
+msgstr "Consultez le message de description du champ 'Valeur par défaut du champ 'Confidentiel?' des annexes créées' ci-dessus.  Notez simplement que si rien n'est défini ici, les valeurs du champ ci-dessus seront utilisées."
+
 #. Default: "Correspondences while sent to other meeting configs"
 msgid "Sub type correspondences while sent to other meeting configs"
 msgstr "Correspondances lors de l'envoi vers un autre type de séance"
@@ -118,4 +126,3 @@ msgstr "Si vous souhaitez qu'un message d'aide spécifique soit affiché au surv
 #. Default: "Please use following format : YYYY/MM/DD.  Dates must be sorted (from older to newer)."
 msgid "holiday_date_col_descr"
 msgstr "Utilisez le format suivant : AAAA/MM/DD.  Les dates doivent être triées dans un ordre croissant (de la plus ancienne à la plus récente)."
-

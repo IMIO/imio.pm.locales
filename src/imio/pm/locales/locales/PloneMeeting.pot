@@ -248,6 +248,10 @@ msgstr ""
 msgid "PloneMeeting_label_toPrint"
 msgstr ""
 
+#. Default: "Confidential ?"
+msgid "PloneMeeting_label_isConfidential"
+msgstr ""
+
 #. Default: "Item is signed ?"
 msgid "PloneMeeting_label_itemIsSigned"
 msgstr ""
@@ -823,6 +827,22 @@ msgstr ""
 
 #. Default: "The annex will not be printed. Click on the image to print it."
 msgid "annex_to_print_no_edit"
+msgstr ""
+
+#. Default: "The annex is confidential and will not be visible by restricted power observers."
+msgid "annex_is_confidential_yes"
+msgstr ""
+
+#. Default: "The annex is not confidential and will be visible by everybody who has access to this item."
+msgid "annex_is_confidential_no"
+msgstr ""
+
+#. Default: "The annex is confidential and will not be visible by restricted power observers.  Click on the image to set it as not confidential."
+msgid "annex_is_confidential_yes_edit"
+msgstr ""
+
+#. Default: "The annex is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
+msgid "annex_is_confidential_no_edit"
 msgstr ""
 
 #. Default: "To be discussed during the meeting."
@@ -2063,6 +2083,14 @@ msgstr ""
 msgid "PloneMeeting_label_useUserReplacements"
 msgstr ""
 
+#. Default: "Enable annex confidentiality"
+msgid "PloneMeeting_label_enableAnnexConfidentiality"
+msgstr ""
+
+#. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  A confidential annex will not be visible by restricted power observers.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
+msgid "enable_annex_confidentiality_descr"
+msgstr ""
+
 #. Default: "User replacements allow you to select a replacement user for any absent or excused user in a meeting."
 msgid "use_user_replacements_descr"
 msgstr ""
@@ -2864,6 +2892,14 @@ msgstr ""
 
 #. Default: "Meeting file sub types"
 msgid "PloneMeeting_label_subTypes"
+msgstr ""
+
+#. Default: "Default value of the 'Confidential ?' attribute of created annexes"
+msgid "PloneMeeting_label_isConfidentialDefault"
+msgstr ""
+
+#. Default: "If annex confidentiality is enabled on the meeting configuration (in the 'Data' tab), you can define here the default value of the 'Confidential ?' attribute for annexes that will be created using this meeting file type.  This default value will be editable on created annexes by meeting managers."
+msgid "is_confidential_default_descr"
 msgstr ""
 
 #. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."

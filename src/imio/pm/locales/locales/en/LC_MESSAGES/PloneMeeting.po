@@ -441,6 +441,10 @@ msgstr "Duty in the second language"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Enable advice invalidation"
 
+#. Default: "Enable annex confidentiality"
+msgid "PloneMeeting_label_enableAnnexConfidentiality"
+msgstr ""
+
 #. Default: "Enable annex preview"
 msgid "PloneMeeting_label_enableAnnexPreview"
 msgstr "Enable annex preview"
@@ -516,6 +520,14 @@ msgstr "Meeting attributes for which history must be kept"
 #. Default: "Holidays"
 msgid "PloneMeeting_label_holidays"
 msgstr "Holidays"
+
+#. Default: "Confidential ?"
+msgid "PloneMeeting_label_isConfidential"
+msgstr ""
+
+#. Default: "Default value of the 'Confidential ?' attribute of created annexes"
+msgid "PloneMeeting_label_isConfidentialDefault"
+msgstr "Default value of the 'Confidential ?' attribute of created annexes"
 
 #. Default: "This configuration is the default meeting configuration"
 msgid "PloneMeeting_label_isDefault"
@@ -1362,6 +1374,22 @@ msgstr "Default value of the 'to print' checkbox for advice annexes."
 msgid "annex_decision_to_print_default_descr"
 msgstr "Default value of the 'to print' checkbox for decision annexes."
 
+#. Default: "The annex is not confidential and will be visible by everybody who has access to this item."
+msgid "annex_is_confidential_no"
+msgstr ""
+
+#. Default: "The annex is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
+msgid "annex_is_confidential_no_edit"
+msgstr ""
+
+#. Default: "The annex is confidential and will not be visible by restricted power observers."
+msgid "annex_is_confidential_yes"
+msgstr ""
+
+#. Default: "The annex is confidential and will not be visible by restricted power observers.  Click on the image to set it as not confidential."
+msgid "annex_is_confidential_yes_edit"
+msgstr ""
+
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Title"
@@ -1804,6 +1832,10 @@ msgstr "${portalTitle} - ${objectTitle} - A problem occurred while generating a 
 msgid "enable_advice_invalidation_descr"
 msgstr "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A 'change' is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."
 
+#. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  A confidential annex will not be visible by restricted power observers.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
+msgid "enable_annex_confidentiality_descr"
+msgstr ""
+
 #. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
 msgstr "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
@@ -2182,6 +2214,10 @@ msgstr "Absent?"
 #. Default: "Attendee?"
 msgid "is_attendee"
 msgstr "Attendee?"
+
+#. Default: "If annex confidentiality is enabled on the meeting configuration (in the 'Data' tab), you can define here the default value of the 'Confidential ?' attribute for annexes that will be created using this meeting file type.  This default value will be editable on created annexes by meeting managers."
+msgid "is_confidential_default_descr"
+msgstr ""
 
 #. Default: "Excused?"
 msgid "is_excused"
@@ -4021,4 +4057,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-
