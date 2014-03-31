@@ -595,7 +595,7 @@ msgstr "Format of the item reference"
 
 #. Default: "Item states in wich restricted power observers can see the items"
 msgid "PloneMeeting_label_itemRestrictedPowerObserversStates"
-msgstr ""
+msgstr "Item states in wich restricted power observers can see the items"
 
 #. Default: "Signatories for the item"
 msgid "PloneMeeting_label_itemSignatories"
@@ -739,13 +739,12 @@ msgid "PloneMeeting_label_meetingObservations2"
 msgstr "Observations"
 
 #. Default: "Meeting states in wich power observers can see the meetings"
-#, fuzzy
 msgid "PloneMeeting_label_meetingPowerObserversStates"
-msgstr "Meeting states in wich powerObservers can see the meetings"
+msgstr "Meeting states in wich power observers can see the meetings"
 
 #. Default: "Meeting states in wich restricted power observers can see the meetings"
 msgid "PloneMeeting_label_meetingRestrictedPowerObserversStates"
-msgstr ""
+msgstr "Meeting states in wich restricted power observers can see the meetings"
 
 #. Default: "Meeting states that condition the display of meetings in the 'meetings' portlet"
 msgid "PloneMeeting_label_meetingTopicStates"
@@ -802,7 +801,7 @@ msgstr "Oral question ?"
 
 #. Default: "Correspondences while sent to other meeting configs"
 msgid "PloneMeeting_label_otherMCCorrespondences"
-msgstr ""
+msgstr "Correspondences while sent to other meeting configs"
 
 #. Default: "Other meeting configs clonable to"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableTo"
@@ -962,7 +961,7 @@ msgstr "Effective start date and hour"
 
 #. Default: "Meeting file sub types"
 msgid "PloneMeeting_label_subTypes"
-msgstr ""
+msgstr "Meeting file sub types"
 
 #. Default: "Role shipped with the external task module, allowing to create tasks"
 msgid "PloneMeeting_label_taskCreatorRole"
@@ -1297,7 +1296,7 @@ msgstr "Advices and access"
 
 #. Default: "Delay of advices have been reinitialized if any advice with delay where asked."
 msgid "advices_delays_reinitialized"
-msgstr ""
+msgstr "Delay of advices have been reinitialized if any advice with delay where asked."
 
 #. Default: "Hands"
 msgid "advices_hands"
@@ -1486,7 +1485,7 @@ msgstr "This item is not budget related."
 
 #. Default: "This item is not budget related, click on the icon to fill in 'Budgetary informations'."
 msgid "budget_related_no_img_title_edit"
-msgstr ""
+msgstr "This item is not budget related, click on the icon to fill in 'Budgetary informations'."
 
 #. Default: "This item is not budget related."
 msgid "budget_related_no_view"
@@ -1498,7 +1497,7 @@ msgstr "This item is budget related, check 'Budgetary informations' here under."
 
 #. Default: "This item is budget related, click on the icon to hide 'Budgetary informations'."
 msgid "budget_related_yes_img_title_edit"
-msgstr ""
+msgstr "This item is budget related, click on the icon to hide 'Budgetary informations'."
 
 #. Default: "This item is budget related, check 'Budgetary informations' here under."
 msgid "budget_related_yes_view"
@@ -1669,9 +1668,8 @@ msgid "custom_adviser_can_not_edit_used_row"
 msgstr "You can not change the logical values of a configuration that has already been used in the application.  Check the configuration for group '${adviser_group}', it is in use for example by item at ${item_url}. The old value (${column_old_data}) for column '${column_name}' changed. If you need to adapt it, you need to deactivate it by setting a 'For item created until' date and create another configuration."
 
 #. Default: "You can not remove a configuration that has already been used in the application.  You removed a configuration for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
-#, fuzzy
 msgid "custom_adviser_can_not_remove_used_row"
-msgstr "You can not remove a configuration that has already been used in the application.  You removed a configuration for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please add it back (or edit the current MeetingConfig again to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
+msgstr "You can not remove a configuration that has already been used in the application.  You removed a configuration for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
 
 #. Default: "There is a problem with a delay in the 'Delay' or 'Delay left alert' column, please check encoded value for group '${groupName}', make sure that the value defined in the 'Delay' column is higher or equals the value defined in the 'Delay left alert' column.  Leave field 'Delay left alert' empty if not relevant."
 msgid "custom_adviser_delay_left_must_be_inferior_to_delay"
@@ -2342,9 +2340,8 @@ msgid "item_number_invalid"
 msgstr "No move occurred: please specify a valid number."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
-#, fuzzy
 msgid "item_powerobservers_states_descr"
-msgstr "When an item is in one of the states you choose here, it will be possible for powerObservers of this meetingConfig to see the item."
+msgstr "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted item. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
 msgid "item_reference_format_descr"
@@ -2356,7 +2353,7 @@ msgstr "In order to perform this action, at least one item should be inserted in
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the item.  Theorically, there will be fewer states selected here than states selected in the <i>'Item states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 msgid "item_restricted_powerobservers_states_descr"
-msgstr ""
+msgstr "When an item is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the item.  Theorically, there will be fewer states selected here than states selected in the <i>'Item states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 
 #. Default: "If you don't select anyone in this list, meeting signatory(ies) will be used for this item."
 msgid "item_signatories_descr"
@@ -2675,13 +2672,12 @@ msgid "meeting_of"
 msgstr "Meeting of"
 
 #. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
-#, fuzzy
 msgid "meeting_powerobservers_states_descr"
-msgstr "When a meeting is in one of the states you choose here, it will be possible for powerObservers of this meetingConfig to see the meeting."
+msgstr "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 
 #. Default: "When a meeting is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the meeting.  Theorically, there will be fewer states selected here than states selected in the <i>'Meeting states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 msgid "meeting_restricted_powerobservers_states_descr"
-msgstr ""
+msgstr "When a meeting is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the meeting.  Theorically, there will be fewer states selected here than states selected in the <i>'Meeting states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 
 #. Default: "Signatories"
 msgid "meeting_signatories"
@@ -2959,6 +2955,10 @@ msgstr "No visible item for now."
 msgid "no_signatories_and_signatures"
 msgstr "Attributes 'signatures' and 'signatories' can't be used together."
 
+#. Default: "No subtypes defined."
+msgid "no_sub_types_defined"
+msgstr "No subtypes defined."
+
 #. Default: "No topic is currently defined."
 msgid "no_topic_folder"
 msgstr "No topic is currently defined."
@@ -3057,7 +3057,7 @@ msgstr " "
 
 #. Default: "When an item is sent to another meeting config, the annexes of the new item will use meeting file types of the new meeting config.  Define here the correspondences for each meeting config the items of this meeting config can  be sent to.  If you do not define correspondences, the application will use the default meeting file type (first found).  This will not be used if 'Related to advice' is used in the 'Related to' field here above because advices are not kept while an item is sent to another meeting config.  Please select only one value by meeting config the item is sendable to."
 msgid "other_mc_correspondences_descr"
-msgstr ""
+msgstr "When an item is sent to another meeting config, the annexes of the new item will use meeting file types of the new meeting config.  Define here the correspondences for each meeting config the items of this meeting config can  be sent to.  If you do not define correspondences, the application will use the default meeting file type (first found).  This will not be used if 'Related to advice' is used in the 'Related to' field here above because advices are not kept while an item is sent to another meeting config.  Please select only one value by meeting config the item is sendable to."
 
 #. Default: "Other"
 msgid "other_place"
@@ -3113,7 +3113,7 @@ msgstr "Identifier"
 
 #. Default: "Annex type"
 msgid "pm_annex_type"
-msgstr ""
+msgstr "Annex type"
 
 #. Default: "Configure PloneMeeting"
 msgid "pm_configuration"
@@ -3366,7 +3366,7 @@ msgstr "If you check this box, PloneMeeting will enter into a kind of 'emergency
 
 #. Default: "Restricted power observers"
 msgid "restrictedpowerobservers"
-msgstr ""
+msgstr "Restricted power observers"
 
 #. Default: "You can access this item here: '${objectUrl}'."
 msgid "returnedToMeetingManagers_mail_body"
@@ -3632,11 +3632,11 @@ msgstr "Colorize depending on state"
 
 #. Default: "You can not remove a sub type that has already been used in the application.  You removed the sub type with title '${sub_type_title}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate a sub type, you can uncheck the 'Active?' check box."
 msgid "sub_type_can_not_remove_used_row"
-msgstr ""
+msgstr "You can not remove a sub type that has already been used in the application.  You removed the sub type with title '${sub_type_title}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate a sub type, you can uncheck the 'Active?' check box."
 
 #. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
 msgid "sub_types_descr"
-msgstr ""
+msgstr "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
 
 #. Default: "Switch mode (secret / not secret)"
 msgid "switch_votes"
@@ -4003,9 +4003,8 @@ msgid "workflow"
 msgstr "Workflows"
 
 #. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling.  <span style='color: red';>If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check meeting groups !</span>"
-#, fuzzy
 msgid "workflow_adaptations_descr"
-msgstr "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling."
+msgstr "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling.  <span style='color: red';>If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check meeting groups !</span>"
 
 #. Default: "This will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "working_days_descr"
