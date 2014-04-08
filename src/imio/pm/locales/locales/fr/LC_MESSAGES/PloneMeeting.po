@@ -341,6 +341,14 @@ msgstr "Classificateur"
 msgid "PloneMeeting_label_colorSystemDisabledFor"
 msgstr "Désactiver le système de couleurs pour les utilisateurs suivants"
 
+#. Default: "Completeness"
+msgid "PloneMeeting_label_completeness"
+msgstr "Complétude"
+
+#. Default: "Completeness comment"
+msgid "PloneMeeting_label_completenessComment"
+msgstr "Commentaire sur la complétude en cas de dossier incomplet"
+
 #. Default: "Identifier of this meeting configuration"
 msgid "PloneMeeting_label_configVersion"
 msgstr "Identifiant de la version de cette configuration"
@@ -1610,6 +1618,22 @@ msgstr "Envoyer vers"
 #. Default: "If the color system is enabled (previous parameter), it will be disabled for the users whose ids are specified here (one user id per line)."
 msgid "color_system_disabled_for_descr"
 msgstr "Si le système de couleurs est activé (paramètre précédent), il sera néanmoins désactivé pour les utilisateurs dont vous spécifiez les identifiants ci-dessous (un identifiant par ligne)."
+
+#. Default: "Complete"
+msgid "completeness_complete"
+msgstr "Le point est complet"
+
+#. Default: "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
+msgid "completeness_descr"
+msgstr "Spécifiez ici le niveau de complétude de ce point.  Si vous sélectionnez 'Le point est incomplet', une zone de commentaire supplémentaire sera affichée et vous permettra de détailler les pièces manquantes."
+
+#. Default: "Incomplete"
+msgid "completeness_incomplete"
+msgstr "Le point est incomplet"
+
+#. Default: "Not yet evaluated"
+msgid "completeness_not_yet_evaluated"
+msgstr "La complétude du point n'a pas encore été évaluée"
 
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"

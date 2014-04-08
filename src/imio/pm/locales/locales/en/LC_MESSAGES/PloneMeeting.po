@@ -341,6 +341,14 @@ msgstr "Classifier"
 msgid "PloneMeeting_label_colorSystemDisabledFor"
 msgstr "Disable color system for the following users"
 
+#. Default: "Completeness"
+msgid "PloneMeeting_label_completeness"
+msgstr ""
+
+#. Default: "Completeness comment"
+msgid "PloneMeeting_label_completenessComment"
+msgstr ""
+
 #. Default: "Identifier of this meeting configuration"
 msgid "PloneMeeting_label_configVersion"
 msgstr "Identifier of this meeting configuration"
@@ -1610,6 +1618,22 @@ msgstr "Clone to"
 #. Default: "If the color system is enabled (previous parameter), it will be disabled for the users whose ids are specified here (one user id per line)."
 msgid "color_system_disabled_for_descr"
 msgstr "If the color system is enabled (previous parameter), it will be disabled for the users whose ids are specified here (one user id per line)."
+
+#. Default: "Complete"
+msgid "completeness_complete"
+msgstr ""
+
+#. Default: "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
+msgid "completeness_descr"
+msgstr ""
+
+#. Default: "Incomplete"
+msgid "completeness_incomplete"
+msgstr ""
+
+#. Default: "Not yet evaluated"
+msgid "completeness_not_yet_evaluated"
+msgstr ""
 
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
@@ -4057,3 +4081,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+
