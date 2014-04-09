@@ -347,7 +347,7 @@ msgstr "Complétude"
 
 #. Default: "Completeness comment"
 msgid "PloneMeeting_label_completenessComment"
-msgstr "Commentaire sur la complétude en cas de dossier incomplet"
+msgstr "Commentaire sur la complétude en cas de point incomplet"
 
 #. Default: "Identifier of this meeting configuration"
 msgid "PloneMeeting_label_configVersion"
@@ -1185,10 +1185,6 @@ msgstr "Une erreur est survenue en essayant de définir cette annexe comme 'à i
 msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
 msgstr "Cet avis ne peut plus être rendu, il a été demandé le ${advice_delay_started_on} et pouvait l'être jusqu'au ${advice_delay_limit_date}."
 
-#. Default: "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
-msgid "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
-msgstr "Cet avis n'est pas visible par les émetteurs d'avis de ce groupe dans l'état actuel du point (${item_review_state})."
-
 #. Default: "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgid "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgstr "Avis demandé le ${advice_asked_on_date} et rendu le ${advice_given_on_date}."
@@ -1196,6 +1192,10 @@ msgstr "Avis demandé le ${advice_asked_on_date} et rendu le ${advice_given_on_d
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgstr "Cet avis a été automatiquement demandé par l'application (montré par le fait que le titre n'est pas entre parenthèses)"
+
+#. Default: "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
+msgid "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
+msgstr "Ce point n'est pas visible par les émetteurs d'avis de ce groupe dans son état actuel (${item_review_state})."
 
 #. Default: "This optional advice was asked by the item creators (shown by his title being between brackets)"
 msgid "This optional advice was asked by the item creators (shown by his title being between brackets)"
@@ -4071,4 +4071,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

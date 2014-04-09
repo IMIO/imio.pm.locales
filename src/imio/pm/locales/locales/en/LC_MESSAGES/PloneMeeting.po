@@ -343,11 +343,11 @@ msgstr "Disable color system for the following users"
 
 #. Default: "Completeness"
 msgid "PloneMeeting_label_completeness"
-msgstr ""
+msgstr "Completeness"
 
 #. Default: "Completeness comment"
 msgid "PloneMeeting_label_completenessComment"
-msgstr ""
+msgstr "Completeness comment"
 
 #. Default: "Identifier of this meeting configuration"
 msgid "PloneMeeting_label_configVersion"
@@ -451,7 +451,7 @@ msgstr "Enable advice invalidation"
 
 #. Default: "Enable annex confidentiality"
 msgid "PloneMeeting_label_enableAnnexConfidentiality"
-msgstr ""
+msgstr "Enable annex confidentiality"
 
 #. Default: "Enable annex preview"
 msgid "PloneMeeting_label_enableAnnexPreview"
@@ -531,7 +531,7 @@ msgstr "Holidays"
 
 #. Default: "Confidential ?"
 msgid "PloneMeeting_label_isConfidential"
-msgstr ""
+msgstr "Confidential ?"
 
 #. Default: "Default value of the 'Confidential ?' attribute of created annexes"
 msgid "PloneMeeting_label_isConfidentialDefault"
@@ -1185,10 +1185,6 @@ msgstr "There was an error while trying to set this annex to printable. The erro
 msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
 msgstr "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
 
-#. Default: "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
-msgid "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
-msgstr "This advice is not viewable by the advisers of this group in the current item state (${item_review_state})."
-
 #. Default: "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgid "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgstr "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
@@ -1196,6 +1192,10 @@ msgstr "This advice was asked on ${advice_asked_on_date} and was given on ${advi
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgstr "This automatic advice has been asked by the application (shown by his title not being between brackets)"
+
+#. Default: "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
+msgid "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
+msgstr "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
 
 #. Default: "This optional advice was asked by the item creators (shown by his title being between brackets)"
 msgid "This optional advice was asked by the item creators (shown by his title being between brackets)"
@@ -1384,19 +1384,19 @@ msgstr "Default value of the 'to print' checkbox for decision annexes."
 
 #. Default: "The annex is not confidential and will be visible by everybody who has access to this item."
 msgid "annex_is_confidential_no"
-msgstr ""
+msgstr "The annex is not confidential and will be visible by everybody who has access to this item."
 
 #. Default: "The annex is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
 msgid "annex_is_confidential_no_edit"
-msgstr ""
+msgstr "The annex is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
 
 #. Default: "The annex is confidential and will not be visible by restricted power observers."
 msgid "annex_is_confidential_yes"
-msgstr ""
+msgstr "The annex is confidential and will not be visible by restricted power observers."
 
 #. Default: "The annex is confidential and will not be visible by restricted power observers.  Click on the image to set it as not confidential."
 msgid "annex_is_confidential_yes_edit"
-msgstr ""
+msgstr "The annex is confidential and will not be visible by restricted power observers.  Click on the image to set it as not confidential."
 
 #. Default: "Title"
 msgid "annex_title"
@@ -1621,11 +1621,11 @@ msgstr "If the color system is enabled (previous parameter), it will be disabled
 
 #. Default: "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
 msgid "completeness_descr"
-msgstr ""
+msgstr "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
 
 #. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label, check this field."
 msgid "completeness_incomplete_check_completenessComment"
-msgstr ""
+msgstr "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label, check this field."
 
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
@@ -1850,7 +1850,7 @@ msgstr "When advice invalidation is enabled, every change to an item for which a
 
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  A confidential annex will not be visible by restricted power observers.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
-msgstr ""
+msgstr "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  A confidential annex will not be visible by restricted power observers.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 
 #. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
@@ -2233,7 +2233,7 @@ msgstr "Attendee?"
 
 #. Default: "If annex confidentiality is enabled on the meeting configuration (in the 'Data' tab), you can define here the default value of the 'Confidential ?' attribute for annexes that will be created using this meeting file type.  This default value will be editable on created annexes by meeting managers."
 msgid "is_confidential_default_descr"
-msgstr ""
+msgstr "If annex confidentiality is enabled on the meeting configuration (in the 'Data' tab), you can define here the default value of the 'Confidential ?' attribute for annexes that will be created using this meeting file type.  This default value will be editable on created annexes by meeting managers."
 
 #. Default: "Excused?"
 msgid "is_excused"
@@ -4073,4 +4073,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-
