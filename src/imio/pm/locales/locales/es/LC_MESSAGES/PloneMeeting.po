@@ -1624,20 +1624,12 @@ msgstr "Clonar a"
 msgid "color_system_disabled_for_descr"
 msgstr "Si el color del sistema es habilitado (parámetro anterior), ese deshabilitará para todos los identificadores de usuarios (ids) especificados aquí (un identificador de usuario por linea)."
 
-#. Default: "Complete"
-msgid "completeness_complete"
-msgstr ""
-
 #. Default: "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
 msgid "completeness_descr"
 msgstr ""
 
-#. Default: "Incomplete"
-msgid "completeness_incomplete"
-msgstr ""
-
-#. Default: "Not yet evaluated"
-msgid "completeness_not_yet_evaluated"
+#. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label, check this field."
+msgid "completeness_incomplete_check_completenessComment"
 msgstr ""
 
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."

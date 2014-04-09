@@ -1632,20 +1632,12 @@ msgstr ""
 msgid "color_system_disabled_for_descr"
 msgstr "Wenn das Farbsystem aktiviert ist (vorherige Einstellung), wird es trotzdem für die Benutzer die hier eingetragen werden deaktiviert (Eine BenutzerId pro Zeile)."
 
-#. Default: "Complete"
-msgid "completeness_complete"
-msgstr ""
-
 #. Default: "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
 msgid "completeness_descr"
 msgstr ""
 
-#. Default: "Incomplete"
-msgid "completeness_incomplete"
-msgstr ""
-
-#. Default: "Not yet evaluated"
-msgid "completeness_not_yet_evaluated"
+#. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label, check this field."
+msgid "completeness_incomplete_check_completenessComment"
 msgstr ""
 
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."

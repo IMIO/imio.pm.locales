@@ -1619,21 +1619,13 @@ msgstr "Envoyer vers"
 msgid "color_system_disabled_for_descr"
 msgstr "Si le système de couleurs est activé (paramètre précédent), il sera néanmoins désactivé pour les utilisateurs dont vous spécifiez les identifiants ci-dessous (un identifiant par ligne)."
 
-#. Default: "Complete"
-msgid "completeness_complete"
-msgstr "Le point est complet"
-
 #. Default: "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
 msgid "completeness_descr"
 msgstr "Spécifiez ici le niveau de complétude de ce point.  Si vous sélectionnez 'Le point est incomplet', une zone de commentaire supplémentaire sera affichée et vous permettra de détailler les pièces manquantes."
 
-#. Default: "Incomplete"
-msgid "completeness_incomplete"
-msgstr "Le point est incomplet"
-
-#. Default: "Not yet evaluated"
-msgid "completeness_not_yet_evaluated"
-msgstr "La complétude du point n'a pas encore été évaluée"
+#. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label, check this field."
+msgid "completeness_incomplete_check_completenessComment"
+msgstr "Lorsqu'un point est considéré 'Incomplet', des informations supplémentaires sont affichées sous le label 'Complétude', consultez ces informations."
 
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
