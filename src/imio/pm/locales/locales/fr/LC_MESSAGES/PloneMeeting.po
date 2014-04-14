@@ -139,6 +139,10 @@ msgstr "Encodez les signatures qui devront être appliquées.  La valeur affich�
 msgid "Group"
 msgstr "Groupe"
 
+#. Default: "History of emergency changes"
+msgid "History of emergency changes"
+msgstr "Historique des changements du champ 'Urgence'"
+
 #. Default: "How many items to list in each topic."
 msgid "How many items to list in each topic."
 msgstr "Nombre d'éléments à afficher par recherche dans le portlet."
@@ -444,6 +448,10 @@ msgstr "Fonction"
 #. Default: "Duty in the second language"
 msgid "PloneMeeting_label_duty2"
 msgstr "Fonction dans la seconde langue"
+
+#. Default: "Emergency"
+msgid "PloneMeeting_label_emergency"
+msgstr "Urgence"
 
 #. Default: "Enable advice invalidation"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
@@ -1619,10 +1627,6 @@ msgstr "Envoyer vers"
 msgid "color_system_disabled_for_descr"
 msgstr "Si le système de couleurs est activé (paramètre précédent), il sera néanmoins désactivé pour les utilisateurs dont vous spécifiez les identifiants ci-dessous (un identifiant par ligne)."
 
-#. Default: "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
-msgid "completeness_descr"
-msgstr "Spécifiez ici le niveau de complétude de ce point.  Si vous sélectionnez 'Le point est incomplet', une zone de commentaire supplémentaire sera affichée et vous permettra de détailler les pièces manquantes."
-
 #. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label, check this field."
 msgid "completeness_incomplete_check_completenessComment"
 msgstr "Lorsqu'un point est considéré 'Incomplet', des informations supplémentaires sont affichées sous le label 'Complétude', consultez ces informations."
@@ -1843,6 +1847,18 @@ msgstr "Il s'agit probablement d'un problème dû à la génération de document
 #. Default: "${portalTitle} - ${objectTitle} - A problem occurred while generating a document for this object."
 msgid "documentGenerationFailed_mail_subject"
 msgstr "${portalTitle} - ${objectTitle} - Un problème est survenu lors de la génération d'un document pour cet objet."
+
+#. Default: "Emergency accepted"
+msgid "emergency_accepted"
+msgstr "Urgence acceptée"
+
+#. Default: "Emergency asked"
+msgid "emergency_asked"
+msgstr "Urgence souhaitée"
+
+#. Default: "Emergency refused"
+msgid "emergency_refused"
+msgstr "Urgence refusée"
 
 #. Default: "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A 'change' is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."
 msgid "enable_advice_invalidation_descr"
@@ -2338,6 +2354,10 @@ msgstr " "
 #. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches)."
 msgid "item_columns_descr"
 msgstr "Choisissez ici les colonnes à afficher sur les listes de points (par exemple, sur les listes prédéfinies comme 'mes points' ou 'tous les points' ou sur des résultats de recherches avancées)."
+
+#. Default: "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
+msgid "item_completeness_descr"
+msgstr "Spécifiez ici le niveau de complétude de ce point.  Si vous sélectionnez 'Le point est incomplet', une zone de commentaire supplémentaire sera affichée et vous permettra de détailler les pièces manquantes."
 
 #. Default: "On the item workflow, some boolean expressions guard the execution of the transitions from one state to another. Those conditions, together with other conditions useful at various levels within PloneMeeting, are defined as methods of a Python interface. You can modify those conditions at will, through the development of another Plone product into which you must: <ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions are documented."
 msgid "item_conditions_interface_descr"
@@ -2957,6 +2977,10 @@ msgstr "Aucun classificateur n'est actuellement défini."
 #. Default: "no_color"
 msgid "no_color"
 msgstr "Ne pas coloriser"
+
+#. Default: "No emergency"
+msgid "no_emergency"
+msgstr "Aucune urgence souhaitée"
 
 #. Default: "None"
 msgid "no_freeze_event"
