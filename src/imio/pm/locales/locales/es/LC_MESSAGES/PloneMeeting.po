@@ -211,6 +211,10 @@ msgstr "Tipos de anexos"
 msgid "No complementary comment has been given on this advice."
 msgstr "Ningún comentario complementario se ha dado en este consejo."
 
+#. Default: "No history informations are available for now."
+msgid "No history informations are avaialble for now."
+msgstr ""
+
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
 msgstr "Numero de caracteres del titulo a mostrar"
@@ -1612,6 +1616,10 @@ msgstr "Seleccione los grupos que serán capaces de utilizar esta categoría. Si
 msgid "certified_signatures_descr"
 msgstr "Defina aquí las firmas que serán usadas en las plantillas como firmas certificadas. Este campo, tendrá que ser actualizado periódicamente para que coincida con la situación existente este campo."
 
+#. Default: "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
+msgid "change_emergency_comment"
+msgstr ""
+
 #. Default: "What kind of item would you like to create?"
 msgid "choose_item_template"
 msgstr "¿Qué tipo de tema le gustaría crear?"
@@ -1632,7 +1640,7 @@ msgstr "Clonar a"
 msgid "color_system_disabled_for_descr"
 msgstr "Si el color del sistema es habilitado (parámetro anterior), ese deshabilitará para todos los identificadores de usuarios (ids) especificados aquí (un identificador de usuario por linea)."
 
-#. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label, check this field."
+#. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label in the 'Completeness comment' field."
 msgid "completeness_incomplete_check_completenessComment"
 msgstr ""
 
@@ -1859,6 +1867,10 @@ msgstr ""
 
 #. Default: "Emergency asked"
 msgid "emergency_asked"
+msgstr ""
+
+#. Default: "Comment"
+msgid "emergency_comment"
 msgstr ""
 
 #. Default: "Emergency refused"

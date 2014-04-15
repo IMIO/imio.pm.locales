@@ -207,6 +207,10 @@ msgstr "Typen für Anhänge"
 msgid "No complementary comment has been given on this advice."
 msgstr ""
 
+#. Default: "No history informations are available for now."
+msgid "No history informations are avaialble for now."
+msgstr ""
+
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
 msgstr ""
@@ -1620,6 +1624,10 @@ msgstr ""
 msgid "certified_signatures_descr"
 msgstr ""
 
+#. Default: "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
+msgid "change_emergency_comment"
+msgstr ""
+
 #. Default: "What kind of item would you like to create?"
 msgid "choose_item_template"
 msgstr "Was für eine Art von TOP wollen Sie erstellen?"
@@ -1640,7 +1648,7 @@ msgstr ""
 msgid "color_system_disabled_for_descr"
 msgstr "Wenn das Farbsystem aktiviert ist (vorherige Einstellung), wird es trotzdem für die Benutzer die hier eingetragen werden deaktiviert (Eine BenutzerId pro Zeile)."
 
-#. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label, check this field."
+#. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label in the 'Completeness comment' field."
 msgid "completeness_incomplete_check_completenessComment"
 msgstr ""
 
@@ -1870,6 +1878,10 @@ msgstr ""
 
 #. Default: "Emergency asked"
 msgid "emergency_asked"
+msgstr ""
+
+#. Default: "Comment"
+msgid "emergency_comment"
 msgstr ""
 
 #. Default: "Emergency refused"

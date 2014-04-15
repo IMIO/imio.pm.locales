@@ -141,7 +141,7 @@ msgstr "Group"
 
 #. Default: "History of emergency changes"
 msgid "History of emergency changes"
-msgstr ""
+msgstr "History of emergency changes"
 
 #. Default: "How many items to list in each topic."
 msgid "How many items to list in each topic."
@@ -206,6 +206,10 @@ msgstr "Annex types"
 #. Default: "No complementary comment has been given on this advice."
 msgid "No complementary comment has been given on this advice."
 msgstr "No complementary comment has been given on this advice."
+
+#. Default: "No history informations are available for now."
+msgid "No history informations are avaialble for now."
+msgstr "No history informations are avaialble for now."
 
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
@@ -451,7 +455,7 @@ msgstr "Duty in the second language"
 
 #. Default: "Emergency"
 msgid "PloneMeeting_label_emergency"
-msgstr ""
+msgstr "Emergency"
 
 #. Default: "Enable advice invalidation"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
@@ -1607,6 +1611,10 @@ msgstr "Select groups that will be able to select this category.  If every group
 msgid "certified_signatures_descr"
 msgstr "Define here the signatures that will be used on templates as certified signatures.  This field will need to be updated regularly to match existing situation."
 
+#. Default: "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
+msgid "change_emergency_comment"
+msgstr "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
+
 #. Default: "What kind of item would you like to create?"
 msgid "choose_item_template"
 msgstr "What kind of item would you like to create?"
@@ -1627,9 +1635,9 @@ msgstr "Clone to"
 msgid "color_system_disabled_for_descr"
 msgstr "If the color system is enabled (previous parameter), it will be disabled for the users whose ids are specified here (one user id per line)."
 
-#. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label, check this field."
+#. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label in the 'Completeness comment' field."
 msgid "completeness_incomplete_check_completenessComment"
-msgstr "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label, check this field."
+msgstr "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label in the 'Completeness comment' field."
 
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
@@ -1850,15 +1858,19 @@ msgstr "${portalTitle} - ${objectTitle} - A problem occurred while generating a 
 
 #. Default: "Emergency accepted"
 msgid "emergency_accepted"
-msgstr ""
+msgstr "Emergency accepted"
 
 #. Default: "Emergency asked"
 msgid "emergency_asked"
-msgstr ""
+msgstr "Emergency asked"
+
+#. Default: "Comment"
+msgid "emergency_comment"
+msgstr "Comment"
 
 #. Default: "Emergency refused"
 msgid "emergency_refused"
-msgstr ""
+msgstr "Emergency refused"
 
 #. Default: "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A 'change' is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."
 msgid "enable_advice_invalidation_descr"
@@ -2357,7 +2369,7 @@ msgstr "Choose here which columns to display when listing items (ie, when reques
 
 #. Default: "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
 msgid "item_completeness_descr"
-msgstr ""
+msgstr "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
 
 #. Default: "On the item workflow, some boolean expressions guard the execution of the transitions from one state to another. Those conditions, together with other conditions useful at various levels within PloneMeeting, are defined as methods of a Python interface. You can modify those conditions at will, through the development of another Plone product into which you must: <ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions are documented."
 msgid "item_conditions_interface_descr"
@@ -2981,7 +2993,7 @@ msgstr "Do not colorize"
 
 #. Default: "No emergency"
 msgid "no_emergency"
-msgstr ""
+msgstr "No emergency"
 
 #. Default: "None"
 msgid "no_freeze_event"
@@ -4097,4 +4109,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

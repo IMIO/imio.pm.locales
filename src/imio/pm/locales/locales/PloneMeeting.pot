@@ -320,6 +320,14 @@ msgstr ""
 msgid "History of emergency changes"
 msgstr ""
 
+#. Default: "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
+msgid "change_emergency_comment"
+msgstr ""
+
+#. Default: "Comment"
+msgid "emergency_comment"
+msgstr ""
+
 #. Default: "Other meeting configs clonable to"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableTo"
 msgstr ""
@@ -4119,6 +4127,10 @@ msgstr ""
 msgid "Duplicate and keep link_comments"
 msgstr ""
 
-#. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label, check this field."
+#. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label in the 'Completeness comment' field."
 msgid "completeness_incomplete_check_completenessComment"
+msgstr ""
+
+#. Default: "No history informations are available for now."
+msgid "No history informations are avaialble for now."
 msgstr ""
