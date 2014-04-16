@@ -1533,6 +1533,14 @@ msgstr ""
 msgid "back"
 msgstr "Terug"
 
+#. Default: "No"
+msgid "boolean_value_false"
+msgstr ""
+
+#. Default: "Yes"
+msgid "boolean_value_true"
+msgstr ""
+
 #. Default: "This item is not budget related."
 msgid "budget_related_no_edit"
 msgstr ""
@@ -1725,6 +1733,14 @@ msgstr "Aanmaker"
 msgid "creators"
 msgstr "Aanmakers"
 
+#. Default: "You can not change row order impacting rows that have already been used in the application.  You changed order of a row for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please reorder (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
+msgid "custom_adviser_can_change_row_order_of_used_row_linked_to_previous"
+msgstr ""
+
+#. Default: "You can not set 'Is linked to previous row' to 'No' if a row in the chain of linked rows (rows prior and under) has already been used in the application.  You set 'No' for a row for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please set it back to 'Yes' (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
+msgid "custom_adviser_can_not_change_is_linked_to_previous_row_isolating_used_rows"
+msgstr ""
+
 #. Default: "You can not change the logical values of a configuration that has already been used in the application.  Check the configuration for group '${adviser_group}', it is in use for example by item at ${item_url}. The old value (${column_old_data}) for column '${column_name}' changed. If you need to adapt it, you need to deactivate it by setting a 'For item created until' date and create another configuration."
 msgid "custom_adviser_can_not_edit_used_row"
 msgstr ""
@@ -1735,6 +1751,14 @@ msgstr ""
 
 #. Default: "There is a problem with a delay in the 'Delay' or 'Delay left alert' column, please check encoded value for group '${groupName}', make sure that the value defined in the 'Delay' column is higher or equals the value defined in the 'Delay left alert' column.  Leave field 'Delay left alert' empty if not relevant."
 msgid "custom_adviser_delay_left_must_be_inferior_to_delay"
+msgstr ""
+
+#. Default: "You can not set 'Is linked to previous row' to 'Yes' if it is not a delay-aware adviser, check row for group '${groupName}'."
+msgid "custom_adviser_is_linked_to_previous_row_with_non_delay_aware_adviser"
+msgstr ""
+
+#. Default: "You can not set 'Is linked to previous row' to 'Yes' if the previous row is not a delay-aware adviser, check row for group '${groupName}'."
+msgid "custom_adviser_is_linked_to_previous_row_with_non_delay_aware_adviser_previous_row"
 msgstr ""
 
 #. Default: "There is a problem with a delay in the 'Delay left alert' column, please check encoded value for group '${groupName}', you can not enter a value in this column if no value is defined in the 'Delay' column.  Leave field empty if not relevant."

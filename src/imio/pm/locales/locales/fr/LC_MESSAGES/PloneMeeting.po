@@ -1527,6 +1527,14 @@ msgstr "Spécifiez ici quels fichiers de langues vous avez installés pour Tesse
 msgid "back"
 msgstr "Retour"
 
+#. Default: "No"
+msgid "boolean_value_false"
+msgstr "Non"
+
+#. Default: "Yes"
+msgid "boolean_value_true"
+msgstr "Oui"
+
 #. Default: "This item is not budget related."
 msgid "budget_related_no_edit"
 msgstr "Ce point n'a aucune informations budgétaires."
@@ -1719,6 +1727,14 @@ msgstr "Créateur"
 msgid "creators"
 msgstr "Créateurs"
 
+#. Default: "You can not change row order impacting rows that have already been used in the application.  You changed order of a row for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please reorder (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
+msgid "custom_adviser_can_change_row_order_of_used_row_linked_to_previous"
+msgstr "Vous ne pouvez pas changer l'ordre de lignes qui impactent des lignes d'une configuration déjà utilisée.  Vous avez changé l'ordre d'une ligne pour le groupe '${adviser_group}', par exemple le point '${item_url}' utilise cette configuration.  Rétablissez l'ordre antérieur (ou cliquez sur l'onglet 'Modifier' ci-dessus pour retrouver les anciennes valeurs).  Si vous devez désactiver une configuration utilisée, définissez une date dans la colonne 'Configuration active pour les points créés jusqu'au'."
+
+#. Default: "You can not set 'Is linked to previous row' to 'No' if a row in the chain of linked rows (rows prior and under) has already been used in the application.  You set 'No' for a row for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please set it back to 'Yes' (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
+msgid "custom_adviser_can_not_change_is_linked_to_previous_row_isolating_used_rows"
+msgstr "Vous ne pouvez pas mettre la valeur 'Non' pour 'Est lié à la ligne précédente?' pour une ligne si une autre ligne de la chaîne des lignes liées entre elles (lignes au-dessus et en dessous) est utilisée dans l'application.  Vous avez mis 'Non' pour une ligne du groupe groupe '${adviser_group}', par exemple le point '${item_url}' utilise cette configuration.  Rétablissez la valeur antérieure (ou cliquez sur l'onglet 'Modifier' ci-dessus pour retrouver les anciennes valeurs).  Si vous devez désactiver une configuration utilisée, définissez une date dans la colonne 'Configuration active pour les points créés jusqu'au'."
+
 #. Default: "You can not change the logical values of a configuration that has already been used in the application.  Check the configuration for group '${adviser_group}', it is in use for example by item at ${item_url}. The old value (${column_old_data}) for column '${column_name}' changed. If you need to adapt it, you need to deactivate it by setting a 'For item created until' date and create another configuration."
 msgid "custom_adviser_can_not_edit_used_row"
 msgstr "Vous ne pouvez plus modifier les valeurs logiques d'une configuration qui a déjà été utilisée.  Vérifiez la configuration pour le groupe '${adviser_group}', par exemple le point '${item_url}' utilise cette configuration.  L'ancienne valeur (${column_old_data}) de la colonne '${column_name}' a changé. Si vous devez changer cette configuration, vous devez la désactiver en définissant une date dans la colonne 'Configuration active pour les points créés jusqu'au' et créer une nouvelle configuration."
@@ -1730,6 +1746,14 @@ msgstr "Vous ne pouvez pas supprimer une configuration qui a déjà été utilis
 #. Default: "There is a problem with a delay in the 'Delay' or 'Delay left alert' column, please check encoded value for group '${groupName}', make sure that the value defined in the 'Delay' column is higher or equals the value defined in the 'Delay left alert' column.  Leave field 'Delay left alert' empty if not relevant."
 msgid "custom_adviser_delay_left_must_be_inferior_to_delay"
 msgstr "Il y a un problème avec les valeurs encodées dans les champs 'Délai pour rendre l'avis' et 'Seuil d'alerte pour le délai' pour le groupe '${groupName}', la valeur définie dans le champ 'Délai pour rendre l'avis' doit être supérieure ou égale à la valeur définie dans le champ 'Seuil d'alerte pour le délai'.  Laissez le champ 'Seuil d'alerte pour le délai' vide si vous ne souhaitez pas l'utiliser."
+
+#. Default: "You can not set 'Is linked to previous row' to 'Yes' if it is not a delay-aware adviser, check row for group '${groupName}'."
+msgid "custom_adviser_is_linked_to_previous_row_with_non_delay_aware_adviser"
+msgstr "Vous ne pouvez pas mettre 'Oui' pour la colonne 'Lié à la ligne précédente?' d'une ligne qui n'a pas de délai défini, vérifiez les lignes pour le groupe '${groupName}'."
+
+#. Default: "You can not set 'Is linked to previous row' to 'Yes' if the previous row is not a delay-aware adviser, check row for group '${groupName}'."
+msgid "custom_adviser_is_linked_to_previous_row_with_non_delay_aware_adviser_previous_row"
+msgstr "Vous ne pouvez pas mettre 'Oui' pour la colonne 'Lié à la ligne précédente?' d'une ligne si la ligne précédente n'a pas de délai défini, vérifiez les lignes pour le groupe '${groupName}'."
 
 #. Default: "There is a problem with a delay in the 'Delay left alert' column, please check encoded value for group '${groupName}', you can not enter a value in this column if no value is defined in the 'Delay' column.  Leave field empty if not relevant."
 msgid "custom_adviser_no_delay_left_if_no_delay"

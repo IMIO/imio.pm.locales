@@ -43,6 +43,14 @@ msgstr "Seuil d'alerte pour le délai"
 msgid "Holiday date"
 msgstr "Date"
 
+#. Default: "Set to 'Yes' if you want to make a logical link between a row and the previous one.  This will manage the fact of easily being able to change a delay for an asked advice.  The linked rows will make the user being able to select between those different delays in the advice vizualisation popup.  This is only relevant for delay-aware advices, to link differents delays together."
+msgid "Is linked to previous row description"
+msgstr "Sélectionnez 'Oui' si vous souhaitez faire un lien logique entre une ligne et la ligne précédente.  Ceci permet de gérer le changement de délai pour un avis et permettra aux utilisateurs de changer le délai d'un avis via le popup affiché au clic sur un avis à rendre.  Ceci n'est utilisé que pour les avis avec délai."
+
+#. Default: "Is linked to previous row?"
+msgid "Is linked to previous row?"
+msgstr "Lié à la ligne précédente?"
+
 #. Default: "Meeting config"
 msgid "Meeting config to clone to Meeting config"
 msgstr "Type de séance"
