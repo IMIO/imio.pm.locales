@@ -212,7 +212,7 @@ msgid "No complementary comment has been given on this advice."
 msgstr "Ningún comentario complementario se ha dado en este consejo."
 
 #. Default: "No history informations are available for now."
-msgid "No history informations are avaialble for now."
+msgid "No history informations are available for now."
 msgstr ""
 
 #. Default: "Number of characters of the title to show"
@@ -1732,12 +1732,12 @@ msgstr "Creador"
 msgid "creators"
 msgstr "Creadores"
 
-#. Default: "You can not change row order impacting rows that have already been used in the application.  You changed order of a row for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please reorder (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
-msgid "custom_adviser_can_change_row_order_of_used_row_linked_to_previous"
-msgstr ""
-
 #. Default: "You can not set 'Is linked to previous row' to 'No' if a row in the chain of linked rows (rows prior and under) has already been used in the application.  You set 'No' for a row for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please set it back to 'Yes' (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
 msgid "custom_adviser_can_not_change_is_linked_to_previous_row_isolating_used_rows"
+msgstr ""
+
+#. Default: "You can not change row order impacting rows that have already been used in the application.  You changed order of a row for group '${adviser_group}', it is in use for example by item at ${item_url}.  Please reorder (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate an existing configuration, you can set a date in the 'Rule activated for item created until' column."
+msgid "custom_adviser_can_not_change_row_order_of_used_row_linked_to_previous"
 msgstr ""
 
 #. Default: "You can not change the logical values of a configuration that has already been used in the application.  Check the configuration for group '${adviser_group}', it is in use for example by item at ${item_url}. The old value (${column_old_data}) for column '${column_name}' changed. If you need to adapt it, you need to deactivate it by setting a 'For item created until' date and create another configuration."
