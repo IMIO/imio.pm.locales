@@ -11,7 +11,6 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: datagridfield\n"
 
-
 #. Default: "Group"
 msgid "Custom adviser group"
 msgstr ""
@@ -62,6 +61,14 @@ msgstr ""
 
 #. Default: "Enter the treshold beyond wich an alert must be shown regarding left delay.  This will be shown in the UI with a particular color and if activated, a mail notification could be send in this case. Enter a single digit (like '5' or '10') lower than actual 'Delay'. If no treshold is relevant for this advice, leave this field blank."
 msgid "delay_left_alert_col_description"
+msgstr ""
+
+#. Default: "Available on"
+msgid "Available on"
+msgstr ""
+
+#. Default: "Specify here a TAL expression that will restrict the use of this advice to some condition.  This can not be used if something is defined in the 'Advice will be automatically asked if' column of this advice, but for optional delay-aware advice or for delay-aware advices linked to an automatic advice (using the 'Is linked to previous row?' column)"
+msgid "available_on_col_description"
 msgstr ""
 
 #. Default: "Advice with delay label"

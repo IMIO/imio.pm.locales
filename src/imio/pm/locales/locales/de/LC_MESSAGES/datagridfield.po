@@ -15,6 +15,10 @@ msgstr ""
 "Domain: datagridfield\n"
 "X-Is-Fallback-For: de-be de-at de-li de-lu de-ch de-de\n"
 
+#. Default: "Available on"
+msgid "Available on"
+msgstr ""
+
 #. Default: "Advice with delay label"
 msgid "Custom adviser delay label"
 msgstr ""
@@ -101,6 +105,10 @@ msgstr ""
 
 #. Default: "While sent, the new item is in the workflow initial state, some transitions can be automatically triggered for the new item, select until wich transition it will be done (selected transition will also be triggered).  This relies on the 'Transitions for presenting an item' you defined in the 'Workflows' tab of the meeting configuration the item will be sent to."
 msgid "While sent, the new item is in the workflow initial state, some transitions can be automatically triggered for the new item, select until wich transition it will be done (selected transition will also be triggered)."
+msgstr ""
+
+#. Default: "Specify here a TAL expression that will restrict the use of this advice to some condition.  This can not be used if something is defined in the 'Advice will be automatically asked if' column of this advice, but for optional delay-aware advice or for delay-aware advices linked to an automatic advice (using the 'Is linked to previous row?' column)"
+msgid "available_on_col_description"
 msgstr ""
 
 #. Default: "Enter the delay the adviser will have to give his advice. If it is not considered as an automatically asked advice (nothing defined in the 'Advice will be automatically asked if' column), the advice will be selectable in the 'Ask advice to' list on the item edit form. A delay is a single digit (like '5' or '10'). If no delay is relevant for this advice, leave this field blank. If several delays are possible for the same advice, you have to define several rows with exactly the same content excepted the delay."

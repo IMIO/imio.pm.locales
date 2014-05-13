@@ -15,6 +15,10 @@ msgstr ""
 "Domain: datagridfield\n"
 "X-is-fallback-for: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
 
+#. Default: "Available on"
+msgid "Available on"
+msgstr "Disponible si"
+
 #. Default: "Advice with delay label"
 msgid "Custom adviser delay label"
 msgstr "Libellé pour un avis avec délai"
@@ -102,6 +106,10 @@ msgstr "Le type de séance vers laquelle les points de ce type de séance pourro
 #. Default: "While sent, the new item is in the workflow initial state, some transitions can be automatically triggered for the new item, select until wich transition it will be done (selected transition will also be triggered).  This relies on the 'Transitions for presenting an item' you defined in the 'Workflows' tab of the meeting configuration the item will be sent to."
 msgid "While sent, the new item is in the workflow initial state, some transitions can be automatically triggered for the new item, select until wich transition it will be done (selected transition will also be triggered)."
 msgstr "Lorsque le point a été envoyé vers l'autre type de séance, il est créé dans son état initial, certains transitions supplémentaires peuvent être exécutées de sorte que le point soit mis automatiquement dans un certain état.  Sélectionnez jusqu'à quelle transition cela sera effectué (la transition sélectionnée sera également exécutée).  Ceci repose sur les 'Transitions pour présenter un point' définies dans l'onglet 'Workflows' du type de séance vers lequel le point sera envoyé."
+
+#. Default: "Specify here a TAL expression that will restrict the use of this advice to some condition.  This can not be used if something is defined in the 'Advice will be automatically asked if' column of this advice, but for optional delay-aware advice or for delay-aware advices linked to an automatic advice (using the 'Is linked to previous row?' column)"
+msgid "available_on_col_description"
+msgstr "Spécifiez une expression TAL qui permet de restreindre l'utilisation de cet avis.  Ceci ne peut pas être utilisé si une expression est définie dans la colonne 'L'avis sera automatiquement demandé si' de cette ligne de configuration mais peut l'être avec les avis optionnels ou les lignes liées à un avis automatique (c'est-à-dire si la colonne 'Lié à la ligne précédente?' est utilisé sur un avis automatique)"
 
 #. Default: "Enter the delay the adviser will have to give his advice. If it is not considered as an automatically asked advice (nothing defined in the 'Advice will be automatically asked if' column), the advice will be selectable in the 'Ask advice to' list on the item edit form. A delay is a single digit (like '5' or '10'). If no delay is relevant for this advice, leave this field blank. If several delays are possible for the same advice, you have to define several rows with exactly the same content excepted the delay."
 msgid "delay_col_description"
