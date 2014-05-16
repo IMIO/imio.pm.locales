@@ -15,10 +15,6 @@ msgstr ""
 "Domain: PloneMeeting\n"
 "X-is-fallback-for: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
 
-#. Default: "Access detailled advice"
-msgid "Access detailled advice"
-msgstr "Accéder à l'avis en détail"
-
 #. Default: "Add PloneMeeting Portlet"
 msgid "Add PloneMeeting Portlet"
 msgstr "Ajout d'un portlet 'PloneMeeting'"
@@ -26,6 +22,10 @@ msgstr "Ajout d'un portlet 'PloneMeeting'"
 #. Default: "Add Todo Portlet"
 msgid "Add Todo Portlet"
 msgstr "Ajout d'un portlet 'à faire'"
+
+#. Default: "Advice advanced management screen"
+msgid "Advice advanced management screen"
+msgstr "Ecran de gestion avancé de l'avis"
 
 #. Default: "Advice asked automatically because"
 msgid "Advice asked automatically because"
@@ -1164,6 +1164,10 @@ msgstr "Observations"
 #. Default: "Document templates"
 msgid "PodTemplates"
 msgstr "Canevas de documents"
+
+#. Default: "Preview detailled advice"
+msgid "Preview detailled advice"
+msgstr "Prévisualiser l'avis complet"
 
 #. Default: "Predefined items"
 msgid "RecurringItems"
@@ -4143,3 +4147,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+
