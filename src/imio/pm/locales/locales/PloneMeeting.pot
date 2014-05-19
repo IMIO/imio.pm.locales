@@ -2707,6 +2707,18 @@ msgstr ""
 msgid "not_given"
 msgstr ""
 
+#. Default: "Hidden during redaction"
+msgid "hidden_during_redaction"
+msgstr ""
+
+#. Default: "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
+msgid "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
+msgstr ""
+
+#. Default: "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group.  If you need this advice to be considered, contact relevant meeting managers."
+msgid "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group.  If you need this advice to be considered, contact relevant meeting managers."
+msgstr ""
+
 #. Default: "Enforce advice mandatoriness"
 msgid "PloneMeeting_label_enforceAdviceMandatoriness"
 msgstr ""
@@ -2803,12 +2815,16 @@ msgstr ""
 msgid "advice_edited"
 msgstr ""
 
-#. Default: "Edit advice"
+#. Default: "Quick edit advice"
 msgid "advice_edit"
 msgstr ""
 
 #. Default: "Manage advice annexes"
 msgid "Manage advice annexes"
+msgstr ""
+
+#. Default: "Back to the item"
+msgid "Back to the item"
 msgstr ""
 
 #. Default: "Add an advice"
@@ -3124,12 +3140,20 @@ msgstr ""
 msgid "Choose an advice type."
 msgstr ""
 
-#. Default: "Advice comment"
-msgid "Advice comment"
+#. Default: "Advice official comment"
+msgid "Advice official comment"
 msgstr ""
 
-#. Default: "Enter an optional comment."
-msgid "Enter an optional comment."
+#. Default: "Enter the official comment."
+msgid "Enter the official comment."
+msgstr ""
+
+#. Default: "Advice observations"
+msgid "Advice observations"
+msgstr ""
+
+#. Default: "Enter optionnal observations if necessary."
+msgid "Enter optionnal observations if necessary."
 msgstr ""
 
 #. Default: "Advice given on item ${item_title}"

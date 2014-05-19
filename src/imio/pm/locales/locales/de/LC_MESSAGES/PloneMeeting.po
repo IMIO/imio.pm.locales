@@ -31,16 +31,20 @@ msgstr ""
 msgid "Advice asked automatically because"
 msgstr ""
 
-#. Default: "Advice comment"
-msgid "Advice comment"
-msgstr ""
-
 #. Default: "Advice given by"
 msgid "Advice given by"
 msgstr ""
 
 #. Default: "Advice given on item ${item_title}"
 msgid "Advice given on item ${item_title}"
+msgstr ""
+
+#. Default: "Advice observations"
+msgid "Advice observations"
+msgstr ""
+
+#. Default: "Advice official comment"
+msgid "Advice official comment"
 msgstr ""
 
 #. Default: "Advice type"
@@ -65,6 +69,10 @@ msgstr ""
 
 #. Default: "Apply until item number"
 msgid "Apply until item number"
+msgstr ""
+
+#. Default: "Back to the item"
+msgid "Back to the item"
 msgstr ""
 
 #. Default: "Cancel"
@@ -123,8 +131,8 @@ msgstr "PloneMeeting Portlet bearbeiten"
 msgid "Edit Todo Portlet"
 msgstr "Zu erledigen Portlet bearbeiten"
 
-#. Default: "Enter an optional comment."
-msgid "Enter an optional comment."
+#. Default: "Enter optionnal observations if necessary."
+msgid "Enter optionnal observations if necessary."
 msgstr ""
 
 #. Default: "Enter the item assembly to be applied.  The value displayed by default is the value of the current item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])."
@@ -133,6 +141,10 @@ msgstr ""
 
 #. Default: "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
 msgid "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
+msgstr ""
+
+#. Default: "Enter the official comment."
+msgid "Enter the official comment."
 msgstr ""
 
 #. Default: "Group"
@@ -1209,6 +1221,14 @@ msgstr ""
 msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
 msgstr ""
 
+#. Default: "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group.  If you need this advice to be considered, contact relevant meeting managers."
+msgid "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group.  If you need this advice to be considered, contact relevant meeting managers."
+msgstr ""
+
+#. Default: "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
+msgid "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
+msgstr ""
+
 #. Default: "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgid "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgstr ""
@@ -1313,7 +1333,7 @@ msgstr ""
 msgid "advice_comment"
 msgstr "Kommentieren (optional)"
 
-#. Default: "Edit advice"
+#. Default: "Quick edit advice"
 msgid "advice_edit"
 msgstr ""
 
@@ -2206,6 +2226,10 @@ msgstr ""
 
 #. Default: "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 1 or 2 seconds by page."
 msgid "help_no_preview_available_under_conversion"
+msgstr ""
+
+#. Default: "Hidden during redaction"
+msgid "hidden_during_redaction"
 msgstr ""
 
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
