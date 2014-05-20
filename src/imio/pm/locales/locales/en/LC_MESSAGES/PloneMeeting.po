@@ -151,6 +151,10 @@ msgstr ""
 msgid "Group"
 msgstr "Group"
 
+#. Default: "History of completeness changes"
+msgid "History of completeness changes"
+msgstr ""
+
 #. Default: "History of emergency changes"
 msgid "History of emergency changes"
 msgstr "History of emergency changes"
@@ -1648,6 +1652,10 @@ msgstr "Select groups that will be able to select this category.  If every group
 msgid "certified_signatures_descr"
 msgstr "Define here the signatures that will be used on templates as certified signatures.  This field will need to be updated regularly to match existing situation."
 
+#. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
+msgid "change_completeness_comment"
+msgstr ""
+
 #. Default: "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
 msgid "change_emergency_comment"
 msgstr "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
@@ -1672,9 +1680,29 @@ msgstr "Clone to"
 msgid "color_system_disabled_for_descr"
 msgstr "If the color system is enabled (previous parameter), it will be disabled for the users whose ids are specified here (one user id per line)."
 
+#. Default: "Comment"
+msgid "completeness_comment"
+msgstr ""
+
+#. Default: "Complete"
+msgid "completeness_complete"
+msgstr ""
+
+#. Default: "Evaluation asked again"
+msgid "completeness_evaluation_asked_again"
+msgstr ""
+
+#. Default: "Incomplete"
+msgid "completeness_incomplete"
+msgstr ""
+
 #. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label in the 'Completeness comment' field."
 msgid "completeness_incomplete_check_completenessComment"
 msgstr "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label in the 'Completeness comment' field."
+
+#. Default: "Not yet evaluated"
+msgid "completeness_not_yet_evaluated"
+msgstr ""
 
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"

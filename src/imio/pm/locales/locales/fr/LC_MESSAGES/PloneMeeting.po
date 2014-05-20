@@ -151,6 +151,10 @@ msgstr "Encodez ici votre avis officiel."
 msgid "Group"
 msgstr "Groupe"
 
+#. Default: "History of completeness changes"
+msgid "History of completeness changes"
+msgstr "Historique des changements du champ 'Complétude'"
+
 #. Default: "History of emergency changes"
 msgid "History of emergency changes"
 msgstr "Historique des changements du champ 'Urgence'"
@@ -1647,6 +1651,10 @@ msgstr "Sélectionnez les groupes qui pourront utiliser cette catégorie.  Si to
 msgid "certified_signatures_descr"
 msgstr "Définissez ici les signatures certifiées conformes qui pourront être utilisées lors de la génération de divers documents.  Ce champ devra être maintenu à jour pour refléter la situation réelle dans votre organisation (changement de signataires certifiés)."
 
+#. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
+msgid "change_completeness_comment"
+msgstr "Vous êtes sur le point de changer la complétude de ce point vers \"${completeness_value}\", vous pouvez ajouter un commentaire si nécessaire."
+
 #. Default: "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
 msgid "change_emergency_comment"
 msgstr "Vous êtes sur le point de changer l'urgence de ce point en \"${emergency_value}\", vous pouvez ajouter un commentaire si nécessaire."
@@ -1671,9 +1679,29 @@ msgstr "Envoyer vers"
 msgid "color_system_disabled_for_descr"
 msgstr "Si le système de couleurs est activé (paramètre précédent), il sera néanmoins désactivé pour les utilisateurs dont vous spécifiez les identifiants ci-dessous (un identifiant par ligne)."
 
+#. Default: "Comment"
+msgid "completeness_comment"
+msgstr "Commentaire"
+
+#. Default: "Complete"
+msgid "completeness_complete"
+msgstr "Le point est complet"
+
+#. Default: "Evaluation asked again"
+msgid "completeness_evaluation_asked_again"
+msgstr "Evaluation demandée à nouveau"
+
+#. Default: "Incomplete"
+msgid "completeness_incomplete"
+msgstr "Le point est incomplet"
+
 #. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label in the 'Completeness comment' field."
 msgid "completeness_incomplete_check_completenessComment"
 msgstr "Lorsqu'un point est considéré 'Incomplet', des informations supplémentaires sont affichées sous le label 'Complétude' dans la zone 'Commentaire sur la complétude en cas de point incomplet'."
+
+#. Default: "Not yet evaluated"
+msgid "completeness_not_yet_evaluated"
+msgstr "La complétude du point n'a pas encore été évaluée"
 
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"

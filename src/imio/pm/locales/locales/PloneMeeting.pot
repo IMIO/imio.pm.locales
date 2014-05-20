@@ -320,12 +320,24 @@ msgstr ""
 msgid "History of emergency changes"
 msgstr ""
 
+#. Default: "History of completeness changes"
+msgid "History of completeness changes"
+msgstr ""
+
 #. Default: "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
 msgid "change_emergency_comment"
 msgstr ""
 
 #. Default: "Comment"
 msgid "emergency_comment"
+msgstr ""
+
+#. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
+msgid "change_completeness_comment"
+msgstr ""
+
+#. Default: "Comment"
+msgid "completeness_comment"
 msgstr ""
 
 #. Default: "Other meeting configs clonable to"
@@ -4197,4 +4209,20 @@ msgstr ""
 
 #. Default: "It is not possible to add annexes because no file types is defined, please contact system administrator."
 msgid "It is not possible to add annexes because no file types is defined, please contact system administrator."
+msgstr ""
+
+#. Default: "Not yet evaluated"
+msgid "completeness_not_yet_evaluated"
+msgstr ""
+
+#. Default: "Evaluation asked again"
+msgid "completeness_evaluation_asked_again"
+msgstr ""
+
+#. Default: "Complete"
+msgid "completeness_complete"
+msgstr ""
+
+#. Default: "Incomplete"
+msgid "completeness_incomplete"
 msgstr ""

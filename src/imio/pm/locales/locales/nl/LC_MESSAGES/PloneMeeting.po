@@ -152,6 +152,10 @@ msgstr ""
 msgid "Group"
 msgstr ""
 
+#. Default: "History of completeness changes"
+msgid "History of completeness changes"
+msgstr ""
+
 #. Default: "History of emergency changes"
 msgid "History of emergency changes"
 msgstr ""
@@ -1653,6 +1657,10 @@ msgstr ""
 msgid "certified_signatures_descr"
 msgstr ""
 
+#. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
+msgid "change_completeness_comment"
+msgstr ""
+
 #. Default: "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
 msgid "change_emergency_comment"
 msgstr ""
@@ -1677,8 +1685,28 @@ msgstr ""
 msgid "color_system_disabled_for_descr"
 msgstr ""
 
+#. Default: "Comment"
+msgid "completeness_comment"
+msgstr ""
+
+#. Default: "Complete"
+msgid "completeness_complete"
+msgstr ""
+
+#. Default: "Evaluation asked again"
+msgid "completeness_evaluation_asked_again"
+msgstr ""
+
+#. Default: "Incomplete"
+msgid "completeness_incomplete"
+msgstr ""
+
 #. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label in the 'Completeness comment' field."
 msgid "completeness_incomplete_check_completenessComment"
+msgstr ""
+
+#. Default: "Not yet evaluated"
+msgid "completeness_not_yet_evaluated"
 msgstr ""
 
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
