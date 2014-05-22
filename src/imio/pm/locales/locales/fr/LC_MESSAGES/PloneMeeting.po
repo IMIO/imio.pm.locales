@@ -151,6 +151,10 @@ msgstr "Encodez ici votre avis officiel."
 msgid "Group"
 msgstr "Groupe"
 
+#. Default: "Hide advice during redaction"
+msgid "Hide advice during redaction"
+msgstr "Cacher l'avis pendant sa rédaction"
+
 #. Default: "History of completeness changes"
 msgid "History of completeness changes"
 msgstr "Historique des changements du champ 'Complétude'"
@@ -166,6 +170,10 @@ msgstr "Nombre d'éléments à afficher par recherche dans le portlet."
 #. Default: "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
 msgid "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
 msgstr "Si vous désactivez ce groupe PloneMeeting, tous les utilisateurs des groupes Plone liés seront transférés dans le sous-groupe '(Observateurs)' de sorte qu'ils puissent toujours avoir un accès en lecture aux points existants mais qu'il ne puisse plus en créer de nouveaux. De plus, ce groupe sera enlevé des groupes qui pourront être mis en copies dans les différentes configurations de séance."
+
+#. Default: "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
+msgid "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
+msgstr "Si vous ne souhaitez pas que l'avis soit directement affiché après la rédaction, cochez cette case.  Ceci permet à différents membres du groupe rendant l'avis d'intervenir sur celui-ci et de le montrer une fois qu'il est complet.  Attenion, si vous perdez l'accès à la rédaction de l'avis (le point change d'état ou le délai pour rendre l'avis est dépassé par exemple), l'avis ne sera pas considéré comme rendu, mais dans un état 'Non rendu, était en cours de rédaction'.  Cependant, si nécessaire, un administrateur pour publier cet avis."
 
 #. Default: "If you specify a number, the item assembly entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
 msgid "If you specify a number, the item assembly entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."

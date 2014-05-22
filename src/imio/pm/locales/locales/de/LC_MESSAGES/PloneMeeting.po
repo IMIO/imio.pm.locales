@@ -151,6 +151,10 @@ msgstr ""
 msgid "Group"
 msgstr ""
 
+#. Default: "Hide advice during redaction"
+msgid "Hide advice during redaction"
+msgstr ""
+
 #. Default: "History of completeness changes"
 msgid "History of completeness changes"
 msgstr ""
@@ -165,6 +169,10 @@ msgstr "Im Portlet angezeigte Anzahl Treffer pro Suche "
 
 #. Default: "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
 msgid "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
+msgstr ""
+
+#. Default: "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
+msgid "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 msgstr ""
 
 #. Default: "If you specify a number, the item assembly entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
