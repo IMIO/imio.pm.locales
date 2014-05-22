@@ -41,11 +41,11 @@ msgstr "Advice given on item ${item_title}"
 
 #. Default: "Advice observations"
 msgid "Advice observations"
-msgstr ""
+msgstr "Advice observations"
 
 #. Default: "Advice official comment"
 msgid "Advice official comment"
-msgstr ""
+msgstr "Advice official comment"
 
 #. Default: "Advice type"
 msgid "Advice type"
@@ -73,7 +73,7 @@ msgstr "Apply until item number"
 
 #. Default: "Back to the item"
 msgid "Back to the item"
-msgstr ""
+msgstr "Back to the item"
 
 #. Default: "Cancel"
 msgid "Cancel"
@@ -85,7 +85,7 @@ msgstr "Item categories"
 
 #. Default: "Change delay"
 msgid "Change delay"
-msgstr ""
+msgstr "Change delay"
 
 #. Default: "Choose a group."
 msgid "Choose a group."
@@ -137,7 +137,7 @@ msgstr "Edit Todo Portlet"
 
 #. Default: "Enter optionnal observations if necessary."
 msgid "Enter optionnal observations if necessary."
-msgstr ""
+msgstr "Enter optionnal observations if necessary."
 
 #. Default: "Enter the item assembly to be applied.  The value displayed by default is the value of the current item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])."
 msgid "Enter the item assembly to be applied.  The value displayed by default is the value of the current item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])."
@@ -149,7 +149,7 @@ msgstr "Enter the item signatures to be applied.  The value displayed by default
 
 #. Default: "Enter the official comment."
 msgid "Enter the official comment."
-msgstr ""
+msgstr "Enter the official comment."
 
 #. Default: "Group"
 msgid "Group"
@@ -157,11 +157,11 @@ msgstr "Group"
 
 #. Default: "Hide advice during redaction"
 msgid "Hide advice during redaction"
-msgstr ""
+msgstr "Hide advice during redaction"
 
 #. Default: "History of completeness changes"
 msgid "History of completeness changes"
-msgstr ""
+msgstr "History of completeness changes"
 
 #. Default: "History of emergency changes"
 msgid "History of emergency changes"
@@ -177,7 +177,7 @@ msgstr "If you deactivate the meetingGroup, every users of every linked Plone gr
 
 #. Default: "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 msgid "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
-msgstr ""
+msgstr "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 
 #. Default: "If you specify a number, the item assembly entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
 msgid "If you specify a number, the item assembly entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
@@ -1235,11 +1235,11 @@ msgstr "This advice can not be given anymore, it was asked the ${advice_delay_st
 
 #. Default: "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group.  If you need this advice to be considered, contact relevant meeting managers."
 msgid "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group.  If you need this advice to be considered, contact relevant meeting managers."
-msgstr ""
+msgstr "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group.  If you need this advice to be considered, contact relevant meeting managers."
 
 #. Default: "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
 msgid "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
-msgstr ""
+msgstr "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
 
 #. Default: "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgid "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
@@ -1666,7 +1666,7 @@ msgstr "Define here the signatures that will be used on templates as certified s
 
 #. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
 msgid "change_completeness_comment"
-msgstr ""
+msgstr "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
 
 #. Default: "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
 msgid "change_emergency_comment"
@@ -1694,19 +1694,19 @@ msgstr "If the color system is enabled (previous parameter), it will be disabled
 
 #. Default: "Comment"
 msgid "completeness_comment"
-msgstr ""
+msgstr "Comment"
 
 #. Default: "Complete"
 msgid "completeness_complete"
-msgstr ""
+msgstr "Complete"
 
 #. Default: "Evaluation asked again"
 msgid "completeness_evaluation_asked_again"
-msgstr ""
+msgstr "Evaluation asked again"
 
 #. Default: "Incomplete"
 msgid "completeness_incomplete"
-msgstr ""
+msgstr "Incomplete"
 
 #. Default: "When an item is considered incomplete, extra informations are displayed under the 'Completeness' label in the 'Completeness comment' field."
 msgid "completeness_incomplete_check_completenessComment"
@@ -1714,7 +1714,7 @@ msgstr "When an item is considered incomplete, extra informations are displayed 
 
 #. Default: "Not yet evaluated"
 msgid "completeness_not_yet_evaluated"
-msgstr ""
+msgstr "Not yet evaluated"
 
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
@@ -2254,7 +2254,7 @@ msgstr "No preview available because this file is currently being converted to a
 
 #. Default: "Hidden during redaction"
 msgid "hidden_during_redaction"
-msgstr ""
+msgstr "Hidden during redaction"
 
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
@@ -4214,4 +4214,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-
