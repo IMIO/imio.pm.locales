@@ -1369,6 +1369,14 @@ msgstr ""
 msgid "advice_style_descr"
 msgstr "Wählen Sie hier die Darstellung aus, die die Zustimmungsgrade anzeigen."
 
+#. Default: "This transition was automatically triggered by the application because the state of the item changed and this advice is no more accessible to its creators."
+msgid "advice_wf_changed_auto_by_app"
+msgstr ""
+
+#. Default: "This transition was automatically triggered by the application."
+msgid "advice_wf_changed_triggered_by_application"
+msgstr ""
+
 #. Default: "Advices and access"
 #, fuzzy
 msgid "advices"

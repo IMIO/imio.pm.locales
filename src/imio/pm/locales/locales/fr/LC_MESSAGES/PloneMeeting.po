@@ -1362,6 +1362,14 @@ msgstr "Optionnel"
 msgid "advice_style_descr"
 msgstr "Choisissez ici le style des icônes qui représentent les avis."
 
+#. Default: "This transition was automatically triggered by the application because the state of the item changed and this advice is no more accessible to its creators."
+msgid "advice_wf_changed_auto_by_app"
+msgstr "Cette action a été déclenchée automatiquement par l'application car l'état du point a changé et cet avis n'était plus accessible par ses créateurs."
+
+#. Default: "This transition was automatically triggered by the application."
+msgid "advice_wf_changed_triggered_by_application"
+msgstr "Cette transition a été automatiquement exécutée par l'application."
+
 #. Default: "Advices and access"
 msgid "advices"
 msgstr "Avis et accès"
@@ -4219,4 +4227,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
