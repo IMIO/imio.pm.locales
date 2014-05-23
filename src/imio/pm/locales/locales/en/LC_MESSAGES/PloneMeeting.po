@@ -1768,7 +1768,8 @@ msgstr "There is a problem related to items numbering. Either you've added or de
 msgid "corruptedTitle"
 msgstr "The title of an item is wrong. Please check that each title begins with a number followed by a dot and the item title. Check also that you did not add style information to the number or the title (bold, underline, italic, etc)."
 
-#. Default: "The cloned item could not be presented to a meeting because no meeting accepting items is available."
+#. Default: "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
+#, fuzzy
 msgid "could_not_present_item_no_meeting_accepting_items"
 msgstr "The cloned item could not be presented to a meeting because no meeting accepting items is available."
 

@@ -4163,7 +4163,7 @@ msgstr ""
 msgid "let_item_in_initial_state"
 msgstr ""
 
-#. Default: "The cloned item could not be presented to a meeting because no meeting accepting items is available."
+#. Default: "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
 msgid "could_not_present_item_no_meeting_accepting_items"
 msgstr ""
 

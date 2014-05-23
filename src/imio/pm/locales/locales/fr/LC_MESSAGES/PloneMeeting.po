@@ -1767,9 +1767,9 @@ msgstr "Il y a un problème de numérotation. Soit vous avez ajouté ou supprim�
 msgid "corruptedTitle"
 msgstr "Un objet pose problème. Veuillez vérifier que chaque objet commence par un numéro suivi d'un point et de l'objet du point. Vérifiez également que vous n'avez pas ajouté d'informations de mise en forme dans le numéro ou l'objet (gras, souligné, italique, etc)."
 
-#. Default: "The cloned item could not be presented to a meeting because no meeting accepting items is available."
+#. Default: "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
 msgid "could_not_present_item_no_meeting_accepting_items"
-msgstr "Le point n'a pas pu être présenté dans une séance car aucune séance n'accepte de points."
+msgstr "Le point n'a pas pu être présenté dans une séance du '${destMeetingConfigTitle}' car aucune séance n'accepte de points (aucune séance dans l'état '${initial_state}' n'a été trouvée)."
 
 #. Default: "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please contact system administrator."
 msgid "could_not_trigger_transition_for_cloned_item"

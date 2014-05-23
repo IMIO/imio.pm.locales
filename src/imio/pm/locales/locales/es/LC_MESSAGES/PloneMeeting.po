@@ -1773,7 +1773,7 @@ msgstr "Allí hay un problema relacionado a los temas numerados. Tampoco usted t
 msgid "corruptedTitle"
 msgstr "El título de un tema es incorrecto. Por verifique que cada título inicia en un número seguido de un punto y el título del tema. Verifique también que usted no halla agregado el estilo de información a el número o el título (negrita, subrayado, cursiva, etc)."
 
-#. Default: "The cloned item could not be presented to a meeting because no meeting accepting items is available."
+#. Default: "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
 msgid "could_not_present_item_no_meeting_accepting_items"
 msgstr ""
 

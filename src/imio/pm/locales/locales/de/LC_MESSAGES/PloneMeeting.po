@@ -1780,7 +1780,7 @@ msgstr "Die Nummerierung der TOP ist fehlerhaft. Sie haben entweder TOP hinzugef
 msgid "corruptedTitle"
 msgstr "Der Titel eines TOP ist inkorrekt. Bitte überprüfen Sie ob jeder Titel mit einer Nummer anfängt, gefolgt von einem Punkt und dem Titel des TOPs. Versichern Sie sich bitte ebenfalls, dass sie keine Styling-Informationen zur Nummer oder zum Titel (fettdruck, unterstrichen, kursiv, usw.) zugefügt haben."
 
-#. Default: "The cloned item could not be presented to a meeting because no meeting accepting items is available."
+#. Default: "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
 msgid "could_not_present_item_no_meeting_accepting_items"
 msgstr ""
 
