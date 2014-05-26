@@ -57,7 +57,7 @@ msgstr "N'effectuez la conversion des annexes que si la prévisualisation des an
 
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
-msgstr "Annexes (décision)"
+msgstr "Annexes (après décision)"
 
 #. Default: "No preference"
 msgid "Any meeting"
@@ -311,7 +311,7 @@ msgstr "Marquer les annexes à un avis comme 'à imprimer' par défaut?"
 
 #. Default: "Decision annex to print default value"
 msgid "PloneMeeting_label_annexDecisionToPrintDefault"
-msgstr "Marquer les annexes à la décision comme 'à imprimer' par défaut?"
+msgstr "Marquer les annexes après décision comme 'à imprimer' par défaut?"
 
 #. Default: "Annex to print default value"
 msgid "PloneMeeting_label_annexToPrintDefault"
@@ -1444,7 +1444,7 @@ msgstr "Si vous cochez cette case, les annexes ajoutées à un avis seront marqu
 
 #. Default: "Default value of the 'to print' checkbox for decision annexes."
 msgid "annex_decision_to_print_default_descr"
-msgstr "Si vous cochez cette case, les annexes à la décision ajoutées à un point seront marquées comme 'à imprimer' par défaut."
+msgstr "Si vous cochez cette case, les annexes après décision ajoutées à un point seront marquées comme 'à imprimer' par défaut."
 
 #. Default: "The annex is not confidential and will be visible by everybody who has access to this item."
 msgid "annex_is_confidential_no"
@@ -1771,7 +1771,8 @@ msgstr "Un objet pose problème. Veuillez vérifier que chaque objet commence pa
 msgid "could_not_present_item_no_meeting_accepting_items"
 msgstr "Le point n'a pas pu être présenté dans une séance du '${destMeetingConfigTitle}' car aucune séance n'accepte de points (aucune séance dans l'état '${initial_state}' n'a été trouvée)."
 
-#. Default: "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please check the new item."
+#. Default: "Some transitions could not be triggered for the item sent to '${meetingConfigTitle}', please check the new item."
+#, fuzzy
 msgid "could_not_trigger_transition_for_cloned_item"
 msgstr "Certaines transitions n'ont pas pu être déclenchées sur le point envoyé au ${meetingConfigTitle}, vérifiez le nouveau point."
 
@@ -2002,7 +2003,7 @@ msgstr "Si la prévisualisation est activée, les annexes seront converties dans
 
 #. Default: "Let the user specify if an annex needs to be printed or not.  WARNING, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
 msgid "enable_annex_to_print_descr"
-msgstr "Permet à l'utilisateur de spécifier si une annexe doit être imprimée ou non.  ATTENTION, si vous désactivez cette fonctionnalité, les deux paramètres suivants 'Marquer les annexes comme 'à imprimer' par défaut?' et 'Marquer les annexes à la décision comme 'à imprimer' par défaut?' seront automatiquement remis à 'Non'."
+msgstr "Permet à l'utilisateur de spécifier si une annexe doit être imprimée ou non.  ATTENTION, si vous désactivez cette fonctionnalité, les deux paramètres suivants 'Marquer les annexes comme 'à imprimer' par défaut?' et 'Marquer les annexes après décision comme 'à imprimer' par défaut?' seront automatiquement remis à 'Non'."
 
 #. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."
 msgid "enable_goto_item_descr"
@@ -3023,7 +3024,7 @@ msgstr "Annexe à un point"
 
 #. Default: "Item decision annex"
 msgid "meetingfiletype_related_to_item_decision"
-msgstr "Annexe à la décision d'un point"
+msgstr "Annexe après décision d'un point"
 
 #. Default: "As the group has been deactivated, it has been removed from the 'selectable copy groups' field of every meeting configs."
 msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups"
