@@ -1772,9 +1772,8 @@ msgid "could_not_present_item_no_meeting_accepting_items"
 msgstr "Le point n'a pas pu être présenté dans une séance du '${destMeetingConfigTitle}' car aucune séance n'accepte de points (aucune séance dans l'état '${initial_state}' n'a été trouvée)."
 
 #. Default: "Some transitions could not be triggered for the item sent to '${meetingConfigTitle}', please check the new item."
-#, fuzzy
 msgid "could_not_trigger_transition_for_cloned_item"
-msgstr "Certaines transitions n'ont pas pu être déclenchées sur le point envoyé au ${meetingConfigTitle}, vérifiez le nouveau point."
+msgstr "Certaines transitions n'ont pas pu être déclenchées sur le point envoyé au '${meetingConfigTitle}', vérifiez le nouveau point."
 
 #. Default: "This item has been created from a delayed item."
 msgid "create_from_predecessor_comments"
