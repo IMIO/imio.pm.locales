@@ -1771,9 +1771,9 @@ msgstr "Un objet pose problème. Veuillez vérifier que chaque objet commence pa
 msgid "could_not_present_item_no_meeting_accepting_items"
 msgstr "Le point n'a pas pu être présenté dans une séance du '${destMeetingConfigTitle}' car aucune séance n'accepte de points (aucune séance dans l'état '${initial_state}' n'a été trouvée)."
 
-#. Default: "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please contact system administrator."
+#. Default: "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please check the new item."
 msgid "could_not_trigger_transition_for_cloned_item"
-msgstr "Certaines transitions n'ont pas pu être déclenchées sur le point envoyé au ${meetingConfigTitle}, contactez votre administrateur système."
+msgstr "Certaines transitions n'ont pas pu être déclenchées sur le point envoyé au ${meetingConfigTitle}, vérifiez le nouveau point."
 
 #. Default: "This item has been created from a delayed item."
 msgid "create_from_predecessor_comments"
@@ -3565,6 +3565,10 @@ msgstr "Choisissez ici le type d'annexe auquel ce type de fichier est associé."
 #. Default: "Remove this information"
 msgid "remove_info"
 msgstr "Supprimer cette information"
+
+#. Default: "A category must be selected on this item so that it can be proposed"
+msgid "required_category_ko"
+msgstr "Une catégorie doit être sélectionnée sur ce point afin qu'il puisse être proposé"
 
 #. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"

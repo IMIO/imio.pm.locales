@@ -1777,7 +1777,7 @@ msgstr "El título de un tema es incorrecto. Por verifique que cada título inic
 msgid "could_not_present_item_no_meeting_accepting_items"
 msgstr ""
 
-#. Default: "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please contact system administrator."
+#. Default: "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please check the new item."
 msgid "could_not_trigger_transition_for_cloned_item"
 msgstr ""
 
@@ -3575,6 +3575,10 @@ msgstr "Define aquí por qué tipo de anexar es este tipo de anexo aplica."
 #. Default: "Remove this information"
 msgid "remove_info"
 msgstr "Remover esta información"
+
+#. Default: "A category must be selected on this item so that it can be proposed"
+msgid "required_category_ko"
+msgstr ""
 
 #. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"

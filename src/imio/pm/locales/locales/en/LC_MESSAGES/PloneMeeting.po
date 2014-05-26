@@ -1343,9 +1343,8 @@ msgid "advice_comment"
 msgstr "Comment (optional)"
 
 #. Default: "Quick edit advice"
-#, fuzzy
 msgid "advice_edit"
-msgstr "Edit advice"
+msgstr "Quick edit advice"
 
 #. Default: "The advice has been created or updated."
 msgid "advice_edited"
@@ -1769,13 +1768,12 @@ msgid "corruptedTitle"
 msgstr "The title of an item is wrong. Please check that each title begins with a number followed by a dot and the item title. Check also that you did not add style information to the number or the title (bold, underline, italic, etc)."
 
 #. Default: "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
-#, fuzzy
 msgid "could_not_present_item_no_meeting_accepting_items"
-msgstr "The cloned item could not be presented to a meeting because no meeting accepting items is available."
+msgstr "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
 
-#. Default: "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please contact system administrator."
+#. Default: "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please check the new item."
 msgid "could_not_trigger_transition_for_cloned_item"
-msgstr "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please contact system administrator."
+msgstr "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please check the new item."
 
 #. Default: "This item has been created from a delayed item."
 msgid "create_from_predecessor_comments"
@@ -3569,6 +3567,10 @@ msgstr "Define here for wich kind of annex this type of annex applies."
 #. Default: "Remove this information"
 msgid "remove_info"
 msgstr "Remove this information"
+
+#. Default: "A category must be selected on this item so that it can be proposed"
+msgid "required_category_ko"
+msgstr ""
 
 #. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"

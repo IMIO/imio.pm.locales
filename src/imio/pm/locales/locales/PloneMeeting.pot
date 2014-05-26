@@ -3753,6 +3753,10 @@ msgstr ""
 msgid "icon_help_publish_deadline_ko"
 msgstr ""
 
+#. Default: "A category must be selected on this item so that it can be proposed"
+msgid "required_category_ko"
+msgstr ""
+
 #. Default: "Pre-validated"
 msgid "icon_help_prevalidated"
 msgstr ""
@@ -4167,7 +4171,7 @@ msgstr ""
 msgid "could_not_present_item_no_meeting_accepting_items"
 msgstr ""
 
-#. Default: "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please contact system administrator."
+#. Default: "Some transitions could not be triggered for the item sent to ${meetingConfigTitle}, please check the new item."
 msgid "could_not_trigger_transition_for_cloned_item"
 msgstr ""
 
