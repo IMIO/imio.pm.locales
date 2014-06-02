@@ -433,6 +433,10 @@ msgstr "This annex type is specifically linked to the decision taken on this ite
 msgid "PloneMeeting_label_decisionTopicStates"
 msgstr "Meeting states that condition the display of meetings in the 'decisions' portlet"
 
+#. Default: "Default value of the 'Hide advice during redaction' field on an advice"
+msgid "PloneMeeting_label_defaultAdviceHiddenDuringRedaction"
+msgstr ""
+
 #. Default: "Default advice type"
 msgid "PloneMeeting_label_defaultAdviceType"
 msgstr "Default advice type"
@@ -1911,6 +1915,10 @@ msgstr "Decisions"
 #. Default: "General"
 msgid "default"
 msgstr "General"
+
+#. Default: "As mentioned on the advice in the help part of the field, this will let advisers hide the advice when it is under redaction.  If adviser loses access to the advice (for example if the item state evolve or delay to give advice is exceeded), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
+msgid "default_advice_hidden_during_redaction_descr"
+msgstr ""
 
 #. Default: "The default advice type will be preselected on the form for adding an advice on an item."
 msgid "default_advice_type_descr"
@@ -4233,3 +4241,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+

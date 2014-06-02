@@ -2787,6 +2787,14 @@ msgstr ""
 msgid "PloneMeeting_label_adviceStyle"
 msgstr ""
 
+#. Default: "Default value of the 'Hide advice during redaction' field on an advice"
+msgid "PloneMeeting_label_defaultAdviceHiddenDuringRedaction"
+msgstr ""
+
+#. Default: "As mentioned on the advice in the help part of the field, this will let advisers hide the advice when it is under redaction.  If adviser loses access to the advice (for example if the item state evolve or delay to give advice is exceeded), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
+msgid "default_advice_hidden_during_redaction_descr"
+msgstr ""
+
 #. Default: "Transition that will reinitialize advice delays"
 msgid "PloneMeeting_label_transitionReinitializingDelays"
 msgstr ""

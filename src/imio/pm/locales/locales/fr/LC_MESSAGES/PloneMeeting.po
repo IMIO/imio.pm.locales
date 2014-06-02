@@ -433,6 +433,10 @@ msgstr "Ce type d'annexe est spécifiquement lié à la décision prise sur le p
 msgid "PloneMeeting_label_decisionTopicStates"
 msgstr "Etats des séances conditionnant l'affichage de celles-ci dans la portlet 'décisions'"
 
+#. Default: "Default value of the 'Hide advice during redaction' field on an advice"
+msgid "PloneMeeting_label_defaultAdviceHiddenDuringRedaction"
+msgstr "Valeur par défaut du champ 'Cacher l'avis pendant sa rédaction' affiché sur les avis"
+
 #. Default: "Default advice type"
 msgid "PloneMeeting_label_defaultAdviceType"
 msgstr "Type d'avis par défaut"
@@ -1911,6 +1915,10 @@ msgstr "Décisions"
 #. Default: "General"
 msgid "default"
 msgstr "Général"
+
+#. Default: "As mentioned on the advice in the help part of the field, this will let advisers hide the advice when it is under redaction.  If adviser loses access to the advice (for example if the item state evolve or delay to give advice is exceeded), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
+msgid "default_advice_hidden_during_redaction_descr"
+msgstr "Comme mentionné sur l'avis dans la partie aide du champ, ceci permet aux émetteurs d'avis qui coche la case de cacher celui-ci pendant sa rédaction.  Si l'émetteur d'avis perd l'accès à l'avis alors que la case est cochée (par exemple si le point change d'état ou si le délai pour rendre l'avis est dépassé), l'avis sera considéré 'Non rendu, était en cours de rédaction'.  Néanmoins un administrateurs pourra publier cet avis si nécessaire par après."
 
 #. Default: "The default advice type will be preselected on the form for adding an advice on an item."
 msgid "default_advice_type_descr"
@@ -4231,3 +4239,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+

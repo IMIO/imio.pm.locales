@@ -434,6 +434,10 @@ msgstr "Dieser Anhangs-Typ ist mit dem Beschluss der für diesen TOP gefasst wur
 msgid "PloneMeeting_label_decisionTopicStates"
 msgstr "Sitzungs-Status welche für die Anzeige im Beschlüsse-Portlet berücksichtigt werden"
 
+#. Default: "Default value of the 'Hide advice during redaction' field on an advice"
+msgid "PloneMeeting_label_defaultAdviceHiddenDuringRedaction"
+msgstr ""
+
 #. Default: "Default advice type"
 msgid "PloneMeeting_label_defaultAdviceType"
 msgstr "Standard Zustimmungsgrad"
@@ -1926,6 +1930,10 @@ msgstr "Beschlüsse"
 #. Default: "General"
 msgid "default"
 msgstr "Allgemein"
+
+#. Default: "As mentioned on the advice in the help part of the field, this will let advisers hide the advice when it is under redaction.  If adviser loses access to the advice (for example if the item state evolve or delay to give advice is exceeded), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
+msgid "default_advice_hidden_during_redaction_descr"
+msgstr ""
 
 #. Default: "The default advice type will be preselected on the form for adding an advice on an item."
 msgid "default_advice_type_descr"
