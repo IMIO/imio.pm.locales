@@ -1237,9 +1237,9 @@ msgstr "Une erreur est survenue en essayant de définir cette annexe comme 'à i
 msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
 msgstr "Cet avis ne peut plus être rendu, il a été demandé le ${advice_delay_started_on} et pouvait l'être jusqu'au ${advice_delay_limit_date}."
 
-#. Default: "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group.  If you need this advice to be considered, contact relevant meeting managers."
-msgid "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group.  If you need this advice to be considered, contact relevant meeting managers."
-msgstr "Cet avis est considéré 'Non rendu' car il était toujours en cours de rédaction lorsque le groupe qui le rédigait a perdu la main sur l'avis (le point a changé d'état ou le délai pour rendre l'avis est dépassé).  Contactez un administrateur s'il est nécessaire que cet avis soit malgré tout pris en compte."
+#. Default: "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
+msgid "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
+msgstr "Cet avis est considéré 'Non rendu' car il était toujours en cours de rédaction lorsque le groupe qui le rédigeait a perdu la main sur l'avis (le point a changé d'état ou le délai pour rendre l'avis est dépassé). Contactez un administrateur s'il est nécessaire que cet avis soit malgré tout pris en compte."
 
 #. Default: "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
 msgid "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
@@ -4239,4 +4239,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
