@@ -139,9 +139,21 @@ msgstr "Edition du portlet 'à faire'"
 msgid "Enter optionnal observations if necessary."
 msgstr "Encodez ici vos remarques optionnelles si nécessaire."
 
+#. Default: "Enter the item absents to be applied.  The value displayed by default is the value of the current item."
+msgid "Enter the item absents to be applied.  The value displayed by default is the value of the current item."
+msgstr "Encodez les absents qui devront être appliqués.  La valeur affichée par défaut dans ce champ est la valeur actuellement définie sur ce point."
+
 #. Default: "Enter the item assembly to be applied.  The value displayed by default is the value of the current item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])."
 msgid "Enter the item assembly to be applied.  The value displayed by default is the value of the current item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])."
-msgstr "Encodez l'assemblée qui devra être appliquée.  La valeur affichée par défaut dans ce champ est la valeur définie sur le point courant.  Ajoutez des double crochets [[ ]] autour des personnes absentes, par exemple : [[Mr. Untel Didier]]"
+msgstr "Encodez l'assemblée qui devra être appliquée.  La valeur affichée par défaut dans ce champ est la valeur actuellement définie sur ce point.  Ajoutez des double crochets [[ ]] autour des personnes absentes, par exemple : [[Mr. Untel Didier]]"
+
+#. Default: "Enter the item attendees to be applied.  The value displayed by default is the value of the current item."
+msgid "Enter the item attendees to be applied.  The value displayed by default is the value of the current item."
+msgstr "Encodez les présents qui devront être appliqués.  La valeur affichée par défaut dans ce champ est la valeur actuellement définie sur ce point."
+
+#. Default: "Enter the item excused to be applied.  The value displayed by default is the value of the current item."
+msgid "Enter the item excused to be applied.  The value displayed by default is the value of the current item."
+msgstr "Encodez les excusés qui devront être appliqués.  La valeur affichée par défaut dans ce champ est la valeur actuellement définie sur ce point."
 
 #. Default: "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
 msgid "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
@@ -191,6 +203,10 @@ msgstr "Si vous spécifiez un numéro, les signatures définies dans le champ ci
 msgid "It is not possible to add annexes because no file types is defined, please contact system administrator."
 msgstr "Il n'est pas possible d'ajouter des annexes car aucun type d'annexe n'est défini dans la configuration, contactez votre administrateur système."
 
+#. Default: "Item absents to apply"
+msgid "Item absents to apply"
+msgstr "Absents à appliquer"
+
 #. Default: "Item assemblies have been updated."
 msgid "Item assemblies have been updated."
 msgstr "Les assemblées des points ont été mises à jour."
@@ -198,6 +214,14 @@ msgstr "Les assemblées des points ont été mises à jour."
 #. Default: "Item assembly to apply"
 msgid "Item assembly to apply"
 msgstr "Assemblée à appliquer"
+
+#. Default: "Item attendees to apply"
+msgid "Item attendees to apply"
+msgstr "Présents à appliquer"
+
+#. Default: "Item excused to apply"
+msgid "Item excused to apply"
+msgstr "Excusés à appliquer"
 
 #. Default: "Item signatures have been updated."
 msgid "Item signatures have been updated."
@@ -615,7 +639,15 @@ msgstr "Etats des points dans lesquels les donneurs d'avis de ces points peuvent
 
 #. Default: "Assembly that is specific to this meeting item"
 msgid "PloneMeeting_label_itemAssembly"
-msgstr "Assemblée spécifique liée à ce point"
+msgstr "Assemblée pour ce point"
+
+#. Default: "Assembly absents that is specific to this meeting item"
+msgid "PloneMeeting_label_itemAssemblyAbsents"
+msgstr "Absents pour ce point"
+
+#. Default: "Assembly excused that is specific to this meeting item"
+msgid "PloneMeeting_label_itemAssemblyExcused"
+msgstr "Excusés pour ce point"
 
 #. Default: "Item states in wich budget impact editors can change budgetary informations"
 msgid "PloneMeeting_label_itemBudgetInfosStates"
@@ -671,7 +703,7 @@ msgstr "Signataires pour ce point"
 
 #. Default: "Signatures which are specific to this meeting item"
 msgid "PloneMeeting_label_itemSignatures"
-msgstr "Signatures spécifiques liées à ce point"
+msgstr "Signatures pour ce point"
 
 #. Default: "Tags"
 msgid "PloneMeeting_label_itemTags"
@@ -1534,6 +1566,14 @@ msgstr "L'objet du point est '${itemNumber} - ${itemTitle}'. Accédez à ce poin
 msgid "askDiscussItem_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - ${user}, appartenant au(x) groupe(s) ${groups}, souhaiterait évoquer un point."
 
+#. Default: "Absents as defined on the linked meeting"
+msgid "assembly_absents_defined_on_meeting"
+msgstr "Absents définis sur la séance"
+
+#. Default: "Define here people that were absents (not excused) for the meeting"
+msgid "assembly_absents_meeting_descr"
+msgstr "Définissez ici les personnes absentes (non excusées) pour la séance"
+
 #. Default: "Assembly as defined on the linked meeting"
 msgid "assembly_defined_on_meeting"
 msgstr "Assemblée définie sur la séance"
@@ -1542,9 +1582,17 @@ msgstr "Assemblée définie sur la séance"
 msgid "assembly_descr"
 msgstr "Définissez ici l'assemblée par défaut (par exemple, une liste de noms et prénoms séparés par des virgules ou des retours à la ligne) qui sera automatiquement sélectionnée pour chaque séance nouvellement créée. Si vous souhaitez une manière plus structurée de définir les présents, absents et excusés à une séance, n'utilisez pas ce champ, allez dans l'onglet 'données', définissez-y des utilisateurs spéciaux ayant la caractéristique 'membre d'assemblée' et, dans le même onglet, sélectionnez les attributs 'présents', 'absents' et/ou 'excusés' dans la liste des attributs optionnels sur une séance."
 
-#. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]])"
+#. Default: "Excused as defined on the linked meeting"
+msgid "assembly_excused_defined_on_meeting"
+msgstr "Excusés définis sur la séance"
+
+#. Default: "Define here people that were excused for the meeting"
+msgid "assembly_excused_meeting_descr"
+msgstr "Définissez ici les personnes excusées pour la séance"
+
+#. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use 'Excused' and 'Absents' fields"
 msgid "assembly_meeting_descr"
-msgstr "Ajoutez des double crochets [[ ]] autour des personnes absentes, par exemple : [[Mr. Untel Didier]]"
+msgstr "Ajoutez des double crochets [[ ]] autour des personnes absentes, par exemple : [[Mr. Untel Didier]] si vous n'utilisez pas les champs 'Excusés' et 'Absents'"
 
 #. Default: "Use 'CTRL+click' to select several associated groups."
 msgid "associated_group_item_descr"
@@ -1558,6 +1606,14 @@ msgstr "Acronymes des groupes associés"
 #. Default: "At the end"
 msgid "at_the_end"
 msgstr "A la fin de la séance"
+
+#. Default: "Attendees as defined on the linked meeting"
+msgid "attendees_defined_on_meeting"
+msgstr "Présents définis sur la séance"
+
+#. Default: "Attendees for this item"
+msgid "attendees_for_item"
+msgstr "Présents pour ce point"
 
 #. Default: "Using attribute(s) 'excused' and/or 'absents' requires the use of attribute 'attendees'."
 msgid "attendees_required"
@@ -1967,6 +2023,10 @@ msgstr "Vous êtes seulement autorisé à consulter les éléments visibles.  Ut
 #. Default: "Assembly stored on the linked meeting"
 msgid "display_meeting_assembly_legend"
 msgstr "Assemblée définie sur la séance"
+
+#. Default: "Attendees stored on the linked meeting"
+msgid "display_meeting_attendees_legend"
+msgstr "Présents définis sur la séance"
 
 #. Default: "signatures stored on the linked meeting"
 msgid "display_meeting_signatures_legend"
@@ -2475,9 +2535,17 @@ msgstr "Quand un point est dans un des états que vous sélectionnez ici, il ser
 msgid "item_assembly"
 msgstr "Assemblée pour ce point"
 
-#. Default: "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])"
+#. Default: "If you don't fill this field, meeting assembly absents will be used for this item"
+msgid "item_assembly_absents_descr"
+msgstr "Si vous ne remplissez pas ce champ, les absents définis sur le point seront utilisés"
+
+#. Default: "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use excused and absent fields"
 msgid "item_assembly_descr"
-msgstr "Si vous ne remplissez pas ce champ, l'assemblée définie sur la séance sera utilisée. Ajoutez des double crochets [[ ]] autour des personnes absentes, par exemple : [[Mr. Untel Didier]]"
+msgstr "Si vous ne remplissez pas ce champ, l'assemblée définie sur la séance sera utilisée. Ajoutez des double crochets [[ ]] autour des personnes absentes, par exemple : [[Mr. Untel Didier]] si vous n'utilisez pas les champs 'Excusés' et 'Absents'"
+
+#. Default: "If you don't fill this field, meeting assembly excused will be used for this item"
+msgid "item_assembly_excused_descr"
+msgstr "Si vous ne remplissez pas ce champ, les excusés définis sur le point seront utilisés"
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations."
 msgid "item_budget_infos_states_descr"
@@ -2840,6 +2908,14 @@ msgstr "Choisissez ici la page qui s'affiche directement après connexion."
 #. Default: "Assembly"
 msgid "meeting_assembly"
 msgstr "Assemblée"
+
+#. Default: "Absents"
+msgid "meeting_assembly_absents"
+msgstr "Absents (non excusés)"
+
+#. Default: "Excused"
+msgid "meeting_assembly_excused"
+msgstr "Excusés"
 
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 msgid "meeting_columns_descr"
@@ -4243,4 +4319,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

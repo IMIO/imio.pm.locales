@@ -139,9 +139,21 @@ msgstr "Edit Todo Portlet"
 msgid "Enter optionnal observations if necessary."
 msgstr "Enter optionnal observations if necessary."
 
+#. Default: "Enter the item absents to be applied.  The value displayed by default is the value of the current item."
+msgid "Enter the item absents to be applied.  The value displayed by default is the value of the current item."
+msgstr ""
+
 #. Default: "Enter the item assembly to be applied.  The value displayed by default is the value of the current item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])."
 msgid "Enter the item assembly to be applied.  The value displayed by default is the value of the current item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])."
 msgstr "Enter the item assembly to be applied.  The value displayed by default is the value of the current item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])."
+
+#. Default: "Enter the item attendees to be applied.  The value displayed by default is the value of the current item."
+msgid "Enter the item attendees to be applied.  The value displayed by default is the value of the current item."
+msgstr ""
+
+#. Default: "Enter the item excused to be applied.  The value displayed by default is the value of the current item."
+msgid "Enter the item excused to be applied.  The value displayed by default is the value of the current item."
+msgstr ""
 
 #. Default: "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
 msgid "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
@@ -191,6 +203,10 @@ msgstr "If you specify a number, the item signatures entered here above will be 
 msgid "It is not possible to add annexes because no file types is defined, please contact system administrator."
 msgstr "It is not possible to add annexes because no file types is defined, please contact system administrator."
 
+#. Default: "Item absents to apply"
+msgid "Item absents to apply"
+msgstr ""
+
 #. Default: "Item assemblies have been updated."
 msgid "Item assemblies have been updated."
 msgstr "Item assemblies have been updated."
@@ -198,6 +214,14 @@ msgstr "Item assemblies have been updated."
 #. Default: "Item assembly to apply"
 msgid "Item assembly to apply"
 msgstr "Item assembly to apply"
+
+#. Default: "Item attendees to apply"
+msgid "Item attendees to apply"
+msgstr ""
+
+#. Default: "Item excused to apply"
+msgid "Item excused to apply"
+msgstr ""
 
 #. Default: "Item signatures have been updated."
 msgid "Item signatures have been updated."
@@ -616,6 +640,14 @@ msgstr "Item states allowing advisers to continue to view the item"
 #. Default: "Assembly that is specific to this meeting item"
 msgid "PloneMeeting_label_itemAssembly"
 msgstr "Assembly that is specific to this meeting item"
+
+#. Default: "Assembly absents that is specific to this meeting item"
+msgid "PloneMeeting_label_itemAssemblyAbsents"
+msgstr ""
+
+#. Default: "Assembly excused that is specific to this meeting item"
+msgid "PloneMeeting_label_itemAssemblyExcused"
+msgstr ""
 
 #. Default: "Item states in wich budget impact editors can change budgetary informations"
 msgid "PloneMeeting_label_itemBudgetInfosStates"
@@ -1534,6 +1566,14 @@ msgstr "The item is entitled '${itemNumber} - ${itemTitle}'. You can access this
 msgid "askDiscussItem_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - ${user}, belonging to group(s) ${groups}, would like to discuss an item."
 
+#. Default: "Absents as defined on the linked meeting"
+msgid "assembly_absents_defined_on_meeting"
+msgstr ""
+
+#. Default: "Define here people that were absents (not excused) for the meeting"
+msgid "assembly_absents_meeting_descr"
+msgstr ""
+
 #. Default: "Assembly as defined on the linked meeting"
 msgid "assembly_defined_on_meeting"
 msgstr "Assembly as defined on the linked meeting"
@@ -1542,7 +1582,16 @@ msgstr "Assembly as defined on the linked meeting"
 msgid "assembly_descr"
 msgstr "Define here the default assembly (for example you may type a list of names and first names separated by colons or new lines) that will be automatically selected on newly created meetings. If you want a more structured way to define attendees, absents and excused people on a meeting, do not fill this field, create, in the tab 'data', special users having characteristic 'assembly member' and select, in the same tab, 'attendees', 'absents' and/or 'excused' attributes as attributes used for a meeting."
 
-#. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]])"
+#. Default: "Excused as defined on the linked meeting"
+msgid "assembly_excused_defined_on_meeting"
+msgstr ""
+
+#. Default: "Define here people that were excused for the meeting"
+msgid "assembly_excused_meeting_descr"
+msgstr ""
+
+#. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use 'Excused' and 'Absents' fields"
+#, fuzzy
 msgid "assembly_meeting_descr"
 msgstr "Add [[ ]] around absent people (like [[Mister Sample Peter]])"
 
@@ -1558,6 +1607,14 @@ msgstr "Associated groups' acronyms"
 #. Default: "At the end"
 msgid "at_the_end"
 msgstr "At the end"
+
+#. Default: "Attendees as defined on the linked meeting"
+msgid "attendees_defined_on_meeting"
+msgstr ""
+
+#. Default: "Attendees for this item"
+msgid "attendees_for_item"
+msgstr ""
 
 #. Default: "Using attribute(s) 'excused' and/or 'absents' requires the use of attribute 'attendees'."
 msgid "attendees_required"
@@ -1967,6 +2024,10 @@ msgstr "You are just able to see visible elements here. Please consult the 'mana
 #. Default: "Assembly stored on the linked meeting"
 msgid "display_meeting_assembly_legend"
 msgstr "Assembly stored on the linked meeting"
+
+#. Default: "Attendees stored on the linked meeting"
+msgid "display_meeting_attendees_legend"
+msgstr ""
 
 #. Default: "signatures stored on the linked meeting"
 msgid "display_meeting_signatures_legend"
@@ -2475,9 +2536,18 @@ msgstr "When an item is in one of the states you choose here, it will be possibl
 msgid "item_assembly"
 msgstr "Assembly for the item"
 
-#. Default: "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])"
+#. Default: "If you don't fill this field, meeting assembly absents will be used for this item"
+msgid "item_assembly_absents_descr"
+msgstr ""
+
+#. Default: "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use excused and absent fields"
+#, fuzzy
 msgid "item_assembly_descr"
 msgstr "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])"
+
+#. Default: "If you don't fill this field, meeting assembly excused will be used for this item"
+msgid "item_assembly_excused_descr"
+msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations."
 msgid "item_budget_infos_states_descr"
@@ -2840,6 +2910,14 @@ msgstr "Choose here which page will be shown after logon."
 #. Default: "Assembly"
 msgid "meeting_assembly"
 msgstr "Assembly"
+
+#. Default: "Absents"
+msgid "meeting_assembly_absents"
+msgstr ""
+
+#. Default: "Excused"
+msgid "meeting_assembly_excused"
+msgstr ""
 
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 msgid "meeting_columns_descr"
