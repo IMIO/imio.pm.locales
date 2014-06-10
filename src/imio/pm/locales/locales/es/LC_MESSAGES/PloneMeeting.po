@@ -1242,8 +1242,8 @@ msgstr "Se produjo un error al intentar configurar este anexo como imprimible. E
 msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
 msgstr ""
 
-#. Default: "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group.  If you need this advice to be considered, contact relevant meeting managers."
-msgid "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group.  If you need this advice to be considered, contact relevant meeting managers."
+#. Default: "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
+msgid "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
 msgstr ""
 
 #. Default: "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
@@ -1756,6 +1756,10 @@ msgstr "Lo siento, pero esta configuración es aun la única por defecto. Si ust
 #. Default: "If this meeting configuration corresponds to an organization, institution or group that gives an identifier to its successive forms (ie: City council 2000-2006, 5th Parliament, VIIIth Government...), you can write here the identifier of the current form (ie: 'CC00_06', 'P5', 'Gov VIII'...)."
 msgid "config_version_descr"
 msgstr "Si esta configuración de reunión corresponde a una organización, institución o grupo que da un identificador a sus sucesivas formas (ejemplo: Ayuntamiento 2000-2006, 5 º Parlamento, Gobierno VIII...), usted puede escribir aquí el identificador de la forma actual (ejemplo: 'CC00_06', 'P5', 'Gov VIII'...)."
+
+#. Default: "Considered not given because hidden during redaction"
+msgid "considered_not_given_hidden_during_redaction"
+msgstr ""
 
 #. Default: "Select here groups that will be able to see this item"
 msgid "copy_groups_item_descr"
