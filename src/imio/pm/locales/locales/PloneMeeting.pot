@@ -722,11 +722,11 @@ msgid "meeting_assembly"
 msgstr ""
 
 #. Default: "Excused"
-msgid "meeting_assembly_excused"
+msgid "PloneMeeting_label_assemblyExcused"
 msgstr ""
 
 #. Default: "Absents"
-msgid "meeting_assembly_absents"
+msgid "PloneMeeting_label_assemblyAbsents"
 msgstr ""
 
 #. Default: "Attendees"
@@ -4345,4 +4345,16 @@ msgstr ""
 
 #. Default: "This transition was automatically triggered by the application."
 msgid "advice_wf_changed_triggered_by_application"
+msgstr ""
+
+#. Default: "You can not select several categories for the same meeting config."
+msgid "error_can_not_select_several_cat_for_same_mc"
+msgstr ""
+
+#. Default: "Category to use when sending item of this meeting config to another one"
+msgid "PloneMeeting_label_categoryMappingsWhenCloningToOtherMC"
+msgstr ""
+
+#. Default: "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
+msgid "category_mapping_when_cloning_to_other_mc_descr"
 msgstr ""

@@ -353,6 +353,14 @@ msgstr "Le groupe sera automatiquement mis en copie d'un point si"
 msgid "PloneMeeting_label_assembly"
 msgstr "Assemblée par défaut"
 
+#. Default: "Absents"
+msgid "PloneMeeting_label_assemblyAbsents"
+msgstr "Absents"
+
+#. Default: "Excused"
+msgid "PloneMeeting_label_assemblyExcused"
+msgstr "Excusés"
+
 #. Default: "Associated group(s)"
 msgid "PloneMeeting_label_associatedGroups"
 msgstr "Groupe(s) associé(s)"
@@ -392,6 +400,10 @@ msgstr "Catégorie"
 #. Default: "Category identifier"
 msgid "PloneMeeting_label_categoryId"
 msgstr "Identifiant de la catégorie"
+
+#. Default: "Category to use when sending item of this meeting config to another one"
+msgid "PloneMeeting_label_categoryMappingsWhenCloningToOtherMC"
+msgstr "Catégorie à utiliser lorsqu'un point de cette configuration de séance est envoyé vers une autre"
 
 #. Default: "Certified signatures"
 msgid "PloneMeeting_label_certifiedSignatures"
@@ -1715,6 +1727,10 @@ msgstr "Choisissez ici un identifiant pour votre catégorie."
 msgid "category_items_count_descr"
 msgstr "Nombre de points pour lesquels cette catégorie a été spécifiée. Attention: ce champ est mis à jour automatiquement dès qu'un point est créé ou modifié."
 
+#. Default: "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
+msgid "category_mapping_when_cloning_to_other_mc_descr"
+msgstr "Lorsqu'un point de cette configuration de séance utilisant cette catégorie sera envoyé vers une autre configuration de séance, sélectionnez ci-dessous la catégorie qui devra être utilisée pour le point dans la configuration de séance de destination.  Ceci n'a de sens que si les deux configurations de séance (origine et destination) utilisent les catégories."
+
 #. Default: "Category (or proposing group)"
 msgid "category_or_proposing_group"
 msgstr "Catégorie (ou groupe proposant)"
@@ -2091,6 +2107,10 @@ msgstr "Si vous cochez cette case, les utilisateurs pourront accéder à un écr
 #. Default: "When advice mandatoriness is enforced, an item can't be inserted into a meeting unless all mandatory advices are given and positive."
 msgid "enforce_advice_mandatoriness_descr"
 msgstr "Quand le caractère obligatoire des avis est d'application, un point ne peut être inséré dans une séance à moins que tous les avis obligatoires n'aient été rendus et soient positifs."
+
+#. Default: "You can not select several categories for the same meeting config."
+msgid "error_can_not_select_several_cat_for_same_mc"
+msgstr "Vous ne pouvez pas sélectionner plusieurs catégories pour la même configuration de séance."
 
 #. Default: "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."
 msgid "eventOccurred_mail_body"
@@ -2908,14 +2928,6 @@ msgstr "Choisissez ici la page qui s'affiche directement après connexion."
 #. Default: "Assembly"
 msgid "meeting_assembly"
 msgstr "Assemblée"
-
-#. Default: "Absents"
-msgid "meeting_assembly_absents"
-msgstr "Absents (non excusés)"
-
-#. Default: "Excused"
-msgid "meeting_assembly_excused"
-msgstr "Excusés"
 
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 msgid "meeting_columns_descr"

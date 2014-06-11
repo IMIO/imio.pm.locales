@@ -357,6 +357,14 @@ msgstr "Como grupo de copia"
 msgid "PloneMeeting_label_assembly"
 msgstr "Asamblea por defecto"
 
+#. Default: "Absents"
+msgid "PloneMeeting_label_assemblyAbsents"
+msgstr ""
+
+#. Default: "Excused"
+msgid "PloneMeeting_label_assemblyExcused"
+msgstr ""
+
 #. Default: "Associated group(s)"
 msgid "PloneMeeting_label_associatedGroups"
 msgstr "Grupo(s) asociados"
@@ -396,6 +404,10 @@ msgstr "Categoría"
 #. Default: "Category identifier"
 msgid "PloneMeeting_label_categoryId"
 msgstr "Identificador de la categoría"
+
+#. Default: "Category to use when sending item of this meeting config to another one"
+msgid "PloneMeeting_label_categoryMappingsWhenCloningToOtherMC"
+msgstr ""
 
 #. Default: "Certified signatures"
 msgid "PloneMeeting_label_certifiedSignatures"
@@ -1722,6 +1734,10 @@ msgstr "Elija aquí algunos identificadores para su categoría."
 msgid "category_items_count_descr"
 msgstr "Número de temas por los cuales esta categoría ha sido elegido. Tenga cuidado: este campo se llena automáticamente cada vez que un tema es creado o actualizado."
 
+#. Default: "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
+msgid "category_mapping_when_cloning_to_other_mc_descr"
+msgstr ""
+
 #. Default: "Category (or proposing group)"
 msgid "category_or_proposing_group"
 msgstr "Categoría (o grupo propuesto)"
@@ -2098,6 +2114,10 @@ msgstr "Si marca esta casilla, los usuarios podrán acceder a una pantalla para 
 #. Default: "When advice mandatoriness is enforced, an item can't be inserted into a meeting unless all mandatory advices are given and positive."
 msgid "enforce_advice_mandatoriness_descr"
 msgstr "Cuando el consejo obligatorio es forzado, un tema no puede ser insertado dentro de una reunión a menos que todos los consejos obligatorios son dados y son positivos."
+
+#. Default: "You can not select several categories for the same meeting config."
+msgid "error_can_not_select_several_cat_for_same_mc"
+msgstr ""
 
 #. Default: "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."
 msgid "eventOccurred_mail_body"
@@ -2917,14 +2937,6 @@ msgstr "Selecciona aquí con qué página se mostrará después del inicio de se
 #. Default: "Assembly"
 msgid "meeting_assembly"
 msgstr "Asamblea"
-
-#. Default: "Absents"
-msgid "meeting_assembly_absents"
-msgstr ""
-
-#. Default: "Excused"
-msgid "meeting_assembly_excused"
-msgstr ""
 
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 msgid "meeting_columns_descr"
