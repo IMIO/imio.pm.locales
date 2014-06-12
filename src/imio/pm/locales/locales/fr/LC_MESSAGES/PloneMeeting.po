@@ -1289,6 +1289,10 @@ msgstr "Cet avis est considéré 'Non rendu' car il était toujours en cours de 
 msgid "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
 msgstr "Cet avis est en cours de rédaction par les donneurs d'avis du groupe auquel l'avis a été demandé et n'est pas accessible aux autres groupes."
 
+#. Default: "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
+msgid "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
+msgstr "Cet avis ne doit plus être 'caché pendant la rédaction' avant le ${limit_date} ou il sera considéré 'Non rendu'."
+
 #. Default: "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgid "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgstr "Avis demandé le ${advice_asked_on_date} et rendu le ${advice_given_on_date}."
@@ -1825,7 +1829,7 @@ msgstr "Si cette configuration de séance correspond à une organisation, un org
 
 #. Default: "Considered not given because hidden during redaction"
 msgid "considered_not_given_hidden_during_redaction"
-msgstr "Considéré non rendu"
+msgstr "Considéré 'Non rendu'"
 
 #. Default: "Select here groups that will be able to see this item"
 msgid "copy_groups_item_descr"
@@ -1994,7 +1998,7 @@ msgstr "Général"
 
 #. Default: "As mentioned on the advice in the help part of the field, this will let advisers hide the advice when it is under redaction.  If adviser loses access to the advice (for example if the item state evolve or delay to give advice is exceeded), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 msgid "default_advice_hidden_during_redaction_descr"
-msgstr "Comme mentionné sur l'avis dans la partie aide du champ, ceci permet aux émetteurs d'avis qui coche la case de cacher celui-ci pendant sa rédaction.  Si l'émetteur d'avis perd l'accès à l'avis alors que la case est cochée (par exemple si le point change d'état ou si le délai pour rendre l'avis est dépassé), l'avis sera considéré 'Non rendu, était en cours de rédaction'.  Néanmoins un administrateurs pourra publier cet avis si nécessaire par après."
+msgstr "Comme mentionné sur l'avis dans la partie aide du champ, ceci permet aux émetteurs d'avis qui coche la case de cacher celui-ci pendant sa rédaction.  Si l'émetteur d'avis perd l'accès à l'avis alors que la case est cochée (par exemple si le point change d'état ou si le délai pour rendre l'avis est dépassé), l'avis sera considéré 'Non rendu' car il était en cours de rédaction.  Néanmoins un administrateurs pourra publier cet avis si nécessaire par après."
 
 #. Default: "The default advice type will be preselected on the form for adding an advice on an item."
 msgid "default_advice_type_descr"
