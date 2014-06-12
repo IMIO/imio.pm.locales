@@ -16,7 +16,6 @@ msgstr ""
 "X-Is-Fallback-For: de-be de-at de-li de-lu de-ch de-de\n"
 
 #. Default: "The item has been accepted."
-#, fuzzy
 msgid "accept_done_descr"
 msgstr "Der Beschluss der mit diesem TOP verknüpft ist wurde akzeptiert."
 
@@ -118,6 +117,10 @@ msgstr "Der TOP wurde als 'verschoben' markiert. Zusätzlich wurde er dupliziert
 msgid "freeze_done_descr"
 msgstr "Die veröffentlichte Tagesordnung wurde gesperrt."
 
+#. Default: "In order to perform this action, at least one item should be inserted into this meeting."
+msgid "item_required_to_publish"
+msgstr "Um diesen Befehl auszuführen, muss mindestens ein TOP für diese Sitzung vorhanden sein."
+
 #. Default: "The item and its decicion have been archived."
 msgid "itemarchive_done_descr"
 msgstr "Der TOP und der zugehörige Beschluss wurden archiviert."
@@ -165,4 +168,3 @@ msgstr ""
 #. Default: "Your item has been reviewed: it is now visible to (a) meeting manager(s), that may decide to present it to a meeting."
 msgid "validate_done_descr"
 msgstr "Ihr TOP wurde validiert: es ist nun für die Sitzungsleitung sichtbar die es bei einer Sitzung präsentieren können."
-

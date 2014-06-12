@@ -17,7 +17,6 @@ msgstr ""
 "X-Generator: Poedit 1.5.5\n"
 
 #. Default: "The item has been accepted."
-#, fuzzy
 msgid "accept_done_descr"
 msgstr "De beslissing gelinkt aan dit item werd geaccepteerd."
 
@@ -115,9 +114,12 @@ msgid "delay_done_descr"
 msgstr "Het item werd gemarkeerd als uitgesteld"
 
 #. Default: "The meeting has been frozen."
-#, fuzzy
 msgid "freeze_done_descr"
-msgstr "De gepubliceerde agenda werd bevroren."
+msgstr "De agenda werd bevroren."
+
+#. Default: "In order to perform this action, at least one item should be inserted into this meeting."
+msgid "item_required_to_publish"
+msgstr ""
 
 #. Default: "The item and its decicion have been archived."
 msgid "itemarchive_done_descr"
@@ -166,4 +168,3 @@ msgstr ""
 #. Default: "Your item has been reviewed: it is now visible to (a) meeting manager(s), that may decide to present it to a meeting."
 msgid "validate_done_descr"
 msgstr "Your item has been reviewed: it is now visible to (a) meeting manager(s), that may decide to present it to a meeting."
-

@@ -2663,11 +2663,6 @@ msgstr "Cuando un tema se encuentra en uno de los estados que elija aquí, será
 msgid "item_reference_format_descr"
 msgstr "Una referencia asociada a cada tema. El formato de referencia puede ser definido aquí, como una expresión de Lenguaje de atributo de etiquetas - TAL (Tag Attribute Language) todo el contexto incluirá el nombre 'aquí' que representa el tema impactado. Si usted no desconoce sobre TAL, usted tal ves aprenda de eso <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">aquí</a>."
 
-# Untriggerable transitions
-#. Default: "In order to perform this action, at least one item should be inserted into this meeting."
-msgid "item_required_to_publish"
-msgstr "Con el fin de realizar esta acción, por lo menos un tema se inserta dentro de esta reunión."
-
 #. Default: "When an item is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the item.  Theorically, there will be fewer states selected here than states selected in the <i>'Item states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 msgid "item_restricted_powerobservers_states_descr"
 msgstr ""

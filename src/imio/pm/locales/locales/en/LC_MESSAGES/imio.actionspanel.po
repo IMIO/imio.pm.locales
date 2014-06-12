@@ -115,6 +115,10 @@ msgstr "The item has been delayed.  It has been duplicated for the corresponding
 msgid "freeze_done_descr"
 msgstr "The meeting has been frozen."
 
+#. Default: "In order to perform this action, at least one item should be inserted into this meeting."
+msgid "item_required_to_publish"
+msgstr "In order to perform this action, at least one item should be inserted into this meeting."
+
 #. Default: "The item and its decicion have been archived."
 msgid "itemarchive_done_descr"
 msgstr "The item and its decicion have been archived."
@@ -162,4 +166,3 @@ msgstr "The item has been sent to the proposing group for corrections.  When don
 #. Default: "Your item has been reviewed: it is now visible to (a) meeting manager(s), that may decide to present it to a meeting."
 msgid "validate_done_descr"
 msgstr "Your item has been reviewed: it is now visible to (a) meeting manager(s), that may decide to present it to a meeting."
-

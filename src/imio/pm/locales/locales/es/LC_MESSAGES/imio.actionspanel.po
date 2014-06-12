@@ -119,6 +119,10 @@ msgstr "El tema se ha retrasado. Por otra parte, se ha duplicado para el corresp
 msgid "freeze_done_descr"
 msgstr "La reunión publicada ha sido congelada."
 
+#. Default: "In order to perform this action, at least one item should be inserted into this meeting."
+msgid "item_required_to_publish"
+msgstr "Con el fin de realizar esta acción, por lo menos un tema se inserta dentro de esta reunión."
+
 #. Default: "The item and its decicion have been archived."
 msgid "itemarchive_done_descr"
 msgstr "El tema y esta decisión tiene que ser archivada."
@@ -166,4 +170,3 @@ msgstr "Este tema sido enviado al grupo propuesto para correcciones. Cuando este
 #. Default: "Your item has been reviewed: it is now visible to (a) meeting manager(s), that may decide to present it to a meeting."
 msgid "validate_done_descr"
 msgstr "Su tema ha sido revisado: es ahora visible a (un/unos) administrador(es) de reunión, que tal ves decidan presentar eso en una reunión."
-

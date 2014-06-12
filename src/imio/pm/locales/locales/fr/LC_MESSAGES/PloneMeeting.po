@@ -2655,10 +2655,6 @@ msgstr "Quand un point est dans un des états que vous sélectionnez ici, il ser
 msgid "item_reference_format_descr"
 msgstr "A chaque point est associé une référence dont le format peut être défini ici, sous la forme d'une expression TAL (Tag Attribute Language) dans laquelle le nom 'here', représentant le point courant, peut être utilisé. Si vous ne connaissez pas le langage TAL, consultez par exemple <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">ce lien</a> (en anglais)."
 
-#. Default: "In order to perform this action, at least one item should be inserted into this meeting."
-msgid "item_required_to_publish"
-msgstr "Si vous voulez effectuer cette action, vous devez insérer au moins un point dans la séance."
-
 #. Default: "When an item is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the item.  Theorically, there will be fewer states selected here than states selected in the <i>'Item states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 msgid "item_restricted_powerobservers_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs restreints' de cette configuration de séance.  En théorie, vous aurez moins d'états sélectionnés ici que pour le champ <i>'Etats des points dans lesquels les 'Super observateurs' peuvent les voir'</i> ci-dessus.  Si vous n'utilisez pas cette fonctionnalité, ne sélectionnez aucun état.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les 'Super observateurs'!</span>"
@@ -4335,3 +4331,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+
