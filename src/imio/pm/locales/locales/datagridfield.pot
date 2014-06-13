@@ -67,7 +67,7 @@ msgstr ""
 msgid "Available on"
 msgstr ""
 
-#. Default: "Specify here a TAL expression that will restrict the use of this advice to some condition.  This can not be used if something is defined in the 'Advice will be automatically asked if' column of this advice, but for optional delay-aware advice or for delay-aware advices linked to an automatic advice (using the 'Is linked to previous row?' column)"
+#. Default: "Specify here a TAL expression that will restrict the use of this advice to some condition.  We receive 'item' as the meeting item to give an advice on.  A special expression is available to protect a row that should only be available thru the 'Change delay' action, it is : 'python: item.REQUEST.get('managing_available_delays', False)' as the expression.  This can not be used if something is defined in the 'Advice will be automatically asked if' column of this advice, but for optional delay-aware advice or for delay-aware advices linked to an automatic advice (using the 'Is linked to previous row?' column)"
 msgid "available_on_col_description"
 msgstr ""
 
