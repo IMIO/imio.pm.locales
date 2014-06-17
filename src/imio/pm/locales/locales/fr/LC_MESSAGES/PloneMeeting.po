@@ -613,6 +613,10 @@ msgstr "Attributs des séances pour lesquels l'historique doit être conservé"
 msgid "PloneMeeting_label_holidays"
 msgstr "Jours fériés"
 
+#. Default: "Sort order(s) to apply when adding an item to a meeting"
+msgid "PloneMeeting_label_insertingMethodsOnAddItem"
+msgstr "Méthode(s) de tri lors de l'ajout d'un point dans une séance"
+
 #. Default: "Confidential ?"
 msgid "PloneMeeting_label_isConfidential"
 msgstr "Confidentiel?"
@@ -1062,10 +1066,6 @@ msgstr "Signatures par défaut"
 #. Default: "Sort the tags alphabetically"
 msgid "PloneMeeting_label_sortAllItemTags"
 msgstr "Trier les marqueurs par ordre alphabétique"
-
-#. Default: "Choose sorting method when adding an item to a meeting"
-msgid "PloneMeeting_label_sortingMethodOnAddItem"
-msgstr "Méthode de tri utilisée lors de l'ajout d'un point dans une séance"
 
 #. Default: "Effective start date and hour"
 msgid "PloneMeeting_label_startDate"
@@ -2459,6 +2459,22 @@ msgstr "Renvoyé au groupe proposant pour corrections"
 msgid "iconname_does_not_exist"
 msgstr "Pour utiliser cette fonctionnalité, il est nécessaire que l'icône '${iconname}' qui sera utilisée pour déclencher l'action existe.  Veuillez la créer."
 
+#. Default: "You can not select another inserting method together with the 'At the end' inserting method."
+msgid "inserting_methods_at_the_end_not_alone_error"
+msgstr "Si vous sélectionnez la méthode d'insertion 'A la fin de la séance', vous ne pouvez pas sélectionner d'autre méthode d'insertion."
+
+#. Default: "You can not select same inserting method several times."
+msgid "inserting_methods_can_not_select_several_times_same_method_error"
+msgstr "Vous ne pouvez pas sélectionner plusieurs fois la même méthode d'insertion."
+
+#. Default: "You can not select 'Follow categories order' inserting method as this meeting configuration does not use categories."
+msgid "inserting_methods_not_using_categories_error"
+msgstr "Vous ne pouvez pas sélectionner 'Suivre l'odre des catégories' car cette configuration de séance n'utilise pas les catégories."
+
+#. Default: "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
+msgid "inserting_methods_on_add_item_descr"
+msgstr "Permet de définir les méthodes successivement appliquées lors de l'insertion d'un point dans une séance."
+
 #. Default: "Public"
 msgid "ip_public"
 msgstr "Séance publique"
@@ -3330,13 +3346,13 @@ msgstr "Suivre l'ordre de tous les groupes"
 msgid "on_categories"
 msgstr "Suivre l'ordre des catégories"
 
-#. Default: "Follow the privacy then the categories order"
-msgid "on_privacy_then_categories"
-msgstr "Suivre l'ordre des niveaux de confidentialité puis l'ordre des catégories"
+#. Default: "Follow the privacy (public then secret)"
+msgid "on_privacy_public"
+msgstr "Suivre l'ordre des confidentialités (séance publique et ensuite huis clos)"
 
-#. Default: "Follow the privacy then the proposing groups order"
-msgid "on_privacy_then_proposing_groups"
-msgstr "Suivre l'ordre des niveaux de confidentialité puis l'ordre des groupes proposants"
+#. Default: "Follow the privacy (secret then public)"
+msgid "on_privacy_secret"
+msgstr "Suivre l'ordre des confidentialités (huis clos et ensuite séance publique)"
 
 #. Default: "Follow proposing groups order"
 msgid "on_proposing_groups"
@@ -3936,10 +3952,6 @@ msgstr "Définissez ici les signatures par défaut qui seront automatiquement s�
 msgid "sort_all_item_tags_descr"
 msgstr "Cochez cette case si vous voulez que les marqueurs soient triés par ordre alphabétique."
 
-#. Default: "Choose the method that will define where the item will be added by default when inserted into a meeting."
-msgid "sorting_method_on_add_item_descr"
-msgstr "Permet de définir où ira se placer un point lorsqu'il est inséré dans une séance."
-
 #. Default: "state_color"
 msgid "state_color"
 msgstr "Coloriser suivant l'état du workflow"
@@ -4335,4 +4347,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

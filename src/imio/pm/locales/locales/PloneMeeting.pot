@@ -2109,12 +2109,12 @@ msgstr ""
 msgid "item_reference_format_descr"
 msgstr ""
 
-#. Default: "Choose sorting method when adding an item to a meeting"
-msgid "PloneMeeting_label_sortingMethodOnAddItem"
+#. Default: "Sort order(s) to apply when adding an item to a meeting"
+msgid "PloneMeeting_label_insertingMethodsOnAddItem"
 msgstr ""
 
-#. Default: "Choose the method that will define where the item will be added by default when inserted into a meeting."
-msgid "sorting_method_on_add_item_descr"
+#. Default: "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
+msgid "inserting_methods_on_add_item_descr"
 msgstr ""
 
 # Values of sortingMethodOnAddItem
@@ -2134,12 +2134,12 @@ msgstr ""
 msgid "on_all_groups"
 msgstr ""
 
-#. Default: "Follow the privacy then the proposing groups order"
-msgid "on_privacy_then_proposing_groups"
+#. Default: "Follow the privacy (public then secret)"
+msgid "on_privacy_public"
 msgstr ""
 
-#. Default: "Follow the privacy then the categories order"
-msgid "on_privacy_then_categories"
+#. Default: "Follow the privacy (secret then public)"
+msgid "on_privacy_secret"
 msgstr ""
 
 # Values of colorSystems
@@ -3835,6 +3835,18 @@ msgstr ""
 
 #. Default: "Values defined in the 'itemEditStates' field must contains at least every values selected in the 'itemAdvicesStates' field!  Missing states is (are) : ${missingStates}."
 msgid "itemAdviceEditStates_validation_error"
+msgstr ""
+
+#. Default: "You can not select another inserting method together with the 'At the end' inserting method."
+msgid "inserting_methods_at_the_end_not_alone_error"
+msgstr ""
+
+#. Default: "You can not select same inserting method several times."
+msgid "inserting_methods_can_not_select_several_times_same_method_error"
+msgstr ""
+
+#. Default: "You can not select 'Follow categories order' inserting method as this meeting configuration does not use categories."
+msgid "inserting_methods_not_using_categories_error"
 msgstr ""
 
 #. Default: "The validation deadline for meeting publication has not been respected"

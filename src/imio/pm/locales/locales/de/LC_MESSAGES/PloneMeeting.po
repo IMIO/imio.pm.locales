@@ -614,6 +614,10 @@ msgstr ""
 msgid "PloneMeeting_label_holidays"
 msgstr ""
 
+#. Default: "Sort order(s) to apply when adding an item to a meeting"
+msgid "PloneMeeting_label_insertingMethodsOnAddItem"
+msgstr ""
+
 #. Default: "Confidential ?"
 msgid "PloneMeeting_label_isConfidential"
 msgstr ""
@@ -1065,10 +1069,6 @@ msgstr "Standard-Unterschriften"
 #. Default: "Sort the tags alphabetically"
 msgid "PloneMeeting_label_sortAllItemTags"
 msgstr "Tags alphabetisch sortieren"
-
-#. Default: "Choose sorting method when adding an item to a meeting"
-msgid "PloneMeeting_label_sortingMethodOnAddItem"
-msgstr "Wählen Sie die Sortiermethode beim hinzufügen eines TOP zur Sitzung aus"
 
 #. Default: "Effective start date and hour"
 msgid "PloneMeeting_label_startDate"
@@ -2476,6 +2476,22 @@ msgstr ""
 msgid "iconname_does_not_exist"
 msgstr ""
 
+#. Default: "You can not select another inserting method together with the 'At the end' inserting method."
+msgid "inserting_methods_at_the_end_not_alone_error"
+msgstr ""
+
+#. Default: "You can not select same inserting method several times."
+msgid "inserting_methods_can_not_select_several_times_same_method_error"
+msgstr ""
+
+#. Default: "You can not select 'Follow categories order' inserting method as this meeting configuration does not use categories."
+msgid "inserting_methods_not_using_categories_error"
+msgstr ""
+
+#. Default: "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
+msgid "inserting_methods_on_add_item_descr"
+msgstr ""
+
 #. Default: "Public"
 msgid "ip_public"
 msgstr "Öffentlich"
@@ -3359,12 +3375,12 @@ msgstr "Der Gruppensortierung folgen"
 msgid "on_categories"
 msgstr "Der Kategoriensortierung folgen"
 
-#. Default: "Follow the privacy then the categories order"
-msgid "on_privacy_then_categories"
+#. Default: "Follow the privacy (public then secret)"
+msgid "on_privacy_public"
 msgstr ""
 
-#. Default: "Follow the privacy then the proposing groups order"
-msgid "on_privacy_then_proposing_groups"
+#. Default: "Follow the privacy (secret then public)"
+msgid "on_privacy_secret"
 msgstr ""
 
 #. Default: "Follow proposing groups order"
@@ -3966,11 +3982,6 @@ msgstr "Definieren Sie hier die Standard Unterschriften die automatsich beim ers
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
 msgstr "Markieren Sie dieses Kästchen wenn Sie die Tags in alphabetischer Reihenfolge angezeigt bekommen wollen."
-
-#. Default: "Choose the method that will define where the item will be added by default when inserted into a meeting."
-#, fuzzy
-msgid "sorting_method_on_add_item_descr"
-msgstr "Hier können Sie festlegen wo ein neuer TOP in der Sitzung eingefügt wird. Folgende Möglichkeiten sind vorhanden 'Der Kategorienlistung folgen' oder 'An das Ende der Sitzung anhängen' oder Der vorschlagenden Gruppenlistung folgen'.  "
 
 #. Default: "state_color"
 msgid "state_color"

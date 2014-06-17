@@ -47,6 +47,10 @@ msgstr "Seuil d'alerte pour le délai"
 msgid "Holiday date"
 msgstr "Date"
 
+#. Default: "Inserting method"
+msgid "Inserting method"
+msgstr "Méthode d'insertion"
+
 #. Default: "Set to 'Yes' if you want to make a logical link between a row and the previous one.  This will manage the fact of easily being able to change a delay for an asked advice.  The linked rows will make the user being able to select between those different delays in the advice vizualisation popup.  This is only relevant for delay-aware advices, to link differents delays together."
 msgid "Is linked to previous row description"
 msgstr "Sélectionnez 'Oui' si vous souhaitez faire un lien logique entre une ligne et la ligne précédente.  Ceci permet de gérer le changement de délai pour un avis et permettra aux utilisateurs de changer le délai d'un avis via le popup affiché au clic sur un avis à rendre.  Ceci n'est utilisé que pour les avis avec délai."
@@ -70,6 +74,10 @@ msgstr "Configuration active pour les points créés depuis le"
 #. Default: "Rule activated for item created until"
 msgid "Rule activated for item created until"
 msgstr "Configuration active pour les points créés jusqu'au"
+
+#. Default: "Select the inserting method, methods will be applied in given order, you can not select twice same inserting method."
+msgid "Select the inserting method, methods will be applied in given order, you can not select twice same inserting method."
+msgstr "Sélectionnez les tris à appliquer, les méthodes seront appliquées successivement dans l'ordre défini, cependant, vous ne pouvez pas sélectionner deux fois la même méthode d'insertion."
 
 #. Default: "Default value of the 'Confidential ?' attribute of created annexes"
 msgid "Sub type confidentiality of created annexes"
@@ -142,3 +150,4 @@ msgstr "Si vous souhaitez qu'un message d'aide spécifique soit affiché au surv
 #. Default: "Please use following format : YYYY/MM/DD.  Dates must be sorted (from older to newer)."
 msgid "holiday_date_col_descr"
 msgstr "Utilisez le format suivant : AAAA/MM/DD.  Les dates doivent être triées dans un ordre croissant (de la plus ancienne à la plus récente)."
+
