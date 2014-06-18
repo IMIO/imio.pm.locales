@@ -1303,7 +1303,8 @@ msgstr "Ordenar descendente"
 msgid "arrow_up"
 msgstr "Ordenar ascendente"
 
-#. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as copyGroup for an item.  We receive 'item' as the meeting item.  WARNING, if the 'suffix' returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
+#. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as copyGroup for an item.  We receive 'item' as the meeting item and 'isCreated' that is only True when the item is in the creation process (not while being edited after).  WARNING, if the 'suffix' returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
+#, fuzzy
 msgid "as_copy_group_on_descr"
 msgstr ""
 
