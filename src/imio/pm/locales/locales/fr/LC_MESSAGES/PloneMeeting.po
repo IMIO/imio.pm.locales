@@ -2471,6 +2471,10 @@ msgstr "Vous ne pouvez pas sélectionner plusieurs fois la même méthode d'inse
 msgid "inserting_methods_not_using_categories_error"
 msgstr "Vous ne pouvez pas sélectionner 'Suivre l'odre des catégories' car cette configuration de séance n'utilise pas les catégories."
 
+#. Default: "You can not select 'Follow to discuss order' inserting method as the field 'To discuss ?' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
+msgid "inserting_methods_not_using_to_discuss_error"
+msgstr "Vous ne pouvez pas sélectionner 'Par point à discuter (à discuter et ensuite pas à discuter)' car 'A évoquer en séance?' n'est pas sélectionné dans le champ 'Attributs utilisés pour caractériser un point' de cette configuration de séance."
+
 #. Default: "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
 msgid "inserting_methods_on_add_item_descr"
 msgstr "Permet de définir les méthodes successivement appliquées lors de l'insertion d'un point dans une séance."
