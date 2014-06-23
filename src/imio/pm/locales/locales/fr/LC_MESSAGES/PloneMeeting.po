@@ -3430,10 +3430,6 @@ msgstr "Spécifiez ici quelques lieux de prédilection pour la tenue des séance
 msgid "plone_disk_aware_descr"
 msgstr "Si vous cochez cette case: (1) la portlet de navigation sera affichée; (2) les actions 'copier', 'coller' et 'renommer' seront visibles; (3) les utilisateurs pourront directement ajouter des objets (sous-dossiers, points, séances) depuis le menu 'Ajouter au dossier'"
 
-#. Default: "Are you sure you want to delete this element ?"
-msgid "plonemeeting_delete_confirm_message"
-msgstr "Etes-vous certain de vouloir supprimer cet élément?"
-
 #. Default: "You are about to delete this meeting and all included items. Are you sure?"
 msgid "plonemeeting_delete_meeting_confirm_message"
 msgstr "Etes-vous certain de vouloir supprimer cette séance ET tous ses points?"
@@ -4355,3 +4351,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+
