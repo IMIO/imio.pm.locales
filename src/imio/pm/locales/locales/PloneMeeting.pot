@@ -432,7 +432,7 @@ msgstr ""
 msgid "PloneMeeting_label_meetingTransitionInsertingMe"
 msgstr ""
 
-#. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting. Fill this field only if you select 'As recurring item' among item's usages."
+#. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 msgid "meeting_transition_inserting_me_descr"
 msgstr ""
 
@@ -1809,12 +1809,20 @@ msgstr ""
 msgid "classifiers_descr"
 msgstr ""
 
-#. Default: "Predefined items"
+#. Default: "Recurring items"
 msgid "RecurringItems"
 msgstr ""
 
-#. Default: "You manage here predefined items that will serve, for different purposes, as templates for creating real items."
+#. Default: "Recurring items are items that will be automatically added to a meeting at a defined moment."
 msgid "recurring_items_descr"
+msgstr ""
+
+#. Default: "Item templates"
+msgid "ItemTemplates"
+msgstr ""
+
+#. Default: "Item templates will be available to users creating new items in the application."
+msgid "item_templates_descr"
 msgstr ""
 
 #. Default: "No special user is currently defined."

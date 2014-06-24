@@ -231,6 +231,10 @@ msgstr ""
 msgid "Item signatures to apply"
 msgstr ""
 
+#. Default: "Item templates"
+msgid "ItemTemplates"
+msgstr ""
+
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr ""
@@ -1248,7 +1252,8 @@ msgstr "Dokumentvorlagen"
 msgid "Preview detailled advice"
 msgstr ""
 
-#. Default: "Predefined items"
+#. Default: "Recurring items"
+#, fuzzy
 msgid "RecurringItems"
 msgstr "Sich wiederholende TOP"
 
@@ -2736,6 +2741,10 @@ msgstr ""
 msgid "item_state_changed_default_mail_subject"
 msgstr ""
 
+#. Default: "Item templates will be available to users creating new items in the application."
+msgid "item_templates_descr"
+msgstr ""
+
 #. Default: "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
 msgid "item_topic_states_descr"
 msgstr "Im TOP-Portlet erlauben manche Links das Auslösen von Suchen nach TOP. Nur die TOP in den Status die Sie hier auswählen werden in den Suchresultaten angezeigt. Dies kann zum Beispiel praktisch sein um TOP die bereits in Sitzungen veröffentlicht wurden herauszufilter, da sie bereits über ihre zugehörigen Sitzungen einsehbar sind."
@@ -3059,7 +3068,8 @@ msgstr ""
 msgid "meeting_topic_states_descr"
 msgstr "Sitzungen die sich in den hier ausgewählten Status befinden werden im Sitzungs-Portlet angezeigt. Typischerweise werden hier Sitzungen die sich noch in der Bearbeitung befinden oder solche die zwar veröffentlicht, aber noch nicht stattgefunden haben angezeigt. Im nächsten Feld können die anderen Status ausgewählt werden, so können Nutzer zwischen zukünftigen und vergangenen Sitzungen unterscheiden."
 
-#. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting. Fill this field only if you select 'As recurring item' among item's usages."
+#. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
+#, fuzzy
 msgid "meeting_transition_inserting_me_descr"
 msgstr "Statusübergang der Sitzung der das Einfügen dieses TOPs in eine Sitzung auslöst. Füllen Sie dieses Feld nur aus, wenn Sie 'Wiederkehrender TOP' für diese TOP ausgwählt haben."
 
@@ -3700,7 +3710,8 @@ msgstr "Der sich wiederholende TOP im Betreff dieser E-Mail konnte nicht in eine
 msgid "recurringItemWorkflowError_mail_subject"
 msgstr "${portalTitle} - Ein Problem ist beim Einfügen des sich wiederholenden TOPs '${itemTitle}' in eine Sitzung aufgetreten."
 
-#. Default: "You manage here predefined items that will serve, for different purposes, as templates for creating real items."
+#. Default: "Recurring items are items that will be automatically added to a meeting at a defined moment."
+#, fuzzy
 msgid "recurring_items_descr"
 msgstr "Hier werden vorkonfigurierte TOP verwaltet. Diese können als Vorlage für verschiedene Benutzungen erstellt werden."
 

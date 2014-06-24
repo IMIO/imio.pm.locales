@@ -231,6 +231,10 @@ msgstr "Les signatures des points ont été mises à jour."
 msgid "Item signatures to apply"
 msgstr "Signatures à appliquer"
 
+#. Default: "Item templates"
+msgid "ItemTemplates"
+msgstr "Modèles de points"
+
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr "Limite le nombre de caractères de l'objet du point qui seront affichés dans le portlet pour éviter les libellés trop longs."
@@ -1245,9 +1249,9 @@ msgstr "Canevas de documents"
 msgid "Preview detailled advice"
 msgstr "Prévisualiser l'avis complet"
 
-#. Default: "Predefined items"
+#. Default: "Recurring items"
 msgid "RecurringItems"
-msgstr "Points prédéfinis"
+msgstr "Points récurrents"
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
@@ -2712,6 +2716,10 @@ msgstr "Vous pouvez accéder au point ici: '${objectUrl}'."
 msgid "item_state_changed_default_mail_subject"
 msgstr "${meetingConfigTitle} - ${itemTitle} - Le point est maintenant '${itemState}'."
 
+#. Default: "Item templates will be available to users creating new items in the application."
+msgid "item_templates_descr"
+msgstr "Les modèles de points seront disponibles aux utilisateurs qui créeront des points dans l'application."
+
 #. Default: "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
 msgid "item_topic_states_descr"
 msgstr "Dans la portlet 'points', des liens permettent de déclencher des recherches de points. Seuls les points étant dans les états que vous sélectionnez ici apparaîtront dans ces recherches. Il peut être pratique par exemple de ne plus afficher les points déjà publiés dans des séances puisqu'ils sont déjà visibles via les séances."
@@ -3031,9 +3039,9 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - La séance est maintenant '${m
 msgid "meeting_topic_states_descr"
 msgstr "Les séances étant dans les états que vous sélectionnez ici apparaîtront dans la portlet 'séances'. Il s'agit typiquement de séances en préparation ou de séances publiées, mais qui n'ont pas encore fait l'objet de décisions. L'idée est de sélectionner ici un certain nombre d'états puis de sélectionner, dans le champ ci-dessous, les états restants, afin que les utilisateurs puissent distinguer les séances à venir ou en préparation des séances passées, pour lesquelles des décisions ont été prises (ce qui constitue l'objet du champ suivant)."
 
-#. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting. Fill this field only if you select 'As recurring item' among item's usages."
+#. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 msgid "meeting_transition_inserting_me_descr"
-msgstr "Choisissez ici quel événement sur les séances va déclencher l'ajout de ce point dans chaque séance. Ne remplissez ce champ que si vous avez choisi 'Comme point récurrent' parmi les usages du point ci-dessus."
+msgstr "Choisissez ici quel événement sur les séances va déclencher l'ajout de ce point dans chaque séance."
 
 #. Default: "Enter here the function of the user."
 msgid "meeting_user_duty_descr"
@@ -3670,9 +3678,9 @@ msgstr "Le point récurrent spécifié dans le sujet de ce courriel n'a pas pu �
 msgid "recurringItemWorkflowError_mail_subject"
 msgstr "${portalTitle} - Un problème est survenu lors de l'insertion du point récurrent intitulé '${itemTitle}' dans une séance."
 
-#. Default: "You manage here predefined items that will serve, for different purposes, as templates for creating real items."
+#. Default: "Recurring items are items that will be automatically added to a meeting at a defined moment."
 msgid "recurring_items_descr"
-msgstr "Vous gérez ici des points prédéfinis qui vont servir, dans divers cas, comme canevas pour créer des points réels."
+msgstr "Les points récurrents sont des points automatiquement ajoutés à une séance au moment voulu."
 
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
@@ -4347,4 +4355,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

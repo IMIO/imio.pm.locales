@@ -232,6 +232,10 @@ msgstr ""
 msgid "Item signatures to apply"
 msgstr ""
 
+#. Default: "Item templates"
+msgid "ItemTemplates"
+msgstr ""
+
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr "Beperkt het aantal getoonde karakters in de title"
@@ -1246,7 +1250,8 @@ msgstr "Dokument templates"
 msgid "Preview detailled advice"
 msgstr ""
 
-#. Default: "Predefined items"
+#. Default: "Recurring items"
+#, fuzzy
 msgid "RecurringItems"
 msgstr "Voorgedefinieerde punten"
 
@@ -2718,6 +2723,10 @@ msgstr ""
 msgid "item_state_changed_default_mail_subject"
 msgstr ""
 
+#. Default: "Item templates will be available to users creating new items in the application."
+msgid "item_templates_descr"
+msgstr ""
+
 #. Default: "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
 msgid "item_topic_states_descr"
 msgstr "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
@@ -3041,7 +3050,7 @@ msgstr ""
 msgid "meeting_topic_states_descr"
 msgstr "Meetings being in the states you select here will appear in the 'meetings' portlet. Typically you will display there meetings under creation or published meetings that did not took place yet. The idea is to select here a given set of states and to select, in the next field, all the other states. This way, users can distinguish between future and past meetings (past meetings are the object of the next field)."
 
-#. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting. Fill this field only if you select 'As recurring item' among item's usages."
+#. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 msgid "meeting_transition_inserting_me_descr"
 msgstr ""
 
@@ -3681,7 +3690,8 @@ msgstr "The recurring item specified in the subject of this email could not be i
 msgid "recurringItemWorkflowError_mail_subject"
 msgstr "${portalTitle} - A problem occurred while inserting the recurring item entitled '${itemTitle}' into a meeting."
 
-#. Default: "You manage here predefined items that will serve, for different purposes, as templates for creating real items."
+#. Default: "Recurring items are items that will be automatically added to a meeting at a defined moment."
+#, fuzzy
 msgid "recurring_items_descr"
 msgstr "You manage here predefined items that will serve, for different purposes, as templates for creating real items."
 

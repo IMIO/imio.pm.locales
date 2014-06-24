@@ -235,6 +235,10 @@ msgstr "Firmas del tema han sido actualizados."
 msgid "Item signatures to apply"
 msgstr "Firmas del tema para aplicar"
 
+#. Default: "Item templates"
+msgid "ItemTemplates"
+msgstr ""
+
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr "Limite el número de caracteres que se muestran del título para evitar títulos demasiado largos se muestran en el portlet."
@@ -1250,7 +1254,8 @@ msgstr "Plantillas de documento"
 msgid "Preview detailled advice"
 msgstr ""
 
-#. Default: "Predefined items"
+#. Default: "Recurring items"
+#, fuzzy
 msgid "RecurringItems"
 msgstr "Temas predefinidos"
 
@@ -2722,6 +2727,10 @@ msgstr "Usted puede consultar este tema en ${objectUrl}."
 msgid "item_state_changed_default_mail_subject"
 msgstr "${meetingConfigTitle} - ${itemTitle} - Este tema esta ahora en el estado '${itemState}'."
 
+#. Default: "Item templates will be available to users creating new items in the application."
+msgid "item_templates_descr"
+msgstr ""
+
 #. Default: "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
 msgid "item_topic_states_descr"
 msgstr "Con el portlet de 'temas', algunos enlaces permiten activar búsquedas de temas. Solamente los temas que inicien en los estados que usted seleccione aquí aparecerán en los resultados de la búsqueda. Si puede ser práctico, por ejemplo, dejarán de recibir, en esos resultados de búsqueda, los temas que ya han sido publicados en las reuniones, porque son ya visibles a través de sus reuniones."
@@ -3043,7 +3052,8 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - Este reunión esta ahora en el
 msgid "meeting_topic_states_descr"
 msgstr "Las reuniones inician en el estado que usted seleccione aquí se publicará en el portlet 'reuniones'. Normalmente usted mostrará esas reuniones bajo creación o reuniones publicadas que no se llevan a cabo aún. La idea aquí es seleccionar un conjunto dado de estados y para seleccionar, en el siguiente campo, todos los otros estados. De esta manera, los usuarios pueden distinguir entre las pasadas y futuras reuniones (las reuniones anteriores son objeto de la siguiente campo)."
 
-#. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting. Fill this field only if you select 'As recurring item' among item's usages."
+#. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
+#, fuzzy
 msgid "meeting_transition_inserting_me_descr"
 msgstr "Seleccione aquí que evento en las reuniones disparará la inserción de este tema en una reunión. Rellene este campo solamente si usted selecciona 'Como un tema recurrente' en medio de los usos de temas."
 
@@ -3682,7 +3692,8 @@ msgstr "El tema recurrente especificado en sujeto de este mensaje de correo elec
 msgid "recurringItemWorkflowError_mail_subject"
 msgstr "${portalTitle} - Un problema ocurrió mientras estaba insertando el tema recurrente titulado '${itemTitle}' dentro de una reunión."
 
-#. Default: "You manage here predefined items that will serve, for different purposes, as templates for creating real items."
+#. Default: "Recurring items are items that will be automatically added to a meeting at a defined moment."
+#, fuzzy
 msgid "recurring_items_descr"
 msgstr "Usted puede manejar aquí temas predefinidos que servirán, para diferentes propósitos, como plantillas para crear temas reales."
 
