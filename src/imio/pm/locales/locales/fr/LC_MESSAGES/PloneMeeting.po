@@ -115,6 +115,10 @@ msgstr "Copier points"
 msgid "Delete advice"
 msgstr "Supprimer l'avis"
 
+#. Default: "Document templates"
+msgid "Document templates"
+msgstr "Modèles de documents"
+
 #. Default: "Download annex"
 msgid "Download annex"
 msgstr "Télécharger"
@@ -240,7 +244,7 @@ msgid "Item signatures to apply"
 msgstr "Signatures à appliquer"
 
 #. Default: "Item templates"
-msgid "ItemTemplates"
+msgid "Item templates"
 msgstr "Modèles de points"
 
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
@@ -258,6 +262,14 @@ msgstr "Gestion de l'assemblée spécifique pour les points"
 #. Default: "Manage item signatures"
 msgid "Manage item signatures"
 msgstr "Gestion des signatures spécifiques pour les points"
+
+#. Default: "Manage item templates"
+msgid "Manage item templates"
+msgstr "Gérer les modèles de points"
+
+#. Default: "Users"
+msgid "Meeting users"
+msgstr "Utilisateurs"
 
 #. Default: "Advice"
 msgid "MeetingAdvice"
@@ -1346,8 +1358,8 @@ msgstr "Afficher / masquer les détails des points dans les tableaux de recherch
 msgid "Topics"
 msgstr "Recherches préconfigurées"
 
-#. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
-msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
+#. Default: "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
+msgid "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 msgstr "Vous êtes sur le point de changer le délai de cet avis vers ${new_advice_delay} jours, vous pouvez entrer un commentaire si nécessaire."
 
 #. Default: "A meeting manager"
