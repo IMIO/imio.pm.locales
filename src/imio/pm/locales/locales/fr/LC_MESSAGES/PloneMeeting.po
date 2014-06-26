@@ -87,6 +87,10 @@ msgstr "Catégories de points"
 msgid "Change delay"
 msgstr "Changer le délai"
 
+#. Default: "Change delay for this advice from ${from} days to ${to} days."
+msgid "Change delay for this advice from ${from} days to ${to} days."
+msgstr "Changer le délai pour cet avis de ${from} jours à ${to} jours."
+
 #. Default: "Choose a group."
 msgid "Choose a group."
 msgstr "Choisissez le groupe au nom duquel l'avis sera remis."
@@ -174,6 +178,10 @@ msgstr "Cacher l'avis pendant sa rédaction"
 #. Default: "History of completeness changes"
 msgid "History of completeness changes"
 msgstr "Historique des changements du champ 'Complétude'"
+
+#. Default: "History of delay changes"
+msgid "History of delay changes"
+msgstr "Historique des changements de délai pour cet avis"
 
 #. Default: "History of emergency changes"
 msgid "History of emergency changes"
@@ -1338,6 +1346,10 @@ msgstr "Afficher / masquer les détails des points dans les tableaux de recherch
 msgid "Topics"
 msgstr "Recherches préconfigurées"
 
+#. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
+msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
+msgstr "Vous êtes sur le point de changer le délai de cet avis vers ${new_advice_delay} jours, vous pouvez entrer un commentaire si nécessaire."
+
 #. Default: "A meeting manager"
 msgid "a_meeting_manager"
 msgstr "Un gestionnaire de séance"
@@ -1393,6 +1405,10 @@ msgstr "Ajouter un avis"
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
 msgstr "Cet avis ne peut plus être rendu dans l'état actuel du point (${item_review_state})"
+
+#. Default: "Comment"
+msgid "advice_change_delay_comment"
+msgstr "Commentaire"
 
 #. Default: "Comment (optional)"
 msgid "advice_comment"
