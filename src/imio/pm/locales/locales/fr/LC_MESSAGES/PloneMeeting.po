@@ -111,6 +111,10 @@ msgstr "Fermer"
 msgid "Copy PloneMeeting"
 msgstr "Copier points"
 
+#. Default: "Create an item from an item template"
+msgid "Create an item from an item template"
+msgstr "Créer un point depuis un modèle"
+
 #. Default: "Delete advice"
 msgid "Delete advice"
 msgstr "Supprimer l'avis"
@@ -4160,6 +4164,14 @@ msgstr "Renseignez la succession de transitions à déclencher dans l'ordre sur 
 msgid "transitions_to_confirm_descr"
 msgstr "Quand l'utilisateur cliquera sur le bouton ou l'icône correspondant à chaque transition que vous sélectionnerez dans cette liste, une popup de confirmation s'affichera. Dans cette popup, l'utilisateur pourra encoder un commentaire (optionnel)."
 
+#. Default: "Hide all"
+msgid "tree_hide_all"
+msgstr "Tout cacher"
+
+#. Default: "Show all"
+msgid "tree_show_all"
+msgstr "Tout montrer"
+
 #. Default: "An annex type is required."
 msgid "type_required"
 msgstr "Veuillez choisir un type d'annexe."
@@ -4383,3 +4395,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+
