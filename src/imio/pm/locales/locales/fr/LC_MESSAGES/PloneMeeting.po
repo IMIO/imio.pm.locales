@@ -959,10 +959,6 @@ msgstr "Lieu"
 msgid "PloneMeeting_label_places"
 msgstr "Lieux pour les séances"
 
-#. Default: "Make users aware of Plone's 'virtual network disk'"
-msgid "PloneMeeting_label_ploneDiskAware"
-msgstr "Rendre les utilisateurs conscients du 'disque réseau virtuel'"
-
 #. Default: "Condition"
 msgid "PloneMeeting_label_podCondition"
 msgstr "Condition"
@@ -3216,14 +3212,6 @@ msgstr "Déplacer le point vers le haut"
 #. Default: "Moves this item to the position that precedes the number you have introduced besides. If you want to move the item at the end of the list, specify the number of the last item plus one."
 msgid "move_several"
 msgstr "Déplace ce point à la position qui précède le numéro que vous introduisez ci-contre. Pour déplacer le point en fin de liste, spécifiez un de plus que le numéro du dernier point."
-
-#. Default: "Navigation-related parameters"
-msgid "navig_params"
-msgstr "Paramètres liés à la navigation"
-
-#. Default: "PloneMeeting was designed for simplicity of use. We wanted to hide to its users the potentially complex reality of files and folders constituting the 'virtual network disk' offered by Plone. Nevertheless, you can decide here to let users view the files and folders that PloneMeeting creates and manages in their member folder, and let them perform some actions like create sub-folders and copy/paste files. We do not recommand it in most cases."
-msgid "navig_params_descr"
-msgstr "PloneMeeting a été conçu pour masquer aux utilisateurs la réalité des fichiers et répertoires du 'disque réseau virtuel' offert par Plone. PloneMeeting se veut simple d'accès même pour ceux qui n'ont jamais été formés à Plone. Vous pouvez néanmoins décider ici de laisser les utilisateurs prendre connaissance de la structure des fichiers et répertoires spécifiques à PloneMeeting qui sont créés dans leur répertoire de membre et les laisser faire certaines actions comme créer des sous-dossiers ou faire du copier/coller. Nous le déconseillons dans la plupart des cas."
 
 #. Default: "If this box is unchecked, the portlet allows to navigate from the root of the Plone site hosting PloneMeeting."
 msgid "navigate_locally"

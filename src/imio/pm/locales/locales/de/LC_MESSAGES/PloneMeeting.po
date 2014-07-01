@@ -961,10 +961,6 @@ msgstr "Ort"
 msgid "PloneMeeting_label_places"
 msgstr "Sitzungsräume"
 
-#. Default: "Make users aware of Plone's 'virtual network disk'"
-msgid "PloneMeeting_label_ploneDiskAware"
-msgstr "Nutzern die 'Virtuelle Ordneransicht' von Plone anzeigen"
-
 #. Default: "Condition"
 msgid "PloneMeeting_label_podCondition"
 msgstr "Bedingung"
@@ -3246,14 +3242,6 @@ msgstr "TOP nach oben bewegen"
 #. Default: "Moves this item to the position that precedes the number you have introduced besides. If you want to move the item at the end of the list, specify the number of the last item plus one."
 msgid "move_several"
 msgstr "Bewegt den TOP zu der Position die Sie angegeben haben. Wenn Sie den TOP zum Ende der Liste bewegen wollen, geben Sie die Nummer des letzten TOPs an plus eins ein."
-
-#. Default: "Navigation-related parameters"
-msgid "navig_params"
-msgstr "Einstellungen für die Navigation"
-
-#. Default: "PloneMeeting was designed for simplicity of use. We wanted to hide to its users the potentially complex reality of files and folders constituting the 'virtual network disk' offered by Plone. Nevertheless, you can decide here to let users view the files and folders that PloneMeeting creates and manages in their member folder, and let them perform some actions like create sub-folders and copy/paste files. We do not recommand it in most cases."
-msgid "navig_params_descr"
-msgstr "PloneMeeting wurde mit dem Ziel einfach zu bedienen zu sein entwickelt. Wir versuchen die Komplexität der Ordner- und Dateistruktur der 'virtual network disk' von Plone vor den Nutzern verstecken. Sie können sich trotzdem entscheiden Nutzern die Dateien und Ordner die PloneMeeting in ihren Nutzer-Ordnern erzeugt und verwaltet anzuzeigen und es ihnen damit ermöglichen Unter-Ordner zu erzeugen und Dateien zu kopieren/verschieben. In den meisten Fällen ist dies jedoch nicht empfehlenswert."
 
 #. Default: "If this box is unchecked, the portlet allows to navigate from the root of the Plone site hosting PloneMeeting."
 msgid "navigate_locally"

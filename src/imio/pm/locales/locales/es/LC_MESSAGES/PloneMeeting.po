@@ -965,10 +965,6 @@ msgstr "Lugar"
 msgid "PloneMeeting_label_places"
 msgstr "Lugares de reunión"
 
-#. Default: "Make users aware of Plone's 'virtual network disk'"
-msgid "PloneMeeting_label_ploneDiskAware"
-msgstr "Consciente de los usuarios de Plone del 'disco virtual de red'"
-
 #. Default: "Condition"
 msgid "PloneMeeting_label_podCondition"
 msgstr "Condición"
@@ -3231,14 +3227,6 @@ msgstr "Mover el tema arriba"
 #. Default: "Moves this item to the position that precedes the number you have introduced besides. If you want to move the item at the end of the list, specify the number of the last item plus one."
 msgid "move_several"
 msgstr "Mover este tema a la posición que precede al número que ha introducido. Además, si usted desea mover este tema al final de la lista, especifique le número del último temas mas uno (por ejemplo 3 + 1  = 4)."
-
-#. Default: "Navigation-related parameters"
-msgid "navig_params"
-msgstr "Parámetros de navegación relacionada"
-
-#. Default: "PloneMeeting was designed for simplicity of use. We wanted to hide to its users the potentially complex reality of files and folders constituting the 'virtual network disk' offered by Plone. Nevertheless, you can decide here to let users view the files and folders that PloneMeeting creates and manages in their member folder, and let them perform some actions like create sub-folders and copy/paste files. We do not recommand it in most cases."
-msgid "navig_params_descr"
-msgstr "PloneMeeting fue diseñado para la sencillez de uso. Hemos querido ocultar a los posibles usuarios de su compleja realidad de los archivos y carpetas que constituyen la \"red virtual de disco\" que ofrece Plone. Sin embargo, usted puede decidir aquí a que usuarios se le permitirá ver los archivos y carpetas que crea y gestiona PloneMeeting en su carpeta de miembro, y quienes de ellos también pueden realizar ciertas acciones como crear suba-carpetas y copiar / pegar archivos. Nosotros no recomendamos que en la mayoría de los casos."
 
 #. Default: "If this box is unchecked, the portlet allows to navigate from the root of the Plone site hosting PloneMeeting."
 msgid "navigate_locally"
