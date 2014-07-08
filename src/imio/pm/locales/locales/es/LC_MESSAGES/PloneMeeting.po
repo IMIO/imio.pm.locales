@@ -357,10 +357,6 @@ msgstr "Consejos"
 msgid "PloneMeeting_label_allItemTags"
 msgstr "Etiquetas"
 
-#. Default: "Items presented to this meeting (including those that were presented after the meeting was published)."
-msgid "PloneMeeting_label_allItemsAtOnce"
-msgstr "Los temas presentados en esta reunión (incluyendo esas que fueron presentados después de la reunión publicada)."
-
 #. Default: "Advice annex to print default value"
 msgid "PloneMeeting_label_annexAdviceToPrintDefault"
 msgstr "Valor por defecto al imprimir el Anexo a los consejos"
@@ -451,10 +447,6 @@ msgstr "Deshabilitar el color de sistema para los siguientes usuarios"
 
 #. Default: "Completeness"
 msgid "PloneMeeting_label_completeness"
-msgstr ""
-
-#. Default: "Completeness comment"
-msgid "PloneMeeting_label_completenessComment"
 msgstr ""
 
 #. Default: "Identifier of this meeting configuration"
@@ -1502,10 +1494,6 @@ msgstr "Agenda"
 msgid "all_item_tags_descr"
 msgstr "Usted puede definir aquí una lista de etiquetas que son especificas a esta configuración de reunión. Si usted elige usar los atributos de 'Etiquetas' (ver arriba), usted puede asociar uno o más etiquetas a cada tema. Por favor escriba una etiqueta por linea."
 
-#. Default: "In this field, you may modify at once information about all items presented in this meeting. While editing this field, please try to avoid modifying the item numbers or deleting elements (a whole item or a just a title, for example). You can't add new items through this field."
-msgid "all_items_explanation"
-msgstr "Es este campo, usted tal ves modificara una ves la información acerca todos los temas presentados en esta reunión. Mientras se edita este campo, por favor trate de evitar de modificar el número de tema o eliminar elementos (todo un tema o justo un título, por ejemplo). Usted no podrá agregar nuevos temas a través de este campo."
-
 #. Default: ", description and decision"
 msgid "and_decision"
 msgstr ", descripción y decisión"
@@ -1872,22 +1860,6 @@ msgstr ""
 #. Default: "Select here groups that will be able to see this item"
 msgid "copy_groups_item_descr"
 msgstr "Seleccione aquí los grupos que podrán ver este tema"
-
-#. Default: "You have corrupted the content of this field. We can't record what you have modified in this field. Please click on the 'Cancel' button."
-msgid "corruptedBody"
-msgstr "Usted tiene corrupto el contenido de este campo. Nosotros no podemos guardar lo que usted ha modificado en este campo. Por favor haga clic en el botón 'Cancelar'."
-
-#. Default: "An item's content is empty. Please correct this (use the 'Body' style available in the dropdown list below)."
-msgid "corruptedContent"
-msgstr "Un contenido del tema esta vació. Por favor corrija esto (use el estilo 'Body' disponible en la lista desplegable siguiente)."
-
-#. Default: "There is a problem related to items numbering. Either you've added or deleted items (which is forbidden), either you have modified numbers. Please correct this or click on the 'Cancel' button."
-msgid "corruptedNumbers"
-msgstr "Allí hay un problema relacionado a los temas numerados. Tampoco usted tiene agregado o eliminado temas (lo cual es prohibido), tampoco tiene modificado números. Por favor corrija esta o haga clic en el botón 'Cancelar'."
-
-#. Default: "The title of an item is wrong. Please check that each title begins with a number followed by a dot and the item title. Check also that you did not add style information to the number or the title (bold, underline, italic, etc)."
-msgid "corruptedTitle"
-msgstr "El título de un tema es incorrecto. Por verifique que cada título inicia en un número seguido de un punto y el título del tema. Verifique también que usted no halla agregado el estilo de información a el número o el título (negrita, subrayado, cursiva, etc)."
 
 #. Default: "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
 msgid "could_not_present_item_no_meeting_accepting_items"

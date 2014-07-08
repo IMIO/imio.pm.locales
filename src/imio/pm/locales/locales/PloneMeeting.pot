@@ -360,10 +360,6 @@ msgstr ""
 msgid "item_completeness_descr"
 msgstr ""
 
-#. Default: "Completeness comment"
-msgid "PloneMeeting_label_completenessComment"
-msgstr ""
-
 #. Default: "Emergency"
 msgid "PloneMeeting_label_emergency"
 msgstr ""
@@ -881,10 +877,6 @@ msgstr ""
 msgid "PloneMeeting_label_items"
 msgstr ""
 
-#. Default: "Items presented to this meeting (including those that were presented after the meeting was published)."
-msgid "PloneMeeting_label_allItemsAtOnce"
-msgstr ""
-
 #. Default: "Identifier of the configuration's version that is linked to this meeting"
 msgid "PloneMeeting_label_meetingConfigVersion"
 msgstr ""
@@ -1043,26 +1035,6 @@ msgstr ""
 
 #. Default: "Move the item up"
 msgid "move_item_up"
-msgstr ""
-
-#. Default: "In this field, you may modify at once information about all items presented in this meeting. While editing this field, please try to avoid modifying the item numbers or deleting elements (a whole item or a just a title, for example). You can't add new items through this field."
-msgid "all_items_explanation"
-msgstr ""
-
-#. Default: "You have corrupted the content of this field. We can't record what you have modified in this field. Please click on the 'Cancel' button."
-msgid "corruptedBody"
-msgstr ""
-
-#. Default: "The title of an item is wrong. Please check that each title begins with a number followed by a dot and the item title. Check also that you did not add style information to the number or the title (bold, underline, italic, etc)."
-msgid "corruptedTitle"
-msgstr ""
-
-#. Default: "An item's content is empty. Please correct this (use the 'Body' style available in the dropdown list below)."
-msgid "corruptedContent"
-msgstr ""
-
-#. Default: "There is a problem related to items numbering. Either you've added or deleted items (which is forbidden), either you have modified numbers. Please correct this or click on the 'Cancel' button."
-msgid "corruptedNumbers"
 msgstr ""
 
 #. Default: "Please select at least one element."

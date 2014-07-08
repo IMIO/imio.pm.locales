@@ -354,10 +354,6 @@ msgstr ""
 msgid "PloneMeeting_label_allItemTags"
 msgstr "Tags"
 
-#. Default: "Items presented to this meeting (including those that were presented after the meeting was published)."
-msgid "PloneMeeting_label_allItemsAtOnce"
-msgstr "In dieser Sitzung präsentierte TOP (inklusive der TOP die nach der Veröffentlichung dieser Sitzung präsentiert wurden)."
-
 #. Default: "Advice annex to print default value"
 msgid "PloneMeeting_label_annexAdviceToPrintDefault"
 msgstr ""
@@ -448,10 +444,6 @@ msgstr "Das Farbsystem für folgende Benutzer ausschalten"
 
 #. Default: "Completeness"
 msgid "PloneMeeting_label_completeness"
-msgstr ""
-
-#. Default: "Completeness comment"
-msgid "PloneMeeting_label_completenessComment"
 msgstr ""
 
 #. Default: "Identifier of this meeting configuration"
@@ -1504,10 +1496,6 @@ msgstr "Tagesordnung"
 msgid "all_item_tags_descr"
 msgstr "Sie können hier eine Liste von Tags die nur für diese Sitzungs-Konfiguration gelten definieren. Wenn Sie das 'Tags'-Attribute (siehe oben) verwenden, können Sie eines oder mehrere Tags mit jedem TOP verknüpfen. Bitte ein Tag pro Zeile eingeben."
 
-#. Default: "In this field, you may modify at once information about all items presented in this meeting. While editing this field, please try to avoid modifying the item numbers or deleting elements (a whole item or a just a title, for example). You can't add new items through this field."
-msgid "all_items_explanation"
-msgstr "In diesem Feld können Sie Informationen die alle TOP die in dieser Sitzung präsentiert werden ändern. Wenn Sie dieses Feld bearbeiten, vermeiden Sie es bitte die TOP-Nummern zu verändern oder Elemente zu löschen (ein ganzes Objekt oder nur ein Titel zum Beispiel). Sie können keine neuen TOP mit diesem Feld hinzufügen."
-
 #. Default: ", description and decision"
 msgid "and_decision"
 msgstr "Beschreibung und Entscheidung"
@@ -1876,22 +1864,6 @@ msgstr ""
 #. Default: "Select here groups that will be able to see this item"
 msgid "copy_groups_item_descr"
 msgstr "Wählen Sie hier die Gruppen welche diesen TOP sehen soll"
-
-#. Default: "You have corrupted the content of this field. We can't record what you have modified in this field. Please click on the 'Cancel' button."
-msgid "corruptedBody"
-msgstr "Sie haben den Inhalt dieses Feldes korrumpiert. Es kann nicht festgestellt werden was Sie verändert haben, bitte klicken Sie auf den 'Abbrechen'-Knopf."
-
-#. Default: "An item's content is empty. Please correct this (use the 'Body' style available in the dropdown list below)."
-msgid "corruptedContent"
-msgstr "Ein TOP hat keinen Inhalt. Bitte korrigieren Sie dies (benutzen Sie den 'Body'-Style der in dem Dropdown-Menü unten verfügbar ist.)"
-
-#. Default: "There is a problem related to items numbering. Either you've added or deleted items (which is forbidden), either you have modified numbers. Please correct this or click on the 'Cancel' button."
-msgid "corruptedNumbers"
-msgstr "Die Nummerierung der TOP ist fehlerhaft. Sie haben entweder TOP hinzugefügt oder gelöscht (dies ist hier nicht möglich), oder Sie haben die Nummern modifiziert. Bitte korrigieren Sie dies oder klicken Sie auf den 'Abbrechen'-Knopf."
-
-#. Default: "The title of an item is wrong. Please check that each title begins with a number followed by a dot and the item title. Check also that you did not add style information to the number or the title (bold, underline, italic, etc)."
-msgid "corruptedTitle"
-msgstr "Der Titel eines TOP ist inkorrekt. Bitte überprüfen Sie ob jeder Titel mit einer Nummer anfängt, gefolgt von einem Punkt und dem Titel des TOPs. Versichern Sie sich bitte ebenfalls, dass sie keine Styling-Informationen zur Nummer oder zum Titel (fettdruck, unterstrichen, kursiv, usw.) zugefügt haben."
 
 #. Default: "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
 msgid "could_not_present_item_no_meeting_accepting_items"

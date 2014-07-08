@@ -353,10 +353,6 @@ msgstr "Avis"
 msgid "PloneMeeting_label_allItemTags"
 msgstr "Marqueurs"
 
-#. Default: "Items presented to this meeting (including those that were presented after the meeting was published)."
-msgid "PloneMeeting_label_allItemsAtOnce"
-msgstr "Points présentés à cette séance (y compris après publication de celle-ci)"
-
 #. Default: "Advice annex to print default value"
 msgid "PloneMeeting_label_annexAdviceToPrintDefault"
 msgstr "Marquer les annexes à un avis comme 'à imprimer' par défaut?"
@@ -448,10 +444,6 @@ msgstr "Désactiver le système de couleurs pour les utilisateurs suivants"
 #. Default: "Completeness"
 msgid "PloneMeeting_label_completeness"
 msgstr "Complétude"
-
-#. Default: "Completeness comment"
-msgid "PloneMeeting_label_completenessComment"
-msgstr "Commentaire sur la complétude en cas de point incomplet"
 
 #. Default: "Identifier of this meeting configuration"
 msgid "PloneMeeting_label_configVersion"
@@ -1494,10 +1486,6 @@ msgstr "Ordre du jour"
 msgid "all_item_tags_descr"
 msgstr "Vous pouvez définir ici une liste de marqueurs (ou 'tags') propres à cette configuration de séance. Pour autant que vous utilisiez l'attribut 'Marqueurs' (à choisir plus haut sur cette page), vous pourrez associer un ou plusieurs marqueurs de cette liste à chaque point. Veuillez écrire un marqueur par ligne."
 
-#. Default: "In this field, you may modify at once information about all items presented in this meeting. While editing this field, please try to avoid modifying the item numbers or deleting elements (a whole item or a just a title, for example). You can't add new items through this field."
-msgid "all_items_explanation"
-msgstr "Dans ce champ, vous pouvez modifier en une seule fois des informations concernant tous les points présentés à cette séance. Durant l'édition, faites attention de ne pas modifier les numéros des points ni de supprimer des éléments (un point entier ou un objet par exemple). Vous ne pouvez pas non plus ajouter des nouveaux points via ce champ."
-
 #. Default: ", description and decision"
 msgid "and_decision"
 msgstr ", description et décision"
@@ -1862,22 +1850,6 @@ msgstr "Considéré 'Non rendu'"
 #. Default: "Select here groups that will be able to see this item"
 msgid "copy_groups_item_descr"
 msgstr "Choisissez-en plusieurs en maintenant la touche 'Ctrl' enfoncée."
-
-#. Default: "You have corrupted the content of this field. We can't record what you have modified in this field. Please click on the 'Cancel' button."
-msgid "corruptedBody"
-msgstr "Vous avez dégradé le contenu de ce champ. Les modifications que vous avez faites ne peuvent être enregistrées. Veuillez cliquer sur le bouton 'Annuler'."
-
-#. Default: "An item's content is empty. Please correct this (use the 'Body' style available in the dropdown list below)."
-msgid "corruptedContent"
-msgstr "Le contenu d'un point est vide. Veuillez corriger cela (utilisez le style 'Body' dans la liste déroulante ci-dessous)."
-
-#. Default: "There is a problem related to items numbering. Either you've added or deleted items (which is forbidden), either you have modified numbers. Please correct this or click on the 'Cancel' button."
-msgid "corruptedNumbers"
-msgstr "Il y a un problème de numérotation. Soit vous avez ajouté ou supprimé des points (ce qui est interdit), soit vous avez modifié des numéros de points. Veuillez corriger cela ou cliquer sur le bouton 'Annuler'."
-
-#. Default: "The title of an item is wrong. Please check that each title begins with a number followed by a dot and the item title. Check also that you did not add style information to the number or the title (bold, underline, italic, etc)."
-msgid "corruptedTitle"
-msgstr "Un objet pose problème. Veuillez vérifier que chaque objet commence par un numéro suivi d'un point et de l'objet du point. Vérifiez également que vous n'avez pas ajouté d'informations de mise en forme dans le numéro ou l'objet (gras, souligné, italique, etc)."
 
 #. Default: "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
 msgid "could_not_present_item_no_meeting_accepting_items"

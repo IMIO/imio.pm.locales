@@ -354,10 +354,6 @@ msgstr ""
 msgid "PloneMeeting_label_allItemTags"
 msgstr ""
 
-#. Default: "Items presented to this meeting (including those that were presented after the meeting was published)."
-msgid "PloneMeeting_label_allItemsAtOnce"
-msgstr "Items voorgesteld bij deze meeting (incluis deze die voorgesteld werden nadat de meeting gepubliceerd was)."
-
 #. Default: "Advice annex to print default value"
 msgid "PloneMeeting_label_annexAdviceToPrintDefault"
 msgstr ""
@@ -448,10 +444,6 @@ msgstr ""
 
 #. Default: "Completeness"
 msgid "PloneMeeting_label_completeness"
-msgstr ""
-
-#. Default: "Completeness comment"
-msgid "PloneMeeting_label_completenessComment"
 msgstr ""
 
 #. Default: "Identifier of this meeting configuration"
@@ -1498,10 +1490,6 @@ msgstr "Agenda"
 msgid "all_item_tags_descr"
 msgstr "You can define here a list of tags that are specific to this meeting configuration. If you choose to use the 'Tags' attribute (see above), you will be able to associate one or more tags to every item. Please write one tag per line."
 
-#. Default: "In this field, you may modify at once information about all items presented in this meeting. While editing this field, please try to avoid modifying the item numbers or deleting elements (a whole item or a just a title, for example). You can't add new items through this field."
-msgid "all_items_explanation"
-msgstr "In this field, you may modify at once information about all items presented in this meeting. While editing this field, please try to avoid modifying the item numbers or deleting elements (a whole item or a just a title, for example). You can't add new items through this field."
-
 #. Default: ", description and decision"
 msgid "and_decision"
 msgstr ", beschrijving en besluit"
@@ -1869,22 +1857,6 @@ msgstr ""
 #. Default: "Select here groups that will be able to see this item"
 msgid "copy_groups_item_descr"
 msgstr "Selekteer hier de groepen die in staat zullen zijn dit punt te zien"
-
-#. Default: "You have corrupted the content of this field. We can't record what you have modified in this field. Please click on the 'Cancel' button."
-msgid "corruptedBody"
-msgstr "You have corrupted the content of this field. We can't record what you have modified in this field. Please click on the 'Cancel' button."
-
-#. Default: "An item's content is empty. Please correct this (use the 'Body' style available in the dropdown list below)."
-msgid "corruptedContent"
-msgstr "An item's content is empty. Please correct this (use the 'Body' style available in the dropdown list below)."
-
-#. Default: "There is a problem related to items numbering. Either you've added or deleted items (which is forbidden), either you have modified numbers. Please correct this or click on the 'Cancel' button."
-msgid "corruptedNumbers"
-msgstr "There is a problem related to items numbering. Either you've added or deleted items (which is forbidden), either you have modified numbers. Please correct this or click on the 'Cancel' button."
-
-#. Default: "The title of an item is wrong. Please check that each title begins with a number followed by a dot and the item title. Check also that you did not add style information to the number or the title (bold, underline, italic, etc)."
-msgid "corruptedTitle"
-msgstr "The title of an item is wrong. Please check that each title begins with a number followed by a dot and the item title. Check also that you did not add style information to the number or the title (bold, underline, italic, etc)."
 
 #. Default: "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
 msgid "could_not_present_item_no_meeting_accepting_items"
