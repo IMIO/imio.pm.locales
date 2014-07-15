@@ -16,6 +16,10 @@ msgstr ""
 "X-is-fallback-for: nl-be\n"
 "X-Generator: Poedit 1.5.5\n"
 
+#. Default: "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
+msgid "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
+msgstr ""
+
 #. Default: "Add PloneMeeting Portlet"
 msgid "Add PloneMeeting Portlet"
 msgstr "Voeg plonemeeting Portlet toe"
@@ -620,6 +624,10 @@ msgstr "Email van de funktionele administrator"
 
 #. Default: "Gender"
 msgid "PloneMeeting_label_gender"
+msgstr ""
+
+#. Default: "Hide item history comments to users outside proposing group"
+msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
 msgstr ""
 
 #. Default: "Item attributes for which history must be kept"
@@ -2377,6 +2385,10 @@ msgstr ""
 msgid "hidden_during_redaction"
 msgstr ""
 
+#. Default: "If box is checked, when a user will access the history of an item, the comments of the listed events will only be shown if current user is part of the item's proposing group."
+msgid "hide_item_history_comments_to_users_outside_proposing_group_descr"
+msgstr ""
+
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
 msgstr "Verberg meeting voorbeeld"
@@ -2393,12 +2405,12 @@ msgstr ""
 msgid "history_changes"
 msgstr ""
 
-#. Default: "Deleted by ${userName}"
-msgid "history_delete"
+#. Default: "Comments"
+msgid "history_comments"
 msgstr ""
 
-#. Default: "Details"
-msgid "history_details"
+#. Default: "Deleted by ${userName}"
+msgid "history_delete"
 msgstr ""
 
 #. Default: "Inserted by ${userName}"

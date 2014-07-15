@@ -19,6 +19,10 @@ msgstr ""
 "Language: es\n"
 "X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
 
+#. Default: "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
+msgid "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
+msgstr ""
+
 #. Default: "Add PloneMeeting Portlet"
 msgid "Add PloneMeeting Portlet"
 msgstr "Agregar Portlet PloneMeeting"
@@ -624,6 +628,10 @@ msgstr "Nombre del administrador funcional"
 #. Default: "Gender"
 msgid "PloneMeeting_label_gender"
 msgstr "Género"
+
+#. Default: "Hide item history comments to users outside proposing group"
+msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
+msgstr ""
 
 #. Default: "Item attributes for which history must be kept"
 msgid "PloneMeeting_label_historizedItemAttributes"
@@ -2381,6 +2389,10 @@ msgstr ""
 msgid "hidden_during_redaction"
 msgstr ""
 
+#. Default: "If box is checked, when a user will access the history of an item, the comments of the listed events will only be shown if current user is part of the item's proposing group."
+msgid "hide_item_history_comments_to_users_outside_proposing_group_descr"
+msgstr ""
+
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
 msgstr "Esta página no está accesible. Los administradores de Reunión pronto le permitirán acceder de nuevo. Disculpe las molestias."
@@ -2397,13 +2409,13 @@ msgstr "Por cada campo que seleccione aquí, PloneMeeting realizará un seguimie
 msgid "history_changes"
 msgstr "Ver cambios"
 
+#. Default: "Comments"
+msgid "history_comments"
+msgstr ""
+
 #. Default: "Deleted by ${userName}"
 msgid "history_delete"
 msgstr "Eliminado por ${userName}"
-
-#. Default: "Details"
-msgid "history_details"
-msgstr "Detalles"
 
 #. Default: "Inserted by ${userName}"
 msgid "history_insert"

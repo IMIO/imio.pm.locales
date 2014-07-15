@@ -15,6 +15,10 @@ msgstr ""
 "Domain: PloneMeeting\n"
 "X-is-fallback-for: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
 
+#. Default: "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
+msgid "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
+msgstr "<span class='discreet'>Les commentaires ne sont accessibles qu'aux membres du groupe proposant de ce point.</span>"
+
 #. Default: "Add PloneMeeting Portlet"
 msgid "Add PloneMeeting Portlet"
 msgstr "Ajout d'un portlet 'PloneMeeting'"
@@ -620,6 +624,10 @@ msgstr "Nom de l'administrateur fonctionnel"
 #. Default: "Gender"
 msgid "PloneMeeting_label_gender"
 msgstr "Genre"
+
+#. Default: "Hide item history comments to users outside proposing group"
+msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
+msgstr "Cacher les commentaires dans l'historique d'un point aux utilisateurs ne faisant pas partie du groupe proposant"
 
 #. Default: "Item attributes for which history must be kept"
 msgid "PloneMeeting_label_historizedItemAttributes"
@@ -2371,6 +2379,10 @@ msgstr "L'annexe est en cours de conversion vers un format prévisualisable.  Re
 msgid "hidden_during_redaction"
 msgstr "Caché pendant la rédaction de l'avis"
 
+#. Default: "If box is checked, when a user will access the history of an item, the comments of the listed events will only be shown if current user is part of the item's proposing group."
+msgid "hide_item_history_comments_to_users_outside_proposing_group_descr"
+msgstr "Si vous cochez cette case, lorsqu'un utilisateur accèdera à l'historique d'un point, les commentaires ne lui seront affichés que s'il fait partie du groupe proposant sélectionné sur le point."
+
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
 msgstr "Cette page n'est pas accessible pour le moment. Les gestionnaires de séance vous y donneront à nouveau accès bientôt. Désolé pour le désagrément."
@@ -2387,13 +2399,13 @@ msgstr "Pour chaque champ que vous sélectionnez ici, PloneMeeting conservera la
 msgid "history_changes"
 msgstr "Voir les changements"
 
+#. Default: "Comments"
+msgid "history_comments"
+msgstr "Commentaire"
+
 #. Default: "Deleted by ${userName}"
 msgid "history_delete"
 msgstr "Supprimé par ${userName}"
-
-#. Default: "Details"
-msgid "history_details"
-msgstr "Détails"
 
 #. Default: "Inserted by ${userName}"
 msgid "history_insert"

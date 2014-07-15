@@ -15,6 +15,10 @@ msgstr ""
 "Domain: PloneMeeting\n"
 "X-is-fallback-for: en-us en-ca\n"
 
+#. Default: "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
+msgid "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
+msgstr ""
+
 #. Default: "Add PloneMeeting Portlet"
 msgid "Add PloneMeeting Portlet"
 msgstr "Add PloneMeeting Portlet"
@@ -620,6 +624,10 @@ msgstr "Name of the functional administrator"
 #. Default: "Gender"
 msgid "PloneMeeting_label_gender"
 msgstr "Gender"
+
+#. Default: "Hide item history comments to users outside proposing group"
+msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
+msgstr ""
 
 #. Default: "Item attributes for which history must be kept"
 msgid "PloneMeeting_label_historizedItemAttributes"
@@ -2375,6 +2383,10 @@ msgstr "No preview available because this file is currently being converted to a
 msgid "hidden_during_redaction"
 msgstr "Hidden during redaction"
 
+#. Default: "If box is checked, when a user will access the history of an item, the comments of the listed events will only be shown if current user is part of the item's proposing group."
+msgid "hide_item_history_comments_to_users_outside_proposing_group_descr"
+msgstr ""
+
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
 msgstr "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
@@ -2391,13 +2403,13 @@ msgstr "For every field you select here, PloneMeeting will keep track of any cha
 msgid "history_changes"
 msgstr "See changes"
 
+#. Default: "Comments"
+msgid "history_comments"
+msgstr ""
+
 #. Default: "Deleted by ${userName}"
 msgid "history_delete"
 msgstr "Deleted by ${userName}"
-
-#. Default: "Details"
-msgid "history_details"
-msgstr "Details"
 
 #. Default: "Inserted by ${userName}"
 msgid "history_insert"
