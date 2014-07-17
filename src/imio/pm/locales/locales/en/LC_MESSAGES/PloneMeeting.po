@@ -759,9 +759,8 @@ msgstr "Tags"
 
 # MeetingItem
 #. Default: "Purpose"
-#, fuzzy
 msgid "PloneMeeting_label_itemTitle"
-msgstr "Object"
+msgstr "Purpose"
 
 #. Default: "Item states which are relevant for searches defined in the 'items' portlets"
 msgid "PloneMeeting_label_itemTopicStates"
@@ -1275,9 +1274,8 @@ msgid "Preview detailled advice"
 msgstr "Preview detailled advice"
 
 #. Default: "Recurring items"
-#, fuzzy
 msgid "RecurringItems"
-msgstr "Predefined items"
+msgstr "Recurring items"
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
@@ -1601,9 +1599,8 @@ msgid "arrow_up"
 msgstr "Sort order asc"
 
 #. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as copyGroup for an item.  We receive 'item' as the meeting item and 'isCreated' that is only True when the item is in the creation process (not while being edited after).  WARNING, if the 'suffix' returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
-#, fuzzy
 msgid "as_copy_group_on_descr"
-msgstr "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as copyGroup for an item.  We receive 'item' as the meeting item.  WARNING, if the 'suffix' returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
+msgstr "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as copyGroup for an item.  We receive 'item' as the meeting item and 'isCreated' that is only True when the item is in the creation process (not while being edited after).  WARNING, if the 'suffix' returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
 
 #. Default: "As recurring item"
 msgid "as_recurring_item"
@@ -1646,9 +1643,8 @@ msgid "assembly_excused_meeting_descr"
 msgstr ""
 
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use 'Excused' and 'Absents' fields"
-#, fuzzy
 msgid "assembly_meeting_descr"
-msgstr "Add [[ ]] around absent people (like [[Mister Sample Peter]])"
+msgstr "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use 'Excused' and 'Absents' fields"
 
 #. Default: "Use 'CTRL+click' to select several associated groups."
 msgid "associated_group_item_descr"
@@ -2608,9 +2604,8 @@ msgid "item_assembly_absents_descr"
 msgstr ""
 
 #. Default: "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use excused and absent fields"
-#, fuzzy
 msgid "item_assembly_descr"
-msgstr "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])"
+msgstr "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use excused and absent fields"
 
 #. Default: "If you don't fill this field, meeting assembly excused will be used for this item"
 msgid "item_assembly_excused_descr"
@@ -2859,9 +2854,8 @@ msgid "let_item_in_initial_state"
 msgstr "--- Do nothing, let the item in the workflow initial state ---"
 
 #. Default: "Purpose"
-#, fuzzy
 msgid "listingheader_item_title"
-msgstr "Object"
+msgstr "Purpose"
 
 #. Default: "Last modification"
 msgid "listingheader_modified"
@@ -3059,9 +3053,8 @@ msgid "meeting_topic_states_descr"
 msgstr "Meetings being in the states you select here will appear in the 'meetings' portlet. Typically you will display there meetings under creation or published meetings that did not took place yet. The idea is to select here a given set of states and to select, in the next field, all the other states. This way, users can distinguish between future and past meetings (past meetings are the object of the next field)."
 
 #. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
-#, fuzzy
 msgid "meeting_transition_inserting_me_descr"
-msgstr "Choose here what event on meetings will trigger the insertion of this item in a meeting. Fill this field only if you select 'As recurring item' among item's usages."
+msgstr "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 
 #. Default: "Enter here the function of the user."
 msgid "meeting_user_duty_descr"
@@ -3646,9 +3639,9 @@ msgstr "Items presented to this meeting"
 msgid "proposing_group_acronym"
 msgstr "Proposing group's acronym"
 
-#. Default: "As the item is used as recurring item, the proposing group is mandatory."
+#. Default: "A proposing group is required."
 msgid "proposing_group_required"
-msgstr "As the item is used as recurring item, the proposing group is mandatory."
+msgstr "A proposing group is required."
 
 #. Default: "Define here lists of people to which files generated from this template will be sent by email. You must write one list per line. Every line must have the format &lt;listTitle&gt;;&lt;condition&gt;;&lt;userIds&gt;, where &lt;listTitle&gt; is the name of the mailing list, &lt;condition&gt; is a TAL expression that returns a boolean value and indicates under which circumstances the mailing list will be active; &lt;userIds&gt; is a comma-separated list of user ids. &lt;condition&gt; receives, in its context, 'obj' as the object on which the template is computed, and 'member' as the currently logged user."
 msgid "pt_mailing_lists_descr"
@@ -3692,9 +3685,8 @@ msgid "recurringItemWorkflowError_mail_subject"
 msgstr "${portalTitle} - A problem occurred while inserting the recurring item entitled '${itemTitle}' into a meeting."
 
 #. Default: "Recurring items are items that will be automatically added to a meeting at a defined moment."
-#, fuzzy
 msgid "recurring_items_descr"
-msgstr "You manage here predefined items that will serve, for different purposes, as templates for creating real items."
+msgstr "Recurring items are items that will be automatically added to a meeting at a defined moment."
 
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
@@ -3889,9 +3881,8 @@ msgid "searchitemstoadvicewithdelay"
 msgstr "items to advice with delay"
 
 #. Default: "advice not given (delay exceeded)"
-#, fuzzy
 msgid "searchitemstoadvicewithdexceededelay"
-msgstr "items to advice with exceeded delay"
+msgstr "advice not given (delay exceeded)"
 
 #. Default: "items to correct"
 msgid "searchitemstocorrect"

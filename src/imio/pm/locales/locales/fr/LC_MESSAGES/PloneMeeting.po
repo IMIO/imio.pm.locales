@@ -3637,9 +3637,9 @@ msgstr "Points présentés à cette séance"
 msgid "proposing_group_acronym"
 msgstr "Acronyme du groupe proposant"
 
-#. Default: "As the item is used as recurring item, the proposing group is mandatory."
+#. Default: "A proposing group is required."
 msgid "proposing_group_required"
-msgstr "Ce point étant utilisé 'comme point récurrent', ce champ est obligatoire."
+msgstr "Un groupe proposant est requis."
 
 #. Default: "Define here lists of people to which files generated from this template will be sent by email. You must write one list per line. Every line must have the format &lt;listTitle&gt;;&lt;condition&gt;;&lt;userIds&gt;, where &lt;listTitle&gt; is the name of the mailing list, &lt;condition&gt; is a TAL expression that returns a boolean value and indicates under which circumstances the mailing list will be active; &lt;userIds&gt; is a comma-separated list of user ids. &lt;condition&gt; receives, in its context, 'obj' as the object on which the template is computed, and 'member' as the currently logged user."
 msgid "pt_mailing_lists_descr"
@@ -4363,3 +4363,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+
