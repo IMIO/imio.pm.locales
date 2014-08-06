@@ -2019,6 +2019,10 @@ msgstr "Der Beschluss ist leer für den TOP ${itemNumber}."
 msgid "decision_topic_states_descr"
 msgstr "Sitzungen die sich in den hier ausgewählten Status befinden werden im Beschlüsse-Portlet angezeigt. Typischerweise werden hier Sitzungen für die Beschlüsse gefasst oder umgesetzt wurden angezeigt."
 
+#. Default: "<p>The decision is currently under edit by managers, you can not access it.</p>"
+msgid "decision_under_edit"
+msgstr ""
+
 #. Default: "Decisions"
 msgid "decisions"
 msgstr "Beschlüsse"
