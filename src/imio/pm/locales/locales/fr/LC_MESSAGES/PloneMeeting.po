@@ -1667,6 +1667,10 @@ msgstr "Aucune décision n'a été encodée pour le point ${itemNumber}."
 msgid "decision_topic_states_descr"
 msgstr "Les séances étant dans les états que vous sélectionnez ici apparaîtront dans la portlet 'décisions'. Il s'agit typiquement de séances dont les décisions ont été publiées ou archivées."
 
+#. Default: "<p>The decision is currently under edit by managers, you can not access it.</p>"
+msgid "decision_under_edit"
+msgstr "<p>La décision est en cours de rédaction par les gestionnaires de séances, vous ne pouvez pas y accéder pour l'instant.</p>"
+
 #. Default: "Decisions"
 msgid "decisions"
 msgstr "Décisions"
@@ -3899,4 +3903,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

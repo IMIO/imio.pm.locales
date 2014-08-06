@@ -1672,6 +1672,10 @@ msgstr "La decisión esta vacía para el tema ${itemNumber}."
 msgid "decision_topic_states_descr"
 msgstr "Las reuniones inician en un estado que seleccione aquí y van aparecer en el portlet 'decisiones'. Típicamente este portlet será para mostrar todas las decisiones de las reuniones que fueron tomadas o archivadas."
 
+#. Default: "<p>The decision is currently under edit by managers, you can not access it.</p>"
+msgid "decision_under_edit"
+msgstr ""
+
 #. Default: "Decisions"
 msgid "decisions"
 msgstr "Decisiones"
