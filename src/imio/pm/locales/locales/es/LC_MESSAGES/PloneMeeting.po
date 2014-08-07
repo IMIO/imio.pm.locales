@@ -2513,11 +2513,13 @@ msgstr ""
 msgid "inserting_methods_on_add_item_descr"
 msgstr ""
 
-#. Default: "Public"
+#. Default: "Public meeting"
+#, fuzzy
 msgid "ip_public"
 msgstr "Público"
 
-#. Default: "Secret"
+#. Default: "Closed door"
+#, fuzzy
 msgid "ip_secret"
 msgstr "Secreto"
 
@@ -2853,7 +2855,8 @@ msgstr "El tema se titula '${itemTitle}'. Usted puede acceder a este tema aquí:
 msgid "lateItem_mail_subject"
 msgstr "${meetingConfigTitle} - Un tema 'tardío' ha sido validado."
 
-#. Default: "Items presented after the meeting has been published"
+#. Default: "Items presented tardily"
+#, fuzzy
 msgid "late_presented_items"
 msgstr "Temas presentados después de la reunión que fue publicada."
 

@@ -2509,11 +2509,11 @@ msgstr ""
 msgid "inserting_methods_on_add_item_descr"
 msgstr ""
 
-#. Default: "Public"
+#. Default: "Public meeting"
 msgid "ip_public"
 msgstr ""
 
-#. Default: "Secret"
+#. Default: "Closed door"
 msgid "ip_secret"
 msgstr ""
 
@@ -2850,7 +2850,8 @@ msgstr "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
 msgid "lateItem_mail_subject"
 msgstr "${portalTitle} A 'late' item has been validated."
 
-#. Default: "Items presented after the meeting has been published"
+#. Default: "Items presented tardily"
+#, fuzzy
 msgid "late_presented_items"
 msgstr "Items voorgesteld na de vergadering werden gepubliceerd."
 

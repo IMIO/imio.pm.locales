@@ -2503,11 +2503,11 @@ msgstr "Vous ne pouvez pas sélectionner 'Par point à discuter (à discuter et 
 msgid "inserting_methods_on_add_item_descr"
 msgstr "Permet de définir les méthodes successivement appliquées lors de l'insertion d'un point dans une séance."
 
-#. Default: "Public"
+#. Default: "Public meeting"
 msgid "ip_public"
 msgstr "Séance publique"
 
-#. Default: "Secret"
+#. Default: "Closed door"
 msgid "ip_secret"
 msgstr "Huis clos"
 
@@ -2841,9 +2841,9 @@ msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}
 msgid "lateItem_mail_subject"
 msgstr "${meetingConfigTitle} - Un point en retard vient d'être validé."
 
-#. Default: "Items presented after the meeting has been published"
+#. Default: "Items presented tardily"
 msgid "late_presented_items"
-msgstr "Points présentés à cette séance après publication de celle-ci"
+msgstr "Points présentés en retard"
 
 #. Default: "This person has left the meeting after item number:"
 msgid "left_after"

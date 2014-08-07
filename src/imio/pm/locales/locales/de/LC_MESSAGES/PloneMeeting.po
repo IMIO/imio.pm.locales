@@ -2521,11 +2521,13 @@ msgstr ""
 msgid "inserting_methods_on_add_item_descr"
 msgstr ""
 
-#. Default: "Public"
+#. Default: "Public meeting"
+#, fuzzy
 msgid "ip_public"
 msgstr "Öffentlich"
 
-#. Default: "Secret"
+#. Default: "Closed door"
+#, fuzzy
 msgid "ip_secret"
 msgstr "Geheim"
 
@@ -2868,7 +2870,8 @@ msgstr "Der TOP trägt dem Namen '${itemTitle}'. Mehr Informationen auf ${portal
 msgid "lateItem_mail_subject"
 msgstr "${portalTitle} - Ein 'verspäteter' TOP wurde bestätigt."
 
-#. Default: "Items presented after the meeting has been published"
+#. Default: "Items presented tardily"
+#, fuzzy
 msgid "late_presented_items"
 msgstr "TOP die nach der Veröffentlichung der Sitzung präsentiert wurden"
 

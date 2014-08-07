@@ -2503,13 +2503,13 @@ msgstr ""
 msgid "inserting_methods_on_add_item_descr"
 msgstr ""
 
-#. Default: "Public"
+#. Default: "Public meeting"
 msgid "ip_public"
-msgstr "Public"
+msgstr "Public meeting"
 
-#. Default: "Secret"
+#. Default: "Closed door"
 msgid "ip_secret"
-msgstr "Secret"
+msgstr "Closed door"
 
 #. Default: "Absent?"
 msgid "is_absent"
@@ -2841,9 +2841,9 @@ msgstr "The item is entitled '${itemTitle}'. You can access this item here: ${ob
 msgid "lateItem_mail_subject"
 msgstr "${meetingConfigTitle} - A 'late' item has been validated."
 
-#. Default: "Items presented after the meeting has been published"
+#. Default: "Items presented tardily"
 msgid "late_presented_items"
-msgstr "Items presented after the meeting has been published"
+msgstr "Items presented tardily"
 
 #. Default: "This person has left the meeting after item number:"
 msgid "left_after"
