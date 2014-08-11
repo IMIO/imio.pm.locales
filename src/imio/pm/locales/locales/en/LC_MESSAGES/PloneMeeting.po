@@ -17,7 +17,7 @@ msgstr ""
 
 #. Default: "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
 msgid "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
-msgstr ""
+msgstr "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
 
 #. Default: "Add PloneMeeting Portlet"
 msgid "Add PloneMeeting Portlet"
@@ -93,7 +93,7 @@ msgstr "Change delay"
 
 #. Default: "Change delay for this advice from ${from} days to ${to} days."
 msgid "Change delay for this advice from ${from} days to ${to} days."
-msgstr ""
+msgstr "Change delay for this advice from ${from} days to ${to} days."
 
 #. Default: "Choose a group."
 msgid "Choose a group."
@@ -117,7 +117,7 @@ msgstr "Copy PloneMeeting"
 
 #. Default: "Create an item from an item template"
 msgid "Create an item from an item template"
-msgstr ""
+msgstr "Create an item from an item template"
 
 #. Default: "Delete advice"
 msgid "Delete advice"
@@ -125,7 +125,7 @@ msgstr "Delete advice"
 
 #. Default: "Document templates"
 msgid "Document templates"
-msgstr ""
+msgstr "Document templates"
 
 #. Default: "Download annex"
 msgid "Download annex"
@@ -157,7 +157,7 @@ msgstr "Enter optionnal observations if necessary."
 
 #. Default: "Enter the item absents to be applied.  The value displayed by default is the value of the current item."
 msgid "Enter the item absents to be applied.  The value displayed by default is the value of the current item."
-msgstr ""
+msgstr "Enter the item absents to be applied.  The value displayed by default is the value of the current item."
 
 #. Default: "Enter the item assembly to be applied.  The value displayed by default is the value of the current item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])."
 msgid "Enter the item assembly to be applied.  The value displayed by default is the value of the current item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])."
@@ -165,11 +165,11 @@ msgstr "Enter the item assembly to be applied.  The value displayed by default i
 
 #. Default: "Enter the item attendees to be applied.  The value displayed by default is the value of the current item."
 msgid "Enter the item attendees to be applied.  The value displayed by default is the value of the current item."
-msgstr ""
+msgstr "Enter the item attendees to be applied.  The value displayed by default is the value of the current item."
 
 #. Default: "Enter the item excused to be applied.  The value displayed by default is the value of the current item."
 msgid "Enter the item excused to be applied.  The value displayed by default is the value of the current item."
-msgstr ""
+msgstr "Enter the item excused to be applied.  The value displayed by default is the value of the current item."
 
 #. Default: "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
 msgid "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
@@ -193,7 +193,7 @@ msgstr "History of completeness changes"
 
 #. Default: "History of delay changes"
 msgid "History of delay changes"
-msgstr ""
+msgstr "History of delay changes"
 
 #. Default: "History of emergency changes"
 msgid "History of emergency changes"
@@ -225,7 +225,7 @@ msgstr "It is not possible to add annexes because no file types is defined, plea
 
 #. Default: "Item absents to apply"
 msgid "Item absents to apply"
-msgstr ""
+msgstr "Item absents to apply"
 
 #. Default: "Item assemblies have been updated."
 msgid "Item assemblies have been updated."
@@ -237,11 +237,11 @@ msgstr "Item assembly to apply"
 
 #. Default: "Item attendees to apply"
 msgid "Item attendees to apply"
-msgstr ""
+msgstr "Item attendees to apply"
 
 #. Default: "Item excused to apply"
 msgid "Item excused to apply"
-msgstr ""
+msgstr "Item excused to apply"
 
 #. Default: "Item signatures have been updated."
 msgid "Item signatures have been updated."
@@ -253,7 +253,7 @@ msgstr "Item signatures to apply"
 
 #. Default: "Item templates"
 msgid "Item templates"
-msgstr ""
+msgstr "Item templates"
 
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
@@ -273,11 +273,11 @@ msgstr "Manage item signatures"
 
 #. Default: "Manage item templates"
 msgid "Manage item templates"
-msgstr ""
+msgstr "Manage item templates"
 
 #. Default: "Users"
 msgid "Meeting users"
-msgstr ""
+msgstr "Meeting users"
 
 #. Default: "Advice"
 msgid "MeetingAdvice"
@@ -383,11 +383,11 @@ msgstr "Default assembly"
 
 #. Default: "Absents"
 msgid "PloneMeeting_label_assemblyAbsents"
-msgstr ""
+msgstr "Absents"
 
 #. Default: "Excused"
 msgid "PloneMeeting_label_assemblyExcused"
-msgstr ""
+msgstr "Excused"
 
 #. Default: "Associated group(s)"
 msgid "PloneMeeting_label_associatedGroups"
@@ -431,7 +431,7 @@ msgstr "Category identifier"
 
 #. Default: "Category to use when sending item of this meeting config to another one"
 msgid "PloneMeeting_label_categoryMappingsWhenCloningToOtherMC"
-msgstr ""
+msgstr "Category to use when sending item of this meeting config to another one"
 
 #. Default: "Certified signatures"
 msgid "PloneMeeting_label_certifiedSignatures"
@@ -495,7 +495,7 @@ msgstr "Meeting states that condition the display of meetings in the 'decisions'
 
 #. Default: "Default value of the 'Hide advice during redaction' field on an advice"
 msgid "PloneMeeting_label_defaultAdviceHiddenDuringRedaction"
-msgstr ""
+msgstr "Default value of the 'Hide advice during redaction' field on an advice"
 
 #. Default: "Default advice type"
 msgid "PloneMeeting_label_defaultAdviceType"
@@ -627,7 +627,7 @@ msgstr "Gender"
 
 #. Default: "Hide item history comments to users outside proposing group"
 msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
-msgstr ""
+msgstr "Hide item history comments to users outside proposing group"
 
 #. Default: "Item attributes for which history must be kept"
 msgid "PloneMeeting_label_historizedItemAttributes"
@@ -643,7 +643,7 @@ msgstr "Holidays"
 
 #. Default: "Sort order(s) to apply when adding an item to a meeting"
 msgid "PloneMeeting_label_insertingMethodsOnAddItem"
-msgstr ""
+msgstr "Sort order(s) to apply when adding an item to a meeting"
 
 #. Default: "Confidential ?"
 msgid "PloneMeeting_label_isConfidential"
@@ -687,11 +687,11 @@ msgstr "Assembly that is specific to this meeting item"
 
 #. Default: "Assembly absents that is specific to this meeting item"
 msgid "PloneMeeting_label_itemAssemblyAbsents"
-msgstr ""
+msgstr "Assembly absents that is specific to this meeting item"
 
 #. Default: "Assembly excused that is specific to this meeting item"
 msgid "PloneMeeting_label_itemAssemblyExcused"
-msgstr ""
+msgstr "Assembly excused that is specific to this meeting item"
 
 #. Default: "Item states in wich budget impact editors can change budgetary informations"
 msgid "PloneMeeting_label_itemBudgetInfosStates"
@@ -715,7 +715,7 @@ msgstr "Item decided states"
 
 #. Default: "Description"
 msgid "PloneMeeting_label_itemDescription"
-msgstr ""
+msgstr "Description"
 
 #. Default: "Initiator of this item"
 msgid "PloneMeeting_label_itemInitiator"
@@ -1311,7 +1311,7 @@ msgstr "This advice can not be given anymore, it was asked the ${advice_delay_st
 
 #. Default: "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
 msgid "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
-msgstr ""
+msgstr "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
 
 #. Default: "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
 msgid "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
@@ -1319,7 +1319,7 @@ msgstr "This advice is currently under redaction by the advisers of the group an
 
 #. Default: "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgid "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
-msgstr ""
+msgstr "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 
 #. Default: "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 msgid "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
@@ -1364,11 +1364,11 @@ msgstr "Topics"
 
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
-msgstr ""
+msgstr "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
-msgstr ""
+msgstr "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 
 #. Default: "A meeting manager"
 msgid "a_meeting_manager"
@@ -1428,7 +1428,7 @@ msgstr "This advice can no more be given in current item state (${item_review_st
 
 #. Default: "Comment"
 msgid "advice_change_delay_comment"
-msgstr ""
+msgstr "Comment"
 
 #. Default: "Comment (optional)"
 msgid "advice_comment"
@@ -1456,11 +1456,11 @@ msgstr "Choose here the style for the icons that represent advices."
 
 #. Default: "This transition was automatically triggered by the application because the state of the item changed and this advice is no more accessible to its creators."
 msgid "advice_wf_changed_auto_by_app"
-msgstr ""
+msgstr "This transition was automatically triggered by the application because the state of the item changed and this advice is no more accessible to its creators."
 
 #. Default: "This transition was automatically triggered by the application."
 msgid "advice_wf_changed_triggered_by_application"
-msgstr ""
+msgstr "This transition was automatically triggered by the application."
 
 #. Default: "Advices and access"
 msgid "advices"
@@ -1620,11 +1620,11 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - ${user}, belonging to group(s)
 
 #. Default: "Absents as defined on the linked meeting"
 msgid "assembly_absents_defined_on_meeting"
-msgstr ""
+msgstr "Absents as defined on the linked meeting"
 
 #. Default: "Define here people that were absents (not excused) for the meeting"
 msgid "assembly_absents_meeting_descr"
-msgstr ""
+msgstr "Define here people that were absents (not excused) for the meeting"
 
 #. Default: "Assembly as defined on the linked meeting"
 msgid "assembly_defined_on_meeting"
@@ -1636,11 +1636,11 @@ msgstr "Define here the default assembly (for example you may type a list of nam
 
 #. Default: "Excused as defined on the linked meeting"
 msgid "assembly_excused_defined_on_meeting"
-msgstr ""
+msgstr "Excused as defined on the linked meeting"
 
 #. Default: "Define here people that were excused for the meeting"
 msgid "assembly_excused_meeting_descr"
-msgstr ""
+msgstr "Define here people that were excused for the meeting"
 
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use 'Excused' and 'Absents' fields"
 msgid "assembly_meeting_descr"
@@ -1661,11 +1661,11 @@ msgstr "At the end"
 
 #. Default: "Attendees as defined on the linked meeting"
 msgid "attendees_defined_on_meeting"
-msgstr ""
+msgstr "Attendees as defined on the linked meeting"
 
 #. Default: "Attendees for this item"
 msgid "attendees_for_item"
-msgstr ""
+msgstr "Attendees for this item"
 
 #. Default: "Using attribute(s) 'excused' and/or 'absents' requires the use of attribute 'attendees'."
 msgid "attendees_required"
@@ -1769,7 +1769,7 @@ msgstr "Number of items for which this category has been chosen. Be careful: thi
 
 #. Default: "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
-msgstr ""
+msgstr "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
 
 #. Default: "Category (or proposing group)"
 msgid "category_or_proposing_group"
@@ -1861,7 +1861,7 @@ msgstr "If this meeting configuration corresponds to an organization, institutio
 
 #. Default: "Considered not given because hidden during redaction"
 msgid "considered_not_given_hidden_during_redaction"
-msgstr ""
+msgstr "Considered not given because hidden during redaction"
 
 #. Default: "Select here groups that will be able to see this item"
 msgid "copy_groups_item_descr"
@@ -1897,11 +1897,11 @@ msgstr "Create an item here"
 
 #. Default: "Item created from a Plonemeeting assembly item"
 msgid "create_to_plonegov-assembly_from_plonemeeting-assembly_comments"
-msgstr ""
+msgstr "Item created from a Plonemeeting assembly item"
 
 #. Default: "Item created from a Plonegov assembly item"
 msgid "create_to_plonemeeting-assembly_from_plonegov-assembly_comments"
-msgstr ""
+msgstr "Item created from a Plonegov assembly item"
 
 #. Default: "Creator"
 msgid "creator"
@@ -2018,7 +2018,7 @@ msgstr "General"
 
 #. Default: "As mentioned on the advice in the help part of the field, this will let advisers hide the advice when it is under redaction.  If adviser loses access to the advice (for example if the item state evolve or delay to give advice is exceeded), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 msgid "default_advice_hidden_during_redaction_descr"
-msgstr ""
+msgstr "As mentioned on the advice in the help part of the field, this will let advisers hide the advice when it is under redaction.  If adviser loses access to the advice (for example if the item state evolve or delay to give advice is exceeded), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 
 #. Default: "The default advice type will be preselected on the form for adding an advice on an item."
 msgid "default_advice_type_descr"
@@ -2066,7 +2066,7 @@ msgstr "Assembly stored on the linked meeting"
 
 #. Default: "Attendees stored on the linked meeting"
 msgid "display_meeting_attendees_legend"
-msgstr ""
+msgstr "Attendees stored on the linked meeting"
 
 #. Default: "signatures stored on the linked meeting"
 msgid "display_meeting_signatures_legend"
@@ -2134,7 +2134,7 @@ msgstr "When advice mandatoriness is enforced, an item can't be inserted into a 
 
 #. Default: "You can not select several categories for the same meeting config."
 msgid "error_can_not_select_several_cat_for_same_mc"
-msgstr ""
+msgstr "You can not select several categories for the same meeting config."
 
 #. Default: "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."
 msgid "eventOccurred_mail_body"
@@ -2389,7 +2389,7 @@ msgstr "Hidden during redaction"
 
 #. Default: "If box is checked, when a user will access the history of an item, the comments of the listed events will only be shown if current user is part of the item's proposing group."
 msgid "hide_item_history_comments_to_users_outside_proposing_group_descr"
-msgstr ""
+msgstr "If box is checked, when a user will access the history of an item, the comments of the listed events will only be shown if current user is part of the item's proposing group."
 
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
@@ -2409,7 +2409,7 @@ msgstr "See changes"
 
 #. Default: "Comments"
 msgid "history_comments"
-msgstr ""
+msgstr "Comments"
 
 #. Default: "Deleted by ${userName}"
 msgid "history_delete"
@@ -2485,23 +2485,23 @@ msgstr "To use this functionnality, it is necessary that the icon '${iconname}' 
 
 #. Default: "You can not select another inserting method together with the 'At the end' inserting method."
 msgid "inserting_methods_at_the_end_not_alone_error"
-msgstr ""
+msgstr "You can not select another inserting method together with the 'At the end' inserting method."
 
 #. Default: "You can not select same inserting method several times."
 msgid "inserting_methods_can_not_select_several_times_same_method_error"
-msgstr ""
+msgstr "You can not select same inserting method several times."
 
 #. Default: "You can not select 'Follow categories order' inserting method as this meeting configuration does not use categories."
 msgid "inserting_methods_not_using_categories_error"
-msgstr ""
+msgstr "You can not select 'Follow categories order' inserting method as this meeting configuration does not use categories."
 
 #. Default: "You can not select 'Follow to discuss order' inserting method as the field 'To discuss ?' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
 msgid "inserting_methods_not_using_to_discuss_error"
-msgstr ""
+msgstr "You can not select 'Follow to discuss order' inserting method as the field 'To discuss ?' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
 
 #. Default: "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
 msgid "inserting_methods_on_add_item_descr"
-msgstr ""
+msgstr "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
 
 #. Default: "Public meeting"
 msgid "ip_public"
@@ -2605,7 +2605,7 @@ msgstr "Assembly for the item"
 
 #. Default: "If you don't fill this field, meeting assembly absents will be used for this item"
 msgid "item_assembly_absents_descr"
-msgstr ""
+msgstr "If you don't fill this field, meeting assembly absents will be used for this item"
 
 #. Default: "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use excused and absent fields"
 msgid "item_assembly_descr"
@@ -2613,7 +2613,7 @@ msgstr "If you don't fill this field, meeting assembly will be used for this ite
 
 #. Default: "If you don't fill this field, meeting assembly excused will be used for this item"
 msgid "item_assembly_excused_descr"
-msgstr ""
+msgstr "If you don't fill this field, meeting assembly excused will be used for this item"
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations."
 msgid "item_budget_infos_states_descr"
@@ -2738,7 +2738,7 @@ msgstr "${meetingConfigTitle} - ${itemTitle} - The item is now in state '${itemS
 
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
-msgstr ""
+msgstr "Item templates will be available to users creating new items in the application."
 
 #. Default: "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
 msgid "item_topic_states_descr"
@@ -3365,11 +3365,11 @@ msgstr "Follow categories order"
 
 #. Default: "Follow other meeting configs to clone to (items to be send to another meeting config then items not to be send to another meeting config)"
 msgid "on_other_mc_to_clone_to"
-msgstr ""
+msgstr "Follow other meeting configs to clone to (items to be send to another meeting config then items not to be send to another meeting config)"
 
 #. Default: "Follow the privacy (public then secret)"
 msgid "on_privacy"
-msgstr ""
+msgstr "Follow the privacy (public then secret)"
 
 #. Default: "Follow proposing groups order"
 msgid "on_proposing_groups"
@@ -3377,7 +3377,7 @@ msgstr "Follow proposing groups order"
 
 #. Default: "Follow to discuss (to discuss then not to discuss)"
 msgid "on_to_discuss"
-msgstr ""
+msgstr "Follow to discuss (to discuss then not to discuss)"
 
 #. Default: "OpenOffice configuration"
 msgid "oo_config"
@@ -3706,7 +3706,7 @@ msgstr "Remove this information"
 
 #. Default: "A category must be selected on this item so that it can be proposed"
 msgid "required_category_ko"
-msgstr ""
+msgstr "A category must be selected on this item so that it can be proposed"
 
 #. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"
@@ -3879,6 +3879,10 @@ msgstr "available meetings"
 #. Default: "corrected items"
 msgid "searchcorrecteditems"
 msgstr "corrected items"
+
+#. Default: "items of my groups"
+msgid "searchitemsofmygroups"
+msgstr "items of my groups"
 
 #. Default: "items to advice with delay"
 msgid "searchitemstoadvicewithdelay"
@@ -4140,11 +4144,11 @@ msgstr "When the user will click on the corresponding icon or button for every t
 
 #. Default: "Hide all"
 msgid "tree_hide_all"
-msgstr ""
+msgstr "Hide all"
 
 #. Default: "Show all"
 msgid "tree_show_all"
-msgstr ""
+msgstr "Show all"
 
 #. Default: "An annex type is required."
 msgid "type_required"
@@ -4369,3 +4373,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+
