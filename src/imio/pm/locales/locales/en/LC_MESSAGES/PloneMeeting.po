@@ -75,6 +75,10 @@ msgstr "Apply"
 msgid "Apply until item number"
 msgstr "Apply until item number"
 
+#. Default: "Asked on ${advice_asked_on_date}"
+msgid "Asked on ${advice_asked_on_date}"
+msgstr ""
+
 #. Default: "Back to the item"
 msgid "Back to the item"
 msgstr "Back to the item"
@@ -178,6 +182,10 @@ msgstr "Enter the item signatures to be applied.  The value displayed by default
 #. Default: "Enter the official comment."
 msgid "Enter the official comment."
 msgstr "Enter the official comment."
+
+#. Default: "Given on ${advice_given_on_date}"
+msgid "Given on ${advice_given_on_date}"
+msgstr ""
 
 #. Default: "Group"
 msgid "Group"
@@ -1320,10 +1328,6 @@ msgstr "This advice is currently under redaction by the advisers of the group an
 #. Default: "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgid "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgstr "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
-
-#. Default: "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
-msgid "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
-msgstr "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
 
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"

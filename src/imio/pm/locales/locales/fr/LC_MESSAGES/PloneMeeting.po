@@ -75,6 +75,10 @@ msgstr "Appliquer"
 msgid "Apply until item number"
 msgstr "Appliquer jusqu'au point numéro"
 
+#. Default: "Asked on ${advice_asked_on_date}"
+msgid "Asked on ${advice_asked_on_date}"
+msgstr "Demandé le ${advice_asked_on_date}"
+
 #. Default: "Back to the item"
 msgid "Back to the item"
 msgstr "Retourner sur le point"
@@ -178,6 +182,10 @@ msgstr "Encodez les signatures qui devront être appliquées.  La valeur affich�
 #. Default: "Enter the official comment."
 msgid "Enter the official comment."
 msgstr "Encodez ici votre avis officiel."
+
+#. Default: "Given on ${advice_given_on_date}"
+msgid "Given on ${advice_given_on_date}"
+msgstr "Rendu le ${advice_given_on_date}"
 
 #. Default: "Group"
 msgid "Group"
@@ -1320,10 +1328,6 @@ msgstr "Cet avis est en cours de rédaction par les donneurs d'avis du groupe au
 #. Default: "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgid "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgstr "Cet avis ne doit plus être 'caché pendant la rédaction' avant le ${limit_date} ou il sera considéré 'Non rendu'."
-
-#. Default: "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
-msgid "This advice was asked on ${advice_asked_on_date} and was given on ${advice_given_on_date}."
-msgstr "Avis demandé le ${advice_asked_on_date} et rendu le ${advice_given_on_date}."
 
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"
