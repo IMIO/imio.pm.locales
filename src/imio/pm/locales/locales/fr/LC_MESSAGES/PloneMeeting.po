@@ -123,6 +123,10 @@ msgstr "Copier points"
 msgid "Create an item from an item template"
 msgstr "Créer un point depuis un modèle"
 
+#. Default: "Days to give advice : ${daysToGiveAdvice} days"
+msgid "Days to give advice"
+msgstr "Nombre de jours ouvrables pour rendre l'avis : ${daysToGiveAdvice} jours"
+
 #. Default: "Delete advice"
 msgid "Delete advice"
 msgstr "Supprimer l'avis"
@@ -4375,4 +4379,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
