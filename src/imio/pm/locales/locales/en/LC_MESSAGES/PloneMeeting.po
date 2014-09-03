@@ -794,6 +794,10 @@ msgstr "Items count"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Columns to display for items within meetings"
 
+#. Default: "Fields of the items to show/hide when using the glasses icon action"
+msgid "PloneMeeting_label_itemsListVisibleFields"
+msgstr ""
+
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
 msgstr "Number of the last meeting in this config"
@@ -2763,6 +2767,10 @@ msgstr "item(s)"
 #. Default: "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
 msgid "items_list_visible_columns_descr"
 msgstr "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
+
+#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'glasses' icon action.  This will affect every listing of items, so classic listings and the meetings view."
+msgid "items_list_visible_fields_descr"
+msgstr ""
 
 #. Default: "Choose an element in the list"
 msgid "label_choose_element_in_list"

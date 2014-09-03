@@ -794,6 +794,10 @@ msgstr "Nombre de points utilisant cette catégorie"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Colonnes à afficher pour les points d'une séance"
 
+#. Default: "Fields of the items to show/hide when using the glasses icon action"
+msgid "PloneMeeting_label_itemsListVisibleFields"
+msgstr "Champs des points à Afficher/masquer lors de l'utilisation de l'icône 'Lunettes'"
+
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
 msgstr "Numéro de la dernière séance de cette configuration"
@@ -2763,6 +2767,10 @@ msgstr "point(s)"
 #. Default: "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
 msgid "items_list_visible_columns_descr"
 msgstr "L'écran d'affichage d'une séance présente potentiellement plusieurs tableaux de points. Vous pouvez choisir ici quelles colonnes seront affichées ou non dans ces tableaux, sachant qu'un nombre fixé de colonnes sera toujours visible (la colonne 'objet du point', par exemple)."
+
+#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'glasses' icon action.  This will affect every listing of items, so classic listings and the meetings view."
+msgid "items_list_visible_fields_descr"
+msgstr "Sélectionnez les champs à masquer/afficher lorsque l'utilisateur cliquera sur l'icône 'Lunettes' se trouvant en haut à droite des écrans affichants des tableaux de points.  Ceci concerne les tableaux de points (mes points, tous les points, ...) ainsi que les tableaux de points affichés sur les séances (points disponibles, points présentés, ...)."
 
 #. Default: "Choose an element in the list"
 msgid "label_choose_element_in_list"

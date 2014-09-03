@@ -799,6 +799,10 @@ msgstr "Contar temas"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Las columnas a mostrar en los temas dentro de las reuniones"
 
+#. Default: "Fields of the items to show/hide when using the glasses icon action"
+msgid "PloneMeeting_label_itemsListVisibleFields"
+msgstr ""
+
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
 msgstr "Número de la ultima reunión en esta configuración"
@@ -2777,6 +2781,10 @@ msgstr "Tema(s)"
 #. Default: "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
 msgid "items_list_visible_columns_descr"
 msgstr "La página que muestra una reunión potencialmente contiene varias tablas llenas de temas. Aquí puede elegir las columnas que se mostrarán o no en las tablas. Tenga en cuenta que un número fijo de columnas se mostrará siempre (como la columna que contiene el título del tema)."
+
+#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'glasses' icon action.  This will affect every listing of items, so classic listings and the meetings view."
+msgid "items_list_visible_fields_descr"
+msgstr ""
 
 #. Default: "Choose an element in the list"
 msgid "label_choose_element_in_list"
