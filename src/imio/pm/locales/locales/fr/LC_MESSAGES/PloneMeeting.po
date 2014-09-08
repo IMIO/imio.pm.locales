@@ -1087,6 +1087,10 @@ msgstr "Etat des points pour la recherche"
 msgid "PloneMeeting_label_selectableCopyGroups"
 msgstr "Groupes qui pourront être mis en copie"
 
+#. Default: "Send to authority?"
+msgid "PloneMeeting_label_sendToAuthority"
+msgstr "A transmettre à la tutelle?"
+
 #. Default: "Short name for the meeting configuration"
 msgid "PloneMeeting_label_shortName"
 msgstr "Nom court pour la configuration de séance"
@@ -3930,6 +3934,10 @@ msgstr "Voir tout..."
 #. Default: "Select groups that the creator of an item will be able to choose"
 msgid "selectable_copy_groups_descr"
 msgstr "Sélectionnez les groupes que le créateur d'un point pourra sélectionner pour le mettre en copie."
+
+#. Default: "Check the box if item needs to be send to authority, if so, a line will be automatically printed in the item deliberation document."
+msgid "send_to_authority_descr"
+msgstr "Cochez la case si ce point doit être soumis à l'autorité de tutelle."
 
 #. Default: "Unable to send this item to the ${meetingConfigTitle} meetingConfig because the user to create the item to does not have a personal folder in this meetingConfig.  If necessary, the concerned user can connect for this folder to be created automatically."
 msgid "sendto_inexistent_destfolder_error"

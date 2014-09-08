@@ -1087,6 +1087,10 @@ msgstr "Search item states"
 msgid "PloneMeeting_label_selectableCopyGroups"
 msgstr "Groups that can be in copy for an item"
 
+#. Default: "Send to authority?"
+msgid "PloneMeeting_label_sendToAuthority"
+msgstr ""
+
 #. Default: "Short name for the meeting configuration"
 msgid "PloneMeeting_label_shortName"
 msgstr "Short name for the meeting configuration"
@@ -3932,6 +3936,10 @@ msgstr "See everything..."
 #. Default: "Select groups that the creator of an item will be able to choose"
 msgid "selectable_copy_groups_descr"
 msgstr "Select groups that the creator of an item will be able to choose"
+
+#. Default: "Check the box if item needs to be send to authority, if so, a line will be automatically printed in the item deliberation document."
+msgid "send_to_authority_descr"
+msgstr ""
 
 #. Default: "Unable to send this item to the ${meetingConfigTitle} meetingConfig because the user to create the item to does not have a personal folder in this meetingConfig.  If necessary, the concerned user can connect for this folder to be created automatically."
 msgid "sendto_inexistent_destfolder_error"
