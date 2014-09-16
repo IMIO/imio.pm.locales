@@ -77,7 +77,7 @@ msgstr "Apply until item number"
 
 #. Default: "Asked on ${advice_asked_on_date}"
 msgid "Asked on ${advice_asked_on_date}"
-msgstr ""
+msgstr "Asked on ${advice_asked_on_date}"
 
 #. Default: "Back to the item"
 msgid "Back to the item"
@@ -125,7 +125,7 @@ msgstr "Create an item from an item template"
 
 #. Default: "Days to give advice : ${daysToGiveAdvice} days"
 msgid "Days to give advice"
-msgstr ""
+msgstr "Days to give advice : ${daysToGiveAdvice} days"
 
 #. Default: "Delete advice"
 msgid "Delete advice"
@@ -189,7 +189,7 @@ msgstr "Enter the official comment."
 
 #. Default: "Given on ${advice_given_on_date}"
 msgid "Given on ${advice_given_on_date}"
-msgstr ""
+msgstr "Given on ${advice_given_on_date}"
 
 #. Default: "Group"
 msgid "Group"
@@ -322,10 +322,6 @@ msgstr "Number of items to display"
 #. Default: "Once viewable, the adviser will have ${advice_delay} days to give the advice."
 msgid "Once viewable, the adviser will have ${advice_delay} days to give the advice."
 msgstr "Once viewable, the adviser will have ${advice_delay} days to give the advice."
-
-#. Default: "Paste item(s)"
-msgid "Paste PloneMeeting"
-msgstr "Paste"
 
 #. Default: "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgid "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
@@ -796,7 +792,7 @@ msgstr "Columns to display for items within meetings"
 
 #. Default: "Fields of the items to show/hide when using the glasses icon action"
 msgid "PloneMeeting_label_itemsListVisibleFields"
-msgstr ""
+msgstr "Fields of the items to show/hide when using the glasses icon action"
 
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
@@ -1089,7 +1085,7 @@ msgstr "Groups that can be in copy for an item"
 
 #. Default: "Send to authority?"
 msgid "PloneMeeting_label_sendToAuthority"
-msgstr ""
+msgstr "Send to authority?"
 
 #. Default: "Short name for the meeting configuration"
 msgid "PloneMeeting_label_shortName"
@@ -2443,10 +2439,6 @@ msgstr "See last, uncolored version"
 msgid "holidays_descr"
 msgstr "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 
-#. Default: "All"
-msgid "hs_all"
-msgstr "All"
-
 #. Default: "Thank you for your visit."
 msgid "hs_logged_out_body"
 msgstr "Thank you for your visit."
@@ -2774,7 +2766,7 @@ msgstr "The page that displays a meeting contains potentially several tables fil
 
 #. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'glasses' icon action.  This will affect every listing of items, so classic listings and the meetings view."
 msgid "items_list_visible_fields_descr"
-msgstr ""
+msgstr "Select here fields of the item that will be show/hidden when a user will click on the 'glasses' icon action.  This will affect every listing of items, so classic listings and the meetings view."
 
 #. Default: "Choose an element in the list"
 msgid "label_choose_element_in_list"
@@ -3888,9 +3880,9 @@ msgstr "all items"
 msgid "searchallitemsincopy"
 msgstr "items in copy"
 
-#. Default: "items to advice"
+#. Default: "all items to advice"
 msgid "searchallitemstoadvice"
-msgstr "items to advice"
+msgstr "all items to advice"
 
 #. Default: "available meetings"
 msgid "searchallmeetings"
@@ -3911,6 +3903,10 @@ msgstr "items to advice with delay"
 #. Default: "advice not given (delay exceeded)"
 msgid "searchitemstoadvicewithdexceededelay"
 msgstr "advice not given (delay exceeded)"
+
+#. Default: "items to advice without delay"
+msgid "searchitemstoadvicewithoutdelay"
+msgstr "items to advice without delay"
 
 #. Default: "items to correct"
 msgid "searchitemstocorrect"
@@ -3939,7 +3935,7 @@ msgstr "Select groups that the creator of an item will be able to choose"
 
 #. Default: "Check the box if item needs to be send to authority, if so, a line will be automatically printed in the item deliberation document."
 msgid "send_to_authority_descr"
-msgstr ""
+msgstr "Check the box if item needs to be send to authority, if so, a line will be automatically printed in the item deliberation document."
 
 #. Default: "Unable to send this item to the ${meetingConfigTitle} meetingConfig because the user to create the item to does not have a personal folder in this meetingConfig.  If necessary, the concerned user can connect for this folder to be created automatically."
 msgid "sendto_inexistent_destfolder_error"
@@ -4397,4 +4393,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

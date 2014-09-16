@@ -327,10 +327,6 @@ msgstr "Número de elementos a mostrar"
 msgid "Once viewable, the adviser will have ${advice_delay} days to give the advice."
 msgstr "Una vez visible, el asesor tendrá ${advice_delay} día(s) para dar el consejo."
 
-#. Default: "Paste item(s)"
-msgid "Paste PloneMeeting"
-msgstr "Pegar elemento(s)"
-
 #. Default: "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgid "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgstr "Por favor, especificar una configuración predeterminada para reuniones configuraciones en activas de reuniones existentes para ser redirigido a la misma."
@@ -2453,10 +2449,6 @@ msgstr "Ver ultima, versión descolorada"
 msgid "holidays_descr"
 msgstr ""
 
-#. Default: "All"
-msgid "hs_all"
-msgstr "Todos"
-
 #. Default: "Thank you for your visit."
 msgid "hs_logged_out_body"
 msgstr "Gracias por su visita."
@@ -3908,7 +3900,8 @@ msgstr "todos los temas"
 msgid "searchallitemsincopy"
 msgstr "temas en copia"
 
-#. Default: "items to advice"
+#. Default: "all items to advice"
+#, fuzzy
 msgid "searchallitemstoadvice"
 msgstr "temas para aconsejar"
 
@@ -3932,6 +3925,10 @@ msgstr "temas para aconsejar con retraso"
 #, fuzzy
 msgid "searchitemstoadvicewithdexceededelay"
 msgstr "temas para aconsejar con retraso superado"
+
+#. Default: "items to advice without delay"
+msgid "searchitemstoadvicewithoutdelay"
+msgstr ""
 
 #. Default: "items to correct"
 msgid "searchitemstocorrect"

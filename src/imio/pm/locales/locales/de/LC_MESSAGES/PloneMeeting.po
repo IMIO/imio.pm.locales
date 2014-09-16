@@ -323,11 +323,6 @@ msgstr "Angezeigte Anzahl Treffer"
 msgid "Once viewable, the adviser will have ${advice_delay} days to give the advice."
 msgstr ""
 
-#. Default: "Paste item(s)"
-#, fuzzy
-msgid "Paste PloneMeeting"
-msgstr "Einfügen"
-
 #. Default: "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgid "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgstr ""
@@ -679,7 +674,6 @@ msgid "PloneMeeting_label_itemActionsInterface"
 msgstr "Interface das es erlaubt einen speziellen Zope 3-Adapter zu verwenden um die Aktionen für Statusübergänge im TOP-Arbeitsablauf anzupassen."
 
 #. Default: "Item states allowing to modify or delete advices"
-#, fuzzy
 msgid "PloneMeeting_label_itemAdviceEditStates"
 msgstr "TOP Stati welche zulassen Kommentare zu ändern oder zu löschen"
 
@@ -2461,10 +2455,6 @@ msgstr ""
 msgid "holidays_descr"
 msgstr ""
 
-#. Default: "All"
-msgid "hs_all"
-msgstr ""
-
 #. Default: "Thank you for your visit."
 msgid "hs_logged_out_body"
 msgstr "Vielen Dank für Ihren Besuch"
@@ -3923,7 +3913,8 @@ msgstr "Alle TOP"
 msgid "searchallitemsincopy"
 msgstr "TOP in Kopie"
 
-#. Default: "items to advice"
+#. Default: "all items to advice"
+#, fuzzy
 msgid "searchallitemstoadvice"
 msgstr "TOP zu Kommentieren"
 
@@ -3945,6 +3936,10 @@ msgstr ""
 
 #. Default: "advice not given (delay exceeded)"
 msgid "searchitemstoadvicewithdexceededelay"
+msgstr ""
+
+#. Default: "items to advice without delay"
+msgid "searchitemstoadvicewithoutdelay"
 msgstr ""
 
 #. Default: "items to correct"

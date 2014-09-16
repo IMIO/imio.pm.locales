@@ -324,10 +324,6 @@ msgstr "Aantal agendapunten dat getoond zal worden"
 msgid "Once viewable, the adviser will have ${advice_delay} days to give the advice."
 msgstr ""
 
-#. Default: "Paste item(s)"
-msgid "Paste PloneMeeting"
-msgstr "Plak plonemeeting"
-
 #. Default: "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgid "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgstr ""
@@ -2449,10 +2445,6 @@ msgstr ""
 msgid "holidays_descr"
 msgstr ""
 
-#. Default: "All"
-msgid "hs_all"
-msgstr "Alle"
-
 #. Default: "Thank you for your visit."
 msgid "hs_logged_out_body"
 msgstr ""
@@ -3901,7 +3893,7 @@ msgstr "all items"
 msgid "searchallitemsincopy"
 msgstr ""
 
-#. Default: "items to advice"
+#. Default: "all items to advice"
 msgid "searchallitemstoadvice"
 msgstr ""
 
@@ -3923,6 +3915,10 @@ msgstr ""
 
 #. Default: "advice not given (delay exceeded)"
 msgid "searchitemstoadvicewithdexceededelay"
+msgstr ""
+
+#. Default: "items to advice without delay"
+msgid "searchitemstoadvicewithoutdelay"
 msgstr ""
 
 #. Default: "items to correct"
