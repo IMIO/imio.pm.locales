@@ -2750,7 +2750,7 @@ msgstr "Vous pouvez accéder au point ici: '${objectUrl}'."
 # This way we can have specific mail message for each different transition
 #. Default: "${meetingConfigTitle} - ${itemTitle} - The item is now in state '${itemState}'."
 msgid "item_state_changed_default_mail_subject"
-msgstr "${meetingConfigTitle} - ${itemTitle} - Le point est maintenant '${itemState}'."
+msgstr "${meetingConfigTitle} - ${itemTitle} - Le point est maintenant dans l'état '${itemState}'."
 
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
