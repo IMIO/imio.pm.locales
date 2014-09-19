@@ -51,6 +51,10 @@ msgstr "Advice observations"
 msgid "Advice official comment"
 msgstr "Advice official comment"
 
+#. Default: "Advice reference"
+msgid "Advice reference"
+msgstr "Advice reference"
+
 #. Default: "Advice type"
 msgid "Advice type"
 msgstr "Advice type"
@@ -158,6 +162,10 @@ msgstr "Edit PloneMeeting Portlet"
 #. Default: "Edit Todo Portlet"
 msgid "Edit Todo Portlet"
 msgstr "Edit Todo Portlet"
+
+#. Default: "Enter a reference for this advice if necessary."
+msgid "Enter a reference for this advice if necessary."
+msgstr "Enter a reference for this advice if necessary."
 
 #. Default: "Enter optionnal observations if necessary."
 msgid "Enter optionnal observations if necessary."
@@ -1841,7 +1849,7 @@ msgstr "Evaluation asked again"
 
 #. Default: "Evaluation not required"
 msgid "completeness_evaluation_not_required"
-msgstr ""
+msgstr "Evaluation not required"
 
 #. Default: "Incomplete"
 msgid "completeness_incomplete"
@@ -4397,4 +4405,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-
