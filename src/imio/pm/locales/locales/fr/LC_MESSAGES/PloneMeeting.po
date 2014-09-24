@@ -1079,6 +1079,10 @@ msgstr "Fonction des remplaçants de cet utilisateur"
 msgid "PloneMeeting_label_replacementDuty2"
 msgstr "Fonction des remplaçants de cet utilisateur dans la seconde langue"
 
+#. Default: "Restrict access to secret items?"
+msgid "PloneMeeting_label_restrictAccessToSecretItems"
+msgstr "Restreindre l'accès aux points à huis clos?"
+
 #. Default: "'Restrict users' mode"
 msgid "PloneMeeting_label_restrictUsers"
 msgstr "Mode 'Utilisateurs restreints'"
@@ -3729,6 +3733,10 @@ msgstr "Supprimer cette information"
 #. Default: "A category must be selected on this item so that it can be proposed"
 msgid "required_category_ko"
 msgstr "Une catégorie doit être sélectionnée sur ce point afin qu'il puisse être proposé"
+
+#. Default: "Check the box if access to secret items must be restricted.  This will let only users for which an explicit access to the item has been given, access the item.  It will be the case so for members of the proposing groups, power users (Managers, MeetingManagers, power observers), copy groups and advisers.  Only activate this if necessary, it could be the case if you have a state where everything is accessible by everyone (like a 'published' state for items) but where you want 'secret' items not to be accessible by everyone."
+msgid "restrict_access_to_secret_items_descr"
+msgstr "Si vous cochez cette case, l'accès aux points 'à huis clos' sera restreint pour certains utilisateurs.  Ceci permet de spécifier que les points à huis clos ne doivent être accessible qu'aux personnes ayant reçu un accès explicite au point : les super utilisteurs (administrateurs, gestionnaires de séances, super observateurs), les membres du groupe proposant, les groupes en copies et les émetteurs d'avis (dont l'avis est demandé sur le point).  Par défaut, cette fonctionnalité est désactivée, à n'activer que si nécessaire, par exemple dans le cas où vous avez un état sur le point qui est accessible à tous (par exemple 'publié') mais que vous souhaitez malgré tout que les points à huis clos ne soient accessible que de manière explicite."
 
 #. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"
