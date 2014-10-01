@@ -66,6 +66,18 @@ msgstr ""
 msgid "Meeting config to clone to Trigger workflow transitions until"
 msgstr ""
 
+#. Default: "TAL expression"
+msgid "On transition field transform TAL expression"
+msgstr ""
+
+#. Default: "Field name"
+msgid "On transition field transform field name"
+msgstr ""
+
+#. Default: "Transition"
+msgid "On transition field transform transition"
+msgstr ""
+
 #. Default: "Reverse?"
 msgid "Reverse inserting method?"
 msgstr ""
@@ -114,8 +126,20 @@ msgstr ""
 msgid "Sub type title"
 msgstr ""
 
+#. Default: "The TAL expression.  Element 'here' represent the item."
+msgid "The TAL expression.  Element 'here' represent the item."
+msgstr ""
+
+#. Default: "The item field that will be transformed."
+msgid "The item field that will be transformed."
+msgstr ""
+
 #. Default: "The meeting config the item of this meeting config will be sendable to."
 msgid "The meeting config the item of this meeting config will be sendable to."
+msgstr ""
+
+#. Default: "The transition that will trigger the field transform."
+msgid "The transition that will trigger the field transform."
 msgstr ""
 
 #. Default: "While sent, the new item is in the workflow initial state, some transitions can be automatically triggered for the new item, select until wich transition it will be done (selected transition will also be triggered).  This relies on the 'Transitions for presenting an item' you defined in the 'Workflows' tab of the meeting configuration the item will be sent to."

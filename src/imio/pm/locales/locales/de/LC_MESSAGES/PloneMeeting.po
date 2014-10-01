@@ -951,6 +951,10 @@ msgstr "E-Mail für Benachrichtigungen dieser Anwendung"
 msgid "PloneMeeting_label_notifyUrl"
 msgstr "URL zum Benachrichtigen dieser Anwendung"
 
+#. Default: "Transforms to apply to rich text fields of an item after a workflow transition"
+msgid "PloneMeeting_label_onTransitionFieldTransforms"
+msgstr ""
+
 #. Default: "Open annexes in separate windows"
 msgid "PloneMeeting_label_openAnnexesInSeparateWindows"
 msgstr "Anlage in neuem Fenster öffnen"
@@ -3436,6 +3440,10 @@ msgstr "Der vorschlagenden Gruppensortierung folgen"
 
 #. Default: "Follow to discuss (to discuss then not to discuss)"
 msgid "on_to_discuss"
+msgstr ""
+
+#. Default: "When a workflow transition occur, you can define for every rich text field of an item, a transform to apply.  This is managed using a TAL expression."
+msgid "on_transition_field_transforms_descr"
 msgstr ""
 
 #. Default: "OpenOffice configuration"
