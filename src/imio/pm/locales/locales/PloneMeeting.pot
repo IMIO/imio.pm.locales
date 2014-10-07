@@ -4442,3 +4442,11 @@ msgstr ""
 #. Default: "When a workflow transition occur, you can define for every rich text field of an item, a transform to apply.  This is managed using a TAL expression."
 msgid "on_transition_field_transforms_descr"
 msgstr ""
+
+#. Default: "Transitions to trigger on items of a meeting when a transition is triggered on that meeting"
+msgid "PloneMeeting_label_onMeetingTransitionItemTransitionToTrigger"
+msgstr ""
+
+#. Default: "When a transition will be triggered on a meeting, you can define which transitions to trigger on every items of the meeting.  This will make items 'follow' the meeting state.  You can define several transitions to trigger on items for the same meeting transitions, these transitions will be triggered sequentially on every items of the meeting."
+msgid "on_meeting_transition_item_transition_to_trigger_descr"
+msgstr ""

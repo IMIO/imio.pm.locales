@@ -951,6 +951,10 @@ msgstr "Email"
 msgid "PloneMeeting_label_notifyUrl"
 msgstr "URL"
 
+#. Default: "Transitions to trigger on items of a meeting when a transition is triggered on that meeting"
+msgid "PloneMeeting_label_onMeetingTransitionItemTransitionToTrigger"
+msgstr "Transitions à déclencher sur les points d'une séance lorsqu'une transition est déclenchée sur cette séance"
+
 #. Default: "Transforms to apply to rich text fields of an item after a workflow transition"
 msgid "PloneMeeting_label_onTransitionFieldTransforms"
 msgstr "Adaptations à appliquer aux zones de texte riche d'un point lors d'une transition de workflow"
@@ -3393,6 +3397,10 @@ msgstr "Suivre l'ordre de tous les groupes"
 #. Default: "Follow categories order"
 msgid "on_categories"
 msgstr "Suivre l'ordre des catégories"
+
+#. Default: "When a transition will be triggered on a meeting, you can define which transitions to trigger on every items of the meeting.  This will make items 'follow' the meeting state.  You can define several transitions to trigger on items for the same meeting transitions, these transitions will be triggered sequentially on every items of the meeting."
+msgid "on_meeting_transition_item_transition_to_trigger_descr"
+msgstr "Lorsqu'une transition sera déclenchée sur une séance, vous pouvez définir quelle(s) transition(s) devront être déclenchées automatiquement sur tous les points de la séance.  Ceci permet de faire en sorte que les points 'suivent' l'état de la séance.  Vous pouvez définir plusieurs transitions à déclencher sur les points pour la même transition déclenchée sur une séance.  Ces transitions seront effectuées séquentiellement sur les points de la séance."
 
 #. Default: "Follow other meeting configs to clone to (items to be send to another meeting config then items not to be send to another meeting config)"
 msgid "on_other_mc_to_clone_to"

@@ -951,6 +951,10 @@ msgstr "Email"
 msgid "PloneMeeting_label_notifyUrl"
 msgstr "URL"
 
+#. Default: "Transitions to trigger on items of a meeting when a transition is triggered on that meeting"
+msgid "PloneMeeting_label_onMeetingTransitionItemTransitionToTrigger"
+msgstr ""
+
 #. Default: "Transforms to apply to rich text fields of an item after a workflow transition"
 msgid "PloneMeeting_label_onTransitionFieldTransforms"
 msgstr ""
@@ -3394,6 +3398,10 @@ msgstr "Follow all groups order"
 #. Default: "Follow categories order"
 msgid "on_categories"
 msgstr "Follow categories order"
+
+#. Default: "When a transition will be triggered on a meeting, you can define which transitions to trigger on every items of the meeting.  This will make items 'follow' the meeting state.  You can define several transitions to trigger on items for the same meeting transitions, these transitions will be triggered sequentially on every items of the meeting."
+msgid "on_meeting_transition_item_transition_to_trigger_descr"
+msgstr ""
 
 #. Default: "Follow other meeting configs to clone to (items to be send to another meeting config then items not to be send to another meeting config)"
 msgid "on_other_mc_to_clone_to"
