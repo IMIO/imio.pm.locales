@@ -3663,7 +3663,7 @@ msgstr "Pré-validateurs"
 
 #. Default: "Presents all selected items at once."
 msgid "present_several_items"
-msgstr "Présente tous les points sélectionnés d'un coup."
+msgstr "Présenter tous les points sélectionnés."
 
 #. Default: "This person is present in the meeting since item number:"
 msgid "present_since"
@@ -3741,6 +3741,10 @@ msgstr "Choisissez ici le type d'annexe auquel ce type de fichier est associé."
 #. Default: "Remove this information"
 msgid "remove_info"
 msgstr "Supprimer cette information"
+
+#. Default: "remove all selected items at once."
+msgid "remove_several_items"
+msgstr "Retirer tous les points sélectionnés."
 
 #. Default: "A category must be selected on this item so that it can be proposed"
 msgid "required_category_ko"
@@ -4031,6 +4035,10 @@ msgstr "Vous ne pouvez pas supprimer un sous-type de fichier qui a déjà été 
 #. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
 msgid "sub_types_descr"
 msgstr "Définissez ici des sous-types de fichier.  Ces sous-types de fichiers pourront être utilisés comme les types de fichiers, mais lorsqu'une annexe sera ajoutée avec ce sous-type, elle utilisera la même icône que le type de fichier principal.  Il est notamment possible de définir pour chacun de ces sous-types un autre titre (qui apparaîtra dans la liste déroulante de choix du type de fichier sur le formulaire d'ajout d'une annexe) et un titre prédéfini."
+
+#. Default: "Are you sure to want to remove every selected items from the meeting?"
+msgid "sure_to_remove_selected_items"
+msgstr "Êtes-vous sûr de vouloir retirer tous les points sélectionnés de la séance?"
 
 #. Default: "Switch mode (secret / not secret)"
 msgid "switch_votes"

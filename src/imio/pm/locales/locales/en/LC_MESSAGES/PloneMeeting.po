@@ -3744,6 +3744,10 @@ msgstr "Define here for wich kind of annex this type of annex applies."
 msgid "remove_info"
 msgstr "Remove this information"
 
+#. Default: "remove all selected items at once."
+msgid "remove_several_items"
+msgstr ""
+
 #. Default: "A category must be selected on this item so that it can be proposed"
 msgid "required_category_ko"
 msgstr "A category must be selected on this item so that it can be proposed"
@@ -4033,6 +4037,10 @@ msgstr "You can not remove a sub type that has already been used in the applicat
 #. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
 msgid "sub_types_descr"
 msgstr "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
+
+#. Default: "Are you sure to want to remove every selected items from the meeting?"
+msgid "sure_to_remove_selected_items"
+msgstr ""
 
 #. Default: "Switch mode (secret / not secret)"
 msgid "switch_votes"
@@ -4429,3 +4437,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+

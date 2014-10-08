@@ -3763,6 +3763,10 @@ msgstr "Define aquí por qué tipo de anexar es este tipo de anexo aplica."
 msgid "remove_info"
 msgstr "Remover esta información"
 
+#. Default: "remove all selected items at once."
+msgid "remove_several_items"
+msgstr ""
+
 #. Default: "A category must be selected on this item so that it can be proposed"
 msgid "required_category_ko"
 msgstr ""
@@ -4054,6 +4058,10 @@ msgstr ""
 
 #. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
 msgid "sub_types_descr"
+msgstr ""
+
+#. Default: "Are you sure to want to remove every selected items from the meeting?"
+msgid "sure_to_remove_selected_items"
 msgstr ""
 
 #. Default: "Switch mode (secret / not secret)"
