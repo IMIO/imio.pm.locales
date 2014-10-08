@@ -953,11 +953,11 @@ msgstr "URL"
 
 #. Default: "Transitions to trigger on items of a meeting when a transition is triggered on that meeting"
 msgid "PloneMeeting_label_onMeetingTransitionItemTransitionToTrigger"
-msgstr ""
+msgstr "Transitions to trigger on items of a meeting when a transition is triggered on that meeting"
 
 #. Default: "Transforms to apply to rich text fields of an item after a workflow transition"
 msgid "PloneMeeting_label_onTransitionFieldTransforms"
-msgstr ""
+msgstr "Transforms to apply to rich text fields of an item after a workflow transition"
 
 #. Default: "Open annexes in separate windows"
 msgid "PloneMeeting_label_openAnnexesInSeparateWindows"
@@ -1089,7 +1089,7 @@ msgstr "Replacement duty in the second language"
 
 #. Default: "Restrict access to secret items?"
 msgid "PloneMeeting_label_restrictAccessToSecretItems"
-msgstr ""
+msgstr "Restrict access to secret items?"
 
 #. Default: "'Restrict users' mode"
 msgid "PloneMeeting_label_restrictUsers"
@@ -1489,10 +1489,6 @@ msgstr "Choose here the style for the icons that represent advices."
 #. Default: "This transition was automatically triggered by the application because the state of the item changed and this advice is no more accessible to its creators."
 msgid "advice_wf_changed_auto_by_app"
 msgstr "This transition was automatically triggered by the application because the state of the item changed and this advice is no more accessible to its creators."
-
-#. Default: "This transition was automatically triggered by the application."
-msgid "advice_wf_changed_triggered_by_application"
-msgstr "This transition was automatically triggered by the application."
 
 #. Default: "Advices and access"
 msgid "advices"
@@ -3401,7 +3397,7 @@ msgstr "Follow categories order"
 
 #. Default: "When a transition will be triggered on a meeting, you can define which transitions to trigger on every items of the meeting.  This will make items 'follow' the meeting state.  You can define several transitions to trigger on items for the same meeting transitions, these transitions will be triggered sequentially on every items of the meeting."
 msgid "on_meeting_transition_item_transition_to_trigger_descr"
-msgstr ""
+msgstr "When a transition will be triggered on a meeting, you can define which transitions to trigger on every items of the meeting.  This will make items 'follow' the meeting state.  You can define several transitions to trigger on items for the same meeting transitions, these transitions will be triggered sequentially on every items of the meeting."
 
 #. Default: "Follow other meeting configs to clone to (items to be send to another meeting config then items not to be send to another meeting config)"
 msgid "on_other_mc_to_clone_to"
@@ -3421,7 +3417,7 @@ msgstr "Follow to discuss (to discuss then not to discuss)"
 
 #. Default: "When a workflow transition occur, you can define for every rich text field of an item, a transform to apply.  This is managed using a TAL expression."
 msgid "on_transition_field_transforms_descr"
-msgstr ""
+msgstr "When a workflow transition occur, you can define for every rich text field of an item, a transform to apply.  This is managed using a TAL expression."
 
 #. Default: "OpenOffice configuration"
 msgid "oo_config"
@@ -3754,7 +3750,7 @@ msgstr "A category must be selected on this item so that it can be proposed"
 
 #. Default: "Check the box if access to secret items must be restricted.  This will let only users for which an explicit access to the item has been given, access the item.  It will be the case so for members of the proposing groups, power users (Managers, MeetingManagers, power observers), copy groups and advisers.  Only activate this if necessary, it could be the case if you have a state where everything is accessible by everyone (like a 'published' state for items) but where you want 'secret' items not to be accessible by everyone."
 msgid "restrict_access_to_secret_items_descr"
-msgstr ""
+msgstr "Check the box if access to secret items must be restricted.  This will let only users for which an explicit access to the item has been given, access the item.  It will be the case so for members of the proposing groups, power users (Managers, MeetingManagers, power observers), copy groups and advisers.  Only activate this if necessary, it could be the case if you have a state where everything is accessible by everyone (like a 'published' state for items) but where you want 'secret' items not to be accessible by everyone."
 
 #. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"
@@ -4406,6 +4402,10 @@ msgstr "If you modify this field, all given advices will be invalidated."
 msgid "warning_invalidate_advices_with_annex"
 msgstr "Warning: if you add an annex through this form or if you delete an annex, all advices given on this item will be invalidated."
 
+#. Default: "This transition was automatically triggered by the application."
+msgid "wf_transition_triggered_by_application"
+msgstr "This transition was automatically triggered by the application."
+
 #. Default: "Workflows"
 msgid "workflow"
 msgstr "Workflows"
@@ -4429,4 +4429,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

@@ -1496,10 +1496,6 @@ msgstr "Wählen Sie hier die Darstellung aus, die die Zustimmungsgrade anzeigen.
 msgid "advice_wf_changed_auto_by_app"
 msgstr ""
 
-#. Default: "This transition was automatically triggered by the application."
-msgid "advice_wf_changed_triggered_by_application"
-msgstr ""
-
 #. Default: "Advices and access"
 #, fuzzy
 msgid "advices"
@@ -4441,6 +4437,10 @@ msgstr ""
 #. Default: "Warning: if you add an annex through this form or if you delete an annex, all advices given on this item will be invalidated."
 msgid "warning_invalidate_advices_with_annex"
 msgstr "Achtung: wenn Sie einen Anhang hinzufügen oder löschen und wenn Sie diese Änderungen speichern, werden alle schon abgegebenen Kommentare ungültig."
+
+#. Default: "This transition was automatically triggered by the application."
+msgid "wf_transition_triggered_by_application"
+msgstr ""
 
 #. Default: "Workflows"
 msgid "workflow"

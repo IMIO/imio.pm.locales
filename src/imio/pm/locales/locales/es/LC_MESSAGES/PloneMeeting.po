@@ -1498,10 +1498,6 @@ msgstr "Elija aquí el estilo de los iconos que representan a los consejos."
 msgid "advice_wf_changed_auto_by_app"
 msgstr ""
 
-#. Default: "This transition was automatically triggered by the application."
-msgid "advice_wf_changed_triggered_by_application"
-msgstr ""
-
 #. Default: "Advices and access"
 msgid "advices"
 msgstr "Consejos y acceso"
@@ -4428,6 +4424,10 @@ msgstr "Si modifica este campo, todos los consejos dados serán invalidados."
 #. Default: "Warning: if you add an annex through this form or if you delete an annex, all advices given on this item will be invalidated."
 msgid "warning_invalidate_advices_with_annex"
 msgstr "Advertencia: si se agrega un anexo a través de este formulario o si elimina un anexo, todos los consejos dados en este tema será invalidados."
+
+#. Default: "This transition was automatically triggered by the application."
+msgid "wf_transition_triggered_by_application"
+msgstr ""
 
 #. Default: "Workflows"
 msgid "workflow"
