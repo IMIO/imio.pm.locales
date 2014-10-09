@@ -3508,7 +3508,7 @@ msgstr "Convertir les annexes pour la prévisualisation"
 
 #. Default: "Creation date"
 msgid "pm_creation_date"
-msgstr "Créé(e) le"
+msgstr "Créé le"
 
 # MeetingFile
 #. Default: "Creator"
@@ -3534,6 +3534,10 @@ msgstr "Aller au suivant."
 #. Default: "Go to the previous one."
 msgid "pm_goto_previous"
 msgstr "Aller au précédent."
+
+#. Default: "Modification date"
+msgid "pm_modification_date"
+msgstr "Modifié le"
 
 #. Default: "(Un-)select all"
 msgid "pm_select_deselect"
@@ -4435,4 +4439,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
