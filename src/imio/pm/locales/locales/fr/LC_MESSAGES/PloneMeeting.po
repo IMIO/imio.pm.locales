@@ -3950,10 +3950,6 @@ msgstr "avis à donner (sans délai)"
 msgid "searchitemstocorrect"
 msgstr "Points à corriger"
 
-#. Default: "Items to prevalidate"
-msgid "searchitemstoprevalidate"
-msgstr "Points à pré-valider"
-
 #. Default: "Items to validate"
 msgid "searchitemstovalidate"
 msgstr "Points à valider"
@@ -3961,6 +3957,10 @@ msgstr "Points à valider"
 #. Default: "my items"
 msgid "searchmyitems"
 msgstr "Mes points"
+
+#. Default: "Validable items"
+msgid "searchvalidableitems"
+msgstr "Points validables"
 
 # Portlet "meeting items"
 #. Default: "See everything..."
