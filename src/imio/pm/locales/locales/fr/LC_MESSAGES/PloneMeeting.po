@@ -4396,6 +4396,10 @@ msgstr "Seuls les créateurs de points peuvent supprimer des points"
 msgid "wa_pre_validation"
 msgstr "Pré-validation des points"
 
+#. Default: "Item pre-validation (reviewer may also prevalidate)"
+msgid "wa_pre_validation_keep_reviewer_permissions"
+msgstr "Pré-validation des points (un validateur peut aussi prévalider)"
+
 #. Default: "Return to proposing group for corrections"
 msgid "wa_return_to_proposing_group"
 msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance"
