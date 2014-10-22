@@ -324,6 +324,18 @@ msgstr ""
 msgid "PloneMeeting_label_itemIsSigned"
 msgstr ""
 
+#. Default: "Taken over by"
+msgid "PloneMeeting_label_takenOverBy"
+msgstr ""
+
+#. Default: "(Nobody)"
+msgid "(Nobody)"
+msgstr ""
+
+#. Default: "Taken over by ${fullname}"
+msgid "Taken over by ${fullname}"
+msgstr ""
+
 #. Default: "Copy groups"
 msgid "PloneMeeting_label_copyGroups"
 msgstr ""
@@ -939,6 +951,22 @@ msgstr ""
 
 #. Default: "The item is not signed. Click on the image to apply signature."
 msgid "item_is_signed_no_edit"
+msgstr ""
+
+#. Default: "The item is taken over."
+msgid "taken_over_by_yes"
+msgstr ""
+
+#. Default: "The item is not taken over."
+msgid "taken_over_by_no"
+msgstr ""
+
+#. Default: "The item is taken over. Click on the image to remove take over (you will be able to take it over afterward)."
+msgid "taken_over_by_yes_edit"
+msgstr ""
+
+#. Default: "The item is still not taken over. Click on the image to take it over."
+msgid "taken_over_by_no_edit"
 msgstr ""
 
 #. Default: "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
@@ -3174,6 +3202,10 @@ msgstr ""
 
 #. Default: "items of my groups"
 msgid "searchitemsofmygroups"
+msgstr ""
+
+#. Default: "items of that i took over"
+msgid "searchmyitemstakenover"
 msgstr ""
 
 #. Default: "all items"

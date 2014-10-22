@@ -15,6 +15,10 @@ msgstr ""
 "Domain: PloneMeeting\n"
 "X-is-fallback-for: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
 
+#. Default: "(Nobody)"
+msgid "(Nobody)"
+msgstr "(Personne)"
+
 #. Default: "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
 msgid "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
 msgstr "<span class='discreet'>Les commentaires ne sont accessibles qu'aux membres du groupe proposant de ce point.</span>"
@@ -1139,6 +1143,10 @@ msgstr "Date et heure effective de début"
 msgid "PloneMeeting_label_subTypes"
 msgstr "Sous-types de fichier"
 
+#. Default: "Taken over by"
+msgid "PloneMeeting_label_takenOverBy"
+msgstr "Pris en charge par"
+
 #. Default: "Role shipped with the external task module, allowing to create tasks"
 msgid "PloneMeeting_label_taskCreatorRole"
 msgstr "Rôle fourni par le module de gestion de tâches permettant de créer des tâches"
@@ -1320,6 +1328,10 @@ msgstr "Sélectionnez dans la liste le type d'élément que vous souhaitez crée
 #. Default: "state"
 msgid "State"
 msgstr "État"
+
+#. Default: "Taken over by ${fullname}"
+msgid "Taken over by ${fullname}"
+msgstr "Pris en charge par ${fullname}"
 
 #. Default: "The field here above is not used, check the 'users' tab."
 msgid "The field here above is not used, check the 'users' tab."
@@ -3958,6 +3970,10 @@ msgstr "Points à valider"
 msgid "searchmyitems"
 msgstr "Mes points"
 
+#. Default: "items of that i took over"
+msgid "searchmyitemstakenover"
+msgstr "Points pris en charge"
+
 #. Default: "Validable items"
 msgid "searchvalidableitems"
 msgstr "Points validables"
@@ -4051,6 +4067,22 @@ msgstr "Basculer vers l'autre mode (secret / non secret)"
 #. Default: "You can not switch votes mode (secret / not secret) because some votes are already encoded.  Remove every votes before being able to switch."
 msgid "switch_votes_why_cannot"
 msgstr "Vous ne pouvez pas basculer vers l'autre mode (secret / non secret) car des votes ont déjà été encodés sur ce point.  Enlevez tous les votes pour pouvoir basculer de mode."
+
+#. Default: "The item is not taken over."
+msgid "taken_over_by_no"
+msgstr "Le point n'est pas pris en charge."
+
+#. Default: "The item is still not taken over. Click on the image to take it over."
+msgid "taken_over_by_no_edit"
+msgstr "Le point n'est pas encore pris en charge, cliquez sur l'image pour le prendre en charge."
+
+#. Default: "The item is taken over."
+msgid "taken_over_by_yes"
+msgstr "Le point est pris en charge."
+
+#. Default: "The item is taken over. Click on the image to remove take over (you will be able to take it over afterward)."
+msgid "taken_over_by_yes_edit"
+msgstr "Le point est pris en charge, cliquez sur l'image pour retirer la prise en charge (vous pourrez alors le prendre en charge si nécessaire)."
 
 #. Default: "Choose, among this list of all roles defined in your Plone site, the one that is defined by the external task module and that allows one to create tasks."
 msgid "task_creator_role_descr"

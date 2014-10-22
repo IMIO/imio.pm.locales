@@ -15,6 +15,10 @@ msgstr ""
 "Domain: PloneMeeting\n"
 "X-is-fallback-for: en-us en-ca\n"
 
+#. Default: "(Nobody)"
+msgid "(Nobody)"
+msgstr ""
+
 #. Default: "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
 msgid "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
 msgstr "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
@@ -1139,6 +1143,10 @@ msgstr "Effective start date and hour"
 msgid "PloneMeeting_label_subTypes"
 msgstr "Meeting file sub types"
 
+#. Default: "Taken over by"
+msgid "PloneMeeting_label_takenOverBy"
+msgstr ""
+
 #. Default: "Role shipped with the external task module, allowing to create tasks"
 msgid "PloneMeeting_label_taskCreatorRole"
 msgstr "Role shipped with the external task module, allowing to create tasks"
@@ -1320,6 +1328,10 @@ msgstr "Select in the list the type of item you want to add"
 #. Default: "state"
 msgid "State"
 msgstr "State"
+
+#. Default: "Taken over by ${fullname}"
+msgid "Taken over by ${fullname}"
+msgstr ""
 
 #. Default: "The field here above is not used, check the 'users' tab."
 msgid "The field here above is not used, check the 'users' tab."
@@ -3960,6 +3972,10 @@ msgstr "Items to validate"
 msgid "searchmyitems"
 msgstr "my items"
 
+#. Default: "items of that i took over"
+msgid "searchmyitemstakenover"
+msgstr ""
+
 #. Default: "Validable items"
 msgid "searchvalidableitems"
 msgstr ""
@@ -4053,6 +4069,22 @@ msgstr "Switch mode (secret / not secret)"
 #. Default: "You can not switch votes mode (secret / not secret) because some votes are already encoded.  Remove every votes before being able to switch."
 msgid "switch_votes_why_cannot"
 msgstr "You can not switch votes mode (secret / not secret) because some votes are already encoded.  Remove every votes before being able to switch."
+
+#. Default: "The item is not taken over."
+msgid "taken_over_by_no"
+msgstr ""
+
+#. Default: "The item is still not taken over. Click on the image to take it over."
+msgid "taken_over_by_no_edit"
+msgstr ""
+
+#. Default: "The item is taken over."
+msgid "taken_over_by_yes"
+msgstr ""
+
+#. Default: "The item is taken over. Click on the image to remove take over (you will be able to take it over afterward)."
+msgid "taken_over_by_yes_edit"
+msgstr ""
 
 #. Default: "Choose, among this list of all roles defined in your Plone site, the one that is defined by the external task module and that allows one to create tasks."
 msgid "task_creator_role_descr"
