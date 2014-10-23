@@ -17,7 +17,7 @@ msgstr ""
 
 #. Default: "(Nobody)"
 msgid "(Nobody)"
-msgstr ""
+msgstr "(Nobody)"
 
 #. Default: "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
 msgid "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
@@ -1145,7 +1145,7 @@ msgstr "Meeting file sub types"
 
 #. Default: "Taken over by"
 msgid "PloneMeeting_label_takenOverBy"
-msgstr ""
+msgstr "Taken over by"
 
 #. Default: "Role shipped with the external task module, allowing to create tasks"
 msgid "PloneMeeting_label_taskCreatorRole"
@@ -1331,7 +1331,7 @@ msgstr "State"
 
 #. Default: "Taken over by ${fullname}"
 msgid "Taken over by ${fullname}"
-msgstr ""
+msgstr "Taken over by ${fullname}"
 
 #. Default: "The field here above is not used, check the 'users' tab."
 msgid "The field here above is not used, check the 'users' tab."
@@ -1344,6 +1344,10 @@ msgstr "The item is viewable by the advisers of this group but the advice has no
 #. Default: "The item is viewable by the advisers of this group but the advice has not been given yet."
 msgid "The item is viewable by the advisers of this group but the advice has not been given yet."
 msgstr "The item is viewable by the advisers of this group but the advice has not been given yet."
+
+#. Default: "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
+msgid "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
+msgstr "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
 
 #. Default: "There was an error during annex conversion, please contact system administrator."
 msgid "There was an error during annex conversion, please contact system administrator."
@@ -3550,7 +3554,7 @@ msgstr "Go to the previous one."
 
 #. Default: "Modification date"
 msgid "pm_modification_date"
-msgstr ""
+msgstr "Modification date"
 
 #. Default: "(Un-)select all"
 msgid "pm_select_deselect"
@@ -3762,7 +3766,7 @@ msgstr "Remove this information"
 
 #. Default: "remove all selected items at once."
 msgid "remove_several_items"
-msgstr ""
+msgstr "remove all selected items at once."
 
 #. Default: "A category must be selected on this item so that it can be proposed"
 msgid "required_category_ko"
@@ -3974,11 +3978,11 @@ msgstr "my items"
 
 #. Default: "items of that i took over"
 msgid "searchmyitemstakenover"
-msgstr ""
+msgstr "items of that i took over"
 
 #. Default: "Validable items"
 msgid "searchvalidableitems"
-msgstr ""
+msgstr "Validable items"
 
 # Portlet "meeting items"
 #. Default: "See everything..."
@@ -4060,7 +4064,7 @@ msgstr "Define here sub types for this file type.  This will let the user use it
 
 #. Default: "Are you sure to want to remove every selected items from the meeting?"
 msgid "sure_to_remove_selected_items"
-msgstr ""
+msgstr "Are you sure to want to remove every selected items from the meeting?"
 
 #. Default: "Switch mode (secret / not secret)"
 msgid "switch_votes"
@@ -4072,19 +4076,19 @@ msgstr "You can not switch votes mode (secret / not secret) because some votes a
 
 #. Default: "The item is not taken over."
 msgid "taken_over_by_no"
-msgstr ""
+msgstr "The item is not taken over."
 
 #. Default: "The item is still not taken over. Click on the image to take it over."
 msgid "taken_over_by_no_edit"
-msgstr ""
+msgstr "The item is still not taken over. Click on the image to take it over."
 
 #. Default: "The item is taken over."
 msgid "taken_over_by_yes"
-msgstr ""
+msgstr "The item is taken over."
 
 #. Default: "The item is taken over. Click on the image to remove take over (you will be able to take it over afterward)."
 msgid "taken_over_by_yes_edit"
-msgstr ""
+msgstr "The item is taken over. Click on the image to remove take over (you will be able to take it over afterward)."
 
 #. Default: "Choose, among this list of all roles defined in your Plone site, the one that is defined by the external task module and that allows one to create tasks."
 msgid "task_creator_role_descr"
@@ -4270,9 +4274,9 @@ msgstr "Check the box if you want advisers to be able to issue advices on items"
 msgid "use_copies_descr"
 msgstr "Check the box if you want item creators to be able to select copy groups for this item"
 
-#. Default: "In PloneMeeting, for every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the PloneMeeting groups do correspond to your categories, and that you don't need one more categorization scheme, check the box."
+#. Default: "In PloneMeeting, for every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the PloneMeeting groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red';>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because 'living' items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
 msgid "use_groups_as_categories_descr"
-msgstr "In PloneMeeting, for every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the PloneMeeting groups do correspond to your categories, and that you don't need one more categorization scheme, check the box."
+msgstr "In PloneMeeting, for every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the PloneMeeting groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red';>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because 'living' items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
 
 #. Default: "User replacements allow you to select a replacement user for any absent or excused user in a meeting."
 msgid "use_user_replacements_descr"
@@ -4432,7 +4436,7 @@ msgstr "Item pre-validation"
 
 #. Default: "Item pre-validation (reviewer may also prevalidate)"
 msgid "wa_pre_validation_keep_reviewer_permissions"
-msgstr ""
+msgstr "Item pre-validation (reviewer may also prevalidate)"
 
 #. Default: "Return to proposing group for corrections"
 msgid "wa_return_to_proposing_group"
@@ -4477,4 +4481,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

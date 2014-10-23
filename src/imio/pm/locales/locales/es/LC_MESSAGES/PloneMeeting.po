@@ -1352,6 +1352,10 @@ msgstr ""
 msgid "The item is viewable by the advisers of this group but the advice has not been given yet."
 msgstr ""
 
+#. Default: "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
+msgid "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
+msgstr ""
+
 #. Default: "There was an error during annex conversion, please contact system administrator."
 msgid "There was an error during annex conversion, please contact system administrator."
 msgstr "Se produjo un error durante la conversión del anexo, por favor, póngase en contacto con el administrador del sistema."
@@ -4293,7 +4297,8 @@ msgstr "Marque la casilla si usted desea que los consejeros puedan emitir consej
 msgid "use_copies_descr"
 msgstr "Marque la casilla si desea que los creadores de temas puedan seleccionar copia de grupos para este tema"
 
-#. Default: "In PloneMeeting, for every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the PloneMeeting groups do correspond to your categories, and that you don't need one more categorization scheme, check the box."
+#. Default: "In PloneMeeting, for every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the PloneMeeting groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red';>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because 'living' items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
+#, fuzzy
 msgid "use_groups_as_categories_descr"
 msgstr "En PloneMeeting, para cada configuración de reunión, cada tema es definido por una categoría y no puede pertenecer a varias categorías a la vez. Estas categorías pueden ser importantes, por ejemplo, cuando los temas son presentados en una agenda: ellos pueden ser ordenados de acuerdo a su categoría (eso depende del valor de otro parámetro de esta página). Si usted estima que los grupos de PloneMeeting corresponden a sus categorías, y que no es necesario un régimen de categorización más, marque la casilla."
 

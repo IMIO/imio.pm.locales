@@ -1345,6 +1345,10 @@ msgstr "Le point est accessible par les émetteurs d'avis de ce groupe mais l'av
 msgid "The item is viewable by the advisers of this group but the advice has not been given yet."
 msgstr "Le point est accessible par les émetteurs d'avis de ce groupe mais l'avis n'a pas encore été rendu."
 
+#. Default: "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
+msgid "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
+msgstr "Le point que vous avez essayé de prendre en charge a été pris en charge entretemps par ${fullname}.  Vous pouvez maintenant le prendre en charge à sa place si vous êtes sur qu'il ne le gère pas déjà."
+
 #. Default: "There was an error during annex conversion, please contact system administrator."
 msgid "There was an error during annex conversion, please contact system administrator."
 msgstr "Une erreur est survenue pendant la conversion de l'annexe.  Contactez votre administrateur système."
@@ -4268,9 +4272,9 @@ msgstr "Donner la possibilité aux émetteurs d'avis de laisser un avis sur les 
 msgid "use_copies_descr"
 msgstr "Cette fonctionnalité permet au créateur d'un point de sélectionner des groupes qui seront mis en copie sur un point, c'est-à-dire qui seront capables de voir (uniquement) ce point."
 
-#. Default: "In PloneMeeting, for every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the PloneMeeting groups do correspond to your categories, and that you don't need one more categorization scheme, check the box."
+#. Default: "In PloneMeeting, for every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the PloneMeeting groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red';>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because 'living' items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
 msgid "use_groups_as_categories_descr"
-msgstr "Dans PloneMeeting, par configuration de séance, chaque point est défini par une catégorie et ne peut appartenir qu'à une et une seule catégorie. Ces catégories peuvent avoir de l'importance notamment lorsque des points sont présentés dans un ordre du jour: ils peuvent être ordonnés par catégorie (voir un autre paramètre de configuration plus bas). Si vous vous dites que les groupes PloneMeeting correspondent à vos catégories et que vous n'avez pas besoin d'une catégorisation supplémentaire, cochez cette case."
+msgstr "Dans PloneMeeting, par configuration de séance, chaque point est défini par une catégorie et ne peut appartenir qu'à une et une seule catégorie. Ces catégories peuvent avoir de l'importance notamment lorsque des points sont présentés dans un ordre du jour: ils peuvent être ordonnés par catégorie (voir un autre paramètre de configuration plus bas). Si vous vous dites que les groupes PloneMeeting correspondent à vos catégories et que vous n'avez pas besoin d'une catégorisation supplémentaire, cochez cette case. <span style='color: red';>Si vous activez les catégories alors que des points ont déjà été créés sans catégories, faites-le au moment opportun, en effet une séance ne peut pas contenir des points avec et sans catégories, vous devrez mettre à jour les points 'vivants' existants.  Les points liés à d'anciennes séances pourront rester sans catégorie.</span>"
 
 #. Default: "User replacements allow you to select a replacement user for any absent or excused user in a meeting."
 msgid "use_user_replacements_descr"
