@@ -4494,3 +4494,7 @@ msgstr ""
 #. Default: "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
 msgid "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
 msgstr ""
+
+#. Default: "The item was duplicated but the annexes could not be kept because it was not possible to find file type to use in meeting config ${cfg} for duplicated annexes (no available meeting file type), please contact system administrator."
+msgid "annexes_not_kept_because_no_available_mft_warning"
+msgstr ""

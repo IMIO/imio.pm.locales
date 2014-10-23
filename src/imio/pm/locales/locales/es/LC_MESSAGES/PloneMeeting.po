@@ -1634,6 +1634,10 @@ msgstr "Tipo de anexo"
 msgid "annexes"
 msgstr "Anexos"
 
+#. Default: "The item was duplicated but the annexes could not be kept because it was not possible to find file type to use in meeting config ${cfg} for duplicated annexes (no available meeting file type), please contact system administrator."
+msgid "annexes_not_kept_because_no_available_mft_warning"
+msgstr ""
+
 #. Default: "Are you sure?"
 msgid "are_you_sure"
 msgstr "¿Está seguro?"

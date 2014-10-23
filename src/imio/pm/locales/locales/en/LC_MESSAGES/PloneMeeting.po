@@ -1626,6 +1626,10 @@ msgstr "Annex type"
 msgid "annexes"
 msgstr "Annexes"
 
+#. Default: "The item was duplicated but the annexes could not be kept because it was not possible to find file type to use in meeting config ${cfg} for duplicated annexes (no available meeting file type), please contact system administrator."
+msgid "annexes_not_kept_because_no_available_mft_warning"
+msgstr "The item was duplicated but the annexes could not be kept because it was not possible to find file type to use in meeting config ${cfg} for duplicated annexes (no available meeting file type), please contact system administrator."
+
 #. Default: "Are you sure?"
 msgid "are_you_sure"
 msgstr "Are you sure?"
@@ -4473,4 +4477,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-
