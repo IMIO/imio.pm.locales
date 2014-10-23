@@ -794,10 +794,6 @@ msgstr "Workflow gouvernant le cycle de vie de chaque point de cette configurati
 msgid "PloneMeeting_label_items"
 msgstr "Points"
 
-#. Default: "Items count"
-msgid "PloneMeeting_label_itemsCount"
-msgstr "Nombre de points utilisant cette catégorie"
-
 #. Default: "Columns to display for items within meetings"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Colonnes à afficher pour les points d'une séance"
@@ -1806,10 +1802,6 @@ msgstr "Chaque point, au sein de cette configuration de séance, peut appartenir
 #. Default: "Choose here some identifier for your category."
 msgid "category_category_id_descr"
 msgstr "Choisissez ici un identifiant pour votre catégorie."
-
-#. Default: "Number of items for which this category has been chosen. Be careful: this field is filled automatically every time an item is created or updated."
-msgid "category_items_count_descr"
-msgstr "Nombre de points pour lesquels cette catégorie a été spécifiée. Attention: ce champ est mis à jour automatiquement dès qu'un point est créé ou modifié."
 
 #. Default: "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
@@ -4479,3 +4471,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+

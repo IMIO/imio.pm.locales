@@ -794,10 +794,6 @@ msgstr "Workflow that dictates the life cycle of every item into this configurat
 msgid "PloneMeeting_label_items"
 msgstr "Items"
 
-#. Default: "Items count"
-msgid "PloneMeeting_label_itemsCount"
-msgstr "Items count"
-
 #. Default: "Columns to display for items within meetings"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Columns to display for items within meetings"
@@ -1806,10 +1802,6 @@ msgstr "Every item, within this meeting configuration, can only belong to one ca
 #. Default: "Choose here some identifier for your category."
 msgid "category_category_id_descr"
 msgstr "Choose here some identifier for your category."
-
-#. Default: "Number of items for which this category has been chosen. Be careful: this field is filled automatically every time an item is created or updated."
-msgid "category_items_count_descr"
-msgstr "Number of items for which this category has been chosen. Be careful: this field is filled automatically every time an item is created or updated."
 
 #. Default: "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
@@ -4481,3 +4473,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+

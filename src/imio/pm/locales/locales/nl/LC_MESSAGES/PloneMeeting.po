@@ -795,10 +795,6 @@ msgstr ""
 msgid "PloneMeeting_label_items"
 msgstr "Items"
 
-#. Default: "Items count"
-msgid "PloneMeeting_label_itemsCount"
-msgstr ""
-
 #. Default: "Columns to display for items within meetings"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Aantal weer te geven kolommen voor een tabelweergave van items"
@@ -1812,10 +1808,6 @@ msgstr "Every item, within this meeting configuration, can only belong to one ca
 
 #. Default: "Choose here some identifier for your category."
 msgid "category_category_id_descr"
-msgstr ""
-
-#. Default: "Number of items for which this category has been chosen. Be careful: this field is filled automatically every time an item is created or updated."
-msgid "category_items_count_descr"
 msgstr ""
 
 #. Default: "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."

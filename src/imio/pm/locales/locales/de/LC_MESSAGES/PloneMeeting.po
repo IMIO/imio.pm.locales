@@ -794,10 +794,6 @@ msgstr "Arbeitsablauf den jeder TOP in dieser Konfiguration durchlaufen muss"
 msgid "PloneMeeting_label_items"
 msgstr "TOP"
 
-#. Default: "Items count"
-msgid "PloneMeeting_label_itemsCount"
-msgstr "TOP Zähler"
-
 #. Default: "Columns to display for items within meetings"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Spalten die in TOP-Tabellen angezeigt werden können"
@@ -1818,10 +1814,6 @@ msgstr "Jeder TOP in dieser Sitzungs-Konfiguration kann nur zu einer Kategorie g
 #. Default: "Choose here some identifier for your category."
 msgid "category_category_id_descr"
 msgstr "Wählen Sie hier einen Wert für die Kategorie aus."
-
-#. Default: "Number of items for which this category has been chosen. Be careful: this field is filled automatically every time an item is created or updated."
-msgid "category_items_count_descr"
-msgstr "Anzahl TOP die mit dieser Kategorie angehören. Vorsicht: dieses Feld wird jedesmal automatisch ausgefüllt wenn ein TOP erstellt oder aktualisiert wurde."
 
 #. Default: "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
 msgid "category_mapping_when_cloning_to_other_mc_descr"

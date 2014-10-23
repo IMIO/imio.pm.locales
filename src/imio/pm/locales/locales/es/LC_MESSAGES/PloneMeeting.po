@@ -799,10 +799,6 @@ msgstr "Flujo de trabajo que dicta el ciclo de vida de cada tema dentro de esta 
 msgid "PloneMeeting_label_items"
 msgstr "Temas"
 
-#. Default: "Items count"
-msgid "PloneMeeting_label_itemsCount"
-msgstr "Contar temas"
-
 #. Default: "Columns to display for items within meetings"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Las columnas a mostrar en los temas dentro de las reuniones"
@@ -1816,10 +1812,6 @@ msgstr "Cada tema, con este configuración de reunión, puede solamente seguir u
 #. Default: "Choose here some identifier for your category."
 msgid "category_category_id_descr"
 msgstr "Elija aquí algunos identificadores para su categoría."
-
-#. Default: "Number of items for which this category has been chosen. Be careful: this field is filled automatically every time an item is created or updated."
-msgid "category_items_count_descr"
-msgstr "Número de temas por los cuales esta categoría ha sido elegido. Tenga cuidado: este campo se llena automáticamente cada vez que un tema es creado o actualizado."
 
 #. Default: "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
