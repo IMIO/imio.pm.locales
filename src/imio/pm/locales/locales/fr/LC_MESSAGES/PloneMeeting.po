@@ -4452,6 +4452,10 @@ msgstr "Attention: si vous ajoutez ou supprimez une annexe, tous les avis déjà
 msgid "wf_transition_triggered_by_application"
 msgstr "Cette transition a été automatiquement exécutée par l'application."
 
+#. Default: "Item will be sent to ${meetingConfigTitle}"
+msgid "will_be_sentto_othermeetingconfig"
+msgstr "Sera envoyé vers ${meetingConfigTitle}"
+
 #. Default: "Workflows"
 msgid "workflow"
 msgstr "Workflows"
@@ -4475,4 +4479,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

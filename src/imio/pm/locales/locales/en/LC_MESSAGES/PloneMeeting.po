@@ -4454,6 +4454,10 @@ msgstr "Warning: if you add an annex through this form or if you delete an annex
 msgid "wf_transition_triggered_by_application"
 msgstr "This transition was automatically triggered by the application."
 
+#. Default: "Item will be sent to ${meetingConfigTitle}"
+msgid "will_be_sentto_othermeetingconfig"
+msgstr ""
+
 #. Default: "Workflows"
 msgid "workflow"
 msgstr "Workflows"
@@ -4477,3 +4481,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+
