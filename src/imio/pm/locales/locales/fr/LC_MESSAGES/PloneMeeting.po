@@ -2519,6 +2519,14 @@ msgstr "Refusé"
 msgid "icon_help_returned_to_proposing_group"
 msgstr "Renvoyé au groupe proposant pour corrections"
 
+#. Default: "This item is down the workflow"
+msgid "icon_help_wf_down"
+msgstr "Ce point redescend le workflow"
+
+#. Default: "This item is again up the workflow"
+msgid "icon_help_wf_up"
+msgstr "Ce point passe à nouveau par cette étape dans le workflow"
+
 #. Default: "To use this functionnality, it is necessary that the icon '${iconname}' that will trigger the action exists.  Please creates it before continuing..."
 msgid "iconname_does_not_exist"
 msgstr "Pour utiliser cette fonctionnalité, il est nécessaire que l'icône '${iconname}' qui sera utilisée pour déclencher l'action existe.  Veuillez la créer."
