@@ -835,24 +835,12 @@ msgstr ""
 msgid "PloneMeeting_label_maxDaysDecisions"
 msgstr "Maximum aantal dagen dat een beslising direkt mag verschijnen in het 'decisions' portlet."
 
-#. Default: "Maximum number of search results"
-msgid "PloneMeeting_label_maxSearchResults"
-msgstr ""
-
 #. Default: "Maximum number of available items to show at once"
 msgid "PloneMeeting_label_maxShownAvailableItems"
 msgstr ""
 
-#. Default: "Maximum number of shown annexes at once"
-msgid "PloneMeeting_label_maxShownFoundAnnexes"
-msgstr ""
-
-#. Default: "Maximum number of shown items at once"
-msgid "PloneMeeting_label_maxShownFoundItems"
-msgstr ""
-
-#. Default: "Maximum number of shown meetings at once"
-msgid "PloneMeeting_label_maxShownFoundMeetings"
+#. Default: "Maximum number of shown elements in dashboards"
+msgid "PloneMeeting_label_maxShownFound"
 msgstr ""
 
 #. Default: "Maximum number of late items to show at once"
@@ -1094,10 +1082,6 @@ msgstr ""
 
 #. Default: "'Restrict users' mode"
 msgid "PloneMeeting_label_restrictUsers"
-msgstr ""
-
-#. Default: "Search item states"
-msgid "PloneMeeting_label_searchItemStates"
 msgstr ""
 
 #. Default: "Groups that can be in copy for an item"
@@ -2847,7 +2831,7 @@ msgstr ""
 msgid "label_schema_default"
 msgstr ""
 
-#. Default: "Advanced search"
+#. Default: "Search"
 msgid "label_schema_pm_search"
 msgstr ""
 
@@ -2996,24 +2980,12 @@ msgstr ""
 msgid "max_days_decisions_descr"
 msgstr "In the 'decisions' portlet, only decisions that have less than x days (x being the number defined here) appear directly. Users consult older decisions by clicking on the link 'all decisions'."
 
-#. Default: "When performing an advanced search, this number limits the size of every result set."
-msgid "max_search_results_descr"
-msgstr ""
-
 #. Default: "When displaying a meeting, the list of items that one may present to the meeting may be paginated if you specify here a maximum number of available items to show at once."
 msgid "max_shown_available_items_descr"
 msgstr ""
 
-#. Default: "Specify here the maximum number of found annexes that may appear on every result page."
-msgid "max_shown_found_annexes_descr"
-msgstr ""
-
 #. Default: "Specify here the maximum number of found items that may appear on every result page."
-msgid "max_shown_found_items_descr"
-msgstr ""
-
-#. Default: "Specify here the maximum number of found meetings that may appear on every result page."
-msgid "max_shown_found_meetings_descr"
+msgid "max_shown_found_descr"
 msgstr ""
 
 #. Default: "When displaying a meeting, the list of late items in the meeting may be paginated if you specify here a maximum number of late items to show at once."
@@ -3868,10 +3840,6 @@ msgstr "Zoekcriteria die specifiek zijn voor de punten"
 msgid "search_item_decisions"
 msgstr "beslissingen"
 
-#. Default: "If you select states here, on the search screen, the user will be able to perform a search based on item state by selecting one or more of the states selected here."
-msgid "search_item_states_descr"
-msgstr ""
-
 #. Default: "item's titles and descriptions"
 msgid "search_item_titles"
 msgstr "titels en beschrijvingen"
@@ -3880,10 +3848,6 @@ msgstr "titels en beschrijvingen"
 #. Default: "The keyword search encompasses the following fields:"
 msgid "search_keywords"
 msgstr "Zoek richt zich op de volgende gegevens:"
-
-#. Default: "The search produced more results. You see the first ${number} elements."
-msgid "search_max_limit"
-msgstr "Er zijn meer resultaten. U ziet the eerste ${number} elementen."
 
 #. Default: "or"
 msgid "search_or"

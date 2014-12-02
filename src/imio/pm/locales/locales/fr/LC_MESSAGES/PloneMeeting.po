@@ -834,25 +834,13 @@ msgstr "Listes de diffusion"
 msgid "PloneMeeting_label_maxDaysDecisions"
 msgstr "Nombre maximum de jours durant lesquels les décisions apparaissent directement dans la portlet 'décisions'"
 
-#. Default: "Maximum number of search results"
-msgid "PloneMeeting_label_maxSearchResults"
-msgstr "Nombre maximal de résultats de recherche"
-
 #. Default: "Maximum number of available items to show at once"
 msgid "PloneMeeting_label_maxShownAvailableItems"
 msgstr "Nombre maximal de points à afficher dans la liste 'Points à présenter'"
 
-#. Default: "Maximum number of shown annexes at once"
-msgid "PloneMeeting_label_maxShownFoundAnnexes"
-msgstr "Nombre maximal d'annexes trouvées à afficher par page"
-
-#. Default: "Maximum number of shown items at once"
-msgid "PloneMeeting_label_maxShownFoundItems"
-msgstr "Nombre maximal de points trouvés à afficher par page"
-
-#. Default: "Maximum number of shown meetings at once"
-msgid "PloneMeeting_label_maxShownFoundMeetings"
-msgstr "Nombre maximal de séances trouvées à afficher par page"
+#. Default: "Maximum number of shown elements in dashboards"
+msgid "PloneMeeting_label_maxShownFound"
+msgstr "Nombre d'éléments à afficher dans les tableaux de bords"
 
 #. Default: "Maximum number of late items to show at once"
 msgid "PloneMeeting_label_maxShownLateItems"
@@ -1094,10 +1082,6 @@ msgstr "Restreindre l'accès aux points à huis clos?"
 #. Default: "'Restrict users' mode"
 msgid "PloneMeeting_label_restrictUsers"
 msgstr "Mode 'Utilisateurs restreints'"
-
-#. Default: "Search item states"
-msgid "PloneMeeting_label_searchItemStates"
-msgstr "Etat des points pour la recherche"
 
 #. Default: "Groups that can be in copy for an item"
 msgid "PloneMeeting_label_selectableCopyGroups"
@@ -2840,9 +2824,9 @@ msgstr "Supprimer le groupe : attention les groupes Plone liés doivent être vi
 msgid "label_schema_default"
 msgstr "Information principale"
 
-#. Default: "Advanced search"
+#. Default: "Search"
 msgid "label_schema_pm_search"
-msgstr "Recherche avancée"
+msgstr "Recherche"
 
 #. Default: "German"
 msgid "language_deu"
@@ -2985,25 +2969,13 @@ msgstr "Au moins un avis obligatoire pour ce point n'est pas positif ou n'a pas 
 msgid "max_days_decisions_descr"
 msgstr "Dans la portlet 'décisions', n'apparaissent directement que les décisions qui ont moins de x jours, x étant le nombre indiqué ici. Pour consulter les décisions antérieures, il suffit de cliquer sur le lien 'toutes les décisions'. Cette mesure sert à nouveau à ne pas engorger l'interface utilisateur."
 
-#. Default: "When performing an advanced search, this number limits the size of every result set."
-msgid "max_search_results_descr"
-msgstr "Quand une recherche avancée est réalisée, ce nombre limite la taille de chaque ensemble de résultats."
-
 #. Default: "When displaying a meeting, the list of items that one may present to the meeting may be paginated if you specify here a maximum number of available items to show at once."
 msgid "max_shown_available_items_descr"
 msgstr "Lors de l'affichage d'une séance, la liste des points à présenter peut être paginée si vous spécifiez ici un nombre maximum de points à afficher sur la page."
 
-#. Default: "Specify here the maximum number of found annexes that may appear on every result page."
-msgid "max_shown_found_annexes_descr"
-msgstr "Spécifiez ici le nombre maximal d'annexes trouvées pouvant apparaître sur chaque page de résultats."
-
 #. Default: "Specify here the maximum number of found items that may appear on every result page."
-msgid "max_shown_found_items_descr"
-msgstr "Spécifiez ici le nombre maximal de points trouvés pouvant apparaître sur chaque page de résultats."
-
-#. Default: "Specify here the maximum number of found meetings that may appear on every result page."
-msgid "max_shown_found_meetings_descr"
-msgstr "Spécifiez ici le nombre maximal de séances trouvées pouvant apparaître sur chaque page de résultats."
+msgid "max_shown_found_descr"
+msgstr "Spécifiez combien d'éléments devront être affichés par page lors de l'utilisation d'un tableau de bord (recherche avancée, recherche de points, de séances, ...)."
 
 #. Default: "When displaying a meeting, the list of late items in the meeting may be paginated if you specify here a maximum number of late items to show at once."
 msgid "max_shown_late_items_descr"
@@ -3854,10 +3826,6 @@ msgstr "Critères de recherche spécifiques aux points"
 msgid "search_item_decisions"
 msgstr "les décisions prises sur chaque point"
 
-#. Default: "If you select states here, on the search screen, the user will be able to perform a search based on item state by selecting one or more of the states selected here."
-msgid "search_item_states_descr"
-msgstr "Si vous sélectionnez des états ici, sur l'écran de recherche, l'utilisateur pourra effectuer une recherche basée sur l'état des points en choisissant un ou plusieurs des états sélectionnés ici."
-
 #. Default: "item's titles and descriptions"
 msgid "search_item_titles"
 msgstr "les objets et descriptions des points"
@@ -3865,10 +3833,6 @@ msgstr "les objets et descriptions des points"
 #. Default: "The keyword search encompasses the following fields:"
 msgid "search_keywords"
 msgstr "La recherche par mots-clés porte sur les champs suivants:"
-
-#. Default: "The search produced more results. You see the first ${number} elements."
-msgid "search_max_limit"
-msgstr "La recherche a produit plus de résultats. Vous voyez les ${number} premiers éléments."
 
 #. Default: "or"
 msgid "search_or"
@@ -4487,3 +4451,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+

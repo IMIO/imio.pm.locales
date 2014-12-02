@@ -839,25 +839,13 @@ msgstr "Listas de correo electrónico"
 msgid "PloneMeeting_label_maxDaysDecisions"
 msgstr "Máximo de números de días durante el cual dichas decisiones tal ves aparezca directamente el portlet de 'decisiones'."
 
-#. Default: "Maximum number of search results"
-msgid "PloneMeeting_label_maxSearchResults"
-msgstr "El número máximo de resultados de búsqueda"
-
 #. Default: "Maximum number of available items to show at once"
 msgid "PloneMeeting_label_maxShownAvailableItems"
 msgstr "Número máximo de temas disponibles a mostrar a la vez"
 
-#. Default: "Maximum number of shown annexes at once"
-msgid "PloneMeeting_label_maxShownFoundAnnexes"
-msgstr "El número máximo de anexos que se muestra a la vez"
-
-#. Default: "Maximum number of shown items at once"
-msgid "PloneMeeting_label_maxShownFoundItems"
-msgstr "El número máximo de temas que se muestra a la vez"
-
-#. Default: "Maximum number of shown meetings at once"
-msgid "PloneMeeting_label_maxShownFoundMeetings"
-msgstr "El número máximo de reuniones que se muestra a la vez"
+#. Default: "Maximum number of shown elements in dashboards"
+msgid "PloneMeeting_label_maxShownFound"
+msgstr ""
 
 #. Default: "Maximum number of late items to show at once"
 msgid "PloneMeeting_label_maxShownLateItems"
@@ -1100,10 +1088,6 @@ msgstr ""
 #. Default: "'Restrict users' mode"
 msgid "PloneMeeting_label_restrictUsers"
 msgstr "Modo 'usuarios restringidos'"
-
-#. Default: "Search item states"
-msgid "PloneMeeting_label_searchItemStates"
-msgstr "Buscar estados de tema"
 
 #. Default: "Groups that can be in copy for an item"
 msgid "PloneMeeting_label_selectableCopyGroups"
@@ -2854,7 +2838,8 @@ msgstr "Eliminar el grupo: ¡los grupos Plone vinculados se eliminarán también
 msgid "label_schema_default"
 msgstr "Información principal"
 
-#. Default: "Advanced search"
+#. Default: "Search"
+#, fuzzy
 msgid "label_schema_pm_search"
 msgstr "Búsqueda avanzada"
 
@@ -3001,25 +2986,13 @@ msgstr "Al menos un consejo obligatorio para este tema no es positivo o no ha si
 msgid "max_days_decisions_descr"
 msgstr "En el portlet de 'decisiones', solamente las decisiones que tiene al menos X días (donde X es le número de días definidos aquí) aparecerán directamente. Los usuarios consultarán las decisiones antiguas haciendo clic sobre en enlace 'todas las decisiones'."
 
-#. Default: "When performing an advanced search, this number limits the size of every result set."
-msgid "max_search_results_descr"
-msgstr "Al realizar una búsqueda avanzada, este número limita el tamaño de cada conjunto de resultados."
-
 #. Default: "When displaying a meeting, the list of items that one may present to the meeting may be paginated if you specify here a maximum number of available items to show at once."
 msgid "max_shown_available_items_descr"
 msgstr "Cuando se muestra una reunión, la lista de temas que se pueden presentar a la reunión pueden ser paginadas aquí si especifica un número máximo de temas disponibles para mostrar a la vez."
 
-#. Default: "Specify here the maximum number of found annexes that may appear on every result page."
-msgid "max_shown_found_annexes_descr"
-msgstr "Especifique aquí el número máximo de anexos encontrados que puede aparecer en cada página de resultados."
-
 #. Default: "Specify here the maximum number of found items that may appear on every result page."
-msgid "max_shown_found_items_descr"
-msgstr "Especifique aquí el número máximo de temas encontrados que puede aparecer en cada página de resultados."
-
-#. Default: "Specify here the maximum number of found meetings that may appear on every result page."
-msgid "max_shown_found_meetings_descr"
-msgstr "Especifique aquí el número máximo de reuniones encontrados que puede aparecer en cada página de resultados."
+msgid "max_shown_found_descr"
+msgstr ""
 
 #. Default: "When displaying a meeting, the list of late items in the meeting may be paginated if you specify here a maximum number of late items to show at once."
 msgid "max_shown_late_items_descr"
@@ -3875,10 +3848,6 @@ msgstr "Criterios de búsqueda para tema específico"
 msgid "search_item_decisions"
 msgstr "decisiones de temas"
 
-#. Default: "If you select states here, on the search screen, the user will be able to perform a search based on item state by selecting one or more of the states selected here."
-msgid "search_item_states_descr"
-msgstr "Si selecciona los estados aquí, en la pantalla de búsqueda, el usuario podrá realizar una búsqueda basada en el estado del tema seleccionando uno o más de los estados seleccionados aquí."
-
 #. Default: "item's titles and descriptions"
 msgid "search_item_titles"
 msgstr "Títulos de los temas y descripciones"
@@ -3887,10 +3856,6 @@ msgstr "Títulos de los temas y descripciones"
 #. Default: "The keyword search encompasses the following fields:"
 msgid "search_keywords"
 msgstr "La búsqueda de palabras clave se compone de:"
-
-#. Default: "The search produced more results. You see the first ${number} elements."
-msgid "search_max_limit"
-msgstr "La búsqueda ha obtenido más resultados. Usted ve los primeros ${number} elementos."
 
 #. Default: "or"
 msgid "search_or"

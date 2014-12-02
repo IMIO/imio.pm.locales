@@ -1491,36 +1491,12 @@ msgstr ""
 msgid "enable_annex_preview_descr"
 msgstr ""
 
-#. Default: "Maximum number of search results"
-msgid "PloneMeeting_label_maxSearchResults"
-msgstr ""
-
-#. Default: "When performing an advanced search, this number limits the size of every result set."
-msgid "max_search_results_descr"
-msgstr ""
-
-#. Default: "Maximum number of shown items at once"
-msgid "PloneMeeting_label_maxShownFoundItems"
+#. Default: "Maximum number of shown elements in dashboards"
+msgid "PloneMeeting_label_maxShownFound"
 msgstr ""
 
 #. Default: "Specify here the maximum number of found items that may appear on every result page."
-msgid "max_shown_found_items_descr"
-msgstr ""
-
-#. Default: "Maximum number of shown meetings at once"
-msgid "PloneMeeting_label_maxShownFoundMeetings"
-msgstr ""
-
-#. Default: "Specify here the maximum number of found meetings that may appear on every result page."
-msgid "max_shown_found_meetings_descr"
-msgstr ""
-
-#. Default: "Maximum number of shown annexes at once"
-msgid "PloneMeeting_label_maxShownFoundAnnexes"
-msgstr ""
-
-#. Default: "Specify here the maximum number of found annexes that may appear on every result page."
-msgid "max_shown_found_annexes_descr"
+msgid "max_shown_found_descr"
 msgstr ""
 
 #. Default: "Show possible targets for item keywords"
@@ -1529,14 +1505,6 @@ msgstr ""
 
 #. Default: "If you check this box, on the search screen, radio buttons will appear, allowing the user to choose the item-related field that will become the target for item keywords. If these radio buttons are not shown, the search will encompass all fields indexed in the global index 'SearchableText'."
 msgid "show_item_keywords_targets_descr"
-msgstr ""
-
-#. Default: "Search item states"
-msgid "PloneMeeting_label_searchItemStates"
-msgstr ""
-
-#. Default: "If you select states here, on the search screen, the user will be able to perform a search based on item state by selecting one or more of the states selected here."
-msgid "search_item_states_descr"
 msgstr ""
 
 #. Default: "Holidays"
@@ -3715,10 +3683,6 @@ msgstr ""
 msgid "search_MeetingFile_empty"
 msgstr ""
 
-#. Default: "The search produced more results. You see the first ${number} elements."
-msgid "search_max_limit"
-msgstr ""
-
 #. Default: "and"
 msgid "search_and"
 msgstr ""
@@ -4034,7 +3998,7 @@ msgstr ""
 msgid "label_schema_default"
 msgstr ""
 
-#. Default: "Advanced search"
+#. Default: "Search"
 msgid "label_schema_pm_search"
 msgstr ""
 
