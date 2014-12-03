@@ -1654,6 +1654,10 @@ msgstr "Absents définis sur la séance"
 msgid "assembly_absents_meeting_descr"
 msgstr "Définissez ici les personnes absentes (non excusées) pour la séance"
 
+#. Default: "Assembly and signatures"
+msgid "assembly_and_signatures"
+msgstr "Assemblée et signatures"
+
 #. Default: "Assembly as defined on the linked meeting"
 msgid "assembly_defined_on_meeting"
 msgstr "Assemblée définie sur la séance"
@@ -3156,6 +3160,11 @@ msgstr "Dans cette liste, vous voyez tous les workflows définis dans votre site
 msgid "meetingconfig_advice_descr"
 msgstr "Cette section permet de paramétrer la fonctionnalité de gestion des avis. Un avis est une sorte de commentaire, positif ou négatif, qu'une personne, selon ses habilitations, peut ou doit donner sur un point.  De plus c'est dans cette section que certaines règles d'accès peuvent être configurées."
 
+# MeetingConfig
+#. Default: "This sections lets meeting managers define default assembly and signatures to use."
+msgid "meetingconfig_assembly_and_signatures_descr"
+msgstr "Les paramètres définis ici peuvent être édités par les gestionnaires de séances afin de définir les assemblées et signatures à utiliser."
+
 #. Default: "Parameters in this section allow to customize some elements linked to attributes of and associations between the 2 main content types managed by PloneMeeting: items and meetings."
 msgid "meetingconfig_data_descr"
 msgstr "Les paramètres liés aux données permettent de choisir certains éléments liés aux attributs et associations existant entre les 2 principaux types de contenu gérés par PloneMeeting: les points et les séances."
@@ -4451,3 +4460,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+

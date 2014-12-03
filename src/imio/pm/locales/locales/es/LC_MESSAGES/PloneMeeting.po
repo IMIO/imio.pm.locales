@@ -1663,6 +1663,10 @@ msgstr ""
 msgid "assembly_absents_meeting_descr"
 msgstr ""
 
+#. Default: "Assembly and signatures"
+msgid "assembly_and_signatures"
+msgstr ""
+
 #. Default: "Assembly as defined on the linked meeting"
 msgid "assembly_defined_on_meeting"
 msgstr "Asamblea ha sido definida en la reunión vinculada"
@@ -3175,6 +3179,11 @@ msgstr "En esta lista usted puede ver todos los flujos de trabajos definidos en 
 #. Default: "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item.  Moreover, this section will give you the possibility to define some access rules."
 msgid "meetingconfig_advice_descr"
 msgstr "Esta sección le permite configurar consejos. Un consejo es una especie de comentario positivo o negativo que alguien, de acuerdo con su función, puede o debe expresarse sobre un tema. Además, esta sección le dará la posibilidad de definir algunas reglas de acceso."
+
+# MeetingConfig
+#. Default: "This sections lets meeting managers define default assembly and signatures to use."
+msgid "meetingconfig_assembly_and_signatures_descr"
+msgstr ""
 
 #. Default: "Parameters in this section allow to customize some elements linked to attributes of and associations between the 2 main content types managed by PloneMeeting: items and meetings."
 msgid "meetingconfig_data_descr"

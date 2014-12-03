@@ -1697,6 +1697,10 @@ msgid "budgetimpacteditors"
 msgstr ""
 
 # MeetingConfig
+#. Default: "This sections lets meeting managers define default assembly and signatures to use."
+msgid "meetingconfig_assembly_and_signatures_descr"
+msgstr ""
+
 #. Default: "Parameters in this section allow to customize some elements linked to attributes of and associations between the 2 main content types managed by PloneMeeting: items and meetings."
 msgid "meetingconfig_data_descr"
 msgstr ""
@@ -3895,6 +3899,10 @@ msgstr ""
 
 #. Default: "General"
 msgid "default"
+msgstr ""
+
+#. Default: "Assembly and signatures"
+msgid "assembly_and_signatures"
 msgstr ""
 
 #. Default: "Data"
