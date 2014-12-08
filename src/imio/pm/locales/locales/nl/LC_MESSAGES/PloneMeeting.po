@@ -1128,14 +1128,6 @@ msgstr ""
 msgid "PloneMeeting_label_takenOverBy"
 msgstr ""
 
-#. Default: "Role shipped with the external task module, allowing to create tasks"
-msgid "PloneMeeting_label_taskCreatorRole"
-msgstr "Rollen geleverd door de externe taken module, die toelaat taken te maken"
-
-#. Default: "Macro shipped with an external task module, that allows to display tasks linked to a given meeting item"
-msgid "PloneMeeting_label_tasksMacro"
-msgstr "Sjabloon geleverd geleverd met de externe taak module die tolaat om taken weer te gegeven geassocieerd met een bepaald meeting item"
-
 #. Default: "Restrict usage of this template to following groups"
 msgid "PloneMeeting_label_templateUsingGroups"
 msgstr ""
@@ -4079,22 +4071,6 @@ msgstr ""
 #. Default: "The item is taken over. Click on the image to remove take over (you will be able to take it over afterward)."
 msgid "taken_over_by_yes_edit"
 msgstr ""
-
-#. Default: "Choose, among this list of all roles defined in your Plone site, the one that is defined by the external task module and that allows one to create tasks."
-msgid "task_creator_role_descr"
-msgstr "Kies uit de gehele lijst van rollen gedfinieerd in je Plone site, de rol gedefinieerd door de externe taak module en deze laat toe taken aan te maken"
-
-#. Default: "Tasks"
-msgid "tasks"
-msgstr "Taken"
-
-#. Default: "Parameters related to the connection between PloneMeeting and an external module that manages tasks. This connection allows to create and associate a series of tasks to meeting items managed by PloneMeeting."
-msgid "tasks_descr"
-msgstr "Parameters gerelateerd aan de verbinding tussen PloneMeeting en de externe module die taken beheert. De verbinding laat het toe om taken te maken en een reeks taken te associeren met meeting items beheerd door PloneMeeting."
-
-#. Default: "You can connect PloneMeeting to an external module that manages tasks (ie PloneTask). This will allow you to create tasks and associate them to meeting items managed by PloneMeeting. The macro you specify here will display tasks related to a given meeting item into the page displaying details about a given meeting item."
-msgid "tasks_macro_descr"
-msgstr "Je kan PloneMeeting verbinden met een externe module die taken beheert (bvb PloneTask). Dit laat je toe taken aan te maken en ze te assiocieren met agenda items beheerd door PloneMeeting. Het sjabloon dat je hier specifieerd zal taken weergeven gerelateerd tot een bepaald meeting item in de pagina alle details weergeven van een bepaald meeting item."
 
 #. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
 msgid "template_using_groups_descr"

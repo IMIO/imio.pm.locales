@@ -1127,14 +1127,6 @@ msgstr "Sous-types de fichier"
 msgid "PloneMeeting_label_takenOverBy"
 msgstr "Pris en charge par"
 
-#. Default: "Role shipped with the external task module, allowing to create tasks"
-msgid "PloneMeeting_label_taskCreatorRole"
-msgstr "Rôle fourni par le module de gestion de tâches permettant de créer des tâches"
-
-#. Default: "Macro shipped with an external task module, that allows to display tasks linked to a given meeting item"
-msgid "PloneMeeting_label_tasksMacro"
-msgstr "Macro fournie par un module de gestion de tâches pour afficher les tâches liées à un point"
-
 #. Default: "Restrict usage of this template to following groups"
 msgid "PloneMeeting_label_templateUsingGroups"
 msgstr "Restreindre ce canevas de point aux groupes suivants"
@@ -4065,22 +4057,6 @@ msgstr "Le point est pris en charge."
 msgid "taken_over_by_yes_edit"
 msgstr "Le point est pris en charge, cliquez sur l'image pour retirer la prise en charge (vous pourrez alors le prendre en charge si nécessaire)."
 
-#. Default: "Choose, among this list of all roles defined in your Plone site, the one that is defined by the external task module and that allows one to create tasks."
-msgid "task_creator_role_descr"
-msgstr "Choisissez, parmi la liste de tous les rôles définis dans votre site Plone, celui qui est livré par le module de gestion de tâches et qui permet de créer des tâches."
-
-#. Default: "Tasks"
-msgid "tasks"
-msgstr "Tâches"
-
-#. Default: "Parameters related to the connection between PloneMeeting and an external module that manages tasks. This connection allows to create and associate a series of tasks to meeting items managed by PloneMeeting."
-msgid "tasks_descr"
-msgstr "Paramètres liés à la connection de PloneMeeting avec un module externe de gestion de tâches. Cette connection permet de créer et d'associer une série de tâches à chaque point géré par PloneMeeting."
-
-#. Default: "You can connect PloneMeeting to an external module that manages tasks (ie PloneTask). This will allow you to create tasks and associate them to meeting items managed by PloneMeeting. The macro you specify here will display tasks related to a given meeting item into the page displaying details about a given meeting item."
-msgid "tasks_macro_descr"
-msgstr "Vous pouvez connecter PloneMeeting à un module externe de gestion de tâches (comme PloneTask, par exemple). Cela vous permettra de créer des tâches et de les associer à chaque point de PloneMeeting. La macro que vous définissez ici permettra d'afficher, dans la page de visualisation d'un point, la liste des tâches qui lui sont associées."
-
 #. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
 msgid "template_using_groups_descr"
 msgstr "Si l'usage de ce point est 'Comme canevas de point', sélectionnez les groupes qui pourront l'utiliser.  Si tous les groupes doivent pouvoir utiliser ce canevas, ne sélectionnez aucun groupe.  Vous pouvez choisir plusieurs groupes en maintenant la touche 'Ctrl' enfoncée."
@@ -4460,3 +4436,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+

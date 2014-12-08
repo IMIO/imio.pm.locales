@@ -1725,10 +1725,6 @@ msgstr ""
 msgid "meetingconfig_mail_descr"
 msgstr ""
 
-#. Default: "Parameters related to the connection between PloneMeeting and an external module that manages tasks. This connection allows to create and associate a series of tasks to meeting items managed by PloneMeeting."
-msgid "tasks_descr"
-msgstr ""
-
 #. Default: "Topics"
 msgid "Topics"
 msgstr ""
@@ -2641,22 +2637,6 @@ msgstr ""
 
 #. Default: "See everything..."
 msgid "see_everything"
-msgstr ""
-
-#. Default: "Macro shipped with an external task module, that allows to display tasks linked to a given meeting item"
-msgid "PloneMeeting_label_tasksMacro"
-msgstr ""
-
-#. Default: "You can connect PloneMeeting to an external module that manages tasks (ie PloneTask). This will allow you to create tasks and associate them to meeting items managed by PloneMeeting. The macro you specify here will display tasks related to a given meeting item into the page displaying details about a given meeting item."
-msgid "tasks_macro_descr"
-msgstr ""
-
-#. Default: "Role shipped with the external task module, allowing to create tasks"
-msgid "PloneMeeting_label_taskCreatorRole"
-msgstr ""
-
-#. Default: "Choose, among this list of all roles defined in your Plone site, the one that is defined by the external task module and that allows one to create tasks."
-msgid "task_creator_role_descr"
 msgstr ""
 
 #. Default: "Use advices"
@@ -3927,10 +3907,6 @@ msgstr ""
 
 #. Default: "Emails"
 msgid "mail"
-msgstr ""
-
-#. Default: "Tasks"
-msgid "tasks"
 msgstr ""
 
 #. Default: "Votes"

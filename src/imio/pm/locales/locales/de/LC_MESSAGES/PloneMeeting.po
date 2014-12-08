@@ -1128,14 +1128,6 @@ msgstr ""
 msgid "PloneMeeting_label_takenOverBy"
 msgstr ""
 
-#. Default: "Role shipped with the external task module, allowing to create tasks"
-msgid "PloneMeeting_label_taskCreatorRole"
-msgstr "Rolle des externen Aufgaben-Moduls welche die Erstellung von Aufgaben erlaubt"
-
-#. Default: "Macro shipped with an external task module, that allows to display tasks linked to a given meeting item"
-msgid "PloneMeeting_label_tasksMacro"
-msgstr "Macro das von einem externen Aufgaben-Modul bereitgestellt wird um die Anzeige von Aufgaben die mit einem TOP verknüpft sind anzuzeigen"
-
 #. Default: "Restrict usage of this template to following groups"
 msgid "PloneMeeting_label_templateUsingGroups"
 msgstr ""
@@ -4101,22 +4093,6 @@ msgstr ""
 #. Default: "The item is taken over. Click on the image to remove take over (you will be able to take it over afterward)."
 msgid "taken_over_by_yes_edit"
 msgstr ""
-
-#. Default: "Choose, among this list of all roles defined in your Plone site, the one that is defined by the external task module and that allows one to create tasks."
-msgid "task_creator_role_descr"
-msgstr "Wählen Sie aus dieser Liste aller Rollen dieser Plone-Seite die Rolle aus, die von dem externen Aufgaben-Modul definiert wurde um Aufgaben erstellen zu können."
-
-#. Default: "Tasks"
-msgid "tasks"
-msgstr "Aufgaben"
-
-#. Default: "Parameters related to the connection between PloneMeeting and an external module that manages tasks. This connection allows to create and associate a series of tasks to meeting items managed by PloneMeeting."
-msgid "tasks_descr"
-msgstr "Einstellungen in diesem Abschnitt beziehen sich auf die Verbindung zwischen PloneMeeting und einem externen Modul für die Verwaltung von Aufgaben. Diese Konfiguration ermöglicht es Aufgaben für TOPs die in PloneMeeting verwaltet werden zu erzeugen und zu verknüpfen."
-
-#. Default: "You can connect PloneMeeting to an external module that manages tasks (ie PloneTask). This will allow you to create tasks and associate them to meeting items managed by PloneMeeting. The macro you specify here will display tasks related to a given meeting item into the page displaying details about a given meeting item."
-msgid "tasks_macro_descr"
-msgstr "Sie können PloneMeeting mit einem externen Modul welches Aufgaben verwaltet (zum Beispiel PloneTask) verbinden. Dies erlaubt es Ihnen Aufgaben zu erstellen und diese mit Sitzungen und TOPs die von PloneMeeting verwaltet werden zu verknüpfen. Das Macro das Sie hier angeben wird mit einem TOP verknüpfte Aufgaben in dessen Detailansicht anzeigen."
 
 #. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
 msgid "template_using_groups_descr"

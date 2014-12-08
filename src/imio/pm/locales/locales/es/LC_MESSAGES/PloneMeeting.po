@@ -1133,14 +1133,6 @@ msgstr ""
 msgid "PloneMeeting_label_takenOverBy"
 msgstr ""
 
-#. Default: "Role shipped with the external task module, allowing to create tasks"
-msgid "PloneMeeting_label_taskCreatorRole"
-msgstr "Rol compartido con la tarea del módulo externo, lo que permite crear tareas"
-
-#. Default: "Macro shipped with an external task module, that allows to display tasks linked to a given meeting item"
-msgid "PloneMeeting_label_tasksMacro"
-msgstr "Macro compartido con una tarea del módulo externo, que permite mostrar las tareas vinculadas a un determinado tema de reunión"
-
 #. Default: "Restrict usage of this template to following groups"
 msgid "PloneMeeting_label_templateUsingGroups"
 msgstr "Restringir el uso de esta plantilla para los grupos siguientes"
@@ -4089,22 +4081,6 @@ msgstr ""
 #. Default: "The item is taken over. Click on the image to remove take over (you will be able to take it over afterward)."
 msgid "taken_over_by_yes_edit"
 msgstr ""
-
-#. Default: "Choose, among this list of all roles defined in your Plone site, the one that is defined by the external task module and that allows one to create tasks."
-msgid "task_creator_role_descr"
-msgstr "Elija, entre esta lista de todos los roles definidos en su sitio Plone, el que se define por la tarea del módulo de la aplicación externa y que permite crear tareas."
-
-#. Default: "Tasks"
-msgid "tasks"
-msgstr "Tareas"
-
-#. Default: "Parameters related to the connection between PloneMeeting and an external module that manages tasks. This connection allows to create and associate a series of tasks to meeting items managed by PloneMeeting."
-msgid "tasks_descr"
-msgstr "Los parámetros relacionados con la conexión entre PloneMeeting y un módulo externo que administra las tareas. Esta conexión permite crear y asociar series de tareas a una temas de reunión gestionado por PloneMeeting."
-
-#. Default: "You can connect PloneMeeting to an external module that manages tasks (ie PloneTask). This will allow you to create tasks and associate them to meeting items managed by PloneMeeting. The macro you specify here will display tasks related to a given meeting item into the page displaying details about a given meeting item."
-msgid "tasks_macro_descr"
-msgstr "Usted puede conectarse PloneMeeting a un módulo externo que administre tareas (por ejemplo PloneTask). Esto le permitirá crear tareas y  entonces asociarlas a temas de reuniones gestionadas por PloneMeeting."
 
 #. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
 msgid "template_using_groups_descr"
