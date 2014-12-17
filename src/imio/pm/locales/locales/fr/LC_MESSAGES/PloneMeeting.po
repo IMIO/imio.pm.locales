@@ -19,9 +19,9 @@ msgstr ""
 msgid "(Nobody)"
 msgstr "(Personne)"
 
-#. Default: "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
-msgid "<span class='discreet'>Only members of the proposing group may access history comments.</span>"
-msgstr "<span class='discreet'>Les commentaires ne sont accessibles qu'aux membres du groupe proposant de ce point.</span>"
+#. Default: "<span class='discreet'>Access to this comment is restricted.</span>"
+msgid "<span class='discreet'>Access to this comment is restricted.</span>"
+msgstr "<span class='discreet'>Vous n'avez pas accès à ce commentaire.</span>"
 
 #. Default: "Add PloneMeeting Portlet"
 msgid "Add PloneMeeting Portlet"
@@ -4436,4 +4436,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
