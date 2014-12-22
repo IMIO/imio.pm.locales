@@ -645,6 +645,10 @@ msgstr "Name of the functional administrator"
 msgid "PloneMeeting_label_gender"
 msgstr "Gender"
 
+#. Default: "Group signatures"
+msgid "PloneMeeting_label_group_signatures"
+msgstr ""
+
 #. Default: "Hide item history comments to users outside proposing group"
 msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
 msgstr "Hide item history comments to users outside proposing group"
@@ -2376,6 +2380,10 @@ msgstr "When an item is in one of the states you choose here, it will be possibl
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser selected on this item to continue to view the item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "group_item_advice_view_states_descr"
 msgstr "When an item is in one of the states you choose here, it will be possible for an adviser selected on this item to continue to view the item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
+
+#. Default: "Leave empty to use the signatures defined on the meeting."
+msgid "group_signatures_descr"
+msgstr ""
 
 #. Default: "User interface"
 msgid "gui"
