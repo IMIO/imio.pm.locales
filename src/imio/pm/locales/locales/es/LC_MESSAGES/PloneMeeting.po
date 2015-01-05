@@ -369,6 +369,14 @@ msgstr "Ausentes"
 msgid "PloneMeeting_label_acronym"
 msgstr "Acrónimo"
 
+#. Default: "An advice marked as 'Confidential' will not be visible by"
+msgid "PloneMeeting_label_adviceConfidentialFor"
+msgstr ""
+
+#. Default: "Advice confidentiality default value"
+msgid "PloneMeeting_label_adviceConfidentialityDefault"
+msgstr ""
+
 #. Default: "Advice style"
 msgid "PloneMeeting_label_adviceStyle"
 msgstr "Estilo de Consejo"
@@ -579,6 +587,10 @@ msgstr "Deber en el segundo idioma"
 
 #. Default: "Emergency"
 msgid "PloneMeeting_label_emergency"
+msgstr ""
+
+#. Default: "Enable advice confidentiality"
+msgid "PloneMeeting_label_enableAdviceConfidentiality"
 msgstr ""
 
 #. Default: "Enable advice invalidation"
@@ -1469,6 +1481,14 @@ msgstr ""
 msgid "advice_comment"
 msgstr "Comentario (opcional)"
 
+#. Default: "If an advice is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
+msgid "advice_confidential_for_descr"
+msgstr ""
+
+#. Default: "If advice confidentiality is enabled, define here if a new asked advice needs to be confidential ou not by default."
+msgid "advice_confidentiality_default_descr"
+msgstr ""
+
 #. Default: "Quick edit advice"
 #, fuzzy
 msgid "advice_edit"
@@ -2152,6 +2172,10 @@ msgstr ""
 
 #. Default: "Emergency refused"
 msgid "emergency_refused"
+msgstr ""
+
+#. Default: "If you enable advice confidentiality, it will be possible for meeting managers to select on every advices if it is confidential or not.  This information is only visible to meeting managers."
+msgid "enable_advice_confidentiality_descr"
 msgstr ""
 
 #. Default: "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A 'change' is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."

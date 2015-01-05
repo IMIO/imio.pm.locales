@@ -365,6 +365,14 @@ msgstr "Absents (non excusés)"
 msgid "PloneMeeting_label_acronym"
 msgstr "Acronyme"
 
+#. Default: "An advice marked as 'Confidential' will not be visible by"
+msgid "PloneMeeting_label_adviceConfidentialFor"
+msgstr "Un avis marqué 'Confidentiel' ne sera pas visible par"
+
+#. Default: "Advice confidentiality default value"
+msgid "PloneMeeting_label_adviceConfidentialityDefault"
+msgstr "Valeur par défaut du champ 'Confidentiel?' des avis créés"
+
 #. Default: "Advice style"
 msgid "PloneMeeting_label_adviceStyle"
 msgstr "Style des avis"
@@ -577,6 +585,10 @@ msgstr "Fonction dans la seconde langue"
 msgid "PloneMeeting_label_emergency"
 msgstr "Urgence"
 
+#. Default: "Enable advice confidentiality"
+msgid "PloneMeeting_label_enableAdviceConfidentiality"
+msgstr "Activer la confidentialité des avis "
+
 #. Default: "Enable advice invalidation"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Activer l'invalidation des avis"
@@ -676,11 +688,11 @@ msgstr "Méthode(s) de tri lors de l'ajout d'un point dans une séance"
 
 #. Default: "Confidential ?"
 msgid "PloneMeeting_label_isConfidential"
-msgstr "Confidentiel?"
+msgstr "Confidentielle?"
 
 #. Default: "Default value of the 'Confidential ?' attribute of created annexes"
 msgid "PloneMeeting_label_isConfidentialDefault"
-msgstr "Valeur par défaut du champ 'Confidentiel?' des annexes créées"
+msgstr "Valeur par défaut du champ 'Confidentielle?' des annexes créées"
 
 #. Default: "This configuration is the default meeting configuration"
 msgid "PloneMeeting_label_isDefault"
@@ -1463,6 +1475,14 @@ msgstr "Commentaire"
 msgid "advice_comment"
 msgstr "Commentaire (optionnel)"
 
+#. Default: "If an advice is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
+msgid "advice_confidential_for_descr"
+msgstr "Si un avis est marqué comme 'Confidentiel' par un gestionnaire des séances, les profils sélectionnés ci-dessous ne pourront pas le voir."
+
+#. Default: "If advice confidentiality is enabled, define here if a new asked advice needs to be confidential ou not by default."
+msgid "advice_confidentiality_default_descr"
+msgstr "Si la confidentialité des avis est activée, vous pouvez définir ici la valeur par défaut du champ 'Confidentiel?' des avis créés. Cette valeur pourra être modifiée par les gestionnaires de séances sur les avis créés."
+
 #. Default: "Quick edit advice"
 msgid "advice_edit"
 msgstr "Edition rapide de l'avis"
@@ -2145,6 +2165,10 @@ msgstr "Commentaire"
 msgid "emergency_refused"
 msgstr "Urgence refusée"
 
+#. Default: "If you enable advice confidentiality, it will be possible for meeting managers to select on every advices if it is confidential or not.  This information is only visible to meeting managers."
+msgid "enable_advice_confidentiality_descr"
+msgstr "Si vous activez la confidentialité des avis, il sera possible pour les gestionnaires de séances de définir pour chaque avis si il est confidentiel ou non.  Cette information ne sera visible que par les gestionnaires de séances."
+
 #. Default: "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A 'change' is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."
 msgid "enable_advice_invalidation_descr"
 msgstr "Quand l'invalidation des avis est activée, tout changement sur un point pour lequel au moins un avis a été rendu invalidera tous les avis rendus sur ce point. Par 'changement', nous entendons toute modification de l'objet ou de la description du point ainsi que tout ajout et toute suppression d'annexe."
@@ -2574,7 +2598,7 @@ msgstr "Présent?"
 
 #. Default: "If annex confidentiality is enabled on the meeting configuration (in the 'Data' tab), you can define here the default value of the 'Confidential ?' attribute for annexes that will be created using this meeting file type.  This default value will be editable on created annexes by meeting managers."
 msgid "is_confidential_default_descr"
-msgstr "Si la confidentialité des annexes est activée pour cette configuration de séance (onglet 'Données'), vous pouvez définir ici la valeur par défaut du champ 'Confidentiel ?' des annexes créées utilisant ce type de fichier.  Cette valeur pourra être modifiée par les gestionnaires de séances sur les annexes créées."
+msgstr "Si la confidentialité des annexes est activée pour cette configuration de séance (onglet 'Données'), vous pouvez définir ici la valeur par défaut du champ 'Confidentielle?' des annexes créées utilisant ce type de fichier.  Cette valeur pourra être modifiée par les gestionnaires de séances sur les annexes créées."
 
 #. Default: "Excused?"
 msgid "is_excused"
@@ -4461,3 +4485,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+
