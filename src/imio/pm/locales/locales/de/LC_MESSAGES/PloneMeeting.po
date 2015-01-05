@@ -381,6 +381,10 @@ msgstr "Tags"
 msgid "PloneMeeting_label_annexAdviceToPrintDefault"
 msgstr ""
 
+#. Default: "An annex marked as 'Confidential' will not be visible by"
+msgid "PloneMeeting_label_annexConfidentialFor"
+msgstr ""
+
 #. Default: "Decision annex to print default value"
 msgid "PloneMeeting_label_annexDecisionToPrintDefault"
 msgstr ""
@@ -645,7 +649,7 @@ msgstr "Name des Technischen Administrators"
 msgid "PloneMeeting_label_gender"
 msgstr "Geschlecht"
 
-#. Default: "Group signatures"
+#. Default: "Group certified signatures"
 msgid "PloneMeeting_label_group_signatures"
 msgstr ""
 
@@ -1560,6 +1564,10 @@ msgstr ""
 msgid "annex_advice_to_print_default_descr"
 msgstr ""
 
+#. Default: "If an annex is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
+msgid "annex_confidential_for_descr"
+msgstr ""
+
 #. Default: "Default value of the 'to print' checkbox for decision annexes."
 msgid "annex_decision_to_print_default_descr"
 msgstr ""
@@ -1875,6 +1883,14 @@ msgstr ""
 msgid "completeness_not_yet_evaluated"
 msgstr ""
 
+#. Default: "The power observers"
+msgid "confidential_for_power_observers"
+msgstr ""
+
+#. Default: "The restricted power observers"
+msgid "confidential_for_restricted_power_observers"
+msgstr ""
+
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
 msgstr "Definieren Sie hier einen vordefinierten Text, welcher im Feld 'Budget Informationen' jedesmal eingetragen wird, wenn ein Benutzer einen neuen TOP anlegt. "
@@ -2147,7 +2163,7 @@ msgstr ""
 msgid "enable_advice_invalidation_descr"
 msgstr "Wenn die Funktion 'Kommentar ungültig setzen' aktiviert ist, werden bei jeder Änderung an einem TOP, welcher schon einen Kommentar hatte, alle vorhandenen Kommentare zu diesem TOP ungültig. Eine 'Änderung' ist jedesmal wenn in einem TOP der Titel oder die Beschreibung verändert wurde und diese Änderung gespeichert wurde oder wenn eine Anlage hinzugefügt oder gelöscht wurde."
 
-#. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  A confidential annex will not be visible by restricted power observers.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
+#. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
 msgstr ""
 

@@ -381,6 +381,10 @@ msgstr "Marqueurs"
 msgid "PloneMeeting_label_annexAdviceToPrintDefault"
 msgstr "Marquer les annexes à un avis comme 'à imprimer' par défaut?"
 
+#. Default: "An annex marked as 'Confidential' will not be visible by"
+msgid "PloneMeeting_label_annexConfidentialFor"
+msgstr "Une annexe marquée 'Confidentielle' ne sera pas visible par"
+
 #. Default: "Decision annex to print default value"
 msgid "PloneMeeting_label_annexDecisionToPrintDefault"
 msgstr "Marquer les annexes après décision comme 'à imprimer' par défaut?"
@@ -645,7 +649,8 @@ msgstr "Nom de l'administrateur fonctionnel"
 msgid "PloneMeeting_label_gender"
 msgstr "Genre"
 
-#. Default: "Group signatures"
+#. Default: "Group certified signatures"
+#, fuzzy
 msgid "PloneMeeting_label_group_signatures"
 msgstr "Délégation de signatures certifiées conformes"
 
@@ -1550,6 +1555,10 @@ msgstr "${meetingConfigTitle} - Une erreur est survenue lors de la conversion d'
 msgid "annex_advice_to_print_default_descr"
 msgstr "Si vous cochez cette case, les annexes ajoutées à un avis seront marquées comme 'à imprimer' par défaut."
 
+#. Default: "If an annex is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
+msgid "annex_confidential_for_descr"
+msgstr "Si une annexe est marquée comme 'Confidentielle' par un gestionnaire des séances, les profils sélectionnés ci-dessous ne pourront pas la voir."
+
 #. Default: "Default value of the 'to print' checkbox for decision annexes."
 msgid "annex_decision_to_print_default_descr"
 msgstr "Si vous cochez cette case, les annexes après décision ajoutées à un point seront marquées comme 'à imprimer' par défaut."
@@ -1863,6 +1872,14 @@ msgstr "Le point est incomplet"
 msgid "completeness_not_yet_evaluated"
 msgstr "La complétude du point n'a pas encore été évaluée"
 
+#. Default: "The power observers"
+msgid "confidential_for_power_observers"
+msgstr "Les super observateurs"
+
+#. Default: "The restricted power observers"
+msgid "confidential_for_restricted_power_observers"
+msgstr "Les super observateurs restreints"
+
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
 msgstr "Définissez ici le texte prédéfini qui sera présent dans le champ 'Informations budgétaires' chaque fois qu'un utilisateur crée un nouveau point."
@@ -2132,9 +2149,9 @@ msgstr "Urgence refusée"
 msgid "enable_advice_invalidation_descr"
 msgstr "Quand l'invalidation des avis est activée, tout changement sur un point pour lequel au moins un avis a été rendu invalidera tous les avis rendus sur ce point. Par 'changement', nous entendons toute modification de l'objet ou de la description du point ainsi que tout ajout et toute suppression d'annexe."
 
-#. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  A confidential annex will not be visible by restricted power observers.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
+#. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
-msgstr "Si vous activez la confidentialité des annexes, il sera possible pour les gestionnaires de séances de définir pour chaque annexe si elle est confidentielle ou non.  Une annexe confidentielle n'est pas visible par les 'Super observateurs restreints'.  Cette information ne sera visible que par les gestionnaires de séances.  Il sera aussi possible de définir une valeur par défaut pour ce champ sur les types d'annexes."
+msgstr "Si vous activez la confidentialité des annexes, il sera possible pour les gestionnaires de séances de définir pour chaque annexe si elle est confidentielle ou non.  Cette information ne sera visible que par les gestionnaires de séances.  Il sera aussi possible de définir une valeur par défaut pour ce champ sur les types d'annexes."
 
 #. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"

@@ -385,6 +385,10 @@ msgstr "Etiquetas"
 msgid "PloneMeeting_label_annexAdviceToPrintDefault"
 msgstr "Valor por defecto al imprimir el Anexo a los consejos"
 
+#. Default: "An annex marked as 'Confidential' will not be visible by"
+msgid "PloneMeeting_label_annexConfidentialFor"
+msgstr ""
+
 #. Default: "Decision annex to print default value"
 msgid "PloneMeeting_label_annexDecisionToPrintDefault"
 msgstr "Valor por defecto al imprimir el Anexo a la decisión"
@@ -649,7 +653,7 @@ msgstr "Nombre del administrador funcional"
 msgid "PloneMeeting_label_gender"
 msgstr "Género"
 
-#. Default: "Group signatures"
+#. Default: "Group certified signatures"
 msgid "PloneMeeting_label_group_signatures"
 msgstr ""
 
@@ -1558,6 +1562,10 @@ msgstr "${meetingConfigTitle} - Hubo un error mientras convertía un anexo."
 msgid "annex_advice_to_print_default_descr"
 msgstr "El valor por defecto de la casilla 'imprimir' para los Anexo a los consejos."
 
+#. Default: "If an annex is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
+msgid "annex_confidential_for_descr"
+msgstr ""
+
 #. Default: "Default value of the 'to print' checkbox for decision annexes."
 msgid "annex_decision_to_print_default_descr"
 msgstr "El valor por defecto de la casilla 'imprimir' para los Anexos a la decisión."
@@ -1873,6 +1881,14 @@ msgstr ""
 msgid "completeness_not_yet_evaluated"
 msgstr ""
 
+#. Default: "The power observers"
+msgid "confidential_for_power_observers"
+msgstr ""
+
+#. Default: "The restricted power observers"
+msgid "confidential_for_restricted_power_observers"
+msgstr ""
+
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
 msgstr "Define aquí alguno texto predefinido que se presentará en el campo 'información presupuestaria' cada ves que un usuario crea un nuevo tema."
@@ -2142,7 +2158,7 @@ msgstr ""
 msgid "enable_advice_invalidation_descr"
 msgstr "Cuando la invalidación consejo es permitido, todo cambio a un tema para el que ya por lo menos un consejo que se ha dado invalidará a todos los consejos dados. Un 'cambio' se considera como cada vez que el título o la descripción de un tema es cambiado y cada vez que se agrega o elimina un anexo en el tema."
 
-#. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  A confidential annex will not be visible by restricted power observers.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
+#. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
 msgstr ""
 
