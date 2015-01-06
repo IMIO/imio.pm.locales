@@ -989,7 +989,7 @@ msgstr ""
 msgid "annex_to_print_no_edit"
 msgstr ""
 
-#. Default: "The annex is confidential and will not be visible by restricted power observers."
+#. Default: "The annex is confidential."
 msgid "annex_is_confidential_yes"
 msgstr ""
 
@@ -997,12 +997,28 @@ msgstr ""
 msgid "annex_is_confidential_no"
 msgstr ""
 
-#. Default: "The annex is confidential and will not be visible by restricted power observers.  Click on the image to set it as not confidential."
+#. Default: "The annex is confidential.  Click on the image to set it as not confidential."
 msgid "annex_is_confidential_yes_edit"
 msgstr ""
 
 #. Default: "The annex is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
 msgid "annex_is_confidential_no_edit"
+msgstr ""
+
+#. Default: "The advice is confidential."
+msgid "advice_is_confidential_yes"
+msgstr ""
+
+#. Default: "The advice is not confidential and will be visible by everybody who has access to this item."
+msgid "advice_is_confidential_no"
+msgstr ""
+
+#. Default: "The advice is confidential.  Click on the image to set it as not confidential."
+msgid "advice_is_confidential_yes_edit"
+msgstr ""
+
+#. Default: "The advice is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
+msgid "advice_is_confidential_no_edit"
 msgstr ""
 
 #. Default: "To be discussed during the meeting."
@@ -4506,4 +4522,3 @@ msgstr ""
 #. Default: "The item was duplicated but the annexes could not be kept because it was not possible to find file type to use in meeting config ${cfg} for duplicated annexes (no available meeting file type), please contact system administrator."
 msgid "annexes_not_kept_because_no_available_mft_warning"
 msgstr ""
-

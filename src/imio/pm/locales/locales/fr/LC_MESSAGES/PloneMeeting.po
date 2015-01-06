@@ -662,7 +662,6 @@ msgid "PloneMeeting_label_gender"
 msgstr "Genre"
 
 #. Default: "Group certified signatures"
-#, fuzzy
 msgid "PloneMeeting_label_group_signatures"
 msgstr "Délégation de signatures certifiées conformes"
 
@@ -1491,6 +1490,22 @@ msgstr "Edition rapide de l'avis"
 msgid "advice_edited"
 msgstr "L'avis a été créé ou modifié."
 
+#. Default: "The advice is not confidential and will be visible by everybody who has access to this item."
+msgid "advice_is_confidential_no"
+msgstr "Cet avis n'est pas confidentiel et sera visible par toutes personnes ayant accès au point."
+
+#. Default: "The advice is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
+msgid "advice_is_confidential_no_edit"
+msgstr "Cet avis n'est pas confidentiel et sera visible par toutes personnes ayant accès au point.  Cliquez sur l'image pour rendre l'avis confidentiel."
+
+#. Default: "The advice is confidential."
+msgid "advice_is_confidential_yes"
+msgstr "Cet avis est confidentiel."
+
+#. Default: "The advice is confidential.  Click on the image to set it as not confidential."
+msgid "advice_is_confidential_yes_edit"
+msgstr "Cet avis est confidentiel.  Cliquez sur l'image pour rendre l'avis non confidentiel."
+
 #. Default: "Mandatory"
 msgid "advice_mandatory"
 msgstr "Obligatoire"
@@ -1591,13 +1606,13 @@ msgstr "Cette annexe n'est pas confidentielle et sera visible par toutes personn
 msgid "annex_is_confidential_no_edit"
 msgstr "Cette annexe n'est pas confidentielle et sera visible par toutes personnes ayant accès au point.  Cliquez sur l'image pour rendre l'annexe confidentielle."
 
-#. Default: "The annex is confidential and will not be visible by restricted power observers."
+#. Default: "The annex is confidential."
 msgid "annex_is_confidential_yes"
-msgstr "Cette annexe est confidentielle et ne sera pas visible par les super observateurs restreints."
+msgstr "Cette annexe est confidentielle."
 
-#. Default: "The annex is confidential and will not be visible by restricted power observers.  Click on the image to set it as not confidential."
+#. Default: "The annex is confidential.  Click on the image to set it as not confidential."
 msgid "annex_is_confidential_yes_edit"
-msgstr "Cette annexe est confidentielle et ne sera pas visible par les super observateurs restreints.  Cliquez sur l'image pour rendre l'annexe non confidentielle."
+msgstr "Cette annexe est confidentielle.  Cliquez sur l'image pour rendre l'annexe non confidentielle."
 
 #. Default: "Title"
 msgid "annex_title"
@@ -4485,4 +4500,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

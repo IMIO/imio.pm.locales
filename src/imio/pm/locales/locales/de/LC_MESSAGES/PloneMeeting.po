@@ -1496,6 +1496,22 @@ msgstr ""
 msgid "advice_edited"
 msgstr "Der Kommentar wurde erstellt oder aktualisiert"
 
+#. Default: "The advice is not confidential and will be visible by everybody who has access to this item."
+msgid "advice_is_confidential_no"
+msgstr ""
+
+#. Default: "The advice is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
+msgid "advice_is_confidential_no_edit"
+msgstr ""
+
+#. Default: "The advice is confidential."
+msgid "advice_is_confidential_yes"
+msgstr ""
+
+#. Default: "The advice is confidential.  Click on the image to set it as not confidential."
+msgid "advice_is_confidential_yes_edit"
+msgstr ""
+
 #. Default: "Mandatory"
 msgid "advice_mandatory"
 msgstr ""
@@ -1600,11 +1616,11 @@ msgstr ""
 msgid "annex_is_confidential_no_edit"
 msgstr ""
 
-#. Default: "The annex is confidential and will not be visible by restricted power observers."
+#. Default: "The annex is confidential."
 msgid "annex_is_confidential_yes"
 msgstr ""
 
-#. Default: "The annex is confidential and will not be visible by restricted power observers.  Click on the image to set it as not confidential."
+#. Default: "The annex is confidential.  Click on the image to set it as not confidential."
 msgid "annex_is_confidential_yes_edit"
 msgstr ""
 

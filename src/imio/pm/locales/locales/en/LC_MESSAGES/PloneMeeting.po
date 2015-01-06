@@ -1490,6 +1490,22 @@ msgstr "Quick edit advice"
 msgid "advice_edited"
 msgstr "The advice has been created or updated."
 
+#. Default: "The advice is not confidential and will be visible by everybody who has access to this item."
+msgid "advice_is_confidential_no"
+msgstr ""
+
+#. Default: "The advice is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
+msgid "advice_is_confidential_no_edit"
+msgstr ""
+
+#. Default: "The advice is confidential."
+msgid "advice_is_confidential_yes"
+msgstr ""
+
+#. Default: "The advice is confidential.  Click on the image to set it as not confidential."
+msgid "advice_is_confidential_yes_edit"
+msgstr ""
+
 #. Default: "Mandatory"
 msgid "advice_mandatory"
 msgstr "Mandatory"
@@ -1590,11 +1606,13 @@ msgstr "The annex is not confidential and will be visible by everybody who has a
 msgid "annex_is_confidential_no_edit"
 msgstr "The annex is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
 
-#. Default: "The annex is confidential and will not be visible by restricted power observers."
+#. Default: "The annex is confidential."
+#, fuzzy
 msgid "annex_is_confidential_yes"
 msgstr "The annex is confidential and will not be visible by restricted power observers."
 
-#. Default: "The annex is confidential and will not be visible by restricted power observers.  Click on the image to set it as not confidential."
+#. Default: "The annex is confidential.  Click on the image to set it as not confidential."
+#, fuzzy
 msgid "annex_is_confidential_yes_edit"
 msgstr "The annex is confidential and will not be visible by restricted power observers.  Click on the image to set it as not confidential."
 
