@@ -1189,9 +1189,9 @@ msgstr "Montrer le champ 'à discuter' sur les listes de points en retard"
 msgid "PloneMeeting_label_toDoListTopics"
 msgstr "Recherches préconfigurées à afficher dans le portlet 'A faire'"
 
-#. Default: "To print ?"
+#. Default: "To print?"
 msgid "PloneMeeting_label_toPrint"
-msgstr "A imprimer ?"
+msgstr "A imprimer?"
 
 #. Default: "Transition that will reinitialize advice delays"
 msgid "PloneMeeting_label_transitionReinitializingDelays"
@@ -1324,6 +1324,10 @@ msgstr "État"
 #. Default: "Taken over by ${fullname}"
 msgid "Taken over by ${fullname}"
 msgstr "Pris en charge par ${fullname}"
+
+#. Default: "The annex that you just added has a large size and could be difficult to download by users wanting to view it!"
+msgid "The annex that you just added has a large size and could be difficult to download by users wanting to view it!"
+msgstr "L'annexe que vous venez d'ajouter pourrait poser des problèmes aux utilisateurs souhaitant la consulter à cause de sa grande taille."
 
 #. Default: "The field here above is not used, check the 'users' tab."
 msgid "The field here above is not used, check the 'users' tab."
@@ -1613,6 +1617,10 @@ msgstr "Cette annexe est confidentielle."
 #. Default: "The annex is confidential.  Click on the image to set it as not confidential."
 msgid "annex_is_confidential_yes_edit"
 msgstr "Cette annexe est confidentielle.  Cliquez sur l'image pour rendre l'annexe non confidentielle."
+
+#. Default: "Annex size is huge, it could be difficult to be downloaded!"
+msgid "annex_size_warning"
+msgstr "Attention, cette annexe est une annexe de grande taille et pourrait prendre du temps à être téléchargée!"
 
 #. Default: "Title"
 msgid "annex_title"
@@ -4500,3 +4508,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+

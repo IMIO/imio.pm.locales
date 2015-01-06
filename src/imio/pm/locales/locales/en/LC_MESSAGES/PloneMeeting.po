@@ -21,7 +21,7 @@ msgstr "(Nobody)"
 
 #. Default: "<span class='discreet'>Access to this comment is restricted.</span>"
 msgid "<span class='discreet'>Access to this comment is restricted.</span>"
-msgstr ""
+msgstr "<span class='discreet'>Access to this comment is restricted.</span>"
 
 #. Default: "Add PloneMeeting Portlet"
 msgid "Add PloneMeeting Portlet"
@@ -367,11 +367,11 @@ msgstr "Acronym"
 
 #. Default: "An advice marked as 'Confidential' will not be visible by"
 msgid "PloneMeeting_label_adviceConfidentialFor"
-msgstr ""
+msgstr "An advice marked as 'Confidential' will not be visible by"
 
 #. Default: "Advice confidentiality default value"
 msgid "PloneMeeting_label_adviceConfidentialityDefault"
-msgstr ""
+msgstr "Advice confidentiality default value"
 
 #. Default: "Advice style"
 msgid "PloneMeeting_label_adviceStyle"
@@ -391,7 +391,7 @@ msgstr "Advice annex to print default value"
 
 #. Default: "An annex marked as 'Confidential' will not be visible by"
 msgid "PloneMeeting_label_annexConfidentialFor"
-msgstr ""
+msgstr "An annex marked as 'Confidential' will not be visible by"
 
 #. Default: "Decision annex to print default value"
 msgid "PloneMeeting_label_annexDecisionToPrintDefault"
@@ -587,7 +587,7 @@ msgstr "Emergency"
 
 #. Default: "Enable advice confidentiality"
 msgid "PloneMeeting_label_enableAdviceConfidentiality"
-msgstr ""
+msgstr "Enable advice confidentiality"
 
 #. Default: "Enable advice invalidation"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
@@ -663,7 +663,7 @@ msgstr "Gender"
 
 #. Default: "Group certified signatures"
 msgid "PloneMeeting_label_group_signatures"
-msgstr ""
+msgstr "Group certified signatures"
 
 #. Default: "Hide item history comments to users outside proposing group"
 msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
@@ -860,7 +860,7 @@ msgstr "Maximum number of available items to show at once"
 
 #. Default: "Maximum number of shown elements in dashboards"
 msgid "PloneMeeting_label_maxShownFound"
-msgstr ""
+msgstr "Maximum number of shown elements in dashboards"
 
 #. Default: "Maximum number of late items to show at once"
 msgid "PloneMeeting_label_maxShownLateItems"
@@ -1189,9 +1189,9 @@ msgstr "Show field 'to discuss' on lists of late items"
 msgid "PloneMeeting_label_toDoListTopics"
 msgstr "List of topics to display in the 'todo' portlet"
 
-#. Default: "To print ?"
+#. Default: "To print?"
 msgid "PloneMeeting_label_toPrint"
-msgstr "To print ?"
+msgstr "To print?"
 
 #. Default: "Transition that will reinitialize advice delays"
 msgid "PloneMeeting_label_transitionReinitializingDelays"
@@ -1324,6 +1324,10 @@ msgstr "State"
 #. Default: "Taken over by ${fullname}"
 msgid "Taken over by ${fullname}"
 msgstr "Taken over by ${fullname}"
+
+#. Default: "The annex that you just added has a large size and could be difficult to download by users wanting to view it!"
+msgid "The annex that you just added has a large size and could be difficult to download by users wanting to view it!"
+msgstr ""
 
 #. Default: "The field here above is not used, check the 'users' tab."
 msgid "The field here above is not used, check the 'users' tab."
@@ -1476,11 +1480,11 @@ msgstr "Comment (optional)"
 
 #. Default: "If an advice is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
 msgid "advice_confidential_for_descr"
-msgstr ""
+msgstr "If an advice is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
 
 #. Default: "If advice confidentiality is enabled, define here if a new asked advice needs to be confidential ou not by default."
 msgid "advice_confidentiality_default_descr"
-msgstr ""
+msgstr "If advice confidentiality is enabled, define here if a new asked advice needs to be confidential ou not by default."
 
 #. Default: "Quick edit advice"
 msgid "advice_edit"
@@ -1492,19 +1496,19 @@ msgstr "The advice has been created or updated."
 
 #. Default: "The advice is not confidential and will be visible by everybody who has access to this item."
 msgid "advice_is_confidential_no"
-msgstr ""
+msgstr "The advice is not confidential and will be visible by everybody who has access to this item."
 
 #. Default: "The advice is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
 msgid "advice_is_confidential_no_edit"
-msgstr ""
+msgstr "The advice is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
 
 #. Default: "The advice is confidential."
 msgid "advice_is_confidential_yes"
-msgstr ""
+msgstr "The advice is confidential."
 
 #. Default: "The advice is confidential.  Click on the image to set it as not confidential."
 msgid "advice_is_confidential_yes_edit"
-msgstr ""
+msgstr "The advice is confidential.  Click on the image to set it as not confidential."
 
 #. Default: "Mandatory"
 msgid "advice_mandatory"
@@ -1592,7 +1596,7 @@ msgstr "Default value of the 'to print' checkbox for advice annexes."
 
 #. Default: "If an annex is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"
-msgstr ""
+msgstr "If an annex is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
 
 #. Default: "Default value of the 'to print' checkbox for decision annexes."
 msgid "annex_decision_to_print_default_descr"
@@ -1607,14 +1611,16 @@ msgid "annex_is_confidential_no_edit"
 msgstr "The annex is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
 
 #. Default: "The annex is confidential."
-#, fuzzy
 msgid "annex_is_confidential_yes"
-msgstr "The annex is confidential and will not be visible by restricted power observers."
+msgstr "The annex is confidential."
 
 #. Default: "The annex is confidential.  Click on the image to set it as not confidential."
-#, fuzzy
 msgid "annex_is_confidential_yes_edit"
-msgstr "The annex is confidential and will not be visible by restricted power observers.  Click on the image to set it as not confidential."
+msgstr "The annex is confidential.  Click on the image to set it as not confidential."
+
+#. Default: "Annex size is huge, it could be difficult to be downloaded!"
+msgid "annex_size_warning"
+msgstr ""
 
 #. Default: "Title"
 msgid "annex_title"
@@ -1698,7 +1704,7 @@ msgstr "Define here people that were absents (not excused) for the meeting"
 
 #. Default: "Assembly and signatures"
 msgid "assembly_and_signatures"
-msgstr ""
+msgstr "Assembly and signatures"
 
 #. Default: "Assembly as defined on the linked meeting"
 msgid "assembly_defined_on_meeting"
@@ -1911,11 +1917,11 @@ msgstr "Not yet evaluated"
 
 #. Default: "The power observers"
 msgid "confidential_for_power_observers"
-msgstr ""
+msgstr "The power observers"
 
 #. Default: "The restricted power observers"
 msgid "confidential_for_restricted_power_observers"
-msgstr ""
+msgstr "The restricted power observers"
 
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
@@ -2184,16 +2190,15 @@ msgstr "Emergency refused"
 
 #. Default: "If you enable advice confidentiality, it will be possible for meeting managers to select on every advices if it is confidential or not.  This information is only visible to meeting managers."
 msgid "enable_advice_confidentiality_descr"
-msgstr ""
+msgstr "If you enable advice confidentiality, it will be possible for meeting managers to select on every advices if it is confidential or not.  This information is only visible to meeting managers."
 
 #. Default: "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A 'change' is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."
 msgid "enable_advice_invalidation_descr"
 msgstr "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A 'change' is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."
 
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
-#, fuzzy
 msgid "enable_annex_confidentiality_descr"
-msgstr "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  A confidential annex will not be visible by restricted power observers.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
+msgstr "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 
 #. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
@@ -2442,7 +2447,7 @@ msgstr "When an item is in one of the states you choose here, it will be possibl
 
 #. Default: "Leave empty to use the signatures defined on the meeting."
 msgid "group_signatures_descr"
-msgstr ""
+msgstr "Leave empty to use the signatures defined on the meeting."
 
 #. Default: "User interface"
 msgid "gui"
@@ -2568,11 +2573,11 @@ msgstr "Returned to proposing group for corrections"
 
 #. Default: "This item is down the workflow"
 msgid "icon_help_wf_down"
-msgstr ""
+msgstr "This item is down the workflow"
 
 #. Default: "This item is again up the workflow"
 msgid "icon_help_wf_up"
-msgstr ""
+msgstr "This item is again up the workflow"
 
 #. Default: "To use this functionnality, it is necessary that the icon '${iconname}' that will trigger the action exists.  Please creates it before continuing..."
 msgid "iconname_does_not_exist"
@@ -2888,9 +2893,8 @@ msgid "label_schema_default"
 msgstr "Main information"
 
 #. Default: "Search"
-#, fuzzy
 msgid "label_schema_pm_search"
-msgstr "Advanced search"
+msgstr "Search"
 
 #. Default: "German"
 msgid "language_deu"
@@ -3039,7 +3043,7 @@ msgstr "When displaying a meeting, the list of items that one may present to the
 
 #. Default: "Specify here the maximum number of found items that may appear on every result page."
 msgid "max_shown_found_descr"
-msgstr ""
+msgstr "Specify here the maximum number of found items that may appear on every result page."
 
 #. Default: "When displaying a meeting, the list of late items in the meeting may be paginated if you specify here a maximum number of late items to show at once."
 msgid "max_shown_late_items_descr"
@@ -3224,7 +3228,7 @@ msgstr "This section allows you to configure advices. An advice is a kind of pos
 # MeetingConfig
 #. Default: "This sections lets meeting managers define default assembly and signatures to use."
 msgid "meetingconfig_assembly_and_signatures_descr"
-msgstr ""
+msgstr "This sections lets meeting managers define default assembly and signatures to use."
 
 #. Default: "Parameters in this section allow to customize some elements linked to attributes of and associations between the 2 main content types managed by PloneMeeting: items and meetings."
 msgid "meetingconfig_data_descr"
@@ -4481,7 +4485,7 @@ msgstr "This transition was automatically triggered by the application."
 
 #. Default: "Item will be sent to ${meetingConfigTitle}"
 msgid "will_be_sentto_othermeetingconfig"
-msgstr ""
+msgstr "Item will be sent to ${meetingConfigTitle}"
 
 #. Default: "Workflows"
 msgid "workflow"
@@ -4506,4 +4510,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-
