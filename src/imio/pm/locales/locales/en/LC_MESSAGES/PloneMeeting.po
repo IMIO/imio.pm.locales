@@ -3613,9 +3613,25 @@ msgstr "(Un-)select all"
 msgid "pm_tool_updates_warning"
 msgstr "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of hig use!"
 
+#. Default: "Initialize every existing advice confidentiality"
+msgid "pm_update_advice_confidentiality"
+msgstr ""
+
+#. Default: "Warning: the action 'Initialize existing advices confidentiality' will initialize every existing advice confidentiality to what is defined as default value in this meeting configuration (check the field 'Advice confidentiality default value' of the 'Advices and access' tab)."
+msgid "pm_update_advice_confidentiality_warning"
+msgstr ""
+
 #. Default: "Update all advices"
 msgid "pm_update_all_advices"
 msgstr "Update all advices"
+
+#. Default: "Initialize every existing annex confidentiality"
+msgid "pm_update_annex_confidentiality"
+msgstr ""
+
+#. Default: "Warning: the action 'Initialize existing annexes confidentiality' will initialize every existing annex confidentiality to what is defined in the corresponding annex type (check the 'Annex types' in the 'Data' tab)."
+msgid "pm_update_annex_confidentiality_warning"
+msgstr ""
 
 #. Default: "Update annex indexes"
 msgid "pm_update_annex_indexes"
@@ -4510,3 +4526,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+

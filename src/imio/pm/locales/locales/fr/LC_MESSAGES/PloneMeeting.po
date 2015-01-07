@@ -3612,9 +3612,25 @@ msgstr "(Dé-)sélectionner tout"
 msgid "pm_tool_updates_warning"
 msgstr "Attention: ces mises à jour peuvent prendre du temps en fonction du nombre d'éléments existants!  Ne pas lancer dans une période de forte utilisation!"
 
+#. Default: "Initialize every existing advice confidentiality"
+msgid "pm_update_advice_confidentiality"
+msgstr "Initialiser la confidentialité des avis existants"
+
+#. Default: "Warning: the action 'Initialize existing advices confidentiality' will initialize every existing advice confidentiality to what is defined as default value in this meeting configuration (check the field 'Advice confidentiality default value' of the 'Advices and access' tab)."
+msgid "pm_update_advice_confidentiality_warning"
+msgstr "Attention : l'action 'Initialiser la confidentialité des avis existants' va initialiser la confidentialité de tous les avis existants pour cette configuration de séance à la valeur par défaut définie pour la confidentialité d'un avis (vérifiez le champ 'Valeur par défaut du champ 'Confidentiel?' des avis créés' dans l'onglet 'Avis et accès')."
+
 #. Default: "Update all advices"
 msgid "pm_update_all_advices"
 msgstr "Mettre à jour les avis"
+
+#. Default: "Initialize every existing annex confidentiality"
+msgid "pm_update_annex_confidentiality"
+msgstr "Initialiser la confidentialité des annexes existantes"
+
+#. Default: "Warning: the action 'Initialize existing annexes confidentiality' will initialize every existing annex confidentiality to what is defined in the corresponding annex type (check the 'Annex types' in the 'Data' tab)."
+msgid "pm_update_annex_confidentiality_warning"
+msgstr "Attention : l'action 'Initialiser la confidentialité des annexes existantes' va initialiser la confidentialité de toutes les annexes existantes pour cette configuration de séance à la valeur par défaut définie sur le 'Type d'annexe' correspondant (vérifiez les 'Types d'annexes' dans l'onglet 'Données')."
 
 #. Default: "Update annex indexes"
 msgid "pm_update_annex_indexes"
