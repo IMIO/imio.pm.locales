@@ -749,6 +749,10 @@ msgstr "Interface permettant d'utiliser un adapter Zope3 spécifique pour modifi
 msgid "PloneMeeting_label_itemCopyGroupsStates"
 msgstr "Etats des points dans lesquels les groupes en copie peuvent les voir"
 
+#. Default: "Only create items using item templates"
+msgid "PloneMeeting_label_itemCreatedOnlyUsingTemplate"
+msgstr "Les points sont créés uniquement depuis un modèle"
+
 #. Default: "Item decided states"
 msgid "PloneMeeting_label_itemDecidedStates"
 msgstr "Etats des points décidés"
@@ -2746,6 +2750,10 @@ msgstr "Sur le workflow gouvernant les points, une série d'expressions booléen
 #. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red';>If you change this parameter, do not forget to update copy groups!</span>"
 msgid "item_copygroups_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les groupes qui sont mis \"en copie\" du point. <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les 'Groupes en copies'!</span>"
+
+#. Default: "If you check this box, item creators will only be able to create new items using an item template, no more item from scratch."
+msgid "item_created_only_using_template_descr"
+msgstr "Si vous cochez cette case, les créateurs de points devront obligatoirement sélectionner un modèle pour créer un nouveau point, ils ne pourront plus créer un point vierge."
 
 #. Default: "Choose decided state for an item"
 msgid "item_decided_states_descr"

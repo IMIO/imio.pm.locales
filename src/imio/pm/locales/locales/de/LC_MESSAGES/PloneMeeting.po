@@ -749,6 +749,10 @@ msgstr "Interface das es erlaubt einen speziellen Zope 3-Adapter zu verwenden um
 msgid "PloneMeeting_label_itemCopyGroupsStates"
 msgstr ""
 
+#. Default: "Only create items using item templates"
+msgid "PloneMeeting_label_itemCreatedOnlyUsingTemplate"
+msgstr ""
+
 #. Default: "Item decided states"
 msgid "PloneMeeting_label_itemDecidedStates"
 msgstr ""
@@ -2770,6 +2774,10 @@ msgstr "Im Arbeitsablauf der TOP werden die Statusübergänge von boolschen Ausd
 
 #. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red';>If you change this parameter, do not forget to update copy groups!</span>"
 msgid "item_copygroups_states_descr"
+msgstr ""
+
+#. Default: "If you check this box, item creators will only be able to create new items using an item template, no more item from scratch."
+msgid "item_created_only_using_template_descr"
 msgstr ""
 
 #. Default: "Choose decided state for an item"

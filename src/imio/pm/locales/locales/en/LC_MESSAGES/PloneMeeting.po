@@ -749,6 +749,10 @@ msgstr "Interface allowing to use a specific Zope3 adapter for modifying the con
 msgid "PloneMeeting_label_itemCopyGroupsStates"
 msgstr "Item states allowing copy groups to view the item"
 
+#. Default: "Only create items using item templates"
+msgid "PloneMeeting_label_itemCreatedOnlyUsingTemplate"
+msgstr ""
+
 #. Default: "Item decided states"
 msgid "PloneMeeting_label_itemDecidedStates"
 msgstr "Item decided states"
@@ -2746,6 +2750,10 @@ msgstr "On the item workflow, some boolean expressions guard the execution of th
 #. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red';>If you change this parameter, do not forget to update copy groups!</span>"
 msgid "item_copygroups_states_descr"
 msgstr "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red';>If you change this parameter, do not forget to update copy groups!</span>"
+
+#. Default: "If you check this box, item creators will only be able to create new items using an item template, no more item from scratch."
+msgid "item_created_only_using_template_descr"
+msgstr ""
 
 #. Default: "Choose decided state for an item"
 msgid "item_decided_states_descr"

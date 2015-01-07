@@ -753,6 +753,10 @@ msgstr "La interfaz siguiente es usada para un especifico adaptador de Zope3 par
 msgid "PloneMeeting_label_itemCopyGroupsStates"
 msgstr "Estados de temas que permiten copiar grupos para ver el tema"
 
+#. Default: "Only create items using item templates"
+msgid "PloneMeeting_label_itemCreatedOnlyUsingTemplate"
+msgstr ""
+
 #. Default: "Item decided states"
 msgid "PloneMeeting_label_itemDecidedStates"
 msgstr "Estados de los temas decididos"
@@ -2759,6 +2763,10 @@ msgstr "En el flujo de trabajo de tema, algún expresiones booleanas guardan la 
 #. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red';>If you change this parameter, do not forget to update copy groups!</span>"
 msgid "item_copygroups_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados a los que decide aquí, va a ser visible para los grupos de copia. <span style='color: red';>¡Si cambia este parámetro, no se olvide de actualizar los grupos de copia!</span>"
+
+#. Default: "If you check this box, item creators will only be able to create new items using an item template, no more item from scratch."
+msgid "item_created_only_using_template_descr"
+msgstr ""
 
 #. Default: "Choose decided state for an item"
 msgid "item_decided_states_descr"
