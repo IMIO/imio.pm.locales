@@ -4047,6 +4047,10 @@ msgstr "avis à donner (sans délai)"
 msgid "searchitemstocorrect"
 msgstr "Points à corriger"
 
+#. Default: "Items to pre validate"
+msgid "searchitemstoprevalidate"
+msgstr "Points à pré-valider"
+
 #. Default: "Items to validate"
 msgid "searchitemstovalidate"
 msgstr "Points à valider"
@@ -4499,7 +4503,7 @@ msgstr "Pré-validation des points"
 
 #. Default: "Item pre-validation (reviewer may also prevalidate)"
 msgid "wa_pre_validation_keep_reviewer_permissions"
-msgstr "Pré-validation des points (un validateur peut aussi prévalider)"
+msgstr "Pré-validation des points (un validateur peut aussi pré-valider)"
 
 #. Default: "Return to proposing group for corrections"
 msgid "wa_return_to_proposing_group"
@@ -4548,4 +4552,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
