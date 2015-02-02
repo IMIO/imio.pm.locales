@@ -1875,7 +1875,7 @@ msgstr "Bitte geben Sie eine Kategorie an."
 msgid "category_using_groups_descr"
 msgstr ""
 
-#. Default: "Define here the signatures that will be used on templates as certified signatures.  This field will need to be updated regularly to match existing situation."
+#. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
 msgid "certified_signatures_descr"
 msgstr ""
 
@@ -2245,6 +2245,18 @@ msgstr "Wenn die Pflichtkommentare eingerichtet sind, kann ein TOP errst zu eine
 
 #. Default: "You can not select several categories for the same meeting config."
 msgid "error_can_not_select_several_cat_for_same_mc"
+msgstr ""
+
+#. Default: "If you define a validity date for a signature, you need to define both from and to dates at row number ${row_number}.  If a signature is always valid, just leave dates fields empty."
+msgid "error_certified_signatures_both_dates_required"
+msgstr ""
+
+#. Default: "Please make sure encoded dates are valid at row number ${row_number}.  Use format 'YYYY/MM/DD', make sure date are valid and that date from is lower or equals to date to."
+msgid "error_certified_signatures_invalid_dates"
+msgstr ""
+
+#. Default: "Signatures must be ordered by signature number, please check and order signature using the arrows on the right of the table."
+msgid "error_certified_signatures_order"
 msgstr ""
 
 #. Default: "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."

@@ -1874,7 +1874,8 @@ msgstr "Por favor especifique una categoría."
 msgid "category_using_groups_descr"
 msgstr "Seleccione los grupos que serán capaces de utilizar esta categoría. Si cada grupo deben ser capaces de utilizar este categoría, no seleccione nada. Presione la combinación de teclas 'CTRL + clic' para seleccionar varios categorías."
 
-#. Default: "Define here the signatures that will be used on templates as certified signatures.  This field will need to be updated regularly to match existing situation."
+#. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
+#, fuzzy
 msgid "certified_signatures_descr"
 msgstr "Defina aquí las firmas que serán usadas en las plantillas como firmas certificadas. Este campo, tendrá que ser actualizado periódicamente para que coincida con la situación existente este campo."
 
@@ -2241,6 +2242,18 @@ msgstr "Cuando el consejo obligatorio es forzado, un tema no puede ser insertado
 
 #. Default: "You can not select several categories for the same meeting config."
 msgid "error_can_not_select_several_cat_for_same_mc"
+msgstr ""
+
+#. Default: "If you define a validity date for a signature, you need to define both from and to dates at row number ${row_number}.  If a signature is always valid, just leave dates fields empty."
+msgid "error_certified_signatures_both_dates_required"
+msgstr ""
+
+#. Default: "Please make sure encoded dates are valid at row number ${row_number}.  Use format 'YYYY/MM/DD', make sure date are valid and that date from is lower or equals to date to."
+msgid "error_certified_signatures_invalid_dates"
+msgstr ""
+
+#. Default: "Signatures must be ordered by signature number, please check and order signature using the arrows on the right of the table."
+msgid "error_certified_signatures_order"
 msgstr ""
 
 #. Default: "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."

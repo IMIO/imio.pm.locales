@@ -1853,7 +1853,7 @@ msgstr ""
 msgid "PloneMeeting_label_certifiedSignatures"
 msgstr ""
 
-#. Default: "Define here the signatures that will be used on templates as certified signatures.  This field will need to be updated regularly to match existing situation."
+#. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
 msgid "certified_signatures_descr"
 msgstr ""
 
@@ -4557,4 +4557,16 @@ msgstr ""
 
 #. Default: "If you check this box, item creators will only be able to create new items using an item template, no more item from scratch."
 msgid "item_created_only_using_template_descr"
+msgstr ""
+
+#. Default: "Signatures must be ordered by signature number, please check and order signature using the arrows on the right of the table."
+msgid "error_certified_signatures_order"
+msgstr ""
+
+#. Default: "If you define a validity date for a signature, you need to define both from and to dates at row number ${row_number}.  If a signature is always valid, just leave dates fields empty."
+msgid "error_certified_signatures_both_dates_required"
+msgstr ""
+
+#. Default: "Please make sure encoded dates are valid at row number ${row_number}.  Use format 'YYYY/MM/DD', make sure date are valid and that date from is lower or equals to date to."
+msgid "error_certified_signatures_invalid_dates"
 msgstr ""

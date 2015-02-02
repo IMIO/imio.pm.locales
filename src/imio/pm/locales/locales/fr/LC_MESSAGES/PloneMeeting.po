@@ -1863,9 +1863,9 @@ msgstr "Veuillez spécifier une catégorie."
 msgid "category_using_groups_descr"
 msgstr "Sélectionnez les groupes qui pourront utiliser cette catégorie.  Si tous les groupes doivent pouvoir utiliser cette catégorie, ne sélectionnez aucun groupe.  Vous pouvez choisir plusieurs groupes en maintenant la touche 'Ctrl' enfoncée."
 
-#. Default: "Define here the signatures that will be used on templates as certified signatures.  This field will need to be updated regularly to match existing situation."
+#. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
 msgid "certified_signatures_descr"
-msgstr "Définissez ici les signatures certifiées conformes qui pourront être utilisées lors de la génération de divers documents.  Ce champ devra être maintenu à jour pour refléter la situation réelle dans votre organisation (changement de signataires certifiés)."
+msgstr "Définissez ici les signatures certifiées conformes qui pourront être utilisées lors de la génération de divers documents.  Vous pouvez définir plusieurs lignes pour la même signature (même numéro) avec une période de validité différente.  Par numéro de signature, la première signature trouvée et valide sera utilisée."
 
 #. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
 msgid "change_completeness_comment"
@@ -2231,6 +2231,18 @@ msgstr "Quand le caractère obligatoire des avis est d'application, un point ne 
 #. Default: "You can not select several categories for the same meeting config."
 msgid "error_can_not_select_several_cat_for_same_mc"
 msgstr "Vous ne pouvez pas sélectionner plusieurs catégories pour la même configuration de séance."
+
+#. Default: "If you define a validity date for a signature, you need to define both from and to dates at row number ${row_number}.  If a signature is always valid, just leave dates fields empty."
+msgid "error_certified_signatures_both_dates_required"
+msgstr "Veuillez vérifier les dates encodées à la ligne ${row_number}.  Si vous définissez une date de validité pour une signature, veuillez renseigner une date de fin et une date de début.  Si une signature doit toujours être valide, laissez les champs dates vides."
+
+#. Default: "Please make sure encoded dates are valid at row number ${row_number}.  Use format 'YYYY/MM/DD', make sure date are valid and that date from is lower or equals to date to."
+msgid "error_certified_signatures_invalid_dates"
+msgstr "Veuillez vérifier les dates encodées à la ligne ${row_number}.  Utilisez le format 'AAAA/MM/JJ', vérifiez que les dates encodées sont valides et que la date de début est bien inférieure ou égale à la date de fin."
+
+#. Default: "Signatures must be ordered by signature number, please check and order signature using the arrows on the right of the table."
+msgid "error_certified_signatures_order"
+msgstr "Les signatures doivent être ordonnées par numéro de signature, vérifiez les numéros de signatures et utilisez les flèches à la droite du tableau pour les ordonner correctement."
 
 #. Default: "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."
 msgid "eventOccurred_mail_body"
