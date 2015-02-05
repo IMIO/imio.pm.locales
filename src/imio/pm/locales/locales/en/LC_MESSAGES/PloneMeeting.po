@@ -751,7 +751,7 @@ msgstr "Item states allowing copy groups to view the item"
 
 #. Default: "Only create items using item templates"
 msgid "PloneMeeting_label_itemCreatedOnlyUsingTemplate"
-msgstr ""
+msgstr "Only create items using item templates"
 
 #. Default: "Item decided states"
 msgid "PloneMeeting_label_itemDecidedStates"
@@ -1331,7 +1331,7 @@ msgstr "Taken over by ${fullname}"
 
 #. Default: "The annex that you just added has a large size and could be difficult to download by users wanting to view it!"
 msgid "The annex that you just added has a large size and could be difficult to download by users wanting to view it!"
-msgstr ""
+msgstr "The annex that you just added has a large size and could be difficult to download by users wanting to view it!"
 
 #. Default: "The field here above is not used, check the 'users' tab."
 msgid "The field here above is not used, check the 'users' tab."
@@ -1624,7 +1624,7 @@ msgstr "The annex is confidential.  Click on the image to set it as not confiden
 
 #. Default: "Annex size is huge, it could be difficult to be downloaded!"
 msgid "annex_size_warning"
-msgstr ""
+msgstr "Annex size is huge, it could be difficult to be downloaded!"
 
 #. Default: "Title"
 msgid "annex_title"
@@ -1864,9 +1864,8 @@ msgid "category_using_groups_descr"
 msgstr "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
 
 #. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
-#, fuzzy
 msgid "certified_signatures_descr"
-msgstr "Define here the signatures that will be used on templates as certified signatures.  This field will need to be updated regularly to match existing situation."
+msgstr "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
 
 #. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
 msgid "change_completeness_comment"
@@ -2235,15 +2234,15 @@ msgstr "You can not select several categories for the same meeting config."
 
 #. Default: "If you define a validity date for a signature, you need to define both from and to dates at row number ${row_number}.  If a signature is always valid, just leave dates fields empty."
 msgid "error_certified_signatures_both_dates_required"
-msgstr ""
+msgstr "If you define a validity date for a signature, you need to define both from and to dates at row number ${row_number}.  If a signature is always valid, just leave dates fields empty."
 
 #. Default: "Please make sure encoded dates are valid at row number ${row_number}.  Use format 'YYYY/MM/DD', make sure date are valid and that date from is lower or equals to date to."
 msgid "error_certified_signatures_invalid_dates"
-msgstr ""
+msgstr "Please make sure encoded dates are valid at row number ${row_number}.  Use format 'YYYY/MM/DD', make sure date are valid and that date from is lower or equals to date to."
 
 #. Default: "Signatures must be ordered by signature number, please check and order signature using the arrows on the right of the table."
 msgid "error_certified_signatures_order"
-msgstr ""
+msgstr "Signatures must be ordered by signature number, please check and order signature using the arrows on the right of the table."
 
 #. Default: "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."
 msgid "eventOccurred_mail_body"
@@ -2766,7 +2765,7 @@ msgstr "When an item is in one of the states you choose here, it will be viewabl
 
 #. Default: "If you check this box, item creators will only be able to create new items using an item template, no more item from scratch."
 msgid "item_created_only_using_template_descr"
-msgstr ""
+msgstr "If you check this box, item creators will only be able to create new items using an item template, no more item from scratch."
 
 #. Default: "Choose decided state for an item"
 msgid "item_decided_states_descr"
@@ -3296,6 +3295,10 @@ msgstr "Item decision annex"
 msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups"
 msgstr "As the group has been deactivated, it has been removed from the 'selectable copy groups' field of every meeting configs."
 
+#. Default: "Meeting managers"
+msgid "meetingmanagers"
+msgstr "Meeting managers"
+
 #. Default: "Metadata"
 msgid "metadata"
 msgstr "Metadata"
@@ -3419,7 +3422,7 @@ msgstr "No visible item for now."
 
 #. Default: "No visible item on this page, <span style='color: red;'>please check other meeting pages.</span>"
 msgid "no_shown_items_check_other_meeting_pages"
-msgstr ""
+msgstr "No visible item on this page, <span style='color: red;'>please check other meeting pages.</span>"
 
 #. Default: "Attributes 'signatures' and 'signatories' can't be used together."
 msgid "no_signatories_and_signatures"
@@ -3640,11 +3643,11 @@ msgstr "Warning: take care that launching these updates may take time, depending
 
 #. Default: "Initialize every existing advice confidentiality"
 msgid "pm_update_advice_confidentiality"
-msgstr ""
+msgstr "Initialize every existing advice confidentiality"
 
 #. Default: "Warning: the action 'Initialize existing advices confidentiality' will initialize every existing advice confidentiality to what is defined as default value in this meeting configuration (check the field 'Advice confidentiality default value' of the 'Advices and access' tab)."
 msgid "pm_update_advice_confidentiality_warning"
-msgstr ""
+msgstr "Warning: the action 'Initialize existing advices confidentiality' will initialize every existing advice confidentiality to what is defined as default value in this meeting configuration (check the field 'Advice confidentiality default value' of the 'Advices and access' tab)."
 
 #. Default: "Update all advices"
 msgid "pm_update_all_advices"
@@ -3652,11 +3655,11 @@ msgstr "Update all advices"
 
 #. Default: "Initialize every existing annex confidentiality"
 msgid "pm_update_annex_confidentiality"
-msgstr ""
+msgstr "Initialize every existing annex confidentiality"
 
 #. Default: "Warning: the action 'Initialize existing annexes confidentiality' will initialize every existing annex confidentiality to what is defined in the corresponding annex type (check the 'Annex types' in the 'Data' tab)."
 msgid "pm_update_annex_confidentiality_warning"
-msgstr ""
+msgstr "Warning: the action 'Initialize existing annexes confidentiality' will initialize every existing annex confidentiality to what is defined in the corresponding annex type (check the 'Annex types' in the 'Data' tab)."
 
 #. Default: "Update annex indexes"
 msgid "pm_update_annex_indexes"
@@ -4052,7 +4055,7 @@ msgstr "items to correct"
 
 #. Default: "Items to pre validate"
 msgid "searchitemstoprevalidate"
-msgstr ""
+msgstr "Items to pre validate"
 
 #. Default: "Items to validate"
 msgid "searchitemstovalidate"
@@ -4551,4 +4554,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

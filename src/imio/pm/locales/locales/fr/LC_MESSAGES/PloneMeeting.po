@@ -113,7 +113,7 @@ msgstr "Choisissez le groupe au nom duquel l'avis sera remis."
 
 #. Default: "Choose an advice type."
 msgid "Choose an advice type."
-msgstr "Choissisez un type d'avis."
+msgstr "Choisissez un type d'avis."
 
 #. Default: "Item classifiers"
 msgid "Classifiers"
@@ -3294,6 +3294,10 @@ msgstr "Annexe après décision d'un point"
 msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups"
 msgstr "Comme le groupe a été désactivé, il a été enlevé des 'Groupes qui pourront être mis en copie' (onglet [Avis et accès]) de chaque configuration de séance."
 
+#. Default: "Meeting managers"
+msgid "meetingmanagers"
+msgstr "Gestionnaires de séances"
+
 #. Default: "Metadata"
 msgid "metadata"
 msgstr "Méta-données"
@@ -4548,4 +4552,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
