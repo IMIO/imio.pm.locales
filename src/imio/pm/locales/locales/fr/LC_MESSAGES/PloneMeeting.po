@@ -662,7 +662,7 @@ msgid "PloneMeeting_label_gender"
 msgstr "Genre"
 
 #. Default: "Group certified signatures"
-msgid "PloneMeeting_label_group_signatures"
+msgid "PloneMeeting_label_group_certified_signatures"
 msgstr "Délégation de signatures certifiées conformes"
 
 #. Default: "Hide item history comments to users outside proposing group"
@@ -2445,6 +2445,10 @@ msgstr "Aller à la page contenant le point"
 msgid "goto_previous"
 msgstr "Consulter les ${number} éléments précédents"
 
+#. Default: "Leave empty to use the signatures defined on the meeting."
+msgid "group_certified_signatures_descr"
+msgstr "Si vous spécifiez des signatures dans ce champ, elle seront utilisées pour les points proposés par ce groupe, si le champ est vide, les signatures définies dans la configuration de séance seront utilisées."
+
 #. Default: "Active?"
 msgid "group_is_active"
 msgstr "Actif?"
@@ -2460,10 +2464,6 @@ msgstr "Quand un point est dans un des états que vous sélectionnez ici, il ser
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser selected on this item to continue to view the item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "group_item_advice_view_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour un aviseur sélectionné sur ce point de voir le point. Si vous ne spécifiez aucun état ici, une liste d'états globale à tous les groupes, définie au niveau de la configuration de séance, sera utilisée à la place.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les avis!</span>"
-
-#. Default: "Leave empty to use the signatures defined on the meeting."
-msgid "group_signatures_descr"
-msgstr "Si vous spécifiez des signatures dans ce champ, elle seront utilisées pour les points proposés par ce groupe, si le champ est vide, les signatures définies dans la configuration de séance seront utilisées."
 
 #. Default: "User interface"
 msgid "gui"

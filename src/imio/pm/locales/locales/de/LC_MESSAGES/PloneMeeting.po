@@ -662,7 +662,7 @@ msgid "PloneMeeting_label_gender"
 msgstr "Geschlecht"
 
 #. Default: "Group certified signatures"
-msgid "PloneMeeting_label_group_signatures"
+msgid "PloneMeeting_label_group_certified_signatures"
 msgstr ""
 
 #. Default: "Hide item history comments to users outside proposing group"
@@ -2460,6 +2460,10 @@ msgstr "Gehe zur Seite mit TOP"
 msgid "goto_previous"
 msgstr "Gehe zu den vorherigen ${number} Elementen"
 
+#. Default: "Leave empty to use the signatures defined on the meeting."
+msgid "group_certified_signatures_descr"
+msgstr ""
+
 #. Default: "Active?"
 msgid "group_is_active"
 msgstr "Aktiv?"
@@ -2475,10 +2479,6 @@ msgstr "Wenn ein TOP in einem Status ist, den Sie hier definieren, ist es für e
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser selected on this item to continue to view the item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "group_item_advice_view_states_descr"
-msgstr ""
-
-#. Default: "Leave empty to use the signatures defined on the meeting."
-msgid "group_signatures_descr"
 msgstr ""
 
 #. Default: "User interface"
