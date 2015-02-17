@@ -1811,6 +1811,10 @@ msgstr "Ce point a des informations budgétaires, consultez le champ 'Informatio
 msgid "budgetimpacteditors"
 msgstr "Gestionnaires d'informations budgétaires"
 
+#. Default: "You can not access this item"
+msgid "can_not_access_this_item"
+msgstr "Vous ne pouvez pas accéder à ce point"
+
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "Ce point ne peut plus être renvoyé vers les gestionnaires de séance car la séance dans laquelle ce point est présenté est dans un état qui ne l'autorise pas (${meetingState})."

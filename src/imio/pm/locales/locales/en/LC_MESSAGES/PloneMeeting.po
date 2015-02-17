@@ -1811,6 +1811,10 @@ msgstr "This item is budget related, check 'Budgetary informations' here under."
 msgid "budgetimpacteditors"
 msgstr "Budget impact editors"
 
+#. Default: "You can not access this item"
+msgid "can_not_access_this_item"
+msgstr ""
+
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
@@ -4554,3 +4558,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+
