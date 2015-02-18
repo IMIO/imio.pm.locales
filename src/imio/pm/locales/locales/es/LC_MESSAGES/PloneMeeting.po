@@ -4161,7 +4161,8 @@ msgstr "Firmas"
 msgid "signatures_defined_on_meeting"
 msgstr "Firmas como se definen en la reunión vinculada"
 
-#. Default: "Define here the default signatures that will be automatically selected on newly created meetings. This will be applicable only if you use attribute 'Signatures' for meetings."
+#. Default: "Define here the default signatures that will be automatically selected on newly created meetings. Use 2 lines by signature, one for the function and one for the signatory name. This will be applicable only if you use attribute 'Signatures' for meetings."
+#, fuzzy
 msgid "signatures_descr"
 msgstr "Definir aquí las firmas por defecto que se seleccionará automáticamente en las nuevas creaciones de reuniones. Esto será aplicable sólo si se utiliza el atributo 'Firmas' para las reuniones."
 

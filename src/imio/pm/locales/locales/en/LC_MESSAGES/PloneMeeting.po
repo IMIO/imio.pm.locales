@@ -4135,9 +4135,9 @@ msgstr "Signatures"
 msgid "signatures_defined_on_meeting"
 msgstr "Signatures as defined on the linked meeting"
 
-#. Default: "Define here the default signatures that will be automatically selected on newly created meetings. This will be applicable only if you use attribute 'Signatures' for meetings."
+#. Default: "Define here the default signatures that will be automatically selected on newly created meetings. Use 2 lines by signature, one for the function and one for the signatory name. This will be applicable only if you use attribute 'Signatures' for meetings."
 msgid "signatures_descr"
-msgstr "Define here the default signatures that will be automatically selected on newly created meetings. This will be applicable only if you use attribute 'Signatures' for meetings."
+msgstr "Define here the default signatures that will be automatically selected on newly created meetings. Use 2 lines by signature, one for the function and one for the signatory name. This will be applicable only if you use attribute 'Signatures' for meetings."
 
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
@@ -4558,4 +4558,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

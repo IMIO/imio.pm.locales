@@ -4133,9 +4133,9 @@ msgstr "Signatures"
 msgid "signatures_defined_on_meeting"
 msgstr "Signatures définies sur la séance"
 
-#. Default: "Define here the default signatures that will be automatically selected on newly created meetings. This will be applicable only if you use attribute 'Signatures' for meetings."
+#. Default: "Define here the default signatures that will be automatically selected on newly created meetings. Use 2 lines by signature, one for the function and one for the signatory name. This will be applicable only if you use attribute 'Signatures' for meetings."
 msgid "signatures_descr"
-msgstr "Définissez ici les signatures par défaut qui seront automatiquement sélectionnées sur les séances nouvellement créées. Ceci fonctionnera uniquement si vous utilisez l'attribut 'signatures' sur les séances."
+msgstr "Définissez ici les signatures par défaut qui seront automatiquement sélectionnées sur les séances nouvellement créées. Utilisez 2 lignes par signature, une ligne pour la fonction et une ligne pour le nom du signataire. Ceci fonctionnera uniquement si vous utilisez l'attribut 'signatures' sur les séances."
 
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"

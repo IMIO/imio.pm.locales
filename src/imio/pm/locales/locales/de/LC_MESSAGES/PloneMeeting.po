@@ -4170,7 +4170,8 @@ msgstr "Unterschriften"
 msgid "signatures_defined_on_meeting"
 msgstr ""
 
-#. Default: "Define here the default signatures that will be automatically selected on newly created meetings. This will be applicable only if you use attribute 'Signatures' for meetings."
+#. Default: "Define here the default signatures that will be automatically selected on newly created meetings. Use 2 lines by signature, one for the function and one for the signatory name. This will be applicable only if you use attribute 'Signatures' for meetings."
+#, fuzzy
 msgid "signatures_descr"
 msgstr "Definieren Sie hier die Standard Unterschriften die automatsich beim erstellen einer neuen Sitzung ausgewählt werden. Das wird nur ausgeführt, wenn das Attribut 'Unterschriften' für Sitzungen ausgewählt wurde."
 
