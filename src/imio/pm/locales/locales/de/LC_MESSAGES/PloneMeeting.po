@@ -1787,6 +1787,10 @@ msgstr "Bezeichnen Sie hier welche Sprachpakete Sie für Tesseract installiert h
 msgid "back"
 msgstr "Zurück"
 
+#. Default: "Blank line"
+msgid "blank_line"
+msgstr ""
+
 #. Default: "No"
 msgid "boolean_value_false"
 msgstr ""
@@ -2209,6 +2213,10 @@ msgstr ""
 
 #. Default: "Emergency refused"
 msgid "emergency_refused"
+msgstr ""
+
+#. Default: " "
+msgid "empty_description"
 msgstr ""
 
 #. Default: "If you enable advice confidentiality, it will be possible for meeting managers to select on every advices if it is confidential or not.  This information is only visible to meeting managers."
@@ -3568,7 +3576,7 @@ msgstr "Wenn Sie aus TOP oder Sitzungen Dokumente im DOC-, PDF- oder RTF-Format 
 msgid "optional_advisers_item_descr"
 msgstr "Wähle Berater welche zu diesem TOP einen optionalen Kommentar abgeben sollen"
 
-#. Default: ""
+#. Default: " "
 msgid "oral_question_item_descr"
 msgstr ""
 
@@ -3744,11 +3752,6 @@ msgstr "Nur Benutzer mit den hier spezifizierten nötigen Rechten können Dokume
 #. Default: "This template must be an ODT (Open Document Format Text) document as produced by OpenOffice for example. This template should also contain special instructions that allow to insert Plone content into it. The format of those instructions is defined by the POD (Python Open Document) library. You can learn how to write an ODT document containing POD instructions <a href=\"http://appyframework.org/pod.html\">here</a>."
 msgid "pod_template_descr"
 msgstr "Diese Vorlage muss ein ODT-Dokument (Open Document Format text) sein, wie es z.B. durch OpenOffice erstellt wird. Diese Vorlage muss auch spezielle Befehle erhalten die es ermöglichen Inhalte, die aus der Zope/Plone Datenbank stammen, einzufügen. Das Format dieser Befehle wird durch die POD Bibliothek (Python Open Document) definiert. Sie können <a href=\"http://appyframework.org/pod.html\">hier</a> erlernen wie diese ODT-Dateien mit POD-Befehle geschrieben werden."
-
-# PodTemplate
-#. Default: ""
-msgid "pod_template_description"
-msgstr " "
 
 #. Default: "Active ?"
 msgid "pod_template_is_active"

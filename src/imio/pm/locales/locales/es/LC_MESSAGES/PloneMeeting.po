@@ -1786,6 +1786,10 @@ msgstr "Especifique aquí los paquetes de idiomas que haya instalado para Tesser
 msgid "back"
 msgstr "Volver"
 
+#. Default: "Blank line"
+msgid "blank_line"
+msgstr ""
+
 #. Default: "No"
 msgid "boolean_value_false"
 msgstr ""
@@ -2206,6 +2210,10 @@ msgstr ""
 
 #. Default: "Emergency refused"
 msgid "emergency_refused"
+msgstr ""
+
+#. Default: " "
+msgid "empty_description"
 msgstr ""
 
 #. Default: "If you enable advice confidentiality, it will be possible for meeting managers to select on every advices if it is confidential or not.  This information is only visible to meeting managers."
@@ -3556,7 +3564,7 @@ msgstr "Si usted quiere generar tema o documentos relacionados con las reuniones
 msgid "optional_advisers_item_descr"
 msgstr "Elegir los consejos que tendrá que usar como un consejo opcional para este tema"
 
-#. Default: ""
+#. Default: " "
 msgid "oral_question_item_descr"
 msgstr ""
 
@@ -3733,11 +3741,6 @@ msgstr "Solamente los usuarios que tienen permiso(s) específicos aquí podrán 
 #. Default: "This template must be an ODT (Open Document Format Text) document as produced by OpenOffice for example. This template should also contain special instructions that allow to insert Plone content into it. The format of those instructions is defined by the POD (Python Open Document) library. You can learn how to write an ODT document containing POD instructions <a href=\"http://appyframework.org/pod.html\">here</a>."
 msgid "pod_template_descr"
 msgstr "Esta plantilla debe ser un documento ODT (Open Document Format Text) producido por OpenOffice.org por ejemplo. Esta plantilla debería también contener instrucciones especiales que permiten insertar contenido de Plone dentro de la misma. El formato de estas instrucciones son definidas por la librería POD (Python Open Document). Usted puede aprender ¿cómo se escribe un documento ODT conteniendo instrucciones POD? <a href=\"http://appyframework.org/pod.html\">aquí</a>."
-
-# PodTemplate
-#. Default: ""
-msgid "pod_template_description"
-msgstr "Descripción de plantilla POD"
 
 #. Default: "Active ?"
 msgid "pod_template_is_active"

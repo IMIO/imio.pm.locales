@@ -1775,6 +1775,10 @@ msgstr "Spécifiez ici quels fichiers de langues vous avez installés pour Tesse
 msgid "back"
 msgstr "Retour"
 
+#. Default: "Blank line"
+msgid "blank_line"
+msgstr "Ligne vide"
+
 #. Default: "No"
 msgid "boolean_value_false"
 msgstr "Non"
@@ -1853,7 +1857,7 @@ msgstr "Choisissez ici un identifiant pour votre catégorie."
 
 #. Default: "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
-msgstr "Lorsqu'un point de cette configuration de séance utilisant cette catégorie sera envoyé vers une autre configuration de séance, sélectionnez ci-dessous la catégorie qui devra être utilisée pour le point dans la configuration de séance de destination.  Ceci n'a de sens que si les deux configurations de séance (origine et destination) utilisent les catégories."
+msgstr "Lorsqu'un point de cette configuration de séance utilisant cette catégorie sera envoyé vers une autre configuration de séance, sélectionnez ci-dessous la catégorie qui devra être utilisée pour le point dans la configuration de séance de destination.  Ceci n'est possible que si les deux configurations de séance (origine et destination) utilisent les catégories."
 
 #. Default: "Category (or proposing group)"
 msgid "category_or_proposing_group"
@@ -2195,6 +2199,10 @@ msgstr "Commentaire"
 #. Default: "Emergency refused"
 msgid "emergency_refused"
 msgstr "Urgence refusée"
+
+#. Default: " "
+msgid "empty_description"
+msgstr " "
 
 #. Default: "If you enable advice confidentiality, it will be possible for meeting managers to select on every advices if it is confidential or not.  This information is only visible to meeting managers."
 msgid "enable_advice_confidentiality_descr"
@@ -3251,7 +3259,7 @@ msgstr "Cette section permet de paramétrer la fonctionnalité de gestion des av
 # MeetingConfig
 #. Default: "This sections lets meeting managers define default assembly and signatures to use."
 msgid "meetingconfig_assembly_and_signatures_descr"
-msgstr "Les paramètres définis ici peuvent être édités par les gestionnaires de séances afin de définir les assemblées et signatures à utiliser."
+msgstr "Les paramètres définis ici peuvent être édités par les gestionnaires de séances afin de définir l'assemblée et les signatures à utiliser."
 
 #. Default: "Parameters in this section allow to customize some elements linked to attributes of and associations between the 2 main content types managed by PloneMeeting: items and meetings."
 msgid "meetingconfig_data_descr"
@@ -3535,7 +3543,7 @@ msgstr "Si vous voulez générer les documents liés aux points et séances en D
 msgid "optional_advisers_item_descr"
 msgstr "Choisissez-en plusieurs en maintenant la touche 'Ctrl' enfoncée."
 
-#. Default: ""
+#. Default: " "
 msgid "oral_question_item_descr"
 msgstr " "
 
@@ -3711,11 +3719,6 @@ msgstr "Seuls les utilisateurs ayant la (les) permission(s) spécifiée(s) ici s
 #. Default: "This template must be an ODT (Open Document Format Text) document as produced by OpenOffice for example. This template should also contain special instructions that allow to insert Plone content into it. The format of those instructions is defined by the POD (Python Open Document) library. You can learn how to write an ODT document containing POD instructions <a href=\"http://appyframework.org/pod.html\">here</a>."
 msgid "pod_template_descr"
 msgstr "Ce canevas doit être un document ODT (Open Document Format text) tel que produit par OpenOffice par exemple. Ce canevas devrait aussi contenir des instructions spéciales qui permettent d'y insérer du contenu provenant de la base de données Zope/Plone. Le format de ces instructions est défini par la librairie POD (Python Open Document). Vous pouvez apprendre à écrire des fichiers ODT contenant des instructions POD <a href=\"http://appyframework.org/pod.html\">ici</a>."
-
-# PodTemplate
-#. Default: ""
-msgid "pod_template_description"
-msgstr " "
 
 #. Default: "Active ?"
 msgid "pod_template_is_active"

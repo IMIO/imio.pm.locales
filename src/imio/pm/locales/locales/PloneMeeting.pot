@@ -216,7 +216,7 @@ msgstr ""
 msgid "PloneMeeting_label_oralQuestion"
 msgstr ""
 
-#. Default: ""
+#. Default: " "
 msgid "oral_question_item_descr"
 msgstr ""
 
@@ -3549,6 +3549,10 @@ msgstr ""
 msgid "plonemeeting_delete_meeting_confirm_message"
 msgstr ""
 
+#. Default: "Blank line"
+msgid "blank_line"
+msgstr ""
+
 #. Default: "Are you sure?"
 msgid "are_you_sure"
 msgstr ""
@@ -3565,9 +3569,8 @@ msgstr ""
 msgid "items_count"
 msgstr ""
 
-# PodTemplate
-#. Default: ""
-msgid "pod_template_description"
+#. Default: " "
+msgid "empty_description"
 msgstr ""
 
 #. Default: "POD template (ODT file)"
