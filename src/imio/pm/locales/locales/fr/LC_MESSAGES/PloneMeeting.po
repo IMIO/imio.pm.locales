@@ -858,6 +858,10 @@ msgstr "Mode d'envoi des courriels"
 msgid "PloneMeeting_label_mailingLists"
 msgstr "Listes de diffusion"
 
+#. Default: "Manually linked items"
+msgid "PloneMeeting_label_manuallyLinkedItems"
+msgstr "Point(s) lié(s) manuellement"
+
 #. Default: "Maximum number of days during which decisions may appear direclty in the 'decisions' portlet."
 msgid "PloneMeeting_label_maxDaysDecisions"
 msgstr "Nombre maximum de jours durant lesquels les décisions apparaissent directement dans la portlet 'décisions'"
@@ -1047,9 +1051,9 @@ msgstr "Observations pour la réunion préparatoire"
 msgid "PloneMeeting_label_preObservations2"
 msgstr "Observations pour la réunion préparatoire"
 
-#. Default: "Linked items"
+#. Default: "Previous item"
 msgid "PloneMeeting_label_predecessor"
-msgstr "Point(s) lié(s)"
+msgstr "Point précédent"
 
 #. Default: "Predefined title that will be assigned to every uploaded file having this type"
 msgid "PloneMeeting_label_predefinedTitle"
@@ -1758,6 +1762,10 @@ msgstr "Présents pour ce point"
 #. Default: "Using attribute(s) 'excused' and/or 'absents' requires the use of attribute 'attendees'."
 msgid "attendees_required"
 msgstr "L'usage de(s) l'(les) attribut(s) 'excusés' et/ou 'absents' requiert celui de l'attribut 'présents'."
+
+#. Default: "Automatically linked items"
+msgid "auto_linked_items"
+msgstr "Point(s) lié(s) automatiquement"
 
 #. Default: "If you let this field blank, the user interface will be presented in the language defined by the user's browser. If you encode a list of comma-separated ISO 2-chars language codes, the user interface language will be chosen by the user in a dropdown containing one entry per encoded language code."
 msgid "available_interface_languages_descr"
@@ -2996,6 +3004,14 @@ msgstr "Cette personne a quitté la séance pendant la discussion sur ce point."
 #. Default: "--- Do nothing, let the item in the workflow initial state ---"
 msgid "let_item_in_initial_state"
 msgstr "--- Ne rien faire, laisser le point dans son état initial ---"
+
+#. Default: "Linked items (${auto_linked_items})"
+msgid "linked_items"
+msgstr "Point(s) lié(s) (${auto_linked_items})"
+
+#. Default: "Linked items, ${auto_linked_items} automatically and ${manually_linked_items} manually"
+msgid "linked_items_with_manually_linked_items"
+msgstr "Point(s) lié(s), ${auto_linked_items} automatiquement et ${manually_linked_items} manuellement"
 
 #. Default: "Purpose"
 msgid "listingheader_item_title"
@@ -4567,3 +4583,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+

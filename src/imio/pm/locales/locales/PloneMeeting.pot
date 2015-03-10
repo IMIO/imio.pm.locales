@@ -348,7 +348,7 @@ msgstr ""
 msgid "PloneMeeting_label_votesAreSecret"
 msgstr ""
 
-#. Default: "Linked items"
+#. Default: "Previous item"
 msgid "PloneMeeting_label_predecessor"
 msgstr ""
 
@@ -3567,6 +3567,22 @@ msgstr ""
 
 #. Default: "item(s)"
 msgid "items_count"
+msgstr ""
+
+#. Default: "Linked items, ${auto_linked_items} automatically and ${manually_linked_items} manually"
+msgid "linked_items_with_manually_linked_items"
+msgstr ""
+
+#. Default: "Linked items (${auto_linked_items})"
+msgid "linked_items"
+msgstr ""
+
+#. Default: "Automatically linked items"
+msgid "auto_linked_items"
+msgstr ""
+
+#. Default: "Manually linked items"
+msgid "PloneMeeting_label_manuallyLinkedItems"
 msgstr ""
 
 #. Default: " "

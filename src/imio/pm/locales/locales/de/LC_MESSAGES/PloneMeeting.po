@@ -858,6 +858,10 @@ msgstr "eMail versenden Modus"
 msgid "PloneMeeting_label_mailingLists"
 msgstr "Verteilerlisten"
 
+#. Default: "Manually linked items"
+msgid "PloneMeeting_label_manuallyLinkedItems"
+msgstr ""
+
 #. Default: "Maximum number of days during which decisions may appear direclty in the 'decisions' portlet."
 msgid "PloneMeeting_label_maxDaysDecisions"
 msgstr "Maximale Anzahl an Tagen während der Beschlüsse im Beschlüsse-Portlet angezeigt werden."
@@ -1047,7 +1051,7 @@ msgstr "Bemerkungen zur vorbereitenden Sitzung"
 msgid "PloneMeeting_label_preObservations2"
 msgstr "Bemerkungen zur vorbereitenden Sitzung"
 
-#. Default: "Linked items"
+#. Default: "Previous item"
 #, fuzzy
 msgid "PloneMeeting_label_predecessor"
 msgstr "Vorlage"
@@ -1770,6 +1774,10 @@ msgstr ""
 #. Default: "Using attribute(s) 'excused' and/or 'absents' requires the use of attribute 'attendees'."
 msgid "attendees_required"
 msgstr "Die Benutzung der(s) Attribut(e)s 'entschuldigt' und/oder 'abwesend' bedarf der Benutzung des Attributs 'Sitzungsteilnehmer'"
+
+#. Default: "Automatically linked items"
+msgid "auto_linked_items"
+msgstr ""
 
 #. Default: "If you let this field blank, the user interface will be presented in the language defined by the user's browser. If you encode a list of comma-separated ISO 2-chars language codes, the user interface language will be chosen by the user in a dropdown containing one entry per encoded language code."
 msgid "available_interface_languages_descr"
@@ -3024,6 +3032,14 @@ msgstr ""
 
 #. Default: "--- Do nothing, let the item in the workflow initial state ---"
 msgid "let_item_in_initial_state"
+msgstr ""
+
+#. Default: "Linked items (${auto_linked_items})"
+msgid "linked_items"
+msgstr ""
+
+#. Default: "Linked items, ${auto_linked_items} automatically and ${manually_linked_items} manually"
+msgid "linked_items_with_manually_linked_items"
 msgstr ""
 
 #. Default: "Purpose"
