@@ -33,7 +33,7 @@ msgstr "Add Todo Portlet"
 
 #. Default: "This item has been created as a recurring item."
 msgid "Add recurring item_comments"
-msgstr ""
+msgstr "This item has been created as a recurring item."
 
 #. Default: "Advice advanced management screen"
 msgid "Advice advanced management screen"
@@ -765,6 +765,10 @@ msgstr "Item decided states"
 msgid "PloneMeeting_label_itemDescription"
 msgstr "Description"
 
+#. Default: "Item icon color"
+msgid "PloneMeeting_label_itemIconColor"
+msgstr "Item icon color"
+
 #. Default: "Initiator of this item"
 msgid "PloneMeeting_label_itemInitiator"
 msgstr "Initiator of this item"
@@ -860,7 +864,7 @@ msgstr "Mailing lists"
 
 #. Default: "Manually linked items"
 msgid "PloneMeeting_label_manuallyLinkedItems"
-msgstr ""
+msgstr "Manually linked items"
 
 #. Default: "Maximum number of days during which decisions may appear direclty in the 'decisions' portlet."
 msgid "PloneMeeting_label_maxDaysDecisions"
@@ -1765,7 +1769,7 @@ msgstr "Using attribute(s) 'excused' and/or 'absents' requires the use of attrib
 
 #. Default: "Automatically linked items"
 msgid "auto_linked_items"
-msgstr ""
+msgstr "Automatically linked items"
 
 #. Default: "If you let this field blank, the user interface will be presented in the language defined by the user's browser. If you encode a list of comma-separated ISO 2-chars language codes, the user interface language will be chosen by the user in a dropdown containing one entry per encoded language code."
 msgid "available_interface_languages_descr"
@@ -2583,6 +2587,46 @@ msgstr "This site allows you to manage your official meetings."
 msgid "hs_welcome_title"
 msgstr "Welcome to PloneMeeting!"
 
+#. Default: "Azur"
+msgid "icon_color_azur"
+msgstr "Azur"
+
+#. Default: "Black"
+msgid "icon_color_black"
+msgstr "Black"
+
+#. Default: "'Default' (Blue)"
+msgid "icon_color_default"
+msgstr "'Default' (Blue)"
+
+#. Default: "Green"
+msgid "icon_color_green"
+msgstr "Green"
+
+#. Default: "Grey"
+msgid "icon_color_grey"
+msgstr "Grey"
+
+#. Default: "Orange"
+msgid "icon_color_orange"
+msgstr "Orange"
+
+#. Default: "Pink"
+msgid "icon_color_pink"
+msgstr "Pink"
+
+#. Default: "Purple"
+msgid "icon_color_purple"
+msgstr "Purple"
+
+#. Default: "Red"
+msgid "icon_color_red"
+msgstr "Red"
+
+#. Default: "Yellow"
+msgid "icon_color_yellow"
+msgstr "Yellow"
+
 #. Default: "Delayed"
 msgid "icon_help_delayed"
 msgstr "Delayed"
@@ -2807,6 +2851,10 @@ msgstr "The item has been duplicated: you currently see the duplicated item."
 msgid "item_duplicated_and_link_kept"
 msgstr "The item has been duplicated and a link to the original item has been kept: you currently see the duplicated item."
 
+#. Default: "This icon is shown in different places where different kind of item (college, council, ...) are shown together.  This is the case in the full text quick search displayed up right in the application, when selecting manually linked items or viewing linked items on the item view.  <span style='color: red';>If you change this parameter, this will update the icon of each created items of this meeting configuration and this could take some time depending on number of items.  Do not change this during high use period!</span>"
+msgid "item_icon_color_descr"
+msgstr "This icon is shown in different places where different kind of item (college, council, ...) are shown together.  This is the case in the full text quick search displayed up right in the application, when selecting manually linked items or viewing linked items on the item view.  <span style='color: red';>If you change this parameter, this will update the icon of each created items of this meeting configuration and this could take some time depending on number of items.  Do not change this during high use period!</span>"
+
 #. Default: "You can't make this move. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
 msgid "item_illegal_move"
 msgstr "You can't make this move. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
@@ -3007,11 +3055,11 @@ msgstr "--- Do nothing, let the item in the workflow initial state ---"
 
 #. Default: "Linked items (${auto_linked_items})"
 msgid "linked_items"
-msgstr ""
+msgstr "Linked items (${auto_linked_items})"
 
 #. Default: "Linked items, ${auto_linked_items} automatically and ${manually_linked_items} manually"
 msgid "linked_items_with_manually_linked_items"
-msgstr ""
+msgstr "Linked items, ${auto_linked_items} automatically and ${manually_linked_items} manually"
 
 #. Default: "Purpose"
 msgid "listingheader_item_title"
@@ -3084,6 +3132,10 @@ msgstr "Unable to update following items because you can not edit them, item num
 #. Default: "At least one mandatory advice for this item is not positive or has not been given."
 msgid "mandatory_advice_ko"
 msgstr "At least one mandatory advice for this item is not positive or has not been given."
+
+#. Default: "Select here items that are linked to this item.  These items will appear in linked items but separated from items linked automatically by the application.  To remove a linked item, just unckeck the checkbox in front of the item title."
+msgid "manually_linked_items_descr"
+msgstr "Select here items that are linked to this item.  These items will appear in linked items but separated from items linked automatically by the application.  To remove a linked item, just unckeck the checkbox in front of the item title."
 
 #. Default: "In the 'decisions' portlet, only decisions that have less than x days (x being the number defined here) appear directly. Users consult older decisions by clicking on the link 'all decisions'."
 msgid "max_days_decisions_descr"
@@ -3669,9 +3721,9 @@ msgstr "Modification date"
 msgid "pm_select_deselect"
 msgstr "(Un-)select all"
 
-#. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of hig use!"
+#. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
-msgstr "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of hig use!"
+msgstr "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 
 #. Default: "Initialize every existing advice confidentiality"
 msgid "pm_update_advice_confidentiality"
@@ -4585,4 +4637,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

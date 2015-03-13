@@ -2883,7 +2883,7 @@ msgstr ""
 msgid "warning_invalidate_advices_fastedit"
 msgstr ""
 
-#. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of hig use!"
+#. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
 msgstr ""
 
@@ -3585,8 +3585,60 @@ msgstr ""
 msgid "PloneMeeting_label_manuallyLinkedItems"
 msgstr ""
 
+#. Default: "Select here items that are linked to this item.  These items will appear in linked items but separated from items linked automatically by the application.  To remove a linked item, just unckeck the checkbox in front of the item title."
+msgid "manually_linked_items_descr"
+msgstr ""
+
 #. Default: " "
 msgid "empty_description"
+msgstr ""
+
+#. Default: "Item icon color"
+msgid "PloneMeeting_label_itemIconColor"
+msgstr ""
+
+#. Default: "This icon is shown in different places where different kind of item (college, council, ...) are shown together.  This is the case in the full text quick search displayed up right in the application, when selecting manually linked items or viewing linked items on the item view.  <span style='color: red';>If you change this parameter, this will update the icon of each created items of this meeting configuration and this could take some time depending on number of items.  Do not change this during high use period!</span>"
+msgid "item_icon_color_descr"
+msgstr ""
+
+#. Default: "'Default' (Blue)"
+msgid "icon_color_default"
+msgstr ""
+
+#. Default: "Azur"
+msgid "icon_color_azur"
+msgstr ""
+
+#. Default: "Black"
+msgid "icon_color_black"
+msgstr ""
+
+#. Default: "Green"
+msgid "icon_color_green"
+msgstr ""
+
+#. Default: "Grey"
+msgid "icon_color_grey"
+msgstr ""
+
+#. Default: "Orange"
+msgid "icon_color_orange"
+msgstr ""
+
+#. Default: "Pink"
+msgid "icon_color_pink"
+msgstr ""
+
+#. Default: "Purple"
+msgid "icon_color_purple"
+msgstr ""
+
+#. Default: "Red"
+msgid "icon_color_red"
+msgstr ""
+
+#. Default: "Yellow"
+msgid "icon_color_yellow"
 msgstr ""
 
 #. Default: "POD template (ODT file)"

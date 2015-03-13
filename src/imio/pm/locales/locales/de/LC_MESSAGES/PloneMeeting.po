@@ -765,6 +765,10 @@ msgstr ""
 msgid "PloneMeeting_label_itemDescription"
 msgstr ""
 
+#. Default: "Item icon color"
+msgid "PloneMeeting_label_itemIconColor"
+msgstr ""
+
 #. Default: "Initiator of this item"
 msgid "PloneMeeting_label_itemInitiator"
 msgstr ""
@@ -2599,6 +2603,46 @@ msgstr "Dieser Site ermöglicht Ihnen ihre offiziellen Sitzungen zu verwalten. "
 msgid "hs_welcome_title"
 msgstr "Herzlich willkommen bei PloneMeeting!"
 
+#. Default: "Azur"
+msgid "icon_color_azur"
+msgstr ""
+
+#. Default: "Black"
+msgid "icon_color_black"
+msgstr ""
+
+#. Default: "'Default' (Blue)"
+msgid "icon_color_default"
+msgstr ""
+
+#. Default: "Green"
+msgid "icon_color_green"
+msgstr ""
+
+#. Default: "Grey"
+msgid "icon_color_grey"
+msgstr ""
+
+#. Default: "Orange"
+msgid "icon_color_orange"
+msgstr ""
+
+#. Default: "Pink"
+msgid "icon_color_pink"
+msgstr ""
+
+#. Default: "Purple"
+msgid "icon_color_purple"
+msgstr ""
+
+#. Default: "Red"
+msgid "icon_color_red"
+msgstr ""
+
+#. Default: "Yellow"
+msgid "icon_color_yellow"
+msgstr ""
+
 #. Default: "Delayed"
 msgid "icon_help_delayed"
 msgstr "Verschoben"
@@ -2830,6 +2874,10 @@ msgstr "Der TOP wurde gelÃ¶scht: Sie sehen ein Duplikat"
 
 #. Default: "The item has been duplicated and a link to the original item has been kept: you currently see the duplicated item."
 msgid "item_duplicated_and_link_kept"
+msgstr ""
+
+#. Default: "This icon is shown in different places where different kind of item (college, council, ...) are shown together.  This is the case in the full text quick search displayed up right in the application, when selecting manually linked items or viewing linked items on the item view.  <span style='color: red';>If you change this parameter, this will update the icon of each created items of this meeting configuration and this could take some time depending on number of items.  Do not change this during high use period!</span>"
+msgid "item_icon_color_descr"
 msgstr ""
 
 #. Default: "You can't make this move. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
@@ -3114,6 +3162,10 @@ msgstr ""
 #. Default: "At least one mandatory advice for this item is not positive or has not been given."
 msgid "mandatory_advice_ko"
 msgstr "Mindestens ein Pflichtkommentar für diesen TOP wurde nicht abgegeben oder ist nicht positiv."
+
+#. Default: "Select here items that are linked to this item.  These items will appear in linked items but separated from items linked automatically by the application.  To remove a linked item, just unckeck the checkbox in front of the item title."
+msgid "manually_linked_items_descr"
+msgstr ""
 
 #. Default: "In the 'decisions' portlet, only decisions that have less than x days (x being the number defined here) appear directly. Users consult older decisions by clicking on the link 'all decisions'."
 msgid "max_days_decisions_descr"
@@ -3701,7 +3753,7 @@ msgstr ""
 msgid "pm_select_deselect"
 msgstr "Alle aus- oder abwählen"
 
-#. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of hig use!"
+#. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
 msgstr ""
 
