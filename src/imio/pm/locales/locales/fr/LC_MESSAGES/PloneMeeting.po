@@ -3137,9 +3137,9 @@ msgstr "Impossible de mettre à jour le(s) point(s) suivant(s) car vous n'avez p
 msgid "mandatory_advice_ko"
 msgstr "Au moins un avis obligatoire pour ce point n'est pas positif ou n'a pas été rendu."
 
-#. Default: "Select here items that are linked to this item.  These items will appear in linked items but separated from items linked automatically by the application.  To remove a linked item, just unckeck the checkbox in front of the item title."
+#. Default: "Select here items that are linked to this item.  These items will appear in linked items but separated from items linked automatically by the application.  Current item will be also visible in the manually linked items of items you just linked...  To remove a linked item, just unckeck the checkbox in front of the item title."
 msgid "manually_linked_items_descr"
-msgstr "Sélectionnez les points qui sont liés au point courant.  Ces points apparaîtront dans les points liés, mais séparés des points liés automatiquement par l'application.  Pour enlever un point lié, décochez la case de ce point."
+msgstr "Sélectionnez les points qui sont liés au point courant.  Ces points apparaîtront dans les points liés, mais séparés des points liés automatiquement par l'application.  Le point courant apparaîtra également comme point lié sur les points sélectionnés.  Pour enlever un point lié, décochez la case de ce point."
 
 #. Default: "In the 'decisions' portlet, only decisions that have less than x days (x being the number defined here) appear directly. Users consult older decisions by clicking on the link 'all decisions'."
 msgid "max_days_decisions_descr"
@@ -3725,7 +3725,6 @@ msgid "pm_select_deselect"
 msgstr "(Dé-)sélectionner tout"
 
 #. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
-#, fuzzy
 msgid "pm_tool_updates_warning"
 msgstr "Attention: ces mises à jour peuvent prendre du temps en fonction du nombre d'éléments existants!  Ne pas lancer dans une période de forte utilisation!"
 
