@@ -3171,7 +3171,7 @@ msgstr ""
 msgid "mandatory_advice_ko"
 msgstr "Mindestens ein Pflichtkommentar für diesen TOP wurde nicht abgegeben oder ist nicht positiv."
 
-#. Default: "Select here items that are linked to this item.  These items will appear in linked items but separated from items linked automatically by the application.  Current item will be also visible in the manually linked items of items you just linked...  To remove a linked item, just unckeck the checkbox in front of the item title.  Items will be automatically sorted chronologically."
+#. Default: "Select here items that are linked to this item.  These items will appear in linked items but separated from items linked automatically by the application.  Current item will be also visible in the manually linked items of items you just linked...  To remove a linked item, just unckeck the checkbox in front of the item title.  Items will be automatically sorted chronologically. Manually linked items works like a 'virtual folder' where every items are stored.  If you unlink an item, it will be unlinked from every items of the 'virtual folder'.  If you unlink every items, this will destroy this 'virtual folder'."
 msgid "manually_linked_items_descr"
 msgstr ""
 
