@@ -32,10 +32,6 @@ msgstr "Voeg plonemeeting Portlet toe"
 msgid "Add Todo Portlet"
 msgstr "Voeg ToDo Portlet toe"
 
-#. Default: "This item has been created as a recurring item."
-msgid "Add recurring item_comments"
-msgstr ""
-
 #. Default: "Advice advanced management screen"
 msgid "Advice advanced management screen"
 msgstr ""
@@ -154,14 +150,6 @@ msgstr ""
 
 #. Default: "Download annex"
 msgid "Download annex"
-msgstr ""
-
-#. Default: "This item has been created by duplicating another item (a link to the original item has been kept)."
-msgid "Duplicate and keep link_comments"
-msgstr ""
-
-#. Default: "This item has been created by duplicating another item."
-msgid "Duplicate_comments"
 msgstr ""
 
 #. Default: "Edit"
@@ -2006,10 +1994,6 @@ msgstr ""
 msgid "could_not_trigger_transition_for_cloned_item"
 msgstr ""
 
-#. Default: "This item has been created from a delayed item."
-msgid "create_from_predecessor_comments"
-msgstr ""
-
 #. Default: "create a meeting"
 msgid "create_meeting"
 msgstr "Creatie van een vergadering"
@@ -2018,21 +2002,9 @@ msgstr "Creatie van een vergadering"
 msgid "create_meeting_item"
 msgstr "Aanmaak agenda punt"
 
-#. Default: "This item has been created from an item template."
-msgid "create_meeting_item_from_template_comments"
-msgstr ""
-
 #. Default: "Create an item in the current folder"
 msgid "create_meeting_item_in_current_folder"
 msgstr "Aanmaak van een punt in de huidige folder"
-
-#. Default: "Item created from a Plonemeeting assembly item"
-msgid "create_to_plonegov-assembly_from_plonemeeting-assembly_comments"
-msgstr ""
-
-#. Default: "Item created from a Plonegov assembly item"
-msgid "create_to_plonemeeting-assembly_from_plonegov-assembly_comments"
-msgstr ""
 
 #. Default: "Creator"
 msgid "creator"
@@ -2101,10 +2073,6 @@ msgstr ""
 #. Default: "Data"
 msgid "data"
 msgstr "Data"
-
-#. Default: "Data change"
-msgid "data_change"
-msgstr ""
 
 #. Default: "In this field, you can enter any text, and also special symbols that correspond to date parts. For example: '%s/%m/%Y' could yield '12/06/1968'. The following symbols are available:<br/>%d (day)<br/>%dt (translated day name)<br/>%DT (translated day name, first letter is uppercase)<br/>%m (month)<br/>%mt (translated month name)<br/>%MT (translated month name, first letter uppercase)<br/>%Y (year, with century)<br/>%y (year, without century)."
 msgid "date_format_descr"
@@ -2559,10 +2527,6 @@ msgstr ""
 
 #. Default: "See changes"
 msgid "history_changes"
-msgstr ""
-
-#. Default: "Comments"
-msgid "history_comments"
 msgstr ""
 
 #. Default: "Deleted by ${userName}"

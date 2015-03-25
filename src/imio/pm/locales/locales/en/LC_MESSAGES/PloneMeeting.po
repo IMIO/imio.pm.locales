@@ -31,10 +31,6 @@ msgstr "Add PloneMeeting Portlet"
 msgid "Add Todo Portlet"
 msgstr "Add Todo Portlet"
 
-#. Default: "This item has been created as a recurring item."
-msgid "Add recurring item_comments"
-msgstr "This item has been created as a recurring item."
-
 #. Default: "Advice advanced management screen"
 msgid "Advice advanced management screen"
 msgstr "Advice advanced management screen"
@@ -154,14 +150,6 @@ msgstr "Document templates"
 #. Default: "Download annex"
 msgid "Download annex"
 msgstr "Download annex"
-
-#. Default: "This item has been created by duplicating another item (a link to the original item has been kept)."
-msgid "Duplicate and keep link_comments"
-msgstr "This item has been created by duplicating another item (a link to the original item has been kept)."
-
-#. Default: "This item has been created by duplicating another item."
-msgid "Duplicate_comments"
-msgstr "This item has been created by duplicating another item."
 
 #. Default: "Edit"
 msgid "Edit"
@@ -1999,10 +1987,6 @@ msgstr "The cloned item could not be presented to in the '${destMeetingConfigTit
 msgid "could_not_trigger_transition_for_cloned_item"
 msgstr "Some transitions could not be triggered for the item sent to '${meetingConfigTitle}', please check the new item."
 
-#. Default: "This item has been created from a delayed item."
-msgid "create_from_predecessor_comments"
-msgstr "This item has been created from a delayed item."
-
 #. Default: "create a meeting"
 msgid "create_meeting"
 msgstr "create a meeting"
@@ -2011,21 +1995,9 @@ msgstr "create a meeting"
 msgid "create_meeting_item"
 msgstr "Create an item"
 
-#. Default: "This item has been created from an item template."
-msgid "create_meeting_item_from_template_comments"
-msgstr "This item has been created from an item template."
-
 #. Default: "Create an item in the current folder"
 msgid "create_meeting_item_in_current_folder"
 msgstr "Create an item here"
-
-#. Default: "Item created from a Plonemeeting assembly item"
-msgid "create_to_plonegov-assembly_from_plonemeeting-assembly_comments"
-msgstr "Item created from a Plonemeeting assembly item"
-
-#. Default: "Item created from a Plonegov assembly item"
-msgid "create_to_plonemeeting-assembly_from_plonegov-assembly_comments"
-msgstr "Item created from a Plonegov assembly item"
 
 #. Default: "Creator"
 msgid "creator"
@@ -2094,10 +2066,6 @@ msgstr "<p>This part of the configuration lets you configure special behaviors a
 #. Default: "Data"
 msgid "data"
 msgstr "Data"
-
-#. Default: "Data change"
-msgid "data_change"
-msgstr "Data change"
 
 #. Default: "In this field, you can enter any text, and also special symbols that correspond to date parts. For example: '%s/%m/%Y' could yield '12/06/1968'. The following symbols are available:<br/>%d (day)<br/>%dt (translated day name)<br/>%DT (translated day name, first letter is uppercase)<br/>%m (month)<br/>%mt (translated month name)<br/>%MT (translated month name, first letter uppercase)<br/>%Y (year, with century)<br/>%y (year, without century)."
 msgid "date_format_descr"
@@ -2554,10 +2522,6 @@ msgstr "For every field you select here, PloneMeeting will keep track of any cha
 #. Default: "See changes"
 msgid "history_changes"
 msgstr "See changes"
-
-#. Default: "Comments"
-msgid "history_comments"
-msgstr "Comments"
 
 #. Default: "Deleted by ${userName}"
 msgid "history_delete"
@@ -4645,3 +4609,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+

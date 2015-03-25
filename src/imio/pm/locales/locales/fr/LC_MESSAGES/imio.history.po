@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2005-05-17 15:00-100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: fr\n"
+"Language-Name: French\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: imio.history\n"
+"X-is-fallback-for: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
+
+#. Default: "This item has been created as a recurring item."
+msgid "Add recurring item_comments"
+msgstr "Ce point a été automatiquement ajouté comme point récurrent à la séance."
+
+#. Default: "This item has been created by duplicating another item (a link to the original item has been kept)."
+msgid "Duplicate and keep link_comments"
+msgstr "Ce point a été créé par duplication d'un autre point (un lien vers le point original a été gardé)."
+
+#. Default: "This item has been created by duplicating another item."
+msgid "Duplicate_comments"
+msgstr "Ce point a été créé par duplication d'un autre point."
+
+#. Default: "This item has been created from a delayed item."
+msgid "create_from_predecessor_comments"
+msgstr "Ce point a été créé suite au report d'un autre point."
+
+#. Default: "This item has been created from an item template."
+msgid "create_meeting_item_from_template_comments"
+msgstr "Ce point a été créé depuis un modèle."
+
+#. Default: "Item created from a Plonemeeting assembly item"
+msgid "create_to_plonegov-assembly_from_plonemeeting-assembly_comments"
+msgstr "Point créé depuis un point de l'assemblée PloneMeeting."
+
+#. Default: "Item created from a Plonegov assembly item"
+msgid "create_to_plonemeeting-assembly_from_plonegov-assembly_comments"
+msgstr "Point créé depuis un point de l'assemblée PloneGov."
+
