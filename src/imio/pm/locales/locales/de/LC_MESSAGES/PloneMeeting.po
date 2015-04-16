@@ -922,6 +922,10 @@ msgstr "Beobachtungen"
 msgid "PloneMeeting_label_meetingPowerObserversStates"
 msgstr ""
 
+#. Default: "States of the meeting to insert an item into from everywhere"
+msgid "PloneMeeting_label_meetingPresentItemWhenNoCurrentMeetingStates"
+msgstr ""
+
 #. Default: "Meeting states in wich restricted power observers can see the meetings"
 msgid "PloneMeeting_label_meetingRestrictedPowerObserversStates"
 msgstr ""
@@ -3219,6 +3223,10 @@ msgstr "Sitzung vom"
 
 #. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 msgid "meeting_powerobservers_states_descr"
+msgstr ""
+
+#. Default: "When an item is inserted in a meeting from everywhere (so not when on a meeting view), this will take the very next meeting still accepting items.  Define here states to take into account to get this very next meeting."
+msgid "meeting_present_item_when_no_current_meeting_states_descr"
 msgstr ""
 
 #. Default: "When a meeting is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the meeting.  Theorically, there will be fewer states selected here than states selected in the <i>'Meeting states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
