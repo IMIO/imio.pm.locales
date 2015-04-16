@@ -4534,6 +4534,14 @@ msgstr ""
 msgid "on_meeting_transition_item_transition_to_trigger_descr"
 msgstr ""
 
+#. Default: "States of the meeting to insert an item into from everywhere"
+msgid "PloneMeeting_label_meetingPresentItemWhenNoCurrentMeetingStates"
+msgstr ""
+
+#. Default: "When an item is inserted in a meeting from everywhere (so not when on a meeting view), this will take the very next meeting still accepting items.  Define here states to take into account to get this very next meeting."
+msgid "meeting_present_item_when_no_current_meeting_states_descr"
+msgstr ""
+
 #. Default: "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
 msgid "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
 msgstr ""
