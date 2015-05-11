@@ -135,6 +135,10 @@ msgstr "Create an item from an item template"
 msgid "Days to give advice"
 msgstr "Days to give advice : ${daysToGiveAdvice} days"
 
+#. Default: "Decisions"
+msgid "Decisions"
+msgstr ""
+
 #. Default: "Delete advice"
 msgid "Delete advice"
 msgstr "Delete advice"
@@ -306,6 +310,10 @@ msgstr "Category"
 #. Default: "Annex types"
 msgid "MeetingFileTypes"
 msgstr "Annex types"
+
+#. Default: "Meetings"
+msgid "Meetings"
+msgstr ""
 
 #. Default: "No complementary comment has been given on this advice."
 msgid "No complementary comment has been given on this advice."
@@ -1320,6 +1328,10 @@ msgstr "Preview detailled advice"
 #. Default: "Recurring items"
 msgid "RecurringItems"
 msgstr "Recurring items"
+
+#. Default: "Searches"
+msgid "Searches"
+msgstr ""
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
@@ -3780,16 +3792,6 @@ msgstr "This section allows you manage the document templates that you may speci
 #. Default: "Manage"
 msgid "portlet_pm_header_label"
 msgstr "Manage"
-
-# Portlet "decisions"
-#. Default: "Decisions"
-msgid "portletdecisions_title"
-msgstr "Decisions"
-
-# Portlet "meetings"
-#. Default: "Meetings"
-msgid "portletmeetings_title"
-msgstr "Meetings"
 
 #. Default: "Positive"
 msgid "positive"
