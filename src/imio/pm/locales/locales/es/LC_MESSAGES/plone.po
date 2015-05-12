@@ -98,6 +98,11 @@ msgstr "Flujo de trabajo para Temas de Reunión"
 msgid "Meeting Workflow"
 msgstr "Flujo de trabajo de Reunión"
 
+# plone.app.querystring
+#. Default: "Meeting date"
+msgid "Meeting date"
+msgstr ""
+
 #. Default: "Meeting Archive Observer"
 msgid "MeetingArchiveObserver"
 msgstr "Observador del archivo de Reunión"
@@ -199,6 +204,10 @@ msgstr "Plantilla de documento"
 #. Default: "state"
 msgid "State"
 msgstr "Estado"
+
+#. Default: "The date the meeting occurs"
+msgid "The date the meeting occurs"
+msgstr ""
 
 #. Default: "This allows to active the tool PloneMeeting."
 msgid "This allows to active the tool PloneMeeting."

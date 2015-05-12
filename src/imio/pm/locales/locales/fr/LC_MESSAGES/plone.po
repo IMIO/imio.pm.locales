@@ -94,6 +94,11 @@ msgstr "Workflow Point"
 msgid "Meeting Workflow"
 msgstr "Workflow Séance"
 
+# plone.app.querystring
+#. Default: "Meeting date"
+msgid "Meeting date"
+msgstr "Date de la séance"
+
 #. Default: "Meeting Archive Observer"
 msgid "MeetingArchiveObserver"
 msgstr ""
@@ -195,6 +200,10 @@ msgstr "Canevas de document"
 #. Default: "state"
 msgid "State"
 msgstr "État"
+
+#. Default: "The date the meeting occurs"
+msgid "The date the meeting occurs"
+msgstr "La date à laquelle la séance a lieu"
 
 #. Default: "This allows to active the tool PloneMeeting."
 msgid "This allows to active the tool PloneMeeting."
