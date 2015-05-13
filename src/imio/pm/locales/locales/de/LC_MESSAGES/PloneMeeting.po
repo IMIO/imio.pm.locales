@@ -283,6 +283,10 @@ msgstr ""
 msgid "Manage advice annexes"
 msgstr ""
 
+#. Default: "Manage dashboard"
+msgid "Manage dashboard"
+msgstr ""
+
 #. Default: "Manage item assembly"
 msgid "Manage item assembly"
 msgstr ""
@@ -810,10 +814,6 @@ msgstr "Tags"
 msgid "PloneMeeting_label_itemTitle"
 msgstr ""
 
-#. Default: "Item states which are relevant for searches defined in the 'items' portlets"
-msgid "PloneMeeting_label_itemTopicStates"
-msgstr "TOP-Status die für die Suche die in den TOP-Portlets berücksichtigt werden definiert sind"
-
 #. Default: "Workflow that dictates the life cycle of every item into this configuration"
 msgid "PloneMeeting_label_itemWorkflow"
 msgstr "Arbeitsablauf den jeder TOP in dieser Konfiguration durchlaufen muss"
@@ -1194,9 +1194,9 @@ msgstr "Einen Wert einfügen im Feld 'zu Diskutieren' wenn ein TOP zu einer Sitz
 msgid "PloneMeeting_label_toDiscussShownForLateItems"
 msgstr "Zeige das Feld 'zu Besprechen' auf die Liste der verspäteten TOP"
 
-#. Default: "List of topics to display in the 'todo' portlet"
-msgid "PloneMeeting_label_toDoListTopics"
-msgstr "Liste von TOP die im 'Todo' Portlet angezeigt werden"
+#. Default: "List of searches to display in the 'todo' portlet"
+msgid "PloneMeeting_label_toDoListSearches"
+msgstr ""
 
 #. Default: "To print?"
 msgid "PloneMeeting_label_toPrint"
@@ -1421,10 +1421,6 @@ msgstr "Zu erledigen"
 msgid "Toggle descriptions of items"
 msgstr "Zeige / verberge Details"
 
-#. Default: "Topics"
-msgid "Topics"
-msgstr "Themen"
-
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 msgstr ""
@@ -1452,10 +1448,6 @@ msgstr "Anhang hinzufügen"
 #. Default: "Add a new one"
 msgid "add_object"
 msgstr "Ein neues Objekt hinzufügen"
-
-#. Default: "Add a new topic"
-msgid "add_topic"
-msgstr "Einen neuen Topic hinzufügen"
 
 #. Default: "You can access this item here: ${objectUrl}."
 #, fuzzy
@@ -1971,10 +1963,6 @@ msgstr "Definieren Sie hier einen vordefinierten Text, welcher im Feld 'Budget I
 msgid "config_default_meetingitem_motivation_descr"
 msgstr ""
 
-#. Default: "Active?"
-msgid "config_is_active"
-msgstr "Aktiv?"
-
 #. Default: "The default meeting configuration is the one the user is redirected to when logging in."
 msgid "config_is_default_descr"
 msgstr "Der Nutzer wird nach dem einloggen zur Standard-Sitzungs-Konfiguration weitergeleitet."
@@ -2468,10 +2456,6 @@ msgstr "Gehe zu den vorherigen ${number} Elementen"
 msgid "group_certified_signatures_descr"
 msgstr ""
 
-#. Default: "Active?"
-msgid "group_is_active"
-msgstr "Aktiv?"
-
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 #, fuzzy
 msgid "group_item_advice_edit_states_descr"
@@ -2493,6 +2477,10 @@ msgstr "Bedieneroberfläche"
 #. Default: "Actions"
 msgid "heading_actions"
 msgstr "Aktionen"
+
+#. Default: "Active?"
+msgid "heading_is_active"
+msgstr ""
 
 # Other
 #. Default: "Check/uncheck items"
@@ -2928,10 +2916,6 @@ msgstr ""
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
 msgstr ""
-
-#. Default: "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
-msgid "item_topic_states_descr"
-msgstr "Im TOP-Portlet erlauben manche Links das Auslösen von Suchen nach TOP. Nur die TOP in den Status die Sie hier auswählen werden in den Suchresultaten angezeigt. Dies kann zum Beispiel praktisch sein um TOP die bereits in Sitzungen veröffentlicht wurden herauszufilter, da sie bereits über ihre zugehörigen Sitzungen einsehbar sind."
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
 msgid "item_workflow_descr"
@@ -3516,10 +3500,6 @@ msgstr "Die Attribute 'Unterschriften' und 'Unterzeichner' können nicht gleichz
 msgid "no_sub_types_defined"
 msgstr ""
 
-#. Default: "No topic is currently defined."
-msgid "no_topic_folder"
-msgstr "Derzeit ist kein TOP definiert."
-
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
 msgstr ""
@@ -3792,10 +3772,6 @@ msgstr "Nur Benutzer mit den hier spezifizierten nötigen Rechten können Dokume
 #. Default: "This template must be an ODT (Open Document Format Text) document as produced by OpenOffice for example. This template should also contain special instructions that allow to insert Plone content into it. The format of those instructions is defined by the POD (Python Open Document) library. You can learn how to write an ODT document containing POD instructions <a href=\"http://appyframework.org/pod.html\">here</a>."
 msgid "pod_template_descr"
 msgstr "Diese Vorlage muss ein ODT-Dokument (Open Document Format text) sein, wie es z.B. durch OpenOffice erstellt wird. Diese Vorlage muss auch spezielle Befehle erhalten die es ermöglichen Inhalte, die aus der Zope/Plone Datenbank stammen, einzufügen. Das Format dieser Befehle wird durch die POD Bibliothek (Python Open Document) definiert. Sie können <a href=\"http://appyframework.org/pod.html\">hier</a> erlernen wie diese ODT-Dateien mit POD-Befehle geschrieben werden."
-
-#. Default: "Active ?"
-msgid "pod_template_is_active"
-msgstr "Aktiv?"
 
 #. Default: "This section allows you manage the document templates that you may specify for producing documents from content managed by PloneMeeting (items, meetings, annexes, etc)."
 msgid "pod_templates_descr"
@@ -4109,6 +4085,10 @@ msgstr ""
 msgid "searchdecideditems"
 msgstr ""
 
+#. Default: "Searches defined here are used in the main portlet. We recommand not modifying them."
+msgid "searches_descr"
+msgstr ""
+
 #. Default: "items of my groups"
 msgid "searchitemsofmygroups"
 msgstr ""
@@ -4344,9 +4324,9 @@ msgstr "Zur Diskussion während dieser Sitzung."
 msgid "to_discuss_yes_edit"
 msgstr "Zur Diskussion während dieser Sitzung. Klicken Sie auf das Bild um den TOP nicht zu diskutieren."
 
-#. Default: "Select here topics you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any topic, the portlet will not shows up for users"
-msgid "to_do_list_topics"
-msgstr "Wählen sie die automatischen Ordner aus die in Betracht kommen für das Portlet 'zu erledigen'. Wenn Sie keinen automatischen Ordner auswählen, wird das Portlet bei den Benutzern nicht angezeigt."
+#. Default: "Select here searches you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any search, the portlet will not show up for users"
+msgid "to_do_list_searches"
+msgstr ""
 
 #. Default: "Other parameters"
 msgid "tool_plonemeeting_misc"
@@ -4359,22 +4339,6 @@ msgstr "Falls wegen dem einen oder anderen Grund (z.B. die Konfiguration eines R
 #. Default: "The result shows only elements you are allowed to view."
 msgid "topic_description"
 msgstr "In der Liste werden nur Elemente angezeigt die Sie sehen dürfen."
-
-#. Default: "Is linked to?"
-msgid "topic_linked_to_type"
-msgstr "Is verlinkt nach?"
-
-#. Default: "Linked search script"
-msgid "topic_search_script"
-msgstr "Verlinktes Suchescript"
-
-#. Default: "Display condition"
-msgid "topic_tal_expression"
-msgstr "Zeigt Bedingungen"
-
-#. Default: "Topics defined here are used in the main portlet. We recommand not modifying them."
-msgid "topics_descr"
-msgstr "Die automatischen Ordner die hier definiert sind, werden im Hauptportal benutzt. Änderungen an diese Ordner werden nicht empfohlen."
 
 # Workflow transitions
 #. Default: "Transfer"

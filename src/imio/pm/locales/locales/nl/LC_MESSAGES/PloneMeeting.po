@@ -284,6 +284,10 @@ msgstr "Beperkt het aantal getoonde karakters in de title"
 msgid "Manage advice annexes"
 msgstr ""
 
+#. Default: "Manage dashboard"
+msgid "Manage dashboard"
+msgstr ""
+
 #. Default: "Manage item assembly"
 msgid "Manage item assembly"
 msgstr ""
@@ -811,10 +815,6 @@ msgstr ""
 msgid "PloneMeeting_label_itemTitle"
 msgstr ""
 
-#. Default: "Item states which are relevant for searches defined in the 'items' portlets"
-msgid "PloneMeeting_label_itemTopicStates"
-msgstr "Statussen van een Item die relevant zijn voor zoekopdrachten gedefinieerd in de 'items' portlets."
-
 #. Default: "Workflow that dictates the life cycle of every item into this configuration"
 msgid "PloneMeeting_label_itemWorkflow"
 msgstr ""
@@ -1194,8 +1194,8 @@ msgstr ""
 msgid "PloneMeeting_label_toDiscussShownForLateItems"
 msgstr ""
 
-#. Default: "List of topics to display in the 'todo' portlet"
-msgid "PloneMeeting_label_toDoListTopics"
+#. Default: "List of searches to display in the 'todo' portlet"
+msgid "PloneMeeting_label_toDoListSearches"
 msgstr ""
 
 #. Default: "To print?"
@@ -1420,10 +1420,6 @@ msgstr "To Do"
 msgid "Toggle descriptions of items"
 msgstr ""
 
-#. Default: "Topics"
-msgid "Topics"
-msgstr "Onderwerpen"
-
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 msgstr ""
@@ -1451,10 +1447,6 @@ msgstr "Voeg een bijlage toe"
 #. Default: "Add a new one"
 msgid "add_object"
 msgstr "Een nieuwe gebruiker toevoegen"
-
-#. Default: "Add a new topic"
-msgid "add_topic"
-msgstr "Onderwerp toevoegen"
 
 #. Default: "You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
@@ -1966,10 +1958,6 @@ msgstr ""
 msgid "config_default_meetingitem_motivation_descr"
 msgstr ""
 
-#. Default: "Active?"
-msgid "config_is_active"
-msgstr "Actief?"
-
 #. Default: "The default meeting configuration is the one the user is redirected to when logging in."
 msgid "config_is_default_descr"
 msgstr "The default meeting configuration is the one the user is redirected to when logging in."
@@ -2459,10 +2447,6 @@ msgstr "Ga naar vorige"
 msgid "group_certified_signatures_descr"
 msgstr ""
 
-#. Default: "Active?"
-msgid "group_is_active"
-msgstr "Actief?"
-
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "group_item_advice_edit_states_descr"
 msgstr ""
@@ -2483,6 +2467,10 @@ msgstr "Gebruikers interface"
 #. Default: "Actions"
 msgid "heading_actions"
 msgstr "Acties"
+
+#. Default: "Active?"
+msgid "heading_is_active"
+msgstr ""
 
 # Other
 #. Default: "Check/uncheck items"
@@ -2910,10 +2898,6 @@ msgstr ""
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
 msgstr ""
-
-#. Default: "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
-msgid "item_topic_states_descr"
-msgstr "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
 msgid "item_workflow_descr"
@@ -3495,10 +3479,6 @@ msgstr ""
 msgid "no_sub_types_defined"
 msgstr ""
 
-#. Default: "No topic is currently defined."
-msgid "no_topic_folder"
-msgstr ""
-
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
 msgstr ""
@@ -3771,10 +3751,6 @@ msgstr ""
 #. Default: "This template must be an ODT (Open Document Format Text) document as produced by OpenOffice for example. This template should also contain special instructions that allow to insert Plone content into it. The format of those instructions is defined by the POD (Python Open Document) library. You can learn how to write an ODT document containing POD instructions <a href=\"http://appyframework.org/pod.html\">here</a>."
 msgid "pod_template_descr"
 msgstr ""
-
-#. Default: "Active ?"
-msgid "pod_template_is_active"
-msgstr "Actief ?"
 
 #. Default: "This section allows you manage the document templates that you may specify for producing documents from content managed by PloneMeeting (items, meetings, annexes, etc)."
 msgid "pod_templates_descr"
@@ -4087,6 +4063,10 @@ msgstr ""
 msgid "searchdecideditems"
 msgstr ""
 
+#. Default: "Searches defined here are used in the main portlet. We recommand not modifying them."
+msgid "searches_descr"
+msgstr ""
+
 #. Default: "items of my groups"
 msgid "searchitemsofmygroups"
 msgstr ""
@@ -4322,8 +4302,8 @@ msgstr "Te bespreken tijdens de vergadering."
 msgid "to_discuss_yes_edit"
 msgstr "Te bespreken tijdens de vergadering. Klik op de afbeelding om dit punt niet te bespreken."
 
-#. Default: "Select here topics you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any topic, the portlet will not shows up for users"
-msgid "to_do_list_topics"
+#. Default: "Select here searches you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any search, the portlet will not show up for users"
+msgid "to_do_list_searches"
 msgstr ""
 
 #. Default: "Other parameters"
@@ -4337,22 +4317,6 @@ msgstr ""
 #. Default: "The result shows only elements you are allowed to view."
 msgid "topic_description"
 msgstr "Het resultaat toont slechts elementen die u mag bekijken."
-
-#. Default: "Is linked to?"
-msgid "topic_linked_to_type"
-msgstr ""
-
-#. Default: "Linked search script"
-msgid "topic_search_script"
-msgstr ""
-
-#. Default: "Display condition"
-msgid "topic_tal_expression"
-msgstr ""
-
-#. Default: "Topics defined here are used in the main portlet. We recommand not modifying them."
-msgid "topics_descr"
-msgstr "Topics defined here are used in the main portlet. We recommand not modifying them."
 
 # Workflow transitions
 #. Default: "Transfer"

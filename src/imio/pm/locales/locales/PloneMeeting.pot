@@ -1303,10 +1303,6 @@ msgstr ""
 msgid "no_meeting_group"
 msgstr ""
 
-#. Default: "Active?"
-msgid "group_is_active"
-msgstr ""
-
 #. Default: "Management of meeting configurations"
 msgid "meeting_configurations"
 msgstr ""
@@ -1328,7 +1324,7 @@ msgid "oo_config_descr"
 msgstr ""
 
 #. Default: "Active?"
-msgid "config_is_active"
+msgid "heading_is_active"
 msgstr ""
 
 #. Default: "Absolute path to a Python interpreter having the UNO library (access to OpenOffice)"
@@ -1749,32 +1745,8 @@ msgstr ""
 msgid "meetingconfig_mail_descr"
 msgstr ""
 
-#. Default: "Topics"
-msgid "Topics"
-msgstr ""
-
-#. Default: "Topics defined here are used in the main portlet. We recommand not modifying them."
-msgid "topics_descr"
-msgstr ""
-
-#. Default: "Add a new topic"
-msgid "add_topic"
-msgstr ""
-
-#. Default: "No topic is currently defined."
-msgid "no_topic_folder"
-msgstr ""
-
-#. Default: "Is linked to?"
-msgid "topic_linked_to_type"
-msgstr ""
-
-#. Default: "Linked search script"
-msgid "topic_search_script"
-msgstr ""
-
-#. Default: "Display condition"
-msgid "topic_tal_expression"
+#. Default: "Searches defined here are used in the main portlet. We recommand not modifying them."
+msgid "searches_descr"
 msgstr ""
 
 #. Default: "Annex types"
@@ -2463,14 +2435,6 @@ msgstr ""
 msgid "item_copygroups_states_descr"
 msgstr ""
 
-#. Default: "Item states which are relevant for searches defined in the 'items' portlets"
-msgid "PloneMeeting_label_itemTopicStates"
-msgstr ""
-
-#. Default: "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
-msgid "item_topic_states_descr"
-msgstr ""
-
 #. Default: "Maximal number of meetings shown in the 'meetings' and 'decisions' portlets"
 msgid "PloneMeeting_label_maxShownMeetings"
 msgstr ""
@@ -2663,12 +2627,12 @@ msgstr ""
 msgid "event_item_returned_to_meeting_managers"
 msgstr ""
 
-#. Default: "List of topics to display in the 'todo' portlet"
-msgid "PloneMeeting_label_toDoListTopics"
+#. Default: "List of searches to display in the 'todo' portlet"
+msgid "PloneMeeting_label_toDoListSearches"
 msgstr ""
 
-#. Default: "Select here topics you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any topic, the portlet will not shows up for users"
-msgid "to_do_list_topics"
+#. Default: "Select here searches you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any search, the portlet will not show up for users"
+msgid "to_do_list_searches"
 msgstr ""
 
 #. Default: "Nothing to do."
@@ -3689,10 +3653,6 @@ msgstr ""
 msgid "no_pod_folder"
 msgstr ""
 
-#. Default: "Active ?"
-msgid "pod_template_is_active"
-msgstr ""
-
 #. Default: "Advices and access"
 msgid "advices_config"
 msgstr ""
@@ -4468,6 +4428,10 @@ msgstr ""
 
 #. Default: "Manage item templates"
 msgid "Manage item templates"
+msgstr ""
+
+#. Default: "Manage dashboard"
+msgid "Manage dashboard"
 msgstr ""
 
 #. Default: "Users"

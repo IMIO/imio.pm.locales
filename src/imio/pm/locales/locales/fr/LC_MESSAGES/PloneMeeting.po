@@ -283,6 +283,10 @@ msgstr "Limite le nombre de caractères de l'objet du point qui seront affichés
 msgid "Manage advice annexes"
 msgstr "Gérer les annexes de l'avis"
 
+#. Default: "Manage dashboard"
+msgid "Manage dashboard"
+msgstr "Gérer le tableau de bord"
+
 #. Default: "Manage item assembly"
 msgid "Manage item assembly"
 msgstr "Gestion de l'assemblée spécifique pour les points"
@@ -810,10 +814,6 @@ msgstr "Marqueurs"
 msgid "PloneMeeting_label_itemTitle"
 msgstr "Objet"
 
-#. Default: "Item states which are relevant for searches defined in the 'items' portlets"
-msgid "PloneMeeting_label_itemTopicStates"
-msgstr "Etats dont tiennent compte les recherches de points dans la portlet 'points'"
-
 #. Default: "Workflow that dictates the life cycle of every item into this configuration"
 msgid "PloneMeeting_label_itemWorkflow"
 msgstr "Workflow gouvernant le cycle de vie de chaque point de cette configuration"
@@ -1193,9 +1193,9 @@ msgstr "Affecter une valeur au champ 'à discuter' quand un point est inséré d
 msgid "PloneMeeting_label_toDiscussShownForLateItems"
 msgstr "Montrer le champ 'à discuter' sur les listes de points en retard"
 
-#. Default: "List of topics to display in the 'todo' portlet"
-msgid "PloneMeeting_label_toDoListTopics"
-msgstr "Recherches préconfigurées à afficher dans le portlet 'A faire'"
+#. Default: "List of searches to display in the 'todo' portlet"
+msgid "PloneMeeting_label_toDoListSearches"
+msgstr "Recherches à afficher dans le portlet 'A faire'"
 
 #. Default: "To print?"
 msgid "PloneMeeting_label_toPrint"
@@ -1418,10 +1418,6 @@ msgstr "À faire"
 msgid "Toggle descriptions of items"
 msgstr "Afficher / masquer les détails des points dans les tableaux de recherche ou sur les séances"
 
-#. Default: "Topics"
-msgid "Topics"
-msgstr "Recherches préconfigurées"
-
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 msgstr "Vous êtes sur le point de changer le délai de cet avis vers ${new_advice_delay} jours, vous pouvez entrer un commentaire si nécessaire."
@@ -1449,10 +1445,6 @@ msgstr "Ajouter une annexe"
 #. Default: "Add a new one"
 msgid "add_object"
 msgstr "En ajouter un(e)"
-
-#. Default: "Add a new topic"
-msgid "add_topic"
-msgstr "Ajouter un dossier automatique"
 
 #. Default: "You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
@@ -1959,10 +1951,6 @@ msgstr "Définissez ici le texte prédéfini qui sera présent dans le champ 'In
 msgid "config_default_meetingitem_motivation_descr"
 msgstr "Définissez ici le texte prédéfini qui sera présent dans le champ 'Motivation' chaque fois qu'un utilisateur crée un nouveau point."
 
-#. Default: "Active?"
-msgid "config_is_active"
-msgstr "Active?"
-
 #. Default: "The default meeting configuration is the one the user is redirected to when logging in."
 msgid "config_is_default_descr"
 msgstr "La configuration par défaut est celle sur laquelle l'utilisateur est dirigé lorsqu'il se connecte."
@@ -2453,10 +2441,6 @@ msgstr "Consulter les ${number} éléments précédents"
 msgid "group_certified_signatures_descr"
 msgstr "Si vous spécifiez des signatures dans ce champ, elle seront utilisées pour les points proposés par ce groupe, si le champ est vide, les signatures définies dans la configuration de séance seront utilisées."
 
-#. Default: "Active?"
-msgid "group_is_active"
-msgstr "Actif?"
-
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "group_item_advice_edit_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour un aviseur de ce groupe de modifier ou supprimer un avis donné. Si vous ne spécifiez aucun état ici, une liste d'états globale à tous les groupes, définie au niveau de la configuration de séance, sera utilisée à la place.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les avis!</span>"
@@ -2477,6 +2461,10 @@ msgstr "Interface utilisateur"
 #. Default: "Actions"
 msgid "heading_actions"
 msgstr "Actions"
+
+#. Default: "Active?"
+msgid "heading_is_active"
+msgstr "Actif(ve)?"
 
 # Other
 #. Default: "Check/uncheck items"
@@ -2903,10 +2891,6 @@ msgstr "${meetingConfigTitle} - ${itemTitle} - Le point est maintenant dans l'é
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
 msgstr "Les modèles de points seront disponibles aux utilisateurs qui créeront des points dans l'application."
-
-#. Default: "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
-msgid "item_topic_states_descr"
-msgstr "Dans la portlet 'points', des liens permettent de déclencher des recherches de points. Seuls les points étant dans les états que vous sélectionnez ici apparaîtront dans ces recherches. Il peut être pratique par exemple de ne plus afficher les points déjà publiés dans des séances puisqu'ils sont déjà visibles via les séances."
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
 msgid "item_workflow_descr"
@@ -3483,10 +3467,6 @@ msgstr "Les attributs 'signatures' et 'signataires' ne peuvent être utilisés e
 msgid "no_sub_types_defined"
 msgstr "Aucun sous-type n'a été défini."
 
-#. Default: "No topic is currently defined."
-msgid "no_topic_folder"
-msgstr "Aucun dossier automatique défini pour le moment."
-
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
 msgstr "* * * Avis sans délai * * *"
@@ -3759,10 +3739,6 @@ msgstr "Seuls les utilisateurs ayant la (les) permission(s) spécifiée(s) ici s
 #. Default: "This template must be an ODT (Open Document Format Text) document as produced by OpenOffice for example. This template should also contain special instructions that allow to insert Plone content into it. The format of those instructions is defined by the POD (Python Open Document) library. You can learn how to write an ODT document containing POD instructions <a href=\"http://appyframework.org/pod.html\">here</a>."
 msgid "pod_template_descr"
 msgstr "Ce canevas doit être un document ODT (Open Document Format text) tel que produit par OpenOffice par exemple. Ce canevas devrait aussi contenir des instructions spéciales qui permettent d'y insérer du contenu provenant de la base de données Zope/Plone. Le format de ces instructions est défini par la librairie POD (Python Open Document). Vous pouvez apprendre à écrire des fichiers ODT contenant des instructions POD <a href=\"http://appyframework.org/pod.html\">ici</a>."
-
-#. Default: "Active ?"
-msgid "pod_template_is_active"
-msgstr "Actif ?"
 
 #. Default: "This section allows you manage the document templates that you may specify for producing documents from content managed by PloneMeeting (items, meetings, annexes, etc)."
 msgid "pod_templates_descr"
@@ -4073,6 +4049,10 @@ msgstr "Points corrigés"
 msgid "searchdecideditems"
 msgstr "Points décidés"
 
+#. Default: "Searches defined here are used in the main portlet. We recommand not modifying them."
+msgid "searches_descr"
+msgstr "Les recherches définies ici seront affichées dans le portlet 'Gestion' dans l'application. Il est vivement conseillé de ne pas les modifier."
+
 #. Default: "items of my groups"
 msgid "searchitemsofmygroups"
 msgstr "Points de mes groupes"
@@ -4307,9 +4287,9 @@ msgstr "A évoquer en séance."
 msgid "to_discuss_yes_edit"
 msgstr "A évoquer en séance, cliquez sur l'image pour ne pas évoquer ce point."
 
-#. Default: "Select here topics you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any topic, the portlet will not shows up for users"
-msgid "to_do_list_topics"
-msgstr "Sélectionnez les recherches préconfigurées à prendre en compte pour le portlet 'A faire'. Si vous ne sélectionnez aucun dossier automatique, le portlet sera caché pour les utilisateurs."
+#. Default: "Select here searches you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any search, the portlet will not show up for users"
+msgid "to_do_list_searches"
+msgstr "Sélectionnez les recherches à prendre en compte pour le portlet 'A faire'. Si vous ne sélectionnez aucune recherche, le portlet sera caché pour les utilisateurs."
 
 #. Default: "Other parameters"
 msgid "tool_plonemeeting_misc"
@@ -4322,22 +4302,6 @@ msgstr "Si, pour une raison ou une autre (une configuration spécifique d'un rev
 #. Default: "The result shows only elements you are allowed to view."
 msgid "topic_description"
 msgstr "Le résultat de la recherche montre seulement les éléments que vous pouvez voir."
-
-#. Default: "Is linked to?"
-msgid "topic_linked_to_type"
-msgstr "Se rapporte à (Point ou Séance)"
-
-#. Default: "Linked search script"
-msgid "topic_search_script"
-msgstr "Script de recherche"
-
-#. Default: "Display condition"
-msgid "topic_tal_expression"
-msgstr "Condition d'affichage"
-
-#. Default: "Topics defined here are used in the main portlet. We recommand not modifying them."
-msgid "topics_descr"
-msgstr "Les recherches préconfigurées définies ici seront affichées dans le portlet 'Gestion' dans l'application. Il est vivement conseillé de ne pas les modifier."
 
 #. Default: "Transfer"
 msgid "transfer"
@@ -4598,4 +4562,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

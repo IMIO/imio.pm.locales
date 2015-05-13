@@ -287,6 +287,10 @@ msgstr "Limite el número de caracteres que se muestran del título para evitar 
 msgid "Manage advice annexes"
 msgstr "Administrar anexos de consejos"
 
+#. Default: "Manage dashboard"
+msgid "Manage dashboard"
+msgstr ""
+
 #. Default: "Manage item assembly"
 msgid "Manage item assembly"
 msgstr "Administrar tema de asamblea"
@@ -815,10 +819,6 @@ msgstr "Etiquetas"
 msgid "PloneMeeting_label_itemTitle"
 msgstr "Objeto"
 
-#. Default: "Item states which are relevant for searches defined in the 'items' portlets"
-msgid "PloneMeeting_label_itemTopicStates"
-msgstr "Estado del tema el cual es relevante para las búsquedas definidas en el portlets 'temas'"
-
 #. Default: "Workflow that dictates the life cycle of every item into this configuration"
 msgid "PloneMeeting_label_itemWorkflow"
 msgstr "Flujo de trabajo que dicta el ciclo de vida de cada tema dentro de esta configuración"
@@ -1200,9 +1200,9 @@ msgstr "Defina los valores del campo '¿A discutir?' cuando los temas son insert
 msgid "PloneMeeting_label_toDiscussShownForLateItems"
 msgstr "Mostrar campo 'a discutir' en la lista de temas retardados"
 
-#. Default: "List of topics to display in the 'todo' portlet"
-msgid "PloneMeeting_label_toDoListTopics"
-msgstr "Listas de tópicos a mostrar en el portlet 'Por hacer'"
+#. Default: "List of searches to display in the 'todo' portlet"
+msgid "PloneMeeting_label_toDoListSearches"
+msgstr ""
 
 #. Default: "To print?"
 #, fuzzy
@@ -1427,10 +1427,6 @@ msgstr "Por hacer"
 msgid "Toggle descriptions of items"
 msgstr "Descripciones de cambiar de temas"
 
-#. Default: "Topics"
-msgid "Topics"
-msgstr "Tópicos"
-
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 msgstr ""
@@ -1458,10 +1454,6 @@ msgstr "Agregar un anexo"
 #. Default: "Add a new one"
 msgid "add_object"
 msgstr "Agregar un nuevo"
-
-#. Default: "Add a new topic"
-msgid "add_topic"
-msgstr "Agregar un nuevo tópico"
 
 #. Default: "You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
@@ -1972,10 +1964,6 @@ msgstr "Define aquí alguno texto predefinido que se presentará en el campo 'in
 msgid "config_default_meetingitem_motivation_descr"
 msgstr "Defina aquí un texto predefinido que estarán presentes en el campo de 'motivación' cada vez que un usuario crea un nuevo elemento."
 
-#. Default: "Active?"
-msgid "config_is_active"
-msgstr "¿Activar?"
-
 #. Default: "The default meeting configuration is the one the user is redirected to when logging in."
 msgid "config_is_default_descr"
 msgstr "La configuración de reunión por defecto es el que el usuario es redirigido cuando inicie sesión."
@@ -2466,10 +2454,6 @@ msgstr "Previos ${number} elementos"
 msgid "group_certified_signatures_descr"
 msgstr ""
 
-#. Default: "Active?"
-msgid "group_is_active"
-msgstr "¿Activar?"
-
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "group_item_advice_edit_states_descr"
 msgstr "Cuando un tema tiene uno de los estados que usted elige aquí, le permitirá a un consejero de este grupo modificar o eliminar un consejo en este tema. Si usted no especifica ningún estado aquí, una lista de estados, a a nivel global a todos los grupos, son definidos al nivel de configuración a ser usado en su lugar. <span style='color: red';>Si cambia este parámetro, ¡no se olvide de actualizar consejos!</span>"
@@ -2490,6 +2474,10 @@ msgstr "Interfaz de usuario"
 #. Default: "Actions"
 msgid "heading_actions"
 msgstr "Acciones"
+
+#. Default: "Active?"
+msgid "heading_is_active"
+msgstr ""
 
 # Other
 #. Default: "Check/uncheck items"
@@ -2920,10 +2908,6 @@ msgstr "${meetingConfigTitle} - ${itemTitle} - Este tema esta ahora en el estado
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
 msgstr ""
-
-#. Default: "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
-msgid "item_topic_states_descr"
-msgstr "Con el portlet de 'temas', algunos enlaces permiten activar búsquedas de temas. Solamente los temas que inicien en los estados que usted seleccione aquí aparecerán en los resultados de la búsqueda. Si puede ser práctico, por ejemplo, dejarán de recibir, en esos resultados de búsqueda, los temas que ya han sido publicados en las reuniones, porque son ya visibles a través de sus reuniones."
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
 msgid "item_workflow_descr"
@@ -3505,10 +3489,6 @@ msgstr "Los atributos 'firmas' y 'firmantes' no puede ser usado juntos."
 msgid "no_sub_types_defined"
 msgstr ""
 
-#. Default: "No topic is currently defined."
-msgid "no_topic_folder"
-msgstr "Ningún tópico está definido"
-
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
 msgstr "Por favor, seleccione entre los asesores que no son retardo conscientes"
@@ -3783,10 +3763,6 @@ msgstr "Solamente los usuarios que tienen permiso(s) específicos aquí podrán 
 #. Default: "This template must be an ODT (Open Document Format Text) document as produced by OpenOffice for example. This template should also contain special instructions that allow to insert Plone content into it. The format of those instructions is defined by the POD (Python Open Document) library. You can learn how to write an ODT document containing POD instructions <a href=\"http://appyframework.org/pod.html\">here</a>."
 msgid "pod_template_descr"
 msgstr "Esta plantilla debe ser un documento ODT (Open Document Format Text) producido por OpenOffice.org por ejemplo. Esta plantilla debería también contener instrucciones especiales que permiten insertar contenido de Plone dentro de la misma. El formato de estas instrucciones son definidas por la librería POD (Python Open Document). Usted puede aprender ¿cómo se escribe un documento ODT conteniendo instrucciones POD? <a href=\"http://appyframework.org/pod.html\">aquí</a>."
-
-#. Default: "Active ?"
-msgid "pod_template_is_active"
-msgstr "¿Activo?"
 
 #. Default: "This section allows you manage the document templates that you may specify for producing documents from content managed by PloneMeeting (items, meetings, annexes, etc)."
 msgid "pod_templates_descr"
@@ -4101,6 +4077,10 @@ msgstr "temas corregidos"
 msgid "searchdecideditems"
 msgstr ""
 
+#. Default: "Searches defined here are used in the main portlet. We recommand not modifying them."
+msgid "searches_descr"
+msgstr ""
+
 #. Default: "items of my groups"
 msgid "searchitemsofmygroups"
 msgstr ""
@@ -4337,9 +4317,9 @@ msgstr "Se debatirán durante la reunión."
 msgid "to_discuss_yes_edit"
 msgstr "Se debatirán durante la reunión. Haga clic en la imagen para no debatir el tema."
 
-#. Default: "Select here topics you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any topic, the portlet will not shows up for users"
-msgid "to_do_list_topics"
-msgstr "Seleccione aquí los tópicos que desea mostrar en el portlet 'Por hacer' que aparecen en la página de inicio de PloneMeeting de los usuarios. Si no selecciona un tópico, el portlet no aparece para los usuarios"
+#. Default: "Select here searches you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any search, the portlet will not show up for users"
+msgid "to_do_list_searches"
+msgstr ""
 
 #. Default: "Other parameters"
 msgid "tool_plonemeeting_misc"
@@ -4352,22 +4332,6 @@ msgstr "Si, por alguna razón (es decir, una configuración específica de proxy
 #. Default: "The result shows only elements you are allowed to view."
 msgid "topic_description"
 msgstr "El resultado sólo muestra los temas que se pueden ver."
-
-#. Default: "Is linked to?"
-msgid "topic_linked_to_type"
-msgstr "¿Está vinculado?"
-
-#. Default: "Linked search script"
-msgid "topic_search_script"
-msgstr "Relacionado script de búsqueda"
-
-#. Default: "Display condition"
-msgid "topic_tal_expression"
-msgstr "Mostrar condición"
-
-#. Default: "Topics defined here are used in the main portlet. We recommand not modifying them."
-msgid "topics_descr"
-msgstr "Los tópicos definidos aquí se utilizan en el portlet principal. Nosotros recomendamos no modificarlos."
 
 # Workflow transitions
 #. Default: "Transfer"
