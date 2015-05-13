@@ -526,10 +526,6 @@ msgstr "Beslissing"
 msgid "PloneMeeting_label_decisionRelated"
 msgstr "Dit bijlage type is specifiek gelinkt aan de beslissing genomen op dit item"
 
-#. Default: "Meeting states that condition the display of meetings in the 'decisions' portlet"
-msgid "PloneMeeting_label_decisionTopicStates"
-msgstr ""
-
 #. Default: "Default value of the 'Hide advice during redaction' field on an advice"
 msgid "PloneMeeting_label_defaultAdviceHiddenDuringRedaction"
 msgstr ""
@@ -867,10 +863,6 @@ msgstr ""
 msgid "PloneMeeting_label_manuallyLinkedItems"
 msgstr ""
 
-#. Default: "Maximum number of days during which decisions may appear direclty in the 'decisions' portlet."
-msgid "PloneMeeting_label_maxDaysDecisions"
-msgstr "Maximum aantal dagen dat een beslising direkt mag verschijnen in het 'decisions' portlet."
-
 #. Default: "Maximum number of available items to show at once"
 msgid "PloneMeeting_label_maxShownAvailableItems"
 msgstr ""
@@ -941,10 +933,6 @@ msgstr ""
 
 #. Default: "Meeting states in wich restricted power observers can see the meetings"
 msgid "PloneMeeting_label_meetingRestrictedPowerObserversStates"
-msgstr ""
-
-#. Default: "Meeting states that condition the display of meetings in the 'meetings' portlet"
-msgid "PloneMeeting_label_meetingTopicStates"
 msgstr ""
 
 #. Default: "Meeting transition that triggers the insertion of this item as a recurring item"
@@ -2114,10 +2102,6 @@ msgstr "Besluit"
 msgid "decision_is_empty"
 msgstr ""
 
-#. Default: "Meetings being in the states you select here will appear in the 'decisions' portlet. Typically this portlet will display meetings whose decisions were taken or archived."
-msgid "decision_topic_states_descr"
-msgstr "Meetings being in the states you select here will appear in the 'decisions' portlet. Typically this portlet will display meetings whose decisions were taken or archived."
-
 #. Default: "<p>The decision is currently under edit by managers, you can not access it.</p>"
 msgid "decision_under_edit"
 msgstr ""
@@ -3136,10 +3120,6 @@ msgstr ""
 msgid "manually_linked_items_descr"
 msgstr ""
 
-#. Default: "In the 'decisions' portlet, only decisions that have less than x days (x being the number defined here) appear directly. Users consult older decisions by clicking on the link 'all decisions'."
-msgid "max_days_decisions_descr"
-msgstr "In the 'decisions' portlet, only decisions that have less than x days (x being the number defined here) appear directly. Users consult older decisions by clicking on the link 'all decisions'."
-
 #. Default: "When displaying a meeting, the list of items that one may present to the meeting may be paginated if you specify here a maximum number of available items to show at once."
 msgid "max_shown_available_items_descr"
 msgstr ""
@@ -3250,10 +3230,6 @@ msgstr ""
 #. Default: "${meetingConfigTitle} - ${meetingTitle} - The meeting is now in state '${meetingState}'."
 msgid "meeting_state_changed_default_mail_subject"
 msgstr ""
-
-#. Default: "Meetings being in the states you select here will appear in the 'meetings' portlet. Typically you will display there meetings under creation or published meetings that did not took place yet. The idea is to select here a given set of states and to select, in the next field, all the other states. This way, users can distinguish between future and past meetings (past meetings are the object of the next field)."
-msgid "meeting_topic_states_descr"
-msgstr "Meetings being in the states you select here will appear in the 'meetings' portlet. Typically you will display there meetings under creation or published meetings that did not took place yet. The idea is to select here a given set of states and to select, in the next field, all the other states. This way, users can distinguish between future and past meetings (past meetings are the object of the next field)."
 
 #. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 msgid "meeting_transition_inserting_me_descr"

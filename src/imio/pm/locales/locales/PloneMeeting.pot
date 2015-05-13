@@ -2471,36 +2471,12 @@ msgstr ""
 msgid "item_topic_states_descr"
 msgstr ""
 
-#. Default: "Meeting states that condition the display of meetings in the 'meetings' portlet"
-msgid "PloneMeeting_label_meetingTopicStates"
-msgstr ""
-
-#. Default: "Meetings being in the states you select here will appear in the 'meetings' portlet. Typically you will display there meetings under creation or published meetings that did not took place yet. The idea is to select here a given set of states and to select, in the next field, all the other states. This way, users can distinguish between future and past meetings (past meetings are the object of the next field)."
-msgid "meeting_topic_states_descr"
-msgstr ""
-
-#. Default: "Meeting states that condition the display of meetings in the 'decisions' portlet"
-msgid "PloneMeeting_label_decisionTopicStates"
-msgstr ""
-
-#. Default: "Meetings being in the states you select here will appear in the 'decisions' portlet. Typically this portlet will display meetings whose decisions were taken or archived."
-msgid "decision_topic_states_descr"
-msgstr ""
-
 #. Default: "Maximal number of meetings shown in the 'meetings' and 'decisions' portlets"
 msgid "PloneMeeting_label_maxShownMeetings"
 msgstr ""
 
 #. Default: "If the number of meetings to display in any of those 2 portlets is higher than this number, a dropdown list will be shown."
 msgid "max_shown_meetings_descr"
-msgstr ""
-
-#. Default: "Maximum number of days during which decisions may appear direclty in the 'decisions' portlet."
-msgid "PloneMeeting_label_maxDaysDecisions"
-msgstr ""
-
-#. Default: "In the 'decisions' portlet, only decisions that have less than x days (x being the number defined here) appear directly. Users consult older decisions by clicking on the link 'all decisions'."
-msgid "max_days_decisions_descr"
 msgstr ""
 
 #. Default: "Home page"

@@ -525,10 +525,6 @@ msgstr "Décision"
 msgid "PloneMeeting_label_decisionRelated"
 msgstr "Ce type d'annexe est spécifiquement lié à la décision prise sur le point"
 
-#. Default: "Meeting states that condition the display of meetings in the 'decisions' portlet"
-msgid "PloneMeeting_label_decisionTopicStates"
-msgstr "Etats des séances conditionnant l'affichage de celles-ci dans la portlet 'décisions'"
-
 #. Default: "Default value of the 'Hide advice during redaction' field on an advice"
 msgid "PloneMeeting_label_defaultAdviceHiddenDuringRedaction"
 msgstr "Valeur par défaut du champ 'Cacher l'avis pendant sa rédaction' affiché sur les avis"
@@ -866,10 +862,6 @@ msgstr "Listes de diffusion"
 msgid "PloneMeeting_label_manuallyLinkedItems"
 msgstr "Point(s) lié(s) manuellement"
 
-#. Default: "Maximum number of days during which decisions may appear direclty in the 'decisions' portlet."
-msgid "PloneMeeting_label_maxDaysDecisions"
-msgstr "Nombre maximum de jours durant lesquels les décisions apparaissent directement dans la portlet 'décisions'"
-
 #. Default: "Maximum number of available items to show at once"
 msgid "PloneMeeting_label_maxShownAvailableItems"
 msgstr "Nombre maximal de points à afficher dans la liste 'Points à présenter'"
@@ -941,10 +933,6 @@ msgstr "Etats des séances pris en compte pour déterminer la séance dans laque
 #. Default: "Meeting states in wich restricted power observers can see the meetings"
 msgid "PloneMeeting_label_meetingRestrictedPowerObserversStates"
 msgstr "Etats des séances dans lesquels les 'Super observateurs restreints' peuvent les voir"
-
-#. Default: "Meeting states that condition the display of meetings in the 'meetings' portlet"
-msgid "PloneMeeting_label_meetingTopicStates"
-msgstr "Etats des séances conditionnant l'affichage de celles-ci dans la portlet 'séances'"
 
 #. Default: "Meeting transition that triggers the insertion of this item as a recurring item"
 msgid "PloneMeeting_label_meetingTransitionInsertingMe"
@@ -2107,10 +2095,6 @@ msgstr "Décision"
 msgid "decision_is_empty"
 msgstr "Aucune décision n'a été encodée pour le point ${itemNumber}."
 
-#. Default: "Meetings being in the states you select here will appear in the 'decisions' portlet. Typically this portlet will display meetings whose decisions were taken or archived."
-msgid "decision_topic_states_descr"
-msgstr "Les séances étant dans les états que vous sélectionnez ici apparaîtront dans la portlet 'décisions'. Il s'agit typiquement de séances dont les décisions ont été publiées ou archivées."
-
 #. Default: "<p>The decision is currently under edit by managers, you can not access it.</p>"
 msgid "decision_under_edit"
 msgstr "<p>La décision est en cours de rédaction par les gestionnaires de séances, vous ne pouvez pas y accéder pour l'instant.</p>"
@@ -3125,10 +3109,6 @@ msgstr "Au moins un avis obligatoire pour ce point n'est pas positif ou n'a pas 
 msgid "manually_linked_items_descr"
 msgstr "Sélectionnez les points qui sont liés au point courant.  Ces points apparaîtront dans les points liés, mais séparés des points liés automatiquement par l'application.  Le point courant apparaîtra également comme point lié sur les points sélectionnés.  Pour enlever un point lié, décochez la case de ce point.  Les point seront triés chronologiquement.  Les points liés manuellement vont former un \"dossier virtuel\" où tous les points sont liés entre eux.  Si vous enlevez un point de ce \"dossier virtuel\", il ne sera plus lié à aucun des autres points.  Si vous désélectionnez tous les points de ce \"dossier virtuel\", celui-ci sera vidé et plus aucun point ne sera lié aux autres."
 
-#. Default: "In the 'decisions' portlet, only decisions that have less than x days (x being the number defined here) appear directly. Users consult older decisions by clicking on the link 'all decisions'."
-msgid "max_days_decisions_descr"
-msgstr "Dans la portlet 'décisions', n'apparaissent directement que les décisions qui ont moins de x jours, x étant le nombre indiqué ici. Pour consulter les décisions antérieures, il suffit de cliquer sur le lien 'toutes les décisions'. Cette mesure sert à nouveau à ne pas engorger l'interface utilisateur."
-
 #. Default: "When displaying a meeting, the list of items that one may present to the meeting may be paginated if you specify here a maximum number of available items to show at once."
 msgid "max_shown_available_items_descr"
 msgstr "Lors de l'affichage d'une séance, la liste des points à présenter peut être paginée si vous spécifiez ici un nombre maximum de points à afficher sur la page."
@@ -3238,10 +3218,6 @@ msgstr "Vous pouvez accéder à la séance ici: '${objectUrl}'."
 #. Default: "${meetingConfigTitle} - ${meetingTitle} - The meeting is now in state '${meetingState}'."
 msgid "meeting_state_changed_default_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - La séance est maintenant '${meetingState}'."
-
-#. Default: "Meetings being in the states you select here will appear in the 'meetings' portlet. Typically you will display there meetings under creation or published meetings that did not took place yet. The idea is to select here a given set of states and to select, in the next field, all the other states. This way, users can distinguish between future and past meetings (past meetings are the object of the next field)."
-msgid "meeting_topic_states_descr"
-msgstr "Les séances étant dans les états que vous sélectionnez ici apparaîtront dans la portlet 'séances'. Il s'agit typiquement de séances en préparation ou de séances publiées, mais qui n'ont pas encore fait l'objet de décisions. L'idée est de sélectionner ici un certain nombre d'états puis de sélectionner, dans le champ ci-dessous, les états restants, afin que les utilisateurs puissent distinguer les séances à venir ou en préparation des séances passées, pour lesquelles des décisions ont été prises (ce qui constitue l'objet du champ suivant)."
 
 #. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 msgid "meeting_transition_inserting_me_descr"
@@ -4622,3 +4598,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+

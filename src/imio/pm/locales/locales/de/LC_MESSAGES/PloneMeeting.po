@@ -525,10 +525,6 @@ msgstr "Beschluss"
 msgid "PloneMeeting_label_decisionRelated"
 msgstr "Dieser Anhangs-Typ ist mit dem Beschluss der für diesen TOP gefasst wurde verknüpft"
 
-#. Default: "Meeting states that condition the display of meetings in the 'decisions' portlet"
-msgid "PloneMeeting_label_decisionTopicStates"
-msgstr "Sitzungs-Status welche für die Anzeige im Beschlüsse-Portlet berücksichtigt werden"
-
 #. Default: "Default value of the 'Hide advice during redaction' field on an advice"
 msgid "PloneMeeting_label_defaultAdviceHiddenDuringRedaction"
 msgstr ""
@@ -866,10 +862,6 @@ msgstr "Verteilerlisten"
 msgid "PloneMeeting_label_manuallyLinkedItems"
 msgstr ""
 
-#. Default: "Maximum number of days during which decisions may appear direclty in the 'decisions' portlet."
-msgid "PloneMeeting_label_maxDaysDecisions"
-msgstr "Maximale Anzahl an Tagen während der Beschlüsse im Beschlüsse-Portlet angezeigt werden."
-
 #. Default: "Maximum number of available items to show at once"
 msgid "PloneMeeting_label_maxShownAvailableItems"
 msgstr "Maximale Anzahl gleichzeitig anzuzeigender vorhandener TOP"
@@ -941,10 +933,6 @@ msgstr ""
 #. Default: "Meeting states in wich restricted power observers can see the meetings"
 msgid "PloneMeeting_label_meetingRestrictedPowerObserversStates"
 msgstr ""
-
-#. Default: "Meeting states that condition the display of meetings in the 'meetings' portlet"
-msgid "PloneMeeting_label_meetingTopicStates"
-msgstr "Sitzungs-Status welche für die Anzeige im Sitzungs-Portlet berücksichtigt werden"
 
 #. Default: "Meeting transition that triggers the insertion of this item as a recurring item"
 msgid "PloneMeeting_label_meetingTransitionInsertingMe"
@@ -2121,10 +2109,6 @@ msgstr "Beschluss"
 msgid "decision_is_empty"
 msgstr "Der Beschluss ist leer für den TOP ${itemNumber}."
 
-#. Default: "Meetings being in the states you select here will appear in the 'decisions' portlet. Typically this portlet will display meetings whose decisions were taken or archived."
-msgid "decision_topic_states_descr"
-msgstr "Sitzungen die sich in den hier ausgewählten Status befinden werden im Beschlüsse-Portlet angezeigt. Typischerweise werden hier Sitzungen für die Beschlüsse gefasst oder umgesetzt wurden angezeigt."
-
 #. Default: "<p>The decision is currently under edit by managers, you can not access it.</p>"
 msgid "decision_under_edit"
 msgstr ""
@@ -3155,10 +3139,6 @@ msgstr "Mindestens ein Pflichtkommentar für diesen TOP wurde nicht abgegeben od
 msgid "manually_linked_items_descr"
 msgstr ""
 
-#. Default: "In the 'decisions' portlet, only decisions that have less than x days (x being the number defined here) appear directly. Users consult older decisions by clicking on the link 'all decisions'."
-msgid "max_days_decisions_descr"
-msgstr "Maximales Alter der Beschlüsse die im Beschlüsse-Portlet angezeigt werden in Tagen. Nutzer können ältere Beschlüsse über den Link 'Alle Beschlüsse' einsehen."
-
 #. Default: "When displaying a meeting, the list of items that one may present to the meeting may be paginated if you specify here a maximum number of available items to show at once."
 msgid "max_shown_available_items_descr"
 msgstr "Bei der Anzeige einer Sitzung kann die Liste der angezeigten Punkte auf mehrere Seiten aufgeteilt werden wenn Sie hier die maximale Anzahl Punkte pro Seite angeben."
@@ -3269,10 +3249,6 @@ msgstr ""
 #. Default: "${meetingConfigTitle} - ${meetingTitle} - The meeting is now in state '${meetingState}'."
 msgid "meeting_state_changed_default_mail_subject"
 msgstr ""
-
-#. Default: "Meetings being in the states you select here will appear in the 'meetings' portlet. Typically you will display there meetings under creation or published meetings that did not took place yet. The idea is to select here a given set of states and to select, in the next field, all the other states. This way, users can distinguish between future and past meetings (past meetings are the object of the next field)."
-msgid "meeting_topic_states_descr"
-msgstr "Sitzungen die sich in den hier ausgewählten Status befinden werden im Sitzungs-Portlet angezeigt. Typischerweise werden hier Sitzungen die sich noch in der Bearbeitung befinden oder solche die zwar veröffentlicht, aber noch nicht stattgefunden haben angezeigt. Im nächsten Feld können die anderen Status ausgewählt werden, so können Nutzer zwischen zukünftigen und vergangenen Sitzungen unterscheiden."
 
 #. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 #, fuzzy

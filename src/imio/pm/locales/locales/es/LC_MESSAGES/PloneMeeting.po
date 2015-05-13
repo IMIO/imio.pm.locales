@@ -529,10 +529,6 @@ msgstr "Decisión"
 msgid "PloneMeeting_label_decisionRelated"
 msgstr "Este tipo de anexo esta específicamente relacionado con la decisión adoptada sobre este tema."
 
-#. Default: "Meeting states that condition the display of meetings in the 'decisions' portlet"
-msgid "PloneMeeting_label_decisionTopicStates"
-msgstr "Los estados de la reunión que condiciona la visualización de las reuniones en el portlet 'decisiones'"
-
 #. Default: "Default value of the 'Hide advice during redaction' field on an advice"
 msgid "PloneMeeting_label_defaultAdviceHiddenDuringRedaction"
 msgstr ""
@@ -871,10 +867,6 @@ msgstr "Listas de correo electrónico"
 msgid "PloneMeeting_label_manuallyLinkedItems"
 msgstr ""
 
-#. Default: "Maximum number of days during which decisions may appear direclty in the 'decisions' portlet."
-msgid "PloneMeeting_label_maxDaysDecisions"
-msgstr "Máximo de números de días durante el cual dichas decisiones tal ves aparezca directamente el portlet de 'decisiones'."
-
 #. Default: "Maximum number of available items to show at once"
 msgid "PloneMeeting_label_maxShownAvailableItems"
 msgstr "Número máximo de temas disponibles a mostrar a la vez"
@@ -947,10 +939,6 @@ msgstr ""
 #. Default: "Meeting states in wich restricted power observers can see the meetings"
 msgid "PloneMeeting_label_meetingRestrictedPowerObserversStates"
 msgstr ""
-
-#. Default: "Meeting states that condition the display of meetings in the 'meetings' portlet"
-msgid "PloneMeeting_label_meetingTopicStates"
-msgstr "Los estados de la reunión que condiciona la visualización de las reuniones en el portlet 'reuniones'"
 
 #. Default: "Meeting transition that triggers the insertion of this item as a recurring item"
 msgid "PloneMeeting_label_meetingTransitionInsertingMe"
@@ -2120,10 +2108,6 @@ msgstr "Decisión"
 msgid "decision_is_empty"
 msgstr "La decisión esta vacía para el tema ${itemNumber}."
 
-#. Default: "Meetings being in the states you select here will appear in the 'decisions' portlet. Typically this portlet will display meetings whose decisions were taken or archived."
-msgid "decision_topic_states_descr"
-msgstr "Las reuniones inician en un estado que seleccione aquí y van aparecer en el portlet 'decisiones'. Típicamente este portlet será para mostrar todas las decisiones de las reuniones que fueron tomadas o archivadas."
-
 #. Default: "<p>The decision is currently under edit by managers, you can not access it.</p>"
 msgid "decision_under_edit"
 msgstr ""
@@ -3145,10 +3129,6 @@ msgstr "Al menos un consejo obligatorio para este tema no es positivo o no ha si
 msgid "manually_linked_items_descr"
 msgstr ""
 
-#. Default: "In the 'decisions' portlet, only decisions that have less than x days (x being the number defined here) appear directly. Users consult older decisions by clicking on the link 'all decisions'."
-msgid "max_days_decisions_descr"
-msgstr "En el portlet de 'decisiones', solamente las decisiones que tiene al menos X días (donde X es le número de días definidos aquí) aparecerán directamente. Los usuarios consultarán las decisiones antiguas haciendo clic sobre en enlace 'todas las decisiones'."
-
 #. Default: "When displaying a meeting, the list of items that one may present to the meeting may be paginated if you specify here a maximum number of available items to show at once."
 msgid "max_shown_available_items_descr"
 msgstr "Cuando se muestra una reunión, la lista de temas que se pueden presentar a la reunión pueden ser paginadas aquí si especifica un número máximo de temas disponibles para mostrar a la vez."
@@ -3260,10 +3240,6 @@ msgstr "Usted puede consultar esta reunión en ${objectUrl}."
 #. Default: "${meetingConfigTitle} - ${meetingTitle} - The meeting is now in state '${meetingState}'."
 msgid "meeting_state_changed_default_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - Este reunión esta ahora en el estado '${meetingState}'."
-
-#. Default: "Meetings being in the states you select here will appear in the 'meetings' portlet. Typically you will display there meetings under creation or published meetings that did not took place yet. The idea is to select here a given set of states and to select, in the next field, all the other states. This way, users can distinguish between future and past meetings (past meetings are the object of the next field)."
-msgid "meeting_topic_states_descr"
-msgstr "Las reuniones inician en el estado que usted seleccione aquí se publicará en el portlet 'reuniones'. Normalmente usted mostrará esas reuniones bajo creación o reuniones publicadas que no se llevan a cabo aún. La idea aquí es seleccionar un conjunto dado de estados y para seleccionar, en el siguiente campo, todos los otros estados. De esta manera, los usuarios pueden distinguir entre las pasadas y futuras reuniones (las reuniones anteriores son objeto de la siguiente campo)."
 
 #. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 #, fuzzy
