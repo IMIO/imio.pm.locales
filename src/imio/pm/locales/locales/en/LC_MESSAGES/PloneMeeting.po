@@ -2651,14 +2651,6 @@ msgstr "You can not select 'Follow to discuss order' inserting method as the fie
 msgid "inserting_methods_on_add_item_descr"
 msgstr "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
 
-#. Default: "Public meeting"
-msgid "ip_public"
-msgstr "Public meeting"
-
-#. Default: "Closed door"
-msgid "ip_secret"
-msgstr "Closed door"
-
 #. Default: "Absent?"
 msgid "is_absent"
 msgstr "Absent?"
@@ -3816,6 +3808,10 @@ msgstr "Define here lists of people to which files generated from this template 
 msgid "pt_mailing_sent"
 msgstr "The document has been sent."
 
+#. Default: "Public meeting"
+msgid "public"
+msgstr ""
+
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use this functionality."
 msgid "publish_deadline_default_descr"
 msgstr "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use the functionnality."
@@ -4092,6 +4088,10 @@ msgstr "items of that i took over"
 #. Default: "Validable items"
 msgid "searchvalidableitems"
 msgstr "Validable items"
+
+#. Default: "Closed door"
+msgid "secret"
+msgstr ""
 
 # Portlet "meeting items"
 #. Default: "See everything..."

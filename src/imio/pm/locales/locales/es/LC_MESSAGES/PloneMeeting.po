@@ -2664,16 +2664,6 @@ msgstr ""
 msgid "inserting_methods_on_add_item_descr"
 msgstr ""
 
-#. Default: "Public meeting"
-#, fuzzy
-msgid "ip_public"
-msgstr "Público"
-
-#. Default: "Closed door"
-#, fuzzy
-msgid "ip_secret"
-msgstr "Secreto"
-
 #. Default: "Absent?"
 msgid "is_absent"
 msgstr "¿Ausente?"
@@ -3840,6 +3830,10 @@ msgstr "Definir aquí una lista de personas a las que los archivos generados a p
 msgid "pt_mailing_sent"
 msgstr "El documento ha sido enviado."
 
+#. Default: "Public meeting"
+msgid "public"
+msgstr ""
+
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use this functionality."
 msgid "publish_deadline_default_descr"
 msgstr "Especifique aquí la fecha límite para la validación de los temas que se insertan en una reunión dada. Usted tiene la necesidad de expresar este plazo en relación con la fecha de la reunión. Por ejemplo, '5 .9:30' (no escriba las comillas) eso significa: '5 días antes de la fecha de la reunión, a las 9:30'."
@@ -4119,6 +4113,10 @@ msgstr ""
 
 #. Default: "Validable items"
 msgid "searchvalidableitems"
+msgstr ""
+
+#. Default: "Closed door"
+msgid "secret"
 msgstr ""
 
 # Portlet "meeting items"

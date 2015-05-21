@@ -14,6 +14,10 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
+#. Default: "Advices"
+msgid "header_advices"
+msgstr "Avis"
+
 #. Default: "Category"
 msgid "header_getCategory"
 msgstr "Catégorie"
@@ -21,6 +25,10 @@ msgstr "Catégorie"
 #. Default: "Proposing group"
 msgid "header_getProposingGroup"
 msgstr "Groupe proposant"
+
+#. Default: "Privacy"
+msgid "header_privacy"
+msgstr "Niveau de confidentialité"
 
 #. Default: "Proposing group acronym"
 msgid "header_proposing_group_acronym"
@@ -33,4 +41,3 @@ msgstr "Objet"
 #. Default: "To discuss?"
 msgid "header_toDiscuss"
 msgstr "A évoquer en séance?"
-

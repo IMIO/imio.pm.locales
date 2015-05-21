@@ -2667,16 +2667,6 @@ msgstr ""
 msgid "inserting_methods_on_add_item_descr"
 msgstr ""
 
-#. Default: "Public meeting"
-#, fuzzy
-msgid "ip_public"
-msgstr "Öffentlich"
-
-#. Default: "Closed door"
-#, fuzzy
-msgid "ip_secret"
-msgstr "Geheim"
-
 #. Default: "Absent?"
 msgid "is_absent"
 msgstr "Abwesend?"
@@ -3848,6 +3838,10 @@ msgstr "Definieren Sie hier die Liste der Personen, zu denen, per Email, die Dok
 msgid "pt_mailing_sent"
 msgstr "Das Dokument wurde verschickt"
 
+#. Default: "Public meeting"
+msgid "public"
+msgstr ""
+
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use this functionality."
 msgid "publish_deadline_default_descr"
 msgstr "Definieren Sie hier die Frist bis wann TOP validiert sein müssen um in eine Sitzung aufgenommen werden zu können. Diese Frist muss realtiv zum Datum der Sitzung eingegeben werden. Z.B., '5.9:30' (Ohne Anführungszeichen eintragen) bedeutet '5 Tage vor dem Sitzungsdatum, um 9:30 Uhr'."
@@ -4126,6 +4120,10 @@ msgstr ""
 
 #. Default: "Validable items"
 msgid "searchvalidableitems"
+msgstr ""
+
+#. Default: "Closed door"
+msgid "secret"
 msgstr ""
 
 # Portlet "meeting items"

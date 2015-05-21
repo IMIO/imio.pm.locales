@@ -2651,14 +2651,6 @@ msgstr "Vous ne pouvez pas sélectionner 'Par point à discuter (à discuter et 
 msgid "inserting_methods_on_add_item_descr"
 msgstr "Permet de définir les méthodes successivement appliquées lors de l'insertion d'un point dans une séance."
 
-#. Default: "Public meeting"
-msgid "ip_public"
-msgstr "Séance publique"
-
-#. Default: "Closed door"
-msgid "ip_secret"
-msgstr "Huis clos"
-
 #. Default: "Absent?"
 msgid "is_absent"
 msgstr "Absent?"
@@ -3815,6 +3807,10 @@ msgstr "Définissez ici des listes de personnes à qui envoyer par courriel les 
 msgid "pt_mailing_sent"
 msgstr "Le document a été envoyé."
 
+#. Default: "Public meeting"
+msgid "public"
+msgstr "Séance publique"
+
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use this functionality."
 msgid "publish_deadline_default_descr"
 msgstr "Spécifiez ici l'échéance pour valider des points à insérer dans une séance donnée. Vous devez exprimer cette échéance comme étant relative à la date de la séance. Par exemple, '5.9:30' (n'encodez pas d'apostrophes) signifie '5 jours avant la date de la séance, à 9:30'.  Laissez le champ vide si vous ne souhaitez pas utiliser cette fonctionnalité."
@@ -4091,6 +4087,10 @@ msgstr "Points pris en charge"
 #. Default: "Validable items"
 msgid "searchvalidableitems"
 msgstr "Points validables"
+
+#. Default: "Closed door"
+msgid "secret"
+msgstr "Huis clos"
 
 # Portlet "meeting items"
 #. Default: "See everything..."
