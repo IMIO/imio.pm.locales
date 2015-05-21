@@ -1871,10 +1871,6 @@ msgstr "Choisissez ici un identifiant pour votre catégorie."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
 msgstr "Lorsqu'un point de cette configuration de séance utilisant cette catégorie sera envoyé vers une autre configuration de séance, sélectionnez ci-dessous la catégorie qui devra être utilisée pour le point dans la configuration de séance de destination.  Ceci n'est possible que si les deux configurations de séance (origine et destination) utilisent les catégories."
 
-#. Default: "Category (or proposing group)"
-msgid "category_or_proposing_group"
-msgstr "Catégorie (ou groupe proposant)"
-
 #. Default: "Please specify a category."
 msgid "category_required"
 msgstr "Veuillez spécifier une catégorie."
@@ -2412,6 +2408,10 @@ msgstr "M"
 #. Default: "Mister"
 msgid "gender_m_extended"
 msgstr "Monsieur"
+
+#. Default: "Category"
+msgid "getCategory__header_title"
+msgstr ""
 
 #. Default: "Please respect order of transitions sequence to present an item, the given sequence of transitions is wrong."
 msgid "given_wf_path_does_not_lead_to_present"
@@ -3639,11 +3639,6 @@ msgstr "Convertir les annexes pour la prévisualisation"
 msgid "pm_creation_date"
 msgstr "Créé le"
 
-# MeetingFile
-#. Default: "Creator"
-msgid "pm_creator"
-msgstr "Créateur"
-
 #. Default: "Go to the first one."
 msgid "pm_goto_first"
 msgstr "Aller au tout premier."
@@ -3807,10 +3802,6 @@ msgstr "Séance"
 #. Default: "Items presented to this meeting"
 msgid "presented_items"
 msgstr "Points présentés à cette séance"
-
-#. Default: "Proposing group's acronym"
-msgid "proposing_group_acronym"
-msgstr "Acronyme du groupe proposant"
 
 #. Default: "A proposing group is required."
 msgid "proposing_group_required"
@@ -4566,3 +4557,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+

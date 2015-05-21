@@ -1883,10 +1883,6 @@ msgstr "Wählen Sie hier einen Wert für die Kategorie aus."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
 msgstr ""
 
-#. Default: "Category (or proposing group)"
-msgid "category_or_proposing_group"
-msgstr "Kategorie (oder vorschlagende Gruppe)"
-
 #. Default: "Please specify a category."
 msgid "category_required"
 msgstr "Bitte geben Sie eine Kategorie an."
@@ -2426,6 +2422,10 @@ msgstr "M"
 
 #. Default: "Mister"
 msgid "gender_m_extended"
+msgstr ""
+
+#. Default: "Category"
+msgid "getCategory__header_title"
 msgstr ""
 
 #. Default: "Please respect order of transitions sequence to present an item, the given sequence of transitions is wrong."
@@ -3672,11 +3672,6 @@ msgstr ""
 msgid "pm_creation_date"
 msgstr "Erstellt am"
 
-# MeetingFile
-#. Default: "Creator"
-msgid "pm_creator"
-msgstr "Ersteller"
-
 #. Default: "Go to the first one."
 msgid "pm_goto_first"
 msgstr "Gehe zum ersten TOP in dieser Sitzung."
@@ -3840,10 +3835,6 @@ msgstr "Sitzung in der dieser TOP präsentiert wird."
 #. Default: "Items presented to this meeting"
 msgid "presented_items"
 msgstr "TOP die in dieser Sitzung präsentiert wurden"
-
-#. Default: "Proposing group's acronym"
-msgid "proposing_group_acronym"
-msgstr "Akronym der vorschlagenden Gruppe"
 
 #. Default: "A proposing group is required."
 msgid "proposing_group_required"

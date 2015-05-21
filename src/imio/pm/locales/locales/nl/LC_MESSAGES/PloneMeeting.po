@@ -1878,10 +1878,6 @@ msgstr ""
 msgid "category_mapping_when_cloning_to_other_mc_descr"
 msgstr ""
 
-#. Default: "Category (or proposing group)"
-msgid "category_or_proposing_group"
-msgstr "Category (or proposing group)"
-
 #. Default: "Please specify a category."
 msgid "category_required"
 msgstr "Gelieve een categorie te specificeren."
@@ -2417,6 +2413,10 @@ msgstr "geslacht M"
 
 #. Default: "Mister"
 msgid "gender_m_extended"
+msgstr ""
+
+#. Default: "Category"
+msgid "getCategory__header_title"
 msgstr ""
 
 #. Default: "Please respect order of transitions sequence to present an item, the given sequence of transitions is wrong."
@@ -3651,11 +3651,6 @@ msgstr ""
 msgid "pm_creation_date"
 msgstr "Geupload op"
 
-# MeetingFile
-#. Default: "Creator"
-msgid "pm_creator"
-msgstr "Aanmaker"
-
 #. Default: "Go to the first one."
 msgid "pm_goto_first"
 msgstr ""
@@ -3819,10 +3814,6 @@ msgstr "Vergadering waarin dit punt wordt voorgesteld"
 #. Default: "Items presented to this meeting"
 msgid "presented_items"
 msgstr "Punten die aan deze vergadering worden voorgesteld"
-
-#. Default: "Proposing group's acronym"
-msgid "proposing_group_acronym"
-msgstr "Proposing group's acronym"
 
 #. Default: "A proposing group is required."
 msgid "proposing_group_required"

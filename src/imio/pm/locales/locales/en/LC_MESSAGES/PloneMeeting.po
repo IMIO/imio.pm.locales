@@ -1871,10 +1871,6 @@ msgstr "Choose here some identifier for your category."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
 msgstr "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
 
-#. Default: "Category (or proposing group)"
-msgid "category_or_proposing_group"
-msgstr "Category (or proposing group)"
-
 #. Default: "Please specify a category."
 msgid "category_required"
 msgstr "Please specify a category."
@@ -2412,6 +2408,10 @@ msgstr "M"
 #. Default: "Mister"
 msgid "gender_m_extended"
 msgstr "Mister"
+
+#. Default: "Category"
+msgid "getCategory__header_title"
+msgstr ""
 
 #. Default: "Please respect order of transitions sequence to present an item, the given sequence of transitions is wrong."
 msgid "given_wf_path_does_not_lead_to_present"
@@ -3640,11 +3640,6 @@ msgstr "Convert annexes for preview"
 msgid "pm_creation_date"
 msgstr "Creation date"
 
-# MeetingFile
-#. Default: "Creator"
-msgid "pm_creator"
-msgstr "Creator"
-
 #. Default: "Go to the first one."
 msgid "pm_goto_first"
 msgstr "Go to the first one."
@@ -3808,10 +3803,6 @@ msgstr "Meeting into which this item is presented"
 #. Default: "Items presented to this meeting"
 msgid "presented_items"
 msgstr "Items presented to this meeting"
-
-#. Default: "Proposing group's acronym"
-msgid "proposing_group_acronym"
-msgstr "Proposing group's acronym"
 
 #. Default: "A proposing group is required."
 msgid "proposing_group_required"

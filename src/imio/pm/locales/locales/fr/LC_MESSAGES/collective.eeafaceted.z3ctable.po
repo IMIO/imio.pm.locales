@@ -14,7 +14,18 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
-#. Default: "Purpose"
-msgid "pretty_link__header_title"
-msgstr "Objet"
+#. Default: "Category"
+msgid "header_getCategory"
+msgstr "Catégorie"
 
+#. Default: "Proposing group"
+msgid "header_getProposingGroup"
+msgstr "Groupe proposant"
+
+#. Default: "Proposing group acronym"
+msgid "header_proposing_group_acronym"
+msgstr "Acronyme du groupe proposant"
+
+#. Default: "Purpose"
+msgid "header_purpose"
+msgstr "Objet"
