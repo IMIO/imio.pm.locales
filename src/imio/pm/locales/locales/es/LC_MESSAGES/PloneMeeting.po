@@ -2422,10 +2422,6 @@ msgstr "M"
 msgid "gender_m_extended"
 msgstr "Señor"
 
-#. Default: "Category"
-msgid "getCategory__header_title"
-msgstr ""
-
 #. Default: "Please respect order of transitions sequence to present an item, the given sequence of transitions is wrong."
 msgid "given_wf_path_does_not_lead_to_present"
 msgstr ""
@@ -4143,6 +4139,14 @@ msgstr "Este elemento ha sido exitosamente transferido en la asamblea plonegov."
 #. Default: "The item has been successfully transfered to the plonemeeting assembly."
 msgid "sendto_plonemeeting-assembly_success"
 msgstr "Este elemento ha sido exitosamente transferido en la asamblea plonemeeting."
+
+#. Default: "${meetingConfigTitle} (to send to)"
+msgid "sent_to_other_mc_term__clonable_to"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} (sent to)"
+msgid "sent_to_other_mc_term__cloned_to"
+msgstr ""
 
 #. Default: "Item sent to ${meetingConfigTitle}"
 msgid "sentto_othermeetingconfig"

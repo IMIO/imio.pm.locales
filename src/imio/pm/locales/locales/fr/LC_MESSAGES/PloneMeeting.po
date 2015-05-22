@@ -2409,10 +2409,6 @@ msgstr "M"
 msgid "gender_m_extended"
 msgstr "Monsieur"
 
-#. Default: "Category"
-msgid "getCategory__header_title"
-msgstr ""
-
 #. Default: "Please respect order of transitions sequence to present an item, the given sequence of transitions is wrong."
 msgid "given_wf_path_does_not_lead_to_present"
 msgstr "Respectez bien l'ordre des transitions menant à l'état 'présenté', la succession de transitions renseignée n'est pas valide."
@@ -4117,6 +4113,14 @@ msgstr "Le point a été envoyé à l'assemblée PloneGov."
 msgid "sendto_plonemeeting-assembly_success"
 msgstr "Le point a été envoyé à l'assemblée PloneMeeting."
 
+#. Default: "${meetingConfigTitle} (to send to)"
+msgid "sent_to_other_mc_term__clonable_to"
+msgstr "${meetingConfigTitle} (A envoyer)"
+
+#. Default: "${meetingConfigTitle} (sent to)"
+msgid "sent_to_other_mc_term__cloned_to"
+msgstr "${meetingConfigTitle} (Envoyé)"
+
 #. Default: "Item sent to ${meetingConfigTitle}"
 msgid "sentto_othermeetingconfig"
 msgstr "Envoyé vers ${meetingConfigTitle}"
@@ -4557,4 +4561,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
