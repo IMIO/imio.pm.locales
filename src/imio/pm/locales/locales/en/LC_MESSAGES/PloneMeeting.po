@@ -3009,6 +3009,14 @@ msgstr "Linked items (${auto_linked_items})"
 msgid "linked_items_with_manually_linked_items"
 msgstr "Linked items, ${auto_linked_items} automatically and ${manually_linked_items} manually"
 
+#. Default: "Late"
+msgid "list_type_late"
+msgstr ""
+
+#. Default: "Normal"
+msgid "list_type_normal"
+msgstr ""
+
 #. Default: "Purpose"
 msgid "listingheader_item_title"
 msgstr "Purpose"
@@ -4050,7 +4058,7 @@ msgid "searchitemstoadvicewithdelay"
 msgstr "items to advice with delay"
 
 #. Default: "advice not given (delay exceeded)"
-msgid "searchitemstoadvicewithdexceededdelay"
+msgid "searchitemstoadvicewithexceededdelay"
 msgstr ""
 
 #. Default: "items to advice without delay"

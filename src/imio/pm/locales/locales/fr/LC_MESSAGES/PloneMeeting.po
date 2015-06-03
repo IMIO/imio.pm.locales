@@ -3009,6 +3009,14 @@ msgstr "Point(s) lié(s) (${auto_linked_items})"
 msgid "linked_items_with_manually_linked_items"
 msgstr "Point(s) lié(s), ${auto_linked_items} automatiquement et ${manually_linked_items} manuellement"
 
+#. Default: "Late"
+msgid "list_type_late"
+msgstr "En retard"
+
+#. Default: "Normal"
+msgid "list_type_normal"
+msgstr "Normal"
+
 #. Default: "Purpose"
 msgid "listingheader_item_title"
 msgstr "Objet"
@@ -4049,7 +4057,7 @@ msgid "searchitemstoadvicewithdelay"
 msgstr "avis à donner (avec délai)"
 
 #. Default: "advice not given (delay exceeded)"
-msgid "searchitemstoadvicewithdexceededdelay"
+msgid "searchitemstoadvicewithexceededdelay"
 msgstr "avis non rendus (délai dépassé)"
 
 #. Default: "items to advice without delay"
