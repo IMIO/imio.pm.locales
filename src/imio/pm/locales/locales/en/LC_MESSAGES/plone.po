@@ -241,9 +241,17 @@ msgstr "On creation"
 msgid "accept"
 msgstr "Accept"
 
+#. Default: "Accept with modifications"
+msgid "accept_but_modify"
+msgstr ""
+
 #. Default: "Accepted"
 msgid "accepted"
 msgstr "Accepted"
+
+#. Default: "Accepted with modifications"
+msgid "accepted_but_modified"
+msgstr ""
 
 #. Default: "Activate"
 msgid "activate"
@@ -597,6 +605,14 @@ msgstr "Metadata"
 #. Default: "PloneMeeting view redirecting to the application when logged in"
 msgid "plonemeeting_redirect_to_app_view"
 msgstr "PloneMeeting view redirecting to the application when logged in"
+
+#. Default: "Pre accept"
+msgid "pre_accept"
+msgstr ""
+
+#. Default: "Pre accepted"
+msgid "pre_accepted"
+msgstr ""
 
 #. Default: "Present"
 msgid "present"

@@ -238,9 +238,17 @@ msgstr "Lors de la création"
 msgid "accept"
 msgstr "Accepter"
 
+#. Default: "Accept with modifications"
+msgid "accept_but_modify"
+msgstr "Accepter avec modifications"
+
 #. Default: "Accepted"
 msgid "accepted"
 msgstr "Accepté"
+
+#. Default: "Accepted with modifications"
+msgid "accepted_but_modified"
+msgstr "Accepté avec modifications"
 
 #. Default: "Activate"
 msgid "activate"
@@ -595,6 +603,14 @@ msgstr "Méta-données"
 msgid "plonemeeting_redirect_to_app_view"
 msgstr "Vue PloneMeeting redirection vers l'application"
 
+#. Default: "Pre accept"
+msgid "pre_accept"
+msgstr "Accepter provisoirement"
+
+#. Default: "Pre accepted"
+msgid "pre_accepted"
+msgstr "Accepté provisoirement"
+
 #. Default: "Present"
 msgid "present"
 msgstr "Présenter"
@@ -682,4 +698,3 @@ msgstr "Votes"
 #. Default: "Workflows"
 msgid "workflow"
 msgstr "Workflows"
-

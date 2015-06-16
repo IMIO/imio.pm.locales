@@ -1101,6 +1101,10 @@ msgstr ""
 msgid "decide_several_items_done"
 msgstr ""
 
+#. Default: "Selected items have been removed from the meeting."
+msgid "remove_several_items_done"
+msgstr ""
+
 #. Default: "Moves this item to the position that precedes the number you have introduced besides. If you want to move the item at the end of the list, specify the number of the last item plus one."
 msgid "move_several"
 msgstr ""
@@ -3860,6 +3864,14 @@ msgstr ""
 
 #. Default: "To use this functionnality, it is necessary that the icon '${iconname}' that will trigger the action exists.  Please creates it before continuing..."
 msgid "iconname_does_not_exist"
+msgstr ""
+
+#. Default: "Accepted but modified"
+msgid "icon_help_accepted_but_modified"
+msgstr ""
+
+#. Default: "Pre accepted"
+msgid "icon_help_pre_accepted"
 msgstr ""
 
 #. Default: "This item is again up the workflow"

@@ -2587,6 +2587,10 @@ msgstr "Rouge"
 msgid "icon_color_yellow"
 msgstr "Jaune"
 
+#. Default: "Accepted but modified"
+msgid "icon_help_accepted_but_modified"
+msgstr "Accepté avec modifications"
+
 #. Default: "Delayed"
 msgid "icon_help_delayed"
 msgstr "Reporté"
@@ -2594,6 +2598,10 @@ msgstr "Reporté"
 #. Default: "Late"
 msgid "icon_help_late"
 msgstr "En retard"
+
+#. Default: "Pre accepted"
+msgid "icon_help_pre_accepted"
+msgstr "Accepté provisoirement"
 
 #. Default: "Pre-validated"
 msgid "icon_help_prevalidated"
@@ -3868,6 +3876,10 @@ msgstr "Supprimer cette information"
 msgid "remove_several_items"
 msgstr "Retirer tous les points sélectionnés."
 
+#. Default: "Selected items have been removed from the meeting."
+msgid "remove_several_items_done"
+msgstr "Les points sélectionnés ont été retirés de la séance."
+
 #. Default: "A category must be selected on this item so that it can be proposed"
 msgid "required_category_ko"
 msgstr "Une catégorie doit être sélectionnée sur ce point afin qu'il puisse être proposé"
@@ -4569,4 +4581,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

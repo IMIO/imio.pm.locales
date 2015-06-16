@@ -242,9 +242,17 @@ msgstr "Bij aanmaak"
 msgid "accept"
 msgstr "Goedkeuren"
 
+#. Default: "Accept with modifications"
+msgid "accept_but_modify"
+msgstr ""
+
 #. Default: "Accepted"
 msgid "accepted"
 msgstr "Goedgekeurd"
+
+#. Default: "Accepted with modifications"
+msgid "accepted_but_modified"
+msgstr ""
 
 #. Default: "Activate"
 msgid "activate"
@@ -615,6 +623,14 @@ msgstr "metadata"
 
 #. Default: "PloneMeeting view redirecting to the application when logged in"
 msgid "plonemeeting_redirect_to_app_view"
+msgstr ""
+
+#. Default: "Pre accept"
+msgid "pre_accept"
+msgstr ""
+
+#. Default: "Pre accepted"
+msgid "pre_accepted"
 msgstr ""
 
 #. Default: "Present"
