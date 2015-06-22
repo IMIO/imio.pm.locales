@@ -3683,10 +3683,6 @@ msgstr "Ga naar het vorige element."
 msgid "pm_modification_date"
 msgstr ""
 
-#. Default: "(Un-)select all"
-msgid "pm_select_deselect"
-msgstr ""
-
 #. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
 msgstr ""
@@ -3948,99 +3944,6 @@ msgstr ""
 #. Default: "Save"
 msgid "save"
 msgstr "Opslaan"
-
-#. Default: "No annex found."
-msgid "search_MeetingFile_empty"
-msgstr "Geen bijlage was gevonden."
-
-#. Default: "No item found."
-msgid "search_MeetingItem_empty"
-msgstr "Geen punt was gevonden."
-
-#. Default: "No meeting found."
-msgid "search_Meeting_empty"
-msgstr "Geen vergadering was gevonden."
-
-#. Default: "Advanced search"
-msgid "search_advanced"
-msgstr "Zoeken"
-
-#. Default: "New search"
-msgid "search_again"
-msgstr "Nieuwe zoek"
-
-#. Default: "and"
-msgid "search_and"
-msgstr "en"
-
-#. Default: "Meeting type:"
-msgid "search_config_label"
-msgstr "Type van vergadering:"
-
-#. Default: "Item-specific search criteria"
-msgid "search_criteria_item"
-msgstr "Zoekcriteria die specifiek zijn voor de punten"
-
-#. Default: "item's decisions"
-msgid "search_item_decisions"
-msgstr "beslissingen"
-
-#. Default: "item's titles and descriptions"
-msgid "search_item_titles"
-msgstr "titels en beschrijvingen"
-
-# Search form
-#. Default: "The keyword search encompasses the following fields:"
-msgid "search_keywords"
-msgstr "Zoek richt zich op de volgende gegevens:"
-
-#. Default: "or"
-msgid "search_or"
-msgstr "of"
-
-#. Default: "Keep the 'control' key pressed for selecting several elements."
-msgid "search_select_many"
-msgstr "Houd de 'CTRL' ingedrukt om meerdere elementen te selecteren."
-
-#. Default: "Search in"
-msgid "search_site_label"
-msgstr "Zoek in"
-
-#. Default: "This site"
-msgid "search_site_local"
-msgstr "Deze site"
-
-#. Default: "From"
-msgid "search_time_period_from"
-msgstr "Van"
-
-#. Default: "Time period:"
-msgid "search_time_period_label"
-msgstr "Tijdsinterval"
-
-#. Default: "To"
-msgid "search_time_period_to"
-msgstr "Tot"
-
-#. Default: "annexes"
-msgid "search_type_annexes"
-msgstr "Bijlagen"
-
-#. Default: "items"
-msgid "search_type_items"
-msgstr "Punten"
-
-#. Default: "Search:"
-msgid "search_type_label"
-msgstr "Zoek:"
-
-#. Default: "meetings"
-msgid "search_type_meetings"
-msgstr "Vergaderingen"
-
-#. Default: "Keywords"
-msgid "search_words"
-msgstr "Zoektermen"
 
 #. Default: "advised items"
 msgid "searchalladviseditems"

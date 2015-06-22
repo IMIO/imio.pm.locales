@@ -3671,10 +3671,6 @@ msgstr "Aller au précédent."
 msgid "pm_modification_date"
 msgstr "Modifié le"
 
-#. Default: "(Un-)select all"
-msgid "pm_select_deselect"
-msgstr "(Dé-)sélectionner tout"
-
 #. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
 msgstr "Attention: ces mises à jour peuvent prendre du temps en fonction du nombre d'éléments existants!  Ne pas lancer dans une période de forte utilisation!"
@@ -3935,98 +3931,6 @@ msgstr "Supprimer les paragraphes vides"
 #. Default: "Save"
 msgid "save"
 msgstr "Enregistrer"
-
-#. Default: "No annex found."
-msgid "search_MeetingFile_empty"
-msgstr "Pas d'annexe trouvée."
-
-#. Default: "No item found."
-msgid "search_MeetingItem_empty"
-msgstr "Pas de point trouvé."
-
-#. Default: "No meeting found."
-msgid "search_Meeting_empty"
-msgstr "Pas de séance trouvée."
-
-#. Default: "Advanced search"
-msgid "search_advanced"
-msgstr "Recherche avancée"
-
-#. Default: "New search"
-msgid "search_again"
-msgstr "Nouvelle recherche"
-
-#. Default: "and"
-msgid "search_and"
-msgstr "et"
-
-#. Default: "Meeting type:"
-msgid "search_config_label"
-msgstr "Type de séance"
-
-#. Default: "Item-specific search criteria"
-msgid "search_criteria_item"
-msgstr "Critères de recherche spécifiques aux points"
-
-#. Default: "item's decisions"
-msgid "search_item_decisions"
-msgstr "les décisions prises sur chaque point"
-
-#. Default: "item's titles and descriptions"
-msgid "search_item_titles"
-msgstr "les objets et descriptions des points"
-
-#. Default: "The keyword search encompasses the following fields:"
-msgid "search_keywords"
-msgstr "La recherche par mots-clés porte sur les champs suivants:"
-
-#. Default: "or"
-msgid "search_or"
-msgstr "ou"
-
-#. Default: "Keep the 'control' key pressed for selecting several elements."
-msgid "search_select_many"
-msgstr "Maintenez la touche 'Ctrl' enfoncée pour sélectionner plusieurs éléments."
-
-#. Default: "Search in"
-msgid "search_site_label"
-msgstr "Chercher dans"
-
-#. Default: "This site"
-msgid "search_site_local"
-msgstr "Ce site"
-
-#. Default: "From"
-msgid "search_time_period_from"
-msgstr "Du"
-
-#. Default: "Time period:"
-msgid "search_time_period_label"
-msgstr "Plage temporelle"
-
-#. Default: "To"
-msgid "search_time_period_to"
-msgstr "Au"
-
-#. Default: "annexes"
-msgid "search_type_annexes"
-msgstr "Les annexes"
-
-#. Default: "items"
-msgid "search_type_items"
-msgstr "Les points"
-
-#. Default: "Search:"
-msgid "search_type_label"
-msgstr "Rechercher:"
-
-#. Default: "meetings"
-msgid "search_type_meetings"
-msgstr "Les séances"
-
-#. Default: "Keywords"
-msgid "search_words"
-msgstr "Mots-clé"
 
 #. Default: "advised items"
 msgid "searchalladviseditems"
@@ -4589,3 +4493,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+

@@ -3695,10 +3695,6 @@ msgstr "Ir al anterior tema."
 msgid "pm_modification_date"
 msgstr ""
 
-#. Default: "(Un-)select all"
-msgid "pm_select_deselect"
-msgstr "(De)seleccionar todos"
-
 #. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 #, fuzzy
 msgid "pm_tool_updates_warning"
@@ -3963,99 +3959,6 @@ msgstr "Remover párrafos en blanco "
 #. Default: "Save"
 msgid "save"
 msgstr "Guardar"
-
-#. Default: "No annex found."
-msgid "search_MeetingFile_empty"
-msgstr "Sin anexo encontrado."
-
-#. Default: "No item found."
-msgid "search_MeetingItem_empty"
-msgstr "Sin tema encontrado."
-
-#. Default: "No meeting found."
-msgid "search_Meeting_empty"
-msgstr "Sin reunión encontrada."
-
-#. Default: "Advanced search"
-msgid "search_advanced"
-msgstr "Búsqueda avanzada"
-
-#. Default: "New search"
-msgid "search_again"
-msgstr "Nueva búsqueda"
-
-#. Default: "and"
-msgid "search_and"
-msgstr "y"
-
-#. Default: "Meeting type:"
-msgid "search_config_label"
-msgstr "Tipo de reunión:"
-
-#. Default: "Item-specific search criteria"
-msgid "search_criteria_item"
-msgstr "Criterios de búsqueda para tema específico"
-
-#. Default: "item's decisions"
-msgid "search_item_decisions"
-msgstr "decisiones de temas"
-
-#. Default: "item's titles and descriptions"
-msgid "search_item_titles"
-msgstr "Títulos de los temas y descripciones"
-
-# Search form
-#. Default: "The keyword search encompasses the following fields:"
-msgid "search_keywords"
-msgstr "La búsqueda de palabras clave se compone de:"
-
-#. Default: "or"
-msgid "search_or"
-msgstr "o"
-
-#. Default: "Keep the 'control' key pressed for selecting several elements."
-msgid "search_select_many"
-msgstr "Mantenga la tecla 'control' presionada para seleccionar varios elementos."
-
-#. Default: "Search in"
-msgid "search_site_label"
-msgstr "Buscar en"
-
-#. Default: "This site"
-msgid "search_site_local"
-msgstr "Este sitio"
-
-#. Default: "From"
-msgid "search_time_period_from"
-msgstr "Desde"
-
-#. Default: "Time period:"
-msgid "search_time_period_label"
-msgstr "Período de tiempo:"
-
-#. Default: "To"
-msgid "search_time_period_to"
-msgstr "A"
-
-#. Default: "annexes"
-msgid "search_type_annexes"
-msgstr "anexos"
-
-#. Default: "items"
-msgid "search_type_items"
-msgstr "temas"
-
-#. Default: "Search:"
-msgid "search_type_label"
-msgstr "Búsqueda:"
-
-#. Default: "meetings"
-msgid "search_type_meetings"
-msgstr "reuniones"
-
-#. Default: "Keywords"
-msgid "search_words"
-msgstr "Palabras claves"
 
 #. Default: "advised items"
 msgid "searchalladviseditems"
