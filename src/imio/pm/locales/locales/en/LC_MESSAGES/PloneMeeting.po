@@ -501,6 +501,18 @@ msgstr "Copy groups"
 msgid "PloneMeeting_label_customAdvisers"
 msgstr "Custom advisers"
 
+#. Default: "Advanced filters to show on listings of items"
+msgid "PloneMeeting_label_dashboardItemsListingsFilters"
+msgstr ""
+
+#. Default: "Advanced filters to show on 'Available items'"
+msgid "PloneMeeting_label_dashboardMeetingAvailableItemsFilters"
+msgstr ""
+
+#. Default: "Advanced filters to show on 'Items of a meeting'"
+msgid "PloneMeeting_label_dashboardMeetingLinkedItemsFilters"
+msgstr ""
+
 #. Default: "Date"
 msgid "PloneMeeting_label_date"
 msgstr "Date"
@@ -608,14 +620,6 @@ msgstr "Enable annex preview"
 #. Default: "Enable annex to print"
 msgid "PloneMeeting_label_enableAnnexToPrint"
 msgstr "Enable annex to print"
-
-#. Default: "Enable 'Go to item' functionality"
-msgid "PloneMeeting_label_enableGotoItem"
-msgstr "Enable 'Go to item' functionality"
-
-#. Default: "Enable 'Go to page' functionality"
-msgid "PloneMeeting_label_enableGotoPage"
-msgstr "Enable 'Go to page' functionality"
 
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
@@ -862,19 +866,17 @@ msgstr "Mailing lists"
 msgid "PloneMeeting_label_manuallyLinkedItems"
 msgstr "Manually linked items"
 
-#. Default: "Maximum number of available items to show at once"
+#. Default: "Default number of available items to show on a page"
+#, fuzzy
 msgid "PloneMeeting_label_maxShownAvailableItems"
 msgstr "Maximum number of available items to show at once"
 
-#. Default: "Maximum number of shown elements in dashboards"
-msgid "PloneMeeting_label_maxShownFound"
-msgstr "Maximum number of shown elements in dashboards"
+#. Default: "Default number of items to show on a page in items dashboards"
+msgid "PloneMeeting_label_maxShownListings"
+msgstr ""
 
-#. Default: "Maximum number of late items to show at once"
-msgid "PloneMeeting_label_maxShownLateItems"
-msgstr "Maximum number of late items to show at once"
-
-#. Default: "Maximum number of meeting items to show at once"
+#. Default: "Default number of meeting items to show on a page"
+#, fuzzy
 msgid "PloneMeeting_label_maxShownMeetingItems"
 msgstr "Maximum number of meeting items to show at once"
 
@@ -2055,6 +2057,18 @@ msgstr "Define here special behaviors for some advices : advices that are automa
 msgid "custom_advisers_full_descr"
 msgstr "<p>This part of the configuration lets you configure special behaviors around advices.</p><p>You will be able to define :</p><ul><li><strong>advices requested automatically by the application</strong> : under certain conditions, if a defined expression is True, an advice will be automatically asked by the application on an item.  You can also define a special help message that will help the user to find out why this advice was automatically asked and a date from wich newly created items will be affected by this new condiguration;</li><li><strong>advices with concept of delay</strong> : this allows you to define special advices that the user will be able to ask thru the user interface (or will be requested automatically).  An advice so defined has a notion of delay (time in clear day) which means that once applied and visible to the group to whom the advice is requested, it must be given within limit. Once this period has passed, the advice can not be given anymore.</li></ul><p> If a configuration is in use (some created items are using it), it will not be possible to change logical values for it (columns 'Group', 'Advice will be automatically asked if', 'Gives automatic advice for item created from', 'Gives automatic advice for item created until' and 'Delay for giving advice').</p>"
 
+#. Default: "Select here filters that will be shown when using the 'More filters' link on listings of items (my items, all items, ...)."
+msgid "dashboard_items_listings_filters_descr"
+msgstr ""
+
+#. Default: "Select here filters that will be shown when using the 'More filters' link on the 'Available items' of the meeting view."
+msgid "dashboard_meeting_available_items_filters_descr"
+msgstr ""
+
+#. Default: "Select here filters that will be shown when using the 'More filters' link on the 'Linked items' of the meeting view."
+msgid "dashboard_meeting_linked_items_filters_descr"
+msgstr ""
+
 #. Default: "Data"
 msgid "data"
 msgstr "Data"
@@ -2203,14 +2217,6 @@ msgstr "If you enable annexes preview, the annex will be converted to a previewa
 #. Default: "Let the user specify if an annex needs to be printed or not.  WARNING, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
 msgid "enable_annex_to_print_descr"
 msgstr "Let the user specify if an annex needs to be printed or not.  WARNING, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
-
-#. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."
-msgid "enable_goto_item_descr"
-msgstr "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."
-
-#. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to page' field. Entering an item number in it will bring you to the page where this item is."
-msgid "enable_goto_page_descr"
-msgstr "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to page' field. Entering an item number in it will bring you to the page where this item is."
 
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"
@@ -2461,6 +2467,10 @@ msgstr "User interface"
 #. Default: "Actions"
 msgid "heading_actions"
 msgstr "Actions"
+
+#. Default: "Criteria"
+msgid "heading_criteria"
+msgstr ""
 
 #. Default: "Active?"
 msgid "heading_is_active"
@@ -3101,19 +3111,17 @@ msgstr "At least one mandatory advice for this item is not positive or has not b
 msgid "manually_linked_items_descr"
 msgstr "Select here items that are linked to this item.  These items will appear in linked items but separated from items linked automatically by the application.  Current item will be also visible in the manually linked items of items you just linked...  To remove a linked item, just unckeck the checkbox in front of the item title.  Items will be automatically sorted chronologically. Manually linked items works like a 'virtual folder' where every items are stored.  If you unlink an item, it will be unlinked from every items of the 'virtual folder'.  If you unlink every items, this will destroy this 'virtual folder'."
 
-#. Default: "When displaying a meeting, the list of items that one may present to the meeting may be paginated if you specify here a maximum number of available items to show at once."
+#. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
+#, fuzzy
 msgid "max_shown_available_items_descr"
 msgstr "When displaying a meeting, the list of items that one may present to the meeting may be paginated if you specify here a maximum number of available items to show at once."
 
-#. Default: "Specify here the maximum number of found items that may appear on every result page."
-msgid "max_shown_found_descr"
-msgstr "Specify here the maximum number of found items that may appear on every result page."
+#. Default: "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value."
+msgid "max_shown_listings_descr"
+msgstr ""
 
-#. Default: "When displaying a meeting, the list of late items in the meeting may be paginated if you specify here a maximum number of late items to show at once."
-msgid "max_shown_late_items_descr"
-msgstr "When displaying a meeting, the list of late items in the meeting may be paginated if you specify here a maximum number of late items to show at once."
-
-#. Default: "When displaying a meeting, the list of items in the meeting may be paginated if you specify here a maximum number of items to show at once."
+#. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value."
+#, fuzzy
 msgid "max_shown_meeting_items_descr"
 msgstr "When displaying a meeting, the list of items in the meeting may be paginated if you specify here a maximum number of items to show at once."
 

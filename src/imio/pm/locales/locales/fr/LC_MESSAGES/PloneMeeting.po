@@ -501,6 +501,18 @@ msgstr "Groupes en copie (lecture seule)"
 msgid "PloneMeeting_label_customAdvisers"
 msgstr "Configuration des avis particuliers"
 
+#. Default: "Advanced filters to show on listings of items"
+msgid "PloneMeeting_label_dashboardItemsListingsFilters"
+msgstr "Filtres avancés à afficher pour les tableaux de bord de points"
+
+#. Default: "Advanced filters to show on 'Available items'"
+msgid "PloneMeeting_label_dashboardMeetingAvailableItemsFilters"
+msgstr "Filtres avancés à afficher pour les 'Points disponibles' d'une séance"
+
+#. Default: "Advanced filters to show on 'Items of a meeting'"
+msgid "PloneMeeting_label_dashboardMeetingLinkedItemsFilters"
+msgstr "Filtres avancés à afficher pour les points d'une séance"
+
 #. Default: "Date"
 msgid "PloneMeeting_label_date"
 msgstr "Date"
@@ -608,14 +620,6 @@ msgstr "Activer la prévisualisation des annexes"
 #. Default: "Enable annex to print"
 msgid "PloneMeeting_label_enableAnnexToPrint"
 msgstr "Activer l'impression des annexes"
-
-#. Default: "Enable 'Go to item' functionality"
-msgid "PloneMeeting_label_enableGotoItem"
-msgstr "Activer la fonctionnalité 'Aller au point'"
-
-#. Default: "Enable 'Go to page' functionality"
-msgid "PloneMeeting_label_enableGotoPage"
-msgstr "Activer la fonctionnalité 'Aller à la page'"
 
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
@@ -862,21 +866,17 @@ msgstr "Listes de diffusion"
 msgid "PloneMeeting_label_manuallyLinkedItems"
 msgstr "Point(s) lié(s) manuellement"
 
-#. Default: "Maximum number of available items to show at once"
+#. Default: "Default number of available items to show on a page"
 msgid "PloneMeeting_label_maxShownAvailableItems"
-msgstr "Nombre maximal de points à afficher dans la liste 'Points à présenter'"
+msgstr "Nombre de points par défaut à afficher dans la liste 'Points disponibles'"
 
-#. Default: "Maximum number of shown elements in dashboards"
-msgid "PloneMeeting_label_maxShownFound"
-msgstr "Nombre d'éléments à afficher dans les tableaux de bords"
+#. Default: "Default number of items to show on a page in items dashboards"
+msgid "PloneMeeting_label_maxShownListings"
+msgstr "Nombre d'éléments par défaut à afficher dans les tableaux de bord"
 
-#. Default: "Maximum number of late items to show at once"
-msgid "PloneMeeting_label_maxShownLateItems"
-msgstr "Nombre maximal de points à afficher dans la liste 'Points en retard'"
-
-#. Default: "Maximum number of meeting items to show at once"
+#. Default: "Default number of meeting items to show on a page"
 msgid "PloneMeeting_label_maxShownMeetingItems"
-msgstr "Nombre maximal de points à afficher dans la liste 'Points présentés'"
+msgstr "Nombre de points par défaut à afficher dans la liste 'Points présentés'"
 
 #. Default: "Maximal number of meetings shown in the 'meetings' and 'decisions' portlets"
 msgid "PloneMeeting_label_maxShownMeetings"
@@ -2055,6 +2055,18 @@ msgstr "Définissez ici les avis particuliers : les avis demandés automatiqueme
 msgid "custom_advisers_full_descr"
 msgstr "<p>Cette partie de la configuration vous permet de définir certains comportements particuliers liés aux avis.</p><p>Il vous sera possible de définir:</p><ul><li><strong>des avis automatiquement demandés par l'application</strong> : sous certaines conditions si une expression renseignée est vérifiée (True), un avis sera automatiquement demandé par l'application sur un point.  Vous pourrez également définir un message d'aide qui permettra à un utilisateur de savoir pourquoi cet avis a été automatiquement demandé ainsi qu'une date à partir de laquelle les points nouvellement créés seront affectés par cette configuration;</li><li><strong>des avis ayant une notion de délai</strong> : ceci vous permet de définir des avis que l'utilisateur pourra demander manuellement dans l'application (ou qui seront demandés automatiquement).  Un avis défini de la sorte aura une notion de délai ce qui signifie qu'une fois demandé et visible par le groupe à qui l'avis est demandé, il devra être rendu dans le délai imparti (en jours calendriers).  Une fois ce délai dépassé, l'avis ne pourra plus être rendu.</li></ul><p>Si une configuration est utilisée (des points créés l'utilisent), les données logiques ne pourront plus être modifiées (colonnes 'Groupes', 'L'avis sera automatiquement demandé si', 'Configuration active pour les points créés depuis le' et 'Délai pour rendre l'avis').</p>"
 
+#. Default: "Select here filters that will be shown when using the 'More filters' link on listings of items (my items, all items, ...)."
+msgid "dashboard_items_listings_filters_descr"
+msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien 'Plus de filtres' sur les tableaux de bord de points (mes points, tous les points, ...)."
+
+#. Default: "Select here filters that will be shown when using the 'More filters' link on the 'Available items' of the meeting view."
+msgid "dashboard_meeting_available_items_filters_descr"
+msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien 'Plus de filtres' sur le tableau de bord affichant les points disponibles pour une séance."
+
+#. Default: "Select here filters that will be shown when using the 'More filters' link on the 'Linked items' of the meeting view."
+msgid "dashboard_meeting_linked_items_filters_descr"
+msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien 'Plus de filtres' sur le tableau de bord affichant les points d'une séance."
+
 #. Default: "Data"
 msgid "data"
 msgstr "Données"
@@ -2203,14 +2215,6 @@ msgstr "Si la prévisualisation est activée, les annexes seront converties dans
 #. Default: "Let the user specify if an annex needs to be printed or not.  WARNING, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
 msgid "enable_annex_to_print_descr"
 msgstr "Permet à l'utilisateur de spécifier si une annexe doit être imprimée ou non.  ATTENTION, si vous désactivez cette fonctionnalité, les deux paramètres suivants 'Marquer les annexes comme 'à imprimer' par défaut?' et 'Marquer les annexes après décision comme 'à imprimer' par défaut?' seront automatiquement remis à 'Non'."
-
-#. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."
-msgid "enable_goto_item_descr"
-msgstr "Si vous cochez cette case, lorsque les listes de points paginées apparaissent (à la consultation d'une séance), vous verrez également apparaître un champ spécifique 'Aller au point'. Introduire un numéro de point dans ce champ vous mènera à la page de consultation du point en question."
-
-#. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to page' field. Entering an item number in it will bring you to the page where this item is."
-msgid "enable_goto_page_descr"
-msgstr "Si vous cochez cette case, lorsque les listes de points paginées apparaissent (à la consultation d'une séance), vous verrez également apparaître un champ spécifique 'Aller à la page'. Introduire un numéro de point dans ce champ vous mènera à la page sur laquelle le point en question se trouve."
 
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"
@@ -2461,6 +2465,10 @@ msgstr "Interface utilisateur"
 #. Default: "Actions"
 msgid "heading_actions"
 msgstr "Actions"
+
+#. Default: "Criteria"
+msgid "heading_criteria"
+msgstr "Critères"
 
 #. Default: "Active?"
 msgid "heading_is_active"
@@ -3101,21 +3109,17 @@ msgstr "Au moins un avis obligatoire pour ce point n'est pas positif ou n'a pas 
 msgid "manually_linked_items_descr"
 msgstr "Sélectionnez les points qui sont liés au point courant.  Ces points apparaîtront dans les points liés, mais séparés des points liés automatiquement par l'application.  Le point courant apparaîtra également comme point lié sur les points sélectionnés.  Pour enlever un point lié, décochez la case de ce point.  Les point seront triés chronologiquement.  Les points liés manuellement vont former un \"dossier virtuel\" où tous les points sont liés entre eux.  Si vous enlevez un point de ce \"dossier virtuel\", il ne sera plus lié à aucun des autres points.  Si vous désélectionnez tous les points de ce \"dossier virtuel\", celui-ci sera vidé et plus aucun point ne sera lié aux autres."
 
-#. Default: "When displaying a meeting, the list of items that one may present to the meeting may be paginated if you specify here a maximum number of available items to show at once."
+#. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
 msgid "max_shown_available_items_descr"
-msgstr "Lors de l'affichage d'une séance, la liste des points à présenter peut être paginée si vous spécifiez ici un nombre maximum de points à afficher sur la page."
+msgstr "Lors de l'affichage d'une séance, la liste des points disponibles est paginée, définissez ici la valeur par défaut à utiliser."
 
-#. Default: "Specify here the maximum number of found items that may appear on every result page."
-msgid "max_shown_found_descr"
-msgstr "Spécifiez combien d'éléments devront être affichés par page lors de l'utilisation d'un tableau de bord (recherche avancée, recherche de points, de séances, ...)."
+#. Default: "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value."
+msgid "max_shown_listings_descr"
+msgstr "Lors de l'affichage d'un tableau de bord affichant des éléments (mes points, tous les points, toutes les décisions, ...), la liste des éléments est paginée, définissez ici la valeur par défaut à utiliser."
 
-#. Default: "When displaying a meeting, the list of late items in the meeting may be paginated if you specify here a maximum number of late items to show at once."
-msgid "max_shown_late_items_descr"
-msgstr "Lors de l'affichage d'une séance, la liste des points en retard peut être paginée si vous spécifiez ici un nombre maximum de points à afficher sur la page."
-
-#. Default: "When displaying a meeting, the list of items in the meeting may be paginated if you specify here a maximum number of items to show at once."
+#. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value."
 msgid "max_shown_meeting_items_descr"
-msgstr "Lors de l'affichage d'une séance, la liste des points présentés peut être paginée si vous spécifiez ici un nombre maximum de points à afficher sur la page."
+msgstr "Lors de l'affichage d'une séance, la liste des points présentés est paginée, définissez ici la valeur par défaut à utiliser."
 
 #. Default: "If the number of meetings to display in any of those 2 portlets is higher than this number, a dropdown list will be shown."
 msgid "max_shown_meetings_descr"
@@ -4585,4 +4589,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
