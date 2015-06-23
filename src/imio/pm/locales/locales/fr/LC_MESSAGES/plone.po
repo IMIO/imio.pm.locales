@@ -57,6 +57,10 @@ msgstr "Création"
 msgid "Creator"
 msgstr "Créateur"
 
+#. Default: "Delete meeting including items"
+msgid "Delete meeting including items"
+msgstr "Supprimer la séance points inclus"
+
 #. Default: "Duplicate"
 msgid "Duplicate"
 msgstr "Dupliquer"
@@ -484,10 +488,6 @@ msgstr "Reporter"
 msgid "delayed"
 msgstr "Reporté"
 
-#. Default: "Delete, incl. items"
-msgid "delete_meeting_with_items"
-msgstr "Supprimer, points inclus"
-
 #. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
 msgid "description_copyright"
 msgstr "Cette application est maintenue par <a href='http://www.imio.be'>IMIO</a>, membre de la communauté <a href='http://www.plonegov.org'>PloneGov</a>."
@@ -698,4 +698,3 @@ msgstr "Votes"
 #. Default: "Workflows"
 msgid "workflow"
 msgstr "Workflows"
-
