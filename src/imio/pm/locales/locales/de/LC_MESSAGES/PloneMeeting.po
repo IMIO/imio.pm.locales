@@ -2884,6 +2884,10 @@ msgstr ""
 msgid "item_powerobservers_states_descr"
 msgstr ""
 
+#. Default: "Item reference (in the 'Purpose' column)"
+msgid "item_reference_column"
+msgstr ""
+
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted item. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
 msgid "item_reference_format_descr"
 msgstr "Jeder TOP wird mit einer Referenz verknüpft. Das Format der Referenz kann hier als TAL (Tag Attribute Language) Ausdruck definiert werden. Wenn Sie TAL nicht kennen können Sie <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">hier</a> nähere Informationen erhalten."

@@ -2859,6 +2859,10 @@ msgstr "Vous n'avez pas accès au numéro de point demandé."
 msgid "item_powerobservers_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs' de cette configuration de séance.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les 'Super observateurs'!</span>"
 
+#. Default: "Item reference (in the 'Purpose' column)"
+msgid "item_reference_column"
+msgstr "Référence du point (dans la colonne 'Objet')"
+
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted item. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
 msgid "item_reference_format_descr"
 msgstr "A chaque point est associé une référence dont le format peut être défini ici, sous la forme d'une expression TAL (Tag Attribute Language) dans laquelle le nom 'here', représentant le point courant, peut être utilisé. Si vous ne connaissez pas le langage TAL, consultez par exemple <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">ce lien</a> (en anglais)."
@@ -4501,4 +4505,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

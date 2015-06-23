@@ -2875,6 +2875,10 @@ msgstr ""
 msgid "item_powerobservers_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados que elija aquí, será posible que los súper observadores de esta Configuración de reunión para ver el tema."
 
+#. Default: "Item reference (in the 'Purpose' column)"
+msgid "item_reference_column"
+msgstr ""
+
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted item. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
 msgid "item_reference_format_descr"
 msgstr "Una referencia asociada a cada tema. El formato de referencia puede ser definido aquí, como una expresión de Lenguaje de atributo de etiquetas - TAL (Tag Attribute Language) todo el contexto incluirá el nombre 'aquí' que representa el tema impactado. Si usted no desconoce sobre TAL, usted tal ves aprenda de eso <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">aquí</a>."
