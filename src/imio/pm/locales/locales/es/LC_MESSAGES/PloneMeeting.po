@@ -2866,6 +2866,10 @@ msgstr "El tema ha sido firmado. Haga clic en la imagen para eliminar la firma."
 msgid "item_number_invalid"
 msgstr "Sin mover: por favor especifique un número valido."
 
+#. Default: "You do not have access to the item number you entered."
+msgid "item_number_not_accessible"
+msgstr ""
+
 #. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 #, fuzzy
 msgid "item_powerobservers_states_descr"
@@ -3554,6 +3558,10 @@ msgstr "Seguir orden de todos los grupos"
 #. Default: "Follow categories order"
 msgid "on_categories"
 msgstr "Seguir orden de categorías"
+
+#. Default: "Follow list type"
+msgid "on_list_type"
+msgstr ""
 
 #. Default: "When a transition will be triggered on a meeting, you can define which transitions to trigger on every items of the meeting.  This will make items 'follow' the meeting state.  You can define several transitions to trigger on items for the same meeting transitions, these transitions will be triggered sequentially on every items of the meeting."
 msgid "on_meeting_transition_item_transition_to_trigger_descr"

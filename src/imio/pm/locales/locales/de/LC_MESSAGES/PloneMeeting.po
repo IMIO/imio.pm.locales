@@ -2876,6 +2876,10 @@ msgstr ""
 msgid "item_number_invalid"
 msgstr "Der TOP konnte nicht verschoben werden, bitte geben Sie eine gültige Nummer an."
 
+#. Default: "You do not have access to the item number you entered."
+msgid "item_number_not_accessible"
+msgstr ""
+
 #. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 msgid "item_powerobservers_states_descr"
 msgstr ""
@@ -3565,6 +3569,10 @@ msgstr "Der Gruppensortierung folgen"
 #. Default: "Follow categories order"
 msgid "on_categories"
 msgstr "Der Kategoriensortierung folgen"
+
+#. Default: "Follow list type"
+msgid "on_list_type"
+msgstr ""
 
 #. Default: "When a transition will be triggered on a meeting, you can define which transitions to trigger on every items of the meeting.  This will make items 'follow' the meeting state.  You can define several transitions to trigger on items for the same meeting transitions, these transitions will be triggered sequentially on every items of the meeting."
 msgid "on_meeting_transition_item_transition_to_trigger_descr"
