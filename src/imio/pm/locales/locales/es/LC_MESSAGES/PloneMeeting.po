@@ -3707,6 +3707,14 @@ msgstr "Ir al anterior tema."
 msgid "pm_modification_date"
 msgstr ""
 
+#. Default: "Synchronize searches of the config with every user folders"
+msgid "pm_synch_searches"
+msgstr ""
+
+#. Default: "Warning: this will update the dashboards of every users regarding what is defined in the 'searches' folder including DashboardCollections and faceted navigation criteria. Launch this if you changed a Collection or the faceted criteria. This will take about 1 second by user folder to update."
+msgid "pm_synch_searches_warning"
+msgstr ""
+
 #. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 #, fuzzy
 msgid "pm_tool_updates_warning"
