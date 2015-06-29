@@ -867,18 +867,16 @@ msgid "PloneMeeting_label_manuallyLinkedItems"
 msgstr "Manually linked items"
 
 #. Default: "Default number of available items to show on a page"
-#, fuzzy
 msgid "PloneMeeting_label_maxShownAvailableItems"
-msgstr "Maximum number of available items to show at once"
+msgstr "Default number of available items to show on a page"
 
 #. Default: "Default number of items to show on a page in items dashboards"
 msgid "PloneMeeting_label_maxShownListings"
 msgstr ""
 
 #. Default: "Default number of meeting items to show on a page"
-#, fuzzy
 msgid "PloneMeeting_label_maxShownMeetingItems"
-msgstr "Maximum number of meeting items to show at once"
+msgstr "Default number of meeting items to show on a page"
 
 #. Default: "Maximal number of meetings shown in the 'meetings' and 'decisions' portlets"
 msgid "PloneMeeting_label_maxShownMeetings"
@@ -2809,9 +2807,9 @@ msgstr "If you check this box, item creators will only be able to create new ite
 msgid "item_decided_states_descr"
 msgstr "Choose decided state for an item"
 
-#. Default: "No move occurred because you specified the item number or this number plus one. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
+#. Default: "No move occurred because you specified the same item number."
 msgid "item_did_not_move"
-msgstr "No move occurred because you specified the item number or this number plus one. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
+msgstr "No move occurred because you specified the same item number."
 
 #. Default: "Item down workflow"
 msgid "item_down_wf_term"
@@ -2829,9 +2827,9 @@ msgstr "The item has been duplicated and a link to the original item has been ke
 msgid "item_icon_color_descr"
 msgstr "This icon is shown in different places where different kind of item (college, council, ...) are shown together.  This is the case in the full text quick search displayed up right in the application, when selecting manually linked items or viewing linked items on the item view.  <span style='color: red';>If you change this parameter, this will update the icon of each created items of this meeting configuration and this could take some time depending on number of items.  Do not change this during high use period!</span>"
 
-#. Default: "You can't make this move. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
+#. Default: "You can't make this move. Please specify a number between 1 and ${nbOfItems}."
 msgid "item_illegal_move"
-msgstr "You can't make this move. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
+msgstr "You can't make this move. Please specify a number between 1 and ${nbOfItems}."
 
 #. Default: "Use CTRL+click to select several initiators."
 msgid "item_initiator_descr"
@@ -3128,18 +3126,16 @@ msgid "manually_linked_items_descr"
 msgstr "Select here items that are linked to this item.  These items will appear in linked items but separated from items linked automatically by the application.  Current item will be also visible in the manually linked items of items you just linked...  To remove a linked item, just unckeck the checkbox in front of the item title.  Items will be automatically sorted chronologically. Manually linked items works like a 'virtual folder' where every items are stored.  If you unlink an item, it will be unlinked from every items of the 'virtual folder'.  If you unlink every items, this will destroy this 'virtual folder'."
 
 #. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
-#, fuzzy
 msgid "max_shown_available_items_descr"
-msgstr "When displaying a meeting, the list of items that one may present to the meeting may be paginated if you specify here a maximum number of available items to show at once."
+msgstr "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
 
 #. Default: "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value."
 msgid "max_shown_listings_descr"
 msgstr ""
 
 #. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value."
-#, fuzzy
 msgid "max_shown_meeting_items_descr"
-msgstr "When displaying a meeting, the list of items in the meeting may be paginated if you specify here a maximum number of items to show at once."
+msgstr "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value."
 
 #. Default: "If the number of meetings to display in any of those 2 portlets is higher than this number, a dropdown list will be shown."
 msgid "max_shown_meetings_descr"
@@ -4538,4 +4534,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-
