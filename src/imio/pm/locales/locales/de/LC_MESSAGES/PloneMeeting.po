@@ -2836,6 +2836,10 @@ msgstr ""
 msgid "item_did_not_move"
 msgstr "Der TOP wurde nicht bewegt weil Sie die Nummer des TOPs oder die Nummer plus eins angegeben haben. Wenn Sie eine Nummer X angeben wird der TOP vor den TOP mit der Nummer X eingefügt und die anderen TOP werden verschoben. Wenn Sie den TOP zum Ende der Liste bewegen wollen, geben Sie die Nummer des letzten TOPs an plus eins. Beachten Sie dass Sie wenn zwei TOP-Listen angezeigt werden keine TOP von einer Liste zur anderen bewegen können."
 
+#. Default: "Item down workflow"
+msgid "item_down_wf_term"
+msgstr ""
+
 #. Default: "The item has been duplicated: you currently see the duplicated item."
 msgid "item_duplicated"
 msgstr "Der TOP wurde gelÃ¶scht: Sie sehen ein Duplikat"
@@ -2931,6 +2935,10 @@ msgstr ""
 
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
+msgstr ""
+
+#. Default: "Item up workflow again"
+msgid "item_up_wf_term"
 msgstr ""
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
@@ -3537,6 +3545,14 @@ msgstr "Sie sind ein registrierter Benutzer aber Ihr Konto wurde noch nicht akti
 #. Default: "Not given yet"
 msgid "not_given"
 msgstr "Noch nicht abgegeben"
+
+#. Default: "Not to be cloned to anywhere"
+msgid "not_to_be_cloned_to_term"
+msgstr ""
+
+#. Default: "Not to be send to authority"
+msgid "not_to_be_send_to_authority_term"
+msgstr ""
 
 #. Default: "Nothing to do."
 msgid "nothing_to_do"
@@ -4231,6 +4247,10 @@ msgstr ""
 #. Default: "A title is required."
 msgid "title_required"
 msgstr "Ein Titel wird benötigt."
+
+#. Default: "To be send to authority"
+msgid "to_be_send_to_authority_term"
+msgstr ""
 
 #. Default: "Sending emails to meeting managers has been disabled. Please contact them through other means for asking them to discuss this item."
 msgid "to_discuss_ask_mail_not_sent"

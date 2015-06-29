@@ -2811,6 +2811,10 @@ msgstr "Choisissez les états dans lesquels les points sont considérés \"déci
 msgid "item_did_not_move"
 msgstr "Aucun déplacement n'a eu lieu parce que vous avez spécifié le numéro du point ou un de plus. Si vous spécifiez un certain numéro X, le point ira se positionner avant l'ancien point ayant le numéro X et les autres seront décalés. Si vous voulez déplacer le point à la fin de la liste des points, vous devez spécifier un de plus que le numéro du dernier point. Notez que, dans le cas où deux listes de points apparaissent, vous ne pouvez pas déplacer un point d'une liste à l'autre."
 
+#. Default: "Item down workflow"
+msgid "item_down_wf_term"
+msgstr "Redescend le workflow"
+
 #. Default: "The item has been duplicated: you currently see the duplicated item."
 msgid "item_duplicated"
 msgstr "Point dupliqué : vous voyez actuellement le nouveau point."
@@ -2907,6 +2911,10 @@ msgstr "${meetingConfigTitle} - ${itemTitle} - Le point est maintenant dans l'é
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
 msgstr "Les modèles de points seront disponibles aux utilisateurs qui créeront des points dans l'application."
+
+#. Default: "Item up workflow again"
+msgid "item_up_wf_term"
+msgstr "Remonte le workflow"
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
 msgid "item_workflow_descr"
@@ -3502,6 +3510,14 @@ msgstr "Vous êtes un utilisateur enregistré mais votre compte n'a pas encore �
 #. Default: "Not given yet"
 msgid "not_given"
 msgstr "Non rendu"
+
+#. Default: "Not to be cloned to anywhere"
+msgid "not_to_be_cloned_to_term"
+msgstr "Pas à envoyer"
+
+#. Default: "Not to be send to authority"
+msgid "not_to_be_send_to_authority_term"
+msgstr "Pas à envoyer à la tutelle"
 
 #. Default: "Nothing to do."
 msgid "nothing_to_do"
@@ -4193,6 +4209,10 @@ msgstr "Remonter l'élément"
 #. Default: "A title is required."
 msgid "title_required"
 msgstr "Veuillez spécifier un objet."
+
+#. Default: "To be send to authority"
+msgid "to_be_send_to_authority_term"
+msgstr "A envoyer à la tutelle"
 
 #. Default: "Sending emails to meeting managers has been disabled. Please contact them through other means for asking them to discuss this item."
 msgid "to_discuss_ask_mail_not_sent"

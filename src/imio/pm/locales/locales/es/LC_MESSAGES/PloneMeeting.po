@@ -2826,6 +2826,10 @@ msgstr "Seleccione el estado decidido para un tema"
 msgid "item_did_not_move"
 msgstr "Sin mover por que usted especifico el número o este número más uno. Si usted especifica un número X, el tema irá justo antes del tema anterior de número X, y los otros temas se cambiará. Si usted quiere mover un tema al final de la lista, usted debe especificar el número del ultimo tema más uno. Tenga en cuenta que cuando dos temas se muestran en las listas, usted no puede mover los temas desde una lista a la otra."
 
+#. Default: "Item down workflow"
+msgid "item_down_wf_term"
+msgstr ""
+
 #. Default: "The item has been duplicated: you currently see the duplicated item."
 msgid "item_duplicated"
 msgstr "Este tema ha sito eliminado: usted actualmente ve el tema duplicado."
@@ -2923,6 +2927,10 @@ msgstr "${meetingConfigTitle} - ${itemTitle} - Este tema esta ahora en el estado
 
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
+msgstr ""
+
+#. Default: "Item up workflow again"
+msgid "item_up_wf_term"
 msgstr ""
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
@@ -3526,6 +3534,14 @@ msgstr "Usted es un usuario registrado pero su cuenta no ha sido activada aun. P
 #. Default: "Not given yet"
 msgid "not_given"
 msgstr "Sin dar un consejo aun"
+
+#. Default: "Not to be cloned to anywhere"
+msgid "not_to_be_cloned_to_term"
+msgstr ""
+
+#. Default: "Not to be send to authority"
+msgid "not_to_be_send_to_authority_term"
+msgstr ""
 
 #. Default: "Nothing to do."
 msgid "nothing_to_do"
@@ -4223,6 +4239,10 @@ msgstr "Desplazar tema arriba"
 #. Default: "A title is required."
 msgid "title_required"
 msgstr "Un título es requerido"
+
+#. Default: "To be send to authority"
+msgid "to_be_send_to_authority_term"
+msgstr ""
 
 #. Default: "Sending emails to meeting managers has been disabled. Please contact them through other means for asking them to discuss this item."
 msgid "to_discuss_ask_mail_not_sent"

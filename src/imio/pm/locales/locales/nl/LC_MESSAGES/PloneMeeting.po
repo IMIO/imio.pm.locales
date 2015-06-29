@@ -2817,6 +2817,10 @@ msgstr ""
 msgid "item_did_not_move"
 msgstr "No move occurred because you specified the item number or this number plus one. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
 
+#. Default: "Item down workflow"
+msgid "item_down_wf_term"
+msgstr ""
+
 #. Default: "The item has been duplicated: you currently see the duplicated item."
 msgid "item_duplicated"
 msgstr ""
@@ -2913,6 +2917,10 @@ msgstr ""
 
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
+msgstr ""
+
+#. Default: "Item up workflow again"
+msgid "item_up_wf_term"
 msgstr ""
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
@@ -3513,6 +3521,14 @@ msgstr ""
 
 #. Default: "Not given yet"
 msgid "not_given"
+msgstr ""
+
+#. Default: "Not to be cloned to anywhere"
+msgid "not_to_be_cloned_to_term"
+msgstr ""
+
+#. Default: "Not to be send to authority"
+msgid "not_to_be_send_to_authority_term"
 msgstr ""
 
 #. Default: "Nothing to do."
@@ -4207,6 +4223,10 @@ msgstr ""
 #. Default: "A title is required."
 msgid "title_required"
 msgstr "Een titel is vereist."
+
+#. Default: "To be send to authority"
+msgid "to_be_send_to_authority_term"
+msgstr ""
 
 #. Default: "Sending emails to meeting managers has been disabled. Please contact them through other means for asking them to discuss this item."
 msgid "to_discuss_ask_mail_not_sent"
