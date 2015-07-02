@@ -4263,6 +4263,14 @@ msgstr "To be discussed during the meeting. Click on the image for not discussin
 msgid "to_do_list_searches"
 msgstr ""
 
+#. Default: "Hide during redaction, the advice will be considered 'not given'."
+msgid "to_hidden_during_redaction"
+msgstr ""
+
+#. Default: "Show advice, the advice will be confirmed and considered 'given'."
+msgid "to_not_hidden_during_redaction"
+msgstr ""
+
 #. Default: "Other parameters"
 msgid "tool_plonemeeting_misc"
 msgstr "Other parameters"
@@ -4534,3 +4542,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+

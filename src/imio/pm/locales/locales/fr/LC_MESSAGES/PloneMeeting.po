@@ -4262,6 +4262,14 @@ msgstr "A évoquer en séance, cliquez sur l'image pour ne pas évoquer ce point
 msgid "to_do_list_searches"
 msgstr "Sélectionnez les recherches à prendre en compte pour le portlet 'A faire'. Si vous ne sélectionnez aucune recherche, le portlet sera caché pour les utilisateurs."
 
+#. Default: "Hide during redaction, the advice will be considered 'not given'."
+msgid "to_hidden_during_redaction"
+msgstr "Cacher l'avis, celui-ci sera désormais considéré 'non rendu'."
+
+#. Default: "Show advice, the advice will be confirmed and considered 'given'."
+msgid "to_not_hidden_during_redaction"
+msgstr "Montrer l'avis, l'avis sera confirmé et considéré 'rendu'."
+
 #. Default: "Other parameters"
 msgid "tool_plonemeeting_misc"
 msgstr "Autres paramètres"
