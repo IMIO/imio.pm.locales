@@ -55,9 +55,9 @@ msgstr "Vous venez d'annuler l'archivage de ce point et de sa décision."
 msgid "backToFrozen_done_descr"
 msgstr "Vous venez d'annuler la publication des décisions provisoires."
 
-#. Default: "This item is back in its initial state. The person who created it (or another creator within the same group) can now modify it and will need to propose it again once finished."
+#. Default: "The item has been sent back to 'item created'."
 msgid "backToItemCreated_done_descr"
-msgstr "Ce point est revenu dans l'état initial de sa création. Lorsque vous ou la personne pouvant corriger ce point aura terminé, elle devra proposer le point à nouveau."
+msgstr "Le point a été renvoyé 'en création'."
 
 #. Default: "The decision taken on this item has been canceled."
 msgid "backToItemFrozen_done_descr"
@@ -162,4 +162,3 @@ msgstr "Le point a été renvoyé pour corrections au groupe proposant.  Lorsque
 #. Default: "Your item has been reviewed: it is now visible to (a) meeting manager(s), that may decide to present it to a meeting."
 msgid "validate_done_descr"
 msgstr "Votre point a été validé: il est maintenant visible par le gestionnaire de séance, qui peut décider de le présenter à l'ordre du jour d'une séance."
-
