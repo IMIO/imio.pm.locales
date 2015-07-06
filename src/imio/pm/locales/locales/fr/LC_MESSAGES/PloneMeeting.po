@@ -1871,9 +1871,9 @@ msgstr "Choisissez ici un identifiant pour votre catégorie."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
 msgstr "Lorsqu'un point de cette configuration de séance utilisant cette catégorie sera envoyé vers une autre configuration de séance, sélectionnez ci-dessous la catégorie qui devra être utilisée pour le point dans la configuration de séance de destination.  Ceci n'est possible que si les deux configurations de séance (origine et destination) utilisent les catégories."
 
-#. Default: "Please specify a category."
+#. Default: "Please select a category."
 msgid "category_required"
-msgstr "Veuillez spécifier une catégorie."
+msgstr "Veuillez sélectionner une catégorie."
 
 #. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
 msgid "category_using_groups_descr"
@@ -4541,4 +4541,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

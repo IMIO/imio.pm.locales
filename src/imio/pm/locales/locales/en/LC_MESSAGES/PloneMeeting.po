@@ -1871,7 +1871,8 @@ msgstr "Choose here some identifier for your category."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
 msgstr "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
 
-#. Default: "Please specify a category."
+#. Default: "Please select a category."
+#, fuzzy
 msgid "category_required"
 msgstr "Please specify a category."
 
