@@ -137,7 +137,7 @@ msgstr "Days to give advice : ${daysToGiveAdvice} days"
 
 #. Default: "Decisions"
 msgid "Decisions"
-msgstr ""
+msgstr "Decisions"
 
 #. Default: "Delete advice"
 msgid "Delete advice"
@@ -285,7 +285,7 @@ msgstr "Manage advice annexes"
 
 #. Default: "Manage dashboard"
 msgid "Manage dashboard"
-msgstr ""
+msgstr "Manage dashboard"
 
 #. Default: "Manage item assembly"
 msgid "Manage item assembly"
@@ -301,7 +301,7 @@ msgstr "Manage item templates"
 
 #. Default: "Items"
 msgid "Meeting items"
-msgstr ""
+msgstr "Items"
 
 #. Default: "Users"
 msgid "Meeting users"
@@ -321,7 +321,7 @@ msgstr "Annex types"
 
 #. Default: "Meetings"
 msgid "Meetings"
-msgstr ""
+msgstr "Meetings"
 
 #. Default: "No complementary comment has been given on this advice."
 msgid "No complementary comment has been given on this advice."
@@ -503,15 +503,15 @@ msgstr "Custom advisers"
 
 #. Default: "Advanced filters to show on listings of items"
 msgid "PloneMeeting_label_dashboardItemsListingsFilters"
-msgstr ""
+msgstr "Advanced filters to show on listings of items"
 
 #. Default: "Advanced filters to show on 'Available items'"
 msgid "PloneMeeting_label_dashboardMeetingAvailableItemsFilters"
-msgstr ""
+msgstr "Advanced filters to show on 'Available items'"
 
 #. Default: "Advanced filters to show on 'Items of a meeting'"
 msgid "PloneMeeting_label_dashboardMeetingLinkedItemsFilters"
-msgstr ""
+msgstr "Advanced filters to show on 'Items of a meeting'"
 
 #. Default: "Date"
 msgid "PloneMeeting_label_date"
@@ -872,7 +872,7 @@ msgstr "Default number of available items to show on a page"
 
 #. Default: "Default number of items to show on a page in items dashboards"
 msgid "PloneMeeting_label_maxShownListings"
-msgstr ""
+msgstr "Default number of items to show on a page in items dashboards"
 
 #. Default: "Default number of meeting items to show on a page"
 msgid "PloneMeeting_label_maxShownMeetingItems"
@@ -928,7 +928,7 @@ msgstr "Meeting states in wich power observers can see the meetings"
 
 #. Default: "States of the meeting to insert an item into from everywhere"
 msgid "PloneMeeting_label_meetingPresentItemWhenNoCurrentMeetingStates"
-msgstr ""
+msgstr "States of the meeting to insert an item into from everywhere"
 
 #. Default: "Meeting states in wich restricted power observers can see the meetings"
 msgid "PloneMeeting_label_meetingRestrictedPowerObserversStates"
@@ -1195,7 +1195,7 @@ msgstr "Show field 'to discuss' on lists of late items"
 
 #. Default: "List of searches to display in the 'todo' portlet"
 msgid "PloneMeeting_label_toDoListSearches"
-msgstr ""
+msgstr "List of searches to display in the 'todo' portlet"
 
 #. Default: "To print?"
 msgid "PloneMeeting_label_toPrint"
@@ -1323,7 +1323,7 @@ msgstr "Recurring items"
 
 #. Default: "Searches"
 msgid "Searches"
-msgstr ""
+msgstr "Searches"
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
@@ -1473,6 +1473,10 @@ msgstr "${meetingConfigTitle} - Your advice is requested on the item '${itemTitl
 #. Default: "Add an advice"
 msgid "advice_add"
 msgstr "Add an advice"
+
+#. Default: "The advice has been historized because it has been asked again.  You can consult it if necessary, see link 'View' opposite."
+msgid "advice_asked_again_and_historized"
+msgstr "The advice has been historized because it has been asked again.  You can consult it if necessary, see link 'View' opposite."
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
@@ -1702,6 +1706,10 @@ msgstr "The item is entitled '${itemNumber} - ${itemTitle}'. You can access this
 msgid "askDiscussItem_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - ${user}, belonging to group(s) ${groups}, would like to discuss an item."
 
+#. Default: "Asked again"
+msgid "asked_again"
+msgstr "Asked again"
+
 #. Default: "Absents as defined on the linked meeting"
 msgid "assembly_absents_defined_on_meeting"
 msgstr "Absents as defined on the linked meeting"
@@ -1797,7 +1805,7 @@ msgstr "Yes"
 
 #. Default: "Budgetary informations (in the 'Purpose' column)"
 msgid "budget_infos_column"
-msgstr ""
+msgstr "Budgetary informations (in the 'Purpose' column)"
 
 #. Default: "This item is not budget related."
 msgid "budget_related_no_edit"
@@ -1872,9 +1880,8 @@ msgid "category_mapping_when_cloning_to_other_mc_descr"
 msgstr "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
 
 #. Default: "Please select a category."
-#, fuzzy
 msgid "category_required"
-msgstr "Please specify a category."
+msgstr "Please select a category."
 
 #. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
 msgid "category_using_groups_descr"
@@ -2058,15 +2065,15 @@ msgstr "<p>This part of the configuration lets you configure special behaviors a
 
 #. Default: "Select here filters that will be shown when using the 'More filters' link on listings of items (my items, all items, ...)."
 msgid "dashboard_items_listings_filters_descr"
-msgstr ""
+msgstr "Select here filters that will be shown when using the 'More filters' link on listings of items (my items, all items, ...)."
 
 #. Default: "Select here filters that will be shown when using the 'More filters' link on the 'Available items' of the meeting view."
 msgid "dashboard_meeting_available_items_filters_descr"
-msgstr ""
+msgstr "Select here filters that will be shown when using the 'More filters' link on the 'Available items' of the meeting view."
 
 #. Default: "Select here filters that will be shown when using the 'More filters' link on the 'Linked items' of the meeting view."
 msgid "dashboard_meeting_linked_items_filters_descr"
-msgstr ""
+msgstr "Select here filters that will be shown when using the 'More filters' link on the 'Linked items' of the meeting view."
 
 #. Default: "Data"
 msgid "data"
@@ -2469,11 +2476,11 @@ msgstr "Actions"
 
 #. Default: "Criteria"
 msgid "heading_criteria"
-msgstr ""
+msgstr "Criteria"
 
 #. Default: "Active?"
 msgid "heading_is_active"
-msgstr ""
+msgstr "Active?"
 
 # Other
 #. Default: "Check/uncheck items"
@@ -2598,7 +2605,7 @@ msgstr "Yellow"
 
 #. Default: "Accepted but modified"
 msgid "icon_help_accepted_but_modified"
-msgstr ""
+msgstr "Accepted but modified"
 
 #. Default: "Delayed"
 msgid "icon_help_delayed"
@@ -2610,7 +2617,7 @@ msgstr "Late"
 
 #. Default: "Pre accepted"
 msgid "icon_help_pre_accepted"
-msgstr ""
+msgstr "Pre accepted"
 
 #. Default: "Pre-validated"
 msgid "icon_help_prevalidated"
@@ -2814,7 +2821,7 @@ msgstr "No move occurred because you specified the same item number."
 
 #. Default: "Item down workflow"
 msgid "item_down_wf_term"
-msgstr ""
+msgstr "Item down workflow"
 
 #. Default: "The item has been duplicated: you currently see the duplicated item."
 msgid "item_duplicated"
@@ -2858,7 +2865,7 @@ msgstr "No move occurred: please specify a valid number."
 
 #. Default: "You do not have access to the item number you entered."
 msgid "item_number_not_accessible"
-msgstr ""
+msgstr "You do not have access to the item number you entered."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 msgid "item_powerobservers_states_descr"
@@ -2866,7 +2873,7 @@ msgstr "When an item is in one of the states you choose here, it will be possibl
 
 #. Default: "Item reference (in the 'Purpose' column)"
 msgid "item_reference_column"
-msgstr ""
+msgstr "Item reference (in the 'Purpose' column)"
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted item. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
 msgid "item_reference_format_descr"
@@ -2915,7 +2922,7 @@ msgstr "Item templates will be available to users creating new items in the appl
 
 #. Default: "Item up workflow again"
 msgid "item_up_wf_term"
-msgstr ""
+msgstr "Item up workflow again"
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
 msgid "item_workflow_descr"
@@ -3044,11 +3051,11 @@ msgstr "Linked items, ${auto_linked_items} automatically and ${manually_linked_i
 
 #. Default: "Late"
 msgid "list_type_late"
-msgstr ""
+msgstr "Late"
 
 #. Default: "Normal"
 msgid "list_type_normal"
-msgstr ""
+msgstr "Normal"
 
 #. Default: "Purpose"
 msgid "listingheader_item_title"
@@ -3132,7 +3139,7 @@ msgstr "When displaying a meeting, the list of items that one may present to the
 
 #. Default: "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value."
 msgid "max_shown_listings_descr"
-msgstr ""
+msgstr "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value."
 
 #. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value."
 msgid "max_shown_meeting_items_descr"
@@ -3206,7 +3213,7 @@ msgstr "When a meeting is in one of the states you choose here, it will be possi
 
 #. Default: "When an item is inserted in a meeting from everywhere (so not when on a meeting view), this will take the very next meeting still accepting items.  Define here states to take into account to get this very next meeting."
 msgid "meeting_present_item_when_no_current_meeting_states_descr"
-msgstr ""
+msgstr "When an item is inserted in a meeting from everywhere (so not when on a meeting view), this will take the very next meeting still accepting items.  Define here states to take into account to get this very next meeting."
 
 #. Default: "When a meeting is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the meeting.  Theorically, there will be fewer states selected here than states selected in the <i>'Meeting states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 msgid "meeting_restricted_powerobservers_states_descr"
@@ -3515,11 +3522,11 @@ msgstr "Not given yet"
 
 #. Default: "Not to be cloned to anywhere"
 msgid "not_to_be_cloned_to_term"
-msgstr ""
+msgstr "Not to be cloned to anywhere"
 
 #. Default: "Not to be send to authority"
 msgid "not_to_be_send_to_authority_term"
-msgstr ""
+msgstr "Not to be send to authority"
 
 #. Default: "Nothing to do."
 msgid "nothing_to_do"
@@ -3559,7 +3566,7 @@ msgstr "Follow categories order"
 
 #. Default: "Follow list type"
 msgid "on_list_type"
-msgstr ""
+msgstr "Follow list type"
 
 #. Default: "When a transition will be triggered on a meeting, you can define which transitions to trigger on every items of the meeting.  This will make items 'follow' the meeting state.  You can define several transitions to trigger on items for the same meeting transitions, these transitions will be triggered sequentially on every items of the meeting."
 msgid "on_meeting_transition_item_transition_to_trigger_descr"
@@ -3703,11 +3710,11 @@ msgstr "Modification date"
 
 #. Default: "Synchronize searches of the config with every user folders"
 msgid "pm_synch_searches"
-msgstr ""
+msgstr "Synchronize searches of the config with every user folders"
 
 #. Default: "Warning: this will update the dashboards of every users regarding what is defined in the 'searches' folder including DashboardCollections and faceted navigation criteria. Launch this if you changed a Collection or the faceted criteria. This will take about 1 second by user folder to update."
 msgid "pm_synch_searches_warning"
-msgstr ""
+msgstr "Warning: this will update the dashboards of every users regarding what is defined in the 'searches' folder including DashboardCollections and faceted navigation criteria. Launch this if you changed a Collection or the faceted criteria. This will take about 1 second by user folder to update."
 
 #. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
@@ -3835,7 +3842,7 @@ msgstr "Presents all selected items at once."
 
 #. Default: "Selected items have been presented into the meeting."
 msgid "present_several_items_done"
-msgstr ""
+msgstr "Selected items have been presented into the meeting."
 
 #. Default: "This person is present in the meeting since item number:"
 msgid "present_since"
@@ -3863,7 +3870,7 @@ msgstr "The document has been sent."
 
 #. Default: "Public meeting"
 msgid "public"
-msgstr ""
+msgstr "Public meeting"
 
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use this functionality."
 msgid "publish_deadline_default_descr"
@@ -3920,7 +3927,7 @@ msgstr "remove all selected items at once."
 
 #. Default: "Selected items have been removed from the meeting."
 msgid "remove_several_items_done"
-msgstr ""
+msgstr "Selected items have been removed from the meeting."
 
 #. Default: "A category must be selected on this item so that it can be proposed"
 msgid "required_category_ko"
@@ -4008,7 +4015,7 @@ msgstr "Decided items"
 
 #. Default: "Searches defined here are used in the main portlet. We recommand not modifying them."
 msgid "searches_descr"
-msgstr ""
+msgstr "Searches defined here are used in the main portlet. We recommand not modifying them."
 
 #. Default: "items of my groups"
 msgid "searchitemsofmygroups"
@@ -4020,7 +4027,7 @@ msgstr "items to advice with delay"
 
 #. Default: "advice not given (delay exceeded)"
 msgid "searchitemstoadvicewithexceededdelay"
-msgstr ""
+msgstr "advice not given (delay exceeded)"
 
 #. Default: "items to advice without delay"
 msgid "searchitemstoadvicewithoutdelay"
@@ -4040,7 +4047,7 @@ msgstr "Items to validate"
 
 #. Default: "last decisions"
 msgid "searchlastdecisions"
-msgstr ""
+msgstr "last decisions"
 
 #. Default: "my items"
 msgid "searchmyitems"
@@ -4056,7 +4063,7 @@ msgstr "Validable items"
 
 #. Default: "Closed door"
 msgid "secret"
-msgstr ""
+msgstr "Closed door"
 
 # Portlet "meeting items"
 #. Default: "See everything..."
@@ -4085,11 +4092,11 @@ msgstr "The item has been successfully transfered to the plonemeeting assembly."
 
 #. Default: "${meetingConfigTitle} (to send to)"
 msgid "sent_to_other_mc_term__clonable_to"
-msgstr ""
+msgstr "${meetingConfigTitle} (to send to)"
 
 #. Default: "${meetingConfigTitle} (sent to)"
 msgid "sent_to_other_mc_term__cloned_to"
-msgstr ""
+msgstr "${meetingConfigTitle} (sent to)"
 
 #. Default: "Item sent to ${meetingConfigTitle}"
 msgid "sentto_othermeetingconfig"
@@ -4212,9 +4219,13 @@ msgstr "Move the item up"
 msgid "title_required"
 msgstr "A title is required."
 
+#. Default: "Ask this advice again (current advice will be historized)"
+msgid "to_advice_asked_again"
+msgstr "Ask this advice again (current advice will be historized)"
+
 #. Default: "To be send to authority"
 msgid "to_be_send_to_authority_term"
-msgstr ""
+msgstr "To be send to authority"
 
 #. Default: "Sending emails to meeting managers has been disabled. Please contact them through other means for asking them to discuss this item."
 msgid "to_discuss_ask_mail_not_sent"
@@ -4262,15 +4273,15 @@ msgstr "To be discussed during the meeting. Click on the image for not discussin
 
 #. Default: "Select here searches you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any search, the portlet will not show up for users"
 msgid "to_do_list_searches"
-msgstr ""
+msgstr "Select here searches you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any search, the portlet will not show up for users"
 
 #. Default: "Hide during redaction, the advice will be considered 'not given'."
 msgid "to_hidden_during_redaction"
-msgstr ""
+msgstr "Hide during redaction, the advice will be considered 'not given'."
 
 #. Default: "Show advice, the advice will be confirmed and considered 'given'."
 msgid "to_not_hidden_during_redaction"
-msgstr ""
+msgstr "Show advice, the advice will be confirmed and considered 'given'."
 
 #. Default: "Other parameters"
 msgid "tool_plonemeeting_misc"
@@ -4543,4 +4554,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

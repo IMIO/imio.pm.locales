@@ -1474,6 +1474,10 @@ msgstr "${meetingConfigTitle} - Votre avis est demandé sur le point '${itemTitl
 msgid "advice_add"
 msgstr "Ajouter un avis"
 
+#. Default: "The advice has been historized because it has been asked again.  You can consult it if necessary, see link 'View' opposite."
+msgid "advice_asked_again_and_historized"
+msgstr "L'avis a été historisé car il a été demandé à nouveau.  Vous pouvez consulter l'ancien avis en utilisant le lien 'Voir' ci-contre."
+
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
 msgstr "Cet avis ne peut plus être rendu dans l'état actuel du point (${item_review_state})"
@@ -1701,6 +1705,10 @@ msgstr "L'objet du point est '${itemNumber} - ${itemTitle}'. Accédez à ce poin
 #. Default: "${meetingConfigTitle} - ${meetingTitle} - ${user}, belonging to group(s) ${groups}, would like to discuss an item."
 msgid "askDiscussItem_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - ${user}, appartenant au(x) groupe(s) ${groups}, souhaiterait évoquer un point."
+
+#. Default: "Asked again"
+msgid "asked_again"
+msgstr "Demandé à nouveau"
 
 #. Default: "Absents as defined on the linked meeting"
 msgid "assembly_absents_defined_on_meeting"
@@ -4209,6 +4217,10 @@ msgstr "Remonter l'élément"
 #. Default: "A title is required."
 msgid "title_required"
 msgstr "Veuillez spécifier un objet."
+
+#. Default: "Ask this advice again (current advice will be historized)"
+msgid "to_advice_asked_again"
+msgstr "Demander cet avis à nouveau (l'avis actuel sera historisé)"
 
 #. Default: "To be send to authority"
 msgid "to_be_send_to_authority_term"

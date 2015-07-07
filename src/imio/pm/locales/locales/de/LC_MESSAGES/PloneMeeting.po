@@ -1482,6 +1482,10 @@ msgstr ""
 msgid "advice_add"
 msgstr "Einen Kommentar hinzufügen"
 
+#. Default: "The advice has been historized because it has been asked again.  You can consult it if necessary, see link 'View' opposite."
+msgid "advice_asked_again_and_historized"
+msgstr ""
+
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
 msgstr ""
@@ -1715,6 +1719,10 @@ msgstr "Der TOP trägt dem Namen '${itemTitle}'. Mehr Informationen auf ${portal
 #, fuzzy
 msgid "askDiscussItem_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - ${user}, zur Gruppe ${groups} gehörend, möchte einen TOP diskutieren."
+
+#. Default: "Asked again"
+msgid "asked_again"
+msgstr ""
 
 #. Default: "Absents as defined on the linked meeting"
 msgid "assembly_absents_defined_on_meeting"
@@ -4250,6 +4258,10 @@ msgstr ""
 #. Default: "A title is required."
 msgid "title_required"
 msgstr "Ein Titel wird benötigt."
+
+#. Default: "Ask this advice again (current advice will be historized)"
+msgid "to_advice_asked_again"
+msgstr ""
 
 #. Default: "To be send to authority"
 msgid "to_be_send_to_authority_term"
