@@ -4150,6 +4150,10 @@ msgstr "Vous ne pouvez pas supprimer un sous-type de fichier qui a déjà été 
 msgid "sub_types_descr"
 msgstr "Définissez ici des sous-types de fichier.  Ces sous-types de fichiers pourront être utilisés comme les types de fichiers, mais lorsqu'une annexe sera ajoutée avec ce sous-type, elle utilisera la même icône que le type de fichier principal.  Il est notamment possible de définir pour chacun de ces sous-types un autre titre (qui apparaîtra dans la liste déroulante de choix du type de fichier sur le formulaire d'ajout d'une annexe) et un titre prédéfini."
 
+#. Default: "Are you sure to want to present every selected items into the meeting?"
+msgid "sure_to_present_selected_items"
+msgstr "Êtes-vous sûr de vouloir présenter tous les points sélectionnés dans la séance?"
+
 #. Default: "Are you sure to want to remove every selected items from the meeting?"
 msgid "sure_to_remove_selected_items"
 msgstr "Êtes-vous sûr de vouloir retirer tous les points sélectionnés de la séance?"
@@ -4276,7 +4280,7 @@ msgstr "Sélectionnez les recherches à prendre en compte pour le portlet 'A fai
 
 #. Default: "Hide during redaction, the advice will be considered 'not given'."
 msgid "to_hidden_during_redaction"
-msgstr "Cacher l'avis, celui-ci sera désormais considéré 'non rendu'."
+msgstr "Cacher l'avis pendant sa rédaction, attention un avis est considéré 'non rendu' tant qu'il est caché."
 
 #. Default: "Show advice, the advice will be confirmed and considered 'given'."
 msgid "to_not_hidden_during_redaction"
