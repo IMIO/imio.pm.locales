@@ -831,7 +831,7 @@ msgstr "Items"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Aantal weer te geven kolommen voor een tabelweergave van items"
 
-#. Default: "Fields of the items to show/hide when using the glasses icon action"
+#. Default: "Fields of the items to show/hide in the dashboards"
 msgid "PloneMeeting_label_itemsListVisibleFields"
 msgstr ""
 
@@ -2798,7 +2798,7 @@ msgstr ""
 msgid "item_classifier_descr"
 msgstr ""
 
-#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches)."
+#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
 msgid "item_columns_descr"
 msgstr ""
 
@@ -2946,7 +2946,7 @@ msgstr "punt(en)"
 msgid "items_list_visible_columns_descr"
 msgstr "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
 
-#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'glasses' icon action.  This will affect every listing of items, so classic listings and the meetings view."
+#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 msgid "items_list_visible_fields_descr"
 msgstr ""
 
@@ -3175,7 +3175,7 @@ msgstr "Choose here which page will be shown after logon."
 msgid "meeting_assembly"
 msgstr "Vergadering"
 
-#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
+#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
 msgid "meeting_columns_descr"
 msgstr ""
 

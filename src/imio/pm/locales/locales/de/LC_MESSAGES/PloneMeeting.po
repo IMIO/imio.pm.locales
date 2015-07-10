@@ -830,7 +830,7 @@ msgstr "TOP"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Spalten die in TOP-Tabellen angezeigt werden können"
 
-#. Default: "Fields of the items to show/hide when using the glasses icon action"
+#. Default: "Fields of the items to show/hide in the dashboards"
 msgid "PloneMeeting_label_itemsListVisibleFields"
 msgstr ""
 
@@ -2817,7 +2817,8 @@ msgstr "Kategorie"
 msgid "item_classifier_descr"
 msgstr "Klassifizierung"
 
-#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches)."
+#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
+#, fuzzy
 msgid "item_columns_descr"
 msgstr "Wählen Sie hier die Spalten aus, die Sie bei den TOP-Listen anzeigen wollen (z.B., bei vordefinierten Listen wie 'Meine TOP' oder 'Alle TOP' oder bei der Erweiterten Suche)."
 
@@ -2964,7 +2965,7 @@ msgstr "Punkt(e)"
 msgid "items_list_visible_columns_descr"
 msgstr "Die Seite die eine Sitzung anzeigt kann mehrere Tabellen voll von TOP enthalten. Sie können hier auswählen welche Spalten in diesen Tabellen angezeigt werden. Beachten Sie das bestimmte Spalten immer angezeigt werden (wie zum Beispiel die Spalte mit dem Titel des TOPs)."
 
-#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'glasses' icon action.  This will affect every listing of items, so classic listings and the meetings view."
+#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 msgid "items_list_visible_fields_descr"
 msgstr ""
 
@@ -3196,7 +3197,8 @@ msgstr "Wählen Sie hier aus welche Seite nach dem Einloggen angezeigt werden so
 msgid "meeting_assembly"
 msgstr "Sitzung"
 
-#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
+#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
+#, fuzzy
 msgid "meeting_columns_descr"
 msgstr "Wählen Sie hier die Spalten aus, die Sie bei den Sitzungs-Listen anzeigen wollen (z.B., bei der Liste der vorhandenen Sitzung oder Beschlüsse, oder bei Benutzerdefinierten Suchen)."
 

@@ -835,7 +835,7 @@ msgstr "Temas"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Las columnas a mostrar en los temas dentro de las reuniones"
 
-#. Default: "Fields of the items to show/hide when using the glasses icon action"
+#. Default: "Fields of the items to show/hide in the dashboards"
 msgid "PloneMeeting_label_itemsListVisibleFields"
 msgstr ""
 
@@ -2807,7 +2807,8 @@ msgstr "Categoría"
 msgid "item_classifier_descr"
 msgstr "Clasificador"
 
-#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches)."
+#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
+#, fuzzy
 msgid "item_columns_descr"
 msgstr "Seleccione aquí cuales columnas se mostraran cuando se en listen temas (por ejemplo, cuando requieren 'mis temas', 'todos los temas', o cuando este ejecutando búsquedas personalizadas)."
 
@@ -2956,7 +2957,7 @@ msgstr "Tema(s)"
 msgid "items_list_visible_columns_descr"
 msgstr "La página que muestra una reunión potencialmente contiene varias tablas llenas de temas. Aquí puede elegir las columnas que se mostrarán o no en las tablas. Tenga en cuenta que un número fijo de columnas se mostrará siempre (como la columna que contiene el título del tema)."
 
-#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'glasses' icon action.  This will affect every listing of items, so classic listings and the meetings view."
+#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 msgid "items_list_visible_fields_descr"
 msgstr ""
 
@@ -3186,7 +3187,8 @@ msgstr "Selecciona aquí con qué página se mostrará después del inicio de se
 msgid "meeting_assembly"
 msgstr "Asamblea"
 
-#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
+#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
+#, fuzzy
 msgid "meeting_columns_descr"
 msgstr "Seleccione aquí cuales columnas se mostrarán en la lista de reuniones (es decir, cuando muestra la lista de reuniones disponibles o decisiones, o cuando ejecutaba búsqueda personalizadas)."
 
