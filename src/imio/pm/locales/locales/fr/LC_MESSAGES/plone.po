@@ -57,6 +57,10 @@ msgstr "Création"
 msgid "Creator"
 msgstr "Créateur"
 
+#. Default: "Delete meeting including items"
+msgid "Delete meeting including items"
+msgstr "Supprimer la séance points inclus"
+
 #. Default: "Duplicate"
 msgid "Duplicate"
 msgstr "Dupliquer"
@@ -93,6 +97,11 @@ msgstr "Workflow Point"
 #. Default: "Meeting Workflow"
 msgid "Meeting Workflow"
 msgstr "Workflow Séance"
+
+# plone.app.querystring
+#. Default: "Meeting date"
+msgid "Meeting date"
+msgstr "Date de la séance"
 
 #. Default: "Meeting Archive Observer"
 msgid "MeetingArchiveObserver"
@@ -196,6 +205,10 @@ msgstr "Canevas de document"
 msgid "State"
 msgstr "État"
 
+#. Default: "The date the meeting occurs"
+msgid "The date the meeting occurs"
+msgstr "La date à laquelle la séance a lieu"
+
 #. Default: "This allows to active the tool PloneMeeting."
 msgid "This allows to active the tool PloneMeeting."
 msgstr "Ce permet d'activer le tool PloneMeeting."
@@ -229,9 +242,17 @@ msgstr "Lors de la création"
 msgid "accept"
 msgstr "Accepter"
 
+#. Default: "Accept with modifications"
+msgid "accept_but_modify"
+msgstr "Accepter avec modifications"
+
 #. Default: "Accepted"
 msgid "accepted"
 msgstr "Accepté"
+
+#. Default: "Accepted with modifications"
+msgid "accepted_but_modified"
+msgstr "Accepté avec modifications"
 
 #. Default: "Activate"
 msgid "activate"
@@ -467,10 +488,6 @@ msgstr "Reporter"
 msgid "delayed"
 msgstr "Reporté"
 
-#. Default: "Delete, incl. items"
-msgid "delete_meeting_with_items"
-msgstr "Supprimer, points inclus"
-
 #. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
 msgid "description_copyright"
 msgstr "Cette application est maintenue par <a href='http://www.imio.be'>IMIO</a>, membre de la communauté <a href='http://www.plonegov.org'>PloneGov</a>."
@@ -585,6 +602,14 @@ msgstr "Méta-données"
 #. Default: "PloneMeeting view redirecting to the application when logged in"
 msgid "plonemeeting_redirect_to_app_view"
 msgstr "Vue PloneMeeting redirection vers l'application"
+
+#. Default: "Pre accept"
+msgid "pre_accept"
+msgstr "Accepter provisoirement"
+
+#. Default: "Pre accepted"
+msgid "pre_accepted"
+msgstr "Accepté provisoirement"
 
 #. Default: "Present"
 msgid "present"

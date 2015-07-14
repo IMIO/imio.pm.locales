@@ -61,6 +61,10 @@ msgstr "Creado"
 msgid "Creator"
 msgstr "Creador"
 
+#. Default: "Delete meeting including items"
+msgid "Delete meeting including items"
+msgstr ""
+
 #. Default: "Duplicate"
 msgid "Duplicate"
 msgstr "Duplicar"
@@ -97,6 +101,11 @@ msgstr "Flujo de trabajo para Temas de Reunión"
 #. Default: "Meeting Workflow"
 msgid "Meeting Workflow"
 msgstr "Flujo de trabajo de Reunión"
+
+# plone.app.querystring
+#. Default: "Meeting date"
+msgid "Meeting date"
+msgstr ""
 
 #. Default: "Meeting Archive Observer"
 msgid "MeetingArchiveObserver"
@@ -200,6 +209,10 @@ msgstr "Plantilla de documento"
 msgid "State"
 msgstr "Estado"
 
+#. Default: "The date the meeting occurs"
+msgid "The date the meeting occurs"
+msgstr ""
+
 #. Default: "This allows to active the tool PloneMeeting."
 msgid "This allows to active the tool PloneMeeting."
 msgstr "Este flujo de trabajo le permite activar la herramienta PloneMeeting."
@@ -233,9 +246,17 @@ msgstr "En la creación"
 msgid "accept"
 msgstr "Aceptar"
 
+#. Default: "Accept with modifications"
+msgid "accept_but_modify"
+msgstr ""
+
 #. Default: "Accepted"
 msgid "accepted"
 msgstr "Aceptado"
+
+#. Default: "Accepted with modifications"
+msgid "accepted_but_modified"
+msgstr ""
 
 #. Default: "Activate"
 msgid "activate"
@@ -473,10 +494,6 @@ msgstr "Demora"
 msgid "delayed"
 msgstr "Demorado"
 
-#. Default: "Delete, incl. items"
-msgid "delete_meeting_with_items"
-msgstr "Eliminar, temas incluidos"
-
 #. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
 msgid "description_copyright"
 msgstr "Esta aplicación es mantenida por <a href='http://www.imio.be'>IMIO</a>, miembro de la comunidad <a href='http://www.plonegov.org'>PloneGov</a>."
@@ -592,6 +609,14 @@ msgstr "Metadata"
 #. Default: "PloneMeeting view redirecting to the application when logged in"
 msgid "plonemeeting_redirect_to_app_view"
 msgstr "Vista PloneMeeting que direcciona a la aplicación cuando esta logueado"
+
+#. Default: "Pre accept"
+msgid "pre_accept"
+msgstr ""
+
+#. Default: "Pre accepted"
+msgid "pre_accepted"
+msgstr ""
 
 #. Default: "Present"
 msgid "present"

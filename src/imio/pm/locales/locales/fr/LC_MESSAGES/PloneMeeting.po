@@ -135,6 +135,10 @@ msgstr "Créer un point depuis un modèle"
 msgid "Days to give advice"
 msgstr "Nombre de jours ouvrables pour rendre l'avis : ${daysToGiveAdvice} jours"
 
+#. Default: "Decisions"
+msgid "Decisions"
+msgstr "Décisions"
+
 #. Default: "Delete advice"
 msgid "Delete advice"
 msgstr "Supprimer l'avis"
@@ -279,6 +283,10 @@ msgstr "Limite le nombre de caractères de l'objet du point qui seront affichés
 msgid "Manage advice annexes"
 msgstr "Gérer les annexes de l'avis"
 
+#. Default: "Manage dashboard"
+msgid "Manage dashboard"
+msgstr "Gérer le tableau de bord"
+
 #. Default: "Manage item assembly"
 msgid "Manage item assembly"
 msgstr "Gestion de l'assemblée spécifique pour les points"
@@ -290,6 +298,10 @@ msgstr "Gestion des signatures spécifiques pour les points"
 #. Default: "Manage item templates"
 msgid "Manage item templates"
 msgstr "Gérer les modèles de points"
+
+#. Default: "Items"
+msgid "Meeting items"
+msgstr "Points"
 
 #. Default: "Users"
 msgid "Meeting users"
@@ -306,6 +318,10 @@ msgstr "Catégorie"
 #. Default: "Annex types"
 msgid "MeetingFileTypes"
 msgstr "Types d'annexes"
+
+#. Default: "Meetings"
+msgid "Meetings"
+msgstr "Séances"
 
 #. Default: "No complementary comment has been given on this advice."
 msgid "No complementary comment has been given on this advice."
@@ -485,6 +501,18 @@ msgstr "Groupes en copie (lecture seule)"
 msgid "PloneMeeting_label_customAdvisers"
 msgstr "Configuration des avis particuliers"
 
+#. Default: "Advanced filters to show on listings of items"
+msgid "PloneMeeting_label_dashboardItemsListingsFilters"
+msgstr "Filtres avancés à afficher pour les tableaux de bord de points"
+
+#. Default: "Advanced filters to show on 'Available items'"
+msgid "PloneMeeting_label_dashboardMeetingAvailableItemsFilters"
+msgstr "Filtres avancés à afficher pour les 'Points disponibles' d'une séance"
+
+#. Default: "Advanced filters to show on 'Items of a meeting'"
+msgid "PloneMeeting_label_dashboardMeetingLinkedItemsFilters"
+msgstr "Filtres avancés à afficher pour les points d'une séance"
+
 #. Default: "Date"
 msgid "PloneMeeting_label_date"
 msgstr "Date"
@@ -512,10 +540,6 @@ msgstr "Décision"
 #. Default: "This annex type is specifically linked to the decision taken on this item"
 msgid "PloneMeeting_label_decisionRelated"
 msgstr "Ce type d'annexe est spécifiquement lié à la décision prise sur le point"
-
-#. Default: "Meeting states that condition the display of meetings in the 'decisions' portlet"
-msgid "PloneMeeting_label_decisionTopicStates"
-msgstr "Etats des séances conditionnant l'affichage de celles-ci dans la portlet 'décisions'"
 
 #. Default: "Default value of the 'Hide advice during redaction' field on an advice"
 msgid "PloneMeeting_label_defaultAdviceHiddenDuringRedaction"
@@ -596,14 +620,6 @@ msgstr "Activer la prévisualisation des annexes"
 #. Default: "Enable annex to print"
 msgid "PloneMeeting_label_enableAnnexToPrint"
 msgstr "Activer l'impression des annexes"
-
-#. Default: "Enable 'Go to item' functionality"
-msgid "PloneMeeting_label_enableGotoItem"
-msgstr "Activer la fonctionnalité 'Aller au point'"
-
-#. Default: "Enable 'Go to page' functionality"
-msgid "PloneMeeting_label_enableGotoPage"
-msgstr "Activer la fonctionnalité 'Aller à la page'"
 
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
@@ -802,10 +818,6 @@ msgstr "Marqueurs"
 msgid "PloneMeeting_label_itemTitle"
 msgstr "Objet"
 
-#. Default: "Item states which are relevant for searches defined in the 'items' portlets"
-msgid "PloneMeeting_label_itemTopicStates"
-msgstr "Etats dont tiennent compte les recherches de points dans la portlet 'points'"
-
 #. Default: "Workflow that dictates the life cycle of every item into this configuration"
 msgid "PloneMeeting_label_itemWorkflow"
 msgstr "Workflow gouvernant le cycle de vie de chaque point de cette configuration"
@@ -818,9 +830,9 @@ msgstr "Points"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Colonnes à afficher pour les points d'une séance"
 
-#. Default: "Fields of the items to show/hide when using the glasses icon action"
+#. Default: "Fields of the items to show/hide in the dashboards"
 msgid "PloneMeeting_label_itemsListVisibleFields"
-msgstr "Champs des points à Afficher/masquer lors de l'utilisation de l'icône 'Lunettes'"
+msgstr "Champs des points à Afficher/masquer dans les tableaux de bords"
 
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
@@ -854,25 +866,17 @@ msgstr "Listes de diffusion"
 msgid "PloneMeeting_label_manuallyLinkedItems"
 msgstr "Point(s) lié(s) manuellement"
 
-#. Default: "Maximum number of days during which decisions may appear direclty in the 'decisions' portlet."
-msgid "PloneMeeting_label_maxDaysDecisions"
-msgstr "Nombre maximum de jours durant lesquels les décisions apparaissent directement dans la portlet 'décisions'"
-
-#. Default: "Maximum number of available items to show at once"
+#. Default: "Default number of available items to show on a page"
 msgid "PloneMeeting_label_maxShownAvailableItems"
-msgstr "Nombre maximal de points à afficher dans la liste 'Points à présenter'"
+msgstr "Nombre de points par défaut à afficher dans la liste 'Points disponibles'"
 
-#. Default: "Maximum number of shown elements in dashboards"
-msgid "PloneMeeting_label_maxShownFound"
-msgstr "Nombre d'éléments à afficher dans les tableaux de bords"
+#. Default: "Default number of items to show on a page in items dashboards"
+msgid "PloneMeeting_label_maxShownListings"
+msgstr "Nombre d'éléments par défaut à afficher dans les tableaux de bord"
 
-#. Default: "Maximum number of late items to show at once"
-msgid "PloneMeeting_label_maxShownLateItems"
-msgstr "Nombre maximal de points à afficher dans la liste 'Points en retard'"
-
-#. Default: "Maximum number of meeting items to show at once"
+#. Default: "Default number of meeting items to show on a page"
 msgid "PloneMeeting_label_maxShownMeetingItems"
-msgstr "Nombre maximal de points à afficher dans la liste 'Points présentés'"
+msgstr "Nombre de points par défaut à afficher dans la liste 'Points présentés'"
 
 #. Default: "Maximal number of meetings shown in the 'meetings' and 'decisions' portlets"
 msgid "PloneMeeting_label_maxShownMeetings"
@@ -929,10 +933,6 @@ msgstr "Etats des séances pris en compte pour déterminer la séance dans laque
 #. Default: "Meeting states in wich restricted power observers can see the meetings"
 msgid "PloneMeeting_label_meetingRestrictedPowerObserversStates"
 msgstr "Etats des séances dans lesquels les 'Super observateurs restreints' peuvent les voir"
-
-#. Default: "Meeting states that condition the display of meetings in the 'meetings' portlet"
-msgid "PloneMeeting_label_meetingTopicStates"
-msgstr "Etats des séances conditionnant l'affichage de celles-ci dans la portlet 'séances'"
 
 #. Default: "Meeting transition that triggers the insertion of this item as a recurring item"
 msgid "PloneMeeting_label_meetingTransitionInsertingMe"
@@ -1193,9 +1193,9 @@ msgstr "Affecter une valeur au champ 'à discuter' quand un point est inséré d
 msgid "PloneMeeting_label_toDiscussShownForLateItems"
 msgstr "Montrer le champ 'à discuter' sur les listes de points en retard"
 
-#. Default: "List of topics to display in the 'todo' portlet"
-msgid "PloneMeeting_label_toDoListTopics"
-msgstr "Recherches préconfigurées à afficher dans le portlet 'A faire'"
+#. Default: "List of searches to display in the 'todo' portlet"
+msgid "PloneMeeting_label_toDoListSearches"
+msgstr "Recherches à afficher dans le portlet 'A faire'"
 
 #. Default: "To print?"
 msgid "PloneMeeting_label_toPrint"
@@ -1321,6 +1321,10 @@ msgstr "Prévisualiser l'avis complet"
 msgid "RecurringItems"
 msgstr "Points récurrents"
 
+#. Default: "Searches"
+msgid "Searches"
+msgstr "Recherches"
+
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
 msgstr "Sélectionnez dans la liste le type d'élément que vous souhaitez créer"
@@ -1414,10 +1418,6 @@ msgstr "À faire"
 msgid "Toggle descriptions of items"
 msgstr "Afficher / masquer les détails des points dans les tableaux de recherche ou sur les séances"
 
-#. Default: "Topics"
-msgid "Topics"
-msgstr "Recherches préconfigurées"
-
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 msgstr "Vous êtes sur le point de changer le délai de cet avis vers ${new_advice_delay} jours, vous pouvez entrer un commentaire si nécessaire."
@@ -1446,10 +1446,6 @@ msgstr "Ajouter une annexe"
 msgid "add_object"
 msgstr "En ajouter un(e)"
 
-#. Default: "Add a new topic"
-msgid "add_topic"
-msgstr "Ajouter un dossier automatique"
-
 #. Default: "You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
 msgstr "Accédez à ce point ici: ${objectUrl}."
@@ -1477,6 +1473,10 @@ msgstr "${meetingConfigTitle} - Votre avis est demandé sur le point '${itemTitl
 #. Default: "Add an advice"
 msgid "advice_add"
 msgstr "Ajouter un avis"
+
+#. Default: "The advice has been historized because it has been asked again.  You can consult it if necessary, see link 'View' opposite."
+msgid "advice_asked_again_and_historized"
+msgstr "L'avis a été historisé car il a été demandé à nouveau.  Vous pouvez consulter l'ancien avis en utilisant le lien 'Voir' ci-contre."
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
@@ -1706,6 +1706,10 @@ msgstr "L'objet du point est '${itemNumber} - ${itemTitle}'. Accédez à ce poin
 msgid "askDiscussItem_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - ${user}, appartenant au(x) groupe(s) ${groups}, souhaiterait évoquer un point."
 
+#. Default: "Asked again"
+msgid "asked_again"
+msgstr "Demandé à nouveau"
+
 #. Default: "Absents as defined on the linked meeting"
 msgid "assembly_absents_defined_on_meeting"
 msgstr "Absents définis sur la séance"
@@ -1799,6 +1803,10 @@ msgstr "Non"
 msgid "boolean_value_true"
 msgstr "Oui"
 
+#. Default: "Budgetary informations (in the 'Purpose' column)"
+msgid "budget_infos_column"
+msgstr "Informations budgétaires (dans la colonne 'Objet')"
+
 #. Default: "This item is not budget related."
 msgid "budget_related_no_edit"
 msgstr "Ce point n'a aucune information budgétaire."
@@ -1871,13 +1879,9 @@ msgstr "Choisissez ici un identifiant pour votre catégorie."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
 msgstr "Lorsqu'un point de cette configuration de séance utilisant cette catégorie sera envoyé vers une autre configuration de séance, sélectionnez ci-dessous la catégorie qui devra être utilisée pour le point dans la configuration de séance de destination.  Ceci n'est possible que si les deux configurations de séance (origine et destination) utilisent les catégories."
 
-#. Default: "Category (or proposing group)"
-msgid "category_or_proposing_group"
-msgstr "Catégorie (ou groupe proposant)"
-
-#. Default: "Please specify a category."
+#. Default: "Please select a category."
 msgid "category_required"
-msgstr "Veuillez spécifier une catégorie."
+msgstr "Veuillez sélectionner une catégorie."
 
 #. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
 msgid "category_using_groups_descr"
@@ -1954,10 +1958,6 @@ msgstr "Définissez ici le texte prédéfini qui sera présent dans le champ 'In
 #. Default: "Define here some predefined text that will be present in field 'motivation' every time a user creates a new item."
 msgid "config_default_meetingitem_motivation_descr"
 msgstr "Définissez ici le texte prédéfini qui sera présent dans le champ 'Motivation' chaque fois qu'un utilisateur crée un nouveau point."
-
-#. Default: "Active?"
-msgid "config_is_active"
-msgstr "Active?"
 
 #. Default: "The default meeting configuration is the one the user is redirected to when logging in."
 msgid "config_is_default_descr"
@@ -2063,6 +2063,18 @@ msgstr "Définissez ici les avis particuliers : les avis demandés automatiqueme
 msgid "custom_advisers_full_descr"
 msgstr "<p>Cette partie de la configuration vous permet de définir certains comportements particuliers liés aux avis.</p><p>Il vous sera possible de définir:</p><ul><li><strong>des avis automatiquement demandés par l'application</strong> : sous certaines conditions si une expression renseignée est vérifiée (True), un avis sera automatiquement demandé par l'application sur un point.  Vous pourrez également définir un message d'aide qui permettra à un utilisateur de savoir pourquoi cet avis a été automatiquement demandé ainsi qu'une date à partir de laquelle les points nouvellement créés seront affectés par cette configuration;</li><li><strong>des avis ayant une notion de délai</strong> : ceci vous permet de définir des avis que l'utilisateur pourra demander manuellement dans l'application (ou qui seront demandés automatiquement).  Un avis défini de la sorte aura une notion de délai ce qui signifie qu'une fois demandé et visible par le groupe à qui l'avis est demandé, il devra être rendu dans le délai imparti (en jours calendriers).  Une fois ce délai dépassé, l'avis ne pourra plus être rendu.</li></ul><p>Si une configuration est utilisée (des points créés l'utilisent), les données logiques ne pourront plus être modifiées (colonnes 'Groupes', 'L'avis sera automatiquement demandé si', 'Configuration active pour les points créés depuis le' et 'Délai pour rendre l'avis').</p>"
 
+#. Default: "Select here filters that will be shown when using the 'More filters' link on listings of items (my items, all items, ...)."
+msgid "dashboard_items_listings_filters_descr"
+msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien 'Plus de filtres' sur les tableaux de bord de points (mes points, tous les points, ...)."
+
+#. Default: "Select here filters that will be shown when using the 'More filters' link on the 'Available items' of the meeting view."
+msgid "dashboard_meeting_available_items_filters_descr"
+msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien 'Plus de filtres' sur le tableau de bord affichant les points disponibles pour une séance."
+
+#. Default: "Select here filters that will be shown when using the 'More filters' link on the 'Linked items' of the meeting view."
+msgid "dashboard_meeting_linked_items_filters_descr"
+msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien 'Plus de filtres' sur le tableau de bord affichant les points d'une séance."
+
 #. Default: "Data"
 msgid "data"
 msgstr "Données"
@@ -2090,10 +2102,6 @@ msgstr "Décision"
 #. Default: "Decision is empty for item ${itemNumber}."
 msgid "decision_is_empty"
 msgstr "Aucune décision n'a été encodée pour le point ${itemNumber}."
-
-#. Default: "Meetings being in the states you select here will appear in the 'decisions' portlet. Typically this portlet will display meetings whose decisions were taken or archived."
-msgid "decision_topic_states_descr"
-msgstr "Les séances étant dans les états que vous sélectionnez ici apparaîtront dans la portlet 'décisions'. Il s'agit typiquement de séances dont les décisions ont été publiées ou archivées."
 
 #. Default: "<p>The decision is currently under edit by managers, you can not access it.</p>"
 msgid "decision_under_edit"
@@ -2215,14 +2223,6 @@ msgstr "Si la prévisualisation est activée, les annexes seront converties dans
 #. Default: "Let the user specify if an annex needs to be printed or not.  WARNING, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
 msgid "enable_annex_to_print_descr"
 msgstr "Permet à l'utilisateur de spécifier si une annexe doit être imprimée ou non.  ATTENTION, si vous désactivez cette fonctionnalité, les deux paramètres suivants 'Marquer les annexes comme 'à imprimer' par défaut?' et 'Marquer les annexes après décision comme 'à imprimer' par défaut?' seront automatiquement remis à 'Non'."
-
-#. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."
-msgid "enable_goto_item_descr"
-msgstr "Si vous cochez cette case, lorsque les listes de points paginées apparaissent (à la consultation d'une séance), vous verrez également apparaître un champ spécifique 'Aller au point'. Introduire un numéro de point dans ce champ vous mènera à la page de consultation du point en question."
-
-#. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to page' field. Entering an item number in it will bring you to the page where this item is."
-msgid "enable_goto_page_descr"
-msgstr "Si vous cochez cette case, lorsque les listes de points paginées apparaissent (à la consultation d'une séance), vous verrez également apparaître un champ spécifique 'Aller à la page'. Introduire un numéro de point dans ce champ vous mènera à la page sur laquelle le point en question se trouve."
 
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"
@@ -2453,10 +2453,6 @@ msgstr "Consulter les ${number} éléments précédents"
 msgid "group_certified_signatures_descr"
 msgstr "Si vous spécifiez des signatures dans ce champ, elle seront utilisées pour les points proposés par ce groupe, si le champ est vide, les signatures définies dans la configuration de séance seront utilisées."
 
-#. Default: "Active?"
-msgid "group_is_active"
-msgstr "Actif?"
-
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "group_item_advice_edit_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour un aviseur de ce groupe de modifier ou supprimer un avis donné. Si vous ne spécifiez aucun état ici, une liste d'états globale à tous les groupes, définie au niveau de la configuration de séance, sera utilisée à la place.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les avis!</span>"
@@ -2477,6 +2473,14 @@ msgstr "Interface utilisateur"
 #. Default: "Actions"
 msgid "heading_actions"
 msgstr "Actions"
+
+#. Default: "Criteria"
+msgid "heading_criteria"
+msgstr "Critères"
+
+#. Default: "Active?"
+msgid "heading_is_active"
+msgstr "Actif(ve)?"
 
 # Other
 #. Default: "Check/uncheck items"
@@ -2599,6 +2603,10 @@ msgstr "Rouge"
 msgid "icon_color_yellow"
 msgstr "Jaune"
 
+#. Default: "Accepted but modified"
+msgid "icon_help_accepted_but_modified"
+msgstr "Accepté avec modifications"
+
 #. Default: "Delayed"
 msgid "icon_help_delayed"
 msgstr "Reporté"
@@ -2606,6 +2614,10 @@ msgstr "Reporté"
 #. Default: "Late"
 msgid "icon_help_late"
 msgstr "En retard"
+
+#. Default: "Pre accepted"
+msgid "icon_help_pre_accepted"
+msgstr "Accepté provisoirement"
 
 #. Default: "Pre-validated"
 msgid "icon_help_prevalidated"
@@ -2658,14 +2670,6 @@ msgstr "Vous ne pouvez pas sélectionner 'Par point à discuter (à discuter et 
 #. Default: "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
 msgid "inserting_methods_on_add_item_descr"
 msgstr "Permet de définir les méthodes successivement appliquées lors de l'insertion d'un point dans une séance."
-
-#. Default: "Public meeting"
-msgid "ip_public"
-msgstr "Séance publique"
-
-#. Default: "Closed door"
-msgid "ip_secret"
-msgstr "Huis clos"
 
 #. Default: "Absent?"
 msgid "is_absent"
@@ -2787,9 +2791,9 @@ msgstr " "
 msgid "item_classifier_descr"
 msgstr " "
 
-#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches)."
+#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
 msgid "item_columns_descr"
-msgstr "Choisissez ici les colonnes à afficher sur les listes de points (par exemple, sur les listes prédéfinies comme 'mes points' ou 'tous les points' ou sur des résultats de recherches avancées)."
+msgstr "Choisissez ici les colonnes à afficher sur les listes de points (par exemple, sur les listes prédéfinies comme 'mes points' ou 'tous les points' ou sur des résultats de recherches avancées).  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de synchronizer les recherches!</span>"
 
 #. Default: "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
 msgid "item_completeness_descr"
@@ -2811,9 +2815,13 @@ msgstr "Si vous cochez cette case, les créateurs de points devront obligatoirem
 msgid "item_decided_states_descr"
 msgstr "Choisissez les états dans lesquels les points sont considérés \"décidés\"."
 
-#. Default: "No move occurred because you specified the item number or this number plus one. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
+#. Default: "No move occurred because you specified the same item number."
 msgid "item_did_not_move"
-msgstr "Aucun déplacement n'a eu lieu parce que vous avez spécifié le numéro du point ou un de plus. Si vous spécifiez un certain numéro X, le point ira se positionner avant l'ancien point ayant le numéro X et les autres seront décalés. Si vous voulez déplacer le point à la fin de la liste des points, vous devez spécifier un de plus que le numéro du dernier point. Notez que, dans le cas où deux listes de points apparaissent, vous ne pouvez pas déplacer un point d'une liste à l'autre."
+msgstr "Aucun déplacement n'a eu lieu."
+
+#. Default: "Item down workflow"
+msgid "item_down_wf_term"
+msgstr "Redescend le workflow"
 
 #. Default: "The item has been duplicated: you currently see the duplicated item."
 msgid "item_duplicated"
@@ -2827,9 +2835,9 @@ msgstr "Point dupliqué et lien vers le point original gardé : vous voyez actue
 msgid "item_icon_color_descr"
 msgstr "Cette icône est affichée à différents endroits de l'application où des points de plusieurs configuration de séances sont affichés ensemble, ceci permet de les différencier, par exemple lors de l'utilisation de la recherche plein texte disponible en haut à droite de l'écran de l'application, ou dans la gestion des points liés.  <span style='color: red';>Attention, si vous changez ce paramètre, l'icône des points existants sera mise à jour, ceci peut prendre du temps en fonction du nombre de points, ne pas changer ce paramètre dans une période de forte utilisation!</span>"
 
-#. Default: "You can't make this move. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
+#. Default: "You can't make this move. Please specify a number between 1 and ${nbOfItems}."
 msgid "item_illegal_move"
-msgstr "Vous ne pouvez effectuer ce déplacement. Si vous spécifiez un certain numéro X, le point ira se positionner avant l'ancien point ayant le numéro X et les autres seront décalés. Si vous voulez déplacer le point à la fin de la liste des points, vous devez spécifier un de plus que le numéro du dernier point. Notez que, dans le cas où deux listes de points apparaissent, vous ne pouvez pas déplacer un point d'une liste à l'autre."
+msgstr "Vous ne pouvez pas effectuer ce déplacement. Spécifiez un numéro entre 1 et ${nbOfItems}."
 
 #. Default: "Use CTRL+click to select several initiators."
 msgid "item_initiator_descr"
@@ -2855,9 +2863,17 @@ msgstr "Le point est signé, cliquez sur l'image pour enlever la signature."
 msgid "item_number_invalid"
 msgstr "Aucun déplacement n'a eu lieu: veuillez introduire un numéro valide."
 
+#. Default: "You do not have access to the item number you entered."
+msgid "item_number_not_accessible"
+msgstr "Vous n'avez pas accès au numéro de point demandé."
+
 #. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 msgid "item_powerobservers_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs' de cette configuration de séance.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les 'Super observateurs'!</span>"
+
+#. Default: "Item reference (in the 'Purpose' column)"
+msgid "item_reference_column"
+msgstr "Référence du point (dans la colonne 'Objet')"
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted item. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
 msgid "item_reference_format_descr"
@@ -2904,9 +2920,9 @@ msgstr "${meetingConfigTitle} - ${itemTitle} - Le point est maintenant dans l'é
 msgid "item_templates_descr"
 msgstr "Les modèles de points seront disponibles aux utilisateurs qui créeront des points dans l'application."
 
-#. Default: "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
-msgid "item_topic_states_descr"
-msgstr "Dans la portlet 'points', des liens permettent de déclencher des recherches de points. Seuls les points étant dans les états que vous sélectionnez ici apparaîtront dans ces recherches. Il peut être pratique par exemple de ne plus afficher les points déjà publiés dans des séances puisqu'ils sont déjà visibles via les séances."
+#. Default: "Item up workflow again"
+msgid "item_up_wf_term"
+msgstr "Remonte le workflow"
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
 msgid "item_workflow_descr"
@@ -2920,9 +2936,9 @@ msgstr "point(s)"
 msgid "items_list_visible_columns_descr"
 msgstr "L'écran d'affichage d'une séance présente potentiellement plusieurs tableaux de points. Vous pouvez choisir ici quelles colonnes seront affichées ou non dans ces tableaux, sachant qu'un nombre fixé de colonnes sera toujours visible (la colonne 'objet du point', par exemple)."
 
-#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'glasses' icon action.  This will affect every listing of items, so classic listings and the meetings view."
+#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 msgid "items_list_visible_fields_descr"
-msgstr "Sélectionnez les champs à masquer/afficher lorsque l'utilisateur cliquera sur l'icône 'Lunettes' se trouvant en haut à droite des écrans affichants des tableaux de points.  Ceci concerne les tableaux de points (mes points, tous les points, ...) ainsi que les tableaux de points affichés sur les séances (points disponibles, points présentés, ...)."
+msgstr "Sélectionnez les champs à masquer/afficher lorsque l'utilisateur cliquera sur le libellé 'Afficher/masquer les détails' se trouvant dans l'entête 'Objet' d'un tableau de bord.  Ceci concerne tous les tableaux affichant des éléments, donc, les tableaux de points et séances (mes points, tous les points, toutes les décisions, ...) ainsi que les tableaux de points affichés sur les séances (points disponibles, points présentés, ...)."
 
 #. Default: "Choose an element in the list"
 msgid "label_choose_element_in_list"
@@ -3033,6 +3049,14 @@ msgstr "Point(s) lié(s) (${auto_linked_items})"
 msgid "linked_items_with_manually_linked_items"
 msgstr "Point(s) lié(s), ${auto_linked_items} automatiquement et ${manually_linked_items} manuellement"
 
+#. Default: "Late"
+msgid "list_type_late"
+msgstr "En retard"
+
+#. Default: "Normal"
+msgid "list_type_normal"
+msgstr "Normal"
+
 #. Default: "Purpose"
 msgid "listingheader_item_title"
 msgstr "Objet"
@@ -3109,25 +3133,17 @@ msgstr "Au moins un avis obligatoire pour ce point n'est pas positif ou n'a pas 
 msgid "manually_linked_items_descr"
 msgstr "Sélectionnez les points qui sont liés au point courant.  Ces points apparaîtront dans les points liés, mais séparés des points liés automatiquement par l'application.  Le point courant apparaîtra également comme point lié sur les points sélectionnés.  Pour enlever un point lié, décochez la case de ce point.  Les point seront triés chronologiquement.  Les points liés manuellement vont former un \"dossier virtuel\" où tous les points sont liés entre eux.  Si vous enlevez un point de ce \"dossier virtuel\", il ne sera plus lié à aucun des autres points.  Si vous désélectionnez tous les points de ce \"dossier virtuel\", celui-ci sera vidé et plus aucun point ne sera lié aux autres."
 
-#. Default: "In the 'decisions' portlet, only decisions that have less than x days (x being the number defined here) appear directly. Users consult older decisions by clicking on the link 'all decisions'."
-msgid "max_days_decisions_descr"
-msgstr "Dans la portlet 'décisions', n'apparaissent directement que les décisions qui ont moins de x jours, x étant le nombre indiqué ici. Pour consulter les décisions antérieures, il suffit de cliquer sur le lien 'toutes les décisions'. Cette mesure sert à nouveau à ne pas engorger l'interface utilisateur."
-
-#. Default: "When displaying a meeting, the list of items that one may present to the meeting may be paginated if you specify here a maximum number of available items to show at once."
+#. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
 msgid "max_shown_available_items_descr"
-msgstr "Lors de l'affichage d'une séance, la liste des points à présenter peut être paginée si vous spécifiez ici un nombre maximum de points à afficher sur la page."
+msgstr "Lors de l'affichage d'une séance, la liste des points disponibles est paginée, définissez ici la valeur par défaut à utiliser."
 
-#. Default: "Specify here the maximum number of found items that may appear on every result page."
-msgid "max_shown_found_descr"
-msgstr "Spécifiez combien d'éléments devront être affichés par page lors de l'utilisation d'un tableau de bord (recherche avancée, recherche de points, de séances, ...)."
+#. Default: "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value."
+msgid "max_shown_listings_descr"
+msgstr "Lors de l'affichage d'un tableau de bord affichant des éléments (mes points, tous les points, toutes les décisions, ...), la liste des éléments est paginée, définissez ici la valeur par défaut à utiliser."
 
-#. Default: "When displaying a meeting, the list of late items in the meeting may be paginated if you specify here a maximum number of late items to show at once."
-msgid "max_shown_late_items_descr"
-msgstr "Lors de l'affichage d'une séance, la liste des points en retard peut être paginée si vous spécifiez ici un nombre maximum de points à afficher sur la page."
-
-#. Default: "When displaying a meeting, the list of items in the meeting may be paginated if you specify here a maximum number of items to show at once."
+#. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value."
 msgid "max_shown_meeting_items_descr"
-msgstr "Lors de l'affichage d'une séance, la liste des points présentés peut être paginée si vous spécifiez ici un nombre maximum de points à afficher sur la page."
+msgstr "Lors de l'affichage d'une séance, la liste des points présentés est paginée, définissez ici la valeur par défaut à utiliser."
 
 #. Default: "If the number of meetings to display in any of those 2 portlets is higher than this number, a dropdown list will be shown."
 msgid "max_shown_meetings_descr"
@@ -3145,9 +3161,9 @@ msgstr "Choisissez ici la page qui s'affiche directement après connexion."
 msgid "meeting_assembly"
 msgstr "Assemblée"
 
-#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
+#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
 msgid "meeting_columns_descr"
-msgstr "Choisissez ici les colonnes à afficher sur les listes de séances (par exemple, sur la liste des séances disponibles ou passées, ou encore sur des résultats de recherches avancées)."
+msgstr "Choisissez ici les colonnes à afficher sur les listes de séances (par exemple, sur la liste des séances disponibles ou passées, ou encore sur des résultats de recherches avancées).  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de synchronizer les recherches!</span>"
 
 #. Default: "Similarly to interfaces defined for items, the conditions expressed on the transitions of the meeting workflow may be configured through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowConditions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowConditions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowConditions are documented."
 msgid "meeting_conditions_interface_descr"
@@ -3222,10 +3238,6 @@ msgstr "Vous pouvez accéder à la séance ici: '${objectUrl}'."
 #. Default: "${meetingConfigTitle} - ${meetingTitle} - The meeting is now in state '${meetingState}'."
 msgid "meeting_state_changed_default_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - La séance est maintenant '${meetingState}'."
-
-#. Default: "Meetings being in the states you select here will appear in the 'meetings' portlet. Typically you will display there meetings under creation or published meetings that did not took place yet. The idea is to select here a given set of states and to select, in the next field, all the other states. This way, users can distinguish between future and past meetings (past meetings are the object of the next field)."
-msgid "meeting_topic_states_descr"
-msgstr "Les séances étant dans les états que vous sélectionnez ici apparaîtront dans la portlet 'séances'. Il s'agit typiquement de séances en préparation ou de séances publiées, mais qui n'ont pas encore fait l'objet de décisions. L'idée est de sélectionner ici un certain nombre d'états puis de sélectionner, dans le champ ci-dessous, les états restants, afin que les utilisateurs puissent distinguer les séances à venir ou en préparation des séances passées, pour lesquelles des décisions ont été prises (ce qui constitue l'objet du champ suivant)."
 
 #. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 msgid "meeting_transition_inserting_me_descr"
@@ -3491,10 +3503,6 @@ msgstr "Les attributs 'signatures' et 'signataires' ne peuvent être utilisés e
 msgid "no_sub_types_defined"
 msgstr "Aucun sous-type n'a été défini."
 
-#. Default: "No topic is currently defined."
-msgid "no_topic_folder"
-msgstr "Aucun dossier automatique défini pour le moment."
-
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
 msgstr "* * * Avis sans délai * * *"
@@ -3510,6 +3518,14 @@ msgstr "Vous êtes un utilisateur enregistré mais votre compte n'a pas encore �
 #. Default: "Not given yet"
 msgid "not_given"
 msgstr "Non rendu"
+
+#. Default: "Not to be cloned to anywhere"
+msgid "not_to_be_cloned_to_term"
+msgstr "Pas à envoyer"
+
+#. Default: "Not to be send to authority"
+msgid "not_to_be_send_to_authority_term"
+msgstr "Pas à envoyer à la tutelle"
 
 #. Default: "Nothing to do."
 msgid "nothing_to_do"
@@ -3546,6 +3562,10 @@ msgstr "Suivre l'ordre de tous les groupes"
 #. Default: "Follow categories order"
 msgid "on_categories"
 msgstr "Suivre l'ordre des catégories"
+
+#. Default: "Follow list type"
+msgid "on_list_type"
+msgstr "Par type de point (normal, en retard)"
 
 #. Default: "When a transition will be triggered on a meeting, you can define which transitions to trigger on every items of the meeting.  This will make items 'follow' the meeting state.  You can define several transitions to trigger on items for the same meeting transitions, these transitions will be triggered sequentially on every items of the meeting."
 msgid "on_meeting_transition_item_transition_to_trigger_descr"
@@ -3663,11 +3683,6 @@ msgstr "Convertir les annexes pour la prévisualisation"
 msgid "pm_creation_date"
 msgstr "Créé le"
 
-# MeetingFile
-#. Default: "Creator"
-msgid "pm_creator"
-msgstr "Créateur"
-
 #. Default: "Go to the first one."
 msgid "pm_goto_first"
 msgstr "Aller au tout premier."
@@ -3692,9 +3707,13 @@ msgstr "Aller au précédent."
 msgid "pm_modification_date"
 msgstr "Modifié le"
 
-#. Default: "(Un-)select all"
-msgid "pm_select_deselect"
-msgstr "(Dé-)sélectionner tout"
+#. Default: "Synchronize searches of the config with every user folders"
+msgid "pm_synch_searches"
+msgstr "Synchronizer les recherches définies dans cette configuration avec les dossiers des utilisateurs"
+
+#. Default: "Warning: this will update the dashboards of every users regarding what is defined in the 'searches' folder including DashboardCollections and faceted navigation criteria. Launch this if you changed a Collection or the faceted criteria. This will take about 1 second by user folder to update."
+msgid "pm_synch_searches_warning"
+msgstr "Attention: ceci va synchronizer les changements effectués vis-à-vis des recherches (dossier 'Recherches') avec les recherches affichées chez les utilisateurs.  Effectuez cette synchronisation si vous avez changé une Collection ou les critères de la navigation par facettes.  Ceci prendra environ 1 seconde par dossier utilisateur à mettre à jour."
 
 #. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
@@ -3768,10 +3787,6 @@ msgstr "Seuls les utilisateurs ayant la (les) permission(s) spécifiée(s) ici s
 msgid "pod_template_descr"
 msgstr "Ce canevas doit être un document ODT (Open Document Format text) tel que produit par OpenOffice par exemple. Ce canevas devrait aussi contenir des instructions spéciales qui permettent d'y insérer du contenu provenant de la base de données Zope/Plone. Le format de ces instructions est défini par la librairie POD (Python Open Document). Vous pouvez apprendre à écrire des fichiers ODT contenant des instructions POD <a href=\"http://appyframework.org/pod.html\">ici</a>."
 
-#. Default: "Active ?"
-msgid "pod_template_is_active"
-msgstr "Actif ?"
-
 #. Default: "This section allows you manage the document templates that you may specify for producing documents from content managed by PloneMeeting (items, meetings, annexes, etc)."
 msgid "pod_templates_descr"
 msgstr "Cette section vous permet de gérer les canevas de documents que vous pouvez spécifier pour produire des documents depuis les types de contenu gérés par PloneMeeting (points, séances, annexes, etc)."
@@ -3779,15 +3794,6 @@ msgstr "Cette section vous permet de gérer les canevas de documents que vous po
 #. Default: "Manage"
 msgid "portlet_pm_header_label"
 msgstr "Gestion"
-
-#. Default: "Decisions"
-msgid "portletdecisions_title"
-msgstr "Décisions"
-
-# Portlet "meetings"
-#. Default: "Meetings"
-msgid "portletmeetings_title"
-msgstr "Séances"
 
 #. Default: "Positive"
 msgid "positive"
@@ -3833,6 +3839,10 @@ msgstr "Pré-validateurs"
 msgid "present_several_items"
 msgstr "Présenter tous les points sélectionnés."
 
+#. Default: "Selected items have been presented into the meeting."
+msgid "present_several_items_done"
+msgstr "Les points sélectionnés ont été présentés dans la séance."
+
 #. Default: "This person is present in the meeting since item number:"
 msgid "present_since"
 msgstr "Cette personne est présente dans la séance depuis le point numéro:"
@@ -3845,10 +3855,6 @@ msgstr "Séance"
 msgid "presented_items"
 msgstr "Points présentés à cette séance"
 
-#. Default: "Proposing group's acronym"
-msgid "proposing_group_acronym"
-msgstr "Acronyme du groupe proposant"
-
 #. Default: "A proposing group is required."
 msgid "proposing_group_required"
 msgstr "Un groupe proposant est requis."
@@ -3860,6 +3866,10 @@ msgstr "Définissez ici des listes de personnes à qui envoyer par courriel les 
 #. Default: "The document has been sent."
 msgid "pt_mailing_sent"
 msgstr "Le document a été envoyé."
+
+#. Default: "Public meeting"
+msgid "public"
+msgstr "Séance publique"
 
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use this functionality."
 msgid "publish_deadline_default_descr"
@@ -3914,6 +3924,10 @@ msgstr "Supprimer cette information"
 msgid "remove_several_items"
 msgstr "Retirer tous les points sélectionnés."
 
+#. Default: "Selected items have been removed from the meeting."
+msgid "remove_several_items_done"
+msgstr "Les points sélectionnés ont été retirés de la séance."
+
 #. Default: "A category must be selected on this item so that it can be proposed"
 msgid "required_category_ko"
 msgstr "Une catégorie doit être sélectionnée sur ce point afin qu'il puisse être proposé"
@@ -3962,98 +3976,6 @@ msgstr "Supprimer les paragraphes vides"
 msgid "save"
 msgstr "Enregistrer"
 
-#. Default: "No annex found."
-msgid "search_MeetingFile_empty"
-msgstr "Pas d'annexe trouvée."
-
-#. Default: "No item found."
-msgid "search_MeetingItem_empty"
-msgstr "Pas de point trouvé."
-
-#. Default: "No meeting found."
-msgid "search_Meeting_empty"
-msgstr "Pas de séance trouvée."
-
-#. Default: "Advanced search"
-msgid "search_advanced"
-msgstr "Recherche avancée"
-
-#. Default: "New search"
-msgid "search_again"
-msgstr "Nouvelle recherche"
-
-#. Default: "and"
-msgid "search_and"
-msgstr "et"
-
-#. Default: "Meeting type:"
-msgid "search_config_label"
-msgstr "Type de séance"
-
-#. Default: "Item-specific search criteria"
-msgid "search_criteria_item"
-msgstr "Critères de recherche spécifiques aux points"
-
-#. Default: "item's decisions"
-msgid "search_item_decisions"
-msgstr "les décisions prises sur chaque point"
-
-#. Default: "item's titles and descriptions"
-msgid "search_item_titles"
-msgstr "les objets et descriptions des points"
-
-#. Default: "The keyword search encompasses the following fields:"
-msgid "search_keywords"
-msgstr "La recherche par mots-clés porte sur les champs suivants:"
-
-#. Default: "or"
-msgid "search_or"
-msgstr "ou"
-
-#. Default: "Keep the 'control' key pressed for selecting several elements."
-msgid "search_select_many"
-msgstr "Maintenez la touche 'Ctrl' enfoncée pour sélectionner plusieurs éléments."
-
-#. Default: "Search in"
-msgid "search_site_label"
-msgstr "Chercher dans"
-
-#. Default: "This site"
-msgid "search_site_local"
-msgstr "Ce site"
-
-#. Default: "From"
-msgid "search_time_period_from"
-msgstr "Du"
-
-#. Default: "Time period:"
-msgid "search_time_period_label"
-msgstr "Plage temporelle"
-
-#. Default: "To"
-msgid "search_time_period_to"
-msgstr "Au"
-
-#. Default: "annexes"
-msgid "search_type_annexes"
-msgstr "Les annexes"
-
-#. Default: "items"
-msgid "search_type_items"
-msgstr "Les points"
-
-#. Default: "Search:"
-msgid "search_type_label"
-msgstr "Rechercher:"
-
-#. Default: "meetings"
-msgid "search_type_meetings"
-msgstr "Les séances"
-
-#. Default: "Keywords"
-msgid "search_words"
-msgstr "Mots-clé"
-
 #. Default: "advised items"
 msgid "searchalladviseditems"
 msgstr "Avis donnés"
@@ -4090,6 +4012,10 @@ msgstr "Points corrigés"
 msgid "searchdecideditems"
 msgstr "Points décidés"
 
+#. Default: "Searches defined here are used in the main portlet. We recommand not modifying them."
+msgid "searches_descr"
+msgstr "Les recherches définies ici seront affichées dans le portlet 'Gestion' dans l'application. Il est vivement conseillé de ne pas les modifier."
+
 #. Default: "items of my groups"
 msgid "searchitemsofmygroups"
 msgstr "Points de mes groupes"
@@ -4099,7 +4025,7 @@ msgid "searchitemstoadvicewithdelay"
 msgstr "avis à donner (avec délai)"
 
 #. Default: "advice not given (delay exceeded)"
-msgid "searchitemstoadvicewithdexceededelay"
+msgid "searchitemstoadvicewithexceededdelay"
 msgstr "avis non rendus (délai dépassé)"
 
 #. Default: "items to advice without delay"
@@ -4118,6 +4044,10 @@ msgstr "Points à pré-valider"
 msgid "searchitemstovalidate"
 msgstr "Points à valider"
 
+#. Default: "last decisions"
+msgid "searchlastdecisions"
+msgstr "Dernières décisions"
+
 #. Default: "my items"
 msgid "searchmyitems"
 msgstr "Mes points"
@@ -4129,6 +4059,10 @@ msgstr "Points pris en charge"
 #. Default: "Validable items"
 msgid "searchvalidableitems"
 msgstr "Points validables"
+
+#. Default: "Closed door"
+msgid "secret"
+msgstr "Huis clos"
 
 # Portlet "meeting items"
 #. Default: "See everything..."
@@ -4154,6 +4088,14 @@ msgstr "Le point a été envoyé à l'assemblée PloneGov."
 #. Default: "The item has been successfully transfered to the plonemeeting assembly."
 msgid "sendto_plonemeeting-assembly_success"
 msgstr "Le point a été envoyé à l'assemblée PloneMeeting."
+
+#. Default: "${meetingConfigTitle} (to send to)"
+msgid "sent_to_other_mc_term__clonable_to"
+msgstr "${meetingConfigTitle} (A envoyer)"
+
+#. Default: "${meetingConfigTitle} (sent to)"
+msgid "sent_to_other_mc_term__cloned_to"
+msgstr "${meetingConfigTitle} (Envoyé)"
 
 #. Default: "Item sent to ${meetingConfigTitle}"
 msgid "sentto_othermeetingconfig"
@@ -4207,6 +4149,10 @@ msgstr "Vous ne pouvez pas supprimer un sous-type de fichier qui a déjà été 
 #. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
 msgid "sub_types_descr"
 msgstr "Définissez ici des sous-types de fichier.  Ces sous-types de fichiers pourront être utilisés comme les types de fichiers, mais lorsqu'une annexe sera ajoutée avec ce sous-type, elle utilisera la même icône que le type de fichier principal.  Il est notamment possible de définir pour chacun de ces sous-types un autre titre (qui apparaîtra dans la liste déroulante de choix du type de fichier sur le formulaire d'ajout d'une annexe) et un titre prédéfini."
+
+#. Default: "Are you sure to want to present every selected items into the meeting?"
+msgid "sure_to_present_selected_items"
+msgstr "Êtes-vous sûr de vouloir présenter tous les points sélectionnés dans la séance?"
 
 #. Default: "Are you sure to want to remove every selected items from the meeting?"
 msgid "sure_to_remove_selected_items"
@@ -4276,6 +4222,14 @@ msgstr "Remonter l'élément"
 msgid "title_required"
 msgstr "Veuillez spécifier un objet."
 
+#. Default: "Ask this advice again (current advice will be historized)"
+msgid "to_advice_asked_again"
+msgstr "Demander cet avis à nouveau (l'avis actuel sera historisé)"
+
+#. Default: "To be send to authority"
+msgid "to_be_send_to_authority_term"
+msgstr "A envoyer à la tutelle"
+
 #. Default: "Sending emails to meeting managers has been disabled. Please contact them through other means for asking them to discuss this item."
 msgid "to_discuss_ask_mail_not_sent"
 msgstr "L'envoi de courriels aux gestionnaires de séances est désactivé. Veuillez prendre contact avec eux par un autre canal afin d'exprimer votre désir d'évoquer ce point."
@@ -4320,9 +4274,17 @@ msgstr "A évoquer en séance."
 msgid "to_discuss_yes_edit"
 msgstr "A évoquer en séance, cliquez sur l'image pour ne pas évoquer ce point."
 
-#. Default: "Select here topics you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any topic, the portlet will not shows up for users"
-msgid "to_do_list_topics"
-msgstr "Sélectionnez les recherches préconfigurées à prendre en compte pour le portlet 'A faire'. Si vous ne sélectionnez aucun dossier automatique, le portlet sera caché pour les utilisateurs."
+#. Default: "Select here searches you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any search, the portlet will not show up for users"
+msgid "to_do_list_searches"
+msgstr "Sélectionnez les recherches à prendre en compte pour le portlet 'A faire'. Si vous ne sélectionnez aucune recherche, le portlet sera caché pour les utilisateurs."
+
+#. Default: "Hide during redaction, the advice will be considered 'not given'."
+msgid "to_hidden_during_redaction"
+msgstr "Cacher l'avis pendant sa rédaction, attention un avis est considéré 'non rendu' tant qu'il est caché."
+
+#. Default: "Show advice, the advice will be confirmed and considered 'given'."
+msgid "to_not_hidden_during_redaction"
+msgstr "Montrer l'avis, l'avis sera confirmé et considéré 'rendu'."
 
 #. Default: "Other parameters"
 msgid "tool_plonemeeting_misc"
@@ -4335,22 +4297,6 @@ msgstr "Si, pour une raison ou une autre (une configuration spécifique d'un rev
 #. Default: "The result shows only elements you are allowed to view."
 msgid "topic_description"
 msgstr "Le résultat de la recherche montre seulement les éléments que vous pouvez voir."
-
-#. Default: "Is linked to?"
-msgid "topic_linked_to_type"
-msgstr "Se rapporte à (Point ou Séance)"
-
-#. Default: "Linked search script"
-msgid "topic_search_script"
-msgstr "Script de recherche"
-
-#. Default: "Display condition"
-msgid "topic_tal_expression"
-msgstr "Condition d'affichage"
-
-#. Default: "Topics defined here are used in the main portlet. We recommand not modifying them."
-msgid "topics_descr"
-msgstr "Les recherches préconfigurées définies ici seront affichées dans le portlet 'Gestion' dans l'application. Il est vivement conseillé de ne pas les modifier."
 
 #. Default: "Transfer"
 msgid "transfer"

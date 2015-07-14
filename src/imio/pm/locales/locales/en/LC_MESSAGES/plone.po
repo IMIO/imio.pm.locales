@@ -60,6 +60,10 @@ msgstr "Created"
 msgid "Creator"
 msgstr "Creator"
 
+#. Default: "Delete meeting including items"
+msgid "Delete meeting including items"
+msgstr ""
+
 #. Default: "Duplicate"
 msgid "Duplicate"
 msgstr "Duplicate"
@@ -96,6 +100,11 @@ msgstr "Meeting Item Workflow"
 #. Default: "Meeting Workflow"
 msgid "Meeting Workflow"
 msgstr "Meeting Workflow"
+
+# plone.app.querystring
+#. Default: "Meeting date"
+msgid "Meeting date"
+msgstr ""
 
 #. Default: "Meeting Archive Observer"
 msgid "MeetingArchiveObserver"
@@ -199,6 +208,10 @@ msgstr "Document template"
 msgid "State"
 msgstr "State"
 
+#. Default: "The date the meeting occurs"
+msgid "The date the meeting occurs"
+msgstr ""
+
 #. Default: "This allows to active the tool PloneMeeting."
 msgid "This allows to active the tool PloneMeeting."
 msgstr "This allows to active the tool PloneMeeting."
@@ -232,9 +245,17 @@ msgstr "On creation"
 msgid "accept"
 msgstr "Accept"
 
+#. Default: "Accept with modifications"
+msgid "accept_but_modify"
+msgstr ""
+
 #. Default: "Accepted"
 msgid "accepted"
 msgstr "Accepted"
+
+#. Default: "Accepted with modifications"
+msgid "accepted_but_modified"
+msgstr ""
 
 #. Default: "Activate"
 msgid "activate"
@@ -470,10 +491,6 @@ msgstr "Delay"
 msgid "delayed"
 msgstr "Delayed"
 
-#. Default: "Delete, incl. items"
-msgid "delete_meeting_with_items"
-msgstr "Delete, incl. items"
-
 #. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
 msgid "description_copyright"
 msgstr "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
@@ -588,6 +605,14 @@ msgstr "Metadata"
 #. Default: "PloneMeeting view redirecting to the application when logged in"
 msgid "plonemeeting_redirect_to_app_view"
 msgstr "PloneMeeting view redirecting to the application when logged in"
+
+#. Default: "Pre accept"
+msgid "pre_accept"
+msgstr ""
+
+#. Default: "Pre accepted"
+msgid "pre_accepted"
+msgstr ""
 
 #. Default: "Present"
 msgid "present"

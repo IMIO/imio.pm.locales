@@ -76,6 +76,14 @@ msgstr ""
 msgid "accepted"
 msgstr ""
 
+#. Default: "Accepted with modifications"
+msgid "accepted_but_modified"
+msgstr ""
+
+#. Default: "Pre accepted"
+msgid "pre_accepted"
+msgstr ""
+
 #. Default: "Refused"
 msgid "refused"
 msgstr ""
@@ -215,6 +223,14 @@ msgstr ""
 
 #. Default: "Accept"
 msgid "accept"
+msgstr ""
+
+#. Default: "Accept with modifications"
+msgid "accept_but_modify"
+msgstr ""
+
+#. Default: "Pre accept"
+msgid "pre_accept"
 msgstr ""
 
 #. Default: "Confirm"
@@ -452,8 +468,8 @@ msgstr ""
 msgid "description_edit_meeting"
 msgstr " "
 
-#. Default: "Delete, incl. items"
-msgid "delete_meeting_with_items"
+#. Default: "Delete meeting including items"
+msgid "Delete meeting including items"
 msgstr ""
 
 # Misc
@@ -677,4 +693,13 @@ msgstr ""
 
 #. Default: "Create an item from a template"
 msgid "create_meeting_item_from_template"
+msgstr ""
+
+# plone.app.querystring
+#. Default: "Meeting date"
+msgid "Meeting date"
+msgstr ""
+
+#. Default: "The date the meeting occurs"
+msgid "The date the meeting occurs"
 msgstr ""

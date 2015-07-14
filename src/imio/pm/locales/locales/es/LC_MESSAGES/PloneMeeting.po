@@ -139,6 +139,10 @@ msgstr ""
 msgid "Days to give advice"
 msgstr ""
 
+#. Default: "Decisions"
+msgid "Decisions"
+msgstr ""
+
 #. Default: "Delete advice"
 msgid "Delete advice"
 msgstr "Eliminar consejo"
@@ -283,6 +287,10 @@ msgstr "Limite el número de caracteres que se muestran del título para evitar 
 msgid "Manage advice annexes"
 msgstr "Administrar anexos de consejos"
 
+#. Default: "Manage dashboard"
+msgid "Manage dashboard"
+msgstr ""
+
 #. Default: "Manage item assembly"
 msgid "Manage item assembly"
 msgstr "Administrar tema de asamblea"
@@ -293,6 +301,10 @@ msgstr "Administrar la firma de tema"
 
 #. Default: "Manage item templates"
 msgid "Manage item templates"
+msgstr ""
+
+#. Default: "Items"
+msgid "Meeting items"
 msgstr ""
 
 #. Default: "Users"
@@ -310,6 +322,10 @@ msgstr "Categoría de reunión"
 #. Default: "Annex types"
 msgid "MeetingFileTypes"
 msgstr "Tipos de anexos"
+
+#. Default: "Meetings"
+msgid "Meetings"
+msgstr ""
 
 #. Default: "No complementary comment has been given on this advice."
 msgid "No complementary comment has been given on this advice."
@@ -489,6 +505,18 @@ msgstr "Copia de grupos"
 msgid "PloneMeeting_label_customAdvisers"
 msgstr "Asesores personalizados"
 
+#. Default: "Advanced filters to show on listings of items"
+msgid "PloneMeeting_label_dashboardItemsListingsFilters"
+msgstr ""
+
+#. Default: "Advanced filters to show on 'Available items'"
+msgid "PloneMeeting_label_dashboardMeetingAvailableItemsFilters"
+msgstr ""
+
+#. Default: "Advanced filters to show on 'Items of a meeting'"
+msgid "PloneMeeting_label_dashboardMeetingLinkedItemsFilters"
+msgstr ""
+
 #. Default: "Date"
 msgid "PloneMeeting_label_date"
 msgstr "Fecha"
@@ -516,10 +544,6 @@ msgstr "Decisión"
 #. Default: "This annex type is specifically linked to the decision taken on this item"
 msgid "PloneMeeting_label_decisionRelated"
 msgstr "Este tipo de anexo esta específicamente relacionado con la decisión adoptada sobre este tema."
-
-#. Default: "Meeting states that condition the display of meetings in the 'decisions' portlet"
-msgid "PloneMeeting_label_decisionTopicStates"
-msgstr "Los estados de la reunión que condiciona la visualización de las reuniones en el portlet 'decisiones'"
 
 #. Default: "Default value of the 'Hide advice during redaction' field on an advice"
 msgid "PloneMeeting_label_defaultAdviceHiddenDuringRedaction"
@@ -600,14 +624,6 @@ msgstr "Habilitar visualización previa al anexo"
 #. Default: "Enable annex to print"
 msgid "PloneMeeting_label_enableAnnexToPrint"
 msgstr "Habilitar anexo a imprimir"
-
-#. Default: "Enable 'Go to item' functionality"
-msgid "PloneMeeting_label_enableGotoItem"
-msgstr "Habilitar funcionalidad 'Ir a tema'"
-
-#. Default: "Enable 'Go to page' functionality"
-msgid "PloneMeeting_label_enableGotoPage"
-msgstr "Habilitar funcionalidad 'Ir a la página'"
 
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
@@ -807,10 +823,6 @@ msgstr "Etiquetas"
 msgid "PloneMeeting_label_itemTitle"
 msgstr "Objeto"
 
-#. Default: "Item states which are relevant for searches defined in the 'items' portlets"
-msgid "PloneMeeting_label_itemTopicStates"
-msgstr "Estado del tema el cual es relevante para las búsquedas definidas en el portlets 'temas'"
-
 #. Default: "Workflow that dictates the life cycle of every item into this configuration"
 msgid "PloneMeeting_label_itemWorkflow"
 msgstr "Flujo de trabajo que dicta el ciclo de vida de cada tema dentro de esta configuración"
@@ -823,7 +835,7 @@ msgstr "Temas"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Las columnas a mostrar en los temas dentro de las reuniones"
 
-#. Default: "Fields of the items to show/hide when using the glasses icon action"
+#. Default: "Fields of the items to show/hide in the dashboards"
 msgid "PloneMeeting_label_itemsListVisibleFields"
 msgstr ""
 
@@ -859,23 +871,17 @@ msgstr "Listas de correo electrónico"
 msgid "PloneMeeting_label_manuallyLinkedItems"
 msgstr ""
 
-#. Default: "Maximum number of days during which decisions may appear direclty in the 'decisions' portlet."
-msgid "PloneMeeting_label_maxDaysDecisions"
-msgstr "Máximo de números de días durante el cual dichas decisiones tal ves aparezca directamente el portlet de 'decisiones'."
-
-#. Default: "Maximum number of available items to show at once"
+#. Default: "Default number of available items to show on a page"
+#, fuzzy
 msgid "PloneMeeting_label_maxShownAvailableItems"
 msgstr "Número máximo de temas disponibles a mostrar a la vez"
 
-#. Default: "Maximum number of shown elements in dashboards"
-msgid "PloneMeeting_label_maxShownFound"
+#. Default: "Default number of items to show on a page in items dashboards"
+msgid "PloneMeeting_label_maxShownListings"
 msgstr ""
 
-#. Default: "Maximum number of late items to show at once"
-msgid "PloneMeeting_label_maxShownLateItems"
-msgstr "Número máximo de temas retrasado para mostrar a la vez"
-
-#. Default: "Maximum number of meeting items to show at once"
+#. Default: "Default number of meeting items to show on a page"
+#, fuzzy
 msgid "PloneMeeting_label_maxShownMeetingItems"
 msgstr "Número máximo de temas de reunión para mostrar a la vez"
 
@@ -935,10 +941,6 @@ msgstr ""
 #. Default: "Meeting states in wich restricted power observers can see the meetings"
 msgid "PloneMeeting_label_meetingRestrictedPowerObserversStates"
 msgstr ""
-
-#. Default: "Meeting states that condition the display of meetings in the 'meetings' portlet"
-msgid "PloneMeeting_label_meetingTopicStates"
-msgstr "Los estados de la reunión que condiciona la visualización de las reuniones en el portlet 'reuniones'"
 
 #. Default: "Meeting transition that triggers the insertion of this item as a recurring item"
 msgid "PloneMeeting_label_meetingTransitionInsertingMe"
@@ -1200,9 +1202,9 @@ msgstr "Defina los valores del campo '¿A discutir?' cuando los temas son insert
 msgid "PloneMeeting_label_toDiscussShownForLateItems"
 msgstr "Mostrar campo 'a discutir' en la lista de temas retardados"
 
-#. Default: "List of topics to display in the 'todo' portlet"
-msgid "PloneMeeting_label_toDoListTopics"
-msgstr "Listas de tópicos a mostrar en el portlet 'Por hacer'"
+#. Default: "List of searches to display in the 'todo' portlet"
+msgid "PloneMeeting_label_toDoListSearches"
+msgstr ""
 
 #. Default: "To print?"
 #, fuzzy
@@ -1330,6 +1332,10 @@ msgstr ""
 msgid "RecurringItems"
 msgstr "Temas predefinidos"
 
+#. Default: "Searches"
+msgid "Searches"
+msgstr ""
+
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
 msgstr "Seleccione un tema para añadir"
@@ -1423,10 +1429,6 @@ msgstr "Por hacer"
 msgid "Toggle descriptions of items"
 msgstr "Descripciones de cambiar de temas"
 
-#. Default: "Topics"
-msgid "Topics"
-msgstr "Tópicos"
-
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
 msgstr ""
@@ -1455,10 +1457,6 @@ msgstr "Agregar un anexo"
 msgid "add_object"
 msgstr "Agregar un nuevo"
 
-#. Default: "Add a new topic"
-msgid "add_topic"
-msgstr "Agregar un nuevo tópico"
-
 #. Default: "You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
 msgstr "Usted puede acceder a este tema aquí: ${objectUrl}."
@@ -1486,6 +1484,10 @@ msgstr "${meetingConfigTitle} - Su consejo es requerido en el tema '${itemTitle}
 #. Default: "Add an advice"
 msgid "advice_add"
 msgstr "Agregar un consejo"
+
+#. Default: "The advice has been historized because it has been asked again.  You can consult it if necessary, see link 'View' opposite."
+msgid "advice_asked_again_and_historized"
+msgstr ""
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
@@ -1717,6 +1719,10 @@ msgstr "El tema se titula '${itemNumber} - ${itemTitle}'. Se puede acceder a est
 msgid "askDiscussItem_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - ${user}, pertenecientes al grupo(s) ${groups} le(s) gustaría(n) discutir un tema."
 
+#. Default: "Asked again"
+msgid "asked_again"
+msgstr ""
+
 #. Default: "Absents as defined on the linked meeting"
 msgid "assembly_absents_defined_on_meeting"
 msgstr ""
@@ -1811,6 +1817,10 @@ msgstr ""
 msgid "boolean_value_true"
 msgstr ""
 
+#. Default: "Budgetary informations (in the 'Purpose' column)"
+msgid "budget_infos_column"
+msgstr ""
+
 #. Default: "This item is not budget related."
 msgid "budget_related_no_edit"
 msgstr ""
@@ -1883,11 +1893,8 @@ msgstr "Elija aquí algunos identificadores para su categoría."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
 msgstr ""
 
-#. Default: "Category (or proposing group)"
-msgid "category_or_proposing_group"
-msgstr "Categoría (o grupo propuesto)"
-
-#. Default: "Please specify a category."
+#. Default: "Please select a category."
+#, fuzzy
 msgid "category_required"
 msgstr "Por favor especifique una categoría."
 
@@ -1967,10 +1974,6 @@ msgstr "Define aquí alguno texto predefinido que se presentará en el campo 'in
 #. Default: "Define here some predefined text that will be present in field 'motivation' every time a user creates a new item."
 msgid "config_default_meetingitem_motivation_descr"
 msgstr "Defina aquí un texto predefinido que estarán presentes en el campo de 'motivación' cada vez que un usuario crea un nuevo elemento."
-
-#. Default: "Active?"
-msgid "config_is_active"
-msgstr "¿Activar?"
 
 #. Default: "The default meeting configuration is the one the user is redirected to when logging in."
 msgid "config_is_default_descr"
@@ -2076,6 +2079,18 @@ msgstr "Defina aquí comportamientos especiales para algunos consejos: consejos 
 msgid "custom_advisers_full_descr"
 msgstr ""
 
+#. Default: "Select here filters that will be shown when using the 'More filters' link on listings of items (my items, all items, ...)."
+msgid "dashboard_items_listings_filters_descr"
+msgstr ""
+
+#. Default: "Select here filters that will be shown when using the 'More filters' link on the 'Available items' of the meeting view."
+msgid "dashboard_meeting_available_items_filters_descr"
+msgstr ""
+
+#. Default: "Select here filters that will be shown when using the 'More filters' link on the 'Linked items' of the meeting view."
+msgid "dashboard_meeting_linked_items_filters_descr"
+msgstr ""
+
 #. Default: "Data"
 msgid "data"
 msgstr "Datos"
@@ -2103,10 +2118,6 @@ msgstr "Decisión"
 #. Default: "Decision is empty for item ${itemNumber}."
 msgid "decision_is_empty"
 msgstr "La decisión esta vacía para el tema ${itemNumber}."
-
-#. Default: "Meetings being in the states you select here will appear in the 'decisions' portlet. Typically this portlet will display meetings whose decisions were taken or archived."
-msgid "decision_topic_states_descr"
-msgstr "Las reuniones inician en un estado que seleccione aquí y van aparecer en el portlet 'decisiones'. Típicamente este portlet será para mostrar todas las decisiones de las reuniones que fueron tomadas o archivadas."
 
 #. Default: "<p>The decision is currently under edit by managers, you can not access it.</p>"
 msgid "decision_under_edit"
@@ -2228,14 +2239,6 @@ msgstr "Si habilita vista previa de anexos, el anexo será convertido a un forma
 #. Default: "Let the user specify if an annex needs to be printed or not.  WARNING, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
 msgid "enable_annex_to_print_descr"
 msgstr "Deje que el usuario especifique si un anexo es necesario imprimir o no. ADVERTENCIA, si deshabilita esta funcionalidad, los dos siguientes parámetros  'Valor por defecto al imprimir el Anexo' y 'Valor por defecto al imprimir el Anexo a la decisión' se establece en False automáticamente."
-
-#. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."
-msgid "enable_goto_item_descr"
-msgstr "Si usted marca esta casilla, cuando las listas paginadas de temas parecen (cuando se ve una reunión), usted también verá un campo \"Ir al tema\". Introduciendo un número de tema en el que le llevará a la página que muestra detalles acerca del tema correspondiente."
-
-#. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to page' field. Entering an item number in it will bring you to the page where this item is."
-msgid "enable_goto_page_descr"
-msgstr "Si usted marca esta casilla, cuando las listas paginadas de temas parecen (cuando se ve una reunión), usted también verá un campo especifico \"Ir a la página\". Introduciendo un número de tema en el que le llevará a la página en la que este dicho tema."
 
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"
@@ -2466,10 +2469,6 @@ msgstr "Previos ${number} elementos"
 msgid "group_certified_signatures_descr"
 msgstr ""
 
-#. Default: "Active?"
-msgid "group_is_active"
-msgstr "¿Activar?"
-
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to update advices!</span>"
 msgid "group_item_advice_edit_states_descr"
 msgstr "Cuando un tema tiene uno de los estados que usted elige aquí, le permitirá a un consejero de este grupo modificar o eliminar un consejo en este tema. Si usted no especifica ningún estado aquí, una lista de estados, a a nivel global a todos los grupos, son definidos al nivel de configuración a ser usado en su lugar. <span style='color: red';>Si cambia este parámetro, ¡no se olvide de actualizar consejos!</span>"
@@ -2490,6 +2489,14 @@ msgstr "Interfaz de usuario"
 #. Default: "Actions"
 msgid "heading_actions"
 msgstr "Acciones"
+
+#. Default: "Criteria"
+msgid "heading_criteria"
+msgstr ""
+
+#. Default: "Active?"
+msgid "heading_is_active"
+msgstr ""
 
 # Other
 #. Default: "Check/uncheck items"
@@ -2612,6 +2619,10 @@ msgstr ""
 msgid "icon_color_yellow"
 msgstr ""
 
+#. Default: "Accepted but modified"
+msgid "icon_help_accepted_but_modified"
+msgstr ""
+
 #. Default: "Delayed"
 msgid "icon_help_delayed"
 msgstr "Demorado"
@@ -2619,6 +2630,10 @@ msgstr "Demorado"
 #. Default: "Late"
 msgid "icon_help_late"
 msgstr "Tardío"
+
+#. Default: "Pre accepted"
+msgid "icon_help_pre_accepted"
+msgstr ""
 
 #. Default: "Pre-validated"
 msgid "icon_help_prevalidated"
@@ -2671,16 +2686,6 @@ msgstr ""
 #. Default: "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
 msgid "inserting_methods_on_add_item_descr"
 msgstr ""
-
-#. Default: "Public meeting"
-#, fuzzy
-msgid "ip_public"
-msgstr "Público"
-
-#. Default: "Closed door"
-#, fuzzy
-msgid "ip_secret"
-msgstr "Secreto"
 
 #. Default: "Absent?"
 msgid "is_absent"
@@ -2802,7 +2807,8 @@ msgstr "Categoría"
 msgid "item_classifier_descr"
 msgstr "Clasificador"
 
-#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches)."
+#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
+#, fuzzy
 msgid "item_columns_descr"
 msgstr "Seleccione aquí cuales columnas se mostraran cuando se en listen temas (por ejemplo, cuando requieren 'mis temas', 'todos los temas', o cuando este ejecutando búsquedas personalizadas)."
 
@@ -2826,9 +2832,14 @@ msgstr ""
 msgid "item_decided_states_descr"
 msgstr "Seleccione el estado decidido para un tema"
 
-#. Default: "No move occurred because you specified the item number or this number plus one. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
+#. Default: "No move occurred because you specified the same item number."
+#, fuzzy
 msgid "item_did_not_move"
 msgstr "Sin mover por que usted especifico el número o este número más uno. Si usted especifica un número X, el tema irá justo antes del tema anterior de número X, y los otros temas se cambiará. Si usted quiere mover un tema al final de la lista, usted debe especificar el número del ultimo tema más uno. Tenga en cuenta que cuando dos temas se muestran en las listas, usted no puede mover los temas desde una lista a la otra."
+
+#. Default: "Item down workflow"
+msgid "item_down_wf_term"
+msgstr ""
 
 #. Default: "The item has been duplicated: you currently see the duplicated item."
 msgid "item_duplicated"
@@ -2842,7 +2853,8 @@ msgstr "El tema ha sido duplicado y un enlace a el tema original se ha mantenido
 msgid "item_icon_color_descr"
 msgstr ""
 
-#. Default: "You can't make this move. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
+#. Default: "You can't make this move. Please specify a number between 1 and ${nbOfItems}."
+#, fuzzy
 msgid "item_illegal_move"
 msgstr "Usted no puede mover esto. Si usted especifica un número X, el tema irá justo antes del tema anterior de número X, y los otros temas se cambiará. Si usted quiere mover un tema al final de la lista, usted debe especificar el número del ultimo tema más uno. Tenga en cuenta que cuando dos temas se muestran en las listas, usted no puede mover los temas desde una lista a la otra."
 
@@ -2870,10 +2882,18 @@ msgstr "El tema ha sido firmado. Haga clic en la imagen para eliminar la firma."
 msgid "item_number_invalid"
 msgstr "Sin mover: por favor especifique un número valido."
 
+#. Default: "You do not have access to the item number you entered."
+msgid "item_number_not_accessible"
+msgstr ""
+
 #. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to update 'Power observers'!</span>"
 #, fuzzy
 msgid "item_powerobservers_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados que elija aquí, será posible que los súper observadores de esta Configuración de reunión para ver el tema."
+
+#. Default: "Item reference (in the 'Purpose' column)"
+msgid "item_reference_column"
+msgstr ""
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted item. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
 msgid "item_reference_format_descr"
@@ -2921,9 +2941,9 @@ msgstr "${meetingConfigTitle} - ${itemTitle} - Este tema esta ahora en el estado
 msgid "item_templates_descr"
 msgstr ""
 
-#. Default: "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
-msgid "item_topic_states_descr"
-msgstr "Con el portlet de 'temas', algunos enlaces permiten activar búsquedas de temas. Solamente los temas que inicien en los estados que usted seleccione aquí aparecerán en los resultados de la búsqueda. Si puede ser práctico, por ejemplo, dejarán de recibir, en esos resultados de búsqueda, los temas que ya han sido publicados en las reuniones, porque son ya visibles a través de sus reuniones."
+#. Default: "Item up workflow again"
+msgid "item_up_wf_term"
+msgstr ""
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
 msgid "item_workflow_descr"
@@ -2937,7 +2957,7 @@ msgstr "Tema(s)"
 msgid "items_list_visible_columns_descr"
 msgstr "La página que muestra una reunión potencialmente contiene varias tablas llenas de temas. Aquí puede elegir las columnas que se mostrarán o no en las tablas. Tenga en cuenta que un número fijo de columnas se mostrará siempre (como la columna que contiene el título del tema)."
 
-#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'glasses' icon action.  This will affect every listing of items, so classic listings and the meetings view."
+#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 msgid "items_list_visible_fields_descr"
 msgstr ""
 
@@ -3052,6 +3072,14 @@ msgstr ""
 msgid "linked_items_with_manually_linked_items"
 msgstr ""
 
+#. Default: "Late"
+msgid "list_type_late"
+msgstr ""
+
+#. Default: "Normal"
+msgid "list_type_normal"
+msgstr ""
+
 #. Default: "Purpose"
 #, fuzzy
 msgid "listingheader_item_title"
@@ -3129,23 +3157,17 @@ msgstr "Al menos un consejo obligatorio para este tema no es positivo o no ha si
 msgid "manually_linked_items_descr"
 msgstr ""
 
-#. Default: "In the 'decisions' portlet, only decisions that have less than x days (x being the number defined here) appear directly. Users consult older decisions by clicking on the link 'all decisions'."
-msgid "max_days_decisions_descr"
-msgstr "En el portlet de 'decisiones', solamente las decisiones que tiene al menos X días (donde X es le número de días definidos aquí) aparecerán directamente. Los usuarios consultarán las decisiones antiguas haciendo clic sobre en enlace 'todas las decisiones'."
-
-#. Default: "When displaying a meeting, the list of items that one may present to the meeting may be paginated if you specify here a maximum number of available items to show at once."
+#. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
+#, fuzzy
 msgid "max_shown_available_items_descr"
 msgstr "Cuando se muestra una reunión, la lista de temas que se pueden presentar a la reunión pueden ser paginadas aquí si especifica un número máximo de temas disponibles para mostrar a la vez."
 
-#. Default: "Specify here the maximum number of found items that may appear on every result page."
-msgid "max_shown_found_descr"
+#. Default: "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value."
+msgid "max_shown_listings_descr"
 msgstr ""
 
-#. Default: "When displaying a meeting, the list of late items in the meeting may be paginated if you specify here a maximum number of late items to show at once."
-msgid "max_shown_late_items_descr"
-msgstr "Cuando se muestra una reunión, la lista de temas retrasados de la reunión pueden ser paginadas aquí si especifica un número máximo de temas retrasados para mostrar a la vez."
-
-#. Default: "When displaying a meeting, the list of items in the meeting may be paginated if you specify here a maximum number of items to show at once."
+#. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value."
+#, fuzzy
 msgid "max_shown_meeting_items_descr"
 msgstr "Cuando se muestra una reunión, la lista de temas en la reunión pueden ser paginadas aquí si especifica un número máximo de temas para mostrar a la vez."
 
@@ -3165,7 +3187,8 @@ msgstr "Selecciona aquí con qué página se mostrará después del inicio de se
 msgid "meeting_assembly"
 msgstr "Asamblea"
 
-#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
+#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
+#, fuzzy
 msgid "meeting_columns_descr"
 msgstr "Seleccione aquí cuales columnas se mostrarán en la lista de reuniones (es decir, cuando muestra la lista de reuniones disponibles o decisiones, o cuando ejecutaba búsqueda personalizadas)."
 
@@ -3244,10 +3267,6 @@ msgstr "Usted puede consultar esta reunión en ${objectUrl}."
 #. Default: "${meetingConfigTitle} - ${meetingTitle} - The meeting is now in state '${meetingState}'."
 msgid "meeting_state_changed_default_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - Este reunión esta ahora en el estado '${meetingState}'."
-
-#. Default: "Meetings being in the states you select here will appear in the 'meetings' portlet. Typically you will display there meetings under creation or published meetings that did not took place yet. The idea is to select here a given set of states and to select, in the next field, all the other states. This way, users can distinguish between future and past meetings (past meetings are the object of the next field)."
-msgid "meeting_topic_states_descr"
-msgstr "Las reuniones inician en el estado que usted seleccione aquí se publicará en el portlet 'reuniones'. Normalmente usted mostrará esas reuniones bajo creación o reuniones publicadas que no se llevan a cabo aún. La idea aquí es seleccionar un conjunto dado de estados y para seleccionar, en el siguiente campo, todos los otros estados. De esta manera, los usuarios pueden distinguir entre las pasadas y futuras reuniones (las reuniones anteriores son objeto de la siguiente campo)."
 
 #. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 #, fuzzy
@@ -3513,10 +3532,6 @@ msgstr "Los atributos 'firmas' y 'firmantes' no puede ser usado juntos."
 msgid "no_sub_types_defined"
 msgstr ""
 
-#. Default: "No topic is currently defined."
-msgid "no_topic_folder"
-msgstr "Ningún tópico está definido"
-
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
 msgstr "Por favor, seleccione entre los asesores que no son retardo conscientes"
@@ -3532,6 +3547,14 @@ msgstr "Usted es un usuario registrado pero su cuenta no ha sido activada aun. P
 #. Default: "Not given yet"
 msgid "not_given"
 msgstr "Sin dar un consejo aun"
+
+#. Default: "Not to be cloned to anywhere"
+msgid "not_to_be_cloned_to_term"
+msgstr ""
+
+#. Default: "Not to be send to authority"
+msgid "not_to_be_send_to_authority_term"
+msgstr ""
 
 #. Default: "Nothing to do."
 msgid "nothing_to_do"
@@ -3568,6 +3591,10 @@ msgstr "Seguir orden de todos los grupos"
 #. Default: "Follow categories order"
 msgid "on_categories"
 msgstr "Seguir orden de categorías"
+
+#. Default: "Follow list type"
+msgid "on_list_type"
+msgstr ""
 
 #. Default: "When a transition will be triggered on a meeting, you can define which transitions to trigger on every items of the meeting.  This will make items 'follow' the meeting state.  You can define several transitions to trigger on items for the same meeting transitions, these transitions will be triggered sequentially on every items of the meeting."
 msgid "on_meeting_transition_item_transition_to_trigger_descr"
@@ -3685,11 +3712,6 @@ msgstr "Convertir los anexos para la vista previa"
 msgid "pm_creation_date"
 msgstr "Fecha de creación"
 
-# MeetingFile
-#. Default: "Creator"
-msgid "pm_creator"
-msgstr "Creador"
-
 #. Default: "Go to the first one."
 msgid "pm_goto_first"
 msgstr "Ir al primer tema en esta reunión."
@@ -3714,9 +3736,13 @@ msgstr "Ir al anterior tema."
 msgid "pm_modification_date"
 msgstr ""
 
-#. Default: "(Un-)select all"
-msgid "pm_select_deselect"
-msgstr "(De)seleccionar todos"
+#. Default: "Synchronize searches of the config with every user folders"
+msgid "pm_synch_searches"
+msgstr ""
+
+#. Default: "Warning: this will update the dashboards of every users regarding what is defined in the 'searches' folder including DashboardCollections and faceted navigation criteria. Launch this if you changed a Collection or the faceted criteria. This will take about 1 second by user folder to update."
+msgid "pm_synch_searches_warning"
+msgstr ""
 
 #. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 #, fuzzy
@@ -3792,10 +3818,6 @@ msgstr "Solamente los usuarios que tienen permiso(s) específicos aquí podrán 
 msgid "pod_template_descr"
 msgstr "Esta plantilla debe ser un documento ODT (Open Document Format Text) producido por OpenOffice.org por ejemplo. Esta plantilla debería también contener instrucciones especiales que permiten insertar contenido de Plone dentro de la misma. El formato de estas instrucciones son definidas por la librería POD (Python Open Document). Usted puede aprender ¿cómo se escribe un documento ODT conteniendo instrucciones POD? <a href=\"http://appyframework.org/pod.html\">aquí</a>."
 
-#. Default: "Active ?"
-msgid "pod_template_is_active"
-msgstr "¿Activo?"
-
 #. Default: "This section allows you manage the document templates that you may specify for producing documents from content managed by PloneMeeting (items, meetings, annexes, etc)."
 msgid "pod_templates_descr"
 msgstr "Esta sección le permitirá administrar las platillas de documentos que usted  tal ves especifique para producir documentos desde el contenido gestionado por PloneMeeting (temas, reuniones, anexos, etc)."
@@ -3803,16 +3825,6 @@ msgstr "Esta sección le permitirá administrar las platillas de documentos que 
 #. Default: "Manage"
 msgid "portlet_pm_header_label"
 msgstr "Administrar"
-
-# Portlet "decisions"
-#. Default: "Decisions"
-msgid "portletdecisions_title"
-msgstr "Decisiones"
-
-# Portlet "meetings"
-#. Default: "Meetings"
-msgid "portletmeetings_title"
-msgstr "Reuniones"
 
 #. Default: "Positive"
 msgid "positive"
@@ -3858,6 +3870,10 @@ msgstr "Pre-validadores"
 msgid "present_several_items"
 msgstr "Todos los temas seleccionados presentados a la vez."
 
+#. Default: "Selected items have been presented into the meeting."
+msgid "present_several_items_done"
+msgstr ""
+
 #. Default: "This person is present in the meeting since item number:"
 msgid "present_since"
 msgstr "Esta persona esta presente en la reunión desde el tema numero:"
@@ -3869,10 +3885,6 @@ msgstr "Reunión dentro de la cual este tema es presentado"
 #. Default: "Items presented to this meeting"
 msgid "presented_items"
 msgstr "Temas presentado a esta reunión"
-
-#. Default: "Proposing group's acronym"
-msgid "proposing_group_acronym"
-msgstr "Acrónimo del grupo propuesto"
 
 #. Default: "A proposing group is required."
 #, fuzzy
@@ -3886,6 +3898,10 @@ msgstr "Definir aquí una lista de personas a las que los archivos generados a p
 #. Default: "The document has been sent."
 msgid "pt_mailing_sent"
 msgstr "El documento ha sido enviado."
+
+#. Default: "Public meeting"
+msgid "public"
+msgstr ""
 
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use this functionality."
 msgid "publish_deadline_default_descr"
@@ -3941,6 +3957,10 @@ msgstr "Remover esta información"
 msgid "remove_several_items"
 msgstr ""
 
+#. Default: "Selected items have been removed from the meeting."
+msgid "remove_several_items_done"
+msgstr ""
+
 #. Default: "A category must be selected on this item so that it can be proposed"
 msgid "required_category_ko"
 msgstr ""
@@ -3989,99 +4009,6 @@ msgstr "Remover párrafos en blanco "
 msgid "save"
 msgstr "Guardar"
 
-#. Default: "No annex found."
-msgid "search_MeetingFile_empty"
-msgstr "Sin anexo encontrado."
-
-#. Default: "No item found."
-msgid "search_MeetingItem_empty"
-msgstr "Sin tema encontrado."
-
-#. Default: "No meeting found."
-msgid "search_Meeting_empty"
-msgstr "Sin reunión encontrada."
-
-#. Default: "Advanced search"
-msgid "search_advanced"
-msgstr "Búsqueda avanzada"
-
-#. Default: "New search"
-msgid "search_again"
-msgstr "Nueva búsqueda"
-
-#. Default: "and"
-msgid "search_and"
-msgstr "y"
-
-#. Default: "Meeting type:"
-msgid "search_config_label"
-msgstr "Tipo de reunión:"
-
-#. Default: "Item-specific search criteria"
-msgid "search_criteria_item"
-msgstr "Criterios de búsqueda para tema específico"
-
-#. Default: "item's decisions"
-msgid "search_item_decisions"
-msgstr "decisiones de temas"
-
-#. Default: "item's titles and descriptions"
-msgid "search_item_titles"
-msgstr "Títulos de los temas y descripciones"
-
-# Search form
-#. Default: "The keyword search encompasses the following fields:"
-msgid "search_keywords"
-msgstr "La búsqueda de palabras clave se compone de:"
-
-#. Default: "or"
-msgid "search_or"
-msgstr "o"
-
-#. Default: "Keep the 'control' key pressed for selecting several elements."
-msgid "search_select_many"
-msgstr "Mantenga la tecla 'control' presionada para seleccionar varios elementos."
-
-#. Default: "Search in"
-msgid "search_site_label"
-msgstr "Buscar en"
-
-#. Default: "This site"
-msgid "search_site_local"
-msgstr "Este sitio"
-
-#. Default: "From"
-msgid "search_time_period_from"
-msgstr "Desde"
-
-#. Default: "Time period:"
-msgid "search_time_period_label"
-msgstr "Período de tiempo:"
-
-#. Default: "To"
-msgid "search_time_period_to"
-msgstr "A"
-
-#. Default: "annexes"
-msgid "search_type_annexes"
-msgstr "anexos"
-
-#. Default: "items"
-msgid "search_type_items"
-msgstr "temas"
-
-#. Default: "Search:"
-msgid "search_type_label"
-msgstr "Búsqueda:"
-
-#. Default: "meetings"
-msgid "search_type_meetings"
-msgstr "reuniones"
-
-#. Default: "Keywords"
-msgid "search_words"
-msgstr "Palabras claves"
-
 #. Default: "advised items"
 msgid "searchalladviseditems"
 msgstr "temas aconsejados"
@@ -4119,6 +4046,10 @@ msgstr "temas corregidos"
 msgid "searchdecideditems"
 msgstr ""
 
+#. Default: "Searches defined here are used in the main portlet. We recommand not modifying them."
+msgid "searches_descr"
+msgstr ""
+
 #. Default: "items of my groups"
 msgid "searchitemsofmygroups"
 msgstr ""
@@ -4128,9 +4059,8 @@ msgid "searchitemstoadvicewithdelay"
 msgstr "temas para aconsejar con retraso"
 
 #. Default: "advice not given (delay exceeded)"
-#, fuzzy
-msgid "searchitemstoadvicewithdexceededelay"
-msgstr "temas para aconsejar con retraso superado"
+msgid "searchitemstoadvicewithexceededdelay"
+msgstr ""
 
 #. Default: "items to advice without delay"
 msgid "searchitemstoadvicewithoutdelay"
@@ -4148,6 +4078,10 @@ msgstr ""
 msgid "searchitemstovalidate"
 msgstr "temas a validar"
 
+#. Default: "last decisions"
+msgid "searchlastdecisions"
+msgstr ""
+
 #. Default: "my items"
 msgid "searchmyitems"
 msgstr "mis temas"
@@ -4158,6 +4092,10 @@ msgstr ""
 
 #. Default: "Validable items"
 msgid "searchvalidableitems"
+msgstr ""
+
+#. Default: "Closed door"
+msgid "secret"
 msgstr ""
 
 # Portlet "meeting items"
@@ -4184,6 +4122,14 @@ msgstr "Este elemento ha sido exitosamente transferido en la asamblea plonegov."
 #. Default: "The item has been successfully transfered to the plonemeeting assembly."
 msgid "sendto_plonemeeting-assembly_success"
 msgstr "Este elemento ha sido exitosamente transferido en la asamblea plonemeeting."
+
+#. Default: "${meetingConfigTitle} (to send to)"
+msgid "sent_to_other_mc_term__clonable_to"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} (sent to)"
+msgid "sent_to_other_mc_term__cloned_to"
+msgstr ""
 
 #. Default: "Item sent to ${meetingConfigTitle}"
 msgid "sentto_othermeetingconfig"
@@ -4237,6 +4183,10 @@ msgstr ""
 
 #. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
 msgid "sub_types_descr"
+msgstr ""
+
+#. Default: "Are you sure to want to present every selected items into the meeting?"
+msgid "sure_to_present_selected_items"
 msgstr ""
 
 #. Default: "Are you sure to want to remove every selected items from the meeting?"
@@ -4307,6 +4257,14 @@ msgstr "Desplazar tema arriba"
 msgid "title_required"
 msgstr "Un título es requerido"
 
+#. Default: "Ask this advice again (current advice will be historized)"
+msgid "to_advice_asked_again"
+msgstr ""
+
+#. Default: "To be send to authority"
+msgid "to_be_send_to_authority_term"
+msgstr ""
+
 #. Default: "Sending emails to meeting managers has been disabled. Please contact them through other means for asking them to discuss this item."
 msgid "to_discuss_ask_mail_not_sent"
 msgstr "Los envíos de correo electrónico a los administradores de reuniones han sido deshabilitado. Por favor contacte ellos a través de otros medios para para pedir a ellos para discutir este tema."
@@ -4351,9 +4309,17 @@ msgstr "Se debatirán durante la reunión."
 msgid "to_discuss_yes_edit"
 msgstr "Se debatirán durante la reunión. Haga clic en la imagen para no debatir el tema."
 
-#. Default: "Select here topics you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any topic, the portlet will not shows up for users"
-msgid "to_do_list_topics"
-msgstr "Seleccione aquí los tópicos que desea mostrar en el portlet 'Por hacer' que aparecen en la página de inicio de PloneMeeting de los usuarios. Si no selecciona un tópico, el portlet no aparece para los usuarios"
+#. Default: "Select here searches you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any search, the portlet will not show up for users"
+msgid "to_do_list_searches"
+msgstr ""
+
+#. Default: "Hide during redaction, the advice will be considered 'not given'."
+msgid "to_hidden_during_redaction"
+msgstr ""
+
+#. Default: "Show advice, the advice will be confirmed and considered 'given'."
+msgid "to_not_hidden_during_redaction"
+msgstr ""
 
 #. Default: "Other parameters"
 msgid "tool_plonemeeting_misc"
@@ -4366,22 +4332,6 @@ msgstr "Si, por alguna razón (es decir, una configuración específica de proxy
 #. Default: "The result shows only elements you are allowed to view."
 msgid "topic_description"
 msgstr "El resultado sólo muestra los temas que se pueden ver."
-
-#. Default: "Is linked to?"
-msgid "topic_linked_to_type"
-msgstr "¿Está vinculado?"
-
-#. Default: "Linked search script"
-msgid "topic_search_script"
-msgstr "Relacionado script de búsqueda"
-
-#. Default: "Display condition"
-msgid "topic_tal_expression"
-msgstr "Mostrar condición"
-
-#. Default: "Topics defined here are used in the main portlet. We recommand not modifying them."
-msgid "topics_descr"
-msgstr "Los tópicos definidos aquí se utilizan en el portlet principal. Nosotros recomendamos no modificarlos."
 
 # Workflow transitions
 #. Default: "Transfer"

@@ -57,6 +57,10 @@ msgstr ""
 msgid "Creator"
 msgstr "Ersteller"
 
+#. Default: "Delete meeting including items"
+msgid "Delete meeting including items"
+msgstr ""
+
 #. Default: "Duplicate"
 msgid "Duplicate"
 msgstr "Duplikat"
@@ -92,6 +96,11 @@ msgstr ""
 
 #. Default: "Meeting Workflow"
 msgid "Meeting Workflow"
+msgstr ""
+
+# plone.app.querystring
+#. Default: "Meeting date"
+msgid "Meeting date"
 msgstr ""
 
 #. Default: "Meeting Archive Observer"
@@ -198,6 +207,10 @@ msgstr "POD-Dokumentvorlage"
 msgid "State"
 msgstr "Status"
 
+#. Default: "The date the meeting occurs"
+msgid "The date the meeting occurs"
+msgstr ""
+
 #. Default: "This allows to active the tool PloneMeeting."
 msgid "This allows to active the tool PloneMeeting."
 msgstr ""
@@ -231,9 +244,17 @@ msgstr "Bei Erstellung"
 msgid "accept"
 msgstr "Akzeptieren"
 
+#. Default: "Accept with modifications"
+msgid "accept_but_modify"
+msgstr ""
+
 #. Default: "Accepted"
 msgid "accepted"
 msgstr "Akzeptiert"
+
+#. Default: "Accepted with modifications"
+msgid "accepted_but_modified"
+msgstr ""
 
 #. Default: "Activate"
 msgid "activate"
@@ -486,10 +507,6 @@ msgstr "Verschieben"
 msgid "delayed"
 msgstr "Verschoben"
 
-#. Default: "Delete, incl. items"
-msgid "delete_meeting_with_items"
-msgstr "Sitzung löschen inkl. TOP"
-
 #. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
 msgid "description_copyright"
 msgstr ""
@@ -605,6 +622,14 @@ msgstr "Metadaten"
 
 #. Default: "PloneMeeting view redirecting to the application when logged in"
 msgid "plonemeeting_redirect_to_app_view"
+msgstr ""
+
+#. Default: "Pre accept"
+msgid "pre_accept"
+msgstr ""
+
+#. Default: "Pre accepted"
+msgid "pre_accepted"
 msgstr ""
 
 #. Default: "Present"

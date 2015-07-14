@@ -429,11 +429,11 @@ msgid "PloneMeeting_label_answerers"
 msgstr ""
 
 #. Default: "Public meeting"
-msgid "ip_public"
+msgid "public"
 msgstr ""
 
 #. Default: "Closed door"
-msgid "ip_secret"
+msgid "secret"
 msgstr ""
 
 #. Default: "Meeting transition that triggers the insertion of this item as a recurring item"
@@ -492,7 +492,7 @@ msgstr ""
 msgid "Any meeting"
 msgstr ""
 
-#. Default: "Please specify a category."
+#. Default: "Please select a category."
 msgid "category_required"
 msgstr ""
 
@@ -506,6 +506,14 @@ msgstr ""
 
 #. Default: "Annexes"
 msgid "annexes"
+msgstr ""
+
+#. Default: "Item reference (in the 'Purpose' column)"
+msgid "item_reference_column"
+msgstr ""
+
+#. Default: "Budgetary informations (in the 'Purpose' column)"
+msgid "budget_infos_column"
 msgstr ""
 
 #. Default: "Decision"
@@ -1097,20 +1105,32 @@ msgstr ""
 msgid "decide_several_items_done"
 msgstr ""
 
+#. Default: "Selected items have been presented into the meeting."
+msgid "present_several_items_done"
+msgstr ""
+
+#. Default: "Selected items have been removed from the meeting."
+msgid "remove_several_items_done"
+msgstr ""
+
 #. Default: "Moves this item to the position that precedes the number you have introduced besides. If you want to move the item at the end of the list, specify the number of the last item plus one."
 msgid "move_several"
 msgstr ""
 
-#. Default: "No move occurred because you specified the item number or this number plus one. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
+#. Default: "No move occurred because you specified the same item number."
 msgid "item_did_not_move"
 msgstr ""
 
-#. Default: "You can't make this move. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
+#. Default: "You can't make this move. Please specify a number between 1 and ${nbOfItems}."
 msgid "item_illegal_move"
 msgstr ""
 
 #. Default: "No move occurred: please specify a valid number."
 msgid "item_number_invalid"
+msgstr ""
+
+#. Default: "You do not have access to the item number you entered."
+msgid "item_number_not_accessible"
 msgstr ""
 
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
@@ -1303,10 +1323,6 @@ msgstr ""
 msgid "no_meeting_group"
 msgstr ""
 
-#. Default: "Active?"
-msgid "group_is_active"
-msgstr ""
-
 #. Default: "Management of meeting configurations"
 msgid "meeting_configurations"
 msgstr ""
@@ -1328,7 +1344,7 @@ msgid "oo_config_descr"
 msgstr ""
 
 #. Default: "Active?"
-msgid "config_is_active"
+msgid "heading_is_active"
 msgstr ""
 
 #. Default: "Absolute path to a Python interpreter having the UNO library (access to OpenOffice)"
@@ -1503,14 +1519,6 @@ msgstr ""
 msgid "enable_annex_preview_descr"
 msgstr ""
 
-#. Default: "Maximum number of shown elements in dashboards"
-msgid "PloneMeeting_label_maxShownFound"
-msgstr ""
-
-#. Default: "Specify here the maximum number of found items that may appear on every result page."
-msgid "max_shown_found_descr"
-msgstr ""
-
 #. Default: "Show possible targets for item keywords"
 msgid "PloneMeeting_label_showItemKeywordsTargets"
 msgstr ""
@@ -1622,10 +1630,6 @@ msgstr ""
 # MeetingGroup
 #. Default: "Acronym"
 msgid "PloneMeeting_label_acronym"
-msgstr ""
-
-#. Default: "Proposing group's acronym"
-msgid "proposing_group_acronym"
 msgstr ""
 
 #. Default: "Associated groups' acronyms"
@@ -1749,32 +1753,8 @@ msgstr ""
 msgid "meetingconfig_mail_descr"
 msgstr ""
 
-#. Default: "Topics"
-msgid "Topics"
-msgstr ""
-
-#. Default: "Topics defined here are used in the main portlet. We recommand not modifying them."
-msgid "topics_descr"
-msgstr ""
-
-#. Default: "Add a new topic"
-msgid "add_topic"
-msgstr ""
-
-#. Default: "No topic is currently defined."
-msgid "no_topic_folder"
-msgstr ""
-
-#. Default: "Is linked to?"
-msgid "topic_linked_to_type"
-msgstr ""
-
-#. Default: "Linked search script"
-msgid "topic_search_script"
-msgstr ""
-
-#. Default: "Display condition"
-msgid "topic_tal_expression"
+#. Default: "Searches defined here are used in the main portlet. We recommand not modifying them."
+msgid "searches_descr"
 msgstr ""
 
 #. Default: "Annex types"
@@ -1811,6 +1791,10 @@ msgstr ""
 
 #. Default: "Item templates"
 msgid "Item templates"
+msgstr ""
+
+#. Default: "Searches"
+msgid "Searches"
 msgstr ""
 
 #. Default: "Item templates will be available to users creating new items in the application."
@@ -2128,6 +2112,10 @@ msgstr ""
 # Values of sortingMethodOnAddItem
 #. Default: "At the end"
 msgid "at_the_end"
+msgstr ""
+
+#. Default: "Follow list type"
+msgid "on_list_type"
 msgstr ""
 
 #. Default: "Follow categories order"
@@ -2459,44 +2447,12 @@ msgstr ""
 msgid "item_copygroups_states_descr"
 msgstr ""
 
-#. Default: "Item states which are relevant for searches defined in the 'items' portlets"
-msgid "PloneMeeting_label_itemTopicStates"
-msgstr ""
-
-#. Default: "Within the 'items' portlet, some links allow to trigger items searches. Only items being in the states you select here will appear in the search results. It can be practical for example to stop getting, into such search results, items that have already been published into meetings, because they are already visible through their meetings."
-msgid "item_topic_states_descr"
-msgstr ""
-
-#. Default: "Meeting states that condition the display of meetings in the 'meetings' portlet"
-msgid "PloneMeeting_label_meetingTopicStates"
-msgstr ""
-
-#. Default: "Meetings being in the states you select here will appear in the 'meetings' portlet. Typically you will display there meetings under creation or published meetings that did not took place yet. The idea is to select here a given set of states and to select, in the next field, all the other states. This way, users can distinguish between future and past meetings (past meetings are the object of the next field)."
-msgid "meeting_topic_states_descr"
-msgstr ""
-
-#. Default: "Meeting states that condition the display of meetings in the 'decisions' portlet"
-msgid "PloneMeeting_label_decisionTopicStates"
-msgstr ""
-
-#. Default: "Meetings being in the states you select here will appear in the 'decisions' portlet. Typically this portlet will display meetings whose decisions were taken or archived."
-msgid "decision_topic_states_descr"
-msgstr ""
-
 #. Default: "Maximal number of meetings shown in the 'meetings' and 'decisions' portlets"
 msgid "PloneMeeting_label_maxShownMeetings"
 msgstr ""
 
 #. Default: "If the number of meetings to display in any of those 2 portlets is higher than this number, a dropdown list will be shown."
 msgid "max_shown_meetings_descr"
-msgstr ""
-
-#. Default: "Maximum number of days during which decisions may appear direclty in the 'decisions' portlet."
-msgid "PloneMeeting_label_maxDaysDecisions"
-msgstr ""
-
-#. Default: "In the 'decisions' portlet, only decisions that have less than x days (x being the number defined here) appear directly. Users consult older decisions by clicking on the link 'all decisions'."
-msgid "max_days_decisions_descr"
 msgstr ""
 
 #. Default: "Home page"
@@ -2519,7 +2475,7 @@ msgstr ""
 msgid "PloneMeeting_label_itemColumns"
 msgstr ""
 
-#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches)."
+#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
 msgid "item_columns_descr"
 msgstr ""
 
@@ -2527,48 +2483,32 @@ msgstr ""
 msgid "PloneMeeting_label_meetingColumns"
 msgstr ""
 
-#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
+#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
 msgid "meeting_columns_descr"
 msgstr ""
 
-#. Default: "Maximum number of available items to show at once"
+#. Default: "Default number of items to show on a page in items dashboards"
+msgid "PloneMeeting_label_maxShownListings"
+msgstr ""
+
+#. Default: "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value."
+msgid "max_shown_listings_descr"
+msgstr ""
+
+#. Default: "Default number of available items to show on a page"
 msgid "PloneMeeting_label_maxShownAvailableItems"
 msgstr ""
 
-#. Default: "When displaying a meeting, the list of items that one may present to the meeting may be paginated if you specify here a maximum number of available items to show at once."
+#. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
 msgid "max_shown_available_items_descr"
 msgstr ""
 
-#. Default: "Maximum number of meeting items to show at once"
+#. Default: "Default number of meeting items to show on a page"
 msgid "PloneMeeting_label_maxShownMeetingItems"
 msgstr ""
 
-#. Default: "When displaying a meeting, the list of items in the meeting may be paginated if you specify here a maximum number of items to show at once."
+#. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value."
 msgid "max_shown_meeting_items_descr"
-msgstr ""
-
-#. Default: "Maximum number of late items to show at once"
-msgid "PloneMeeting_label_maxShownLateItems"
-msgstr ""
-
-#. Default: "When displaying a meeting, the list of late items in the meeting may be paginated if you specify here a maximum number of late items to show at once."
-msgid "max_shown_late_items_descr"
-msgstr ""
-
-#. Default: "Enable 'Go to page' functionality"
-msgid "PloneMeeting_label_enableGotoPage"
-msgstr ""
-
-#. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to page' field. Entering an item number in it will bring you to the page where this item is."
-msgid "enable_goto_page_descr"
-msgstr ""
-
-#. Default: "Enable 'Go to item' functionality"
-msgid "PloneMeeting_label_enableGotoItem"
-msgstr ""
-
-#. Default: "If you check this box, when paginated lists of items appear (when viewing a meeting) you will also view a specific 'Go to item' field. Entering an item number in it will bring you to the page that displays details about the corresponding item."
-msgid "enable_goto_item_descr"
 msgstr ""
 
 #. Default: "Open annexes in separate windows"
@@ -2683,12 +2623,36 @@ msgstr ""
 msgid "event_item_returned_to_meeting_managers"
 msgstr ""
 
-#. Default: "List of topics to display in the 'todo' portlet"
-msgid "PloneMeeting_label_toDoListTopics"
+#. Default: "List of searches to display in the 'todo' portlet"
+msgid "PloneMeeting_label_toDoListSearches"
 msgstr ""
 
-#. Default: "Select here topics you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any topic, the portlet will not shows up for users"
-msgid "to_do_list_topics"
+#. Default: "Select here searches you want to display in the 'todo' portlet appearing on the PloneMeeting home page of the users.  If you do not select any search, the portlet will not show up for users"
+msgid "to_do_list_searches"
+msgstr ""
+
+#. Default: "Advanced filters to show on listings of items"
+msgid "PloneMeeting_label_dashboardItemsListingsFilters"
+msgstr ""
+
+#. Default: "Select here filters that will be shown when using the 'More filters' link on listings of items (my items, all items, ...)."
+msgid "dashboard_items_listings_filters_descr"
+msgstr ""
+
+#. Default: "Advanced filters to show on 'Available items'"
+msgid "PloneMeeting_label_dashboardMeetingAvailableItemsFilters"
+msgstr ""
+
+#. Default: "Select here filters that will be shown when using the 'More filters' link on the 'Available items' of the meeting view."
+msgid "dashboard_meeting_available_items_filters_descr"
+msgstr ""
+
+#. Default: "Advanced filters to show on 'Items of a meeting'"
+msgid "PloneMeeting_label_dashboardMeetingLinkedItemsFilters"
+msgstr ""
+
+#. Default: "Select here filters that will be shown when using the 'More filters' link on the 'Linked items' of the meeting view."
+msgid "dashboard_meeting_linked_items_filters_descr"
 msgstr ""
 
 #. Default: "Nothing to do."
@@ -2821,6 +2785,26 @@ msgstr ""
 
 #. Default: "Not given yet"
 msgid "not_given"
+msgstr ""
+
+#. Default: "Asked again"
+msgid "asked_again"
+msgstr ""
+
+#. Default: "Ask this advice again (current advice will be historized)"
+msgid "to_advice_asked_again"
+msgstr ""
+
+#. Default: "The advice has been historized because it has been asked again.  You can consult it if necessary, see link 'View' opposite."
+msgid "advice_asked_again_and_historized"
+msgstr ""
+
+#. Default: "Hide during redaction, the advice will be considered 'not given'."
+msgid "to_hidden_during_redaction"
+msgstr ""
+
+#. Default: "Show advice, the advice will be confirmed and considered 'given'."
+msgid "to_not_hidden_during_redaction"
 msgstr ""
 
 #. Default: "Hidden during redaction"
@@ -3060,15 +3044,6 @@ msgstr ""
 msgid "category_using_groups_descr"
 msgstr ""
 
-#. Default: "Category (or proposing group)"
-msgid "category_or_proposing_group"
-msgstr ""
-
-# MeetingFile
-#. Default: "Creator"
-msgid "pm_creator"
-msgstr ""
-
 #. Default: "Annex type"
 msgid "pm_annex_type"
 msgstr ""
@@ -3233,7 +3208,7 @@ msgid "searchitemstoadvicewithoutdelay"
 msgstr ""
 
 #. Default: "advice not given (delay exceeded)"
-msgid "searchitemstoadvicewithdexceededelay"
+msgid "searchitemstoadvicewithexceededdelay"
 msgstr ""
 
 #. Default: "Validable items"
@@ -3324,8 +3299,12 @@ msgstr ""
 msgid "Advice given on item ${item_title}"
 msgstr ""
 
+#. Default: "Items"
+msgid "Meeting items"
+msgstr ""
+
 #. Default: "Meetings"
-msgid "portletmeetings_title"
+msgid "Meetings"
 msgstr ""
 
 #. Default: "create a meeting"
@@ -3341,7 +3320,11 @@ msgid "no_meeting"
 msgstr ""
 
 #. Default: "Decisions"
-msgid "portletdecisions_title"
+msgid "Decisions"
+msgstr ""
+
+#. Default: "last decisions"
+msgid "searchlastdecisions"
 msgstr ""
 
 #. Default: "all decisions"
@@ -3553,6 +3536,10 @@ msgstr ""
 msgid "sure_to_remove_selected_items"
 msgstr ""
 
+#. Default: "Are you sure to want to present every selected items into the meeting?"
+msgid "sure_to_present_selected_items"
+msgstr ""
+
 #. Default: "The result shows only elements you are allowed to view."
 msgid "topic_description"
 msgstr ""
@@ -3701,10 +3688,6 @@ msgstr ""
 msgid "no_pod_folder"
 msgstr ""
 
-#. Default: "Active ?"
-msgid "pod_template_is_active"
-msgstr ""
-
 #. Default: "Advices and access"
 msgid "advices_config"
 msgstr ""
@@ -3725,104 +3708,6 @@ msgstr ""
 msgid "description_only_see_visible_items"
 msgstr ""
 
-# Search form
-#. Default: "Advanced search"
-msgid "search_advanced"
-msgstr ""
-
-#. Default: "Keywords"
-msgid "search_words"
-msgstr ""
-
-#. Default: "The keyword search encompasses the following fields:"
-msgid "search_keywords"
-msgstr ""
-
-#. Default: "item's titles and descriptions"
-msgid "search_item_titles"
-msgstr ""
-
-#. Default: "item's decisions"
-msgid "search_item_decisions"
-msgstr ""
-
-#. Default: "Search:"
-msgid "search_type_label"
-msgstr ""
-
-#. Default: "meetings"
-msgid "search_type_meetings"
-msgstr ""
-
-#. Default: "items"
-msgid "search_type_items"
-msgstr ""
-
-#. Default: "annexes"
-msgid "search_type_annexes"
-msgstr ""
-
-#. Default: "Meeting type:"
-msgid "search_config_label"
-msgstr ""
-
-#. Default: "Search in"
-msgid "search_site_label"
-msgstr ""
-
-#. Default: "This site"
-msgid "search_site_local"
-msgstr ""
-
-#. Default: "Time period:"
-msgid "search_time_period_label"
-msgstr ""
-
-#. Default: "From"
-msgid "search_time_period_from"
-msgstr ""
-
-#. Default: "To"
-msgid "search_time_period_to"
-msgstr ""
-
-#. Default: "Item-specific search criteria"
-msgid "search_criteria_item"
-msgstr ""
-
-#. Default: "New search"
-msgid "search_again"
-msgstr ""
-
-#. Default: "No item found."
-msgid "search_MeetingItem_empty"
-msgstr ""
-
-#. Default: "No meeting found."
-msgid "search_Meeting_empty"
-msgstr ""
-
-#. Default: "No annex found."
-msgid "search_MeetingFile_empty"
-msgstr ""
-
-#. Default: "and"
-msgid "search_and"
-msgstr ""
-
-#. Default: "or"
-msgid "search_or"
-msgstr ""
-
-#. Default: "Keep the 'control' key pressed for selecting several elements."
-msgid "search_select_many"
-msgstr ""
-
-#. Default: "(Un-)select all"
-msgid "pm_select_deselect"
-msgstr ""
-
-# This way, the "typedescription macro in base_edit does not display 'Meeting' above the title.
 #. Default: "Show / hide details"
 msgid "show_or_hide_details"
 msgstr ""
@@ -3922,6 +3807,14 @@ msgstr ""
 
 #. Default: "To use this functionnality, it is necessary that the icon '${iconname}' that will trigger the action exists.  Please creates it before continuing..."
 msgid "iconname_does_not_exist"
+msgstr ""
+
+#. Default: "Accepted but modified"
+msgid "icon_help_accepted_but_modified"
+msgstr ""
+
+#. Default: "Pre accepted"
+msgid "icon_help_pre_accepted"
 msgstr ""
 
 #. Default: "This item is again up the workflow"
@@ -4046,6 +3939,10 @@ msgstr ""
 
 #. Default: "Users"
 msgid "users"
+msgstr ""
+
+#. Default: "Criteria"
+msgid "heading_criteria"
 msgstr ""
 
 #. Default: "Actions"
@@ -4482,6 +4379,10 @@ msgstr ""
 msgid "Manage item templates"
 msgstr ""
 
+#. Default: "Manage dashboard"
+msgid "Manage dashboard"
+msgstr ""
+
 #. Default: "Users"
 msgid "Meeting users"
 msgstr ""
@@ -4522,11 +4423,11 @@ msgstr ""
 msgid "Days to give advice"
 msgstr ""
 
-#. Default: "Fields of the items to show/hide when using the glasses icon action"
+#. Default: "Fields of the items to show/hide in the dashboards"
 msgid "PloneMeeting_label_itemsListVisibleFields"
 msgstr ""
 
-#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'glasses' icon action.  This will affect every listing of items, so classic listings and the meetings view."
+#. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 msgid "items_list_visible_fields_descr"
 msgstr ""
 
@@ -4602,6 +4503,14 @@ msgstr ""
 msgid "pm_update_advice_confidentiality_warning"
 msgstr ""
 
+#. Default: "Synchronize searches of the config with every user folders"
+msgid "pm_synch_searches"
+msgstr ""
+
+#. Default: "Warning: this will update the dashboards of every users regarding what is defined in the 'searches' folder including DashboardCollections and faceted navigation criteria. Launch this if you changed a Collection or the faceted criteria. This will take about 1 second by user folder to update."
+msgid "pm_synch_searches_warning"
+msgstr ""
+
 #. Default: "Only create items using item templates"
 msgid "PloneMeeting_label_itemCreatedOnlyUsingTemplate"
 msgstr ""
@@ -4632,4 +4541,40 @@ msgstr ""
 
 #. Default: "Comment"
 msgid "Advice comment"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} (to send to)"
+msgid "sent_to_other_mc_term__clonable_to"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} (sent to)"
+msgid "sent_to_other_mc_term__cloned_to"
+msgstr ""
+
+#. Default: "Not to be cloned to anywhere"
+msgid "not_to_be_cloned_to_term"
+msgstr ""
+
+#. Default: "To be send to authority"
+msgid "to_be_send_to_authority_term"
+msgstr ""
+
+#. Default: "Not to be send to authority"
+msgid "not_to_be_send_to_authority_term"
+msgstr ""
+
+#. Default: "Item down workflow"
+msgid "item_down_wf_term"
+msgstr ""
+
+#. Default: "Item up workflow again"
+msgid "item_up_wf_term"
+msgstr ""
+
+#. Default: "Normal"
+msgid "list_type_normal"
+msgstr ""
+
+#. Default: "Late"
+msgid "list_type_late"
 msgstr ""
