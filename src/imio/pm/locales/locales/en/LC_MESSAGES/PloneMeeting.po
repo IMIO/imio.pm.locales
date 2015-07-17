@@ -831,9 +831,8 @@ msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Columns to display for items within meetings"
 
 #. Default: "Fields of the items to show/hide in the dashboards"
-#, fuzzy
 msgid "PloneMeeting_label_itemsListVisibleFields"
-msgstr "Fields of the items to show/hide when using the glasses icon action"
+msgstr "Fields of the items to show/hide in the dashboards"
 
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
@@ -2793,9 +2792,8 @@ msgid "item_classifier_descr"
 msgstr " "
 
 #. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
-#, fuzzy
 msgid "item_columns_descr"
-msgstr "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches)."
+msgstr "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
 
 #. Default: "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
 msgid "item_completeness_descr"
@@ -2939,9 +2937,8 @@ msgid "items_list_visible_columns_descr"
 msgstr "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
 
 #. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
-#, fuzzy
 msgid "items_list_visible_fields_descr"
-msgstr "Select here fields of the item that will be show/hidden when a user will click on the 'glasses' icon action.  This will affect every listing of items, so classic listings and the meetings view."
+msgstr "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 
 #. Default: "Choose an element in the list"
 msgid "label_choose_element_in_list"
@@ -3165,9 +3162,8 @@ msgid "meeting_assembly"
 msgstr "Assembly"
 
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
-#, fuzzy
 msgid "meeting_columns_descr"
-msgstr "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
+msgstr "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
 
 #. Default: "Similarly to interfaces defined for items, the conditions expressed on the transitions of the meeting workflow may be configured through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowConditions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowConditions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowConditions are documented."
 msgid "meeting_conditions_interface_descr"
@@ -3455,6 +3451,10 @@ msgstr "No emergency"
 #. Default: "None"
 msgid "no_freeze_event"
 msgstr "None"
+
+#. Default: "No item template."
+msgid "no_item_templates"
+msgstr "No item template."
 
 #. Default: "No (visible) meeting at present."
 msgid "no_meeting"
@@ -4157,7 +4157,7 @@ msgstr "Define here sub types for this file type.  This will let the user use it
 
 #. Default: "Are you sure to want to present every selected items into the meeting?"
 msgid "sure_to_present_selected_items"
-msgstr ""
+msgstr "Are you sure to want to present every selected items into the meeting?"
 
 #. Default: "Are you sure to want to remove every selected items from the meeting?"
 msgid "sure_to_remove_selected_items"
@@ -4562,4 +4562,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-
