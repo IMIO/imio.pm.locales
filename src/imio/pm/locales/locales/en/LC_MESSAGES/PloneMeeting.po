@@ -2791,9 +2791,9 @@ msgstr " "
 msgid "item_classifier_descr"
 msgstr " "
 
-#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
+#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches)."
 msgid "item_columns_descr"
-msgstr "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
+msgstr "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches)."
 
 #. Default: "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
 msgid "item_completeness_descr"
@@ -3161,9 +3161,9 @@ msgstr "Choose here which page will be shown after logon."
 msgid "meeting_assembly"
 msgstr "Assembly"
 
-#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
+#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 msgid "meeting_columns_descr"
-msgstr "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
+msgstr "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 
 #. Default: "Similarly to interfaces defined for items, the conditions expressed on the transitions of the meeting workflow may be configured through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowConditions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowConditions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowConditions are documented."
 msgid "meeting_conditions_interface_descr"
@@ -4562,4 +4562,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

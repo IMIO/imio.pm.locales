@@ -2791,9 +2791,9 @@ msgstr " "
 msgid "item_classifier_descr"
 msgstr " "
 
-#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
+#. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches)."
 msgid "item_columns_descr"
-msgstr "Choisissez ici les colonnes à afficher sur les listes de points (par exemple, sur les listes prédéfinies comme 'mes points' ou 'tous les points' ou sur des résultats de recherches avancées).  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de synchronizer les recherches!</span>"
+msgstr "Choisissez ici les colonnes à afficher sur les listes de points (par exemple, sur les listes prédéfinies comme 'mes points' ou 'tous les points' ou sur des résultats de recherches avancées).</span>"
 
 #. Default: "Specify here if item looks complete.  If you select 'Incomplete', you will be able to add a comment."
 msgid "item_completeness_descr"
@@ -3161,9 +3161,9 @@ msgstr "Choisissez ici la page qui s'affiche directement après connexion."
 msgid "meeting_assembly"
 msgstr "Assemblée"
 
-#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches).  <span style='color: red';>If you change this parameter, do not forget to synchronize searches!</span>"
+#. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 msgid "meeting_columns_descr"
-msgstr "Choisissez ici les colonnes à afficher sur les listes de séances (par exemple, sur la liste des séances disponibles ou passées, ou encore sur des résultats de recherches avancées).  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de synchronizer les recherches!</span>"
+msgstr "Choisissez ici les colonnes à afficher sur les listes de séances (par exemple, sur la liste des séances disponibles ou passées, ou encore sur des résultats de recherches avancées)."
 
 #. Default: "Similarly to interfaces defined for items, the conditions expressed on the transitions of the meeting workflow may be configured through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowConditions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowConditions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowConditions are documented."
 msgid "meeting_conditions_interface_descr"
@@ -4561,4 +4561,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
