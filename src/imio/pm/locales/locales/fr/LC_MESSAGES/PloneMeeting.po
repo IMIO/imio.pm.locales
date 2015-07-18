@@ -3711,14 +3711,6 @@ msgstr "Aller au précédent."
 msgid "pm_modification_date"
 msgstr "Modifié le"
 
-#. Default: "Synchronize searches of the config with every user folders"
-msgid "pm_synch_searches"
-msgstr "Synchronizer les recherches définies dans cette configuration avec les dossiers des utilisateurs"
-
-#. Default: "Warning: this will update the dashboards of every users regarding what is defined in the 'searches' folder including DashboardCollections and faceted navigation criteria. Launch this if you changed a Collection or the faceted criteria. This will take about 1 second by user folder to update."
-msgid "pm_synch_searches_warning"
-msgstr "Attention: ceci va synchronizer les changements effectués vis-à-vis des recherches (dossier 'Recherches') avec les recherches affichées chez les utilisateurs.  Effectuez cette synchronisation si vous avez changé une Collection ou les critères de la navigation par facettes.  Ceci prendra environ 1 seconde par dossier utilisateur à mettre à jour."
-
 #. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
 msgstr "Attention: ces mises à jour peuvent prendre du temps en fonction du nombre d'éléments existants!  Ne pas lancer dans une période de forte utilisation!"
@@ -4561,3 +4553,4 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+
