@@ -842,6 +842,10 @@ msgstr "Numéro de la dernière séance de cette configuration"
 msgid "PloneMeeting_label_lateAttendees"
 msgstr "Présents, mais pas au début"
 
+#. Default: "Type of item"
+msgid "PloneMeeting_label_listType"
+msgstr "Type de point"
+
 #. Default: "Mail format"
 msgid "PloneMeeting_label_mailFormat"
 msgstr "Format des courriels"
@@ -3016,6 +3020,10 @@ msgstr "Au sein de chaque configuration, les séances sont numérotées en séqu
 msgid "last_transition_must_result_in_presented_state"
 msgstr "Respectez bien l'ordre des transitions menant à l'état 'présenté', la succession de transitions renseignée ne mène pas à l'état 'présenté'."
 
+#. Default: "Late item"
+msgid "late"
+msgstr "Point supplémentaire (ou en retard)"
+
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "lateItem_mail_body"
 msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}."
@@ -3514,6 +3522,10 @@ msgstr "* * * Avis sans délai * * *"
 #. Default: "--- None, delays can not be cancelled once started ---"
 msgid "none_started_once_for_all"
 msgstr "--- Aucune, une fois les délais démarrés, ils ne peuvent plus être remis à zéro ---"
+
+#. Default: "Normal item"
+msgid "normal"
+msgstr "Point normal"
 
 #. Default: "You are a registered user but your account has not been activated yet. Please contact the system administrator."
 msgid "notPloneMeetingUser"
@@ -4553,4 +4565,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

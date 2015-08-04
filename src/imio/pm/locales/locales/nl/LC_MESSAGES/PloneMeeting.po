@@ -843,6 +843,10 @@ msgstr "Nummer van de laatste vergadering in deze config"
 msgid "PloneMeeting_label_lateAttendees"
 msgstr ""
 
+#. Default: "Type of item"
+msgid "PloneMeeting_label_listType"
+msgstr ""
+
 #. Default: "Mail format"
 msgid "PloneMeeting_label_mailFormat"
 msgstr ""
@@ -3026,6 +3030,10 @@ msgstr "In iedere vergadering configuratie worden de vergaderingen sequentieel g
 msgid "last_transition_must_result_in_presented_state"
 msgstr ""
 
+#. Default: "Late item"
+msgid "late"
+msgstr ""
+
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 #, fuzzy
 msgid "lateItem_mail_body"
@@ -3528,6 +3536,10 @@ msgstr ""
 
 #. Default: "--- None, delays can not be cancelled once started ---"
 msgid "none_started_once_for_all"
+msgstr ""
+
+#. Default: "Normal item"
+msgid "normal"
 msgstr ""
 
 #. Default: "You are a registered user but your account has not been activated yet. Please contact the system administrator."

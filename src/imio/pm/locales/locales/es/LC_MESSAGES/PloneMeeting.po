@@ -847,6 +847,10 @@ msgstr "Número de la ultima reunión en esta configuración"
 msgid "PloneMeeting_label_lateAttendees"
 msgstr "Asistentes tardíos"
 
+#. Default: "Type of item"
+msgid "PloneMeeting_label_listType"
+msgstr ""
+
 #. Default: "Mail format"
 msgid "PloneMeeting_label_mailFormat"
 msgstr "Formato de correo"
@@ -3038,6 +3042,10 @@ msgstr "Con cada configuración de reunión, las reuniones son numerados secuenc
 msgid "last_transition_must_result_in_presented_state"
 msgstr ""
 
+#. Default: "Late item"
+msgid "late"
+msgstr ""
+
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "lateItem_mail_body"
 msgstr "El tema se titula '${itemTitle}'. Usted puede acceder a este tema aquí: ${portalUrl}."
@@ -3543,6 +3551,10 @@ msgstr "Por favor, seleccione entre los asesores que no son retardo conscientes"
 #. Default: "--- None, delays can not be cancelled once started ---"
 msgid "none_started_once_for_all"
 msgstr "--- Ningún, retraso no pueden cancelarse una vez iniciado ---"
+
+#. Default: "Normal item"
+msgid "normal"
+msgstr ""
 
 #. Default: "You are a registered user but your account has not been activated yet. Please contact the system administrator."
 msgid "notPloneMeetingUser"

@@ -842,6 +842,10 @@ msgstr "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lateAttendees"
 msgstr "Late attendees"
 
+#. Default: "Type of item"
+msgid "PloneMeeting_label_listType"
+msgstr ""
+
 #. Default: "Mail format"
 msgid "PloneMeeting_label_mailFormat"
 msgstr "Mail format"
@@ -3016,6 +3020,10 @@ msgstr "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_transition_must_result_in_presented_state"
 msgstr "Please respect order of transitions sequence to present an item, the given sequence is not resulting in the 'presented' state."
 
+#. Default: "Late item"
+msgid "late"
+msgstr ""
+
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "lateItem_mail_body"
 msgstr "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
@@ -3515,6 +3523,10 @@ msgstr "Please select among non delay-aware advisers"
 #. Default: "--- None, delays can not be cancelled once started ---"
 msgid "none_started_once_for_all"
 msgstr "--- None, delays can not be cancelled once started ---"
+
+#. Default: "Normal item"
+msgid "normal"
+msgstr ""
 
 #. Default: "You are a registered user but your account has not been activated yet. Please contact the system administrator."
 msgid "notPloneMeetingUser"
