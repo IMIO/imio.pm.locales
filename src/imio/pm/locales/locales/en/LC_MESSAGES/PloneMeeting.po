@@ -844,7 +844,7 @@ msgstr "Late attendees"
 
 #. Default: "Type of item"
 msgid "PloneMeeting_label_listType"
-msgstr ""
+msgstr "Type of item"
 
 #. Default: "Mail format"
 msgid "PloneMeeting_label_mailFormat"
@@ -2503,9 +2503,9 @@ msgstr "No preview available because there was an error during conversion to a p
 msgid "help_no_preview_available_conversion_error_manager"
 msgstr "No preview available because there was an error during conversion to a previewable format.  Click on the annex to access debugging informations."
 
-#. Default: "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 1 or 2 seconds by page."
+#. Default: "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 1 or 2 seconds by page.  You may also download the file using the 'green arrow' icon."
 msgid "help_no_preview_available_under_conversion"
-msgstr "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 1 or 2 seconds by page."
+msgstr "No preview available because this file is currently being converted to a previewable format.  Please come back in a few minutes when the conversion will be finished.  The conversion takes ususally 1 or 2 seconds by page.  You may also download the file using the 'green arrow' icon."
 
 #. Default: "Hidden during redaction"
 msgid "hidden_during_redaction"
@@ -3022,7 +3022,7 @@ msgstr "Please respect order of transitions sequence to present an item, the giv
 
 #. Default: "Late item"
 msgid "late"
-msgstr ""
+msgstr "Late item"
 
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "lateItem_mail_body"
@@ -3526,7 +3526,7 @@ msgstr "--- None, delays can not be cancelled once started ---"
 
 #. Default: "Normal item"
 msgid "normal"
-msgstr ""
+msgstr "Normal item"
 
 #. Default: "You are a registered user but your account has not been activated yet. Please contact the system administrator."
 msgid "notPloneMeetingUser"
@@ -4297,7 +4297,7 @@ msgstr "Show advice, the advice will be confirmed and considered 'given'."
 
 #. Default: "Back to previous given advice"
 msgid "to_previous_given_advice"
-msgstr ""
+msgstr "Back to previous given advice"
 
 #. Default: "Other parameters"
 msgid "tool_plonemeeting_misc"
@@ -4570,4 +4570,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-
