@@ -27,6 +27,10 @@ msgstr "Ce point a été créé par duplication d'un autre point (un lien vers l
 msgid "Duplicate_comments"
 msgstr "Ce point a été créé par duplication d'un autre point."
 
+#. Default: "The advice has been historized because it has been asked again."
+msgid "advice_asked_again_and_historized_comments"
+msgstr "L'avis a été historisé car il a été demandé à nouveau."
+
 #. Default: "This item has been created from a delayed item."
 msgid "create_from_predecessor_comments"
 msgstr "Ce point a été créé suite au report d'un autre point."
@@ -35,11 +39,11 @@ msgstr "Ce point a été créé suite au report d'un autre point."
 msgid "create_meeting_item_from_template_comments"
 msgstr "Ce point a été créé depuis un modèle."
 
-#. Default: "Item created from a Plonemeeting assembly item"
+#. Default: "Item created from a Plonemeeting assembly item."
 msgid "create_to_plonegov-assembly_from_plonemeeting-assembly_comments"
 msgstr "Point créé depuis un point de l'assemblée PloneMeeting."
 
-#. Default: "Item created from a Plonegov assembly item"
+#. Default: "Item created from a Plonegov assembly item."
 msgid "create_to_plonemeeting-assembly_from_plonegov-assembly_comments"
 msgstr "Point créé depuis un point de l'assemblée PloneGov."
 

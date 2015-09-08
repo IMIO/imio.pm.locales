@@ -26,6 +26,10 @@ msgstr "This item has been created by duplicating another item (a link to the or
 msgid "Duplicate_comments"
 msgstr "This item has been created by duplicating another item."
 
+#. Default: "The advice has been historized because it has been asked again."
+msgid "advice_asked_again_and_historized_comments"
+msgstr "The advice has been historized because it has been asked again."
+
 #. Default: "This item has been created from a delayed item."
 msgid "create_from_predecessor_comments"
 msgstr "This item has been created from a delayed item."
@@ -34,13 +38,11 @@ msgstr "This item has been created from a delayed item."
 msgid "create_meeting_item_from_template_comments"
 msgstr "This item has been created from an item template."
 
-#. Default: "Item created from a Plonemeeting assembly item"
-#, fuzzy
+#. Default: "Item created from a Plonemeeting assembly item."
 msgid "create_to_plonegov-assembly_from_plonemeeting-assembly_comments"
 msgstr "Item created from a Plonemeeting assembly item."
 
-#. Default: "Item created from a Plonegov assembly item"
-#, fuzzy
+#. Default: "Item created from a Plonegov assembly item."
 msgid "create_to_plonemeeting-assembly_from_plonegov-assembly_comments"
 msgstr "Item created from a Plonegov assembly item."
 
