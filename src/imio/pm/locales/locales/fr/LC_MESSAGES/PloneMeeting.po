@@ -1498,6 +1498,14 @@ msgstr "Si un avis est marqué comme 'Confidentiel' par un gestionnaire des séa
 msgid "advice_confidentiality_default_descr"
 msgstr "Si la confidentialité des avis est activée, vous pouvez définir ici la valeur par défaut du champ 'Confidentiel?' des avis créés. Cette valeur pourra être modifiée par les gestionnaires de séances sur les avis créés."
 
+#. Default: "${group_name} - ${delay} day(s) (${delay_label})"
+msgid "advice_delay_with_label"
+msgstr "${group_name} - ${delay} jour(s) (${delay_label})"
+
+#. Default: "${group_name} - ${delay} day(s)"
+msgid "advice_delay_without_label"
+msgstr "${group_name} - ${delay} jour(s)"
+
 #. Default: "Quick edit advice"
 msgid "advice_edit"
 msgstr "Edition rapide de l'avis"

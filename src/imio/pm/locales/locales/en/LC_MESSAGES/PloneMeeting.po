@@ -1498,6 +1498,14 @@ msgstr "If an advice is marked as 'Confidential' by a meeting manager, following
 msgid "advice_confidentiality_default_descr"
 msgstr "If advice confidentiality is enabled, define here if a new asked advice needs to be confidential ou not by default."
 
+#. Default: "${group_name} - ${delay} day(s) (${delay_label})"
+msgid "advice_delay_with_label"
+msgstr ""
+
+#. Default: "${group_name} - ${delay} day(s)"
+msgid "advice_delay_without_label"
+msgstr ""
+
 #. Default: "Quick edit advice"
 msgid "advice_edit"
 msgstr "Quick edit advice"
