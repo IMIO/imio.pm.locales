@@ -523,7 +523,7 @@ msgstr "Format des dates utilisées dans PloneMeeting"
 
 #. Default: "Deadline for validating late items"
 msgid "PloneMeeting_label_deadlineFreeze"
-msgstr "Echéance pour valider les points en retard"
+msgstr "Echéance pour valider les points en urgence"
 
 #. Default: "Deadline for validating items"
 msgid "PloneMeeting_label_deadlinePublish"
@@ -651,7 +651,7 @@ msgstr "Nom du répertoire lié à cette configuration"
 
 #. Default: "Default deadline for validating late items for a given meeting"
 msgid "PloneMeeting_label_freezeDeadlineDefault"
-msgstr "Echéance par défaut pour valider les points en retard pour une séance donnée"
+msgstr "Echéance par défaut pour valider les points en urgence pour une séance donnée"
 
 #. Default: "Freeze event"
 msgid "PloneMeeting_label_freezeEvent"
@@ -1187,7 +1187,7 @@ msgstr "Valeur par défaut de l'attribut 'à discuter' pour les points normaux"
 
 #. Default: "Default value of the 'toDiscuss' attribute for late items"
 msgid "PloneMeeting_label_toDiscussLateDefault"
-msgstr "Valeur par défaut de l'attribut 'à discuter' pour les points en retard"
+msgstr "Valeur par défaut de l'attribut 'à discuter' pour les points en urgence"
 
 #. Default: "Set 'toDiscuss' field values when items are inserted into a meeting"
 msgid "PloneMeeting_label_toDiscussSetOnItemInsert"
@@ -1195,7 +1195,7 @@ msgstr "Affecter une valeur au champ 'à discuter' quand un point est inséré d
 
 #. Default: "Show field 'to discuss' on lists of late items"
 msgid "PloneMeeting_label_toDiscussShownForLateItems"
-msgstr "Montrer le champ 'à discuter' sur les listes de points en retard"
+msgstr "Montrer le champ 'à discuter' sur les listes de points en urgence"
 
 #. Default: "List of searches to display in the 'todo' portlet"
 msgid "PloneMeeting_label_toDoListSearches"
@@ -2315,7 +2315,7 @@ msgstr "Un point a été retiré d'une séance"
 
 #. Default: "A late item was just validated"
 msgid "event_late_item"
-msgstr "Un point en retard vient d'être validé"
+msgstr "Un point en urgence vient d'être validé"
 
 #. Default: "Annexes"
 msgid "existing_annexes"
@@ -2387,7 +2387,7 @@ msgstr "Pour l'administrateur uniquement"
 
 #. Default: "Specify here the deadline for validating late items to be inserted in a given meeting.  Leave the field empty not to use this functionality."
 msgid "freeze_deadline_default_descr"
-msgstr "Spécifiez ici l'échéance pour valider des points à insérer en retard dans une séance donnée.  Laissez le champ vide si vous ne souhaitez pas utiliser cette fonctionnalité."
+msgstr "Spécifiez ici l'échéance pour valider des points à insérer en urgence dans une séance donnée.  Laissez le champ vide si vous ne souhaitez pas utiliser cette fonctionnalité."
 
 #. Default: "When the event selected in this list occurs on a given object in Plone, a document for this object will be generated from this POD template into the Plone database. Subsequent requests for generating a document from this POD template for the same object will return the 'frozen' document instead of recomputing it using POD."
 msgid "freeze_event_descr"
@@ -2621,7 +2621,7 @@ msgstr "Reporté"
 
 #. Default: "Late"
 msgid "icon_help_late"
-msgstr "En retard"
+msgstr "En urgence"
 
 #. Default: "Pre accepted"
 msgid "icon_help_pre_accepted"
@@ -3026,7 +3026,7 @@ msgstr "Respectez bien l'ordre des transitions menant à l'état 'présenté', l
 
 #. Default: "Late item"
 msgid "late"
-msgstr "Point supplémentaire (ou en retard)"
+msgstr "Point supplémentaire (ou en urgence)"
 
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "lateItem_mail_body"
@@ -3035,11 +3035,11 @@ msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}
 # Mails (item-related)
 #. Default: "${meetingConfigTitle} - A 'late' item has been validated."
 msgid "lateItem_mail_subject"
-msgstr "${meetingConfigTitle} - Un point en retard vient d'être validé."
+msgstr "${meetingConfigTitle} - Un point en urgence vient d'être validé."
 
 #. Default: "Items presented tardily"
 msgid "late_presented_items"
-msgstr "Points présentés en retard"
+msgstr "Points présentés en urgence"
 
 #. Default: "This person has left the meeting after item number:"
 msgid "left_after"
@@ -3581,7 +3581,7 @@ msgstr "Suivre l'ordre des catégories"
 
 #. Default: "Follow list type"
 msgid "on_list_type"
-msgstr "Par type de point (normal, en retard)"
+msgstr "Par type de point (normal, en urgence)"
 
 #. Default: "When a transition will be triggered on a meeting, you can define which transitions to trigger on every items of the meeting.  This will make items 'follow' the meeting state.  You can define several transitions to trigger on items for the same meeting transitions, these transitions will be triggered sequentially on every items of the meeting."
 msgid "on_meeting_transition_item_transition_to_trigger_descr"
@@ -4252,7 +4252,7 @@ msgstr "L'attribut optionnel 'à discuter' permet au gestionnaire de séance de 
 
 #. Default: "Check the box if you want the 'late' items to be set to 'discussed' by default."
 msgid "to_discuss_late_default_descr"
-msgstr "Cochez la case si vous voulez que les points qui sont présentés 'en retard' soient, par défaut, discutés."
+msgstr "Cochez la case si vous voulez que les points qui sont présentés 'en urgence' soient, par défaut, discutés."
 
 #. Default: "Not to be discussed during the meeting."
 msgid "to_discuss_no"
@@ -4272,7 +4272,7 @@ msgstr "Si vous cochez cette case, la valeur du champ 'à discuter', pour un poi
 
 #. Default: "Check the box if you want to show column 'to discuss' on lists of late items (checked is the default). For late items, users may not be allowed to choose the value for this field (ie, late items are to be discussed anyway)."
 msgid "to_discuss_shown_for_late_items_descr"
-msgstr "Cochez la case si vous voulez afficher la colonne 'à discuter' sur les listes de points en retard (coché par défaut). Pour les points en retard, les utilisateurs pourraient ne pas être en droit de choisir la valeur pour ce champ (par exemple, les points en retard pourraient être à discuter d'office)."
+msgstr "Cochez la case si vous voulez afficher la colonne 'à discuter' sur les listes de points en urgence (coché par défaut). Pour les points en urgence, les utilisateurs pourraient ne pas être en droit de choisir la valeur pour ce champ (par exemple, les points en urgence pourraient être à discuter d'office)."
 
 #. Default: "To be discussed during the meeting."
 msgid "to_discuss_yes"
