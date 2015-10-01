@@ -846,6 +846,10 @@ msgstr "Présents, mais pas au début"
 msgid "PloneMeeting_label_listType"
 msgstr "Type de point"
 
+#. Default: "Types of item"
+msgid "PloneMeeting_label_listTypes"
+msgstr "Types de point"
+
 #. Default: "Mail format"
 msgid "PloneMeeting_label_mailFormat"
 msgstr "Format des courriels"
@@ -2256,6 +2260,22 @@ msgstr "Veuillez vérifier les dates encodées à la ligne ${row_number}.  Utili
 msgid "error_certified_signatures_order"
 msgstr "Les signatures doivent être ordonnées par numéro de signature, vérifiez les numéros de signatures et utilisez les flèches à la droite du tableau pour les ordonner correctement."
 
+#. Default: "You may not remove a list type that is currently used by an item, check for example : ${url}."
+msgid "error_list_types_identifier_removed_already_used"
+msgstr "Vous ne pouvez pas supprimer un type de point qui est déjà utilisé (le type de point supprimé est utilisé par : ${url})."
+
+#. Default: "You may not remove the default list types ('normal' and 'late')."
+msgid "error_list_types_missing_default"
+msgstr "Vous ne pouvez pas supprimer un des types de point par défaut ('normal' et 'late')."
+
+#. Default: "You may not use the same identifier several times."
+msgid "error_list_types_same_identifier"
+msgstr "Vous ne pouvez pas utiliser le même identifiant plusieurs fois."
+
+#. Default: "You may only use lowercase letters for identifier."
+msgid "error_list_types_wrong_identifier_format"
+msgstr "Vous ne pouvez utiliser que des lettres minuscules pour l'identifiant."
+
 #. Default: "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."
 msgid "eventOccurred_mail_body"
 msgstr "Cet élément est accessible via WebDAV à l'URL ${objectDavUrl}. Si vous deviez être prévenu par requête HTTP, vous recevez ce mail parce que cette requête a échoué."
@@ -3068,6 +3088,10 @@ msgstr "En retard"
 #. Default: "Normal"
 msgid "list_type_normal"
 msgstr "Normal"
+
+#. Default: "Types of list of items that will be available when an item is linked to a meeting."
+msgid "list_types_descr"
+msgstr "Types de liste de points qui seront disponibles lorsqu'un point est dans une séance."
 
 #. Default: "Size"
 msgid "listingheader_size"

@@ -4589,3 +4589,27 @@ msgstr ""
 #. Default: "Late item"
 msgid "late"
 msgstr ""
+
+#. Default: "Types of item"
+msgid "PloneMeeting_label_listTypes"
+msgstr ""
+
+#. Default: "Types of list of items that will be available when an item is linked to a meeting."
+msgid "list_types_descr"
+msgstr ""
+
+#. Default: "You may only use lowercase letters for identifier."
+msgid "error_list_types_wrong_identifier_format"
+msgstr ""
+
+#. Default: "You may not remove a list type that is currently used by an item, check for example : ${url}."
+msgid "error_list_types_identifier_removed_already_used"
+msgstr ""
+
+#. Default: "You may not remove the default list types ('normal' and 'late')."
+msgid "error_list_types_missing_default"
+msgstr ""
+
+#. Default: "You may not use the same identifier several times."
+msgid "error_list_types_same_identifier"
+msgstr ""

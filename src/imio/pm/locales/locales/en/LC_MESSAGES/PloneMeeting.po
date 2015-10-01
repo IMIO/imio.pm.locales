@@ -846,6 +846,10 @@ msgstr "Late attendees"
 msgid "PloneMeeting_label_listType"
 msgstr "Type of item"
 
+#. Default: "Types of item"
+msgid "PloneMeeting_label_listTypes"
+msgstr "Types of item"
+
 #. Default: "Mail format"
 msgid "PloneMeeting_label_mailFormat"
 msgstr "Mail format"
@@ -1500,11 +1504,11 @@ msgstr "If advice confidentiality is enabled, define here if a new asked advice 
 
 #. Default: "${group_name} - ${delay} day(s) (${delay_label})"
 msgid "advice_delay_with_label"
-msgstr ""
+msgstr "${group_name} - ${delay} day(s) (${delay_label})"
 
 #. Default: "${group_name} - ${delay} day(s)"
 msgid "advice_delay_without_label"
-msgstr ""
+msgstr "${group_name} - ${delay} day(s)"
 
 #. Default: "Quick edit advice"
 msgid "advice_edit"
@@ -2255,6 +2259,22 @@ msgstr "Please make sure encoded dates are valid at row number ${row_number}.  U
 #. Default: "Signatures must be ordered by signature number, please check and order signature using the arrows on the right of the table."
 msgid "error_certified_signatures_order"
 msgstr "Signatures must be ordered by signature number, please check and order signature using the arrows on the right of the table."
+
+#. Default: "You may not remove a list type that is currently used by an item, check for example : ${url}."
+msgid "error_list_types_identifier_removed_already_used"
+msgstr "You may not remove a list type that is currently used by an item, check for example : ${url}."
+
+#. Default: "You may not remove the default list types ('normal' and 'late')."
+msgid "error_list_types_missing_default"
+msgstr "You may not remove the default list types ('normal' and 'late')."
+
+#. Default: "You may not use the same identifier several times."
+msgid "error_list_types_same_identifier"
+msgstr "You may not use the same identifier several times."
+
+#. Default: "You may only use lowercase letters for identifier."
+msgid "error_list_types_wrong_identifier_format"
+msgstr "You may only use lowercase letters for identifier."
 
 #. Default: "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."
 msgid "eventOccurred_mail_body"
@@ -3069,13 +3089,17 @@ msgstr "Late"
 msgid "list_type_normal"
 msgstr "Normal"
 
+#. Default: "Types of list of items that will be available when an item is linked to a meeting."
+msgid "list_types_descr"
+msgstr "Types of list of items that will be available when an item is linked to a meeting."
+
 #. Default: "Size"
 msgid "listingheader_size"
 msgstr "Size"
 
 #. Default: "Title"
 msgid "listingheader_title"
-msgstr ""
+msgstr "Title"
 
 #. Default: "Manage content in a second language"
 msgid "ma_second_language"
@@ -4571,4 +4595,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

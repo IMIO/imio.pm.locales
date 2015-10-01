@@ -847,6 +847,10 @@ msgstr ""
 msgid "PloneMeeting_label_listType"
 msgstr ""
 
+#. Default: "Types of item"
+msgid "PloneMeeting_label_listTypes"
+msgstr ""
+
 #. Default: "Mail format"
 msgid "PloneMeeting_label_mailFormat"
 msgstr ""
@@ -2264,6 +2268,22 @@ msgstr ""
 msgid "error_certified_signatures_order"
 msgstr ""
 
+#. Default: "You may not remove a list type that is currently used by an item, check for example : ${url}."
+msgid "error_list_types_identifier_removed_already_used"
+msgstr ""
+
+#. Default: "You may not remove the default list types ('normal' and 'late')."
+msgid "error_list_types_missing_default"
+msgstr ""
+
+#. Default: "You may not use the same identifier several times."
+msgid "error_list_types_same_identifier"
+msgstr ""
+
+#. Default: "You may only use lowercase letters for identifier."
+msgid "error_list_types_wrong_identifier_format"
+msgstr ""
+
 #. Default: "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."
 msgid "eventOccurred_mail_body"
 msgstr ""
@@ -3080,6 +3100,10 @@ msgstr ""
 
 #. Default: "Normal"
 msgid "list_type_normal"
+msgstr ""
+
+#. Default: "Types of list of items that will be available when an item is linked to a meeting."
+msgid "list_types_descr"
 msgstr ""
 
 #. Default: "Size"

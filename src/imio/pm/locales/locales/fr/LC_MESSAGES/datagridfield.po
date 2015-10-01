@@ -63,6 +63,14 @@ msgstr "Délai pour rendre l'avis"
 msgid "Delay left alert"
 msgstr "Seuil d'alerte pour le délai"
 
+#. Default: "Enter a short label that will be displayed in the application.  This will be translated by the application if possible.  If you want to colorrize this new list type on the meeting view, you will need to do this using CSS like it is the case for 'late' items."
+msgid "Enter a short label that will be displayed in the application.  This will be translated by the application if possible.  If you want to colorrize this new list type on the meeting view, you will need to do this using CSS like it is the case for 'late' items."
+msgstr "Encodez une libellé qui sera affiché dans l'application.  Ce libellé sera traduit par l'application si possible.  Si vous souhaitez colorer les points utilisant ce type de liste sur la vue de la séance comme c'est le cas pour les points 'late', il faudra le faire en CSS."
+
+#. Default: "Enter an internal identifier, use only lowercase letters."
+msgid "Enter an internal identifier, use only lowercase letters."
+msgstr "Encodez un identifiant interne à l'application, n'utilisez que des lettres minuscules."
+
 #. Default: "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgid "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgstr "Encodez la date depuis laquelle la signature sera valide, utilisez le format AAAA/MM/JJ, laissez le champ vide pour que la signature soit toujours valide."
@@ -90,6 +98,14 @@ msgstr "Sélectionnez 'Oui' si vous souhaitez faire un lien logique entre une li
 #. Default: "Is linked to previous row?"
 msgid "Is linked to previous row?"
 msgstr "Lié à la ligne précédente?"
+
+#. Default: "List type identifier"
+msgid "List type identifier"
+msgstr "Identifiant"
+
+#. Default: "List type label"
+msgid "List type label"
+msgstr "Libellé"
 
 #. Default: "Meeting config"
 msgid "Meeting config to clone to Meeting config"
