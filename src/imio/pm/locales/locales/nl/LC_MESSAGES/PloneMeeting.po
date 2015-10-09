@@ -1440,10 +1440,6 @@ msgstr ""
 msgid "a_meeting_manager"
 msgstr "Meeting beheerder"
 
-#. Default: "Access information was removed for deleted users ${usersRemoved}."
-msgid "access_info_purged"
-msgstr "Toegangsinformatie werd verwijderd voor geschrapte gebruikers"
-
 #. Default: "The element has been activated."
 msgid "activate_done_descr"
 msgstr ""
@@ -3464,10 +3460,6 @@ msgstr ""
 msgid "nil"
 msgstr "visa"
 
-#. Default: "No access information was removed."
-msgid "no_access_info_purged"
-msgstr "Geen toegangsinformatie werd verwijderd."
-
 #. Default: "No annex is currently defined for this element."
 #, fuzzy
 msgid "no_annexes"
@@ -3922,10 +3914,6 @@ msgstr ""
 msgid "publish_deadline_default_descr"
 msgstr ""
 
-#. Default: "Remove access info for deleted users"
-msgid "purge_user_access_info"
-msgstr "Verwijder toegangsinfo voor geschrapte gebruikers"
-
 #. Default: "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
 msgid "record_item_history_states_descr"
 msgstr ""
@@ -4197,6 +4185,10 @@ msgstr ""
 
 #. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
 msgid "sub_types_descr"
+msgstr ""
+
+#. Default: "Are you sure to want to cancel current edition? Changes will be lost if any."
+msgid "sure_to_cancel_edit"
 msgstr ""
 
 #. Default: "Are you sure to want to present every selected items into the meeting?"

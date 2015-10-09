@@ -1449,10 +1449,6 @@ msgstr ""
 msgid "a_meeting_manager"
 msgstr "Un administrador de reunión"
 
-#. Default: "Access information was removed for deleted users ${usersRemoved}."
-msgid "access_info_purged"
-msgstr "La información de accesos fue removida por usuarios eliminados ${usersRemoved}."
-
 #. Default: "The element has been activated."
 msgid "activate_done_descr"
 msgstr "El elemento ha siso activado."
@@ -3478,10 +3474,6 @@ msgstr "Allí hay ${nb} tarea(s) prevista(s) para la próxima noche."
 msgid "nil"
 msgstr "Nulo"
 
-#. Default: "No access information was removed."
-msgid "no_access_info_purged"
-msgstr "Sin acceso a la información porque fue removido."
-
 #. Default: "No annex is currently defined for this element."
 msgid "no_annexes"
 msgstr "Actualmente sin anexos definidos para este tema."
@@ -3938,10 +3930,6 @@ msgstr ""
 msgid "publish_deadline_default_descr"
 msgstr "Especifique aquí la fecha límite para la validación de los temas que se insertan en una reunión dada. Usted tiene la necesidad de expresar este plazo en relación con la fecha de la reunión. Por ejemplo, '5 .9:30' (no escriba las comillas) eso significa: '5 días antes de la fecha de la reunión, a las 9:30'."
 
-#. Default: "Remove access info for deleted users"
-msgid "purge_user_access_info"
-msgstr "Remover todo la información de acceso para los usuarios eliminados"
-
 #. Default: "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
 msgid "record_item_history_states_descr"
 msgstr "Seleccione aquí los estados del tema en los cuales algunos eventos relacionados al tema (como creaciones o eliminaciones de anexo) será almacenada en el histórico del tema."
@@ -4214,6 +4202,10 @@ msgstr ""
 
 #. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
 msgid "sub_types_descr"
+msgstr ""
+
+#. Default: "Are you sure to want to cancel current edition? Changes will be lost if any."
+msgid "sure_to_cancel_edit"
 msgstr ""
 
 #. Default: "Are you sure to want to present every selected items into the meeting?"

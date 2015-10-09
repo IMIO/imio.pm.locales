@@ -1443,10 +1443,6 @@ msgstr ""
 msgid "a_meeting_manager"
 msgstr "Ein Sitzungsmanager"
 
-#. Default: "Access information was removed for deleted users ${usersRemoved}."
-msgid "access_info_purged"
-msgstr "Zugangsinformationen für gelöschten Benutzer ${usersRemoved} wurden gelöscht"
-
 #. Default: "The element has been activated."
 msgid "activate_done_descr"
 msgstr ""
@@ -3489,10 +3485,6 @@ msgstr ""
 msgid "nil"
 msgstr "Null"
 
-#. Default: "No access information was removed."
-msgid "no_access_info_purged"
-msgstr "Es wurde keine Zugriffsinformation gelöscht."
-
 #. Default: "No annex is currently defined for this element."
 #, fuzzy
 msgid "no_annexes"
@@ -3947,10 +3939,6 @@ msgstr ""
 msgid "publish_deadline_default_descr"
 msgstr "Definieren Sie hier die Frist bis wann TOP validiert sein müssen um in eine Sitzung aufgenommen werden zu können. Diese Frist muss realtiv zum Datum der Sitzung eingegeben werden. Z.B., '5.9:30' (Ohne Anführungszeichen eintragen) bedeutet '5 Tage vor dem Sitzungsdatum, um 9:30 Uhr'."
 
-#. Default: "Remove access info for deleted users"
-msgid "purge_user_access_info"
-msgstr "Lösche Zugangsdaten für gelöschten Benutzer"
-
 #. Default: "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
 msgid "record_item_history_states_descr"
 msgstr "Wählen sie hier die Stati der TOP für welche einige Ereignisse relativ zum TOP (wie das anhägen oder löchen von Anlagen), in der TOP-History gespeichert werden."
@@ -4223,6 +4211,10 @@ msgstr ""
 
 #. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
 msgid "sub_types_descr"
+msgstr ""
+
+#. Default: "Are you sure to want to cancel current edition? Changes will be lost if any."
+msgid "sure_to_cancel_edit"
 msgstr ""
 
 #. Default: "Are you sure to want to present every selected items into the meeting?"

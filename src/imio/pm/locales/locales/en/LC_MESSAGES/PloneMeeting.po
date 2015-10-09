@@ -1438,10 +1438,6 @@ msgstr "You are about to change delay for this advice to ${new_advice_delay} day
 msgid "a_meeting_manager"
 msgstr "A meeting manager"
 
-#. Default: "Access information was removed for deleted users ${usersRemoved}."
-msgid "access_info_purged"
-msgstr ""
-
 #. Default: "The element has been activated."
 msgid "activate_done_descr"
 msgstr "The element has been activated."
@@ -3451,10 +3447,6 @@ msgstr "There are ${nb} task(s) foreseen for next night."
 msgid "nil"
 msgstr "Nil"
 
-#. Default: "No access information was removed."
-msgid "no_access_info_purged"
-msgstr ""
-
 #. Default: "No annex is currently defined for this element."
 msgid "no_annexes"
 msgstr "No annex is currently defined for this element."
@@ -3908,10 +3900,6 @@ msgstr "Public meeting"
 msgid "publish_deadline_default_descr"
 msgstr "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use the functionnality."
 
-#. Default: "Remove access info for deleted users"
-msgid "purge_user_access_info"
-msgstr "Remove access info for deleted users"
-
 #. Default: "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
 msgid "record_item_history_states_descr"
 msgstr "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
@@ -4182,6 +4170,10 @@ msgstr "You can not remove a sub type that has already been used in the applicat
 #. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
 msgid "sub_types_descr"
 msgstr "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
+
+#. Default: "Are you sure to want to cancel current edition? Changes will be lost if any."
+msgid "sure_to_cancel_edit"
+msgstr "Are you sure to want to cancel current edition? Changes will be lost if any."
 
 #. Default: "Are you sure to want to present every selected items into the meeting?"
 msgid "sure_to_present_selected_items"
@@ -4595,4 +4587,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

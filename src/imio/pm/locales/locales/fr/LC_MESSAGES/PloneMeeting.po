@@ -1438,10 +1438,6 @@ msgstr "Vous êtes sur le point de changer le délai de cet avis pour ${new_advi
 msgid "a_meeting_manager"
 msgstr "Un gestionnaire de séance"
 
-#. Default: "Access information was removed for deleted users ${usersRemoved}."
-msgid "access_info_purged"
-msgstr "Les informations d'accès ont été supprimées pour les utilisateurs suivants (inexistants): ${usersRemoved}."
-
 #. Default: "The element has been activated."
 msgid "activate_done_descr"
 msgstr "L'élément a été activé."
@@ -3450,10 +3446,6 @@ msgstr "Il y a ${nb} tâche(s) prévues pour cette nuit."
 msgid "nil"
 msgstr "Néant"
 
-#. Default: "No access information was removed."
-msgid "no_access_info_purged"
-msgstr "Aucune information d'accès n'a été supprimée."
-
 #. Default: "No annex is currently defined for this element."
 msgid "no_annexes"
 msgstr "Aucune annexe n'est actuellement définie pour cet élément."
@@ -3907,10 +3899,6 @@ msgstr "Séance publique"
 msgid "publish_deadline_default_descr"
 msgstr "Spécifiez ici l'échéance pour valider des points à insérer dans une séance donnée. Vous devez exprimer cette échéance comme étant relative à la date de la séance. Par exemple, '5.9:30' (n'encodez pas d'apostrophes) signifie '5 jours avant la date de la séance, à 9:30'.  Laissez le champ vide si vous ne souhaitez pas utiliser cette fonctionnalité."
 
-#. Default: "Remove access info for deleted users"
-msgid "purge_user_access_info"
-msgstr "Purger les infos d'accès des utilisateurs supprimés"
-
 #. Default: "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
 msgid "record_item_history_states_descr"
 msgstr "Sélectionnez ici les états des points dans lesquels certains événements relatifs aux points (comme la création ou la suppression d'annexes) seront stockés dans leur historique."
@@ -4181,6 +4169,10 @@ msgstr "Vous ne pouvez pas supprimer un sous-type de fichier qui a déjà été 
 #. Default: "Define here sub types for this file type.  This will let the user use it as another file type but once added, it will share the same icon as the main file type.  You are able to define in particular another title (that will be displayed in the file type select box on the annexes form) and predefined title."
 msgid "sub_types_descr"
 msgstr "Définissez ici des sous-types de fichier.  Ces sous-types de fichiers pourront être utilisés comme les types de fichiers, mais lorsqu'une annexe sera ajoutée avec ce sous-type, elle utilisera la même icône que le type de fichier principal.  Il est notamment possible de définir pour chacun de ces sous-types un autre titre (qui apparaîtra dans la liste déroulante de choix du type de fichier sur le formulaire d'ajout d'une annexe) et un titre prédéfini."
+
+#. Default: "Are you sure to want to cancel current edition? Changes will be lost if any."
+msgid "sure_to_cancel_edit"
+msgstr "Êtes-vous sûr de vouloir annuler l'édition? Si vous avez fait des changements, ils seront perdus."
 
 #. Default: "Are you sure to want to present every selected items into the meeting?"
 msgid "sure_to_present_selected_items"
@@ -4593,4 +4585,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

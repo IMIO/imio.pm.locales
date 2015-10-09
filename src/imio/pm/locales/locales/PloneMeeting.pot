@@ -1615,18 +1615,6 @@ msgstr ""
 msgid "tool_plonemeeting_misc"
 msgstr ""
 
-#. Default: "Remove access info for deleted users"
-msgid "purge_user_access_info"
-msgstr ""
-
-#. Default: "No access information was removed."
-msgid "no_access_info_purged"
-msgstr ""
-
-#. Default: "Access information was removed for deleted users ${usersRemoved}."
-msgid "access_info_purged"
-msgstr ""
-
 # MeetingGroup
 #. Default: "Acronym"
 msgid "PloneMeeting_label_acronym"
@@ -3538,6 +3526,10 @@ msgstr ""
 
 #. Default: "Are you sure to want to present every selected items into the meeting?"
 msgid "sure_to_present_selected_items"
+msgstr ""
+
+#. Default: "Are you sure to want to cancel current edition? Changes will be lost if any."
+msgid "sure_to_cancel_edit"
 msgstr ""
 
 #. Default: "The result shows only elements you are allowed to view."
