@@ -2859,9 +2859,9 @@ msgstr "Point dupliqué et lien vers le point original gardé : vous voyez actue
 msgid "item_icon_color_descr"
 msgstr "Cette icône est affichée à différents endroits de l'application où des points de plusieurs configuration de séances sont affichés ensemble, ceci permet de les différencier, par exemple lors de l'utilisation de la recherche plein texte disponible en haut à droite de l'écran de l'application, ou dans la gestion des points liés.  <span style='color: red';>Attention, si vous changez ce paramètre, l'icône des points existants sera mise à jour, ceci peut prendre du temps en fonction du nombre de points, ne pas changer ce paramètre dans une période de forte utilisation!</span>"
 
-#. Default: "You can't make this move. Please specify a number between 1 and ${nbOfItems}."
+#. Default: "You can't make this move. Please specify a valid number."
 msgid "item_illegal_move"
-msgstr "Vous ne pouvez pas effectuer ce déplacement. Spécifiez un numéro entre 1 et ${nbOfItems}."
+msgstr "Vous ne pouvez pas effectuer ce déplacement. Spécifiez un numéro valide s'il vous plaît."
 
 #. Default: "Use CTRL+click to select several initiators."
 msgid "item_initiator_descr"

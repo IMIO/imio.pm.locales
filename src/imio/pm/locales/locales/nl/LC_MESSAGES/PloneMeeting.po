@@ -2867,7 +2867,7 @@ msgstr ""
 msgid "item_icon_color_descr"
 msgstr ""
 
-#. Default: "You can't make this move. Please specify a number between 1 and ${nbOfItems}."
+#. Default: "You can't make this move. Please specify a valid number."
 #, fuzzy
 msgid "item_illegal_move"
 msgstr "You can't make this move. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."

@@ -2859,9 +2859,9 @@ msgstr "The item has been duplicated and a link to the original item has been ke
 msgid "item_icon_color_descr"
 msgstr "This icon is shown in different places where different kind of item (college, council, ...) are shown together.  This is the case in the full text quick search displayed up right in the application, when selecting manually linked items or viewing linked items on the item view.  <span style='color: red';>If you change this parameter, this will update the icon of each created items of this meeting configuration and this could take some time depending on number of items.  Do not change this during high use period!</span>"
 
-#. Default: "You can't make this move. Please specify a number between 1 and ${nbOfItems}."
+#. Default: "You can't make this move. Please specify a valid number."
 msgid "item_illegal_move"
-msgstr "You can't make this move. Please specify a number between 1 and ${nbOfItems}."
+msgstr "You can't make this move. Please specify a valid number."
 
 #. Default: "Use CTRL+click to select several initiators."
 msgid "item_initiator_descr"
@@ -4308,9 +4308,8 @@ msgid "to_hidden_during_redaction"
 msgstr "Hide during redaction, the advice will be considered 'not given'."
 
 #. Default: "Publish advice, the advice will be confirmed and considered 'given'."
-#, fuzzy
 msgid "to_not_hidden_during_redaction"
-msgstr "Show advice, the advice will be confirmed and considered 'given'."
+msgstr "Publish advice, the advice will be confirmed and considered 'given'."
 
 #. Default: "Back to previous given advice"
 msgid "to_previous_given_advice"
