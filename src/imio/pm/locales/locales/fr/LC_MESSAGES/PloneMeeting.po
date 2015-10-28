@@ -4186,6 +4186,10 @@ msgstr "Êtes-vous sûr de vouloir présenter tous les points sélectionnés dan
 msgid "sure_to_remove_selected_items"
 msgstr "Êtes-vous sûr de vouloir retirer tous les points sélectionnés de la séance?"
 
+#. Default: "This item is taken over by another user, are you sure to want to remove it?"
+msgid "sure_to_take_over"
+msgstr "Ce point est pris en charge pas un autre utilisateur, souhaitez-vous enlever cette prise en charge (vous pourrez alors le prendre en charge à sa place)?"
+
 #. Default: "Switch mode (secret / not secret)"
 msgid "switch_votes"
 msgstr "Basculer vers l'autre mode (secret / non secret)"
