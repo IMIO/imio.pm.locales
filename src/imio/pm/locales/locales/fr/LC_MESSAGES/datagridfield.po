@@ -191,9 +191,9 @@ msgstr "Titre prédéfini attribué à chaque fichier de ce type qui sera upload
 msgid "Sub type title"
 msgstr "Titre"
 
-#. Default: "The TAL expression.  Element 'here' represent the item."
-msgid "The TAL expression.  Element 'here' represent the item."
-msgstr "Encodez une expression au format TAL.  L'élément 'here' représente le point."
+#. Default: "The TAL expression.  Element 'here' represent the item.  This expression MUST return valid HTML or it will not behave properly on the item."
+msgid "The TAL expression.  Element 'here' represent the item.  This expression MUST return valid HTML or it will not behave properly on the item."
+msgstr "Encodez une expression au format TAL. L'élément 'here' représente le point. Cette expression DOIT retourner du HTML valide ou il ne sera pas affiché correctement sur le point."
 
 #. Default: "The item field that will be transformed."
 msgid "The item field that will be transformed."

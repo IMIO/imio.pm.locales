@@ -175,8 +175,8 @@ msgstr ""
 msgid "On transition field transform TAL expression"
 msgstr ""
 
-#. Default: "The TAL expression.  Element 'here' represent the item."
-msgid "The TAL expression.  Element 'here' represent the item."
+#. Default: "The TAL expression.  Element 'here' represent the item.  This expression MUST return valid HTML or it will not behave properly on the item."
+msgid "The TAL expression.  Element 'here' represent the item.  This expression MUST return valid HTML or it will not behave properly on the item."
 msgstr ""
 
 #. Default: "Transition triggered on the meeting"
