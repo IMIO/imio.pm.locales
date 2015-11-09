@@ -163,6 +163,10 @@ msgstr "PloneMeeting Portlet bearbeiten"
 msgid "Edit Todo Portlet"
 msgstr "Zu erledigen Portlet bearbeiten"
 
+#. Default: "Emergency"
+msgid "Emergency while presenting in other MC"
+msgstr ""
+
 #. Default: "Enter a reference for this advice if necessary."
 msgid "Enter a reference for this advice if necessary."
 msgstr ""
@@ -1011,6 +1015,10 @@ msgstr ""
 
 #. Default: "Other meeting configs clonable to"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableTo"
+msgstr ""
+
+#. Default: "Present in the next meeting accepting items (in state 'created' or not)"
+msgid "PloneMeeting_label_otherMeetingConfigsClonableToEmergency"
 msgstr ""
 
 #. Default: "Place"
@@ -4159,12 +4167,24 @@ msgstr ""
 msgid "sent_to_other_mc_term__clonable_to"
 msgstr ""
 
+#. Default: "${meetingConfigTitle} (to send to - Emergency)"
+msgid "sent_to_other_mc_term__clonable_to_emergency"
+msgstr ""
+
 #. Default: "${meetingConfigTitle} (sent to)"
 msgid "sent_to_other_mc_term__cloned_to"
 msgstr ""
 
+#. Default: "${meetingConfigTitle} (sent to - Emergency)"
+msgid "sent_to_other_mc_term__cloned_to_emergency"
+msgstr ""
+
 #. Default: "Item sent to ${meetingConfigTitle}"
 msgid "sentto_othermeetingconfig"
+msgstr ""
+
+#. Default: "Item sent to ${meetingConfigTitle} (Emergency)"
+msgid "sentto_othermeetingconfig_emergency"
 msgstr ""
 
 #. Default: "This short name (3 or 4 letters maximum, without special characters or accents) is used internally by PloneMeeting, ie for deriving meeting-configuration-specific item and meeting content types. Note that all content types representing 'items' share the same meta-type (=the same Python class). The same is true for all content types representing 'meetings'."
@@ -4614,6 +4634,10 @@ msgstr ""
 
 #. Default: "Item will be sent to ${meetingConfigTitle}"
 msgid "will_be_sentto_othermeetingconfig"
+msgstr ""
+
+#. Default: "Item will be sent to ${meetingConfigTitle} (Emergency)"
+msgid "will_be_sentto_othermeetingconfig_emergency"
 msgstr ""
 
 #. Default: "Workflows"

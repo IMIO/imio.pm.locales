@@ -163,6 +163,10 @@ msgstr "Edition d'un portlet 'PloneMeeting'"
 msgid "Edit Todo Portlet"
 msgstr "Edition du portlet 'à faire'"
 
+#. Default: "Emergency"
+msgid "Emergency while presenting in other MC"
+msgstr "Urgence"
+
 #. Default: "Enter a reference for this advice if necessary."
 msgid "Enter a reference for this advice if necessary."
 msgstr "Encodez une référence pour l'avis si nécessaire."
@@ -1010,6 +1014,10 @@ msgstr "Correspondances lors de l'envoi vers un autre type de séance"
 #. Default: "Other meeting configs clonable to"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableTo"
 msgstr "A envoyer vers"
+
+#. Default: "Present in the next meeting accepting items (in state 'created' or not)"
+msgid "PloneMeeting_label_otherMeetingConfigsClonableToEmergency"
+msgstr "Présenter dans la prochaine séance acceptant des points ('en création' ou non)"
 
 #. Default: "Place"
 msgid "PloneMeeting_label_place"
@@ -4117,13 +4125,25 @@ msgstr "Le point a été envoyé à l'assemblée PloneMeeting."
 msgid "sent_to_other_mc_term__clonable_to"
 msgstr "${meetingConfigTitle} (A envoyer)"
 
+#. Default: "${meetingConfigTitle} (to send to - Emergency)"
+msgid "sent_to_other_mc_term__clonable_to_emergency"
+msgstr "${meetingConfigTitle} (A envoyer - Urgence)"
+
 #. Default: "${meetingConfigTitle} (sent to)"
 msgid "sent_to_other_mc_term__cloned_to"
 msgstr "${meetingConfigTitle} (Envoyé)"
 
+#. Default: "${meetingConfigTitle} (sent to - Emergency)"
+msgid "sent_to_other_mc_term__cloned_to_emergency"
+msgstr "${meetingConfigTitle} (Envoyé - Urgence)"
+
 #. Default: "Item sent to ${meetingConfigTitle}"
 msgid "sentto_othermeetingconfig"
 msgstr "Envoyé vers ${meetingConfigTitle}"
+
+#. Default: "Item sent to ${meetingConfigTitle} (Emergency)"
+msgid "sentto_othermeetingconfig_emergency"
+msgstr "Envoyé vers ${meetingConfigTitle} (Urgence)"
 
 #. Default: "This short name (3 or 4 letters maximum, without special characters or accents) is used internally by PloneMeeting, ie for deriving meeting-configuration-specific item and meeting content types. Note that all content types representing 'items' share the same meta-type (=the same Python class). The same is true for all content types representing 'meetings'."
 msgid "short_name_descr"
@@ -4569,6 +4589,10 @@ msgstr "Cette transition a été automatiquement exécutée par l'application."
 #. Default: "Item will be sent to ${meetingConfigTitle}"
 msgid "will_be_sentto_othermeetingconfig"
 msgstr "Ce point sera envoyé vers ${meetingConfigTitle}"
+
+#. Default: "Item will be sent to ${meetingConfigTitle} (Emergency)"
+msgid "will_be_sentto_othermeetingconfig_emergency"
+msgstr "Ce point sera envoyé vers ${meetingConfigTitle} (Urgence)"
 
 #. Default: "Workflows"
 msgid "workflow"

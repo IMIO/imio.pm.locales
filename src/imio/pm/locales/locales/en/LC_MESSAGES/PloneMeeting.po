@@ -163,6 +163,10 @@ msgstr "Edit PloneMeeting Portlet"
 msgid "Edit Todo Portlet"
 msgstr "Edit Todo Portlet"
 
+#. Default: "Emergency"
+msgid "Emergency while presenting in other MC"
+msgstr "Emergency"
+
 #. Default: "Enter a reference for this advice if necessary."
 msgid "Enter a reference for this advice if necessary."
 msgstr "Enter a reference for this advice if necessary."
@@ -345,7 +349,7 @@ msgstr "Once viewable, the adviser will have ${advice_delay} days to give the ad
 
 #. Default: "Please provide a valid number."
 msgid "Please provide a valid number."
-msgstr ""
+msgstr "Please provide a valid number."
 
 #. Default: "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgid "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
@@ -1010,6 +1014,10 @@ msgstr "Correspondences while sent to other meeting configs"
 #. Default: "Other meeting configs clonable to"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableTo"
 msgstr "Other meeting configs clonable to"
+
+#. Default: "Present in the next meeting accepting items (in state 'created' or not)"
+msgid "PloneMeeting_label_otherMeetingConfigsClonableToEmergency"
+msgstr "Present in the next meeting accepting items (in state 'created' or not)"
 
 #. Default: "Place"
 msgid "PloneMeeting_label_place"
@@ -4118,13 +4126,25 @@ msgstr "The item has been successfully transfered to the plonemeeting assembly."
 msgid "sent_to_other_mc_term__clonable_to"
 msgstr "${meetingConfigTitle} (to send to)"
 
+#. Default: "${meetingConfigTitle} (to send to - Emergency)"
+msgid "sent_to_other_mc_term__clonable_to_emergency"
+msgstr ""
+
 #. Default: "${meetingConfigTitle} (sent to)"
 msgid "sent_to_other_mc_term__cloned_to"
 msgstr "${meetingConfigTitle} (sent to)"
 
+#. Default: "${meetingConfigTitle} (sent to - Emergency)"
+msgid "sent_to_other_mc_term__cloned_to_emergency"
+msgstr ""
+
 #. Default: "Item sent to ${meetingConfigTitle}"
 msgid "sentto_othermeetingconfig"
 msgstr "Item sent to ${meetingConfigTitle}"
+
+#. Default: "Item sent to ${meetingConfigTitle} (Emergency)"
+msgid "sentto_othermeetingconfig_emergency"
+msgstr ""
 
 #. Default: "This short name (3 or 4 letters maximum, without special characters or accents) is used internally by PloneMeeting, ie for deriving meeting-configuration-specific item and meeting content types. Note that all content types representing 'items' share the same meta-type (=the same Python class). The same is true for all content types representing 'meetings'."
 msgid "short_name_descr"
@@ -4189,7 +4209,7 @@ msgstr "Are you sure to want to remove every selected items from the meeting?"
 
 #. Default: "This item is taken over by another user, are you sure to want to remove it?"
 msgid "sure_to_take_over"
-msgstr ""
+msgstr "This item is taken over by another user, are you sure to want to remove it?"
 
 #. Default: "Switch mode (secret / not secret)"
 msgid "switch_votes"
@@ -4570,6 +4590,10 @@ msgstr "This transition was automatically triggered by the application."
 #. Default: "Item will be sent to ${meetingConfigTitle}"
 msgid "will_be_sentto_othermeetingconfig"
 msgstr "Item will be sent to ${meetingConfigTitle}"
+
+#. Default: "Item will be sent to ${meetingConfigTitle} (Emergency)"
+msgid "will_be_sentto_othermeetingconfig_emergency"
+msgstr ""
 
 #. Default: "Workflows"
 msgid "workflow"

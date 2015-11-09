@@ -420,6 +420,14 @@ msgstr ""
 msgid "PloneMeeting_label_otherMeetingConfigsClonableTo"
 msgstr ""
 
+#. Default: "Present in the next meeting accepting items (in state 'created' or not)"
+msgid "PloneMeeting_label_otherMeetingConfigsClonableToEmergency"
+msgstr ""
+
+#. Default: "Emergency"
+msgid "Emergency while presenting in other MC"
+msgstr ""
+
 #. Default: "Questions"
 msgid "PloneMeeting_label_questioners"
 msgstr ""
@@ -4029,8 +4037,16 @@ msgstr ""
 msgid "sentto_othermeetingconfig"
 msgstr ""
 
+#. Default: "Item sent to ${meetingConfigTitle} (Emergency)"
+msgid "sentto_othermeetingconfig_emergency"
+msgstr ""
+
 #. Default: "Item will be sent to ${meetingConfigTitle}"
 msgid "will_be_sentto_othermeetingconfig"
+msgstr ""
+
+#. Default: "Item will be sent to ${meetingConfigTitle} (Emergency)"
+msgid "will_be_sentto_othermeetingconfig_emergency"
 msgstr ""
 
 #. Default: "Unable to send this item to the ${meetingConfigTitle} meetingConfig because the user to create the item to does not have a personal folder in this meetingConfig.  If necessary, the concerned user can connect for this folder to be created automatically."
@@ -4538,8 +4554,16 @@ msgstr ""
 msgid "sent_to_other_mc_term__clonable_to"
 msgstr ""
 
+#. Default: "${meetingConfigTitle} (to send to - Emergency)"
+msgid "sent_to_other_mc_term__clonable_to_emergency"
+msgstr ""
+
 #. Default: "${meetingConfigTitle} (sent to)"
 msgid "sent_to_other_mc_term__cloned_to"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} (sent to - Emergency)"
+msgid "sent_to_other_mc_term__cloned_to_emergency"
 msgstr ""
 
 #. Default: "Not to be cloned to anywhere"
