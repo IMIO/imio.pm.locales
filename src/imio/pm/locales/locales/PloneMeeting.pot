@@ -4486,6 +4486,22 @@ msgstr ""
 msgid "meeting_present_item_when_no_current_meeting_states_descr"
 msgstr ""
 
+#. Default: "States in which an item will be automatically sent to selected other meeting configurations"
+msgid "PloneMeeting_label_itemAutoSentToOtherMCStates"
+msgstr ""
+
+#. Default: "As soon as an item will be in one of the states you check here, it will be sent to other meeting configurations selected on it."
+msgid "item_auto_sent_to_other_mc_states_descr"
+msgstr ""
+
+#. Default: "States in which an item may be manually sent to selected other meeting configurations"
+msgid "PloneMeeting_label_itemManualSentToOtherMCStates"
+msgstr ""
+
+#. Default: "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
+msgid "item_manual_sent_to_other_mc_states_descr"
+msgstr ""
+
 #. Default: "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
 msgid "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
 msgstr ""

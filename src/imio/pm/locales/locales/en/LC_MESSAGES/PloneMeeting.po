@@ -749,6 +749,10 @@ msgstr "Assembly absents that is specific to this meeting item"
 msgid "PloneMeeting_label_itemAssemblyExcused"
 msgstr "Assembly excused that is specific to this meeting item"
 
+#. Default: "States in which an item will be automatically sent to selected other meeting configurations"
+msgid "PloneMeeting_label_itemAutoSentToOtherMCStates"
+msgstr ""
+
 #. Default: "Item states in wich budget impact editors can change budgetary informations"
 msgid "PloneMeeting_label_itemBudgetInfosStates"
 msgstr "Item states in wich budget impact editors can change budgetary informations"
@@ -792,6 +796,10 @@ msgstr "Item is signed ?"
 #. Default: "Keywords"
 msgid "PloneMeeting_label_itemKeywords"
 msgstr "Keywords"
+
+#. Default: "States in which an item may be manually sent to selected other meeting configurations"
+msgid "PloneMeeting_label_itemManualSentToOtherMCStates"
+msgstr ""
 
 #. Default: "Number"
 msgid "PloneMeeting_label_itemNumber"
@@ -2811,6 +2819,10 @@ msgstr "If you don't fill this field, meeting assembly will be used for this ite
 msgid "item_assembly_excused_descr"
 msgstr "If you don't fill this field, meeting assembly excused will be used for this item"
 
+#. Default: "As soon as an item will be in one of the states you check here, it will be sent to other meeting configurations selected on it."
+msgid "item_auto_sent_to_other_mc_states_descr"
+msgstr ""
+
 #. Default: "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations."
 msgid "item_budget_infos_states_descr"
 msgstr "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations."
@@ -2894,6 +2906,10 @@ msgstr "The item is signed."
 #. Default: "The item is signed. Click on the image to remove signature."
 msgid "item_is_signed_yes_edit"
 msgstr "The item is signed. Click on the image to remove signature."
+
+#. Default: "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
+msgid "item_manual_sent_to_other_mc_states_descr"
+msgstr ""
 
 #. Default: "No move occurred: please specify a valid number."
 msgid "item_number_invalid"

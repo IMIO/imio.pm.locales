@@ -229,7 +229,7 @@ msgstr "Nombre d'éléments à afficher par recherche dans le portlet."
 
 #. Default: "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
 msgid "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
-msgstr "Si vous désactivez ce groupe PloneMeeting, tous les utilisateurs des groupes Plone liés seront transférés dans le sous-groupe '(Observateurs)' de sorte qu'ils puissent toujours avoir un accès en lecture aux points existants mais qu'il ne puisse plus en créer de nouveaux. De plus, ce groupe sera enlevé des groupes qui pourront être mis en copies dans les différentes configurations de séance."
+msgstr "Si vous désactivez ce groupe PloneMeeting, tous les utilisateurs des groupes Plone liés seront transférés dans le sous-groupe '(Observateurs)' de sorte qu'ils puissent toujours avoir un accès en lecture aux points existants mais qu'il ne puisse plus en créer de nouveaux. De plus, ce groupe sera enlevé des groupes qui pourront être mis en copies dans les différentes configurations de séances."
 
 #. Default: "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 msgid "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
@@ -749,6 +749,10 @@ msgstr "Absents pour ce point"
 msgid "PloneMeeting_label_itemAssemblyExcused"
 msgstr "Excusés pour ce point"
 
+#. Default: "States in which an item will be automatically sent to selected other meeting configurations"
+msgid "PloneMeeting_label_itemAutoSentToOtherMCStates"
+msgstr "Etats dans lesquels un point sera automatiquement envoyé vers les autres configurations de séances"
+
 #. Default: "Item states in wich budget impact editors can change budgetary informations"
 msgid "PloneMeeting_label_itemBudgetInfosStates"
 msgstr "Etats des points dans lesquels les 'Gestionnaires d'informations budgétaires' peuvent modifier les informations budgétaires"
@@ -792,6 +796,10 @@ msgstr "Point signé?"
 #. Default: "Keywords"
 msgid "PloneMeeting_label_itemKeywords"
 msgstr "Mots-clé"
+
+#. Default: "States in which an item may be manually sent to selected other meeting configurations"
+msgid "PloneMeeting_label_itemManualSentToOtherMCStates"
+msgstr "Etats dans lesquels un point pourra être manuellement envoyé vers les autres configurations de séances"
 
 #. Default: "Number"
 msgid "PloneMeeting_label_itemNumber"
@@ -1897,7 +1905,7 @@ msgstr "Choisissez ici un identifiant pour votre catégorie."
 
 #. Default: "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
-msgstr "Lorsqu'un point de cette configuration de séance utilisant cette catégorie sera envoyé vers une autre configuration de séance, sélectionnez ci-dessous la catégorie qui devra être utilisée pour le point dans la configuration de séance de destination.  Ceci n'est possible que si les deux configurations de séance (origine et destination) utilisent les catégories."
+msgstr "Lorsqu'un point de cette configuration de séance utilisant cette catégorie sera envoyé vers une autre configuration de séance, sélectionnez ci-dessous la catégorie qui devra être utilisée pour le point dans la configuration de séance de destination.  Ceci n'est possible que si les deux configurations de séances (origine et destination) utilisent les catégories."
 
 #. Default: "Please select a category."
 msgid "category_required"
@@ -2811,6 +2819,10 @@ msgstr "Si vous ne remplissez pas ce champ, l'assemblée définie sur la séance
 msgid "item_assembly_excused_descr"
 msgstr "Si vous ne remplissez pas ce champ, les excusés définis sur le point seront utilisés"
 
+#. Default: "As soon as an item will be in one of the states you check here, it will be sent to other meeting configurations selected on it."
+msgid "item_auto_sent_to_other_mc_states_descr"
+msgstr "Dès qu'un point sera dans un des états cochés ci-dessous, il sera automatiquement envoyé vers les configurations de séances sélectionnées sur celui-ci."
+
 #. Default: "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations."
 msgid "item_budget_infos_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour les utilisateurs qui sont dans le groupe de 'Gestionnaires d'informations budgétaires' de cette configuration de séance de modifier les informations budgétaires.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas de mettre à jour les 'Gestionnaires d'informations budgétaires'!</span>"
@@ -2894,6 +2906,10 @@ msgstr "Le point est signé."
 #. Default: "The item is signed. Click on the image to remove signature."
 msgid "item_is_signed_yes_edit"
 msgstr "Le point est signé, cliquez sur l'image pour enlever la signature."
+
+#. Default: "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
+msgid "item_manual_sent_to_other_mc_states_descr"
+msgstr "Lorsqu'un point sera dans un des états cochés ci-dessous, les utilisateurs ayant le droit d'édition sur le point auront la possibilité de l'envoyer manuellement vers les autres configurations de séances sélectionnées sur celui-ci."
 
 #. Default: "No move occurred: please specify a valid number."
 msgid "item_number_invalid"
@@ -3002,7 +3018,7 @@ msgstr "Supprimer la configuration de séance : attention le dossier lié à cet
 
 #. Default: "Delete the group : the linked Plone groups will be removed too (if empty)!"
 msgid "label_remove_meetinggroup"
-msgstr "Supprimer le groupe : attention les groupes Plone liés doivent être vides et le groupe ne doit pas être référencé dans une configuration de séance (vérifiez les onglets 'Avis' et 'Copies' des configurations de séance)"
+msgstr "Supprimer le groupe : attention les groupes Plone liés doivent être vides et le groupe ne doit pas être référencé dans une configuration de séance (vérifiez les onglets 'Avis' et 'Copies' des configurations de séances)"
 
 #. Default: "Main information"
 msgid "label_schema_default"
@@ -3219,7 +3235,7 @@ msgstr "Gestion des configurations de séances"
 
 #. Default: "Several meeting configurations canbe managed by PloneMeeting. A meeting configuration defines a 'type of meeting' that has its associated set of parameters. Each meeting configuration is completely independant and produces a tab among the main Plone tabs. If your organization manages several distinct meeting types, she can define corresponding meeting configurations here."
 msgid "meeting_configurations_descr"
-msgstr "Plusieurs configurations de séance peuvent être gérées par PloneMeeting. Une configuration de séance définit un 'type de séance', auquel est associé une série de paramètres de configuration. Chaque configuration est totalement indépendante, et donne lieu à un onglet général sur le site Plone. Si votre organisation gère plusieurs types de séances distincts, elle peut définir plusieurs configurations de séances ici."
+msgstr "Plusieurs configurations de séances peuvent être gérées par PloneMeeting. Une configuration de séance définit un 'type de séance', auquel est associé une série de paramètres de configuration. Chaque configuration est totalement indépendante, et donne lieu à un onglet général sur le site Plone. Si votre organisation gère plusieurs types de séances distincts, elle peut définir plusieurs configurations de séances ici."
 
 #. Default: "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
 msgid "meeting_file_types_descr"
@@ -3661,7 +3677,7 @@ msgstr " "
 
 #. Default: "When an item is sent to another meeting config, the annexes of the new item will use meeting file types of the new meeting config.  Define here the correspondences for each meeting config the items of this meeting config can  be sent to.  If you do not define correspondences, the application will use the default meeting file type (first found).  This will not be used if 'Related to advice' is used in the 'Related to' field here above because advices are not kept while an item is sent to another meeting config.  Please select only one value by meeting config the item is sendable to."
 msgid "other_mc_correspondences_descr"
-msgstr "Lorsqu'un point est envoyé vers un autre type de séance, les annexes du nouveau point utiliseront les types de fichier de la nouvelle configuration de séance.  Définissez ici les correspondances pour chacune des configurations de séance vers lesquelles les points peuvent être envoyés.  Si aucune correspondance n'est définie, le type de fichier par défaut sera utilisé (premier trouvé).  Ce champ ne sera pas utilisé si vous définissez 'Annexe à un avis' dans le champ 'Associé à' ci-dessus car les avis ne sont pas gardés lorsqu'un point est envoyé vers une autre configuration de séance.  Ne sélectionnez qu'une valeur par configuration de séance vers laquelle les points peuvent être envoyés."
+msgstr "Lorsqu'un point est envoyé vers un autre type de séance, les annexes du nouveau point utiliseront les types de fichier de la nouvelle configuration de séance.  Définissez ici les correspondances pour chacune des configurations de séances vers lesquelles les points peuvent être envoyés.  Si aucune correspondance n'est définie, le type de fichier par défaut sera utilisé (premier trouvé).  Ce champ ne sera pas utilisé si vous définissez 'Annexe à un avis' dans le champ 'Associé à' ci-dessus car les avis ne sont pas gardés lorsqu'un point est envoyé vers une autre configuration de séance.  Ne sélectionnez qu'une valeur par configuration de séance vers laquelle les points peuvent être envoyés."
 
 #. Default: "Other"
 msgid "other_place"
