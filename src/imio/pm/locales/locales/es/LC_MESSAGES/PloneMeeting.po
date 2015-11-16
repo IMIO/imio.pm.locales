@@ -2906,6 +2906,10 @@ msgstr ""
 msgid "item_illegal_move"
 msgstr "Usted no puede mover esto. Si usted especifica un número X, el tema irá justo antes del tema anterior de número X, y los otros temas se cambiará. Si usted quiere mover un tema al final de la lista, usted debe especificar el número del ultimo tema más uno. Tenga en cuenta que cuando dos temas se muestran en las listas, usted no puede mover los temas desde una lista a la otra."
 
+#. Default: "Selected items may not be switched, specify item number manually."
+msgid "item_illegal_switch"
+msgstr ""
+
 #. Default: "Use CTRL+click to select several initiators."
 msgid "item_initiator_descr"
 msgstr "Presione la tecla CTRL+clic al seleccionar varios iniciadores."

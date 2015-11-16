@@ -2887,6 +2887,10 @@ msgstr "Cette icône est affichée à différents endroits de l'application où 
 msgid "item_illegal_move"
 msgstr "Vous ne pouvez pas effectuer ce déplacement. Spécifiez un numéro valide s'il vous plaît."
 
+#. Default: "Selected items may not be switched, specify item number manually."
+msgid "item_illegal_switch"
+msgstr "Le point sélectionné ne peut pas changer de position avec l'autre point, définissez un numéro de point manuellement."
+
 #. Default: "Use CTRL+click to select several initiators."
 msgid "item_initiator_descr"
 msgstr "Choisissez-en plusieurs en maintenant la touche 'Ctrl' enfoncée."

@@ -2896,6 +2896,10 @@ msgstr ""
 msgid "item_illegal_move"
 msgstr "You can't make this move. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
 
+#. Default: "Selected items may not be switched, specify item number manually."
+msgid "item_illegal_switch"
+msgstr ""
+
 #. Default: "Use CTRL+click to select several initiators."
 msgid "item_initiator_descr"
 msgstr ""
