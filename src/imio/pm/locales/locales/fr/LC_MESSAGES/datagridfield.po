@@ -87,6 +87,10 @@ msgstr "Fonction du signataire (par exemple 'Le Bourgmestre')."
 msgid "Holiday date"
 msgstr "Date"
 
+#. Default: "If the inserting method \"on list types\" is used, will this list type be taken into account while inserting the item in the meeting?"
+msgid "If the inserting method \"on list types\" is used, will this list type be taken into account while inserting the item in the meeting?"
+msgstr "Si la méthode de tri \"Par type de point (normal, en urgence, ...)\" est utilisée dans le champ \"Méthode(s) de tri lors de l'ajout d'un point dans une séance\", est-ce que ce type de point sera pris en compte lors de l'insertion d'un point dans une séance?"
+
 #. Default: "Inserting method"
 msgid "Inserting method"
 msgstr "Méthode d'insertion"
@@ -106,6 +110,10 @@ msgstr "Identifiant"
 #. Default: "List type label"
 msgid "List type label"
 msgstr "Libellé"
+
+#. Default: "List type used_in_inserting_method"
+msgid "List type used_in_inserting_method"
+msgstr "Influence l'ordre d'insertion des points dans la séance?"
 
 #. Default: "Meeting config"
 msgid "Meeting config to clone to Meeting config"
