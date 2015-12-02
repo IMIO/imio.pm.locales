@@ -1351,32 +1351,12 @@ msgstr ""
 msgid "oo_config"
 msgstr ""
 
-#. Default: "PloneMeeting allows to generate various documents related to items, agendas, decisions, etc. For each meeting configuration you can define precise parameters for generating documents. But at this higher level, it is important to know that if you want to generate documents in another format than Open Document Format Text (ODT), ie Microsoft Word, RTF or PDF, you need to install OpenOffice in server mode on the same machine than PloneMeeting, and specify values for the fields of this section, using the 'edit' tab above."
+#. Default: "These parameters are now managed in the ${docgen_url} control panel."
 msgid "oo_config_descr"
 msgstr ""
 
 #. Default: "Active?"
 msgid "heading_is_active"
-msgstr ""
-
-#. Default: "Absolute path to a Python interpreter having the UNO library (access to OpenOffice)"
-msgid "PloneMeeting_label_unoEnabledPython"
-msgstr ""
-
-#. Default: "If the Python interpreter running Plone and Zope does not have the pyUNO library installed (try it by typing 'import uno'), you can specify here another Python interpreter that has it (for example, the Python interpreter coming with OpenOffice or Ubuntu)."
-msgid "uno_enabled_python"
-msgstr ""
-
-#. Default: "OpenOffice listens in server mode to this port"
-msgid "PloneMeeting_label_openOfficePort"
-msgstr ""
-
-#. Default: "If you want to generate item- or meeting-related documents in DOC, PDF or RTF, OpenOffice must be available in server mode on the same machine that runs PloneMeeting."
-msgid "open_office_port"
-msgstr ""
-
-#. Default: "If you check this box: (1) the navigation porlet will be shown; (2) 'copy', 'paste' and 'rename' actions will be visible; (3) users will be able to add objects from the Plone menus entitled 'add to folder'."
-msgid "plone_disk_aware_descr"
 msgstr ""
 
 #. Default: "Title of the folder that PloneMeeting creates in each user folder"
@@ -1385,14 +1365,6 @@ msgstr ""
 
 #. Default: "PloneMeeting, in each member folder (for member having access to PloneMeeting), creates a folder containing one sub-folder for each meeting configuration. Into each subfolder, PloneMeeting stores meetings and items created by this user, and annexes linked to those items."
 msgid "meeting_folder_title"
-msgstr ""
-
-#. Default: "Does the navigation portlet allow to navigate in the user folder only"
-msgid "PloneMeeting_label_navigateLocally"
-msgstr ""
-
-#. Default: "If this box is unchecked, the portlet allows to navigate from the root of the Plone site hosting PloneMeeting."
-msgid "navigate_locally"
 msgstr ""
 
 #. Default: "Email of the functional administrator"
@@ -1409,22 +1381,6 @@ msgstr ""
 
 #. Default: "Type here the full name of the functional administrator. If defined, it will be included in the 'from' part of email notifications sent by PloneMeeting (provided the previous fields as been filled correctly)."
 msgid "functional_admin_name_descr"
-msgstr ""
-
-#. Default: "Used color system"
-msgid "PloneMeeting_label_usedColorSystem"
-msgstr ""
-
-#. Default: "Select between available systems of color : no colorization mean that the items will appear as simple links, colorization based on workflow state is the default behaviour and means that the link on the item will be colored depending on his workflow state.  The new PloneMeeting color system based on last modification allows users to see in a specific color what has changed since the last time they consulted PloneMeeting pages: new items, items whose title or description has changed, newly uploaded annexes. Enabling this last feature will take more space in the Plone database, because PloneMeeting will need to remember the last access time of every item and annex for every user. Enabling this feature on a non empty database may lead to visual inconsistencies due to annexes stored in browsers' caches."
-msgid "used_color_system_descr"
-msgstr ""
-
-#. Default: "Disable color system for the following users"
-msgid "PloneMeeting_label_colorSystemDisabledFor"
-msgstr ""
-
-#. Default: "If the color system is enabled (previous parameter), it will be disabled for the users whose ids are specified here (one user id per line)."
-msgid "color_system_disabled_for_descr"
 msgstr ""
 
 #. Default: "'Restrict users' mode"

@@ -489,10 +489,6 @@ msgstr ""
 msgid "PloneMeeting_label_classifier"
 msgstr "Klassierung"
 
-#. Default: "Disable color system for the following users"
-msgid "PloneMeeting_label_colorSystemDisabledFor"
-msgstr "Das Farbsystem für folgende Benutzer ausschalten"
-
 #. Default: "Completeness"
 msgid "PloneMeeting_label_completeness"
 msgstr ""
@@ -980,10 +976,6 @@ msgstr "Anpassung an das Datenmodell"
 msgid "PloneMeeting_label_motivation"
 msgstr ""
 
-#. Default: "Does the navigation portlet allow to navigate in the user folder only"
-msgid "PloneMeeting_label_navigateLocally"
-msgstr "Erlaubt das Navigations-Portlet nur das Navigieren im Nutzer-Ordner"
-
 #. Default: "Email"
 msgid "PloneMeeting_label_notifyEmail"
 msgstr "E-Mail für Benachrichtigungen dieser Anwendung"
@@ -1004,10 +996,6 @@ msgstr ""
 #. Default: "Open annexes in separate windows"
 msgid "PloneMeeting_label_openAnnexesInSeparateWindows"
 msgstr "Anlage in neuem Fenster öffnen"
-
-#. Default: "OpenOffice listens in server mode to this port"
-msgid "PloneMeeting_label_openOfficePort"
-msgstr "OpenOffice lauscht im Server-Modus auf diesem Port"
 
 #. Default: "Optional advisers"
 msgid "PloneMeeting_label_optionalAdvisers"
@@ -1244,10 +1232,6 @@ msgstr ""
 msgid "PloneMeeting_label_transitionsToConfirm"
 msgstr "Transition zu bestätigen"
 
-#. Default: "Absolute path to a Python interpreter having the UNO library (access to OpenOffice)"
-msgid "PloneMeeting_label_unoEnabledPython"
-msgstr "Absoluter Pfad zu einem Python-Interpreter mit UNO library (für OpenOffice)"
-
 #. Default: "Unrestricted users when 'Restrict users' mode is on"
 msgid "PloneMeeting_label_unrestrictedUsers"
 msgstr "Eingeschränkter Benutzer wenn der 'Eingeschränkter Benutzer' Modus an ist"
@@ -1279,10 +1263,6 @@ msgstr "Das Abstimmungssystem aktivieren"
 #. Default: "Used advice types"
 msgid "PloneMeeting_label_usedAdviceTypes"
 msgstr "Benutzte Zustimmungsgrade"
-
-#. Default: "Used color system"
-msgid "PloneMeeting_label_usedColorSystem"
-msgstr "Benutzte Farbschemas"
 
 #. Default: "Attributes used for characterizing an item"
 msgid "PloneMeeting_label_usedItemAttributes"
@@ -1957,10 +1937,6 @@ msgstr "Eine Klassifizierung ist ähnlich wie eine Kategorie. "
 #. Default: "Clone to"
 msgid "clone_to"
 msgstr ""
-
-#. Default: "If the color system is enabled (previous parameter), it will be disabled for the users whose ids are specified here (one user id per line)."
-msgid "color_system_disabled_for_descr"
-msgstr "Wenn das Farbsystem aktiviert ist (vorherige Einstellung), wird es trotzdem für die Benutzer die hier eingetragen werden deaktiviert (Eine BenutzerId pro Zeile)."
 
 #. Default: "Comment"
 msgid "completeness_comment"
@@ -3493,10 +3469,6 @@ msgstr "TOP nach oben bewegen"
 msgid "move_several"
 msgstr "Bewegt den TOP zu der Position die Sie angegeben haben. Wenn Sie den TOP zum Ende der Liste bewegen wollen, geben Sie die Nummer des letzten TOPs an plus eins ein."
 
-#. Default: "If this box is unchecked, the portlet allows to navigate from the root of the Plone site hosting PloneMeeting."
-msgid "navigate_locally"
-msgstr "Wenn dieses Kästchen nicht ausgewählt ist zeigt das Portlet die Inhalte von der obersten Ebene der Plone-Seite an."
-
 #. Default: "This file is a scanned document"
 msgid "needs_ocr"
 msgstr "Diese Datei ist ein gescanntes Dokument"
@@ -3699,17 +3671,14 @@ msgstr ""
 msgid "oo_config"
 msgstr "OpenOffice-Konfiguration"
 
-#. Default: "PloneMeeting allows to generate various documents related to items, agendas, decisions, etc. For each meeting configuration you can define precise parameters for generating documents. But at this higher level, it is important to know that if you want to generate documents in another format than Open Document Format Text (ODT), ie Microsoft Word, RTF or PDF, you need to install OpenOffice in server mode on the same machine than PloneMeeting, and specify values for the fields of this section, using the 'edit' tab above."
+#. Default: "These parameters are now managed in the ${docgen_url} control panel."
+#, fuzzy
 msgid "oo_config_descr"
 msgstr "PloneMeeting ermöglicht es diverse Dokumente aus Sitzungen, Tagesordnungen, Beschlüssen, usw. zu generieren. Für jede Sitzungs-Konfiguration können genaue Einstellungen für die generierten Dokumente definiert werden. Wenn Sie aber Dokemente in einem anderen Format als Open Document Format Text (ODT) generieren wollen, zum Beispiel Microsoft Word, RTF oder PDF, muss OpenOffice im Server-Modues auf dem selben Rechnera auf dem auch PloneMeeting läuft verfügbar sein. Zudem müssen die Felder in diesem Abschnitt ausgefüllt werden."
 
 #. Default: "Some users want to open annexes in separate windows. Indeed, when the user is consulting a meeting with paginated lists of items, clicking on an annex for downloading it may replace the current page with the annex content if the browser is configured for doing so (in conjunction with a plug-in for viewing PDFs inside the browser for example). In this case, the user is forced to click on 'back' to view the list again. It has 2 disadvantages: the list is refreshed (which slows down the system), and the user is redirected to the first items instead of the page he consulted just before the download."
 msgid "open_annexes_in_separate_windows_descr"
 msgstr "Gewisse Anwedender möchten die Anlagen in neuen Fenstern öffnen. In der Tat, wenn ein Benutzer eine Sitzung anschaut mit einer Liste der TOP, und er auf eine Anlage klickt um diese zu lesen/runter zu laden, wird die aktuelle Liste durch diese Anlage ersetzt, wenn der Browser so eingestellt ist (Z.B. in Anlehnung an ein PlugIn welches PDF Dateien im Browser anzeigt). In diesem Fall ist der Benutzer gezwungen den 'zurück' Knopf zu benutzen um die Liste wieder angezeigt zu bekommen. Das hat 2 Nachteile: die Liste wird aktualisert (Verlangsamung des Systems) und der Benutzer wird zum ersten Punkt zurück geleitet anstelle des Punktes von welchem er den Download gestartet hat."
-
-#. Default: "If you want to generate item- or meeting-related documents in DOC, PDF or RTF, OpenOffice must be available in server mode on the same machine that runs PloneMeeting."
-msgid "open_office_port"
-msgstr "Wenn Sie aus TOP oder Sitzungen Dokumente im DOC-, PDF- oder RTF-Format ausgeben wollen muss OpenOffice im Server-Modus auf dem selben Rechner auf dem PloneMeeting läuft verfügbar sein."
 
 #. Default: "Choose advisers that will have to issue an optional advice for this item"
 msgid "optional_advisers_item_descr"
@@ -3754,10 +3723,6 @@ msgstr "Geben Sie bitte einen Namen für diesen anderen Ort an."
 #. Default: "Enter here some default places where meetings occur. There must be one place per line. The first one will be the default one."
 msgid "places_descr"
 msgstr "Geben Sie hier einige feste Orte ein wo Sitzungen stattfinden. Pro Linie ein Ort. Der erste Ort ist der Standard Ort."
-
-#. Default: "If you check this box: (1) the navigation porlet will be shown; (2) 'copy', 'paste' and 'rename' actions will be visible; (3) users will be able to add objects from the Plone menus entitled 'add to folder'."
-msgid "plone_disk_aware_descr"
-msgstr "Wenn Sie dieses Kästchen auswählen dann: (1) wird das Navigations-Portlet angezeigt; (2) werden die 'kopieren', 'einfügen' und 'umbenennen' Aktionen sichtbar; (3) können Nutzer Objekte aus dem Plone-Menü 'hinzufügen' anlegen."
 
 #. Default: "You are about to delete this meeting and all included items. Are you sure?"
 msgid "plonemeeting_delete_meeting_confirm_message"
@@ -4450,10 +4415,6 @@ msgstr ""
 msgid "type_required"
 msgstr "Ein Anhangs-Typ wird benötigt."
 
-#. Default: "If the Python interpreter running Plone and Zope does not have the pyUNO library installed (try it by typing 'import uno'), you can specify here another Python interpreter that has it (for example, the Python interpreter coming with OpenOffice or Ubuntu)."
-msgid "uno_enabled_python"
-msgstr "Wenn der Python-Interpreter mit dem Zope und Plone ausgeführt werden nicht die pyUNO library installiert hat (mit 'import uno' in der Python-Shell kann dies getestet werden) können Sie hier einen andere Python-Interpreter der diese Erweiterung installiert hat (zum Beispiel der Python-Interpreter der bei OpenOffice oder Ubuntu mitgeliefert wird) angeben."
-
 #. Default: "When PloneMeeting is in 'Restrict users' mode, the following users will still be able to consult page 'Meeting view.' Please type one user ID per line."
 msgid "unrestricted_users_descr"
 msgstr "Wenn PloneMeeting im 'Eingeschränktem Benutzer' Modus ist, können folgenden Benutzer weiterhin die Seite 'Sitzungen' konsultieren. Bitte tragen Sie eine Benutzer ID pro Linie ein."
@@ -4487,10 +4448,6 @@ msgstr "Wenn Sie diese Box auswählen wird das Abstimmungssystem aktiviert, welc
 #. Default: "Specify here which advice types you are going to use."
 msgid "used_advice_types_descr"
 msgstr "Legen Sie hier fest welche Zustimmungsgrade Sie benutzen wollen"
-
-#. Default: "Select between available systems of color : no colorization mean that the items will appear as simple links, colorization based on workflow state is the default behaviour and means that the link on the item will be colored depending on his workflow state.  The new PloneMeeting color system based on last modification allows users to see in a specific color what has changed since the last time they consulted PloneMeeting pages: new items, items whose title or description has changed, newly uploaded annexes. Enabling this last feature will take more space in the Plone database, because PloneMeeting will need to remember the last access time of every item and annex for every user. Enabling this feature on a non empty database may lead to visual inconsistencies due to annexes stored in browsers' caches."
-msgid "used_color_system_descr"
-msgstr "Die verschiedenen zur Verfügung stehenden Farbsysteme sind 'Kein Farbsystem benutzen', welches bedeutet, dass die Links zu den Sitzungen, die TOP und die Anlagen in den Standardfarben dargestellt werden. 'Farbsystem nach dem Workflow Status' färbt die Links zu den Sitzungen und den TOP abhängig zum Status des Workflows in dem sie sich befinden. 'Farbsystem nach Änderungen' erlaubt dem Benutzer die Änderungen, in spezifischen Farben zu sehen, die seit der letzten Konsultation gemacht worden sind: Neuer TOP, TOP deren Titel oder Beschreibung geändert hat, neuer Anhang der hochgeladen wurde. Die Aktivierung dieser Funktion erforder mehr Platz in der Plone Datenbank, weil PloneMeeting sich für jeden Benutzer an den letzten Zugriff auf jeden Punkt, Anlage usw. erinnern muss. Die Aktivierung dieser Funktion bei einer nicht leeren Datenbank kann zu visueller Inkonsistenz führen wegen Anlagen, die teilweise im Cache des Browsers gespeichert sind."
 
 #. Default: "While some item attributes are fixed (the item title, the field where the decision must be written, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (maybe in the form allowing to create items or in the table displaying items presented in a meeting...). If you want to select more than one attribute, click on them while keeping the 'control' key pressed."
 msgid "used_item_attributes_descr"
