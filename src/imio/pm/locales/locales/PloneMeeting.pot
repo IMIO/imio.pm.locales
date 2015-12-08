@@ -67,36 +67,32 @@ msgstr ""
 msgid "Item signatures to apply"
 msgstr ""
 
-#. Default: "Enter the item assembly to be applied.  The value displayed by default is the value of the current item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])."
-msgid "Enter the item assembly to be applied.  The value displayed by default is the value of the current item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])."
+#. Default: "Enter the item assembly to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value.  You may add [[ ]] around absent people (like [[Mister Sample Peter]])."
+msgid "Enter the item assembly to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value.  You may add [[ ]] around absent people (like [[Mister Sample Peter]])."
 msgstr ""
 
-#. Default: "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
-msgid "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
+#. Default: "Enter the item signatures to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgid "Enter the item signatures to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgstr ""
 
-#. Default: "Enter the item attendees to be applied.  The value displayed by default is the value of the current item."
-msgid "Enter the item attendees to be applied.  The value displayed by default is the value of the current item."
+#. Default: "Enter the item attendees to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgid "Enter the item attendees to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgstr ""
 
-#. Default: "Enter the item excused to be applied.  The value displayed by default is the value of the current item."
-msgid "Enter the item excused to be applied.  The value displayed by default is the value of the current item."
+#. Default: "Enter the item excused to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgid "Enter the item excused to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgstr ""
 
-#. Default: "Enter the item absents to be applied.  The value displayed by default is the value of the current item."
-msgid "Enter the item absents to be applied.  The value displayed by default is the value of the current item."
+#. Default: "Enter the item absents to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgid "Enter the item absents to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgstr ""
 
 #. Default: "Apply until item number"
 msgid "Apply until item number"
 msgstr ""
 
-#. Default: "If you specify a number, the item assembly entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
-msgid "If you specify a number, the item assembly entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
-msgstr ""
-
-#. Default: "If you specify a number, the item signatures entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
-msgid "If you specify a number, the item signatures entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
+#. Default: "If you specify a number, the values entered here above will be applied from current item to the item number entered. Leave empty to only apply for current item."
+msgid "If you specify a number, the values entered here above will be applied from current item to the item number entered. Leave empty to only apply for current item."
 msgstr ""
 
 #. Default: "Manage item assembly"

@@ -179,25 +179,25 @@ msgstr ""
 msgid "Enter optionnal observations if necessary."
 msgstr ""
 
-#. Default: "Enter the item absents to be applied.  The value displayed by default is the value of the current item."
-msgid "Enter the item absents to be applied.  The value displayed by default is the value of the current item."
+#. Default: "Enter the item absents to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgid "Enter the item absents to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgstr ""
 
-#. Default: "Enter the item assembly to be applied.  The value displayed by default is the value of the current item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])."
-msgid "Enter the item assembly to be applied.  The value displayed by default is the value of the current item.  Add [[ ]] around absent people (like [[Mister Sample Peter]])."
-msgstr "Introduzca el tema de la asambleas que debe aplicarse. El valor que se muestra por defecto es el valor del tema actual. Agregue los corchetes [[ ]] alrededor de las personas ausentes (como [[Señor Pedro Perez]])."
-
-#. Default: "Enter the item attendees to be applied.  The value displayed by default is the value of the current item."
-msgid "Enter the item attendees to be applied.  The value displayed by default is the value of the current item."
+#. Default: "Enter the item assembly to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value.  You may add [[ ]] around absent people (like [[Mister Sample Peter]])."
+msgid "Enter the item assembly to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value.  You may add [[ ]] around absent people (like [[Mister Sample Peter]])."
 msgstr ""
 
-#. Default: "Enter the item excused to be applied.  The value displayed by default is the value of the current item."
-msgid "Enter the item excused to be applied.  The value displayed by default is the value of the current item."
+#. Default: "Enter the item attendees to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgid "Enter the item attendees to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgstr ""
 
-#. Default: "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
-msgid "Enter the item signatures to be applied.  The value displayed by default is the value of the current item."
-msgstr "Introduzca las firmas de temas que deben aplicarse. El valor que se muestra por defecto es el valor del tema actual."
+#. Default: "Enter the item excused to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgid "Enter the item excused to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgstr ""
+
+#. Default: "Enter the item signatures to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgid "Enter the item signatures to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgstr ""
 
 #. Default: "Enter the official comment."
 msgid "Enter the official comment."
@@ -239,13 +239,9 @@ msgstr "Si desactiva el grupo de reunión, todos los usuarios de cada grupos vin
 msgid "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 msgstr ""
 
-#. Default: "If you specify a number, the item assembly entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
-msgid "If you specify a number, the item assembly entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
-msgstr "Si se especifica un número, el tema de la asamblea introducido aquí arriba se aplicará a partir del tema actual al número del tema introducido. Dejar en blanco para aplicarse solamente para el tema actual."
-
-#. Default: "If you specify a number, the item signatures entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
-msgid "If you specify a number, the item signatures entered here above will be applied from current item to the item number entered.  Leave empty to only apply for current item."
-msgstr "Si se especifica un número, las firmas del tema introducido aquí arriba se aplicará a partir del tema actual al número del tema introducido. Dejar en blanco para aplicarse solamente para el tema actual."
+#. Default: "If you specify a number, the values entered here above will be applied from current item to the item number entered. Leave empty to only apply for current item."
+msgid "If you specify a number, the values entered here above will be applied from current item to the item number entered. Leave empty to only apply for current item."
+msgstr ""
 
 #. Default: "It is not possible to add annexes because no file types is defined, please contact system administrator."
 msgid "It is not possible to add annexes because no file types is defined, please contact system administrator."
