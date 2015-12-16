@@ -131,6 +131,10 @@ msgstr "Copy PloneMeeting"
 msgid "Create an item from an item template"
 msgstr "Create an item from an item template"
 
+#. Default: "Data of the item when advice was given"
+msgid "Data of the item when advice was given"
+msgstr ""
+
 #. Default: "Days to give advice : ${daysToGiveAdvice} days"
 msgid "Days to give advice"
 msgstr "Days to give advice : ${daysToGiveAdvice} days"
@@ -680,6 +684,10 @@ msgstr "Group certified signatures"
 #. Default: "Hide item history comments to users outside proposing group"
 msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
 msgstr "Hide item history comments to users outside proposing group"
+
+#. Default: "Historize item data when an advice is given"
+msgid "PloneMeeting_label_historizeItemDataWhenAdviceIsGiven"
+msgstr ""
 
 #. Default: "Item attributes for which history must be kept"
 msgid "PloneMeeting_label_historizedItemAttributes"
@@ -2538,6 +2546,10 @@ msgstr "If box is checked, when a user will access the history of an item, the c
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
 msgstr "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
+
+#. Default: "When an advice is given, so when it switch to a state where adviser may not advice it anymore, it is historized.  If you chek this box, every relevant item data (title and rich text fields) will be historized together with the advice."
+msgid "historize_item_data_when_advice_is_given_descr"
+msgstr ""
 
 #. Default: "For every field you select here, PloneMeeting will keep track of any change on any item, if it is in one of the 'historizable' states as defined below."
 msgid "historized_item_attrs_descr"

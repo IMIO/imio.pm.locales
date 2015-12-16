@@ -2843,6 +2843,14 @@ msgstr ""
 msgid "PloneMeeting_label_transitionReinitializingDelays"
 msgstr ""
 
+#. Default: "Historize item data when an advice is given"
+msgid "PloneMeeting_label_historizeItemDataWhenAdviceIsGiven"
+msgstr ""
+
+#. Default: "When an advice is given, so when it switch to a state where adviser may not advice it anymore, it is historized.  If you chek this box, every relevant item data (title and rich text fields) will be historized together with the advice."
+msgid "historize_item_data_when_advice_is_given_descr"
+msgstr ""
+
 #. Default: "Custom advisers"
 msgid "PloneMeeting_label_customAdvisers"
 msgstr ""
@@ -4608,4 +4616,8 @@ msgstr ""
 
 #. Default: "Please provide a valid number."
 msgid "Please provide a valid number."
+msgstr ""
+
+#. Default: "Data of the item when advice was given"
+msgid "Data of the item when advice was given"
 msgstr ""

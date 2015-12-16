@@ -131,6 +131,10 @@ msgstr "Copier points"
 msgid "Create an item from an item template"
 msgstr "Créer un point depuis un modèle"
 
+#. Default: "Data of the item when advice was given"
+msgid "Data of the item when advice was given"
+msgstr "Données principales du point lorsque l'avis a été rendu"
+
 #. Default: "Days to give advice : ${daysToGiveAdvice} days"
 msgid "Days to give advice"
 msgstr "Nombre de jours ouvrables pour rendre l'avis : ${daysToGiveAdvice} jours"
@@ -680,6 +684,10 @@ msgstr "Délégation de signatures certifiées conformes"
 #. Default: "Hide item history comments to users outside proposing group"
 msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
 msgstr "Cacher les commentaires dans l'historique d'un point aux utilisateurs ne faisant pas partie du groupe proposant"
+
+#. Default: "Historize item data when an advice is given"
+msgid "PloneMeeting_label_historizeItemDataWhenAdviceIsGiven"
+msgstr "Historiser les informations essentielles du point lorsqu'un avis est rendu"
 
 #. Default: "Item attributes for which history must be kept"
 msgid "PloneMeeting_label_historizedItemAttributes"
@@ -2538,6 +2546,10 @@ msgstr "Si vous cochez cette case, lorsqu'un utilisateur accèdera à l'historiq
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
 msgstr "Cette page n'est pas accessible pour le moment. Les gestionnaires de séance vous y donneront à nouveau accès bientôt. Désolé pour le désagrément."
+
+#. Default: "When an advice is given, so when it switch to a state where adviser may not advice it anymore, it is historized.  If you chek this box, every relevant item data (title and rich text fields) will be historized together with the advice."
+msgid "historize_item_data_when_advice_is_given_descr"
+msgstr "Lorsqu'un avis est officiellement rendu, c'est-à-dire lorsqu'il quitte l'état dans lequel les donneurs d'avis peuvent encoder cet avis, ce dernier est historisé.  Si vous cochez cette case, les informations essentielles du point (titre et champs de rexte riche) seront également historisées avec l'avis."
 
 #. Default: "For every field you select here, PloneMeeting will keep track of any change on any item, if it is in one of the 'historizable' states as defined below."
 msgid "historized_item_attrs_descr"
