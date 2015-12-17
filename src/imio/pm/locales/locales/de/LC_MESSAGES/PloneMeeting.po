@@ -745,6 +745,10 @@ msgstr ""
 msgid "PloneMeeting_label_itemAssemblyExcused"
 msgstr ""
 
+#. Default: "States in which an item will be automatically sent to selected other meeting configurations"
+msgid "PloneMeeting_label_itemAutoSentToOtherMCStates"
+msgstr ""
+
 #. Default: "Item states in wich budget impact editors can change budgetary informations"
 msgid "PloneMeeting_label_itemBudgetInfosStates"
 msgstr ""
@@ -784,6 +788,10 @@ msgstr ""
 #. Default: "Keywords"
 msgid "PloneMeeting_label_itemKeywords"
 msgstr "Stichwörter"
+
+#. Default: "States in which an item may be manually sent to selected other meeting configurations"
+msgid "PloneMeeting_label_itemManualSentToOtherMCStates"
+msgstr ""
 
 #. Default: "Number"
 msgid "PloneMeeting_label_itemNumber"
@@ -2792,6 +2800,10 @@ msgstr ""
 msgid "item_assembly_excused_descr"
 msgstr ""
 
+#. Default: "As soon as an item will be in one of the states you check here, it will be sent to other meeting configurations selected on it."
+msgid "item_auto_sent_to_other_mc_states_descr"
+msgstr ""
+
 #. Default: "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations."
 msgid "item_budget_infos_states_descr"
 msgstr ""
@@ -2866,6 +2878,10 @@ msgstr ""
 
 #. Default: "The item is signed. Click on the image to remove signature."
 msgid "item_is_signed_yes_edit"
+msgstr ""
+
+#. Default: "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
+msgid "item_manual_sent_to_other_mc_states_descr"
 msgstr ""
 
 #. Default: "No move occurred: please specify a valid number."
