@@ -1857,7 +1857,7 @@ msgstr ""
 msgid "PloneMeeting_label_enableAnnexToPrint"
 msgstr ""
 
-#. Default: "Let the user specify if an annex needs to be printed or not.  WARNING, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
+#. Default: "Let the user specify if an annex needs to be printed or not.  Annex to print may be 'for information', this will just show on the annex that it is to print and relevant users may print these annexes manually, or it can be 'for automated printing', in this case, printable formats are generated when an annex is set 'to print' so the application may print these annexes in documents.  If you choose this last option, it is necessary to set up a engine that will convert annexes to printable formats asynchronously so users do not have to wait during annexes conversion.  Be careful, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
 msgid "enable_annex_to_print_descr"
 msgstr ""
 
@@ -3131,15 +3131,15 @@ msgstr ""
 msgid "create_meeting_item_in_current_folder"
 msgstr ""
 
-#. Default: "my items"
+#. Default: "My items"
 msgid "searchmyitems"
 msgstr ""
 
-#. Default: "items of my groups"
+#. Default: "Items of my groups"
 msgid "searchitemsofmygroups"
 msgstr ""
 
-#. Default: "living items"
+#. Default: "Living items"
 msgid "searchlivingitems"
 msgstr ""
 
@@ -3147,27 +3147,27 @@ msgstr ""
 msgid "searchmyitemstakenover"
 msgstr ""
 
-#. Default: "all items"
+#. Default: "All items"
 msgid "searchallitems"
 msgstr ""
 
-#. Default: "items in copy"
+#. Default: "Items in copy"
 msgid "searchallitemsincopy"
 msgstr ""
 
-#. Default: "all items to advice"
+#. Default: "All items to advice"
 msgid "searchallitemstoadvice"
 msgstr ""
 
-#. Default: "items to advice with delay"
+#. Default: "Items to advice with delay"
 msgid "searchitemstoadvicewithdelay"
 msgstr ""
 
-#. Default: "items to advice without delay"
+#. Default: "Items to advice without delay"
 msgid "searchitemstoadvicewithoutdelay"
 msgstr ""
 
-#. Default: "advice not given (delay exceeded)"
+#. Default: "Advice not given (delay exceeded)"
 msgid "searchitemstoadvicewithexceededdelay"
 msgstr ""
 
@@ -3183,19 +3183,19 @@ msgstr ""
 msgid "searchitemstovalidate"
 msgstr ""
 
-#. Default: "advised items"
+#. Default: "Advised items"
 msgid "searchalladviseditems"
 msgstr ""
 
-#. Default: "advised items with delay"
+#. Default: "Advised items with delay"
 msgid "searchalladviseditemswithdelay"
 msgstr ""
 
-#. Default: "items to correct"
+#. Default: "Items to correct"
 msgid "searchitemstocorrect"
 msgstr ""
 
-#. Default: "corrected items"
+#. Default: "Corrected items"
 msgid "searchcorrecteditems"
 msgstr ""
 
@@ -3271,7 +3271,7 @@ msgstr ""
 msgid "create_meeting"
 msgstr ""
 
-#. Default: "available meetings"
+#. Default: "Available meetings"
 msgid "searchallmeetings"
 msgstr ""
 
@@ -3283,11 +3283,11 @@ msgstr ""
 msgid "Decisions"
 msgstr ""
 
-#. Default: "last decisions"
+#. Default: "Last decisions"
 msgid "searchlastdecisions"
 msgstr ""
 
-#. Default: "all decisions"
+#. Default: "All decisions"
 msgid "searchalldecisions"
 msgstr ""
 
@@ -4558,6 +4558,14 @@ msgstr ""
 msgid "not_to_be_send_to_authority_term"
 msgstr ""
 
+#. Default: "Annexes to print"
+msgid "annexes_to_print_term"
+msgstr ""
+
+#. Default: "No annexes to print"
+msgid "no_annexes_to_print_term"
+msgstr ""
+
 #. Default: "Item down workflow"
 msgid "item_down_wf_term"
 msgstr ""
@@ -4621,3 +4629,16 @@ msgstr ""
 #. Default: "Data of the item when advice was given"
 msgid "Data of the item when advice was given"
 msgstr ""
+
+#. Default: "Disabled"
+msgid "enable_annex_to_print_disabled"
+msgstr ""
+
+#. Default: "Enabled, for information (annexes are printed manually)"
+msgid "enable_annex_to_print_enabled_for_info"
+msgstr ""
+
+#. Default: "Enabled, for automated printing (annexes are printed by the application)"
+msgid "enable_annex_to_print_enabled_for_printing"
+msgstr ""
+

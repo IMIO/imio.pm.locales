@@ -1706,6 +1706,10 @@ msgstr "Anhänge"
 msgid "annexes_not_kept_because_no_available_mft_warning"
 msgstr ""
 
+#. Default: "Annexes to print"
+msgid "annexes_to_print_term"
+msgstr ""
+
 #. Default: "Are you sure?"
 msgid "are_you_sure"
 msgstr ""
@@ -2254,8 +2258,20 @@ msgstr ""
 msgid "enable_annex_preview_descr"
 msgstr ""
 
-#. Default: "Let the user specify if an annex needs to be printed or not.  WARNING, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
+#. Default: "Let the user specify if an annex needs to be printed or not.  Annex to print may be 'for information', this will just show on the annex that it is to print and relevant users may print these annexes manually, or it can be 'for automated printing', in this case, printable formats are generated when an annex is set 'to print' so the application may print these annexes in documents.  If you choose this last option, it is necessary to set up a engine that will convert annexes to printable formats asynchronously so users do not have to wait during annexes conversion.  Be careful, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
 msgid "enable_annex_to_print_descr"
+msgstr ""
+
+#. Default: "Disabled"
+msgid "enable_annex_to_print_disabled"
+msgstr ""
+
+#. Default: "Enabled, for information (annexes are printed manually)"
+msgid "enable_annex_to_print_enabled_for_info"
+msgstr ""
+
+#. Default: "Enabled, for automated printing (annexes are printed by the application)"
+msgid "enable_annex_to_print_enabled_for_printing"
 msgstr ""
 
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
@@ -3511,6 +3527,10 @@ msgstr "Null"
 msgid "no_annexes"
 msgstr "Für diesen TOP ist kein Anhang vorhanden."
 
+#. Default: "No annexes to print"
+msgid "no_annexes_to_print_term"
+msgstr ""
+
 #. Default: "Attributes 'assembly' and 'attendees' can't be used together."
 msgid "no_assembly_and_attendees"
 msgstr "Die Attribute 'Standard Sitzungsteilnehmer' und 'Anwesende' können nicht gleichzeitig benutzt werden."
@@ -4039,36 +4059,41 @@ msgstr "Löschen der leeren Absätze"
 msgid "save"
 msgstr ""
 
-#. Default: "advised items"
+#. Default: "Advised items"
+#, fuzzy
 msgid "searchalladviseditems"
 msgstr "TOP mit Kommentare"
 
-#. Default: "advised items with delay"
+#. Default: "Advised items with delay"
 msgid "searchalladviseditemswithdelay"
 msgstr ""
 
-#. Default: "all decisions"
+#. Default: "All decisions"
+#, fuzzy
 msgid "searchalldecisions"
 msgstr "alle Beschlüsse"
 
-#. Default: "all items"
+#. Default: "All items"
+#, fuzzy
 msgid "searchallitems"
 msgstr "Alle TOP"
 
-#. Default: "items in copy"
+#. Default: "Items in copy"
+#, fuzzy
 msgid "searchallitemsincopy"
 msgstr "TOP in Kopie"
 
-#. Default: "all items to advice"
+#. Default: "All items to advice"
 #, fuzzy
 msgid "searchallitemstoadvice"
 msgstr "TOP zu Kommentieren"
 
-#. Default: "available meetings"
+#. Default: "Available meetings"
+#, fuzzy
 msgid "searchallmeetings"
 msgstr "Vorhandene Sitzungen"
 
-#. Default: "corrected items"
+#. Default: "Corrected items"
 msgid "searchcorrecteditems"
 msgstr ""
 
@@ -4080,23 +4105,23 @@ msgstr ""
 msgid "searches_descr"
 msgstr ""
 
-#. Default: "items of my groups"
+#. Default: "Items of my groups"
 msgid "searchitemsofmygroups"
 msgstr ""
 
-#. Default: "items to advice with delay"
+#. Default: "Items to advice with delay"
 msgid "searchitemstoadvicewithdelay"
 msgstr ""
 
-#. Default: "advice not given (delay exceeded)"
+#. Default: "Advice not given (delay exceeded)"
 msgid "searchitemstoadvicewithexceededdelay"
 msgstr ""
 
-#. Default: "items to advice without delay"
+#. Default: "Items to advice without delay"
 msgid "searchitemstoadvicewithoutdelay"
 msgstr ""
 
-#. Default: "items to correct"
+#. Default: "Items to correct"
 msgid "searchitemstocorrect"
 msgstr ""
 
@@ -4108,15 +4133,15 @@ msgstr ""
 msgid "searchitemstovalidate"
 msgstr ""
 
-#. Default: "last decisions"
+#. Default: "Last decisions"
 msgid "searchlastdecisions"
 msgstr ""
 
-#. Default: "living items"
+#. Default: "Living items"
 msgid "searchlivingitems"
 msgstr ""
 
-#. Default: "my items"
+#. Default: "My items"
 msgid "searchmyitems"
 msgstr "Meine TOP"
 
