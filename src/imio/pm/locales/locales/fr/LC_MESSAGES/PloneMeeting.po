@@ -2603,13 +2603,25 @@ msgstr "Inséré par ${userName}"
 msgid "history_last"
 msgstr "Voir la dernière version (non colorisée)"
 
+#. Default: "Defined date must be defined by ascending order, from older date at the top to newer date at the bottom."
+msgid "holidays_date_not_ascending_error"
+msgstr "Les dates doivent être définies de manière ascendante, de la plus ancienne à la plus récente."
+
 #. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "holidays_descr"
 msgstr "Ces dates seront utilisées lors du calcul des délais des avis.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
+#. Default: "You removed a date that is currently in use!"
+msgid "holidays_removed_date_in_use_error"
+msgstr "Vous ne pouvez pas supprimer une date qui est/a été utilisée!"
+
 #. Default: "There are not enough holidays defined in the configuration, please contact you system administrator!"
 msgid "holidays_warning_message"
 msgstr "Il n'y a plus suffisamment de jours fériés définis dans la configuration, contactez votre administrateur système!"
+
+#. Default: "Wrong date format, please use following format : 'YYYY/MM/DD'."
+msgid "holidays_wrong_date_format_error"
+msgstr "Mauvais format de date, utilisez le format 'AAAA/MM/JJ'."
 
 #. Default: "Thank you for your visit."
 msgid "hs_logged_out_body"

@@ -4653,3 +4653,15 @@ msgstr ""
 #. Default: "There are not enough holidays defined in the configuration, please contact you system administrator!"
 msgid "holidays_warning_message"
 msgstr ""
+
+#. Default: "Wrong date format, please use following format : 'YYYY/MM/DD'."
+msgid "holidays_wrong_date_format_error"
+msgstr ""
+
+#. Default: "Defined date must be defined by ascending order, from older date at the top to newer date at the bottom."
+msgid "holidays_date_not_ascending_error"
+msgstr ""
+
+#. Default: "You removed a date that is currently in use!"
+msgid "holidays_removed_date_in_use_error"
+msgstr ""
