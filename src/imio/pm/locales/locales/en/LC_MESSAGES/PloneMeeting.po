@@ -227,6 +227,10 @@ msgstr "History of delay changes"
 msgid "History of emergency changes"
 msgstr "History of emergency changes"
 
+#. Default: "Holidays warning (do not delete!)"
+msgid "Holidays warning (do not delete!)"
+msgstr ""
+
 #. Default: "How many items to list in each topic."
 msgid "How many items to list in each topic."
 msgstr "How many items to list in each topic."
@@ -2602,6 +2606,10 @@ msgstr "See last, uncolored version"
 #. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "holidays_descr"
 msgstr "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+
+#. Default: "There are not enough holidays defined in the configuration, please contact you system administrator!"
+msgid "holidays_warning_message"
+msgstr ""
 
 #. Default: "Thank you for your visit."
 msgid "hs_logged_out_body"

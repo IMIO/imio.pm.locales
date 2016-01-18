@@ -227,6 +227,10 @@ msgstr "Historique des changements de délai pour cet avis"
 msgid "History of emergency changes"
 msgstr "Historique des changements du champ 'Urgence'"
 
+#. Default: "Holidays warning (do not delete!)"
+msgid "Holidays warning (do not delete!)"
+msgstr "Avertissement jours fériés (ne pas supprimer!)"
+
 #. Default: "How many items to list in each topic."
 msgid "How many items to list in each topic."
 msgstr "Nombre d'éléments à afficher par recherche dans le portlet."
@@ -2602,6 +2606,10 @@ msgstr "Voir la dernière version (non colorisée)"
 #. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "holidays_descr"
 msgstr "Ces dates seront utilisées lors du calcul des délais des avis.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+
+#. Default: "There are not enough holidays defined in the configuration, please contact you system administrator!"
+msgid "holidays_warning_message"
+msgstr "Il n'y a plus suffisamment de jours fériés définis dans la configuration, contactez votre administrateur système!"
 
 #. Default: "Thank you for your visit."
 msgid "hs_logged_out_body"
