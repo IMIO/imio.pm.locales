@@ -866,6 +866,10 @@ msgstr "Colonnes à afficher pour les points d'une séance"
 msgid "PloneMeeting_label_itemsListVisibleFields"
 msgstr "Champs des points à Afficher/masquer dans les tableaux de bords"
 
+#. Default: "Keep access to item when an advice is given"
+msgid "PloneMeeting_label_keepAccessToItemWhenAdviceIsGiven"
+msgstr "Garder un accès au point lorsque l'avis a été rendu"
+
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
 msgstr "Numéro de la dernière séance de cette configuration"
@@ -2525,6 +2529,10 @@ msgstr "Quand un point est dans un des états que vous sélectionnez ici, il ser
 msgid "group_item_advice_view_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour un aviseur sélectionné sur ce point de voir le point. Si vous ne spécifiez aucun état ici, une liste d'états globale à tous les groupes, définie au niveau de la configuration de séance, sera utilisée à la place.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
+#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+msgid "group_keep_access_to_item_when_advice_is_given_descr"
+msgstr "Lorsqu'un avis a été rendu sur un point, le point restera visible par les émetteurs d'avis quel que soit l'état du point.  Ceci permet de surcharger le paramètre du même nom défini sur la configuration de séance (onglet 'Avis et accès') pour ce groupe si nécessaire.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+
 #. Default: "User interface"
 msgid "gui"
 msgstr "Interface utilisateur"
@@ -2607,9 +2615,9 @@ msgstr "Voir la dernière version (non colorisée)"
 msgid "holidays_date_not_ascending_error"
 msgstr "Les dates doivent être définies de manière ascendante, de la plus ancienne à la plus récente."
 
-#. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter and modified dates are interacting with some existing advice delays, do not forget to run 'Update items and meetings'!</span>"
 msgid "holidays_descr"
-msgstr "Ces dates seront utilisées lors du calcul des délais des avis.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Ces dates seront utilisées lors du calcul des délais des avis.  <span style='color: red';>Si vous modifiez ce paramètre et que les dates modifiées peuvent changer le délai d'un avis existant, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "You removed a date that is currently in use!"
 msgid "holidays_removed_date_in_use_error"
@@ -3027,6 +3035,10 @@ msgstr "L'écran d'affichage d'une séance présente potentiellement plusieurs t
 #. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 msgid "items_list_visible_fields_descr"
 msgstr "Sélectionnez les champs à masquer/afficher lorsque l'utilisateur cliquera sur le libellé 'Afficher/masquer les détails' se trouvant dans l'entête 'Objet' d'un tableau de bord.  Ceci concerne tous les tableaux affichant des éléments, donc, les tableaux de points et séances (mes points, tous les points, toutes les décisions, ...) ainsi que les tableaux de points affichés sur les séances (points disponibles, points présentés, ...)."
+
+#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>""
+msgid "keep_access_to_item_when_advice_is_given_descr"
+msgstr "Lorsqu'un avis a été rendu sur un point, le point restera visible par les émetteurs d'avis quel que soit l'état du point.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "Choose an element in the list"
 msgid "label_choose_element_in_list"
@@ -4441,6 +4453,10 @@ msgstr "Cette fonctionnalité permet au créateur d'un point de sélectionner de
 #. Default: "In PloneMeeting, for every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the PloneMeeting groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red';>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because 'living' items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
 msgid "use_groups_as_categories_descr"
 msgstr "Dans PloneMeeting, par configuration de séance, chaque point est défini par une catégorie et ne peut appartenir qu'à une et une seule catégorie. Ces catégories peuvent avoir de l'importance notamment lorsque des points sont présentés dans un ordre du jour: ils peuvent être ordonnés par catégorie (voir un autre paramètre de configuration plus bas). Si vous vous dites que les groupes PloneMeeting correspondent à vos catégories et que vous n'avez pas besoin d'une catégorisation supplémentaire, cochez cette case. <span style='color: red';>Si vous activez les catégories alors que des points ont déjà été créés sans catégories, faites-le au moment opportun, en effet une séance ne peut pas contenir des points avec et sans catégories, vous devrez mettre à jour les points 'vivants' existants.  Les points liés à d'anciennes séances pourront rester sans catégorie.</span>"
+
+#. Default: "Use value defined on the meeting configuration (default)"
+msgid "use_meetingconfig_value"
+msgstr "Utiliser la valeur définie sur la Configuration de séance (défaut)"
 
 #. Default: "User replacements allow you to select a replacement user for any absent or excused user in a meeting."
 msgid "use_user_replacements_descr"

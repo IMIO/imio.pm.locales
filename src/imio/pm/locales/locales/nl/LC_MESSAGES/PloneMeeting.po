@@ -867,6 +867,10 @@ msgstr "Aantal weer te geven kolommen voor een tabelweergave van items"
 msgid "PloneMeeting_label_itemsListVisibleFields"
 msgstr ""
 
+#. Default: "Keep access to item when an advice is given"
+msgid "PloneMeeting_label_keepAccessToItemWhenAdviceIsGiven"
+msgstr ""
+
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
 msgstr "Nummer van de laatste vergadering in deze config"
@@ -2530,6 +2534,10 @@ msgstr ""
 msgid "group_item_advice_view_states_descr"
 msgstr ""
 
+#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+msgid "group_keep_access_to_item_when_advice_is_given_descr"
+msgstr ""
+
 #. Default: "User interface"
 msgid "gui"
 msgstr "Gebruikers interface"
@@ -2612,7 +2620,7 @@ msgstr ""
 msgid "holidays_date_not_ascending_error"
 msgstr ""
 
-#. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter and modified dates are interacting with some existing advice delays, do not forget to run 'Update items and meetings'!</span>"
 msgid "holidays_descr"
 msgstr ""
 
@@ -3033,6 +3041,10 @@ msgstr "The page that displays a meeting contains potentially several tables fil
 
 #. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 msgid "items_list_visible_fields_descr"
+msgstr ""
+
+#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>""
+msgid "keep_access_to_item_when_advice_is_given_descr"
 msgstr ""
 
 #. Default: "Choose an element in the list"
@@ -4462,6 +4474,10 @@ msgstr ""
 #, fuzzy
 msgid "use_groups_as_categories_descr"
 msgstr "In PloneMeeting, for every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the PloneMeeting groups do correspond to your categories, and that you don't need one more categorization scheme, check the box."
+
+#. Default: "Use value defined on the meeting configuration (default)"
+msgid "use_meetingconfig_value"
+msgstr ""
 
 #. Default: "User replacements allow you to select a replacement user for any absent or excused user in a meeting."
 msgid "use_user_replacements_descr"
