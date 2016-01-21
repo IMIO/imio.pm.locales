@@ -4681,3 +4681,7 @@ msgstr ""
 #. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_keep_access_to_item_when_advice_is_given_descr"
 msgstr ""
+
+#. Default: "Can not close a meeting containing items returned to proposing group!"
+msgid "Can not close a meeting containing items returned to proposing group!"
+msgstr ""
