@@ -2139,9 +2139,9 @@ msgstr "Aucune décision n'a été encodée pour le point ${itemNumber}."
 msgid "decision_topic_states_descr"
 msgstr "Les séances étant dans les états que vous sélectionnez ici apparaîtront dans la portlet 'décisions'. Il s'agit typiquement de séances dont les décisions ont été publiées ou archivées."
 
-#. Default: "<p>The decision is currently under edit by managers, you can not access it.</p>"
+#. Default: "<p class='highlightValue'>The decision is currently under edit by managers, you can not access it.</p>"
 msgid "decision_under_edit"
-msgstr "<p>La décision est en cours de rédaction par les gestionnaires de séances, vous ne pouvez pas y accéder pour l'instant.</p>"
+msgstr "<p class='highlightValue'>La décision est en cours de rédaction par les gestionnaires de séances, vous ne pouvez pas y accéder pour l'instant.</p>"
 
 #. Default: "Decisions"
 msgid "decisions"

@@ -2139,9 +2139,9 @@ msgstr "Decision is empty for item ${itemNumber}."
 msgid "decision_topic_states_descr"
 msgstr "Meetings being in the states you select here will appear in the 'decisions' portlet. Typically this portlet will display meetings whose decisions were taken or archived."
 
-#. Default: "<p>The decision is currently under edit by managers, you can not access it.</p>"
+#. Default: "<p class='highlightValue'>The decision is currently under edit by managers, you can not access it.</p>"
 msgid "decision_under_edit"
-msgstr "<p>The decision is currently under edit by managers, you can not access it.</p>"
+msgstr "<p class='highlightValue'>The decision is currently under edit by managers, you can not access it.</p>"
 
 #. Default: "Decisions"
 msgid "decisions"
