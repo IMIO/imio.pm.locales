@@ -2147,9 +2147,9 @@ msgstr "Decision"
 msgid "decision_is_empty"
 msgstr "Decision is empty for item ${itemNumber}."
 
-#. Default: "<p>The decision is currently under edit by managers, you can not access it.</p>"
+#. Default: "<p class='highlightValue'>The decision is currently under edit by managers, you can not access it.</p>"
 msgid "decision_under_edit"
-msgstr "<p>The decision is currently under edit by managers, you can not access it.</p>"
+msgstr "<p class='highlightValue'>The decision is currently under edit by managers, you can not access it.</p>"
 
 #. Default: "Decisions"
 msgid "decisions"
@@ -2624,9 +2624,8 @@ msgid "holidays_date_not_ascending_error"
 msgstr ""
 
 #. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter and modified dates are interacting with some existing advice delays, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "holidays_descr"
-msgstr "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+msgstr "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter and modified dates are interacting with some existing advice delays, do not forget to run 'Update items and meetings'!</span>"
 
 #. Default: "You removed a date that is currently in use!"
 msgid "holidays_removed_date_in_use_error"
