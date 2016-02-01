@@ -2879,6 +2879,10 @@ msgstr "Dès qu'un point sera dans un des états cochés ci-dessous, il sera aut
 msgid "item_budget_infos_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour les utilisateurs qui sont dans le groupe de 'Gestionnaires d'informations budgétaires' de cette configuration de séance de modifier les informations budgétaires.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
+#. Default: "Check this box to display a field where you will be able to encode budgetary informations."
+msgid "item_budget_related_descr"
+msgstr "Si vous cochez cette case, une zone supplémentaire s'affichera ci-dessous pour y encoder les informations budgétaires de ce point."
+
 #. Default: "Budgetary informations"
 msgid "item_budgetinfos_descr"
 msgstr " "
