@@ -4634,6 +4634,10 @@ msgstr "Si vous modifiez ce champ, tous les avis seront invalidés!"
 msgid "warning_invalidate_advices_with_annex"
 msgstr "Attention: si vous ajoutez ou supprimez une annexe, tous les avis déjà donnés sur ce point seront invalidés."
 
+#. Default: "DO NOT CHANGE PARAMETERS DEFINFED IN THIS SECTION UNLESS YOU ARE REALLY SURE WHAT YOU ARE DOING!"
+msgid "warning_meetingconfig_workflow_descr"
+msgstr "NE CHANGEZ LES PARAMETRES DEFINIS DANS CETTE SECTION QUE SI VOUS ETES ABSOLUENT CERTAIN DE CE QUE VOUS FAITES!"
+
 #. Default: "This transition was automatically triggered by the application."
 msgid "wf_transition_triggered_by_application"
 msgstr "Cette transition a été automatiquement exécutée par l'application."
@@ -4650,9 +4654,9 @@ msgstr "Ce point sera envoyé vers ${meetingConfigTitle} (Urgence)"
 msgid "workflow"
 msgstr "Workflows"
 
-#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows. Your changes will only be applied when reinstalling.  <span style='color: red';>If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check meeting groups !</span>"
+#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red';>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check meeting groups, and if necessary when permissions changed, do not forget to run 'Update items and meetings'!</span>"
 msgid "workflow_adaptations_descr"
-msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. Vos changements ne seront appliqués que lors de la prochaine réinstallation.  <span style='color: red';>Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets 'Avis et accès' et 'Workflows' et les groupes PloneMeeting !</span>"
+msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. <span style='color: red';>Vos changements seront appliqués dès l'enregistrement de cette configuration de séance.  Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets 'Avis et accès', 'Workflows' et les groupes PloneMeeting, de plus, si des permissions sont affectées par ces changements, exécutez 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "This will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "working_days_descr"
