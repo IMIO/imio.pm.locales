@@ -1785,7 +1785,7 @@ msgstr ""
 msgid "PloneMeeting_label_group_certifiedSignatures"
 msgstr ""
 
-#. Default: "Leave empty to use the signatures defined on the meeting."
+#. Default: "Leave empty to use the signatures defined on the meeting configuration.  You may only redefine the certified signatures partially, for example, you may redefine signature number '2', the signature number '1' will still be taken from the meeting configuration."
 msgid "group_certified_signatures_descr"
 msgstr ""
 

@@ -2521,9 +2521,9 @@ msgstr "Aller à la page contenant le point"
 msgid "goto_previous"
 msgstr "Consulter les ${number} éléments précédents"
 
-#. Default: "Leave empty to use the signatures defined on the meeting."
+#. Default: "Leave empty to use the signatures defined on the meeting configuration.  You may only redefine the certified signatures partially, for example, you may redefine signature number '2', the signature number '1' will still be taken from the meeting configuration."
 msgid "group_certified_signatures_descr"
-msgstr "Si vous spécifiez des signatures dans ce champ, elle seront utilisées pour les points proposés par ce groupe, si le champ est vide, les signatures définies dans la configuration de séance seront utilisées."
+msgstr "Si vous spécifiez des signatures dans ce champ, elle seront utilisées pour les points proposés par ce groupe, si le champ est vide, les signatures définies dans la configuration de séance seront utilisées.  Vous pouvez redéfinir partiellement les signatures, par exemple, si vous ne redéfinissez que la signature numéro '2', la signature numéro '1' définie sur la configuration de séance sera utilisée."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_item_advice_edit_states_descr"

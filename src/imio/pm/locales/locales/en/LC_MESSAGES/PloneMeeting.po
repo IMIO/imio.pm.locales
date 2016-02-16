@@ -93,7 +93,7 @@ msgstr "Back to the item"
 
 #. Default: "Can not close a meeting containing items returned to proposing group!"
 msgid "Can not close a meeting containing items returned to proposing group!"
-msgstr ""
+msgstr "Can not close a meeting containing items returned to proposing group!"
 
 #. Default: "Cancel"
 msgid "Cancel"
@@ -233,7 +233,7 @@ msgstr "History of emergency changes"
 
 #. Default: "Holidays warning (do not delete!)"
 msgid "Holidays warning (do not delete!)"
-msgstr ""
+msgstr "Holidays warning (do not delete!)"
 
 #. Default: "How many items to list in each topic."
 msgid "How many items to list in each topic."
@@ -253,7 +253,7 @@ msgstr "If you specify a number, the values entered here above will be applied f
 
 #. Default: "Insert items among normal items"
 msgid "Insert items among normal items"
-msgstr ""
+msgstr "Insert items among normal items"
 
 #. Default: "It is not possible to add annexes because no file types is defined, please contact system administrator."
 msgid "It is not possible to add annexes because no file types is defined, please contact system administrator."
@@ -345,7 +345,7 @@ msgstr "No complementary comment has been given on this advice."
 
 #. Default: "No historized data for this advice."
 msgid "No historized data for this advice."
-msgstr ""
+msgstr "No historized data for this advice."
 
 #. Default: "No history informations are available for now."
 msgid "No history informations are available for now."
@@ -667,7 +667,7 @@ msgstr "Extract text from files"
 
 #. Default: "Extraordinary session"
 msgid "PloneMeeting_label_extraordinarySession"
-msgstr ""
+msgstr "Extraordinary session"
 
 #. Default: "Number of the first item contained in this meeting"
 msgid "PloneMeeting_label_firstItemNumber"
@@ -876,7 +876,7 @@ msgstr "Fields of the items to show/hide in the dashboards"
 
 #. Default: "Keep access to item when an advice is given"
 msgid "PloneMeeting_label_keepAccessToItemWhenAdviceIsGiven"
-msgstr ""
+msgstr "Keep access to item when an advice is given"
 
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
@@ -2521,9 +2521,9 @@ msgstr "Go to page containing item"
 msgid "goto_previous"
 msgstr "Previous ${number} elements"
 
-#. Default: "Leave empty to use the signatures defined on the meeting."
+#. Default: "Leave empty to use the signatures defined on the meeting configuration.  You may only redefine the certified signatures partially, for example, you may redefine signature number '2', the signature number '1' will still be taken from the meeting configuration."
 msgid "group_certified_signatures_descr"
-msgstr "Leave empty to use the signatures defined on the meeting."
+msgstr "Leave empty to use the signatures defined on the meeting configuration.  You may only redefine the certified signatures partially, for example, you may redefine signature number '2', the signature number '1' will still be taken from the meeting configuration."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_item_advice_edit_states_descr"
@@ -2539,7 +2539,7 @@ msgstr "When an item is in one of the states you choose here, it will be possibl
 
 #. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_keep_access_to_item_when_advice_is_given_descr"
-msgstr ""
+msgstr "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 
 #. Default: "User interface"
 msgid "gui"
@@ -2621,7 +2621,7 @@ msgstr "See last, uncolored version"
 
 #. Default: "Defined date must be defined by ascending order, from older date at the top to newer date at the bottom."
 msgid "holidays_date_not_ascending_error"
-msgstr ""
+msgstr "Defined date must be defined by ascending order, from older date at the top to newer date at the bottom."
 
 #. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter and modified dates are interacting with some existing advice delays, do not forget to run 'Update items and meetings'!</span>"
 msgid "holidays_descr"
@@ -2629,15 +2629,15 @@ msgstr "These dates will be used to compute advices delays.  <span style='color:
 
 #. Default: "You removed a date that is currently in use!"
 msgid "holidays_removed_date_in_use_error"
-msgstr ""
+msgstr "You removed a date that is currently in use!"
 
 #. Default: "There are not enough holidays defined in the configuration, please contact you system administrator!"
 msgid "holidays_warning_message"
-msgstr ""
+msgstr "There are not enough holidays defined in the configuration, please contact you system administrator!"
 
 #. Default: "Wrong date format, please use following format : 'YYYY/MM/DD'."
 msgid "holidays_wrong_date_format_error"
-msgstr ""
+msgstr "Wrong date format, please use following format : 'YYYY/MM/DD'."
 
 #. Default: "Thank you for your visit."
 msgid "hs_logged_out_body"
@@ -2881,7 +2881,7 @@ msgstr "When an item is in one of the states you choose here, it will be possibl
 
 #. Default: "Check this box to display a field where you will be able to encode budgetary informations."
 msgid "item_budget_related_descr"
-msgstr ""
+msgstr "Check this box to display a field where you will be able to encode budgetary informations."
 
 #. Default: "Budgetary informations"
 msgid "item_budgetinfos_descr"
@@ -3048,9 +3048,9 @@ msgstr "The page that displays a meeting contains potentially several tables fil
 msgid "items_list_visible_fields_descr"
 msgstr "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 
-#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>""
+#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "keep_access_to_item_when_advice_is_given_descr"
-msgstr ""
+msgstr "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 
 #. Default: "Choose an element in the list"
 msgid "label_choose_element_in_list"
@@ -4469,7 +4469,7 @@ msgstr "In PloneMeeting, for every meeting configuration, every item is defined 
 
 #. Default: "Use value defined on the meeting configuration (default)"
 msgid "use_meetingconfig_value"
-msgstr ""
+msgstr "Use value defined on the meeting configuration (default)"
 
 #. Default: "User replacements allow you to select a replacement user for any absent or excused user in a meeting."
 msgid "use_user_replacements_descr"
@@ -4641,7 +4641,7 @@ msgstr "Warning: if you add an annex through this form or if you delete an annex
 
 #. Default: "DO NOT CHANGE PARAMETERS DEFINFED IN THIS SECTION UNLESS YOU ARE REALLY SURE WHAT YOU ARE DOING!"
 msgid "warning_meetingconfig_workflow_descr"
-msgstr ""
+msgstr "DO NOT CHANGE PARAMETERS DEFINFED IN THIS SECTION UNLESS YOU ARE REALLY SURE WHAT YOU ARE DOING!"
 
 #. Default: "This transition was automatically triggered by the application."
 msgid "wf_transition_triggered_by_application"
