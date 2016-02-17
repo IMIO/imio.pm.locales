@@ -1790,7 +1790,7 @@ msgstr "Define here people that were excused for the meeting"
 msgid "assembly_meeting_descr"
 msgstr "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use 'Excused' and 'Absents' fields"
 
-#. Default: "Use 'CTRL+click' to select several associated groups."
+#. Default: " "
 msgid "associated_group_item_descr"
 msgstr "Use 'CTRL+click' to select several associated groups."
 
@@ -1931,7 +1931,7 @@ msgstr "When an item of this meeting config using this category will sent to ano
 msgid "category_required"
 msgstr "Please select a category."
 
-#. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
+#. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything."
 msgid "category_using_groups_descr"
 msgstr "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
 
@@ -2019,7 +2019,7 @@ msgstr "If this meeting configuration corresponds to an organization, institutio
 msgid "considered_not_given_hidden_during_redaction"
 msgstr "Considered not given because hidden during redaction"
 
-#. Default: "Select here groups that will be able to see this item"
+#. Default: " "
 msgid "copy_groups_item_descr"
 msgstr "Select here groups that will be able to see this item"
 
@@ -2947,7 +2947,7 @@ msgstr "You can't make this move. Please specify a valid number."
 msgid "item_illegal_switch"
 msgstr "Selected items may not be switched, specify item number manually."
 
-#. Default: "Use CTRL+click to select several initiators."
+#. Default: " "
 msgid "item_initiator_descr"
 msgstr "Use CTRL+click to select several initiators."
 
@@ -3048,8 +3048,12 @@ msgstr "The page that displays a meeting contains potentially several tables fil
 msgid "items_list_visible_fields_descr"
 msgstr "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 
+<<<<<<< .mine
+#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>""
+=======
 #. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>""
 #, fuzzy
+>>>>>>> .r22110
 msgid "keep_access_to_item_when_advice_is_given_descr"
 msgstr "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 
@@ -3721,7 +3725,7 @@ msgstr "These parameters are now managed in the ${docgen_url} control panel."
 msgid "open_annexes_in_separate_windows_descr"
 msgstr "Some users want to open annexes in separate windows. Indeed, when the user is consulting a meeting with paginated lists of items, clicking on an annex for downloading it may replace the current page with the annex content if the browser is configured for doing so (in conjunction with a plug-in for viewing PDFs inside the browser for example). In this case, the user is forced to click on 'back' to view the list again. It has 2 disadvantages: the list is refreshed (which slows down the system), and the user is redirected to the first items instead of the page he consulted just before the download."
 
-#. Default: "Choose advisers that will have to issue an optional advice for this item"
+#. Default: " "
 msgid "optional_advisers_item_descr"
 msgstr "Choose advisers that will have to issue an optional advice for this item"
 
@@ -4292,7 +4296,7 @@ msgstr "The item is taken over."
 msgid "taken_over_by_yes_edit"
 msgstr "The item is taken over. Click on the image to remove take over (you will be able to take it over afterward)."
 
-#. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
+#. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything."
 msgid "template_using_groups_descr"
 msgstr "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
 
@@ -4480,11 +4484,11 @@ msgstr "If you check this box, you will enable the voting system that allows mee
 msgid "used_advice_types_descr"
 msgstr "Specify here which advice types you are going to use."
 
-#. Default: "While some item attributes are fixed (the item title, the field where the decision must be written, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (maybe in the form allowing to create items or in the table displaying items presented in a meeting...). If you want to select more than one attribute, click on them while keeping the 'control' key pressed."
+#. Default: "While some item attributes are fixed (the item title, the field where the decision must be written, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (maybe in the form allowing to create items or in the table displaying items presented in a meeting...)."
 msgid "used_item_attributes_descr"
 msgstr "While some item attributes are fixed (the item title, the field where the decision must be written, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (maybe in the form allowing to create items or in the table displaying items presented in a meeting...). If you want to select more than one attribute, click on them while keeping the 'control' key pressed."
 
-#. Default: "While some meeting attributes are fixed (the title, the date, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (in the form allowing to create meetings, in the screen that displays information about a meeting...). If you want to select more than one attribute, click on them while keeping the 'control' key pressed."
+#. Default: "While some meeting attributes are fixed (the title, the date, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (in the form allowing to create meetings, in the screen that displays information about a meeting...)."
 msgid "used_meeting_attributes_descr"
 msgstr "While some meeting attributes are fixed (the title, the date, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (in the form allowing to create meetings, in the screen that displays information about a meeting...). If you want to select more than one attribute, click on them while keeping the 'control' key pressed."
 

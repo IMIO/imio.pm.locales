@@ -859,7 +859,6 @@ msgstr "Etiquetas"
 
 # MeetingItem
 #. Default: "Purpose"
-#, fuzzy
 msgid "PloneMeeting_label_itemTitle"
 msgstr "Objeto"
 
@@ -924,7 +923,6 @@ msgid "PloneMeeting_label_manuallyLinkedItems"
 msgstr ""
 
 #. Default: "Default number of available items to show on a page"
-#, fuzzy
 msgid "PloneMeeting_label_maxShownAvailableItems"
 msgstr "Número máximo de temas disponibles a mostrar a la vez"
 
@@ -933,7 +931,6 @@ msgid "PloneMeeting_label_maxShownListings"
 msgstr ""
 
 #. Default: "Default number of meeting items to show on a page"
-#, fuzzy
 msgid "PloneMeeting_label_maxShownMeetingItems"
 msgstr "Número máximo de temas de reunión para mostrar a la vez"
 
@@ -982,7 +979,6 @@ msgid "PloneMeeting_label_meetingObservations2"
 msgstr "Observaciones"
 
 #. Default: "Meeting states in wich power observers can see the meetings"
-#, fuzzy
 msgid "PloneMeeting_label_meetingPowerObserversStates"
 msgstr "Estados de la reunión en los que los observadores potenciales pueden ver las reuniones"
 
@@ -1104,7 +1100,6 @@ msgid "PloneMeeting_label_preObservations2"
 msgstr "Observaciones para la reunión preparatoria"
 
 #. Default: "Previous item"
-#, fuzzy
 msgid "PloneMeeting_label_predecessor"
 msgstr "Temas vinculados"
 
@@ -1255,7 +1250,6 @@ msgid "PloneMeeting_label_toDoListSearches"
 msgstr ""
 
 #. Default: "To print?"
-#, fuzzy
 msgid "PloneMeeting_label_toPrint"
 msgstr "¿A imprimir?"
 
@@ -1372,7 +1366,6 @@ msgid "Preview detailled advice"
 msgstr ""
 
 #. Default: "Recurring items"
-#, fuzzy
 msgid "RecurringItems"
 msgstr "Temas predefinidos"
 
@@ -1554,7 +1547,6 @@ msgid "advice_delay_without_label"
 msgstr ""
 
 #. Default: "Quick edit advice"
-#, fuzzy
 msgid "advice_edit"
 msgstr "Editar consejo"
 
@@ -1747,7 +1739,6 @@ msgid "arrow_up"
 msgstr "Ordenar ascendente"
 
 #. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as copyGroup for an item.  We receive 'item' as the meeting item and 'isCreated' that is only True when the item is in the creation process (not while being edited after).  WARNING, if the 'suffix' returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
-#, fuzzy
 msgid "as_copy_group_on_descr"
 msgstr "Especifique aquí una expresión TAL que devolverá una lista de sufijos de grupo Plone (por ejemplo: ['creadores', 'revisores',]) si el grupo tiene que ser seleccionada automáticamente como grupo de copia para un tema. Recibimos 'tema' como tema de reunión. ADVERTENCIA, si el 'sufijo' devuelto por la expresión no está en la lista de grupos de copia seleccionables de la configuración de reunión, no se seleccionará. La expresión podría ser: 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
 
@@ -1800,11 +1791,10 @@ msgid "assembly_excused_meeting_descr"
 msgstr ""
 
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use 'Excused' and 'Absents' fields"
-#, fuzzy
 msgid "assembly_meeting_descr"
 msgstr "Agregue los corchetes [[ ]] alrededor de las personas ausentes (como [[Señor Pedro Perez]])"
 
-#. Default: "Use 'CTRL+click' to select several associated groups."
+#. Default: " "
 msgid "associated_group_item_descr"
 msgstr "Presione la combinación de teclas 'CTRL + clic' para seleccionar varios grupos asociados."
 
@@ -1942,16 +1932,14 @@ msgid "category_mapping_when_cloning_to_other_mc_descr"
 msgstr ""
 
 #. Default: "Please select a category."
-#, fuzzy
 msgid "category_required"
 msgstr "Por favor especifique una categoría."
 
-#. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
+#. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything."
 msgid "category_using_groups_descr"
 msgstr "Seleccione los grupos que serán capaces de utilizar esta categoría. Si cada grupo deben ser capaces de utilizar este categoría, no seleccione nada. Presione la combinación de teclas 'CTRL + clic' para seleccionar varios categorías."
 
 #. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
-#, fuzzy
 msgid "certified_signatures_descr"
 msgstr "Defina aquí las firmas que serán usadas en las plantillas como firmas certificadas. Este campo, tendrá que ser actualizado periódicamente para que coincida con la situación existente este campo."
 
@@ -2035,7 +2023,7 @@ msgstr "Si esta configuración de reunión corresponde a una organización, inst
 msgid "considered_not_given_hidden_during_redaction"
 msgstr ""
 
-#. Default: "Select here groups that will be able to see this item"
+#. Default: " "
 msgid "copy_groups_item_descr"
 msgstr "Seleccione aquí los grupos que podrán ver este tema"
 
@@ -2116,7 +2104,6 @@ msgid "custom_adviser_wrong_delay_format"
 msgstr ""
 
 #. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices. <span style='color: red';>If you change this parameter, and any of your change affect already created items (new configuration with a 'Rule activated for item created from' date in the past or change in help messages already used for example), do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "custom_advisers_descr"
 msgstr "Defina aquí comportamientos especiales para algunos consejos: consejos que se hacen de forma automática por la aplicación y retrasan consejos conscientes. <span style='color: red';>Si cambia este parámetro, y cualquiera de su cambio afectará a los temas ya creados (la nueva configuración 'Regla activada para el tema creado a partir de esta' con una fecha en el pasado o cambie en los mensajes de ayuda que ya se utiliza por ejemplo), ¡no se olvide de actualizar consejos!</span>"
 
@@ -2282,7 +2269,6 @@ msgid "enable_annex_preview_descr"
 msgstr "Si habilita vista previa de anexos, el anexo será convertido a un formato con vista previa / imprimible directamente legible por el navegador web. <span style='color: red';>Si habilita esta en un sitio que ya contiene temas y anexos, ¡no se olvide de poner en marcha el proceso de conversión anexos!</span>"
 
 #. Default: "Let the user specify if an annex needs to be printed or not.  Annex to print may be 'for information', this will just show on the annex that it is to print and relevant users may print these annexes manually, or it can be 'for automated printing', in this case, printable formats are generated when an annex is set 'to print' so the application may print these annexes in documents.  If you choose this last option, it is necessary to set up a engine that will convert annexes to printable formats asynchronously so users do not have to wait during annexes conversion.  Be careful, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
-#, fuzzy
 msgid "enable_annex_to_print_descr"
 msgstr "Deje que el usuario especifique si un anexo es necesario imprimir o no. ADVERTENCIA, si deshabilita esta funcionalidad, los dos siguientes parámetros  'Valor por defecto al imprimir el Anexo' y 'Valor por defecto al imprimir el Anexo a la decisión' se establece en False automáticamente."
 
@@ -2544,17 +2530,14 @@ msgid "group_certified_signatures_descr"
 msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "group_item_advice_edit_states_descr"
 msgstr "Cuando un tema tiene uno de los estados que usted elige aquí, le permitirá a un consejero de este grupo modificar o eliminar un consejo en este tema. Si usted no especifica ningún estado aquí, una lista de estados, a a nivel global a todos los grupos, son definidos al nivel de configuración a ser usado en su lugar. <span style='color: red';>Si cambia este parámetro, ¡no se olvide de actualizar consejos!</span>"
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to add an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "group_item_advice_states_descr"
 msgstr "Cuando un tema tiene uno de los estados que usted selecciono aquí, eso le permitirá a un consejero de este grupo para agregar un consejo en este tema. Si usted no especifica ningún estado aquí, una lista de estados, global a todos los grupos, son definidos al nivel de configuración a ser usado en su lugar.Cuando un tema tiene uno de los estados que usted selecciono aquí, eso le permitirá a un consejero de este grupo agregar un consejo en este tema. Si usted no especifica ningún estado aquí, una lista de estados, global a todos los grupos, son definidos al nivel de configuración a ser usado en su lugar."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser selected on this item to continue to view the item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "group_item_advice_view_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados a los que decide aquí, será posible que un asesor seleccionado en este tema pueda continuar viendo el tema. Si no se especifica ningún estado aquí, una lista de los estados, a nivel global a todos los grupos, que se definen en el nivel de configuración se utiliza en su lugar. <span style='color: red';>¡Si cambia este parámetro, no se olvide de actualizar consejos!</span>"
 
@@ -2861,7 +2844,6 @@ msgid "item_actions_interface_descr"
 msgstr "Similarmente a el campo precedido, todos las acciones que son activadas cuando un consejo va de un estado a otro son configurables a través del desarrollo de otro módulo de Plone dentro del cual debe: <ul><li>crear una interfaz Python que herede desde la interfaz Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions (usted debe introducir el nombre completo del paquete de esta interfaz en el siguiente campo);</li><li>crear y declarar en el archivo ZCML un adaptador que adapte la interfaz Products.PloneMeeting.interfaces.IMeetingItem a la interfaz que usted tiene definida en el paso anterior.</li></ul>Su adaptador tal ves herede desde el adaptador por defecto Products.PloneMeeting.MeetingItem.MeetingItemWorkflowActions: eso le permitirá a usted anular solo métodos por los cuales usted quiera un comportamiento alterno. Todos los métodos propuestos por la interfaz Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions son documentado."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible to modify or delete an advice on this item.  States defined here must contains at least every states defined in the 'Item states allowing to define advices' field here above.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "item_advice_edit_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados a los que elige aquí, será posible modificar o borrar un consejo sobre este tema. Los estados definidos aquí tienen que contener por lo menos cada estados definidos en el campo 'los estados de temas que permiten definir consejos' aquí arriba. <span style='color: red';>¡Si cambia este parámetro, no se olvide de actualizar consejos!</span>"
 
@@ -2870,12 +2852,10 @@ msgid "item_advice_invalidate_states"
 msgstr "Cuando la invalidación de consejo es habilitada, será el único caso de los temas que se encuentran en uno de los estados seleccionado aquí."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible to add an advice on this item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "item_advice_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados que elija aquí, será posible agregar un consejo a este tema."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for groups the advice is asked for, to continue to view the item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "item_advice_view_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados a los que elige aquí, será posible que los grupos de los consejos que se le pide, puedan continuar viendo el tema. <span style='color: red';>¡Si cambia este parámetro, no se olvide de actualizar consejos!</span>"
 
@@ -2900,7 +2880,6 @@ msgid "item_auto_sent_to_other_mc_states_descr"
 msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "item_budget_infos_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados a los que decide aquí, será posible que los editores de impacto del presupuestario puedan editar las informaciones presupuestarias."
 
@@ -2921,7 +2900,6 @@ msgid "item_classifier_descr"
 msgstr "Clasificador"
 
 #. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches)."
-#, fuzzy
 msgid "item_columns_descr"
 msgstr "Seleccione aquí cuales columnas se mostraran cuando se en listen temas (por ejemplo, cuando requieren 'mis temas', 'todos los temas', o cuando este ejecutando búsquedas personalizadas)."
 
@@ -2934,7 +2912,6 @@ msgid "item_conditions_interface_descr"
 msgstr "En el flujo de trabajo de tema, algún expresiones booleanas guardan la ejecución del la transición desde un estado a otro. Esas condiciones, junto con otras condiciones hacen muy útil a los varios niveles con PloneMeeting, son definida como métodos de una interfaz Python. Usted puede modificar esas condiciones, a través del desarrollo de otro producto de Plone dentro del cual debe: <ul><li>crear una interfaz Python que herede desde la interfaz Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (usted debe introducir el nombre completo del paquete de esta interfaz en el siguiente campo);</li><li>crear y declarar en el archivo ZCML un adaptador que adapte la interfaz Products.PloneMeeting.interfaces.IMeetingItem a la interfaz que usted tiene definida en el paso anterior.</li></ul>Su adaptador tal ves herede desde el adaptador por defecto Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: eso le permitirá a usted anular solo métodos por los cuales usted quiera un comportamiento alterno. Todos los métodos propuestos por la interfaz Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions son documentado."
 
 #. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "item_copygroups_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados a los que decide aquí, va a ser visible para los grupos de copia. <span style='color: red';>¡Si cambia este parámetro, no se olvide de actualizar los grupos de copia!</span>"
 
@@ -2947,7 +2924,6 @@ msgid "item_decided_states_descr"
 msgstr "Seleccione el estado decidido para un tema"
 
 #. Default: "No move occurred because you specified the same item number."
-#, fuzzy
 msgid "item_did_not_move"
 msgstr "Sin mover por que usted especifico el número o este número más uno. Si usted especifica un número X, el tema irá justo antes del tema anterior de número X, y los otros temas se cambiará. Si usted quiere mover un tema al final de la lista, usted debe especificar el número del ultimo tema más uno. Tenga en cuenta que cuando dos temas se muestran en las listas, usted no puede mover los temas desde una lista a la otra."
 
@@ -2968,7 +2944,6 @@ msgid "item_icon_color_descr"
 msgstr ""
 
 #. Default: "You can't make this move. Please specify a valid number."
-#, fuzzy
 msgid "item_illegal_move"
 msgstr "Usted no puede mover esto. Si usted especifica un número X, el tema irá justo antes del tema anterior de número X, y los otros temas se cambiará. Si usted quiere mover un tema al final de la lista, usted debe especificar el número del ultimo tema más uno. Tenga en cuenta que cuando dos temas se muestran en las listas, usted no puede mover los temas desde una lista a la otra."
 
@@ -2976,7 +2951,7 @@ msgstr "Usted no puede mover esto. Si usted especifica un número X, el tema ir�
 msgid "item_illegal_switch"
 msgstr ""
 
-#. Default: "Use CTRL+click to select several initiators."
+#. Default: " "
 msgid "item_initiator_descr"
 msgstr "Presione la tecla CTRL+clic al seleccionar varios iniciadores."
 
@@ -3009,7 +2984,6 @@ msgid "item_number_not_accessible"
 msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "item_powerobservers_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados que elija aquí, será posible que los súper observadores de esta Configuración de reunión para ver el tema."
 
@@ -3115,7 +3089,6 @@ msgid "label_schema_default"
 msgstr "Información principal"
 
 #. Default: "Search"
-#, fuzzy
 msgid "label_schema_pm_search"
 msgstr "Búsqueda avanzada"
 
@@ -3173,7 +3146,6 @@ msgid "lateItem_mail_subject"
 msgstr "${meetingConfigTitle} - Un tema 'tardío' ha sido validado."
 
 #. Default: "Items presented tardily"
-#, fuzzy
 msgid "late_presented_items"
 msgstr "Temas presentados después de la reunión que fue publicada."
 
@@ -3282,7 +3254,6 @@ msgid "manually_linked_items_descr"
 msgstr ""
 
 #. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
-#, fuzzy
 msgid "max_shown_available_items_descr"
 msgstr "Cuando se muestra una reunión, la lista de temas que se pueden presentar a la reunión pueden ser paginadas aquí si especifica un número máximo de temas disponibles para mostrar a la vez."
 
@@ -3291,7 +3262,6 @@ msgid "max_shown_listings_descr"
 msgstr ""
 
 #. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value."
-#, fuzzy
 msgid "max_shown_meeting_items_descr"
 msgstr "Cuando se muestra una reunión, la lista de temas en la reunión pueden ser paginadas aquí si especifica un número máximo de temas para mostrar a la vez."
 
@@ -3312,7 +3282,6 @@ msgid "meeting_assembly"
 msgstr "Asamblea"
 
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
-#, fuzzy
 msgid "meeting_columns_descr"
 msgstr "Seleccione aquí cuales columnas se mostrarán en la lista de reuniones (es decir, cuando muestra la lista de reuniones disponibles o decisiones, o cuando ejecutaba búsqueda personalizadas)."
 
@@ -3359,7 +3328,6 @@ msgid "meeting_of"
 msgstr "Reunión de"
 
 #. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "meeting_powerobservers_states_descr"
 msgstr "Cuando un reunión se encuentra en uno de los estados que elija aquí, será posible que los súper observadores de esta Configuración de reunión para ver el reunión."
 
@@ -3393,7 +3361,6 @@ msgid "meeting_state_changed_default_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - Este reunión esta ahora en el estado '${meetingState}'."
 
 #. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
-#, fuzzy
 msgid "meeting_transition_inserting_me_descr"
 msgstr "Seleccione aquí que evento en las reuniones disparará la inserción de este tema en una reunión. Rellene este campo solamente si usted selecciona 'Como un tema recurrente' en medio de los usos de temas."
 
@@ -3749,7 +3716,6 @@ msgid "oo_config"
 msgstr "Configuración de OpenOffice.org"
 
 #. Default: "These parameters are now managed in the ${docgen_url} control panel."
-#, fuzzy
 msgid "oo_config_descr"
 msgstr "PloneMeeting le permite generar varios documentos relacionados a temas, agendas, decisiones, etc. Para cada configuración de reunión usted puede definir parámetros precisos para generar documentos. Pero en este alto nivel, eso es importante saber que si usted quiere generar documentos con otros formatos que no sean Open Document Format Text (ODT), por ejemplo Microsoft Word, RTF o PDF, usted tiene que instalar OpenOffice.org en modo servidor en la misma máquina donde esta instalado PloneMeeting, y especificar valores para los campos de esta sección, usando la pestaña anterior 'editar'."
 
@@ -3757,7 +3723,7 @@ msgstr "PloneMeeting le permite generar varios documentos relacionados a temas, 
 msgid "open_annexes_in_separate_windows_descr"
 msgstr "Algunos usuarios desean abrir anexos en ventanas separadas. De hecho, cuando el usuario está consultando una reunión con las listas paginadas de temas, al hacer clic en un anexo para la descarga puede sustituir la página actual con el anexo de contenido si el navegador está configurado para hacerlo (en relación con un plug-in para la visualización de archivos PDF dentro del navegador, por ejemplo). En este caso, el usuario se ve obligado a hacer clic en \"volver\" para ver la lista de nuevo. Tiene 2 inconvenientes: la lista se actualiza (lo que ralentiza el sistema), y el usuario se redirige a los primeros temas en lugar de consultar la página que justo antes de la descarga."
 
-#. Default: "Choose advisers that will have to issue an optional advice for this item"
+#. Default: " "
 msgid "optional_advisers_item_descr"
 msgstr "Elegir los consejos que tendrá que usar como un consejo opcional para este tema"
 
@@ -3854,7 +3820,6 @@ msgid "pm_modification_date"
 msgstr ""
 
 #. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
-#, fuzzy
 msgid "pm_tool_updates_warning"
 msgstr "Advertencia: ¡Tenga cuidado de que el lanzamiento de estas actualizaciones puede llevar un tiempo, dependiendo del número de elementos existentes!, ¡No inicie durante el periodo de alto uso!"
 
@@ -3983,7 +3948,6 @@ msgid "presented_items"
 msgstr "Temas presentado a esta reunión"
 
 #. Default: "A proposing group is required."
-#, fuzzy
 msgid "proposing_group_required"
 msgstr "Como el tema es usado como tema recurrente, el grupo proponente es obligatorio."
 
@@ -4029,7 +3993,6 @@ msgid "recurringItemWorkflowError_mail_subject"
 msgstr "${portalTitle} - Un problema ocurrió mientras estaba insertando el tema recurrente titulado '${itemTitle}' dentro de una reunión."
 
 #. Default: "Recurring items are items that will be automatically added to a meeting at a defined moment."
-#, fuzzy
 msgid "recurring_items_descr"
 msgstr "Usted puede manejar aquí temas predefinidos que servirán, para diferentes propósitos, como plantillas para crear temas reales."
 
@@ -4102,42 +4065,34 @@ msgid "save"
 msgstr "Guardar"
 
 #. Default: "Advised items"
-#, fuzzy
 msgid "searchalladviseditems"
 msgstr "temas aconsejados"
 
 #. Default: "Advised items with delay"
-#, fuzzy
 msgid "searchalladviseditemswithdelay"
 msgstr "temas asesorados con retraso"
 
 #. Default: "All decisions"
-#, fuzzy
 msgid "searchalldecisions"
 msgstr "todas las decisiones"
 
 #. Default: "All items"
-#, fuzzy
 msgid "searchallitems"
 msgstr "todos los temas"
 
 #. Default: "Items in copy"
-#, fuzzy
 msgid "searchallitemsincopy"
 msgstr "temas en copia"
 
 #. Default: "All items to advice"
-#, fuzzy
 msgid "searchallitemstoadvice"
 msgstr "temas para aconsejar"
 
 #. Default: "Available meetings"
-#, fuzzy
 msgid "searchallmeetings"
 msgstr "reuniones disponibles"
 
 #. Default: "Corrected items"
-#, fuzzy
 msgid "searchcorrecteditems"
 msgstr "temas corregidos"
 
@@ -4154,7 +4109,6 @@ msgid "searchitemsofmygroups"
 msgstr ""
 
 #. Default: "Items to advice with delay"
-#, fuzzy
 msgid "searchitemstoadvicewithdelay"
 msgstr "temas para aconsejar con retraso"
 
@@ -4167,7 +4121,6 @@ msgid "searchitemstoadvicewithoutdelay"
 msgstr ""
 
 #. Default: "Items to correct"
-#, fuzzy
 msgid "searchitemstocorrect"
 msgstr "temas a corregir"
 
@@ -4282,7 +4235,6 @@ msgid "signatures_defined_on_meeting"
 msgstr "Firmas como se definen en la reunión vinculada"
 
 #. Default: "Define here the default signatures that will be automatically selected on newly created meetings. Use 2 lines by signature, one for the function and one for the signatory name. This will be applicable only if you use attribute 'Signatures' for meetings."
-#, fuzzy
 msgid "signatures_descr"
 msgstr "Definir aquí las firmas por defecto que se seleccionará automáticamente en las nuevas creaciones de reuniones. Esto será aplicable sólo si se utiliza el atributo 'Firmas' para las reuniones."
 
@@ -4342,7 +4294,7 @@ msgstr ""
 msgid "taken_over_by_yes_edit"
 msgstr ""
 
-#. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
+#. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything."
 msgid "template_using_groups_descr"
 msgstr "Seleccione los grupos que serán capaces de utilizar este tema como plantilla. Si cada grupo deben ser capaces de utilizar este categoría, no seleccione nada. Presione la combinación de teclas 'CTRL + clic' para seleccionar varios grupos."
 
@@ -4512,7 +4464,6 @@ msgid "use_copies_descr"
 msgstr "Marque la casilla si desea que los creadores de temas puedan seleccionar copia de grupos para este tema"
 
 #. Default: "In PloneMeeting, for every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the PloneMeeting groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red';>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because 'living' items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
-#, fuzzy
 msgid "use_groups_as_categories_descr"
 msgstr "En PloneMeeting, para cada configuración de reunión, cada tema es definido por una categoría y no puede pertenecer a varias categorías a la vez. Estas categorías pueden ser importantes, por ejemplo, cuando los temas son presentados en una agenda: ellos pueden ser ordenados de acuerdo a su categoría (eso depende del valor de otro parámetro de esta página). Si usted estima que los grupos de PloneMeeting corresponden a sus categorías, y que no es necesario un régimen de categorización más, marque la casilla."
 
@@ -4532,11 +4483,11 @@ msgstr "Si usted marca esta casilla, usted habilitará el sistema de votación q
 msgid "used_advice_types_descr"
 msgstr "Especifique aquí qué tipos de consejo usted va a utilizar."
 
-#. Default: "While some item attributes are fixed (the item title, the field where the decision must be written, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (maybe in the form allowing to create items or in the table displaying items presented in a meeting...). If you want to select more than one attribute, click on them while keeping the 'control' key pressed."
+#. Default: "While some item attributes are fixed (the item title, the field where the decision must be written, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (maybe in the form allowing to create items or in the table displaying items presented in a meeting...)."
 msgid "used_item_attributes_descr"
 msgstr "Mientras que algunos atributos del tema son fijos (el título de tema, el campo de la decisión debe ser escrito, etc), otros atributos (que se muestra a continuación) son opcionales. Si selecciona ellos, se mostrarán en varios lugares en la interfaz de usuario (en la forma que permite la creación de temas, en la pantalla que muestra información sobre una reunión...). Si desea seleccionar más de un atributo, haga clic en ellos mientras se mantiene el botón \"control\" presionado."
 
-#. Default: "While some meeting attributes are fixed (the title, the date, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (in the form allowing to create meetings, in the screen that displays information about a meeting...). If you want to select more than one attribute, click on them while keeping the 'control' key pressed."
+#. Default: "While some meeting attributes are fixed (the title, the date, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (in the form allowing to create meetings, in the screen that displays information about a meeting...)."
 msgid "used_meeting_attributes_descr"
 msgstr "Mientras que algunos atributos de la reunión son fijos (el título, fecha, etc), otros atributos (que se muestra a continuación) son opcionales. Si selecciona ellos, se mostrarán en varios lugares en la interfaz de usuario (en la forma que permite la creación de reuniones, en la pantalla que muestra información sobre una reunión...). Si desea seleccionar más de un atributo, haga clic en ellos mientras se mantiene el botón 'control' presionado."
 
@@ -4709,7 +4660,6 @@ msgid "workflow"
 msgstr "Flujo de trabajos"
 
 #. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red';>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check meeting groups, and if necessary when permissions changed, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "workflow_adaptations_descr"
 msgstr "Seleccione aquí uno o más definiciones estándar de cambios que serán aplicados a los temas seleccionados y/o flujo de trabajo de reunión. Sus cambios solamente serán aplicados cuando reinstale."
 

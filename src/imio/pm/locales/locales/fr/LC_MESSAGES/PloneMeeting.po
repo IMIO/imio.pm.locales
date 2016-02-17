@@ -1790,9 +1790,9 @@ msgstr "Définissez ici les personnes excusées pour la séance"
 msgid "assembly_meeting_descr"
 msgstr "Ajoutez des double crochets [[ ]] autour des personnes absentes, par exemple : [[Mr. Untel Didier]] si vous n'utilisez pas les champs 'Excusés' et 'Absents'"
 
-#. Default: "Use 'CTRL+click' to select several associated groups."
+#. Default: " "
 msgid "associated_group_item_descr"
-msgstr "Choisissez-en plusieurs en maintenant la touche 'Ctrl' enfoncée."
+msgstr " "
 
 #. Default: "Associated groups' acronyms"
 msgid "associated_groups_acronyms"
@@ -1931,9 +1931,9 @@ msgstr "Lorsqu'un point de cette configuration de séance utilisant cette catég
 msgid "category_required"
 msgstr "Veuillez sélectionner une catégorie."
 
-#. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
+#. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything."
 msgid "category_using_groups_descr"
-msgstr "Sélectionnez les groupes qui pourront utiliser cette catégorie.  Si tous les groupes doivent pouvoir utiliser cette catégorie, ne sélectionnez aucun groupe.  Vous pouvez choisir plusieurs groupes en maintenant la touche 'Ctrl' enfoncée."
+msgstr "Sélectionnez les groupes qui pourront utiliser cette catégorie.  Si tous les groupes doivent pouvoir utiliser cette catégorie, ne sélectionnez aucun groupe."
 
 #. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
 msgid "certified_signatures_descr"
@@ -2019,9 +2019,9 @@ msgstr "Si cette configuration de séance correspond à une organisation, un org
 msgid "considered_not_given_hidden_during_redaction"
 msgstr "Considéré 'Non rendu'"
 
-#. Default: "Select here groups that will be able to see this item"
+#. Default: " "
 msgid "copy_groups_item_descr"
-msgstr "Choisissez-en plusieurs en maintenant la touche 'Ctrl' enfoncée."
+msgstr " "
 
 #. Default: "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
 msgid "could_not_present_item_no_meeting_accepting_items"
@@ -2947,9 +2947,9 @@ msgstr "Vous ne pouvez pas effectuer ce déplacement. Spécifiez un numéro vali
 msgid "item_illegal_switch"
 msgstr "Le point sélectionné ne peut pas changer de position avec l'autre point, définissez un numéro de point manuellement."
 
-#. Default: "Use CTRL+click to select several initiators."
+#. Default: " "
 msgid "item_initiator_descr"
-msgstr "Choisissez-en plusieurs en maintenant la touche 'Ctrl' enfoncée."
+msgstr " "
 
 #. Default: "The item is not signed."
 msgid "item_is_signed_no"
@@ -3720,9 +3720,9 @@ msgstr "Ces paramètres sont maintenant gérés dans le panneau de configuration
 msgid "open_annexes_in_separate_windows_descr"
 msgstr "Certains utilisateurs veulent ouvrir les annexes dans des fenêres séparées. En effet, quand l'utilisateur consulte une séance qui contient des listes paginées de points, un clic sur une annexe pour la télécharger peut remplacer la page courante par le contenu de l'annexe si le navigateur est configuré pour agir de la sorte (en conjonction avec un greffon permettant de visualiser les PDFs au sein du navigateur par exemple). Dans ce cas, l'utilisateur est obligé de cliquer sur 'Back' pour voir à nouveau la liste des points. Cela a 2 désavantages: la liste est rafraîchie (ce qui ralentit le système) et l'utilisateur est redirigé vers les premiers points de la liste au lieu de l'endroit qu'il a quitté juste avant le téléchargement."
 
-#. Default: "Choose advisers that will have to issue an optional advice for this item"
+#. Default: " "
 msgid "optional_advisers_item_descr"
-msgstr "Choisissez-en plusieurs en maintenant la touche 'Ctrl' enfoncée."
+msgstr " "
 
 #. Default: " "
 msgid "oral_question_item_descr"
@@ -4291,9 +4291,9 @@ msgstr "Le point est pris en charge."
 msgid "taken_over_by_yes_edit"
 msgstr "Le point est pris en charge, cliquez sur l'image pour retirer la prise en charge (vous pourrez alors le prendre en charge si nécessaire)."
 
-#. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
+#. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything."
 msgid "template_using_groups_descr"
-msgstr "Si l'usage de ce point est 'Comme canevas de point', sélectionnez les groupes qui pourront l'utiliser.  Si tous les groupes doivent pouvoir utiliser ce canevas, ne sélectionnez aucun groupe.  Vous pouvez choisir plusieurs groupes en maintenant la touche 'Ctrl' enfoncée."
+msgstr "Si l'usage de ce point est 'Comme canevas de point', sélectionnez les groupes qui pourront l'utiliser.  Si tous les groupes doivent pouvoir utiliser ce canevas, ne sélectionnez aucun groupe."
 
 #. Default: "the advice was asked after this date."
 msgid "the advice was asked after this date."
@@ -4479,13 +4479,13 @@ msgstr "Si vous cochez cette case, vous activerez le système de votes permettan
 msgid "used_advice_types_descr"
 msgstr "Spécifiez ici quels types d'avis vous voulez utiliser."
 
-#. Default: "While some item attributes are fixed (the item title, the field where the decision must be written, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (maybe in the form allowing to create items or in the table displaying items presented in a meeting...). If you want to select more than one attribute, click on them while keeping the 'control' key pressed."
+#. Default: "While some item attributes are fixed (the item title, the field where the decision must be written, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (maybe in the form allowing to create items or in the table displaying items presented in a meeting...)."
 msgid "used_item_attributes_descr"
-msgstr "Bien que certains attributs caractérisant un point soient fixes (l'objet du point, le champ permettant d'introduire la décision, etc), d'autres, repris dans cette liste, sont optionnels. En fonction de votre choix, ils s'afficheront ou non à divers endroits dans les interfaces utilisateurs (peut-être dans le formulaire de création d'un point ou sur certains affichages des points en liste, etc). Pour en sélectionner plusieurs, vous devez cliquer dessus tout en appuyant sur la touche 'control'."
+msgstr "Bien que certains attributs caractérisant un point soient fixes (l'objet du point, le champ permettant d'introduire la décision, etc), d'autres, repris dans cette liste, sont optionnels. En fonction de votre choix, ils s'afficheront ou non à divers endroits dans les interfaces utilisateurs (peut-être dans le formulaire de création d'un point ou sur certains affichages des points en liste, etc)."
 
-#. Default: "While some meeting attributes are fixed (the title, the date, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (in the form allowing to create meetings, in the screen that displays information about a meeting...). If you want to select more than one attribute, click on them while keeping the 'control' key pressed."
+#. Default: "While some meeting attributes are fixed (the title, the date, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (in the form allowing to create meetings, in the screen that displays information about a meeting...)."
 msgid "used_meeting_attributes_descr"
-msgstr "Bien que certains attributs caractérisant une séance soient fixes (comme la date par exemple), d'autres, repris dans cette liste, sont optionnels. En fonction de votre choix, ils s'afficheront ou non à divers endroits dans les interfaces utilisateurs (dans le formulaire de création d'une séance, sur la page d'affichage d'une séance, etc). Pour en sélectionner plusieurs, vous devez cliquer dessus tout en appuyant sur la touche 'control'."
+msgstr "Bien que certains attributs caractérisant une séance soient fixes (comme la date par exemple), d'autres, repris dans cette liste, sont optionnels. En fonction de votre choix, ils s'afficheront ou non à divers endroits dans les interfaces utilisateurs (dans le formulaire de création d'une séance, sur la page d'affichage d'une séance, etc)."
 
 #. Default: "Specify here what vote values are in use in this meeting configuration."
 msgid "used_vote_values_descr"

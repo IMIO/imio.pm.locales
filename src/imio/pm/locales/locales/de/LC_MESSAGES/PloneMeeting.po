@@ -919,7 +919,6 @@ msgid "PloneMeeting_label_manuallyLinkedItems"
 msgstr ""
 
 #. Default: "Default number of available items to show on a page"
-#, fuzzy
 msgid "PloneMeeting_label_maxShownAvailableItems"
 msgstr "Maximale Anzahl gleichzeitig anzuzeigender vorhandener TOP"
 
@@ -928,7 +927,6 @@ msgid "PloneMeeting_label_maxShownListings"
 msgstr ""
 
 #. Default: "Default number of meeting items to show on a page"
-#, fuzzy
 msgid "PloneMeeting_label_maxShownMeetingItems"
 msgstr "Maximale Anzahl gleichzeitig anzuzeigender TOP"
 
@@ -1098,7 +1096,6 @@ msgid "PloneMeeting_label_preObservations2"
 msgstr "Bemerkungen zur vorbereitenden Sitzung"
 
 #. Default: "Previous item"
-#, fuzzy
 msgid "PloneMeeting_label_predecessor"
 msgstr "Vorlage"
 
@@ -1365,7 +1362,6 @@ msgid "Preview detailled advice"
 msgstr ""
 
 #. Default: "Recurring items"
-#, fuzzy
 msgid "RecurringItems"
 msgstr "Sich wiederholende TOP"
 
@@ -1378,7 +1374,6 @@ msgid "Select an item to add"
 msgstr ""
 
 #. Default: "state"
-#, fuzzy
 msgid "State"
 msgstr "Status"
 
@@ -1492,12 +1487,10 @@ msgid "add_object"
 msgstr "Ein neues Objekt hinzufügen"
 
 #. Default: "You can access this item here: ${objectUrl}."
-#, fuzzy
 msgid "adviceEdited_mail_body"
 msgstr "Mehr Informationen hier ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - An advice has been added or modified on the item '${itemTitle}'."
-#, fuzzy
 msgid "adviceEdited_mail_subject"
 msgstr "Ein Kommentar wurde gerade zum TOP '${itemTitle}' hinzugefügt oder geändert."
 
@@ -1506,7 +1499,6 @@ msgid "adviceInvalidated_mail_body"
 msgstr "Sie können diesen TOP hier ${objectUrl} begutachten. Ihr Kommentar ist jetzt wieder mit einem Fragezeichen versehen. Sie können den Kommentar editieren indem Sie auf den Stift klicken."
 
 #. Default: "${meetingConfigTitle} - One or your advices has been invalidated on the item '${itemTitle}'."
-#, fuzzy
 msgid "adviceInvalidated_mail_subject"
 msgstr "Einer Ihrer Kommentare ist ungültig geworden in folgendem TOP: '${itemTitle}'. "
 
@@ -1591,12 +1583,10 @@ msgid "advice_wf_changed_auto_by_app"
 msgstr ""
 
 #. Default: "Advices and access"
-#, fuzzy
 msgid "advices"
 msgstr "Kommentare"
 
 #. Default: "Advices and access"
-#, fuzzy
 msgid "advices_config"
 msgstr "Kommentare"
 
@@ -1641,12 +1631,10 @@ msgid "and_description"
 msgstr ", Beschreibung"
 
 #. Default: "An annex has been added to the item '${itemTitle}' that was already presented to the meeting.  You can access this item here: ${objectUrl}."
-#, fuzzy
 msgid "annexAdded_mail_body"
 msgstr "Der TOP trägt dem Namen '${itemTitle}'. Mehr Informationen auf ${portalUrl}."
 
 #. Default: "${meetingConfigTitle} - ${meetingTitle} - An annex was just added to an item."
-#, fuzzy
 msgid "annexAdded_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - Ein Anhang wurde gerade zu einem TOP zugefügt."
 
@@ -1759,12 +1747,10 @@ msgid "as_template_item"
 msgstr "Als Vorlage für TOP"
 
 #. Default: "The item is entitled '${itemNumber} - ${itemTitle}'. You can access this item here: ${objectUrl}."
-#, fuzzy
 msgid "askDiscussItem_mail_body"
 msgstr "Der TOP trägt dem Namen '${itemTitle}'. Mehr Informationen auf ${portalUrl}."
 
 #. Default: "${meetingConfigTitle} - ${meetingTitle} - ${user}, belonging to group(s) ${groups}, would like to discuss an item."
-#, fuzzy
 msgid "askDiscussItem_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - ${user}, zur Gruppe ${groups} gehörend, möchte einen TOP diskutieren."
 
@@ -1804,7 +1790,7 @@ msgstr ""
 msgid "assembly_meeting_descr"
 msgstr ""
 
-#. Default: "Use 'CTRL+click' to select several associated groups."
+#. Default: " "
 msgid "associated_group_item_descr"
 msgstr ""
 
@@ -1942,7 +1928,6 @@ msgid "category_mapping_when_cloning_to_other_mc_descr"
 msgstr ""
 
 #. Default: "Please select a category."
-#, fuzzy
 msgid "category_required"
 msgstr "Bitte geben Sie eine Kategorie an."
 
@@ -2034,7 +2019,7 @@ msgstr "Wenn diese Sitzungs-Konfiguration zu einer Organisation, Institution ode
 msgid "considered_not_given_hidden_during_redaction"
 msgstr ""
 
-#. Default: "Select here groups that will be able to see this item"
+#. Default: " "
 msgid "copy_groups_item_descr"
 msgstr "Wählen Sie hier die Gruppen welche diesen TOP sehen soll"
 
@@ -2051,12 +2036,10 @@ msgid "create_meeting"
 msgstr "Eine Sitzung erstellen"
 
 #. Default: "Create an item"
-#, fuzzy
 msgid "create_meeting_item"
 msgstr "Einen TOP erstellen"
 
 #. Default: "Create an item in the current folder"
-#, fuzzy
 msgid "create_meeting_item_in_current_folder"
 msgstr "Erstellen eines TOPs im aktuellen Ordner"
 
@@ -2218,7 +2201,6 @@ msgid "delay_unavailable_end_days_descr"
 msgstr ""
 
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
-#, fuzzy
 msgid "description_only_see_visible_items"
 msgstr "Sie können sichtbare Elemente nur hier sehen."
 
@@ -2544,12 +2526,10 @@ msgid "group_certified_signatures_descr"
 msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "group_item_advice_edit_states_descr"
 msgstr "Wenn ein TOP in einem Status ist, den Sie hier definieren, ist es für einen Kommentator dieser Gruppe möglich einen Kommentar zu ändern oder zu löschen. Wenn Sie hier keinen Status definieren, wird eine Liste von globalen Status aller Gruppen, die auf der Ebene der Sitzungskonfiguration definiert wurden, an deren Stelle benutzt."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to add an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "group_item_advice_states_descr"
 msgstr "Wenn ein TOP in einem Status ist, den Sie hier definieren, ist es für einen Kommentator dieser Gruppe möglich einen Kommentar ab zu geben. Wenn Sie hier keinen Status definieren, wird eine Liste von globalen Status aller Gruppen, die auf der Ebene der Sitzungskonfiguration definiert wurden, an deren Stelle benutzt."
 
@@ -2836,27 +2816,22 @@ msgid "itemDelayed_mail_body"
 msgstr "Dieser TOP steht noch auf eine Sitzung ist aber als 'verschoben' markiert, deshalb wurde ein Kopie auf diese URL ${objectURL} erstellt. Sie können diesen TOP nachbearbeiten und für eine andere Sitzung vorschlagen."
 
 #. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
-#, fuzzy
 msgid "itemDelayed_mail_subject"
 msgstr "Einer Ihrer TOP, ${itemTitle}, aus einer Sitzung wurde verschoben."
 
 #. Default: "This meeting may still be under construction and is potentially inaccessible.  You can access this item here: ${objectUrl}."
-#, fuzzy
 msgid "itemPresented_mail_body"
 msgstr "Die Sitzung ist folgende: ${meetingTitle}."
 
 #. Default: "${meetingConfigTitle} - One of your items: '${itemTitle}', has been inserted into a meeting."
-#, fuzzy
 msgid "itemPresented_mail_subject"
 msgstr "Einer Ihrer TOP, ${itemTitle}, wurde zu einer Sitzung hinzugefügt. Diese Sitzung kann noch im Erstellungsstatus sein und ist deshalb nicht zugreifbar."
 
 #. Default: "You can access this item here: ${objectUrl}."
-#, fuzzy
 msgid "itemUnpresented_mail_body"
 msgstr "Die Sitzung ist folgende: ${meetingTitle}."
 
 #. Default: "${meetingConfigTitle} - One of your items: '${itemTitle}', has been removed from a meeting."
-#, fuzzy
 msgid "itemUnpresented_mail_subject"
 msgstr "Einer Ihrer TOP, ${itemTitle}, wurde von einer Sitzung gestrichen. Diese Sitzung kann noch im Erstellungsstatus sein und ist deshalb nicht zugreifbar."
 
@@ -2865,7 +2840,6 @@ msgid "item_actions_interface_descr"
 msgstr "Ähnlich wie im vorherigen Feld können alle Aktionen die bei einem Statusübergang eines TOPs ausgelöst werden durch ein eigens entwickeltes Plone-Produkt konfiguriert werden in dem Sie:<ul><li>ein Python Interface definieren das von dem Interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions (Sie müssen den vollen Paketnamen des Interfaces in dem Feld unten eintragen);</li><li>einen Adapter in ZCML erstellen und deklarieren der das Interface Products.PloneMeeting.interfaces.IMeetingItem zu dem Interface das Sie definiert haben adaptiert.</li></ul>Ihr Adapter kann vom Standardadapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowActions erben: das ermöglicht es Ihnen nur die Methoden für die sie ein anderes Verhalten wünschen zu überschreiben. Alle Methoden die im Interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions definiert werden sind dokumentiert."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible to modify or delete an advice on this item.  States defined here must contains at least every states defined in the 'Item states allowing to define advices' field here above.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "item_advice_edit_states_descr"
 msgstr "Wenn ein TOP in einem von den Stati ist, die hier ausgewählt wurden, dann können die Kommentare zu diesem TOP verändert oder gelöscht werden."
 
@@ -2874,7 +2848,6 @@ msgid "item_advice_invalidate_states"
 msgstr "Wenn die Funktion 'Kommentare ungültig setzen' aktiviert ist, gilt dies nur für TOP die in den hierunten ausgewählten Stati sind."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible to add an advice on this item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "item_advice_states_descr"
 msgstr "Wenn ein TOP in einem von den Stati ist, die hier ausgewählt wurden, dann kann ein Kommentare zu diesem TOP hinzugefügt werden."
 
@@ -2923,7 +2896,6 @@ msgid "item_classifier_descr"
 msgstr "Klassifizierung"
 
 #. Default: "Choose here which columns to display when listing items (ie, when requesting 'my items', 'all items', ... or when performing custom searches)."
-#, fuzzy
 msgid "item_columns_descr"
 msgstr "Wählen Sie hier die Spalten aus, die Sie bei den TOP-Listen anzeigen wollen (z.B., bei vordefinierten Listen wie 'Meine TOP' oder 'Alle TOP' oder bei der Erweiterten Suche)."
 
@@ -2948,7 +2920,6 @@ msgid "item_decided_states_descr"
 msgstr ""
 
 #. Default: "No move occurred because you specified the same item number."
-#, fuzzy
 msgid "item_did_not_move"
 msgstr "Der TOP wurde nicht bewegt weil Sie die Nummer des TOPs oder die Nummer plus eins angegeben haben. Wenn Sie eine Nummer X angeben wird der TOP vor den TOP mit der Nummer X eingefügt und die anderen TOP werden verschoben. Wenn Sie den TOP zum Ende der Liste bewegen wollen, geben Sie die Nummer des letzten TOPs an plus eins. Beachten Sie dass Sie wenn zwei TOP-Listen angezeigt werden keine TOP von einer Liste zur anderen bewegen können."
 
@@ -2969,7 +2940,6 @@ msgid "item_icon_color_descr"
 msgstr ""
 
 #. Default: "You can't make this move. Please specify a valid number."
-#, fuzzy
 msgid "item_illegal_move"
 msgstr "Der TOP konnte nicht verschoben werden. Wenn Sie eine Nummer X angeben wird der TOP vor den TOP mit der Nummer X eingefügt und die anderen TOPs werden verschoben. Wenn Sie den TOP zum Ende der Liste bewegen wollen, geben Sie die Nummer des letzten TOPs an plus eins. Beachten Sie dass Sie wenn zwei TOP-Listen angezeigt werden keine TOPs von einer Liste zur anderen bewegen können."
 
@@ -3115,7 +3085,6 @@ msgid "label_schema_default"
 msgstr "Hauptinformationen"
 
 #. Default: "Search"
-#, fuzzy
 msgid "label_schema_pm_search"
 msgstr "Erweiterte Suche"
 
@@ -3164,18 +3133,15 @@ msgid "late"
 msgstr ""
 
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
-#, fuzzy
 msgid "lateItem_mail_body"
 msgstr "Der TOP trägt dem Namen '${itemTitle}'. Mehr Informationen auf ${portalUrl}."
 
 # Mails (item-related)
 #. Default: "${meetingConfigTitle} - A 'late' item has been validated."
-#, fuzzy
 msgid "lateItem_mail_subject"
 msgstr "${portalTitle} - Ein 'verspäteter' TOP wurde bestätigt."
 
 #. Default: "Items presented tardily"
-#, fuzzy
 msgid "late_presented_items"
 msgstr "TOP die nach der Veröffentlichung der Sitzung präsentiert wurden"
 
@@ -3268,7 +3234,6 @@ msgid "mail_mode_test"
 msgstr "Test"
 
 #. Default: "--- Make a choice ---"
-#, fuzzy
 msgid "make_a_choice"
 msgstr "--Bitte wählen--"
 
@@ -3285,7 +3250,6 @@ msgid "manually_linked_items_descr"
 msgstr ""
 
 #. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
-#, fuzzy
 msgid "max_shown_available_items_descr"
 msgstr "Bei der Anzeige einer Sitzung kann die Liste der angezeigten Punkte auf mehrere Seiten aufgeteilt werden wenn Sie hier die maximale Anzahl Punkte pro Seite angeben."
 
@@ -3294,7 +3258,6 @@ msgid "max_shown_listings_descr"
 msgstr ""
 
 #. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value."
-#, fuzzy
 msgid "max_shown_meeting_items_descr"
 msgstr "Bei der Anzeige einer Sitzunge, kann die Liste der TOP auf mehrere Seiten aufgeteilt werden, wenn Sie hier die maximale Anzahl TOP die gleichzeitig angezeigt werden sollen angeben."
 
@@ -3315,7 +3278,6 @@ msgid "meeting_assembly"
 msgstr "Sitzung"
 
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
-#, fuzzy
 msgid "meeting_columns_descr"
 msgstr "Wählen Sie hier die Spalten aus, die Sie bei den Sitzungs-Listen anzeigen wollen (z.B., bei der Liste der vorhandenen Sitzung oder Beschlüsse, oder bei Benutzerdefinierten Suchen)."
 
@@ -3395,7 +3357,6 @@ msgid "meeting_state_changed_default_mail_subject"
 msgstr ""
 
 #. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
-#, fuzzy
 msgid "meeting_transition_inserting_me_descr"
 msgstr "Statusübergang der Sitzung der das Einfügen dieses TOPs in eine Sitzung auslöst. Füllen Sie dieses Feld nur aus, wenn Sie 'Wiederkehrender TOP' für diese TOP ausgwählt haben."
 
@@ -3469,7 +3430,6 @@ msgid "meeting_workflow_descr"
 msgstr "In dieser Liste sehen Sie alle Arbeitsabläufe die auf ihrer Plone-Seite definiert sind. Wählen sie einen der speziell für die Verwaltung von PloneMeeting-Sitzungen bestimmten Arbeitsablauf: entweder 'meeting_workflow', der standardmässige Arbeitsablauf der in PloneMeeting enthalten ist, oder ein anderer Arbeitsablauf der in einem anderen Plone-Produkt der speziell für Sitzungen in dieser Sitzungs-Konfiguration erstellt wurde."
 
 #. Default: "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item.  Moreover, this section will give you the possibility to define some access rules."
-#, fuzzy
 msgid "meetingconfig_advice_descr"
 msgstr "In diesem Abschnitt können Sie die Funktionalität der 'Kommentare' einrichten konfigurieren. Ein Kommentar ist eine positive oder negative Bewertung die jemand, aufgrund seiner Funktion, zu einem TOP geben muss oder darf. "
 
@@ -3571,7 +3531,6 @@ msgid "nil"
 msgstr "Null"
 
 #. Default: "No annex is currently defined for this element."
-#, fuzzy
 msgid "no_annexes"
 msgstr "Für diesen TOP ist kein Anhang vorhanden."
 
@@ -3753,7 +3712,6 @@ msgid "oo_config"
 msgstr "OpenOffice-Konfiguration"
 
 #. Default: "These parameters are now managed in the ${docgen_url} control panel."
-#, fuzzy
 msgid "oo_config_descr"
 msgstr "PloneMeeting ermöglicht es diverse Dokumente aus Sitzungen, Tagesordnungen, Beschlüssen, usw. zu generieren. Für jede Sitzungs-Konfiguration können genaue Einstellungen für die generierten Dokumente definiert werden. Wenn Sie aber Dokemente in einem anderen Format als Open Document Format Text (ODT) generieren wollen, zum Beispiel Microsoft Word, RTF oder PDF, muss OpenOffice im Server-Modues auf dem selben Rechnera auf dem auch PloneMeeting läuft verfügbar sein. Zudem müssen die Felder in diesem Abschnitt ausgefüllt werden."
 
@@ -3761,7 +3719,7 @@ msgstr "PloneMeeting ermöglicht es diverse Dokumente aus Sitzungen, Tagesordnun
 msgid "open_annexes_in_separate_windows_descr"
 msgstr "Gewisse Anwedender möchten die Anlagen in neuen Fenstern öffnen. In der Tat, wenn ein Benutzer eine Sitzung anschaut mit einer Liste der TOP, und er auf eine Anlage klickt um diese zu lesen/runter zu laden, wird die aktuelle Liste durch diese Anlage ersetzt, wenn der Browser so eingestellt ist (Z.B. in Anlehnung an ein PlugIn welches PDF Dateien im Browser anzeigt). In diesem Fall ist der Benutzer gezwungen den 'zurück' Knopf zu benutzen um die Liste wieder angezeigt zu bekommen. Das hat 2 Nachteile: die Liste wird aktualisert (Verlangsamung des Systems) und der Benutzer wird zum ersten Punkt zurück geleitet anstelle des Punktes von welchem er den Download gestartet hat."
 
-#. Default: "Choose advisers that will have to issue an optional advice for this item"
+#. Default: " "
 msgid "optional_advisers_item_descr"
 msgstr "Wähle Berater welche zu diesem TOP einen optionalen Kommentar abgeben sollen"
 
@@ -4031,7 +3989,6 @@ msgid "recurringItemWorkflowError_mail_subject"
 msgstr "${portalTitle} - Ein Problem ist beim Einfügen des sich wiederholenden TOPs '${itemTitle}' in eine Sitzung aufgetreten."
 
 #. Default: "Recurring items are items that will be automatically added to a meeting at a defined moment."
-#, fuzzy
 msgid "recurring_items_descr"
 msgstr "Hier werden vorkonfigurierte TOP verwaltet. Diese können als Vorlage für verschiedene Benutzungen erstellt werden."
 
@@ -4104,7 +4061,6 @@ msgid "save"
 msgstr ""
 
 #. Default: "Advised items"
-#, fuzzy
 msgid "searchalladviseditems"
 msgstr "TOP mit Kommentare"
 
@@ -4113,27 +4069,22 @@ msgid "searchalladviseditemswithdelay"
 msgstr ""
 
 #. Default: "All decisions"
-#, fuzzy
 msgid "searchalldecisions"
 msgstr "alle Beschlüsse"
 
 #. Default: "All items"
-#, fuzzy
 msgid "searchallitems"
 msgstr "Alle TOP"
 
 #. Default: "Items in copy"
-#, fuzzy
 msgid "searchallitemsincopy"
 msgstr "TOP in Kopie"
 
 #. Default: "All items to advice"
-#, fuzzy
 msgid "searchallitemstoadvice"
 msgstr "TOP zu Kommentieren"
 
 #. Default: "Available meetings"
-#, fuzzy
 msgid "searchallmeetings"
 msgstr "Vorhandene Sitzungen"
 
@@ -4280,7 +4231,6 @@ msgid "signatures_defined_on_meeting"
 msgstr ""
 
 #. Default: "Define here the default signatures that will be automatically selected on newly created meetings. Use 2 lines by signature, one for the function and one for the signatory name. This will be applicable only if you use attribute 'Signatures' for meetings."
-#, fuzzy
 msgid "signatures_descr"
 msgstr "Definieren Sie hier die Standard Unterschriften die automatsich beim erstellen einer neuen Sitzung ausgewählt werden. Das wird nur ausgeführt, wenn das Attribut 'Unterschriften' für Sitzungen ausgewählt wurde."
 
@@ -4502,7 +4452,6 @@ msgid "update_votes_yes"
 msgstr "Setze alle Abstimmung auf einstimmig"
 
 #. Default: "Check the box if you want advisers to be able to issue advices on items."
-#, fuzzy
 msgid "use_advices_descr"
 msgstr "Wählen Sie diese Box aus wenn Sie möchten das 'Berater' ihre Bemerkungen zu TOP abgeben können."
 
@@ -4511,7 +4460,6 @@ msgid "use_copies_descr"
 msgstr "Wählen Sie diese Box aus wenn Sie möchten das Ersteller 'Gruppen in Kopie' für diese TOP auswählen kônnen."
 
 #. Default: "In PloneMeeting, for every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the PloneMeeting groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red';>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because 'living' items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
-#, fuzzy
 msgid "use_groups_as_categories_descr"
 msgstr "Jede Sitzungs-Konfiguration in PloneMeeting wird jeder TOP von einer Kategorie definiert und kann nicht mehreren Kategorien gleichzeitig angehören. Diese Kategorien können wichtig sein, zum Beispiel wenn TOP in einer Agenda präsentiert werden: sie könnten nach ihrer Kategorie sortiert sein (das hängt von einer anderen Einstellung auf dieser Seite ab). Wenn Ihre PloneMeeting-Gruppen mit den Kategorien übereinstimmen und Sie glauben dass Sie keine weitere Kategorisierung benötigen markieren Sie das Kästchen."
 
@@ -4708,7 +4656,6 @@ msgid "workflow"
 msgstr "Arbeitsablauf"
 
 #. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red';>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check meeting groups, and if necessary when permissions changed, do not forget to run 'Update items and meetings'!</span>"
-#, fuzzy
 msgid "workflow_adaptations_descr"
 msgstr "Wählen Sie hier einen oder mehrere Standard Änderungseinträge die angewandt werden an die ausgewählten TOP und/oder Sitzungsworkflows."
 
