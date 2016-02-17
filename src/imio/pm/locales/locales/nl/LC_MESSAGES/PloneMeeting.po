@@ -1250,12 +1250,12 @@ msgstr ""
 msgid "PloneMeeting_label_toPrint"
 msgstr ""
 
-#. Default: "Transition that will reinitialize advice delays"
-msgid "PloneMeeting_label_transitionReinitializingDelays"
-msgstr ""
-
 #. Default: "Transitions for presenting an item"
 msgid "PloneMeeting_label_transitionsForPresentingAnItem"
+msgstr ""
+
+#. Default: "Transitions that will reinitialize advice delays"
+msgid "PloneMeeting_label_transitionsReinitializingDelays"
 msgstr ""
 
 #. Default: "Transitions to confirm"
@@ -1592,7 +1592,7 @@ msgstr "adviezen"
 msgid "advices_config"
 msgstr "Adviezen"
 
-#. Default: "Delay of advices have been reinitialized if any advice with delay where asked."
+#. Default: "Delay of advices have been reinitialized if any advice with delay were asked."
 msgid "advices_delays_reinitialized"
 msgstr ""
 
@@ -3635,10 +3635,6 @@ msgstr ""
 msgid "non_delay_aware_optional_advisers_term"
 msgstr ""
 
-#. Default: "--- None, delays can not be cancelled once started ---"
-msgid "none_started_once_for_all"
-msgstr ""
-
 #. Default: "Normal item"
 msgid "normal"
 msgstr ""
@@ -4442,12 +4438,12 @@ msgstr ""
 msgid "transition_auto_triggered_item_sent_to_this_config"
 msgstr ""
 
-#. Default: "Select the transition triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
-msgid "transition_reinitializing_delays_descr"
-msgstr ""
-
 #. Default: "Set here the sequence of transitions in the right order to be triggered on an item for it to be presented to a meeting.  The first transition is the one that starts from the initial state and the last transition should be 'present'.  This is used in several functionnalities like recurring items or items sent to another meeting config that need to be presented automatically."
 msgid "transitions_for_presenting_an_item_descr"
+msgstr ""
+
+#. Default: "Select the transitions triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
+msgid "transitions_reinitializing_delays_descr"
 msgstr ""
 
 #. Default: "When the user will click on the corresponding icon or button for every transition you will select in this list, a confirmation popup will show up. In this popup, the user will also be able to enter an optional workflow comment."

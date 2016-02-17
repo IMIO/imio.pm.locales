@@ -568,10 +568,6 @@ msgstr ""
 msgid "make_a_choice"
 msgstr ""
 
-#. Default: "--- None, delays can not be cancelled once started ---"
-msgid "none_started_once_for_all"
-msgstr ""
-
 #. Default: "This file is a scanned document"
 msgid "needs_ocr"
 msgstr ""
@@ -2851,8 +2847,8 @@ msgstr ""
 msgid "default_advice_hidden_during_redaction_descr"
 msgstr ""
 
-#. Default: "Transition that will reinitialize advice delays"
-msgid "PloneMeeting_label_transitionReinitializingDelays"
+#. Default: "Transitions that will reinitialize advice delays"
+msgid "PloneMeeting_label_transitionsReinitializingDelays"
 msgstr ""
 
 #. Default: "Historize item data when an advice is given"
@@ -2879,8 +2875,8 @@ msgstr ""
 msgid "advice_style_descr"
 msgstr ""
 
-#. Default: "Select the transition triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
-msgid "transition_reinitializing_delays_descr"
+#. Default: "Select the transitions triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
+msgid "transitions_reinitializing_delays_descr"
 msgstr ""
 
 #. Default: "Standard"
@@ -4085,7 +4081,7 @@ msgstr ""
 msgid "advices_invalidated"
 msgstr ""
 
-#. Default: "Delay of advices have been reinitialized if any advice with delay where asked."
+#. Default: "Delay of advices have been reinitialized if any advice with delay were asked."
 msgid "advices_delays_reinitialized"
 msgstr ""
 

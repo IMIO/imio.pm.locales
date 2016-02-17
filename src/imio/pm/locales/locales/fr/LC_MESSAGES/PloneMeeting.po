@@ -1249,13 +1249,13 @@ msgstr "Recherches à afficher dans le portlet 'A faire'"
 msgid "PloneMeeting_label_toPrint"
 msgstr "A imprimer?"
 
-#. Default: "Transition that will reinitialize advice delays"
-msgid "PloneMeeting_label_transitionReinitializingDelays"
-msgstr "Transition qui remet à zéro les délais des avis avec délai"
-
 #. Default: "Transitions for presenting an item"
 msgid "PloneMeeting_label_transitionsForPresentingAnItem"
 msgstr "Succession de transitions à effectuer pour présenter un point"
+
+#. Default: "Transitions that will reinitialize advice delays"
+msgid "PloneMeeting_label_transitionsReinitializingDelays"
+msgstr "Transitions qui remettent à zéro les délais des avis"
 
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
@@ -1590,7 +1590,7 @@ msgstr "Avis et accès"
 msgid "advices_config"
 msgstr "Avis et accès"
 
-#. Default: "Delay of advices have been reinitialized if any advice with delay where asked."
+#. Default: "Delay of advices have been reinitialized if any advice with delay were asked."
 msgid "advices_delays_reinitialized"
 msgstr "Si certains avis avec délai étaient en cours, les délais pour rendre ces avis ont été remis à zéro."
 
@@ -3049,6 +3049,7 @@ msgid "items_list_visible_fields_descr"
 msgstr "Sélectionnez les champs à masquer/afficher lorsque l'utilisateur cliquera sur le libellé 'Afficher/masquer les détails' se trouvant dans l'entête 'Objet' d'un tableau de bord.  Ceci concerne tous les tableaux affichant des éléments, donc, les tableaux de points et séances (mes points, tous les points, toutes les décisions, ...) ainsi que les tableaux de points affichés sur les séances (points disponibles, points présentés, ...)."
 
 #. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>""
+#, fuzzy
 msgid "keep_access_to_item_when_advice_is_given_descr"
 msgstr "Lorsqu'un avis a été rendu sur un point, le point restera visible par les émetteurs d'avis quel que soit l'état du point.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
@@ -3622,10 +3623,6 @@ msgstr "Aucun sous-type n'a été défini."
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
 msgstr "* * * Avis sans délai * * *"
-
-#. Default: "--- None, delays can not be cancelled once started ---"
-msgid "none_started_once_for_all"
-msgstr "--- Aucune, une fois les délais démarrés, ils ne peuvent plus être remis à zéro ---"
 
 #. Default: "Normal item"
 msgid "normal"
@@ -4422,13 +4419,13 @@ msgstr "Transférer"
 msgid "transition_auto_triggered_item_sent_to_this_config"
 msgstr "Cette transition a été déclenchée automatiquement lorsque ce point a été envoyé vers ce type de séance."
 
-#. Default: "Select the transition triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
-msgid "transition_reinitializing_delays_descr"
-msgstr "Sélectionnez la transition qui, lorqu'elle sera déclenchée sur un point, remettra à zéro les délais déjà démarrés pour les avis avec délai.  Ceci n'impactera que les avis qui n'ont pas encore été rendus."
-
 #. Default: "Set here the sequence of transitions in the right order to be triggered on an item for it to be presented to a meeting.  The first transition is the one that starts from the initial state and the last transition should be 'present'.  This is used in several functionnalities like recurring items or items sent to another meeting config that need to be presented automatically."
 msgid "transitions_for_presenting_an_item_descr"
 msgstr "Renseignez la succession de transitions à déclencher dans l'ordre sur un point pour qu'il soit présenté dans une séance.  La première transition est celle qui part de l'état initial du point et la dernière renseignée devrait être 'présenter'.  Cette configuration est nécessaire pour différentes fonctionnalités comme les points récurrents ou les points automatiquement insérés dans une séance lorsqu'ils sont envoyés vers un autre type de séance."
+
+#. Default: "Select the transitions triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
+msgid "transitions_reinitializing_delays_descr"
+msgstr "Sélectionnez les transitions qui remettront à zéro les délais déjà démarrés pour les avis avec délai. Ceci n'impactera que les avis qui n'ont pas encore été rendus."
 
 #. Default: "When the user will click on the corresponding icon or button for every transition you will select in this list, a confirmation popup will show up. In this popup, the user will also be able to enter an optional workflow comment."
 msgid "transitions_to_confirm_descr"

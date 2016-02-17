@@ -1249,13 +1249,13 @@ msgstr "List of searches to display in the 'todo' portlet"
 msgid "PloneMeeting_label_toPrint"
 msgstr "To print?"
 
-#. Default: "Transition that will reinitialize advice delays"
-msgid "PloneMeeting_label_transitionReinitializingDelays"
-msgstr "Transition that will reinitialize advice delays"
-
 #. Default: "Transitions for presenting an item"
 msgid "PloneMeeting_label_transitionsForPresentingAnItem"
 msgstr "Transitions for presenting an item"
+
+#. Default: "Transitions that will reinitialize advice delays"
+msgid "PloneMeeting_label_transitionsReinitializingDelays"
+msgstr "Transitions that will reinitialize advice delays"
 
 #. Default: "Transitions to confirm"
 msgid "PloneMeeting_label_transitionsToConfirm"
@@ -1590,7 +1590,7 @@ msgstr "Advices and access"
 msgid "advices_config"
 msgstr "Advices and access"
 
-#. Default: "Delay of advices have been reinitialized if any advice with delay where asked."
+#. Default: "Delay of advices have been reinitialized if any advice with delay were asked."
 msgid "advices_delays_reinitialized"
 msgstr "Delay of advices have been reinitialized if any advice with delay where asked."
 
@@ -3048,7 +3048,8 @@ msgstr "The page that displays a meeting contains potentially several tables fil
 msgid "items_list_visible_fields_descr"
 msgstr "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 
-#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>""
+#, fuzzy
 msgid "keep_access_to_item_when_advice_is_given_descr"
 msgstr "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 
@@ -3623,10 +3624,6 @@ msgstr "No subtypes defined."
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
 msgstr "Please select among non delay-aware advisers"
-
-#. Default: "--- None, delays can not be cancelled once started ---"
-msgid "none_started_once_for_all"
-msgstr "--- None, delays can not be cancelled once started ---"
 
 #. Default: "Normal item"
 msgid "normal"
@@ -4423,13 +4420,13 @@ msgstr "Transfer"
 msgid "transition_auto_triggered_item_sent_to_this_config"
 msgstr "This transition was triggered automatically while this item was sent to this meeting config."
 
-#. Default: "Select the transition triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
-msgid "transition_reinitializing_delays_descr"
-msgstr "Select the transition triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
-
 #. Default: "Set here the sequence of transitions in the right order to be triggered on an item for it to be presented to a meeting.  The first transition is the one that starts from the initial state and the last transition should be 'present'.  This is used in several functionnalities like recurring items or items sent to another meeting config that need to be presented automatically."
 msgid "transitions_for_presenting_an_item_descr"
 msgstr "Set here the sequence of transitions in the right order to be triggered on an item for it to be presented to a meeting.  The first transition is the one that starts from the initial state and the last transition should be 'present'.  This is used in several functionnalities like recurring items or items sent to another meeting config that need to be presented automatically."
+
+#. Default: "Select the transitions triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
+msgid "transitions_reinitializing_delays_descr"
+msgstr "Select the transitions triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
 
 #. Default: "When the user will click on the corresponding icon or button for every transition you will select in this list, a confirmation popup will show up. In this popup, the user will also be able to enter an optional workflow comment."
 msgid "transitions_to_confirm_descr"
