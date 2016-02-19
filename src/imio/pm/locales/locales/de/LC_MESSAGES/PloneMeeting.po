@@ -1931,7 +1931,7 @@ msgstr ""
 msgid "category_required"
 msgstr "Bitte geben Sie eine Kategorie an."
 
-#. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
+#. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything."
 msgid "category_using_groups_descr"
 msgstr ""
 
@@ -2947,7 +2947,7 @@ msgstr "Der TOP konnte nicht verschoben werden. Wenn Sie eine Nummer X angeben w
 msgid "item_illegal_switch"
 msgstr ""
 
-#. Default: "Use CTRL+click to select several initiators."
+#. Default: " "
 msgid "item_initiator_descr"
 msgstr ""
 
@@ -3048,7 +3048,7 @@ msgstr "Die Seite die eine Sitzung anzeigt kann mehrere Tabellen voll von TOP en
 msgid "items_list_visible_fields_descr"
 msgstr ""
 
-#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>""
+#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "keep_access_to_item_when_advice_is_given_descr"
 msgstr ""
 
@@ -4290,7 +4290,7 @@ msgstr ""
 msgid "taken_over_by_yes_edit"
 msgstr ""
 
-#. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
+#. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything."
 msgid "template_using_groups_descr"
 msgstr ""
 
@@ -4479,11 +4479,13 @@ msgstr "Wenn Sie diese Box auswählen wird das Abstimmungssystem aktiviert, welc
 msgid "used_advice_types_descr"
 msgstr "Legen Sie hier fest welche Zustimmungsgrade Sie benutzen wollen"
 
-#. Default: "While some item attributes are fixed (the item title, the field where the decision must be written, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (maybe in the form allowing to create items or in the table displaying items presented in a meeting...). If you want to select more than one attribute, click on them while keeping the 'control' key pressed."
+#. Default: "While some item attributes are fixed (the item title, the field where the decision must be written, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (maybe in the form allowing to create items or in the table displaying items presented in a meeting...)."
+#, fuzzy
 msgid "used_item_attributes_descr"
 msgstr "Manche Attribute in TOP sind festgelegt (der Titel, das Feld in dem der Beschluss festgehalten wird, usw.), andere Attribute (die unten aufgeführt sind) sind optional. Wenn Sie sie auswählen tauchen Sie an mehreren Stellen in der Bedienoberfläche auf (zum Beispiel in dem Formular zum Anlegen von TOPs oder in der Tabelle die TOPs anzeigt die in einer Sitzung präsentiert wurden...). Wenn Sie mehr als ein Attribut auswählen wollen, klicken Sie die Attribute nacheinander an während sie die 'Control'-Taste gedrückt halten."
 
-#. Default: "While some meeting attributes are fixed (the title, the date, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (in the form allowing to create meetings, in the screen that displays information about a meeting...). If you want to select more than one attribute, click on them while keeping the 'control' key pressed."
+#. Default: "While some meeting attributes are fixed (the title, the date, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (in the form allowing to create meetings, in the screen that displays information about a meeting...)."
+#, fuzzy
 msgid "used_meeting_attributes_descr"
 msgstr "Obwohl einige Sitzungsattribute fest sind (z.B. der Titel des TOP, das Feld um den Beschluss einzutragen, das Datum, usw.), sind andere in dieser Liste Optional. Abhängig von ihrer Wahl werden sie in ihrem Interface angezeigt oder nicht (vielleicht im Formular wo die TOP erstellt werden oder bei einigen Listenanzeigen von TOP, usw.). Um mehrere auszuwählen , müssen Sie die Steuerungstaste drücken währen sie die Attribute auswählen."
 
