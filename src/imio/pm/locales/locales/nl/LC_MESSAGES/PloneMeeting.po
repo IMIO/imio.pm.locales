@@ -2301,6 +2301,10 @@ msgstr ""
 msgid "error_certified_signatures_both_dates_required"
 msgstr ""
 
+#. Default: "You may not use 2 signatures using same 'number/date from/date to'.  Indeed in this case, the first found will always be used, please check row number ${row_number}."
+msgid "error_certified_signatures_duplicated_entries"
+msgstr ""
+
 #. Default: "Please make sure encoded dates are valid at row number ${row_number}.  Use format 'YYYY/MM/DD', make sure date are valid and that date from is lower or equals to date to."
 msgid "error_certified_signatures_invalid_dates"
 msgstr ""

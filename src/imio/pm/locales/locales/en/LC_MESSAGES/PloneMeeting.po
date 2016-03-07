@@ -2300,6 +2300,10 @@ msgstr "You can not select several categories for the same meeting config."
 msgid "error_certified_signatures_both_dates_required"
 msgstr "If you define a validity date for a signature, you need to define both from and to dates at row number ${row_number}.  If a signature is always valid, just leave dates fields empty."
 
+#. Default: "You may not use 2 signatures using same 'number/date from/date to'.  Indeed in this case, the first found will always be used, please check row number ${row_number}."
+msgid "error_certified_signatures_duplicated_entries"
+msgstr "You may not use 2 signatures using same 'number/date from/date to'.  Indeed in this case, the first found will always be used, please check row number ${row_number}."
+
 #. Default: "Please make sure encoded dates are valid at row number ${row_number}.  Use format 'YYYY/MM/DD', make sure date are valid and that date from is lower or equals to date to."
 msgid "error_certified_signatures_invalid_dates"
 msgstr "Please make sure encoded dates are valid at row number ${row_number}.  Use format 'YYYY/MM/DD', make sure date are valid and that date from is lower or equals to date to."

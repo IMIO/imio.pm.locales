@@ -2300,6 +2300,10 @@ msgstr "Vous ne pouvez pas sélectionner plusieurs catégories pour la même con
 msgid "error_certified_signatures_both_dates_required"
 msgstr "Veuillez vérifier les dates encodées à la ligne ${row_number}.  Si vous définissez une date de validité pour une signature, veuillez renseigner une date de fin et une date de début.  Si une signature doit toujours être valide, laissez les champs dates vides."
 
+#. Default: "You may not use 2 signatures using same 'number/date from/date to'.  Indeed in this case, the first found will always be used, please check row number ${row_number}."
+msgid "error_certified_signatures_duplicated_entries"
+msgstr "Vous ne pouvez pas définir 2 lignes utilisant les mêmes 'Numéro de signature/Valide depuis le (inclus)/Valide jusqu'au (inclus)', en effet dans ce cas, ce sera toujours la première signature trouvée qui sera valide.  Vérifiez la ligne ${row_number}."
+
 #. Default: "Please make sure encoded dates are valid at row number ${row_number}.  Use format 'YYYY/MM/DD', make sure date are valid and that date from is lower or equals to date to."
 msgid "error_certified_signatures_invalid_dates"
 msgstr "Veuillez vérifier les dates encodées à la ligne ${row_number}.  Utilisez le format 'AAAA/MM/JJ', vérifiez que les dates encodées sont valides et que la date de début est bien inférieure ou égale à la date de fin."

@@ -4534,6 +4534,10 @@ msgstr ""
 msgid "error_certified_signatures_invalid_dates"
 msgstr ""
 
+#. Default: "You may not use 2 signatures using same 'number/date from/date to'.  Indeed in this case, the first found will always be used, please check row number ${row_number}."
+msgid "error_certified_signatures_duplicated_entries"
+msgstr ""
+
 #. Default: "You can not access this item"
 msgid "can_not_access_this_item"
 msgstr ""
