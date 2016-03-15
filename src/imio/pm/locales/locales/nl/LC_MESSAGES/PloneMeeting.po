@@ -88,6 +88,10 @@ msgstr ""
 msgid "Asked on ${advice_asked_on_date}"
 msgstr ""
 
+#. Default: "Back to the MeetingConfig"
+msgid "Back to the MeetingConfig"
+msgstr ""
+
 #. Default: "Back to the item"
 msgid "Back to the item"
 msgstr ""
@@ -1952,6 +1956,54 @@ msgstr ""
 msgid "change_emergency_comment"
 msgstr ""
 
+#. Default: "Clean templates"
+msgid "check_pod_template_clean"
+msgstr ""
+
+#. Default: "These templates seem clean and generated correctly without errors."
+msgid "check_pod_template_clean_descr"
+msgstr ""
+
+#. Default: "Dashboard templates"
+msgid "check_pod_template_dashboard_templates_not_managed"
+msgstr ""
+
+#. Default: "Dashboard templates are not managed automatically, please check it manually."
+msgid "check_pod_template_dashboard_templates_not_managed_descr"
+msgstr ""
+
+#. Default: "Errored templates"
+msgid "check_pod_template_error"
+msgstr ""
+
+#. Default: "Errors were produced when generating the Pod template using the referenced object."
+msgid "check_pod_template_error_descr"
+msgstr ""
+
+#. Default: "No object found"
+msgid "check_pod_template_no_obj_found"
+msgstr ""
+
+#. Default: "Could not find an object to test the Pod template."
+msgid "check_pod_template_no_obj_found_descr"
+msgstr ""
+
+#. Default: "No 'pod_portal_types' defined"
+msgid "check_pod_template_no_pod_portal_types"
+msgstr ""
+
+#. Default: "The 'pod_portal_types' attribute is not defined for these templates, it is necessary to find an object to test the template."
+msgid "check_pod_template_no_pod_portal_types_descr"
+msgstr ""
+
+#. Default: "Not enabled"
+msgid "check_pod_template_not_enabled"
+msgstr ""
+
+#. Default: "These templates are not enabled."
+msgid "check_pod_template_not_enabled_descr"
+msgstr ""
+
 #. Default: "What kind of item would you like to create?"
 msgid "choose_item_template"
 msgstr ""
@@ -3791,6 +3843,14 @@ msgstr "Gebruikersnaam"
 msgid "pm_annex_type"
 msgstr ""
 
+#. Default: "Check Pod templates"
+msgid "pm_check_pod_templates"
+msgstr ""
+
+#. Default: "Warning: the action 'Check Pod templates' will check that every Pod templates defined in the configuration are working correctly."
+msgid "pm_check_pod_templates_warning"
+msgstr ""
+
 #. Default: "Configure PloneMeeting"
 msgid "pm_configuration"
 msgstr ""
@@ -3827,7 +3887,7 @@ msgstr "Ga naar het vorige element."
 msgid "pm_modification_date"
 msgstr ""
 
-#. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
+#. Default: "Warning: take care that launching these proceedings may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
 msgstr ""
 

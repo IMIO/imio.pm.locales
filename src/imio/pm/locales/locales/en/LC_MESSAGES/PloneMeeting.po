@@ -87,6 +87,10 @@ msgstr "Apply until item number"
 msgid "Asked on ${advice_asked_on_date}"
 msgstr "Asked on ${advice_asked_on_date}"
 
+#. Default: "Back to the MeetingConfig"
+msgid "Back to the MeetingConfig"
+msgstr "Back to the MeetingConfig"
+
 #. Default: "Back to the item"
 msgid "Back to the item"
 msgstr "Back to the item"
@@ -1951,6 +1955,54 @@ msgstr "You are about to set completeness to \"${completeness_value}\", you can 
 msgid "change_emergency_comment"
 msgstr "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
 
+#. Default: "Clean templates"
+msgid "check_pod_template_clean"
+msgstr "Clean templates"
+
+#. Default: "These templates seem clean and generated correctly without errors."
+msgid "check_pod_template_clean_descr"
+msgstr "These templates seem clean and generated correctly without errors."
+
+#. Default: "Dashboard templates"
+msgid "check_pod_template_dashboard_templates_not_managed"
+msgstr "Dashboard templates"
+
+#. Default: "Dashboard templates are not managed automatically, please check it manually."
+msgid "check_pod_template_dashboard_templates_not_managed_descr"
+msgstr "Dashboard templates are not managed automatically, please check it manually."
+
+#. Default: "Errored templates"
+msgid "check_pod_template_error"
+msgstr "Errored templates"
+
+#. Default: "Errors were produced when generating the Pod template using the referenced object."
+msgid "check_pod_template_error_descr"
+msgstr "Errors were produced when generating the Pod template using the referenced object."
+
+#. Default: "No object found"
+msgid "check_pod_template_no_obj_found"
+msgstr "No object found"
+
+#. Default: "Could not find an object to test the Pod template."
+msgid "check_pod_template_no_obj_found_descr"
+msgstr "Could not find an object to test the Pod template."
+
+#. Default: "No 'pod_portal_types' defined"
+msgid "check_pod_template_no_pod_portal_types"
+msgstr "No 'pod_portal_types' defined"
+
+#. Default: "The 'pod_portal_types' attribute is not defined for these templates, it is necessary to find an object to test the template."
+msgid "check_pod_template_no_pod_portal_types_descr"
+msgstr "The 'pod_portal_types' attribute is not defined for these templates, it is necessary to find an object to test the template."
+
+#. Default: "Not enabled"
+msgid "check_pod_template_not_enabled"
+msgstr "Not enabled"
+
+#. Default: "These templates are not enabled."
+msgid "check_pod_template_not_enabled_descr"
+msgstr "These templates are not enabled."
+
 #. Default: "What kind of item would you like to create?"
 msgid "choose_item_template"
 msgstr "What kind of item would you like to create?"
@@ -3792,6 +3844,14 @@ msgstr "Identifier"
 msgid "pm_annex_type"
 msgstr "Annex type"
 
+#. Default: "Check Pod templates"
+msgid "pm_check_pod_templates"
+msgstr "Check Pod templates"
+
+#. Default: "Warning: the action 'Check Pod templates' will check that every Pod templates defined in the configuration are working correctly."
+msgid "pm_check_pod_templates_warning"
+msgstr "Warning: the action 'Check Pod templates' will check that every Pod templates defined in the configuration are working correctly."
+
 #. Default: "Configure PloneMeeting"
 msgid "pm_configuration"
 msgstr "Configure PloneMeeting"
@@ -3828,9 +3888,9 @@ msgstr "Go to the previous one."
 msgid "pm_modification_date"
 msgstr "Modification date"
 
-#. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
+#. Default: "Warning: take care that launching these proceedings may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
-msgstr "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
+msgstr "Warning: take care that launching these proceedings may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 
 #. Default: "Initialize every existing advice confidentiality"
 msgid "pm_update_advice_confidentiality"

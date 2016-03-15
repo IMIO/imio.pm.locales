@@ -87,6 +87,10 @@ msgstr "Appliquer jusqu'au point numéro"
 msgid "Asked on ${advice_asked_on_date}"
 msgstr "Demandé le ${advice_asked_on_date}"
 
+#. Default: "Back to the MeetingConfig"
+msgid "Back to the MeetingConfig"
+msgstr "Retourner sur la Configuration de séance"
+
 #. Default: "Back to the item"
 msgid "Back to the item"
 msgstr "Retourner sur le point"
@@ -1951,6 +1955,54 @@ msgstr "Vous êtes sur le point de changer la complétude de ce point vers \"${c
 msgid "change_emergency_comment"
 msgstr "Vous êtes sur le point de changer l'urgence de ce point en \"${emergency_value}\", vous pouvez ajouter un commentaire si nécessaire."
 
+#. Default: "Clean templates"
+msgid "check_pod_template_clean"
+msgstr "Modèles propres"
+
+#. Default: "These templates seem clean and generated correctly without errors."
+msgid "check_pod_template_clean_descr"
+msgstr "Ces modèles semblent corrects et ont été générés sans produire d'erreur."
+
+#. Default: "Dashboard templates"
+msgid "check_pod_template_dashboard_templates_not_managed"
+msgstr "Modèles tableaux de bord"
+
+#. Default: "Dashboard templates are not managed automatically, please check it manually."
+msgid "check_pod_template_dashboard_templates_not_managed_descr"
+msgstr "Les modèles utilisés sur les tableaux de bord ne sont pas générées automatiquement, veuillez vérifier manuellement."
+
+#. Default: "Errored templates"
+msgid "check_pod_template_error"
+msgstr "Modèles avec erreurs"
+
+#. Default: "Errors were produced when generating the Pod template using the referenced object."
+msgid "check_pod_template_error_descr"
+msgstr "Des erreurs se sont produites lors de la génération de ces modèles utilisant l'objet référencé."
+
+#. Default: "No object found"
+msgid "check_pod_template_no_obj_found"
+msgstr "Aucun objet trouvé"
+
+#. Default: "Could not find an object to test the Pod template."
+msgid "check_pod_template_no_obj_found_descr"
+msgstr "Aucun objet n'a pu être trouvé pour générer le modèle."
+
+#. Default: "No 'pod_portal_types' defined"
+msgid "check_pod_template_no_pod_portal_types"
+msgstr "Champ 'Types de contenu autorisés' non renseigné"
+
+#. Default: "The 'pod_portal_types' attribute is not defined for these templates, it is necessary to find an object to test the template."
+msgid "check_pod_template_no_pod_portal_types_descr"
+msgstr "Le champs 'Types de contenu autorisés' doit être renseigné afin de pouvoir trouver un objet pour tester le modèle."
+
+#. Default: "Not enabled"
+msgid "check_pod_template_not_enabled"
+msgstr "Modèles désactivés"
+
+#. Default: "These templates are not enabled."
+msgid "check_pod_template_not_enabled_descr"
+msgstr "Ces modèles sont désactivés (la case à cocher 'Activé' est décochée)."
+
 #. Default: "What kind of item would you like to create?"
 msgid "choose_item_template"
 msgstr "Quel type de point souhaitez-vous créer?"
@@ -3791,6 +3843,14 @@ msgstr "Identifiant"
 msgid "pm_annex_type"
 msgstr "Type d'annexe"
 
+#. Default: "Check Pod templates"
+msgid "pm_check_pod_templates"
+msgstr "Vérifier les modèles Pod"
+
+#. Default: "Warning: the action 'Check Pod templates' will check that every Pod templates defined in the configuration are working correctly."
+msgid "pm_check_pod_templates_warning"
+msgstr "Attention: l'action 'Vérifier les modèles Pod' va vérifier que les modèles définis dans la partie '[Documents]' de cette configuration fonctionnent correctement."
+
 #. Default: "Configure PloneMeeting"
 msgid "pm_configuration"
 msgstr "Configurer PloneMeeting"
@@ -3827,9 +3887,9 @@ msgstr "Aller au précédent."
 msgid "pm_modification_date"
 msgstr "Modifié le"
 
-#. Default: "Warning: take care that launching these updates may take time, depending on the number of existing elements!  Do not launch during period of high use!"
+#. Default: "Warning: take care that launching these proceedings may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
-msgstr "Attention: ces mises à jour peuvent prendre du temps en fonction du nombre d'éléments existants!  Ne pas lancer dans une période de forte utilisation!"
+msgstr "Attention: ces opérations peuvent prendre du temps en fonction du nombre d'éléments existants!  Ne pas lancer dans une période de forte utilisation!"
 
 #. Default: "Initialize every existing advice confidentiality"
 msgid "pm_update_advice_confidentiality"
