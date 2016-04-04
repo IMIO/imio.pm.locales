@@ -1495,7 +1495,7 @@ msgstr "Voeg een bijlage toe"
 msgid "add_object"
 msgstr "Een nieuwe gebruiker toevoegen"
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
 msgstr ""
 
@@ -1511,7 +1511,7 @@ msgstr ""
 msgid "adviceInvalidated_mail_subject"
 msgstr ""
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "adviceToGive_mail_body"
 msgstr ""
 
@@ -2285,14 +2285,6 @@ msgstr ""
 msgid "doc"
 msgstr "Documenten"
 
-#. Default: "This is probably a problem related to document generation through OpenOffice. The exact error cause may be found in the logs of the Zope instance. Once the problem is solved, you may try again."
-msgid "documentGenerationFailed_mail_body"
-msgstr ""
-
-#. Default: "${portalTitle} - ${objectTitle} - A problem occurred while generating a document for this object."
-msgid "documentGenerationFailed_mail_subject"
-msgstr ""
-
 #. Default: "Emergency accepted"
 msgid "emergency_accepted"
 msgstr ""
@@ -2871,7 +2863,7 @@ msgstr ""
 msgid "itemAdviceEditStates_validation_error"
 msgstr ""
 
-#. Default: "You can consult the new item at ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "itemClonedToThisMC_mail_body"
 msgstr ""
 
@@ -2887,7 +2879,7 @@ msgstr ""
 msgid "itemDelayed_mail_subject"
 msgstr ""
 
-#. Default: "This meeting may still be under construction and is potentially inaccessible.  You can access this item here: ${objectUrl}."
+#. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "itemPresented_mail_body"
 msgstr ""
 
@@ -2895,7 +2887,7 @@ msgstr ""
 msgid "itemPresented_mail_subject"
 msgstr ""
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "itemUnpresented_mail_body"
 msgstr ""
 
@@ -3079,7 +3071,7 @@ msgstr ""
 msgid "item_state"
 msgstr "Staat"
 
-#. Default: "You can consult this item at ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "item_state_changed_default_mail_body"
 msgstr ""
 
@@ -4108,7 +4100,7 @@ msgstr ""
 msgid "restrictedpowerobservers"
 msgstr ""
 
-#. Default: "You can access this item here: '${objectUrl}'."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "returnedToMeetingManagers_mail_body"
 msgstr ""
 
@@ -4116,7 +4108,7 @@ msgstr ""
 msgid "returnedToMeetingManagers_mail_subject"
 msgstr ""
 
-#. Default: "You can access this item here: '${objectUrl}'."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "returnedToProposingGroup_mail_body"
 msgstr ""
 

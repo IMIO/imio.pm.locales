@@ -1494,9 +1494,9 @@ msgstr "Ajouter une annexe"
 msgid "add_object"
 msgstr "En ajouter un(e)"
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
-msgstr "Accédez à ce point ici: ${objectUrl}."
+msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - An advice has been added or modified on the item '${itemTitle}'."
 msgid "adviceEdited_mail_subject"
@@ -1510,9 +1510,9 @@ msgstr "Votre avis est de retour dans le menu avec un point d'interrogation. Vou
 msgid "adviceInvalidated_mail_subject"
 msgstr "${meetingConfigTitle} - Un des avis que vous avez rendus sur le point '${itemTitle}' a été invalidé."
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "adviceToGive_mail_body"
-msgstr "Accédez à ce point ici: ${objectUrl}."
+msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 msgid "adviceToGive_mail_subject"
@@ -2284,14 +2284,6 @@ msgstr "Signatures définies sur la séance"
 msgid "doc"
 msgstr "Documents"
 
-#. Default: "This is probably a problem related to document generation through OpenOffice. The exact error cause may be found in the logs of the Zope instance. Once the problem is solved, you may try again."
-msgid "documentGenerationFailed_mail_body"
-msgstr "Il s'agit probablement d'un problème dû à la génération de documents via OpenOffice. La cause exacte de l'erreur se trouve dans les logs de l'instance Zope. Réessayez la génération lorsque vous aurez corrigé le problème."
-
-#. Default: "${portalTitle} - ${objectTitle} - A problem occurred while generating a document for this object."
-msgid "documentGenerationFailed_mail_subject"
-msgstr "${portalTitle} - ${objectTitle} - Un problème est survenu lors de la génération d'un document pour cet objet."
-
 #. Default: "Emergency accepted"
 msgid "emergency_accepted"
 msgstr "Urgence acceptée"
@@ -2871,9 +2863,9 @@ msgstr "Votant?"
 msgid "itemAdviceEditStates_validation_error"
 msgstr "Les états sélectionnés ici doivent reprendre au moins tous les états définis dans le champ 'Etats des points dans lesquels on peut donner un avis' ci-dessus! Etat(s) manquant(s) : ${missingStates}."
 
-#. Default: "You can consult the new item at ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "itemClonedToThisMC_mail_body"
-msgstr "Vous pouvez consulter le point transféré ici : ${objectUrl}."
+msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}."
 
 #. Default: "${itemTitle} has been transfered to ${'meetingConfigTitle'}."
 msgid "itemClonedToThisMC_mail_subject"
@@ -2887,17 +2879,17 @@ msgstr "Ce point est toujours dans la séance mais marqué comme 'reporté', une
 msgid "itemDelayed_mail_subject"
 msgstr "${meetingConfigTitle} - Un de vos points: ${itemTitle}, a été reporté."
 
-#. Default: "This meeting may still be under construction and is potentially inaccessible.  You can access this item here: ${objectUrl}."
+#. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "itemPresented_mail_body"
-msgstr "La séance est peut-être encore en cours d'élaboration et donc inaccessible pour l'instant.  Accédez au point ici: ${objectUrl}."
+msgstr "La séance est peut-être encore en cours d'élaboration et donc inaccessible pour l'instant. L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - One of your items: '${itemTitle}', has been inserted into a meeting."
 msgid "itemPresented_mail_subject"
 msgstr "${meetingConfigTitle} - Un de vos points : '${itemTitle}', a été inséré dans une séance."
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "itemUnpresented_mail_body"
-msgstr "Accédez au point ici: ${objectUrl}."
+msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - One of your items: '${itemTitle}', has been removed from a meeting."
 msgid "itemUnpresented_mail_subject"
@@ -3079,9 +3071,9 @@ msgstr "Pour ce point en particulier:"
 msgid "item_state"
 msgstr "Etat"
 
-#. Default: "You can consult this item at ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "item_state_changed_default_mail_body"
-msgstr "Vous pouvez accéder au point ici: '${objectUrl}'."
+msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}."
 
 # Mails (item-related)
 # Default translation for mails sent upon item transition
@@ -4108,17 +4100,17 @@ msgstr "Si vous cochez cette case, PloneMeeting entre dans une sorte de mode d'u
 msgid "restrictedpowerobservers"
 msgstr "Super observateurs restreints"
 
-#. Default: "You can access this item here: '${objectUrl}'."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "returnedToMeetingManagers_mail_body"
-msgstr "Vous pouvez accéder au point ici: '${objectUrl}'."
+msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - The item '${itemTitle}' has been corrected and sent back to the meeting managers."
 msgid "returnedToMeetingManagers_mail_subject"
 msgstr "${meetingConfigTitle} - Le point '${itemTitle}' a été corrigé par le groupe proposant et renvoyé aux gestionnaires de séances."
 
-#. Default: "You can access this item here: '${objectUrl}'."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "returnedToProposingGroup_mail_body"
-msgstr "Vous pouvez accéder au point ici: '${objectUrl}'."
+msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - The item '${itemTitle}' has been sent back to you for corrections."
 msgid "returnedToProposingGroup_mail_subject"

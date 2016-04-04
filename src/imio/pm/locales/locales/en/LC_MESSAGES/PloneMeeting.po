@@ -1494,9 +1494,9 @@ msgstr "Add an annex"
 msgid "add_object"
 msgstr "Add a new one"
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
-msgstr "You can access this item here: ${objectUrl}."
+msgstr "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - An advice has been added or modified on the item '${itemTitle}'."
 msgid "adviceEdited_mail_subject"
@@ -1510,9 +1510,9 @@ msgstr "You can consult this item at ${objectUrl}. You advice is now back in the
 msgid "adviceInvalidated_mail_subject"
 msgstr "${meetingConfigTitle} - One or your advices has been invalidated on the item '${itemTitle}'."
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "adviceToGive_mail_body"
-msgstr "You can access this item here: ${objectUrl}."
+msgstr "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 msgid "adviceToGive_mail_subject"
@@ -2284,14 +2284,6 @@ msgstr "signatures stored on the linked meeting"
 msgid "doc"
 msgstr "Documents"
 
-#. Default: "This is probably a problem related to document generation through OpenOffice. The exact error cause may be found in the logs of the Zope instance. Once the problem is solved, you may try again."
-msgid "documentGenerationFailed_mail_body"
-msgstr "Is is probably a problem related to document generation through OpenOffice. The exact error cause may be found in the logs of the Zope instance. Once the problem is solved, you may try again."
-
-#. Default: "${portalTitle} - ${objectTitle} - A problem occurred while generating a document for this object."
-msgid "documentGenerationFailed_mail_subject"
-msgstr "${portalTitle} - ${objectTitle} - A problem occurred while generating a document for this object."
-
 #. Default: "Emergency accepted"
 msgid "emergency_accepted"
 msgstr "Emergency accepted"
@@ -2871,9 +2863,9 @@ msgstr "Voter?"
 msgid "itemAdviceEditStates_validation_error"
 msgstr "Values defined in the 'itemEditStates' field must contains at least every values selected in the 'itemAdvicesStates' field!  Missing states is (are) : ${missingStates}."
 
-#. Default: "You can consult the new item at ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "itemClonedToThisMC_mail_body"
-msgstr "You can consult the new item at ${objectUrl}."
+msgstr "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 
 #. Default: "${itemTitle} has been transfered to ${'meetingConfigTitle'}."
 msgid "itemClonedToThisMC_mail_subject"
@@ -2887,17 +2879,17 @@ msgstr "While this item is still in the meeting, but marked as 'delayed', a copy
 msgid "itemDelayed_mail_subject"
 msgstr "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
 
-#. Default: "This meeting may still be under construction and is potentially inaccessible.  You can access this item here: ${objectUrl}."
+#. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "itemPresented_mail_body"
-msgstr "This meeting may still be under construction and is potentially inaccessible.  You can access this item here: ${objectUrl}."
+msgstr "This meeting may still be under construction and is potentially inaccessible.  The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - One of your items: '${itemTitle}', has been inserted into a meeting."
 msgid "itemPresented_mail_subject"
 msgstr "${meetingConfigTitle} - One of your items: '${itemTitle}', has been inserted into a meeting."
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "itemUnpresented_mail_body"
-msgstr "You can access this item here: ${objectUrl}."
+msgstr "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - One of your items: '${itemTitle}', has been removed from a meeting."
 msgid "itemUnpresented_mail_subject"
@@ -3079,9 +3071,9 @@ msgstr "Specifically, for this item:"
 msgid "item_state"
 msgstr "State"
 
-#. Default: "You can consult this item at ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "item_state_changed_default_mail_body"
-msgstr "You can consult this item at ${objectUrl}."
+msgstr "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 
 # Mails (item-related)
 # Default translation for mails sent upon item transition
@@ -4109,17 +4101,17 @@ msgstr "If you check this box, PloneMeeting will enter into a kind of 'emergency
 msgid "restrictedpowerobservers"
 msgstr "Restricted power observers"
 
-#. Default: "You can access this item here: '${objectUrl}'."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "returnedToMeetingManagers_mail_body"
-msgstr "You can access this item here: '${objectUrl}'."
+msgstr "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - The item '${itemTitle}' has been corrected and sent back to the meeting managers."
 msgid "returnedToMeetingManagers_mail_subject"
 msgstr "${meetingConfigTitle} - The item '${itemTitle}' has been corrected and sent back to the meeting managers."
 
-#. Default: "You can access this item here: '${objectUrl}'."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "returnedToProposingGroup_mail_body"
-msgstr "You can access this item here: '${objectUrl}'."
+msgstr "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - The item '${itemTitle}' has been sent back to you for corrections."
 msgid "returnedToProposingGroup_mail_subject"

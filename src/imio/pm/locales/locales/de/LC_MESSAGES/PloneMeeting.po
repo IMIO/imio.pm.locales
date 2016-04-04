@@ -1494,7 +1494,8 @@ msgstr "Anhang hinzufügen"
 msgid "add_object"
 msgstr "Ein neues Objekt hinzufügen"
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "adviceEdited_mail_body"
 msgstr "Mehr Informationen hier ${objectUrl}."
 
@@ -1510,7 +1511,7 @@ msgstr "Sie können diesen TOP hier ${objectUrl} begutachten. Ihr Kommentar ist 
 msgid "adviceInvalidated_mail_subject"
 msgstr "Einer Ihrer Kommentare ist ungültig geworden in folgendem TOP: '${itemTitle}'. "
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "adviceToGive_mail_body"
 msgstr ""
 
@@ -2284,14 +2285,6 @@ msgstr ""
 msgid "doc"
 msgstr "Dokumentenerstellung"
 
-#. Default: "This is probably a problem related to document generation through OpenOffice. The exact error cause may be found in the logs of the Zope instance. Once the problem is solved, you may try again."
-msgid "documentGenerationFailed_mail_body"
-msgstr "Es ist höchstwahrscheinlich ein Problem mit dem Dokument verursacht bei der Generierung durch OpenOffice. Die genaue Fehlerquelle kann in den Logdatei der Zopeinstanz gefunden werden. Sobald das Problem behoben wurde, können Sie einen neuen Versuch starten."
-
-#. Default: "${portalTitle} - ${objectTitle} - A problem occurred while generating a document for this object."
-msgid "documentGenerationFailed_mail_subject"
-msgstr "${portalTitle} - ${objectTitle} - Ein Problem ist aufgetreten beim Generieren dieses Dokumentes."
-
 #. Default: "Emergency accepted"
 msgid "emergency_accepted"
 msgstr ""
@@ -2871,7 +2864,7 @@ msgstr "Abstimmer?"
 msgid "itemAdviceEditStates_validation_error"
 msgstr ""
 
-#. Default: "You can consult the new item at ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "itemClonedToThisMC_mail_body"
 msgstr ""
 
@@ -2887,7 +2880,8 @@ msgstr "Dieser TOP steht noch auf eine Sitzung ist aber als 'verschoben' markier
 msgid "itemDelayed_mail_subject"
 msgstr "Einer Ihrer TOP, ${itemTitle}, aus einer Sitzung wurde verschoben."
 
-#. Default: "This meeting may still be under construction and is potentially inaccessible.  You can access this item here: ${objectUrl}."
+#. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "itemPresented_mail_body"
 msgstr "Die Sitzung ist folgende: ${meetingTitle}."
 
@@ -2895,7 +2889,8 @@ msgstr "Die Sitzung ist folgende: ${meetingTitle}."
 msgid "itemPresented_mail_subject"
 msgstr "Einer Ihrer TOP, ${itemTitle}, wurde zu einer Sitzung hinzugefügt. Diese Sitzung kann noch im Erstellungsstatus sein und ist deshalb nicht zugreifbar."
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "itemUnpresented_mail_body"
 msgstr "Die Sitzung ist folgende: ${meetingTitle}."
 
@@ -3079,7 +3074,7 @@ msgstr "Spezifisch für diesen TOP:"
 msgid "item_state"
 msgstr "Status"
 
-#. Default: "You can consult this item at ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "item_state_changed_default_mail_body"
 msgstr ""
 
@@ -4108,7 +4103,7 @@ msgstr "Wenn Sie diese Box auswählen, wird PloneMeeting in eine Art Alarmzustan
 msgid "restrictedpowerobservers"
 msgstr ""
 
-#. Default: "You can access this item here: '${objectUrl}'."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "returnedToMeetingManagers_mail_body"
 msgstr ""
 
@@ -4116,7 +4111,7 @@ msgstr ""
 msgid "returnedToMeetingManagers_mail_subject"
 msgstr ""
 
-#. Default: "You can access this item here: '${objectUrl}'."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "returnedToProposingGroup_mail_body"
 msgstr ""
 

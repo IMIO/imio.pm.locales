@@ -1498,7 +1498,8 @@ msgstr "Agregar un anexo"
 msgid "add_object"
 msgstr "Agregar un nuevo"
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "adviceEdited_mail_body"
 msgstr "Usted puede acceder a este tema aquí: ${objectUrl}."
 
@@ -1514,7 +1515,8 @@ msgstr "Puede consultar este tema en ${objectUrl}. Su consejo es ahora de devuel
 msgid "adviceInvalidated_mail_subject"
 msgstr "${meetingConfigTitle} - Uno o sus consejos han sido invalidados en el tema '${itemTitle}'."
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "adviceToGive_mail_body"
 msgstr "Usted puede acceder a este tema aquí: ${objectUrl}."
 
@@ -2288,14 +2290,6 @@ msgstr "firmas almacena en la reunión vinculada"
 msgid "doc"
 msgstr "Documentos"
 
-#. Default: "This is probably a problem related to document generation through OpenOffice. The exact error cause may be found in the logs of the Zope instance. Once the problem is solved, you may try again."
-msgid "documentGenerationFailed_mail_body"
-msgstr "Hay probablemente un problema relacionado con la generación del documento a través de OpenOffice.org. El error exacto causado tal ves se encuentro en los registros de la instancia Zope. Una ves el problema es solventado, usted podrá intentarlo de nuevo."
-
-#. Default: "${portalTitle} - ${objectTitle} - A problem occurred while generating a document for this object."
-msgid "documentGenerationFailed_mail_subject"
-msgstr "${portalTitle} - ${objectTitle} - Un problema ocurrió generando un documento para este objeto."
-
 #. Default: "Emergency accepted"
 msgid "emergency_accepted"
 msgstr ""
@@ -2875,7 +2869,8 @@ msgstr "¿Votante?"
 msgid "itemAdviceEditStates_validation_error"
 msgstr ""
 
-#. Default: "You can consult the new item at ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "itemClonedToThisMC_mail_body"
 msgstr "Usted puede consultar el nuevo tema en ${objectUrl}."
 
@@ -2891,7 +2886,8 @@ msgstr "Si bien este tema se encuentra aún en la reunión, pero marcado como 'd
 msgid "itemDelayed_mail_subject"
 msgstr "${meetingConfigTitle} - Uno de sus temas, ${itemTitle}, han sido retardado en la reunión."
 
-#. Default: "This meeting may still be under construction and is potentially inaccessible.  You can access this item here: ${objectUrl}."
+#. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "itemPresented_mail_body"
 msgstr "Esta reunión puede estar todavía en construcción y es potencialmente inaccesibles. Puede acceder a este artículo aquí: ${objectUrl}."
 
@@ -2899,7 +2895,8 @@ msgstr "Esta reunión puede estar todavía en construcción y es potencialmente 
 msgid "itemPresented_mail_subject"
 msgstr "${meetingConfigTitle} - Uno de sus temas, ${itemTitle}, ha sido añadido dentro de una reunión."
 
-#. Default: "You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "itemUnpresented_mail_body"
 msgstr "Usted puede acceder a este tema aqui: ${objectUrl}."
 
@@ -3083,7 +3080,8 @@ msgstr "Especialmente, para este tema:"
 msgid "item_state"
 msgstr "Estado"
 
-#. Default: "You can consult this item at ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "item_state_changed_default_mail_body"
 msgstr "Usted puede consultar este tema en ${objectUrl}."
 
@@ -4113,7 +4111,8 @@ msgstr "Si usted marca esta casilla, PloneMeeting entrará en una especie de mod
 msgid "restrictedpowerobservers"
 msgstr ""
 
-#. Default: "You can access this item here: '${objectUrl}'."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "returnedToMeetingManagers_mail_body"
 msgstr "Usted puede acceder este tema aquí: '${objectUrl}'."
 
@@ -4121,7 +4120,8 @@ msgstr "Usted puede acceder este tema aquí: '${objectUrl}'."
 msgid "returnedToMeetingManagers_mail_subject"
 msgstr "${meetingConfigTitle} - El tema '${itemTitle}' se ha corregido y enviado de vuelta a los administradores de la reunión."
 
-#. Default: "You can access this item here: '${objectUrl}'."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
+#, fuzzy
 msgid "returnedToProposingGroup_mail_body"
 msgstr "Usted puede acceder este tema aquí: '${objectUrl}'."
 
