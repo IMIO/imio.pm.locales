@@ -545,10 +545,6 @@ msgstr ""
 msgid "PloneMeeting_label_date"
 msgstr "Datum"
 
-#. Default: "Format of dates used throughout PloneMeeting"
-msgid "PloneMeeting_label_dateFormat"
-msgstr "Datumsformate die in PloneMeeting benutzt werden"
-
 #. Default: "Deadline for validating late items"
 msgid "PloneMeeting_label_deadlineFreeze"
 msgstr "Frist um verspätete TOP zu validieren"
@@ -2185,10 +2181,6 @@ msgstr ""
 #. Default: "Data"
 msgid "data"
 msgstr "Daten"
-
-#. Default: "In this field, you can enter any text, and also special symbols that correspond to date parts. For example: '%s/%m/%Y' could yield '12/06/1968'. The following symbols are available:<br/>%d (day)<br/>%dt (translated day name)<br/>%DT (translated day name, first letter is uppercase)<br/>%m (month)<br/>%mt (translated month name)<br/>%MT (translated month name, first letter uppercase)<br/>%Y (year, with century)<br/>%y (year, without century)."
-msgid "date_format_descr"
-msgstr "In diesem Feld kann gleichwelcher Text und spezielle Symbole eingegeben werden welche zu einem Datumsformat passen. Zum Beispiel: '%s/%m/%Y' würde ergeben '12/06/1968'. Die folgenden Symbole stehen zur Verfügung:<br/>%d (Tag)<br/>%dt (übersetzer Name des Tages)<br/>%DT (übersetzer Name des Tages, erster Buchstabe Großbuchstabe)<br/>%m (monat)<br/>%mt (übersetzer Name des Monates)<br/>%MT (übersetzer Name des Monates, erster Buchstabe Großbuchstabe)<br/><br/>%Y (Jahr mit jahrhundert)<br/>%y (Jahr, ohne Jahrhundert)."
 
 #. Default: "The element has been deactivated."
 msgid "deactivate_done_descr"
