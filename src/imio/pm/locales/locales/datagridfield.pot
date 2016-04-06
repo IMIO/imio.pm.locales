@@ -23,7 +23,7 @@ msgstr ""
 msgid "Custom adviser gives automatic advice on"
 msgstr ""
 
-#. Default: "Specify here a TAL expression that will return True if the advice of the group must be automatically asked on an item.  We receive 'item' as the meeting item to give an advice on.  WARNING if the group of advisers linked to this PloneMeeting group is empty, it will no be considered, despite the result of the TAL expression.  This advice will NOT be askable manually in the user interface, it is only asked automatically by the application.  If this advice should not be asked automatically, leave this field blank."
+#. Default: "Specify here a TAL expression that will return True if the advice of the group must be automatically asked on an item.  We receive 'item' as the meeting item to give an advice on.  WARNING if the group of advisers linked to this group is empty, it will no be considered, despite the result of the TAL expression.  This advice will NOT be askable manually in the user interface, it is only asked automatically by the application.  If this advice should not be asked automatically, leave this field blank."
 msgid "gives_auto_advice_on_col_description"
 msgstr ""
 

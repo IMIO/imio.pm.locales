@@ -962,9 +962,9 @@ msgstr "Identifiant de la version de la configuration liée à cette séance"
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
 msgstr "Configurations de séance vers lesquelles les points de cette configuration de séance peuvent être envoyés"
 
-#. Default: "Title of the folder that PloneMeeting creates in each user folder"
+#. Default: "Title of the folder created in each user folder"
 msgid "PloneMeeting_label_meetingFolderTitle"
-msgstr "Titre du répertoire que PloneMeeting crée dans chaque répertoire d'utilisateur"
+msgstr "Titre du répertoire créé dans chaque répertoire d'utilisateur"
 
 #. Default: "Meeting number (sequence number automatically attributed)"
 msgid "PloneMeeting_label_meetingNumber"
@@ -1267,7 +1267,7 @@ msgstr "Transitions à confirmer"
 
 #. Default: "Unrestricted users when 'Restrict users' mode is on"
 msgid "PloneMeeting_label_unrestrictedUsers"
-msgstr "Utilisateurs non restreints quand PloneMeeting est en mode 'Utilisateurs restreints'"
+msgstr "Utilisateurs non restreints lorsque le mode 'Utilisateurs restreints' est activé"
 
 #. Default: "Usages"
 msgid "PloneMeeting_label_usages"
@@ -1919,9 +1919,9 @@ msgstr "Vous ne pouvez pas coller un point provenant d'un autre type de séance 
 msgid "cant_delete_object"
 msgstr "Cette suppression ne peut avoir lieu. Raisons possibles: vous tentez de supprimer une séance comportant déjà des points ou un point déjà présenté à un ordre du jour."
 
-#. Default: "Every item, within this meeting configuration, can only belong to one category. Those categories are defined here (by a title and a description). The order into which they appear in this folder is important. Indeed, if we make the assumption that you desire it (it depends on a parameter you may modify in the 'data' section), when an item is added to a meeting, it can be inserted at the end of the items belonging to the same category, those items being themselves inserted at a place that corresponds to the position of their category among the list of categories defined here. That being said, if you tell PloneMeeting that you want to use the PloneMeeting groups as categories (another parameter of the 'data' section), the categories defined here will be ignored."
+#. Default: "Every item, within this meeting configuration, can only belong to one category. Those categories are defined here (by a title and a description). The order into which they appear in this folder is important. Indeed, if we make the assumption that you desire it (it depends on a parameter you may modify in the 'data' section), when an item is added to a meeting, it can be inserted at the end of the items belonging to the same category, those items being themselves inserted at a place that corresponds to the position of their category among the list of categories defined here. That being said, if you tell that you want to use the groups as categories (another parameter of the 'data' section), the categories defined here will be ignored."
 msgid "categories_descr"
-msgstr "Chaque point, au sein de cette configuration de séance, peut appartenir à une et une seule catégorie. Ces catégories sont définies ici (par un titre et une description). L'ordre dans lequel elles sont reprises dans ce répertoire est important. En effet, pour autant que vous le désiriez (un paramètre définit cela dans la section 'Données'), lors de l'ajout d'un point à une séance, celui-ci peut s'insérer à la suite des points appartenant à la même catégorie, ceux-ci étant déjà insérés à l'endroit correspondant à la position de leur catégorie parmi la liste des catégories définies ici. Ceci dit, si vous spécifiez que vous voulez utiliser les groupes PloneMeeting comme catégories (un autre paramètre de la section 'Données'), les catégories définies ici ne seront pas utilisées."
+msgstr "Chaque point, au sein de cette configuration de séance, peut appartenir à une et une seule catégorie. Ces catégories sont définies ici (par un titre et une description). L'ordre dans lequel elles sont reprises dans ce répertoire est important. En effet, pour autant que vous le désiriez (un paramètre définit cela dans la section 'Données'), lors de l'ajout d'un point à une séance, celui-ci peut s'insérer à la suite des points appartenant à la même catégorie, ceux-ci étant déjà insérés à l'endroit correspondant à la position de leur catégorie parmi la liste des catégories définies ici. Ceci dit, si vous spécifiez que vous voulez utiliser les groupes comme catégories (un autre paramètre de la section 'Données'), les catégories définies ici ne seront pas utilisées."
 
 #. Default: "Choose here some identifier for your category."
 msgid "category_category_id_descr"
@@ -2497,9 +2497,9 @@ msgstr "Filtrer"
 msgid "first_transition_must_leave_wf_initial_state"
 msgstr "Respectez bien l'ordre des transitions menant à l'état 'présenté', la première transition renseignée n'est pas une transition qui part de l'état initial du workflow du point."
 
-#. Default: "In the PloneMeeting folder of every member, a sub-folder is created for each meeting configuration. The name of this sub-folder is defined here."
+#. Default: "In the application folder of every member, a sub-folder is created for each meeting configuration. The name of this sub-folder is defined here."
 msgid "folder_title_descr"
-msgstr "Dans le répertoire PloneMeeting de chaque utilisateur, un sous-répertoire par configuration de séance est créé. Le nom de ce sous-répertoire se définit ici."
+msgstr "Dans le répertoire de chaque utilisateur, un sous-répertoire par configuration de séance est créé. Le nom de ce sous-répertoire se définit ici."
 
 #. Default: "For the administrator only"
 msgid "for_admin_only"
@@ -2521,17 +2521,17 @@ msgstr "<p>Avant de tester, nous vous recommandons de lire la <span class=\"link
 msgid "front_page_description"
 msgstr "Cet outil permet de gérer vos séances délibératoires."
 
-#. Default: "Welcome to PloneMeeting!"
+#. Default: "Welcome to the Management of deliberations!"
 msgid "front_page_title"
-msgstr "Bienvenue dans PloneMeeting!"
+msgstr "Bienvenue dans la Gestion des délibérations!"
 
-#. Default: "In Plone, by default, you can only define one 'admin' (email and name). This admin is used a.o. as 'from' address of all emails sent by the Plone site and is used by PloneMeeting for, ie, sending emails when some errors occur. This default situation can cause problems if the Plone site running PloneMeeting is operated by a person which is not a webmaster but a guy having functional knowlegde and no technical knowledge. If you encounter such problems, you can define here the email address of a 'functional administrator'. If defined, this email address will be used as 'from' address for all PloneMeeting email notifications (instead of the standard admin email adress). So if people reply to those notifications, the functional administrator will get it, not the standard admin (='technical administrator' in this case). Indeed, this could be needed for confidentiality reasons. Technical messages and posts from the 'contact form' will be sent to the technical administrator."
+#. Default: "E-mail address to use for notifications sent by the application.  If not set, the e-mail sender defined in Plone will be used."
 msgid "functional_admin_email_descr"
-msgstr "Dans Plone, par défaut, vous pouvez uniquement définir un seul administreur de site (courriel et nom). Ce courriel est utilisé entre autres comme expéditeur des notifications par courriel et est également utilisé comme destinataire des messages décrivant l'occurrence d'erreurs au niveau de PloneMeeting par exemple. Cette situation peut poser des problèmes si le site Plone qui fait tourner PloneMeeting est géré par une personne n'étant pas webmestre (n'ayant que des compétences de nature fonctionnelle). Si vous rencontrez ce problème, vous pouvez définir ici le courriel d'un 'administrateur fonctionnel'. Si défini, il sera utilisé comme expéditeur des notifications. Si les utilisateurs répondent à ces notifications, l'administrateur fonctionnel les recevra et non l'administrateur 'technique' (=l'administrateur classique): cela peut être nécessaire pour des raisons de confidentialité. Les messages techniques et les envois depuis le formulaire de contact du site sont toujours envoyés à l'administrateur technique."
+msgstr "Adresse e-mail a utiliser lors de l'envoi des notifications.  Si ce champ n'est pas rempli, l'adresse e-mail définie dans la configuration de Plone sera utilisée."
 
-#. Default: "Type here the full name of the functional administrator. If defined, it will be included in the 'from' part of email notifications sent by PloneMeeting (provided the previous fields as been filled correctly)."
+#. Default: "Type here the full name of the functional administrator. If defined, it will be included in the 'from' part of email notifications sent by the application."
 msgid "functional_admin_name_descr"
-msgstr "Ecrivez ici le nom complet de l'administrateur fonctionnel. Si défini, il sera utilisé dans le champ 'de' des courriels de notification envoyés par PloneMeeting (si du moins le champ précédent a été correctement rempli)."
+msgstr "Ecrivez ici le nom complet de l'administrateur fonctionnel. Si défini, il sera utilisé dans le champ 'de' des courriels de notification envoyés."
 
 #. Default: "F"
 msgid "gender_f"
@@ -2651,13 +2651,13 @@ msgstr "Cette page n'est pas accessible pour le moment. Les gestionnaires de sé
 msgid "historize_item_data_when_advice_is_given_descr"
 msgstr "Lorsqu'un avis est officiellement rendu, c'est-à-dire lorsqu'il quitte l'état dans lequel les donneurs d'avis peuvent encoder cet avis, ce dernier est historisé.  Si vous cochez cette case, les informations essentielles du point (titre et champs de rexte riche) seront également historisées avec l'avis."
 
-#. Default: "For every field you select here, PloneMeeting will keep track of any change on any item, if it is in one of the 'historizable' states as defined below."
+#. Default: "For every field you select here, the application will keep track of any change on any item, if it is in one of the 'historizable' states as defined below."
 msgid "historized_item_attrs_descr"
-msgstr "Pour chaque champ que vous sélectionnez ici, PloneMeeting conservera la trace de tout changement sur chaque point qui est dans un des états listés ci-dessous."
+msgstr "Pour chaque champ que vous sélectionnez ici, l'application conservera la trace de tout changement sur chaque point qui est dans un des états listés ci-dessous."
 
-#. Default: "For every field you select here, PloneMeeting will keep track of any change on any meeting, if it is in one of the 'historizable' states as defined below."
+#. Default: "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the 'historizable' states as defined below."
 msgid "historized_meeting_attrs_descr"
-msgstr "Pour chaque champ que vous sélectionnez ici, PloneMeeting conservera la trace de tout changement sur chaque séance qui est dans un des états listés ci-dessous."
+msgstr "Pour chaque champ que vous sélectionnez ici, l'application conservera la trace de tout changement sur chaque séance qui est dans un des états listés ci-dessous."
 
 #. Default: "See changes"
 msgid "history_changes"
@@ -2710,10 +2710,6 @@ msgstr "Nom"
 #. Default: "This site allows you to manage your official meetings."
 msgid "hs_welcome_body"
 msgstr "Ce site vous permet de gérer vos séances délibératoires."
-
-#. Default: "Welcome to PloneMeeting!"
-msgid "hs_welcome_title"
-msgstr "Bienvenue sur PloneMeeting!"
 
 #. Default: "Azur"
 msgid "icon_color_azur"
@@ -2959,9 +2955,9 @@ msgstr "Choisissez ici les colonnes à afficher sur les listes de points (par ex
 msgid "item_completeness_descr"
 msgstr "Spécifiez ici le niveau de complétude de ce point.  Si vous sélectionnez 'Le point est incomplet', une zone de commentaire supplémentaire sera affichée et vous permettra de détailler les pièces manquantes."
 
-#. Default: "On the item workflow, some boolean expressions guard the execution of the transitions from one state to another. Those conditions, together with other conditions useful at various levels within PloneMeeting, are defined as methods of a Python interface. You can modify those conditions at will, through the development of another Plone product into which you must: <ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions are documented."
+#. Default: "On the item workflow, some boolean expressions guard the execution of the transitions from one state to another. Those conditions, together with other conditions useful at various levels, are defined as methods of a Python interface. You can modify those conditions at will, through the development of another Plone product into which you must: <ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions are documented."
 msgid "item_conditions_interface_descr"
-msgstr "Sur le workflow gouvernant les points, une série d'expressions booléennes conditionnent l'exécution des transitions entre états. Ces conditions, ainsi que d'autres conditions utiles à divers niveaux au sein de PloneMeeting, sont définies en tant que méthodes d'une interface Python. Vous pouvez modifier comme vous le voulez ces conditions, via le développement d'un produit Plone tiers dans lequel vous devez:<ul><li>créer une interface Python qui hérite de l'interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (c'est le nom complet de cette interface que vous devez spécifier dans ce champ);</li><li>créer et déclarer en ZCML un adapter qui adapte l'interface Products.PloneMeeting.interfaces.IMeetingItem vers l'interface que vous avez définie au point précédent.</li></ul>Vous pouvez faire hériter votre adapter de l'adapter par défaut Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: cela vous permettra d'overrider uniquement les méthodes pour lesquelles vous voulez un comportement différent. Toutes les méthodes proposées par l'interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions sont documentées."
+msgstr "Sur le workflow gouvernant les points, une série d'expressions booléennes conditionnent l'exécution des transitions entre états. Ces conditions, ainsi que d'autres conditions utiles à divers niveaux sont définies en tant que méthodes d'une interface Python. Vous pouvez modifier comme vous le voulez ces conditions, via le développement d'un produit Plone tiers dans lequel vous devez:<ul><li>créer une interface Python qui hérite de l'interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (c'est le nom complet de cette interface que vous devez spécifier dans ce champ);</li><li>créer et déclarer en ZCML un adapter qui adapte l'interface Products.PloneMeeting.interfaces.IMeetingItem vers l'interface que vous avez définie au point précédent.</li></ul>Vous pouvez faire hériter votre adapter de l'adapter par défaut Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: cela vous permettra d'overrider uniquement les méthodes pour lesquelles vous voulez un comportement différent. Toutes les méthodes proposées par l'interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions sont documentées."
 
 #. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_copygroups_states_descr"
@@ -3088,9 +3084,9 @@ msgstr "Les modèles de points seront disponibles aux utilisateurs qui créeront
 msgid "item_up_wf_term"
 msgstr "Remonte le workflow"
 
-#. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
+#. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of an item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
 msgid "item_workflow_descr"
-msgstr "Dans cette liste, vous voyez tous les workflows définis dans votre site Plone. Choisissez-en un qui a été spécifiquement conçu pour gérer le cycle de vie d'un point PloneMeeting: soit 'meetingitem_workflow', le workflow pour points qui est livré avec PloneMeeting, soit un autre workflow qui a été spécifiquement conçu, par des développeurs au sein d'un produit Plone tiers, pour les points de cette configuration de séance."
+msgstr "Dans cette liste, vous voyez tous les workflows définis dans votre site Plone. Choisissez-en un qui a été spécifiquement conçu pour gérer le cycle de vie d'un point: soit 'meetingitem_workflow', le workflow par défaut, soit un autre workflow qui a été spécifiquement conçu, par des développeurs au sein d'un produit Plone tiers, pour les points de cette configuration de séance."
 
 #. Default: "item(s)"
 msgid "items_count"
@@ -3341,26 +3337,26 @@ msgstr "Sélectionnez les configurations de séances vers lesquelles les points 
 msgid "meeting_configurations"
 msgstr "Gestion des configurations de séances"
 
-#. Default: "Several meeting configurations canbe managed by PloneMeeting. A meeting configuration defines a 'type of meeting' that has its associated set of parameters. Each meeting configuration is completely independant and produces a tab among the main Plone tabs. If your organization manages several distinct meeting types, she can define corresponding meeting configurations here."
+#. Default: "Several meeting configurations can be managed. A meeting configuration defines a 'type of meeting' that has its associated set of parameters. Each meeting configuration is completely independant and produces a tab among the main Plone tabs. If your organization manages several distinct meeting types, she can define corresponding meeting configurations here."
 msgid "meeting_configurations_descr"
-msgstr "Plusieurs configurations de séances peuvent être gérées par PloneMeeting. Une configuration de séance définit un 'type de séance', auquel est associé une série de paramètres de configuration. Chaque configuration est totalement indépendante, et donne lieu à un onglet général sur le site Plone. Si votre organisation gère plusieurs types de séances distincts, elle peut définir plusieurs configurations de séances ici."
+msgstr "Plusieurs configurations de séances peuvent être gérées. Une configuration de séance définit un 'type de séance', auquel est associé une série de paramètres de configuration. Chaque configuration est totalement indépendante, et donne lieu à un onglet général sur le site Plone. Si votre organisation gère plusieurs types de séances distincts, elle peut définir plusieurs configurations de séances ici."
 
 #. Default: "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
 msgid "meeting_file_types_descr"
 msgstr "A chaque point, vous pouvez associer une série d'annexes. Certaines de ces annexes peuvent être spécifiquement liées à la décision découlant du point. Vous pouvez consulter et modifier ici les types d'annexes définis pour cette configuration de séance. Un type d'annexe se définit par un titre, une icône (16x16 pixels de préférence) et un titre prédéfini. Lorsque des utilisateurs veulent associer une annexe à un point, ils peuvent choisir, dans une liste déroulante, un type d'annexe parmi ceux qui sont définis ici et uploader un fichier."
 
-#. Default: "PloneMeeting, in each member folder (for member having access to PloneMeeting), creates a folder containing one sub-folder for each meeting configuration. Into each subfolder, PloneMeeting stores meetings and items created by this user, and annexes linked to those items."
+#. Default: "For each member folder having access to the application, a folder containing one sub-folder for each meeting configuration is created. Into each subfolder, the application stores elements created by this user."
 msgid "meeting_folder_title"
-msgstr "PloneMeeting, dans chaque répertoire d'utilisateur ayant accès à PloneMeeting, crée un répertoire dans lequel un sous-répertoire est créé par configuration de séance. Dans chaque sous-répertoire, on trouve les séances et les points créés par cet utilisateur, ainsi que les annexes liées à ces points."
+msgstr "Dans chaque répertoire d'utilisateur ayant accès à l'application, un répertoire est créé avec un sous-répertoire par configuration de séance. Dans chaque sous-répertoire seront stockés les éléments créés par cet utilisateur."
 
 # ToolPloneMeeting
-#. Default: "Management of PloneMeeting-specific groups"
+#. Default: "Management of groups"
 msgid "meeting_groups"
-msgstr "Gestion des groupes spécifiques à PloneMeeting"
+msgstr "Gestion des groupes"
 
-#. Default: "PloneMeeting users are divided into groups. Each group represents an organizational entity (department, section, division...). A button below allows you to add a PloneMeeting group. For each created PloneMeeting group, 4 Plone groups are created:<ul class=\"discreet\"><li>a group of observers, including members that may only see content created by the group;</li><li>a group of creators, including members that may create content;</li><li>a group of advisers, including members that may give an advice on behalf of the group;</li><li>a group of validators, including members that may validate items and make them visible to the meeting manager.</li></ul><p class=\"discreet\">Then, through the classical 'Users and Groups Administration' section in Plone, you may add users and associate them to groups that were generated from PloneMeeting groups defined here.</p><p class=\"discreet\">A user may belong to several Plone groups generated from PloneMeeting groups, even if those groups are tied to different PloneMeeting groups. For example, a user may be observer into a group A and creator + observer within a group B. Every time a meeting item is created, you must specify a proposing group among the several MeetingGroups the user potentially belongs to. PloneMeeting will define local roles on the created item that will allow members of the corresponding Plone groups to get the right permissions to the item. If you change the proposing group for this item, local roles will be updated accordingly. <ul class=\"discreet\"><li>The local role 'MeetingObserverLocal' is given to groups of observers (whose id has the form &lt;PloneMeeting_group_name&gt;_observers');</li><li>the local role 'MeetingMember' is given to groups of creators (whose id has the form &lt;PloneMeeting_group_name&gt;_creators');</li><li>the local role 'MeetingAdviser' is given to groups of advisers (whose id has the form &lt;PloneMeeting_group_name&gt;_advisers');</li><li>the local role 'MeetingReviewer' is given to groups of validators (whose id has the form &lt;PloneMeeting_group_name&gt;_reviewers').</li></ul><p class=\"discreet\">Please do not give those 4 local roles globally to any Plone user or group. Besides those 4 roles, PloneMeeting defines 2 global roles:<ul class=\"discreet\"><li>the role 'MeetingManager' must be given (through the Plone interface for administration of users and groups) to any person who must create meetings, present items into it, etc;</li><li>the role 'MeetingObserverGlobal' allows to consult meetings once they have been published. This role is automatically attributed to any Plone group generated from a PloneMeetingGroup: you normally don't need to give this role yourself to a user or group.</li></ul></p>"
+#. Default: "Users are divided into groups. Each group represents an organizational entity (department, section, division...). A button below allows you to add a group. For each created group, 4 Plone groups are created:<ul class=\"discreet\"><li>a group of observers, including members that may only see content created by the group;</li><li>a group of creators, including members that may create content;</li><li>a group of advisers, including members that may give an advice on behalf of the group;</li><li>a group of validators, including members that may validate items and make them visible to the meeting manager.</li></ul><p class=\"discreet\">Then, through the classical 'Users and Groups Administration' section in Plone, you may add users and associate them to groups that were generated from groups defined here.</p><p class=\"discreet\">A user may belong to several Plone groups generated from these application groups, even if those Plone groups are tied to different application groups. For example, a user may be observer into a group A and creator + observer within a group B. Every time a meeting item is created, you must specify a proposing group among the several groups the user potentially belongs to. The application will define local roles on the created item that will allow members of the corresponding Plone groups to get the right permissions to the item. If you change the proposing group for this item, local roles will be updated accordingly. <ul class=\"discreet\"><li>The local role 'MeetingObserverLocal' is given to groups of observers (whose id has the form &lt;PloneMeeting_group_name&gt;_observers');</li><li>the local role 'MeetingMember' is given to groups of creators (whose id has the form &lt;group_name&gt;_creators');</li><li>the local role 'MeetingAdviser' is given to groups of advisers (whose id has the form &lt;group_name&gt;_advisers');</li><li>the local role 'MeetingReviewer' is given to groups of validators (whose id has the form &lt;group_name&gt;_reviewers').</li></ul><p class=\"discreet\">Please do not give those 4 local roles globally to any Plone user or group.</li></ul></p>"
 msgid "meeting_groups_descr"
-msgstr "Les utilisateurs de PloneMeeting sont répartis dans des groupes. Chaque groupe représente une unité organisationnelle (service, département, section, division, cabinet ministériel,...).  Lorsque qu'un groupe PloneMeeting est créé (en cliquant sur le bouton \"+\" ci-dessus), plusieurs groupes Plone sont créés, un par rôle des utilisateurs dans l'application:<ul class=\"discreet\"><li>un groupe d'<i><b>observateurs</b></i>, incluant les membres pouvant uniquement voir le contenu créé par le groupe;</li><li>un groupe de <i><b>créateurs</b></i>, incluant les membres pouvant créer du contenu;</li><li>un groupe d'<i><b>émetteurs d'avis</b></i>, incluant les membres pouvant donner un avis au nom du groupe;</li><li>un groupe de <i><b>pré-validateurs</b></i>, si activé, les membres pourront pré-valider le point avant de l'envoyer au niveau suivant, le validateur;</li><li>un groupe de <i><b>validateurs</b></i>, incluant les membres pouvant valider les points et ainsi les rendre visibles pour le gestionnaire de séance.</li></ul><p class=\"discreet\">Ensuite, c'est via l'administration classique des utilisateurs et des groupes de Plone que vous créez des utilisateurs et les associez à l'un ou l'autre des groupes qui ont été générés sur base des groupes PloneMeeting définis ici.</p><p class=\"discreet\">Un utilisateur peut appartenir à plusieurs groupes Plone issus de groupes PloneMeeting identiques ou différents. Par exemple, un utilisateur peut être observateur dans le groupe PloneMeeting A et créateur + observateur dans le groupe PloneMeeting B. Chaque fois qu'un point est créé, vous devez spécifier un groupe proposant parmi les groupes PloneMeeting auxquels l'utilisateur appartient potentiellement. PloneMeeting définira des rôles locaux sur le point, qui permettront aux utilisateurs du groupe PloneMeeting proposant d'obtenir les permissions adéquates sur le point. Si vous changez le groupe proposant pour un point, les rôles locaux seront adaptés en conséquence.</p><p class=\"discreet\">Outre ces groupes spécifiques, d'autres groupes sont créés par configuration de séance :</p><ul class=\"discreet\"><li>un groupe <i><b>Gestionnaires de séances</b></i> qui contiendra les utilisateurs capables de gérer les séances et d'accéder à tous les points une fois que ceux-ci sont 'validés';</li><li>un groupe <i><b>Super-observateurs</b></i> qui contiendra les utilisateurs capables de voir tous les points dans les états définis dans la configuration;</li><li>un groupe <i><b>Super-observateurs restreints</b></i> qui fonctionne comme le groupe 'Super-observateurs' mais qui contiendra les utilisateurs capables de voir tous les points dans d'autres états également définis dans la configuration;</li><li>un groupe <i><b>Gestionnaires d'informations budgétaires</b></i> qui contiendra les utilisateurs capables d'éditer les informations budgétaires de tous les points dans certains états définis dans la configuration.</li></ul></p><br />"
+msgstr "Les utilisateurs sont répartis dans des groupes. Chaque groupe représente une unité organisationnelle (service, département, section, division, cabinet ministériel,...).  Lorsque qu'un groupe est créé (en cliquant sur le bouton \"+\" ci-dessus), plusieurs groupes Plone sont créés, un par rôle des utilisateurs dans l'application:<ul class=\"discreet\"><li>un groupe d'<i><b>observateurs</b></i>, incluant les membres pouvant uniquement voir le contenu créé par le groupe;</li><li>un groupe de <i><b>créateurs</b></i>, incluant les membres pouvant créer du contenu;</li><li>un groupe d'<i><b>émetteurs d'avis</b></i>, incluant les membres pouvant donner un avis au nom du groupe;</li><li>un groupe de <i><b>pré-validateurs</b></i>, si activé, les membres pourront pré-valider le point avant de l'envoyer au niveau suivant, le validateur;</li><li>un groupe de <i><b>validateurs</b></i>, incluant les membres pouvant valider les points et ainsi les rendre visibles pour le gestionnaire de séance.</li></ul><p class=\"discreet\">Ensuite, c'est via l'administration classique des utilisateurs et des groupes de Plone que vous créez des utilisateurs et les associez à l'un ou l'autre des groupes qui ont été générés sur base des groupes définis ici.</p><p class=\"discreet\">Un utilisateur peut appartenir à plusieurs groupes Plone issus de groupes identiques ou différents. Par exemple, un utilisateur peut être observateur dans le groupe A et créateur + observateur dans le groupe B. Chaque fois qu'un point est créé, vous devez spécifier un groupe proposant parmi les groupes auxquels l'utilisateur appartient potentiellement. L'application définira des rôles locaux sur le point, qui permettront aux utilisateurs du groupe proposant d'obtenir les permissions adéquates sur le point. Si vous changez le groupe proposant pour un point, les rôles locaux seront adaptés en conséquence.</p><p class=\"discreet\">Outre ces groupes spécifiques, d'autres groupes sont créés par configuration de séance :</p><ul class=\"discreet\"><li>un groupe <i><b>Gestionnaires de séances</b></i> qui contiendra les utilisateurs capables de gérer les séances et d'accéder à tous les points une fois que ceux-ci sont 'validés';</li><li>un groupe <i><b>Super-observateurs</b></i> qui contiendra les utilisateurs capables de voir tous les points dans les états définis dans la configuration;</li><li>un groupe <i><b>Super-observateurs restreints</b></i> qui fonctionne comme le groupe 'Super-observateurs' mais qui contiendra les utilisateurs capables de voir tous les points dans d'autres états également définis dans la configuration;</li><li>un groupe <i><b>Gestionnaires d'informations budgétaires</b></i> qui contiendra les utilisateurs capables d'éditer les informations budgétaires de tous les points dans certains états définis dans la configuration.</li></ul></p><br />"
 
 #. Default: "In order to perform this action, the meeting date must be in the past."
 msgid "meeting_in_past"
@@ -3472,9 +3468,9 @@ msgstr "<p class=\"discreet\">Lorsqu'ils sont activés (en sélectionnant les ch
 msgid "meeting_with_same_date_exists"
 msgstr "Une séance ayant la même date et heure existe déjà. Veuillez choisir une autre date et/ou heure."
 
-#. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a PloneMeeting meeting: either 'meeting_workflow', the default meeting workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the meetings of this meeting configuration."
+#. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of a meeting: either 'meeting_workflow', the default meeting workflow, or another workflow that was specifically created by developers within another Plone product for the meetings of this meeting configuration."
 msgid "meeting_workflow_descr"
-msgstr "Dans cette liste, vous voyez tous les workflows définis dans votre site Plone. Choisissez-en un qui a été spécifiquement conçu pour gérer le cycle de vie d'une séance PloneMeeting: soit 'meeting_workflow', le workflow pour séances qui est livré avec PloneMeeting, soit un autre workflow qui a été spécifiquement conçu, par des développeurs au sein d'un produit Plone tiers, pour les points de cette configuration de séance."
+msgstr "Dans cette liste, vous voyez tous les workflows définis dans votre site Plone. Choisissez-en un qui a été spécifiquement conçu pour gérer le cycle de vie d'une séance: soit 'meeting_workflow', le workflow pour séances par défaut, soit un autre workflow qui a été spécifiquement conçu, par des développeurs au sein d'un produit Plone tiers, pour les points de cette configuration de séance."
 
 #. Default: "This section allows you to configure advices. An advice is a kind of positive or negative comment that someone, according to its function, may or must express on an item.  Moreover, this section will give you the possibility to define some access rules."
 msgid "meetingconfig_advice_descr"
@@ -3485,22 +3481,22 @@ msgstr "Cette section permet de paramétrer la fonctionnalité de gestion des av
 msgid "meetingconfig_assembly_and_signatures_descr"
 msgstr "Les paramètres définis ici peuvent être édités par les gestionnaires de séances afin de définir l'assemblée et les signatures à utiliser."
 
-#. Default: "Parameters in this section allow to customize some elements linked to attributes of and associations between the 2 main content types managed by PloneMeeting: items and meetings."
+#. Default: "Parameters in this section allow to customize some elements linked to attributes of and associations between the 2 main content types: items and meetings."
 msgid "meetingconfig_data_descr"
-msgstr "Les paramètres liés aux données permettent de choisir certains éléments liés aux attributs et associations existant entre les 2 principaux types de contenu gérés par PloneMeeting: les points et les séances."
+msgstr "Les paramètres liés aux données permettent de choisir certains éléments liés aux attributs et associations existant entre les 2 principaux types de contenu: les points et les séances."
 
 # MeetingConfig
-#. Default: "Parameters listed here allow to customize the way PloneMeeting generates documents based on created items and meetings."
+#. Default: "Parameters listed here allow to customize the way the application generates documents based on created items and meetings."
 msgid "meetingconfig_doc_descr"
-msgstr "Cette section permet de paramétrer la manière dont PloneMeeting peut produire des documents sur base des points et séances créés."
+msgstr "Cette section permet de paramétrer la manière dont l'application peut produire des documents sur base des points et séances créés."
 
-#. Default: "Parameters listed here allow to customize some elements of the PloneMeeting user interface."
+#. Default: "Parameters listed here allow to customize some elements of the application user interface."
 msgid "meetingconfig_gui_descr"
-msgstr "Cette section permet de paramétrer certains éléments de l'interface utilisateur de PloneMeeting."
+msgstr "Cette section permet de paramétrer certains éléments de l'interface utilisateur de l'application."
 
-#. Default: "Parameters here allow to customize the way PloneMeeting sends e-mail notifications when some item- or meeting-related events occur."
+#. Default: "Parameters here allow to customize the way the application sends e-mail notifications when some item- or meeting-related events occur."
 msgid "meetingconfig_mail_descr"
-msgstr "Cette section permet de paramétrer la manière dont PloneMeeting envoie des notifications par courriel lorsque certains événements surviennent sur des points ou des séances."
+msgstr "Cette section permet de paramétrer la manière dont l'application envoie des notifications par courriel lorsque certains événements surviennent sur des points ou des séances."
 
 #. Default: "This page lists the user characteristics and preferences which are specific to this meeting configuration."
 msgid "meetingconfig_users_descr"
@@ -3815,9 +3811,9 @@ msgstr "Spécifiez ici quelques lieux de prédilection pour la tenue des séance
 msgid "plonemeeting_delete_meeting_confirm_message"
 msgstr "Etes-vous certain de vouloir supprimer cette séance ET tous ses points?"
 
-#. Default: "Welcome to the administrative pages of PloneMeeting. PloneMeeting allows to manage agendas and decisions of any entity taking decisions. PloneMeeting is developed by the <a href=\"http://plonegov.org\">PloneGov community</a> with <a href=\"http://plone.org\">Plone</a>."
+#. Default: "Welcome to the administrative pages. This application allows to manage agendas and decisions of any entity taking decisions."
 msgid "plonemeeting_descr"
-msgstr "Bienvenue sur l'interface d'administration de PloneMeeting. PloneMeeting est un logiciel de gestion d'ordres du jour et de décisions d'un organe décisionnel. PloneMeeting est développé par la communauté <a href=\"http://plonegov.org\">PloneGov</a> sur base du logiciel <a href=\"http://plone.org\">Plone</a>."
+msgstr "Bienvenue sur l'interface d'administration. Ce logiciel permet la gestion d'ordres du jour et de décisions d'un organe décisionnel."
 
 #. Default: "Identifier"
 msgid "plonemeeting_identifier"
@@ -3835,9 +3831,9 @@ msgstr "Vérifier les modèles Pod"
 msgid "pm_check_pod_templates_warning"
 msgstr "Attention: l'action 'Vérifier les modèles Pod' va vérifier que les modèles définis dans la partie '[Documents]' de cette configuration fonctionnent correctement."
 
-#. Default: "Configure PloneMeeting"
+#. Default: "Configuration of deliberations"
 msgid "pm_configuration"
-msgstr "Configurer PloneMeeting"
+msgstr "Configuration des délibérations"
 
 #. Default: "Convert annexes for preview"
 msgid "pm_convert_annexes"
@@ -3931,9 +3927,9 @@ msgstr "Seuls les utilisateurs ayant la (les) permission(s) spécifiée(s) ici s
 msgid "pod_template_descr"
 msgstr "Ce canevas doit être un document ODT (Open Document Format text) tel que produit par OpenOffice par exemple. Ce canevas devrait aussi contenir des instructions spéciales qui permettent d'y insérer du contenu provenant de la base de données Zope/Plone. Le format de ces instructions est défini par la librairie POD (Python Open Document). Vous pouvez apprendre à écrire des fichiers ODT contenant des instructions POD <a href=\"http://appyframework.org/pod.html\">ici</a>."
 
-#. Default: "This section allows you manage the document templates that you may specify for producing documents from content managed by PloneMeeting (items, meetings, annexes, etc)."
+#. Default: "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application."
 msgid "pod_templates_descr"
-msgstr "Cette section vous permet de gérer les canevas de documents que vous pouvez spécifier pour produire des documents depuis les types de contenu gérés par PloneMeeting (points, séances, annexes, etc)."
+msgstr "Cette section vous permet de gérer les canevas de documents vous permettant de produire des documents depuis les types de contenu gérés (points, séances, avis) et les tableaux de bord."
 
 #. Default: "Manage"
 msgid "portlet_pm_header_label"
@@ -4076,9 +4072,9 @@ msgstr "Une catégorie doit être sélectionnée sur ce point afin qu'il puisse 
 msgid "restrict_access_to_secret_items_descr"
 msgstr "Si vous cochez cette case, l'accès aux points 'à huis clos' sera restreint pour certains utilisateurs.  Ceci permet de spécifier que les points à huis clos ne doivent être accessible qu'aux personnes ayant reçu un accès explicite au point : les super utilisteurs (administrateurs, gestionnaires de séances, super observateurs), les membres du groupe proposant, les groupes en copies et les émetteurs d'avis (dont l'avis est demandé sur le point).  Par défaut, cette fonctionnalité est désactivée, à n'activer que si nécessaire, par exemple dans le cas où vous avez un état sur le point qui est accessible à tous (par exemple 'publié') mais que vous souhaitez malgré tout que les points à huis clos ne soient accessible que de manière explicite."
 
-#. Default: "If you check this box, PloneMeeting will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
+#. Default: "If you check this box, the application will enter into a kind of 'emergency' mode that allows, under heavy load, to limit the number of users allowed to access the page 'Meeting view'. If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page 'Meeting view'."
 msgid "restrict_users_descr"
-msgstr "Si vous cochez cette case, PloneMeeting entre dans une sorte de mode d'urgence qui permet, lors de fortes charges, de limiter le nombre d'utilisateurs ayant accès à la page de visualisation des séances. Si ce mode est activé, seuls les gestionnaires de séance (rôle MeetingManager) et les utilisateurs listés dans le champ ci-dessous pourront accéder aux pages de visualisation des séances."
+msgstr "Si vous cochez cette case, l'application entre dans une sorte de mode d'urgence qui permet, lors de fortes charges, de limiter le nombre d'utilisateurs ayant accès à la page de visualisation des séances. Si ce mode est activé, seuls les gestionnaires de séance (rôle MeetingManager) et les utilisateurs listés dans le champ ci-dessous pourront accéder aux pages de visualisation des séances."
 
 #. Default: "Restricted power observers"
 msgid "restrictedpowerobservers"
@@ -4502,9 +4498,9 @@ msgstr "Tout montrer"
 msgid "type_required"
 msgstr "Veuillez choisir un type d'annexe."
 
-#. Default: "When PloneMeeting is in 'Restrict users' mode, the following users will still be able to consult page 'Meeting view.' Please type one user ID per line."
+#. Default: "When the application is in 'Restrict users' mode, the following users will still be able to consult page 'Meeting view.' Please type one user ID per line."
 msgid "unrestricted_users_descr"
-msgstr "Quand PloneMeeting est en mode 'Utilisateurs restreints', les utilisateurs suivants seront toujours capables d'accéder aux pages de visualisation des séances. Veuillez entrer un identifiant d'utilisateur par ligne."
+msgstr "Lorsque l'application est en mode 'Utilisateurs restreints', les utilisateurs suivants seront toujours capables d'accéder aux pages de visualisation des séances. Veuillez entrer un identifiant d'utilisateur par ligne."
 
 #. Default: "Set all votes to 'yes'"
 msgid "update_votes_yes"
@@ -4518,9 +4514,9 @@ msgstr "Donner la possibilité aux émetteurs d'avis de laisser un avis sur les 
 msgid "use_copies_descr"
 msgstr "Cette fonctionnalité permet au créateur d'un point de sélectionner des groupes qui seront mis en copie sur un point, c'est-à-dire qui seront capables de voir (uniquement) ce point."
 
-#. Default: "In PloneMeeting, for every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the PloneMeeting groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red';>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because 'living' items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
+#. Default: "For every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red';>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because 'living' items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
 msgid "use_groups_as_categories_descr"
-msgstr "Dans PloneMeeting, par configuration de séance, chaque point est défini par une catégorie et ne peut appartenir qu'à une et une seule catégorie. Ces catégories peuvent avoir de l'importance notamment lorsque des points sont présentés dans un ordre du jour: ils peuvent être ordonnés par catégorie (voir un autre paramètre de configuration plus bas). Si vous vous dites que les groupes PloneMeeting correspondent à vos catégories et que vous n'avez pas besoin d'une catégorisation supplémentaire, cochez cette case. <span style='color: red';>Si vous activez les catégories alors que des points ont déjà été créés sans catégories, faites-le au moment opportun, en effet une séance ne peut pas contenir des points avec et sans catégories, vous devrez mettre à jour les points 'vivants' existants.  Les points liés à d'anciennes séances pourront rester sans catégorie.</span>"
+msgstr "Par configuration de séance, chaque point est défini par une catégorie et ne peut appartenir qu'à une et une seule catégorie. Ces catégories peuvent avoir de l'importance notamment lorsque des points sont présentés dans un ordre du jour: ils peuvent être ordonnés par catégorie (voir un autre paramètre de configuration plus bas). Si vous vous dites que les groupes correspondent à vos catégories et que vous n'avez pas besoin d'une catégorisation supplémentaire, cochez cette case. <span style='color: red';>Si vous activez les catégories alors que des points ont déjà été créés sans catégories, faites-le au moment opportun, en effet une séance ne peut pas contenir des points avec et sans catégories, vous devrez mettre à jour les points 'vivants' existants.  Les points liés à d'anciennes séances pourront rester sans catégorie.</span>"
 
 #. Default: "Use value defined on the meeting configuration (default)"
 msgid "use_meetingconfig_value"
@@ -4714,9 +4710,9 @@ msgstr "Ce point sera envoyé vers ${meetingConfigTitle} (Urgence)"
 msgid "workflow"
 msgstr "Workflows"
 
-#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red';>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check meeting groups, and if necessary when permissions changed, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red';>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check groups, and if necessary when permissions changed, do not forget to run 'Update items and meetings'!</span>"
 msgid "workflow_adaptations_descr"
-msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. <span style='color: red';>Vos changements seront appliqués dès l'enregistrement de cette configuration de séance.  Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets 'Avis et accès', 'Workflows' et les groupes PloneMeeting, de plus, si des permissions sont affectées par ces changements, exécutez 'Mettre à jour les points et séances'!</span>"
+msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. <span style='color: red';>Vos changements seront appliqués dès l'enregistrement de cette configuration de séance.  Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets 'Avis et accès', 'Workflows' et les groupes, de plus, si des permissions sont affectées par ces changements, exécutez 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "This will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "working_days_descr"
