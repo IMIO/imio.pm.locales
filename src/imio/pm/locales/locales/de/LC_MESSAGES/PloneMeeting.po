@@ -1160,6 +1160,10 @@ msgstr ""
 msgid "PloneMeeting_label_restrictUsers"
 msgstr "'Eingeschränkter Benutzer' Modus"
 
+#. Default: "Selectable advisers"
+msgid "PloneMeeting_label_selectableAdvisers"
+msgstr ""
+
 #. Default: "Groups that can be in copy for an item"
 msgid "PloneMeeting_label_selectableCopyGroups"
 msgstr "Gruppen welche eine Kopie für diesen TOP erhalten können"
@@ -2289,6 +2293,10 @@ msgstr ""
 
 #. Default: "Emergency refused"
 msgid "emergency_refused"
+msgstr ""
+
+#. Default: "Sub-group '${suffix}' is empty"
+msgid "empty_advisers_group"
 msgstr ""
 
 #. Default: " "
@@ -3533,8 +3541,8 @@ msgstr ""
 msgid "meetingfiletype_related_to_item_decision"
 msgstr ""
 
-#. Default: "As the group has been deactivated, it has been removed from the 'selectable copy groups' field of every meeting configs."
-msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups"
+#. Default: "As the group has been deactivated, it has been removed from the 'selectable copy groups' and 'selectable advisers' fields of every meeting configs."
+msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups_selectableadvisers"
 msgstr ""
 
 #. Default: "Meeting managers"
@@ -4223,6 +4231,10 @@ msgstr ""
 #. Default: "See everything..."
 msgid "see_everything"
 msgstr "Zeige alles..."
+
+#. Default: "Choose here advisers that will be selectable on an item in the 'Optional advisers' field. If a group does not contains users in the \"Advisers\" sub-group, it is mentioned, only select it if you intend to add users in that sub-group or the advice will never be given."
+msgid "selectable_advisers_descr"
+msgstr ""
 
 #. Default: "Select groups that the creator of an item will be able to choose"
 msgid "selectable_copy_groups_descr"

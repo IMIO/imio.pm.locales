@@ -4001,8 +4001,8 @@ msgstr ""
 msgid "sendto_inexistent_destfolder_error"
 msgstr ""
 
-#. Default: "As the group has been deactivated, it has been removed from the 'selectable copy groups' field of every meeting configs."
-msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups"
+#. Default: "As the group has been deactivated, it has been removed from the 'selectable copy groups' and 'selectable advisers' fields of every meeting configs."
+msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups_selectableadvisers"
 msgstr ""
 
 #. Default: "Create an element of this type"
@@ -4741,3 +4741,16 @@ msgstr ""
 #. Default: "These templates seem clean and generated correctly without errors."
 msgid "check_pod_template_clean_descr"
 msgstr ""
+
+#. Default: "Selectable advisers"
+msgid "PloneMeeting_label_selectableAdvisers"
+msgstr ""
+
+#. Default: "Choose here advisers that will be selectable on an item in the 'Optional advisers' field. If a group does not contains users in the \"Advisers\" sub-group, it is mentioned, only select it if you intend to add users in that sub-group or the advice will never be given."
+msgid "selectable_advisers_descr"
+msgstr ""
+
+#. Default: "Sub-group '${suffix}' is empty"
+msgid "empty_advisers_group"
+msgstr ""
+
