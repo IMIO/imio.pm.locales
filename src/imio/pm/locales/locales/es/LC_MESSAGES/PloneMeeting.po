@@ -4665,6 +4665,18 @@ msgstr "Votos"
 msgid "votes_encoder_descr"
 msgstr "Usted puede elegir aquí quien efectivamente escribe los votos. Varias opciones son posibles."
 
+#. Default: "You can not unselect the 'Items come validated' adaptation as there are still items in state 'itemcreated' or 'proposed'."
+msgid "wa_added_items_come_validated_error"
+msgstr ""
+
+#. Default: "You can not unselect the 'No proposal' adaptation as there are still items in state 'proposed'."
+msgid "wa_added_no_proposal_error"
+msgstr ""
+
+#. Default: "You can not unselect the 'No publication' adaptation as there are still items or meetings in state 'published'."
+msgid "wa_added_no_publication_error"
+msgstr ""
+
 #. Default: "Archiving"
 msgid "wa_archiving"
 msgstr "Archivando"
@@ -4715,6 +4727,22 @@ msgstr "Pre-validación de tema"
 
 #. Default: "Item pre-validation (reviewer may also prevalidate)"
 msgid "wa_pre_validation_keep_reviewer_permissions"
+msgstr ""
+
+#. Default: "You can not unselect the 'Archiving' adaptation, when selected, there is no way back."
+msgid "wa_removed_archiving_error"
+msgstr ""
+
+#. Default: "You can not unselect the 'Hide decisions during redaction' adaptation as there are still meetings in state 'decisions published'."
+msgid "wa_removed_hide_decisions_when_under_writing_error"
+msgstr ""
+
+#. Default: "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
+msgid "wa_removed_pre_validation_error"
+msgstr ""
+
+#. Default: "You can not unselect the 'Return to proposing group' adaptation as there are still items in state 'returned to proposing group'."
+msgid "wa_removed_return_to_proposing_group_error"
 msgstr ""
 
 #. Default: "Return to proposing group for corrections"

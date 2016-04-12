@@ -4626,6 +4626,18 @@ msgstr "Votes"
 msgid "votes_encoder_descr"
 msgstr "Vous pouvez choisir ici qui va effectivement encoder les votes. Plusieurs choix sont possibles."
 
+#. Default: "You can not unselect the 'Items come validated' adaptation as there are still items in state 'itemcreated' or 'proposed'."
+msgid "wa_added_items_come_validated_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Les points arrivent validés' car il reste des points dans l'état 'en création' ou 'proposé'."
+
+#. Default: "You can not unselect the 'No proposal' adaptation as there are still items in state 'proposed'."
+msgid "wa_added_no_proposal_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Sauter l'étape de proposition des points' car il reste des points dans l'état 'proposé'."
+
+#. Default: "You can not unselect the 'No publication' adaptation as there are still items or meetings in state 'published'."
+msgid "wa_added_no_publication_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Sauter l'étape de publication' car il reste des points ou des séances dans l'état 'publié'."
+
 #. Default: "Archiving"
 msgid "wa_archiving"
 msgstr "Archivage"
@@ -4677,6 +4689,22 @@ msgstr "Pré-validation des points"
 #. Default: "Item pre-validation (reviewer may also prevalidate)"
 msgid "wa_pre_validation_keep_reviewer_permissions"
 msgstr "Pré-validation des points (un validateur peut aussi pré-valider)"
+
+#. Default: "You can not unselect the 'Archiving' adaptation, when selected, there is no way back."
+msgid "wa_removed_archiving_error"
+msgstr "Vous ne pouvez pas déselctionner l'adaptation 'Archivage', une fois activé, il n'est plus possible de revenir en arrière."
+
+#. Default: "You can not unselect the 'Hide decisions during redaction' adaptation as there are still meetings in state 'decisions published'."
+msgid "wa_removed_hide_decisions_when_under_writing_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Cacher les décisions au service pendant leur rédaction par les gestionnaires de séances' car il reste des séances dans l'état 'Décisions publiées'."
+
+#. Default: "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
+msgid "wa_removed_pre_validation_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Pré-validation des points' car il reste des points dans l'état 'pré-validé'."
+
+#. Default: "You can not unselect the 'Return to proposing group' adaptation as there are still items in state 'returned to proposing group'."
+msgid "wa_removed_return_to_proposing_group_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance' car il reste des points dans l'état 'Renvoyé au groupe proposant pour corrections'."
 
 #. Default: "Return to proposing group for corrections"
 msgid "wa_return_to_proposing_group"
