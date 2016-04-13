@@ -829,6 +829,10 @@ msgstr ""
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Nummer"
 
+#. Default: "Item positive decided states"
+msgid "PloneMeeting_label_itemPositiveDecidedStates"
+msgstr ""
+
 #. Default: "Item states in wich power observers can see the items"
 msgid "PloneMeeting_label_itemPowerObserversStates"
 msgstr ""
@@ -2022,7 +2026,7 @@ msgstr ""
 msgid "classifiers_descr"
 msgstr "Eine Klassifizierung ist ähnlich wie eine Kategorie. "
 
-#. Default: "Clone to"
+#. Default: "Clone to ${meetingConfigTitle}"
 msgid "clone_to"
 msgstr ""
 
@@ -2761,6 +2765,18 @@ msgstr ""
 msgid "icon_help_accepted_but_modified"
 msgstr ""
 
+#. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_and_decided"
+msgstr ""
+
+#. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_not_decided"
+msgstr ""
+
+#. Default: "Sent from ${meetingConfigTitle}, original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_not_presented"
+msgstr ""
+
 #. Default: "Delayed"
 msgid "icon_help_delayed"
 msgstr "Verschoben"
@@ -3038,6 +3054,10 @@ msgstr "Der TOP konnte nicht verschoben werden, bitte geben Sie eine gültige Nu
 
 #. Default: "You do not have access to the item number you entered."
 msgid "item_number_not_accessible"
+msgstr ""
+
+#. Default: "Choose positive decided state for an item"
+msgid "item_positive_decided_states_descr"
 msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"

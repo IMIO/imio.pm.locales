@@ -829,6 +829,10 @@ msgstr "Etats dans lesquels un point pourra être manuellement envoyé vers les 
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Numéro"
 
+#. Default: "Item positive decided states"
+msgid "PloneMeeting_label_itemPositiveDecidedStates"
+msgstr "Etats des points décidés positivement"
+
 #. Default: "Item states in wich power observers can see the items"
 msgid "PloneMeeting_label_itemPowerObserversStates"
 msgstr "Etats des points dans lesquels les 'Super observateurs' peuvent les voir"
@@ -2019,9 +2023,9 @@ msgstr "Indenter première ligne"
 msgid "classifiers_descr"
 msgstr "Un classificateur fonctionne un peu comme une catégorie. Vous pouvez assigner un classificateur à un point presque de la même manière que vous lui assignez une catégorie. La différence réside dans le widget utilisé: le classificateur se choisit dans une popup (avec options de filtrage et de recherche) et non dans une liste déroulante comme c'est le cas pour les catégories. Si donc vous avez beaucoup de 'catégories', vous pourriez préférer l'usage de 'classificateurs' au lieu de 'catégories'."
 
-#. Default: "Clone to"
+#. Default: "Clone to ${meetingConfigTitle}"
 msgid "clone_to"
-msgstr "Envoyer vers"
+msgstr "Envoyer vers ${meetingConfigTitle}"
 
 #. Default: "Comment"
 msgid "completeness_comment"
@@ -2755,6 +2759,18 @@ msgstr "Jaune"
 msgid "icon_help_accepted_but_modified"
 msgstr "Accepté avec modifications"
 
+#. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_and_decided"
+msgstr "Reçu depuis le ${meetingConfigTitle} (${meetingDate}), le point original est \"${predecessorState}\"."
+
+#. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_not_decided"
+msgstr "Reçu depuis le ${meetingConfigTitle} (${meetingDate}), le point original est \"${predecessorState}\"."
+
+#. Default: "Sent from ${meetingConfigTitle}, original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_not_presented"
+msgstr "Reçu depuis le ${meetingConfigTitle}, le point original est \"${predecessorState}\"."
+
 #. Default: "Delayed"
 msgid "icon_help_delayed"
 msgstr "Reporté"
@@ -3030,6 +3046,10 @@ msgstr "Aucun déplacement n'a eu lieu: veuillez introduire un numéro valide."
 #. Default: "You do not have access to the item number you entered."
 msgid "item_number_not_accessible"
 msgstr "Vous n'avez pas accès au numéro de point demandé."
+
+#. Default: "Choose positive decided state for an item"
+msgid "item_positive_decided_states_descr"
+msgstr "Choisissez les états dans lesquels les points sont considérés \"décidés\" de manière positive."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_powerobservers_states_descr"

@@ -833,6 +833,10 @@ msgstr ""
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Número"
 
+#. Default: "Item positive decided states"
+msgid "PloneMeeting_label_itemPositiveDecidedStates"
+msgstr ""
+
 #. Default: "Item states in wich power observers can see the items"
 msgid "PloneMeeting_label_itemPowerObserversStates"
 msgstr "Estados de tema en los que los observadores potenciales pueden ver los temas"
@@ -2027,7 +2031,8 @@ msgstr ""
 msgid "classifiers_descr"
 msgstr "Un clasificador es un como una categoría. Puede asignar un tema casi un clasificador de la misma manera que se puede asignar una determinada categoría. La diferencia reside en el widget utilizado: el \"selector de categoría\" es una lista, mientras que el 'selector clasificador \"es un ReferenceBrowserWidget (eso es igual a una ventana emergente \"popup\" con capacidades de filtrado). Así que si usted tiene muchos «categorías», puede que prefiera utilizar \"clasificadores\", en lugar las categorías."
 
-#. Default: "Clone to"
+#. Default: "Clone to ${meetingConfigTitle}"
+#, fuzzy
 msgid "clone_to"
 msgstr "Clonar a"
 
@@ -2769,6 +2774,18 @@ msgstr ""
 msgid "icon_help_accepted_but_modified"
 msgstr ""
 
+#. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_and_decided"
+msgstr ""
+
+#. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_not_decided"
+msgstr ""
+
+#. Default: "Sent from ${meetingConfigTitle}, original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_not_presented"
+msgstr ""
+
 #. Default: "Delayed"
 msgid "icon_help_delayed"
 msgstr "Demorado"
@@ -3047,6 +3064,10 @@ msgstr "Sin mover: por favor especifique un número valido."
 
 #. Default: "You do not have access to the item number you entered."
 msgid "item_number_not_accessible"
+msgstr ""
+
+#. Default: "Choose positive decided state for an item"
+msgid "item_positive_decided_states_descr"
 msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"

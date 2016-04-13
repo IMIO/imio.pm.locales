@@ -2243,7 +2243,7 @@ msgstr ""
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
 msgstr ""
 
-#. Default: "Clone to"
+#. Default: "Clone to ${meetingConfigTitle}"
 msgid "clone_to"
 msgstr ""
 
@@ -2651,8 +2651,16 @@ msgstr ""
 msgid "item_decided_states_descr"
 msgstr ""
 
+#. Default: "Choose positive decided state for an item"
+msgid "item_positive_decided_states_descr"
+msgstr ""
+
 #. Default: "Item decided states"
 msgid "PloneMeeting_label_itemDecidedStates"
+msgstr ""
+
+#. Default: "Item positive decided states"
+msgid "PloneMeeting_label_itemPositiveDecidedStates"
 msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, it will be possible to add an advice on this item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
@@ -3811,6 +3819,18 @@ msgstr ""
 
 #. Default: "Late"
 msgid "icon_help_late"
+msgstr ""
+
+#. Default: "Sent from ${meetingConfigTitle}, original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_not_presented"
+msgstr ""
+
+#. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_and_decided"
+msgstr ""
+
+#. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_not_decided"
 msgstr ""
 
 #. Default: "Transfer"

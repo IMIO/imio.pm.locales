@@ -829,6 +829,10 @@ msgstr "States in which an item may be manually sent to selected other meeting c
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Number"
 
+#. Default: "Item positive decided states"
+msgid "PloneMeeting_label_itemPositiveDecidedStates"
+msgstr ""
+
 #. Default: "Item states in wich power observers can see the items"
 msgid "PloneMeeting_label_itemPowerObserversStates"
 msgstr "Item states in wich powerObservers can see the items"
@@ -2019,9 +2023,9 @@ msgstr "Indent first line"
 msgid "classifiers_descr"
 msgstr "A classifier is a bit like a category. You can assign an item a given classifier almost the same way you can assign it a given category. The difference resides in the widget used: the 'category chooser' is a listbox, while the 'classifier chooser' is a ReferenceBrowserWidget (=a popup with filtering capabilities). So if you have many 'categories', you may prefer to use 'classifiers' instead."
 
-#. Default: "Clone to"
+#. Default: "Clone to ${meetingConfigTitle}"
 msgid "clone_to"
-msgstr "Clone to"
+msgstr "Clone to ${meetingConfigTitle}"
 
 #. Default: "Comment"
 msgid "completeness_comment"
@@ -2755,6 +2759,18 @@ msgstr "Yellow"
 msgid "icon_help_accepted_but_modified"
 msgstr "Accepted but modified"
 
+#. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_and_decided"
+msgstr ""
+
+#. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_not_decided"
+msgstr ""
+
+#. Default: "Sent from ${meetingConfigTitle}, original item is \"${predecessorState}\"."
+msgid "icon_help_cloned_not_presented"
+msgstr ""
+
 #. Default: "Delayed"
 msgid "icon_help_delayed"
 msgstr "Delayed"
@@ -3030,6 +3046,10 @@ msgstr "No move occurred: please specify a valid number."
 #. Default: "You do not have access to the item number you entered."
 msgid "item_number_not_accessible"
 msgstr "You do not have access to the item number you entered."
+
+#. Default: "Choose positive decided state for an item"
+msgid "item_positive_decided_states_descr"
+msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_powerobservers_states_descr"
@@ -4629,15 +4649,15 @@ msgstr "You can choose here who will effectively encode the votes. Several choic
 
 #. Default: "You can not unselect the 'Items come validated' adaptation as there are still items in state 'itemcreated' or 'proposed'."
 msgid "wa_added_items_come_validated_error"
-msgstr ""
+msgstr "You can not unselect the 'Items come validated' adaptation as there are still items in state 'itemcreated' or 'proposed'."
 
 #. Default: "You can not unselect the 'No proposal' adaptation as there are still items in state 'proposed'."
 msgid "wa_added_no_proposal_error"
-msgstr ""
+msgstr "You can not unselect the 'No proposal' adaptation as there are still items in state 'proposed'."
 
 #. Default: "You can not unselect the 'No publication' adaptation as there are still items or meetings in state 'published'."
 msgid "wa_added_no_publication_error"
-msgstr ""
+msgstr "You can not unselect the 'No publication' adaptation as there are still items or meetings in state 'published'."
 
 #. Default: "Archiving"
 msgid "wa_archiving"
@@ -4693,19 +4713,19 @@ msgstr "Item pre-validation (reviewer may also prevalidate)"
 
 #. Default: "You can not unselect the 'Archiving' adaptation, when selected, there is no way back."
 msgid "wa_removed_archiving_error"
-msgstr ""
+msgstr "You can not unselect the 'Archiving' adaptation, when selected, there is no way back."
 
 #. Default: "You can not unselect the 'Hide decisions during redaction' adaptation as there are still meetings in state 'decisions published'."
 msgid "wa_removed_hide_decisions_when_under_writing_error"
-msgstr ""
+msgstr "You can not unselect the 'Hide decisions during redaction' adaptation as there are still meetings in state 'decisions published'."
 
 #. Default: "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
 msgid "wa_removed_pre_validation_error"
-msgstr ""
+msgstr "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
 
 #. Default: "You can not unselect the 'Return to proposing group' adaptation as there are still items in state 'returned to proposing group'."
 msgid "wa_removed_return_to_proposing_group_error"
-msgstr ""
+msgstr "You can not unselect the 'Return to proposing group' adaptation as there are still items in state 'returned to proposing group'."
 
 #. Default: "Return to proposing group for corrections"
 msgid "wa_return_to_proposing_group"
