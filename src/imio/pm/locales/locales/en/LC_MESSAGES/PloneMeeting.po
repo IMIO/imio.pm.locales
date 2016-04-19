@@ -831,7 +831,7 @@ msgstr "Number"
 
 #. Default: "Item positive decided states"
 msgid "PloneMeeting_label_itemPositiveDecidedStates"
-msgstr ""
+msgstr "Item positive decided states"
 
 #. Default: "Item states in wich power observers can see the items"
 msgid "PloneMeeting_label_itemPowerObserversStates"
@@ -1316,6 +1316,10 @@ msgstr "Vote values in use"
 #. Default: "Restrict the category to following groups"
 msgid "PloneMeeting_label_usingGroups"
 msgstr "Restrict the category to following groups"
+
+#. Default: "Versionate advice if it was given and item is edited"
+msgid "PloneMeeting_label_versionateAdviceIfGivenAndItemModified"
+msgstr "Versionate advice if it was given and item is edited"
 
 #. Default: "Vote condition"
 msgid "PloneMeeting_label_voteCondition"
@@ -2761,15 +2765,15 @@ msgstr "Accepted but modified"
 
 #. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
 msgid "icon_help_cloned_and_decided"
-msgstr ""
+msgstr "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
 
 #. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
 msgid "icon_help_cloned_not_decided"
-msgstr ""
+msgstr "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
 
 #. Default: "Sent from ${meetingConfigTitle}, original item is \"${predecessorState}\"."
 msgid "icon_help_cloned_not_presented"
-msgstr ""
+msgstr "Sent from ${meetingConfigTitle}, original item is \"${predecessorState}\"."
 
 #. Default: "Delayed"
 msgid "icon_help_delayed"
@@ -3049,7 +3053,7 @@ msgstr "You do not have access to the item number you entered."
 
 #. Default: "Choose positive decided state for an item"
 msgid "item_positive_decided_states_descr"
-msgstr ""
+msgstr "Choose positive decided state for an item"
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_powerobservers_states_descr"
@@ -4578,6 +4582,10 @@ msgstr "Preferences"
 #. Default: "Users"
 msgid "users"
 msgstr "Users"
+
+#. Default: "When an advice is 'given' and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically versioned. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to versionate advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is 'itemcreated', a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is versioned when the item is edited if necessary (so if it was not already versioned since last advice edition).  If you have a specific state 'waiting advice' where proposing group is not able to edit the item, this box may be left unchecked."
+msgid "versionate_advice_if_given_and_item_modified_descr"
+msgstr "When an advice is 'given' and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically versioned. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to versionate advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is 'itemcreated', a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is versioned when the item is edited if necessary (so if it was not already versioned since last advice edition).  If you have a specific state 'waiting advice' where proposing group is not able to edit the item, this box may be left unchecked."
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name 'item'). If it returns False, no vote may occur on the item."
 msgid "vote_condition_descr"
