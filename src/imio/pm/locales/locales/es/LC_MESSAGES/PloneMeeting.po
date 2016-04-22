@@ -2822,6 +2822,10 @@ msgstr "Negado"
 msgid "icon_help_returned_to_proposing_group"
 msgstr "Volver a grupo proponente para correcciones"
 
+#. Default: "Waiting advices"
+msgid "icon_help_waiting_advices"
+msgstr ""
+
 #. Default: "This item is down the workflow"
 msgid "icon_help_wf_down"
 msgstr ""
@@ -4774,9 +4778,17 @@ msgstr ""
 msgid "wa_removed_return_to_proposing_group_error"
 msgstr ""
 
+#. Default: "You can not unselect the 'Wait advices' adaptation as there are still items in state 'wait advices'."
+msgid "wa_removed_waiting_advices_error"
+msgstr ""
+
 #. Default: "Return to proposing group for corrections"
 msgid "wa_return_to_proposing_group"
 msgstr "Volver al grupo proponentes para correcciones"
+
+#. Default: "Wait advices"
+msgid "wa_waiting_advices"
+msgstr ""
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"

@@ -380,6 +380,14 @@ msgstr "Volver a 'Rechazado'"
 msgid "backToValidated"
 msgstr "Remover desde la reunión"
 
+#. Default: "Back to 'prevalidated'"
+msgid "backTo_prevalidated_from_waiting_advices"
+msgstr ""
+
+#. Default: "Back to 'proposed'"
+msgid "backTo_proposed_from_waiting_advices"
+msgstr ""
+
 #. Default: "Base View"
 msgid "base_view"
 msgstr "Vista Base"
@@ -714,6 +722,18 @@ msgstr "Validado"
 #. Default: "Votes"
 msgid "votes"
 msgstr "Votos"
+
+#. Default: "Ask advices"
+msgid "wait_advices_from_prevalidated"
+msgstr ""
+
+#. Default: "Ask advices"
+msgid "wait_advices_from_proposed"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "waiting_advices"
+msgstr ""
 
 #. Default: "Workflows"
 msgid "workflow"

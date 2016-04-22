@@ -2807,6 +2807,10 @@ msgstr "Refused"
 msgid "icon_help_returned_to_proposing_group"
 msgstr "Returned to proposing group for corrections"
 
+#. Default: "Waiting advices"
+msgid "icon_help_waiting_advices"
+msgstr ""
+
 #. Default: "This item is down the workflow"
 msgid "icon_help_wf_down"
 msgstr "This item is down the workflow"
@@ -4735,9 +4739,17 @@ msgstr "You can not unselect the 'Prevalidation' adaptation as there are still i
 msgid "wa_removed_return_to_proposing_group_error"
 msgstr "You can not unselect the 'Return to proposing group' adaptation as there are still items in state 'returned to proposing group'."
 
+#. Default: "You can not unselect the 'Wait advices' adaptation as there are still items in state 'wait advices'."
+msgid "wa_removed_waiting_advices_error"
+msgstr ""
+
 #. Default: "Return to proposing group for corrections"
 msgid "wa_return_to_proposing_group"
 msgstr "Return to proposing group for corrections"
+
+#. Default: "Wait advices"
+msgid "wa_waiting_advices"
+msgstr ""
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"

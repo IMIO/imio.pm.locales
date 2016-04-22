@@ -374,6 +374,14 @@ msgstr "Remettre en 'Refusé'"
 msgid "backToValidated"
 msgstr "Retirer de la séance"
 
+#. Default: "Back to 'prevalidated'"
+msgid "backTo_prevalidated_from_waiting_advices"
+msgstr "Remettre en 'pré-validé'"
+
+#. Default: "Back to 'proposed'"
+msgid "backTo_proposed_from_waiting_advices"
+msgstr "Remettre en 'proposé'"
+
 #. Default: "Base View"
 msgid "base_view"
 msgstr "Vue"
@@ -706,6 +714,18 @@ msgstr "Validé"
 #. Default: "Votes"
 msgid "votes"
 msgstr "Votes"
+
+#. Default: "Ask advices"
+msgid "wait_advices_from_prevalidated"
+msgstr "Demander les avis"
+
+#. Default: "Ask advices"
+msgid "wait_advices_from_proposed"
+msgstr "Demander les avis"
+
+#. Default: "Waiting advices"
+msgid "waiting_advices"
+msgstr "En attente des avis"
 
 #. Default: "Workflows"
 msgid "workflow"

@@ -2807,6 +2807,10 @@ msgstr "Refusé"
 msgid "icon_help_returned_to_proposing_group"
 msgstr "Renvoyé au groupe proposant pour corrections"
 
+#. Default: "Waiting advices"
+msgid "icon_help_waiting_advices"
+msgstr "En attente des avis"
+
 #. Default: "This item is down the workflow"
 msgid "icon_help_wf_down"
 msgstr "Ce point redescend le workflow"
@@ -4734,9 +4738,17 @@ msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Pré-validation des po
 msgid "wa_removed_return_to_proposing_group_error"
 msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance' car il reste des points dans l'état 'Renvoyé au groupe proposant pour corrections'."
 
+#. Default: "You can not unselect the 'Wait advices' adaptation as there are still items in state 'wait advices'."
+msgid "wa_removed_waiting_advices_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Etat supplémentaire pour demander les avis' car il reste des points dans l'état 'en attente des avis'."
+
 #. Default: "Return to proposing group for corrections"
 msgid "wa_return_to_proposing_group"
 msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance"
+
+#. Default: "Wait advices"
+msgid "wa_waiting_advices"
+msgstr "Etat supplémentaire pour demander les avis"
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"
