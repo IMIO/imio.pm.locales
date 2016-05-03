@@ -67,6 +67,10 @@ msgstr ""
 msgid "Advice type"
 msgstr "Tipo de Consejo"
 
+#. Default: "An advice on this item still needs to be given respecting given delay."
+msgid "An advice on this item still needs to be given respecting given delay."
+msgstr ""
+
 #. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
 msgid "Annexes preview must be enabled to launch complete annexes conversion process."
 msgstr "Vista previa de Anexos desde ser habilitada para lanzar procesos de conversión de anexos completos."
@@ -1499,6 +1503,10 @@ msgstr "El elemento ha siso activado."
 msgid "add_annex"
 msgstr "Agregar un anexo"
 
+#. Default: "Add an advice"
+msgid "add_new_meetingadvice"
+msgstr ""
+
 #. Default: "Add a new one"
 msgid "add_object"
 msgstr "Agregar un nuevo"
@@ -1528,10 +1536,6 @@ msgstr "Usted puede acceder a este tema aquí: ${objectUrl}."
 #. Default: "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 msgid "adviceToGive_mail_subject"
 msgstr "${meetingConfigTitle} - Su consejo es requerido en el tema '${itemTitle}'."
-
-#. Default: "Add an advice"
-msgid "advice_add"
-msgstr "Agregar un consejo"
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"

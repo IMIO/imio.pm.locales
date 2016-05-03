@@ -64,6 +64,10 @@ msgstr ""
 msgid "Advice type"
 msgstr ""
 
+#. Default: "An advice on this item still needs to be given respecting given delay."
+msgid "An advice on this item still needs to be given respecting given delay."
+msgstr ""
+
 #. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
 msgid "Annexes preview must be enabled to launch complete annexes conversion process."
 msgstr ""
@@ -1496,6 +1500,10 @@ msgstr ""
 msgid "add_annex"
 msgstr "Voeg een bijlage toe"
 
+#. Default: "Add an advice"
+msgid "add_new_meetingadvice"
+msgstr ""
+
 #. Default: "Add a new one"
 msgid "add_object"
 msgstr "Een nieuwe gebruiker toevoegen"
@@ -1523,10 +1531,6 @@ msgstr ""
 #. Default: "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 msgid "adviceToGive_mail_subject"
 msgstr ""
-
-#. Default: "Add an advice"
-msgid "advice_add"
-msgstr "Advies toevoegen"
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"

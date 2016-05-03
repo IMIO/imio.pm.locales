@@ -63,6 +63,10 @@ msgstr "Référence"
 msgid "Advice type"
 msgstr "Type d'avis"
 
+#. Default: "An advice on this item still needs to be given respecting given delay."
+msgid "An advice on this item still needs to be given respecting given delay."
+msgstr "Un avis doit encore être rendu sur ce point en respectant le délai imparti."
+
 #. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
 msgid "Annexes preview must be enabled to launch complete annexes conversion process."
 msgstr "N'effectuez la conversion des annexes que si la prévisualisation des annexes est activée."
@@ -1494,6 +1498,10 @@ msgstr "L'élément a été activé."
 msgid "add_annex"
 msgstr "Ajouter une annexe"
 
+#. Default: "Add an advice"
+msgid "add_new_meetingadvice"
+msgstr "Ajouter un avis"
+
 #. Default: "Add a new one"
 msgid "add_object"
 msgstr "En ajouter un(e)"
@@ -1521,10 +1529,6 @@ msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}
 #. Default: "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 msgid "adviceToGive_mail_subject"
 msgstr "${meetingConfigTitle} - Votre avis est demandé sur le point '${itemTitle}'."
-
-#. Default: "Add an advice"
-msgid "advice_add"
-msgstr "Ajouter un avis"
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
