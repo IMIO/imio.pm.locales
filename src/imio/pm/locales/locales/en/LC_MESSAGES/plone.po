@@ -80,6 +80,11 @@ msgstr "External application"
 msgid "Give Advice"
 msgstr "Give Advice"
 
+# plone.app.querystring
+#. Default: "Linked meeting date (used for items)"
+msgid "Linked meeting date"
+msgstr ""
+
 # Plone syntax errors
 #. Default: "Login failed"
 msgid "Login failed"
@@ -102,7 +107,8 @@ msgid "Meeting Workflow"
 msgstr "Meeting Workflow"
 
 # plone.app.querystring
-#. Default: "Meeting date"
+#. Default: "Meeting date (used for meetings)"
+#, fuzzy
 msgid "Meeting date"
 msgstr "Meeting date"
 
@@ -219,6 +225,11 @@ msgstr "PloneMeeting 'folder' view"
 #. Default: "Document template"
 msgid "PodTemplate"
 msgstr "Document template"
+
+# plone.app.querystring
+#. Default: "Previous review state"
+msgid "Previous review state"
+msgstr ""
 
 #. Default: "state"
 msgid "State"

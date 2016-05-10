@@ -81,6 +81,11 @@ msgstr "Aplicación externa"
 msgid "Give Advice"
 msgstr "Dar Consejo"
 
+# plone.app.querystring
+#. Default: "Linked meeting date (used for items)"
+msgid "Linked meeting date"
+msgstr ""
+
 # Plone syntax errors
 #. Default: "Login failed"
 msgid "Login failed"
@@ -103,7 +108,7 @@ msgid "Meeting Workflow"
 msgstr "Flujo de trabajo de Reunión"
 
 # plone.app.querystring
-#. Default: "Meeting date"
+#. Default: "Meeting date (used for meetings)"
 msgid "Meeting date"
 msgstr ""
 
@@ -220,6 +225,11 @@ msgstr "Vista de 'carpeta' PloneMeeting"
 #. Default: "Document template"
 msgid "PodTemplate"
 msgstr "Plantilla de documento"
+
+# plone.app.querystring
+#. Default: "Previous review state"
+msgid "Previous review state"
+msgstr ""
 
 #. Default: "state"
 msgid "State"

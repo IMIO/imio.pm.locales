@@ -77,6 +77,11 @@ msgstr "Application externe"
 msgid "Give Advice"
 msgstr "Rendre l'avis"
 
+# plone.app.querystring
+#. Default: "Linked meeting date (used for items)"
+msgid "Linked meeting date"
+msgstr "Date de séance liée (utilisé pour les points)"
+
 # Plone syntax errors
 #. Default: "Login failed"
 msgid "Login failed"
@@ -99,9 +104,9 @@ msgid "Meeting Workflow"
 msgstr "Workflow Séance"
 
 # plone.app.querystring
-#. Default: "Meeting date"
+#. Default: "Meeting date (used for meetings)"
 msgid "Meeting date"
-msgstr "Date de la séance"
+msgstr "Date de la séance (utilisé pour les séances)"
 
 #. Default: "Meeting Archive Observer"
 msgid "MeetingArchiveObserver"
@@ -216,6 +221,11 @@ msgstr "Vue PloneMeeting de type 'dossier'"
 #. Default: "Document template"
 msgid "PodTemplate"
 msgstr "Canevas de document"
+
+# plone.app.querystring
+#. Default: "Previous review state"
+msgid "Previous review state"
+msgstr "État précédent"
 
 #. Default: "state"
 msgid "State"
