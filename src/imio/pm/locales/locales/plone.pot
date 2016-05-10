@@ -730,6 +730,22 @@ msgstr ""
 msgid "waiting_advices"
 msgstr ""
 
+#. Default: "Waiting advices"
+msgid "itemcreated_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "proposed_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "prevalidated_waiting_advices"
+msgstr ""
+
+#. Default: "Ask advices"
+msgid "wait_advices_from_itemcreated"
+msgstr ""
+
 #. Default: "Ask advices"
 msgid "wait_advices_from_proposed"
 msgstr ""
@@ -738,10 +754,14 @@ msgstr ""
 msgid "wait_advices_from_prevalidated"
 msgstr ""
 
-#. Default: "Back to 'prevalidated'"
-msgid "backTo_prevalidated_from_waiting_advices"
+#. Default: "Back to 'itemcreated'"
+msgid "backTo_itemcreated_from_waiting_advices"
 msgstr ""
 
 #. Default: "Back to 'proposed'"
 msgid "backTo_proposed_from_waiting_advices"
+msgstr ""
+
+#. Default: "Back to 'prevalidated'"
+msgid "backTo_prevalidated_from_waiting_advices"
 msgstr ""
