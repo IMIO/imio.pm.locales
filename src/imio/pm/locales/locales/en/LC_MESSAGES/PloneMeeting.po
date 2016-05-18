@@ -65,7 +65,7 @@ msgstr "Advice type"
 
 #. Default: "An advice on this item still needs to be given respecting given delay."
 msgid "An advice on this item still needs to be given respecting given delay."
-msgstr ""
+msgstr "An advice on this item still needs to be given respecting given delay."
 
 #. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
 msgid "Annexes preview must be enabled to launch complete annexes conversion process."
@@ -1500,7 +1500,7 @@ msgstr "Add an annex"
 
 #. Default: "Add an advice"
 msgid "add_new_meetingadvice"
-msgstr ""
+msgstr "Add an advice"
 
 #. Default: "Add a new one"
 msgid "add_object"
@@ -1592,7 +1592,7 @@ msgstr "Optional"
 
 #. Default: "No advice to ask"
 msgid "advice_required_to_ask_advices"
-msgstr ""
+msgstr "No advice to ask"
 
 #. Default: "Choose here the style for the icons that represent advices."
 msgid "advice_style_descr"
@@ -2817,7 +2817,19 @@ msgstr "Returned to proposing group for corrections"
 
 #. Default: "Waiting advices"
 msgid "icon_help_waiting_advices"
-msgstr ""
+msgstr "Waiting advices"
+
+#. Default: "Waiting advices (Item created)"
+msgid "icon_help_waiting_advices_from_itemcreated"
+msgstr "Waiting advices (Item created)"
+
+#. Default: "Waiting advices (Prevalidated)"
+msgid "icon_help_waiting_advices_from_prevalidated"
+msgstr "Waiting advices (Prevalidated)"
+
+#. Default: "Waiting advices (Proposed)"
+msgid "icon_help_waiting_advices_from_proposed"
+msgstr "Waiting advices (Proposed)"
 
 #. Default: "This item is down the workflow"
 msgid "icon_help_wf_down"
@@ -4749,7 +4761,7 @@ msgstr "You can not unselect the 'Return to proposing group' adaptation as there
 
 #. Default: "You can not unselect the 'Wait advices' adaptation as there are still items in state 'wait advices'."
 msgid "wa_removed_waiting_advices_error"
-msgstr ""
+msgstr "You can not unselect the 'Wait advices' adaptation as there are still items in state 'wait advices'."
 
 #. Default: "Return to proposing group for corrections"
 msgid "wa_return_to_proposing_group"
@@ -4757,7 +4769,7 @@ msgstr "Return to proposing group for corrections"
 
 #. Default: "Wait advices"
 msgid "wa_waiting_advices"
-msgstr ""
+msgstr "Wait advices"
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"

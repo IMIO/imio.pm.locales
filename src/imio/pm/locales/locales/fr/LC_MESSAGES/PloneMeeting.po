@@ -1592,7 +1592,7 @@ msgstr "Optionnel"
 
 #. Default: "No advice to ask"
 msgid "advice_required_to_ask_advices"
-msgstr "Aucun avis à demander (ou les avis sélectionnés ne peuvent pas être demandés maintenant)"
+msgstr "Aucun avis à demander (ou les avis sélectionnés ne peuvent pas être demandés maintenant, il peut être nécessaire d'utiliser l'action \"Demander à nouveau\" si nécessaire.)"
 
 #. Default: "Choose here the style for the icons that represent advices."
 msgid "advice_style_descr"
@@ -2818,6 +2818,18 @@ msgstr "Renvoyé au groupe proposant pour corrections"
 #. Default: "Waiting advices"
 msgid "icon_help_waiting_advices"
 msgstr "En attente des avis"
+
+#. Default: "Waiting advices (Item created)"
+msgid "icon_help_waiting_advices_from_itemcreated"
+msgstr "En attente des avis (En création)"
+
+#. Default: "Waiting advices (Prevalidated)"
+msgid "icon_help_waiting_advices_from_prevalidated"
+msgstr "En attente des avis (Pré-validé)"
+
+#. Default: "Waiting advices (Proposed)"
+msgid "icon_help_waiting_advices_from_proposed"
+msgstr "En attente des avis (Proposé)"
 
 #. Default: "This item is down the workflow"
 msgid "icon_help_wf_down"
