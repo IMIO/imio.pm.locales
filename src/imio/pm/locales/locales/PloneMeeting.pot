@@ -404,20 +404,16 @@ msgstr ""
 msgid "History of delay changes"
 msgstr ""
 
-#. Default: "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
-msgid "change_emergency_comment"
-msgstr ""
-
-#. Default: "Comment"
-msgid "emergency_comment"
-msgstr ""
-
 #. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
 msgid "change_completeness_comment"
 msgstr ""
 
 #. Default: "Comment"
-msgid "completeness_comment"
+msgid "Comment"
+msgstr ""
+
+#. Default: "Manage item emergency"
+msgid "Manage item emergency"
 msgstr ""
 
 #. Default: "Comment"
@@ -4840,4 +4836,8 @@ msgstr ""
 
 #. Default: "No advice to ask"
 msgid "advice_required_to_ask_advices"
+msgstr ""
+
+#. Default: "You are about to change emergency for this item to <span style='font-weight: bold;'>${new_emergency_value}</span>, please enter a comment."
+msgid "change_emergency_descr"
 msgstr ""

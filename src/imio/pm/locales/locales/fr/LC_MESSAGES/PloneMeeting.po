@@ -135,6 +135,10 @@ msgstr "Classificateurs"
 msgid "Close"
 msgstr "Fermer"
 
+#. Default: "Comment"
+msgid "Comment"
+msgstr "Commentaire"
+
 #. Default: "Copy PloneMeeting"
 msgid "Copy PloneMeeting"
 msgstr "Copier points"
@@ -314,6 +318,10 @@ msgstr "Gérer le tableau de bord"
 #. Default: "Manage item assembly"
 msgid "Manage item assembly"
 msgstr "Gestion de l'assemblée spécifique pour les points"
+
+#. Default: "Manage item emergency"
+msgid "Manage item emergency"
+msgstr "Changer l'urgence d'un point"
 
 #. Default: "Manage item signatures"
 msgid "Manage item signatures"
@@ -1963,9 +1971,9 @@ msgstr "Définissez ici les signatures certifiées conformes qui pourront être 
 msgid "change_completeness_comment"
 msgstr "Vous êtes sur le point de changer la complétude de ce point vers \"${completeness_value}\", vous pouvez ajouter un commentaire si nécessaire."
 
-#. Default: "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
-msgid "change_emergency_comment"
-msgstr "Vous êtes sur le point de changer l'urgence de ce point en \"${emergency_value}\", vous pouvez ajouter un commentaire si nécessaire."
+#. Default: "You are about to change emergency for this item to <span style='font-weight: bold;'>${new_emergency_value}</span>, please enter a comment."
+msgid "change_emergency_descr"
+msgstr "Vous êtes sur le point de changer l'urgence de ce point en <span style='font-weight: bold;'>${new_emergency_value}</span>, veuillez entrer un commentaire."
 
 #. Default: "Clean templates"
 msgid "check_pod_template_clean"
@@ -2038,10 +2046,6 @@ msgstr "Un classificateur fonctionne un peu comme une catégorie. Vous pouvez as
 #. Default: "Clone to ${meetingConfigTitle}"
 msgid "clone_to"
 msgstr "Envoyer vers ${meetingConfigTitle}"
-
-#. Default: "Comment"
-msgid "completeness_comment"
-msgstr "Commentaire"
 
 #. Default: "Complete"
 msgid "completeness_complete"
@@ -2299,10 +2303,6 @@ msgstr "Urgence acceptée"
 #. Default: "Emergency asked"
 msgid "emergency_asked"
 msgstr "Urgence souhaitée"
-
-#. Default: "Comment"
-msgid "emergency_comment"
-msgstr "Commentaire"
 
 #. Default: "Emergency refused"
 msgid "emergency_refused"

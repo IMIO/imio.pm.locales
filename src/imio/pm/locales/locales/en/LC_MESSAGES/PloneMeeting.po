@@ -135,6 +135,10 @@ msgstr "Item classifiers"
 msgid "Close"
 msgstr "Close"
 
+#. Default: "Comment"
+msgid "Comment"
+msgstr ""
+
 #. Default: "Copy PloneMeeting"
 msgid "Copy PloneMeeting"
 msgstr "Copy PloneMeeting"
@@ -314,6 +318,10 @@ msgstr "Manage dashboard"
 #. Default: "Manage item assembly"
 msgid "Manage item assembly"
 msgstr "Manage item assembly"
+
+#. Default: "Manage item emergency"
+msgid "Manage item emergency"
+msgstr ""
 
 #. Default: "Manage item signatures"
 msgid "Manage item signatures"
@@ -1963,9 +1971,9 @@ msgstr "Define here the signatures that will be used on templates as certified s
 msgid "change_completeness_comment"
 msgstr "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
 
-#. Default: "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
-msgid "change_emergency_comment"
-msgstr "You are about to set emergency to \"${emergency_value}\", you can add a comment if necessary."
+#. Default: "You are about to change emergency for this item to <span style='font-weight: bold;'>${new_emergency_value}</span>, please enter a comment."
+msgid "change_emergency_descr"
+msgstr ""
 
 #. Default: "Clean templates"
 msgid "check_pod_template_clean"
@@ -2038,10 +2046,6 @@ msgstr "A classifier is a bit like a category. You can assign an item a given cl
 #. Default: "Clone to ${meetingConfigTitle}"
 msgid "clone_to"
 msgstr "Clone to ${meetingConfigTitle}"
-
-#. Default: "Comment"
-msgid "completeness_comment"
-msgstr "Comment"
 
 #. Default: "Complete"
 msgid "completeness_complete"
@@ -2299,10 +2303,6 @@ msgstr "Emergency accepted"
 #. Default: "Emergency asked"
 msgid "emergency_asked"
 msgstr "Emergency asked"
-
-#. Default: "Comment"
-msgid "emergency_comment"
-msgstr "Comment"
 
 #. Default: "Emergency refused"
 msgid "emergency_refused"
