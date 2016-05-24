@@ -137,7 +137,7 @@ msgstr "Close"
 
 #. Default: "Comment"
 msgid "Comment"
-msgstr ""
+msgstr "Commentaire"
 
 #. Default: "Copy PloneMeeting"
 msgid "Copy PloneMeeting"
@@ -321,7 +321,7 @@ msgstr "Manage item assembly"
 
 #. Default: "Manage item emergency"
 msgid "Manage item emergency"
-msgstr ""
+msgstr "Manage item emergency"
 
 #. Default: "Manage item signatures"
 msgid "Manage item signatures"
@@ -1973,7 +1973,7 @@ msgstr "You are about to set completeness to \"${completeness_value}\", you can 
 
 #. Default: "You are about to change emergency for this item to <span style='font-weight: bold;'>${new_emergency_value}</span>, please enter a comment."
 msgid "change_emergency_descr"
-msgstr ""
+msgstr "You are about to change emergency for this item to <span style='font-weight: bold;'>${new_emergency_value}</span>, please enter a comment."
 
 #. Default: "Clean templates"
 msgid "check_pod_template_clean"
@@ -4770,6 +4770,10 @@ msgstr "Return to proposing group for corrections"
 #. Default: "Wait advices"
 msgid "wa_waiting_advices"
 msgstr "Wait advices"
+
+#. Default: "Please wait..."
+msgid "wait_msg"
+msgstr "Please wait..."
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"
