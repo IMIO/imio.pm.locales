@@ -737,6 +737,10 @@ msgstr "Holidays"
 msgid "PloneMeeting_label_insertingMethodsOnAddItem"
 msgstr "Sort order(s) to apply when adding an item to a meeting"
 
+#. Default: "Internal notes"
+msgid "PloneMeeting_label_internalNotes"
+msgstr "Internal notes"
+
 #. Default: "Confidential ?"
 msgid "PloneMeeting_label_isConfidential"
 msgstr "Confidential ?"
@@ -2863,6 +2867,10 @@ msgstr "You can not select 'Follow to discuss order' inserting method as the fie
 msgid "inserting_methods_on_add_item_descr"
 msgstr "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
 
+#. Default: "This field is only accessible to members of the proposing group."
+msgid "internal_notes_descr"
+msgstr "This field is only accessible to members of the proposing group."
+
 #. Default: "Absent?"
 msgid "is_absent"
 msgstr "Absent?"
@@ -3711,6 +3719,10 @@ msgstr "Attributes 'signatures' and 'signatories' can't be used together."
 #. Default: "No subtypes defined."
 msgid "no_sub_types_defined"
 msgstr "No subtypes defined."
+
+#. Default: "No user was found in this group."
+msgid "no_users_in_group"
+msgstr "No user was found in this group."
 
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"

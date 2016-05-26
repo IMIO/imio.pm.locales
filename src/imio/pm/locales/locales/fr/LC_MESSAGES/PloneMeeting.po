@@ -737,6 +737,10 @@ msgstr "Jours fériés"
 msgid "PloneMeeting_label_insertingMethodsOnAddItem"
 msgstr "Méthode(s) de tri lors de l'ajout d'un point dans une séance"
 
+#. Default: "Internal notes"
+msgid "PloneMeeting_label_internalNotes"
+msgstr "Notes internes"
+
 #. Default: "Confidential ?"
 msgid "PloneMeeting_label_isConfidential"
 msgstr "Confidentielle?"
@@ -2863,6 +2867,10 @@ msgstr "Vous ne pouvez pas sélectionner 'Par point à discuter (à discuter et 
 msgid "inserting_methods_on_add_item_descr"
 msgstr "Permet de définir les méthodes successivement appliquées lors de l'insertion d'un point dans une séance."
 
+#. Default: "This field is only accessible to members of the proposing group."
+msgid "internal_notes_descr"
+msgstr "Ce champ n'est accessible qu'aux membres du groupe proposant."
+
 #. Default: "Absent?"
 msgid "is_absent"
 msgstr "Absent?"
@@ -3710,6 +3718,10 @@ msgstr "Les attributs 'signatures' et 'signataires' ne peuvent être utilisés e
 #. Default: "No subtypes defined."
 msgid "no_sub_types_defined"
 msgstr "Aucun sous-type n'a été défini."
+
+#. Default: "No user was found in this group."
+msgid "no_users_in_group"
+msgstr "Ce groupe ne contient aucun utilisateur."
 
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
