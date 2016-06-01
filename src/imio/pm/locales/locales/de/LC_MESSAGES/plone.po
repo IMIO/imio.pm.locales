@@ -324,6 +324,11 @@ msgstr "Korrigieren"
 msgid "backToAdviceInitialState"
 msgstr ""
 
+# XXX backward compatibility until ticket # is managed
+#. Default: "Back to 'Advice Under Edit'"
+msgid "backToAdviceUnderEdit"
+msgstr ""
+
 #. Default: "Back to 'Closed'"
 #, fuzzy
 msgid "backToClosed"

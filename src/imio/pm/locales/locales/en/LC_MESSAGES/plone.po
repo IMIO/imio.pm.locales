@@ -324,6 +324,11 @@ msgstr "Back to 'Accepted'"
 msgid "backToAdviceInitialState"
 msgstr ""
 
+# XXX backward compatibility until ticket # is managed
+#. Default: "Back to 'Advice Under Edit'"
+msgid "backToAdviceUnderEdit"
+msgstr ""
+
 #. Default: "Back to 'Closed'"
 msgid "backToClosed"
 msgstr "Back to 'Closed'"

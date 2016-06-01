@@ -320,6 +320,11 @@ msgstr "Remettre en 'Accepté'"
 msgid "backToAdviceInitialState"
 msgstr "Remettre en 'Avis en cours de rédaction'"
 
+# XXX backward compatibility until ticket # is managed
+#. Default: "Back to 'Advice Under Edit'"
+msgid "backToAdviceUnderEdit"
+msgstr "Remettre en 'Avis en cours de rédaction'"
+
 #. Default: "Back to 'Closed'"
 msgid "backToClosed"
 msgstr "Remettre en 'Clôturé'"
