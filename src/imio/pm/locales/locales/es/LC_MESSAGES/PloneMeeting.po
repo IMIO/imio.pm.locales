@@ -3632,6 +3632,10 @@ msgstr "Coloración dependiendo de la modificación"
 msgid "move_item_down"
 msgstr "Mover el tema abajo"
 
+#. Default: "Move item to given position"
+msgid "move_item_to_given_position"
+msgstr ""
+
 #. Default: "Move the item up"
 msgid "move_item_up"
 msgstr "Mover el tema arriba"
@@ -4730,15 +4734,15 @@ msgstr "Votos"
 msgid "votes_encoder_descr"
 msgstr "Usted puede elegir aquí quien efectivamente escribe los votos. Varias opciones son posibles."
 
-#. Default: "You can not unselect the 'Items come validated' adaptation as there are still items in state 'itemcreated' or 'proposed'."
+#. Default: "You can not select the 'Items come validated' adaptation as there are still items in state 'itemcreated' or 'proposed'."
 msgid "wa_added_items_come_validated_error"
 msgstr ""
 
-#. Default: "You can not unselect the 'No proposal' adaptation as there are still items in state 'proposed'."
+#. Default: "You can not select the 'No proposal' adaptation as there are still items in state 'proposed'."
 msgid "wa_added_no_proposal_error"
 msgstr ""
 
-#. Default: "You can not unselect the 'No publication' adaptation as there are still items or meetings in state 'published'."
+#. Default: "You can not select the 'No publication' adaptation as there are still items or meetings in state 'published'."
 msgid "wa_added_no_publication_error"
 msgstr ""
 
