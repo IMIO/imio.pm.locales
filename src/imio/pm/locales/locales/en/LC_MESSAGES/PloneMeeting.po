@@ -1063,9 +1063,13 @@ msgstr "Correspondences while sent to other meeting configs"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableTo"
 msgstr "Other meeting configs clonable to"
 
-#. Default: "Present in the next meeting accepting items (in state 'created' or not)"
+#. Default: "Present in the next meeting accepting items"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableToEmergency"
-msgstr "Present in the next meeting accepting items (in state 'created' or not)"
+msgstr "Present in the next meeting accepting items"
+
+#. Default: "Leave unchecked if item is public"
+msgid "PloneMeeting_label_otherMeetingConfigsClonableToPrivacy"
+msgstr "Leave unchecked if item is public"
 
 #. Default: "Place"
 msgid "PloneMeeting_label_place"
@@ -1396,6 +1400,10 @@ msgstr "Recurring items"
 #. Default: "Searches"
 msgid "Searches"
 msgstr "Searches"
+
+#. Default: "Secret?"
+msgid "Secret while presenting in other MC?"
+msgstr "Secret?"
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"

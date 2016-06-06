@@ -1068,8 +1068,12 @@ msgstr ""
 msgid "PloneMeeting_label_otherMeetingConfigsClonableTo"
 msgstr "Otras configuraciones de reuniones clonables a"
 
-#. Default: "Present in the next meeting accepting items (in state 'created' or not)"
+#. Default: "Present in the next meeting accepting items"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableToEmergency"
+msgstr ""
+
+#. Default: "Leave unchecked if item is public"
+msgid "PloneMeeting_label_otherMeetingConfigsClonableToPrivacy"
 msgstr ""
 
 #. Default: "Place"
@@ -1400,6 +1404,10 @@ msgstr "Temas predefinidos"
 
 #. Default: "Searches"
 msgid "Searches"
+msgstr ""
+
+#. Default: "Secret?"
+msgid "Secret while presenting in other MC?"
 msgstr ""
 
 #. Default: "Select in the list the type of item you want to add"

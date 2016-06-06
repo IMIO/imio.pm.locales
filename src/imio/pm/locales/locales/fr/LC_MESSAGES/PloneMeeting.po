@@ -1063,9 +1063,13 @@ msgstr "Correspondances lors de l'envoi vers un autre type de séance"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableTo"
 msgstr "A envoyer vers"
 
-#. Default: "Present in the next meeting accepting items (in state 'created' or not)"
+#. Default: "Present in the next meeting accepting items"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableToEmergency"
-msgstr "Présenter dans la prochaine séance acceptant des points ('en création' ou non)"
+msgstr "Présenter dans la prochaine séance acceptant des points"
+
+#. Default: "Leave unchecked if item is public"
+msgid "PloneMeeting_label_otherMeetingConfigsClonableToPrivacy"
+msgstr "Non coché = séance publique"
 
 #. Default: "Place"
 msgid "PloneMeeting_label_place"
@@ -1396,6 +1400,10 @@ msgstr "Points récurrents"
 #. Default: "Searches"
 msgid "Searches"
 msgstr "Recherches"
+
+#. Default: "Secret?"
+msgid "Secret while presenting in other MC?"
+msgstr "Huis clos?"
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
