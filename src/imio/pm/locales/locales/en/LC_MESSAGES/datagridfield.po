@@ -74,6 +74,10 @@ msgstr "Enter a short label that will be displayed in the application.  This wil
 msgid "Enter an internal identifier, use only lowercase letters."
 msgstr "Enter an internal identifier, use only lowercase letters."
 
+#. Default: "Enter valid date to, use following format : YYYY/MM/DD, leave empty if it is the current group in charge.  If many lines, enter from older to newer validity."
+msgid "Enter valid date to, use following format : YYYY/MM/DD, leave empty if it is the current group in charge.  If many lines, enter from older to newer validity."
+msgstr "Enter valid date to, use following format : YYYY/MM/DD, leave empty if it is the current group in charge.  If many lines, enter from older to newer validity."
+
 #. Default: "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgid "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgstr "Encodez la date depuis laquelle la signature sera valide, utilisez le format AAAA/MM/JJ, laissez le champ vide pour que la signature soit toujours valide."
@@ -85,6 +89,14 @@ msgstr "Encodez la date jusqu'à laquelle la signature sera valide, utilisez le 
 #. Default: "Function of the signatory (for example 'Mayor')."
 msgid "Function of the signatory (for example 'Mayor')."
 msgstr "Fonction du signataire (par exemple 'Le Bourgmestre')."
+
+#. Default: "Valid to (included)"
+msgid "Group in charge date to (included)"
+msgstr "Valid to (included)"
+
+#. Default: "Group in charge"
+msgid "Group in charge id"
+msgstr "Group in charge"
 
 #. Default: "Date"
 msgid "Holiday date"
@@ -166,6 +178,10 @@ msgstr "Rule activated for item created from"
 msgid "Rule activated for item created until"
 msgstr "Rule activated for item created until"
 
+#. Default: "Select the group that is in charge of the current group."
+msgid "Select the group that is in charge of the current group."
+msgstr "Select the group that is in charge of the current group."
+
 #. Default: "Select the inserting method, methods will be applied in given order, you can not select twice same inserting method."
 msgid "Select the inserting method, methods will be applied in given order, you can not select twice same inserting method."
 msgstr "Select the inserting method, methods will be applied in given order, you can not select twice same inserting method."
@@ -228,7 +244,7 @@ msgstr " "
 
 #. Default: "While sent, the new item is in the workflow initial state, if it was sent automatically (depending on states selected in field 'States in which an item will be automatically sent to selected other meeting configurations' here under), some transitions can be automatically triggered for the new item, select until which transition it will be done (selected transition will also be triggered).  This relies on the 'Transitions for presenting an item' you defined in the 'Workflows' tab of the meeting configuration the item will be sent to."
 msgid "While sent, the new item is in the workflow initial state, if it was sent automatically (depending on states selected in field 'States in which an item will be automatically sent to selected other meeting configurations' here under), some transitions can be automatically triggered for the new item, select until which transition it will be done (selected transition will also be triggered).  This relies on the 'Transitions for presenting an item' you defined in the 'Workflows' tab of the meeting configuration the item will be sent to."
-msgstr ""
+msgstr "While sent, the new item is in the workflow initial state, if it was sent automatically (depending on states selected in field 'States in which an item will be automatically sent to selected other meeting configurations' here under), some transitions can be automatically triggered for the new item, select until which transition it will be done (selected transition will also be triggered).  This relies on the 'Transitions for presenting an item' you defined in the 'Workflows' tab of the meeting configuration the item will be sent to."
 
 #. Default: "Specify here a TAL expression that will restrict the use of this advice to some condition.  We receive 'item' as the meeting item to give an advice on.  A special expression is available to protect a row that should only be available thru the 'Change delay' action, it is : 'python: item.REQUEST.get('managing_available_delays', False)' as the expression.  This can not be used if something is defined in the 'Advice will be automatically asked if' column of this advice, but for optional delay-aware advice or for delay-aware advices linked to an automatic advice (using the 'Is linked to previous row?' column)"
 msgid "available_on_col_description"

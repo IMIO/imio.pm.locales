@@ -83,7 +83,7 @@ msgstr "Give Advice"
 # plone.app.querystring
 #. Default: "Linked meeting date (used for items)"
 msgid "Linked meeting date"
-msgstr ""
+msgstr "Linked meeting date (used for items)"
 
 # Plone syntax errors
 #. Default: "Login failed"
@@ -229,7 +229,7 @@ msgstr "Document template"
 # plone.app.querystring
 #. Default: "Previous review state"
 msgid "Previous review state"
-msgstr ""
+msgstr "Previous review state"
 
 #. Default: "state"
 msgid "State"
@@ -322,12 +322,12 @@ msgstr "Back to 'Accepted'"
 
 #. Default: "Back to 'Advice Under Edit'"
 msgid "backToAdviceInitialState"
-msgstr ""
+msgstr "Back to 'Advice Under Edit'"
 
 # XXX backward compatibility until ticket # is managed
 #. Default: "Back to 'Advice Under Edit'"
 msgid "backToAdviceUnderEdit"
-msgstr ""
+msgstr "Back to 'Advice Under Edit'"
 
 #. Default: "Back to 'Closed'"
 msgid "backToClosed"
@@ -395,15 +395,15 @@ msgstr "Remove from meeting"
 
 #. Default: "Back to 'itemcreated'"
 msgid "backTo_itemcreated_from_waiting_advices"
-msgstr ""
+msgstr "Back to 'itemcreated'"
 
 #. Default: "Back to 'prevalidated'"
 msgid "backTo_prevalidated_from_waiting_advices"
-msgstr ""
+msgstr "Back to 'prevalidated'"
 
 #. Default: "Back to 'proposed'"
 msgid "backTo_proposed_from_waiting_advices"
-msgstr ""
+msgstr "Back to 'proposed'"
 
 #. Default: "Base View"
 msgid "base_view"
@@ -600,7 +600,7 @@ msgstr "Created"
 
 #. Default: "Waiting advices"
 msgid "itemcreated_waiting_advices"
-msgstr ""
+msgstr "Waiting advices"
 
 #. Default: "Freeze"
 msgid "itemfreeze"
@@ -676,7 +676,7 @@ msgstr "Pre-validated"
 
 #. Default: "Waiting advices"
 msgid "prevalidated_waiting_advices"
-msgstr ""
+msgstr "Waiting advices"
 
 #. Default: "Propose"
 msgid "propose"
@@ -688,11 +688,11 @@ msgstr "Proposed"
 
 #. Default: "Waiting advices"
 msgid "proposed__or__prevalidated_waiting_advices"
-msgstr ""
+msgstr "Waiting advices"
 
 #. Default: "Waiting advices"
 msgid "proposed_waiting_advices"
-msgstr ""
+msgstr "Waiting advices"
 
 #. Default: "Publish"
 msgid "publish"
@@ -756,19 +756,19 @@ msgstr "Votes"
 
 #. Default: "Ask advices"
 msgid "wait_advices_from_itemcreated"
-msgstr ""
+msgstr "Ask advices"
 
 #. Default: "Ask advices"
 msgid "wait_advices_from_prevalidated"
-msgstr ""
+msgstr "Ask advices"
 
 #. Default: "Ask advices"
 msgid "wait_advices_from_proposed"
-msgstr ""
+msgstr "Ask advices"
 
 #. Default: "Waiting advices"
 msgid "waiting_advices"
-msgstr ""
+msgstr "Waiting advices"
 
 #. Default: "Workflows"
 msgid "workflow"

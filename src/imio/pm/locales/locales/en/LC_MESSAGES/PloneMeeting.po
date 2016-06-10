@@ -709,6 +709,10 @@ msgstr "Name of the functional administrator"
 msgid "PloneMeeting_label_gender"
 msgstr "Gender"
 
+#. Default: "Group in charge"
+msgid "PloneMeeting_label_groupInCharge"
+msgstr "Group in charge"
+
 #. Default: "Group certified signatures"
 msgid "PloneMeeting_label_group_certifiedSignatures"
 msgstr "Group certified signatures"
@@ -2388,6 +2392,22 @@ msgstr "Please make sure encoded dates are valid at row number ${row_number}.  U
 msgid "error_certified_signatures_order"
 msgstr "Signatures must be ordered by signature number, please check and order signature using the arrows on the right of the table."
 
+#. Default: "The 'Date to' column can not be entered for last row, last row will contain the current group in charge."
+msgid "error_in_charge_group_date_may_not_be_given"
+msgstr "The 'Date to' column can not be entered for last row, last row will contain the current group in charge."
+
+#. Default: "The 'Date to' column is required for every lines but the last.  Please check row number ${row_number}."
+msgid "error_in_charge_group_date_to_missing"
+msgstr "The 'Date to' column is required for every lines but the last.  Please check row number ${row_number}."
+
+#. Default: "Dates of the 'Date to' column must be encoded from older date to newer, last row must be the group that is currently in charge and so no 'Date to' must be encoded."
+msgid "error_in_charge_group_dates_sorting"
+msgstr "Dates of the 'Date to' column must be encoded from older date to newer, last row must be the group that is currently in charge and so no 'Date to' must be encoded."
+
+#. Default: "Please make sure encoded 'Date to' is valid at row number ${row_number}.  Use format 'YYYY/MM/DD'."
+msgid "error_in_charge_group_invalid_dates"
+msgstr "Please make sure encoded 'Date to' is valid at row number ${row_number}.  Use format 'YYYY/MM/DD'."
+
 #. Default: "You may not remove a list type that is currently used by an item, check for example : ${url}."
 msgid "error_list_types_identifier_removed_already_used"
 msgstr "You may not remove a list type that is currently used by an item, check for example : ${url}."
@@ -2608,6 +2628,10 @@ msgstr "Previous ${number} elements"
 #. Default: "Leave empty to use the signatures defined on the meeting configuration.  You may only redefine the certified signatures partially, for example, you may redefine signature number '2', the signature number '1' will still be taken from the meeting configuration."
 msgid "group_certified_signatures_descr"
 msgstr "Leave empty to use the signatures defined on the meeting configuration.  You may only redefine the certified signatures partially, for example, you may redefine signature number '2', the signature number '1' will still be taken from the meeting configuration."
+
+#. Default: "Select here the group that is in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red';>If you change this parameter, and items have been created after a 'Date to' you specified, please run 'Update items and meetings'!</span>"
+msgid "group_in_charge_descr"
+msgstr "Select here the group that is in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red';>If you change this parameter, and items have been created after a 'Date to' you specified, please run 'Update items and meetings'!</span>"
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_item_advice_edit_states_descr"
