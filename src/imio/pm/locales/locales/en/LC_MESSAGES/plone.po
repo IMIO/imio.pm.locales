@@ -108,9 +108,8 @@ msgstr "Meeting Workflow"
 
 # plone.app.querystring
 #. Default: "Meeting date (used for meetings)"
-#, fuzzy
 msgid "Meeting date"
-msgstr "Meeting date"
+msgstr "Meeting date (used for meetings)"
 
 #. Default: "Meeting Archive Observer"
 msgid "MeetingArchiveObserver"
@@ -598,9 +597,9 @@ msgstr "Archived"
 msgid "itemcreated"
 msgstr "Created"
 
-#. Default: "Waiting advices"
+#. Default: "Waiting advices (itemcreated)"
 msgid "itemcreated_waiting_advices"
-msgstr "Waiting advices"
+msgstr "Waiting advices (itemcreated)"
 
 #. Default: "Freeze"
 msgid "itemfreeze"
@@ -674,9 +673,9 @@ msgstr "Pre-validate"
 msgid "prevalidated"
 msgstr "Pre-validated"
 
-#. Default: "Waiting advices"
+#. Default: "Waiting advices (prevalidated)"
 msgid "prevalidated_waiting_advices"
-msgstr "Waiting advices"
+msgstr "Waiting advices (prevalidated)"
 
 #. Default: "Propose"
 msgid "propose"
@@ -686,13 +685,13 @@ msgstr "Propose"
 msgid "proposed"
 msgstr "Proposed"
 
-#. Default: "Waiting advices"
+#. Default: "Waiting advices (proposed or prevalidated)"
 msgid "proposed__or__prevalidated_waiting_advices"
-msgstr "Waiting advices"
+msgstr "Waiting advices (proposed or prevalidated)"
 
-#. Default: "Waiting advices"
+#. Default: "Waiting advices (proposed)"
 msgid "proposed_waiting_advices"
-msgstr "Waiting advices"
+msgstr "Waiting advices (proposed)"
 
 #. Default: "Publish"
 msgid "publish"

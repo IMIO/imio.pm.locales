@@ -594,7 +594,7 @@ msgstr "Archivé"
 msgid "itemcreated"
 msgstr "En création"
 
-#. Default: "Waiting advices"
+#. Default: "Waiting advices (itemcreated)"
 msgid "itemcreated_waiting_advices"
 msgstr "En attente des avis (En création)"
 
@@ -670,7 +670,7 @@ msgstr "Pré-valider"
 msgid "prevalidated"
 msgstr "Pré-validé"
 
-#. Default: "Waiting advices"
+#. Default: "Waiting advices (prevalidated)"
 msgid "prevalidated_waiting_advices"
 msgstr "En attente des avis (Pré-validé)"
 
@@ -682,11 +682,11 @@ msgstr "Proposer"
 msgid "proposed"
 msgstr "Proposé"
 
-#. Default: "Waiting advices"
+#. Default: "Waiting advices (proposed or prevalidated)"
 msgid "proposed__or__prevalidated_waiting_advices"
-msgstr "En attente des avis"
+msgstr "En attente des avis (proposé ou prévalidé)"
 
-#. Default: "Waiting advices"
+#. Default: "Waiting advices (proposed)"
 msgid "proposed_waiting_advices"
 msgstr "En attente des avis (Proposé)"
 
