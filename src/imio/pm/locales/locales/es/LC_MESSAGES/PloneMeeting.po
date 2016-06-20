@@ -1286,10 +1286,6 @@ msgstr "Valor por defecto de los atributos '¿A discutir?' para temas tardíos"
 msgid "PloneMeeting_label_toDiscussSetOnItemInsert"
 msgstr "Defina los valores del campo '¿A discutir?' cuando los temas son insertados dentro de una reunión"
 
-#. Default: "Show field 'to discuss' on lists of late items"
-msgid "PloneMeeting_label_toDiscussShownForLateItems"
-msgstr "Mostrar campo 'a discutir' en la lista de temas retardados"
-
 #. Default: "List of searches to display in the 'todo' portlet"
 msgid "PloneMeeting_label_toDoListSearches"
 msgstr ""
@@ -4578,10 +4574,6 @@ msgstr "No se debatirá durante la reunión. Haga clic en la imagen para debatir
 #. Default: "If you check this box, the value of field 'toDiscuss', for an item, will be set when inserting the item into a meeting, with a default value as defined by the fields below. Else, the user having the permission to edit the item will be able to give a value to this field, as soon as on item creation."
 msgid "to_discuss_set_on_item_insert_descr"
 msgstr "Si marca esta casilla, el valor del campo '¿A discutir?', para un tema, se fijará cuando se inserta el tema en una reunión, con un valor predeterminado definido por los siguientes campos. Otra cosa, es que el usuario que tenga permisos para editar el tema será capaz de dar un valor a este campo, tan pronto como en la creación de los temas."
-
-#. Default: "Check the box if you want to show column 'to discuss' on lists of late items (checked is the default). For late items, users may not be allowed to choose the value for this field (ie, late items are to be discussed anyway)."
-msgid "to_discuss_shown_for_late_items_descr"
-msgstr "Marque la casilla si desea mostrar la columna 'para hablar' en las listas de los temas retardados (marcada por defecto). Para los temas retardados, los usuarios no se les puede permitir elegir el valor de este campo (es decir, los temas retardados deben ser discutidos de todos modos)."
 
 #. Default: "To be discussed during the meeting"
 msgid "to_discuss_yes"

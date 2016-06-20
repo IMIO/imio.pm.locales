@@ -1282,10 +1282,6 @@ msgstr "Standardwert für das 'zu diskutieren'-Attribut von verspäteten TOP"
 msgid "PloneMeeting_label_toDiscussSetOnItemInsert"
 msgstr "Einen Wert einfügen im Feld 'zu Diskutieren' wenn ein TOP zu einer Sitzung hinzugefügt wird"
 
-#. Default: "Show field 'to discuss' on lists of late items"
-msgid "PloneMeeting_label_toDiscussShownForLateItems"
-msgstr "Zeige das Feld 'zu Besprechen' auf die Liste der verspäteten TOP"
-
 #. Default: "List of searches to display in the 'todo' portlet"
 msgid "PloneMeeting_label_toDoListSearches"
 msgstr ""
@@ -4564,10 +4560,6 @@ msgstr "Nicht zur Diskussion während dieser Sitzung. Klicken Sie auf das Bild u
 #. Default: "If you check this box, the value of field 'toDiscuss', for an item, will be set when inserting the item into a meeting, with a default value as defined by the fields below. Else, the user having the permission to edit the item will be able to give a value to this field, as soon as on item creation."
 msgid "to_discuss_set_on_item_insert_descr"
 msgstr "Wenn Sie dieses Feld auswählen, wird das Feld 'zu diskutieren' für einen TOP, beim Einfügen eines TOP in eine Sitzung, mit einem Standard  Wert gefüllt, der in dem Feld hier unten eingetragen ist. Ansonsten kann ein Benutzer, der das Recht zum verändern auf den TOP hat, diesen Wert verändern, ab der Erstellung des TOP."
-
-#. Default: "Check the box if you want to show column 'to discuss' on lists of late items (checked is the default). For late items, users may not be allowed to choose the value for this field (ie, late items are to be discussed anyway)."
-msgid "to_discuss_shown_for_late_items_descr"
-msgstr "Wählen Sie die Box aus, wenn Sie die Spalte 'zu Besprechen' auf der Liste der verspäteten TOP anzeigen wollen. (Standardmäßig ausgewählt). Für die Verspäteten TOP, könnten die Benutzer nicht das Recht haben den Wert für dieses Feld aus zu wählen (z.B.: die verspäteten TOP solten Standardmäßig zu Besprechen sein)."
 
 #. Default: "To be discussed during the meeting"
 msgid "to_discuss_yes"

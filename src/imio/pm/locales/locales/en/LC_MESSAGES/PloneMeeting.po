@@ -1281,10 +1281,6 @@ msgstr "Default value of the 'toDiscuss' attribute for late items"
 msgid "PloneMeeting_label_toDiscussSetOnItemInsert"
 msgstr "Set 'toDiscuss' field values when items are inserted into a meeting"
 
-#. Default: "Show field 'to discuss' on lists of late items"
-msgid "PloneMeeting_label_toDiscussShownForLateItems"
-msgstr "Show field 'to discuss' on lists of late items"
-
 #. Default: "List of searches to display in the 'todo' portlet"
 msgid "PloneMeeting_label_toDoListSearches"
 msgstr "List of searches to display in the 'todo' portlet"
@@ -4542,10 +4538,6 @@ msgstr "Not to be discussed during the meeting. Click on the image for discussin
 #. Default: "If you check this box, the value of field 'toDiscuss', for an item, will be set when inserting the item into a meeting, with a default value as defined by the fields below. Else, the user having the permission to edit the item will be able to give a value to this field, as soon as on item creation."
 msgid "to_discuss_set_on_item_insert_descr"
 msgstr "If you check this box, the value of field 'toDiscuss', for an item, will be set when inserting the item into a meeting, with a default value as defined by the fields below. Else, the user having the permission to edit the item will be able to give a value to this field, as soon as on item creation."
-
-#. Default: "Check the box if you want to show column 'to discuss' on lists of late items (checked is the default). For late items, users may not be allowed to choose the value for this field (ie, late items are to be discussed anyway)."
-msgid "to_discuss_shown_for_late_items_descr"
-msgstr "Check the box if you want to show column 'to discuss' on lists of late items (checked is the default). For late items, users may not be allowed to choose the value for this field (ie, late items are to be discussed anyway)."
 
 #. Default: "To be discussed during the meeting"
 msgid "to_discuss_yes"

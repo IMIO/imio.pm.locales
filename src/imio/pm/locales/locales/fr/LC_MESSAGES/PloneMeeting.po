@@ -1281,10 +1281,6 @@ msgstr "Valeur par défaut de l'attribut 'à discuter' pour les points en urgenc
 msgid "PloneMeeting_label_toDiscussSetOnItemInsert"
 msgstr "Affecter une valeur au champ 'à discuter' quand un point est inséré dans une séance"
 
-#. Default: "Show field 'to discuss' on lists of late items"
-msgid "PloneMeeting_label_toDiscussShownForLateItems"
-msgstr "Montrer le champ 'à discuter' sur les listes de points en urgence"
-
 #. Default: "List of searches to display in the 'todo' portlet"
 msgid "PloneMeeting_label_toDoListSearches"
 msgstr "Recherches à afficher dans le portlet 'A faire'"
@@ -4541,10 +4537,6 @@ msgstr "A ne pas évoquer en séance, cliquez sur l'image pour évoquer ce point
 #. Default: "If you check this box, the value of field 'toDiscuss', for an item, will be set when inserting the item into a meeting, with a default value as defined by the fields below. Else, the user having the permission to edit the item will be able to give a value to this field, as soon as on item creation."
 msgid "to_discuss_set_on_item_insert_descr"
 msgstr "Si vous cochez cette case, la valeur du champ 'à discuter', pour un point, sera déterminée lors de l'insertion du point dans une séance, selon une valeur par défaut telle que déterminée par les champs ci-dessous. Sinon, l'utilisateur ayant les droits d'édition sur un point pourra éditer cette valeur lui-même, dès la création du point."
-
-#. Default: "Check the box if you want to show column 'to discuss' on lists of late items (checked is the default). For late items, users may not be allowed to choose the value for this field (ie, late items are to be discussed anyway)."
-msgid "to_discuss_shown_for_late_items_descr"
-msgstr "Cochez la case si vous voulez afficher la colonne 'à discuter' sur les listes de points en urgence (coché par défaut). Pour les points en urgence, les utilisateurs pourraient ne pas être en droit de choisir la valeur pour ce champ (par exemple, les points en urgence pourraient être à discuter d'office)."
 
 #. Default: "To be discussed during the meeting"
 msgid "to_discuss_yes"
