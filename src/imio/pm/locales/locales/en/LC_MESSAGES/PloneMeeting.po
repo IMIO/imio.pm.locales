@@ -459,7 +459,7 @@ msgstr "Answers"
 
 #. Default: "Meeting approval date"
 msgid "PloneMeeting_label_approvalDate"
-msgstr ""
+msgstr "Meeting approval date"
 
 #. Default: "As copy group on"
 msgid "PloneMeeting_label_asCopyGroupOn"
@@ -479,15 +479,15 @@ msgstr "Excused"
 
 #. Default: "Guests"
 msgid "PloneMeeting_label_assemblyGuests"
-msgstr ""
+msgstr "Guests"
 
 #. Default: "Proxies"
 msgid "PloneMeeting_label_assemblyProxies"
-msgstr ""
+msgstr "Proxies"
 
 #. Default: "Staves"
 msgid "PloneMeeting_label_assemblyStaves"
-msgstr ""
+msgstr "Staves"
 
 #. Default: "Associated group(s)"
 msgid "PloneMeeting_label_associatedGroups"
@@ -3834,7 +3834,7 @@ msgstr "Follow categories order"
 
 #. Default: "Follow groups in charge order"
 msgid "on_groups_in_charge"
-msgstr ""
+msgstr "Follow groups in charge order"
 
 #. Default: "Follow list type"
 msgid "on_list_type"
@@ -4079,6 +4079,10 @@ msgstr "Preparatory meeting"
 #. Default: "Specify here the date of the pre-meeting, relative to its meeting, in the same format as fields above.  Leave the field empty not to use this functionality."
 msgid "pre_meeting_date_default_descr"
 msgstr "Specify here the date of the pre-meeting, relative to its meeting, in the same format as fields above.  Leave the field emtpy no to use the functionnality."
+
+#. Default: "If this is a normal item and you want it to be inserted in any availale meeting, just select 'No preference' value.  Selecting a date is for 2 usecases : this will make the item not presentable to the meetings before selected one, or if the selected meeting is 'frozen', this will make current item considered as 'late' item presentable in the selected frozen meeting.  Indeed, the only way to insert an item in a frozen meeting is to select this meeting as preferred meeting."
+msgid "preferred_meeting_descr"
+msgstr "If this is a normal item and you want it to be inserted in any availale meeting, just select 'No preference' value.  Selecting a date is for 2 usecases : this will make the item not presentable to the meetings before selected one, or if the selected meeting is 'frozen', this will make current item considered as 'late' item presentable in the selected frozen meeting.  Indeed, the only way to insert an item in a frozen meeting is to select this meeting as preferred meeting."
 
 #. Default: "Pre-validator"
 msgid "prereviewer"

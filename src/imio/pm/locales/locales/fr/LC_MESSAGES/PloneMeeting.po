@@ -4079,6 +4079,10 @@ msgstr "Réunion préparatoire"
 msgid "pre_meeting_date_default_descr"
 msgstr "Spécifiez ici la date de la séance préparatoire, par rapport à la date de la séance, dans le même format que les champs ci-dessus.  Laissez le champ vide si vous ne souhaitez pas utiliser cette fonctionnalité."
 
+#. Default: "If this is a normal item and you want it to be inserted in any availale meeting, just select 'No preference' value.  Selecting a date is for 2 usecases : this will make the item not presentable to the meetings before selected one, or if the selected meeting is 'frozen', this will make current item considered as 'late' item presentable in the selected frozen meeting.  Indeed, the only way to insert an item in a frozen meeting is to select this meeting as preferred meeting."
+msgid "preferred_meeting_descr"
+msgstr "Si vous sélectionnez la valeur \"Pas de préférence\" (par défaut), le point sera présentable dans n'importe quelle séance \"En création\" (pas encore \"Gelée\").  Il peut être utile de sélectionner une date de séance dans deux cas : premièrement si vous choisissez une séance, le point ne pourra pas être présenté avant la date de séance sélectionnée, deuxièmement, si vous sélectionnez une séance qui est déjà \"Gelée\", ceci permettra de considérer le point comme un point \"En urgence\" pour la séance choisie."
+
 #. Default: "Pre-validator"
 msgid "prereviewer"
 msgstr "Pré-validateur"

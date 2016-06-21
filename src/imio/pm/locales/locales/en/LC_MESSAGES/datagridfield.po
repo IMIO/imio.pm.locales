@@ -20,23 +20,23 @@ msgstr "Available on"
 
 #. Default: "Function"
 msgid "Certified signatures signatory function"
-msgstr "Fonction"
+msgstr "Function"
 
 #. Default: "Name"
 msgid "Certified signatures signatory name"
-msgstr "Nom"
+msgstr "Name"
 
 #. Default: "Signature number"
 msgid "Certified signatures signature number"
-msgstr "Numéro de signature"
+msgstr "Signature number"
 
 #. Default: "Valid from (included)"
 msgid "Certified signatures valid from (included)"
-msgstr "Valide depuis le (inclus)"
+msgstr "Valid from (included)"
 
 #. Default: "Valid to (included)"
 msgid "Certified signatures valid to (included)"
-msgstr "Valide jusqu'au (inclus)"
+msgstr "Valid to (included)"
 
 #. Default: "Advice with delay label"
 msgid "Custom adviser delay label"
@@ -80,15 +80,15 @@ msgstr "Enter valid date to, use following format : YYYY/MM/DD, leave empty if i
 
 #. Default: "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgid "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
-msgstr "Encodez la date depuis laquelle la signature sera valide, utilisez le format AAAA/MM/JJ, laissez le champ vide pour que la signature soit toujours valide."
+msgstr "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 
 #. Default: "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgid "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
-msgstr "Encodez la date jusqu'à laquelle la signature sera valide, utilisez le format AAAA/MM/JJ, laissez le champ vide pour que la signature soit toujours valide."
+msgstr "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 
 #. Default: "Function of the signatory (for example 'Mayor')."
 msgid "Function of the signatory (for example 'Mayor')."
-msgstr "Fonction du signataire (par exemple 'Le Bourgmestre')."
+msgstr "Function of the signatory (for example 'Mayor')."
 
 #. Default: "Valid to (included)"
 msgid "Group in charge date to (included)"
@@ -140,7 +140,7 @@ msgstr "Meeting config to clone to Trigger workflow transitions until"
 
 #. Default: "Name of the signatory (for example 'Mister John Doe')."
 msgid "Name of the signatory (for example 'Mister John Doe')."
-msgstr "Nom du signataire (par exemple 'Mr Jacques Untel')."
+msgstr "Name of the signatory (for example 'Mister John Doe')."
 
 #. Default: "Transition to trigger on every items of the meeting"
 msgid "On meeting transition item transition to trigger item transition"
@@ -188,7 +188,7 @@ msgstr "Select the inserting method, methods will be applied in given order, you
 
 #. Default: "Select the signature number, keep signatures ordered by number."
 msgid "Select the signature number, keep signatures ordered by number."
-msgstr "Sélectionnez le numéro de signature, les signatures doivent être ordonnées par numéro."
+msgstr "Select the signature number, keep signatures ordered by number."
 
 #. Default: "Default value of the 'Confidential ?' attribute of created annexes"
 msgid "Sub type confidentiality of created annexes"
@@ -247,9 +247,8 @@ msgid "While sent, the new item is in the workflow initial state, if it was sent
 msgstr "While sent, the new item is in the workflow initial state, if it was sent automatically (depending on states selected in field 'States in which an item will be automatically sent to selected other meeting configurations' here under), some transitions can be automatically triggered for the new item, select until which transition it will be done (selected transition will also be triggered).  This relies on the 'Transitions for presenting an item' you defined in the 'Workflows' tab of the meeting configuration the item will be sent to."
 
 #. Default: "Specify here a TAL expression that will restrict or allow the use of this advice to some condition.  We receive 'item' as the meeting item to give an advice on and 'mayEdit', a boolean to know if current user may edit the item.  A special expression is available to protect a row that should only be available thru the 'Change delay' action, it is : 'python: item.REQUEST.get('managing_available_delays', False)'.  This can not be used if something is defined in the 'Advice will be automatically asked if' column of this advice, but for optional delay-aware advice or for delay-aware advices linked to an automatic advice (using the 'Is linked to previous row?' column)"
-#, fuzzy
 msgid "available_on_col_description"
-msgstr "Specify here a TAL expression that will restrict the use of this advice to some condition.  We receive 'item' as the meeting item to give an advice on.  A special expression is available to protect a row that should only be available thru the 'Change delay' action, it is : 'python: item.REQUEST.get('managing_available_delays', False)' as the expression.  This can not be used if something is defined in the 'Advice will be automatically asked if' column of this advice, but for optional delay-aware advice or for delay-aware advices linked to an automatic advice (using the 'Is linked to previous row?' column)"
+msgstr "Specify here a TAL expression that will restrict or allow the use of this advice to some condition.  We receive 'item' as the meeting item to give an advice on and 'mayEdit', a boolean to know if current user may edit the item.  A special expression is available to protect a row that should only be available thru the 'Change delay' action, it is : 'python: item.REQUEST.get('managing_available_delays', False)'.  This can not be used if something is defined in the 'Advice will be automatically asked if' column of this advice, but for optional delay-aware advice or for delay-aware advices linked to an automatic advice (using the 'Is linked to previous row?' column)"
 
 #. Default: "Enter the delay the adviser will have to give his advice. If it is not considered as an automatically asked advice (nothing defined in the 'Advice will be automatically asked if' column), the advice will be selectable in the 'Ask advice to' list on the item edit form. A delay is a single digit (like '5' or '10'). If no delay is relevant for this advice, leave this field blank. If several delays are possible for the same advice, you have to define several rows with exactly the same content excepted the delay."
 msgid "delay_col_description"
@@ -272,9 +271,8 @@ msgid "for_item_created_until_col_description"
 msgstr "This configuration will be applied on item created until the defined date (defined date must be in the future and will not be included).  Please respect following format : YYYY/MM/DD (year 4 digits/month 2 digits/day 2 digits).  This date will avoid newer items created after to be affected, especially when updating every advices thru the 'Update all advices' action. This date will be only settable once, when set, this can not be changed anymore."
 
 #. Default: "Specify here a TAL expression that will return True if the advice of the group must be automatically asked on an item.  We receive 'item' as the meeting item to give an advice on.  WARNING if the group of advisers linked to this group is empty, it will no be considered, despite the result of the TAL expression.  This advice will NOT be askable manually in the user interface, it is only asked automatically by the application.  If this advice should not be asked automatically, leave this field blank."
-#, fuzzy
 msgid "gives_auto_advice_on_col_description"
-msgstr "Specify here a TAL expression that will return True if the advice of the group must be automatically asked on an item.  We receive 'item' as the meeting item to give an advice on.  WARNING if the group of advisers linked to this PloneMeeting group is empty, it will no be considered, despite the result of the TAL expression.  This advice will NOT be askable manually in the user interface, it is only asked automatically by the application.  If this advice should not be asked automatically, leave this field blank."
+msgstr "Specify here a TAL expression that will return True if the advice of the group must be automatically asked on an item.  We receive 'item' as the meeting item to give an advice on.  WARNING if the group of advisers linked to this group is empty, it will no be considered, despite the result of the TAL expression.  This advice will NOT be askable manually in the user interface, it is only asked automatically by the application.  If this advice should not be asked automatically, leave this field blank."
 
 #. Default: "If you want a specific help message to be displayed on the '?' displayed next to the advice title in the user interface, you can enter it here.  The message will appear between brackets after the message 'This advice has been automatically asked by the application'."
 msgid "gives_auto_advice_on_help_message_col_description"
