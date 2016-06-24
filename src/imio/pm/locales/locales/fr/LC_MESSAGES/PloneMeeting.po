@@ -388,7 +388,6 @@ msgid "Please specify a default meeting config upon active existing meeting conf
 msgstr "Spécifiez dans la configuration de PloneMeeting une 'Configuration de séance' par défaut parmi les 'Configurations de séance' actives afin que l'utilisateur soit automatiquement redirigé vers celle-ci une fois connecté."
 
 #. Default: "PloneMeeting tool policy"
-#: ./setuphandlers.py:182
 msgid "PloneMeeting tool policy"
 msgstr "Politique du tool PloneMeeting"
 
@@ -2131,9 +2130,9 @@ msgstr "Considéré 'Non rendu'"
 msgid "copy_groups_item_descr"
 msgstr " "
 
-#. Default: "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
+#. Default: "The cloned item could not be presented to a meeting in the '${destMeetingConfigTitle}' configuration, no suitable meeting could be found."
 msgid "could_not_present_item_no_meeting_accepting_items"
-msgstr "Le point n'a pas pu être présenté dans une séance du '${destMeetingConfigTitle}' car aucune séance n'accepte de points (aucune séance dans l'état '${initial_state}' n'a été trouvée)."
+msgstr "Le point envoyé au '${destMeetingConfigTitle}' n'a pas pu être présenté dans une séance car aucune séance appropriée n'a pu être trouvée."
 
 #. Default: "Some transitions could not be triggered for the item sent to '${meetingConfigTitle}', please check the new item."
 msgid "could_not_trigger_transition_for_cloned_item"
@@ -2838,6 +2837,10 @@ msgstr "Reporté"
 #. Default: "Late"
 msgid "icon_help_late"
 msgstr "En urgence"
+
+#. Default: "Postponed next meeting"
+msgid "icon_help_postponed_next_meeting"
+msgstr "Reporté à une prochaine séance"
 
 #. Default: "Pre accepted"
 msgid "icon_help_pre_accepted"
@@ -4797,6 +4800,10 @@ msgstr "Sauter l'étape de publication"
 #. Default: "Only creators may delete items"
 msgid "wa_only_creator_may_delete"
 msgstr "Seuls les créateurs de points peuvent supprimer des points"
+
+#. Default: "Postpone next meeting"
+msgid "wa_postpone_next_meeting"
+msgstr "Reporter le point à une prochaine séance (le nouveau point sera automatiquement validé)"
 
 #. Default: "Item pre-validation"
 msgid "wa_pre_validation"

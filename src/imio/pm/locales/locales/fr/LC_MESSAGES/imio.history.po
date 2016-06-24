@@ -35,6 +35,10 @@ msgstr "L'avis a été historisé lorsqu'il a été demandé à nouveau car soit
 msgid "advice_given_was_modified_historized_comments"
 msgstr "L'avis a été historisé lorsqu'il a été rendu car soit il n'avait jamais été historisé, soit il a été modifié depuis la dernière historisation."
 
+#. Default: "This item has been created from an item that was postponed to a next meeting, current item has been automatically validated for a next meeting."
+msgid "create_from_postponed_next_meeting_comments"
+msgstr "Ce point a été créé suite au report d'un point à une prochaine séance.  Ce point a été automatiquement validé."
+
 #. Default: "This item has been created from a delayed item."
 msgid "create_from_predecessor_comments"
 msgstr "Ce point a été créé suite au report d'un autre point."

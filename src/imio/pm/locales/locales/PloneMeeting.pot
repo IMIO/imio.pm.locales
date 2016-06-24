@@ -2407,6 +2407,10 @@ msgstr ""
 msgid "wa_waiting_advices"
 msgstr ""
 
+#. Default: "Postpone next meeting"
+msgid "wa_postpone_next_meeting"
+msgstr ""
+
 #. Default: "Item pre-validation (reviewer may also prevalidate)"
 msgid "wa_pre_validation_keep_reviewer_permissions"
 msgstr ""
@@ -3849,6 +3853,10 @@ msgstr ""
 msgid "icon_help_pre_accepted"
 msgstr ""
 
+#. Default: "Postponed next meeting"
+msgid "icon_help_postponed_next_meeting"
+msgstr ""
+
 #. Default: "This item is again up the workflow"
 msgid "icon_help_wf_up"
 msgstr ""
@@ -4330,7 +4338,6 @@ msgid "Advice given by"
 msgstr ""
 
 #. Default: "PloneMeeting tool policy"
-#: ./setuphandlers.py:182
 msgid "PloneMeeting tool policy"
 msgstr ""
 
@@ -4338,7 +4345,7 @@ msgstr ""
 msgid "let_item_in_initial_state"
 msgstr ""
 
-#. Default: "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
+#. Default: "The cloned item could not be presented to a meeting in the '${destMeetingConfigTitle}' configuration, no suitable meeting could be found."
 msgid "could_not_present_item_no_meeting_accepting_items"
 msgstr ""
 

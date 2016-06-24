@@ -392,7 +392,6 @@ msgid "Please specify a default meeting config upon active existing meeting conf
 msgstr "Por favor, especificar una configuración predeterminada para reuniones configuraciones en activas de reuniones existentes para ser redirigido a la misma."
 
 #. Default: "PloneMeeting tool policy"
-#: ./setuphandlers.py:182
 msgid "PloneMeeting tool policy"
 msgstr "Herramienta PloneMeeting"
 
@@ -2140,7 +2139,7 @@ msgstr ""
 msgid "copy_groups_item_descr"
 msgstr "Seleccione aquí los grupos que podrán ver este tema"
 
-#. Default: "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
+#. Default: "The cloned item could not be presented to a meeting in the '${destMeetingConfigTitle}' configuration, no suitable meeting could be found."
 msgid "could_not_present_item_no_meeting_accepting_items"
 msgstr ""
 
@@ -2853,6 +2852,10 @@ msgstr "Demorado"
 #. Default: "Late"
 msgid "icon_help_late"
 msgstr "Tardío"
+
+#. Default: "Postponed next meeting"
+msgid "icon_help_postponed_next_meeting"
+msgstr ""
 
 #. Default: "Pre accepted"
 msgid "icon_help_pre_accepted"
@@ -4837,6 +4840,10 @@ msgstr "Esquivar paso de publicación"
 #. Default: "Only creators may delete items"
 msgid "wa_only_creator_may_delete"
 msgstr "Solamente los creadores podrían eliminar temas"
+
+#. Default: "Postpone next meeting"
+msgid "wa_postpone_next_meeting"
+msgstr ""
 
 #. Default: "Item pre-validation"
 msgid "wa_pre_validation"
