@@ -2838,9 +2838,13 @@ msgstr "Reporté"
 msgid "icon_help_late"
 msgstr "En urgence"
 
+#. Default: "Marked not applicable"
+msgid "icon_help_marked_not_applicable"
+msgstr "Marqué sans objet"
+
 #. Default: "Postponed next meeting"
 msgid "icon_help_postponed_next_meeting"
-msgstr "Reporté à une prochaine séance"
+msgstr "Reporté à la prochaine séance"
 
 #. Default: "Pre accepted"
 msgid "icon_help_pre_accepted"
@@ -4785,6 +4789,10 @@ msgstr "Cacher les décisions au service pendant leur rédaction par les gestion
 msgid "wa_items_come_validated"
 msgstr "Les points arrivent validés"
 
+#. Default: "Mark not applicable"
+msgid "wa_mark_not_applicable"
+msgstr "Marquer un point sans objet"
+
 #. Default: "No global items observation"
 msgid "wa_no_global_observation"
 msgstr "Pas d'observation globale des points"
@@ -4803,7 +4811,7 @@ msgstr "Seuls les créateurs de points peuvent supprimer des points"
 
 #. Default: "Postpone next meeting"
 msgid "wa_postpone_next_meeting"
-msgstr "Reporter le point à une prochaine séance (le nouveau point sera automatiquement validé)"
+msgstr "Reporter le point à la prochaine séance (le nouveau point sera automatiquement validé)"
 
 #. Default: "Item pre-validation"
 msgid "wa_pre_validation"
@@ -4820,6 +4828,14 @@ msgstr "Vous ne pouvez pas déselctionner l'adaptation 'Archivage', une fois act
 #. Default: "You can not unselect the 'Hide decisions during redaction' adaptation as there are still meetings in state 'decisions published'."
 msgid "wa_removed_hide_decisions_when_under_writing_error"
 msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Cacher les décisions au service pendant leur rédaction par les gestionnaires de séances' car il reste des séances dans l'état 'Décisions publiées'."
+
+#. Default: "You can not unselect the 'Mark not applicable' adaptation as there are still items in state 'marked not applicable'."
+msgid "wa_removed_mark_not_applicable_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Marquer un point sans objet' car il reste des points dans l'état 'Marqué sans objet'."
+
+#. Default: "You can not unselect the 'Postpone next meeting' adaptation as there are still items in state 'postponed next meeting'."
+msgid "wa_removed_postpone_next_meeting_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Reporter le point à la prochaine séance' car il reste des points dans l'état 'Reporté à la prochaine séance'."
 
 #. Default: "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
 msgid "wa_removed_pre_validation_error"

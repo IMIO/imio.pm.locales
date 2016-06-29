@@ -2375,6 +2375,14 @@ msgstr ""
 msgid "wa_removed_pre_validation_error"
 msgstr ""
 
+#. Default: "You can not unselect the 'Postpone next meeting' adaptation as there are still items in state 'postponed next meeting'."
+msgid "wa_removed_postpone_next_meeting_error"
+msgstr ""
+
+#. Default: "You can not unselect the 'Mark not applicable' adaptation as there are still items in state 'marked not applicable'."
+msgid "wa_removed_mark_not_applicable_error"
+msgstr ""
+
 #. Default: "You can not unselect the 'Wait advices' adaptation as there are still items in state 'wait advices'."
 msgid "wa_removed_waiting_advices_error"
 msgstr ""
@@ -2409,6 +2417,10 @@ msgstr ""
 
 #. Default: "Postpone next meeting"
 msgid "wa_postpone_next_meeting"
+msgstr ""
+
+#. Default: "Mark not applicable"
+msgid "wa_mark_not_applicable"
 msgstr ""
 
 #. Default: "Item pre-validation (reviewer may also prevalidate)"
@@ -3855,6 +3867,10 @@ msgstr ""
 
 #. Default: "Postponed next meeting"
 msgid "icon_help_postponed_next_meeting"
+msgstr ""
+
+#. Default: "Marked not applicable"
+msgid "icon_help_marked_not_applicable"
 msgstr ""
 
 #. Default: "This item is again up the workflow"

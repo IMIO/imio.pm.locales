@@ -2841,6 +2841,10 @@ msgstr ""
 msgid "icon_help_late"
 msgstr ""
 
+#. Default: "Marked not applicable"
+msgid "icon_help_marked_not_applicable"
+msgstr ""
+
 #. Default: "Postponed next meeting"
 msgid "icon_help_postponed_next_meeting"
 msgstr ""
@@ -4801,6 +4805,10 @@ msgstr ""
 msgid "wa_items_come_validated"
 msgstr ""
 
+#. Default: "Mark not applicable"
+msgid "wa_mark_not_applicable"
+msgstr ""
+
 #. Default: "No global items observation"
 msgid "wa_no_global_observation"
 msgstr ""
@@ -4835,6 +4843,14 @@ msgstr ""
 
 #. Default: "You can not unselect the 'Hide decisions during redaction' adaptation as there are still meetings in state 'decisions published'."
 msgid "wa_removed_hide_decisions_when_under_writing_error"
+msgstr ""
+
+#. Default: "You can not unselect the 'Mark not applicable' adaptation as there are still items in state 'marked not applicable'."
+msgid "wa_removed_mark_not_applicable_error"
+msgstr ""
+
+#. Default: "You can not unselect the 'Postpone next meeting' adaptation as there are still items in state 'postponed next meeting'."
+msgid "wa_removed_postpone_next_meeting_error"
 msgstr ""
 
 #. Default: "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
