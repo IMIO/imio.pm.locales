@@ -2131,9 +2131,8 @@ msgid "copy_groups_item_descr"
 msgstr "Select here groups that will be able to see this item"
 
 #. Default: "The cloned item could not be presented to a meeting in the '${destMeetingConfigTitle}' configuration, no suitable meeting could be found."
-#, fuzzy
 msgid "could_not_present_item_no_meeting_accepting_items"
-msgstr "The cloned item could not be presented to in the '${destMeetingConfigTitle}' meeting config because no meeting accepting items is available (no meeting in state '${initial_state}' was found)."
+msgstr "The cloned item could not be presented to a meeting in the '${destMeetingConfigTitle}' configuration, no suitable meeting could be found."
 
 #. Default: "Some transitions could not be triggered for the item sent to '${meetingConfigTitle}', please check the new item."
 msgid "could_not_trigger_transition_for_cloned_item"
@@ -2841,11 +2840,11 @@ msgstr "Late"
 
 #. Default: "Marked not applicable"
 msgid "icon_help_marked_not_applicable"
-msgstr ""
+msgstr "Marked not applicable"
 
 #. Default: "Postponed next meeting"
 msgid "icon_help_postponed_next_meeting"
-msgstr ""
+msgstr "Postponed next meeting"
 
 #. Default: "Pre accepted"
 msgid "icon_help_pre_accepted"
@@ -3806,7 +3805,7 @@ msgstr "Not to be send to authority"
 
 #. Default: "Nothing is defined on the meeting."
 msgid "nothing_defined_on_meeting"
-msgstr ""
+msgstr "Nothing is defined on the meeting."
 
 #. Default: "Nothing to do."
 msgid "nothing_to_do"
@@ -4142,7 +4141,7 @@ msgstr "Public meeting"
 
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use this functionality."
 msgid "publish_deadline_default_descr"
-msgstr "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use the functionnality."
+msgstr "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use this functionality."
 
 #. Default: "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
 msgid "record_item_history_states_descr"
@@ -4797,7 +4796,7 @@ msgstr "Items come validated"
 
 #. Default: "Mark not applicable"
 msgid "wa_mark_not_applicable"
-msgstr ""
+msgstr "Mark not applicable"
 
 #. Default: "No global items observation"
 msgid "wa_no_global_observation"
@@ -4817,7 +4816,7 @@ msgstr "Only creators may delete items"
 
 #. Default: "Postpone next meeting"
 msgid "wa_postpone_next_meeting"
-msgstr ""
+msgstr "Postpone next meeting"
 
 #. Default: "Item pre-validation"
 msgid "wa_pre_validation"
@@ -4837,11 +4836,11 @@ msgstr "You can not unselect the 'Hide decisions during redaction' adaptation as
 
 #. Default: "You can not unselect the 'Mark not applicable' adaptation as there are still items in state 'marked not applicable'."
 msgid "wa_removed_mark_not_applicable_error"
-msgstr ""
+msgstr "You can not unselect the 'Mark not applicable' adaptation as there are still items in state 'marked not applicable'."
 
 #. Default: "You can not unselect the 'Postpone next meeting' adaptation as there are still items in state 'postponed next meeting'."
 msgid "wa_removed_postpone_next_meeting_error"
-msgstr ""
+msgstr "You can not unselect the 'Postpone next meeting' adaptation as there are still items in state 'postponed next meeting'."
 
 #. Default: "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
 msgid "wa_removed_pre_validation_error"
