@@ -3933,7 +3933,7 @@ msgstr ""
 msgid "icon_help_publish_deadline_ko"
 msgstr ""
 
-#. Default: "A category must be selected on this item so that it can be proposed"
+#. Default: "A category must be selected on this item so it may evolve in the workflow"
 msgid "required_category_ko"
 msgstr ""
 
@@ -4429,7 +4429,7 @@ msgstr ""
 msgid "completeness_incomplete"
 msgstr ""
 
-#. Default: "Change delay"
+#. Default: "Change advice delay"
 msgid "Change delay"
 msgstr ""
 
@@ -4457,8 +4457,8 @@ msgstr ""
 msgid "Change delay for this advice from ${from} days to ${to} days."
 msgstr ""
 
-#. Default: "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
-msgid "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
+#. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
+msgid "change_advice_delay_descr"
 msgstr ""
 
 #. Default: "Manage item templates"

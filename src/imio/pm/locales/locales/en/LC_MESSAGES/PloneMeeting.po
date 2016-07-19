@@ -111,7 +111,8 @@ msgstr "Cancel"
 msgid "Categories"
 msgstr "Item categories"
 
-#. Default: "Change delay"
+#. Default: "Change advice delay"
+#, fuzzy
 msgid "Change delay"
 msgstr "Change delay"
 
@@ -4196,9 +4197,9 @@ msgstr "remove all selected items at once."
 msgid "remove_several_items_done"
 msgstr "Selected items have been removed from the meeting."
 
-#. Default: "A category must be selected on this item so that it can be proposed"
+#. Default: "A category must be selected on this item so it may evolve in the workflow"
 msgid "required_category_ko"
-msgstr "A category must be selected on this item so that it can be proposed"
+msgstr "A category must be selected on this item so it may evolve in the workflow"
 
 #. Default: "Check the box if access to secret items must be restricted.  This will let only users for which an explicit access to the item has been given, access the item.  It will be the case so for members of the proposing groups, power users (Managers, MeetingManagers, power observers), copy groups and advisers.  Only activate this if necessary, it could be the case if you have a state where everything is accessible by everyone (like a 'published' state for items) but where you want 'secret' items not to be accessible by everyone."
 msgid "restrict_access_to_secret_items_descr"
