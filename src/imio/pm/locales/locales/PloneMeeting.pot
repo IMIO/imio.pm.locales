@@ -308,8 +308,16 @@ msgstr ""
 msgid "PloneMeeting_notes"
 msgstr ""
 
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "notes_descr"
+msgstr ""
+
 #. Default: "Assembly in and out movements"
 msgid "PloneMeeting_inAndOutMoves"
+msgstr ""
+
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "in_and_out_moves_descr"
 msgstr ""
 
 #. Default: "Observations"
@@ -923,6 +931,10 @@ msgstr ""
 
 #. Default: "Authority notice"
 msgid "PloneMeeting_label_authorityNotice"
+msgstr ""
+
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "authority_notice_descr"
 msgstr ""
 
 #. Default: "Meeting number (sequence number automatically attributed)"

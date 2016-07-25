@@ -1871,6 +1871,10 @@ msgstr "Attendees for this item"
 msgid "attendees_required"
 msgstr "Using attribute(s) 'excused' and/or 'absents' requires the use of attribute 'attendees'."
 
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "authority_notice_descr"
+msgstr ""
+
 #. Default: "Automatically linked items"
 msgid "auto_linked_items"
 msgstr "Automatically linked items"
@@ -2907,6 +2911,10 @@ msgstr "This item is again up the workflow"
 msgid "iconname_does_not_exist"
 msgstr "To use this functionnality, it is necessary that the icon '${iconname}' that will trigger the action exists.  Please creates it before continuing..."
 
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "in_and_out_moves_descr"
+msgstr ""
+
 #. Default: "You can not select another inserting method together with the 'At the end' inserting method."
 msgid "inserting_methods_at_the_end_not_alone_error"
 msgstr "You can not select another inserting method together with the 'At the end' inserting method."
@@ -3815,6 +3823,10 @@ msgstr "Not to be cloned to anywhere"
 #. Default: "Not to be send to authority"
 msgid "not_to_be_send_to_authority_term"
 msgstr "Not to be send to authority"
+
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "notes_descr"
+msgstr ""
 
 #. Default: "Nothing is defined on the meeting."
 msgid "nothing_defined_on_meeting"

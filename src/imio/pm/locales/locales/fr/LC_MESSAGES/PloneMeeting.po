@@ -1870,6 +1870,10 @@ msgstr "Présents pour ce point"
 msgid "attendees_required"
 msgstr "L'usage de(s) l'(les) attribut(s) 'excusés' et/ou 'absents' requiert celui de l'attribut 'présents'."
 
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "authority_notice_descr"
+msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
+
 #. Default: "Automatically linked items"
 msgid "auto_linked_items"
 msgstr "Point(s) lié(s) automatiquement"
@@ -2906,6 +2910,10 @@ msgstr "Ce point passe à nouveau par cette étape dans le workflow"
 msgid "iconname_does_not_exist"
 msgstr "Pour utiliser cette fonctionnalité, il est nécessaire que l'icône '${iconname}' qui sera utilisée pour déclencher l'action existe.  Veuillez la créer."
 
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "in_and_out_moves_descr"
+msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
+
 #. Default: "You can not select another inserting method together with the 'At the end' inserting method."
 msgid "inserting_methods_at_the_end_not_alone_error"
 msgstr "Si vous sélectionnez la méthode d'insertion 'A la fin de la séance', vous ne pouvez pas sélectionner d'autre méthode d'insertion."
@@ -3813,6 +3821,10 @@ msgstr "Pas à envoyer"
 #. Default: "Not to be send to authority"
 msgid "not_to_be_send_to_authority_term"
 msgstr "Pas à envoyer à la tutelle"
+
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "notes_descr"
+msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
 
 #. Default: "Nothing is defined on the meeting."
 msgid "nothing_defined_on_meeting"
