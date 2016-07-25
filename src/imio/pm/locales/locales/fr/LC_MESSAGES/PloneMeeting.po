@@ -1517,10 +1517,6 @@ msgstr "À faire"
 msgid "Toggle descriptions of items"
 msgstr "Afficher / masquer les détails des points dans les tableaux de recherche ou sur les séances"
 
-#. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
-msgid "change_advice_delay_descr"
-msgstr "Vous êtes sur le point de changer le délai de cet avis vers <span style='font-weight: bold;'>${new_advice_delay} jours</span>, veuillez entrer un commentaire."
-
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr "Vous êtes sur le point de changer le délai de cet avis pour ${new_advice_delay} jours, vous pouvez entrer un commentaire si nécessaire."
@@ -1998,6 +1994,10 @@ msgstr "Sélectionnez les groupes qui pourront utiliser cette catégorie.  Si to
 msgid "certified_signatures_descr"
 msgstr "Définissez ici les signatures certifiées conformes qui pourront être utilisées lors de la génération de divers documents.  Vous pouvez définir plusieurs lignes pour la même signature (même numéro) avec une période de validité différente.  Par numéro de signature, la première signature trouvée et valide sera utilisée."
 
+#. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
+msgid "change_advice_delay_descr"
+msgstr "Vous êtes sur le point de changer le délai de cet avis vers <span style='font-weight: bold;'>${new_advice_delay} jours</span>, veuillez entrer un commentaire."
+
 #. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
 msgid "change_completeness_comment"
 msgstr "Vous êtes sur le point de changer la complétude de ce point vers \"${completeness_value}\", vous pouvez ajouter un commentaire si nécessaire."
@@ -2326,6 +2326,10 @@ msgstr "Signatures définies sur la séance"
 #. Default: "Documents"
 msgid "doc"
 msgstr "Documents"
+
+#. Default: "Effective date into which item is presented"
+msgid "effective_meeting_help"
+msgstr "Date dans laquelle le point est effectivement présenté"
 
 #. Default: "Emergency accepted"
 msgid "emergency_accepted"
@@ -3730,6 +3734,10 @@ msgstr "Aucun modèle de point."
 msgid "no_meeting"
 msgstr "Pas de séance (visible) pour le moment."
 
+#. Default: "None"
+msgid "no_meeting_available"
+msgstr "Aucune"
+
 #. Default: "No meeting configuration is currently defined."
 msgid "no_meeting_config"
 msgstr "Aucune configuration de séance n'est actuellement définie."
@@ -4488,6 +4496,10 @@ msgstr "l'avis a été demandé après cette date."
 #. Default: "The voter himself"
 msgid "the_voter_himself"
 msgstr "Le votant lui-même"
+
+#. Default: "Theorical date into which item should be presented"
+msgid "theorical_meeting_help"
+msgstr "Date de séance théorique à laquelle le point devrait être présenté"
 
 #. Default: "This item is an oral question"
 msgid "this_item_is_an_oral_question"

@@ -1522,10 +1522,6 @@ msgstr "Por hacer"
 msgid "Toggle descriptions of items"
 msgstr "Descripciones de cambiar de temas"
 
-#. Default: "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
-msgid "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
-msgstr ""
-
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr ""
@@ -2006,6 +2002,10 @@ msgstr "Seleccione los grupos que serán capaces de utilizar esta categoría. Si
 msgid "certified_signatures_descr"
 msgstr "Defina aquí las firmas que serán usadas en las plantillas como firmas certificadas. Este campo, tendrá que ser actualizado periódicamente para que coincida con la situación existente este campo."
 
+#. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
+msgid "change_advice_delay_descr"
+msgstr ""
+
 #. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
 msgid "change_completeness_comment"
 msgstr ""
@@ -2335,6 +2335,10 @@ msgstr "firmas almacena en la reunión vinculada"
 #. Default: "Documents"
 msgid "doc"
 msgstr "Documentos"
+
+#. Default: "Effective date into which item is presented"
+msgid "effective_meeting_help"
+msgstr ""
 
 #. Default: "Emergency accepted"
 msgid "emergency_accepted"
@@ -3760,6 +3764,10 @@ msgstr ""
 msgid "no_meeting"
 msgstr "Sin reunión (visible) hasta el presente."
 
+#. Default: "None"
+msgid "no_meeting_available"
+msgstr ""
+
 #. Default: "No meeting configuration is currently defined."
 msgid "no_meeting_config"
 msgstr "Actualmente sin configuración de reunión definida."
@@ -4525,6 +4533,10 @@ msgstr "se solicitó al consejo después de esta fecha."
 #. Default: "The voter himself"
 msgid "the_voter_himself"
 msgstr "El mismo votante"
+
+#. Default: "Theorical date into which item should be presented"
+msgid "theorical_meeting_help"
+msgstr ""
 
 #. Default: "This item is an oral question"
 msgid "this_item_is_an_oral_question"

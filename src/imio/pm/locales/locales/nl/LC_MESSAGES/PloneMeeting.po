@@ -1519,10 +1519,6 @@ msgstr "To Do"
 msgid "Toggle descriptions of items"
 msgstr ""
 
-#. Default: "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
-msgid "You are about to change delay for this advice to ${new_advice_delay} days, are you sure to want to proceed?"
-msgstr ""
-
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr ""
@@ -2001,6 +1997,10 @@ msgstr ""
 msgid "certified_signatures_descr"
 msgstr ""
 
+#. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
+msgid "change_advice_delay_descr"
+msgstr ""
+
 #. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
 msgid "change_completeness_comment"
 msgstr ""
@@ -2329,6 +2329,10 @@ msgstr ""
 #. Default: "Documents"
 msgid "doc"
 msgstr "Documenten"
+
+#. Default: "Effective date into which item is presented"
+msgid "effective_meeting_help"
+msgstr ""
 
 #. Default: "Emergency accepted"
 msgid "emergency_accepted"
@@ -3743,6 +3747,10 @@ msgstr ""
 msgid "no_meeting"
 msgstr "Geen (zichtbare) vergadering momenteel."
 
+#. Default: "None"
+msgid "no_meeting_available"
+msgstr ""
+
 #. Default: "No meeting configuration is currently defined."
 msgid "no_meeting_config"
 msgstr "Geen vergaderingsconfiguratie wordt momenteel bepaald."
@@ -4501,6 +4509,10 @@ msgstr ""
 
 #. Default: "The voter himself"
 msgid "the_voter_himself"
+msgstr ""
+
+#. Default: "Theorical date into which item should be presented"
+msgid "theorical_meeting_help"
 msgstr ""
 
 #. Default: "This item is an oral question"
