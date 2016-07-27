@@ -1873,7 +1873,7 @@ msgstr "Using attribute(s) 'excused' and/or 'absents' requires the use of attrib
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "authority_notice_descr"
-msgstr ""
+msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 
 #. Default: "Automatically linked items"
 msgid "auto_linked_items"
@@ -2881,7 +2881,7 @@ msgstr "Refused"
 
 #. Default: "Removed"
 msgid "icon_help_removed"
-msgstr ""
+msgstr "Removed"
 
 #. Default: "Returned to proposing group for corrections"
 msgid "icon_help_returned_to_proposing_group"
@@ -2917,7 +2917,7 @@ msgstr "To use this functionnality, it is necessary that the icon '${iconname}' 
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "in_and_out_moves_descr"
-msgstr ""
+msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 
 #. Default: "You can not select another inserting method together with the 'At the end' inserting method."
 msgid "inserting_methods_at_the_end_not_alone_error"
@@ -3830,7 +3830,7 @@ msgstr "Not to be send to authority"
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "notes_descr"
-msgstr ""
+msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 
 #. Default: "Nothing is defined on the meeting."
 msgid "nothing_defined_on_meeting"
@@ -4861,7 +4861,7 @@ msgstr "Item pre-validation (reviewer may also prevalidate)"
 
 #. Default: "Removed"
 msgid "wa_removed"
-msgstr ""
+msgstr "Removed"
 
 #. Default: "You can not unselect the 'Archiving' adaptation, when selected, there is no way back."
 msgid "wa_removed_archiving_error"
@@ -4885,7 +4885,7 @@ msgstr "You can not unselect the 'Prevalidation' adaptation as there are still i
 
 #. Default: "You can not unselect the 'Removed' adaptation as there are still items in state 'removed'."
 msgid "wa_removed_removed_error"
-msgstr ""
+msgstr "You can not unselect the 'Removed' adaptation as there are still items in state 'removed'."
 
 #. Default: "You can not unselect the 'Return to proposing group' adaptation as there are still items in state 'returned to proposing group'."
 msgid "wa_removed_return_to_proposing_group_error"
