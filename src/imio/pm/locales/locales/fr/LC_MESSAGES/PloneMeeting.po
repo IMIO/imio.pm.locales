@@ -2878,6 +2878,10 @@ msgstr "L'échéance de validation pour publication dans cette séance n'a pas �
 msgid "icon_help_refused"
 msgstr "Refusé"
 
+#. Default: "Removed"
+msgid "icon_help_removed"
+msgstr "Retiré"
+
 #. Default: "Returned to proposing group for corrections"
 msgid "icon_help_returned_to_proposing_group"
 msgstr "Renvoyé au groupe proposant pour corrections"
@@ -4853,6 +4857,10 @@ msgstr "Pré-validation des points"
 msgid "wa_pre_validation_keep_reviewer_permissions"
 msgstr "Pré-validation des points (un validateur peut aussi pré-valider)"
 
+#. Default: "Removed"
+msgid "wa_removed"
+msgstr "Ajouter l'état de décision 'Retiré' sur un point"
+
 #. Default: "You can not unselect the 'Archiving' adaptation, when selected, there is no way back."
 msgid "wa_removed_archiving_error"
 msgstr "Vous ne pouvez pas déselctionner l'adaptation 'Archivage', une fois activé, il n'est plus possible de revenir en arrière."
@@ -4872,6 +4880,10 @@ msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Reporter le point à l
 #. Default: "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
 msgid "wa_removed_pre_validation_error"
 msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Pré-validation des points' car il reste des points dans l'état 'pré-validé'."
+
+#. Default: "You can not unselect the 'Removed' adaptation as there are still items in state 'removed'."
+msgid "wa_removed_removed_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Ajouter l'état de décision 'Retiré' sur un point' car il reste des points dans l'état 'Retiré'."
 
 #. Default: "You can not unselect the 'Return to proposing group' adaptation as there are still items in state 'returned to proposing group'."
 msgid "wa_removed_return_to_proposing_group_error"

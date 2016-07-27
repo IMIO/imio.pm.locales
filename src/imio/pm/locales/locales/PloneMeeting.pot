@@ -2399,6 +2399,10 @@ msgstr ""
 msgid "wa_removed_mark_not_applicable_error"
 msgstr ""
 
+#. Default: "You can not unselect the 'Removed' adaptation as there are still items in state 'removed'."
+msgid "wa_removed_removed_error"
+msgstr ""
+
 #. Default: "You can not unselect the 'Wait advices' adaptation as there are still items in state 'wait advices'."
 msgid "wa_removed_waiting_advices_error"
 msgstr ""
@@ -2437,6 +2441,10 @@ msgstr ""
 
 #. Default: "Mark not applicable"
 msgid "wa_mark_not_applicable"
+msgstr ""
+
+#. Default: "Removed"
+msgid "wa_removed"
 msgstr ""
 
 #. Default: "Item pre-validation (reviewer may also prevalidate)"
@@ -3887,6 +3895,10 @@ msgstr ""
 
 #. Default: "Marked not applicable"
 msgid "icon_help_marked_not_applicable"
+msgstr ""
+
+#. Default: "Removed"
+msgid "icon_help_removed"
 msgstr ""
 
 #. Default: "This item is again up the workflow"

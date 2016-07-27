@@ -2893,6 +2893,10 @@ msgstr "La fecha límite de validación para la publicación de la reunión no s
 msgid "icon_help_refused"
 msgstr "Negado"
 
+#. Default: "Removed"
+msgid "icon_help_removed"
+msgstr ""
+
 #. Default: "Returned to proposing group for corrections"
 msgid "icon_help_returned_to_proposing_group"
 msgstr "Volver a grupo proponente para correcciones"
@@ -4893,6 +4897,10 @@ msgstr "Pre-validación de tema"
 msgid "wa_pre_validation_keep_reviewer_permissions"
 msgstr ""
 
+#. Default: "Removed"
+msgid "wa_removed"
+msgstr ""
+
 #. Default: "You can not unselect the 'Archiving' adaptation, when selected, there is no way back."
 msgid "wa_removed_archiving_error"
 msgstr ""
@@ -4911,6 +4919,10 @@ msgstr ""
 
 #. Default: "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
 msgid "wa_removed_pre_validation_error"
+msgstr ""
+
+#. Default: "You can not unselect the 'Removed' adaptation as there are still items in state 'removed'."
+msgid "wa_removed_removed_error"
 msgstr ""
 
 #. Default: "You can not unselect the 'Return to proposing group' adaptation as there are still items in state 'returned to proposing group'."

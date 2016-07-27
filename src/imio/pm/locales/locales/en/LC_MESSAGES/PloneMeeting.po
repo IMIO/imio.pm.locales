@@ -2879,6 +2879,10 @@ msgstr "The validation deadline for meeting publication has not been respected"
 msgid "icon_help_refused"
 msgstr "Refused"
 
+#. Default: "Removed"
+msgid "icon_help_removed"
+msgstr ""
+
 #. Default: "Returned to proposing group for corrections"
 msgid "icon_help_returned_to_proposing_group"
 msgstr "Returned to proposing group for corrections"
@@ -4855,6 +4859,10 @@ msgstr "Item pre-validation"
 msgid "wa_pre_validation_keep_reviewer_permissions"
 msgstr "Item pre-validation (reviewer may also prevalidate)"
 
+#. Default: "Removed"
+msgid "wa_removed"
+msgstr ""
+
 #. Default: "You can not unselect the 'Archiving' adaptation, when selected, there is no way back."
 msgid "wa_removed_archiving_error"
 msgstr "You can not unselect the 'Archiving' adaptation, when selected, there is no way back."
@@ -4874,6 +4882,10 @@ msgstr "You can not unselect the 'Postpone next meeting' adaptation as there are
 #. Default: "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
 msgid "wa_removed_pre_validation_error"
 msgstr "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
+
+#. Default: "You can not unselect the 'Removed' adaptation as there are still items in state 'removed'."
+msgid "wa_removed_removed_error"
+msgstr ""
 
 #. Default: "You can not unselect the 'Return to proposing group' adaptation as there are still items in state 'returned to proposing group'."
 msgid "wa_removed_return_to_proposing_group_error"
