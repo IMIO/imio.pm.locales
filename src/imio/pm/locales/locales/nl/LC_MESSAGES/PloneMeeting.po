@@ -817,7 +817,7 @@ msgstr ""
 msgid "PloneMeeting_label_itemAutoSentToOtherMCStates"
 msgstr ""
 
-#. Default: "Item states in wich budget impact editors can change budgetary informations"
+#. Default: "Item states in which budget impact editors can change budgetary informations"
 msgid "PloneMeeting_label_itemBudgetInfosStates"
 msgstr ""
 
@@ -843,6 +843,10 @@ msgstr ""
 
 #. Default: "Description"
 msgid "PloneMeeting_label_itemDescription"
+msgstr ""
+
+#. Default: "Item states in which group in charge will have access to items of groups they have in charge"
+msgid "PloneMeeting_label_itemGroupInChargeStates"
 msgstr ""
 
 #. Default: "Item icon color"
@@ -873,7 +877,7 @@ msgstr "Nummer"
 msgid "PloneMeeting_label_itemPositiveDecidedStates"
 msgstr ""
 
-#. Default: "Item states in wich power observers can see the items"
+#. Default: "Item states in which power observers can see the items"
 msgid "PloneMeeting_label_itemPowerObserversStates"
 msgstr ""
 
@@ -881,7 +885,7 @@ msgstr ""
 msgid "PloneMeeting_label_itemReferenceFormat"
 msgstr "Formaat van het referentie item"
 
-#. Default: "Item states in wich restricted power observers can see the items"
+#. Default: "Item states in which restricted power observers can see the items"
 msgid "PloneMeeting_label_itemRestrictedPowerObserversStates"
 msgstr ""
 
@@ -1019,7 +1023,7 @@ msgstr "Opmerkingen"
 msgid "PloneMeeting_label_meetingObservations2"
 msgstr "Opmerkingen"
 
-#. Default: "Meeting states in wich power observers can see the meetings"
+#. Default: "Meeting states in which power observers can see the meetings"
 msgid "PloneMeeting_label_meetingPowerObserversStates"
 msgstr ""
 
@@ -1027,7 +1031,7 @@ msgstr ""
 msgid "PloneMeeting_label_meetingPresentItemWhenNoCurrentMeetingStates"
 msgstr ""
 
-#. Default: "Meeting states in wich restricted power observers can see the meetings"
+#. Default: "Meeting states in which restricted power observers can see the meetings"
 msgid "PloneMeeting_label_meetingRestrictedPowerObserversStates"
 msgstr ""
 
@@ -2217,11 +2221,11 @@ msgstr ""
 msgid "custom_adviser_wrong_delay_format"
 msgstr ""
 
-#. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices. <span style='color: red';>If you change this parameter, and any of your change affect already created items (new configuration with a 'Rule activated for item created from' date in the past or change in help messages already used for example), do not forget to run 'Update items and meetings'!</span>"
+#. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices. <span style='color: red;'>If you change this parameter, and any of your change affect already created items (new configuration with a 'Rule activated for item created from' date in the past or change in help messages already used for example), do not forget to run 'Update items and meetings'!</span>"
 msgid "custom_advisers_descr"
 msgstr ""
 
-#. Default: "<p>This part of the configuration lets you configure special behaviors around advices.</p><p>You will be able to define :</p><ul><li><strong>advices requested automatically by the application</strong> : under certain conditions, if a defined expression is True, an advice will be automatically asked by the application on an item.  You can also define a special help message that will help the user to find out why this advice was automatically asked and a date from wich newly created items will be affected by this new condiguration;</li><li><strong>advices with concept of delay</strong> : this allows you to define special advices that the user will be able to ask thru the user interface (or will be requested automatically).  An advice so defined has a notion of delay (time in clear day) which means that once applied and visible to the group to whom the advice is requested, it must be given within limit. Once this period has passed, the advice can not be given anymore.</li></ul><p> If a configuration is in use (some created items are using it), it will not be possible to change logical values for it (columns 'Group', 'Advice will be automatically asked if', 'Gives automatic advice for item created from', 'Gives automatic advice for item created until' and 'Delay for giving advice').</p>"
+#. Default: "<p>This part of the configuration lets you configure special behaviors around advices.</p><p>You will be able to define :</p><ul><li><strong>advices requested automatically by the application</strong> : under certain conditions, if a defined expression is True, an advice will be automatically asked by the application on an item.  You can also define a special help message that will help the user to find out why this advice was automatically asked and a date from which newly created items will be affected by this new condiguration;</li><li><strong>advices with concept of delay</strong> : this allows you to define special advices that the user will be able to ask thru the user interface (or will be requested automatically).  An advice so defined has a notion of delay (time in clear day) which means that once applied and visible to the group to whom the advice is requested, it must be given within limit. Once this period has passed, the advice can not be given anymore.</li></ul><p> If a configuration is in use (some created items are using it), it will not be possible to change logical values for it (columns 'Group', 'Advice will be automatically asked if', 'Gives automatic advice for item created from', 'Gives automatic advice for item created until' and 'Delay for giving advice').</p>"
 msgid "custom_advisers_full_descr"
 msgstr ""
 
@@ -2310,7 +2314,7 @@ msgstr ""
 msgid "delay_of_x_days"
 msgstr ""
 
-#. Default: "Select here the days a computed delay can not ends with.  If a computed delay is ending on one of selected week day, the delay will be extend to next available day.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "Select here the days a computed delay can not ends with.  If a computed delay is ending on one of selected week day, the delay will be extend to next available day.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "delay_unavailable_end_days_descr"
 msgstr ""
 
@@ -2370,7 +2374,7 @@ msgstr ""
 msgid "enable_annex_confidentiality_descr"
 msgstr ""
 
-#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red;'>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
 msgstr ""
 
@@ -2655,23 +2659,23 @@ msgstr "Ga naar vorige"
 msgid "group_certified_signatures_descr"
 msgstr ""
 
-#. Default: "Select here the group that is in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red';>If you change this parameter, and items have been created after a 'Date to' you specified, please run 'Update items and meetings'!</span>"
+#. Default: "Select here the group that is in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>If you change this parameter and you defined 'States in which groups in charge have access to items of the groups they have in charge' in the configuration, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_in_charge_descr"
 msgstr ""
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_item_advice_edit_states_descr"
 msgstr ""
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to add an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to add an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_item_advice_states_descr"
 msgstr ""
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for an adviser selected on this item to continue to view the item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible for an adviser selected on this item to continue to view the item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_item_advice_view_states_descr"
 msgstr ""
 
-#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_keep_access_to_item_when_advice_is_given_descr"
 msgstr ""
 
@@ -2757,7 +2761,7 @@ msgstr ""
 msgid "holidays_date_not_ascending_error"
 msgstr ""
 
-#. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter and modified dates are interacting with some existing advice delays, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "These dates will be used to compute advices delays.  <span style='color: red;'>If you change this parameter and modified dates are interacting with some existing advice delays, do not forget to run 'Update items and meetings'!</span>"
 msgid "holidays_descr"
 msgstr ""
 
@@ -3017,7 +3021,7 @@ msgstr ""
 msgid "item_actions_interface_descr"
 msgstr ""
 
-#. Default: "When an item is in one of the states you choose here, it will be possible to modify or delete an advice on this item.  States defined here must contains at least every states defined in the 'Item states allowing to define advices' field here above.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible to modify or delete an advice on this item.  States defined here must contains at least every states defined in the 'Item states allowing to define advices' field here above.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_advice_edit_states_descr"
 msgstr ""
 
@@ -3025,11 +3029,11 @@ msgstr ""
 msgid "item_advice_invalidate_states"
 msgstr ""
 
-#. Default: "When an item is in one of the states you choose here, it will be possible to add an advice on this item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible to add an advice on this item.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_advice_states_descr"
 msgstr ""
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for groups the advice is asked for, to continue to view the item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible for groups the advice is asked for, to continue to view the item.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_advice_view_states_descr"
 msgstr ""
 
@@ -3053,7 +3057,7 @@ msgstr ""
 msgid "item_auto_sent_to_other_mc_states_descr"
 msgstr ""
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_budget_infos_states_descr"
 msgstr ""
 
@@ -3086,7 +3090,7 @@ msgstr ""
 msgid "item_conditions_interface_descr"
 msgstr "On the item workflow, some boolean expressions guard the execution of the transitions from one state to another. Those conditions, together with other conditions useful at various levels within PloneMeeting, are defined as methods of a Python interface. You can modify those conditions at will, through the development of another Plone product into which you must: <ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions are documented."
 
-#. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_copygroups_states_descr"
 msgstr ""
 
@@ -3114,7 +3118,11 @@ msgstr ""
 msgid "item_duplicated_and_link_kept"
 msgstr ""
 
-#. Default: "This icon is shown in different places where different kind of item (college, council, ...) are shown together.  This is the case in the full text quick search displayed up right in the application, when selecting manually linked items or viewing linked items on the item view.  <span style='color: red';>If you change this parameter, this will update the icon of each created items of this meeting configuration and this could take some time depending on number of items.  Do not change this during high use period!</span>"
+#. Default: "When an item is in one of the states you choose here, the Plone subgroup 'observers' of the group in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+msgid "item_group_in_charge_states_descr"
+msgstr ""
+
+#. Default: "This icon is shown in different places where different kind of item (college, council, ...) are shown together.  This is the case in the full text quick search displayed up right in the application, when selecting manually linked items or viewing linked items on the item view.  <span style='color: red;'>If you change this parameter, this will update the icon of each created items of this meeting configuration and this could take some time depending on number of items.  Do not change this during high use period!</span>"
 msgid "item_icon_color_descr"
 msgstr ""
 
@@ -3162,7 +3170,7 @@ msgstr ""
 msgid "item_positive_decided_states_descr"
 msgstr ""
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_powerobservers_states_descr"
 msgstr ""
 
@@ -3174,7 +3182,7 @@ msgstr ""
 msgid "item_reference_format_descr"
 msgstr "A reference is associated to every item. The reference format can be defined here, as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted item. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the item.  Theorically, there will be fewer states selected here than states selected in the <i>'Item states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the item.  Theorically, there will be fewer states selected here than states selected in the <i>'Item states in which power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_restricted_powerobservers_states_descr"
 msgstr ""
 
@@ -3232,7 +3240,7 @@ msgstr "The page that displays a meeting contains potentially several tables fil
 msgid "items_list_visible_fields_descr"
 msgstr ""
 
-#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "keep_access_to_item_when_advice_is_given_descr"
 msgstr ""
 
@@ -3502,7 +3510,7 @@ msgstr ""
 msgid "meeting_of"
 msgstr "Vergadering van"
 
-#. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "meeting_powerobservers_states_descr"
 msgstr ""
 
@@ -3510,7 +3518,7 @@ msgstr ""
 msgid "meeting_present_item_when_no_current_meeting_states_descr"
 msgstr ""
 
-#. Default: "When a meeting is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the meeting.  Theorically, there will be fewer states selected here than states selected in the <i>'Meeting states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When a meeting is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the meeting.  Theorically, there will be fewer states selected here than states selected in the <i>'Meeting states in which power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "meeting_restricted_powerobservers_states_descr"
 msgstr ""
 
@@ -3596,7 +3604,7 @@ msgstr ""
 msgid "meeting_user_usages_descr"
 msgstr ""
 
-#. Default: "<p class=\"discreet\">While activated (by selecting 'attendees', 'absents', 'excused', 'lateAttendees' and 'signatories' as used meeting attributes in the 'data' tab), assemblies and signatures on items and meetings are managed here.</p><p class=\"discreet\">Management options are defined like this :</p><ul class=\"discreet\"><li>assembly members on a meeting or an item will use MeetingUsers having the 'assembly member' usage;</li><li>signatories on a meeting or an item will use MeetingUsers habing the 'signatory' usage;</li><li>voters on an item (if relevant functionnality is activated in the 'votes' tab) will use MeetingUsers having the 'voter' usage;</li><li>certified signatures on an item will be generated by returning every MeetingUsers having the 'signatory' usage and being a 'default signature';</li><li>item initiators (if relevant field is activated on the item) will use MeetingUsers having the 'initiator' usage.</li></ul><p class=\"discreet\">If you deactivate a MeetingUsers, older meetings and items for wich this MeetingUser was selected will still behave correctly but it will not be selectable anymore for existing and new meetings and items.</p>"
+#. Default: "<p class=\"discreet\">While activated (by selecting 'attendees', 'absents', 'excused', 'lateAttendees' and 'signatories' as used meeting attributes in the 'data' tab), assemblies and signatures on items and meetings are managed here.</p><p class=\"discreet\">Management options are defined like this :</p><ul class=\"discreet\"><li>assembly members on a meeting or an item will use MeetingUsers having the 'assembly member' usage;</li><li>signatories on a meeting or an item will use MeetingUsers habing the 'signatory' usage;</li><li>voters on an item (if relevant functionnality is activated in the 'votes' tab) will use MeetingUsers having the 'voter' usage;</li><li>certified signatures on an item will be generated by returning every MeetingUsers having the 'signatory' usage and being a 'default signature';</li><li>item initiators (if relevant field is activated on the item) will use MeetingUsers having the 'initiator' usage.</li></ul><p class=\"discreet\">If you deactivate a MeetingUsers, older meetings and items for which this MeetingUser was selected will still behave correctly but it will not be selectable anymore for existing and new meetings and items.</p>"
 msgid "meeting_users_descr"
 msgstr ""
 
@@ -4217,7 +4225,7 @@ msgstr "You manage here predefined items that will serve, for different purposes
 msgid "refresh_votes"
 msgstr ""
 
-#. Default: "Define here for wich kind of annex this type of annex applies."
+#. Default: "Define here for which kind of annex this type of annex applies."
 msgid "related_to_descr"
 msgstr ""
 
@@ -4688,7 +4696,7 @@ msgstr ""
 msgid "use_copies_descr"
 msgstr ""
 
-#. Default: "For every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red';>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because 'living' items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
+#. Default: "For every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red;'>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because 'living' items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
 #, fuzzy
 msgid "use_groups_as_categories_descr"
 msgstr "In PloneMeeting, for every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the PloneMeeting groups do correspond to your categories, and that you don't need one more categorization scheme, check the box."
@@ -4953,11 +4961,11 @@ msgstr ""
 msgid "workflow"
 msgstr "Werkschema's"
 
-#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red';>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check groups, and if necessary when permissions changed, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red;'>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check groups, and if necessary when permissions changed, do not forget to run 'Update items and meetings'!</span>"
 msgid "workflow_adaptations_descr"
 msgstr ""
 
-#. Default: "This will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "This will be used to compute advices delays.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "working_days_descr"
 msgstr ""
 

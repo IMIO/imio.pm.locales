@@ -816,7 +816,7 @@ msgstr "Excusés pour ce point"
 msgid "PloneMeeting_label_itemAutoSentToOtherMCStates"
 msgstr "Etats dans lesquels un point sera automatiquement envoyé vers les autres configurations de séances"
 
-#. Default: "Item states in wich budget impact editors can change budgetary informations"
+#. Default: "Item states in which budget impact editors can change budgetary informations"
 msgid "PloneMeeting_label_itemBudgetInfosStates"
 msgstr "Etats des points dans lesquels les 'Gestionnaires d'informations budgétaires' peuvent modifier les informations budgétaires"
 
@@ -843,6 +843,10 @@ msgstr "Etats des points décidés"
 #. Default: "Description"
 msgid "PloneMeeting_label_itemDescription"
 msgstr "Description"
+
+#. Default: "Item states in which group in charge will have access to items of groups they have in charge"
+msgid "PloneMeeting_label_itemGroupInChargeStates"
+msgstr "Etats des points dans lesquels les 'Groupes en charge' peuvent les voir"
 
 #. Default: "Item icon color"
 msgid "PloneMeeting_label_itemIconColor"
@@ -872,7 +876,7 @@ msgstr "Numéro"
 msgid "PloneMeeting_label_itemPositiveDecidedStates"
 msgstr "Etats des points décidés positivement"
 
-#. Default: "Item states in wich power observers can see the items"
+#. Default: "Item states in which power observers can see the items"
 msgid "PloneMeeting_label_itemPowerObserversStates"
 msgstr "Etats des points dans lesquels les 'Super observateurs' peuvent les voir"
 
@@ -880,7 +884,7 @@ msgstr "Etats des points dans lesquels les 'Super observateurs' peuvent les voir
 msgid "PloneMeeting_label_itemReferenceFormat"
 msgstr "Format de la référence d'un point"
 
-#. Default: "Item states in wich restricted power observers can see the items"
+#. Default: "Item states in which restricted power observers can see the items"
 msgid "PloneMeeting_label_itemRestrictedPowerObserversStates"
 msgstr "Etats des points dans lesquels les 'Super observateurs restreints' peuvent les voir"
 
@@ -1017,7 +1021,7 @@ msgstr "Observations"
 msgid "PloneMeeting_label_meetingObservations2"
 msgstr "Observations"
 
-#. Default: "Meeting states in wich power observers can see the meetings"
+#. Default: "Meeting states in which power observers can see the meetings"
 msgid "PloneMeeting_label_meetingPowerObserversStates"
 msgstr "Etats des séances dans lesquels les 'Super observateurs' peuvent les voir"
 
@@ -1025,7 +1029,7 @@ msgstr "Etats des séances dans lesquels les 'Super observateurs' peuvent les vo
 msgid "PloneMeeting_label_meetingPresentItemWhenNoCurrentMeetingStates"
 msgstr "Etats des séances pris en compte pour déterminer la séance dans laquelle doit être présenté un point (lorsque le gestionnaire de séance n'est pas sur une séance)"
 
-#. Default: "Meeting states in wich restricted power observers can see the meetings"
+#. Default: "Meeting states in which restricted power observers can see the meetings"
 msgid "PloneMeeting_label_meetingRestrictedPowerObserversStates"
 msgstr "Etats des séances dans lesquels les 'Super observateurs restreints' peuvent les voir"
 
@@ -2214,11 +2218,11 @@ msgstr "Il y a un problème avec une des dates encodées pour le groupe '${group
 msgid "custom_adviser_wrong_delay_format"
 msgstr "Il y a un problème avec un délai encodé dans les colonnes 'Délai pour rendre l'avis' ou 'Seuil d'alerte pour le délai', vérifiez les valeurs encodées pour le groupe ${groupName}, le champ ne peut contenir qu'un chiffre ou être vide."
 
-#. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices. <span style='color: red';>If you change this parameter, and any of your change affect already created items (new configuration with a 'Rule activated for item created from' date in the past or change in help messages already used for example), do not forget to run 'Update items and meetings'!</span>"
+#. Default: "Define here special behaviors for some advices : advices that are automatically asked by the application and delay aware advices. <span style='color: red;'>If you change this parameter, and any of your change affect already created items (new configuration with a 'Rule activated for item created from' date in the past or change in help messages already used for example), do not forget to run 'Update items and meetings'!</span>"
 msgid "custom_advisers_descr"
-msgstr "Définissez ici les avis particuliers : les avis demandés automatiquement par l'application et les avis ayant une notion de délai. <span style='color: red';>Si vous changez ce paramètre et que l'un des changements impacte des points déjà créés (nouvelle règle avec une date 'Configuration active pour les points créés depuis le' dans le passé ou un changement de 'Message d'aide' pour une configuration déjà utilisée par exemple), n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Définissez ici les avis particuliers : les avis demandés automatiquement par l'application et les avis ayant une notion de délai. <span style='color: red;'>Si vous changez ce paramètre et que l'un des changements impacte des points déjà créés (nouvelle règle avec une date 'Configuration active pour les points créés depuis le' dans le passé ou un changement de 'Message d'aide' pour une configuration déjà utilisée par exemple), n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
-#. Default: "<p>This part of the configuration lets you configure special behaviors around advices.</p><p>You will be able to define :</p><ul><li><strong>advices requested automatically by the application</strong> : under certain conditions, if a defined expression is True, an advice will be automatically asked by the application on an item.  You can also define a special help message that will help the user to find out why this advice was automatically asked and a date from wich newly created items will be affected by this new condiguration;</li><li><strong>advices with concept of delay</strong> : this allows you to define special advices that the user will be able to ask thru the user interface (or will be requested automatically).  An advice so defined has a notion of delay (time in clear day) which means that once applied and visible to the group to whom the advice is requested, it must be given within limit. Once this period has passed, the advice can not be given anymore.</li></ul><p> If a configuration is in use (some created items are using it), it will not be possible to change logical values for it (columns 'Group', 'Advice will be automatically asked if', 'Gives automatic advice for item created from', 'Gives automatic advice for item created until' and 'Delay for giving advice').</p>"
+#. Default: "<p>This part of the configuration lets you configure special behaviors around advices.</p><p>You will be able to define :</p><ul><li><strong>advices requested automatically by the application</strong> : under certain conditions, if a defined expression is True, an advice will be automatically asked by the application on an item.  You can also define a special help message that will help the user to find out why this advice was automatically asked and a date from which newly created items will be affected by this new condiguration;</li><li><strong>advices with concept of delay</strong> : this allows you to define special advices that the user will be able to ask thru the user interface (or will be requested automatically).  An advice so defined has a notion of delay (time in clear day) which means that once applied and visible to the group to whom the advice is requested, it must be given within limit. Once this period has passed, the advice can not be given anymore.</li></ul><p> If a configuration is in use (some created items are using it), it will not be possible to change logical values for it (columns 'Group', 'Advice will be automatically asked if', 'Gives automatic advice for item created from', 'Gives automatic advice for item created until' and 'Delay for giving advice').</p>"
 msgid "custom_advisers_full_descr"
 msgstr "<p>Cette partie de la configuration vous permet de définir certains comportements particuliers liés aux avis.</p><p>Il vous sera possible de définir:</p><ul><li><strong>des avis automatiquement demandés par l'application</strong> : sous certaines conditions si une expression renseignée est vérifiée (True), un avis sera automatiquement demandé par l'application sur un point.  Vous pourrez également définir un message d'aide qui permettra à un utilisateur de savoir pourquoi cet avis a été automatiquement demandé ainsi qu'une date à partir de laquelle les points nouvellement créés seront affectés par cette configuration;</li><li><strong>des avis ayant une notion de délai</strong> : ceci vous permet de définir des avis que l'utilisateur pourra demander manuellement dans l'application (ou qui seront demandés automatiquement).  Un avis défini de la sorte aura une notion de délai ce qui signifie qu'une fois demandé et visible par le groupe à qui l'avis est demandé, il devra être rendu dans le délai imparti (en jours calendriers).  Une fois ce délai dépassé, l'avis ne pourra plus être rendu.</li></ul><p>Si une configuration est utilisée (des points créés l'utilisent), les données logiques ne pourront plus être modifiées (colonnes 'Groupes', 'L'avis sera automatiquement demandé si', 'Configuration active pour les points créés depuis le' et 'Délai pour rendre l'avis').</p>"
 
@@ -2307,9 +2311,9 @@ msgstr "à ce moment, il restait ${delay_when_stopped} jour(s) pour rendre l'avi
 msgid "delay_of_x_days"
 msgstr "Délai de ${delay} jour(s)"
 
-#. Default: "Select here the days a computed delay can not ends with.  If a computed delay is ending on one of selected week day, the delay will be extend to next available day.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "Select here the days a computed delay can not ends with.  If a computed delay is ending on one of selected week day, the delay will be extend to next available day.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "delay_unavailable_end_days_descr"
-msgstr "Sélectionnez les jours indisponibles comme dernier jour d'un délai.  Si un délai calculé tombe sur un des jours sélectionnés, le délai sera automatiquement prolongé au prochain jour disponible.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Sélectionnez les jours indisponibles comme dernier jour d'un délai.  Si un délai calculé tombe sur un des jours sélectionnés, le délai sera automatiquement prolongé au prochain jour disponible.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 msgid "description_only_see_visible_items"
@@ -2367,9 +2371,9 @@ msgstr "Quand l'invalidation des avis est activée, tout changement sur un point
 msgid "enable_annex_confidentiality_descr"
 msgstr "Si vous activez la confidentialité des annexes, il sera possible pour les gestionnaires de séances de définir pour chaque annexe si elle est confidentielle ou non.  Cette information ne sera visible que par les gestionnaires de séances.  Il sera aussi possible de définir une valeur par défaut pour ce champ sur les types d'annexes."
 
-#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red';>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red;'>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "enable_annex_preview_descr"
-msgstr "Si la prévisualisation est activée, les annexes seront converties dans un format qui pourra être lu par le navigateur web.  Ceci évite les problèmes de logiciel manquant pour ouvrir une annexe (plus besoin de Word pour ouvrir un .doc, plus besoin d'Acrobat Reader pour ouvrir un .pdf, ...).  <span style='color: red';>Si vous activez la prévisualisation sur un site contenant déjà des points et annexes, n'oubliez pas de lancer la procédure de conversion des annexes!</span>"
+msgstr "Si la prévisualisation est activée, les annexes seront converties dans un format qui pourra être lu par le navigateur web.  Ceci évite les problèmes de logiciel manquant pour ouvrir une annexe (plus besoin de Word pour ouvrir un .doc, plus besoin d'Acrobat Reader pour ouvrir un .pdf, ...).  <span style='color: red;'>Si vous activez la prévisualisation sur un site contenant déjà des points et annexes, n'oubliez pas de lancer la procédure de conversion des annexes!</span>"
 
 #. Default: "Let the user specify if an annex needs to be printed or not.  Annex to print may be 'for information', this will just show on the annex that it is to print and relevant users may print these annexes manually, or it can be 'for automated printing', in this case, printable formats are generated when an annex is set 'to print' so the application may print these annexes in documents.  If you choose this last option, it is necessary to set up a engine that will convert annexes to printable formats asynchronously so users do not have to wait during annexes conversion.  Be careful, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
 msgid "enable_annex_to_print_descr"
@@ -2652,25 +2656,25 @@ msgstr "Consulter les ${number} éléments précédents"
 msgid "group_certified_signatures_descr"
 msgstr "Si vous spécifiez des signatures dans ce champ, elle seront utilisées pour les points proposés par ce groupe, si le champ est vide, les signatures définies dans la configuration de séance seront utilisées.  Vous pouvez redéfinir partiellement les signatures, par exemple, si vous ne redéfinissez que la signature numéro '2', la signature numéro '1' définie sur la configuration de séance sera utilisée."
 
-#. Default: "Select here the group that is in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red';>If you change this parameter, and items have been created after a 'Date to' you specified, please run 'Update items and meetings'!</span>"
+#. Default: "Select here the group that is in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>If you change this parameter and you defined 'States in which groups in charge have access to items of the groups they have in charge' in the configuration, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_in_charge_descr"
-msgstr "Sélectionnez le groupe en charge de ce groupe.  Cette information pourra être affichée sur un document ou pourra être utilisée dans le champ ' Méthode(s) de tri lors de l'ajout d'un point dans une séance' des configurations de séance.  <span style='color: red';>Si vous modifiez ce paramètre et que des points ont été créés après la date 'Valide jusqu'au (inclus)' renseignée, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Sélectionnez le groupe en charge de ce groupe.  Cette information pourra être affichée sur un document ou pourra être utilisée dans le champ ' Méthode(s) de tri lors de l'ajout d'un point dans une séance' des configurations de séance.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_item_advice_edit_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour un aviseur de ce groupe de modifier ou supprimer un avis donné. Si vous ne spécifiez aucun état ici, une liste d'états globale à tous les groupes, définie au niveau de la configuration de séance, sera utilisée à la place.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour un aviseur de ce groupe de modifier ou supprimer un avis donné. Si vous ne spécifiez aucun état ici, une liste d'états globale à tous les groupes, définie au niveau de la configuration de séance, sera utilisée à la place.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to add an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to add an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_item_advice_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour un aviseur de ce groupe de donner un avis. Si vous ne spécifiez aucun état ici, une liste d'états globale à tous les groupes, définie au niveau de la configuration de séance, sera utilisée à la place.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour un aviseur de ce groupe de donner un avis. Si vous ne spécifiez aucun état ici, une liste d'états globale à tous les groupes, définie au niveau de la configuration de séance, sera utilisée à la place.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for an adviser selected on this item to continue to view the item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible for an adviser selected on this item to continue to view the item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_item_advice_view_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour un aviseur sélectionné sur ce point de voir le point. Si vous ne spécifiez aucun état ici, une liste d'états globale à tous les groupes, définie au niveau de la configuration de séance, sera utilisée à la place.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour un aviseur sélectionné sur ce point de voir le point. Si vous ne spécifiez aucun état ici, une liste d'états globale à tous les groupes, définie au niveau de la configuration de séance, sera utilisée à la place.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
-#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_keep_access_to_item_when_advice_is_given_descr"
-msgstr "Lorsqu'un avis a été rendu sur un point, le point restera visible par les émetteurs d'avis quel que soit l'état du point.  Ceci permet de surcharger le paramètre du même nom défini sur la configuration de séance (onglet 'Avis et accès') pour ce groupe si nécessaire.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Lorsqu'un avis a été rendu sur un point, le point restera visible par les émetteurs d'avis quel que soit l'état du point.  Ceci permet de surcharger le paramètre du même nom défini sur la configuration de séance (onglet 'Avis et accès') pour ce groupe si nécessaire.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "User interface"
 msgid "gui"
@@ -2754,9 +2758,9 @@ msgstr "Voir la dernière version (non colorisée)"
 msgid "holidays_date_not_ascending_error"
 msgstr "Les dates doivent être définies de manière ascendante, de la plus ancienne à la plus récente."
 
-#. Default: "These dates will be used to compute advices delays.  <span style='color: red';>If you change this parameter and modified dates are interacting with some existing advice delays, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "These dates will be used to compute advices delays.  <span style='color: red;'>If you change this parameter and modified dates are interacting with some existing advice delays, do not forget to run 'Update items and meetings'!</span>"
 msgid "holidays_descr"
-msgstr "Ces dates seront utilisées lors du calcul des délais des avis.  <span style='color: red';>Si vous modifiez ce paramètre et que les dates modifiées peuvent changer le délai d'un avis existant, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Ces dates seront utilisées lors du calcul des délais des avis.  <span style='color: red;'>Si vous modifiez ce paramètre et que les dates modifiées peuvent changer le délai d'un avis existant, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "You removed a date that is currently in use!"
 msgid "holidays_removed_date_in_use_error"
@@ -3014,21 +3018,21 @@ msgstr "${meetingConfigTitle} - Un de vos points : '${itemTitle}', a été retir
 msgid "item_actions_interface_descr"
 msgstr "A l'instar du champ précédent, toutes les actions qui sont déclenchées lorsqu'un point passe d'un état à un autre sont configurables via le développement d'un produit Plone tiers dans lequel vous devez:<ul><li>créer une interface Python qui hérite de l'interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions (c'est le nom complet de cette interface que vous devez spécifier dans ce champ);</li><li>créer et déclarer en ZCML un adapter qui adapte l'interface Products.PloneMeeting.interfaces.IMeetingItem vers l'interface que vous avez définie au point précédent.</li></ul>Vous pouvez faire hériter votre adapter de l'adapter par défaut Products.PloneMeeting.MeetingItem.MeetingItemWorkflowActions: cela vous permettra de remplacer ou overrider uniquement les méthodes pour lesquelles vous voulez un comportement différent. Toutes les méthodes proposées par l'interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions sont documentées."
 
-#. Default: "When an item is in one of the states you choose here, it will be possible to modify or delete an advice on this item.  States defined here must contains at least every states defined in the 'Item states allowing to define advices' field here above.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible to modify or delete an advice on this item.  States defined here must contains at least every states defined in the 'Item states allowing to define advices' field here above.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_advice_edit_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible de modifier ou supprimer un avis donné.  Attention, les états sélectionnés ici doivent reprendre au moins tous les états définis dans le champ 'Etats des points dans lesquels on peut donner un avis' ci-dessus.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible de modifier ou supprimer un avis donné.  Attention, les états sélectionnés ici doivent reprendre au moins tous les états définis dans le champ 'Etats des points dans lesquels on peut donner un avis' ci-dessus.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "When advice invalidation is enabled, it will be the case only for items which are in one of the states selected here."
 msgid "item_advice_invalidate_states"
 msgstr "Quand l'invalidation des avis est activée, cela l'est uniquement pour les points qui sont dans un des états sélectionnés ici."
 
-#. Default: "When an item is in one of the states you choose here, it will be possible to add an advice on this item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible to add an advice on this item.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_advice_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible de donner un avis.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible de donner un avis.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for groups the advice is asked for, to continue to view the item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible for groups the advice is asked for, to continue to view the item.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_advice_view_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera toujours visible par les utilisateurs auxquels un avis est demandé sur le point.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera toujours visible par les utilisateurs auxquels un avis est demandé sur le point.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "Assembly for the item"
 msgid "item_assembly"
@@ -3050,9 +3054,9 @@ msgstr "Si vous ne remplissez pas ce champ, les excusés définis sur le point s
 msgid "item_auto_sent_to_other_mc_states_descr"
 msgstr "Dès qu'un point sera dans un des états cochés ci-dessous, il sera automatiquement envoyé vers les configurations de séances sélectionnées sur celui-ci."
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible for budget impact editors to edit the budgetary informations.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_budget_infos_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour les utilisateurs qui sont dans le groupe de 'Gestionnaires d'informations budgétaires' de cette configuration de séance de modifier les informations budgétaires.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour les utilisateurs qui sont dans le groupe de 'Gestionnaires d'informations budgétaires' de cette configuration de séance de modifier les informations budgétaires.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "Check this box to display a field where you will be able to encode budgetary informations."
 msgid "item_budget_related_descr"
@@ -3082,9 +3086,9 @@ msgstr "Spécifiez ici le niveau de complétude de ce point.  Si vous sélection
 msgid "item_conditions_interface_descr"
 msgstr "Sur le workflow gouvernant les points, une série d'expressions booléennes conditionnent l'exécution des transitions entre états. Ces conditions, ainsi que d'autres conditions utiles à divers niveaux sont définies en tant que méthodes d'une interface Python. Vous pouvez modifier comme vous le voulez ces conditions, via le développement d'un produit Plone tiers dans lequel vous devez:<ul><li>créer une interface Python qui hérite de l'interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (c'est le nom complet de cette interface que vous devez spécifier dans ce champ);</li><li>créer et déclarer en ZCML un adapter qui adapte l'interface Products.PloneMeeting.interfaces.IMeetingItem vers l'interface que vous avez définie au point précédent.</li></ul>Vous pouvez faire hériter votre adapter de l'adapter par défaut Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: cela vous permettra d'overrider uniquement les méthodes pour lesquelles vous voulez un comportement différent. Toutes les méthodes proposées par l'interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions sont documentées."
 
-#. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_copygroups_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les groupes qui sont mis \"en copie\" du point. <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les groupes qui sont mis \"en copie\" du point. <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "If you check this box, item creators will only be able to create new items using an item template, no more item from scratch."
 msgid "item_created_only_using_template_descr"
@@ -3110,9 +3114,13 @@ msgstr "Point dupliqué : vous voyez actuellement le nouveau point."
 msgid "item_duplicated_and_link_kept"
 msgstr "Point dupliqué et lien vers le point original gardé : vous voyez actuellement le nouveau point."
 
-#. Default: "This icon is shown in different places where different kind of item (college, council, ...) are shown together.  This is the case in the full text quick search displayed up right in the application, when selecting manually linked items or viewing linked items on the item view.  <span style='color: red';>If you change this parameter, this will update the icon of each created items of this meeting configuration and this could take some time depending on number of items.  Do not change this during high use period!</span>"
+#. Default: "When an item is in one of the states you choose here, the Plone subgroup 'observers' of the group in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+msgid "item_group_in_charge_states_descr"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par le sous-groupe 'observateurs' du groupe en charge du groupe proposant sélectionné sur le point.  <span style='color: red;'>Attention, seul le groupe actuellement en charge du groupe proposant aura accès aux points.  Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+
+#. Default: "This icon is shown in different places where different kind of item (college, council, ...) are shown together.  This is the case in the full text quick search displayed up right in the application, when selecting manually linked items or viewing linked items on the item view.  <span style='color: red;'>If you change this parameter, this will update the icon of each created items of this meeting configuration and this could take some time depending on number of items.  Do not change this during high use period!</span>"
 msgid "item_icon_color_descr"
-msgstr "Cette icône est affichée à différents endroits de l'application où des points de plusieurs configuration de séances sont affichés ensemble, ceci permet de les différencier, par exemple lors de l'utilisation de la recherche plein texte disponible en haut à droite de l'écran de l'application, ou dans la gestion des points liés.  <span style='color: red';>Attention, si vous changez ce paramètre, l'icône des points existants sera mise à jour, ceci peut prendre du temps en fonction du nombre de points, ne pas changer ce paramètre dans une période de forte utilisation!</span>"
+msgstr "Cette icône est affichée à différents endroits de l'application où des points de plusieurs configuration de séances sont affichés ensemble, ceci permet de les différencier, par exemple lors de l'utilisation de la recherche plein texte disponible en haut à droite de l'écran de l'application, ou dans la gestion des points liés.  <span style='color: red;'>Attention, si vous changez ce paramètre, l'icône des points existants sera mise à jour, ceci peut prendre du temps en fonction du nombre de points, ne pas changer ce paramètre dans une période de forte utilisation!</span>"
 
 #. Default: "You can't make this move. Please specify a valid number."
 msgid "item_illegal_move"
@@ -3158,9 +3166,9 @@ msgstr "Vous n'avez pas accès au numéro de point demandé."
 msgid "item_positive_decided_states_descr"
 msgstr "Choisissez les états dans lesquels les points sont considérés \"décidés\" de manière positive."
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_powerobservers_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs' de cette configuration de séance.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs' de cette configuration de séance.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "Item reference (in the 'Purpose' column)"
 msgid "item_reference_column"
@@ -3170,9 +3178,9 @@ msgstr "Référence du point (dans la colonne 'Objet')"
 msgid "item_reference_format_descr"
 msgstr "A chaque point est associé une référence dont le format peut être défini ici, sous la forme d'une expression TAL (Tag Attribute Language) dans laquelle le nom 'here', représentant le point courant, peut être utilisé. Si vous ne connaissez pas le langage TAL, consultez par exemple <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">ce lien</a> (en anglais)."
 
-#. Default: "When an item is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the item.  Theorically, there will be fewer states selected here than states selected in the <i>'Item states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an item is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the item.  Theorically, there will be fewer states selected here than states selected in the <i>'Item states in which power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_restricted_powerobservers_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs restreints' de cette configuration de séance.  En théorie, vous aurez moins d'états sélectionnés ici que pour le champ <i>'Etats des points dans lesquels les 'Super observateurs' peuvent les voir'</i> ci-dessus.  Si vous n'utilisez pas cette fonctionnalité, ne sélectionnez aucun état.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs restreints' de cette configuration de séance.  En théorie, vous aurez moins d'états sélectionnés ici que pour le champ <i>'Etats des points dans lesquels les 'Super observateurs' peuvent les voir'</i> ci-dessus.  Si vous n'utilisez pas cette fonctionnalité, ne sélectionnez aucun état.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "If you don't select anyone in this list, meeting signatory(ies) will be used for this item."
 msgid "item_signatories_descr"
@@ -3227,9 +3235,9 @@ msgstr "L'écran d'affichage d'une séance présente potentiellement plusieurs t
 msgid "items_list_visible_fields_descr"
 msgstr "Sélectionnez les champs à masquer/afficher lorsque l'utilisateur cliquera sur le libellé 'Afficher/masquer les détails' se trouvant dans l'entête 'Objet' d'un tableau de bord.  Ceci concerne tous les tableaux affichant des éléments, donc, les tableaux de points et séances (mes points, tous les points, toutes les décisions, ...) ainsi que les tableaux de points affichés sur les séances (points disponibles, points présentés, ...)."
 
-#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "keep_access_to_item_when_advice_is_given_descr"
-msgstr "Lorsqu'un avis a été rendu sur un point, le point restera visible par les émetteurs d'avis quel que soit l'état du point.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Lorsqu'un avis a été rendu sur un point, le point restera visible par les émetteurs d'avis quel que soit l'état du point.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "If enabled, when an item is duplicated into or to this configuration, the 'to print?' information defined on cloned annexes will be kept.  If not enabled, the default defined here under is used."
 msgid "keep_original_to_print_of_cloned_items_descr"
@@ -3493,17 +3501,17 @@ msgstr "Cette action ne peut être effectuée tant que la séance n'a pas eu lie
 msgid "meeting_of"
 msgstr "Séance du"
 
-#. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "meeting_powerobservers_states_descr"
-msgstr "Quand une séance est dans un des états que vous sélectionnez ici, elle sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs' de cette configuration de séance.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Quand une séance est dans un des états que vous sélectionnez ici, elle sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs' de cette configuration de séance.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "When an item is inserted in a meeting from everywhere (so not when on a meeting view), this will take the very next meeting still accepting items.  Define here states to take into account to get this very next meeting."
 msgid "meeting_present_item_when_no_current_meeting_states_descr"
 msgstr "Lorsqu'un gestionnaire de séance souhaite présenter un point dans une séance sans être sur la vue de la séance, donc par exemple lorsqu'il est sur la vue d'un point, via l'action 'Présenter', ou lorsqu'il est dans les tableaux de bords, le point sera présenté automatiquement dans la prochaine séance (dont la date est dans le futur) dans laquelle des points peuvent toujours être présentés et dont l'état est un des états sélectionnés ici."
 
-#. Default: "When a meeting is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the meeting.  Theorically, there will be fewer states selected here than states selected in the <i>'Meeting states in wich power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "When a meeting is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the meeting.  Theorically, there will be fewer states selected here than states selected in the <i>'Meeting states in which power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "meeting_restricted_powerobservers_states_descr"
-msgstr "Quand une séance est dans un des états que vous sélectionnez ici, elle sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs restreints' de cette configuration de séance.  En théorie, vous aurez moins d'états sélectionnés ici que pour le champ <i>'Etats des séances dans lesquels les 'Super observateurs' peuvent les voir'</i> ci-dessus.  Si vous n'utilisez pas cette fonctionnalité, ne sélectionnez aucun état.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Quand une séance est dans un des états que vous sélectionnez ici, elle sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs restreints' de cette configuration de séance.  En théorie, vous aurez moins d'états sélectionnés ici que pour le champ <i>'Etats des séances dans lesquels les 'Super observateurs' peuvent les voir'</i> ci-dessus.  Si vous n'utilisez pas cette fonctionnalité, ne sélectionnez aucun état.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "Signatories"
 msgid "meeting_signatories"
@@ -3587,7 +3595,7 @@ msgstr "Votant"
 msgid "meeting_user_usages_descr"
 msgstr "A quel(s) usage(s) destinez-vous cette personne ?"
 
-#. Default: "<p class=\"discreet\">While activated (by selecting 'attendees', 'absents', 'excused', 'lateAttendees' and 'signatories' as used meeting attributes in the 'data' tab), assemblies and signatures on items and meetings are managed here.</p><p class=\"discreet\">Management options are defined like this :</p><ul class=\"discreet\"><li>assembly members on a meeting or an item will use MeetingUsers having the 'assembly member' usage;</li><li>signatories on a meeting or an item will use MeetingUsers habing the 'signatory' usage;</li><li>voters on an item (if relevant functionnality is activated in the 'votes' tab) will use MeetingUsers having the 'voter' usage;</li><li>certified signatures on an item will be generated by returning every MeetingUsers having the 'signatory' usage and being a 'default signature';</li><li>item initiators (if relevant field is activated on the item) will use MeetingUsers having the 'initiator' usage.</li></ul><p class=\"discreet\">If you deactivate a MeetingUsers, older meetings and items for wich this MeetingUser was selected will still behave correctly but it will not be selectable anymore for existing and new meetings and items.</p>"
+#. Default: "<p class=\"discreet\">While activated (by selecting 'attendees', 'absents', 'excused', 'lateAttendees' and 'signatories' as used meeting attributes in the 'data' tab), assemblies and signatures on items and meetings are managed here.</p><p class=\"discreet\">Management options are defined like this :</p><ul class=\"discreet\"><li>assembly members on a meeting or an item will use MeetingUsers having the 'assembly member' usage;</li><li>signatories on a meeting or an item will use MeetingUsers habing the 'signatory' usage;</li><li>voters on an item (if relevant functionnality is activated in the 'votes' tab) will use MeetingUsers having the 'voter' usage;</li><li>certified signatures on an item will be generated by returning every MeetingUsers having the 'signatory' usage and being a 'default signature';</li><li>item initiators (if relevant field is activated on the item) will use MeetingUsers having the 'initiator' usage.</li></ul><p class=\"discreet\">If you deactivate a MeetingUsers, older meetings and items for which this MeetingUser was selected will still behave correctly but it will not be selectable anymore for existing and new meetings and items.</p>"
 msgid "meeting_users_descr"
 msgstr "<p class=\"discreet\">Lorsqu'ils sont activés (en sélectionnant les champs 'Signataires', 'Présents', 'Excusés', 'Absents (non excusés)', 'Présents, mais pas au début' dans les 'Attributs utilisés pour caractériser une séance' de l'onglet 'Données'), les assemblées et signatures sur les séances et points seront gérées par les utilisateurs définis ci-dessous.</p><p class=\"discreet\">Les différentes fonctionnalités apportées sont :</p><ul class=\"discreet\"><li>les membres d'assemblées (présents, absents, ...) qui pourront être définis sur les séances et points reprennent les utilisateurs qui ont l'usage 'Membre d'assemblée';</li><li>les signataires qui pourront être définis sur les séances et points reprennent les utilisateurs ayant l'usage 'Signataire';</li><li>les votants sur les points (si la fonctionnalité est activée dans l'onglet 'Votes') reprennent les utilisateurs ayant l'usage 'votant';</li><li>les signatures certifiées sur un point seront déterminées en reprenant les utilisateurs ayant l'usage 'signataire' et dont la case à cocher 'Cette signature est la signature par défaut' est bien cochée;</li><li>les personnes 'à l'initiative d'un point' (si le champ 'A l'initiative de ce point' est activé sur le point dans la liste 'Attributs utilisés pour caractériser un point' de l'onglet 'Données') reprennent les utilisateurs ayant l'usage 'à l'intiative d'un point'.</li></ul><p class=\"discreet\">Si un utilisateur est désactivé, les anciennes séances et points qui l'utilisaient le feront toujours correctement mais les nouveaux points et séances ne pourront plus l'utiliser.</p>"
 
@@ -4203,7 +4211,7 @@ msgstr "Les points récurrents sont des points automatiquement ajoutés à une s
 msgid "refresh_votes"
 msgstr "Rafraîchir les valeurs de vote"
 
-#. Default: "Define here for wich kind of annex this type of annex applies."
+#. Default: "Define here for which kind of annex this type of annex applies."
 msgid "related_to_descr"
 msgstr "Choisissez ici le type d'annexe auquel ce type de fichier est associé."
 
@@ -4673,9 +4681,9 @@ msgstr "Donner la possibilité aux émetteurs d'avis de laisser un avis sur les 
 msgid "use_copies_descr"
 msgstr "Cette fonctionnalité permet au créateur d'un point de sélectionner des groupes qui seront mis en copie sur un point, c'est-à-dire qui seront capables de voir (uniquement) ce point."
 
-#. Default: "For every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red';>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because 'living' items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
+#. Default: "For every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red;'>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because 'living' items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
 msgid "use_groups_as_categories_descr"
-msgstr "Par configuration de séance, chaque point est défini par une catégorie et ne peut appartenir qu'à une et une seule catégorie. Ces catégories peuvent avoir de l'importance notamment lorsque des points sont présentés dans un ordre du jour: ils peuvent être ordonnés par catégorie (voir un autre paramètre de configuration plus bas). Si vous vous dites que les groupes correspondent à vos catégories et que vous n'avez pas besoin d'une catégorisation supplémentaire, cochez cette case. <span style='color: red';>Si vous activez les catégories alors que des points ont déjà été créés sans catégories, faites-le au moment opportun, en effet une séance ne peut pas contenir des points avec et sans catégories, vous devrez mettre à jour les points 'vivants' existants.  Les points liés à d'anciennes séances pourront rester sans catégorie.</span>"
+msgstr "Par configuration de séance, chaque point est défini par une catégorie et ne peut appartenir qu'à une et une seule catégorie. Ces catégories peuvent avoir de l'importance notamment lorsque des points sont présentés dans un ordre du jour: ils peuvent être ordonnés par catégorie (voir un autre paramètre de configuration plus bas). Si vous vous dites que les groupes correspondent à vos catégories et que vous n'avez pas besoin d'une catégorisation supplémentaire, cochez cette case. <span style='color: red;'>Si vous activez les catégories alors que des points ont déjà été créés sans catégories, faites-le au moment opportun, en effet une séance ne peut pas contenir des points avec et sans catégories, vous devrez mettre à jour les points 'vivants' existants.  Les points liés à d'anciennes séances pourront rester sans catégorie.</span>"
 
 #. Default: "Use value defined on the meeting configuration (default)"
 msgid "use_meetingconfig_value"
@@ -4937,13 +4945,13 @@ msgstr "Ce point sera envoyé vers ${meetingConfigTitle} (Urgence)"
 msgid "workflow"
 msgstr "Workflows"
 
-#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red';>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check groups, and if necessary when permissions changed, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red;'>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check groups, and if necessary when permissions changed, do not forget to run 'Update items and meetings'!</span>"
 msgid "workflow_adaptations_descr"
-msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. <span style='color: red';>Vos changements seront appliqués dès l'enregistrement de cette configuration de séance.  Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets 'Avis et accès', 'Workflows' et les groupes, de plus, si des permissions sont affectées par ces changements, exécutez 'Mettre à jour les points et séances'!</span>"
+msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. <span style='color: red;'>Vos changements seront appliqués dès l'enregistrement de cette configuration de séance.  Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets 'Avis et accès', 'Workflows' et les groupes, de plus, si des permissions sont affectées par ces changements, exécutez 'Mettre à jour les points et séances'!</span>"
 
-#. Default: "This will be used to compute advices delays.  <span style='color: red';>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+#. Default: "This will be used to compute advices delays.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "working_days_descr"
-msgstr "Utilisé lors du calcul de délais des avis.  <span style='color: red';>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+msgstr "Utilisé lors du calcul de délais des avis.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
 #. Default: "Every field that you select in this list will, every time its object will be created or updated, undergo the transform(s) defined in the next field."
 msgid "xhtml_transform_fields_descr"
