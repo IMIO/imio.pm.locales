@@ -468,25 +468,9 @@ msgstr "As copy group on"
 msgid "PloneMeeting_label_assembly"
 msgstr "Default assembly"
 
-#. Default: "Absents"
-msgid "PloneMeeting_label_assemblyAbsents"
-msgstr "Absents"
-
-#. Default: "Excused"
-msgid "PloneMeeting_label_assemblyExcused"
-msgstr "Excused"
-
-#. Default: "Guests"
-msgid "PloneMeeting_label_assemblyGuests"
-msgstr "Guests"
-
-#. Default: "Proxies"
-msgid "PloneMeeting_label_assemblyProxies"
-msgstr "Proxies"
-
-#. Default: "Staves"
+#. Default: "Default assembly staves"
 msgid "PloneMeeting_label_assemblyStaves"
-msgstr "Staves"
+msgstr "Default assembly staves"
 
 #. Default: "Associated group(s)"
 msgid "PloneMeeting_label_associatedGroups"
@@ -1848,6 +1832,10 @@ msgstr "Define here people that were excused for the meeting"
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use 'Excused' and 'Absents' fields"
 msgid "assembly_meeting_descr"
 msgstr "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use 'Excused' and 'Absents' fields"
+
+#. Default: "Define here the default assembly staves (for example you may type a list of names and first names separated by colons or new lines) that will be automatically selected on newly created meetings."
+msgid "assembly_staves_descr"
+msgstr "Define here the default assembly staves (for example you may type a list of names and first names separated by colons or new lines) that will be automatically selected on newly created meetings."
 
 #. Default: " "
 msgid "associated_group_item_descr"
@@ -3455,6 +3443,26 @@ msgstr "Choose here which page will be shown after logon."
 #. Default: "Assembly"
 msgid "meeting_assembly"
 msgstr "Assembly"
+
+#. Default: "Absents"
+msgid "meeting_assemblyAbsents"
+msgstr "Absents"
+
+#. Default: "Excused"
+msgid "meeting_assemblyExcused"
+msgstr "Excused"
+
+#. Default: "Guests"
+msgid "meeting_assemblyGuests"
+msgstr "Guests"
+
+#. Default: "Proxies"
+msgid "meeting_assemblyProxies"
+msgstr "Proxies"
+
+#. Default: "Staves"
+msgid "meeting_assemblyStaves"
+msgstr "Staves"
 
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 msgid "meeting_columns_descr"

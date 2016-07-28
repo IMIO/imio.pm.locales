@@ -774,23 +774,23 @@ msgid "meeting_assembly"
 msgstr ""
 
 #. Default: "Excused"
-msgid "PloneMeeting_label_assemblyExcused"
+msgid "meeting_assemblyExcused"
 msgstr ""
 
 #. Default: "Absents"
-msgid "PloneMeeting_label_assemblyAbsents"
+msgid "meeting_assemblyAbsents"
 msgstr ""
 
 #. Default: "Guests"
-msgid "PloneMeeting_label_assemblyGuests"
+msgid "meeting_assemblyGuests"
 msgstr ""
 
 #. Default: "Proxies"
-msgid "PloneMeeting_label_assemblyProxies"
+msgid "meeting_assemblyProxies"
 msgstr ""
 
 #. Default: "Staves"
-msgid "PloneMeeting_label_assemblyStaves"
+msgid "meeting_assemblyStaves"
 msgstr ""
 
 #. Default: "Attendees"
@@ -1803,6 +1803,14 @@ msgstr ""
 
 #. Default: "Define here the default assembly (for example you may type a list of names and first names separated by colons or new lines) that will be automatically selected on newly created meetings. If you want a more structured way to define attendees, absents and excused people on a meeting, do not fill this field, create, in the tab 'data', special users having characteristic 'assembly member' and select, in the same tab, 'attendees', 'absents' and/or 'excused' attributes as attributes used for a meeting."
 msgid "assembly_descr"
+msgstr ""
+
+#. Default: "Default assembly staves"
+msgid "PloneMeeting_label_assemblyStaves"
+msgstr ""
+
+#. Default: "Define here the default assembly staves (for example you may type a list of names and first names separated by colons or new lines) that will be automatically selected on newly created meetings."
+msgid "assembly_staves_descr"
 msgstr ""
 
 #. Default: "Default signatures"

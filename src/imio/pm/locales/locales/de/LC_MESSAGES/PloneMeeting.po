@@ -468,23 +468,7 @@ msgstr ""
 msgid "PloneMeeting_label_assembly"
 msgstr "Standard-Versammlung"
 
-#. Default: "Absents"
-msgid "PloneMeeting_label_assemblyAbsents"
-msgstr ""
-
-#. Default: "Excused"
-msgid "PloneMeeting_label_assemblyExcused"
-msgstr ""
-
-#. Default: "Guests"
-msgid "PloneMeeting_label_assemblyGuests"
-msgstr ""
-
-#. Default: "Proxies"
-msgid "PloneMeeting_label_assemblyProxies"
-msgstr ""
-
-#. Default: "Staves"
+#. Default: "Default assembly staves"
 msgid "PloneMeeting_label_assemblyStaves"
 msgstr ""
 
@@ -1849,6 +1833,10 @@ msgstr ""
 
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use 'Excused' and 'Absents' fields"
 msgid "assembly_meeting_descr"
+msgstr ""
+
+#. Default: "Define here the default assembly staves (for example you may type a list of names and first names separated by colons or new lines) that will be automatically selected on newly created meetings."
+msgid "assembly_staves_descr"
 msgstr ""
 
 #. Default: " "
@@ -3469,6 +3457,26 @@ msgstr "Wählen Sie hier aus welche Seite nach dem Einloggen angezeigt werden so
 #. Default: "Assembly"
 msgid "meeting_assembly"
 msgstr "Sitzung"
+
+#. Default: "Absents"
+msgid "meeting_assemblyAbsents"
+msgstr ""
+
+#. Default: "Excused"
+msgid "meeting_assemblyExcused"
+msgstr ""
+
+#. Default: "Guests"
+msgid "meeting_assemblyGuests"
+msgstr ""
+
+#. Default: "Proxies"
+msgid "meeting_assemblyProxies"
+msgstr ""
+
+#. Default: "Staves"
+msgid "meeting_assemblyStaves"
+msgstr ""
 
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 msgid "meeting_columns_descr"
