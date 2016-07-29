@@ -2146,6 +2146,10 @@ msgstr ""
 msgid "on_privacy"
 msgstr ""
 
+#. Default: "Follow the poll type"
+msgid "on_poll_type"
+msgstr ""
+
 #. Default: "Follow to discuss (to discuss then not to discuss)"
 msgid "on_to_discuss"
 msgstr ""
@@ -3965,6 +3969,10 @@ msgstr ""
 msgid "inserting_methods_not_using_to_discuss_error"
 msgstr ""
 
+#. Default: "You can not select 'Follow poll type order' inserting method as the field 'Poll type' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
+msgid "inserting_methods_not_using_poll_type_error"
+msgstr ""
+
 #. Default: "The validation deadline for meeting publication has not been respected"
 msgid "icon_help_publish_freeze_ko"
 msgstr ""
@@ -4991,5 +4999,41 @@ msgstr ""
 
 #. Default: "Theorical date into which item should be presented"
 msgid "theorical_meeting_help"
+msgstr ""
+
+#. Default: "Poll type"
+msgid "PloneMeeting_label_pollType"
+msgstr ""
+
+#. Default: "Used poll types"
+msgid "PloneMeeting_label_usedPollTypes"
+msgstr ""
+
+#. Default: "Specify here which poll types you are going to use."
+msgid "used_poll_types_descr"
+msgstr ""
+
+#. Default: "Default poll type"
+msgid "PloneMeeting_label_defaultPollType"
+msgstr ""
+
+#. Default: "The default poll type will be preselected on the form when adding an item."
+msgid "default_poll_type_descr"
+msgstr ""
+
+#. Default: "Freehand"
+msgid "polltype_freehand"
+msgstr ""
+
+#. Default: "No vote"
+msgid "polltype_no_vote"
+msgstr ""
+
+#. Default: "Secret"
+msgid "polltype_secret"
+msgstr ""
+
+#. Default: "Secret separated"
+msgid "polltype_secret_separated"
 msgstr ""
 

@@ -596,6 +596,10 @@ msgstr "Default value for the 'motivation' field"
 msgid "PloneMeeting_label_defaultOcrLanguage"
 msgstr "Default OCR language"
 
+#. Default: "Default poll type"
+msgid "PloneMeeting_label_defaultPollType"
+msgstr ""
+
 #. Default: "Default vote value"
 msgid "PloneMeeting_label_defaultVoteValue"
 msgstr "Default vote value"
@@ -1106,6 +1110,10 @@ msgstr "Permission(s)"
 msgid "PloneMeeting_label_podTemplate"
 msgstr "POD template (ODT file)"
 
+#. Default: "Poll type"
+msgid "PloneMeeting_label_pollType"
+msgstr ""
+
 #. Default: "Groups to consider as 'Power advisers'"
 msgid "PloneMeeting_label_powerAdvisersGroups"
 msgstr "Groups to consider as 'Power advisers'"
@@ -1335,6 +1343,10 @@ msgstr "Attributes used for characterizing an item"
 #. Default: "Attributes used for characterizing a meeting"
 msgid "PloneMeeting_label_usedMeetingAttributes"
 msgstr "Attributes used for characterizing a meeting"
+
+#. Default: "Used poll types"
+msgid "PloneMeeting_label_usedPollTypes"
+msgstr ""
 
 #. Default: "Vote values in use"
 msgid "PloneMeeting_label_usedVoteValues"
@@ -2275,6 +2287,10 @@ msgstr "The default advice type will be preselected on the form for adding an ad
 msgid "default_ocr_language_descr"
 msgstr "The language you choose here will be selected by default when proposing to the user to OCR-ize a document."
 
+#. Default: "The default poll type will be preselected on the form when adding an item."
+msgid "default_poll_type_descr"
+msgstr ""
+
 #. Default: "When the MeetingManager encodes the votes himself, a default value may already be pre-encoded: the one you choose here."
 msgid "default_vote_value_descr"
 msgstr "When the MeetingManager encodes the votes himself, a default value may already pre-encoded: the one you choose here."
@@ -2921,6 +2937,10 @@ msgstr "You can not select same inserting method several times."
 #. Default: "You can not select 'Follow categories order' inserting method as this meeting configuration does not use categories."
 msgid "inserting_methods_not_using_categories_error"
 msgstr "You can not select 'Follow categories order' inserting method as this meeting configuration does not use categories."
+
+#. Default: "You can not select 'Follow poll type order' inserting method as the field 'Poll type' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
+msgid "inserting_methods_not_using_poll_type_error"
+msgstr ""
 
 #. Default: "You can not select 'Follow to discuss order' inserting method as the field 'To discuss ?' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
 msgid "inserting_methods_not_using_to_discuss_error"
@@ -3903,6 +3923,10 @@ msgstr "When a transition will be triggered on a meeting, you can define which t
 msgid "on_other_mc_to_clone_to"
 msgstr "Follow other meeting configs to clone to (items to be send to another meeting config then items not to be send to another meeting config)"
 
+#. Default: "Follow the poll type"
+msgid "on_poll_type"
+msgstr ""
+
 #. Default: "Follow the privacy (public then secret)"
 msgid "on_privacy"
 msgstr "Follow the privacy (public then secret)"
@@ -4098,6 +4122,22 @@ msgstr "This template must be an ODT (Open Document Format Text) document as pro
 #. Default: "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application."
 msgid "pod_templates_descr"
 msgstr "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application."
+
+#. Default: "Freehand"
+msgid "polltype_freehand"
+msgstr ""
+
+#. Default: "No vote"
+msgid "polltype_no_vote"
+msgstr ""
+
+#. Default: "Secret"
+msgid "polltype_secret"
+msgstr ""
+
+#. Default: "Secret separated"
+msgid "polltype_secret_separated"
+msgstr ""
 
 #. Default: "Manage"
 msgid "portlet_pm_header_label"
@@ -4717,6 +4757,10 @@ msgstr "While some item attributes are fixed (the item title, the field where th
 #. Default: "While some meeting attributes are fixed (the title, the date, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (in the form allowing to create meetings, in the screen that displays information about a meeting...)."
 msgid "used_meeting_attributes_descr"
 msgstr "While some meeting attributes are fixed (the title, the date, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (in the form allowing to create meetings, in the screen that displays information about a meeting...). If you want to select more than one attribute, click on them while keeping the 'control' key pressed."
+
+#. Default: "Specify here which poll types you are going to use."
+msgid "used_poll_types_descr"
+msgstr ""
 
 #. Default: "Specify here what vote values are in use in this meeting configuration."
 msgid "used_vote_values_descr"

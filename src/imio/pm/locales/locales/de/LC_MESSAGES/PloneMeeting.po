@@ -596,6 +596,10 @@ msgstr ""
 msgid "PloneMeeting_label_defaultOcrLanguage"
 msgstr "Standard OCR Sprache"
 
+#. Default: "Default poll type"
+msgid "PloneMeeting_label_defaultPollType"
+msgstr ""
+
 #. Default: "Default vote value"
 msgid "PloneMeeting_label_defaultVoteValue"
 msgstr "Standard Abstimmungswert"
@@ -1107,6 +1111,10 @@ msgstr "Berechtigung(en)"
 msgid "PloneMeeting_label_podTemplate"
 msgstr "POD-Vorlage (ODT Datei)"
 
+#. Default: "Poll type"
+msgid "PloneMeeting_label_pollType"
+msgstr ""
+
 #. Default: "Groups to consider as 'Power advisers'"
 msgid "PloneMeeting_label_powerAdvisersGroups"
 msgstr ""
@@ -1336,6 +1344,10 @@ msgstr "Attribute die TOP charakterisieren"
 #. Default: "Attributes used for characterizing a meeting"
 msgid "PloneMeeting_label_usedMeetingAttributes"
 msgstr "Attribute die Sitzungen charakterisieren"
+
+#. Default: "Used poll types"
+msgid "PloneMeeting_label_usedPollTypes"
+msgstr ""
 
 #. Default: "Vote values in use"
 msgid "PloneMeeting_label_usedVoteValues"
@@ -2278,6 +2290,10 @@ msgstr "Der Standard Zustimmungsgrad wird vorselektiert im Formular beim hinzuf�
 msgid "default_ocr_language_descr"
 msgstr "Die Sprache die Sie hier auswählen wird als Standardsprache angezeigt wenn ein Benutzer ein Dokument mit OCR durchlaufen lässt."
 
+#. Default: "The default poll type will be preselected on the form when adding an item."
+msgid "default_poll_type_descr"
+msgstr ""
+
 #. Default: "When the MeetingManager encodes the votes himself, a default value may already be pre-encoded: the one you choose here."
 msgid "default_vote_value_descr"
 msgstr "Wenn der MeetingManager die Abstimmung selbst einträgt, könnte ein Standardwert vorab ausgefüllt werden: Der Wert den Sie hier auswählen."
@@ -2928,6 +2944,10 @@ msgstr ""
 
 #. Default: "You can not select 'Follow categories order' inserting method as this meeting configuration does not use categories."
 msgid "inserting_methods_not_using_categories_error"
+msgstr ""
+
+#. Default: "You can not select 'Follow poll type order' inserting method as the field 'Poll type' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
+msgid "inserting_methods_not_using_poll_type_error"
 msgstr ""
 
 #. Default: "You can not select 'Follow to discuss order' inserting method as the field 'To discuss ?' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
@@ -3925,6 +3945,10 @@ msgstr ""
 msgid "on_other_mc_to_clone_to"
 msgstr ""
 
+#. Default: "Follow the poll type"
+msgid "on_poll_type"
+msgstr ""
+
 #. Default: "Follow the privacy (public then secret)"
 msgid "on_privacy"
 msgstr ""
@@ -4123,6 +4147,22 @@ msgstr "Diese Vorlage muss ein ODT-Dokument (Open Document Format text) sein, wi
 #, fuzzy
 msgid "pod_templates_descr"
 msgstr "Dieser Abschnitt gibt Ihnen die Möglichkeit die Vorlagen von Dokumenten zu bezeichnen die Dokumente mit Inhalt auf Basis von PloneMeeting Inhalte erstellen (TOP, Sitzungen, Anlagen, usw...)"
+
+#. Default: "Freehand"
+msgid "polltype_freehand"
+msgstr ""
+
+#. Default: "No vote"
+msgid "polltype_no_vote"
+msgstr ""
+
+#. Default: "Secret"
+msgid "polltype_secret"
+msgstr ""
+
+#. Default: "Secret separated"
+msgid "polltype_secret_separated"
+msgstr ""
 
 #. Default: "Manage"
 msgid "portlet_pm_header_label"
@@ -4748,6 +4788,10 @@ msgstr "Manche Attribute in TOP sind festgelegt (der Titel, das Feld in dem der 
 #, fuzzy
 msgid "used_meeting_attributes_descr"
 msgstr "Obwohl einige Sitzungsattribute fest sind (z.B. der Titel des TOP, das Feld um den Beschluss einzutragen, das Datum, usw.), sind andere in dieser Liste Optional. Abhängig von ihrer Wahl werden sie in ihrem Interface angezeigt oder nicht (vielleicht im Formular wo die TOP erstellt werden oder bei einigen Listenanzeigen von TOP, usw.). Um mehrere auszuwählen , müssen Sie die Steuerungstaste drücken währen sie die Attribute auswählen."
+
+#. Default: "Specify here which poll types you are going to use."
+msgid "used_poll_types_descr"
+msgstr ""
 
 #. Default: "Specify here what vote values are in use in this meeting configuration."
 msgid "used_vote_values_descr"

@@ -596,6 +596,10 @@ msgstr "Valeur par défaut du champ 'Motivation'"
 msgid "PloneMeeting_label_defaultOcrLanguage"
 msgstr "Langue par défaut pour l'OCR"
 
+#. Default: "Default poll type"
+msgid "PloneMeeting_label_defaultPollType"
+msgstr "Mode de scrutin par défaut"
+
 #. Default: "Default vote value"
 msgid "PloneMeeting_label_defaultVoteValue"
 msgstr "Valeur de vote par défaut"
@@ -1106,6 +1110,10 @@ msgstr "Permission(s)"
 msgid "PloneMeeting_label_podTemplate"
 msgstr "Canevas POD (fichier ODT)"
 
+#. Default: "Poll type"
+msgid "PloneMeeting_label_pollType"
+msgstr "Mode de scrutin"
+
 #. Default: "Groups to consider as 'Power advisers'"
 msgid "PloneMeeting_label_powerAdvisersGroups"
 msgstr "Groupes considérés comme 'Super émetteurs d'avis'"
@@ -1335,6 +1343,10 @@ msgstr "Attributs utilisés pour caractériser un point"
 #. Default: "Attributes used for characterizing a meeting"
 msgid "PloneMeeting_label_usedMeetingAttributes"
 msgstr "Attributs utilisés pour caractériser une séance"
+
+#. Default: "Used poll types"
+msgid "PloneMeeting_label_usedPollTypes"
+msgstr "Modes de scrutin utilisés"
 
 #. Default: "Vote values in use"
 msgid "PloneMeeting_label_usedVoteValues"
@@ -2275,6 +2287,10 @@ msgstr "Le type d'avis par défaut sera présélectionné sur le formulaire perm
 msgid "default_ocr_language_descr"
 msgstr "La langue que vous choisissez ici sera proposée par défaut à l'utilisateur lorsqu'il devra uploader une annexe scannée devant être OCR-isée."
 
+#. Default: "The default poll type will be preselected on the form when adding an item."
+msgid "default_poll_type_descr"
+msgstr "Le mode de scrutin par défaut sera présélectionné sur le formulaire lors de l'ajout d'un point."
+
 #. Default: "When the MeetingManager encodes the votes himself, a default value may already be pre-encoded: the one you choose here."
 msgid "default_vote_value_descr"
 msgstr "Quand le gestonnaire de séance encode lui-même les votes, une valeur par défaut peut être pré-encodée: celle que vous choisissez ici."
@@ -2921,6 +2937,10 @@ msgstr "Vous ne pouvez pas sélectionner plusieurs fois la même méthode d'inse
 #. Default: "You can not select 'Follow categories order' inserting method as this meeting configuration does not use categories."
 msgid "inserting_methods_not_using_categories_error"
 msgstr "Vous ne pouvez pas sélectionner 'Suivre l'odre des catégories' car cette configuration de séance n'utilise pas les catégories."
+
+#. Default: "You can not select 'Follow poll type order' inserting method as the field 'Poll type' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
+msgid "inserting_methods_not_using_poll_type_error"
+msgstr "Vous ne pouvez pas sélectionner 'Par mode de scrutin' car 'Mode de scrutin' n'est pas sélectionné dans le champ 'Attributs utilisés pour caractériser un point' de cette configuration de séance."
 
 #. Default: "You can not select 'Follow to discuss order' inserting method as the field 'To discuss ?' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
 msgid "inserting_methods_not_using_to_discuss_error"
@@ -3902,6 +3922,10 @@ msgstr "Lorsqu'une transition sera déclenchée sur une séance, vous pouvez dé
 msgid "on_other_mc_to_clone_to"
 msgstr "Par 'à envoyer vers' (points à envoyer vers d'autres séances puis points à ne pas envoyer vers d'autres séances)"
 
+#. Default: "Follow the poll type"
+msgid "on_poll_type"
+msgstr "Par mode de scrutin"
+
 #. Default: "Follow the privacy (public then secret)"
 msgid "on_privacy"
 msgstr "Par confidentialité (séance publique et ensuite huis clos)"
@@ -4097,6 +4121,22 @@ msgstr "Ce canevas doit être un document ODT (Open Document Format text) tel qu
 #. Default: "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application."
 msgid "pod_templates_descr"
 msgstr "Cette section vous permet de gérer les canevas de documents vous permettant de produire des documents depuis les types de contenu gérés (points, séances, avis) et les tableaux de bord."
+
+#. Default: "Freehand"
+msgid "polltype_freehand"
+msgstr "À main levée"
+
+#. Default: "No vote"
+msgid "polltype_no_vote"
+msgstr "Pas de vote"
+
+#. Default: "Secret"
+msgid "polltype_secret"
+msgstr "Secret"
+
+#. Default: "Secret separated"
+msgid "polltype_secret_separated"
+msgstr "Secret séparé"
 
 #. Default: "Manage"
 msgid "portlet_pm_header_label"
@@ -4716,6 +4756,10 @@ msgstr "Bien que certains attributs caractérisant un point soient fixes (l'obje
 #. Default: "While some meeting attributes are fixed (the title, the date, etc), other attributes (those shown below) are optional. If you select them, they will show up at various places in the user interface (in the form allowing to create meetings, in the screen that displays information about a meeting...)."
 msgid "used_meeting_attributes_descr"
 msgstr "Bien que certains attributs caractérisant une séance soient fixes (comme la date par exemple), d'autres, repris dans cette liste, sont optionnels. En fonction de votre choix, ils s'afficheront ou non à divers endroits dans les interfaces utilisateurs (dans le formulaire de création d'une séance, sur la page d'affichage d'une séance, etc)."
+
+#. Default: "Specify here which poll types you are going to use."
+msgid "used_poll_types_descr"
+msgstr "Spécifiez ici quels modes de scrutin vous voulez utiliser."
 
 #. Default: "Specify here what vote values are in use in this meeting configuration."
 msgid "used_vote_values_descr"
