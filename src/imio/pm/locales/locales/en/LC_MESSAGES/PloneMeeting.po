@@ -289,7 +289,7 @@ msgstr "Item attendees to apply"
 
 #. Default: "Item emergency changed."
 msgid "Item emergency changed."
-msgstr ""
+msgstr "Item emergency changed."
 
 #. Default: "Item excused to apply"
 msgid "Item excused to apply"
@@ -602,7 +602,7 @@ msgstr "Default OCR language"
 
 #. Default: "Default poll type"
 msgid "PloneMeeting_label_defaultPollType"
-msgstr ""
+msgstr "Default poll type"
 
 #. Default: "Default vote value"
 msgid "PloneMeeting_label_defaultVoteValue"
@@ -1116,7 +1116,7 @@ msgstr "POD template (ODT file)"
 
 #. Default: "Poll type"
 msgid "PloneMeeting_label_pollType"
-msgstr ""
+msgstr "Poll type"
 
 #. Default: "Groups to consider as 'Power advisers'"
 msgid "PloneMeeting_label_powerAdvisersGroups"
@@ -1350,7 +1350,7 @@ msgstr "Attributes used for characterizing a meeting"
 
 #. Default: "Used poll types"
 msgid "PloneMeeting_label_usedPollTypes"
-msgstr ""
+msgstr "Used poll types"
 
 #. Default: "Vote values in use"
 msgid "PloneMeeting_label_usedVoteValues"
@@ -1483,6 +1483,10 @@ msgstr "This advice is currently under redaction by the advisers of the group an
 #. Default: "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgid "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgstr "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
+
+#. Default: "This advice was given as personal initiative."
+msgid "This advice was given as personal initiative."
+msgstr "This advice was given as personal initiative."
 
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"
@@ -2293,7 +2297,7 @@ msgstr "The language you choose here will be selected by default when proposing 
 
 #. Default: "The default poll type will be preselected on the form when adding an item."
 msgid "default_poll_type_descr"
-msgstr ""
+msgstr "The default poll type will be preselected on the form when adding an item."
 
 #. Default: "When the MeetingManager encodes the votes himself, a default value may already be pre-encoded: the one you choose here."
 msgid "default_vote_value_descr"
@@ -2944,7 +2948,7 @@ msgstr "You can not select 'Follow categories order' inserting method as this me
 
 #. Default: "You can not select 'Follow poll type order' inserting method as the field 'Poll type' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
 msgid "inserting_methods_not_using_poll_type_error"
-msgstr ""
+msgstr "You can not select 'Follow poll type order' inserting method as the field 'Poll type' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
 
 #. Default: "You can not select 'Follow to discuss order' inserting method as the field 'To discuss ?' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
 msgid "inserting_methods_not_using_to_discuss_error"
@@ -3929,7 +3933,7 @@ msgstr "Follow other meeting configs to clone to (items to be send to another me
 
 #. Default: "Follow the poll type"
 msgid "on_poll_type"
-msgstr ""
+msgstr "Follow the poll type"
 
 #. Default: "Follow the privacy (public then secret)"
 msgid "on_privacy"
@@ -4129,19 +4133,19 @@ msgstr "This section allows you manage the document templates that you may speci
 
 #. Default: "Freehand"
 msgid "polltype_freehand"
-msgstr ""
+msgstr "Freehand"
 
 #. Default: "No vote"
 msgid "polltype_no_vote"
-msgstr ""
+msgstr "No vote"
 
 #. Default: "Secret"
 msgid "polltype_secret"
-msgstr ""
+msgstr "Secret"
 
 #. Default: "Secret separated"
 msgid "polltype_secret_separated"
-msgstr ""
+msgstr "Secret separated"
 
 #. Default: "Manage"
 msgid "portlet_pm_header_label"
@@ -4764,7 +4768,7 @@ msgstr "While some meeting attributes are fixed (the title, the date, etc), othe
 
 #. Default: "Specify here which poll types you are going to use."
 msgid "used_poll_types_descr"
-msgstr ""
+msgstr "Specify here which poll types you are going to use."
 
 #. Default: "Specify here what vote values are in use in this meeting configuration."
 msgid "used_vote_values_descr"
