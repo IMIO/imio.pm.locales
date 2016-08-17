@@ -1480,6 +1480,10 @@ msgstr "Cet avis est considéré 'Non rendu' car il était toujours en cours de 
 msgid "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
 msgstr "Cet avis est en cours de rédaction par les donneurs d'avis du groupe auquel l'avis a été demandé et n'est pas accessible aux autres groupes."
 
+#. Default: "This advice is inherited from ${linkToItem}"
+msgid "This advice is inherited from ${linkToItem}"
+msgstr "Cet avis est repris du point ${linkToItem}"
+
 #. Default: "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgid "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgstr "Cet avis ne doit plus être 'caché pendant la rédaction' avant le ${limit_date} ou il sera considéré 'Non rendu'."
