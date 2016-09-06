@@ -35,6 +35,10 @@ msgstr "Agregar Portlet Todo"
 msgid "Advice advanced management screen"
 msgstr ""
 
+#. Default: "Advice annexes"
+msgid "Advice annexes"
+msgstr ""
+
 #. Default: "Advice asked automatically because"
 msgid "Advice asked automatically because"
 msgstr "Consejo preguntado automáticamente porque"
@@ -69,6 +73,10 @@ msgstr "Tipo de Consejo"
 
 #. Default: "An advice on this item still needs to be given respecting given delay."
 msgid "An advice on this item still needs to be given respecting given delay."
+msgstr ""
+
+#. Default: "Annex types"
+msgid "Annex types"
 msgstr ""
 
 #. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
@@ -279,6 +287,10 @@ msgstr ""
 msgid "Item absents to apply"
 msgstr ""
 
+#. Default: "Item annexes"
+msgid "Item annexes"
+msgstr ""
+
 #. Default: "Item assemblies have been updated."
 msgid "Item assemblies have been updated."
 msgstr "Temas de asambleas ha sido actualizados."
@@ -289,6 +301,10 @@ msgstr "Tema de asamblea a aplicar"
 
 #. Default: "Item attendees to apply"
 msgid "Item attendees to apply"
+msgstr ""
+
+#. Default: "Item decision annexes"
+msgid "Item decision annexes"
 msgstr ""
 
 #. Default: "Item emergency changed."
@@ -343,6 +359,10 @@ msgstr "Administrar la firma de tema"
 msgid "Manage item templates"
 msgstr ""
 
+#. Default: "Meeting annexes"
+msgid "Meeting annexes"
+msgstr ""
+
 #. Default: "Items"
 msgid "Meeting items"
 msgstr ""
@@ -359,12 +379,16 @@ msgstr "Consejo de reunión"
 msgid "MeetingCategory"
 msgstr "Categoría de reunión"
 
-#. Default: "Annex types"
-msgid "MeetingFileTypes"
-msgstr "Tipos de anexos"
-
 #. Default: "Meetings"
 msgid "Meetings"
+msgstr ""
+
+#. Default: "No annex subtypes."
+msgid "No annex subtypes."
+msgstr ""
+
+#. Default: "No annex types."
+msgid "No annex types."
 msgstr ""
 
 #. Default: "No complementary comment has been given on this advice."
@@ -1783,6 +1807,10 @@ msgstr "El anexo sera impreso. Haga clic en la imagen no se imprime."
 msgid "annex_type"
 msgstr "Tipo de anexo"
 
+#. Default: "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
+msgid "annex_types_descr"
+msgstr ""
+
 #. Default: "Annexes"
 msgid "annexes"
 msgstr "Anexos"
@@ -2726,6 +2754,10 @@ msgstr ""
 msgid "heading_is_active"
 msgstr ""
 
+#. Default: "Subtypes"
+msgid "heading_subtypes"
+msgstr ""
+
 # Other
 #. Default: "Check/uncheck items"
 msgid "helpSelectItemsIcon"
@@ -3547,10 +3579,6 @@ msgstr "Administrador de configuraciones de reuniones"
 #, fuzzy
 msgid "meeting_configurations_descr"
 msgstr "Varias configuraciones de reunión pueden ser gestionadas por PloneMeeting. Una configuración de reunión define un \"tipo de reunión\" que tiene su conjunto de parámetros asociados. Cada configuración de reunión es completamente independiente y produce una pestaña entre en las pestañas principales de Plone. Si su organización gestiona varios tipos de reuniones distintas, ella puede definir sus correspondiente configuraciones de reuniones aquí."
-
-#. Default: "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
-msgid "meeting_file_types_descr"
-msgstr "Cada tema tal ves sea asociado con una serie de anexos. Algunos anexos tal ves sean específicamente vinculados a la decisión tomada en el tema. Usted puede consultar y modificar aquí el tipo de anexo que será definido con esta configuración de reunión. Un tipo de anexo es definido por un título, un icono (preferiblemente de 16 por 16 píxeles) y un título predefinido. Cuando un usuario quiere asociar un anexo a un tema, pueden elegir, en una lista desplegable el tipo de anexo entre los que se definen aquí y subirá un archivo."
 
 #. Default: "For each member folder having access to the application, a folder containing one sub-folder for each meeting configuration is created. Into each subfolder, the application stores elements created by this user."
 #, fuzzy

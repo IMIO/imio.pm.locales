@@ -31,6 +31,10 @@ msgstr "Ajout d'un portlet 'à faire'"
 msgid "Advice advanced management screen"
 msgstr "Ecran de gestion avancé de l'avis"
 
+#. Default: "Advice annexes"
+msgid "Advice annexes"
+msgstr "Annexes aux avis"
+
 #. Default: "Advice asked automatically because"
 msgid "Advice asked automatically because"
 msgstr "Avis demandé automatiquement car"
@@ -66,6 +70,10 @@ msgstr "Type d'avis"
 #. Default: "An advice on this item still needs to be given respecting given delay."
 msgid "An advice on this item still needs to be given respecting given delay."
 msgstr "Un avis doit encore être rendu sur ce point en respectant le délai imparti."
+
+#. Default: "Annex types"
+msgid "Annex types"
+msgstr "Types d'annexes"
 
 #. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
 msgid "Annexes preview must be enabled to launch complete annexes conversion process."
@@ -275,6 +283,10 @@ msgstr "Il n'est pas possible d'ajouter des annexes car aucun type d'annexe n'es
 msgid "Item absents to apply"
 msgstr "Absents à appliquer"
 
+#. Default: "Item annexes"
+msgid "Item annexes"
+msgstr "Annexes aux points"
+
 #. Default: "Item assemblies have been updated."
 msgid "Item assemblies have been updated."
 msgstr "Les assemblées des points ont été mises à jour."
@@ -286,6 +298,10 @@ msgstr "Assemblée à appliquer"
 #. Default: "Item attendees to apply"
 msgid "Item attendees to apply"
 msgstr "Présents à appliquer"
+
+#. Default: "Item decision annexes"
+msgid "Item decision annexes"
+msgstr "Annexes aux points (après décision)"
 
 #. Default: "Item emergency changed."
 msgid "Item emergency changed."
@@ -339,6 +355,10 @@ msgstr "Gestion des signatures spécifiques pour les points"
 msgid "Manage item templates"
 msgstr "Gérer les modèles de points"
 
+#. Default: "Meeting annexes"
+msgid "Meeting annexes"
+msgstr "Annexes aux séances"
+
 #. Default: "Items"
 msgid "Meeting items"
 msgstr "Points"
@@ -355,13 +375,17 @@ msgstr "Avis"
 msgid "MeetingCategory"
 msgstr "Catégorie"
 
-#. Default: "Annex types"
-msgid "MeetingFileTypes"
-msgstr "Types d'annexes"
-
 #. Default: "Meetings"
 msgid "Meetings"
 msgstr "Séances"
+
+#. Default: "No annex subtypes."
+msgid "No annex subtypes."
+msgstr "Aucun sous-type d'annexe."
+
+#. Default: "No annex types."
+msgid "No annex types."
+msgstr "Aucun type d'annexe."
 
 #. Default: "No complementary comment has been given on this advice."
 msgid "No complementary comment has been given on this advice."
@@ -1773,6 +1797,10 @@ msgstr "L'annexe sera imprimée. Cliquez sur l'image pour que l'annexe ne soit p
 msgid "annex_type"
 msgstr "Type d'annexe"
 
+#. Default: "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
+msgid "annex_types_descr"
+msgstr "A chaque point, avis et séances vous pouvez associer une série d'annexes. Vous pouvez consulter et modifier ici les types d'annexes définis pour cette configuration de séance. Un type d'annexe se définit par un titre, une icône (16x16 pixels de préférence) et un titre prédéfini. Lorsque des utilisateurs veulent associer une annexe à un point, ils peuvent choisir, dans une liste déroulante, un type d'annexe parmi ceux qui sont définis ici et uploader un fichier. Concernant les annexes aux points, certaines de ces annexes peuvent être spécifiquement liées à la décision découlant du point."
+
 #. Default: "Annexes"
 msgid "annexes"
 msgstr "Annexes"
@@ -2705,6 +2733,10 @@ msgstr "Critères"
 msgid "heading_is_active"
 msgstr "Actif(ve)?"
 
+#. Default: "Subtypes"
+msgid "heading_subtypes"
+msgstr "Sous-types d'annexes"
+
 # Other
 #. Default: "Check/uncheck items"
 msgid "helpSelectItemsIcon"
@@ -3511,10 +3543,6 @@ msgstr "Gestion des configurations de séances"
 #. Default: "Several meeting configurations can be managed. A meeting configuration defines a 'type of meeting' that has its associated set of parameters. Each meeting configuration is completely independant and produces a tab among the main Plone tabs. If your organization manages several distinct meeting types, she can define corresponding meeting configurations here."
 msgid "meeting_configurations_descr"
 msgstr "Plusieurs configurations de séances peuvent être gérées. Une configuration de séance définit un 'type de séance', auquel est associé une série de paramètres de configuration. Chaque configuration est totalement indépendante, et donne lieu à un onglet général sur le site Plone. Si votre organisation gère plusieurs types de séances distincts, elle peut définir plusieurs configurations de séances ici."
-
-#. Default: "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
-msgid "meeting_file_types_descr"
-msgstr "A chaque point, vous pouvez associer une série d'annexes. Certaines de ces annexes peuvent être spécifiquement liées à la décision découlant du point. Vous pouvez consulter et modifier ici les types d'annexes définis pour cette configuration de séance. Un type d'annexe se définit par un titre, une icône (16x16 pixels de préférence) et un titre prédéfini. Lorsque des utilisateurs veulent associer une annexe à un point, ils peuvent choisir, dans une liste déroulante, un type d'annexe parmi ceux qui sont définis ici et uploader un fichier."
 
 #. Default: "For each member folder having access to the application, a folder containing one sub-folder for each meeting configuration is created. Into each subfolder, the application stores elements created by this user."
 msgid "meeting_folder_title"

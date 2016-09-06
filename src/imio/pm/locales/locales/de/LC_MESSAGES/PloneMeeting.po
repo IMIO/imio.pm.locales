@@ -31,6 +31,10 @@ msgstr "Zu erledigen Portlet hinzufügen"
 msgid "Advice advanced management screen"
 msgstr ""
 
+#. Default: "Advice annexes"
+msgid "Advice annexes"
+msgstr ""
+
 #. Default: "Advice asked automatically because"
 msgid "Advice asked automatically because"
 msgstr ""
@@ -65,6 +69,10 @@ msgstr ""
 
 #. Default: "An advice on this item still needs to be given respecting given delay."
 msgid "An advice on this item still needs to be given respecting given delay."
+msgstr ""
+
+#. Default: "Annex types"
+msgid "Annex types"
 msgstr ""
 
 #. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
@@ -275,6 +283,10 @@ msgstr ""
 msgid "Item absents to apply"
 msgstr ""
 
+#. Default: "Item annexes"
+msgid "Item annexes"
+msgstr ""
+
 #. Default: "Item assemblies have been updated."
 msgid "Item assemblies have been updated."
 msgstr ""
@@ -285,6 +297,10 @@ msgstr ""
 
 #. Default: "Item attendees to apply"
 msgid "Item attendees to apply"
+msgstr ""
+
+#. Default: "Item decision annexes"
+msgid "Item decision annexes"
 msgstr ""
 
 #. Default: "Item emergency changed."
@@ -339,6 +355,10 @@ msgstr ""
 msgid "Manage item templates"
 msgstr ""
 
+#. Default: "Meeting annexes"
+msgid "Meeting annexes"
+msgstr ""
+
 #. Default: "Items"
 msgid "Meeting items"
 msgstr ""
@@ -355,12 +375,16 @@ msgstr ""
 msgid "MeetingCategory"
 msgstr "Kategorie"
 
-#. Default: "Annex types"
-msgid "MeetingFileTypes"
-msgstr "Typen für Anhänge"
-
 #. Default: "Meetings"
 msgid "Meetings"
+msgstr ""
+
+#. Default: "No annex subtypes."
+msgid "No annex subtypes."
+msgstr ""
+
+#. Default: "No annex types."
+msgid "No annex types."
 msgstr ""
 
 #. Default: "No complementary comment has been given on this advice."
@@ -1775,6 +1799,10 @@ msgstr ""
 msgid "annex_type"
 msgstr "Typ des Anhangs"
 
+#. Default: "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
+msgid "annex_types_descr"
+msgstr ""
+
 #. Default: "Annexes"
 msgid "annexes"
 msgstr "Anhänge"
@@ -2713,6 +2741,10 @@ msgstr ""
 msgid "heading_is_active"
 msgstr ""
 
+#. Default: "Subtypes"
+msgid "heading_subtypes"
+msgstr ""
+
 # Other
 #. Default: "Check/uncheck items"
 msgid "helpSelectItemsIcon"
@@ -3526,10 +3558,6 @@ msgstr "Verwaltung der Sitzungs-Konfigurationen"
 #, fuzzy
 msgid "meeting_configurations_descr"
 msgstr "Es können mehrere Sitzungs-Konfigurationen von PloneMeeting verwaltet werden. Eine Sitzungs-Konfiguration definiert verschiedene Arten von Sitzungen die bestimmte Einstellungen gemeinsam haben. Die Sitzungs-Konfigurationen sind komplett unabhängig von einander und erzeugen einen Karteireiter unterhalb der Plone Navigations-Reiter. Wenn Ihre Organisation mehrere verschiedene Sitzungstypen verwaltet dann können entsprechende Konfigurationen hier definiert werden."
-
-#. Default: "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
-msgid "meeting_file_types_descr"
-msgstr "Jeder TOP kann mit einer Reihe von Anhängen verknüpft werden. Manche Anhänge können auch direkt an den Beschluss des TOPs gebunden sein. Sie können hier die Anhangstypen in dieser Sitzungs-Konfiguration einsehen und verändern. Ein Anhangstyp ist durch einen Titel, ein Symbol (vorzugsweise von 16x16 Pixeln Größe) und einem vorgegebenen Titel definiert. Wenn ein Nutzer einen Anhang mit einem TOP verknüpfen wollen können Sie in einem Dropdown-Menü aus den hier angegebenen Typen wählen und dann eine Datei hochladen."
 
 #. Default: "For each member folder having access to the application, a folder containing one sub-folder for each meeting configuration is created. Into each subfolder, the application stores elements created by this user."
 #, fuzzy

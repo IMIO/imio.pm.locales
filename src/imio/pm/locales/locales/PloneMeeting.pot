@@ -1742,11 +1742,11 @@ msgid "searches_descr"
 msgstr ""
 
 #. Default: "Annex types"
-msgid "MeetingFileTypes"
+msgid "Annex types"
 msgstr ""
 
 #. Default: "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
-msgid "meeting_file_types_descr"
+msgid "annex_types_descr"
 msgstr ""
 
 #. Default: "Item categories"
@@ -4057,6 +4057,10 @@ msgstr ""
 msgid "heading_criteria"
 msgstr ""
 
+#. Default: "Subtypes"
+msgid "heading_subtypes"
+msgstr ""
+
 #. Default: "Actions"
 msgid "heading_actions"
 msgstr ""
@@ -5028,3 +5032,28 @@ msgstr ""
 #. Default: "This advice is inherited from ${linkToItem}"
 msgid "This advice is inherited from ${linkToItem}"
 msgstr ""
+
+#. Default: "Item annexes"
+msgid "Item annexes"
+msgstr ""
+
+#. Default: "Item decision annexes"
+msgid "Item decision annexes"
+msgstr ""
+
+#. Default: "Advice annexes"
+msgid "Advice annexes"
+msgstr ""
+
+#. Default: "Meeting annexes"
+msgid "Meeting annexes"
+msgstr ""
+
+#. Default: "No annex types."
+msgid "No annex types."
+msgstr ""
+
+#. Default: "No annex subtypes."
+msgid "No annex subtypes."
+msgstr ""
+

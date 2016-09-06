@@ -32,6 +32,10 @@ msgstr "Voeg ToDo Portlet toe"
 msgid "Advice advanced management screen"
 msgstr ""
 
+#. Default: "Advice annexes"
+msgid "Advice annexes"
+msgstr ""
+
 #. Default: "Advice asked automatically because"
 msgid "Advice asked automatically because"
 msgstr ""
@@ -66,6 +70,10 @@ msgstr ""
 
 #. Default: "An advice on this item still needs to be given respecting given delay."
 msgid "An advice on this item still needs to be given respecting given delay."
+msgstr ""
+
+#. Default: "Annex types"
+msgid "Annex types"
 msgstr ""
 
 #. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
@@ -276,6 +284,10 @@ msgstr ""
 msgid "Item absents to apply"
 msgstr ""
 
+#. Default: "Item annexes"
+msgid "Item annexes"
+msgstr ""
+
 #. Default: "Item assemblies have been updated."
 msgid "Item assemblies have been updated."
 msgstr ""
@@ -286,6 +298,10 @@ msgstr ""
 
 #. Default: "Item attendees to apply"
 msgid "Item attendees to apply"
+msgstr ""
+
+#. Default: "Item decision annexes"
+msgid "Item decision annexes"
 msgstr ""
 
 #. Default: "Item emergency changed."
@@ -340,6 +356,10 @@ msgstr ""
 msgid "Manage item templates"
 msgstr ""
 
+#. Default: "Meeting annexes"
+msgid "Meeting annexes"
+msgstr ""
+
 #. Default: "Items"
 msgid "Meeting items"
 msgstr ""
@@ -356,12 +376,16 @@ msgstr ""
 msgid "MeetingCategory"
 msgstr "Categorie"
 
-#. Default: "Annex types"
-msgid "MeetingFileTypes"
-msgstr "Type bijlagen"
-
 #. Default: "Meetings"
 msgid "Meetings"
+msgstr ""
+
+#. Default: "No annex subtypes."
+msgid "No annex subtypes."
+msgstr ""
+
+#. Default: "No annex types."
+msgid "No annex types."
 msgstr ""
 
 #. Default: "No complementary comment has been given on this advice."
@@ -1775,6 +1799,10 @@ msgstr ""
 msgid "annex_type"
 msgstr "Type van de bijlage"
 
+#. Default: "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
+msgid "annex_types_descr"
+msgstr ""
+
 #. Default: "Annexes"
 msgid "annexes"
 msgstr "Bijlagen"
@@ -2708,6 +2736,10 @@ msgstr ""
 msgid "heading_is_active"
 msgstr ""
 
+#. Default: "Subtypes"
+msgid "heading_subtypes"
+msgstr ""
+
 # Other
 #. Default: "Check/uncheck items"
 msgid "helpSelectItemsIcon"
@@ -3517,10 +3549,6 @@ msgstr "Management of meeting configurations"
 #, fuzzy
 msgid "meeting_configurations_descr"
 msgstr "Several meeting configurations canbe managed by PloneMeeting. A meeting configuration defines a 'type of meeting' that has its associated set of parameters. Each meeting configuration is completely independant and produces a tab among the main Plone tabs. If your organization manages several distinct meeting types, she can define corresponding meeting configurations here."
-
-#. Default: "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
-msgid "meeting_file_types_descr"
-msgstr "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
 
 #. Default: "For each member folder having access to the application, a folder containing one sub-folder for each meeting configuration is created. Into each subfolder, the application stores elements created by this user."
 #, fuzzy
