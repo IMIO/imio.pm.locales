@@ -76,10 +76,6 @@ msgstr ""
 msgid "Annex types"
 msgstr ""
 
-#. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
-msgid "Annexes preview must be enabled to launch complete annexes conversion process."
-msgstr ""
-
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Bijlagen (beslissing)"
@@ -191,6 +187,10 @@ msgstr "Editeer Plonemeeting Portlet"
 #. Default: "Edit Todo Portlet"
 msgid "Edit Todo Portlet"
 msgstr "Editeer ToDo Portlet"
+
+#. Default: "Edit attributes of this group of categories"
+msgid "Edit attributes of this group of categories"
+msgstr ""
 
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
@@ -1176,10 +1176,6 @@ msgstr ""
 msgid "PloneMeeting_label_predecessor"
 msgstr ""
 
-#. Default: "Predefined title that will be assigned to every uploaded file having this type"
-msgid "PloneMeeting_label_predefinedTitle"
-msgstr "Predefined title that will be assigned to every uploaded file having this type"
-
 #. Default: "Predefined title in the second language"
 msgid "PloneMeeting_label_predefinedTitle2"
 msgstr ""
@@ -1214,10 +1210,6 @@ msgstr ""
 
 #. Default: "Meeting states into which events will be recorded in meeting's history"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
-msgstr ""
-
-#. Default: "Related to"
-msgid "PloneMeeting_label_relatedTo"
 msgstr ""
 
 #. Default: "Duty for users replacing this one"
@@ -1287,11 +1279,6 @@ msgstr ""
 #. Default: "Restrict usage of this template to following groups"
 msgid "PloneMeeting_label_templateUsingGroups"
 msgstr ""
-
-# MeetingFileType
-#. Default: "Icon (16x16 pixels for optimal rendering)"
-msgid "PloneMeeting_label_theIcon"
-msgstr "Icon (16x16 pixels voor optimale weergave)"
 
 # Meeting
 #. Default: "Title"
@@ -4311,10 +4298,6 @@ msgstr "You manage here predefined items that will serve, for different purposes
 
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
-msgstr ""
-
-#. Default: "Define here for which kind of annex this type of annex applies."
-msgid "related_to_descr"
 msgstr ""
 
 #. Default: "Remove this information"

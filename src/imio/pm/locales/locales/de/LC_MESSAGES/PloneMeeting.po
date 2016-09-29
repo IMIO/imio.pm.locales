@@ -75,10 +75,6 @@ msgstr ""
 msgid "Annex types"
 msgstr ""
 
-#. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
-msgid "Annexes preview must be enabled to launch complete annexes conversion process."
-msgstr ""
-
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Anhänge (Beschluss)"
@@ -190,6 +186,10 @@ msgstr "PloneMeeting Portlet bearbeiten"
 #. Default: "Edit Todo Portlet"
 msgid "Edit Todo Portlet"
 msgstr "Zu erledigen Portlet bearbeiten"
+
+#. Default: "Edit attributes of this group of categories"
+msgid "Edit attributes of this group of categories"
+msgstr ""
 
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
@@ -1175,10 +1175,6 @@ msgstr "Bemerkungen zur vorbereitenden Sitzung"
 msgid "PloneMeeting_label_predecessor"
 msgstr "Vorlage"
 
-#. Default: "Predefined title that will be assigned to every uploaded file having this type"
-msgid "PloneMeeting_label_predefinedTitle"
-msgstr "Vorgegebener Titel der jeder hochgeladenen Datei mit diesem Typ zugewiesen wird"
-
 #. Default: "Predefined title in the second language"
 msgid "PloneMeeting_label_predefinedTitle2"
 msgstr ""
@@ -1213,10 +1209,6 @@ msgstr "Stati der TOP für welche die Speicherung der History aktiviert ist"
 
 #. Default: "Meeting states into which events will be recorded in meeting's history"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
-msgstr ""
-
-#. Default: "Related to"
-msgid "PloneMeeting_label_relatedTo"
 msgstr ""
 
 #. Default: "Duty for users replacing this one"
@@ -1286,11 +1278,6 @@ msgstr ""
 #. Default: "Restrict usage of this template to following groups"
 msgid "PloneMeeting_label_templateUsingGroups"
 msgstr ""
-
-# MeetingFileType
-#. Default: "Icon (16x16 pixels for optimal rendering)"
-msgid "PloneMeeting_label_theIcon"
-msgstr "Symbol (16x16 Pixel für optimale Darstellung)"
 
 # Meeting
 #. Default: "Title"
@@ -4324,10 +4311,6 @@ msgstr "Hier werden vorkonfigurierte TOP verwaltet. Diese können als Vorlage f�
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Abstimmungen aktualisieren"
-
-#. Default: "Define here for which kind of annex this type of annex applies."
-msgid "related_to_descr"
-msgstr ""
 
 #. Default: "Remove this information"
 msgid "remove_info"

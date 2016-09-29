@@ -75,10 +75,6 @@ msgstr "Un avis doit encore être rendu sur ce point en respectant le délai imp
 msgid "Annex types"
 msgstr "Types d'annexes"
 
-#. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
-msgid "Annexes preview must be enabled to launch complete annexes conversion process."
-msgstr "N'effectuez la conversion des annexes que si la prévisualisation des annexes est activée."
-
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Annexes (après décision)"
@@ -190,6 +186,10 @@ msgstr "Edition d'un portlet 'PloneMeeting'"
 #. Default: "Edit Todo Portlet"
 msgid "Edit Todo Portlet"
 msgstr "Edition du portlet 'à faire'"
+
+#. Default: "Edit attributes of this group of categories"
+msgid "Edit attributes of this group of categories"
+msgstr "Éditer les paramètres de ce groupe de catégories ('Activer l'option \"confidentiel\"', 'Activer l'option \"à imprimer\"', ...)"
 
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
@@ -1174,10 +1174,6 @@ msgstr "Observations pour la réunion préparatoire"
 msgid "PloneMeeting_label_predecessor"
 msgstr "Point précédent"
 
-#. Default: "Predefined title that will be assigned to every uploaded file having this type"
-msgid "PloneMeeting_label_predefinedTitle"
-msgstr "Titre prédéfini attribué à chaque fichier de ce type qui sera uploadé"
-
 #. Default: "Predefined title in the second language"
 msgid "PloneMeeting_label_predefinedTitle2"
 msgstr "Titre prédéfini dans la seconde langue"
@@ -1213,10 +1209,6 @@ msgstr "États des points dans lesquels l'historisation est active"
 #. Default: "Meeting states into which events will be recorded in meeting's history"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr "États des séances dans lesquels l'historisation est active"
-
-#. Default: "Related to"
-msgid "PloneMeeting_label_relatedTo"
-msgstr "Associé à"
 
 #. Default: "Duty for users replacing this one"
 msgid "PloneMeeting_label_replacementDuty"
@@ -1285,11 +1277,6 @@ msgstr "Pris en charge par"
 #. Default: "Restrict usage of this template to following groups"
 msgid "PloneMeeting_label_templateUsingGroups"
 msgstr "Restreindre ce canevas de point aux groupes suivants"
-
-# MeetingFileType
-#. Default: "Icon (16x16 pixels for optimal rendering)"
-msgid "PloneMeeting_label_theIcon"
-msgstr "Icône (16x16 pixels pour un rendu optimal)"
 
 # Meeting
 #. Default: "Title"
@@ -4298,10 +4285,6 @@ msgstr "Les points récurrents sont des points automatiquement ajoutés à une s
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Rafraîchir les valeurs de vote"
-
-#. Default: "Define here for which kind of annex this type of annex applies."
-msgid "related_to_descr"
-msgstr "Choisissez ici le type d'annexe auquel ce type de fichier est associé."
 
 #. Default: "Remove this information"
 msgid "remove_info"

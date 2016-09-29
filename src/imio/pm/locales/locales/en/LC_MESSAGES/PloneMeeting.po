@@ -75,10 +75,6 @@ msgstr "An advice on this item still needs to be given respecting given delay."
 msgid "Annex types"
 msgstr ""
 
-#. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
-msgid "Annexes preview must be enabled to launch complete annexes conversion process."
-msgstr "Annexes preview must be enabled to launch complete annexes conversion process."
-
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Annexes (decision)"
@@ -190,6 +186,10 @@ msgstr "Edit PloneMeeting Portlet"
 #. Default: "Edit Todo Portlet"
 msgid "Edit Todo Portlet"
 msgstr "Edit Todo Portlet"
+
+#. Default: "Edit attributes of this group of categories"
+msgid "Edit attributes of this group of categories"
+msgstr ""
 
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
@@ -1174,10 +1174,6 @@ msgstr "Observations for the preparatory meeting"
 msgid "PloneMeeting_label_predecessor"
 msgstr "Previous item"
 
-#. Default: "Predefined title that will be assigned to every uploaded file having this type"
-msgid "PloneMeeting_label_predefinedTitle"
-msgstr "Predefined title that will be assigned to every uploaded file having this type"
-
 #. Default: "Predefined title in the second language"
 msgid "PloneMeeting_label_predefinedTitle2"
 msgstr "Predefined title in the second language"
@@ -1213,10 +1209,6 @@ msgstr "Item states into which events will be recorded in item's history"
 #. Default: "Meeting states into which events will be recorded in meeting's history"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr "Meeting states into which events will be recorded in meeting's history"
-
-#. Default: "Related to"
-msgid "PloneMeeting_label_relatedTo"
-msgstr "Related to"
 
 #. Default: "Duty for users replacing this one"
 msgid "PloneMeeting_label_replacementDuty"
@@ -1285,11 +1277,6 @@ msgstr "Taken over by"
 #. Default: "Restrict usage of this template to following groups"
 msgid "PloneMeeting_label_templateUsingGroups"
 msgstr "Restrict usage of this template to following groups"
-
-# MeetingFileType
-#. Default: "Icon (16x16 pixels for optimal rendering)"
-msgid "PloneMeeting_label_theIcon"
-msgstr "Icon (16x16 pixels for optimal rendering)"
 
 # Meeting
 #. Default: "Title"
@@ -4299,10 +4286,6 @@ msgstr "Recurring items are items that will be automatically added to a meeting 
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Refresh vote values"
-
-#. Default: "Define here for which kind of annex this type of annex applies."
-msgid "related_to_descr"
-msgstr "Define here for which kind of annex this type of annex applies."
 
 #. Default: "Remove this information"
 msgid "remove_info"

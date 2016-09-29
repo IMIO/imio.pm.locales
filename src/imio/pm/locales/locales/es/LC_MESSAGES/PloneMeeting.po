@@ -79,10 +79,6 @@ msgstr ""
 msgid "Annex types"
 msgstr ""
 
-#. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
-msgid "Annexes preview must be enabled to launch complete annexes conversion process."
-msgstr "Vista previa de Anexos desde ser habilitada para lanzar procesos de conversión de anexos completos."
-
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Anexos (decisión)"
@@ -194,6 +190,10 @@ msgstr "Editar Portlet PloneMeeting"
 #. Default: "Edit Todo Portlet"
 msgid "Edit Todo Portlet"
 msgstr "Editar Portlet Todo"
+
+#. Default: "Edit attributes of this group of categories"
+msgid "Edit attributes of this group of categories"
+msgstr ""
 
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
@@ -1182,10 +1182,6 @@ msgstr "Observaciones para la reunión preparatoria"
 msgid "PloneMeeting_label_predecessor"
 msgstr "Temas vinculados"
 
-#. Default: "Predefined title that will be assigned to every uploaded file having this type"
-msgid "PloneMeeting_label_predefinedTitle"
-msgstr "Título predefinido que será asignado a cada archivo subido siendo de este tipo"
-
 #. Default: "Predefined title in the second language"
 msgid "PloneMeeting_label_predefinedTitle2"
 msgstr "Título predefinido en el segundo idioma"
@@ -1221,10 +1217,6 @@ msgstr "Los estados de temas en los que los eventos serán registrados en el his
 #. Default: "Meeting states into which events will be recorded in meeting's history"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr "Los estados de reunión en los cuales los eventos serán registrados en el historial de la reunión"
-
-#. Default: "Related to"
-msgid "PloneMeeting_label_relatedTo"
-msgstr "Relacionado a"
 
 #. Default: "Duty for users replacing this one"
 msgid "PloneMeeting_label_replacementDuty"
@@ -1293,11 +1285,6 @@ msgstr ""
 #. Default: "Restrict usage of this template to following groups"
 msgid "PloneMeeting_label_templateUsingGroups"
 msgstr "Restringir el uso de esta plantilla para los grupos siguientes"
-
-# MeetingFileType
-#. Default: "Icon (16x16 pixels for optimal rendering)"
-msgid "PloneMeeting_label_theIcon"
-msgstr "Icono (16x16 píxeles para óptima visualización)"
 
 # Meeting
 #. Default: "Title"
@@ -4347,11 +4334,6 @@ msgstr "Usted puede manejar aquí temas predefinidos que servirán, para diferen
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Actualizar valores de voto"
-
-#. Default: "Define here for which kind of annex this type of annex applies."
-#, fuzzy
-msgid "related_to_descr"
-msgstr "Define aquí por qué tipo de anexar es este tipo de anexo aplica."
 
 #. Default: "Remove this information"
 msgid "remove_info"
