@@ -484,6 +484,10 @@ msgstr "Marquer les annexes après décision comme 'à imprimer' par défaut?"
 msgid "PloneMeeting_label_annexToPrintDefault"
 msgstr "Marquer les annexes comme 'à imprimer' par défaut?"
 
+#. Default: "Annex to print mode"
+msgid "PloneMeeting_label_annexToPrintMode"
+msgstr "Mode d'impression des annexes"
+
 #. Default: "Answers"
 msgid "PloneMeeting_label_answerers"
 msgstr "Réponses"
@@ -687,10 +691,6 @@ msgstr "Activer l'invalidation des avis"
 #. Default: "Enable annex confidentiality"
 msgid "PloneMeeting_label_enableAnnexConfidentiality"
 msgstr "Activer la confidentialité des annexes"
-
-#. Default: "Enable annex preview"
-msgid "PloneMeeting_label_enableAnnexPreview"
-msgstr "Activer la prévisualisation des annexes"
 
 #. Default: "Enable annex to print"
 msgid "PloneMeeting_label_enableAnnexToPrint"
@@ -1768,6 +1768,18 @@ msgstr "Si vous cochez cette case, les annexes ajoutées à un point seront marq
 msgid "annex_to_print_disabled"
 msgstr "L'annexe ne peut être convertie dans un format imprimable (format non pris en charge ou erreur lors de la conversion).  Utilisez des formats bureautiques courants tels que .doc, .xls, .odt, ..."
 
+#. Default: "Automated (annexes are printed by the application)"
+msgid "annex_to_print_mode_automated"
+msgstr "Automatisé (les annexes sont imprimées par l'application)"
+
+#. Default: "If print functionnality is enabled for annexes and an annex is set 'to print', select here the to print mode that will be used : 'Manual', means that the to print is just defined for information and that the printing process will be handled manually or 'Automated', in this case, the application will generate a printable format for the annex (converted to images) so it can be inserted in a generated document."
+msgid "annex_to_print_mode_descr"
+msgstr "Si l'option 'à imprimer?' est activée pour les annexes, ceci permet de définir le mode d'impression qui sera appliqué lorsqu'une annexe est définie 'à imprimer' : soit le mode 'Pour information', dans ce cas les annexes à imprimer le seront manuellement et l'application ne gère rien à ce niveau, soit 'Automatisé', dans ce cas l'application génèrera un format imprimable pour les annexes (converties en images) afin qu'elles puissent être insérées lors de la génération de divers documents."
+
+#. Default: "For information (annexes are printed manually)"
+msgid "annex_to_print_mode_info"
+msgstr "Pour information (les annexes sont imprimées manuellement)"
+
 #. Default: "The annex will not be printed."
 msgid "annex_to_print_no"
 msgstr "L'annexe ne sera pas imprimée."
@@ -1799,6 +1811,22 @@ msgstr "Annexes"
 #. Default: "The item was duplicated but the annexes could not be kept because it was not possible to find file type to use in meeting config ${cfg} for duplicated annexes (no available meeting file type), please contact system administrator."
 msgid "annexes_not_kept_because_no_available_mft_warning"
 msgstr "Le point a été dupliqué mais les annexes du point n'ont pas pu être copiées car il a été impossible de déterminer le type de fichier à utiliser dans la configuration de séance ${cfg} (aucun type de fichier disponible), contactez votre administrateur système."
+
+#. Default: "Annexes preview"
+msgid "annexes_preview"
+msgstr "Prévisualisation des annexes"
+
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red;'>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
+msgid "annexes_preview_descr"
+msgstr "Si la prévisualisation est activée, les annexes seront converties dans un format qui pourra être lu par le navigateur web.  Ceci évite les problèmes de logiciel manquant pour ouvrir une annexe (plus besoin de Word pour ouvrir un .doc, plus besoin d'Acrobat Reader pour ouvrir un .pdf, ...).  <span style='color: red;'>Si vous activez la prévisualisation sur un site contenant déjà des annexes, n'oubliez pas de lancer la procédure de conversion des annexes!</span>"
+
+#. Default: "<span style='color: red;'>Annexes preview is disabled in the ${documentviewer_url}.</span>"
+msgid "annexes_preview_disabled"
+msgstr "<span style='color: red;'>La prévisualisation des annexes est désactivée dans les '${documentviewer_url}' (la case 'Convertir automatiquement' n'est pas cochée).</span>"
+
+#. Default: "<span style='color: green;'>Annexes preview is enabled in the ${documentviewer_url}.</span>"
+msgid "annexes_preview_enabled"
+msgstr "<span style='color: green;'>La prévisualisation des annexes est activée dans les '${documentviewer_url}' (la case 'Convertir automatiquement' est cochée).</span>"
 
 #. Default: "Annexes to print"
 msgid "annexes_to_print_term"
@@ -2366,6 +2394,14 @@ msgstr "Signatures définies sur la séance"
 msgid "doc"
 msgstr "Documents"
 
+#. Default: "Configuration of the document generator"
+msgid "documentgenerator_config"
+msgstr "Configuration du générateur de document"
+
+#. Default: "These parameters are now managed in the ${docgen_url}."
+msgid "documentgenerator_config_descr"
+msgstr "Ces paramètres sont maintenant gérés dans la ${docgen_url}."
+
 #. Default: "Effective date into which item is presented"
 msgid "effective_meeting_help"
 msgstr "Date dans laquelle le point est effectivement présenté"
@@ -2401,10 +2437,6 @@ msgstr "Quand l'invalidation des avis est activée, tout changement sur un point
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
 msgstr "Si vous activez la confidentialité des annexes, il sera possible pour les gestionnaires de séances de définir pour chaque annexe si elle est confidentielle ou non.  Cette information ne sera visible que par les gestionnaires de séances.  Il sera aussi possible de définir une valeur par défaut pour ce champ sur les types d'annexes."
-
-#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red;'>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
-msgid "enable_annex_preview_descr"
-msgstr "Si la prévisualisation est activée, les annexes seront converties dans un format qui pourra être lu par le navigateur web.  Ceci évite les problèmes de logiciel manquant pour ouvrir une annexe (plus besoin de Word pour ouvrir un .doc, plus besoin d'Acrobat Reader pour ouvrir un .pdf, ...).  <span style='color: red;'>Si vous activez la prévisualisation sur un site contenant déjà des points et annexes, n'oubliez pas de lancer la procédure de conversion des annexes!</span>"
 
 #. Default: "Let the user specify if an annex needs to be printed or not.  Annex to print may be 'for information', this will just show on the annex that it is to print and relevant users may print these annexes manually, or it can be 'for automated printing', in this case, printable formats are generated when an annex is set 'to print' so the application may print these annexes in documents.  If you choose this last option, it is necessary to set up a engine that will convert annexes to printable formats asynchronously so users do not have to wait during annexes conversion.  Be careful, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
 msgid "enable_annex_to_print_descr"
@@ -3969,14 +4001,6 @@ msgstr "Par point à discuter (à discuter et ensuite pas à discuter)"
 msgid "on_transition_field_transforms_descr"
 msgstr "Lorsqu'une transition de workflow est effectuée sur un point, vous pouvez renseigner une expression TAL qui adaptera une des zones de texte riche de ce point."
 
-#. Default: "OpenOffice configuration"
-msgid "oo_config"
-msgstr "Configuration d'OpenOffice"
-
-#. Default: "These parameters are now managed in the ${docgen_url} control panel."
-msgid "oo_config_descr"
-msgstr "Ces paramètres sont maintenant gérés dans le panneau de configuration de ${docgen_url}."
-
 #. Default: "Some users want to open annexes in separate windows. Indeed, when the user is consulting a meeting with paginated lists of items, clicking on an annex for downloading it may replace the current page with the annex content if the browser is configured for doing so (in conjunction with a plug-in for viewing PDFs inside the browser for example). In this case, the user is forced to click on 'back' to view the list again. It has 2 disadvantages: the list is refreshed (which slows down the system), and the user is redirected to the first items instead of the page he consulted just before the download."
 msgid "open_annexes_in_separate_windows_descr"
 msgstr "Certains utilisateurs veulent ouvrir les annexes dans des fenêres séparées. En effet, quand l'utilisateur consulte une séance qui contient des listes paginées de points, un clic sur une annexe pour la télécharger peut remplacer la page courante par le contenu de l'annexe si le navigateur est configuré pour agir de la sorte (en conjonction avec un greffon permettant de visualiser les PDFs au sein du navigateur par exemple). Dans ce cas, l'utilisateur est obligé de cliquer sur 'Back' pour voir à nouveau la liste des points. Cela a 2 désavantages: la liste est rafraîchie (ce qui ralentit le système) et l'utilisateur est redirigé vers les premiers points de la liste au lieu de l'endroit qu'il a quitté juste avant le téléchargement."
@@ -4232,6 +4256,10 @@ msgstr "Séance"
 #. Default: "Items presented to this meeting"
 msgid "presented_items"
 msgstr "Points présentés à cette séance"
+
+#. Default: "Preview of annexes grouped by type"
+msgid "preview_grouped_annexes"
+msgstr "Annexes groupées par type d'annexe (puis listées par ordre alphabétique)"
 
 #. Default: "A proposing group is required."
 msgid "proposing_group_required"

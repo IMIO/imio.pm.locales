@@ -484,6 +484,10 @@ msgstr ""
 msgid "PloneMeeting_label_annexToPrintDefault"
 msgstr ""
 
+#. Default: "Annex to print mode"
+msgid "PloneMeeting_label_annexToPrintMode"
+msgstr ""
+
 #. Default: "Answers"
 msgid "PloneMeeting_label_answerers"
 msgstr ""
@@ -686,10 +690,6 @@ msgstr "Ungültig setzen von Kommentaren zulassen"
 
 #. Default: "Enable annex confidentiality"
 msgid "PloneMeeting_label_enableAnnexConfidentiality"
-msgstr ""
-
-#. Default: "Enable annex preview"
-msgid "PloneMeeting_label_enableAnnexPreview"
 msgstr ""
 
 #. Default: "Enable annex to print"
@@ -1770,6 +1770,18 @@ msgstr ""
 msgid "annex_to_print_disabled"
 msgstr ""
 
+#. Default: "Automated (annexes are printed by the application)"
+msgid "annex_to_print_mode_automated"
+msgstr ""
+
+#. Default: "If print functionnality is enabled for annexes and an annex is set 'to print', select here the to print mode that will be used : 'Manual', means that the to print is just defined for information and that the printing process will be handled manually or 'Automated', in this case, the application will generate a printable format for the annex (converted to images) so it can be inserted in a generated document."
+msgid "annex_to_print_mode_descr"
+msgstr ""
+
+#. Default: "For information (annexes are printed manually)"
+msgid "annex_to_print_mode_info"
+msgstr ""
+
 #. Default: "The annex will not be printed."
 msgid "annex_to_print_no"
 msgstr ""
@@ -1800,6 +1812,22 @@ msgstr "Anhänge"
 
 #. Default: "The item was duplicated but the annexes could not be kept because it was not possible to find file type to use in meeting config ${cfg} for duplicated annexes (no available meeting file type), please contact system administrator."
 msgid "annexes_not_kept_because_no_available_mft_warning"
+msgstr ""
+
+#. Default: "Annexes preview"
+msgid "annexes_preview"
+msgstr ""
+
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red;'>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
+msgid "annexes_preview_descr"
+msgstr ""
+
+#. Default: "<span style='color: red;'>Annexes preview is disabled in the ${documentviewer_url}.</span>"
+msgid "annexes_preview_disabled"
+msgstr ""
+
+#. Default: "<span style='color: green;'>Annexes preview is enabled in the ${documentviewer_url}.</span>"
+msgid "annexes_preview_enabled"
 msgstr ""
 
 #. Default: "Annexes to print"
@@ -2369,6 +2397,14 @@ msgstr ""
 msgid "doc"
 msgstr "Dokumentenerstellung"
 
+#. Default: "Configuration of the document generator"
+msgid "documentgenerator_config"
+msgstr ""
+
+#. Default: "These parameters are now managed in the ${docgen_url}."
+msgid "documentgenerator_config_descr"
+msgstr ""
+
 #. Default: "Effective date into which item is presented"
 msgid "effective_meeting_help"
 msgstr ""
@@ -2403,10 +2439,6 @@ msgstr "Wenn die Funktion 'Kommentar ungültig setzen' aktiviert ist, werden bei
 
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
-msgstr ""
-
-#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red;'>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
-msgid "enable_annex_preview_descr"
 msgstr ""
 
 #. Default: "Let the user specify if an annex needs to be printed or not.  Annex to print may be 'for information', this will just show on the annex that it is to print and relevant users may print these annexes manually, or it can be 'for automated printing', in this case, printable formats are generated when an annex is set 'to print' so the application may print these annexes in documents.  If you choose this last option, it is necessary to set up a engine that will convert annexes to printable formats asynchronously so users do not have to wait during annexes conversion.  Be careful, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
@@ -3992,14 +4024,6 @@ msgstr ""
 msgid "on_transition_field_transforms_descr"
 msgstr ""
 
-#. Default: "OpenOffice configuration"
-msgid "oo_config"
-msgstr "OpenOffice-Konfiguration"
-
-#. Default: "These parameters are now managed in the ${docgen_url} control panel."
-msgid "oo_config_descr"
-msgstr "PloneMeeting ermöglicht es diverse Dokumente aus Sitzungen, Tagesordnungen, Beschlüssen, usw. zu generieren. Für jede Sitzungs-Konfiguration können genaue Einstellungen für die generierten Dokumente definiert werden. Wenn Sie aber Dokemente in einem anderen Format als Open Document Format Text (ODT) generieren wollen, zum Beispiel Microsoft Word, RTF oder PDF, muss OpenOffice im Server-Modues auf dem selben Rechnera auf dem auch PloneMeeting läuft verfügbar sein. Zudem müssen die Felder in diesem Abschnitt ausgefüllt werden."
-
 #. Default: "Some users want to open annexes in separate windows. Indeed, when the user is consulting a meeting with paginated lists of items, clicking on an annex for downloading it may replace the current page with the annex content if the browser is configured for doing so (in conjunction with a plug-in for viewing PDFs inside the browser for example). In this case, the user is forced to click on 'back' to view the list again. It has 2 disadvantages: the list is refreshed (which slows down the system), and the user is redirected to the first items instead of the page he consulted just before the download."
 msgid "open_annexes_in_separate_windows_descr"
 msgstr "Gewisse Anwedender möchten die Anlagen in neuen Fenstern öffnen. In der Tat, wenn ein Benutzer eine Sitzung anschaut mit einer Liste der TOP, und er auf eine Anlage klickt um diese zu lesen/runter zu laden, wird die aktuelle Liste durch diese Anlage ersetzt, wenn der Browser so eingestellt ist (Z.B. in Anlehnung an ein PlugIn welches PDF Dateien im Browser anzeigt). In diesem Fall ist der Benutzer gezwungen den 'zurück' Knopf zu benutzen um die Liste wieder angezeigt zu bekommen. Das hat 2 Nachteile: die Liste wird aktualisert (Verlangsamung des Systems) und der Benutzer wird zum ersten Punkt zurück geleitet anstelle des Punktes von welchem er den Download gestartet hat."
@@ -4258,6 +4282,10 @@ msgstr "Sitzung in der dieser TOP präsentiert wird."
 #. Default: "Items presented to this meeting"
 msgid "presented_items"
 msgstr "TOP die in dieser Sitzung präsentiert wurden"
+
+#. Default: "Preview of annexes grouped by type"
+msgid "preview_grouped_annexes"
+msgstr ""
 
 #. Default: "A proposing group is required."
 msgid "proposing_group_required"
