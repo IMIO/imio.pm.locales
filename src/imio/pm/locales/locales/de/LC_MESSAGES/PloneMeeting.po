@@ -448,6 +448,10 @@ msgstr "Abwesende"
 msgid "PloneMeeting_label_acronym"
 msgstr "Akronym"
 
+#. Default: "Confidential advice annexes are visible for"
+msgid "PloneMeeting_label_adviceAnnexConfidentialVisibleFor"
+msgstr ""
+
 #. Default: "An advice marked as 'Confidential' will not be visible by"
 msgid "PloneMeeting_label_adviceConfidentialFor"
 msgstr ""
@@ -820,6 +824,10 @@ msgstr "TOP Stati die Kommentare zulassen"
 msgid "PloneMeeting_label_itemAdviceViewStates"
 msgstr ""
 
+#. Default: "Confidential item annexes are visible for"
+msgid "PloneMeeting_label_itemAnnexConfidentialVisibleFor"
+msgstr ""
+
 #. Default: "Assembly that is specific to this meeting item"
 msgid "PloneMeeting_label_itemAssembly"
 msgstr ""
@@ -1004,6 +1012,10 @@ msgstr "Maximale Anzahl der Sitzungen die in den Sitzungs- und Beschlüsse-Portl
 #. Default: "Interface allowing to use a specific Zope3 adapter for modifying the actions defined on the transitions of the meeting workflow"
 msgid "PloneMeeting_label_meetingActionsInterface"
 msgstr "Interface das es erlaubt einen speziellen Zope 3-Adapter zu verwenden um die Aktionen für Statusübergänge im Sitzungs-Arbeitsablauf anzupassen."
+
+#. Default: "Confidential meeting annexes are visible for"
+msgid "PloneMeeting_label_meetingAnnexConfidentialVisibleFor"
+msgstr ""
 
 #. Default: "Home page"
 msgid "PloneMeeting_label_meetingAppDefaultView"
@@ -1596,6 +1608,10 @@ msgstr ""
 
 #. Default: "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 msgid "adviceToGive_mail_subject"
+msgstr ""
+
+#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
+msgid "advice_annex_confidential_visible_for_descr"
 msgstr ""
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
@@ -3119,6 +3135,10 @@ msgstr "Wenn ein TOP in einem von den Stati ist, die hier ausgewählt wurden, da
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for groups the advice is asked for, to continue to view the item.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_advice_view_states_descr"
+msgstr ""
+
+#. Default: "Select here profiles of users that will be able to see an annex added to an item that is set confidential."
+msgid "item_annex_confidential_visible_for_descr"
 msgstr ""
 
 #. Default: "Assembly for the item"
@@ -4846,6 +4866,66 @@ msgstr "Benutzer"
 
 #. Default: "When an advice is 'given' and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically versioned. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to versionate advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is 'itemcreated', a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is versioned when the item is edited if necessary (so if it was not already versioned since last advice edition).  If you have a specific state 'waiting advice' where proposing group is not able to edit the item, this box may be left unchecked."
 msgid "versionate_advice_if_given_and_item_modified_descr"
+msgstr ""
+
+#. Default: "The advisers of the group that gave the advice"
+msgid "visible_for_adviser_group"
+msgstr ""
+
+#. Default: "The budget impact editors"
+msgid "visible_for_configgroup_budgetimpacteditors"
+msgstr ""
+
+#. Default: "The power observers"
+msgid "visible_for_configgroup_powerobservers"
+msgstr ""
+
+#. Default: "The restricted power observers"
+msgid "visible_for_configgroup_restrictedpowerobservers"
+msgstr ""
+
+#. Default: "People to which an advice has been asked on the item"
+msgid "visible_for_reader_advices"
+msgstr ""
+
+#. Default: "The copy groups set on the item"
+msgid "visible_for_reader_copy_groups"
+msgstr ""
+
+#. Default: "The group in charge"
+msgid "visible_for_reader_groupincharge"
+msgstr ""
+
+#. Default: "The 'creators' of any group"
+msgid "visible_for_suffix_profile_creators"
+msgstr ""
+
+#. Default: "The 'observers' of any group"
+msgid "visible_for_suffix_profile_observers"
+msgstr ""
+
+#. Default: "The 'pre-reviewers' of any group"
+msgid "visible_for_suffix_profile_prereviewers"
+msgstr ""
+
+#. Default: "The 'reviewers' of any group"
+msgid "visible_for_suffix_profile_reviewers"
+msgstr ""
+
+#. Default: "The 'creators' of the proposing group"
+msgid "visible_for_suffix_proposing_group_creators"
+msgstr ""
+
+#. Default: "The 'observers' of the proposing group"
+msgid "visible_for_suffix_proposing_group_observers"
+msgstr ""
+
+#. Default: "The 'pre-reviewers' of the proposing group"
+msgid "visible_for_suffix_proposing_group_prereviewers"
+msgstr ""
+
+#. Default: "The 'reviewers' of the proposing group"
+msgid "visible_for_suffix_proposing_group_reviewers"
 msgstr ""
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name 'item'). If it returns False, no vote may occur on the item."

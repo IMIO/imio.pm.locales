@@ -448,6 +448,10 @@ msgstr "Absents (non excusés)"
 msgid "PloneMeeting_label_acronym"
 msgstr "Acronyme"
 
+#. Default: "Confidential advice annexes are visible for"
+msgid "PloneMeeting_label_adviceAnnexConfidentialVisibleFor"
+msgstr "Les annexes confidentielles des avis sont visible par"
+
 #. Default: "An advice marked as 'Confidential' will not be visible by"
 msgid "PloneMeeting_label_adviceConfidentialFor"
 msgstr "Un avis marqué 'Confidentiel' ne sera pas visible par"
@@ -820,6 +824,10 @@ msgstr "Etats des points dans lesquels on peut donner un avis"
 msgid "PloneMeeting_label_itemAdviceViewStates"
 msgstr "Etats des points dans lesquels les donneurs d'avis de ces points peuvent continuer à les voir"
 
+#. Default: "Confidential item annexes are visible for"
+msgid "PloneMeeting_label_itemAnnexConfidentialVisibleFor"
+msgstr "Les annexes confidentielles des points sont visibles par"
+
 #. Default: "Assembly that is specific to this meeting item"
 msgid "PloneMeeting_label_itemAssembly"
 msgstr "Assemblée pour ce point"
@@ -1004,6 +1012,10 @@ msgstr "Nombre maximal de séances s'affichant dans les portlets 'séances' et '
 #. Default: "Interface allowing to use a specific Zope3 adapter for modifying the actions defined on the transitions of the meeting workflow"
 msgid "PloneMeeting_label_meetingActionsInterface"
 msgstr "Interface permettant d'utiliser un adapter Zope3 spécifique pour modifier les actions définies sur les transitions du workflow gouvernant les séances"
+
+#. Default: "Confidential meeting annexes are visible for"
+msgid "PloneMeeting_label_meetingAnnexConfidentialVisibleFor"
+msgstr "Les annexes confidentielles des séances sont visible par"
 
 #. Default: "Home page"
 msgid "PloneMeeting_label_meetingAppDefaultView"
@@ -1595,6 +1607,10 @@ msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}
 #. Default: "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 msgid "adviceToGive_mail_subject"
 msgstr "${meetingConfigTitle} - Votre avis est demandé sur le point '${itemTitle}'."
+
+#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
+msgid "advice_annex_confidential_visible_for_descr"
+msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des avis et définies comme confidentielles"
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
@@ -3108,6 +3124,10 @@ msgstr "Quand un point est dans un des états que vous sélectionnez ici, il ser
 #. Default: "When an item is in one of the states you choose here, it will be possible for groups the advice is asked for, to continue to view the item.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_advice_view_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera toujours visible par les utilisateurs auxquels un avis est demandé sur le point.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+
+#. Default: "Select here profiles of users that will be able to see an annex added to an item that is set confidential."
+msgid "item_annex_confidential_visible_for_descr"
+msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des points et définies comme confidentielles"
 
 #. Default: "Assembly for the item"
 msgid "item_assembly"
@@ -4815,6 +4835,66 @@ msgstr "Utilisateurs"
 #. Default: "When an advice is 'given' and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically versioned. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to versionate advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is 'itemcreated', a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is versioned when the item is edited if necessary (so if it was not already versioned since last advice edition).  If you have a specific state 'waiting advice' where proposing group is not able to edit the item, this box may be left unchecked."
 msgid "versionate_advice_if_given_and_item_modified_descr"
 msgstr "Lorsqu'un avis est 'rendu' et qu'il n'est plus éditable par les émetteurs d'avis, donc qu'il a été mis dans un état où les émetteurs d'avis ne peuvent plus l'éditer, il est automatiquement versionné. Si dans votre configuration, un avis peut être rendu alors que le point peut toujours être édité par le groupe proposant, il peut être nécessaire de versionner l'avis lors de l'édition du point. Par exemple si les avis peuvent être rendus lorsque le point est 'en création', le groupe proposant peut éditer le point. Dans ce cas, cochez cette case, ceci permettra de s'assurer que l'avis est versionné avant toute modification du point. Si par contre vous avez un état dans votre workflow du type 'en attente des avis' dans lequel le groupe proposant ne peut pas éditer le point, vous pouvez décocher cette case."
+
+#. Default: "The advisers of the group that gave the advice"
+msgid "visible_for_adviser_group"
+msgstr "Les donneurs d'avis du groupe ayant rendu l'avis"
+
+#. Default: "The budget impact editors"
+msgid "visible_for_configgroup_budgetimpacteditors"
+msgstr "Les 'Gestionnaires d'informations budgétaires'"
+
+#. Default: "The power observers"
+msgid "visible_for_configgroup_powerobservers"
+msgstr "Les 'Super observateurs'"
+
+#. Default: "The restricted power observers"
+msgid "visible_for_configgroup_restrictedpowerobservers"
+msgstr "Les 'Super observateurs restreints'"
+
+#. Default: "People to which an advice has been asked on the item"
+msgid "visible_for_reader_advices"
+msgstr "Tous les donneurs d'avis pour lesquel l'avis a été demandé sur le point"
+
+#. Default: "The copy groups set on the item"
+msgid "visible_for_reader_copy_groups"
+msgstr "Les groupes en copie sélectionnés sur le point"
+
+#. Default: "The group in charge"
+msgid "visible_for_reader_groupincharge"
+msgstr "Le groupe en charge"
+
+#. Default: "The 'creators' of any group"
+msgid "visible_for_suffix_profile_creators"
+msgstr "Les 'créateurs' de n'importe quel groupe"
+
+#. Default: "The 'observers' of any group"
+msgid "visible_for_suffix_profile_observers"
+msgstr "Les 'observateurs' de n'importe quel groupe"
+
+#. Default: "The 'pre-reviewers' of any group"
+msgid "visible_for_suffix_profile_prereviewers"
+msgstr "Les 'pré-validateurs' de n'importe quel groupe"
+
+#. Default: "The 'reviewers' of any group"
+msgid "visible_for_suffix_profile_reviewers"
+msgstr "Les 'validateurs' de n'importe quel groupe"
+
+#. Default: "The 'creators' of the proposing group"
+msgid "visible_for_suffix_proposing_group_creators"
+msgstr "Les 'créateurs' du groupe proposant"
+
+#. Default: "The 'observers' of the proposing group"
+msgid "visible_for_suffix_proposing_group_observers"
+msgstr "Les 'observateurs' du groupe proposant"
+
+#. Default: "The 'pre-reviewers' of the proposing group"
+msgid "visible_for_suffix_proposing_group_prereviewers"
+msgstr "Les 'pré-validateurs' du groupe proposant"
+
+#. Default: "The 'reviewers' of the proposing group"
+msgid "visible_for_suffix_proposing_group_reviewers"
+msgstr "Les 'validateurs' du groupe proposant"
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name 'item'). If it returns False, no vote may occur on the item."
 msgid "vote_condition_descr"
