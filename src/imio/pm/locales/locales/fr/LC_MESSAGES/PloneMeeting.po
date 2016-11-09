@@ -1776,6 +1776,10 @@ msgstr "Cette annexe est confidentielle."
 msgid "annex_is_confidential_yes_edit"
 msgstr "Cette annexe est confidentielle.  Cliquez sur l'image pour rendre l'annexe non confidentielle."
 
+#. Default: "The item was duplicated but the annex with title '${annexTitle}' could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
+msgid "annex_not_kept_because_no_available_annex_type_warning"
+msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée car aucun type d'annexe n'a pu être utilisé dans la configuration de séance de destination, contactez votre administrateur système."
+
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titre"
@@ -1827,10 +1831,6 @@ msgstr "A chaque point, avis et séances vous pouvez associer une série d'annex
 #. Default: "Annexes"
 msgid "annexes"
 msgstr "Annexes"
-
-#. Default: "The item was duplicated but the annexes could not be kept because it was not possible to find file type to use in meeting config ${cfg} for duplicated annexes (no available meeting file type), please contact system administrator."
-msgid "annexes_not_kept_because_no_available_mft_warning"
-msgstr "Le point a été dupliqué mais les annexes du point n'ont pas pu être copiées car il a été impossible de déterminer le type de fichier à utiliser dans la configuration de séance ${cfg} (aucun type de fichier disponible), contactez votre administrateur système."
 
 #. Default: "Annexes preview"
 msgid "annexes_preview"
