@@ -1132,6 +1132,10 @@ msgstr ""
 msgid "PloneMeeting_label_otherMeetingConfigsClonableToPrivacy"
 msgstr ""
 
+#. Default: "Owner of a annex decision may delete it when item is no more editable?"
+msgid "PloneMeeting_label_ownerMayDeleteAnnexDecision"
+msgstr ""
+
 #. Default: "Place"
 msgid "PloneMeeting_label_place"
 msgstr "Lokatie"
@@ -4057,6 +4061,10 @@ msgstr ""
 #. Default: "Other"
 msgid "other_place"
 msgstr "Andere"
+
+#. Default: "If checked, the user that created an annexDecision will be able to remove it even if the item is no more editable, if not checked, only a Manager will be able to remove an annexDecision when the item is no more editable."
+msgid "owner_may_delete_annex_decision_descr"
+msgstr ""
 
 #. Default: "Parameters defined if the user has a specific function"
 msgid "params_as_special_user"

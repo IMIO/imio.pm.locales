@@ -1130,6 +1130,10 @@ msgstr "Present in the next meeting accepting items"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableToPrivacy"
 msgstr "Leave unchecked if item is public"
 
+#. Default: "Owner of a annex decision may delete it when item is no more editable?"
+msgid "PloneMeeting_label_ownerMayDeleteAnnexDecision"
+msgstr ""
+
 #. Default: "Place"
 msgid "PloneMeeting_label_place"
 msgstr "Place"
@@ -4045,6 +4049,10 @@ msgstr "When an item is sent to another meeting config, the annexes of the new i
 #. Default: "Other"
 msgid "other_place"
 msgstr "Other"
+
+#. Default: "If checked, the user that created an annexDecision will be able to remove it even if the item is no more editable, if not checked, only a Manager will be able to remove an annexDecision when the item is no more editable."
+msgid "owner_may_delete_annex_decision_descr"
+msgstr ""
 
 #. Default: "Parameters defined if the user has a specific function"
 msgid "params_as_special_user"

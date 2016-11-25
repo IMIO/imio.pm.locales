@@ -1130,6 +1130,10 @@ msgstr "Présenter dans la prochaine séance acceptant des points"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableToPrivacy"
 msgstr "Non coché = séance publique"
 
+#. Default: "Owner of a annex decision may delete it when item is no more editable?"
+msgid "PloneMeeting_label_ownerMayDeleteAnnexDecision"
+msgstr "L'utilisateur ayant ajouté une 'annexe après décision' peut la supprimer lorsque le point n'est plus éditable?"
+
 #. Default: "Place"
 msgid "PloneMeeting_label_place"
 msgstr "Lieu"
@@ -4044,6 +4048,10 @@ msgstr "Lorsqu'un point est envoyé vers un autre type de séance, les annexes d
 #. Default: "Other"
 msgid "other_place"
 msgstr "Autre"
+
+#. Default: "If checked, the user that created an annexDecision will be able to remove it even if the item is no more editable, if not checked, only a Manager will be able to remove an annexDecision when the item is no more editable."
+msgid "owner_may_delete_annex_decision_descr"
+msgstr "Si vous cochez cette case, l'utilisateur ayant ajouté une annexe à la décision lorsque le point n'est plus éditable pourra la supprimer, sinon, seul un administrateur pourra la supprimer.  Un utilisateur ayant la main sur le point (point éditable) pourra continuer à gérer toutes les annexes (ajout/modification/suppression)."
 
 #. Default: "Parameters defined if the user has a specific function"
 msgid "params_as_special_user"
