@@ -556,6 +556,10 @@ msgstr ""
 msgid "add_annex"
 msgstr ""
 
+#. Default: "Add a decision annex"
+msgid "add_decision_annex"
+msgstr ""
+
 #. Default: "Annex type"
 msgid "annex_type"
 msgstr ""
@@ -642,14 +646,6 @@ msgstr ""
 
 #. Default: "Advices and access"
 msgid "advices"
-msgstr ""
-
-#. Default: "Move the item down"
-msgid "title_move_item_down"
-msgstr ""
-
-#. Default: "Move the item up"
-msgid "title_move_item_up"
 msgstr ""
 
 #. Default: "Vote"
@@ -1399,12 +1395,12 @@ msgstr ""
 msgid "no_meeting_config"
 msgstr ""
 
-#. Default: "OpenOffice configuration"
-msgid "oo_config"
+#. Default: "Configuration of the document generator"
+msgid "documentgenerator_config"
 msgstr ""
 
-#. Default: "These parameters are now managed in the ${docgen_url} control panel."
-msgid "oo_config_descr"
+#. Default: "These parameters are now managed in the ${docgen_url}."
+msgid "documentgenerator_config_descr"
 msgstr ""
 
 #. Default: "Active?"
@@ -1523,12 +1519,20 @@ msgstr ""
 msgid "enable_user_preferences_descr"
 msgstr ""
 
-#. Default: "Enable annex preview"
-msgid "PloneMeeting_label_enableAnnexPreview"
+#. Default: "Annexes preview"
+msgid "annexes_preview"
 msgstr ""
 
 #. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red;'>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
-msgid "enable_annex_preview_descr"
+msgid "annexes_preview_descr"
+msgstr ""
+
+#. Default: "<span style='color: red;'>Annexes preview is disabled in the ${documentviewer_url}.</span>"
+msgid "annexes_preview_disabled"
+msgstr ""
+
+#. Default: "<span style='color: green;'>Annexes preview is enabled in the ${documentviewer_url}.</span>"
+msgid "annexes_preview_enabled"
 msgstr ""
 
 #. Default: "Show possible targets for item keywords"
@@ -1565,10 +1569,6 @@ msgstr ""
 
 #. Default: "Update annex indexes"
 msgid "pm_update_annex_indexes"
-msgstr ""
-
-#. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
-msgid "Annexes preview must be enabled to launch complete annexes conversion process."
 msgstr ""
 
 #. Default: "Convert annexes for preview"
@@ -1750,11 +1750,11 @@ msgid "searches_descr"
 msgstr ""
 
 #. Default: "Annex types"
-msgid "MeetingFileTypes"
+msgid "Annex types"
 msgstr ""
 
 #. Default: "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
-msgid "meeting_file_types_descr"
+msgid "annex_types_descr"
 msgstr ""
 
 #. Default: "Item categories"
@@ -1913,44 +1913,12 @@ msgstr ""
 msgid "PloneMeeting_label_configVersion"
 msgstr ""
 
-#. Default: "Enable annex to print"
-msgid "PloneMeeting_label_enableAnnexToPrint"
-msgstr ""
-
-#. Default: "Let the user specify if an annex needs to be printed or not.  Annex to print may be 'for information', this will just show on the annex that it is to print and relevant users may print these annexes manually, or it can be 'for automated printing', in this case, printable formats are generated when an annex is set 'to print' so the application may print these annexes in documents.  If you choose this last option, it is necessary to set up a engine that will convert annexes to printable formats asynchronously so users do not have to wait during annexes conversion.  Be careful, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
-msgid "enable_annex_to_print_descr"
-msgstr ""
-
 #. Default: "Keep info 'to print?' of annexes when duplicating items"
 msgid "PloneMeeting_label_keepOriginalToPrintOfClonedItems"
 msgstr ""
 
 #. Default: "If enabled, when an item is duplicated into or to this configuration, the 'to print?' information defined on cloned annexes will be kept.  If not enabled, the default defined here under is used."
 msgid "keep_original_to_print_of_cloned_items_descr"
-msgstr ""
-
-#. Default: "Annex to print default value"
-msgid "PloneMeeting_label_annexToPrintDefault"
-msgstr ""
-
-#. Default: "Default value of the 'to print' checkbox for annexes."
-msgid "annex_to_print_default_descr"
-msgstr ""
-
-#. Default: "Decision annex to print default value"
-msgid "PloneMeeting_label_annexDecisionToPrintDefault"
-msgstr ""
-
-#. Default: "Default value of the 'to print' checkbox for decision annexes."
-msgid "annex_decision_to_print_default_descr"
-msgstr ""
-
-#. Default: "Advice annex to print default value"
-msgid "PloneMeeting_label_annexAdviceToPrintDefault"
-msgstr ""
-
-#. Default: "Default value of the 'to print' checkbox for advice annexes."
-msgid "annex_advice_to_print_default_descr"
 msgstr ""
 
 #. Default: "If this meeting configuration corresponds to an organization, institution or group that gives an identifier to its successive forms (ie: City council 2000-2006, 5th Parliament, VIIIth Government...), you can write here the identifier of the current form (ie: 'CC00_06', 'P5', 'Gov VIII'...)."
@@ -2249,14 +2217,6 @@ msgstr ""
 
 #. Default: "Use user replacements"
 msgid "PloneMeeting_label_useUserReplacements"
-msgstr ""
-
-#. Default: "Enable annex confidentiality"
-msgid "PloneMeeting_label_enableAnnexConfidentiality"
-msgstr ""
-
-#. Default: "An annex marked as 'Confidential' will not be visible by"
-msgid "PloneMeeting_label_annexConfidentialFor"
 msgstr ""
 
 #. Default: "If an annex is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
@@ -3019,6 +2979,10 @@ msgstr ""
 msgid "advice_edit"
 msgstr ""
 
+#. Default: "Manage item annexes"
+msgid "Manage item annexes"
+msgstr ""
+
 #. Default: "Manage advice annexes"
 msgid "Manage advice annexes"
 msgstr ""
@@ -3144,23 +3108,7 @@ msgstr ""
 msgid "pm_modification_date"
 msgstr ""
 
-# MeetingFileType
-#. Default: "Icon (16x16 pixels for optimal rendering)"
-msgid "PloneMeeting_label_theIcon"
-msgstr ""
-
-#. Default: "Predefined title that will be assigned to every uploaded file having this type"
-msgid "PloneMeeting_label_predefinedTitle"
-msgstr ""
-
-#. Default: "Related to"
-msgid "PloneMeeting_label_relatedTo"
-msgstr ""
-
-#. Default: "Define here for which kind of annex this type of annex applies."
-msgid "related_to_descr"
-msgstr ""
-
+# ContentCategory and ContentSubcategory extra field
 #. Default: "Correspondences while sent to other meeting configs"
 msgid "PloneMeeting_label_otherMCCorrespondences"
 msgstr ""
@@ -4061,6 +4009,10 @@ msgstr ""
 msgid "heading_criteria"
 msgstr ""
 
+#. Default: "Subtypes"
+msgid "heading_subtypes"
+msgstr ""
+
 #. Default: "Actions"
 msgid "heading_actions"
 msgstr ""
@@ -4171,14 +4123,6 @@ msgstr ""
 
 #. Default: "Create an element of this type"
 msgid "label_create_an_element"
-msgstr ""
-
-#. Default: "Move item bottom"
-msgid "title_move_item_bottom"
-msgstr ""
-
-#. Default: "Move item top"
-msgid "title_move_item_top"
 msgstr ""
 
 #. Default: "The element has been activated."
@@ -4577,6 +4521,14 @@ msgstr ""
 msgid "PloneMeeting_label_restrictAccessToSecretItems"
 msgstr ""
 
+#. Default: "Owner of a annex decision may delete it when item is no more editable?"
+msgid "PloneMeeting_label_ownerMayDeleteAnnexDecision"
+msgstr ""
+
+#. Default: "If checked, the user that created an annexDecision will be able to remove it even if the item is no more editable, if not checked, only a Manager will be able to remove an annexDecision when the item is no more editable."
+msgid "owner_may_delete_annex_decision_descr"
+msgstr ""
+
 #. Default: "Check the box if access to secret items must be restricted.  This will let only users for which an explicit access to the item has been given, access the item.  It will be the case so for members of the proposing groups, power users (Managers, MeetingManagers, power observers), copy groups and advisers.  Only activate this if necessary, it could be the case if you have a state where everything is accessible by everyone (like a 'published' state for items) but where you want 'secret' items not to be accessible by everyone."
 msgid "restrict_access_to_secret_items_descr"
 msgstr ""
@@ -4625,16 +4577,8 @@ msgstr ""
 msgid "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
 msgstr ""
 
-#. Default: "The item was duplicated but the annexes could not be kept because it was not possible to find file type to use in meeting config ${cfg} for duplicated annexes (no available meeting file type), please contact system administrator."
-msgid "annexes_not_kept_because_no_available_mft_warning"
-msgstr ""
-
-#. Default: "Annex size is huge, it could be difficult to be downloaded!"
-msgid "annex_size_warning"
-msgstr ""
-
-#. Default: "The annex that you just added has a large size and could be difficult to download by users wanting to view it!"
-msgid "The annex that you just added has a large size and could be difficult to download by users wanting to view it!"
+#. Default: "The item was duplicated but the annex with title '${annexTitle}' could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
+msgid "annex_not_kept_because_no_available_annex_type_warning"
 msgstr ""
 
 #. Default: "Check Pod templates"
@@ -5049,3 +4993,138 @@ msgstr ""
 msgid "This advice is inherited from ${linkToItem}"
 msgstr ""
 
+#. Default: "Item annexes"
+msgid "Item annexes"
+msgstr ""
+
+#. Default: "Item decision annexes"
+msgid "Item decision annexes"
+msgstr ""
+
+#. Default: "Advice annexes"
+msgid "Advice annexes"
+msgstr ""
+
+#. Default: "Meeting annexes"
+msgid "Meeting annexes"
+msgstr ""
+
+#. Default: "No annex types."
+msgid "No annex types."
+msgstr ""
+
+#. Default: "No annex subtypes."
+msgid "No annex subtypes."
+msgstr ""
+
+#. Default: "View linked Plone groups"
+msgid "View linked Plone groups"
+msgstr ""
+
+#. Default: "Edit attributes of this group of categories"
+msgid "Edit attributes of this group of categories"
+msgstr ""
+
+#. Default: "Preview of annexes grouped by type"
+msgid "preview_grouped_annexes"
+msgstr ""
+
+#. Default: "Annex to print mode"
+msgid "PloneMeeting_label_annexToPrintMode"
+msgstr ""
+
+#. Default: "If print functionnality is enabled for annexes and an annex is set 'to print', select here the to print mode that will be used : 'Manual', means that the to print is just defined for information and that the printing process will be handled manually or 'Automated', in this case, the application will generate a printable format for the annex (converted to images) so it can be inserted in a generated document."
+msgid "annex_to_print_mode_descr"
+msgstr ""
+
+#. Default: "For information (annexes are printed manually)"
+msgid "annex_to_print_mode_info"
+msgstr ""
+
+#. Default: "Automated (annexes are printed by the application)"
+msgid "annex_to_print_mode_automated"
+msgstr ""
+
+#. Default: "The budget impact editors"
+msgid "visible_for_configgroup_budgetimpacteditors"
+msgstr ""
+
+#. Default: "People to which an advice has been asked on the item"
+msgid "visible_for_reader_advices"
+msgstr ""
+
+#. Default: "The copy groups set on the item"
+msgid "visible_for_reader_copy_groups"
+msgstr ""
+
+#. Default: "The group in charge"
+msgid "visible_for_reader_groupincharge"
+msgstr ""
+
+#. Default: "The power observers"
+msgid "visible_for_configgroup_powerobservers"
+msgstr ""
+
+#. Default: "The restricted power observers"
+msgid "visible_for_configgroup_restrictedpowerobservers"
+msgstr ""
+
+#. Default: "The 'observers' of the proposing group"
+msgid "visible_for_suffix_proposing_group_observers"
+msgstr ""
+
+#. Default: "The 'pre-reviewers' of the proposing group"
+msgid "visible_for_suffix_proposing_group_prereviewers"
+msgstr ""
+
+#. Default: "The 'creators' of the proposing group"
+msgid "visible_for_suffix_proposing_group_creators"
+msgstr ""
+
+#. Default: "The 'reviewers' of the proposing group"
+msgid "visible_for_suffix_proposing_group_reviewers"
+msgstr ""
+
+#. Default: "The advisers of the group that gave the advice"
+msgid "visible_for_adviser_group"
+msgstr ""
+
+#. Default: "The 'observers' of any group"
+msgid "visible_for_suffix_profile_observers"
+msgstr ""
+
+#. Default: "The 'pre-reviewers' of any group"
+msgid "visible_for_suffix_profile_prereviewers"
+msgstr ""
+
+#. Default: "The 'creators' of any group"
+msgid "visible_for_suffix_profile_creators"
+msgstr ""
+
+#. Default: "The 'reviewers' of any group"
+msgid "visible_for_suffix_profile_reviewers"
+msgstr ""
+
+#. Default: "Confidential item annexes are visible for"
+msgid "PloneMeeting_label_itemAnnexConfidentialVisibleFor"
+msgstr ""
+
+#. Default: "Select here profiles of users that will be able to see an annex added to an item that is set confidential."
+msgid "item_annex_confidential_visible_for_descr"
+msgstr ""
+
+#. Default: "Confidential advice annexes are visible for"
+msgid "PloneMeeting_label_adviceAnnexConfidentialVisibleFor"
+msgstr ""
+
+#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
+msgid "advice_annex_confidential_visible_for_descr"
+msgstr ""
+
+#. Default: "Confidential meeting annexes are visible for"
+msgid "PloneMeeting_label_meetingAnnexConfidentialVisibleFor"
+msgstr ""
+
+#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
+msgid "advice_annex_confidential_visible_for_descr"
+msgstr ""

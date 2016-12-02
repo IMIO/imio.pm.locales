@@ -35,6 +35,10 @@ msgstr "Agregar Portlet Todo"
 msgid "Advice advanced management screen"
 msgstr ""
 
+#. Default: "Advice annexes"
+msgid "Advice annexes"
+msgstr ""
+
 #. Default: "Advice asked automatically because"
 msgid "Advice asked automatically because"
 msgstr "Consejo preguntado automáticamente porque"
@@ -71,9 +75,9 @@ msgstr "Tipo de Consejo"
 msgid "An advice on this item still needs to be given respecting given delay."
 msgstr ""
 
-#. Default: "Annexes preview must be enabled to launch complete annexes conversion process."
-msgid "Annexes preview must be enabled to launch complete annexes conversion process."
-msgstr "Vista previa de Anexos desde ser habilitada para lanzar procesos de conversión de anexos completos."
+#. Default: "Annex types"
+msgid "Annex types"
+msgstr ""
 
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
@@ -187,6 +191,10 @@ msgstr "Editar Portlet PloneMeeting"
 msgid "Edit Todo Portlet"
 msgstr "Editar Portlet Todo"
 
+#. Default: "Edit attributes of this group of categories"
+msgid "Edit attributes of this group of categories"
+msgstr ""
+
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
 msgstr ""
@@ -279,6 +287,10 @@ msgstr ""
 msgid "Item absents to apply"
 msgstr ""
 
+#. Default: "Item annexes"
+msgid "Item annexes"
+msgstr ""
+
 #. Default: "Item assemblies have been updated."
 msgid "Item assemblies have been updated."
 msgstr "Temas de asambleas ha sido actualizados."
@@ -289,6 +301,10 @@ msgstr "Tema de asamblea a aplicar"
 
 #. Default: "Item attendees to apply"
 msgid "Item attendees to apply"
+msgstr ""
+
+#. Default: "Item decision annexes"
+msgid "Item decision annexes"
 msgstr ""
 
 #. Default: "Item emergency changed."
@@ -323,6 +339,10 @@ msgstr "Administrar anexos de consejos"
 msgid "Manage dashboard"
 msgstr ""
 
+#. Default: "Manage item annexes"
+msgid "Manage item annexes"
+msgstr ""
+
 #. Default: "Manage item assembly"
 msgid "Manage item assembly"
 msgstr "Administrar tema de asamblea"
@@ -337,6 +357,10 @@ msgstr "Administrar la firma de tema"
 
 #. Default: "Manage item templates"
 msgid "Manage item templates"
+msgstr ""
+
+#. Default: "Meeting annexes"
+msgid "Meeting annexes"
 msgstr ""
 
 #. Default: "Items"
@@ -355,12 +379,16 @@ msgstr "Consejo de reunión"
 msgid "MeetingCategory"
 msgstr "Categoría de reunión"
 
-#. Default: "Annex types"
-msgid "MeetingFileTypes"
-msgstr "Tipos de anexos"
-
 #. Default: "Meetings"
 msgid "Meetings"
+msgstr ""
+
+#. Default: "No annex subtypes."
+msgid "No annex subtypes."
+msgstr ""
+
+#. Default: "No annex types."
+msgid "No annex types."
 msgstr ""
 
 #. Default: "No complementary comment has been given on this advice."
@@ -424,6 +452,10 @@ msgstr "Ausentes"
 msgid "PloneMeeting_label_acronym"
 msgstr "Acrónimo"
 
+#. Default: "Confidential advice annexes are visible for"
+msgid "PloneMeeting_label_adviceAnnexConfidentialVisibleFor"
+msgstr ""
+
 #. Default: "An advice marked as 'Confidential' will not be visible by"
 msgid "PloneMeeting_label_adviceConfidentialFor"
 msgstr ""
@@ -444,21 +476,9 @@ msgstr "Consejos"
 msgid "PloneMeeting_label_allItemTags"
 msgstr "Etiquetas"
 
-#. Default: "Advice annex to print default value"
-msgid "PloneMeeting_label_annexAdviceToPrintDefault"
-msgstr "Valor por defecto al imprimir el Anexo a los consejos"
-
-#. Default: "An annex marked as 'Confidential' will not be visible by"
-msgid "PloneMeeting_label_annexConfidentialFor"
+#. Default: "Annex to print mode"
+msgid "PloneMeeting_label_annexToPrintMode"
 msgstr ""
-
-#. Default: "Decision annex to print default value"
-msgid "PloneMeeting_label_annexDecisionToPrintDefault"
-msgstr "Valor por defecto al imprimir el Anexo a la decisión"
-
-#. Default: "Annex to print default value"
-msgid "PloneMeeting_label_annexToPrintDefault"
-msgstr "Valor por defecto al imprimir el Anexo"
 
 #. Default: "Answers"
 msgid "PloneMeeting_label_answerers"
@@ -660,18 +680,6 @@ msgstr ""
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Habilitar invalidación consejos"
 
-#. Default: "Enable annex confidentiality"
-msgid "PloneMeeting_label_enableAnnexConfidentiality"
-msgstr ""
-
-#. Default: "Enable annex preview"
-msgid "PloneMeeting_label_enableAnnexPreview"
-msgstr "Habilitar visualización previa al anexo"
-
-#. Default: "Enable annex to print"
-msgid "PloneMeeting_label_enableAnnexToPrint"
-msgstr "Habilitar anexo a imprimir"
-
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
 msgstr "Habilitar preferencias de usuario"
@@ -795,6 +803,10 @@ msgstr "Los estados del tema siguiente permiten definir consejos"
 #. Default: "Item states allowing advisers to continue to view the item"
 msgid "PloneMeeting_label_itemAdviceViewStates"
 msgstr "Estados de temas siguientes que permiten a los asesores para ver el temaLos estados del tema siguiente que permiten a los asesores para ver el tema"
+
+#. Default: "Confidential item annexes are visible for"
+msgid "PloneMeeting_label_itemAnnexConfidentialVisibleFor"
+msgstr ""
 
 #. Default: "Assembly that is specific to this meeting item"
 msgid "PloneMeeting_label_itemAssembly"
@@ -983,6 +995,10 @@ msgstr "Máximo número de reuniones mostradas en el portlet de 'decisiones' y '
 msgid "PloneMeeting_label_meetingActionsInterface"
 msgstr "La interfaz siguiente es usada para un especifico adaptador de Zope3 para modificar las acciones definidas en las transiciones del flujo de trabajo de reunión"
 
+#. Default: "Confidential meeting annexes are visible for"
+msgid "PloneMeeting_label_meetingAnnexConfidentialVisibleFor"
+msgstr ""
+
 #. Default: "Home page"
 msgid "PloneMeeting_label_meetingAppDefaultView"
 msgstr "Página del sitio"
@@ -1098,6 +1114,10 @@ msgstr ""
 msgid "PloneMeeting_label_otherMeetingConfigsClonableToPrivacy"
 msgstr ""
 
+#. Default: "Owner of a annex decision may delete it when item is no more editable?"
+msgid "PloneMeeting_label_ownerMayDeleteAnnexDecision"
+msgstr ""
+
 #. Default: "Place"
 msgid "PloneMeeting_label_place"
 msgstr "Lugar"
@@ -1154,10 +1174,6 @@ msgstr "Observaciones para la reunión preparatoria"
 msgid "PloneMeeting_label_predecessor"
 msgstr "Temas vinculados"
 
-#. Default: "Predefined title that will be assigned to every uploaded file having this type"
-msgid "PloneMeeting_label_predefinedTitle"
-msgstr "Título predefinido que será asignado a cada archivo subido siendo de este tipo"
-
 #. Default: "Predefined title in the second language"
 msgid "PloneMeeting_label_predefinedTitle2"
 msgstr "Título predefinido en el segundo idioma"
@@ -1193,10 +1209,6 @@ msgstr "Los estados de temas en los que los eventos serán registrados en el his
 #. Default: "Meeting states into which events will be recorded in meeting's history"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr "Los estados de reunión en los cuales los eventos serán registrados en el historial de la reunión"
-
-#. Default: "Related to"
-msgid "PloneMeeting_label_relatedTo"
-msgstr "Relacionado a"
 
 #. Default: "Duty for users replacing this one"
 msgid "PloneMeeting_label_replacementDuty"
@@ -1265,11 +1277,6 @@ msgstr ""
 #. Default: "Restrict usage of this template to following groups"
 msgid "PloneMeeting_label_templateUsingGroups"
 msgstr "Restringir el uso de esta plantilla para los grupos siguientes"
-
-# MeetingFileType
-#. Default: "Icon (16x16 pixels for optimal rendering)"
-msgid "PloneMeeting_label_theIcon"
-msgstr "Icono (16x16 píxeles para óptima visualización)"
 
 # Meeting
 #. Default: "Title"
@@ -1448,10 +1455,6 @@ msgstr "Estado"
 msgid "Taken over by ${fullname}"
 msgstr ""
 
-#. Default: "The annex that you just added has a large size and could be difficult to download by users wanting to view it!"
-msgid "The annex that you just added has a large size and could be difficult to download by users wanting to view it!"
-msgstr ""
-
 #. Default: "The field here above is not used, check the 'users' tab."
 msgid "The field here above is not used, check the 'users' tab."
 msgstr ""
@@ -1537,6 +1540,10 @@ msgstr "Por hacer"
 msgid "Toggle descriptions of items"
 msgstr "Descripciones de cambiar de temas"
 
+#. Default: "View linked Plone groups"
+msgid "View linked Plone groups"
+msgstr ""
+
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr ""
@@ -1552,6 +1559,10 @@ msgstr "El elemento ha siso activado."
 #. Default: "Add an annex"
 msgid "add_annex"
 msgstr "Agregar un anexo"
+
+#. Default: "Add a decision annex"
+msgid "add_decision_annex"
+msgstr ""
 
 #. Default: "Add an advice"
 msgid "add_new_meetingadvice"
@@ -1586,6 +1597,10 @@ msgstr "Usted puede acceder a este tema aquí: ${objectUrl}."
 #. Default: "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 msgid "adviceToGive_mail_subject"
 msgstr "${meetingConfigTitle} - Su consejo es requerido en el tema '${itemTitle}'."
+
+#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
+msgid "advice_annex_confidential_visible_for_descr"
+msgstr ""
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
@@ -1723,17 +1738,9 @@ msgstr "Un anexo no se pudo convertir correctamente y no hay vista previa estar�
 msgid "annexConversionError_mail_subject"
 msgstr "${meetingConfigTitle} - Hubo un error mientras convertía un anexo."
 
-#. Default: "Default value of the 'to print' checkbox for advice annexes."
-msgid "annex_advice_to_print_default_descr"
-msgstr "El valor por defecto de la casilla 'imprimir' para los Anexo a los consejos."
-
 #. Default: "If an annex is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"
 msgstr ""
-
-#. Default: "Default value of the 'to print' checkbox for decision annexes."
-msgid "annex_decision_to_print_default_descr"
-msgstr "El valor por defecto de la casilla 'imprimir' para los Anexos a la decisión."
 
 #. Default: "The annex is not confidential and will be visible by everybody who has access to this item."
 msgid "annex_is_confidential_no"
@@ -1751,21 +1758,29 @@ msgstr ""
 msgid "annex_is_confidential_yes_edit"
 msgstr ""
 
-#. Default: "Annex size is huge, it could be difficult to be downloaded!"
-msgid "annex_size_warning"
+#. Default: "The item was duplicated but the annex with title '${annexTitle}' could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
+msgid "annex_not_kept_because_no_available_annex_type_warning"
 msgstr ""
 
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Título"
 
-#. Default: "Default value of the 'to print' checkbox for annexes."
-msgid "annex_to_print_default_descr"
-msgstr "El valor por defecto de la casilla 'imprimir' para los anexos."
-
 #. Default: "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
 msgid "annex_to_print_disabled"
 msgstr "El anexo no puede ser impreso, ya que no se puede convertir (formato no admitido o error durante la conversión). Utilice los formatos ofimaticos comunes."
+
+#. Default: "Automated (annexes are printed by the application)"
+msgid "annex_to_print_mode_automated"
+msgstr ""
+
+#. Default: "If print functionnality is enabled for annexes and an annex is set 'to print', select here the to print mode that will be used : 'Manual', means that the to print is just defined for information and that the printing process will be handled manually or 'Automated', in this case, the application will generate a printable format for the annex (converted to images) so it can be inserted in a generated document."
+msgid "annex_to_print_mode_descr"
+msgstr ""
+
+#. Default: "For information (annexes are printed manually)"
+msgid "annex_to_print_mode_info"
+msgstr ""
 
 #. Default: "The annex will not be printed."
 msgid "annex_to_print_no"
@@ -1787,12 +1802,28 @@ msgstr "El anexo sera impreso. Haga clic en la imagen no se imprime."
 msgid "annex_type"
 msgstr "Tipo de anexo"
 
+#. Default: "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
+msgid "annex_types_descr"
+msgstr ""
+
 #. Default: "Annexes"
 msgid "annexes"
 msgstr "Anexos"
 
-#. Default: "The item was duplicated but the annexes could not be kept because it was not possible to find file type to use in meeting config ${cfg} for duplicated annexes (no available meeting file type), please contact system administrator."
-msgid "annexes_not_kept_because_no_available_mft_warning"
+#. Default: "Annexes preview"
+msgid "annexes_preview"
+msgstr ""
+
+#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red;'>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
+msgid "annexes_preview_descr"
+msgstr ""
+
+#. Default: "<span style='color: red;'>Annexes preview is disabled in the ${documentviewer_url}.</span>"
+msgid "annexes_preview_disabled"
+msgstr ""
+
+#. Default: "<span style='color: green;'>Annexes preview is enabled in the ${documentviewer_url}.</span>"
+msgid "annexes_preview_enabled"
 msgstr ""
 
 #. Default: "Annexes to print"
@@ -2364,6 +2395,14 @@ msgstr "firmas almacena en la reunión vinculada"
 msgid "doc"
 msgstr "Documentos"
 
+#. Default: "Configuration of the document generator"
+msgid "documentgenerator_config"
+msgstr ""
+
+#. Default: "These parameters are now managed in the ${docgen_url}."
+msgid "documentgenerator_config_descr"
+msgstr ""
+
 #. Default: "Effective date into which item is presented"
 msgid "effective_meeting_help"
 msgstr ""
@@ -2399,15 +2438,6 @@ msgstr "Cuando la invalidación consejo es permitido, todo cambio a un tema para
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
 msgstr ""
-
-#. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red;'>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
-#, fuzzy
-msgid "enable_annex_preview_descr"
-msgstr "Si habilita vista previa de anexos, el anexo será convertido a un formato con vista previa / imprimible directamente legible por el navegador web. <span style='color: red';>Si habilita esta en un sitio que ya contiene temas y anexos, ¡no se olvide de poner en marcha el proceso de conversión anexos!</span>"
-
-#. Default: "Let the user specify if an annex needs to be printed or not.  Annex to print may be 'for information', this will just show on the annex that it is to print and relevant users may print these annexes manually, or it can be 'for automated printing', in this case, printable formats are generated when an annex is set 'to print' so the application may print these annexes in documents.  If you choose this last option, it is necessary to set up a engine that will convert annexes to printable formats asynchronously so users do not have to wait during annexes conversion.  Be careful, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
-msgid "enable_annex_to_print_descr"
-msgstr "Deje que el usuario especifique si un anexo es necesario imprimir o no. ADVERTENCIA, si deshabilita esta funcionalidad, los dos siguientes parámetros  'Valor por defecto al imprimir el Anexo' y 'Valor por defecto al imprimir el Anexo a la decisión' se establece en False automáticamente."
 
 #. Default: "Disabled"
 msgid "enable_annex_to_print_disabled"
@@ -2728,6 +2758,10 @@ msgstr ""
 
 #. Default: "Active?"
 msgid "heading_is_active"
+msgstr ""
+
+#. Default: "Subtypes"
+msgid "heading_subtypes"
 msgstr ""
 
 # Other
@@ -3082,6 +3116,10 @@ msgstr "Cuando un tema se encuentra en uno de los estados que elija aquí, será
 #, fuzzy
 msgid "item_advice_view_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados a los que elige aquí, será posible que los grupos de los consejos que se le pide, puedan continuar viendo el tema. <span style='color: red';>¡Si cambia este parámetro, no se olvide de actualizar consejos!</span>"
+
+#. Default: "Select here profiles of users that will be able to see an annex added to an item that is set confidential."
+msgid "item_annex_confidential_visible_for_descr"
+msgstr ""
 
 #. Default: "Assembly for the item"
 msgid "item_assembly"
@@ -3552,10 +3590,6 @@ msgstr "Administrador de configuraciones de reuniones"
 msgid "meeting_configurations_descr"
 msgstr "Varias configuraciones de reunión pueden ser gestionadas por PloneMeeting. Una configuración de reunión define un \"tipo de reunión\" que tiene su conjunto de parámetros asociados. Cada configuración de reunión es completamente independiente y produce una pestaña entre en las pestañas principales de Plone. Si su organización gestiona varios tipos de reuniones distintas, ella puede definir sus correspondiente configuraciones de reuniones aquí."
 
-#. Default: "Every item may be associated with a series of annexes. Some annexes may be specifically tied to the decision taken on the item. You can consult and modify here the annex types that are defined within this meeting configuration. An annex type is defined by a title, an icon (preferably of 16x16 pixels) and a predefined title. When users want to associate an annex to an item, they may choose, in a dropdown list, an annex type among those defined here and upload a file."
-msgid "meeting_file_types_descr"
-msgstr "Cada tema tal ves sea asociado con una serie de anexos. Algunos anexos tal ves sean específicamente vinculados a la decisión tomada en el tema. Usted puede consultar y modificar aquí el tipo de anexo que será definido con esta configuración de reunión. Un tipo de anexo es definido por un título, un icono (preferiblemente de 16 por 16 píxeles) y un título predefinido. Cuando un usuario quiere asociar un anexo a un tema, pueden elegir, en una lista desplegable el tipo de anexo entre los que se definen aquí y subirá un archivo."
-
 #. Default: "For each member folder having access to the application, a folder containing one sub-folder for each meeting configuration is created. Into each subfolder, the application stores elements created by this user."
 #, fuzzy
 msgid "meeting_folder_title"
@@ -3999,14 +4033,6 @@ msgstr ""
 msgid "on_transition_field_transforms_descr"
 msgstr ""
 
-#. Default: "OpenOffice configuration"
-msgid "oo_config"
-msgstr "Configuración de OpenOffice.org"
-
-#. Default: "These parameters are now managed in the ${docgen_url} control panel."
-msgid "oo_config_descr"
-msgstr "PloneMeeting le permite generar varios documentos relacionados a temas, agendas, decisiones, etc. Para cada configuración de reunión usted puede definir parámetros precisos para generar documentos. Pero en este alto nivel, eso es importante saber que si usted quiere generar documentos con otros formatos que no sean Open Document Format Text (ODT), por ejemplo Microsoft Word, RTF o PDF, usted tiene que instalar OpenOffice.org en modo servidor en la misma máquina donde esta instalado PloneMeeting, y especificar valores para los campos de esta sección, usando la pestaña anterior 'editar'."
-
 #. Default: "Some users want to open annexes in separate windows. Indeed, when the user is consulting a meeting with paginated lists of items, clicking on an annex for downloading it may replace the current page with the annex content if the browser is configured for doing so (in conjunction with a plug-in for viewing PDFs inside the browser for example). In this case, the user is forced to click on 'back' to view the list again. It has 2 disadvantages: the list is refreshed (which slows down the system), and the user is redirected to the first items instead of the page he consulted just before the download."
 msgid "open_annexes_in_separate_windows_descr"
 msgstr "Algunos usuarios desean abrir anexos en ventanas separadas. De hecho, cuando el usuario está consultando una reunión con las listas paginadas de temas, al hacer clic en un anexo para la descarga puede sustituir la página actual con el anexo de contenido si el navegador está configurado para hacerlo (en relación con un plug-in para la visualización de archivos PDF dentro del navegador, por ejemplo). En este caso, el usuario se ve obligado a hacer clic en \"volver\" para ver la lista de nuevo. Tiene 2 inconvenientes: la lista se actualiza (lo que ralentiza el sistema), y el usuario se redirige a los primeros temas en lugar de consultar la página que justo antes de la descarga."
@@ -4026,6 +4052,10 @@ msgstr ""
 #. Default: "Other"
 msgid "other_place"
 msgstr "Otro"
+
+#. Default: "If checked, the user that created an annexDecision will be able to remove it even if the item is no more editable, if not checked, only a Manager will be able to remove an annexDecision when the item is no more editable."
+msgid "owner_may_delete_annex_decision_descr"
+msgstr ""
 
 #. Default: "Parameters defined if the user has a specific function"
 msgid "params_as_special_user"
@@ -4267,6 +4297,10 @@ msgstr "Reunión dentro de la cual este tema es presentado"
 msgid "presented_items"
 msgstr "Temas presentado a esta reunión"
 
+#. Default: "Preview of annexes grouped by type"
+msgid "preview_grouped_annexes"
+msgstr ""
+
 #. Default: "A proposing group is required."
 msgid "proposing_group_required"
 msgstr "Como el tema es usado como tema recurrente, el grupo proponente es obligatorio."
@@ -4319,11 +4353,6 @@ msgstr "Usted puede manejar aquí temas predefinidos que servirán, para diferen
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Actualizar valores de voto"
-
-#. Default: "Define here for which kind of annex this type of annex applies."
-#, fuzzy
-msgid "related_to_descr"
-msgstr "Define aquí por qué tipo de anexar es este tipo de anexo aplica."
 
 #. Default: "Remove this information"
 msgid "remove_info"
@@ -4650,22 +4679,6 @@ msgstr "Este tema NO es una pregunta oral"
 msgid "this_meeting_is_extraodrinary_session"
 msgstr ""
 
-#. Default: "Move item bottom"
-msgid "title_move_item_bottom"
-msgstr "Desplazar elemento abajo"
-
-#. Default: "Move the item down"
-msgid "title_move_item_down"
-msgstr "Mover el tema abajo"
-
-#. Default: "Move item top"
-msgid "title_move_item_top"
-msgstr "Mover el tema arriba"
-
-#. Default: "Move the item up"
-msgid "title_move_item_up"
-msgstr "Desplazar tema arriba"
-
 #. Default: "A title is required."
 msgid "title_required"
 msgstr "Un título es requerido"
@@ -4843,6 +4856,66 @@ msgstr "Usuarios"
 
 #. Default: "When an advice is 'given' and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically versioned. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to versionate advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is 'itemcreated', a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is versioned when the item is edited if necessary (so if it was not already versioned since last advice edition).  If you have a specific state 'waiting advice' where proposing group is not able to edit the item, this box may be left unchecked."
 msgid "versionate_advice_if_given_and_item_modified_descr"
+msgstr ""
+
+#. Default: "The advisers of the group that gave the advice"
+msgid "visible_for_adviser_group"
+msgstr ""
+
+#. Default: "The budget impact editors"
+msgid "visible_for_configgroup_budgetimpacteditors"
+msgstr ""
+
+#. Default: "The power observers"
+msgid "visible_for_configgroup_powerobservers"
+msgstr ""
+
+#. Default: "The restricted power observers"
+msgid "visible_for_configgroup_restrictedpowerobservers"
+msgstr ""
+
+#. Default: "People to which an advice has been asked on the item"
+msgid "visible_for_reader_advices"
+msgstr ""
+
+#. Default: "The copy groups set on the item"
+msgid "visible_for_reader_copy_groups"
+msgstr ""
+
+#. Default: "The group in charge"
+msgid "visible_for_reader_groupincharge"
+msgstr ""
+
+#. Default: "The 'creators' of any group"
+msgid "visible_for_suffix_profile_creators"
+msgstr ""
+
+#. Default: "The 'observers' of any group"
+msgid "visible_for_suffix_profile_observers"
+msgstr ""
+
+#. Default: "The 'pre-reviewers' of any group"
+msgid "visible_for_suffix_profile_prereviewers"
+msgstr ""
+
+#. Default: "The 'reviewers' of any group"
+msgid "visible_for_suffix_profile_reviewers"
+msgstr ""
+
+#. Default: "The 'creators' of the proposing group"
+msgid "visible_for_suffix_proposing_group_creators"
+msgstr ""
+
+#. Default: "The 'observers' of the proposing group"
+msgid "visible_for_suffix_proposing_group_observers"
+msgstr ""
+
+#. Default: "The 'pre-reviewers' of the proposing group"
+msgid "visible_for_suffix_proposing_group_prereviewers"
+msgstr ""
+
+#. Default: "The 'reviewers' of the proposing group"
+msgid "visible_for_suffix_proposing_group_reviewers"
 msgstr ""
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name 'item'). If it returns False, no vote may occur on the item."
