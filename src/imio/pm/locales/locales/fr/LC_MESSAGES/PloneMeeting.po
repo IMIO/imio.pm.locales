@@ -472,22 +472,6 @@ msgstr "Avis"
 msgid "PloneMeeting_label_allItemTags"
 msgstr "Marqueurs"
 
-#. Default: "Advice annex to print default value"
-msgid "PloneMeeting_label_annexAdviceToPrintDefault"
-msgstr "Marquer les annexes à un avis comme 'à imprimer' par défaut?"
-
-#. Default: "An annex marked as 'Confidential' will not be visible by"
-msgid "PloneMeeting_label_annexConfidentialFor"
-msgstr "Une annexe marquée 'Confidentielle' ne sera pas visible par"
-
-#. Default: "Decision annex to print default value"
-msgid "PloneMeeting_label_annexDecisionToPrintDefault"
-msgstr "Marquer les annexes après décision comme 'à imprimer' par défaut?"
-
-#. Default: "Annex to print default value"
-msgid "PloneMeeting_label_annexToPrintDefault"
-msgstr "Marquer les annexes comme 'à imprimer' par défaut?"
-
 #. Default: "Annex to print mode"
 msgid "PloneMeeting_label_annexToPrintMode"
 msgstr "Mode d'impression des annexes"
@@ -691,14 +675,6 @@ msgstr "Activer la confidentialité des avis "
 #. Default: "Enable advice invalidation"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Activer l'invalidation des avis"
-
-#. Default: "Enable annex confidentiality"
-msgid "PloneMeeting_label_enableAnnexConfidentiality"
-msgstr "Activer la confidentialité des annexes"
-
-#. Default: "Enable annex to print"
-msgid "PloneMeeting_label_enableAnnexToPrint"
-msgstr "Activer l'impression des annexes"
 
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
@@ -1752,17 +1728,9 @@ msgstr "La prévisualitation dans le navigateur web ne sera pas possible et il n
 msgid "annexConversionError_mail_subject"
 msgstr "${meetingConfigTitle} - Une erreur est survenue lors de la conversion d'une annexe."
 
-#. Default: "Default value of the 'to print' checkbox for advice annexes."
-msgid "annex_advice_to_print_default_descr"
-msgstr "Si vous cochez cette case, les annexes ajoutées à un avis seront marquées comme 'à imprimer' par défaut."
-
 #. Default: "If an annex is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"
 msgstr "Si une annexe est marquée comme 'Confidentielle' par un gestionnaire des séances, les profils sélectionnés ci-dessous ne pourront pas la voir."
-
-#. Default: "Default value of the 'to print' checkbox for decision annexes."
-msgid "annex_decision_to_print_default_descr"
-msgstr "Si vous cochez cette case, les annexes après décision ajoutées à un point seront marquées comme 'à imprimer' par défaut."
 
 #. Default: "The annex is not confidential and will be visible by everybody who has access to this item."
 msgid "annex_is_confidential_no"
@@ -1787,10 +1755,6 @@ msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titre"
-
-#. Default: "Default value of the 'to print' checkbox for annexes."
-msgid "annex_to_print_default_descr"
-msgstr "Si vous cochez cette case, les annexes ajoutées à un point seront marquées comme 'à imprimer' par défaut."
 
 #. Default: "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
 msgid "annex_to_print_disabled"
@@ -2461,10 +2425,6 @@ msgstr "Quand l'invalidation des avis est activée, tout changement sur un point
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
 msgstr "Si vous activez la confidentialité des annexes, il sera possible pour les gestionnaires de séances de définir pour chaque annexe si elle est confidentielle ou non.  Cette information ne sera visible que par les gestionnaires de séances.  Il sera aussi possible de définir une valeur par défaut pour ce champ sur les types d'annexes."
-
-#. Default: "Let the user specify if an annex needs to be printed or not.  Annex to print may be 'for information', this will just show on the annex that it is to print and relevant users may print these annexes manually, or it can be 'for automated printing', in this case, printable formats are generated when an annex is set 'to print' so the application may print these annexes in documents.  If you choose this last option, it is necessary to set up a engine that will convert annexes to printable formats asynchronously so users do not have to wait during annexes conversion.  Be careful, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
-msgid "enable_annex_to_print_descr"
-msgstr "Permet à l'utilisateur de spécifier si une annexe doit être imprimée ou non.  L'option 'pour information' permettra aux utilisateurs de spécifier les annexes à imprimer mais elle le seront manuellement, l'option 'impression automatisée' va générer des formats imprimables pour les annexes à imprimer afin de les imprimer automatiquement dans un document.  Si cette dernière option est activée, il faudra configurer un moteur qui transforme les annexes en format imprimable de manière asynchrone pour que l'utilisateur n'ai pas à attendre. Attention, si vous désactivez cette fonctionnalité, les deux paramètres suivants 'Marquer les annexes comme 'à imprimer' par défaut?' et 'Marquer les annexes après décision comme 'à imprimer' par défaut?' seront automatiquement remis à 'Non'."
 
 #. Default: "Disabled"
 msgid "enable_annex_to_print_disabled"

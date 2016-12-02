@@ -472,22 +472,6 @@ msgstr "Advices"
 msgid "PloneMeeting_label_allItemTags"
 msgstr "Tags"
 
-#. Default: "Advice annex to print default value"
-msgid "PloneMeeting_label_annexAdviceToPrintDefault"
-msgstr "Advice annex to print default value"
-
-#. Default: "An annex marked as 'Confidential' will not be visible by"
-msgid "PloneMeeting_label_annexConfidentialFor"
-msgstr "An annex marked as 'Confidential' will not be visible by"
-
-#. Default: "Decision annex to print default value"
-msgid "PloneMeeting_label_annexDecisionToPrintDefault"
-msgstr "Decision annex to print default value"
-
-#. Default: "Annex to print default value"
-msgid "PloneMeeting_label_annexToPrintDefault"
-msgstr "Annex to print default value"
-
 #. Default: "Annex to print mode"
 msgid "PloneMeeting_label_annexToPrintMode"
 msgstr "PloneMeeting_label_annexToPrintMode"
@@ -691,14 +675,6 @@ msgstr "Enable advice confidentiality"
 #. Default: "Enable advice invalidation"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Enable advice invalidation"
-
-#. Default: "Enable annex confidentiality"
-msgid "PloneMeeting_label_enableAnnexConfidentiality"
-msgstr "Enable annex confidentiality"
-
-#. Default: "Enable annex to print"
-msgid "PloneMeeting_label_enableAnnexToPrint"
-msgstr "Enable annex to print"
 
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
@@ -1752,17 +1728,9 @@ msgstr "An annex could not be converted correctly and no preview will be availab
 msgid "annexConversionError_mail_subject"
 msgstr "${meetingConfigTitle} - There was an error while converting an annex."
 
-#. Default: "Default value of the 'to print' checkbox for advice annexes."
-msgid "annex_advice_to_print_default_descr"
-msgstr "Default value of the 'to print' checkbox for advice annexes."
-
 #. Default: "If an annex is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"
 msgstr "If an annex is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
-
-#. Default: "Default value of the 'to print' checkbox for decision annexes."
-msgid "annex_decision_to_print_default_descr"
-msgstr "Default value of the 'to print' checkbox for decision annexes."
 
 #. Default: "The annex is not confidential and will be visible by everybody who has access to this item."
 msgid "annex_is_confidential_no"
@@ -1787,10 +1755,6 @@ msgstr "The item was duplicated but the annex with title '${annexTitle}' could n
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Title"
-
-#. Default: "Default value of the 'to print' checkbox for annexes."
-msgid "annex_to_print_default_descr"
-msgstr "Default value of the 'to print' checkbox for annexes."
 
 #. Default: "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
 msgid "annex_to_print_disabled"
@@ -2461,10 +2425,6 @@ msgstr "When advice invalidation is enabled, every change to an item for which a
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
 msgstr "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
-
-#. Default: "Let the user specify if an annex needs to be printed or not.  Annex to print may be 'for information', this will just show on the annex that it is to print and relevant users may print these annexes manually, or it can be 'for automated printing', in this case, printable formats are generated when an annex is set 'to print' so the application may print these annexes in documents.  If you choose this last option, it is necessary to set up a engine that will convert annexes to printable formats asynchronously so users do not have to wait during annexes conversion.  Be careful, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
-msgid "enable_annex_to_print_descr"
-msgstr "Let the user specify if an annex needs to be printed or not.  Annex to print may be 'for information', this will just show on the annex that it is to print and relevant users may print these annexes manually, or it can be 'for automated printing', in this case, printable formats are generated when an annex is set 'to print' so the application may print these annexes in documents.  If you choose this last option, it is necessary to set up a engine that will convert annexes to printable formats asynchronously so users do not have to wait during annexes conversion.  Be careful, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
 
 #. Default: "Disabled"
 msgid "enable_annex_to_print_disabled"

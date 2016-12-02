@@ -476,22 +476,6 @@ msgstr "Consejos"
 msgid "PloneMeeting_label_allItemTags"
 msgstr "Etiquetas"
 
-#. Default: "Advice annex to print default value"
-msgid "PloneMeeting_label_annexAdviceToPrintDefault"
-msgstr "Valor por defecto al imprimir el Anexo a los consejos"
-
-#. Default: "An annex marked as 'Confidential' will not be visible by"
-msgid "PloneMeeting_label_annexConfidentialFor"
-msgstr ""
-
-#. Default: "Decision annex to print default value"
-msgid "PloneMeeting_label_annexDecisionToPrintDefault"
-msgstr "Valor por defecto al imprimir el Anexo a la decisión"
-
-#. Default: "Annex to print default value"
-msgid "PloneMeeting_label_annexToPrintDefault"
-msgstr "Valor por defecto al imprimir el Anexo"
-
 #. Default: "Annex to print mode"
 msgid "PloneMeeting_label_annexToPrintMode"
 msgstr ""
@@ -695,14 +679,6 @@ msgstr ""
 #. Default: "Enable advice invalidation"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Habilitar invalidación consejos"
-
-#. Default: "Enable annex confidentiality"
-msgid "PloneMeeting_label_enableAnnexConfidentiality"
-msgstr ""
-
-#. Default: "Enable annex to print"
-msgid "PloneMeeting_label_enableAnnexToPrint"
-msgstr "Habilitar anexo a imprimir"
 
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
@@ -1762,17 +1738,9 @@ msgstr "Un anexo no se pudo convertir correctamente y no hay vista previa estar�
 msgid "annexConversionError_mail_subject"
 msgstr "${meetingConfigTitle} - Hubo un error mientras convertía un anexo."
 
-#. Default: "Default value of the 'to print' checkbox for advice annexes."
-msgid "annex_advice_to_print_default_descr"
-msgstr "El valor por defecto de la casilla 'imprimir' para los Anexo a los consejos."
-
 #. Default: "If an annex is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"
 msgstr ""
-
-#. Default: "Default value of the 'to print' checkbox for decision annexes."
-msgid "annex_decision_to_print_default_descr"
-msgstr "El valor por defecto de la casilla 'imprimir' para los Anexos a la decisión."
 
 #. Default: "The annex is not confidential and will be visible by everybody who has access to this item."
 msgid "annex_is_confidential_no"
@@ -1797,10 +1765,6 @@ msgstr ""
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Título"
-
-#. Default: "Default value of the 'to print' checkbox for annexes."
-msgid "annex_to_print_default_descr"
-msgstr "El valor por defecto de la casilla 'imprimir' para los anexos."
 
 #. Default: "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
 msgid "annex_to_print_disabled"
@@ -2474,10 +2438,6 @@ msgstr "Cuando la invalidación consejo es permitido, todo cambio a un tema para
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
 msgstr ""
-
-#. Default: "Let the user specify if an annex needs to be printed or not.  Annex to print may be 'for information', this will just show on the annex that it is to print and relevant users may print these annexes manually, or it can be 'for automated printing', in this case, printable formats are generated when an annex is set 'to print' so the application may print these annexes in documents.  If you choose this last option, it is necessary to set up a engine that will convert annexes to printable formats asynchronously so users do not have to wait during annexes conversion.  Be careful, if you disable this functionnality, the two following parameters 'Annex to print default value' and 'Decision annex to print default value' will be set to False automatically."
-msgid "enable_annex_to_print_descr"
-msgstr "Deje que el usuario especifique si un anexo es necesario imprimir o no. ADVERTENCIA, si deshabilita esta funcionalidad, los dos siguientes parámetros  'Valor por defecto al imprimir el Anexo' y 'Valor por defecto al imprimir el Anexo a la decisión' se establece en False automáticamente."
 
 #. Default: "Disabled"
 msgid "enable_annex_to_print_disabled"
