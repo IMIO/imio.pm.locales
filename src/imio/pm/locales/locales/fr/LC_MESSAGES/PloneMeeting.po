@@ -1592,7 +1592,7 @@ msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}
 msgid "adviceToGive_mail_subject"
 msgstr "${meetingConfigTitle} - Votre avis est demandé sur le point '${itemTitle}'."
 
-#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
 msgid "advice_annex_confidential_visible_for_descr"
 msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des avis et définies comme confidentielles"
 
@@ -2176,6 +2176,10 @@ msgstr "La configuration par défaut est celle sur laquelle l'utilisateur est di
 #. Default: "Sorry, but this configuration is still the default one. If you want to choose another configuration as default configuration, check the corresponding box for this other configuration."
 msgid "config_is_still_default"
 msgstr "Cette configuration reste celle par défaut car il faut bien qu'il y en ait une. Si vous voulez choisir une autre configuration par défaut, cochez la case correspondante pour cette autre configuration. Ce faisant, cette configuration-ci perdra automatiquement sa qualité de configuration par défaut."
+
+#. Default: "Searches ${search_title}"
+msgid "config_search_title"
+msgstr "Recherches ${search_title}"
 
 #. Default: "If this meeting configuration corresponds to an organization, institution or group that gives an identifier to its successive forms (ie: City council 2000-2006, 5th Parliament, VIIIth Government...), you can write here the identifier of the current form (ie: 'CC00_06', 'P5', 'Gov VIII'...)."
 msgid "config_version_descr"

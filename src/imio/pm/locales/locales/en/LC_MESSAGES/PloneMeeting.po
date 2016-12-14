@@ -411,9 +411,9 @@ msgstr "Number of items to display"
 msgid "Once viewable, the adviser will have ${advice_delay} days to give the advice."
 msgstr "Once viewable, the adviser will have ${advice_delay} days to give the advice."
 
-#. Default: "Please check that opening "[[" have corresponding closing "]]"."
+#. Default: "Please check that opening \"[[\" have corresponding closing \"]]\"."
 msgid "Please check that opening \"[[\" have corresponding closing \"]]\"."
-msgstr ""
+msgstr "Please check that opening \"[[\" have corresponding closing \"]]\"."
 
 #. Default: "Please provide a valid number."
 msgid "Please provide a valid number."
@@ -1112,7 +1112,7 @@ msgstr "Leave unchecked if item is public"
 
 #. Default: "Owner of a annex decision may delete it when item is no more editable?"
 msgid "PloneMeeting_label_ownerMayDeleteAnnexDecision"
-msgstr ""
+msgstr "Owner of a annex decision may delete it when item is no more editable?"
 
 #. Default: "Place"
 msgid "PloneMeeting_label_place"
@@ -1592,9 +1592,9 @@ msgstr "The item is entitled '${itemTitle}'. You can access this item here: ${ob
 msgid "adviceToGive_mail_subject"
 msgstr "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 
-#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
 msgid "advice_annex_confidential_visible_for_descr"
-msgstr "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
+msgstr "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
@@ -2176,6 +2176,10 @@ msgstr "The default meeting configuration is the one the user is redirected to w
 #. Default: "Sorry, but this configuration is still the default one. If you want to choose another configuration as default configuration, check the corresponding box for this other configuration."
 msgid "config_is_still_default"
 msgstr "Sorry, but this configuration is still the default one. If you want to choose another configuration as default configuration, check the corresponding box for this other configuration."
+
+#. Default: "Searches ${search_title}"
+msgid "config_search_title"
+msgstr "Searches ${search_title}"
 
 #. Default: "If this meeting configuration corresponds to an organization, institution or group that gives an identifier to its successive forms (ie: City council 2000-2006, 5th Parliament, VIIIth Government...), you can write here the identifier of the current form (ie: 'CC00_06', 'P5', 'Gov VIII'...)."
 msgid "config_version_descr"
@@ -4016,7 +4020,7 @@ msgstr "Other"
 
 #. Default: "If checked, the user that created an annexDecision will be able to remove it even if the item is no more editable, if not checked, only a Manager will be able to remove an annexDecision when the item is no more editable."
 msgid "owner_may_delete_annex_decision_descr"
-msgstr ""
+msgstr "If checked, the user that created an annexDecision will be able to remove it even if the item is no more editable, if not checked, only a Manager will be able to remove an annexDecision when the item is no more editable."
 
 #. Default: "Parameters defined if the user has a specific function"
 msgid "params_as_special_user"

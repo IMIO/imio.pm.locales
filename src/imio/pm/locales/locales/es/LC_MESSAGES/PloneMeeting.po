@@ -415,7 +415,7 @@ msgstr "Número de elementos a mostrar"
 msgid "Once viewable, the adviser will have ${advice_delay} days to give the advice."
 msgstr "Una vez visible, el asesor tendrá ${advice_delay} día(s) para dar el consejo."
 
-#. Default: "Please check that opening "[[" have corresponding closing "]]"."
+#. Default: "Please check that opening \"[[\" have corresponding closing \"]]\"."
 msgid "Please check that opening \"[[\" have corresponding closing \"]]\"."
 msgstr ""
 
@@ -1602,7 +1602,7 @@ msgstr "Usted puede acceder a este tema aquí: ${objectUrl}."
 msgid "adviceToGive_mail_subject"
 msgstr "${meetingConfigTitle} - Su consejo es requerido en el tema '${itemTitle}'."
 
-#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
 msgid "advice_annex_confidential_visible_for_descr"
 msgstr ""
 
@@ -2188,6 +2188,10 @@ msgstr "La configuración de reunión por defecto es el que el usuario es rediri
 #. Default: "Sorry, but this configuration is still the default one. If you want to choose another configuration as default configuration, check the corresponding box for this other configuration."
 msgid "config_is_still_default"
 msgstr "Lo siento, pero esta configuración es aun la única por defecto. Si usted quiere elegir otro configuración como la configuración por defecto, verifique la correspondiente caja para esta otra configuración."
+
+#. Default: "Searches ${search_title}"
+msgid "config_search_title"
+msgstr ""
 
 #. Default: "If this meeting configuration corresponds to an organization, institution or group that gives an identifier to its successive forms (ie: City council 2000-2006, 5th Parliament, VIIIth Government...), you can write here the identifier of the current form (ie: 'CC00_06', 'P5', 'Gov VIII'...)."
 msgid "config_version_descr"
