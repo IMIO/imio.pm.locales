@@ -568,6 +568,10 @@ msgstr "Identifiant de la version de cette configuration"
 msgid "PloneMeeting_label_copyGroups"
 msgstr "Groupes en copie (lecture seule)"
 
+#. Default: "Css classes to hide"
+msgid "PloneMeeting_label_cssClassesToHide"
+msgstr "Classes Css à cacher"
+
 #. Default: "Custom advisers"
 msgid "PloneMeeting_label_customAdvisers"
 msgstr "Configuration des avis particuliers"
@@ -2225,6 +2229,10 @@ msgstr "Créateur"
 msgid "creators"
 msgstr "Créateurs"
 
+#. Default: "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line."
+msgid "css_classes_to_hide_descr"
+msgstr "Encodez les classes Css utilisées dans l'application qui ne doivent pas être rendues pour les profils sélectionnés ci-dessous dans le champ \"Cacher les classes Css à\".  Encodez une classe Css par ligne."
+
 #. Default: "You can not define a value in the 'Available on' column if a value is in the 'Advice will be automatically asked if' column, please check defined values for group '${groupName}'."
 msgid "custom_adviser_can_not_available_on_and_gives_auto_advice_on"
 msgstr "Vous ne pouvez pas définir une valeur dans la colonne 'Disponible si' si une valeur est définie dans la colonne 'L'avis sera automatiquement demandé si' pour la même ligne, vérifiez les valeurs pour le groupe '${groupName}'."
@@ -2780,6 +2788,14 @@ msgstr "L'annexe est en cours de conversion vers un format prévisualisable.  Re
 #. Default: "Hidden during redaction"
 msgid "hidden_during_redaction"
 msgstr "Caché pendant la rédaction de l'avis"
+
+#. Default: "Hide Css classes to"
+msgid "PloneMeeting_label_hideCssClassesTo"
+msgstr "Cacher les classes Css à"
+
+#. Default: "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered."
+msgid "hide_css_classes_to_descr"
+msgstr "Sélectionnez les profils pour lesquels les classes Css définies ci-dessus dans le champ \"Classes Css à cacher\" ne seront pas rendues."
 
 #. Default: "If box is checked, when a user will access the history of an item, the comments of the listed events will only be shown if current user is part of the item's proposing group."
 msgid "hide_item_history_comments_to_users_outside_proposing_group_descr"

@@ -568,6 +568,10 @@ msgstr "Identifier of this meeting configuration"
 msgid "PloneMeeting_label_copyGroups"
 msgstr "Copy groups"
 
+#. Default: "Css classes to hide"
+msgid "PloneMeeting_label_cssClassesToHide"
+msgstr "Css classes to hide"
+
 #. Default: "Custom advisers"
 msgid "PloneMeeting_label_customAdvisers"
 msgstr "Custom advisers"
@@ -2225,6 +2229,10 @@ msgstr "Creator"
 msgid "creators"
 msgstr "Creators"
 
+#. Default: "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line."
+msgid "css_classes_to_hide_descr"
+msgstr "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line."
+
 #. Default: "You can not define a value in the 'Available on' column if a value is in the 'Advice will be automatically asked if' column, please check defined values for group '${groupName}'."
 msgid "custom_adviser_can_not_available_on_and_gives_auto_advice_on"
 msgstr "You can not define a value in the 'Available on' column if a value is in the 'Advice will be automatically asked if' column, please check defined values for group '${groupName}'."
@@ -2780,6 +2788,14 @@ msgstr "No preview available because this file is currently being converted to a
 #. Default: "Hidden during redaction"
 msgid "hidden_during_redaction"
 msgstr "Hidden during redaction"
+
+#. Default: "Hide Css classes to"
+msgid "PloneMeeting_label_hideCssClassesTo"
+msgstr "Hide Css classes to"
+
+#. Default: "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered."
+msgid "hide_css_classes_to_descr"
+msgstr "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered."
 
 #. Default: "If box is checked, when a user will access the history of an item, the comments of the listed events will only be shown if current user is part of the item's proposing group."
 msgid "hide_item_history_comments_to_users_outside_proposing_group_descr"
