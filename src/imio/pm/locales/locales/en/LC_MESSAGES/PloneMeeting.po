@@ -744,6 +744,10 @@ msgstr "Group in charge"
 msgid "PloneMeeting_label_group_certifiedSignatures"
 msgstr "Group certified signatures"
 
+#. Default: "Hide Css classes to"
+msgid "PloneMeeting_label_hideCssClassesTo"
+msgstr "Hide Css classes to"
+
 #. Default: "Hide item history comments to users outside proposing group"
 msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
 msgstr "Hide item history comments to users outside proposing group"
@@ -2229,7 +2233,8 @@ msgstr "Creator"
 msgid "creators"
 msgstr "Creators"
 
-#. Default: "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line."
+#. Default: "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
+#, fuzzy
 msgid "css_classes_to_hide_descr"
 msgstr "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line."
 
@@ -2789,11 +2794,8 @@ msgstr "No preview available because this file is currently being converted to a
 msgid "hidden_during_redaction"
 msgstr "Hidden during redaction"
 
-#. Default: "Hide Css classes to"
-msgid "PloneMeeting_label_hideCssClassesTo"
-msgstr "Hide Css classes to"
-
-#. Default: "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered."
+#. Default: "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the "\Flush Cache\" tab and hit the \"Minimize\" button.</span>"
+#, fuzzy
 msgid "hide_css_classes_to_descr"
 msgstr "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered."
 
