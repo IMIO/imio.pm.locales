@@ -752,6 +752,10 @@ msgstr "Hide Css classes to"
 msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
 msgstr "Hide item history comments to users outside proposing group"
 
+#. Default: "Hide not viewable items to"
+msgid "PloneMeeting_label_hideNotViewableLinkedItemsTo"
+msgstr ""
+
 #. Default: "Historize item data when an advice is given"
 msgid "PloneMeeting_label_historizeItemDataWhenAdviceIsGiven"
 msgstr "Historize item data when an advice is given"
@@ -2234,9 +2238,8 @@ msgid "creators"
 msgstr "Creators"
 
 #. Default: "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
-#, fuzzy
 msgid "css_classes_to_hide_descr"
-msgstr "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line."
+msgstr "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
 
 #. Default: "You can not define a value in the 'Available on' column if a value is in the 'Advice will be automatically asked if' column, please check defined values for group '${groupName}'."
 msgid "custom_adviser_can_not_available_on_and_gives_auto_advice_on"
@@ -2795,9 +2798,8 @@ msgid "hidden_during_redaction"
 msgstr "Hidden during redaction"
 
 #. Default: "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the "\Flush Cache\" tab and hit the \"Minimize\" button.</span>"
-#, fuzzy
 msgid "hide_css_classes_to_descr"
-msgstr "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered."
+msgstr "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the "\Flush Cache\" tab and hit the \"Minimize\" button.</span>"
 
 #. Default: "If box is checked, when a user will access the history of an item, the comments of the listed events will only be shown if current user is part of the item's proposing group."
 msgid "hide_item_history_comments_to_users_outside_proposing_group_descr"
@@ -2806,6 +2808,10 @@ msgstr "If box is checked, when a user will access the history of an item, the c
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
 msgstr "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
+
+#. Default: "This will hide not viewable linked items to selected profiles instead of showing it with the 'You can not access this element' warning."
+msgid "hide_not_viewable_linked_items_to_descr"
+msgstr ""
 
 #. Default: "When an advice is given, so when it switch to a state where adviser may not advice it anymore, it is historized.  If you chek this box, every relevant item data (title and rich text fields) will be historized together with the advice."
 msgid "historize_item_data_when_advice_is_given_descr"
@@ -2867,9 +2873,9 @@ msgstr "You are now disconnected."
 msgid "hs_name"
 msgstr "Name"
 
-#. Default: "This site allows you to manage your official meetings."
+#. Default: "This application allows you to manage your official meetings."
 msgid "hs_welcome_body"
-msgstr "This site allows you to manage your official meetings."
+msgstr "This application allows you to manage your official meetings."
 
 #. Default: "Azur"
 msgid "icon_color_azur"

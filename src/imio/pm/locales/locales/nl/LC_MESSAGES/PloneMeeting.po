@@ -753,6 +753,10 @@ msgstr ""
 msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
 msgstr ""
 
+#. Default: "Hide not viewable items to"
+msgid "PloneMeeting_label_hideNotViewableLinkedItemsTo"
+msgstr ""
+
 #. Default: "Historize item data when an advice is given"
 msgid "PloneMeeting_label_historizeItemDataWhenAdviceIsGiven"
 msgstr ""
@@ -2808,6 +2812,10 @@ msgstr ""
 msgid "hide_meeting_view_page"
 msgstr "Verberg meeting voorbeeld"
 
+#. Default: "This will hide not viewable linked items to selected profiles instead of showing it with the 'You can not access this element' warning."
+msgid "hide_not_viewable_linked_items_to_descr"
+msgstr ""
+
 #. Default: "When an advice is given, so when it switch to a state where adviser may not advice it anymore, it is historized.  If you chek this box, every relevant item data (title and rich text fields) will be historized together with the advice."
 msgid "historize_item_data_when_advice_is_given_descr"
 msgstr ""
@@ -2868,7 +2876,7 @@ msgstr ""
 msgid "hs_name"
 msgstr "Naam"
 
-#. Default: "This site allows you to manage your official meetings."
+#. Default: "This application allows you to manage your official meetings."
 msgid "hs_welcome_body"
 msgstr ""
 

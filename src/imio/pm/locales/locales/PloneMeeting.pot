@@ -3809,7 +3809,7 @@ msgstr ""
 msgid "This portlet shows controls of PloneMeeting."
 msgstr ""
 
-#. Default: "This site allows you to manage your official meetings."
+#. Default: "This application allows you to manage your official meetings."
 msgid "hs_welcome_body"
 msgstr ""
 
@@ -5155,4 +5155,12 @@ msgstr ""
 
 #. Default: "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the "\Flush Cache\" tab and hit the \"Minimize\" button.</span>"
 msgid "hide_css_classes_to_descr"
+msgstr ""
+
+#. Default: "Hide not viewable items to"
+msgid "PloneMeeting_label_hideNotViewableLinkedItemsTo"
+msgstr ""
+
+#. Default: "This will hide not viewable linked items to selected profiles instead of showing it with the 'You can not access this element' warning."
+msgid "hide_not_viewable_linked_items_to_descr"
 msgstr ""

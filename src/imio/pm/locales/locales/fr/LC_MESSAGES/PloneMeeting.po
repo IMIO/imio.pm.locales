@@ -574,7 +574,7 @@ msgstr "Classes Css à cacher"
 
 #. Default: "Custom advisers"
 msgid "PloneMeeting_label_customAdvisers"
-msgstr "Configuration des avis particuliers"
+msgstr "Configuration des avis automatiques et avec délai"
 
 #. Default: "Advanced filters to show on listings of items"
 msgid "PloneMeeting_label_dashboardItemsListingsFilters"
@@ -751,6 +751,10 @@ msgstr "Cacher les classes Css à"
 #. Default: "Hide item history comments to users outside proposing group"
 msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
 msgstr "Cacher les commentaires dans l'historique d'un point aux utilisateurs ne faisant pas partie du groupe proposant"
+
+#. Default: "Hide not viewable items to"
+msgid "PloneMeeting_label_hideNotViewableLinkedItemsTo"
+msgstr "Cacher les points liés non visibles aux"
 
 #. Default: "Historize item data when an advice is given"
 msgid "PloneMeeting_label_historizeItemDataWhenAdviceIsGiven"
@@ -2793,7 +2797,7 @@ msgstr "L'annexe est en cours de conversion vers un format prévisualisable.  Re
 msgid "hidden_during_redaction"
 msgstr "Caché pendant la rédaction de l'avis"
 
-#. Default: "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the "Flush Cache\" tab and hit the \"Minimize\" button.</span>"
+#. Default: "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the "\Flush Cache\" tab and hit the \"Minimize\" button.</span>"
 msgid "hide_css_classes_to_descr"
 msgstr "Sélectionnez les profils pour lesquels les classes Css définies ci-dessus dans le champ \"Classes Css à cacher\" ne seront pas rendues.  <span style='color: red;'>Si vous activez cela sur un site contenant déjà des points et avis, allez à la racine de Zope --> Control_Panel --> Database Mangement --> sélectionnez la bonne base de données, allez sur l'onglet \"Flush Cache\" et cliquez sur le bouton \"Minimize\".</span>"
 
@@ -2804,6 +2808,10 @@ msgstr "Si vous cochez cette case, lorsqu'un utilisateur accèdera à l'historiq
 #. Default: "This page is currently not accessible. Meeting managers will soon allow you to access it again. Sorry for the inconvenience."
 msgid "hide_meeting_view_page"
 msgstr "Cette page n'est pas accessible pour le moment. Les gestionnaires de séance vous y donneront à nouveau accès bientôt. Désolé pour le désagrément."
+
+#. Default: "This will hide not viewable linked items to selected profiles instead of showing it with the 'You can not access this element' warning."
+msgid "hide_not_viewable_linked_items_to_descr"
+msgstr "Ceci cachera les points liés à un point qui ne sont pas visibles au lieu d'afficher l'avertissement \"(Vous n'avez pas accès à cet élément)\"."
 
 #. Default: "When an advice is given, so when it switch to a state where adviser may not advice it anymore, it is historized.  If you chek this box, every relevant item data (title and rich text fields) will be historized together with the advice."
 msgid "historize_item_data_when_advice_is_given_descr"
@@ -2865,9 +2873,9 @@ msgstr "Vous êtes maintenant déconnecté."
 msgid "hs_name"
 msgstr "Nom"
 
-#. Default: "This site allows you to manage your official meetings."
+#. Default: "This application allows you to manage your official meetings."
 msgid "hs_welcome_body"
-msgstr "Ce site vous permet de gérer vos séances délibératoires."
+msgstr "Cette application vous permet de gérer vos séances délibératoires."
 
 #. Default: "Azur"
 msgid "icon_color_azur"
