@@ -2798,7 +2798,6 @@ msgid "hidden_during_redaction"
 msgstr "Caché pendant la rédaction de l'avis"
 
 #. Default: "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
-#, fuzzy
 msgid "hide_css_classes_to_descr"
 msgstr "Sélectionnez les profils pour lesquels les classes Css définies ci-dessus dans le champ \"Classes Css à cacher\" ne seront pas rendues.  <span style='color: red;'>Si vous activez cela sur un site contenant déjà des points et avis, allez à la racine de Zope --> Control_Panel --> Database Mangement --> sélectionnez la bonne base de données, allez sur l'onglet \"Flush Cache\" et cliquez sur le bouton \"Minimize\".</span>"
 
@@ -4516,13 +4515,9 @@ msgstr "Cochez la case si ce point doit être soumis à l'autorité de tutelle."
 msgid "sendto_inexistent_destfolder_error"
 msgstr "Impossible d'envoyer ce point vers le type de séance ${meetingConfigTitle} car l'utilisateur n'a pas d'espace dans cet autre type de séance.  Il est nécessaire que l'utilisateur concerné se connecte à l'application pour que cet espace soit créé automatiquement."
 
-#. Default: "The item has been successfully transfered to the plonegov assembly."
-msgid "sendto_plonegov-assembly_success"
-msgstr "Le point a été envoyé à l'assemblée PloneGov."
-
-#. Default: "The item has been successfully transfered to the plonemeeting assembly."
-msgid "sendto_plonemeeting-assembly_success"
-msgstr "Le point a été envoyé à l'assemblée PloneMeeting."
+#. Default: "The item has been successfully transfered to the ${cfgTitle}."
+msgid "sendto_success"
+msgstr "Le point a été envoyé au ${cfgTitle}."
 
 #. Default: "${meetingConfigTitle} (to send to)"
 msgid "sent_to_other_mc_term__clonable_to"

@@ -4567,13 +4567,9 @@ msgstr ""
 msgid "sendto_inexistent_destfolder_error"
 msgstr "No se puede enviar este tema a la configuración de reunión ${meetingConfigTitle} debido a que el usuario pueda crear el tema por que no tiene una carpeta personal en esta configuración de reunión. Si es necesario, el usuario en cuestión puede conectarse a esta carpeta que se creará automáticamente."
 
-#. Default: "The item has been successfully transfered to the plonegov assembly."
-msgid "sendto_plonegov-assembly_success"
-msgstr "Este elemento ha sido exitosamente transferido en la asamblea plonegov."
-
-#. Default: "The item has been successfully transfered to the plonemeeting assembly."
-msgid "sendto_plonemeeting-assembly_success"
-msgstr "Este elemento ha sido exitosamente transferido en la asamblea plonemeeting."
+#. Default: "The item has been successfully transfered to the ${cfgTitle}."
+msgid "sendto_success"
+msgstr ""
 
 #. Default: "${meetingConfigTitle} (to send to)"
 msgid "sent_to_other_mc_term__clonable_to"

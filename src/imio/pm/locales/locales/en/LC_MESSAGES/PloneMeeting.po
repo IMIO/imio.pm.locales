@@ -754,7 +754,7 @@ msgstr "Hide item history comments to users outside proposing group"
 
 #. Default: "Hide not viewable items to"
 msgid "PloneMeeting_label_hideNotViewableLinkedItemsTo"
-msgstr ""
+msgstr "Hide not viewable items to"
 
 #. Default: "Historize item data when an advice is given"
 msgid "PloneMeeting_label_historizeItemDataWhenAdviceIsGiven"
@@ -2811,7 +2811,7 @@ msgstr "This page is currently not accessible. Meeting managers will soon allow 
 
 #. Default: "This will hide not viewable linked items to selected profiles instead of showing it with the 'You can not access this element' warning."
 msgid "hide_not_viewable_linked_items_to_descr"
-msgstr ""
+msgstr "This will hide not viewable linked items to selected profiles instead of showing it with the 'You can not access this element' warning."
 
 #. Default: "When an advice is given, so when it switch to a state where adviser may not advice it anymore, it is historized.  If you chek this box, every relevant item data (title and rich text fields) will be historized together with the advice."
 msgid "historize_item_data_when_advice_is_given_descr"
@@ -4516,13 +4516,9 @@ msgstr "Check the box if item needs to be send to authority, if so, a line will 
 msgid "sendto_inexistent_destfolder_error"
 msgstr "Unable to send this item to the ${meetingConfigTitle} meetingConfig because the user to create the item to does not have a personal folder in this meetingConfig.  If necessary, the concerned user can connect for this folder to be created automatically."
 
-#. Default: "The item has been successfully transfered to the plonegov assembly."
-msgid "sendto_plonegov-assembly_success"
-msgstr "The item has been successfully transfered to the plonegov assembly."
-
-#. Default: "The item has been successfully transfered to the plonemeeting assembly."
-msgid "sendto_plonemeeting-assembly_success"
-msgstr "The item has been successfully transfered to the plonemeeting assembly."
+#. Default: "The item has been successfully transfered to the ${cfgTitle}."
+msgid "sendto_success"
+msgstr "The item has been successfully transfered to the ${cfgTitle}."
 
 #. Default: "${meetingConfigTitle} (to send to)"
 msgid "sent_to_other_mc_term__clonable_to"
