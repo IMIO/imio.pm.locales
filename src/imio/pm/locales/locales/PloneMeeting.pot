@@ -464,8 +464,16 @@ msgstr ""
 msgid "public"
 msgstr ""
 
+#. Default: "Public meeting (heading)"
+msgid "public_heading"
+msgstr ""
+
 #. Default: "Closed door"
 msgid "secret"
+msgstr ""
+
+#. Default: "Closed door (heading)"
+msgid "secret_heading"
 msgstr ""
 
 #. Default: "Meeting transition that triggers the insertion of this item as a recurring item"
@@ -2110,7 +2118,7 @@ msgstr ""
 msgid "on_all_groups"
 msgstr ""
 
-#. Default: "Follow the privacy (public then secret)"
+#. Default: "Follow the privacy (define order in the field 'Selectable privacies' here under.)"
 msgid "on_privacy"
 msgstr ""
 
@@ -3921,6 +3929,14 @@ msgstr ""
 msgid "inserting_methods_not_using_poll_type_error"
 msgstr ""
 
+#. Default: "You can not select 'Follow privacy order' inserting method as the field 'Privacy' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
+msgid "inserting_methods_not_using_privacy_error"
+msgstr ""
+
+#. Default: "You can not use 'Reverse' with the inserting method 'Follow privacy order'.  If you need to change the order, you can do it using field 'Selectable privacies' here under."
+msgid "inserting_methods_on_privacy_reverse_error"
+msgstr ""
+
 #. Default: "The validation deadline for meeting publication has not been respected"
 msgid "icon_help_publish_freeze_ko"
 msgstr ""
@@ -5159,4 +5175,12 @@ msgstr ""
 
 #. Default: "This will hide not viewable linked items to selected profiles instead of showing it with the 'You can not access this element' warning."
 msgid "hide_not_viewable_linked_items_to_descr"
+msgstr ""
+
+#. Default: "Selectable privacies"
+msgid "PloneMeeting_label_selectablePrivacies"
+msgstr ""
+
+#. Default: "Select here privacies that will be selectable by users editing items of this configuration.  If \"on privacy\" is used in the \"Sort order(s) to apply when adding an item to a meeting\" field, it is the order of values selected here that will be used."
+msgid "selectable_privacies_descr"
 msgstr ""

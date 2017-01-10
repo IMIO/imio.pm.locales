@@ -1246,6 +1246,10 @@ msgstr "Selectable advisers"
 msgid "PloneMeeting_label_selectableCopyGroups"
 msgstr "Groups that can be in copy for an item"
 
+#. Default: "Selectable privacies"
+msgid "PloneMeeting_label_selectablePrivacies"
+msgstr "Selectable privacies"
+
 #. Default: "Send to authority?"
 msgid "PloneMeeting_label_sendToAuthority"
 msgstr "Send to authority?"
@@ -3025,6 +3029,10 @@ msgstr "You can not select 'Follow categories order' inserting method as this me
 msgid "inserting_methods_not_using_poll_type_error"
 msgstr "You can not select 'Follow poll type order' inserting method as the field 'Poll type' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
 
+#. Default: "You can not select 'Follow privacy order' inserting method as the field 'Privacy' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
+msgid "inserting_methods_not_using_privacy_error"
+msgstr ""
+
 #. Default: "You can not select 'Follow to discuss order' inserting method as the field 'To discuss ?' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
 msgid "inserting_methods_not_using_to_discuss_error"
 msgstr "You can not select 'Follow to discuss order' inserting method as the field 'To discuss ?' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
@@ -3032,6 +3040,10 @@ msgstr "You can not select 'Follow to discuss order' inserting method as the fie
 #. Default: "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
 msgid "inserting_methods_on_add_item_descr"
 msgstr "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
+
+#. Default: "You can not use 'Reverse' with the inserting method 'Follow privacy order'.  If you need to change the order, you can do it using field 'Selectable privacies' here under."
+msgid "inserting_methods_on_privacy_reverse_error"
+msgstr ""
 
 #. Default: "This field is only accessible to members of the proposing group."
 msgid "internal_notes_descr"
@@ -4010,7 +4022,8 @@ msgstr "Follow other meeting configs to clone to (items to be send to another me
 msgid "on_poll_type"
 msgstr "Follow the poll type"
 
-#. Default: "Follow the privacy (public then secret)"
+#. Default: "Follow the privacy (define order in the field 'Selectable privacies' here under.)"
+#, fuzzy
 msgid "on_privacy"
 msgstr "Follow the privacy (public then secret)"
 
@@ -4306,6 +4319,10 @@ msgstr "The document has been sent."
 msgid "public"
 msgstr "Public meeting"
 
+#. Default: "Public meeting (heading)"
+msgid "public_heading"
+msgstr "Public meeting (heading)"
+
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use this functionality."
 msgid "publish_deadline_default_descr"
 msgstr "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use this functionality."
@@ -4495,6 +4512,10 @@ msgstr "Validable items"
 msgid "secret"
 msgstr "Closed door"
 
+#. Default: "Closed door (heading)"
+msgid "secret_heading"
+msgstr "Closed door (heading)"
+
 # Portlet "meeting items"
 #. Default: "See everything..."
 msgid "see_everything"
@@ -4507,6 +4528,11 @@ msgstr "Choose here advisers that will be selectable on an item in the 'Optional
 #. Default: "Select groups that the creator of an item will be able to choose"
 msgid "selectable_copy_groups_descr"
 msgstr "Select groups that the creator of an item will be able to choose"
+
+#. Default: "Select here privacies that will be selectable by users editing items of this configuration.  If \"on privacy\" is used in the \"Sort order(s) to apply when adding an item to a meeting\" field, it is the order of values selected here that will be used."
+#, fuzzy
+msgid "selectable_privacies_descr"
+msgstr "Select here privacies that will be selectable by users editing items of this configuration.  If 'Heading' privacies are selected, items using these privacies will be inserted at the top of a meeting if the insertion method 'on privacy' is used."
 
 #. Default: "Check the box if item needs to be send to authority, if so, a line will be automatically printed in the item deliberation document."
 msgid "send_to_authority_descr"

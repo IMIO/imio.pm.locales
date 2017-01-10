@@ -1246,6 +1246,10 @@ msgstr "Groupes auxquels un avis optionnel pourra être demandé"
 msgid "PloneMeeting_label_selectableCopyGroups"
 msgstr "Groupes qui pourront être mis en copie"
 
+#. Default: "Selectable privacies"
+msgid "PloneMeeting_label_selectablePrivacies"
+msgstr "Niveaux de confidentialité utilisés"
+
 #. Default: "Send to authority?"
 msgid "PloneMeeting_label_sendToAuthority"
 msgstr "A transmettre à la tutelle?"
@@ -3025,6 +3029,10 @@ msgstr "Vous ne pouvez pas sélectionner 'Suivre l'odre des catégories' car cet
 msgid "inserting_methods_not_using_poll_type_error"
 msgstr "Vous ne pouvez pas sélectionner 'Par mode de scrutin' car 'Mode de scrutin' n'est pas sélectionné dans le champ 'Attributs utilisés pour caractériser un point' de cette configuration de séance."
 
+#. Default: "You can not select 'Follow privacy order' inserting method as the field 'Privacy' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
+msgid "inserting_methods_not_using_privacy_error"
+msgstr "Vous ne pouvez pas sélectionner 'Par niveau de confidentialité' car 'Niveau de confidentialité' n'est pas sélectionné dans le champ 'Attributs utilisés pour caractériser un point' de cette configuration de séance."
+
 #. Default: "You can not select 'Follow to discuss order' inserting method as the field 'To discuss ?' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
 msgid "inserting_methods_not_using_to_discuss_error"
 msgstr "Vous ne pouvez pas sélectionner 'Par point à discuter (à discuter et ensuite pas à discuter)' car 'A évoquer en séance?' n'est pas sélectionné dans le champ 'Attributs utilisés pour caractériser un point' de cette configuration de séance."
@@ -3032,6 +3040,10 @@ msgstr "Vous ne pouvez pas sélectionner 'Par point à discuter (à discuter et 
 #. Default: "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
 msgid "inserting_methods_on_add_item_descr"
 msgstr "Permet de définir les méthodes successivement appliquées lors de l'insertion d'un point dans une séance."
+
+#. Default: "You can not use 'Reverse' with the inserting method 'Follow privacy order'.  If you need to change the order, you can do it using field 'Selectable privacies' here under."
+msgid "inserting_methods_on_privacy_reverse_error"
+msgstr "Vous ne pouvez pas utiliser 'Inverser?' avec la méthode d'insertion 'Par niveau de confidentialité'.  Utilisez le champ 'Niveaux de confidentialité utilisés' ci-dessous pour définir l'ordre d'insertion."
 
 #. Default: "This field is only accessible to members of the proposing group."
 msgid "internal_notes_descr"
@@ -4009,9 +4021,9 @@ msgstr "Par 'à envoyer vers' (points à envoyer vers d'autres séances puis poi
 msgid "on_poll_type"
 msgstr "Par mode de scrutin"
 
-#. Default: "Follow the privacy (public then secret)"
+#. Default: "Follow the privacy (define order in the field 'Selectable privacies' here under)"
 msgid "on_privacy"
-msgstr "Par confidentialité (séance publique et ensuite huis clos)"
+msgstr "Par niveau de confidentialité (définissez l'ordre dans le champ 'Niveaux de confidentialité utilisés' ci-dessous)"
 
 #. Default: "Follow proposing groups order"
 msgid "on_proposing_groups"
@@ -4305,6 +4317,10 @@ msgstr "Le document a été envoyé."
 msgid "public"
 msgstr "Séance publique"
 
+#. Default: "Public meeting (heading)"
+msgid "public_heading"
+msgstr "Séance publique (entête)"
+
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, '5.9:30' (do not type quotes) means: '5 days before the meeting date, at 9:30.'.  Leave the field empty not to use this functionality."
 msgid "publish_deadline_default_descr"
 msgstr "Spécifiez ici l'échéance pour valider des points à insérer dans une séance donnée. Vous devez exprimer cette échéance comme étant relative à la date de la séance. Par exemple, '5.9:30' (n'encodez pas d'apostrophes) signifie '5 jours avant la date de la séance, à 9:30'.  Laissez le champ vide si vous ne souhaitez pas utiliser cette fonctionnalité."
@@ -4494,6 +4510,10 @@ msgstr "Points validables"
 msgid "secret"
 msgstr "Huis clos"
 
+#. Default: "Closed door (heading)"
+msgid "secret_heading"
+msgstr "Huis clos (entête)"
+
 # Portlet "meeting items"
 #. Default: "See everything..."
 msgid "see_everything"
@@ -4506,6 +4526,10 @@ msgstr "Choisissez les groupes qui apparaîtront sur le point dans la zone \"Dem
 #. Default: "Select groups that the creator of an item will be able to choose"
 msgid "selectable_copy_groups_descr"
 msgstr "Sélectionnez les groupes que le créateur d'un point pourra sélectionner pour le mettre en copie."
+
+#. Default: "Select here privacies that will be selectable by users editing items of this configuration.  If \"on privacy\" is used in the \"Sort order(s) to apply when adding an item to a meeting\" field, it is the order of values selected here that will be used."
+msgid "selectable_privacies_descr"
+msgstr "Spécifiez ici les niveaux de confidentialité qui pourront être sélectionnés lors de l'édition d'un point.  Si \"Par niveau de confidentialité\" est sélectionné dans \"Méthode(s) de tri lors de l'ajout d'un point dans une séance\", c'est l'ordre des niveaux de confidentialité sélectionnés ici qui sera utilisé."
 
 #. Default: "Check the box if item needs to be send to authority, if so, a line will be automatically printed in the item deliberation document."
 msgid "send_to_authority_descr"
