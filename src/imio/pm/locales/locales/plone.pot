@@ -391,14 +391,6 @@ msgstr ""
 msgid "ExternalApplication"
 msgstr ""
 
-#. Default: "File type"
-msgid "MeetingFileType"
-msgstr ""
-
-#. Default: "Annex"
-msgid "MeetingFile"
-msgstr ""
-
 #. Default: "Category"
 msgid "MeetingCategory"
 msgstr ""
@@ -495,14 +487,6 @@ msgstr ""
 msgid "description_edit_meetingitem"
 msgstr " "
 
-#. Default: "Annexes"
-msgid "Annexes"
-msgstr ""
-
-#. Default: "Annexes (to the decision)"
-msgid "AnnexesDecision"
-msgstr ""
-
 # Meeting-related vocabulary
 # This way, the "typedescription macro in base_edit does not display 'Meeting' above the title.
 #. Default: ""
@@ -586,10 +570,6 @@ msgstr ""
 
 #. Default: "This category can not be deleted, at least one item is linked to this category!"
 msgid "can_not_delete_meetingcategory_meetingitem"
-msgstr ""
-
-#. Default: "This file type can not be deleted, at least one annex is using it!"
-msgid "can_not_delete_meetingfiletype_meetingfile"
 msgstr ""
 
 #. Default: "You can not delete a container containing one or several meetings!"
@@ -802,3 +782,8 @@ msgstr ""
 #. Default: "Back to 'prevalidated'"
 msgid "backTo_prevalidated_from_waiting_advices"
 msgstr ""
+
+#. Default: "Annex decision"
+msgid "Annex decision"
+msgstr ""
+

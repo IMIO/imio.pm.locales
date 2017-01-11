@@ -31,6 +31,10 @@ msgstr "Avis en cours de rédaction"
 msgid "Annex correctly added."
 msgstr "L'annexe a été ajoutée."
 
+#. Default: "Annex decision"
+msgid "Annex decision"
+msgstr "Annexe (après décision)"
+
 # This way, the typedescription macro in base_edit does not display 'MeetingItem' above the title.
 #. Default: "Annexes"
 msgid "Annexes"
@@ -124,14 +128,6 @@ msgstr "Catégorie"
 #. Default: "Meeting configuration"
 msgid "MeetingConfig"
 msgstr "Configuration de séance"
-
-#. Default: "Annex"
-msgid "MeetingFile"
-msgstr "Annexe"
-
-#. Default: "File type"
-msgid "MeetingFileType"
-msgstr "Type de fichier"
 
 #. Default: "PloneMeeting group"
 msgid "MeetingGroup"
@@ -428,10 +424,6 @@ msgstr "Cette configuration de séance ne peut pas être supprimée, au moins un
 #. Default: "This configuration can not be deleted, at least one item linked to this configuration exists!"
 msgid "can_not_delete_meetingconfig_meetingitem"
 msgstr "Cette configuration de séance ne peut pas être supprimée, au moins un point lié à cette configuration existe!"
-
-#. Default: "This file type can not be deleted, at least one annex is using it!"
-msgid "can_not_delete_meetingfiletype_meetingfile"
-msgstr "Ce type d'annexe ne peut être supprimé car au moins une annexe l'utilise!"
 
 #. Default: "This group can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}"
 msgid "can_not_delete_meetinggroup_config_meetingitem"
