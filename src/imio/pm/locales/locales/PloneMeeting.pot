@@ -4345,6 +4345,10 @@ msgstr ""
 msgid "possibility_to_advice_stopped_on"
 msgstr ""
 
+#. Default: "the advice was never giveable because item was never in a state where advice could be given."
+msgid "advice_stopped_on_never_asked"
+msgstr ""
+
 #. Default: ", at this moment, there was ${delay_when_stopped} day(s) left to give the advice."
 msgid "delay_left_when_stopped"
 msgstr ""

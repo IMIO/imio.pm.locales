@@ -1680,6 +1680,10 @@ msgstr "Optionnel"
 msgid "advice_required_to_ask_advices"
 msgstr "Aucun avis à demander (ou les avis sélectionnés ne peuvent pas être demandés maintenant, il peut être nécessaire d'utiliser l'action \"Demander à nouveau\" si nécessaire.)"
 
+#. Default: "the advice was never giveable because item was never in a state where advice could be given."
+msgid "advice_stopped_on_never_asked"
+msgstr "il n'a jamais pu être rendu car le point n'est pas passé par un état qui le permettait."
+
 #. Default: "Choose here the style for the icons that represent advices."
 msgid "advice_style_descr"
 msgstr "Choisissez ici le style des icônes qui représentent les avis."
