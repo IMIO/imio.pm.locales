@@ -4027,9 +4027,8 @@ msgid "on_poll_type"
 msgstr "Follow the poll type"
 
 #. Default: "Follow the privacy (define order in the field 'Selectable privacies' here under.)"
-#, fuzzy
 msgid "on_privacy"
-msgstr "Follow the privacy (public then secret)"
+msgstr "Follow the privacy (define order in the field 'Selectable privacies' here under.)"
 
 #. Default: "Follow proposing groups order"
 msgid "on_proposing_groups"
@@ -4534,9 +4533,8 @@ msgid "selectable_copy_groups_descr"
 msgstr "Select groups that the creator of an item will be able to choose"
 
 #. Default: "Select here privacies that will be selectable by users editing items of this configuration.  If \"on privacy\" is used in the \"Sort order(s) to apply when adding an item to a meeting\" field, it is the order of values selected here that will be used."
-#, fuzzy
 msgid "selectable_privacies_descr"
-msgstr "Select here privacies that will be selectable by users editing items of this configuration.  If 'Heading' privacies are selected, items using these privacies will be inserted at the top of a meeting if the insertion method 'on privacy' is used."
+msgstr "Select here privacies that will be selectable by users editing items of this configuration.  If \"on privacy\" is used in the \"Sort order(s) to apply when adding an item to a meeting\" field, it is the order of values selected here that will be used."
 
 #. Default: "Check the box if item needs to be send to authority, if so, a line will be automatically printed in the item deliberation document."
 msgid "send_to_authority_descr"
