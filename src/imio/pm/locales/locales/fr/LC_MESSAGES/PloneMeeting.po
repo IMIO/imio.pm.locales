@@ -1652,6 +1652,10 @@ msgstr "Edition rapide de l'avis"
 msgid "advice_edited"
 msgstr "L'avis a été créé ou modifié."
 
+#. Default: "Informations displayed regarding advice are taken from the other item including informations about dates, delay and states."
+msgid "advice_inherited_popup_descr"
+msgstr "Les informations affichées dans le cadre ci-contre à propos de l'avis sont reprises du point, y compris les informations éventuelles concernant le délai restant, l'état du point ou les dates de demande/remise de l'avis."
+
 #. Default: "The advice is not confidential and will be visible by everybody who has access to this item."
 msgid "advice_is_confidential_no"
 msgstr "Cet avis n'est pas confidentiel et sera visible par toute personne ayant accès au point."
