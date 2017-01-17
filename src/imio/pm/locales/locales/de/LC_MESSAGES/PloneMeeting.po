@@ -1614,7 +1614,7 @@ msgstr ""
 msgid "adviceToGive_mail_subject"
 msgstr ""
 
-#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
 msgid "advice_annex_confidential_visible_for_descr"
 msgstr ""
 
@@ -3577,6 +3577,10 @@ msgstr "Wenn die Anzahl der Sitzungen in einem dieser beiden Portlets höher als
 #. Default: "Similarly to the preceding field, all the actions that are triggered when a meeting goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions are documented."
 msgid "meeting_actions_interface_descr"
 msgstr "Ähnlich wie im vorherigen Feld können alle Aktionen die bei einem Statusübergang einer Sitzung ausgelöst werden durch ein eigens entwickeltes Plone-Produkt konfiguriert werden in dem Sie:<ul><li>ein Python Interface definieren das von dem Interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (Sie müssen den vollen Paketnamen des Interfaces in dem Feld unten eintragen);</li><li>einen Adapter in ZCML erstellen und deklarieren der das Interface Products.PloneMeeting.interfaces.IMeeting zu dem Interface das Sie definiert haben adaptiert.</li></ul>Ihr Adapter kann vom Standardadapter Products.PloneMeeting.Meeting.MeetingWorkflowActions erben: das ermöglicht es Ihnen nur die Methoden für die sie ein anderes Verhalten wünschen zu überschreiben. Alle Methoden die im Interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions definiert werden sind dokumentiert."
+
+#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
+msgid "meeting_annex_confidential_visible_for_descr"
+msgstr ""
 
 #. Default: "Choose here which page will be shown after logon."
 msgid "meeting_app_default_view_descr"

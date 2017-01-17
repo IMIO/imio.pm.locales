@@ -1612,9 +1612,9 @@ msgstr "The item is entitled '${itemTitle}'. You can access this item here: ${ob
 msgid "adviceToGive_mail_subject"
 msgstr "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 
-#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
 msgid "advice_annex_confidential_visible_for_descr"
-msgstr "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
+msgstr "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
@@ -1654,7 +1654,7 @@ msgstr "The advice has been created or updated."
 
 #. Default: "Informations displayed regarding advice are taken from the other item including informations about dates, delay and states."
 msgid "advice_inherited_popup_descr"
-msgstr ""
+msgstr "Informations displayed regarding advice are taken from the other item including informations about dates, delay and states."
 
 #. Default: "The advice is not confidential and will be visible by everybody who has access to this item."
 msgid "advice_is_confidential_no"
@@ -1686,7 +1686,7 @@ msgstr "No advice to ask"
 
 #. Default: "the advice was never giveable because item was never in a state where advice could be given."
 msgid "advice_stopped_on_never_asked"
-msgstr ""
+msgstr "the advice was never giveable because item was never in a state where advice could be given."
 
 #. Default: "Choose here the style for the icons that represent advices."
 msgid "advice_style_descr"
@@ -3039,7 +3039,7 @@ msgstr "You can not select 'Follow poll type order' inserting method as the fiel
 
 #. Default: "You can not select 'Follow privacy order' inserting method as the field 'Privacy' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
 msgid "inserting_methods_not_using_privacy_error"
-msgstr ""
+msgstr "You can not select 'Follow privacy order' inserting method as the field 'Privacy' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
 
 #. Default: "You can not select 'Follow to discuss order' inserting method as the field 'To discuss ?' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
 msgid "inserting_methods_not_using_to_discuss_error"
@@ -3051,7 +3051,7 @@ msgstr "Choose the methods that will be successively applied to define where the
 
 #. Default: "You can not use 'Reverse' with the inserting method 'Follow privacy order'.  If you need to change the order, you can do it using field 'Selectable privacies' here under."
 msgid "inserting_methods_on_privacy_reverse_error"
-msgstr ""
+msgstr "You can not use 'Reverse' with the inserting method 'Follow privacy order'.  If you need to change the order, you can do it using field 'Selectable privacies' here under."
 
 #. Default: "This field is only accessible to members of the proposing group."
 msgid "internal_notes_descr"
@@ -3562,6 +3562,10 @@ msgstr "If the number of meetings to display in any of those 2 portlets is highe
 #. Default: "Similarly to the preceding field, all the actions that are triggered when a meeting goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions are documented."
 msgid "meeting_actions_interface_descr"
 msgstr "Similarly to the preceding field, all the actions that are triggered when a meeting goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions are documented."
+
+#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
+msgid "meeting_annex_confidential_visible_for_descr"
+msgstr "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
 
 #. Default: "Choose here which page will be shown after logon."
 msgid "meeting_app_default_view_descr"

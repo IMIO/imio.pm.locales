@@ -1622,7 +1622,7 @@ msgstr "Usted puede acceder a este tema aquí: ${objectUrl}."
 msgid "adviceToGive_mail_subject"
 msgstr "${meetingConfigTitle} - Su consejo es requerido en el tema '${itemTitle}'."
 
-#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
 msgid "advice_annex_confidential_visible_for_descr"
 msgstr ""
 
@@ -3597,6 +3597,10 @@ msgstr "Si el número de reuniones a mostrar en cualquiera de esos portlets es m
 #. Default: "Similarly to the preceding field, all the actions that are triggered when a meeting goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions are documented."
 msgid "meeting_actions_interface_descr"
 msgstr "Similarmente a el campo precedido, todos las acciones que son activadas cuando un consejo va de un estado a otro son configurables a través del desarrollo de otro módulo de Plone dentro del cual debe: <ul><li>crear una interfaz Python que herede desde la interfaz Products.PloneMeeting.interfaces.IMeetingWorkflowActions (usted debe introducir el nombre completo del paquete de esta interfaz en el siguiente campo);</li><li>crear y declarar en el archivo ZCML un adaptador que adapte la interfaz Products.PloneMeeting.interfaces.IMeeting a la interfaz que usted tiene definida en el paso anterior.</li></ul>Su adaptador tal ves herede desde el adaptador por defecto Products.PloneMeeting.Meeting.MeetingWorkflowActions: eso le permitirá a usted anular solo métodos por los cuales usted quiera un comportamiento alterno. Todos los métodos propuestos por la interfaz Products.PloneMeeting.interfaces.IMeetingWorkflowActions son documentado."
+
+#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
+msgid "meeting_annex_confidential_visible_for_descr"
+msgstr ""
 
 #. Default: "Choose here which page will be shown after logon."
 msgid "meeting_app_default_view_descr"
