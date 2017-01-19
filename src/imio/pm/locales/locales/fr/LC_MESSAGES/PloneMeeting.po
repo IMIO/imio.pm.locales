@@ -472,6 +472,10 @@ msgstr "Style des avis"
 msgid "PloneMeeting_label_advices"
 msgstr "Avis"
 
+#. Default: "Advices to keep when item is sent to another configuration"
+msgid "PloneMeeting_label_advicesKeptOnSentToOtherMC"
+msgstr "Avis à garder lors de l'envoi d'un point vers une autre configuration de séance"
+
 #. Default: "Tags"
 msgid "PloneMeeting_label_allItemTags"
 msgstr "Marqueurs"
@@ -944,6 +948,10 @@ msgstr "Champs des points à Afficher/masquer dans les tableaux de bords"
 #. Default: "Keep access to item when an advice is given"
 msgid "PloneMeeting_label_keepAccessToItemWhenAdviceIsGiven"
 msgstr "Garder un accès au point lorsque l'avis a été rendu"
+
+#. Default: "Keep advices when item sent to another configuration?"
+msgid "PloneMeeting_label_keepAdvicesOnSentToOtherMC"
+msgstr "Garder les avis lors de l'envoi vers une autre configuration de séance?"
 
 #. Default: "Keep info 'to print?' of annexes when duplicating items"
 msgid "PloneMeeting_label_keepOriginalToPrintOfClonedItems"
@@ -1715,6 +1723,10 @@ msgstr "Mains"
 #. Default: "Advices on this item have been invalidated!"
 msgid "advices_invalidated"
 msgstr "Les avis de ce point ont été invalidés!"
+
+#. Default: "If parameter \"Keep advices when item sent to another configuration?\" here above is enabled, you may select here advices that will be kept.  If you do not select anyhting, every advices will be kept."
+msgid "advices_kept_on_sent_to_other_mc_descr"
+msgstr "Si le paramètre \"Garder les avis lors de l'envoi vers une autre configuration de séance?\" est activé ci-dessus, sélectionnez ici les avis qui seront gardés.  Si vous ne sélectionnez rien, tous les avis seront gardés."
 
 #. Default: "Standard"
 msgid "advices_standard"
@@ -3353,6 +3365,10 @@ msgstr "Sélectionnez les champs à masquer/afficher lorsque l'utilisateur cliqu
 #. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "keep_access_to_item_when_advice_is_given_descr"
 msgstr "Lorsqu'un avis a été rendu sur un point, le point restera visible par les émetteurs d'avis quel que soit l'état du point.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
+
+#. Default: "By default when an item is sent to another configuration, advices are not kept.  If you check this box, advices will be inherited from original item, this mean that advices from original item will be displayed readonly on the new item but actually, informations are taken from original item.  You can select advices to keep in the field below."
+msgid "keep_advices_on_sent_to_other_mc_descr"
+msgstr "Par défaut lors de l'envoi d'un point vers une autre configuration de séance, les avis ne sont pas gardés.  Si vous cochez cette case, les avis seront hérités du point original, ceci signifie que les avis seront affichés en lecture seule sur le nouveau point, les informations provenant du point original.  Vous pouvez sélectionner les avis à garder ci-dessous.  Ceci est utile si le point original est dans un état final dans lequel les avis n'évoluerons plus."
 
 #. Default: "If enabled, when an item is duplicated into or to this configuration, the 'to print?' information defined on cloned annexes will be kept.  If not enabled, the default defined here under is used."
 msgid "keep_original_to_print_of_cloned_items_descr"

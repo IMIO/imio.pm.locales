@@ -5192,3 +5192,19 @@ msgstr ""
 #. Default: "Select here privacies that will be selectable by users editing items of this configuration.  If \"on privacy\" is used in the \"Sort order(s) to apply when adding an item to a meeting\" field, it is the order of values selected here that will be used."
 msgid "selectable_privacies_descr"
 msgstr ""
+
+#. Default: "Keep advices when item sent to another configuration?"
+msgid "PloneMeeting_label_keepAdvicesOnSentToOtherMC"
+msgstr ""
+
+#. Default: "By default when an item is sent to another configuration, advices are not kept.  If you check this box, advices will be inherited from original item, this mean that advices from original item will be displayed readonly on the new item but actually, informations are taken from original item.  You can select advices to keep in the field below."
+msgid "keep_advices_on_sent_to_other_mc_descr"
+msgstr ""
+
+#. Default: "Advices to keep when item is sent to another configuration"
+msgid "PloneMeeting_label_advicesKeptOnSentToOtherMC"
+msgstr ""
+
+#. Default: "If parameter \"Keep advices when item sent to another configuration?\" here above is enabled, you may select here advices that will be kept.  If you do not select anyhting, every advices will be kept."
+msgid "advices_kept_on_sent_to_other_mc_descr"
+msgstr ""
