@@ -327,6 +327,10 @@ msgstr "Modèles de points"
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr "Limite le nombre de caractères de l'objet du point qui seront affichés dans le portlet pour éviter les libellés trop longs."
 
+#. Default: "Limit date ${advice_limit_date}"
+msgid "Limit date ${advice_limit_date}"
+msgstr "Date limite ${advice_limit_date}"
+
 #. Default: "Manage advice annexes"
 msgid "Manage advice annexes"
 msgstr "Gérer les annexes de l'avis"
@@ -1317,15 +1321,15 @@ msgstr "A évoquer en séance?"
 
 #. Default: "Default value of the 'toDiscuss' attribute for normal items"
 msgid "PloneMeeting_label_toDiscussDefault"
-msgstr "Valeur par défaut de l'attribut 'à discuter' pour les points normaux"
+msgstr "Valeur par défaut de l'attribut 'A évoquer en séance?' pour les points normaux"
 
 #. Default: "Default value of the 'toDiscuss' attribute for late items"
 msgid "PloneMeeting_label_toDiscussLateDefault"
-msgstr "Valeur par défaut de l'attribut 'à discuter' pour les points en urgence"
+msgstr "Valeur par défaut de l'attribut 'A évoquer en séance?' pour les points en urgence"
 
 #. Default: "Set 'toDiscuss' field values when items are inserted into a meeting"
 msgid "PloneMeeting_label_toDiscussSetOnItemInsert"
-msgstr "Affecter une valeur au champ 'à discuter' quand un point est inséré dans une séance"
+msgstr "Affecter une valeur au champ 'A évoquer en séance?' quand un point est inséré dans une séance"
 
 #. Default: "List of searches to display in the 'todo' portlet"
 msgid "PloneMeeting_label_toDoListSearches"
@@ -3055,7 +3059,7 @@ msgstr "Vous ne pouvez pas sélectionner 'Par niveau de confidentialité' car 'N
 
 #. Default: "You can not select 'Follow to discuss order' inserting method as the field 'To discuss ?' is not selected in the field 'Attributes used for characterizing an item' of this meeting configuration."
 msgid "inserting_methods_not_using_to_discuss_error"
-msgstr "Vous ne pouvez pas sélectionner 'Par point à discuter (à discuter et ensuite pas à discuter)' car 'A évoquer en séance?' n'est pas sélectionné dans le champ 'Attributs utilisés pour caractériser un point' de cette configuration de séance."
+msgstr "Vous ne pouvez pas sélectionner 'Par point A évoquer en séance? (A évoquer en séance? et ensuite pas A évoquer en séance?)' car 'A évoquer en séance?' n'est pas sélectionné dans le champ 'Attributs utilisés pour caractériser un point' de cette configuration de séance."
 
 #. Default: "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
 msgid "inserting_methods_on_add_item_descr"
@@ -4055,7 +4059,7 @@ msgstr "Suivre l'ordre des groupes proposants"
 
 #. Default: "Follow to discuss (to discuss then not to discuss)"
 msgid "on_to_discuss"
-msgstr "Par point à discuter (à discuter et ensuite pas à discuter)"
+msgstr "Par point A évoquer en séance? (A évoquer en séance? et ensuite pas A évoquer en séance?)"
 
 #. Default: "When a workflow transition occur, you can define for every rich text field of an item, a transform to apply.  This is managed using a TAL expression."
 msgid "on_transition_field_transforms_descr"
@@ -4730,7 +4734,7 @@ msgstr "Un mail a été envoyé aux gestionnaires de séance pour exprimer votre
 
 #. Default: "The optional item attribute 'to discuss' allows the meeting manager to specify if an item presented to a meeting should be discussed during this meeting or if, simply, it must appear in the agenda and the meeting decisions for traceability purposes but has already led to a decision before the meeting occurrence. Check the box if you want the items to be set to 'discussed' by default."
 msgid "to_discuss_default_descr"
-msgstr "L'attribut optionnel 'à discuter' permet au gestionnaire de séance de spécifier si un point présenté à une séance doit être discuté durant celle-ci ou si simplement il doit figurer dans l'ordre du jour et les décisions à des fins de traçabilité mais qu'il a déjà fait l'objet d'un consensus préalable et n'a pas besoin d'être abordé en séance. Cochez la case si vous voulez que les points soient, par défaut, discutés."
+msgstr "L'attribut optionnel 'A évoquer en séance?' permet au gestionnaire de séance de spécifier si un point présenté à une séance doit être discuté durant celle-ci ou si simplement il doit figurer dans l'ordre du jour et les décisions à des fins de traçabilité mais qu'il a déjà fait l'objet d'un consensus préalable et n'a pas besoin d'être abordé en séance. Cochez la case si vous voulez que les points soient, par défaut, discutés."
 
 #. Default: "Check the box if you want the 'late' items to be set to 'discussed' by default."
 msgid "to_discuss_late_default_descr"
@@ -4750,7 +4754,7 @@ msgstr "A ne pas évoquer en séance, cliquez sur l'image pour évoquer ce point
 
 #. Default: "If you check this box, the value of field 'toDiscuss', for an item, will be set when inserting the item into a meeting, with a default value as defined by the fields below. Else, the user having the permission to edit the item will be able to give a value to this field, as soon as on item creation."
 msgid "to_discuss_set_on_item_insert_descr"
-msgstr "Si vous cochez cette case, la valeur du champ 'à discuter', pour un point, sera déterminée lors de l'insertion du point dans une séance, selon une valeur par défaut telle que déterminée par les champs ci-dessous. Sinon, l'utilisateur ayant les droits d'édition sur un point pourra éditer cette valeur lui-même, dès la création du point."
+msgstr "Si vous cochez cette case, la valeur du champ 'A évoquer en séance?', pour un point, sera déterminée lors de l'insertion du point dans une séance, selon une valeur par défaut telle que déterminée par les champs ci-dessous. Sinon, l'utilisateur ayant les droits d'édition sur un point pourra éditer cette valeur lui-même, dès la création du point."
 
 #. Default: "To be discussed during the meeting"
 msgid "to_discuss_yes"
