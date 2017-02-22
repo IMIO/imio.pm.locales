@@ -997,6 +997,10 @@ msgstr "Mailing lists"
 msgid "PloneMeeting_label_manuallyLinkedItems"
 msgstr "Manually linked items"
 
+#. Default: "Marginal notes"
+msgid "PloneMeeting_label_marginalNotes"
+msgstr ""
+
 #. Default: "Default number of available items to show on a page"
 msgid "PloneMeeting_label_maxShownAvailableItems"
 msgstr "Default number of available items to show on a page"
@@ -3562,6 +3566,10 @@ msgstr "At least one mandatory advice for this item is not positive or has not b
 #. Default: "Select here items that are linked to this item.  These items will appear in linked items but separated from items linked automatically by the application.  Current item will be also visible in the manually linked items of items you just linked...  To remove a linked item, just unckeck the checkbox in front of the item title.  Items will be automatically sorted chronologically. Manually linked items works like a 'virtual folder' where every items are stored.  If you unlink an item, it will be unlinked from every items of the 'virtual folder'.  If you unlink every items, this will destroy this 'virtual folder'."
 msgid "manually_linked_items_descr"
 msgstr "Select here items that are linked to this item.  These items will appear in linked items but separated from items linked automatically by the application.  Current item will be also visible in the manually linked items of items you just linked...  To remove a linked item, just unckeck the checkbox in front of the item title.  Items will be automatically sorted chronologically. Manually linked items works like a 'virtual folder' where every items are stored.  If you unlink an item, it will be unlinked from every items of the 'virtual folder'.  If you unlink every items, this will destroy this 'virtual folder'."
+
+#. Default: "This field will still be editable by meeting managers when the item will be decided."
+msgid "marginal_notes_descr"
+msgstr ""
 
 #. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
 msgid "max_shown_available_items_descr"
