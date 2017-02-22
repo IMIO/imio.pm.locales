@@ -323,13 +323,13 @@ msgstr "Signatures à appliquer"
 msgid "Item templates"
 msgstr "Modèles de points"
 
-#. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
-msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
-msgstr "Limite le nombre de caractères de l'objet du point qui seront affichés dans le portlet pour éviter les libellés trop longs."
-
 #. Default: "Limit date ${advice_limit_date}"
 msgid "Limit date ${advice_limit_date}"
 msgstr "Date limite ${advice_limit_date}"
+
+#. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
+msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
+msgstr "Limite le nombre de caractères de l'objet du point qui seront affichés dans le portlet pour éviter les libellés trop longs."
 
 #. Default: "Manage advice annexes"
 msgid "Manage advice annexes"
@@ -5127,6 +5127,10 @@ msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Etat supplémentaire p
 #. Default: "Return to proposing group for corrections"
 msgid "wa_return_to_proposing_group"
 msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance"
+
+#. Default: "Reviewers may take back validated item"
+msgid "wa_reviewers_take_back_validated_item"
+msgstr "Les validateurs peuvent reprendre un point validé"
 
 #. Default: "Wait advices"
 msgid "wa_waiting_advices"

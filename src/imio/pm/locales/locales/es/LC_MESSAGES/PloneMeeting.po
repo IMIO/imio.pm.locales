@@ -327,13 +327,13 @@ msgstr "Firmas del tema para aplicar"
 msgid "Item templates"
 msgstr ""
 
+#. Default: "Limit date ${advice_limit_date}"
+msgid "Limit date ${advice_limit_date}"
+msgstr ""
+
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr "Limite el número de caracteres que se muestran del título para evitar títulos demasiado largos se muestran en el portlet."
-
-#. Default: "Limit date ${advice_limit_date}"
-msgid "Limit value ${advice_limit_date}"
-msgstr ""
 
 #. Default: "Manage advice annexes"
 msgid "Manage advice annexes"
@@ -5182,6 +5182,10 @@ msgstr ""
 #. Default: "Return to proposing group for corrections"
 msgid "wa_return_to_proposing_group"
 msgstr "Volver al grupo proponentes para correcciones"
+
+#. Default: "Reviewers may take back validated item"
+msgid "wa_reviewers_take_back_validated_item"
+msgstr ""
 
 #. Default: "Wait advices"
 msgid "wa_waiting_advices"
