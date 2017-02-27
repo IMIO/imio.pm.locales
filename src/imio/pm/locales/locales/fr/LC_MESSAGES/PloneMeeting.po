@@ -1580,6 +1580,10 @@ msgstr "Voir les groupes Plone liés"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr "Vous êtes sur le point de changer le délai de cet avis pour ${new_advice_delay} jours, vous pouvez entrer un commentaire si nécessaire."
 
+#. Default: "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
+msgid "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
+msgstr "Vous ne pouvez pas supprimer le groupe \"${group_id}\" car celui-ci est lié au groupe \"${meeting_group}\" défini dans la \"Configuration des délibérations\" !"
+
 #. Default: "A meeting manager"
 msgid "a_meeting_manager"
 msgstr "Un gestionnaire de séance"
