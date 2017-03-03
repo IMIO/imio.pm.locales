@@ -1638,7 +1638,7 @@ msgstr ""
 msgid "adviceToGive_mail_subject"
 msgstr ""
 
-#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Advice annnex types' configuration.</span>"
 msgid "advice_annex_confidential_visible_for_descr"
 msgstr ""
 
@@ -3186,7 +3186,7 @@ msgstr "Wenn ein TOP in einem von den Stati ist, die hier ausgewählt wurden, da
 msgid "item_advice_view_states_descr"
 msgstr ""
 
-#. Default: "Select here profiles of users that will be able to see an annex added to an item that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to an item that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Item annex types' and 'Item annex types (after decision)' configuration.</span>"
 msgid "item_annex_confidential_visible_for_descr"
 msgstr ""
 
@@ -3614,7 +3614,7 @@ msgstr "Wenn die Anzahl der Sitzungen in einem dieser beiden Portlets höher als
 msgid "meeting_actions_interface_descr"
 msgstr "Ähnlich wie im vorherigen Feld können alle Aktionen die bei einem Statusübergang einer Sitzung ausgelöst werden durch ein eigens entwickeltes Plone-Produkt konfiguriert werden in dem Sie:<ul><li>ein Python Interface definieren das von dem Interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (Sie müssen den vollen Paketnamen des Interfaces in dem Feld unten eintragen);</li><li>einen Adapter in ZCML erstellen und deklarieren der das Interface Products.PloneMeeting.interfaces.IMeeting zu dem Interface das Sie definiert haben adaptiert.</li></ul>Ihr Adapter kann vom Standardadapter Products.PloneMeeting.Meeting.MeetingWorkflowActions erben: das ermöglicht es Ihnen nur die Methoden für die sie ein anderes Verhalten wünschen zu überschreiben. Alle Methoden die im Interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions definiert werden sind dokumentiert."
 
-#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Meeting annnex types' configuration.</span>"
 msgid "meeting_annex_confidential_visible_for_descr"
 msgstr ""
 

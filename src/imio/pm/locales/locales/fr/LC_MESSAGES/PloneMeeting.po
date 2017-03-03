@@ -1636,9 +1636,9 @@ msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}
 msgid "adviceToGive_mail_subject"
 msgstr "${meetingConfigTitle} - Votre avis est demandé sur le point '${itemTitle}'."
 
-#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Advice annnex types' configuration.</span>"
 msgid "advice_annex_confidential_visible_for_descr"
-msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des avis et définies comme confidentielles"
+msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des avis et définies comme confidentielles.  <span style='color: red;'>Si vous changez ces valeurs et que des annexes confidentielles existent, exécutez l'action 'Mise à jour des éléments catégorisés' dans la configuration des 'Annexes aux avis'.</span>"
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
@@ -3173,9 +3173,9 @@ msgstr "Quand un point est dans un des états que vous sélectionnez ici, il ser
 msgid "item_advice_view_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera toujours visible par les utilisateurs auxquels un avis est demandé sur le point.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
-#. Default: "Select here profiles of users that will be able to see an annex added to an item that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to an item that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Item annex types' and 'Item annex types (after decision)' configuration.</span>"
 msgid "item_annex_confidential_visible_for_descr"
-msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des points et définies comme confidentielles"
+msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des points et définies comme confidentielles.  <span style='color: red;'>Si vous changez ces valeurs et que des annexes confidentielles existent, exécutez l'action 'Mise à jour des éléments catégorisés' dans la configuration des 'Annexes aux points' et 'Annexes aux points (après décision)'.</span>"
 
 #. Default: "Assembly for the item"
 msgid "item_assembly"
@@ -3599,9 +3599,9 @@ msgstr "Si le nombre de séances à afficher dans l'une de ces 2 portlets est su
 msgid "meeting_actions_interface_descr"
 msgstr "A l'instar du champ précédent, toutes les actions qui sont déclenchées lorsqu'une séance passe d'un état à un autre sont configurables via le développement d'un produit Plone tiers dans lequel vous devez:<ul><li>créer une interface Python qui hérite de l'interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (c'est le nom complet de cette interface que vous devez spécifier dans ce champ);</li><li>créer et déclarer en ZCML un adapter qui adapte l'interface Products.PloneMeeting.interfaces.IMeeting vers l'interface que vous avez définie au point précédent.</li></ul>Vous pouvez faire hériter votre adapter de l'adapter par défaut Products.PloneMeeting.Meeting.MeetingWorkflowActions: cela vous permettra de remplacer ou overrider uniquement les méthodes pour lesquelles vous voulez un comportement différent. Toutes les méthodes proposées par l'interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions sont documentées."
 
-#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Meeting annnex types' configuration.</span>"
 msgid "meeting_annex_confidential_visible_for_descr"
-msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des séances et définies comme confidentielles"
+msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des séances et définies comme confidentielles.  <span style='color: red;'>Si vous changez ces valeurs et que des annexes confidentielles existent, exécutez l'action 'Mise à jour des éléments catégorisés' dans la configuration des 'Annexes aux séances'.</span>"
 
 #. Default: "Choose here which page will be shown after logon."
 msgid "meeting_app_default_view_descr"

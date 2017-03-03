@@ -1636,7 +1636,8 @@ msgstr "The item is entitled '${itemTitle}'. You can access this item here: ${ob
 msgid "adviceToGive_mail_subject"
 msgstr "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 
-#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Advice annnex types' configuration.</span>"
+#, fuzzy
 msgid "advice_annex_confidential_visible_for_descr"
 msgstr "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
 
@@ -3173,7 +3174,8 @@ msgstr "When an item is in one of the states you choose here, it will be possibl
 msgid "item_advice_view_states_descr"
 msgstr "When an item is in one of the states you choose here, it will be possible for groups the advice is asked for, to continue to view the item.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 
-#. Default: "Select here profiles of users that will be able to see an annex added to an item that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to an item that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Item annex types' and 'Item annex types (after decision)' configuration.</span>"
+#, fuzzy
 msgid "item_annex_confidential_visible_for_descr"
 msgstr "Select here profiles of users that will be able to see an annex added to an item that is set confidential."
 
@@ -3599,7 +3601,8 @@ msgstr "If the number of meetings to display in any of those 2 portlets is highe
 msgid "meeting_actions_interface_descr"
 msgstr "Similarly to the preceding field, all the actions that are triggered when a meeting goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions are documented."
 
-#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Meeting annnex types' configuration.</span>"
+#, fuzzy
 msgid "meeting_annex_confidential_visible_for_descr"
 msgstr "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
 

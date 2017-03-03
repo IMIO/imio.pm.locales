@@ -5153,7 +5153,7 @@ msgstr ""
 msgid "PloneMeeting_label_itemAnnexConfidentialVisibleFor"
 msgstr ""
 
-#. Default: "Select here profiles of users that will be able to see an annex added to an item that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to an item that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Item annex types' and 'Item annex types (after decision)' configuration.</span>"
 msgid "item_annex_confidential_visible_for_descr"
 msgstr ""
 
@@ -5161,7 +5161,7 @@ msgstr ""
 msgid "PloneMeeting_label_adviceAnnexConfidentialVisibleFor"
 msgstr ""
 
-#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Advice annnex types' configuration.</span>"
 msgid "advice_annex_confidential_visible_for_descr"
 msgstr ""
 
@@ -5169,7 +5169,7 @@ msgstr ""
 msgid "PloneMeeting_label_meetingAnnexConfidentialVisibleFor"
 msgstr ""
 
-#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
+#. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Meeting annnex types' configuration.</span>"
 msgid "meeting_annex_confidential_visible_for_descr"
 msgstr ""
 
