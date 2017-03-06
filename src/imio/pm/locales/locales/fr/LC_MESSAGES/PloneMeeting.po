@@ -3017,6 +3017,14 @@ msgstr "Retiré"
 msgid "icon_help_returned_to_proposing_group"
 msgstr "Renvoyé au groupe proposant pour corrections"
 
+#. Default: "Returned to proposing group for corrections (prevalidated)"
+msgid "icon_help_returned_to_proposing_group_prevalidated"
+msgstr "Renvoyé au groupe proposant pour corrections (prévalidé)"
+
+#. Default: "Returned to proposing group for corrections (proposed)"
+msgid "icon_help_returned_to_proposing_group_proposed"
+msgstr "Renvoyé au groupe proposant pour corrections (proposé)"
+
 #. Default: "Waiting advices"
 msgid "icon_help_waiting_advices"
 msgstr "En attente des avis"
@@ -4522,6 +4530,14 @@ msgstr "Avis à donner (sans délai)"
 msgid "searchitemstocorrect"
 msgstr "Points à corriger"
 
+#. Default: "Items to correct to validate"
+msgid "searchitemstocorrecttovalidate"
+msgstr "Point à corriger (à valider)"
+
+#. Default: "Validable items"
+msgid "searchitemstocorrecttovalidateoffeveryreviewergroups"
+msgstr "Point à corriger (validable)"
+
 #. Default: "Items to pre validate"
 msgid "searchitemstoprevalidate"
 msgstr "Points à pré-valider"
@@ -5144,6 +5160,14 @@ msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Etat supplémentaire p
 msgid "wa_return_to_proposing_group"
 msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance"
 
+#. Default: "Return to proposing group for corrections with all validations"
+msgid "wa_return_to_proposing_group_with_all_validations"
+msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec toute la chaîne de validation)"
+
+#. Default: "Return to proposing group for corrections with one validation (the last)"
+msgid "wa_return_to_proposing_group_with_last_validation"
+msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec validation du dernier niveau)"
+
 #. Default: "Reviewers may take back validated item"
 msgid "wa_reviewers_take_back_validated_item"
 msgstr "Les validateurs peuvent reprendre un point validé"
@@ -5207,4 +5231,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-

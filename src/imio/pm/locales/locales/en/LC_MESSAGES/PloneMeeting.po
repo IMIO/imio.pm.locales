@@ -3018,6 +3018,14 @@ msgstr "Removed"
 msgid "icon_help_returned_to_proposing_group"
 msgstr "Returned to proposing group for corrections"
 
+#. Default: "Returned to proposing group for corrections (prevalidated)"
+msgid "icon_help_returned_to_proposing_group_prevalidated"
+msgstr ""
+
+#. Default: "Returned to proposing group for corrections (proposed)"
+msgid "icon_help_returned_to_proposing_group_proposed"
+msgstr ""
+
 #. Default: "Waiting advices"
 msgid "icon_help_waiting_advices"
 msgstr "Waiting advices"
@@ -4526,6 +4534,14 @@ msgstr "Items to advice without delay"
 msgid "searchitemstocorrect"
 msgstr "Items to correct"
 
+#. Default: "Items to correct to validate"
+msgid "searchitemstocorrecttovalidate"
+msgstr ""
+
+#. Default: "Validable items"
+msgid "searchitemstocorrecttovalidateoffeveryreviewergroups"
+msgstr ""
+
 #. Default: "Items to pre validate"
 msgid "searchitemstoprevalidate"
 msgstr "Items to pre validate"
@@ -5148,6 +5164,14 @@ msgstr "You can not unselect the 'Wait advices' adaptation as there are still it
 msgid "wa_return_to_proposing_group"
 msgstr "Return to proposing group for corrections"
 
+#. Default: "Return to proposing group for corrections with all validations"
+msgid "wa_return_to_proposing_group_with_all_validations"
+msgstr ""
+
+#. Default: "Return to proposing group for corrections with one validation (the last)"
+msgid "wa_return_to_proposing_group_with_last_validation"
+msgstr ""
+
 #. Default: "Reviewers may take back validated item"
 msgid "wa_reviewers_take_back_validated_item"
 msgstr ""
@@ -5211,4 +5235,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

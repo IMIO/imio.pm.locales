@@ -3040,6 +3040,14 @@ msgstr ""
 msgid "icon_help_returned_to_proposing_group"
 msgstr "Volver a grupo proponente para correcciones"
 
+#. Default: "Returned to proposing group for corrections (prevalidated)"
+msgid "icon_help_returned_to_proposing_group_prevalidated"
+msgstr ""
+
+#. Default: "Returned to proposing group for corrections (proposed)"
+msgid "icon_help_returned_to_proposing_group_proposed"
+msgstr ""
+
 #. Default: "Waiting advices"
 msgid "icon_help_waiting_advices"
 msgstr ""
@@ -4574,6 +4582,14 @@ msgstr ""
 msgid "searchitemstocorrect"
 msgstr "temas a corregir"
 
+#. Default: "Items to correct to validate"
+msgid "searchitemstocorrecttovalidate"
+msgstr ""
+
+#. Default: "Validable items"
+msgid "searchitemstocorrecttovalidateoffeveryreviewergroups"
+msgstr ""
+
 #. Default: "Items to pre validate"
 msgid "searchitemstoprevalidate"
 msgstr ""
@@ -5199,6 +5215,14 @@ msgstr ""
 msgid "wa_return_to_proposing_group"
 msgstr "Volver al grupo proponentes para correcciones"
 
+#. Default: "Return to proposing group for corrections with all validations"
+msgid "wa_return_to_proposing_group_with_all_validations"
+msgstr ""
+
+#. Default: "Return to proposing group for corrections with one validation (the last)"
+msgid "wa_return_to_proposing_group_with_last_validation"
+msgstr ""
+
 #. Default: "Reviewers may take back validated item"
 msgid "wa_reviewers_take_back_validated_item"
 msgstr ""
@@ -5263,4 +5287,3 @@ msgstr "Seleccione aquí los tipos de transformación para aplicarla en los camp
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si usted marca esta casilla, el número de la reunión  auto incrementado será definido a cero cada año. Eso significa que la primera reunión de cada año obtendrá un número."
-

@@ -388,6 +388,14 @@ msgstr "Remettre en 'pré-validé'"
 msgid "backTo_proposed_from_waiting_advices"
 msgstr "Remettre en 'proposé'"
 
+#. Default: "Back to proposing group from proposed"
+msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposed"
+msgstr "Remettre en 'à corriger'"
+
+#. Default: "Back to proposing group (proposed) from prevalidated"
+msgid "backTo_returned_to_proposing_group_proposed_from_returned_to_proposing_group_prevalidated"
+msgstr "Remettre en 'à corriger (proposé)'"
+
 #. Default: "Base View"
 msgid "base_view"
 msgstr "Vue"
@@ -550,6 +558,14 @@ msgstr "Gelée"
 #. Default: "Give Advice"
 msgid "giveAdvice"
 msgstr "Rendre l'avis"
+
+#. Default: "Go to returned to proposing group (prevalidated)"
+msgid "goTo_returned_to_proposing_group_prevalidated"
+msgstr "Prévalider"
+
+#. Default: "Go to proposing group (proposed)"
+msgid "goTo_returned_to_proposing_group_proposed"
+msgstr "Proposer"
 
 #. Default: "User interface"
 msgid "gui"
@@ -731,11 +747,19 @@ msgstr "Renvoyer aux gestionnaires de séances"
 
 #. Default: "Return to proposing group for corrections"
 msgid "return_to_proposing_group"
-msgstr "Renvoyer au groupe proposant pour corrections"
+msgstr "A corriger"
 
 #. Default: "Returned to proposing group for corrections"
 msgid "returned_to_proposing_group"
 msgstr "Renvoyé au groupe proposant pour corrections"
+
+#. Default: "Returned to proposing group (prevalidated)"
+msgid "returned_to_proposing_group_prevalidated"
+msgstr "Renvoyé au groupe proposant pour corrections (prévalidé)"
+
+#. Default: "Returned to proposing group (proposed)"
+msgid "returned_to_proposing_group_proposed"
+msgstr "Renvoyé au groupe proposant pour corrections (proposé)"
 
 #. Default: "Tool PloneMeeting View"
 msgid "toolplonemeeting_view"
@@ -780,4 +804,3 @@ msgstr "En attente des avis"
 #. Default: "Workflows"
 msgid "workflow"
 msgstr "Workflows"
-
