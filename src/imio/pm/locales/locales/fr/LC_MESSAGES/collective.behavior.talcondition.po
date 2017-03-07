@@ -18,3 +18,4 @@ msgstr ""
 #: ../behavior.py:17
 msgid "Enter a TAL expression that once evaluated will return 'True' if content should be available. Elements 'member', 'context' and 'portal' are available for the expression."
 msgstr "Entrez une expression TAL qui une fois évaluée, retournera 'Vrai' si l'élément doit être disponible.  Les éléments 'member', 'context', 'portal', 'tool', 'cfg' et 'fromPortletTodo' sont disponibles dans l'expression.  Concernant la valeur 'fromPortletTodo' elle est 'Vraie' si la recherche est affichée dans la boîte 'À faire', sinon elle est 'Fausse'."
+
