@@ -4968,36 +4968,12 @@ msgstr ""
 msgid "visible_for_reader_groupincharge"
 msgstr ""
 
-#. Default: "The 'creators' of any group"
-msgid "visible_for_suffix_profile_creators"
+#. Default: "The '${meeting_group_suffix}' of any group"
+msgid "visible_for_suffix_profile_"
 msgstr ""
 
-#. Default: "The 'observers' of any group"
-msgid "visible_for_suffix_profile_observers"
-msgstr ""
-
-#. Default: "The 'pre-reviewers' of any group"
-msgid "visible_for_suffix_profile_prereviewers"
-msgstr ""
-
-#. Default: "The 'reviewers' of any group"
-msgid "visible_for_suffix_profile_reviewers"
-msgstr ""
-
-#. Default: "The 'creators' of the proposing group"
-msgid "visible_for_suffix_proposing_group_creators"
-msgstr ""
-
-#. Default: "The 'observers' of the proposing group"
-msgid "visible_for_suffix_proposing_group_observers"
-msgstr ""
-
-#. Default: "The 'pre-reviewers' of the proposing group"
-msgid "visible_for_suffix_proposing_group_prereviewers"
-msgstr ""
-
-#. Default: "The 'reviewers' of the proposing group"
-msgid "visible_for_suffix_proposing_group_reviewers"
+#. Default: "The '${meeting_group_suffix}' of the proposing group"
+msgid "visible_for_suffix_proposing_group_"
 msgstr ""
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name 'item'). If it returns False, no vote may occur on the item."

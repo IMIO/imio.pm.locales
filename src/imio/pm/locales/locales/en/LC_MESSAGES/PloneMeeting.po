@@ -4956,37 +4956,13 @@ msgstr "The copy groups set on the item"
 msgid "visible_for_reader_groupincharge"
 msgstr "The group in charge"
 
-#. Default: "The 'creators' of any group"
-msgid "visible_for_suffix_profile_creators"
-msgstr "The 'creators' of any group"
+#. Default: "The '${meeting_group_suffix}' of any group"
+msgid "visible_for_suffix_profile_"
+msgstr ""
 
-#. Default: "The 'observers' of any group"
-msgid "visible_for_suffix_profile_observers"
-msgstr "The 'observers' of any group"
-
-#. Default: "The 'pre-reviewers' of any group"
-msgid "visible_for_suffix_profile_prereviewers"
-msgstr "The 'pre-reviewers' of any group"
-
-#. Default: "The 'reviewers' of any group"
-msgid "visible_for_suffix_profile_reviewers"
-msgstr "The 'reviewers' of any group"
-
-#. Default: "The 'creators' of the proposing group"
-msgid "visible_for_suffix_proposing_group_creators"
-msgstr "The 'creators' of the proposing group"
-
-#. Default: "The 'observers' of the proposing group"
-msgid "visible_for_suffix_proposing_group_observers"
-msgstr "The 'observers' of the proposing group"
-
-#. Default: "The 'pre-reviewers' of the proposing group"
-msgid "visible_for_suffix_proposing_group_prereviewers"
-msgstr "The 'pre-reviewers' of the proposing group"
-
-#. Default: "The 'reviewers' of the proposing group"
-msgid "visible_for_suffix_proposing_group_reviewers"
-msgstr "The 'reviewers' of the proposing group"
+#. Default: "The '${meeting_group_suffix}' of the proposing group"
+msgid "visible_for_suffix_proposing_group_"
+msgstr ""
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name 'item'). If it returns False, no vote may occur on the item."
 msgid "vote_condition_descr"

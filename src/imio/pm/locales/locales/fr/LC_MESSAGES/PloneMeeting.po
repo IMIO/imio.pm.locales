@@ -4952,37 +4952,13 @@ msgstr "Les groupes en copie sélectionnés sur le point"
 msgid "visible_for_reader_groupincharge"
 msgstr "Le groupe en charge"
 
-#. Default: "The 'creators' of any group"
-msgid "visible_for_suffix_profile_creators"
-msgstr "Les 'créateurs' de n'importe quel groupe"
+#. Default: "The '${meeting_group_suffix}' of any group"
+msgid "visible_for_suffix_profile_"
+msgstr "Les membres du sous-group '${meeting_group_suffix}' de n'importe quel groupe"
 
-#. Default: "The 'observers' of any group"
-msgid "visible_for_suffix_profile_observers"
-msgstr "Les 'observateurs' de n'importe quel groupe"
-
-#. Default: "The 'pre-reviewers' of any group"
-msgid "visible_for_suffix_profile_prereviewers"
-msgstr "Les 'pré-validateurs' de n'importe quel groupe"
-
-#. Default: "The 'reviewers' of any group"
-msgid "visible_for_suffix_profile_reviewers"
-msgstr "Les 'validateurs' de n'importe quel groupe"
-
-#. Default: "The 'creators' of the proposing group"
-msgid "visible_for_suffix_proposing_group_creators"
-msgstr "Les 'créateurs' du groupe proposant"
-
-#. Default: "The 'observers' of the proposing group"
-msgid "visible_for_suffix_proposing_group_observers"
-msgstr "Les 'observateurs' du groupe proposant"
-
-#. Default: "The 'pre-reviewers' of the proposing group"
-msgid "visible_for_suffix_proposing_group_prereviewers"
-msgstr "Les 'pré-validateurs' du groupe proposant"
-
-#. Default: "The 'reviewers' of the proposing group"
-msgid "visible_for_suffix_proposing_group_reviewers"
-msgstr "Les 'validateurs' du groupe proposant"
+#. Default: "The '${meeting_group_suffix}' of the proposing group"
+msgid "visible_for_suffix_proposing_group_"
+msgstr "Les membres du sous-groupe '${meeting_group_suffix}' du groupe proposant"
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name 'item'). If it returns False, no vote may occur on the item."
 msgid "vote_condition_descr"

@@ -5113,40 +5113,16 @@ msgstr ""
 msgid "visible_for_configgroup_restrictedpowerobservers"
 msgstr ""
 
-#. Default: "The 'observers' of the proposing group"
-msgid "visible_for_suffix_proposing_group_observers"
-msgstr ""
-
-#. Default: "The 'pre-reviewers' of the proposing group"
-msgid "visible_for_suffix_proposing_group_prereviewers"
-msgstr ""
-
-#. Default: "The 'creators' of the proposing group"
-msgid "visible_for_suffix_proposing_group_creators"
-msgstr ""
-
-#. Default: "The 'reviewers' of the proposing group"
-msgid "visible_for_suffix_proposing_group_reviewers"
+#. Default: "The '${meeting_group_suffix}' of the proposing group"
+msgid "visible_for_suffix_proposing_group_"
 msgstr ""
 
 #. Default: "The advisers of the group that gave the advice"
 msgid "visible_for_adviser_group"
 msgstr ""
 
-#. Default: "The 'observers' of any group"
-msgid "visible_for_suffix_profile_observers"
-msgstr ""
-
-#. Default: "The 'pre-reviewers' of any group"
-msgid "visible_for_suffix_profile_prereviewers"
-msgstr ""
-
-#. Default: "The 'creators' of any group"
-msgid "visible_for_suffix_profile_creators"
-msgstr ""
-
-#. Default: "The 'reviewers' of any group"
-msgid "visible_for_suffix_profile_reviewers"
+#. Default: "The '${meeting_group_suffix}' of any group"
+msgid "visible_for_suffix_profile_"
 msgstr ""
 
 #. Default: "Confidential item annexes are visible for"
