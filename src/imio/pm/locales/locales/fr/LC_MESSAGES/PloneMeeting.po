@@ -3039,7 +3039,7 @@ msgstr "Renvoyé au groupe proposant pour corrections"
 
 #. Default: "Returned to proposing group for corrections (prevalidated)"
 msgid "icon_help_returned_to_proposing_group_prevalidated"
-msgstr "Renvoyé au groupe proposant pour corrections (prévalidé)"
+msgstr "Renvoyé au groupe proposant pour corrections (pré-validé)"
 
 #. Default: "Returned to proposing group for corrections (proposed)"
 msgid "icon_help_returned_to_proposing_group_proposed"
@@ -5050,7 +5050,7 @@ msgstr "Vous ne pouvez pas sélectionner l'adaptation 'Les points arrivent valid
 
 #. Default: "You can not select the 'No proposal' adaptation as there are still items in state 'proposed'."
 msgid "wa_added_no_proposal_error"
-msgstr "Vous ne pouvez pas sélectionner l'adaptation 'Sauter l'étape de proposition des points' car il reste des points dans l'état 'proposé'."
+msgstr "Vous ne pouvez pas sélectionner l'adaptation 'Sauter l'étape de proposition des points' car il reste des points dans l'état 'proposé' ou 'Renvoyé au groupe proposant pour corrections (proposé)'."
 
 #. Default: "You can not select the 'No publication' adaptation as there are still items or meetings in state 'published'."
 msgid "wa_added_no_publication_error"
@@ -5138,7 +5138,7 @@ msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Reporter le point à l
 
 #. Default: "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
 msgid "wa_removed_pre_validation_error"
-msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Pré-validation des points' car il reste des points dans l'état 'pré-validé'."
+msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Pré-validation des points' car il reste des points dans l'état 'pré-validé' ou des points dans l'état 'Renvoyé au groupe proposant pour corrections (pré-validé)'."
 
 #. Default: "You can not unselect the 'Removed' adaptation as there are still items in state 'removed'."
 msgid "wa_removed_removed_error"
@@ -5150,11 +5150,11 @@ msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Renvoyer au groupe pro
 
 #. Default: "You can not unselect the 'Return to proposing group with all validations' adaptation as there are still items in states 'returned to proposing group xxx'."
 msgid "wa_removed_return_to_proposing_group_with_all_validations_error"
-msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Renvoyer au groupe proposant pour corrections (avec toutes les validations) lorsque le point est dans une séance' car il reste des points dans un des états 'Renvoyé au groupe proposant pour corrections XXX'."
+msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec toutes les validations)' car il reste des points dans un des états 'Renvoyé au groupe proposant pour corrections (...)'."
 
 #. Default: "You can not unselect the 'Return to proposing group with last validation' adaptation as there are still items in states 'returned to proposing group xxx'."
 msgid "wa_removed_return_to_proposing_group_with_last_validation_error"
-msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Renvoyer au groupe proposant pour corrections (avec la dernière validation) lorsque le point est dans une séance' car il reste des points dans un des états 'Renvoyé au groupe proposant pour corrections XXX'."
+msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec la dernière validation)' car il reste des points dans un des états 'Renvoyé au groupe proposant pour corrections (...)'."
 
 #. Default: "You can not unselect the 'Wait advices' adaptation as there are still items in state 'wait advices'."
 msgid "wa_removed_waiting_advices_error"
