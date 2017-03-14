@@ -2611,56 +2611,56 @@ msgstr ""
 msgid "mail_meeting_events"
 msgstr ""
 
-#. Default: "A late item was just validated"
+#. Default: "A late item was just validated (notify 'MeetingManagers')"
 msgid "event_late_item"
 msgstr ""
 
-#. Default: "An item has been inserted into a meeting"
+#. Default: "An item has been inserted into a meeting (notify the 'Owner')"
 msgid "event_item_presented"
 msgstr ""
 
-#. Default: "An item has been removed from a meeting"
+#. Default: "An item has been removed from a meeting (notify the 'Owner')"
 msgid "event_item_unpresented"
 msgstr ""
 
-#. Default: "An item has been delayed"
+#. Default: "An item has been delayed (notify the 'Owner')"
 msgid "event_item_delayed"
 msgstr ""
 
-#. Default: "An annex was added to an item already presented in a validated agenda"
+#. Default: "An annex was added to an item already presented in a validated agenda (notify 'MeetingManagers')"
 msgid "event_add_annex"
 msgstr ""
 
-#. Default: "An advice needs to be given on an item"
+#. Default: "An advice needs to be given on an item (notify users able to add advice)"
 msgid "event_advice_to_give"
 msgstr ""
 
-#. Default: "An advice was added or updated on an item"
+#. Default: "An advice was added or updated on an item (notify the 'Owner')"
 msgid "event_add_advice"
 msgstr ""
 
-#. Default: "An advice on an item has been invalidated"
+#. Default: "An advice on an item has been invalidated (notify creator of the advice that was invalidated)"
 msgid "event_invalidate_advice"
 msgstr ""
 
-#. Default: "A reviewer wants to discuss an item"
+#. Default: "A reviewer wants to discuss an item (notify 'MeetingManagers')"
 msgid "event_ask_discuss_item"
 msgstr ""
 
-#. Default: "An item as been cloned to this meetingConfig"
+#. Default: "An item as been cloned to this meetingConfig (notify users able to edit the new item)"
 msgid "event_item_clone_to_this_mc"
 msgstr ""
 
-#. Default: "An error occured while converting an annex"
-msgid "event_item_annex_conversion_error"
-msgstr ""
-
-#. Default: "An item has been sent back to the proposing group"
+#. Default: "An item has been sent back to the proposing group (notify users able to edit the item to correct)"
 msgid "event_item_returned_to_proposing_group"
 msgstr ""
 
-#. Default: "An item has been corrected and sent to the meeting managers"
+#. Default: "An item has been corrected and sent to the meeting managers (notify 'MeetingManagers')"
 msgid "event_item_returned_to_meeting_managers"
+msgstr ""
+
+#. Default: "notify users able to view the element"
+msgid "notify_users_able_to_view_element"
 msgstr ""
 
 #. Default: "List of searches to display in the 'todo' portlet"
@@ -3553,14 +3553,6 @@ msgstr ""
 
 #. Default: "Please consult the attached document."
 msgid "podMeetingByMail_mail_body"
-msgstr ""
-
-#. Default: "${meetingConfigTitle} - There was an error while converting an annex."
-msgid "annexConversionError_mail_subject"
-msgstr ""
-
-#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}/annexes_form."
-msgid "annexConversionError_mail_body"
 msgstr ""
 
 # Other

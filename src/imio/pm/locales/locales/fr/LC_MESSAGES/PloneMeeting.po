@@ -1784,14 +1784,6 @@ msgstr "Une annexe a été ajoutée au point '${itemTitle}' alors qu'il était d
 msgid "annexAdded_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - Une annexe vient d'être ajoutée à un point."
 
-#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}/annexes_form."
-msgid "annexConversionError_mail_body"
-msgstr "La prévisualitation dans le navigateur web ne sera pas possible et il ne sera pas possible non plus de l'imprimer dans un document généré (délibération, ordre du jour, ...).  Accédez au point ici: ${objectUrl}/annexes_form."
-
-#. Default: "${meetingConfigTitle} - There was an error while converting an annex."
-msgid "annexConversionError_mail_subject"
-msgstr "${meetingConfigTitle} - Une erreur est survenue lors de la conversion d'une annexe."
-
 #. Default: "If an annex is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"
 msgstr "Si une annexe est marquée comme 'Confidentielle' par un gestionnaire des séances, les profils sélectionnés ci-dessous ne pourront pas la voir."
@@ -2595,57 +2587,53 @@ msgstr "Cet élément est accessible via WebDAV à l'URL ${objectDavUrl}. Si vou
 msgid "eventOccurred_mail_subject"
 msgstr "${portalTitle} - Un événement est survenu concernant '${meetingTitle}'"
 
-#. Default: "An advice was added or updated on an item"
+#. Default: "An advice was added or updated on an item (notify the 'Owner')"
 msgid "event_add_advice"
-msgstr "Un avis sur un point a été rendu ou modifié"
+msgstr "Un avis sur un point a été rendu ou modifié (prévient l'auteur du point)"
 
-#. Default: "An annex was added to an item already presented in a validated agenda"
+#. Default: "An annex was added to an item already presented in a validated agenda (notify 'MeetingManagers')"
 msgid "event_add_annex"
-msgstr "Une annexe a été ajoutée à un point qui était déjà présenté dans un ordre du jour"
+msgstr "Une annexe a été ajoutée à un point qui était déjà présenté dans un ordre du jour (prévient les gestionnaires de séances)"
 
-#. Default: "An advice needs to be given on an item"
+#. Default: "An advice needs to be given on an item (notify users able to add advice)"
 msgid "event_advice_to_give"
-msgstr "Un avis doit être rendu sur un point"
+msgstr "Un avis doit être rendu sur un point (prévient les utilisateurs capables d'ajouter un avis sur le point)"
 
-#. Default: "A reviewer wants to discuss an item"
+#. Default: "A reviewer wants to discuss an item (notify 'MeetingManagers')"
 msgid "event_ask_discuss_item"
-msgstr "Un validateur souhaite évoquer un point"
+msgstr "Un validateur souhaite évoquer un point (prévient les gestionnaires de séances)"
 
-#. Default: "An advice on an item has been invalidated"
+#. Default: "An advice on an item has been invalidated (notify creator of the advice that was invalidated)"
 msgid "event_invalidate_advice"
-msgstr "Un avis a été invalidé sur un point"
+msgstr "Un avis a été invalidé sur un point (prévient l'auteur de l'avis)"
 
-#. Default: "An error occured while converting an annex"
-msgid "event_item_annex_conversion_error"
-msgstr "Une erreur est survenue lors de la conversion d'une annexe"
-
-#. Default: "An item as been cloned to this meetingConfig"
+#. Default: "An item as been cloned to this meetingConfig (notify users able to edit the new item)"
 msgid "event_item_clone_to_this_mc"
-msgstr "Un point a été envoyé vers cette configuration de séance"
+msgstr "Un point a été envoyé vers cette configuration de séance (prévient les utilisateurs capables d'éditer le nouveau point)"
 
-#. Default: "An item has been delayed"
+#. Default: "An item has been delayed (notify the 'Owner')"
 msgid "event_item_delayed"
-msgstr "Un point a été reporté"
+msgstr "Un point a été reporté (prévient l'auteur du point)"
 
-#. Default: "An item has been inserted into a meeting"
+#. Default: "An item has been inserted into a meeting (notify the 'Owner')"
 msgid "event_item_presented"
-msgstr "Un point a été inséré dans une séance"
+msgstr "Un point a été inséré dans une séance (prévient l'auteur du point)"
 
-#. Default: "An item has been corrected and sent to the meeting managers"
+#. Default: "An item has been corrected and sent to the meeting managers (notify 'MeetingManagers')"
 msgid "event_item_returned_to_meeting_managers"
-msgstr "Un point corrigé par le groupe proposant a été renvoyé aux gestionnaires de séances"
+msgstr "Un point corrigé par le groupe proposant a été renvoyé aux gestionnaires de séances (prévient les gestionnaires de séances)"
 
-#. Default: "An item has been sent back to the proposing group"
+#. Default: "An item has been sent back to the proposing group (notify users able to edit the item to correct)"
 msgid "event_item_returned_to_proposing_group"
-msgstr "Un point a été renvoyé pour correction au groupe proposant"
+msgstr "Un point a été renvoyé pour correction au groupe proposant (prévient les utilisateurs capables d'éditer le point à corriger)"
 
-#. Default: "An item has been removed from a meeting"
+#. Default: "An item has been removed from a meeting (notify the 'Owner')"
 msgid "event_item_unpresented"
-msgstr "Un point a été retiré d'une séance"
+msgstr "Un point a été retiré d'une séance (prévient l'auteur du point)"
 
-#. Default: "A late item was just validated"
+#. Default: "A late item was just validated (notify 'MeetingManagers')"
 msgid "event_late_item"
-msgstr "Un point en urgence vient d'être validé"
+msgstr "Un point en urgence vient d'être validé (prévient les gestionnaires de séances)"
 
 #. Default: "Annexes"
 msgid "existing_annexes"
@@ -4048,6 +4036,10 @@ msgstr "Spécifiez ici le courriel d'une personne responsable de l'application e
 #. Default: "Specify here the full URL to reach on the external application. If you're using this resource for exporting purposes, and you want to export on the file system, you can specify here the URL of a local folder, starting with 'file://'."
 msgid "notify_url_descr"
 msgstr "Spécifiez ici l'URL complète à atteindre sur l'application externe. Si vous utilisez cette ressource pour y faire un export, et que vous voulez exporter sur le disque (local, ou un disque monté), vous pouvez spécifier ici l'URL d'un répertoire local, commençant par 'file://'."
+
+#. Default: "notify users able to view the element"
+msgid "notify_users_able_to_view_element"
+msgstr "prévient les utilisateurs capables de voir l'élément"
 
 #. Default: "Observer"
 msgid "observer"

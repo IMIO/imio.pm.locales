@@ -1794,14 +1794,6 @@ msgstr "Un anexo se ha añadido al tema '${itemTitle}' que ya se presentó a la 
 msgid "annexAdded_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - Un anexo se acaba de agregar a un tema."
 
-#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}/annexes_form."
-msgid "annexConversionError_mail_body"
-msgstr "Un anexo no se pudo convertir correctamente y no hay vista previa estará disponible y no será posible imprimirlo tampoco. Puede consultar el elemento aquí: ${objectUrl}/annexes_form."
-
-#. Default: "${meetingConfigTitle} - There was an error while converting an annex."
-msgid "annexConversionError_mail_subject"
-msgstr "${meetingConfigTitle} - Hubo un error mientras convertía un anexo."
-
 #. Default: "If an annex is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"
 msgstr ""
@@ -2608,55 +2600,63 @@ msgstr "Esta reunión es accesible, a través de WebDAV, en ${objectDavUrl}. Si 
 msgid "eventOccurred_mail_subject"
 msgstr "${portalTitle} - Un evento ocurrió en '${objectTitle}'"
 
-#. Default: "An advice was added or updated on an item"
+#. Default: "An advice was added or updated on an item (notify the 'Owner')"
+#, fuzzy
 msgid "event_add_advice"
 msgstr "Un consejo fue agregado o actualizado en un tema"
 
-#. Default: "An annex was added to an item already presented in a validated agenda"
+#. Default: "An annex was added to an item already presented in a validated agenda (notify 'MeetingManagers')"
+#, fuzzy
 msgid "event_add_annex"
 msgstr "Un anexo fue agregado a un tema ya presentado en una agenda validada"
 
-#. Default: "An advice needs to be given on an item"
+#. Default: "An advice needs to be given on an item (notify users able to add advice)"
+#, fuzzy
 msgid "event_advice_to_give"
 msgstr "Un consejo debe darse en un tema"
 
-#. Default: "A reviewer wants to discuss an item"
+#. Default: "A reviewer wants to discuss an item (notify 'MeetingManagers')"
+#, fuzzy
 msgid "event_ask_discuss_item"
 msgstr "Un revisor quiere discutir un tema"
 
-#. Default: "An advice on an item has been invalidated"
+#. Default: "An advice on an item has been invalidated (notify creator of the advice that was invalidated)"
+#, fuzzy
 msgid "event_invalidate_advice"
 msgstr "Una consejo en un tema ha sido invalidada"
 
-#. Default: "An error occured while converting an annex"
-msgid "event_item_annex_conversion_error"
-msgstr "Se produjo un error al convertir un anexo"
-
-#. Default: "An item as been cloned to this meetingConfig"
+#. Default: "An item as been cloned to this meetingConfig (notify users able to edit the new item)"
+#, fuzzy
 msgid "event_item_clone_to_this_mc"
 msgstr "Un tema ha sido clonado a esta configuración de reunión"
 
-#. Default: "An item has been delayed"
+#. Default: "An item has been delayed (notify the 'Owner')"
+#, fuzzy
 msgid "event_item_delayed"
 msgstr "Un tema ha sido demorado"
 
-#. Default: "An item has been inserted into a meeting"
+#. Default: "An item has been inserted into a meeting (notify the 'Owner')"
+#, fuzzy
 msgid "event_item_presented"
 msgstr "Un tema ha sido agregado dentro de una reunión"
 
-#. Default: "An item has been corrected and sent to the meeting managers"
+#. Default: "An item has been corrected and sent to the meeting managers (notify 'MeetingManagers')"
+#, fuzzy
 msgid "event_item_returned_to_meeting_managers"
 msgstr "Un tema ha sido corregido y enviado a los administradores de reuniones"
 
-#. Default: "An item has been sent back to the proposing group"
+#. Default: "An item has been sent back to the proposing group (notify users able to edit the item to correct)"
+#, fuzzy
 msgid "event_item_returned_to_proposing_group"
 msgstr "Un tema ha sido enviado de vuelta al grupo proponente"
 
-#. Default: "An item has been removed from a meeting"
+#. Default: "An item has been removed from a meeting (notify the 'Owner')"
+#, fuzzy
 msgid "event_item_unpresented"
 msgstr "Un tema ha sido removido de una reunión"
 
-#. Default: "A late item was just validated"
+#. Default: "A late item was just validated (notify 'MeetingManagers')"
+#, fuzzy
 msgid "event_late_item"
 msgstr "Un tema tarde fue validado"
 
@@ -4093,6 +4093,10 @@ msgstr "Especifique aquí el correo electrónico de alguien que es responsable d
 #. Default: "Specify here the full URL to reach on the external application. If you're using this resource for exporting purposes, and you want to export on the file system, you can specify here the URL of a local folder, starting with 'file://'."
 msgid "notify_url_descr"
 msgstr "Especifique aquí la dirección URL completa para llegar en la aplicación externa. Si usted esta usando este recurso para propósitos de exportación, y usted quiere exportar al sistema de archivos, usted puede especificar aquí la ruta de una carpeta local, iniciando en con el prefijo 'file://'."
+
+#. Default: "notify users able to view the element"
+msgid "notify_users_able_to_view_element"
+msgstr ""
 
 #. Default: "Observer"
 msgid "observer"

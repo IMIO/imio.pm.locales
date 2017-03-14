@@ -1786,14 +1786,6 @@ msgstr "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
 msgid "annexAdded_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - An annex was just added to an item."
 
-#. Default: "An annex could not be converted correctly and no preview will be available and it will not be possible to print it neither.  You can consult the item here : ${objectUrl}/annexes_form."
-msgid "annexConversionError_mail_body"
-msgstr ""
-
-#. Default: "${meetingConfigTitle} - There was an error while converting an annex."
-msgid "annexConversionError_mail_subject"
-msgstr ""
-
 #. Default: "If an annex is marked as 'Confidential' by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"
 msgstr ""
@@ -2597,55 +2589,54 @@ msgstr ""
 msgid "eventOccurred_mail_subject"
 msgstr "${portalTitle} - An event occurred on '${objectTitle}'"
 
-#. Default: "An advice was added or updated on an item"
+#. Default: "An advice was added or updated on an item (notify the 'Owner')"
 msgid "event_add_advice"
 msgstr ""
 
-#. Default: "An annex was added to an item already presented in a validated agenda"
+#. Default: "An annex was added to an item already presented in a validated agenda (notify 'MeetingManagers')"
+#, fuzzy
 msgid "event_add_annex"
 msgstr "Een bijlage werd aan een punt toegevoegd dat reeds in een bevestigde agenda wordt voorgesteld"
 
-#. Default: "An advice needs to be given on an item"
+#. Default: "An advice needs to be given on an item (notify users able to add advice)"
 msgid "event_advice_to_give"
 msgstr ""
 
-#. Default: "A reviewer wants to discuss an item"
+#. Default: "A reviewer wants to discuss an item (notify 'MeetingManagers')"
+#, fuzzy
 msgid "event_ask_discuss_item"
 msgstr "Een recensent wil een punt bespreken"
 
-#. Default: "An advice on an item has been invalidated"
+#. Default: "An advice on an item has been invalidated (notify creator of the advice that was invalidated)"
 msgid "event_invalidate_advice"
 msgstr ""
 
-#. Default: "An error occured while converting an annex"
-msgid "event_item_annex_conversion_error"
-msgstr ""
-
-#. Default: "An item as been cloned to this meetingConfig"
+#. Default: "An item as been cloned to this meetingConfig (notify users able to edit the new item)"
 msgid "event_item_clone_to_this_mc"
 msgstr ""
 
-#. Default: "An item has been delayed"
+#. Default: "An item has been delayed (notify the 'Owner')"
 msgid "event_item_delayed"
 msgstr ""
 
-#. Default: "An item has been inserted into a meeting"
+#. Default: "An item has been inserted into a meeting (notify the 'Owner')"
 msgid "event_item_presented"
 msgstr ""
 
-#. Default: "An item has been corrected and sent to the meeting managers"
+#. Default: "An item has been corrected and sent to the meeting managers (notify 'MeetingManagers')"
 msgid "event_item_returned_to_meeting_managers"
 msgstr ""
 
-#. Default: "An item has been sent back to the proposing group"
+#. Default: "An item has been sent back to the proposing group (notify users able to edit the item to correct)"
 msgid "event_item_returned_to_proposing_group"
 msgstr ""
 
-#. Default: "An item has been removed from a meeting"
+#. Default: "An item has been removed from a meeting (notify the 'Owner')"
 msgid "event_item_unpresented"
 msgstr ""
 
-#. Default: "A late item was just validated"
+#. Default: "A late item was just validated (notify 'MeetingManagers')"
+#, fuzzy
 msgid "event_late_item"
 msgstr "Een recent punt werd bevestigd"
 
@@ -4060,6 +4051,10 @@ msgstr "Specify here the email of someone responsible for the external applicati
 
 #. Default: "Specify here the full URL to reach on the external application. If you're using this resource for exporting purposes, and you want to export on the file system, you can specify here the URL of a local folder, starting with 'file://'."
 msgid "notify_url_descr"
+msgstr ""
+
+#. Default: "notify users able to view the element"
+msgid "notify_users_able_to_view_element"
 msgstr ""
 
 #. Default: "Observer"
