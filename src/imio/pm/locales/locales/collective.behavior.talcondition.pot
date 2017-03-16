@@ -18,6 +18,6 @@ msgstr ""
 "Domain: collective.behavior.talcondition\n"
 
 #: ../behavior.py:17
-#. Default: "Enter a TAL expression that once evaluated will return 'True' if content should be available. Elements 'member', 'context', 'portal', 'tool', 'cfg' and 'fromPortletTodo' are available for the expression.  Regarding 'fromPortletTodo' this value is 'True' if collection is displayed in the portlet_todo and False otherwise."
+#. Default: "Enter a TAL expression that once evaluated will return 'True' if content should be available. Elements 'member', 'context', 'portal', 'tool', 'cfg' and 'fromPortletTodo' are available for the expression.  Regarding 'fromPortletTodo' this value is only used for searches (Collection) and is 'True' if the collection is displayed in the portlet_todo and False otherwise."
 msgid "Enter a TAL expression that once evaluated will return 'True' if content should be available. Elements 'member', 'context' and 'portal' are available for the expression."
 msgstr ""
