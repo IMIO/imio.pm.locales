@@ -451,6 +451,10 @@ msgstr "Diese Konfiguration kann nicht gelöscht werden, da mindestens ein TOP b
 msgid "can_not_delete_meetinggroup_config_meetingitem"
 msgstr ""
 
+#. Default: "This group can not be deleted, it is used as group in charge of group ${group_title}."
+msgid "can_not_delete_meetinggroup_groupincharge"
+msgstr ""
+
 #. Default: "This group can not be deleted, it is referenced in a meeting configuration"
 msgid "can_not_delete_meetinggroup_meetingconfig"
 msgstr "Diese Gruppe kann nicht gelöscht werden, Sie wird noch in einer Sitzungskonfiguration referenziert"
@@ -586,7 +590,7 @@ msgstr ""
 msgid "goTo_returned_to_proposing_group_prevalidated"
 msgstr ""
 
-#. Default: "Go to proposing group (proposed)"
+#. Default: "Go to returned to proposing group (proposed)"
 msgid "goTo_returned_to_proposing_group_proposed"
 msgstr ""
 

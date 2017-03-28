@@ -432,6 +432,10 @@ msgstr "Cette configuration de séance ne peut pas être supprimée, au moins un
 msgid "can_not_delete_meetinggroup_config_meetingitem"
 msgstr "Ce groupe ne peut pas être supprimé, il est référencé dans un point d'une configuration de séance.  Vérifiez ici : ${url}"
 
+#. Default: "This group can not be deleted, it is used as group in charge of group ${group_title}."
+msgid "can_not_delete_meetinggroup_groupincharge"
+msgstr "Ce groupe ne peut pas être supprimé, il est utilisé comme 'Groupe en charge' du groupe '${group_title}.'"
+
 #. Default: "This group can not be deleted, it is referenced in a meeting configuration"
 msgid "can_not_delete_meetinggroup_meetingconfig"
 msgstr "Ce groupe ne peut pas être supprimé, il est référencé dans au moins une configuration de séance!  Vérifier l'onglets [Avis et accès] des différentes configurations de séance."
@@ -567,7 +571,7 @@ msgstr "Rendre l'avis"
 msgid "goTo_returned_to_proposing_group_prevalidated"
 msgstr "Pré-valider"
 
-#. Default: "Go to proposing group (proposed)"
+#. Default: "Go to returned to proposing group (proposed)"
 msgid "goTo_returned_to_proposing_group_proposed"
 msgstr "Proposer"
 

@@ -544,6 +544,10 @@ msgstr ""
 msgid "can_not_delete_meetinggroup_meetingconfig"
 msgstr ""
 
+#. Default: "This group can not be deleted, it is used as group in charge of group ${group_title}."
+msgid "can_not_delete_meetinggroup_groupincharge"
+msgstr ""
+
 #. Default: "This group can not be deleted, the linked Plone groups are not empty"
 msgid "can_not_delete_meetinggroup_plonegroup"
 msgstr ""
@@ -795,7 +799,7 @@ msgstr ""
 msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposed"
 msgstr "
 
-#. Default: "Go to proposing group (proposed)"
+#. Default: "Go to returned to proposing group (proposed)"
 msgid "goTo_returned_to_proposing_group_proposed"
 msgstr "
 

@@ -231,7 +231,7 @@ msgstr "This allows to active the tool PloneMeeting."
 
 #. Default: "Update item references"
 msgid "Update item references"
-msgstr ""
+msgstr "Update item references"
 
 #. Default: "Workflow for Meeting."
 msgid "Workflow for Meeting."
@@ -397,11 +397,11 @@ msgstr "Back to 'proposed'"
 
 #. Default: "Back to proposing group from proposed"
 msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposed"
-msgstr ""
+msgstr "Back to proposing group from proposed"
 
 #. Default: "Back to proposing group (proposed) from prevalidated"
 msgid "backTo_returned_to_proposing_group_proposed_from_returned_to_proposing_group_prevalidated"
-msgstr ""
+msgstr "Back to proposing group (proposed) from prevalidated"
 
 #. Default: "Base View"
 msgid "base_view"
@@ -434,6 +434,10 @@ msgstr "This configuration can not be deleted, at least one item linked to this 
 #. Default: "This group can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}"
 msgid "can_not_delete_meetinggroup_config_meetingitem"
 msgstr "This group can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}"
+
+#. Default: "This group can not be deleted, it is used as group in charge of group ${group_title}."
+msgid "can_not_delete_meetinggroup_groupincharge"
+msgstr "This group can not be deleted, it is used as group in charge of group ${group_title}."
 
 #. Default: "This group can not be deleted, it is referenced in a meeting configuration"
 msgid "can_not_delete_meetinggroup_meetingconfig"
@@ -568,11 +572,11 @@ msgstr "Give Advice"
 
 #. Default: "Go to returned to proposing group (prevalidated)"
 msgid "goTo_returned_to_proposing_group_prevalidated"
-msgstr ""
+msgstr "Go to returned to proposing group (prevalidated)"
 
-#. Default: "Go to proposing group (proposed)"
+#. Default: "Go to returned to proposing group (proposed)"
 msgid "goTo_returned_to_proposing_group_proposed"
-msgstr ""
+msgstr "Go to returned to proposing group (proposed)"
 
 #. Default: "User interface"
 msgid "gui"
@@ -762,11 +766,11 @@ msgstr "Returned to proposing group for corrections"
 
 #. Default: "Returned to proposing group (prevalidated)"
 msgid "returned_to_proposing_group_prevalidated"
-msgstr ""
+msgstr "Returned to proposing group (prevalidated)"
 
 #. Default: "Returned to proposing group (proposed)"
 msgid "returned_to_proposing_group_proposed"
-msgstr ""
+msgstr "Returned to proposing group (proposed)"
 
 #. Default: "Tool PloneMeeting View"
 msgid "toolplonemeeting_view"
