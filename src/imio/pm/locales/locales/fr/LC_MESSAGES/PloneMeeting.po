@@ -524,6 +524,10 @@ msgstr "Avis de tutelle"
 msgid "PloneMeeting_label_availableInterfaceLanguages"
 msgstr "Langues disponibles pour l'interface utilisateur"
 
+#. Default: "Columns to display for items available for a meeting"
+msgid "PloneMeeting_label_availableItemsListVisibleColumns"
+msgstr "Colonnes à afficher pour les points disponibles pour une séance"
+
 #. Default: "Available OCR languages"
 msgid "PloneMeeting_label_availableOcrLanguages"
 msgstr "Langues disponibles pour l'OCR"
@@ -598,7 +602,7 @@ msgstr "Filtres avancés à afficher pour les 'Points disponibles' d'une séance
 
 #. Default: "Advanced filters to show on 'Items of a meeting'"
 msgid "PloneMeeting_label_dashboardMeetingLinkedItemsFilters"
-msgstr "Filtres avancés à afficher pour les points d'une séance"
+msgstr "Filtres avancés à afficher pour les points présentés dans une séance"
 
 #. Default: "Date"
 msgid "PloneMeeting_label_date"
@@ -949,9 +953,9 @@ msgstr "Workflow gouvernant le cycle de vie de chaque point de cette configurati
 msgid "PloneMeeting_label_items"
 msgstr "Points"
 
-#. Default: "Columns to display for items within meetings"
+#. Default: "Columns to display for items within a meeting"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
-msgstr "Colonnes à afficher pour les points d'une séance"
+msgstr "Colonnes à afficher pour les points présentés dans une séance"
 
 #. Default: "Fields of the items to show/hide in the dashboards"
 msgid "PloneMeeting_label_itemsListVisibleFields"
@@ -2001,6 +2005,10 @@ msgstr "Si vous laissez ce champ vide, l'interface utilisateur sera présentée 
 msgid "available_items"
 msgstr "Points disponibles pour cette séance"
 
+#. Default: "Choose columns to display on the table of items available for a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
+msgid "available_items_list_visible_columns_descr"
+msgstr "Choisissez ici les colonnes qui seront affichées dans le tableau reprenant les points disponibles pour une séance, sachant que certaines colonnes seront toujours visibles (la colonne 'Objet' par exemple)."
+
 #. Default: "Available meetings"
 msgid "available_meetings"
 msgstr "Séances disponibles"
@@ -2371,7 +2379,7 @@ msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation
 
 #. Default: "Select here filters that will be shown when using the 'More filters' link on the 'Linked items' of the meeting view."
 msgid "dashboard_meeting_linked_items_filters_descr"
-msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien 'Plus de filtres' sur le tableau de bord affichant les points d'une séance."
+msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien 'Plus de filtres' sur le tableau de bord affichant les points présentés dans une séance."
 
 #. Default: "Data"
 msgid "data"
@@ -3398,9 +3406,9 @@ msgstr "Dans cette liste, vous voyez tous les workflows définis dans votre site
 msgid "items_count"
 msgstr "point(s)"
 
-#. Default: "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
+#. Default: "Choose columns to display on the table of items presented to a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title or item number)."
 msgid "items_list_visible_columns_descr"
-msgstr "L'écran d'affichage d'une séance présente potentiellement plusieurs tableaux de points. Vous pouvez choisir ici quelles colonnes seront affichées ou non dans ces tableaux, sachant qu'un nombre fixé de colonnes sera toujours visible (la colonne 'objet du point', par exemple)."
+msgstr "Choisissez ici les colonnes qui seront affichées dans le tableau reprenant les points présentés dans une séance, sachant que certaines colonnes seront toujours visibles (les colonnes 'Objet' ou 'Numéro du point', par exemple)."
 
 #. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 msgid "items_list_visible_fields_descr"

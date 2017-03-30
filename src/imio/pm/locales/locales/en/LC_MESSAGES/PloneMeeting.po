@@ -524,6 +524,10 @@ msgstr "Authority notice"
 msgid "PloneMeeting_label_availableInterfaceLanguages"
 msgstr "Available user interface languages"
 
+#. Default: "Columns to display for items available for a meeting"
+msgid "PloneMeeting_label_availableItemsListVisibleColumns"
+msgstr ""
+
 #. Default: "Available OCR languages"
 msgid "PloneMeeting_label_availableOcrLanguages"
 msgstr "Available OCR languages"
@@ -949,7 +953,8 @@ msgstr "Workflow that dictates the life cycle of every item into this configurat
 msgid "PloneMeeting_label_items"
 msgstr "Items"
 
-#. Default: "Columns to display for items within meetings"
+#. Default: "Columns to display for items within a meeting"
+#, fuzzy
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Columns to display for items within meetings"
 
@@ -2001,6 +2006,10 @@ msgstr "If you let this field blank, the user interface will be presented in the
 #. Default: "Available items for this meeting"
 msgid "available_items"
 msgstr "Available items for this meeting"
+
+#. Default: "Choose columns to display on the table of items available for a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
+msgid "available_items_list_visible_columns_descr"
+msgstr ""
 
 #. Default: "Available meetings"
 msgid "available_meetings"
@@ -3412,7 +3421,8 @@ msgstr "In this list, you see all workflows defined in your Plone site. Choose o
 msgid "items_count"
 msgstr "item(s)"
 
-#. Default: "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
+#. Default: "Choose columns to display on the table of items presented to a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title or item number)."
+#, fuzzy
 msgid "items_list_visible_columns_descr"
 msgstr "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
 

@@ -524,6 +524,10 @@ msgstr ""
 msgid "PloneMeeting_label_availableInterfaceLanguages"
 msgstr "Verfügbare Sprachen des Benutzerinterfaces"
 
+#. Default: "Columns to display for items available for a meeting"
+msgid "PloneMeeting_label_availableItemsListVisibleColumns"
+msgstr ""
+
 #. Default: "Available OCR languages"
 msgid "PloneMeeting_label_availableOcrLanguages"
 msgstr "Vorhandenen OCR Sprachen"
@@ -949,7 +953,8 @@ msgstr "Arbeitsablauf den jeder TOP in dieser Konfiguration durchlaufen muss"
 msgid "PloneMeeting_label_items"
 msgstr "TOP"
 
-#. Default: "Columns to display for items within meetings"
+#. Default: "Columns to display for items within a meeting"
+#, fuzzy
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Spalten die in TOP-Tabellen angezeigt werden können"
 
@@ -2002,6 +2007,10 @@ msgstr "Wenn Sie dieses Feld leer lassen, wird das Benutzerinterface in der Spra
 #. Default: "Available items for this meeting"
 msgid "available_items"
 msgstr "Verfügbare TOP für diese Sitzung"
+
+#. Default: "Choose columns to display on the table of items available for a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
+msgid "available_items_list_visible_columns_descr"
+msgstr ""
 
 #. Default: "Available meetings"
 msgid "available_meetings"
@@ -3421,7 +3430,8 @@ msgstr "In dieser Liste sehen Sie alle Arbeitsabläufe die auf ihrer Plone-Seite
 msgid "items_count"
 msgstr "Punkt(e)"
 
-#. Default: "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
+#. Default: "Choose columns to display on the table of items presented to a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title or item number)."
+#, fuzzy
 msgid "items_list_visible_columns_descr"
 msgstr "Die Seite die eine Sitzung anzeigt kann mehrere Tabellen voll von TOP enthalten. Sie können hier auswählen welche Spalten in diesen Tabellen angezeigt werden. Beachten Sie das bestimmte Spalten immer angezeigt werden (wie zum Beispiel die Spalte mit dem Titel des TOPs)."
 

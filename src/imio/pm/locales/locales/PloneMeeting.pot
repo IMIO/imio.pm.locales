@@ -2531,11 +2531,19 @@ msgstr ""
 msgid "meeting_app_default_view_descr"
 msgstr ""
 
-#. Default: "Columns to display for items within meetings"
+#. Default: "Columns to display for items available for a meeting"
+msgid "PloneMeeting_label_availableItemsListVisibleColumns"
+msgstr ""
+
+#. Default: "Choose columns to display on the table of items available for a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
+msgid "available_items_list_visible_columns_descr"
+msgstr ""
+
+#. Default: "Columns to display for items within a meeting"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr ""
 
-#. Default: "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
+#. Default: "Choose columns to display on the table of items presented to a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title or item number)."
 msgid "items_list_visible_columns_descr"
 msgstr ""
 

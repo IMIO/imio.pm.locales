@@ -525,6 +525,10 @@ msgstr ""
 msgid "PloneMeeting_label_availableInterfaceLanguages"
 msgstr ""
 
+#. Default: "Columns to display for items available for a meeting"
+msgid "PloneMeeting_label_availableItemsListVisibleColumns"
+msgstr ""
+
 #. Default: "Available OCR languages"
 msgid "PloneMeeting_label_availableOcrLanguages"
 msgstr ""
@@ -950,7 +954,8 @@ msgstr ""
 msgid "PloneMeeting_label_items"
 msgstr "Items"
 
-#. Default: "Columns to display for items within meetings"
+#. Default: "Columns to display for items within a meeting"
+#, fuzzy
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Aantal weer te geven kolommen voor een tabelweergave van items"
 
@@ -2002,6 +2007,10 @@ msgstr ""
 #. Default: "Available items for this meeting"
 msgid "available_items"
 msgstr "Beschikbare punten voor deze vergadering"
+
+#. Default: "Choose columns to display on the table of items available for a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
+msgid "available_items_list_visible_columns_descr"
+msgstr ""
 
 #. Default: "Available meetings"
 msgid "available_meetings"
@@ -3406,7 +3415,8 @@ msgstr "In this list, you see all workflows defined in your Plone site. Choose o
 msgid "items_count"
 msgstr "punt(en)"
 
-#. Default: "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
+#. Default: "Choose columns to display on the table of items presented to a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title or item number)."
+#, fuzzy
 msgid "items_list_visible_columns_descr"
 msgstr "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
 

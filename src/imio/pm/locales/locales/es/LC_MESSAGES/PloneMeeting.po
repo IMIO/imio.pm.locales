@@ -528,6 +528,10 @@ msgstr ""
 msgid "PloneMeeting_label_availableInterfaceLanguages"
 msgstr "Idiomas de la interfaz de usuario disponible "
 
+#. Default: "Columns to display for items available for a meeting"
+msgid "PloneMeeting_label_availableItemsListVisibleColumns"
+msgstr ""
+
 #. Default: "Available OCR languages"
 msgid "PloneMeeting_label_availableOcrLanguages"
 msgstr "Idiomas disponibles para el reconocimiento óptico de caracteres"
@@ -955,7 +959,8 @@ msgstr "Flujo de trabajo que dicta el ciclo de vida de cada tema dentro de esta 
 msgid "PloneMeeting_label_items"
 msgstr "Temas"
 
-#. Default: "Columns to display for items within meetings"
+#. Default: "Columns to display for items within a meeting"
+#, fuzzy
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Las columnas a mostrar en los temas dentro de las reuniones"
 
@@ -2010,6 +2015,10 @@ msgstr "Si deja este campo en blanco, la interfaz de usuario presentará en el i
 #. Default: "Available items for this meeting"
 msgid "available_items"
 msgstr "Temas disponibles para esta reunión"
+
+#. Default: "Choose columns to display on the table of items available for a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
+msgid "available_items_list_visible_columns_descr"
+msgstr ""
 
 #. Default: "Available meetings"
 msgid "available_meetings"
@@ -3445,7 +3454,8 @@ msgstr "En esta lista usted puede ver todos los flujos de trabajos definidos en 
 msgid "items_count"
 msgstr "Tema(s)"
 
-#. Default: "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
+#. Default: "Choose columns to display on the table of items presented to a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title or item number)."
+#, fuzzy
 msgid "items_list_visible_columns_descr"
 msgstr "La página que muestra una reunión potencialmente contiene varias tablas llenas de temas. Aquí puede elegir las columnas que se mostrarán o no en las tablas. Tenga en cuenta que un número fijo de columnas se mostrará siempre (como la columna que contiene el título del tema)."
 
