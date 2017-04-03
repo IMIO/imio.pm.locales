@@ -752,13 +752,13 @@ msgstr "Name of the functional administrator"
 msgid "PloneMeeting_label_gender"
 msgstr "Gender"
 
-#. Default: "Group in charge"
-msgid "PloneMeeting_label_groupInCharge"
-msgstr "Group in charge"
-
 #. Default: "Group certified signatures"
 msgid "PloneMeeting_label_group_certifiedSignatures"
 msgstr "Group certified signatures"
+
+#. Default: "Groups in charge"
+msgid "PloneMeeting_label_groupsInCharge"
+msgstr ""
 
 #. Default: "Hide Css classes to"
 msgid "PloneMeeting_label_hideCssClassesTo"
@@ -882,7 +882,7 @@ msgstr "Description"
 
 #. Default: "Item states in which group in charge will have access to items of groups they have in charge"
 msgid "PloneMeeting_label_itemGroupInChargeStates"
-msgstr "Item states in which group in charge will have access to items of groups they have in charge"
+msgstr ""
 
 #. Default: "Item icon color"
 msgid "PloneMeeting_label_itemIconColor"
@@ -1230,6 +1230,10 @@ msgstr "Privacy"
 #. Default: "Proposing group"
 msgid "PloneMeeting_label_proposingGroup"
 msgstr "Proposing group"
+
+#. Default: "Proposing group (Group in charge)"
+msgid "PloneMeeting_label_proposingGroupWithGroupInCharge"
+msgstr ""
 
 #. Default: "Observations for public meeting"
 msgid "PloneMeeting_label_publicMeetingObservations"
@@ -2568,22 +2572,6 @@ msgstr "Please make sure encoded dates are valid at row number ${row_number}.  U
 msgid "error_certified_signatures_order"
 msgstr "Signatures must be ordered by signature number, please check and order signature using the arrows on the right of the table."
 
-#. Default: "The 'Date to' column can not be entered for last row, last row will contain the current group in charge."
-msgid "error_in_charge_group_date_may_not_be_given"
-msgstr "The 'Date to' column can not be entered for last row, last row will contain the current group in charge."
-
-#. Default: "The 'Date to' column is required for every lines but the last.  Please check row number ${row_number}."
-msgid "error_in_charge_group_date_to_missing"
-msgstr "The 'Date to' column is required for every lines but the last.  Please check row number ${row_number}."
-
-#. Default: "Dates of the 'Date to' column must be encoded from older date to newer, last row must be the group that is currently in charge and so no 'Date to' must be encoded."
-msgid "error_in_charge_group_dates_sorting"
-msgstr "Dates of the 'Date to' column must be encoded from older date to newer, last row must be the group that is currently in charge and so no 'Date to' must be encoded."
-
-#. Default: "Please make sure encoded 'Date to' is valid at row number ${row_number}.  Use format 'YYYY/MM/DD'."
-msgid "error_in_charge_group_invalid_dates"
-msgstr "Please make sure encoded 'Date to' is valid at row number ${row_number}.  Use format 'YYYY/MM/DD'."
-
 #. Default: "You may not remove a list type that is currently used by an item, check for example : ${url}."
 msgid "error_list_types_identifier_removed_already_used"
 msgstr "You may not remove a list type that is currently used by an item, check for example : ${url}."
@@ -2813,10 +2801,6 @@ msgstr "Previous ${number} elements"
 msgid "group_certified_signatures_descr"
 msgstr "Leave empty to use the signatures defined on the meeting configuration.  You may only redefine the certified signatures partially, for example, you may redefine signature number '2', the signature number '1' will still be taken from the meeting configuration."
 
-#. Default: "Select here the group that is in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>If you change this parameter and you defined 'States in which groups in charge have access to items of the groups they have in charge' in the configuration, do not forget to run 'Update items and meetings'!</span>"
-msgid "group_in_charge_descr"
-msgstr "Select here the group that is in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>If you change this parameter and you defined 'States in which groups in charge have access to items of the groups they have in charge' in the configuration, do not forget to run 'Update items and meetings'!</span>"
-
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_item_advice_edit_states_descr"
 msgstr "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
@@ -2832,6 +2816,10 @@ msgstr "When an item is in one of the states you choose here, it will be possibl
 #. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_keep_access_to_item_when_advice_is_given_descr"
 msgstr "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+
+#. Default: "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
+msgid "groups_in_charge_descr"
+msgstr ""
 
 #. Default: "User interface"
 msgid "gui"
@@ -3310,7 +3298,7 @@ msgstr "The item has been duplicated and a link to the original item has been ke
 
 #. Default: "When an item is in one of the states you choose here, the Plone subgroup 'observers' of the group in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_group_in_charge_states_descr"
-msgstr "When an item is in one of the states you choose here, the Plone subgroup 'observers' of the group in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
+msgstr ""
 
 #. Default: "This icon is shown in different places where different kind of item (college, council, ...) are shown together.  This is the case in the full text quick search displayed up right in the application, when selecting manually linked items or viewing linked items on the item view.  <span style='color: red;'>If you change this parameter, this will update the icon of each created items of this meeting configuration and this could take some time depending on number of items.  Do not change this during high use period!</span>"
 msgid "item_icon_color_descr"
@@ -4996,7 +4984,7 @@ msgstr "The copy groups set on the item"
 
 #. Default: "The group in charge"
 msgid "visible_for_reader_groupincharge"
-msgstr "The group in charge"
+msgstr ""
 
 #. Default: "The '${meeting_group_suffix}' of any group"
 msgid "visible_for_suffix_profile_"

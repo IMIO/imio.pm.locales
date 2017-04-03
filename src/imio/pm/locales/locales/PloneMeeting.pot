@@ -268,6 +268,14 @@ msgstr ""
 msgid "PloneMeeting_label_proposingGroup"
 msgstr ""
 
+#. Default: "Proposing group"
+msgid "PloneMeeting_label_proposingGroup"
+msgstr ""
+
+#. Default: "Proposing group (Group in charge)"
+msgid "PloneMeeting_label_proposingGroupWithGroupInCharge"
+msgstr ""
+
 #. Default: "Associated group(s)"
 msgid "PloneMeeting_label_associatedGroups"
 msgstr ""
@@ -1853,12 +1861,12 @@ msgstr ""
 msgid "PloneMeeting_label_group_certifiedSignatures"
 msgstr ""
 
-#. Default: "Group in charge"
-msgid "PloneMeeting_label_groupInCharge"
+#. Default: "Groups in charge"
+msgid "PloneMeeting_label_groupsInCharge"
 msgstr ""
 
-#. Default: "Select here the group that is in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>If you change this parameter and you defined 'States in which groups in charge have access to items of the groups they have in charge' in the configuration, do not forget to run 'Update items and meetings'!</span>"
-msgid "group_in_charge_descr"
+#. Default: "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
+msgid "groups_in_charge_descr"
 msgstr ""
 
 #. Default: "Leave empty to use the signatures defined on the meeting configuration.  You may only redefine the certified signatures partially, for example, you may redefine signature number '2', the signature number '1' will still be taken from the meeting configuration."
@@ -4687,22 +4695,6 @@ msgstr ""
 
 #. Default: "You may not use 2 signatures using same 'number/date from/date to'.  Indeed in this case, the first found will always be used, please check row number ${row_number}."
 msgid "error_certified_signatures_duplicated_entries"
-msgstr ""
-
-#. Default: "The 'Date to' column is required for every lines but the last.  Please check row number ${row_number}."
-msgid "error_in_charge_group_date_to_missing"
-msgstr ""
-
-#. Default: "The 'Date to' column can not be entered for last row, last row will contain the current group in charge."
-msgid "error_in_charge_group_date_may_not_be_given"
-msgstr ""
-
-#. Default: "Please make sure encoded 'Date to' is valid at row number ${row_number}.  Use format 'YYYY/MM/DD'."
-msgid "error_in_charge_group_invalid_dates"
-msgstr ""
-
-#. Default: "Dates of the 'Date to' column must be encoded from older date to newer, last row must be the group that is currently in charge and so no 'Date to' must be encoded."
-msgid "error_in_charge_group_dates_sorting"
 msgstr ""
 
 #. Default: "You can not access this item"

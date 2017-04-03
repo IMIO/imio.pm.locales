@@ -756,12 +756,12 @@ msgstr "Nombre del administrador funcional"
 msgid "PloneMeeting_label_gender"
 msgstr "Género"
 
-#. Default: "Group in charge"
-msgid "PloneMeeting_label_groupInCharge"
-msgstr ""
-
 #. Default: "Group certified signatures"
 msgid "PloneMeeting_label_group_certifiedSignatures"
+msgstr ""
+
+#. Default: "Groups in charge"
+msgid "PloneMeeting_label_groupsInCharge"
 msgstr ""
 
 #. Default: "Hide Css classes to"
@@ -1238,6 +1238,10 @@ msgstr "Privacidad"
 #. Default: "Proposing group"
 msgid "PloneMeeting_label_proposingGroup"
 msgstr "Grupo propuesto"
+
+#. Default: "Proposing group (Group in charge)"
+msgid "PloneMeeting_label_proposingGroupWithGroupInCharge"
+msgstr ""
 
 #. Default: "Observations for public meeting"
 msgid "PloneMeeting_label_publicMeetingObservations"
@@ -2580,22 +2584,6 @@ msgstr ""
 msgid "error_certified_signatures_order"
 msgstr ""
 
-#. Default: "The 'Date to' column can not be entered for last row, last row will contain the current group in charge."
-msgid "error_in_charge_group_date_may_not_be_given"
-msgstr ""
-
-#. Default: "The 'Date to' column is required for every lines but the last.  Please check row number ${row_number}."
-msgid "error_in_charge_group_date_to_missing"
-msgstr ""
-
-#. Default: "Dates of the 'Date to' column must be encoded from older date to newer, last row must be the group that is currently in charge and so no 'Date to' must be encoded."
-msgid "error_in_charge_group_dates_sorting"
-msgstr ""
-
-#. Default: "Please make sure encoded 'Date to' is valid at row number ${row_number}.  Use format 'YYYY/MM/DD'."
-msgid "error_in_charge_group_invalid_dates"
-msgstr ""
-
 #. Default: "You may not remove a list type that is currently used by an item, check for example : ${url}."
 msgid "error_list_types_identifier_removed_already_used"
 msgstr ""
@@ -2829,10 +2817,6 @@ msgstr "Previos ${number} elementos"
 msgid "group_certified_signatures_descr"
 msgstr ""
 
-#. Default: "Select here the group that is in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>If you change this parameter and you defined 'States in which groups in charge have access to items of the groups they have in charge' in the configuration, do not forget to run 'Update items and meetings'!</span>"
-msgid "group_in_charge_descr"
-msgstr ""
-
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 #, fuzzy
 msgid "group_item_advice_edit_states_descr"
@@ -2850,6 +2834,10 @@ msgstr "Cuando un tema se encuentra en uno de los estados a los que decide aquí
 
 #. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "group_keep_access_to_item_when_advice_is_given_descr"
+msgstr ""
+
+#. Default: "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
+msgid "groups_in_charge_descr"
 msgstr ""
 
 #. Default: "User interface"
