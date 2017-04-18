@@ -3341,9 +3341,9 @@ msgstr "Quand un point est dans un des états que vous sélectionnez ici, il ser
 msgid "item_reference_column"
 msgstr "Référence du point (dans la colonne 'Objet')"
 
-#. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted item. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
+#. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements 'item' (also available as 'here') and 'meeting' are available in the expression."
 msgid "item_reference_format_descr"
-msgstr "A chaque point est associé une référence dont le format peut être défini ici, sous la forme d'une expression TAL (Tag Attribute Language) dans laquelle le nom 'here', représentant le point courant, peut être utilisé. Si vous ne connaissez pas le langage TAL, consultez par exemple <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">ce lien</a> (en anglais)."
+msgstr "A chaque point est associé une référence dont le format peut être défini ici, sous la forme d'une expression TAL.  Les éléments 'item' (aussi disponible sous le nom 'here') et 'meeting' sont disponibles dans l'expression."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the item.  Theorically, there will be fewer states selected here than states selected in the <i>'Item states in which power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_restricted_powerobservers_states_descr"

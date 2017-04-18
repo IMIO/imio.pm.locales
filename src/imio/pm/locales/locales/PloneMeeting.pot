@@ -2109,7 +2109,7 @@ msgstr ""
 msgid "PloneMeeting_label_itemReferenceFormat"
 msgstr ""
 
-#. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted item. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
+#. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements 'item' (also available as 'here') and 'meeting' are available in the expression."
 msgid "item_reference_format_descr"
 msgstr ""
 

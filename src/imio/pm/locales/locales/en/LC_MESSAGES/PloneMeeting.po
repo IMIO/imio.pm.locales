@@ -954,9 +954,8 @@ msgid "PloneMeeting_label_items"
 msgstr "Items"
 
 #. Default: "Columns to display for items within a meeting"
-#, fuzzy
 msgid "PloneMeeting_label_itemsListVisibleColumns"
-msgstr "Columns to display for items within meetings"
+msgstr "Columns to display for items within a meeting"
 
 #. Default: "Fields of the items to show/hide in the dashboards"
 msgid "PloneMeeting_label_itemsListVisibleFields"
@@ -1662,9 +1661,8 @@ msgid "adviceToGive_mail_subject"
 msgstr "${meetingConfigTitle} - Your advice is requested on the item '${itemTitle}'."
 
 #. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Advice annnex types' configuration.</span>"
-#, fuzzy
 msgid "advice_annex_confidential_visible_for_descr"
-msgstr "Select here profiles of users that will be able to see an annex added to an advice that is set confidential."
+msgstr "Select here profiles of users that will be able to see an annex added to an advice that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Advice annnex types' configuration.</span>"
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
@@ -2598,64 +2596,52 @@ msgid "eventOccurred_mail_subject"
 msgstr "${portalTitle} - An event occurred on '${objectTitle}'"
 
 #. Default: "An advice was added or updated on an item (notify the 'Owner')"
-#, fuzzy
 msgid "event_add_advice"
-msgstr "An advice was added or updated on an item"
+msgstr "An advice was added or updated on an item (notify the 'Owner')"
 
 #. Default: "An annex was added to an item already presented in a validated agenda (notify 'MeetingManagers')"
-#, fuzzy
 msgid "event_add_annex"
-msgstr "An annex was added to an item already presented in a validated agenda"
+msgstr "An annex was added to an item already presented in a validated agenda (notify 'MeetingManagers')"
 
 #. Default: "An advice needs to be given on an item (notify users able to add advice)"
-#, fuzzy
 msgid "event_advice_to_give"
-msgstr "An advice needs to be given on an item"
+msgstr "An advice needs to be given on an item (notify users able to add advice)"
 
 #. Default: "A reviewer wants to discuss an item (notify 'MeetingManagers')"
-#, fuzzy
 msgid "event_ask_discuss_item"
-msgstr "A reviewer wants to discuss an item"
+msgstr "A reviewer wants to discuss an item (notify 'MeetingManagers')"
 
 #. Default: "An advice on an item has been invalidated (notify creator of the advice that was invalidated)"
-#, fuzzy
 msgid "event_invalidate_advice"
-msgstr "An advice on an item has been invalidated"
+msgstr "An advice on an item has been invalidated (notify creator of the advice that was invalidated)"
 
 #. Default: "An item as been cloned to this meetingConfig (notify users able to edit the new item)"
-#, fuzzy
 msgid "event_item_clone_to_this_mc"
-msgstr "An item as been cloned to this meetingConfig"
+msgstr "An item as been cloned to this meetingConfig (notify users able to edit the new item)"
 
 #. Default: "An item has been delayed (notify the 'Owner')"
-#, fuzzy
 msgid "event_item_delayed"
-msgstr "An item has been delayed"
+msgstr "An item has been delayed (notify the 'Owner')"
 
 #. Default: "An item has been inserted into a meeting (notify the 'Owner')"
-#, fuzzy
 msgid "event_item_presented"
-msgstr "An item has been inserted into a meeting"
+msgstr "An item has been inserted into a meeting (notify the 'Owner')"
 
 #. Default: "An item has been corrected and sent to the meeting managers (notify 'MeetingManagers')"
-#, fuzzy
 msgid "event_item_returned_to_meeting_managers"
-msgstr "An item has been corrected and sent to the meeting managers"
+msgstr "An item has been corrected and sent to the meeting managers (notify 'MeetingManagers')"
 
 #. Default: "An item has been sent back to the proposing group (notify users able to edit the item to correct)"
-#, fuzzy
 msgid "event_item_returned_to_proposing_group"
-msgstr "An item has been sent back to the proposing group"
+msgstr "An item has been sent back to the proposing group (notify users able to edit the item to correct)"
 
 #. Default: "An item has been removed from a meeting (notify the 'Owner')"
-#, fuzzy
 msgid "event_item_unpresented"
-msgstr "An item has been removed from a meeting"
+msgstr "An item has been removed from a meeting (notify the 'Owner')"
 
 #. Default: "A late item was just validated (notify 'MeetingManagers')"
-#, fuzzy
 msgid "event_late_item"
-msgstr "A late item was just validated"
+msgstr "A late item was just validated (notify 'MeetingManagers')"
 
 #. Default: "Annexes"
 msgid "existing_annexes"
@@ -3212,9 +3198,8 @@ msgid "item_advice_view_states_descr"
 msgstr "When an item is in one of the states you choose here, it will be possible for groups the advice is asked for, to continue to view the item.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 
 #. Default: "Select here profiles of users that will be able to see an annex added to an item that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Item annex types' and 'Item annex types (after decision)' configuration.</span>"
-#, fuzzy
 msgid "item_annex_confidential_visible_for_descr"
-msgstr "Select here profiles of users that will be able to see an annex added to an item that is set confidential."
+msgstr "Select here profiles of users that will be able to see an annex added to an item that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Item annex types' and 'Item annex types (after decision)' configuration.</span>"
 
 #. Default: "Assembly for the item"
 msgid "item_assembly"
@@ -3356,9 +3341,9 @@ msgstr "When an item is in one of the states you choose here, it will be possibl
 msgid "item_reference_column"
 msgstr "Item reference (in the 'Purpose' column)"
 
-#. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted item. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
+#. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements 'item' (also available as 'here') and 'meeting' are available in the expression."
 msgid "item_reference_format_descr"
-msgstr "A reference is associated to every item. The reference format can be defined here, as a TAL (Tag Attribute Language) expression whose context includes the name 'here' that represents the impacted item. If you don't know TAL, you may learn it <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">here</a>."
+msgstr "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements 'item' (also available as 'here') and 'meeting' are available in the expression."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for restricted power observers of this meetingConfig to see the item.  Theorically, there will be fewer states selected here than states selected in the <i>'Item states in which power observers can see the items'</i> field here above.  If you do not need that functionnality, leave this field empty.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_restricted_powerobservers_states_descr"
@@ -3410,9 +3395,8 @@ msgid "items_count"
 msgstr "item(s)"
 
 #. Default: "Choose columns to display on the table of items presented to a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title or item number)."
-#, fuzzy
 msgid "items_list_visible_columns_descr"
-msgstr "The page that displays a meeting contains potentially several tables filled with items. You can choose here which columns will be displayed or not in those tables. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
+msgstr "Choose columns to display on the table of items presented to a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title or item number)."
 
 #. Default: "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 msgid "items_list_visible_fields_descr"
@@ -3640,9 +3624,8 @@ msgid "meeting_actions_interface_descr"
 msgstr "Similarly to the preceding field, all the actions that are triggered when a meeting goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions are documented."
 
 #. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Meeting annnex types' configuration.</span>"
-#, fuzzy
 msgid "meeting_annex_confidential_visible_for_descr"
-msgstr "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential."
+msgstr "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action 'Update categorized elements' in the 'Meeting annnex types' configuration.</span>"
 
 #. Default: "Choose here which page will be shown after logon."
 msgid "meeting_app_default_view_descr"
@@ -5235,9 +5218,8 @@ msgid "workflow"
 msgstr "Workflows"
 
 #. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red;'>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check groups, and if necessary when permissions changed, do not forget to run 'Update security settings' in the ZMi-->portal_workflow!</span>"
-#, fuzzy
 msgid "workflow_adaptations_descr"
-msgstr "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red;'>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check groups, and if necessary when permissions changed, do not forget to run 'Update items and meetings'!</span>"
+msgstr "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red;'>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check groups, and if necessary when permissions changed, do not forget to run 'Update security settings' in the ZMi-->portal_workflow!</span>"
 
 #. Default: "This will be used to compute advices delays.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "working_days_descr"
