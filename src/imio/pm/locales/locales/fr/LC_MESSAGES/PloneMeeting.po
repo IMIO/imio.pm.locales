@@ -953,6 +953,10 @@ msgstr "Marqueurs"
 msgid "PloneMeeting_label_itemTitle"
 msgstr "Objet"
 
+#. Default: "An item containing given advice is not deletable"
+msgid "PloneMeeting_label_itemWithGivenAdviceIsNotDeletable"
+msgstr "Un point sur lequel des avis ont été rendus ne peut plus être supprimé?"
+
 #. Default: "Workflow that dictates the life cycle of every item into this configuration"
 msgid "PloneMeeting_label_itemWorkflow"
 msgstr "Workflow gouvernant le cycle de vie de chaque point de cette configuration"
@@ -3397,6 +3401,10 @@ msgstr "Les modèles de points seront disponibles aux utilisateurs qui créeront
 #. Default: "Item up workflow again"
 msgid "item_up_wf_term"
 msgstr "Remonte le workflow"
+
+#. Default: "If checked, an item that contains given advices will no more be deletable, except by MeetingManagers and Managers."
+msgid "item_with_given_advice_is_not_deletable_descr"
+msgstr "Si la case est cochée, un point sur lequel des avis ont été rendus ne pourra plus être supprimé, excepté par les gestionnaires de séances et les administrateurs."
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of an item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
 msgid "item_workflow_descr"

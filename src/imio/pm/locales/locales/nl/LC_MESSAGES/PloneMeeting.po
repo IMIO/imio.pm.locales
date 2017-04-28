@@ -954,6 +954,10 @@ msgstr ""
 msgid "PloneMeeting_label_itemTitle"
 msgstr ""
 
+#. Default: "An item containing given advice is not deletable"
+msgid "PloneMeeting_label_itemWithGivenAdviceIsNotDeletable"
+msgstr ""
+
 #. Default: "Workflow that dictates the life cycle of every item into this configuration"
 msgid "PloneMeeting_label_itemWorkflow"
 msgstr ""
@@ -3405,6 +3409,10 @@ msgstr ""
 
 #. Default: "Item up workflow again"
 msgid "item_up_wf_term"
+msgstr ""
+
+#. Default: "If checked, an item that contains given advices will no more be deletable, except by MeetingManagers and Managers."
+msgid "item_with_given_advice_is_not_deletable_descr"
 msgstr ""
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of an item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
