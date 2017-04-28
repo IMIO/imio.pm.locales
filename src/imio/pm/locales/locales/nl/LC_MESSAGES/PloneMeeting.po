@@ -16,6 +16,10 @@ msgstr ""
 "X-is-fallback-for: nl-be\n"
 "X-Generator: Poedit 1.5.5\n"
 
+#. Default: "${group_title} (Inactive)"
+msgid "${group_title} (Inactive)"
+msgstr ""
+
 #. Default: "(Nobody)"
 msgid "(Nobody)"
 msgstr ""
@@ -759,6 +763,10 @@ msgstr ""
 
 #. Default: "Groups in charge"
 msgid "PloneMeeting_label_groupsInCharge"
+msgstr ""
+
+#. Default: "Groups to display in the 'Group' dashboard filter"
+msgid "PloneMeeting_label_groupsShownInDashboardFilter"
 msgstr ""
 
 #. Default: "Hide Css classes to"
@@ -2812,6 +2820,10 @@ msgstr ""
 
 #. Default: "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
 msgid "groups_in_charge_descr"
+msgstr ""
+
+#. Default: "If you do not select anything, every groups will be displayed."
+msgid "groups_shown_in_dashboard_filter_descr"
 msgstr ""
 
 #. Default: "User interface"
