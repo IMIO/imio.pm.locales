@@ -1650,6 +1650,14 @@ msgstr ""
 msgid "add_object"
 msgstr "Ein neues Objekt hinzufügen"
 
+#. Default: "You have an advice to give for '${group_name} (${delay_label})'.  Delay left is ${left_delay} day(s).  You can access this item here: ${objectUrl}."
+msgid "adviceDelayWarning_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - Warning advice delay expiration for item '${itemTitle}'."
+msgid "adviceDelayWarning_mail_subject"
+msgstr ""
+
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 #, fuzzy
 msgid "adviceEdited_mail_body"

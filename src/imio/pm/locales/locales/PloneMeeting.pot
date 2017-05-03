@@ -3508,6 +3508,14 @@ msgstr ""
 msgid "adviceToGive_mail_body"
 msgstr ""
 
+#. Default: "${meetingConfigTitle} - Warning advice delay expiration for item '${itemTitle}'."
+msgid "adviceDelayWarning_mail_subject"
+msgstr ""
+
+#. Default: "You have an advice to give for '${group_name} (${delay_label})'.  Delay left is ${left_delay} day(s).  You can access this item here: ${objectUrl}."
+msgid "adviceDelayWarning_mail_body"
+msgstr ""
+
 #. Default: "${meetingConfigTitle} - An advice has been added or modified on the item '${itemTitle}'."
 msgid "adviceEdited_mail_subject"
 msgstr ""

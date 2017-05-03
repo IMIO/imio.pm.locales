@@ -1648,6 +1648,14 @@ msgstr "Ajouter un avis"
 msgid "add_object"
 msgstr "En ajouter un(e)"
 
+#. Default: "You have an advice to give for '${group_name} (${delay_label})'.  Delay left is ${left_delay} day(s).  You can access this item here: ${objectUrl}."
+msgid "adviceDelayWarning_mail_body"
+msgstr "Le délai restant pour rendre l'avis '${group_name} (${delay_label})' est de ${left_delay} jour(s). Accédez au point ici: ${objectUrl}."
+
+#. Default: "${meetingConfigTitle} - Warning advice delay expiration for item '${itemTitle}'."
+msgid "adviceDelayWarning_mail_subject"
+msgstr "${meetingConfigTitle} - Avertissement expiration délai avis pour le point '${itemTitle}'."
+
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
 msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}."
