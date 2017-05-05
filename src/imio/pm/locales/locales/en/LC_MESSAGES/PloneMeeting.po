@@ -1648,7 +1648,15 @@ msgstr "Add an advice"
 msgid "add_object"
 msgstr "Add a new one"
 
-#. Default: "You have an advice to give for '${group_name} (${delay_label})'.  Delay left is ${left_delay} day(s).  You can access this item here: ${objectUrl}."
+#. Default: "You had an advice to give for '${group_name} (${delay_label})'.  Limit date is ${limit_date}, delay is now expired.  You can access this item here: ${objectUrl}."
+msgid "adviceDelayExpired_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - Advice delay expired for item '${itemTitle}'."
+msgid "adviceDelayExpired_mail_subject"
+msgstr ""
+
+#. Default: "You have an advice to give for '${group_name} (${delay_label})'.  Limit date is ${limit_date) (in ${left_delay} day(s)).  You can access this item here: ${objectUrl}."
 msgid "adviceDelayWarning_mail_body"
 msgstr ""
 
@@ -2622,6 +2630,14 @@ msgstr "An advice was added or updated on an item (notify the 'Owner')"
 #. Default: "An annex was added to an item already presented in a validated agenda (notify 'MeetingManagers')"
 msgid "event_add_annex"
 msgstr "An annex was added to an item already presented in a validated agenda (notify 'MeetingManagers')"
+
+#. Default: "An advice delay is expired (notify advisers of relevant advice)"
+msgid "event_advice_delay_expired"
+msgstr ""
+
+#. Default: "An advice delay is about to expire (notify advisers of relevant advice)"
+msgid "event_advice_delay_warning"
+msgstr ""
 
 #. Default: "An advice needs to be given on an item (notify users able to add advice)"
 msgid "event_advice_to_give"

@@ -1648,13 +1648,21 @@ msgstr "Ajouter un avis"
 msgid "add_object"
 msgstr "En ajouter un(e)"
 
-#. Default: "You have an advice to give for '${group_name} (${delay_label})'.  Delay left is ${left_delay} day(s).  You can access this item here: ${objectUrl}."
+#. Default: "You had an advice to give for '${group_name} (${delay_label})'.  Limit date is ${limit_date}, delay is now expired.  You can access this item here: ${objectUrl}."
+msgid "adviceDelayExpired_mail_body"
+msgstr "Le délai pour rendre l'avis '${group_name} (${delay_label})' est expiré, la date limite était le ${limit_date}. Accédez au point ici: ${objectUrl}."
+
+#. Default: "${meetingConfigTitle} - Advice delay expired for item '${itemTitle}'."
+msgid "adviceDelayExpired_mail_subject"
+msgstr "${meetingConfigTitle} - Délai expiré pour rendre un avis sur le point '${itemTitle}'."
+
+#. Default: "You have an advice to give for '${group_name} (${delay_label})'.  Limit date is ${limit_date) (in ${left_delay} day(s)).  You can access this item here: ${objectUrl}."
 msgid "adviceDelayWarning_mail_body"
-msgstr "Le délai restant pour rendre l'avis '${group_name} (${delay_label})' est de ${left_delay} jour(s). Accédez au point ici: ${objectUrl}."
+msgstr "La date limite pour rendre l'avis '${group_name} (${delay_label})' est le ${limit_date} (dans ${left_delay} jour(s)). Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - Warning advice delay expiration for item '${itemTitle}'."
 msgid "adviceDelayWarning_mail_subject"
-msgstr "${meetingConfigTitle} - Avertissement expiration délai avis pour le point '${itemTitle}'."
+msgstr "${meetingConfigTitle} - Avertissement expiration délai pour rendre un avis sur le point '${itemTitle}'."
 
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
@@ -2622,6 +2630,14 @@ msgstr "Un avis sur un point a été rendu ou modifié (prévient l'auteur du po
 #. Default: "An annex was added to an item already presented in a validated agenda (notify 'MeetingManagers')"
 msgid "event_add_annex"
 msgstr "Une annexe a été ajoutée à un point qui était déjà présenté dans un ordre du jour (prévient les gestionnaires de séances)"
+
+#. Default: "An advice delay is expired (notify advisers of relevant advice)"
+msgid "event_advice_delay_expired"
+msgstr "Le délai pour rendre un avis est expiré (prévient les donneurs d'avis concernés)"
+
+#. Default: "An advice delay is about to expire (notify advisers of relevant advice)"
+msgid "event_advice_delay_warning"
+msgstr "Le délai pour rendre un avis sera bientôt expiré (prévient les donneurs d'avis concernés)"
 
 #. Default: "An advice needs to be given on an item (notify users able to add advice)"
 msgid "event_advice_to_give"
