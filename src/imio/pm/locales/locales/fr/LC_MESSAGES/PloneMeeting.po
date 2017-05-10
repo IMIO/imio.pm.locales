@@ -55,6 +55,10 @@ msgstr "Avis rendu par"
 msgid "Advice given on item ${item_title}"
 msgstr "Avis rendu sur le point ${item_title}"
 
+#. Default: "Advice not deletable because it was already historized (if necessary ask a Manager to delete the advice)"
+msgid "Advice not deletable"
+msgstr "Cet avis ne peut plus être supprimé car il a déjà été historisé (si nécessaire, un Administrateur pourra cependant le supprimer)"
+
 #. Default: "Advice observations"
 msgid "Advice observations"
 msgstr "Observations"
@@ -3473,10 +3477,6 @@ msgstr "Modifier"
 #. Default: "Annexes"
 msgid "label_related_items"
 msgstr "Annexes"
-
-#. Default: "Delete"
-msgid "label_remove"
-msgstr "Supprimer"
 
 #. Default: "Delete the meeting configuration : the folder linked to this meeting configuration for each member will be removed too (if empty)!"
 msgid "label_remove_meetingconfig"

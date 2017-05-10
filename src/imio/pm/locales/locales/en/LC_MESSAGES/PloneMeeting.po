@@ -55,6 +55,10 @@ msgstr "Advice given by"
 msgid "Advice given on item ${item_title}"
 msgstr "Advice given on item ${item_title}"
 
+#. Default: "Advice not deletable because it was already historized (if necessary ask a Manager to delete the advice)"
+msgid "Advice not deletable"
+msgstr ""
+
 #. Default: "Advice observations"
 msgid "Advice observations"
 msgstr "Advice observations"
@@ -3473,10 +3477,6 @@ msgstr "Edit"
 #. Default: "Annexes"
 msgid "label_related_items"
 msgstr "Annexes"
-
-#. Default: "Delete"
-msgid "label_remove"
-msgstr "Delete"
 
 #. Default: "Delete the meeting configuration : the folder linked to this meeting configuration for each member will be removed too (if empty)!"
 msgid "label_remove_meetingconfig"
