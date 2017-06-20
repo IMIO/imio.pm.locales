@@ -769,6 +769,12 @@ msgstr "Renvoyé au groupe proposant pour corrections (pré-validé)"
 msgid "returned_to_proposing_group_proposed"
 msgstr "Renvoyé au groupe proposant pour corrections (proposé)"
 
+#. Default: "Search everywhere"
+#: plone.app.layout/plone/app/layout/viewlets/searchbox.pt:16
+#: plone.app.portlets/plone/app/portlets/portlets/search.pt:28
+msgid "title_search_site"
+msgstr "Rechercher partout"
+
 #. Default: "Tool PloneMeeting View"
 msgid "toolplonemeeting_view"
 msgstr "Vue tool PloneMeeting"
