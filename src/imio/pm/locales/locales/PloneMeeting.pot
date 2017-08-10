@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PloneMeeting 1.6\n"
+"Project-Id-Version: PloneMeeting\n"
 "POT-Creation-Date: 2005-05-17 15:00-100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -5315,4 +5315,16 @@ msgstr ""
 
 #. Default: "If checked, an item that contains given advices will no more be deletable, except by MeetingManagers and Managers."
 msgid "item_with_given_advice_is_not_deletable_descr"
+msgstr ""
+
+#. Default: "Can not store same a generated document as annex several times"
+msgid "store_podtemplate_as_annex_can_not_store_several_times"
+msgstr ""
+
+#. Default: "Not allowed to add annex in this element"
+msgid "store_podtemplate_as_annex_can_not_add_annex"
+msgstr ""
+
+#. Default: "Stored ${number_of_annexes} annexes"
+msgid "stored_item_template_as_annex"
 msgstr ""

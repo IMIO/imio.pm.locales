@@ -4741,6 +4741,18 @@ msgstr "Check this box if you want to sort the tags in alphabetic order."
 msgid "state_color"
 msgstr "Colorize depending on state"
 
+#. Default: "Not allowed to add annex in this element"
+msgid "store_podtemplate_as_annex_can_not_add_annex"
+msgstr ""
+
+#. Default: "Can not store same a generated document as annex several times"
+msgid "store_podtemplate_as_annex_can_not_store_several_times"
+msgstr ""
+
+#. Default: "Stored ${number_of_annexes} annexes"
+msgid "stored_item_template_as_annex"
+msgstr ""
+
 #. Default: "You can not remove a sub type that has already been used in the application.  You removed the sub type with title '${sub_type_title}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate a sub type, you can uncheck the 'Active?' check box."
 msgid "sub_type_can_not_remove_used_row"
 msgstr "You can not remove a sub type that has already been used in the application.  You removed the sub type with title '${sub_type_title}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate a sub type, you can uncheck the 'Active?' check box."
@@ -5292,4 +5304,3 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-

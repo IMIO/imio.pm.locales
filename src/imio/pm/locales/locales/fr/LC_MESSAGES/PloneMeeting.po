@@ -4740,6 +4740,18 @@ msgstr "Cochez cette case si vous voulez que les marqueurs soient triés par ord
 msgid "state_color"
 msgstr "Coloriser suivant l'état du workflow"
 
+#. Default: "Not allowed to add annex in this element"
+msgid "store_podtemplate_as_annex_can_not_add_annex"
+msgstr "Vous n'avez pas la permission d'ajouter une annexe à cet élément"
+
+#. Default: "Can not store same a generated document as annex several times"
+msgid "store_podtemplate_as_annex_can_not_store_several_times"
+msgstr "Impossible de stocker plusieurs fois le même document généré"
+
+#. Default: "Stored ${number_of_annexes} annexes"
+msgid "stored_item_template_as_annex"
+msgstr "${number_of_annexes} annexe(s) a(ont) été stockée(s)"
+
 #. Default: "You can not remove a sub type that has already been used in the application.  You removed the sub type with title '${sub_type_title}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate a sub type, you can uncheck the 'Active?' check box."
 msgid "sub_type_can_not_remove_used_row"
 msgstr "Vous ne pouvez pas supprimer un sous-type de fichier qui a déjà été utilisé. Vous avez supprimé le sous-type ayant le titre '${sub_type_title}', utilisé par exemple par le point '${item_url}'. Rajoutez le sous-type (ou cliquez sur l'onglet 'Modifier' ci-dessus pour retrouver les anciennes valeurs). Si vous devez désactiver un sous-type de fichier, décochez la case 'Actif?'."
@@ -5291,4 +5303,3 @@ msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux ch
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
 msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
-
