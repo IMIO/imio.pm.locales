@@ -708,6 +708,10 @@ msgstr "Enable advice confidentiality"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Enable advice invalidation"
 
+#. Default: "Enable item duplication"
+msgid "PloneMeeting_label_enableItemDuplication"
+msgstr ""
+
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
 msgstr "Enable user preferences"
@@ -2577,6 +2581,10 @@ msgstr "Enabled, for information (annexes are printed manually)"
 #. Default: "Enabled, for automated printing (annexes are printed by the application)"
 msgid "enable_annex_to_print_enabled_for_printing"
 msgstr "Enabled, for automated printing (annexes are printed by the application)"
+
+#. Default: "If enabled, item creators will have access to actions 'Duplicate' and 'Duplicate and keep link' on an item making it possible to easily create an item from another existing item."
+msgid "enable_item_duplication_descr"
+msgstr ""
 
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"
