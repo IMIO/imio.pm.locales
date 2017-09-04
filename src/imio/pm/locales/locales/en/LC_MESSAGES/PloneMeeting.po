@@ -3462,6 +3462,10 @@ msgstr "Choose columns to display on the table of items presented to a meeting. 
 msgid "items_list_visible_fields_descr"
 msgstr "Select here fields of the item that will be show/hidden when a user will click on the 'Show/hide details' label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 
+#. Default: "Item templates managers"
+msgid "itemtemplatesmanagers"
+msgstr ""
+
 #. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "keep_access_to_item_when_advice_is_given_descr"
 msgstr "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"

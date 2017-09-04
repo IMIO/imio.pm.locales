@@ -3462,6 +3462,10 @@ msgstr "Choisissez ici les colonnes qui seront affichées dans le tableau repren
 msgid "items_list_visible_fields_descr"
 msgstr "Sélectionnez les champs à masquer/afficher lorsque l'utilisateur cliquera sur le libellé 'Afficher/masquer les détails' se trouvant dans l'entête 'Objet' d'un tableau de bord.  Ceci concerne tous les tableaux affichant des éléments, donc, les tableaux de points et séances (mes points, tous les points, toutes les décisions, ...) ainsi que les tableaux de points affichés sur les séances (points disponibles, points présentés, ...)."
 
+#. Default: "Item templates managers"
+msgid "itemtemplatesmanagers"
+msgstr "Gestionnaires de modèles de points"
+
 #. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "keep_access_to_item_when_advice_is_given_descr"
 msgstr "Lorsqu'un avis a été rendu sur un point, le point restera visible par les émetteurs d'avis quel que soit l'état du point.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
