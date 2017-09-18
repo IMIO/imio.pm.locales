@@ -2929,11 +2929,13 @@ msgstr "This will hide not viewable linked items to selected profiles instead of
 msgid "historize_item_data_when_advice_is_given_descr"
 msgstr "When an advice is given, so when it switch to a state where adviser may not advice it anymore, it is historized.  If you chek this box, every relevant item data (title and rich text fields) will be historized together with the advice."
 
-#. Default: "For every field you select here, the application will keep track of any change on any item, if it is in one of the 'historizable' states as defined below."
+#. Default: "For every field you select here, the application will keep track of any change on any item, if it is in one of the 'historizable' states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
+#, fuzzy
 msgid "historized_item_attrs_descr"
 msgstr "For every field you select here, the application will keep track of any change on any item, if it is in one of the 'historizable' states as defined below."
 
-#. Default: "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the 'historizable' states as defined below."
+#. Default: "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the 'historizable' states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
+#, fuzzy
 msgid "historized_meeting_attrs_descr"
 msgstr "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the 'historizable' states as defined below."
 
