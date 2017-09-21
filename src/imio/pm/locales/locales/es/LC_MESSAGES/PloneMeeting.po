@@ -768,6 +768,10 @@ msgstr "Nombre del administrador funcional"
 msgid "PloneMeeting_label_gender"
 msgstr "Género"
 
+#. Default: "Group in charge"
+msgid "PloneMeeting_label_groupInCharge"
+msgstr ""
+
 #. Default: "Group certified signatures"
 msgid "PloneMeeting_label_group_certifiedSignatures"
 msgstr ""
@@ -2962,12 +2966,12 @@ msgstr ""
 msgid "historize_item_data_when_advice_is_given_descr"
 msgstr ""
 
-#. Default: "For every field you select here, the application will keep track of any change on any item, if it is in one of the 'historizable' states as defined below."
+#. Default: "For every field you select here, the application will keep track of any change on any item, if it is in one of the 'historizable' states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
 #, fuzzy
 msgid "historized_item_attrs_descr"
 msgstr "Por cada campo que seleccione aquí, PloneMeeting realizará un seguimiento de cualquier cambio en cualquier elemento, si encuentra en uno de los estados trazables, según se define a continuación."
 
-#. Default: "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the 'historizable' states as defined below."
+#. Default: "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the 'historizable' states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
 #, fuzzy
 msgid "historized_meeting_attrs_descr"
 msgstr "Por cada campo que seleccione aquí, PloneMeeting realizará un seguimiento de cualquier cambio en cualquier reunión, si encuentra en uno de los estados trazables, según se define a continuación."
@@ -4790,6 +4794,10 @@ msgstr "Mostrar / ocultar detalles"
 #. Default: "Show / hide persons"
 msgid "show_or_hide_persons"
 msgstr "Mostrar / ocultar personaes"
+
+#. Default: "Show / hide poll type observations"
+msgid "show_or_hide_pollTypeObservations"
+msgstr ""
 
 #. Default: "A signatory can not be in the absents list."
 msgid "signatories_absents_mismatch"

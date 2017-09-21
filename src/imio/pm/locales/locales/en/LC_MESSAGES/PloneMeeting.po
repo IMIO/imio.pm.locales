@@ -764,6 +764,10 @@ msgstr "Name of the functional administrator"
 msgid "PloneMeeting_label_gender"
 msgstr "Gender"
 
+#. Default: "Group in charge"
+msgid "PloneMeeting_label_groupInCharge"
+msgstr ""
+
 #. Default: "Group certified signatures"
 msgid "PloneMeeting_label_group_certifiedSignatures"
 msgstr "Group certified signatures"
@@ -2929,13 +2933,13 @@ msgstr "This will hide not viewable linked items to selected profiles instead of
 msgid "historize_item_data_when_advice_is_given_descr"
 msgstr "When an advice is given, so when it switch to a state where adviser may not advice it anymore, it is historized.  If you chek this box, every relevant item data (title and rich text fields) will be historized together with the advice."
 
-#. Default: "For every field you select here, the application will keep track of any change on any item, if it is in one of the 'historizable' states as defined below."
+#. Default: "For every field you select here, the application will keep track of any change on any item, if it is in one of the 'historizable' states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
 msgid "historized_item_attrs_descr"
-msgstr "For every field you select here, the application will keep track of any change on any item, if it is in one of the 'historizable' states as defined below."
+msgstr "For every field you select here, the application will keep track of any change on any item, if it is in one of the 'historizable' states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
 
-#. Default: "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the 'historizable' states as defined below."
+#. Default: "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the 'historizable' states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
 msgid "historized_meeting_attrs_descr"
-msgstr "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the 'historizable' states as defined below."
+msgstr "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the 'historizable' states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
 
 #. Default: "See changes"
 msgid "history_changes"
@@ -4724,6 +4728,10 @@ msgstr "Show / hide details"
 #. Default: "Show / hide persons"
 msgid "show_or_hide_persons"
 msgstr "Show / hide persons"
+
+#. Default: "Show / hide poll type observations"
+msgid "show_or_hide_pollTypeObservations"
+msgstr ""
 
 #. Default: "A signatory can not be in the absents list."
 msgid "signatories_absents_mismatch"
