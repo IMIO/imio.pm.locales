@@ -3756,6 +3756,10 @@ msgstr "Les utilisateurs sont répartis dans des groupes. Chaque groupe représe
 msgid "meeting_in_past"
 msgstr "Cette action ne peut être effectuée tant que la séance n'a pas eu lieu."
 
+#. Default: "Parameters of configuration influencing orders of insertion of item in the meeting"
+msgid "meeting_inserting_methods_help_msg_descr"
+msgstr "Paramètre(s) définis dans la configuration qui influent sur l'ordre d'insertion des points dans la séance"
+
 #. Default: "Meeting of"
 msgid "meeting_of"
 msgstr "Séance du"
@@ -4161,9 +4165,9 @@ msgstr "Par 'à envoyer vers' (points à envoyer vers d'autres séances puis poi
 msgid "on_poll_type"
 msgstr "Par mode de scrutin"
 
-#. Default: "Follow the privacy (define order in the field 'Selectable privacies' here under.)"
+#. Default: "Follow the privacy (order is defined in the field 'Selectable privacies' here under.)"
 msgid "on_privacy"
-msgstr "Par niveau de confidentialité (définissez l'ordre dans le champ 'Niveaux de confidentialité utilisés' ci-dessous)"
+msgstr "Par niveau de confidentialité (l'ordre est défini dans le champ 'Niveaux de confidentialité utilisés' ci-dessous)"
 
 #. Default: "Follow proposing groups order"
 msgid "on_proposing_groups"
