@@ -2145,6 +2145,14 @@ msgstr "Cette suppression ne peut avoir lieu. Raisons possibles: vous tentez de 
 msgid "categories_descr"
 msgstr "Chaque point, au sein de cette configuration de séance, peut appartenir à une et une seule catégorie. Ces catégories sont définies ici (par un titre et une description). L'ordre dans lequel elles sont reprises dans ce répertoire est important. En effet, pour autant que vous le désiriez (un paramètre définit cela dans la section 'Données'), lors de l'ajout d'un point à une séance, celui-ci peut s'insérer à la suite des points appartenant à la même catégorie, ceux-ci étant déjà insérés à l'endroit correspondant à la position de leur catégorie parmi la liste des catégories définies ici. Ceci dit, si vous spécifiez que vous voulez utiliser les groupes comme catégories (un autre paramètre de la section 'Données'), les catégories définies ici ne seront pas utilisées."
 
+#. Default: "the \"Folder contents view\""
+msgid "categories_folder_contents_view"
+msgstr "la vue \"Contenus\""
+
+#. Default: "You may use the ${folder_contents_link} to manage categories."
+msgid "categories_use_folder_contents"
+msgstr "Vous pouvez utiliser ${folder_contents_link} pour gérer les catégories."
+
 #. Default: "Choose here some identifier for your category."
 msgid "category_category_id_descr"
 msgstr "Choisissez ici un identifiant pour votre catégorie."
@@ -4919,6 +4927,10 @@ msgstr "Publier l'avis, l'avis sera confirmé et considéré 'rendu'."
 #. Default: "Back to previous given advice"
 msgid "to_previous_given_advice"
 msgstr "Revenir à l'avis rendu précédemment"
+
+#. Default: "There are too much categories to display."
+msgid "too_many_categories_use_folder_contents"
+msgstr "Il y a trop de catégories à afficher."
 
 #. Default: "Other parameters"
 msgid "tool_plonemeeting_misc"
