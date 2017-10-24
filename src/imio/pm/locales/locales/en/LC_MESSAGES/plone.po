@@ -419,9 +419,9 @@ msgstr "Forgot password?"
 msgid "can_not_delete_meeting_container"
 msgstr "You can not delete a container containing one or several meetings!"
 
-#. Default: "This category can not be deleted, at least one item is linked to this category!"
+#. Default: "This category can not be deleted, at least one item is linked to this category, please check ${url}"
 msgid "can_not_delete_meetingcategory_meetingitem"
-msgstr "This category can not be deleted, at least one item is linked to this category!"
+msgstr "This category can not be deleted, at least one item is linked to this category, please check ${url}"
 
 #. Default: "This configuration can not be deleted, at least one meeting linked to this configuration exists!"
 msgid "can_not_delete_meetingconfig_meeting"

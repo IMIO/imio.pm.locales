@@ -416,9 +416,9 @@ msgstr "Mot de passe oublié?"
 msgid "can_not_delete_meeting_container"
 msgstr "Vous ne pouvez pas supprimer un dossier qui contient une ou plusieurs séances!"
 
-#. Default: "This category can not be deleted, at least one item is linked to this category!"
+#. Default: "This category can not be deleted, at least one item is linked to this category, please check ${url}"
 msgid "can_not_delete_meetingcategory_meetingitem"
-msgstr "Cette catégorie ne peut pas être supprimée, il existe au moins un point lié à celle-ci!"
+msgstr "Cette catégorie ne peut pas être supprimée, il existe au moins un point lié à celle-ci.  Vérifiez ici : ${url}"
 
 #. Default: "This configuration can not be deleted, at least one meeting linked to this configuration exists!"
 msgid "can_not_delete_meetingconfig_meeting"
