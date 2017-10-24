@@ -17,7 +17,7 @@ msgstr ""
 
 #. Default: "${element_title} (Inactive)"
 msgid "${element_title} (Inactive)"
-msgstr ""
+msgstr "${element_title} (Inactive)"
 
 #. Default: "(Nobody)"
 msgid "(Nobody)"
@@ -57,7 +57,7 @@ msgstr "Advice given on item ${item_title}"
 
 #. Default: "Advice not deletable because it was already historized (if necessary ask a Manager to delete the advice)"
 msgid "Advice not deletable"
-msgstr ""
+msgstr "Advice not deletable because it was already historized (if necessary ask a Manager to delete the advice)"
 
 #. Default: "Advice observations"
 msgid "Advice observations"
@@ -333,7 +333,7 @@ msgstr "Item templates"
 
 #. Default: "Limit date ${advice_limit_date}"
 msgid "Limit date ${advice_limit_date}"
-msgstr ""
+msgstr "Limit date ${advice_limit_date}"
 
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
@@ -486,7 +486,7 @@ msgstr "Advices"
 
 #. Default: "Advices to keep when item is sent to another configuration"
 msgid "PloneMeeting_label_advicesKeptOnSentToOtherMC"
-msgstr ""
+msgstr "Advices to keep when item is sent to another configuration"
 
 #. Default: "Tags"
 msgid "PloneMeeting_label_allItemTags"
@@ -534,7 +534,7 @@ msgstr "Available user interface languages"
 
 #. Default: "Columns to display for items available for a meeting"
 msgid "PloneMeeting_label_availableItemsListVisibleColumns"
-msgstr ""
+msgstr "Columns to display for items available for a meeting"
 
 #. Default: "Available OCR languages"
 msgid "PloneMeeting_label_availableOcrLanguages"
@@ -578,7 +578,7 @@ msgstr "Classifier"
 
 #. Default: "Observations for the committee"
 msgid "PloneMeeting_label_committeeObservations"
-msgstr ""
+msgstr "Observations for the committee"
 
 #. Default: "Completeness"
 msgid "PloneMeeting_label_completeness"
@@ -710,7 +710,7 @@ msgstr "Enable advice invalidation"
 
 #. Default: "Enable item duplication"
 msgid "PloneMeeting_label_enableItemDuplication"
-msgstr ""
+msgstr "Enable item duplication"
 
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
@@ -766,7 +766,7 @@ msgstr "Gender"
 
 #. Default: "Group in charge"
 msgid "PloneMeeting_label_groupInCharge"
-msgstr ""
+msgstr "Group in charge"
 
 #. Default: "Group certified signatures"
 msgid "PloneMeeting_label_group_certifiedSignatures"
@@ -774,11 +774,11 @@ msgstr "Group certified signatures"
 
 #. Default: "Groups in charge"
 msgid "PloneMeeting_label_groupsInCharge"
-msgstr ""
+msgstr "Groups in charge"
 
 #. Default: "Groups to display in the 'Group' dashboard filter"
 msgid "PloneMeeting_label_groupsShownInDashboardFilter"
-msgstr ""
+msgstr "Groups to display in the 'Group' dashboard filter"
 
 #. Default: "Hide Css classes to"
 msgid "PloneMeeting_label_hideCssClassesTo"
@@ -902,7 +902,7 @@ msgstr "Description"
 
 #. Default: "Item states in which group in charge will have access to items of groups they have in charge"
 msgid "PloneMeeting_label_itemGroupInChargeStates"
-msgstr ""
+msgstr "Item states in which group in charge will have access to items of groups they have in charge"
 
 #. Default: "Item icon color"
 msgid "PloneMeeting_label_itemIconColor"
@@ -938,7 +938,7 @@ msgstr "Item states in which powerObservers can see the items"
 
 #. Default: "Item reference"
 msgid "PloneMeeting_label_itemReference"
-msgstr ""
+msgstr "Item reference"
 
 #. Default: "Format of the item reference"
 msgid "PloneMeeting_label_itemReferenceFormat"
@@ -967,7 +967,7 @@ msgstr "Purpose"
 
 #. Default: "An item containing given advice is not deletable"
 msgid "PloneMeeting_label_itemWithGivenAdviceIsNotDeletable"
-msgstr ""
+msgstr "An item containing given advice is not deletable"
 
 #. Default: "Workflow that dictates the life cycle of every item into this configuration"
 msgid "PloneMeeting_label_itemWorkflow"
@@ -991,7 +991,7 @@ msgstr "Keep access to item when an advice is given"
 
 #. Default: "Keep advices when item sent to another configuration?"
 msgid "PloneMeeting_label_keepAdvicesOnSentToOtherMC"
-msgstr ""
+msgstr "Keep advices when item sent to another configuration?"
 
 #. Default: "Keep info 'to print?' of annexes when duplicating items"
 msgid "PloneMeeting_label_keepOriginalToPrintOfClonedItems"
@@ -1035,7 +1035,7 @@ msgstr "Manually linked items"
 
 #. Default: "Marginal notes"
 msgid "PloneMeeting_label_marginalNotes"
-msgstr ""
+msgstr "Marginal notes"
 
 #. Default: "Default number of available items to show on a page"
 msgid "PloneMeeting_label_maxShownAvailableItems"
@@ -1256,11 +1256,11 @@ msgstr "Proposing group"
 
 #. Default: "Proposing group (Group in charge)"
 msgid "PloneMeeting_label_proposingGroupWithGroupInCharge"
-msgstr ""
+msgstr "Proposing group (Group in charge)"
 
 #. Default: "Observations for public meeting"
 msgid "PloneMeeting_label_publicMeetingObservations"
-msgstr ""
+msgstr "Observations for public meeting"
 
 #. Default: "Public URL"
 msgid "PloneMeeting_label_publicUrl"
@@ -1300,7 +1300,7 @@ msgstr "'Restrict users' mode"
 
 #. Default: "Observations for the secret meeting"
 msgid "PloneMeeting_label_secretMeetingObservations"
-msgstr ""
+msgstr "Observations for the secret meeting"
 
 #. Default: "Selectable advisers"
 msgid "PloneMeeting_label_selectableAdvisers"
@@ -1517,7 +1517,7 @@ msgstr "Recurring items"
 
 #. Default: "References of contained items have been updated."
 msgid "References of contained items have been updated."
-msgstr ""
+msgstr "References of contained items have been updated."
 
 #. Default: "Searches"
 msgid "Searches"
@@ -1634,7 +1634,7 @@ msgstr "You are about to change delay for this advice to ${new_advice_delay} day
 
 #. Default: "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
 msgid "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
-msgstr ""
+msgstr "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
 
 #. Default: "A meeting manager"
 msgid "a_meeting_manager"
@@ -1662,19 +1662,19 @@ msgstr "Add a new one"
 
 #. Default: "You had an advice to give for '${group_name} (${delay_label})'.  Limit date is ${limit_date}, delay is now expired.  You can access this item here: ${objectUrl}."
 msgid "adviceDelayExpired_mail_body"
-msgstr ""
+msgstr "You had an advice to give for '${group_name} (${delay_label})'.  Limit date is ${limit_date}, delay is now expired.  You can access this item here: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - Advice delay expired for item '${itemTitle}'."
 msgid "adviceDelayExpired_mail_subject"
-msgstr ""
+msgstr "${meetingConfigTitle} - Advice delay expired for item '${itemTitle}'."
 
 #. Default: "You have an advice to give for '${group_name} (${delay_label})'.  Limit date is ${limit_date) (in ${left_delay} day(s)).  You can access this item here: ${objectUrl}."
 msgid "adviceDelayWarning_mail_body"
-msgstr ""
+msgstr "You have an advice to give for '${group_name} (${delay_label})'.  Limit date is ${limit_date) (in ${left_delay} day(s)).  You can access this item here: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - Warning advice delay expiration for item '${itemTitle}'."
 msgid "adviceDelayWarning_mail_subject"
-msgstr ""
+msgstr "${meetingConfigTitle} - Warning advice delay expiration for item '${itemTitle}'."
 
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
@@ -1806,7 +1806,7 @@ msgstr "Advices on this item have been invalidated!"
 
 #. Default: "If parameter \"Keep advices when item sent to another configuration?\" here above is enabled, you may select here advices that will be kept.  If you do not select anyhting, every advices will be kept."
 msgid "advices_kept_on_sent_to_other_mc_descr"
-msgstr ""
+msgstr "If parameter \"Keep advices when item sent to another configuration?\" here above is enabled, you may select here advices that will be kept.  If you do not select anyhting, every advices will be kept."
 
 #. Default: "Standard"
 msgid "advices_standard"
@@ -2051,7 +2051,7 @@ msgstr "Available items for this meeting"
 
 #. Default: "Choose columns to display on the table of items available for a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
 msgid "available_items_list_visible_columns_descr"
-msgstr ""
+msgstr "Choose columns to display on the table of items available for a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
 
 #. Default: "Available meetings"
 msgid "available_meetings"
@@ -2147,11 +2147,11 @@ msgstr "Every item, within this meeting configuration, can only belong to one ca
 
 #. Default: "the \"Folder contents view\""
 msgid "categories_folder_contents_view"
-msgstr ""
+msgstr "the \"Folder contents view\""
 
 #. Default: "You may use the ${folder_contents_link} to manage categories."
 msgid "categories_use_folder_contents"
-msgstr ""
+msgstr "You may use the ${folder_contents_link} to manage categories."
 
 #. Default: "Choose here some identifier for your category."
 msgid "category_category_id_descr"
@@ -2251,23 +2251,23 @@ msgstr "Indent first line"
 
 #. Default: "Large text"
 msgid "ckeditor_style_large"
-msgstr ""
+msgstr "Large text"
 
 #. Default: "Small text"
 msgid "ckeditor_style_small"
-msgstr ""
+msgstr "Small text"
 
 #. Default: "No optimization"
 msgid "ckeditor_style_table_no_optimization"
-msgstr ""
+msgstr "No optimization"
 
 #. Default: "X-large text"
 msgid "ckeditor_style_x_large"
-msgstr ""
+msgstr "X-large text"
 
 #. Default: "X-small text"
 msgid "ckeditor_style_x_small"
-msgstr ""
+msgstr "X-small text"
 
 #. Default: "A classifier is a bit like a category. You can assign an item a given classifier almost the same way you can assign it a given category. The difference resides in the widget used: the 'category chooser' is a listbox, while the 'classifier chooser' is a ReferenceBrowserWidget (=a popup with filtering capabilities). So if you have many 'categories', you may prefer to use 'classifiers' instead."
 msgid "classifiers_descr"
@@ -2596,7 +2596,7 @@ msgstr "Enabled, for automated printing (annexes are printed by the application)
 
 #. Default: "If enabled, item creators will have access to actions 'Duplicate' and 'Duplicate and keep link' on an item making it possible to easily create an item from another existing item."
 msgid "enable_item_duplication_descr"
-msgstr ""
+msgstr "If enabled, item creators will have access to actions 'Duplicate' and 'Duplicate and keep link' on an item making it possible to easily create an item from another existing item."
 
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"
@@ -2661,11 +2661,11 @@ msgstr "An annex was added to an item already presented in a validated agenda (n
 
 #. Default: "An advice delay is expired (notify advisers of relevant advice)"
 msgid "event_advice_delay_expired"
-msgstr ""
+msgstr "An advice delay is expired (notify advisers of relevant advice)"
 
 #. Default: "An advice delay is about to expire (notify advisers of relevant advice)"
 msgid "event_advice_delay_warning"
-msgstr ""
+msgstr "An advice delay is about to expire (notify advisers of relevant advice)"
 
 #. Default: "An advice needs to be given on an item (notify users able to add advice)"
 msgid "event_advice_to_give"
@@ -2869,11 +2869,11 @@ msgstr "When an advice has been given on an item, advisers of the given advice w
 
 #. Default: "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
 msgid "groups_in_charge_descr"
-msgstr ""
+msgstr "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
 
 #. Default: "If you do not select anything, every groups will be displayed."
 msgid "groups_shown_in_dashboard_filter_descr"
-msgstr ""
+msgstr "If you do not select anything, every groups will be displayed."
 
 #. Default: "User interface"
 msgid "gui"
@@ -3103,11 +3103,11 @@ msgstr "Returned to proposing group for corrections"
 
 #. Default: "Returned to proposing group for corrections (prevalidated)"
 msgid "icon_help_returned_to_proposing_group_prevalidated"
-msgstr ""
+msgstr "Returned to proposing group for corrections (prevalidated)"
 
 #. Default: "Returned to proposing group for corrections (proposed)"
 msgid "icon_help_returned_to_proposing_group_proposed"
-msgstr ""
+msgstr "Returned to proposing group for corrections (proposed)"
 
 #. Default: "Waiting advices"
 msgid "icon_help_waiting_advices"
@@ -3351,7 +3351,7 @@ msgstr "The item has been duplicated and a link to the original item has been ke
 
 #. Default: "When an item is in one of the states you choose here, the Plone subgroup 'observers' of the group in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_group_in_charge_states_descr"
-msgstr ""
+msgstr "When an item is in one of the states you choose here, the Plone subgroup 'observers' of the group in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 
 #. Default: "This icon is shown in different places where different kind of item (college, council, ...) are shown together.  This is the case in the full text quick search displayed up right in the application, when selecting manually linked items or viewing linked items on the item view.  <span style='color: red;'>If you change this parameter, this will update the icon of each created items of this meeting configuration and this could take some time depending on number of items.  Do not change this during high use period!</span>"
 msgid "item_icon_color_descr"
@@ -3456,7 +3456,7 @@ msgstr "Item up workflow again"
 
 #. Default: "If checked, an item that contains given advices will no more be deletable, except by MeetingManagers and Managers."
 msgid "item_with_given_advice_is_not_deletable_descr"
-msgstr ""
+msgstr "If checked, an item that contains given advices will no more be deletable, except by MeetingManagers and Managers."
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of an item: either 'meetingitem_workflow', the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
 msgid "item_workflow_descr"
@@ -3476,7 +3476,7 @@ msgstr "Select here fields of the item that will be show/hidden when a user will
 
 #. Default: "Item templates managers"
 msgid "itemtemplatesmanagers"
-msgstr ""
+msgstr "Item templates managers"
 
 #. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "keep_access_to_item_when_advice_is_given_descr"
@@ -3484,7 +3484,7 @@ msgstr "When an advice has been given on an item, advisers of the given advice w
 
 #. Default: "By default when an item is sent to another configuration, advices are not kept.  If you check this box, advices will be inherited from original item, this mean that advices from original item will be displayed readonly on the new item but actually, informations are taken from original item.  You can select advices to keep in the field below."
 msgid "keep_advices_on_sent_to_other_mc_descr"
-msgstr ""
+msgstr "By default when an item is sent to another configuration, advices are not kept.  If you check this box, advices will be inherited from original item, this mean that advices from original item will be displayed readonly on the new item but actually, informations are taken from original item.  You can select advices to keep in the field below."
 
 #. Default: "If enabled, when an item is duplicated into or to this configuration, the 'to print?' information defined on cloned annexes will be kept.  If not enabled, the default defined here under is used."
 msgid "keep_original_to_print_of_cloned_items_descr"
@@ -3673,7 +3673,7 @@ msgstr "Select here items that are linked to this item.  These items will appear
 
 #. Default: "This field will still be editable by meeting managers when the item will be decided."
 msgid "marginal_notes_descr"
-msgstr ""
+msgstr "This field will still be editable by meeting managers when the item will be decided."
 
 #. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
 msgid "max_shown_available_items_descr"
@@ -3766,7 +3766,7 @@ msgstr "In order to perform this action, the meeting date must be in the past."
 
 #. Default: "Parameters of configuration influencing orders of insertion of item in the meeting"
 msgid "meeting_inserting_methods_help_msg_descr"
-msgstr ""
+msgstr "Parameters of configuration influencing orders of insertion of item in the meeting"
 
 # MeetingItem
 #. Default: "Meeting of"
@@ -4072,7 +4072,7 @@ msgstr "Attributes 'signatures' and 'signatories' can't be used together."
 
 #. Default: "No style POD template is currently defined."
 msgid "no_style_pod_folder"
-msgstr ""
+msgstr "No style POD template is currently defined."
 
 #. Default: "No subtypes defined."
 msgid "no_sub_types_defined"
@@ -4128,7 +4128,7 @@ msgstr "Specify here the full URL to reach on the external application. If you'r
 
 #. Default: "notify users able to view the element"
 msgid "notify_users_able_to_view_element"
-msgstr ""
+msgstr "notify users able to view the element"
 
 #. Default: "Observer"
 msgid "observer"
@@ -4633,11 +4633,11 @@ msgstr "Items to correct"
 
 #. Default: "Items to correct to validate"
 msgid "searchitemstocorrecttovalidate"
-msgstr ""
+msgstr "Items to correct to validate"
 
 #. Default: "Validable items"
 msgid "searchitemstocorrecttovalidateoffeveryreviewergroups"
-msgstr ""
+msgstr "Validable items"
 
 #. Default: "Items to pre validate"
 msgid "searchitemstoprevalidate"
@@ -4747,7 +4747,7 @@ msgstr "Show / hide persons"
 
 #. Default: "Show / hide poll type observations"
 msgid "show_or_hide_pollTypeObservations"
-msgstr ""
+msgstr "Show / hide poll type observations"
 
 #. Default: "A signatory can not be in the absents list."
 msgid "signatories_absents_mismatch"
@@ -4775,15 +4775,15 @@ msgstr "Colorize depending on state"
 
 #. Default: "Not allowed to add annex in this element"
 msgid "store_podtemplate_as_annex_can_not_add_annex"
-msgstr ""
+msgstr "Not allowed to add annex in this element"
 
 #. Default: "Can not store same a generated document as annex several times"
 msgid "store_podtemplate_as_annex_can_not_store_several_times"
-msgstr ""
+msgstr "Can not store same a generated document as annex several times"
 
 #. Default: "Stored ${number_of_annexes} annexes"
 msgid "stored_item_template_as_annex"
-msgstr ""
+msgstr "Stored ${number_of_annexes} annexes"
 
 #. Default: "You can not remove a sub type that has already been used in the application.  You removed the sub type with title '${sub_type_title}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate a sub type, you can uncheck the 'Active?' check box."
 msgid "sub_type_can_not_remove_used_row"
@@ -4931,7 +4931,7 @@ msgstr "Back to previous given advice"
 
 #. Default: "There are too much categories to display."
 msgid "too_many_categories_use_folder_contents"
-msgstr ""
+msgstr "There are too much categories to display."
 
 #. Default: "Other parameters"
 msgid "tool_plonemeeting_misc"
@@ -5067,15 +5067,15 @@ msgstr "The copy groups set on the item"
 
 #. Default: "The group in charge"
 msgid "visible_for_reader_groupincharge"
-msgstr ""
+msgstr "The group in charge"
 
 #. Default: "The '${meeting_group_suffix}' of any group"
 msgid "visible_for_suffix_profile_"
-msgstr ""
+msgstr "The '${meeting_group_suffix}' of any group"
 
 #. Default: "The '${meeting_group_suffix}' of the proposing group"
 msgid "visible_for_suffix_proposing_group_"
-msgstr ""
+msgstr "The '${meeting_group_suffix}' of the proposing group"
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name 'item'). If it returns False, no vote may occur on the item."
 msgid "vote_condition_descr"
@@ -5223,7 +5223,7 @@ msgstr "Removed"
 
 #. Default: "Removed (and duplicated)"
 msgid "wa_removed_and_duplicated"
-msgstr ""
+msgstr "Removed (and duplicated)"
 
 #. Default: "You can not unselect the 'Archiving' adaptation, when selected, there is no way back."
 msgid "wa_removed_archiving_error"
@@ -5255,11 +5255,11 @@ msgstr "You can not unselect the 'Return to proposing group' adaptation as there
 
 #. Default: "You can not unselect the 'Return to proposing group with all validations' adaptation as there are still items in states 'returned to proposing group xxx'."
 msgid "wa_removed_return_to_proposing_group_with_all_validations_error"
-msgstr ""
+msgstr "You can not unselect the 'Return to proposing group with all validations' adaptation as there are still items in states 'returned to proposing group xxx'."
 
 #. Default: "You can not unselect the 'Return to proposing group with last validation' adaptation as there are still items in states 'returned to proposing group xxx'."
 msgid "wa_removed_return_to_proposing_group_with_last_validation_error"
-msgstr ""
+msgstr "You can not unselect the 'Return to proposing group with last validation' adaptation as there are still items in states 'returned to proposing group xxx'."
 
 #. Default: "You can not unselect the 'Wait advices' adaptation as there are still items in state 'wait advices'."
 msgid "wa_removed_waiting_advices_error"
@@ -5271,15 +5271,15 @@ msgstr "Return to proposing group for corrections"
 
 #. Default: "Return to proposing group for corrections with all validations"
 msgid "wa_return_to_proposing_group_with_all_validations"
-msgstr ""
+msgstr "Return to proposing group for corrections with all validations"
 
 #. Default: "Return to proposing group for corrections with one validation (the last)"
 msgid "wa_return_to_proposing_group_with_last_validation"
-msgstr ""
+msgstr "Return to proposing group for corrections with one validation (the last)"
 
 #. Default: "Reviewers may take back validated item"
 msgid "wa_reviewers_take_back_validated_item"
-msgstr ""
+msgstr "Reviewers may take back validated item"
 
 #. Default: "Wait advices"
 msgid "wa_waiting_advices"
