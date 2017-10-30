@@ -2149,6 +2149,14 @@ msgstr "Chaque point, au sein de cette configuration de séance, peut appartenir
 msgid "categories_folder_contents_view"
 msgstr "la vue \"Contenus\""
 
+#. Default: "force display"
+msgid "categories_force_display"
+msgstr "forcer l'affichage"
+
+#. Default: "You can ${force_display} of every categories (may take some time)."
+msgid "categories_force_display_descr"
+msgstr "Vous pouvez ${force_display} des catégories (ceci peut prendre un certain temps)."
+
 #. Default: "You may use the ${folder_contents_link} to manage categories."
 msgid "categories_use_folder_contents"
 msgstr "Vous pouvez utiliser ${folder_contents_link} pour gérer les catégories."
