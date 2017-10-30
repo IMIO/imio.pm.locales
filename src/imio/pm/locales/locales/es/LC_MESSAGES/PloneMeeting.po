@@ -2157,6 +2157,22 @@ msgstr "Esta eliminación tal ves no ocurrió. Posibles razones: usted trato de 
 msgid "categories_descr"
 msgstr "Cada tema, con este configuración de reunión, puede solamente seguir una categoría. Esas categorías son definidas aquí (por un título y una descripción). El orden como ellas aparecerán en esta carpeta es importante. En verdad, si nosotros hacemos la suposición que usted desea eso (eso depende de un parámetro que usted tal ves modificará en la sección 'Datos'), cuando un tema es agregado a una reunión, ese puede ser insertado al fin de los temas siguientes a la misma categoría, esos temas inician entonces insertando en un lugar que correspondan la posición de sus categorías en medio de la lista de categorías definidas aquí. Dicho esto, si usted le dice a PloneMeeting que quiere usar los grupos de PloneMeeting como categorías (otros parámetros de la sección 'Datos'), las categorías definidas aquí será ignoradas."
 
+#. Default: "the \"Folder contents view\""
+msgid "categories_folder_contents_view"
+msgstr ""
+
+#. Default: "force display"
+msgid "categories_force_display"
+msgstr ""
+
+#. Default: "You can ${force_display} of every categories (may take some time)."
+msgid "categories_force_display_descr"
+msgstr ""
+
+#. Default: "You may use the ${folder_contents_link} to manage categories."
+msgid "categories_use_folder_contents"
+msgstr ""
+
 #. Default: "Choose here some identifier for your category."
 msgid "category_category_id_descr"
 msgstr "Elija aquí algunos identificadores para su categoría."
@@ -4969,6 +4985,10 @@ msgstr ""
 
 #. Default: "Back to previous given advice"
 msgid "to_previous_given_advice"
+msgstr ""
+
+#. Default: "There are too much categories to display."
+msgid "too_many_categories_use_folder_contents"
 msgstr ""
 
 #. Default: "Other parameters"

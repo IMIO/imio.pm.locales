@@ -2149,6 +2149,22 @@ msgstr "Löschen nicht möglich. Mögliche Ursachen: Sie versuchen eine Sitzung 
 msgid "categories_descr"
 msgstr "Jeder TOP in dieser Sitzungs-Konfiguration kann nur zu einer Kategorie gehören. Die Kategorien werden hier mit einem Titel und einer Beschreibung definiert. Die Reihenfolge in der sie in diesem Ordner erscheinen ist wichtig. XXX"
 
+#. Default: "the \"Folder contents view\""
+msgid "categories_folder_contents_view"
+msgstr ""
+
+#. Default: "force display"
+msgid "categories_force_display"
+msgstr ""
+
+#. Default: "You can ${force_display} of every categories (may take some time)."
+msgid "categories_force_display_descr"
+msgstr ""
+
+#. Default: "You may use the ${folder_contents_link} to manage categories."
+msgid "categories_use_folder_contents"
+msgstr ""
+
 #. Default: "Choose here some identifier for your category."
 msgid "category_category_id_descr"
 msgstr "Wählen Sie hier einen Wert für die Kategorie aus."
@@ -4941,6 +4957,10 @@ msgstr ""
 
 #. Default: "Back to previous given advice"
 msgid "to_previous_given_advice"
+msgstr ""
+
+#. Default: "There are too much categories to display."
+msgid "too_many_categories_use_folder_contents"
 msgstr ""
 
 #. Default: "Other parameters"
