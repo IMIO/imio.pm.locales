@@ -4197,6 +4197,14 @@ msgstr "Par point A évoquer en séance? (A évoquer en séance? et ensuite pas 
 msgid "on_transition_field_transforms_descr"
 msgstr "Lorsqu'une transition de workflow est effectuée sur un point, vous pouvez renseigner une expression TAL qui adaptera une des zones de texte riche de ce point."
 
+#. Default: "Only selectable by MeetingManagers"
+msgid "only_for_meeting_managers"
+msgstr "Sélectionnable uniquement par les gestionnaires de séances?"
+
+#. Default: "If checked, this annex type will only be selectable by MeetingManagers."
+msgid "only_for_meeting_managers_descr"
+msgstr "Ce type d'annexe ne sera affiché dans la liste déroulante de sélection sur une annexe que par les gestionnaires de séances."
+
 #. Default: "Some users want to open annexes in separate windows. Indeed, when the user is consulting a meeting with paginated lists of items, clicking on an annex for downloading it may replace the current page with the annex content if the browser is configured for doing so (in conjunction with a plug-in for viewing PDFs inside the browser for example). In this case, the user is forced to click on 'back' to view the list again. It has 2 disadvantages: the list is refreshed (which slows down the system), and the user is redirected to the first items instead of the page he consulted just before the download."
 msgid "open_annexes_in_separate_windows_descr"
 msgstr "Certains utilisateurs veulent ouvrir les annexes dans des fenêres séparées. En effet, quand l'utilisateur consulte une séance qui contient des listes paginées de points, un clic sur une annexe pour la télécharger peut remplacer la page courante par le contenu de l'annexe si le navigateur est configuré pour agir de la sorte (en conjonction avec un greffon permettant de visualiser les PDFs au sein du navigateur par exemple). Dans ce cas, l'utilisateur est obligé de cliquer sur 'Back' pour voir à nouveau la liste des points. Cela a 2 désavantages: la liste est rafraîchie (ce qui ralentit le système) et l'utilisateur est redirigé vers les premiers points de la liste au lieu de l'endroit qu'il a quitté juste avant le téléchargement."

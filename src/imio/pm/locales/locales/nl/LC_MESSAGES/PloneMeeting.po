@@ -4216,6 +4216,14 @@ msgstr ""
 msgid "on_transition_field_transforms_descr"
 msgstr ""
 
+#. Default: "Only selectable by MeetingManagers"
+msgid "only_for_meeting_managers"
+msgstr ""
+
+#. Default: "If checked, this annex type will only be selectable by MeetingManagers."
+msgid "only_for_meeting_managers_descr"
+msgstr ""
+
 #. Default: "Some users want to open annexes in separate windows. Indeed, when the user is consulting a meeting with paginated lists of items, clicking on an annex for downloading it may replace the current page with the annex content if the browser is configured for doing so (in conjunction with a plug-in for viewing PDFs inside the browser for example). In this case, the user is forced to click on 'back' to view the list again. It has 2 disadvantages: the list is refreshed (which slows down the system), and the user is redirected to the first items instead of the page he consulted just before the download."
 msgid "open_annexes_in_separate_windows_descr"
 msgstr ""
