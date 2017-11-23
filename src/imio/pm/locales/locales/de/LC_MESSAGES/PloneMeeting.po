@@ -1087,6 +1087,10 @@ msgstr ""
 msgid "PloneMeeting_label_meetingFolderTitle"
 msgstr "Titel des Ordners den PloneMeeting in den Nutzer-Ordnern anlegt"
 
+#. Default: "POD template to store as annex from the meeting"
+msgid "PloneMeeting_label_meetingItemTemplateToStoreAsAnnex"
+msgstr ""
+
 #. Default: "Meeting number (sequence number automatically attributed)"
 msgid "PloneMeeting_label_meetingNumber"
 msgstr "Sitzungsnummer (autmatische zugeordnete Sequenznummer)"
@@ -3804,6 +3808,10 @@ msgstr "Um diesen Befehl auszuführen, muss das Datum dieser Sitzung in der Verg
 
 #. Default: "Parameters of configuration influencing orders of insertion of item in the meeting"
 msgid "meeting_inserting_methods_help_msg_descr"
+msgstr ""
+
+#. Default: "This enable an action on the meeting to be able to store as annex a particluar POD template if field \"Store this POD template as annex\" is defined on a POD template."
+msgid "meeting_item_template_to_store_as_annex_descr"
 msgstr ""
 
 # MeetingItem

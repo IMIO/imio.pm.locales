@@ -1093,6 +1093,10 @@ msgstr "Configuraciones de reuniones para clonar los temas hacia"
 msgid "PloneMeeting_label_meetingFolderTitle"
 msgstr "Título de la carpeta que crea PloneMeeting en casa carpeta de usuario"
 
+#. Default: "POD template to store as annex from the meeting"
+msgid "PloneMeeting_label_meetingItemTemplateToStoreAsAnnex"
+msgstr ""
+
 #. Default: "Meeting number (sequence number automatically attributed)"
 msgid "PloneMeeting_label_meetingNumber"
 msgstr "Número de reuniones (secuencia de números atribuidos automáticamente)"
@@ -3828,6 +3832,10 @@ msgstr "Con el fin de realizar esta acción, la fecha de la reunión debe estar 
 
 #. Default: "Parameters of configuration influencing orders of insertion of item in the meeting"
 msgid "meeting_inserting_methods_help_msg_descr"
+msgstr ""
+
+#. Default: "This enable an action on the meeting to be able to store as annex a particluar POD template if field \"Store this POD template as annex\" is defined on a POD template."
+msgid "meeting_item_template_to_store_as_annex_descr"
 msgstr ""
 
 # MeetingItem
