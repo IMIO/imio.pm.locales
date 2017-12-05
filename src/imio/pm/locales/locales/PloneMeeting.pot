@@ -2419,6 +2419,10 @@ msgstr ""
 msgid "wa_removed_removed_error"
 msgstr ""
 
+#. Default: "You can not unselect the 'Refused' adaptation as there are still items in state 'refused'."
+msgid "wa_removed_refused_error"
+msgstr ""
+
 #. Default: "You can not unselect the 'Wait advices' adaptation as there are still items in state 'wait advices'."
 msgid "wa_removed_waiting_advices_error"
 msgstr ""
@@ -2461,6 +2465,10 @@ msgstr ""
 
 #. Default: "Removed"
 msgid "wa_removed"
+msgstr ""
+
+#. Default: "Refused"
+msgid "wa_refused"
 msgstr ""
 
 #. Default: "Removed (and duplicated)"

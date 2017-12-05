@@ -5246,6 +5246,10 @@ msgstr "Item pre-validation"
 msgid "wa_pre_validation_keep_reviewer_permissions"
 msgstr "Item pre-validation (reviewer may also prevalidate)"
 
+#. Default: "Refused"
+msgid "wa_refused"
+msgstr ""
+
 #. Default: "Removed"
 msgid "wa_removed"
 msgstr "Removed"
@@ -5273,6 +5277,10 @@ msgstr "You can not unselect the 'Postpone next meeting' adaptation as there are
 #. Default: "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
 msgid "wa_removed_pre_validation_error"
 msgstr "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
+
+#. Default: "You can not unselect the 'Refused' adaptation as there are still items in state 'refused'."
+msgid "wa_removed_refused_error"
+msgstr ""
 
 #. Default: "You can not unselect the 'Removed' adaptation as there are still items in state 'removed'."
 msgid "wa_removed_removed_error"

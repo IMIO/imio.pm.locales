@@ -5244,6 +5244,10 @@ msgstr "Pré-validation des points"
 msgid "wa_pre_validation_keep_reviewer_permissions"
 msgstr "Pré-validation des points (un validateur peut aussi pré-valider)"
 
+#. Default: "Refused"
+msgid "wa_refused"
+msgstr "Ajouter l'état de décision 'Refusé' sur un point"
+
 #. Default: "Removed"
 msgid "wa_removed"
 msgstr "Ajouter l'état de décision 'Retiré' sur un point"
@@ -5271,6 +5275,10 @@ msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Reporter le point à l
 #. Default: "You can not unselect the 'Prevalidation' adaptation as there are still items in state 'prevalidated'."
 msgid "wa_removed_pre_validation_error"
 msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Pré-validation des points' car il reste des points dans l'état 'pré-validé' ou des points dans l'état 'Renvoyé au groupe proposant pour corrections (pré-validé)'."
+
+#. Default: "You can not unselect the 'Refused' adaptation as there are still items in state 'refused'."
+msgid "wa_removed_refused_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation 'Ajouter l'état de décision 'Refusé' sur un point' car il reste des points dans l'état 'Refusé'."
 
 #. Default: "You can not unselect the 'Removed' adaptation as there are still items in state 'removed'."
 msgid "wa_removed_removed_error"
