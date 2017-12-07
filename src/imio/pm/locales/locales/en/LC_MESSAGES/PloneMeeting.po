@@ -1936,9 +1936,17 @@ msgstr "<span style='color: red;'>Annexes preview is disabled in the ${documentv
 msgid "annexes_preview_enabled"
 msgstr "<span style='color: green;'>Annexes preview is enabled in the ${documentviewer_url}.</span>"
 
+#. Default: "Signed annexes"
+msgid "annexes_signed_term"
+msgstr ""
+
 #. Default: "Annexes to print"
 msgid "annexes_to_print_term"
 msgstr "Annexes to print"
+
+#. Default: "Annexes to sign"
+msgid "annexes_to_sign_term"
+msgstr ""
 
 #. Default: "Are you sure?"
 msgid "are_you_sure"
@@ -4009,6 +4017,10 @@ msgstr "No annex is currently defined for this element."
 #. Default: "No annexes to print"
 msgid "no_annexes_to_print_term"
 msgstr "No annexes to print"
+
+#. Default: "Annexes not to sign"
+msgid "no_annexes_to_sign_term"
+msgstr ""
 
 #. Default: "Attributes 'assembly' and 'attendees' can't be used together."
 msgid "no_assembly_and_attendees"

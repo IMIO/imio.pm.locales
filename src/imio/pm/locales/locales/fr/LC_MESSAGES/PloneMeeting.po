@@ -1936,9 +1936,17 @@ msgstr "<span style='color: red;'>La prévisualisation des annexes est désactiv
 msgid "annexes_preview_enabled"
 msgstr "<span style='color: green;'>La prévisualisation des annexes est activée dans les '${documentviewer_url}' (la case 'Convertir automatiquement' est cochée).</span>"
 
+#. Default: "Signed annexes"
+msgid "annexes_signed_term"
+msgstr "Annexes signées"
+
 #. Default: "Annexes to print"
 msgid "annexes_to_print_term"
 msgstr "Annexes à imprimer"
+
+#. Default: "Annexes to sign"
+msgid "annexes_to_sign_term"
+msgstr "Annexes à signer"
 
 #. Default: "Are you sure?"
 msgid "are_you_sure"
@@ -4007,6 +4015,10 @@ msgstr "Aucune."
 #. Default: "No annexes to print"
 msgid "no_annexes_to_print_term"
 msgstr "Aucune annexe à imprimer"
+
+#. Default: "Annexes not to sign"
+msgid "no_annexes_to_sign_term"
+msgstr "Annexes à ne pas signer"
 
 #. Default: "Attributes 'assembly' and 'attendees' can't be used together."
 msgid "no_assembly_and_attendees"
