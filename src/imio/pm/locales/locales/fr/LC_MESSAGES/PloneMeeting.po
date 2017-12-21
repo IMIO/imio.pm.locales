@@ -4812,17 +4812,21 @@ msgstr "Coloriser suivant l'état du workflow"
 msgid "store_as_annex_type_title"
 msgstr "Stocker en tant qu'annexe de type \"${annex_type_title}\"."
 
-#. Default: "Not allowed to add annex in this element"
+#. Default: "Not allowed to add annex in this element."
 msgid "store_podtemplate_as_annex_can_not_add_annex"
-msgstr "Vous n'avez pas la permission d'ajouter une annexe à cet élément"
+msgstr "Vous n'avez pas la permission d'ajouter une annexe à cet élément."
 
-#. Default: "Can not store same a generated document as annex several times"
+#. Default: "Can not store same a generated document as annex several times."
 msgid "store_podtemplate_as_annex_can_not_store_several_times"
-msgstr "Impossible de stocker plusieurs fois le même document généré"
+msgstr "Impossible de stocker plusieurs fois le même document généré."
 
-#. Default: "Stored ${number_of_annexes} annexes"
+#. Default: "Can not store annex using annex type selected in the configuration.  Please contact the system administrator."
+msgid "store_podtemplate_as_annex_wrong_annex_type_on_pod_template"
+msgstr "Impossible de stocker l'annexe en utilisant le type d'annexe défini dans la configuration.  Contactez votre administrateur système."
+
+#. Default: "Stored ${number_of_annexes} annexes."
 msgid "stored_item_template_as_annex"
-msgstr "${number_of_annexes} annexe(s) a(ont) été stockée(s)"
+msgstr "${number_of_annexes} annexe(s) a(ont) été stockée(s)."
 
 #. Default: "You can not remove a sub type that has already been used in the application.  You removed the sub type with title '${sub_type_title}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate a sub type, you can uncheck the 'Active?' check box."
 msgid "sub_type_can_not_remove_used_row"

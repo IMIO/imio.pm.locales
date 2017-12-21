@@ -4814,15 +4814,22 @@ msgstr "Colorize depending on state"
 msgid "store_as_annex_type_title"
 msgstr ""
 
-#. Default: "Not allowed to add annex in this element"
+#. Default: "Not allowed to add annex in this element."
+#, fuzzy
 msgid "store_podtemplate_as_annex_can_not_add_annex"
 msgstr "Not allowed to add annex in this element"
 
-#. Default: "Can not store same a generated document as annex several times"
+#. Default: "Can not store same a generated document as annex several times."
+#, fuzzy
 msgid "store_podtemplate_as_annex_can_not_store_several_times"
 msgstr "Can not store same a generated document as annex several times"
 
-#. Default: "Stored ${number_of_annexes} annexes"
+#. Default: "Can not store annex using annex type selected in the configuration.  Please contact the system administrator."
+msgid "store_podtemplate_as_annex_wrong_annex_type_on_pod_template"
+msgstr ""
+
+#. Default: "Stored ${number_of_annexes} annexes."
+#, fuzzy
 msgid "stored_item_template_as_annex"
 msgstr "Stored ${number_of_annexes} annexes"
 
