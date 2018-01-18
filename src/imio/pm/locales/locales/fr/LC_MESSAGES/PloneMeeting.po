@@ -2353,6 +2353,14 @@ msgstr "Si cette configuration de séance correspond à une organisation, un org
 msgid "considered_not_given_hidden_during_redaction"
 msgstr "Considéré 'Non rendu'"
 
+#. Default: "The item is entitled '${itemTitle}'. You an access this item here: ${objectUrl}."
+msgid "copyGroups_mail_body"
+msgstr "L'objet du point est '${itemTitle}'. Accédez au point ici: ${objectUrl}."
+
+#. Default: "${meetingConfigTitle} - You have been carbon copied the item '${itemTitle}'."
+msgid "copyGroups_mail_subject"
+msgstr "${meetingConfigTitle} - Vous avez été mis en copie du point '${itemTitle}'."
+
 #. Default: " "
 msgid "copy_groups_item_descr"
 msgstr " "
@@ -2702,6 +2710,10 @@ msgstr "Un avis a été invalidé sur un point (prévient l'auteur de l'avis)"
 #. Default: "An item as been cloned to this meetingConfig (notify users able to edit the new item)"
 msgid "event_item_clone_to_this_mc"
 msgstr "Un point a été envoyé vers cette configuration de séance (prévient les utilisateurs capables d'éditer le nouveau point)"
+
+#. Default: "An item is now visible by copy groups (notify members of the copy groups)"
+msgid "event_item_copy_groups"
+msgstr "Un point est désormais visible par les groupes en copies (prévient les membres des groupes mis en copie)"
 
 #. Default: "An item has been delayed (notify the 'Owner')"
 msgid "event_item_delayed"

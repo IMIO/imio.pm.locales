@@ -2357,6 +2357,14 @@ msgstr "If this meeting configuration corresponds to an organization, institutio
 msgid "considered_not_given_hidden_during_redaction"
 msgstr ""
 
+#. Default: "The item is entitled '${itemTitle}'. You an access this item here: ${objectUrl}."
+msgid "copyGroups_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - You have been carbon copied the item '${itemTitle}'."
+msgid "copyGroups_mail_subject"
+msgstr ""
+
 #. Default: " "
 msgid "copy_groups_item_descr"
 msgstr "Selekteer hier de groepen die in staat zullen zijn dit punt te zien"
@@ -2706,6 +2714,10 @@ msgstr ""
 
 #. Default: "An item as been cloned to this meetingConfig (notify users able to edit the new item)"
 msgid "event_item_clone_to_this_mc"
+msgstr ""
+
+#. Default: "An item is now visible by copy groups (notify members of the copy groups)"
+msgid "event_item_copy_groups"
 msgstr ""
 
 #. Default: "An item has been delayed (notify the 'Owner')"

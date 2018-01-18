@@ -2366,6 +2366,14 @@ msgstr "Si esta configuración de reunión corresponde a una organización, inst
 msgid "considered_not_given_hidden_during_redaction"
 msgstr ""
 
+#. Default: "The item is entitled '${itemTitle}'. You an access this item here: ${objectUrl}."
+msgid "copyGroups_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - You have been carbon copied the item '${itemTitle}'."
+msgid "copyGroups_mail_subject"
+msgstr ""
+
 #. Default: " "
 msgid "copy_groups_item_descr"
 msgstr "Seleccione aquí los grupos que podrán ver este tema"
@@ -2722,6 +2730,10 @@ msgstr "Una consejo en un tema ha sido invalidada"
 #, fuzzy
 msgid "event_item_clone_to_this_mc"
 msgstr "Un tema ha sido clonado a esta configuración de reunión"
+
+#. Default: "An item is now visible by copy groups (notify members of the copy groups)"
+msgid "event_item_copy_groups"
+msgstr ""
 
 #. Default: "An item has been delayed (notify the 'Owner')"
 #, fuzzy

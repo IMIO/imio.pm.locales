@@ -2715,6 +2715,10 @@ msgstr ""
 msgid "event_item_returned_to_meeting_managers"
 msgstr ""
 
+#. Default: "An item is now visible by copy groups (notify members of the copy groups)"
+msgid "event_item_copy_groups"
+msgstr ""
+
 #. Default: "notify users able to view the element"
 msgid "notify_users_able_to_view_element"
 msgstr ""
@@ -3633,6 +3637,14 @@ msgstr ""
 
 #. Default: "Please consult the attached document."
 msgid "podMeetingByMail_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - You have been carbon copied the item '${itemTitle}'."
+msgid "copyGroups_mail_subject"
+msgstr ""
+
+#. Default: "The item is entitled '${itemTitle}'. You an access this item here: ${objectUrl}."
+msgid "copyGroups_mail_body"
 msgstr ""
 
 # Other
