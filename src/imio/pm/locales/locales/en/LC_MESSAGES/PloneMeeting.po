@@ -1087,7 +1087,7 @@ msgstr "Title of the folder created in each user folder"
 
 #. Default: "POD template to store as annex from the meeting"
 msgid "PloneMeeting_label_meetingItemTemplateToStoreAsAnnex"
-msgstr ""
+msgstr "POD template to store as annex from the meeting"
 
 #. Default: "Meeting number (sequence number automatically attributed)"
 msgid "PloneMeeting_label_meetingNumber"
@@ -1938,7 +1938,7 @@ msgstr "<span style='color: green;'>Annexes preview is enabled in the ${document
 
 #. Default: "Signed annexes"
 msgid "annexes_signed_term"
-msgstr ""
+msgstr "Signed annexes"
 
 #. Default: "Annexes to print"
 msgid "annexes_to_print_term"
@@ -1946,7 +1946,7 @@ msgstr "Annexes to print"
 
 #. Default: "Annexes to sign"
 msgid "annexes_to_sign_term"
-msgstr ""
+msgstr "Annexes to sign"
 
 #. Default: "Are you sure?"
 msgid "are_you_sure"
@@ -2163,14 +2163,13 @@ msgstr "the \"Folder contents view\""
 
 #. Default: "force display"
 msgid "categories_force_display"
-msgstr ""
+msgstr "force display"
 
 #. Default: "You can ${force_display} of every categories (may take some time)."
 msgid "categories_force_display_descr"
-msgstr ""
+msgstr "You can ${force_display} of every categories (may take some time)."
 
 #. Default: "You may use the ${folder_contents_link} to manage categories."
-#, fuzzy
 msgid "categories_use_folder_contents"
 msgstr "You may use the ${folder_contents_link} to manage categories."
 
@@ -2354,13 +2353,13 @@ msgstr "If this meeting configuration corresponds to an organization, institutio
 msgid "considered_not_given_hidden_during_redaction"
 msgstr "Considered not given because hidden during redaction"
 
-#. Default: "The item is entitled '${itemTitle}'. You an access this item here: ${objectUrl}."
+#. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "copyGroups_mail_body"
-msgstr ""
+msgstr "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - You have been carbon copied the item '${itemTitle}'."
 msgid "copyGroups_mail_subject"
-msgstr ""
+msgstr "${meetingConfigTitle} - You have been carbon copied the item '${itemTitle}'."
 
 #. Default: " "
 msgid "copy_groups_item_descr"
@@ -2714,7 +2713,7 @@ msgstr "An item as been cloned to this meetingConfig (notify users able to edit 
 
 #. Default: "An item is now visible by copy groups (notify members of the copy groups)"
 msgid "event_item_copy_groups"
-msgstr ""
+msgstr "An item is now visible by copy groups (notify members of the copy groups)"
 
 #. Default: "An item has been delayed (notify the 'Owner')"
 msgid "event_item_delayed"
@@ -3803,7 +3802,7 @@ msgstr "Parameters of configuration influencing orders of insertion of item in t
 
 #. Default: "This enable an action on the meeting to be able to store as annex a particluar POD template if field \"Store this POD template as annex\" is defined on a POD template."
 msgid "meeting_item_template_to_store_as_annex_descr"
-msgstr ""
+msgstr "This enable an action on the meeting to be able to store as annex a particluar POD template if field \"Store this POD template as annex\" is defined on a POD template."
 
 # MeetingItem
 #. Default: "Meeting of"
@@ -4032,7 +4031,7 @@ msgstr "No annexes to print"
 
 #. Default: "Annexes not to sign"
 msgid "no_annexes_to_sign_term"
-msgstr ""
+msgstr "Annexes not to sign"
 
 #. Default: "Attributes 'assembly' and 'attendees' can't be used together."
 msgid "no_assembly_and_attendees"
@@ -4233,11 +4232,11 @@ msgstr "When a workflow transition occur, you can define for every rich text fie
 
 #. Default: "Only selectable by MeetingManagers"
 msgid "only_for_meeting_managers"
-msgstr ""
+msgstr "Only selectable by MeetingManagers"
 
 #. Default: "If checked, this annex type will only be selectable by MeetingManagers."
 msgid "only_for_meeting_managers_descr"
-msgstr ""
+msgstr "If checked, this annex type will only be selectable by MeetingManagers."
 
 #. Default: "Some users want to open annexes in separate windows. Indeed, when the user is consulting a meeting with paginated lists of items, clicking on an annex for downloading it may replace the current page with the annex content if the browser is configured for doing so (in conjunction with a plug-in for viewing PDFs inside the browser for example). In this case, the user is forced to click on 'back' to view the list again. It has 2 disadvantages: the list is refreshed (which slows down the system), and the user is redirected to the first items instead of the page he consulted just before the download."
 msgid "open_annexes_in_separate_windows_descr"
@@ -4824,26 +4823,23 @@ msgstr "Colorize depending on state"
 
 #. Default: "Store as annex of type ${annex_type_title}."
 msgid "store_as_annex_type_title"
-msgstr ""
+msgstr "Store as annex of type ${annex_type_title}."
 
 #. Default: "Not allowed to add annex in this element."
-#, fuzzy
 msgid "store_podtemplate_as_annex_can_not_add_annex"
-msgstr "Not allowed to add annex in this element"
+msgstr "Not allowed to add annex in this element."
 
 #. Default: "Can not store same a generated document as annex several times."
-#, fuzzy
 msgid "store_podtemplate_as_annex_can_not_store_several_times"
-msgstr "Can not store same a generated document as annex several times"
+msgstr "Can not store same a generated document as annex several times."
 
 #. Default: "Can not store annex using annex type selected in the configuration.  Please contact the system administrator."
 msgid "store_podtemplate_as_annex_wrong_annex_type_on_pod_template"
-msgstr ""
+msgstr "Can not store annex using annex type selected in the configuration.  Please contact the system administrator."
 
 #. Default: "Stored ${number_of_annexes} annexes."
-#, fuzzy
 msgid "stored_item_template_as_annex"
-msgstr "Stored ${number_of_annexes} annexes"
+msgstr "Stored ${number_of_annexes} annexes."
 
 #. Default: "You can not remove a sub type that has already been used in the application.  You removed the sub type with title '${sub_type_title}', it is in use for example by item at ${item_url}.  Please add it back (or click on the 'Edit' tab here above to retrieve old values).  If you need to deactivate a sub type, you can uncheck the 'Active?' check box."
 msgid "sub_type_can_not_remove_used_row"
@@ -5279,7 +5275,7 @@ msgstr "Item pre-validation (reviewer may also prevalidate)"
 
 #. Default: "Refused"
 msgid "wa_refused"
-msgstr ""
+msgstr "Refused"
 
 #. Default: "Removed"
 msgid "wa_removed"
@@ -5311,7 +5307,7 @@ msgstr "You can not unselect the 'Prevalidation' adaptation as there are still i
 
 #. Default: "You can not unselect the 'Refused' adaptation as there are still items in state 'refused'."
 msgid "wa_removed_refused_error"
-msgstr ""
+msgstr "You can not unselect the 'Refused' adaptation as there are still items in state 'refused'."
 
 #. Default: "You can not unselect the 'Removed' adaptation as there are still items in state 'removed'."
 msgid "wa_removed_removed_error"
