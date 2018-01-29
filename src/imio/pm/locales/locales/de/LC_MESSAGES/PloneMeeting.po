@@ -712,6 +712,10 @@ msgstr "Ungültig setzen von Kommentaren zulassen"
 msgid "PloneMeeting_label_enableItemDuplication"
 msgstr ""
 
+#. Default: "Enable labels"
+msgid "PloneMeeting_label_enableLabels"
+msgstr ""
+
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
 msgstr ""
@@ -2092,10 +2096,6 @@ msgstr ""
 msgid "boolean_value_true"
 msgstr ""
 
-#. Default: "Budgetary informations (in the 'Purpose' column)"
-msgid "budget_infos_column"
-msgstr ""
-
 #. Default: "This item is not budget related."
 msgid "budget_related_no_edit"
 msgstr ""
@@ -2628,6 +2628,10 @@ msgstr ""
 
 #. Default: "If enabled, item creators will have access to actions 'Duplicate' and 'Duplicate and keep link' on an item making it possible to easily create an item from another existing item."
 msgid "enable_item_duplication_descr"
+msgstr ""
+
+#. Default: "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
+msgid "enable_labels_descr"
 msgstr ""
 
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
@@ -3458,10 +3462,6 @@ msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_powerobservers_states_descr"
-msgstr ""
-
-#. Default: "Item reference (in the 'Purpose' column)"
-msgid "item_reference_column"
 msgstr ""
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements 'item' (also available as 'here') and 'meeting' are available in the expression."

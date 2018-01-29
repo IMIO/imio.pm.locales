@@ -712,6 +712,10 @@ msgstr "Activer l'invalidation des avis"
 msgid "PloneMeeting_label_enableItemDuplication"
 msgstr "Activer la duplication des points"
 
+#. Default: "Enable labels"
+msgid "PloneMeeting_label_enableLabels"
+msgstr "Activer les étiquettes"
+
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
 msgstr "Activer les préférences utilisateur"
@@ -2089,10 +2093,6 @@ msgstr "Non"
 msgid "boolean_value_true"
 msgstr "Oui"
 
-#. Default: "Budgetary informations (in the 'Purpose' column)"
-msgid "budget_infos_column"
-msgstr "Informations budgétaires (dans la colonne 'Objet')"
-
 #. Default: "This item is not budget related."
 msgid "budget_related_no_edit"
 msgstr "Ce point n'a aucune information budgétaire."
@@ -2625,6 +2625,10 @@ msgstr "Activé, pour impression automatisée (les annexes sont imprimées par l
 #. Default: "If enabled, item creators will have access to actions 'Duplicate' and 'Duplicate and keep link' on an item making it possible to easily create an item from another existing item."
 msgid "enable_item_duplication_descr"
 msgstr "Si activé, ceci permet à un créateur de point de créer un point sur base d'un autre point (en gardant un lien vers le point original ou non)."
+
+#. Default: "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
+msgid "enable_labels_descr"
+msgstr "Une fois activé, une boîte de configuration apparaîtra dans l'onglet \"[Données]\" permettant de renseigner les étiquettes qui pourront être sélectionnées sur un point."
 
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"
@@ -3436,10 +3440,6 @@ msgstr "Choisissez les états dans lesquels les points sont considérés \"déci
 #. Default: "When an item is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the item.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_powerobservers_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs' de cette configuration de séance.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
-
-#. Default: "Item reference (in the 'Purpose' column)"
-msgid "item_reference_column"
-msgstr "Référence du point (dans la colonne 'Objet')"
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements 'item' (also available as 'here') and 'meeting' are available in the expression."
 msgid "item_reference_format_descr"

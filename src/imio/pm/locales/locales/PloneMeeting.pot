@@ -572,14 +572,6 @@ msgstr ""
 msgid "annexes"
 msgstr ""
 
-#. Default: "Item reference (in the 'Purpose' column)"
-msgid "item_reference_column"
-msgstr ""
-
-#. Default: "Budgetary informations (in the 'Purpose' column)"
-msgid "budget_infos_column"
-msgstr ""
-
 #. Default: "Decision"
 msgid "decision"
 msgstr ""
@@ -2119,6 +2111,14 @@ msgstr ""
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements 'item' (also available as 'here') and 'meeting' are available in the expression."
 msgid "item_reference_format_descr"
+msgstr ""
+
+#. Default: "Enable labels"
+msgid "PloneMeeting_label_enableLabels"
+msgstr ""
+
+#. Default: "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
+msgid "enable_labels_descr"
 msgstr ""
 
 #. Default: "Sort order(s) to apply when adding an item to a meeting"
