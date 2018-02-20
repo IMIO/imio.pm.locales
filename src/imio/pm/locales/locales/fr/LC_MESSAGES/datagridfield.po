@@ -39,6 +39,14 @@ msgstr "Valide depuis le (inclus)"
 msgid "Certified signatures valid to (included)"
 msgstr "Valide jusqu'au (inclus)"
 
+#. Default: "Label"
+msgid "Config group label"
+msgstr "Libellé"
+
+#. Default: "Identifier (row_id)"
+msgid "Config group row id"
+msgstr "Identifiant (row_id)"
+
 #. Default: "Advice with delay label"
 msgid "Custom adviser delay label"
 msgstr "Libellé pour un avis avec délai"
@@ -74,6 +82,10 @@ msgstr "Encodez une libellé qui sera affiché dans l'application.  Ce libellé 
 #. Default: "Enter an internal identifier, use only lowercase letters."
 msgid "Enter an internal identifier, use only lowercase letters."
 msgstr "Encodez un identifiant interne à l'application, n'utilisez que des lettres minuscules."
+
+#. Default: "Enter the label that will be displayed in the application."
+msgid "Enter the label that will be displayed in the application."
+msgstr "Encodez le libellé qui sera affiché dans l'application."
 
 #. Default: "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgid "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."

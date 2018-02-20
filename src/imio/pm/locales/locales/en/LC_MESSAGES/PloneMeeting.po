@@ -584,6 +584,14 @@ msgstr "Observations for the committee"
 msgid "PloneMeeting_label_completeness"
 msgstr "Completeness"
 
+#. Default: "Group of meeting configurations"
+msgid "PloneMeeting_label_configGroup"
+msgstr "Group of meeting configurations"
+
+#. Default: "Groups of meeting configurations"
+msgid "PloneMeeting_label_configGroups"
+msgstr "Groups of meeting configurations"
+
 #. Default: "Identifier of this meeting configuration"
 msgid "PloneMeeting_label_configVersion"
 msgstr "Identifier of this meeting configuration"
@@ -714,7 +722,7 @@ msgstr "Enable item duplication"
 
 #. Default: "Enable labels"
 msgid "PloneMeeting_label_enableLabels"
-msgstr ""
+msgstr "Enable labels"
 
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
@@ -1644,6 +1652,10 @@ msgstr "You are about to change delay for this advice to ${new_advice_delay} day
 msgid "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
 msgstr "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
 
+#. Default: "Not grouped meeting configurations"
+msgid "_no_config_group_"
+msgstr "Not grouped meeting configurations"
+
 #. Default: "A meeting manager"
 msgid "a_meeting_manager"
 msgstr "A meeting manager"
@@ -2325,6 +2337,10 @@ msgstr "The power observers"
 msgid "confidential_for_restricted_power_observers"
 msgstr "The restricted power observers"
 
+#. Default: "You can not remove \"${config_group_title}\", it is used by the meeting configuration \"${cfg_title}\"!"
+msgid "configGroup_removed_in_use_error"
+msgstr "You can not remove \"${config_group_title}\", it is used by the meeting configuration \"${cfg_title}\"!"
+
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
 msgstr "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
@@ -2332,6 +2348,14 @@ msgstr "Define here some predefined text that will be present in field 'budget i
 #. Default: "Define here some predefined text that will be present in field 'motivation' every time a user creates a new item."
 msgid "config_default_meetingitem_motivation_descr"
 msgstr "Define here some predefined text that will be present in field 'motivation' every time a user creates a new item."
+
+#. Default: "Select the group of meeting configurations to use if any are defined in the Deliberations configuration panel."
+msgid "config_group_descr"
+msgstr "Select the group of meeting configurations to use if any are defined in the Deliberations configuration panel."
+
+#. Default: "This will let you group meeting configurations so it is displayed in a drop down menu in the application header.  This is useful when having a lot of active meeting configurations or when different meeting configurations exist for different contexts."
+msgid "config_groups_descr"
+msgstr "This will let you group meeting configurations so it is displayed in a drop down menu in the application header.  This is useful when having a lot of active meeting configurations or when different meeting configurations exist for different contexts."
 
 #. Default: "The default meeting configuration is the one the user is redirected to when logging in."
 msgid "config_is_default_descr"
@@ -2628,7 +2652,7 @@ msgstr "If enabled, item creators will have access to actions 'Duplicate' and 'D
 
 #. Default: "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
 msgid "enable_labels_descr"
-msgstr ""
+msgstr "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
 
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"
@@ -4050,6 +4074,10 @@ msgstr "No classifier is currently defined."
 msgid "no_color"
 msgstr "Do not colorize"
 
+#. Default: "None"
+msgid "no_config_group"
+msgstr "None"
+
 #. Default: "No emergency"
 msgid "no_emergency"
 msgstr "No emergency"
@@ -4429,10 +4457,6 @@ msgstr "Secret"
 #. Default: "Secret separated"
 msgid "polltype_secret_separated"
 msgstr "Secret separated"
-
-#. Default: "Manage"
-msgid "portlet_pm_header_label"
-msgstr "Manage"
 
 #. Default: "Positive"
 msgid "positive"
@@ -5011,7 +5035,7 @@ msgstr "This transition was triggered automatically while this item was sent to 
 
 #. Default: "WF transition ${state_info} (notify users able to view the element)."
 msgid "transition_event"
-msgstr ""
+msgstr "WF transition ${state_info} (notify users able to view the element)."
 
 #. Default: "Set here the sequence of transitions in the right order to be triggered on an item for it to be presented to a meeting.  The first transition is the one that starts from the initial state and the last transition should be 'present'.  This is used in several functionnalities like recurring items or items sent to another meeting config that need to be presented automatically."
 msgid "transitions_for_presenting_an_item_descr"

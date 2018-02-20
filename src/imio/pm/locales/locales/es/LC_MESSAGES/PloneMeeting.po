@@ -588,6 +588,14 @@ msgstr ""
 msgid "PloneMeeting_label_completeness"
 msgstr ""
 
+#. Default: "Group of meeting configurations"
+msgid "PloneMeeting_label_configGroup"
+msgstr ""
+
+#. Default: "Groups of meeting configurations"
+msgid "PloneMeeting_label_configGroups"
+msgstr ""
+
 #. Default: "Identifier of this meeting configuration"
 msgid "PloneMeeting_label_configVersion"
 msgstr "Identidad de esta configuración de reunión"
@@ -1653,6 +1661,10 @@ msgstr ""
 msgid "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
 msgstr ""
 
+#. Default: "Not grouped meeting configurations"
+msgid "_no_config_group_"
+msgstr ""
+
 #. Default: "A meeting manager"
 msgid "a_meeting_manager"
 msgstr "Un administrador de reunión"
@@ -2338,6 +2350,10 @@ msgstr ""
 msgid "confidential_for_restricted_power_observers"
 msgstr ""
 
+#. Default: "You can not remove \"${config_group_title}\", it is used by the meeting configuration \"${cfg_title}\"!"
+msgid "configGroup_removed_in_use_error"
+msgstr ""
+
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
 msgstr "Define aquí alguno texto predefinido que se presentará en el campo 'información presupuestaria' cada ves que un usuario crea un nuevo tema."
@@ -2345,6 +2361,14 @@ msgstr "Define aquí alguno texto predefinido que se presentará en el campo 'in
 #. Default: "Define here some predefined text that will be present in field 'motivation' every time a user creates a new item."
 msgid "config_default_meetingitem_motivation_descr"
 msgstr "Defina aquí un texto predefinido que estarán presentes en el campo de 'motivación' cada vez que un usuario crea un nuevo elemento."
+
+#. Default: "Select the group of meeting configurations to use if any are defined in the Deliberations configuration panel."
+msgid "config_group_descr"
+msgstr ""
+
+#. Default: "This will let you group meeting configurations so it is displayed in a drop down menu in the application header.  This is useful when having a lot of active meeting configurations or when different meeting configurations exist for different contexts."
+msgid "config_groups_descr"
+msgstr ""
 
 #. Default: "The default meeting configuration is the one the user is redirected to when logging in."
 msgid "config_is_default_descr"
@@ -4109,6 +4133,10 @@ msgstr "El clasificador no está definido."
 msgid "no_color"
 msgstr "Sin color"
 
+#. Default: "None"
+msgid "no_config_group"
+msgstr ""
+
 #. Default: "No emergency"
 msgid "no_emergency"
 msgstr ""
@@ -4492,10 +4520,6 @@ msgstr ""
 #. Default: "Secret separated"
 msgid "polltype_secret_separated"
 msgstr ""
-
-#. Default: "Manage"
-msgid "portlet_pm_header_label"
-msgstr "Administrar"
 
 #. Default: "Positive"
 msgid "positive"

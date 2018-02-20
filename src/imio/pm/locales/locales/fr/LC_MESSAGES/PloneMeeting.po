@@ -584,6 +584,14 @@ msgstr "Observations pour les commissions"
 msgid "PloneMeeting_label_completeness"
 msgstr "Complétude"
 
+#. Default: "Group of meeting configurations"
+msgid "PloneMeeting_label_configGroup"
+msgstr "Groupe de Configurations de séance"
+
+#. Default: "Groups of meeting configurations"
+msgid "PloneMeeting_label_configGroups"
+msgstr "Groupes de Configurations de séance"
+
 #. Default: "Identifier of this meeting configuration"
 msgid "PloneMeeting_label_configVersion"
 msgstr "Identifiant de la version de cette configuration"
@@ -1644,6 +1652,10 @@ msgstr "Vous êtes sur le point de changer le délai de cet avis pour ${new_advi
 msgid "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
 msgstr "Vous ne pouvez pas supprimer le groupe \"${group_id}\" car celui-ci est lié au groupe \"${meeting_group}\" défini dans la \"Configuration des délibérations\" !"
 
+#. Default: "Not grouped meeting configurations"
+msgid "_no_config_group_"
+msgstr "Configurations de séances non groupées"
+
 #. Default: "A meeting manager"
 msgid "a_meeting_manager"
 msgstr "Un gestionnaire de séance"
@@ -2325,6 +2337,10 @@ msgstr "Les super observateurs"
 msgid "confidential_for_restricted_power_observers"
 msgstr "Les super observateurs restreints"
 
+#. Default: "You can not remove \"${config_group_title}\", it is used by the meeting configuration \"${cfg_title}\"!"
+msgid "configGroup_removed_in_use_error"
+msgstr "Vous ne pouvez pas enlever le groupe de configurations \"${config_group_title}\", il est utilisé par la configuration de séance \"${cfg_title}\"!"
+
 #. Default: "Define here some predefined text that will be present in field 'budget information' every time a user creates a new item."
 msgid "config_budget_default_descr"
 msgstr "Définissez ici le texte prédéfini qui sera présent dans le champ 'Informations budgétaires' chaque fois qu'un utilisateur crée un nouveau point."
@@ -2332,6 +2348,14 @@ msgstr "Définissez ici le texte prédéfini qui sera présent dans le champ 'In
 #. Default: "Define here some predefined text that will be present in field 'motivation' every time a user creates a new item."
 msgid "config_default_meetingitem_motivation_descr"
 msgstr "Définissez ici le texte prédéfini qui sera présent dans le champ 'Motivation' chaque fois qu'un utilisateur crée un nouveau point."
+
+#. Default: "Select the group of meeting configurations to use if any are defined in the Deliberations configuration panel."
+msgid "config_group_descr"
+msgstr "Sélectionnez le groupe de Configurations de séance à utiliser parmi ceux définis au niveau de la \"Configuration des délibérations\"."
+
+#. Default: "This will let you group meeting configurations so it is displayed in a drop down menu in the application header.  This is useful when having a lot of active meeting configurations or when different meeting configurations exist for different contexts."
+msgid "config_groups_descr"
+msgstr "Ceci vous permettra de grouper des Configurations de séance afin des les afficher sous forme de menu déroulant dans le haut de l'application.  Ceci est utile lorsque vous avez de nombreuses Configurations de séance actives ou lorsque différentes Configurations de séances concernent différents contextes."
 
 #. Default: "The default meeting configuration is the one the user is redirected to when logging in."
 msgid "config_is_default_descr"
@@ -4049,6 +4073,10 @@ msgstr "Aucun classificateur n'est actuellement défini."
 msgid "no_color"
 msgstr "Ne pas coloriser"
 
+#. Default: "None"
+msgid "no_config_group"
+msgstr "Aucun"
+
 #. Default: "No emergency"
 msgid "no_emergency"
 msgstr "Aucune urgence souhaitée"
@@ -4428,10 +4456,6 @@ msgstr "Secret"
 #. Default: "Secret separated"
 msgid "polltype_secret_separated"
 msgstr "Secret séparé"
-
-#. Default: "Manage"
-msgid "portlet_pm_header_label"
-msgstr "Gestion"
 
 #. Default: "Positive"
 msgid "positive"

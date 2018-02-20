@@ -15,10 +15,6 @@ msgstr ""
 msgid "MeetingAdvice"
 msgstr ""
 
-#. Default: "Manage"
-msgid "portlet_pm_header_label"
-msgstr ""
-
 #. Default: "Assembly as defined on the linked meeting"
 msgid "assembly_defined_on_meeting"
 msgstr ""
@@ -5432,3 +5428,32 @@ msgstr ""
 #. Default: "WF transition ${state_info} (notify users able to view the element)."
 msgid "transition_event"
 msgstr ""
+
+#. Default: "Not grouped meeting configurations"
+msgid "_no_config_group_"
+msgstr ""
+
+#. Default: "You can not remove \"${config_group_title}\", it is used by the meeting configuration \"${cfg_title}\"!"
+msgid "configGroup_removed_in_use_error"
+msgstr ""
+
+#. Default: "Groups of meeting configurations"
+msgid "PloneMeeting_label_configGroups"
+msgstr ""
+
+#. Default: "This will let you group meeting configurations so it is displayed in a drop down menu in the application header.  This is useful when having a lot of active meeting configurations or when different meeting configurations exist for different contexts."
+msgid "config_groups_descr"
+msgstr ""
+
+#. Default: "None"
+msgid "no_config_group"
+msgstr ""
+
+#. Default: "Group of meeting configurations"
+msgid "PloneMeeting_label_configGroup"
+msgstr ""
+
+#. Default: "Select the group of meeting configurations to use if any are defined in the Deliberations configuration panel."
+msgid "config_group_descr"
+msgstr ""
+
