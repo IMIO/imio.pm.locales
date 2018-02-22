@@ -917,6 +917,10 @@ msgstr "Estados de los temas decididos"
 msgid "PloneMeeting_label_itemDescription"
 msgstr ""
 
+#. Default: "Item fields to keep configuration sorting for"
+msgid "PloneMeeting_label_itemFieldsToKeepConfigSortingFor"
+msgstr ""
+
 #. Default: "Item states in which group in charge will have access to items of groups they have in charge"
 msgid "PloneMeeting_label_itemGroupInChargeStates"
 msgstr ""
@@ -3453,6 +3457,10 @@ msgstr "Este tema ha sito eliminado: usted actualmente ve el tema duplicado."
 #. Default: "The item has been duplicated and a link to the original item has been kept: you currently see the duplicated item."
 msgid "item_duplicated_and_link_kept"
 msgstr "El tema ha sido duplicado y un enlace a el tema original se ha mantenido: ve actualmente el tema duplicado."
+
+#. Default: "By default, vocabularies used for selectable fields are sorted alphabetically, if checked, vocabulary will not be sorted and display terms as encoded in the configuration."
+msgid "item_fields_to_keep_config_sorting_for_descr"
+msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, the Plone subgroup 'observers' of the group in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_group_in_charge_states_descr"
