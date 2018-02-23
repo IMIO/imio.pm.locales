@@ -4829,6 +4829,14 @@ msgstr ""
 msgid "late"
 msgstr ""
 
+#. Default: "Item fields to keep configuration sorting for"
+msgid "PloneMeeting_label_itemFieldsToKeepConfigSortingFor"
+msgstr ""
+
+#. Default: "By default, vocabularies used for selectable fields are sorted alphabetically, if checked, vocabulary will not be sorted and display terms as encoded in the configuration."
+msgid "item_fields_to_keep_config_sorting_for_descr"
+msgstr ""
+
 #. Default: "Types of item"
 msgid "PloneMeeting_label_listTypes"
 msgstr ""
@@ -5097,8 +5105,8 @@ msgstr ""
 msgid "Item emergency changed."
 msgstr ""
 
-#. Default: "This advice was given as personal initiative."
-msgid "This advice was given as personal initiative."
+#. Default: "This advice was given as personal initiative"
+msgid "This advice was given as personal initiative"
 msgstr ""
 
 #. Default: "This advice is inherited from ${linkToItem}"
