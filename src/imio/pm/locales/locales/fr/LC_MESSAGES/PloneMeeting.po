@@ -5264,9 +5264,9 @@ msgstr "Archivage"
 msgid "wa_conflicts"
 msgstr "Cette combinaison d'adaptations est invalide."
 
-#. Default: "Creator may edit its items unless meeting is closed"
+#. Default: "Creator may edit its items unless items are definitively decided"
 msgid "wa_creator_edits_unless_closed"
-msgstr "Le créateur d'un point peut le modifier à moins que la séance soit clôturée"
+msgstr "Le créateur d'un point peut le modifier tant qu'il n'est pas décidé"
 
 #. Default: "Item decision is pre-encoded by item creator"
 msgid "wa_creator_initiated_decisions"
@@ -5315,6 +5315,22 @@ msgstr "Pré-validation des points"
 #. Default: "Item pre-validation (reviewer may also prevalidate)"
 msgid "wa_pre_validation_keep_reviewer_permissions"
 msgstr "Pré-validation des points (un validateur peut aussi pré-valider)"
+
+#. Default: "Send a 'Presented' item back to state 'Itemcreated'"
+msgid "wa_presented_item_back_to_itemcreated"
+msgstr "Renvoyer un point 'Présenté' dans l'état 'En création'"
+
+#. Default: "Send a 'Presented' item back to state 'Pre-validated'"
+msgid "wa_presented_item_back_to_prevalidated"
+msgstr "Renvoyer un point 'Présenté' dans l'état 'Pré-validé'"
+
+#. Default: "If you select the 'Send a 'Presented' item back to state 'Pre-validated'' then you need to select the 'Item pre-validation' or 'Item pre-validation (reviewer may also prevalidate)' workflow adaptation as well."
+msgid "wa_presented_item_back_to_prevalidated_needs_pre_validation_error"
+msgstr "Si vous sélectionnez \"Renvoyer un point 'Présenté' dans l'état 'Pré-validé'\" alors vous devez également sélectionner \"Pré-validation des points\" ou \"Pré-validation des points (un validateur peut aussi pré-valider)\""
+
+#. Default: "Send a 'Presented' item back to state 'Proposed'"
+msgid "wa_presented_item_back_to_proposed"
+msgstr "Renvoyer un point 'Présenté' dans l'état 'Proposé'"
 
 #. Default: "Refused"
 msgid "wa_refused"
