@@ -796,6 +796,10 @@ msgstr ""
 msgid "PloneMeeting_label_hideCssClassesTo"
 msgstr ""
 
+#. Default: "Hide history to"
+msgid "PloneMeeting_label_hideHistoryTo"
+msgstr ""
+
 #. Default: "Hide item history comments to users outside proposing group"
 msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
 msgstr ""
@@ -3012,6 +3016,10 @@ msgstr ""
 
 #. Default: "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
 msgid "hide_css_classes_to_descr"
+msgstr ""
+
+#. Default: "Hide links to the history in various place (item, meeting and advice view, dashboards, ...)."
+msgid "hide_history_to_descr"
 msgstr ""
 
 #. Default: "If box is checked, when a user will access the history of an item, the comments of the listed events will only be shown if current user is part of the item's proposing group."
