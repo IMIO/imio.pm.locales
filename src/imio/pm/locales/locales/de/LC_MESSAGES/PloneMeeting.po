@@ -75,6 +75,11 @@ msgstr ""
 msgid "Advice type"
 msgstr ""
 
+# plone.app.querystring
+#. Default: "Advisers index"
+msgid "Advisers index"
+msgstr ""
+
 #. Default: "An advice on this item still needs to be given respecting given delay."
 msgid "An advice on this item still needs to be given respecting given delay."
 msgstr ""
@@ -279,6 +284,11 @@ msgstr ""
 msgid "If you specify a number, the values entered here above will be applied from current item to the item number entered. Leave empty to only apply for current item."
 msgstr ""
 
+# plone.app.querystring
+#. Default: "Informations about advices on an item"
+msgid "Informations about advices on an item"
+msgstr ""
+
 #. Default: "Insert items among normal items"
 msgid "Insert items among normal items"
 msgstr ""
@@ -339,6 +349,11 @@ msgstr ""
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr ""
 
+# plone.app.querystring
+#. Default: "Linked meeting date (used for items)"
+msgid "Linked meeting date"
+msgstr ""
+
 #. Default: "Manage advice annexes"
 msgid "Manage advice annexes"
 msgstr ""
@@ -369,6 +384,11 @@ msgstr ""
 
 #. Default: "Meeting annexes"
 msgid "Meeting annexes"
+msgstr ""
+
+# plone.app.querystring
+#. Default: "Meeting date (used for meetings)"
+msgid "Meeting date"
 msgstr ""
 
 #. Default: "Items"
@@ -1537,6 +1557,11 @@ msgstr "Dokumentvorlagen"
 msgid "Preview detailled advice"
 msgstr ""
 
+# plone.app.querystring
+#. Default: "Previous review state"
+msgid "Previous review state"
+msgstr ""
+
 #. Default: "Recurring items"
 msgid "RecurringItems"
 msgstr "Sich wiederholende TOP"
@@ -1565,6 +1590,16 @@ msgstr "Status"
 msgid "Taken over by ${fullname}"
 msgstr ""
 
+# plone.app.querystring
+#. Default: "The date of the meeting the item is linked to"
+msgid "The date of the meeting the item is linked to"
+msgstr ""
+
+# plone.app.querystring
+#. Default: "The date the meeting occurs"
+msgid "The date the meeting occurs"
+msgstr ""
+
 #. Default: "The field here above is not used, check the 'users' tab."
 msgid "The field here above is not used, check the 'users' tab."
 msgstr ""
@@ -1579,6 +1614,11 @@ msgstr ""
 
 #. Default: "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
 msgid "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
+msgstr ""
+
+# plone.app.querystring
+#. Default: "The item, advice or meeting previous review state"
+msgid "The item, advice or meeting previous review state"
 msgstr ""
 
 #. Default: "There was an error during annex conversion, please contact system administrator."

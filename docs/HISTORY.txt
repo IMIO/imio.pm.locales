@@ -2,12 +2,19 @@ Changelog
 =========
 
 
-4.1b6 (unreleased)
+4.1b7 (unreleased)
+------------------
+
+- Added translation for plone.app.querystring field index 'getProposingGroup'.
+  Translations of plone.app.querystring PM related indexes are now translated
+  in the PloneMeeting domain.
+- Added translations for MeetingConfig.hideHistoryTo.
+
+4.1b6 (2018-03-19)
 ------------------
 
 - Added translations for WFA 'wa_presented_item_back_to_itemcreated',
  'wa_presented_item_back_to_prevalidated' and 'wa_presented_item_back_to_itemcreated'.
-- Added translations for MeetingConfig.hideHistoryTo.
 
 4.1b5 (2018-02-23)
 ------------------

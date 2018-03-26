@@ -75,6 +75,11 @@ msgstr "Référence"
 msgid "Advice type"
 msgstr "Type d'avis"
 
+# plone.app.querystring
+#. Default: "Advisers index"
+msgid "Advisers index"
+msgstr "Index avis"
+
 #. Default: "An advice on this item still needs to be given respecting given delay."
 msgid "An advice on this item still needs to be given respecting given delay."
 msgstr "Un avis doit encore être rendu sur ce point en respectant le délai imparti."
@@ -279,6 +284,11 @@ msgstr "Si vous ne souhaitez pas que l'avis soit directement affiché après la 
 msgid "If you specify a number, the values entered here above will be applied from current item to the item number entered. Leave empty to only apply for current item."
 msgstr "Si vous spécifiez un numéro, les valeurs définies ci-dessus seront appliquées à partir du point courant jusqu'au point ayant ce numéro.  Laissez ce champ vide pour appliquer uniquement sur le point courant."
 
+# plone.app.querystring
+#. Default: "Informations about advices on an item"
+msgid "Informations about advices on an item"
+msgstr "Les informations concernant les avis sur un point"
+
 #. Default: "Insert items among normal items"
 msgid "Insert items among normal items"
 msgstr "Présenter comme point normal"
@@ -339,6 +349,11 @@ msgstr "Date limite ${advice_limit_date}"
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr "Limite le nombre de caractères de l'objet du point qui seront affichés dans le portlet pour éviter les libellés trop longs."
 
+# plone.app.querystring
+#. Default: "Linked meeting date (used for items)"
+msgid "Linked meeting date"
+msgstr "Date de séance liée (utilisé pour les points)"
+
 #. Default: "Manage advice annexes"
 msgid "Manage advice annexes"
 msgstr "Gérer les annexes de l'avis"
@@ -370,6 +385,11 @@ msgstr "Gérer les modèles de points"
 #. Default: "Meeting annexes"
 msgid "Meeting annexes"
 msgstr "Annexes aux séances"
+
+# plone.app.querystring
+#. Default: "Meeting date (used for meetings)"
+msgid "Meeting date"
+msgstr "Date de la séance (utilisé pour les séances)"
 
 #. Default: "Items"
 msgid "Meeting items"
@@ -1535,6 +1555,11 @@ msgstr "Canevas de documents"
 msgid "Preview detailled advice"
 msgstr "Prévisualiser l'avis complet"
 
+# plone.app.querystring
+#. Default: "Previous review state"
+msgid "Previous review state"
+msgstr "État précédent"
+
 #. Default: "Recurring items"
 msgid "RecurringItems"
 msgstr "Points récurrents"
@@ -1563,6 +1588,16 @@ msgstr "État"
 msgid "Taken over by ${fullname}"
 msgstr "Pris en charge par ${fullname}"
 
+# plone.app.querystring
+#. Default: "The date of the meeting the item is linked to"
+msgid "The date of the meeting the item is linked to"
+msgstr "La date de la séance à laquelle le point est lié"
+
+# plone.app.querystring
+#. Default: "The date the meeting occurs"
+msgid "The date the meeting occurs"
+msgstr "La date à laquelle la séance a lieu"
+
 #. Default: "The field here above is not used, check the 'users' tab."
 msgid "The field here above is not used, check the 'users' tab."
 msgstr "Ce champ n'est pas utilisé, vérifiez l'onglet 'Utilisateurs'."
@@ -1578,6 +1613,11 @@ msgstr "Le point est accessible par les émetteurs d'avis de ce groupe mais l'av
 #. Default: "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
 msgid "The item you tried to take over was already taken over in between by ${fullname}. You can take it over now if you are sure that the other user do not handle it."
 msgstr "Le point que vous avez essayé de prendre en charge a été pris en charge entretemps par ${fullname}.  Vous pouvez maintenant le prendre en charge à sa place si vous êtes sûr qu'il ne le gère pas déjà."
+
+# plone.app.querystring
+#. Default: "The item, advice or meeting previous review state"
+msgid "The item, advice or meeting previous review state"
+msgstr "L'état du WF précdent pour le point, l'avis ou la séance"
 
 #. Default: "There was an error during annex conversion, please contact system administrator."
 msgid "There was an error during annex conversion, please contact system administrator."
