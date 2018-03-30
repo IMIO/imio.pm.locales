@@ -84,6 +84,14 @@ msgstr ""
 msgid "pre_accepted"
 msgstr ""
 
+#. Default: "Accepted out of meeting"
+msgid "accepted_out_of_meeting"
+msgstr ""
+
+#. Default: "Accepted out of meeting (Emergency)"
+msgid "accepted_out_of_meeting_emergency"
+msgstr ""
+
 #. Default: "Refused"
 msgid "refused"
 msgstr ""
@@ -253,6 +261,14 @@ msgstr ""
 msgid "pre_accept"
 msgstr ""
 
+#. Default: "Accept out of meeting"
+msgid "accept_out_of_meeting"
+msgstr ""
+
+#. Default: "Accept out of meeting (Emergency)"
+msgid "accept_out_of_meeting_emergency"
+msgstr ""
+
 #. Default: "Confirm"
 msgid "confirm"
 msgstr ""
@@ -267,6 +283,14 @@ msgstr ""
 
 #. Default: "Back to 'Accepted'"
 msgid "backToAccepted"
+msgstr ""
+
+#. Default: "Back to 'Validated'"
+msgid "backToValidatedFromAcceptedOutOfMeeting"
+msgstr ""
+
+#. Default: "Back to 'Validated'"
+msgid "backToValidatedFromAcceptedOutOfMeetingEmergency"
 msgstr ""
 
 #. Default: "Archive"
@@ -606,6 +630,14 @@ msgstr ""
 
 #. Default: "Create a plonegov item from a plonemeeting item"
 msgid "create_to_plonegov-assembly_from_plonemeeting-assembly"
+msgstr ""
+
+#. Default: "Item created from an item accepted out of meeting (emergency)."
+msgid "create_from_accepted_out_of_meeting_emergency"
+msgstr ""
+
+#. Default: "Item created from an item accepted out of meeting."
+msgid "create_from_accepted_out_of_meeting"
 msgstr ""
 
 #. Default: "PloneMeeting view redirecting to the application when logged in"

@@ -852,6 +852,10 @@ msgstr ""
 msgid "PloneMeeting_label_internalNotes"
 msgstr ""
 
+#. Default: "Is acceptable out of meeting?"
+msgid "PloneMeeting_label_isAcceptableOutOfMeeting"
+msgstr ""
+
 #. Default: "Confidential ?"
 msgid "PloneMeeting_label_isConfidential"
 msgstr ""
@@ -2666,6 +2670,10 @@ msgstr ""
 msgid "emergency_accepted"
 msgstr ""
 
+#. Default: "The emergency must be accepted in order to be able to decide the item out of meeting emergency"
+msgid "emergency_accepted_required_to_accept_out_of_meeting_emergency"
+msgstr ""
+
 #. Default: "Emergency asked"
 msgid "emergency_asked"
 msgstr ""
@@ -3318,6 +3326,10 @@ msgstr ""
 #. Default: "Absent?"
 msgid "is_absent"
 msgstr "Abwesend?"
+
+#. Default: "If checked, the item will be acceptable out of a meeting, when it is validated."
+msgid "is_acceptable_out_of_meeting_descr"
+msgstr ""
 
 #. Default: "Attendee?"
 msgid "is_attendee"
@@ -5335,6 +5347,22 @@ msgstr "Abstimmungen"
 #. Default: "You can choose here who will effectively encode the votes. Several choices are possible."
 msgid "votes_encoder_descr"
 msgstr "Sie können hier auswählen wer letzendlich die Abstimmungen einpflegt. Mehrfachauswahl ist möglich."
+
+#. Default: "Accept a validated item out of a meeting"
+msgid "wa_accepted_out_of_meeting"
+msgstr ""
+
+#. Default: "Accept a validated item out of a meeting (the item is duplicated, validated and given advices are kept)"
+msgid "wa_accepted_out_of_meeting_and_duplicated"
+msgstr ""
+
+#. Default: "Accept a validated item out of a meeting when emergency is asked"
+msgid "wa_accepted_out_of_meeting_emergency"
+msgstr ""
+
+#. Default: "Accept a validated item out of a meeting when emergency is asked (the item is duplicated, validated and given advices are kept)"
+msgid "wa_accepted_out_of_meeting_emergency_and_duplicated"
+msgstr ""
 
 #. Default: "You can not select the 'Items come validated' adaptation as there are still items in state 'itemcreated' or 'proposed'."
 msgid "wa_added_items_come_validated_error"

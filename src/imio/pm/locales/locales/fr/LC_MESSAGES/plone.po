@@ -248,6 +248,14 @@ msgstr "Accepter"
 msgid "accept_but_modify"
 msgstr "Accepter avec modifications"
 
+#. Default: "Accept out of meeting"
+msgid "accept_out_of_meeting"
+msgstr "Accepter hors séance"
+
+#. Default: "Accept out of meeting (Emergency)"
+msgid "accept_out_of_meeting_emergency"
+msgstr "Accepter hors séance (Urgence)"
+
 #. Default: "Accepted"
 msgid "accepted"
 msgstr "Accepté"
@@ -255,6 +263,14 @@ msgstr "Accepté"
 #. Default: "Accepted with modifications"
 msgid "accepted_but_modified"
 msgstr "Accepté avec modifications"
+
+#. Default: "Accepted out of meeting"
+msgid "accepted_out_of_meeting"
+msgstr "Accepté hors séance"
+
+#. Default: "Accepted out of meeting (Emergency)"
+msgid "accepted_out_of_meeting_emergency"
+msgstr "Accepté hors séance (Urgence)"
 
 #. Default: "Activate"
 msgid "activate"
@@ -365,6 +381,14 @@ msgstr "Remettre en 'Refusé'"
 msgid "backToValidated"
 msgstr "Retirer de la séance"
 
+#. Default: "Back to 'Validated'"
+msgid "backToValidatedFromAcceptedOutOfMeeting"
+msgstr "Remettre en 'Validé'"
+
+#. Default: "Back to 'Validated'"
+msgid "backToValidatedFromAcceptedOutOfMeetingEmergency"
+msgstr "Remettre en 'Validé'"
+
 #. Default: "Back to 'Item created'"
 msgid "backTo_itemcreated_from_waiting_advices"
 msgstr "Remettre 'En création'"
@@ -460,6 +484,14 @@ msgstr "Confirmer"
 #. Default: "Confirmed"
 msgid "confirmed"
 msgstr "Confirmé"
+
+#. Default: "Item created from an item accepted out of meeting."
+msgid "create_from_accepted_out_of_meeting"
+msgstr "Créer depuis un point accepté hors séance"
+
+#. Default: "Item created from an item accepted out of meeting (emergency)."
+msgid "create_from_accepted_out_of_meeting_emergency"
+msgstr "Créer depuis un point accepté hors séance (Urgence)"
 
 #. Default: "Create from item postponed to next meeting"
 msgid "create_from_postponed_next_meeting"

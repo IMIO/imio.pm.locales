@@ -252,12 +252,28 @@ msgstr "Goedkeuren"
 msgid "accept_but_modify"
 msgstr ""
 
+#. Default: "Accept out of meeting"
+msgid "accept_out_of_meeting"
+msgstr ""
+
+#. Default: "Accept out of meeting (Emergency)"
+msgid "accept_out_of_meeting_emergency"
+msgstr ""
+
 #. Default: "Accepted"
 msgid "accepted"
 msgstr "Goedgekeurd"
 
 #. Default: "Accepted with modifications"
 msgid "accepted_but_modified"
+msgstr ""
+
+#. Default: "Accepted out of meeting"
+msgid "accepted_out_of_meeting"
+msgstr ""
+
+#. Default: "Accepted out of meeting (Emergency)"
+msgid "accepted_out_of_meeting_emergency"
 msgstr ""
 
 #. Default: "Activate"
@@ -386,6 +402,14 @@ msgstr "Verbeteren"
 msgid "backToValidated"
 msgstr "Verbeteren"
 
+#. Default: "Back to 'Validated'"
+msgid "backToValidatedFromAcceptedOutOfMeeting"
+msgstr ""
+
+#. Default: "Back to 'Validated'"
+msgid "backToValidatedFromAcceptedOutOfMeetingEmergency"
+msgstr ""
+
 #. Default: "Back to 'Item created'"
 msgid "backTo_itemcreated_from_waiting_advices"
 msgstr ""
@@ -481,6 +505,14 @@ msgstr "Bevestig"
 #. Default: "Confirmed"
 msgid "confirmed"
 msgstr "Bevestigd"
+
+#. Default: "Item created from an item accepted out of meeting."
+msgid "create_from_accepted_out_of_meeting"
+msgstr ""
+
+#. Default: "Item created from an item accepted out of meeting (emergency)."
+msgid "create_from_accepted_out_of_meeting_emergency"
+msgstr ""
 
 #. Default: "Create from item postponed to next meeting"
 msgid "create_from_postponed_next_meeting"

@@ -2470,6 +2470,22 @@ msgstr ""
 msgid "wa_refused"
 msgstr ""
 
+#. Default: "Accept a validated item out of a meeting"
+msgid "wa_accepted_out_of_meeting"
+msgstr ""
+
+#. Default: "Accept a validated item out of a meeting (the item is duplicated, validated and given advices are kept)"
+msgid "wa_accepted_out_of_meeting_and_duplicated"
+msgstr ""
+
+#. Default: "Accept a validated item out of a meeting when emergency is asked"
+msgid "wa_accepted_out_of_meeting_emergency"
+msgstr ""
+
+#. Default: "Accept a validated item out of a meeting when emergency is asked (the item is duplicated, validated and given advices are kept)"
+msgid "wa_accepted_out_of_meeting_emergency_and_duplicated"
+msgstr ""
+
 #. Default: "Removed (and duplicated)"
 msgid "wa_removed_and_duplicated"
 msgstr ""
@@ -4064,6 +4080,10 @@ msgstr ""
 msgid "required_category_ko"
 msgstr ""
 
+#. Default: "The emergency must be accepted in order to be able to decide the item out of meeting emergency"
+msgid "emergency_accepted_required_to_accept_out_of_meeting_emergency"
+msgstr ""
+
 #. Default: "Pre-validated"
 msgid "icon_help_prevalidated"
 msgstr ""
@@ -5534,4 +5554,12 @@ msgstr ""
 # plone.app.querystring
 #. Default: "Informations about advices on an item"
 msgid "Informations about advices on an item"
+msgstr ""
 
+#. Default: "Is acceptable out of meeting?"
+msgid "PloneMeeting_label_isAcceptableOutOfMeeting"
+msgstr ""
+
+#. Default: "If checked, the item will be acceptable out of a meeting, when it is validated."
+msgid "is_acceptable_out_of_meeting_descr"
+msgstr ""
