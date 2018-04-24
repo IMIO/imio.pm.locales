@@ -837,7 +837,7 @@ msgstr ""
 msgid "person_welcome"
 msgstr ""
 
-#. Default: "Greet after this item"
+#. Default: "Mark this person as absent for item"
 msgid "person_byebye"
 msgstr ""
 
@@ -853,8 +853,8 @@ msgstr ""
 msgid "present_since"
 msgstr ""
 
-#. Default: "This person has left the meeting after item number:"
-msgid "left_after"
+#. Default: "This person was not present during discussion on this itemn"
+msgid "item_attendee_absent"
 msgstr ""
 
 #. Default: "This person has left the meeting while discussing this item"
@@ -3883,10 +3883,6 @@ msgstr ""
 msgid "label_remove_meetingconfig"
 msgstr ""
 
-#. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
-msgid "description_only_see_visible_items"
-msgstr ""
-
 #. Default: "Show / hide details"
 msgid "show_or_hide_details"
 msgstr ""
@@ -3897,11 +3893,6 @@ msgstr ""
 
 #. Default: "Show / hide poll type observations"
 msgid "show_or_hide_pollTypeObservations"
-msgstr ""
-
-# This way, the "typedescription macro in base_edit does not display 'Meeting' above the title.
-#. Default: "Show / hide details"
-msgid "Toggle descriptions of items"
 msgstr ""
 
 #. Default: "Number of items to display"
@@ -5562,4 +5553,8 @@ msgstr ""
 
 #. Default: "If checked, the item will be acceptable out of a meeting, when it is validated."
 msgid "is_acceptable_out_of_meeting_descr"
+msgstr ""
+
+#. Default: "${assembly} and ${signatures}"
+msgid "redefinable_assembly_and_signatures"
 msgstr ""

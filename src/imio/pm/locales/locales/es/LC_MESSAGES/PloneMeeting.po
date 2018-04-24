@@ -1696,11 +1696,6 @@ msgstr "Este portlet muestra las cosas pendiente por hacer."
 msgid "To do"
 msgstr "Por hacer"
 
-# This way, the "typedescription macro in base_edit does not display 'Meeting' above the title.
-#. Default: "Show / hide details"
-msgid "Toggle descriptions of items"
-msgstr "Descripciones de cambiar de temas"
-
 #. Default: "View linked Plone groups"
 msgid "View linked Plone groups"
 msgstr ""
@@ -2644,10 +2639,6 @@ msgstr "Retraso de ${delay} día(s) claro"
 msgid "delay_unavailable_end_days_descr"
 msgstr ""
 
-#. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
-msgid "description_only_see_visible_items"
-msgstr "Usted es capaz de ver sólo temas visibles aquí. Por favor, consulte la caja 'administrar' aquí contrario."
-
 #. Default: "Assembly stored on the linked meeting"
 msgid "display_meeting_assembly_legend"
 msgstr "Asamblea almacena en la reunión vinculada"
@@ -3459,6 +3450,10 @@ msgstr ""
 msgid "item_assembly_excused_descr"
 msgstr ""
 
+#. Default: "This person was not present during discussion on this itemn"
+msgid "item_attendee_absent"
+msgstr ""
+
 #. Default: "As soon as an item will be in one of the states you check here, it will be sent to other meeting configurations selected on it."
 msgid "item_auto_sent_to_other_mc_states_descr"
 msgstr ""
@@ -3760,10 +3755,6 @@ msgstr "${meetingConfigTitle} - Un tema 'tardío' ha sido validado."
 #. Default: "Items presented tardily"
 msgid "late_presented_items"
 msgstr "Temas presentados después de la reunión que fue publicada."
-
-#. Default: "This person has left the meeting after item number:"
-msgid "left_after"
-msgstr "La persona ha dejado la reunión después del tema numero:"
 
 #. Default: "This person has left the meeting while discussing this item"
 msgid "left_now"
@@ -4433,7 +4424,8 @@ msgstr "Los parámetros definidos si el usuario tiene una función específica"
 msgid "person_absent_descr"
 msgstr "Nota esta persona ha dejado la reunión TEMPORALMENTE, MIENTRAS este tema es discutido."
 
-#. Default: "Greet after this item"
+#. Default: "Mark this person as absent for item"
+#, fuzzy
 msgid "person_byebye"
 msgstr "Dar la bienvenida después de este tema"
 
@@ -4717,6 +4709,10 @@ msgstr "${portalTitle} - Un problema ocurrió mientras estaba insertando el tema
 #. Default: "Recurring items are items that will be automatically added to a meeting at a defined moment."
 msgid "recurring_items_descr"
 msgstr "Usted puede manejar aquí temas predefinidos que servirán, para diferentes propósitos, como plantillas para crear temas reales."
+
+#. Default: "${assembly} and ${signatures}"
+msgid "redefinable_assembly_and_signatures"
+msgstr ""
 
 #. Default: "Refresh vote values"
 msgid "refresh_votes"

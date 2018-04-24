@@ -1557,7 +1557,7 @@ msgstr "Canevas de documents"
 
 #. Default: "Preview detailled advice"
 msgid "Preview detailled advice"
-msgstr "Prévisualiser l'avis complet"
+msgstr "Visualiser l'avis complet"
 
 # plone.app.querystring
 #. Default: "Previous review state"
@@ -1686,11 +1686,6 @@ msgstr "Ce portlet affiche les tâches à effectuer."
 #. Default: "To do"
 msgid "To do"
 msgstr "À faire"
-
-# This way, the "typedescription macro in base_edit does not display 'Meeting' above the title.
-#. Default: "Show / hide details"
-msgid "Toggle descriptions of items"
-msgstr "Afficher / masquer les détails des points dans les tableaux de recherche ou sur les séances"
 
 #. Default: "View linked Plone groups"
 msgid "View linked Plone groups"
@@ -2630,10 +2625,6 @@ msgstr "Délai de ${delay} jour(s)"
 msgid "delay_unavailable_end_days_descr"
 msgstr "Sélectionnez les jours indisponibles comme dernier jour d'un délai.  Si un délai calculé tombe sur un des jours sélectionnés, le délai sera automatiquement prolongé au prochain jour disponible.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
-#. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
-msgid "description_only_see_visible_items"
-msgstr "Vous êtes seulement autorisé à consulter les éléments visibles.  Utilisez la boîte 'Gestion' ci-contre pour consulter le contenu que vous pouvez voir."
-
 #. Default: "Assembly stored on the linked meeting"
 msgid "display_meeting_assembly_legend"
 msgstr "Assemblée définie sur la séance"
@@ -3417,6 +3408,10 @@ msgstr "Si vous ne remplissez pas ce champ, l'assemblée définie sur la séance
 msgid "item_assembly_excused_descr"
 msgstr "Si vous ne remplissez pas ce champ, les excusés définis sur le point seront utilisés"
 
+#. Default: "This person was not present during discussion on this itemn"
+msgid "item_attendee_absent"
+msgstr "Cette personne n'était pas présente durant la discussion de ce point"
+
 #. Default: "As soon as an item will be in one of the states you check here, it will be sent to other meeting configurations selected on it."
 msgid "item_auto_sent_to_other_mc_states_descr"
 msgstr "Dès qu'un point sera dans un des états cochés ci-dessous, il sera automatiquement envoyé vers les configurations de séances sélectionnées sur celui-ci."
@@ -3710,10 +3705,6 @@ msgstr "${meetingConfigTitle} - Un point en urgence vient d'être validé."
 #. Default: "Items presented tardily"
 msgid "late_presented_items"
 msgstr "Points présentés en urgence"
-
-#. Default: "This person has left the meeting after item number:"
-msgid "left_after"
-msgstr "Cette personne a quitté la séance après le point numéro:"
 
 #. Default: "This person has left the meeting while discussing this item"
 msgid "left_now"
@@ -4373,9 +4364,9 @@ msgstr "Paramètres définis si l'utilisateur a une fonction spécifique"
 msgid "person_absent_descr"
 msgstr "Noter cette personne comme quittant TEMPORAIREMENT la séance, PENDANT la discussion sur ce point."
 
-#. Default: "Greet after this item"
+#. Default: "Mark this person as absent for item"
 msgid "person_byebye"
-msgstr "Saluer après ce point"
+msgstr "Marquer cette personne absente pour ce point"
 
 #. Default: "Note this person as leaving the meeting DEFINITELY, AFTER discussion on this item."
 msgid "person_byebye_descr"
@@ -4653,6 +4644,10 @@ msgstr "${portalTitle} - Un problème est survenu lors de l'insertion du point r
 #. Default: "Recurring items are items that will be automatically added to a meeting at a defined moment."
 msgid "recurring_items_descr"
 msgstr "Les points récurrents sont des points automatiquement ajoutés à une séance au moment voulu."
+
+#. Default: "${assembly} and ${signatures}"
+msgid "redefinable_assembly_and_signatures"
+msgstr "${assembly} et ${signatures}"
 
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
