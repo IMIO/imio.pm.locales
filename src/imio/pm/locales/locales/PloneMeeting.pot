@@ -5348,19 +5348,19 @@ msgstr ""
 msgid "selectable_privacies_descr"
 msgstr ""
 
-#. Default: "Keep advices when item sent to another configuration?"
-msgid "PloneMeeting_label_keepAdvicesOnSentToOtherMC"
+#. Default: "Contents to keep when item sent to another configuration"
+msgid "PloneMeeting_label_contentsKeptOnSentToOtherMC"
 msgstr ""
 
-#. Default: "By default when an item is sent to another configuration, advices are not kept.  If you check this box, advices will be inherited from original item, this mean that advices from original item will be displayed readonly on the new item but actually, informations are taken from original item.  You can select advices to keep in the field below."
-msgid "keep_advices_on_sent_to_other_mc_descr"
+#. Default: "Select here contents of original item that will be kept when sending an item to another meeting configuration.  If you select \"The advices\", advices will be inherited from original item, this mean that advices from original item will be displayed readonly on the new item but actually, informations are taken from original item.  You can also select advices to keep in \"Advices to keep when item is sent to another configuration\" field below."
+msgid "contents_kept_on_sent_to_other_mc_descr"
 msgstr ""
 
 #. Default: "Advices to keep when item is sent to another configuration"
 msgid "PloneMeeting_label_advicesKeptOnSentToOtherMC"
 msgstr ""
 
-#. Default: "If parameter \"Keep advices when item sent to another configuration?\" here above is enabled, you may select here advices that will be kept.  If you do not select anyhting, every advices will be kept."
+#. Default: "If \"Advices\" is selected in field \"Contents to keep when item sent to another configuration\" here above, you may select here advices that will be kept.  If you do not select anyhting, every advices will be kept."
 msgid "advices_kept_on_sent_to_other_mc_descr"
 msgstr ""
 
@@ -5562,4 +5562,16 @@ msgstr ""
 
 #. Default: "If checked, the item will be acceptable out of a meeting, when it is validated."
 msgid "is_acceptable_out_of_meeting_descr"
+msgstr ""
+
+#. Default: "The annexes"
+msgid "content_kept_annexes"
+msgstr ""
+
+#. Default: "The decision annexes"
+msgid "content_kept_decision_annexes"
+msgstr ""
+
+#. Default: "The advices"
+msgid "content_kept_advices"
 msgstr ""

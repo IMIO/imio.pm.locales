@@ -617,6 +617,10 @@ msgstr ""
 msgid "PloneMeeting_label_configVersion"
 msgstr "Identificatie van deze meeting configuratie"
 
+#. Default: "Contents to keep when item sent to another configuration"
+msgid "PloneMeeting_label_contentsKeptOnSentToOtherMC"
+msgstr ""
+
 #. Default: "Copy groups"
 msgid "PloneMeeting_label_copyGroups"
 msgstr "Kopieer groep"
@@ -1033,10 +1037,6 @@ msgstr ""
 
 #. Default: "Keep access to item when an advice is given"
 msgid "PloneMeeting_label_keepAccessToItemWhenAdviceIsGiven"
-msgstr ""
-
-#. Default: "Keep advices when item sent to another configuration?"
-msgid "PloneMeeting_label_keepAdvicesOnSentToOtherMC"
 msgstr ""
 
 #. Default: "Keep info 'to print?' of annexes when duplicating items"
@@ -1879,7 +1879,7 @@ msgstr "Advies toevoeging"
 msgid "advices_invalidated"
 msgstr ""
 
-#. Default: "If parameter \"Keep advices when item sent to another configuration?\" here above is enabled, you may select here advices that will be kept.  If you do not select anyhting, every advices will be kept."
+#. Default: "If \"Advices\" is selected in field \"Contents to keep when item sent to another configuration\" here above, you may select here advices that will be kept.  If you do not select anyhting, every advices will be kept."
 msgid "advices_kept_on_sent_to_other_mc_descr"
 msgstr ""
 
@@ -2439,6 +2439,22 @@ msgstr "If this meeting configuration corresponds to an organization, institutio
 
 #. Default: "Considered not given because hidden during redaction"
 msgid "considered_not_given_hidden_during_redaction"
+msgstr ""
+
+#. Default: "The advices"
+msgid "content_kept_advices"
+msgstr ""
+
+#. Default: "The annexes"
+msgid "content_kept_annexes"
+msgstr ""
+
+#. Default: "The decision annexes"
+msgid "content_kept_decision_annexes"
+msgstr ""
+
+#. Default: "Select here contents of original item that will be kept when sending an item to another meeting configuration.  If you select \"The advices\", advices will be inherited from original item, this mean that advices from original item will be displayed readonly on the new item but actually, informations are taken from original item.  You can also select advices to keep in \"Advices to keep when item is sent to another configuration\" field below."
+msgid "contents_kept_on_sent_to_other_mc_descr"
 msgstr ""
 
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
@@ -3623,10 +3639,6 @@ msgstr ""
 
 #. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "keep_access_to_item_when_advice_is_given_descr"
-msgstr ""
-
-#. Default: "By default when an item is sent to another configuration, advices are not kept.  If you check this box, advices will be inherited from original item, this mean that advices from original item will be displayed readonly on the new item but actually, informations are taken from original item.  You can select advices to keep in the field below."
-msgid "keep_advices_on_sent_to_other_mc_descr"
 msgstr ""
 
 #. Default: "If enabled, when an item is duplicated into or to this configuration, the 'to print?' information defined on cloned annexes will be kept.  If not enabled, the default defined here under is used."
