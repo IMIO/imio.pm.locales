@@ -284,6 +284,14 @@ msgstr "Si vous ne souhaitez pas que l'avis soit directement affiché après la 
 msgid "If you specify a number, the values entered here above will be applied from current item to the item number entered. Leave empty to only apply for current item."
 msgstr "Si vous spécifiez un numéro, les valeurs définies ci-dessus seront appliquées à partir du point courant jusqu'au point ayant ce numéro.  Laissez ce champ vide pour appliquer uniquement sur le point courant."
 
+#. Default: "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
+msgstr "Encodez le numéro du point jusqu'auquel cette personne doit être marquée comme absente.  Laissez le champ vide si la personne doit être marquée absente uniquement pour le point en cours."
+
+#. Default: "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
+msgstr "Encodez le numéro du point jusqu'auquel cette personne doit être enlevée des absents.  Laissez le champ vide si la personne ne doit être enlevée des absents que pour le point en cours."
+
 # plone.app.querystring
 #. Default: "Informations about advices on an item"
 msgid "Informations about advices on an item"
@@ -1655,6 +1663,10 @@ msgstr "Cet avis ne doit plus être 'caché pendant la rédaction' avant le ${li
 msgid "This advice was given as personal initiative"
 msgstr "Cet avis a été rendu d'initiative"
 
+#. Default: "This attendee is marked as absent for following items"
+msgid "This attendee is marked as absent for following items"
+msgstr "Cette personne est marquée absent pour les points suivants"
+
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgstr "Cet avis a été automatiquement demandé par l'application (montré par le fait que le titre n'est pas entre parenthèses)"
@@ -1703,6 +1715,10 @@ msgstr "Vous êtes sur le point de changer le délai de cet avis pour ${new_advi
 #. Default: "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
 msgid "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
 msgstr "Vous ne pouvez pas supprimer le groupe \"${group_id}\" car celui-ci est lié au groupe \"${meeting_group}\" défini dans la \"Configuration des délibérations\" !"
+
+#. Default: "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
+msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
+msgstr "Vous ne pouvez pas supprimer la fonction occupée \"${held_position_title}\" car elle est utilisée par l'élement \"${obj_url}\" !"
 
 #. Default: "Not grouped meeting configurations"
 msgid "_no_config_group_"
@@ -3433,6 +3449,10 @@ msgstr "Si vous ne remplissez pas ce champ, l'assemblée définie sur la séance
 msgid "item_assembly_excused_descr"
 msgstr "Si vous ne remplissez pas ce champ, les excusés définis sur le point seront utilisés"
 
+#. Default: "This person was absent during discussion on this item"
+msgid "item_attendee_absent"
+msgstr "Cette personne est marquée absente pour ce point"
+
 #. Default: "As soon as an item will be in one of the states you check here, it will be sent to other meeting configurations selected on it."
 msgid "item_auto_sent_to_other_mc_states_descr"
 msgstr "Dès qu'un point sera dans un des états cochés ci-dessous, il sera automatiquement envoyé vers les configurations de séances sélectionnées sur celui-ci."
@@ -4381,21 +4401,13 @@ msgstr "Si vous cochez cette case, l'utilisateur ayant ajouté une annexe à la 
 msgid "params_as_special_user"
 msgstr "Paramètres définis si l'utilisateur a une fonction spécifique"
 
-#. Default: "Note this person as leaving the meeting TEMPORARILY, WHILE this item is discussed."
-msgid "person_absent_descr"
-msgstr "Noter cette personne comme quittant TEMPORAIREMENT la séance, PENDANT la discussion sur ce point."
-
-#. Default: "Greet after this item"
+#. Default: "Mark this person absent for this item"
 msgid "person_byebye"
-msgstr "Saluer après ce point"
+msgstr "Marquer cette personne absente pour ce point"
 
-#. Default: "Note this person as leaving the meeting DEFINITELY, AFTER discussion on this item."
-msgid "person_byebye_descr"
-msgstr "Noter cette personne comme quittant DÉFINITIVEMENT la séance, APRÈS discussion sur ce point."
-
-#. Default: "Welcome for this item"
+#. Default: "Remove this person from absents for this item"
 msgid "person_welcome"
-msgstr "Accueillir pour ce point"
+msgstr "Enlever cette personne des absents pour ce point"
 
 #. Default: "Please encode this other place."
 msgid "place_other_required"
@@ -4665,6 +4677,10 @@ msgstr "${portalTitle} - Un problème est survenu lors de l'insertion du point r
 #. Default: "Recurring items are items that will be automatically added to a meeting at a defined moment."
 msgid "recurring_items_descr"
 msgstr "Les points récurrents sont des points automatiquement ajoutés à une séance au moment voulu."
+
+#. Default: "${assembly} and ${signatures}"
+msgid "redefinable_assembly_and_signatures"
+msgstr "${assembly} et ${signatures}"
 
 #. Default: "Refresh vote values"
 msgid "refresh_votes"

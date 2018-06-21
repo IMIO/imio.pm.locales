@@ -833,20 +833,16 @@ msgstr ""
 msgid "is_late_attendee"
 msgstr ""
 
-#. Default: "Welcome for this item"
+#. Default: "Remove this person from absents for this item"
 msgid "person_welcome"
 msgstr ""
 
-#. Default: "Greet after this item"
+#. Default: "Mark this person absent for this item"
 msgid "person_byebye"
 msgstr ""
 
-#. Default: "Note this person as leaving the meeting DEFINITELY, AFTER discussion on this item."
-msgid "person_byebye_descr"
-msgstr ""
-
-#. Default: "Note this person as leaving the meeting TEMPORARILY, WHILE this item is discussed."
-msgid "person_absent_descr"
+#. Default: "This person was absent during discussion on this item"
+msgid "item_attendee_absent"
 msgstr ""
 
 #. Default: "This person is present in the meeting since item number:"
@@ -5574,4 +5570,24 @@ msgstr ""
 
 #. Default: "The advices"
 msgid "content_kept_advices"
+msgstr ""
+
+#. Default: "${assembly} and ${signatures}"
+msgid "redefinable_assembly_and_signatures"
+msgstr ""
+
+#. Default: "This attendee is marked as absent for following items"
+msgid "This attendee is marked as absent for following items"
+msgstr ""
+
+#. Default: "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
+msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
+msgstr ""
+
+#. Default: "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
+msgstr ""
+
+#. Default: "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
 msgstr ""
