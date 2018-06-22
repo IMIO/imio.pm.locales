@@ -156,6 +156,10 @@ msgstr "Close"
 msgid "Comment"
 msgstr "Commentaire"
 
+#. Default: "Contacts fields"
+msgid "Contacts fields"
+msgstr ""
+
 #. Default: "Copy PloneMeeting"
 msgid "Copy PloneMeeting"
 msgstr "Copy PloneMeeting"
@@ -239,6 +243,10 @@ msgstr "Enter the item signatures to be applied. By default, the value of the fi
 #. Default: "Enter the official comment."
 msgid "Enter the official comment."
 msgstr "Enter the official comment."
+
+#. Default: "Free text fields"
+msgid "Free text fields"
+msgstr ""
 
 #. Default: "Given on ${advice_given_on_date}"
 msgid "Given on ${advice_given_on_date}"
@@ -366,6 +374,10 @@ msgstr ""
 msgid "Manage advice annexes"
 msgstr "Manage advice annexes"
 
+#. Default: "Manage contacts"
+msgid "Manage contacts"
+msgstr ""
+
 #. Default: "Manage dashboard"
 msgid "Manage dashboard"
 msgstr "Manage dashboard"
@@ -438,6 +450,10 @@ msgstr "No historized data for this advice."
 #. Default: "No history informations are available for now."
 msgid "No history informations are available for now."
 msgstr "No history informations are available for now."
+
+#. Default: "None"
+msgid "None"
+msgstr ""
 
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
@@ -1214,6 +1230,10 @@ msgstr "Optional advisers"
 msgid "PloneMeeting_label_oralQuestion"
 msgstr "Oral question ?"
 
+#. Default: "Ordered contacts"
+msgid "PloneMeeting_label_orderedContacts"
+msgstr ""
+
 #. Default: "Correspondences while sent to other meeting configs"
 msgid "PloneMeeting_label_otherMCCorrespondences"
 msgstr "Correspondences while sent to other meeting configs"
@@ -1346,6 +1366,10 @@ msgstr "Duty for users replacing this one"
 msgid "PloneMeeting_label_replacementDuty2"
 msgstr "Replacement duty in the second language"
 
+#. Default: "Replacements"
+msgid "PloneMeeting_label_replacements"
+msgstr ""
+
 #. Default: "Restrict access to secret items?"
 msgid "PloneMeeting_label_restrictAccessToSecretItems"
 msgstr "Restrict access to secret items?"
@@ -1381,6 +1405,10 @@ msgstr "Short name for the meeting configuration"
 #. Default: "Show possible targets for item keywords"
 msgid "PloneMeeting_label_showItemKeywordsTargets"
 msgstr "Show possible targets for item keywords"
+
+#. Default: "Signatories"
+msgid "PloneMeeting_label_signatories"
+msgstr ""
 
 #. Default: "Signature image"
 msgid "PloneMeeting_label_signatureImage"
@@ -1678,6 +1706,10 @@ msgstr "This is an extract of the comment, access full comment if necessary..."
 #. Default: "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
 msgid "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
 msgstr "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
+
+#. Default: "This meeting configuration uses following fields to manage assemblies and signatures"
+msgid "This meeting configuration uses following fields to manage assemblies and signatures"
+msgstr ""
 
 #. Default: "This optional advice was asked by the item creators (shown by his title being between brackets)"
 msgid "This optional advice was asked by the item creators (shown by his title being between brackets)"
@@ -4057,6 +4089,14 @@ msgstr "This section allows you to configure advices. An advice is a kind of pos
 msgid "meetingconfig_assembly_and_signatures_descr"
 msgstr "This sections lets meeting managers define default assembly and signatures to use."
 
+#. Default: "Contacts management"
+msgid "meetingconfig_contacts"
+msgstr ""
+
+#. Default: "Contacts are a way to use representation of real attendees to manage assembly of meetings."
+msgid "meetingconfig_contacts_descr"
+msgstr ""
+
 #. Default: "Parameters in this section allow to customize some elements linked to attributes of and associations between the 2 main content types: items and meetings."
 msgid "meetingconfig_data_descr"
 msgstr "Parameters in this section allow to customize some elements linked to attributes of and associations between the 2 main content types: items and meetings."
@@ -4073,10 +4113,6 @@ msgstr "Parameters listed here allow to customize some elements of the applicati
 #. Default: "Parameters here allow to customize the way the application sends e-mail notifications when some item- or meeting-related events occur."
 msgid "meetingconfig_mail_descr"
 msgstr "Parameters here allow to customize the way the application sends e-mail notifications when some item- or meeting-related events occur."
-
-#. Default: "This page lists the user characteristics and preferences which are specific to this meeting configuration."
-msgid "meetingconfig_users_descr"
-msgstr "This page lists the user characteristics and preferences which are specific to this meeting configuration."
 
 #. Default: "This section allows to configure the votes system."
 msgid "meetingconfig_votes_descr"
@@ -4386,6 +4422,10 @@ msgstr "Choose advisers that will have to issue an optional advice for this item
 #. Default: " "
 msgid "oral_question_item_descr"
 msgstr " "
+
+#. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
+msgid "ordered_contacts_descr"
+msgstr ""
 
 #. Default: "When an item is sent to another meeting config, the annexes of the new item will use meeting file types of the new meeting config.  Define here the correspondences for each meeting config the items of this meeting config can  be sent to.  If you do not define correspondences, the application will use the default meeting file type (first found).  This will not be used if 'Related to advice' is used in the 'Related to' field here above because advices are not kept while an item is sent to another meeting config.  Please select only one value by meeting config the item is sendable to."
 msgid "other_mc_correspondences_descr"

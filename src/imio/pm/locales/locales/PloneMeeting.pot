@@ -1749,10 +1749,6 @@ msgstr ""
 msgid "meetingconfig_data_descr"
 msgstr ""
 
-#. Default: "This page lists the user characteristics and preferences which are specific to this meeting configuration."
-msgid "meetingconfig_users_descr"
-msgstr ""
-
 #. Default: "Parameters in this section allow to choose and adapt the workflows that define the life cycle of items and meetings."
 msgid "meetingconfig_workflow_descr"
 msgstr ""
@@ -5590,4 +5586,48 @@ msgstr ""
 
 #. Default: "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
+msgstr ""
+
+#. Default: "Ordered contacts"
+msgid "PloneMeeting_label_orderedContacts"
+msgstr ""
+
+#. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
+msgid "ordered_contacts_descr"
+msgstr ""
+
+#. Default: "Signatories"
+msgid "PloneMeeting_label_signatories"
+msgstr ""
+
+#. Default: "Replacements"
+msgid "PloneMeeting_label_replacements"
+msgstr ""
+
+#. Default: "None"
+msgid "None"
+msgstr ""
+
+#. Default: "Contacts management"
+msgid "meetingconfig_contacts"
+msgstr ""
+
+#. Default: "Contacts are a way to use representation of real attendees to manage assembly of meetings."
+msgid "meetingconfig_contacts_descr"
+msgstr ""
+
+#. Default: "Manage contacts"
+msgid "Manage contacts"
+msgstr ""
+
+#. Default: "This meeting configuration uses following fields to manage assemblies and signatures"
+msgid "This meeting configuration uses following fields to manage assemblies and signatures"
+msgstr ""
+
+#. Default: "Free text fields"
+msgid "Free text fields"
+msgstr ""
+
+#. Default: "Contacts fields"
+msgid "Contacts fields"
 msgstr ""

@@ -156,6 +156,10 @@ msgstr "Fermer"
 msgid "Comment"
 msgstr "Commentaire"
 
+#. Default: "Contacts fields"
+msgid "Contacts fields"
+msgstr "Champs utilisant des contacts"
+
 #. Default: "Copy PloneMeeting"
 msgid "Copy PloneMeeting"
 msgstr "Copier points"
@@ -239,6 +243,10 @@ msgstr "Encodez les signatures qui devront être appliquées pour ce point. La v
 #. Default: "Enter the official comment."
 msgid "Enter the official comment."
 msgstr "Encodez ici votre avis officiel."
+
+#. Default: "Free text fields"
+msgid "Free text fields"
+msgstr "Champs de texte libre"
 
 #. Default: "Given on ${advice_given_on_date}"
 msgid "Given on ${advice_given_on_date}"
@@ -366,6 +374,10 @@ msgstr "Date de séance liée (utilisé pour les points)"
 msgid "Manage advice annexes"
 msgstr "Gérer les annexes de l'avis"
 
+#. Default: "Manage contacts"
+msgid "Manage contacts"
+msgstr "Gérer les contacts"
+
 #. Default: "Manage dashboard"
 msgid "Manage dashboard"
 msgstr "Gérer le tableau de bord"
@@ -438,6 +450,10 @@ msgstr "Aucune donnée historisée pour cet avis."
 #. Default: "No history informations are available for now."
 msgid "No history informations are available for now."
 msgstr "Aucune information d'historique disponible pour l'instant."
+
+#. Default: "None"
+msgid "None"
+msgstr "Aucun"
 
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
@@ -1214,6 +1230,10 @@ msgstr "Demander l'avis de"
 msgid "PloneMeeting_label_oralQuestion"
 msgstr "Ce point est une question orale ?"
 
+#. Default: "Ordered contacts"
+msgid "PloneMeeting_label_orderedContacts"
+msgstr "Présents par défaut"
+
 #. Default: "Correspondences while sent to other meeting configs"
 msgid "PloneMeeting_label_otherMCCorrespondences"
 msgstr "Correspondances lors de l'envoi vers un autre type de séance"
@@ -1346,6 +1366,10 @@ msgstr "Fonction des remplaçants de cet utilisateur"
 msgid "PloneMeeting_label_replacementDuty2"
 msgstr "Fonction des remplaçants de cet utilisateur dans la seconde langue"
 
+#. Default: "Replacements"
+msgid "PloneMeeting_label_replacements"
+msgstr "Remplaçants"
+
 #. Default: "Restrict access to secret items?"
 msgid "PloneMeeting_label_restrictAccessToSecretItems"
 msgstr "Restreindre l'accès aux points à huis clos?"
@@ -1381,6 +1405,10 @@ msgstr "Nom court pour la configuration de séance"
 #. Default: "Show possible targets for item keywords"
 msgid "PloneMeeting_label_showItemKeywordsTargets"
 msgstr "Montrer les cibles possibles pour les mots-clé de recherches de points"
+
+#. Default: "Signatories"
+msgid "PloneMeeting_label_signatories"
+msgstr "Signataires"
 
 #. Default: "Signature image"
 msgid "PloneMeeting_label_signatureImage"
@@ -1678,6 +1706,10 @@ msgstr "Ceci est un aperçu, consultez l'avis complet si nécessaire..."
 #. Default: "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
 msgid "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
 msgstr "Ce point n'est pas visible par les émetteurs d'avis de ce groupe dans son état actuel (${item_review_state})."
+
+#. Default: "This meeting configuration uses following fields to manage assemblies and signatures"
+msgid "This meeting configuration uses following fields to manage assemblies and signatures"
+msgstr "Cette configuration de séance utilisent les champs suivants pour gérer les assemblées et signatures"
 
 #. Default: "This optional advice was asked by the item creators (shown by his title being between brackets)"
 msgid "This optional advice was asked by the item creators (shown by his title being between brackets)"
@@ -4055,6 +4087,14 @@ msgstr "Cette section permet de paramétrer la fonctionnalité de gestion des av
 msgid "meetingconfig_assembly_and_signatures_descr"
 msgstr "Les paramètres définis ici peuvent être édités par les gestionnaires de séances afin de définir l'assemblée et les signatures à utiliser."
 
+#. Default: "Contacts management"
+msgid "meetingconfig_contacts"
+msgstr "Gestion des contacts"
+
+#. Default: "Contacts are a way to use representation of real attendees to manage assembly of meetings."
+msgid "meetingconfig_contacts_descr"
+msgstr "Les contacts sont utilisés pour gérer l'assemblée des séances de manière plus fine.  Chacun des membre est representé par un contact qui occupe une fonction.  Ceci permet d'identifier plus précisément quel membre est présent, absent, remplaçant, ..."
+
 #. Default: "Parameters in this section allow to customize some elements linked to attributes of and associations between the 2 main content types: items and meetings."
 msgid "meetingconfig_data_descr"
 msgstr "Les paramètres liés aux données permettent de choisir certains éléments liés aux attributs et associations existant entre les 2 principaux types de contenu: les points et les séances."
@@ -4071,10 +4111,6 @@ msgstr "Cette section permet de paramétrer certains éléments de l'interface u
 #. Default: "Parameters here allow to customize the way the application sends e-mail notifications when some item- or meeting-related events occur."
 msgid "meetingconfig_mail_descr"
 msgstr "Cette section permet de paramétrer la manière dont l'application envoie des notifications par courriel lorsque certains événements surviennent sur des points ou des séances."
-
-#. Default: "This page lists the user characteristics and preferences which are specific to this meeting configuration."
-msgid "meetingconfig_users_descr"
-msgstr "Cette page vous permet d'accéder et configurer les caractéristiques et préférences de chaque utilisateur qui sont spécifiques à cette séance."
 
 #. Default: "This section allows to configure the votes system."
 msgid "meetingconfig_votes_descr"
@@ -4384,6 +4420,10 @@ msgstr " "
 #. Default: " "
 msgid "oral_question_item_descr"
 msgstr " "
+
+#. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
+msgid "ordered_contacts_descr"
+msgstr "Sélectionnez les contacts qui seront utilisés comme membres d'assemblée pour les séances.  L'ordre sélectionné ici sera celui repris par défaut lors de la création d'une nouvelle séance."
 
 #. Default: "When an item is sent to another meeting config, the annexes of the new item will use meeting file types of the new meeting config.  Define here the correspondences for each meeting config the items of this meeting config can  be sent to.  If you do not define correspondences, the application will use the default meeting file type (first found).  This will not be used if 'Related to advice' is used in the 'Related to' field here above because advices are not kept while an item is sent to another meeting config.  Please select only one value by meeting config the item is sendable to."
 msgid "other_mc_correspondences_descr"
