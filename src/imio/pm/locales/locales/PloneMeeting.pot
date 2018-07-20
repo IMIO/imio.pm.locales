@@ -845,22 +845,6 @@ msgstr ""
 msgid "item_attendee_absent"
 msgstr ""
 
-#. Default: "This person is present in the meeting since item number:"
-msgid "present_since"
-msgstr ""
-
-#. Default: "This person has left the meeting after item number:"
-msgid "left_after"
-msgstr ""
-
-#. Default: "This person has left the meeting while discussing this item"
-msgid "left_now"
-msgstr ""
-
-#. Default: "Remove this information"
-msgid "remove_info"
-msgstr ""
-
 #. Default: "Absent?"
 msgid "is_absent"
 msgstr ""
@@ -3252,47 +3236,6 @@ msgstr ""
 msgid "PloneMeeting_label_decisionRelated"
 msgstr ""
 
-# ExternalApplication
-#. Default: "This external application may be used for various purposes."
-msgid "extapp_usages_descr"
-msgstr ""
-
-#. Default: "As a master site from which we will import meetings"
-msgid "extapp_usage_import"
-msgstr ""
-
-#. Default: "As a target site to which we will export meetings"
-msgid "extapp_usage_export"
-msgstr ""
-
-#. Default: "As a target site to which we will send a notification request"
-msgid "extapp_usage_notify"
-msgstr ""
-
-#. Default: "As a data source into which we will be able to perform searches"
-msgid "extapp_usage_search"
-msgstr ""
-
-#. Default: "As a database of users for keeping ours in sync with it"
-msgid "extapp_usage_users"
-msgstr ""
-
-#. Default: "URL"
-msgid "PloneMeeting_label_notifyUrl"
-msgstr ""
-
-#. Default: "Specify here the full URL to reach on the external application. If you're using this resource for exporting purposes, and you want to export on the file system, you can specify here the URL of a local folder, starting with 'file://'."
-msgid "notify_url_descr"
-msgstr ""
-
-#. Default: "Email"
-msgid "PloneMeeting_label_notifyEmail"
-msgstr ""
-
-#. Default: "Specify here the email of someone responsible for the external application. In some cases, when the URL above cannot be reached, a mail will be sent."
-msgid "notify_email_descr"
-msgstr ""
-
 #. Default: "You can not paste an item coming from another meeting configuration !"
 msgid "cannot_paste_item_from_other_mc"
 msgstr ""
@@ -3303,10 +3246,6 @@ msgstr ""
 
 #. Default: "You can not change this value because this meeting file type is already used by an advice annex added on item, like for example: ${item_url} !"
 msgid "cannot_change_inuse_advice_relatedto"
-msgstr ""
-
-#. Default: "Identifier"
-msgid "plonemeeting_identifier"
 msgstr ""
 
 # Portlet "PloneMeeting"
@@ -3881,10 +3820,6 @@ msgstr ""
 
 #. Default: "Show / hide details"
 msgid "show_or_hide_details"
-msgstr ""
-
-#. Default: "Show / hide persons"
-msgid "show_or_hide_persons"
 msgstr ""
 
 #. Default: "Show / hide poll type observations"
@@ -5572,7 +5507,7 @@ msgstr ""
 msgid "redefinable_assembly_and_signatures"
 msgstr ""
 
-#. Default: "This attendee is marked as absent for following items"
+#. Default: "This attendee is marked as absent for following item(s)"
 msgid "This attendee is marked as absent for following items"
 msgstr ""
 

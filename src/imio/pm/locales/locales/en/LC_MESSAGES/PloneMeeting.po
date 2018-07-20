@@ -1201,15 +1201,6 @@ msgstr "Model adaptations"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivation"
 
-#. Default: "Email"
-msgid "PloneMeeting_label_notifyEmail"
-msgstr "Email"
-
-# ExternalApplication
-#. Default: "URL"
-msgid "PloneMeeting_label_notifyUrl"
-msgstr "URL"
-
 #. Default: "Transitions to trigger on items of a meeting when a transition is triggered on that meeting"
 msgid "PloneMeeting_label_onMeetingTransitionItemTransitionToTrigger"
 msgstr "Transitions to trigger on items of a meeting when a transition is triggered on that meeting"
@@ -1691,7 +1682,7 @@ msgstr "This advice must not be 'hidden during redaction' anymore before ${limit
 msgid "This advice was given as personal initiative"
 msgstr "This advice was given as personal initiative"
 
-#. Default: "This attendee is marked as absent for following items"
+#. Default: "This attendee is marked as absent for following item(s)"
 msgid "This attendee is marked as absent for following items"
 msgstr ""
 
@@ -2904,30 +2895,6 @@ msgstr "Annexes"
 msgid "existing_votes"
 msgstr "Votes"
 
-#. Default: "As a target site to which we will export meetings"
-msgid "extapp_usage_export"
-msgstr "As a target site to which we will export meetings"
-
-#. Default: "As a master site from which we will import meetings"
-msgid "extapp_usage_import"
-msgstr "As a master site from which we will import meetings"
-
-#. Default: "As a target site to which we will send a notification request"
-msgid "extapp_usage_notify"
-msgstr "As a target site to which we will send a notification request"
-
-#. Default: "As a data source into which we will be able to perform searches"
-msgid "extapp_usage_search"
-msgstr "As a data source into which we will be able to perform searches"
-
-#. Default: "As a database of users for keeping ours in sync with it"
-msgid "extapp_usage_users"
-msgstr "As a database of users for keeping ours in sync with it"
-
-#. Default: "This external application may be used for various purposes."
-msgid "extapp_usages_descr"
-msgstr "This external application may be used for various purposes."
-
 #. Default: "If you check this box, every time an annex will be uploaded, its content will be indexed. In the form for uploading an annex, a checkbox will ask the user if the file corresponds to a scanned document. If it is the case, an OCR engine (<a href=\"http://code.google.com/p/tesseract-ocr/\" target=\"_blank\">Tesseract</a>) will be launched for converting the scanned file into text. For installing Tesseract under Ubuntu, type \"sudo apt-get install tesseract-ocr\" in a shell. Tesseract needs to know the language of the scanned document, so it will also be asked to the user in the form. Besides installing Tesseract in itself, you will also need to install additional packages for particular languages (tesseract-fra, tesseract-ita, tesseract-eng...). Note that the scanned document will also be uploaded unchanged (users will still see it when downloading the file) <i>together</i> with the extracted text (that will be used for search purposes)."
 msgid "extract_text_from_files_descr"
 msgstr "If you check this box, every time an annex will be uploaded, its content will be indexed. In the form for uploading an annex, a checkbox will ask the user if the file corresponds to a scanned document. If it is the case, an OCR engine (<a href=\"http://code.google.com/p/tesseract-ocr/\" target=\"_blank\">Tesseract</a>) will be launched for converting the scanned file into text. For installing Tesseract under Ubuntu, type \"sudo apt-get install tesseract-ocr\" in a shell. Tesseract needs to know the language of the scanned document, so it will also be asked to the user in the form. Besides installing Tesseract in itself, you will also need to install additional packages for particular languages (tesseract-fra, tesseract-ita, tesseract-eng...). Note that the scanned document will also be uploaded unchanged (users will still see it when downloading the file) <i>together</i> with the extracted text (that will be used for search purposes)."
@@ -3776,14 +3743,6 @@ msgstr "${meetingConfigTitle} - A 'late' item has been validated."
 msgid "late_presented_items"
 msgstr "Items presented tardily"
 
-#. Default: "This person has left the meeting after item number:"
-msgid "left_after"
-msgstr "This person has left the meeting after item number:"
-
-#. Default: "This person has left the meeting while discussing this item"
-msgid "left_now"
-msgstr "This person has left the meeting while discussing this item"
-
 #. Default: "--- Do nothing, let the item in the workflow initial state ---"
 msgid "let_item_in_initial_state"
 msgstr "--- Do nothing, let the item in the workflow initial state ---"
@@ -4331,14 +4290,6 @@ msgstr "Nothing is defined on the meeting."
 msgid "nothing_to_do"
 msgstr "Nothing to do."
 
-#. Default: "Specify here the email of someone responsible for the external application. In some cases, when the URL above cannot be reached, a mail will be sent."
-msgid "notify_email_descr"
-msgstr "Specify here the email of someone responsible for the external application. In some cases, when the URL above cannot be reached, a mail will be sent."
-
-#. Default: "Specify here the full URL to reach on the external application. If you're using this resource for exporting purposes, and you want to export on the file system, you can specify here the URL of a local folder, starting with 'file://'."
-msgid "notify_url_descr"
-msgstr "Specify here the full URL to reach on the external application. If you're using this resource for exporting purposes, and you want to export on the file system, you can specify here the URL of a local folder, starting with 'file://'."
-
 #. Default: "notify users able to view the element"
 msgid "notify_users_able_to_view_element"
 msgstr "notify users able to view the element"
@@ -4468,10 +4419,6 @@ msgstr "You are about to delete this meeting and all included items. Are you sur
 #. Default: "Welcome to the administrative pages. This application allows to manage agendas and decisions of any entity taking decisions."
 msgid "plonemeeting_descr"
 msgstr "Welcome to the administrative pages. This application allows to manage agendas and decisions of any entity taking decisions."
-
-#. Default: "Identifier"
-msgid "plonemeeting_identifier"
-msgstr "Identifier"
 
 #. Default: "Annex type"
 msgid "pm_annex_type"
@@ -4653,10 +4600,6 @@ msgstr "Presents all selected items at once."
 msgid "present_several_items_done"
 msgstr "Selected items have been presented into the meeting."
 
-#. Default: "This person is present in the meeting since item number:"
-msgid "present_since"
-msgstr "This person is present in the meeting since item number:"
-
 #. Default: "Meeting into which this item is presented"
 msgid "presented_in_meeting"
 msgstr "Meeting into which this item is presented"
@@ -4729,10 +4672,6 @@ msgstr ""
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Refresh vote values"
-
-#. Default: "Remove this information"
-msgid "remove_info"
-msgstr "Remove this information"
 
 #. Default: "remove all selected items at once."
 msgid "remove_several_items"
@@ -4960,10 +4899,6 @@ msgstr "If you check this box, on the search screen, radio buttons will appear, 
 #. Default: "Show / hide details"
 msgid "show_or_hide_details"
 msgstr "Show / hide details"
-
-#. Default: "Show / hide persons"
-msgid "show_or_hide_persons"
-msgstr "Show / hide persons"
 
 #. Default: "Show / hide poll type observations"
 msgid "show_or_hide_pollTypeObservations"

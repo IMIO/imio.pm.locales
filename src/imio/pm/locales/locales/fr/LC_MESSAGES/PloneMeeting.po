@@ -294,11 +294,11 @@ msgstr "Si vous spécifiez un numéro, les valeurs définies ci-dessus seront ap
 
 #. Default: "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
-msgstr "Encodez le numéro du point jusqu'auquel cette personne doit être marquée comme absente.  Laissez le champ vide si la personne doit être marquée absente uniquement pour le point en cours."
+msgstr "Encodez le numéro du point jusqu'auquel ce participant doit être marqué comme absent.  Laissez le champ vide pour le marquer absent uniquement pour le point en cours."
 
 #. Default: "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgstr "Encodez le numéro du point jusqu'auquel cette personne doit être enlevée des absents.  Laissez le champ vide si la personne ne doit être enlevée des absents que pour le point en cours."
+msgstr "Encodez le numéro du point jusqu'auquel ce participant doit être enlevé des absents.  Laissez le champ vide pour l'enlever des absents uniquement pour le point en cours."
 
 # plone.app.querystring
 #. Default: "Informations about advices on an item"
@@ -1201,15 +1201,6 @@ msgstr "Adaptations au modèle de données"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivation"
 
-#. Default: "Email"
-msgid "PloneMeeting_label_notifyEmail"
-msgstr "Email"
-
-# ExternalApplication
-#. Default: "URL"
-msgid "PloneMeeting_label_notifyUrl"
-msgstr "URL"
-
 #. Default: "Transitions to trigger on items of a meeting when a transition is triggered on that meeting"
 msgid "PloneMeeting_label_onMeetingTransitionItemTransitionToTrigger"
 msgstr "Transitions à déclencher sur les points d'une séance lorsqu'une transition est déclenchée sur cette séance"
@@ -1691,9 +1682,9 @@ msgstr "Cet avis ne doit plus être 'caché pendant la rédaction' avant le ${li
 msgid "This advice was given as personal initiative"
 msgstr "Cet avis a été rendu d'initiative"
 
-#. Default: "This attendee is marked as absent for following items"
+#. Default: "This attendee is marked as absent for following item(s)"
 msgid "This attendee is marked as absent for following items"
-msgstr "Cette personne est marquée absent pour les points suivants"
+msgstr "Ce participant est marqué absent pour le(s) point(s) suivant(s)"
 
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"
@@ -2106,7 +2097,7 @@ msgstr "Absents définis sur la séance"
 
 #. Default: "Define here people that were absents (not excused) for the meeting"
 msgid "assembly_absents_meeting_descr"
-msgstr "Définissez ici les personnes absentes (non excusées) pour la séance"
+msgstr "Définissez ici les participants absents (non excusés) pour la séance"
 
 #. Default: "Assembly and signatures"
 msgid "assembly_and_signatures"
@@ -2902,30 +2893,6 @@ msgstr "Annexes"
 #. Default: "Votes"
 msgid "existing_votes"
 msgstr "Votes"
-
-#. Default: "As a target site to which we will export meetings"
-msgid "extapp_usage_export"
-msgstr "Comme application vers laquelle exporter des séances"
-
-#. Default: "As a master site from which we will import meetings"
-msgid "extapp_usage_import"
-msgstr "Comme site maître duquel on va importer des séances"
-
-#. Default: "As a target site to which we will send a notification request"
-msgid "extapp_usage_notify"
-msgstr "Comme application vers laquelle envoyer des notifications"
-
-#. Default: "As a data source into which we will be able to perform searches"
-msgid "extapp_usage_search"
-msgstr "Comme source de données sur laquelle effectuer des recherches"
-
-#. Default: "As a database of users for keeping ours in sync with it"
-msgid "extapp_usage_users"
-msgstr "Comme base de données d'utilisateurs pour synchroniser les nôtres avec"
-
-#. Default: "This external application may be used for various purposes."
-msgid "extapp_usages_descr"
-msgstr "Cette application externe peut être employée à divers usages."
 
 #. Default: "If you check this box, every time an annex will be uploaded, its content will be indexed. In the form for uploading an annex, a checkbox will ask the user if the file corresponds to a scanned document. If it is the case, an OCR engine (<a href=\"http://code.google.com/p/tesseract-ocr/\" target=\"_blank\">Tesseract</a>) will be launched for converting the scanned file into text. For installing Tesseract under Ubuntu, type \"sudo apt-get install tesseract-ocr\" in a shell. Tesseract needs to know the language of the scanned document, so it will also be asked to the user in the form. Besides installing Tesseract in itself, you will also need to install additional packages for particular languages (tesseract-fra, tesseract-ita, tesseract-eng...). Note that the scanned document will also be uploaded unchanged (users will still see it when downloading the file) <i>together</i> with the extracted text (that will be used for search purposes)."
 msgid "extract_text_from_files_descr"
@@ -3775,14 +3742,6 @@ msgstr "${meetingConfigTitle} - Un point en urgence vient d'être validé."
 msgid "late_presented_items"
 msgstr "Points présentés en urgence"
 
-#. Default: "This person has left the meeting after item number:"
-msgid "left_after"
-msgstr "Cette personne a quitté la séance après le point numéro:"
-
-#. Default: "This person has left the meeting while discussing this item"
-msgid "left_now"
-msgstr "Cette personne a quitté la séance pendant la discussion sur ce point."
-
 #. Default: "--- Do nothing, let the item in the workflow initial state ---"
 msgid "let_item_in_initial_state"
 msgstr "--- Ne rien faire, laisser le point dans son état initial ---"
@@ -4329,14 +4288,6 @@ msgstr "Aucune valeur définie pour ce champ sur la séance."
 msgid "nothing_to_do"
 msgstr "Rien à faire."
 
-#. Default: "Specify here the email of someone responsible for the external application. In some cases, when the URL above cannot be reached, a mail will be sent."
-msgid "notify_email_descr"
-msgstr "Spécifiez ici le courriel d'une personne responsable de l'application externe. Dans certains cas, quand l'URL ci-dessus ne peut être atteinte, un courriel sera envoyé."
-
-#. Default: "Specify here the full URL to reach on the external application. If you're using this resource for exporting purposes, and you want to export on the file system, you can specify here the URL of a local folder, starting with 'file://'."
-msgid "notify_url_descr"
-msgstr "Spécifiez ici l'URL complète à atteindre sur l'application externe. Si vous utilisez cette ressource pour y faire un export, et que vous voulez exporter sur le disque (local, ou un disque monté), vous pouvez spécifier ici l'URL d'un répertoire local, commençant par 'file://'."
-
 #. Default: "notify users able to view the element"
 msgid "notify_users_able_to_view_element"
 msgstr "prévient les utilisateurs capables de voir l'élément"
@@ -4443,11 +4394,11 @@ msgstr "Paramètres définis si l'utilisateur a une fonction spécifique"
 
 #. Default: "Mark this person absent for this item"
 msgid "person_byebye"
-msgstr "Marquer cette personne absente pour ce point"
+msgstr "Marquer ce participant absent pour ce point"
 
 #. Default: "Remove this person from absents for this item"
 msgid "person_welcome"
-msgstr "Enlever cette personne des absents pour ce point"
+msgstr "Enlever ce participant des absents pour ce point"
 
 #. Default: "Please encode this other place."
 msgid "place_other_required"
@@ -4464,10 +4415,6 @@ msgstr "Etes-vous certain de vouloir supprimer cette séance ET tous ses points?
 #. Default: "Welcome to the administrative pages. This application allows to manage agendas and decisions of any entity taking decisions."
 msgid "plonemeeting_descr"
 msgstr "Bienvenue sur l'interface d'administration. Ce logiciel permet la gestion d'ordres du jour et de décisions d'un organe décisionnel."
-
-#. Default: "Identifier"
-msgid "plonemeeting_identifier"
-msgstr "Identifiant"
 
 #. Default: "Annex type"
 msgid "pm_annex_type"
@@ -4649,10 +4596,6 @@ msgstr "Présenter tous les points sélectionnés."
 msgid "present_several_items_done"
 msgstr "Les points sélectionnés ont été présentés dans la séance."
 
-#. Default: "This person is present in the meeting since item number:"
-msgid "present_since"
-msgstr "Cette personne est présente dans la séance depuis le point numéro:"
-
 #. Default: "Meeting into which this item is presented"
 msgid "presented_in_meeting"
 msgstr "Séance"
@@ -4725,10 +4668,6 @@ msgstr "${assembly} et ${signatures}"
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Rafraîchir les valeurs de vote"
-
-#. Default: "Remove this information"
-msgid "remove_info"
-msgstr "Supprimer cette information"
 
 #. Default: "remove all selected items at once."
 msgid "remove_several_items"
@@ -4955,10 +4894,6 @@ msgstr "Si vous cochez cette case, sur l'écran de recherche, des boutons radios
 #. Default: "Show / hide details"
 msgid "show_or_hide_details"
 msgstr "Afficher / masquer les détails"
-
-#. Default: "Show / hide persons"
-msgid "show_or_hide_persons"
-msgstr "Afficher / masquer les personnes"
 
 #. Default: "Show / hide poll type observations"
 msgid "show_or_hide_pollTypeObservations"
