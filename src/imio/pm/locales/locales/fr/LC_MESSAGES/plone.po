@@ -425,9 +425,17 @@ msgstr "Vous ne pouvez pas supprimer un dossier qui contient une ou plusieurs s�
 msgid "can_not_delete_meetingcategory_meetingitem"
 msgstr "Cette catégorie ne peut pas être supprimée, il existe au moins un point lié à celle-ci.  Vérifiez ici : ${url}"
 
+#. Default: "This configuration can not be deleted, annex types defined in this configuration are used in field 'Correspondences while sent to other meeting configs' of at least another configuration, check ${other_config_title}!"
+msgid "can_not_delete_meetingconfig_annex_types"
+msgstr "Cette configuration de séance ne peut pas être supprimée, des types d'annexes de cette configuration sont renseignées dans le champ \"Correspondances lors de l'envoi vers un autre type de séance\" d'au moins une autre configuration de séance, vérifiez la configuration \"${other_config_title}\"!"
+
 #. Default: "This configuration can not be deleted, at least one meeting linked to this configuration exists!"
 msgid "can_not_delete_meetingconfig_meeting"
 msgstr "Cette configuration de séance ne peut pas être supprimée, au moins une séance liée à cette configuration existe!"
+
+#. Default: "This configuration can not be deleted, it is used in another configuration, check ${other_config_title}!"
+msgid "can_not_delete_meetingconfig_meetingconfig"
+msgstr "Cette configuration de séance ne peut pas être supprimée, elle est renseignée dans au moins une autre configuration de séance, vérifiez la configuration \"${other_config_title}!\""
 
 #. Default: "This configuration can not be deleted, at least one member folder designed to store PloneMeeting objects is not empty!"
 msgid "can_not_delete_meetingconfig_meetingfolder"

@@ -434,9 +434,17 @@ msgstr "¡Usted no puede eliminar un contenedor que contiene uno a más reunione
 msgid "can_not_delete_meetingcategory_meetingitem"
 msgstr "¡Esta categoría no puede ser eliminada, al menos un tema esta vinculado a esta categoría!"
 
+#. Default: "This configuration can not be deleted, annex types defined in this configuration are used in field 'Correspondences while sent to other meeting configs' of at least another configuration, check ${other_config_title}!"
+msgid "can_not_delete_meetingconfig_annex_types"
+msgstr ""
+
 #. Default: "This configuration can not be deleted, at least one meeting linked to this configuration exists!"
 msgid "can_not_delete_meetingconfig_meeting"
 msgstr "¡Esta configuración no puede ser eliminada, al menos existe una reunión enlazada a esta configuración actual!"
+
+#. Default: "This configuration can not be deleted, it is used in another configuration, check ${other_config_title}!"
+msgid "can_not_delete_meetingconfig_meetingconfig"
+msgstr ""
 
 #. Default: "This configuration can not be deleted, at least one member folder designed to store PloneMeeting objects is not empty!"
 msgid "can_not_delete_meetingconfig_meetingfolder"

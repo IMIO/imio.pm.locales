@@ -596,6 +596,14 @@ msgstr ""
 msgid "can_not_delete_meetingconfig_meetingfolder"
 msgstr ""
 
+#. Default: "This configuration can not be deleted, it is used in another configuration, check ${other_config_title}!"
+msgid "can_not_delete_meetingconfig_meetingconfig"
+msgstr ""
+
+#. Default: "This configuration can not be deleted, annex types defined in this configuration are used in field 'Correspondences while sent to other meeting configs' of at least another configuration, check ${other_config_title}!"
+msgid "can_not_delete_meetingconfig_annex_types"
+msgstr ""
+
 #. Default: "This category can not be deleted, at least one item is linked to this category, please check ${url}"
 msgid "can_not_delete_meetingcategory_meetingitem"
 msgstr ""
