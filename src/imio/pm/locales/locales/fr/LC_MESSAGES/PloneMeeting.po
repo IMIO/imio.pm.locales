@@ -3592,6 +3592,10 @@ msgstr "Aucun déplacement n'a eu lieu: veuillez introduire un numéro valide."
 msgid "item_number_not_accessible"
 msgstr "Vous n'avez pas accès au numéro de point demandé."
 
+#. Default: "You do not have access to the item you tried to access, you have been redirected to the closest accessible item."
+msgid "item_number_not_accessible_redirected_to_closest_item"
+msgstr "Vous n'avez pas accès au point demandé, vous avez été redirigé vers le point le plus proche."
+
 #. Default: "Choose positive decided state for an item"
 msgid "item_positive_decided_states_descr"
 msgstr "Choisissez les états dans lesquels les points sont considérés \"décidés\" de manière positive."
