@@ -313,6 +313,10 @@ msgstr ""
 msgid "Informations about advices on an item"
 msgstr ""
 
+#. Default: "Inherited advice action"
+msgid "Inherited advice action"
+msgstr ""
+
 #. Default: "Insert items among normal items"
 msgid "Insert items among normal items"
 msgstr ""
@@ -886,6 +890,10 @@ msgstr "Atributos para los cuales se debe mantener el histórico de las reunione
 
 #. Default: "Holidays"
 msgid "PloneMeeting_label_holidays"
+msgstr ""
+
+#. Default: "An adviser may remove inherited advices?"
+msgid "PloneMeeting_label_inheritedAdviceRemoveableByAdviser"
 msgstr ""
 
 #. Default: "Sort order(s) to apply when adding an item to a meeting"
@@ -1620,8 +1628,20 @@ msgstr "Temas predefinidos"
 msgid "References of contained items have been updated."
 msgstr ""
 
+#. Default: "Remove advice inheritance"
+msgid "Remove advice inheritance"
+msgstr ""
+
 #. Default: "Remove attendee from signatory defined for this item"
 msgid "Remove attendee from signatory defined for this item"
+msgstr ""
+
+#. Default: "Remove inherited advice"
+msgid "Remove inherited advice"
+msgstr ""
+
+#. Default: "Remove inherited advice and ask advice locally"
+msgid "Remove inherited advice and ask advice locally"
 msgstr ""
 
 #. Default: "Searches"
@@ -3360,6 +3380,10 @@ msgstr ""
 msgid "in_and_out_moves_descr"
 msgstr ""
 
+#. Default: "By default, only MeetingManagers may remove an inherited advice as long as item is editable.  If checked, this will give the advisers the possibility to remove an advice of their adviser groups when the item is in a state defined in the \"Item states allowing to modify or delete advices\" field here above."
+msgid "inherited_advice_removeable_by_adviser_descr"
+msgstr ""
+
 #. Default: "You can not select another inserting method together with the 'At the end' inserting method."
 msgid "inserting_methods_at_the_end_not_alone_error"
 msgstr ""
@@ -4758,6 +4782,18 @@ msgstr ""
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Actualizar valores de voto"
+
+#. Default: "Your current configuration does not allow you to ask this advice locally, the inherited advice was not removed. Contact your system administrator if necessary.'
+msgid "remove_advice_inheritance_ask_locally_not_configured"
+msgstr ""
+
+#. Default: "Advice inheritance was removed.'
+msgid "remove_advice_inheritance_removed"
+msgstr ""
+
+#. Default: "Advice inheritance was removed and advice is asked locally.'
+msgid "remove_advice_inheritance_removed_and_asked_locally"
+msgstr ""
 
 #. Default: "remove all selected items at once."
 msgid "remove_several_items"

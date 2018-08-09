@@ -78,7 +78,7 @@ msgstr "Advice type"
 # plone.app.querystring
 #. Default: "Advisers index"
 msgid "Advisers index"
-msgstr ""
+msgstr "Advisers index"
 
 #. Default: "An advice on this item still needs to be given respecting given delay."
 msgid "An advice on this item still needs to be given respecting given delay."
@@ -158,7 +158,7 @@ msgstr "Commentaire"
 
 #. Default: "Contacts fields"
 msgid "Contacts fields"
-msgstr ""
+msgstr "Contacts fields"
 
 #. Default: "Copy PloneMeeting"
 msgid "Copy PloneMeeting"
@@ -182,7 +182,7 @@ msgstr "Decisions"
 
 #. Default: "Define this attendee as signatory for this item"
 msgid "Define this attendee as signatory for this item"
-msgstr ""
+msgstr "Define this attendee as signatory for this item"
 
 #. Default: "Delete advice"
 msgid "Delete advice"
@@ -250,7 +250,7 @@ msgstr "Enter the official comment."
 
 #. Default: "Free text fields"
 msgid "Free text fields"
-msgstr ""
+msgstr "Free text fields"
 
 #. Default: "Given on ${advice_given_on_date}"
 msgid "Given on ${advice_given_on_date}"
@@ -298,15 +298,19 @@ msgstr "If you specify a number, the values entered here above will be applied f
 
 #. Default: "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
+msgstr "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
 
 #. Default: "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
+msgstr "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
 
 # plone.app.querystring
 #. Default: "Informations about advices on an item"
 msgid "Informations about advices on an item"
+msgstr "Informations about advices on an item"
+
+#. Default: "Inherited advice action"
+msgid "Inherited advice action"
 msgstr ""
 
 #. Default: "Insert items among normal items"
@@ -372,7 +376,7 @@ msgstr "Limit the number of shown characters of the title to avoid too long titl
 # plone.app.querystring
 #. Default: "Linked meeting date (used for items)"
 msgid "Linked meeting date"
-msgstr ""
+msgstr "Linked meeting date (used for items)"
 
 #. Default: "Manage advice annexes"
 msgid "Manage advice annexes"
@@ -380,7 +384,7 @@ msgstr "Manage advice annexes"
 
 #. Default: "Manage contacts"
 msgid "Manage contacts"
-msgstr ""
+msgstr "Manage contacts"
 
 #. Default: "Manage dashboard"
 msgid "Manage dashboard"
@@ -413,7 +417,7 @@ msgstr "Meeting annexes"
 # plone.app.querystring
 #. Default: "Meeting date (used for meetings)"
 msgid "Meeting date"
-msgstr ""
+msgstr "Meeting date (used for meetings)"
 
 #. Default: "Items"
 msgid "Meeting items"
@@ -421,7 +425,7 @@ msgstr "Items"
 
 #. Default: "Meeting signatory replaced for this item"
 msgid "Meeting signatory replaced for this item"
-msgstr ""
+msgstr "Meeting signatory replaced for this item"
 
 #. Default: "Users"
 msgid "Meeting users"
@@ -461,7 +465,7 @@ msgstr "No history informations are available for now."
 
 #. Default: "None"
 msgid "None"
-msgstr ""
+msgstr "None"
 
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
@@ -477,7 +481,7 @@ msgstr "Once viewable, the adviser will have ${advice_delay} days to give the ad
 
 #. Default: "Original meeting signatory"
 msgid "Original meeting signatory"
-msgstr ""
+msgstr "Original meeting signatory"
 
 #. Default: "Please check that opening \"[[\" have corresponding closing \"]]\"."
 msgid "Please check that opening \"[[\" have corresponding closing \"]]\"."
@@ -654,7 +658,7 @@ msgstr "Identifier of this meeting configuration"
 
 #. Default: "Contents to keep when item sent to another configuration"
 msgid "PloneMeeting_label_contentsKeptOnSentToOtherMC"
-msgstr ""
+msgstr "Contents to keep when item sent to another configuration"
 
 #. Default: "Copy groups"
 msgid "PloneMeeting_label_copyGroups"
@@ -846,7 +850,7 @@ msgstr "Group certified signatures"
 
 #. Default: "Groups not to be displayed in the 'Group' dashboard filter"
 msgid "PloneMeeting_label_groupsHiddenInDashboardFilter"
-msgstr ""
+msgstr "Groups not to be displayed in the 'Group' dashboard filter"
 
 #. Default: "Groups in charge"
 msgid "PloneMeeting_label_groupsInCharge"
@@ -858,7 +862,7 @@ msgstr "Hide Css classes to"
 
 #. Default: "Hide history to"
 msgid "PloneMeeting_label_hideHistoryTo"
-msgstr ""
+msgstr "Hide history to"
 
 #. Default: "Hide item history comments to users outside proposing group"
 msgid "PloneMeeting_label_hideItemHistoryCommentsToUsersOutsideProposingGroup"
@@ -884,6 +888,10 @@ msgstr "Meeting attributes for which history must be kept"
 msgid "PloneMeeting_label_holidays"
 msgstr "Holidays"
 
+#. Default: "An adviser may remove inherited advices?"
+msgid "PloneMeeting_label_inheritedAdviceRemoveableByAdviser"
+msgstr ""
+
 #. Default: "Sort order(s) to apply when adding an item to a meeting"
 msgid "PloneMeeting_label_insertingMethodsOnAddItem"
 msgstr "Sort order(s) to apply when adding an item to a meeting"
@@ -894,7 +902,7 @@ msgstr "Internal notes"
 
 #. Default: "Is acceptable out of meeting?"
 msgid "PloneMeeting_label_isAcceptableOutOfMeeting"
-msgstr ""
+msgstr "Is acceptable out of meeting?"
 
 #. Default: "Confidential ?"
 msgid "PloneMeeting_label_isConfidential"
@@ -982,7 +990,7 @@ msgstr "Description"
 
 #. Default: "Item fields to keep configuration sorting for"
 msgid "PloneMeeting_label_itemFieldsToKeepConfigSortingFor"
-msgstr ""
+msgstr "Item fields to keep configuration sorting for"
 
 #. Default: "Item states in which group in charge will have access to items of groups they have in charge"
 msgid "PloneMeeting_label_itemGroupInChargeStates"
@@ -1235,7 +1243,7 @@ msgstr "Oral question ?"
 
 #. Default: "Ordered contacts"
 msgid "PloneMeeting_label_orderedContacts"
-msgstr ""
+msgstr "Ordered contacts"
 
 #. Default: "Correspondences while sent to other meeting configs"
 msgid "PloneMeeting_label_otherMCCorrespondences"
@@ -1371,7 +1379,7 @@ msgstr "Replacement duty in the second language"
 
 #. Default: "Replacements"
 msgid "PloneMeeting_label_replacements"
-msgstr ""
+msgstr "Replacements"
 
 #. Default: "Restrict access to secret items?"
 msgid "PloneMeeting_label_restrictAccessToSecretItems"
@@ -1411,7 +1419,7 @@ msgstr "Show possible targets for item keywords"
 
 #. Default: "Signatories"
 msgid "PloneMeeting_label_signatories"
-msgstr ""
+msgstr "Signatories"
 
 #. Default: "Signature image"
 msgid "PloneMeeting_label_signatureImage"
@@ -1601,7 +1609,7 @@ msgstr "Preview detailled advice"
 # plone.app.querystring
 #. Default: "Previous review state"
 msgid "Previous review state"
-msgstr ""
+msgstr "Previous review state"
 
 #. Default: "Recurring items"
 msgid "RecurringItems"
@@ -1611,8 +1619,20 @@ msgstr "Recurring items"
 msgid "References of contained items have been updated."
 msgstr "References of contained items have been updated."
 
+#. Default: "Remove advice inheritance"
+msgid "Remove advice inheritance"
+msgstr ""
+
 #. Default: "Remove attendee from signatory defined for this item"
 msgid "Remove attendee from signatory defined for this item"
+msgstr "Remove attendee from signatory defined for this item"
+
+#. Default: "Remove inherited advice"
+msgid "Remove inherited advice"
+msgstr ""
+
+#. Default: "Remove inherited advice and ask advice locally"
+msgid "Remove inherited advice and ask advice locally"
 msgstr ""
 
 #. Default: "Searches"
@@ -1629,7 +1649,7 @@ msgstr "Select in the list the type of item you want to add"
 
 #. Default: "Signatory specifically defined for this item"
 msgid "Signatory specifically defined for this item"
-msgstr ""
+msgstr "Signatory specifically defined for this item"
 
 #. Default: "state"
 msgid "State"
@@ -1642,12 +1662,12 @@ msgstr "Taken over by ${fullname}"
 # plone.app.querystring
 #. Default: "The date of the meeting the item is linked to"
 msgid "The date of the meeting the item is linked to"
-msgstr ""
+msgstr "The date of the meeting the item is linked to"
 
 # plone.app.querystring
 #. Default: "The date the meeting occurs"
 msgid "The date the meeting occurs"
-msgstr ""
+msgstr "The date the meeting occurs"
 
 #. Default: "The field here above is not used, check the 'users' tab."
 msgid "The field here above is not used, check the 'users' tab."
@@ -1668,7 +1688,7 @@ msgstr "The item you tried to take over was already taken over in between by ${f
 # plone.app.querystring
 #. Default: "The item, advice or meeting previous review state"
 msgid "The item, advice or meeting previous review state"
-msgstr ""
+msgstr "The item, advice or meeting previous review state"
 
 #. Default: "There was an error during annex conversion, please contact system administrator."
 msgid "There was an error during annex conversion, please contact system administrator."
@@ -1704,11 +1724,11 @@ msgstr "This advice was given as personal initiative"
 
 #. Default: "This attendee is marked as absent for following item(s)"
 msgid "This attendee is marked as absent for following items"
-msgstr ""
+msgstr "This attendee is marked as absent for following item(s)"
 
 #. Default: "This attendee is marked as signatory for following item(s)"
 msgid "This attendee is marked as signatory for following items"
-msgstr ""
+msgstr "This attendee is marked as signatory for following item(s)"
 
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"
@@ -1724,7 +1744,7 @@ msgstr "This item is not viewable by the advisers of this group in the current r
 
 #. Default: "This meeting configuration uses following fields to manage assemblies and signatures"
 msgid "This meeting configuration uses following fields to manage assemblies and signatures"
-msgstr ""
+msgstr "This meeting configuration uses following fields to manage assemblies and signatures"
 
 #. Default: "This optional advice was asked by the item creators (shown by his title being between brackets)"
 msgid "This optional advice was asked by the item creators (shown by his title being between brackets)"
@@ -1765,7 +1785,7 @@ msgstr "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${
 
 #. Default: "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
-msgstr ""
+msgstr "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 
 #. Default: "Not grouped meeting configurations"
 msgid "_no_config_group_"
@@ -1940,9 +1960,8 @@ msgid "advices_invalidated"
 msgstr "Advices on this item have been invalidated!"
 
 #. Default: "If \"Advices\" is selected in field \"Contents to keep when item sent to another configuration\" here above, you may select here advices that will be kept.  If you do not select anyhting, every advices will be kept."
-#, fuzzy
 msgid "advices_kept_on_sent_to_other_mc_descr"
-msgstr "If parameter \"Keep advices when item sent to another configuration?\" here above is enabled, you may select here advices that will be kept.  If you do not select anyhting, every advices will be kept."
+msgstr "If \"Advices\" is selected in field \"Contents to keep when item sent to another configuration\" here above, you may select here advices that will be kept.  If you do not select anyhting, every advices will be kept."
 
 #. Default: "Standard"
 msgid "advices_standard"
@@ -2387,11 +2406,11 @@ msgstr "What kind of item would you like to create?"
 
 #. Default: "Highlight in blue"
 msgid "ckeditor_style_highlight_in_blue"
-msgstr ""
+msgstr "Highlight in blue"
 
 #. Default: "Highlight in green"
 msgid "ckeditor_style_highlight_in_green"
-msgstr ""
+msgstr "Highlight in green"
 
 #. Default: "Highlight in red"
 msgid "ckeditor_style_highlight_in_red"
@@ -2503,19 +2522,19 @@ msgstr "Considered not given because hidden during redaction"
 
 #. Default: "The advices"
 msgid "content_kept_advices"
-msgstr ""
+msgstr "The advices"
 
 #. Default: "The annexes"
 msgid "content_kept_annexes"
-msgstr ""
+msgstr "The annexes"
 
 #. Default: "The decision annexes"
 msgid "content_kept_decision_annexes"
-msgstr ""
+msgstr "The decision annexes"
 
 #. Default: "Select here contents of original item that will be kept when sending an item to another meeting configuration.  If you select \"The advices\", advices will be inherited from original item, this mean that advices from original item will be displayed readonly on the new item but actually, informations are taken from original item.  You can also select advices to keep in \"Advices to keep when item is sent to another configuration\" field below."
 msgid "contents_kept_on_sent_to_other_mc_descr"
-msgstr ""
+msgstr "Select here contents of original item that will be kept when sending an item to another meeting configuration.  If you select \"The advices\", advices will be inherited from original item, this mean that advices from original item will be displayed readonly on the new item but actually, informations are taken from original item.  You can also select advices to keep in \"Advices to keep when item is sent to another configuration\" field below."
 
 #. Default: "The item is entitled '${itemTitle}'. You can access this item here: ${objectUrl}."
 msgid "copyGroups_mail_body"
@@ -2748,7 +2767,7 @@ msgstr "Emergency accepted"
 
 #. Default: "The emergency must be accepted in order to be able to decide the item out of meeting emergency"
 msgid "emergency_accepted_required_to_accept_out_of_meeting_emergency"
-msgstr ""
+msgstr "The emergency must be accepted in order to be able to decide the item out of meeting emergency"
 
 #. Default: "Emergency asked"
 msgid "emergency_asked"
@@ -3049,7 +3068,7 @@ msgstr "When an advice has been given on an item, advisers of the given advice w
 
 #. Default: "If you do not select anything, every groups will be displayed."
 msgid "groups_hidden_in_dashboard_filter_descr"
-msgstr ""
+msgstr "If you do not select anything, every groups will be displayed."
 
 #. Default: "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
 msgid "groups_in_charge_descr"
@@ -3107,7 +3126,7 @@ msgstr "Select profiles to which Css classes defined here above in the \"Css cla
 
 #. Default: "Hide links to the history in various place (item, meeting and advice view, dashboards, ...)."
 msgid "hide_history_to_descr"
-msgstr ""
+msgstr "Hide links to the history in various place (item, meeting and advice view, dashboards, ...)."
 
 #. Default: "If box is checked, when a user will access the history of an item, the comments of the listed events will only be shown if current user is part of the item's proposing group."
 msgid "hide_item_history_comments_to_users_outside_proposing_group_descr"
@@ -3325,6 +3344,10 @@ msgstr "To use this functionnality, it is necessary that the icon '${iconname}' 
 msgid "in_and_out_moves_descr"
 msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 
+#. Default: "By default, only MeetingManagers may remove an inherited advice as long as item is editable.  If checked, this will give the advisers the possibility to remove an advice of their adviser groups when the item is in a state defined in the \"Item states allowing to modify or delete advices\" field here above."
+msgid "inherited_advice_removeable_by_adviser_descr"
+msgstr ""
+
 #. Default: "You can not select another inserting method together with the 'At the end' inserting method."
 msgid "inserting_methods_at_the_end_not_alone_error"
 msgstr "You can not select another inserting method together with the 'At the end' inserting method."
@@ -3367,7 +3390,7 @@ msgstr "Absent?"
 
 #. Default: "If checked, the item will be acceptable out of a meeting, when it is validated."
 msgid "is_acceptable_out_of_meeting_descr"
-msgstr ""
+msgstr "If checked, the item will be acceptable out of a meeting, when it is validated."
 
 #. Default: "Attendee?"
 msgid "is_attendee"
@@ -3475,7 +3498,7 @@ msgstr "If you don't fill this field, meeting assembly excused will be used for 
 
 #. Default: "This person was absent during discussion on this item"
 msgid "item_attendee_absent"
-msgstr ""
+msgstr "This person was absent during discussion on this item"
 
 #. Default: "As soon as an item will be in one of the states you check here, it will be sent to other meeting configurations selected on it."
 msgid "item_auto_sent_to_other_mc_states_descr"
@@ -3543,7 +3566,7 @@ msgstr "The item has been duplicated and a link to the original item has been ke
 
 #. Default: "By default, vocabularies used for selectable fields are sorted alphabetically, if checked, vocabulary will not be sorted and display terms as encoded in the configuration."
 msgid "item_fields_to_keep_config_sorting_for_descr"
-msgstr ""
+msgstr "By default, vocabularies used for selectable fields are sorted alphabetically, if checked, vocabulary will not be sorted and display terms as encoded in the configuration."
 
 #. Default: "When an item is in one of the states you choose here, the Plone subgroup 'observers' of the group in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "item_group_in_charge_states_descr"
@@ -3595,7 +3618,7 @@ msgstr "You do not have access to the item number you entered."
 
 #. Default: "You do not have access to the item you tried to access, you have been redirected to the closest accessible item."
 msgid "item_number_not_accessible_redirected_to_closest_item"
-msgstr ""
+msgstr "You do not have access to the item you tried to access, you have been redirected to the closest accessible item."
 
 #. Default: "Choose positive decided state for an item"
 msgid "item_positive_decided_states_descr"
@@ -4078,11 +4101,11 @@ msgstr "This sections lets meeting managers define default assembly and signatur
 
 #. Default: "Contacts management"
 msgid "meetingconfig_contacts"
-msgstr ""
+msgstr "Contacts management"
 
 #. Default: "Contacts are a way to use representation of real attendees to manage assembly of meetings."
 msgid "meetingconfig_contacts_descr"
-msgstr ""
+msgstr "Contacts are a way to use representation of real attendees to manage assembly of meetings."
 
 #. Default: "Parameters in this section allow to customize some elements linked to attributes of and associations between the 2 main content types: items and meetings."
 msgid "meetingconfig_data_descr"
@@ -4400,7 +4423,7 @@ msgstr " "
 
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
 msgid "ordered_contacts_descr"
-msgstr ""
+msgstr "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
 
 #. Default: "When an item is sent to another meeting config, the annexes of the new item will use meeting file types of the new meeting config.  Define here the correspondences for each meeting config the items of this meeting config can  be sent to.  If you do not define correspondences, the application will use the default meeting file type (first found).  This will not be used if 'Related to advice' is used in the 'Related to' field here above because advices are not kept while an item is sent to another meeting config.  Please select only one value by meeting config the item is sendable to."
 msgid "other_mc_correspondences_descr"
@@ -4419,14 +4442,12 @@ msgid "params_as_special_user"
 msgstr "Parameters defined if the user has a specific function"
 
 #. Default: "Mark this person absent for this item"
-#, fuzzy
 msgid "person_byebye"
-msgstr "Greet after this item"
+msgstr "Mark this person absent for this item"
 
 #. Default: "Remove this person from absents for this item"
-#, fuzzy
 msgid "person_welcome"
-msgstr "Welcome"
+msgstr "Remove this person from absents for this item"
 
 #. Default: "Please encode this other place."
 msgid "place_other_required"
@@ -4691,11 +4712,23 @@ msgstr "Recurring items are items that will be automatically added to a meeting 
 
 #. Default: "${assembly} and ${signatures}"
 msgid "redefinable_assembly_and_signatures"
-msgstr ""
+msgstr "${assembly} and ${signatures}"
 
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Refresh vote values"
+
+#. Default: "Your current configuration does not allow you to ask this advice locally, the inherited advice was not removed. Contact your system administrator if necessary.'
+msgid "remove_advice_inheritance_ask_locally_not_configured"
+msgstr "Your current configuration does not allow you to ask this advice locally, the inherited advice was not removed. Contact your system administrator if necessary."
+
+#. Default: "Advice inheritance was removed.'
+msgid "remove_advice_inheritance_removed"
+msgstr "Advice inheritance was removed."
+
+#. Default: "Advice inheritance was removed and advice is asked locally.'
+msgid "remove_advice_inheritance_removed_and_asked_locally"
+msgstr "Advice inheritance was removed and advice is asked locally."
 
 #. Default: "remove all selected items at once."
 msgid "remove_several_items"
@@ -4706,7 +4739,6 @@ msgid "remove_several_items_done"
 msgstr "Selected items have been removed from the meeting."
 
 #. Default: "A category must be selected on this item so it may evolve in the workflow"
-#, fuzzy
 msgid "required_category_ko"
 msgstr "A category must be selected on this item so it may evolve in the workflow"
 
@@ -5338,19 +5370,19 @@ msgstr "You can choose here who will effectively encode the votes. Several choic
 
 #. Default: "Accept a validated item out of a meeting"
 msgid "wa_accepted_out_of_meeting"
-msgstr ""
+msgstr "Accept a validated item out of a meeting"
 
 #. Default: "Accept a validated item out of a meeting (the item is duplicated, validated and given advices are kept)"
 msgid "wa_accepted_out_of_meeting_and_duplicated"
-msgstr ""
+msgstr "Accept a validated item out of a meeting (the item is duplicated, validated and given advices are kept)"
 
 #. Default: "Accept a validated item out of a meeting when emergency is asked"
 msgid "wa_accepted_out_of_meeting_emergency"
-msgstr ""
+msgstr "Accept a validated item out of a meeting when emergency is asked"
 
 #. Default: "Accept a validated item out of a meeting when emergency is asked (the item is duplicated, validated and given advices are kept)"
 msgid "wa_accepted_out_of_meeting_emergency_and_duplicated"
-msgstr ""
+msgstr "Accept a validated item out of a meeting when emergency is asked (the item is duplicated, validated and given advices are kept)"
 
 #. Default: "You can not select the 'Items come validated' adaptation as there are still items in state 'itemcreated' or 'proposed'."
 msgid "wa_added_items_come_validated_error"
@@ -5373,9 +5405,8 @@ msgid "wa_conflicts"
 msgstr "This combination of workflow adaptations is invalid."
 
 #. Default: "Creator may edit its items unless items are definitively decided"
-#, fuzzy
 msgid "wa_creator_edits_unless_closed"
-msgstr "Creator may edit its items unless meeting is closed"
+msgstr "Creator may edit its items unless items are definitively decided"
 
 #. Default: "Item decision is pre-encoded by item creator"
 msgid "wa_creator_initiated_decisions"
@@ -5427,19 +5458,19 @@ msgstr "Item pre-validation (reviewer may also prevalidate)"
 
 #. Default: "Send a 'Presented' item back to state 'Itemcreated'"
 msgid "wa_presented_item_back_to_itemcreated"
-msgstr ""
+msgstr "Send a 'Presented' item back to state 'Itemcreated'"
 
 #. Default: "Send a 'Presented' item back to state 'Pre-validated'"
 msgid "wa_presented_item_back_to_prevalidated"
-msgstr ""
+msgstr "Send a 'Presented' item back to state 'Pre-validated'"
 
 #. Default: "If you select the 'Send a 'Presented' item back to state 'Pre-validated'' then you need to select the 'Item pre-validation' or 'Item pre-validation (reviewer may also prevalidate)' workflow adaptation as well."
 msgid "wa_presented_item_back_to_prevalidated_needs_pre_validation_error"
-msgstr ""
+msgstr "If you select the 'Send a 'Presented' item back to state 'Pre-validated'' then you need to select the 'Item pre-validation' or 'Item pre-validation (reviewer may also prevalidate)' workflow adaptation as well."
 
 #. Default: "Send a 'Presented' item back to state 'Proposed'"
 msgid "wa_presented_item_back_to_proposed"
-msgstr ""
+msgstr "Send a 'Presented' item back to state 'Proposed'"
 
 #. Default: "Refused"
 msgid "wa_refused"

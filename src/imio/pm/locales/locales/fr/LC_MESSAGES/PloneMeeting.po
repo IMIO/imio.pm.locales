@@ -309,6 +309,10 @@ msgstr "Encodez le numéro du point jusqu'auquel ce participant doit être enlev
 msgid "Informations about advices on an item"
 msgstr "Les informations concernant les avis sur un point"
 
+#. Default: "Inherited advice action"
+msgid "Inherited advice action"
+msgstr "Choisissez l'action à effectuer"
+
 #. Default: "Insert items among normal items"
 msgid "Insert items among normal items"
 msgstr "Présenter comme point normal"
@@ -883,6 +887,10 @@ msgstr "Attributs des séances pour lesquels l'historique doit être conservé"
 #. Default: "Holidays"
 msgid "PloneMeeting_label_holidays"
 msgstr "Jours fériés"
+
+#. Default: "An adviser may remove inherited advices?"
+msgid "PloneMeeting_label_inheritedAdviceRemoveableByAdviser"
+msgstr "Un émetteur d'avis peut enlever un avis hérité?"
 
 #. Default: "Sort order(s) to apply when adding an item to a meeting"
 msgid "PloneMeeting_label_insertingMethodsOnAddItem"
@@ -1611,9 +1619,21 @@ msgstr "Points récurrents"
 msgid "References of contained items have been updated."
 msgstr "La référence des points a été mise à jour."
 
+#. Default: "Remove advice inheritance"
+msgid "Remove advice inheritance"
+msgstr "Enlever l'avis hérité"
+
 #. Default: "Remove attendee from signatory defined for this item"
 msgid "Remove attendee from signatory defined for this item"
 msgstr "Enlever ce participant des signataires redéfinis pour ce point"
+
+#. Default: "Remove inherited advice"
+msgid "Remove inherited advice"
+msgstr "Enlever l'avis hérité"
+
+#. Default: "Remove inherited advice and ask advice locally"
+msgid "Remove inherited advice and ask advice locally"
+msgstr "Enlever l'avis hérité et demander l'avis à nouveau sur ce point"
 
 #. Default: "Searches"
 msgid "Searches"
@@ -1692,7 +1712,7 @@ msgstr "Cet avis est en cours de rédaction par les donneurs d'avis du groupe au
 
 #. Default: "This advice is inherited from ${linkToItem}"
 msgid "This advice is inherited from ${linkToItem}"
-msgstr "Cet avis est repris du point ${linkToItem}"
+msgstr "Cet avis est hérité du point ${linkToItem}"
 
 #. Default: "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgid "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
@@ -3324,6 +3344,10 @@ msgstr "Pour utiliser cette fonctionnalité, il est nécessaire que l'icône '${
 msgid "in_and_out_moves_descr"
 msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
 
+#. Default: "By default, only MeetingManagers may remove an inherited advice as long as item is editable.  If checked, this will give the advisers the possibility to remove an advice of their adviser groups when the item is in a state defined in the \"Item states allowing to modify or delete advices\" field here above."
+msgid "inherited_advice_removeable_by_adviser_descr"
+msgstr "Par défaut, seuls les gestionnaires de séances peuvent enlever un avis supprimé tant que le point est éditable.  Si la case est cochée, les émetteurs d'avis auront la possibilité de supprimer un avis hérité rendu par leur groupe tant que le point est dans un des états définis dans le champ \"États des points dans lesquels on peut modifier ou supprimer un avis donné\" ci-dessus."
+
 #. Default: "You can not select another inserting method together with the 'At the end' inserting method."
 msgid "inserting_methods_at_the_end_not_alone_error"
 msgstr "Si vous sélectionnez la méthode d'insertion 'A la fin de la séance', vous ne pouvez pas sélectionner d'autre méthode d'insertion."
@@ -4692,6 +4716,18 @@ msgstr "${assembly} et ${signatures}"
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Rafraîchir les valeurs de vote"
+
+#. Default: "Your current configuration does not allow you to ask this advice locally, the inherited advice was not removed. Contact your system administrator if necessary.'
+msgid "remove_advice_inheritance_ask_locally_not_configured"
+msgstr "La configuration actuelle ne permet pas de rendre un avis pour ce groupe sur ce point, l'avis hérité n'a pas été enlevé.  Contactez votre administrateur système si nécessaire."
+
+#. Default: "Advice inheritance was removed.'
+msgid "remove_advice_inheritance_removed"
+msgstr "L'avis hérité a été enlevé."
+
+#. Default: "Advice inheritance was removed and advice is asked locally.'
+msgid "remove_advice_inheritance_removed_and_asked_locally"
+msgstr "L'avis hérité a été enlevé et un nouvel avis a été demandé sur le point."
 
 #. Default: "remove all selected items at once."
 msgid "remove_several_items"
