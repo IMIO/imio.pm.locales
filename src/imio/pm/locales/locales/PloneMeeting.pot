@@ -640,10 +640,6 @@ msgstr ""
 msgid "no_shown_items"
 msgstr ""
 
-#. Default: "No visible item on this page, <span style='color: red;'>please check other meeting pages.</span>"
-msgid "no_shown_items_check_other_meeting_pages"
-msgstr ""
-
 #. Default: "Go to the meeting containing this item."
 msgid "pm_goto_meeting"
 msgstr ""
@@ -2762,12 +2758,12 @@ msgstr ""
 msgid "dashboard_meeting_linked_items_filters_descr"
 msgstr ""
 
-#. Default: "Groups to display in the 'Group' dashboard filter"
-msgid "PloneMeeting_label_groupsShownInDashboardFilter"
+#. Default: "Groups not to be displayed in the 'Group' dashboard filter"
+msgid "PloneMeeting_label_groupsHiddenInDashboardFilter"
 msgstr ""
 
 #. Default: "If you do not select anything, every groups will be displayed."
-msgid "groups_shown_in_dashboard_filter_descr"
+msgid "groups_hidden_in_dashboard_filter_descr"
 msgstr ""
 
 #. Default: "Nothing to do."

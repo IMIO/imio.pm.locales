@@ -844,13 +844,13 @@ msgstr "Groupe en charge"
 msgid "PloneMeeting_label_group_certifiedSignatures"
 msgstr "Délégation de signatures certifiées conformes"
 
+#. Default: "Groups not to be displayed in the 'Group' dashboard filter"
+msgid "PloneMeeting_label_groupsHiddenInDashboardFilter"
+msgstr "Groupes à ne pas afficher dans le filtre 'Groupe' des tableaux de bord"
+
 #. Default: "Groups in charge"
 msgid "PloneMeeting_label_groupsInCharge"
 msgstr "Groupes en charge"
-
-#. Default: "Groups to display in the 'Group' dashboard filter"
-msgid "PloneMeeting_label_groupsShownInDashboardFilter"
-msgstr "Groupes à afficher dans le filtre 'Groupe' des tableaux de bord"
 
 #. Default: "Hide Css classes to"
 msgid "PloneMeeting_label_hideCssClassesTo"
@@ -3046,13 +3046,13 @@ msgstr "Quand un point est dans un des états que vous sélectionnez ici, il ser
 msgid "group_keep_access_to_item_when_advice_is_given_descr"
 msgstr "Lorsqu'un avis a été rendu sur un point, le point restera visible par les émetteurs d'avis quel que soit l'état du point.  Ceci permet de surcharger le paramètre du même nom défini sur la configuration de séance (onglet 'Avis et accès') pour ce groupe si nécessaire.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
 
+#. Default: "If you do not select anything, every groups will be displayed."
+msgid "groups_hidden_in_dashboard_filter_descr"
+msgstr "Si vous ne sélectionnez rien (par défaut), tous les groupes seront affichés."
+
 #. Default: "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
 msgid "groups_in_charge_descr"
 msgstr "Sélectionnez le(s) groupe(s) en charge de ce groupe.  Cette information pourra être affichée sur un document ou pourra être utilisée dans le champ 'Méthode(s) de tri lors de l'ajout d'un point dans une séance' des configurations de séance.  <span style='color: red;'>ATTENTION, ajouter ou supprimer des groupes en charge n'affectera pas les points existants, y compris les points récurrents et les modèles de points, adaptez les manuellement si nécessaire.</span>"
-
-#. Default: "If you do not select anything, every groups will be displayed."
-msgid "groups_shown_in_dashboard_filter_descr"
-msgstr "Si vous ne sélectionnez rien, tous les groupes seront affichés (défaut)."
 
 #. Default: "User interface"
 msgid "gui"
@@ -4259,10 +4259,6 @@ msgstr "Aucun point récurrent n'est actuellement défini."
 #. Default: "No visible item for now."
 msgid "no_shown_items"
 msgstr "Pas de point visible pour le moment."
-
-#. Default: "No visible item on this page, <span style='color: red;'>please check other meeting pages.</span>"
-msgid "no_shown_items_check_other_meeting_pages"
-msgstr "Pas de point visible pour le moment sur cette page, <span style='color: red;'>vérifiez également les autres pages de la séance.</span>"
 
 #. Default: "Attributes 'signatures' and 'signatories' can't be used together."
 msgid "no_signatories_and_signatures"
