@@ -1705,14 +1705,6 @@ msgstr ""
 msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
 msgstr ""
 
-#. Default: "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
-msgid "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
-msgstr ""
-
-#. Default: "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
-msgid "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
-msgstr ""
-
 #. Default: "This advice is inherited from ${linkToItem}"
 msgid "This advice is inherited from ${linkToItem}"
 msgstr ""
@@ -1897,6 +1889,14 @@ msgstr ""
 #. Default: "The advice has been created or updated."
 msgid "advice_edited"
 msgstr "Advies aangepast"
+
+#. Default: "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
+msgid "advice_hidden_during_redaction_considered_not_given_help"
+msgstr ""
+
+#. Default: "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
+msgid "advice_hidden_during_redaction_help"
+msgstr ""
 
 #. Default: "Informations displayed regarding advice are taken from the other item including informations about dates, delay and states."
 msgid "advice_inherited_popup_descr"

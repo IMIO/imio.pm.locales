@@ -1702,14 +1702,6 @@ msgstr "Une erreur est survenue en essayant de définir cette annexe comme 'à i
 msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
 msgstr "Cet avis ne peut plus être rendu, il a été demandé le ${advice_delay_started_on} et pouvait l'être jusqu'au ${advice_delay_limit_date}."
 
-#. Default: "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
-msgid "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
-msgstr "Cet avis est considéré 'Non rendu' car il était toujours en cours de rédaction lorsque le groupe qui le rédigeait a perdu la main sur l'avis (le point a changé d'état ou le délai pour rendre l'avis est dépassé). Contactez un administrateur s'il est nécessaire que cet avis soit malgré tout pris en compte."
-
-#. Default: "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
-msgid "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
-msgstr "Cet avis est en cours de rédaction par les donneurs d'avis du groupe auquel l'avis a été demandé et n'est pas accessible aux autres groupes."
-
 #. Default: "This advice is inherited from ${linkToItem}"
 msgid "This advice is inherited from ${linkToItem}"
 msgstr "Cet avis est hérité du point ${linkToItem}"
@@ -1894,6 +1886,14 @@ msgstr "Edition rapide de l'avis"
 #. Default: "The advice has been created or updated."
 msgid "advice_edited"
 msgstr "L'avis a été créé ou modifié."
+
+#. Default: "This advice is considered 'Not given' because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
+msgid "advice_hidden_during_redaction_considered_not_given_help"
+msgstr "Cet avis est considéré 'Non rendu' car il était toujours en cours de rédaction lorsque le groupe qui le rédigeait a perdu la main sur l'avis (le point a changé d'état ou le délai pour rendre l'avis est dépassé). Contactez un administrateur s'il est nécessaire que cet avis soit malgré tout pris en compte."
+
+#. Default: "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
+msgid "advice_hidden_during_redaction_help"
+msgstr "Cet avis est en cours de rédaction par les donneurs d'avis du groupe auquel l'avis a été demandé et n'est pas accessible aux autres groupes."
 
 #. Default: "Informations displayed regarding advice are taken from the other item including informations about dates, delay and states."
 msgid "advice_inherited_popup_descr"
