@@ -18,26 +18,6 @@ msgstr ""
 msgid "Available on"
 msgstr "Available on"
 
-#. Default: "Function"
-msgid "Certified signatures signatory function"
-msgstr "Function"
-
-#. Default: "Name"
-msgid "Certified signatures signatory name"
-msgstr "Name"
-
-#. Default: "Signature number"
-msgid "Certified signatures signature number"
-msgstr "Signature number"
-
-#. Default: "Valid from (included)"
-msgid "Certified signatures valid from (included)"
-msgstr "Valid from (included)"
-
-#. Default: "Valid to (included)"
-msgid "Certified signatures valid to (included)"
-msgstr "Valid to (included)"
-
 #. Default: "Label"
 msgid "Config group label"
 msgstr ""
@@ -86,18 +66,6 @@ msgstr "Enter an internal identifier, use only lowercase letters."
 msgid "Enter the label that will be displayed in the application."
 msgstr ""
 
-#. Default: "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
-msgid "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
-msgstr "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
-
-#. Default: "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
-msgid "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
-msgstr "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
-
-#. Default: "Function of the signatory (for example 'Mayor')."
-msgid "Function of the signatory (for example 'Mayor')."
-msgstr "Function of the signatory (for example 'Mayor')."
-
 #. Default: "Date"
 msgid "Holiday date"
 msgstr "Date"
@@ -138,10 +106,6 @@ msgstr "Meeting config"
 msgid "Meeting config to clone to Trigger workflow transitions until"
 msgstr "Meeting config to clone to Trigger workflow transitions until"
 
-#. Default: "Name of the signatory (for example 'Mister John Doe')."
-msgid "Name of the signatory (for example 'Mister John Doe')."
-msgstr "Name of the signatory (for example 'Mister John Doe')."
-
 #. Default: "Transition to trigger on every items of the meeting"
 msgid "On meeting transition item transition to trigger item transition"
 msgstr "Transition to trigger on every items of the meeting"
@@ -181,10 +145,6 @@ msgstr "Rule activated for item created until"
 #. Default: "Select the inserting method, methods will be applied in given order, you can not select twice same inserting method."
 msgid "Select the inserting method, methods will be applied in given order, you can not select twice same inserting method."
 msgstr "Select the inserting method, methods will be applied in given order, you can not select twice same inserting method."
-
-#. Default: "Select the signature number, keep signatures ordered by number."
-msgid "Select the signature number, keep signatures ordered by number."
-msgstr "Select the signature number, keep signatures ordered by number."
 
 #. Default: "Default value of the 'Confidential ?' attribute of created annexes"
 msgid "Sub type confidentiality of created annexes"

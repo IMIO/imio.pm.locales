@@ -19,26 +19,6 @@ msgstr ""
 msgid "Available on"
 msgstr "Disponible si"
 
-#. Default: "Function"
-msgid "Certified signatures signatory function"
-msgstr "Fonction"
-
-#. Default: "Name"
-msgid "Certified signatures signatory name"
-msgstr "Nom"
-
-#. Default: "Signature number"
-msgid "Certified signatures signature number"
-msgstr "Numéro de signature"
-
-#. Default: "Valid from (included)"
-msgid "Certified signatures valid from (included)"
-msgstr "Valide depuis le (inclus)"
-
-#. Default: "Valid to (included)"
-msgid "Certified signatures valid to (included)"
-msgstr "Valide jusqu'au (inclus)"
-
 #. Default: "Label"
 msgid "Config group label"
 msgstr "Libellé"
@@ -87,18 +67,6 @@ msgstr "Encodez un identifiant interne à l'application, n'utilisez que des lett
 msgid "Enter the label that will be displayed in the application."
 msgstr "Encodez le libellé qui sera affiché dans l'application."
 
-#. Default: "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
-msgid "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
-msgstr "Encodez la date depuis laquelle la signature sera valide, utilisez le format AAAA/MM/JJ, laissez le champ vide pour que la signature soit toujours valide."
-
-#. Default: "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
-msgid "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
-msgstr "Encodez la date jusqu'à laquelle la signature sera valide, utilisez le format AAAA/MM/JJ, laissez le champ vide pour que la signature soit toujours valide."
-
-#. Default: "Function of the signatory (for example 'Mayor')."
-msgid "Function of the signatory (for example 'Mayor')."
-msgstr "Fonction du signataire (par exemple 'Le Bourgmestre')."
-
 #. Default: "Date"
 msgid "Holiday date"
 msgstr "Date"
@@ -139,10 +107,6 @@ msgstr "Type de séance"
 msgid "Meeting config to clone to Trigger workflow transitions until"
 msgstr "Exécuter les transitions du workflow jusqu'à"
 
-#. Default: "Name of the signatory (for example 'Mister John Doe')."
-msgid "Name of the signatory (for example 'Mister John Doe')."
-msgstr "Nom du signataire (par exemple 'Mr Jacques Untel')."
-
 #. Default: "Transition to trigger on every items of the meeting"
 msgid "On meeting transition item transition to trigger item transition"
 msgstr "Transitions à déclencher sur tous les points de la séance"
@@ -182,10 +146,6 @@ msgstr "Configuration active pour les points créés jusqu'au"
 #. Default: "Select the inserting method, methods will be applied in given order, you can not select twice same inserting method."
 msgid "Select the inserting method, methods will be applied in given order, you can not select twice same inserting method."
 msgstr "Sélectionnez les tris à appliquer, les méthodes seront appliquées successivement dans l'ordre défini, cependant, vous ne pouvez pas sélectionner deux fois la même méthode d'insertion."
-
-#. Default: "Select the signature number, keep signatures ordered by number."
-msgid "Select the signature number, keep signatures ordered by number."
-msgstr "Sélectionnez le numéro de signature, les signatures doivent être ordonnées par numéro."
 
 #. Default: "Default value of the 'Confidential ?' attribute of created annexes"
 msgid "Sub type confidentiality of created annexes"

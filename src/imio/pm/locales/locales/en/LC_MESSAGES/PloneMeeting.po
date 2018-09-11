@@ -96,6 +96,10 @@ msgstr "Annexes (decision)"
 msgid "Any meeting"
 msgstr "No preference"
 
+#. Default: "Application parameters"
+msgid "Application parameters"
+msgstr ""
+
 #. Default: "Apply"
 msgid "Apply"
 msgstr "Apply"
@@ -127,6 +131,26 @@ msgstr "Cancel"
 #. Default: "Item categories"
 msgid "Categories"
 msgstr "Item categories"
+
+#. Default: "Function"
+msgid "Certified signatures signatory function"
+msgstr ""
+
+#. Default: "Name"
+msgid "Certified signatures signatory name"
+msgstr ""
+
+#. Default: "Signature number"
+msgid "Certified signatures signature number"
+msgstr ""
+
+#. Default: "Valid from (included)"
+msgid "Certified signatures valid from (included)"
+msgstr ""
+
+#. Default: "Valid to (included)"
+msgid "Certified signatures valid to (included)"
+msgstr ""
 
 #. Default: "Change advice delay"
 msgid "Change delay"
@@ -248,9 +272,21 @@ msgstr "Enter the item signatures to be applied. By default, the value of the fi
 msgid "Enter the official comment."
 msgstr "Enter the official comment."
 
+#. Default: "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
+msgid "Enter valid from date, use following format : YYYY/MM/DD, leave empty so it is always valid."
+msgstr ""
+
+#. Default: "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
+msgid "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
+msgstr ""
+
 #. Default: "Free text fields"
 msgid "Free text fields"
 msgstr "Free text fields"
+
+#. Default: "Function of the signatory (for example 'Mayor')."
+msgid "Function of the signatory (for example 'Mayor')."
+msgstr ""
 
 #. Default: "Given on ${advice_given_on_date}"
 msgid "Given on ${advice_given_on_date}"
@@ -442,6 +478,10 @@ msgstr "Category"
 #. Default: "Meetings"
 msgid "Meetings"
 msgstr "Meetings"
+
+#. Default: "Name of the signatory (for example 'Mister John Doe')."
+msgid "Name of the signatory (for example 'Mister John Doe')."
+msgstr ""
 
 #. Default: "No annex subtypes."
 msgid "No annex subtypes."
@@ -1405,6 +1445,10 @@ msgstr "Groups that can be in copy for an item"
 msgid "PloneMeeting_label_selectablePrivacies"
 msgstr "Selectable privacies"
 
+#. Default: "Is group selectable in the plonegroup configuration panel?"
+msgid "PloneMeeting_label_selectable_for_plonegroup"
+msgstr ""
+
 #. Default: "Send to authority?"
 msgid "PloneMeeting_label_sendToAuthority"
 msgstr "Send to authority?"
@@ -1650,6 +1694,10 @@ msgstr "Secret?"
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
 msgstr "Select in the list the type of item you want to add"
+
+#. Default: "Select the signature number, keep signatures ordered by number."
+msgid "Select the signature number, keep signatures ordered by number."
+msgstr ""
 
 #. Default: "Signatory specifically defined for this item"
 msgid "Signatory specifically defined for this item"
@@ -2182,10 +2230,6 @@ msgstr "Define here the default assembly staves (for example you may type a list
 #. Default: " "
 msgid "associated_group_item_descr"
 msgstr "Use 'CTRL+click' to select several associated groups."
-
-#. Default: "Associated groups' acronyms"
-msgid "associated_groups_acronyms"
-msgstr "Associated groups' acronyms"
 
 # values of sortingMethodOnAddItem
 #. Default: "At the end"
@@ -3745,38 +3789,6 @@ msgstr "Main information"
 msgid "label_schema_pm_search"
 msgstr "Search"
 
-#. Default: "German"
-msgid "language_deu"
-msgstr "German"
-
-#. Default: "English"
-msgid "language_eng"
-msgstr "English"
-
-#. Default: "French"
-msgid "language_fra"
-msgstr "French"
-
-#. Default: "Italian"
-msgid "language_ita"
-msgstr "Italian"
-
-#. Default: "Dutch; Flemish"
-msgid "language_nld"
-msgstr "Dutch; Flemish"
-
-#. Default: "Portuguese"
-msgid "language_por"
-msgstr "Portuguese"
-
-#. Default: "Spanish; Castilian"
-msgid "language_spa"
-msgstr "Spanish; Castilian"
-
-#. Default: "Vietnamese"
-msgid "language_vie"
-msgstr "Vietnamese"
-
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
 msgstr "Within every meeting configuration, meetings are numbered sequentially."
@@ -4910,6 +4922,10 @@ msgstr "Choose here advisers that will be selectable on an item in the 'Optional
 #. Default: "Select groups that the creator of an item will be able to choose"
 msgid "selectable_copy_groups_descr"
 msgstr "Select groups that the creator of an item will be able to choose"
+
+#. Default: "Uncheck this box if this organization is added for another purpose than creating Plone subgroups so it can use the application."
+msgid "selectable_for_plonegroup_descr"
+msgstr ""
 
 #. Default: "Select here privacies that will be selectable by users editing items of this configuration.  If \"on privacy\" is used in the \"Sort order(s) to apply when adding an item to a meeting\" field, it is the order of values selected here that will be used."
 msgid "selectable_privacies_descr"
