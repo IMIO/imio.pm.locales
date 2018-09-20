@@ -4343,11 +4343,11 @@ msgstr ""
 msgid "delay_of_x_days"
 msgstr ""
 
-#. Default: "${group_name} - ${delay} day(s) (${delay_label})"
+#. Default: "${org_title} - ${delay} day(s) (${delay_label})"
 msgid "advice_delay_with_label"
 msgstr ""
 
-#. Default: "${group_name} - ${delay} day(s)"
+#. Default: "${org_title} - ${delay} day(s)"
 msgid "advice_delay_without_label"
 msgstr ""
 
@@ -5297,10 +5297,6 @@ msgstr ""
 
 #. Default: "You can not unselect the 'Return to proposing group with all validations' adaptation as there are still items in states 'returned to proposing group xxx'."
 msgid "wa_removed_return_to_proposing_group_with_all_validations_error"
-msgstr ""
-
-#. Default: "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
-msgid "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
 msgstr ""
 
 #. Default: "References of contained items have been updated."

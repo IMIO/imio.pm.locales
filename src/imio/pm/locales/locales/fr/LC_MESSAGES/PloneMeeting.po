@@ -1827,10 +1827,6 @@ msgstr "Voir les groupes Plone liés"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr "Vous êtes sur le point de changer le délai de cet avis pour ${new_advice_delay} jours, vous pouvez entrer un commentaire si nécessaire."
 
-#. Default: "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
-msgid "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
-msgstr "Vous ne pouvez pas supprimer le groupe \"${group_id}\" car celui-ci est lié au groupe \"${meeting_group}\" défini dans la \"Configuration des délibérations\" !"
-
 #. Default: "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgstr "Vous ne pouvez pas supprimer la fonction occupée \"${held_position_title}\" car elle est utilisée par l'élement \"${obj_url}\" !"
@@ -1927,13 +1923,13 @@ msgstr "Si un avis est marqué comme 'Confidentiel' par un gestionnaire des séa
 msgid "advice_confidentiality_default_descr"
 msgstr "Si la confidentialité des avis est activée, vous pouvez définir ici la valeur par défaut du champ 'Confidentiel?' des avis créés. Cette valeur pourra être modifiée par les gestionnaires de séances sur les avis créés."
 
-#. Default: "${group_name} - ${delay} day(s) (${delay_label})"
+#. Default: "${org_title} - ${delay} day(s) (${delay_label})"
 msgid "advice_delay_with_label"
-msgstr "${group_name} - ${delay} jour(s) (${delay_label})"
+msgstr "${org_title} - ${delay} jour(s) (${delay_label})"
 
-#. Default: "${group_name} - ${delay} day(s)"
+#. Default: "${org_title} - ${delay} day(s)"
 msgid "advice_delay_without_label"
-msgstr "${group_name} - ${delay} jour(s)"
+msgstr "${org_title} - ${delay} jour(s)"
 
 #. Default: "Quick edit advice"
 msgid "advice_edit"

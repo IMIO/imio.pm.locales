@@ -1830,10 +1830,6 @@ msgstr ""
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr ""
 
-#. Default: "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
-msgid "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
-msgstr ""
-
 #. Default: "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgstr ""
@@ -1930,11 +1926,11 @@ msgstr ""
 msgid "advice_confidentiality_default_descr"
 msgstr ""
 
-#. Default: "${group_name} - ${delay} day(s) (${delay_label})"
+#. Default: "${org_title} - ${delay} day(s) (${delay_label})"
 msgid "advice_delay_with_label"
 msgstr ""
 
-#. Default: "${group_name} - ${delay} day(s)"
+#. Default: "${org_title} - ${delay} day(s)"
 msgid "advice_delay_without_label"
 msgstr ""
 
