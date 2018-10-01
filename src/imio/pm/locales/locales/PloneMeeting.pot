@@ -1591,7 +1591,7 @@ msgstr ""
 msgid "tool_plonemeeting_misc"
 msgstr ""
 
-# MeetingGroup
+# organization
 #. Default: "Acronym"
 msgid "PloneMeeting_label_acronym"
 msgstr ""
@@ -3778,14 +3778,6 @@ msgstr ""
 msgid "meetingconfig_advice_descr"
 msgstr ""
 
-#. Default: "Delete the group : the linked Plone groups will be removed too (if empty)!"
-msgid "label_remove_meetinggroup"
-msgstr ""
-
-#. Default: "Delete the meeting configuration : the folder linked to this meeting configuration for each member will be removed too (if empty)!"
-msgid "label_remove_meetingconfig"
-msgstr ""
-
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 msgid "description_only_see_visible_items"
 msgstr ""
@@ -4163,10 +4155,6 @@ msgstr ""
 msgid "sendto_inexistent_destfolder_error"
 msgstr ""
 
-#. Default: "As the group has been deactivated, it has been removed from the 'selectable copy groups' and 'selectable advisers' fields of every meeting configs."
-msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups_selectableadvisers"
-msgstr ""
-
 #. Default: "Create an element of this type"
 msgid "label_create_an_element"
 msgstr ""
@@ -4181,14 +4169,6 @@ msgstr ""
 
 #. Default: "Choose an element in the list"
 msgid "label_choose_element_in_list"
-msgstr ""
-
-#. Default: "Create an element of this type"
-msgid "label_create_an_element"
-msgstr ""
-
-#. Default: "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
-msgid "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
 msgstr ""
 
 #. Default: "Create an element of this type"
@@ -5651,3 +5631,8 @@ msgstr ""
 #. Default: "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgid "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgstr ""
+
+#. Default: "Every unselected organizations have been removed from the 'selectable copy groups' and 'selectable advisers' fields of every meeting configs."
+msgid "organizations_removed_from_meetingconfigs_selectablecopygroups_selectableadvisers"
+msgstr ""
+
