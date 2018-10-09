@@ -24,16 +24,16 @@ msgstr "Define here lists of people to which files generated from this template 
 
 #. Default: "Store as annex"
 msgid "store_as_annex"
-msgstr ""
+msgstr "Store as annex"
 
 #. Default: "If you select an annex type here, an icon will appear next the the POD template generation icon in the application and let you store this generated POD template directly in the element and will use the selected annex type.  Take care to select the correct annex type depending on the type of element this POD template will be generated on."
 msgid "store_as_annex_descr"
-msgstr ""
+msgstr "If you select an annex type here, an icon will appear next the the POD template generation icon in the application and let you store this generated POD template directly in the element and will use the selected annex type.  Take care to select the correct annex type depending on the type of element this POD template will be generated on."
 
 #. Default: "TAL expression to generate title when storing as annex"
 msgid "store_as_annex_title_expr"
-msgstr ""
+msgstr "TAL expression to generate title when storing as annex"
 
 #. Default: "Define here a TAL expression that will be used to define the title for when storing this POD template as annex.  This is only relevant if you select an annex type in the field here above."
 msgid "store_as_annex_title_expr_descr"
-msgstr ""
+msgstr "Define here a TAL expression that will be used to define the title for when storing this POD template as annex.  This is only relevant if you select an annex type in the field here above."

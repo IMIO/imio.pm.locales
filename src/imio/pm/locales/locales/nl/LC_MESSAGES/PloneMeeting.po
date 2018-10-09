@@ -321,10 +321,6 @@ msgstr ""
 msgid "How many items to list in each topic."
 msgstr "Aantal punten in onderwerp"
 
-#. Default: "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
-msgid "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
-msgstr "Als je de meetinggroep de-activeerd zullen alle leden overgebracht worden naar de groep van observeerders. "
-
 #. Default: "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 msgid "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 msgstr ""
@@ -3780,14 +3776,6 @@ msgstr "Bewerken"
 msgid "label_related_items"
 msgstr "Bijlagen"
 
-#. Default: "Delete the meeting configuration : the folder linked to this meeting configuration for each member will be removed too (if empty)!"
-msgid "label_remove_meetingconfig"
-msgstr ""
-
-#. Default: "Delete the group : the linked Plone groups will be removed too (if empty)!"
-msgid "label_remove_meetinggroup"
-msgstr ""
-
 #. Default: "Main information"
 msgid "label_schema_default"
 msgstr ""
@@ -4178,10 +4166,6 @@ msgstr ""
 msgid "meetingfiletype_related_to_item_decision"
 msgstr ""
 
-#. Default: "As the group has been deactivated, it has been removed from the 'selectable copy groups' and 'selectable advisers' fields of every meeting configs."
-msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups_selectableadvisers"
-msgstr ""
-
 #. Default: "Meeting managers"
 msgid "meetingmanagers"
 msgstr ""
@@ -4457,6 +4441,10 @@ msgstr ""
 
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
 msgid "ordered_contacts_descr"
+msgstr ""
+
+#. Default: "Every unselected organizations have been removed from the 'selectable copy groups' and 'selectable advisers' fields of every meeting configs."
+msgid "organizations_removed_from_meetingconfigs_selectablecopygroups_selectableadvisers"
 msgstr ""
 
 #. Default: "When an item is sent to another meeting config, the annexes of the new item will use meeting file types of the new meeting config.  Define here the correspondences for each meeting config the items of this meeting config can  be sent to.  If you do not define correspondences, the application will use the default meeting file type (first found).  This will not be used if 'Related to advice' is used in the 'Related to' field here above because advices are not kept while an item is sent to another meeting config.  Please select only one value by meeting config the item is sendable to."

@@ -39,10 +39,6 @@ msgstr "Annexe (après décision)"
 msgid "Back to 'Advice Under Edit'"
 msgstr "Remettre en 'Avis en cours de rédaction'"
 
-#. Default: "CopyItem"
-msgid "CopyItem"
-msgstr "Copier"
-
 # Creation action displayed in history
 #. Default: "Created"
 msgid "Created"
@@ -417,9 +413,9 @@ msgstr "Mot de passe oublié?"
 msgid "can_not_delete_meeting_container"
 msgstr "Vous ne pouvez pas supprimer un dossier qui contient une ou plusieurs séances!"
 
-#. Default: "This category can not be deleted, at least one item is linked to this category, please check ${url}"
+#. Default: "This category can not be deleted, at least one item is linked to this category, please check ${url}!"
 msgid "can_not_delete_meetingcategory_meetingitem"
-msgstr "Cette catégorie ne peut pas être supprimée, il existe au moins un point lié à celle-ci.  Vérifiez ici : ${url}"
+msgstr "Cette catégorie ne peut pas être supprimée, il existe au moins un point lié à celle-ci!  Vérifiez ici : ${url}"
 
 #. Default: "This configuration can not be deleted, annex types defined in this configuration are used in field 'Correspondences while sent to other meeting configs' of at least another configuration, check ${other_config_title}!"
 msgid "can_not_delete_meetingconfig_annex_types"
@@ -449,29 +445,29 @@ msgstr "Vous ne pouvez pas supprimer un dossier qui contient un ou plusieurs poi
 msgid "can_not_delete_object"
 msgstr "Vous ne pouvez pas supprimer le ou les élément(s)!"
 
-#. Default: "This organization can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}"
+#. Default: "This organization can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}!"
 msgid "can_not_delete_organization_config_meetingitem"
-msgstr "Cette organisation ne peut pas être supprimé, elle est référencée dans un point d'une configuration de séance.  Vérifiez ici : ${url}"
+msgstr "Cette organisation ne peut pas être supprimé, elle est référencée dans un point d'une configuration de séance!  Vérifiez ici : ${url}"
 
-#. Default: "This organization can not be deleted, it is used as group in charge of organization ${org_title}."
+#. Default: "This organization can not be deleted, it is used as group in charge of organization ${org_url}!"
 msgid "can_not_delete_organization_groupincharge"
-msgstr "Cette organisation ne peut pas être supprimée, elle est utilisés comme 'Groupe en charge' de l'organisation '${org_title}.'"
+msgstr "Cette organisation ne peut pas être supprimée, elle est utilisés comme 'Groupe en charge' de l'organisation '${org_title}.'!"
 
-#. Default: "This organization can not be deleted, it is referenced in a meeting configuration"
+#. Default: "This organization can not be deleted, it is referenced in a meeting configuration (check ${cfg_url})!"
 msgid "can_not_delete_organization_meetingconfig"
-msgstr "Cette organisation ne peut pas être supprimée, elle est référencée dans au moins une configuration de séance!  Vérifier l'onglets [Avis et accès] des différentes configurations de séance."
+msgstr "Cette organisation ne peut pas être supprimée, elle est référencée dans au moins une configuration de séance!  Vérifier l'onglets [Avis et accès] des différentes configurations de séance.  Vérifiez ici : ${cfg_url}."
 
-#. Default: "This organization can not be deleted, it is linked to one existing item at least"
+#. Default: "This organization can not be deleted, it is linked to one existing item at least, check ${item_url}!"
 msgid "can_not_delete_organization_meetingitem"
-msgstr "Cette organisation ne peut pas être supprimée, elle est liée à au moins un point existant!"
+msgstr "Cette organisation ne peut pas être supprimée, elle est liée à au moins un point existant!  Vérifiez ici : ${item_url}."
 
-#. Default: "This organization can not be deleted, the linked Plone groups are not empty"
+#. Default: "This organization can not be deleted, the linked Plone groups are not empty, check ${plone_group_id}!"
 msgid "can_not_delete_organization_plonegroup"
-msgstr "Cette organisation ne peut pas être supprimée, tous les groupes Plone liés ne sont pas vides!"
+msgstr "Cette organisation ne peut pas être supprimée, tous les groupes Plone liés ne sont pas vides (par exemple : ${plone_group_id})!"
 
-#. Default: "You can not paste an item coming from another meeting configuration !"
+#. Default: "You can not paste an item coming from another meeting configuration!"
 msgid "cannot_paste_item_from_other_mc"
-msgstr "Vous ne pouvez pas coller un point provenant d'un autre type de séance !"
+msgstr "Vous ne pouvez pas coller un point provenant d'un autre type de séance!"
 
 #. Default: "Close"
 msgid "close"
@@ -653,14 +649,6 @@ msgstr "Éditer"
 #. Default: "Delete"
 msgid "label_remove"
 msgstr "Supprimer"
-
-#. Default: "Main information"
-msgid "label_schema_default"
-msgstr "Information principale"
-
-#. Default: "Search"
-msgid "label_schema_pm_search"
-msgstr "Recherche"
 
 #. Default: "Emails"
 msgid "mail"

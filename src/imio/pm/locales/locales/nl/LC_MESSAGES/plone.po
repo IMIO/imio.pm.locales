@@ -43,10 +43,6 @@ msgstr ""
 msgid "Back to 'Advice Under Edit'"
 msgstr ""
 
-#. Default: "CopyItem"
-msgid "CopyItem"
-msgstr "Artikel kopiëren"
-
 # Creation action displayed in history
 #. Default: "Created"
 msgid "Created"
@@ -438,7 +434,7 @@ msgstr "Paswoord vergeten?"
 msgid "can_not_delete_meeting_container"
 msgstr "Kan deze vergadering niet verwijderen"
 
-#. Default: "This category can not be deleted, at least one item is linked to this category, please check ${url}"
+#. Default: "This category can not be deleted, at least one item is linked to this category, please check ${url}!"
 msgid "can_not_delete_meetingcategory_meetingitem"
 msgstr ""
 
@@ -470,27 +466,28 @@ msgstr "Kan de vergader map niet verwijderen"
 msgid "can_not_delete_object"
 msgstr "Kan object niet verwijderen"
 
-#. Default: "This organization can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}"
+#. Default: "This organization can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}!"
 msgid "can_not_delete_organization_config_meetingitem"
 msgstr ""
 
-#. Default: "This organization can not be deleted, it is used as group in charge of organization ${org_title}."
+#. Default: "This organization can not be deleted, it is used as group in charge of organization ${org_url}!"
 msgid "can_not_delete_organization_groupincharge"
 msgstr ""
 
-#. Default: "This organization can not be deleted, it is referenced in a meeting configuration"
+#. Default: "This organization can not be deleted, it is referenced in a meeting configuration (check ${cfg_url})!"
 msgid "can_not_delete_organization_meetingconfig"
 msgstr ""
 
-#. Default: "This organization can not be deleted, it is linked to one existing item at least"
+#. Default: "This organization can not be deleted, it is linked to one existing item at least, check ${item_url}!"
 msgid "can_not_delete_organization_meetingitem"
 msgstr ""
 
-#. Default: "This organization can not be deleted, the linked Plone groups are not empty"
+#. Default: "This organization can not be deleted, the linked Plone groups are not empty, check ${plone_group_id}!"
 msgid "can_not_delete_organization_plonegroup"
 msgstr ""
 
-#. Default: "You can not paste an item coming from another meeting configuration !"
+#. Default: "You can not paste an item coming from another meeting configuration!"
+#, fuzzy
 msgid "cannot_paste_item_from_other_mc"
 msgstr "Kan het artikel niet plakken van een andere vergadering"
 
@@ -675,14 +672,6 @@ msgstr "Bewerken"
 #. Default: "Delete"
 msgid "label_remove"
 msgstr "Verwijderen"
-
-#. Default: "Main information"
-msgid "label_schema_default"
-msgstr ""
-
-#. Default: "Search"
-msgid "label_schema_pm_search"
-msgstr ""
 
 #. Default: "Emails"
 msgid "mail"
