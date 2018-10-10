@@ -1,4 +1,4 @@
-files="PloneMeeting plone imio.actionspanel datagridfield imio.annex imio.history collective.contact.plonegroup collective.eeafaceted.batchactions collective.eeafaceted.z3ctable eea collective.behavior.talcondition collective.documentgenerator collective.iconifiedcategory"
+files="PloneMeeting plone imio.actionspanel datagridfield imio.annex imio.history collective.eeafaceted.batchactions collective.eeafaceted.z3ctable eea collective.behavior.talcondition collective.documentgenerator collective.iconifiedcategory"
 languages="de en es fr nl"
 
 for file in $files; do
