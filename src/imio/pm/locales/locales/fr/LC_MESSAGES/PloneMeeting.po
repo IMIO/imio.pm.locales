@@ -320,10 +320,6 @@ msgstr "Avertissement jours fériés (ne pas supprimer!)"
 msgid "How many items to list in each topic."
 msgstr "Nombre d'éléments à afficher par recherche dans le portlet."
 
-#. Default: "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
-msgid "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
-msgstr "Si vous désactivez ce groupe PloneMeeting, tous les utilisateurs des groupes Plone liés seront transférés dans le sous-groupe '(Observateurs)' de sorte qu'ils puissent toujours avoir un accès en lecture aux points existants mais qu'il ne puisse plus en créer de nouveaux. De plus, ce groupe sera enlevé des groupes qui pourront être mis en copies dans les différentes configurations de séances."
-
 #. Default: "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 msgid "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 msgstr "Si vous ne souhaitez pas que l'avis soit directement affiché après la rédaction, cochez cette case.  Ceci permet à différents membres du groupe rendant l'avis d'intervenir sur celui-ci et de le montrer une fois qu'il est complet.  Attention, si vous perdez l'accès à la rédaction de l'avis (le point change d'état ou le délai pour rendre l'avis est dépassé par exemple), l'avis ne sera pas considéré comme rendu, mais dans un état 'Non rendu, était en cours de rédaction'.  Cependant, si nécessaire, un administrateur pourra publier cet avis."
@@ -425,6 +421,10 @@ msgstr "Gérer les contacts"
 #. Default: "Manage dashboard"
 msgid "Manage dashboard"
 msgstr "Gérer le tableau de bord"
+
+#. Default: "Manage internal organizations"
+msgid "Manage internal organizations"
+msgstr "Gérer l'organisation interne"
 
 #. Default: "Manage item annexes"
 msgid "Manage item annexes"
@@ -1831,10 +1831,6 @@ msgstr "Voir les groupes Plone liés"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr "Vous êtes sur le point de changer le délai de cet avis pour ${new_advice_delay} jours, vous pouvez entrer un commentaire si nécessaire."
 
-#. Default: "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
-msgid "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
-msgstr "Vous ne pouvez pas supprimer le groupe \"${group_id}\" car celui-ci est lié au groupe \"${meeting_group}\" défini dans la \"Configuration des délibérations\" !"
-
 #. Default: "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgstr "Vous ne pouvez pas supprimer la fonction occupée \"${held_position_title}\" car elle est utilisée par l'élement \"${obj_url}\" !"
@@ -1931,13 +1927,13 @@ msgstr "Si un avis est marqué comme 'Confidentiel' par un gestionnaire des séa
 msgid "advice_confidentiality_default_descr"
 msgstr "Si la confidentialité des avis est activée, vous pouvez définir ici la valeur par défaut du champ 'Confidentiel?' des avis créés. Cette valeur pourra être modifiée par les gestionnaires de séances sur les avis créés."
 
-#. Default: "${group_name} - ${delay} day(s) (${delay_label})"
+#. Default: "${org_title} - ${delay} day(s) (${delay_label})"
 msgid "advice_delay_with_label"
-msgstr "${group_name} - ${delay} jour(s) (${delay_label})"
+msgstr "${org_title} - ${delay} jour(s) (${delay_label})"
 
-#. Default: "${group_name} - ${delay} day(s)"
+#. Default: "${org_title} - ${delay} day(s)"
 msgid "advice_delay_without_label"
-msgstr "${group_name} - ${delay} jour(s)"
+msgstr "${org_title} - ${delay} jour(s)"
 
 #. Default: "Quick edit advice"
 msgid "advice_edit"
@@ -3777,14 +3773,6 @@ msgstr "Modifier"
 msgid "label_related_items"
 msgstr "Annexes"
 
-#. Default: "Delete the meeting configuration : the folder linked to this meeting configuration for each member will be removed too (if empty)!"
-msgid "label_remove_meetingconfig"
-msgstr "Supprimer la configuration de séance : attention le dossier lié à cette configuration pour chaque membre doit être vide et aucune séance ou point lié à cette séance ne doit exister"
-
-#. Default: "Delete the group : the linked Plone groups will be removed too (if empty)!"
-msgid "label_remove_meetinggroup"
-msgstr "Supprimer le groupe : attention les groupes Plone liés doivent être vides et le groupe ne doit pas être référencé dans une configuration de séance (vérifiez les onglets 'Avis' et 'Copies' des configurations de séances)"
-
 #. Default: "Main information"
 msgid "label_schema_default"
 msgstr "Information principale"
@@ -4007,6 +3995,10 @@ msgstr "Ceci activera une action sur les séances permettant de stocker en tant 
 msgid "meeting_of"
 msgstr "Séance du"
 
+#. Default: "Organizations"
+msgid "meeting_organizations"
+msgstr "Organisations"
+
 #. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "meeting_powerobservers_states_descr"
 msgstr "Quand une séance est dans un des états que vous sélectionnez ici, elle sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs' de cette configuration de séance.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
@@ -4166,10 +4158,6 @@ msgstr "Annexe à un point"
 #. Default: "Item decision annex"
 msgid "meetingfiletype_related_to_item_decision"
 msgstr "Annexe après décision d'un point"
-
-#. Default: "As the group has been deactivated, it has been removed from the 'selectable copy groups' and 'selectable advisers' fields of every meeting configs."
-msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups_selectableadvisers"
-msgstr "Comme le groupe a été désactivé, il a été enlevé des 'Groupes qui pourront être mis en copie' et 'Groupes auxquels un avis optionnel pourra être demandé' (onglet [Avis et accès]) de chaque configuration de séance."
 
 #. Default: "Meeting managers"
 msgid "meetingmanagers"
@@ -4447,6 +4435,18 @@ msgstr " "
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
 msgid "ordered_contacts_descr"
 msgstr "Sélectionnez les contacts qui seront utilisés comme membres d'assemblée pour les séances.  L'ordre sélectionné ici sera celui repris par défaut lors de la création d'une nouvelle séance."
+
+#. Default: "Create new, change existing organizations parameters, ..."
+msgid "organizations_add"
+msgstr "Créer, éditer, adapter les paramètres des organisations, ..."
+
+#. Default: "Manage organizations order, enable or disable organizations, ..."
+msgid "organizations_plonegroup"
+msgstr "Gére l'ordre, activer/désactiver des organisations, ..."
+
+#. Default: "Every unselected organizations have been removed from the 'selectable copy groups' and 'selectable advisers' fields of every meeting configs."
+msgid "organizations_removed_from_meetingconfigs_selectablecopygroups_selectableadvisers"
+msgstr "Toutes les organisations désélectionnées ont été enlevées des \"Groupes qui pourront être mis en copie\" et des \"Groupes auxquels un avis optionnel pourra être demandé\" de toutes les configurations de séances."
 
 #. Default: "When an item is sent to another meeting config, the annexes of the new item will use meeting file types of the new meeting config.  Define here the correspondences for each meeting config the items of this meeting config can  be sent to.  If you do not define correspondences, the application will use the default meeting file type (first found).  This will not be used if 'Related to advice' is used in the 'Related to' field here above because advices are not kept while an item is sent to another meeting config.  Please select only one value by meeting config the item is sendable to."
 msgid "other_mc_correspondences_descr"
@@ -5582,6 +5582,10 @@ msgstr "État supplémentaire pour demander les avis"
 #. Default: "Please wait..."
 msgid "wait_msg"
 msgstr "Patientez s'il vous plaît..."
+
+#. Default: "You are currently adding an organization outside 'My organization', please make sure this is correct.  If you want to create a new group that will be able the create items, give advices, you need to add it directly under 'My organization'."
+msgid "warning_adding_org_outside_own_org"
+msgstr "Vous êtes en train d'ajouter une organisation en dehors de \"Mon organisation\", est ce bien ce que vous souhaitez faire?  Si vous souhaitez créer un nouveau groupe qui pourra créer des points, émettre des avis, ... vous devez l'ajouter en général directement sous \"Mon organisation\"."
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"

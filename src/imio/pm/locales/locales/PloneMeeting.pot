@@ -1591,7 +1591,7 @@ msgstr ""
 msgid "tool_plonemeeting_misc"
 msgstr ""
 
-# MeetingGroup
+# organization
 #. Default: "Acronym"
 msgid "PloneMeeting_label_acronym"
 msgstr ""
@@ -3782,14 +3782,6 @@ msgstr ""
 msgid "meetingconfig_advice_descr"
 msgstr ""
 
-#. Default: "Delete the group : the linked Plone groups will be removed too (if empty)!"
-msgid "label_remove_meetinggroup"
-msgstr ""
-
-#. Default: "Delete the meeting configuration : the folder linked to this meeting configuration for each member will be removed too (if empty)!"
-msgid "label_remove_meetingconfig"
-msgstr ""
-
 #. Default: "You are just able to see visible elements here. Please consult the 'manage' box here opposite."
 msgid "description_only_see_visible_items"
 msgstr ""
@@ -4167,10 +4159,6 @@ msgstr ""
 msgid "sendto_inexistent_destfolder_error"
 msgstr ""
 
-#. Default: "As the group has been deactivated, it has been removed from the 'selectable copy groups' and 'selectable advisers' fields of every meeting configs."
-msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups_selectableadvisers"
-msgstr ""
-
 #. Default: "Create an element of this type"
 msgid "label_create_an_element"
 msgstr ""
@@ -4185,14 +4173,6 @@ msgstr ""
 
 #. Default: "Choose an element in the list"
 msgid "label_choose_element_in_list"
-msgstr ""
-
-#. Default: "Create an element of this type"
-msgid "label_create_an_element"
-msgstr ""
-
-#. Default: "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
-msgid "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
 msgstr ""
 
 #. Default: "Create an element of this type"
@@ -4347,11 +4327,11 @@ msgstr ""
 msgid "delay_of_x_days"
 msgstr ""
 
-#. Default: "${group_name} - ${delay} day(s) (${delay_label})"
+#. Default: "${org_title} - ${delay} day(s) (${delay_label})"
 msgid "advice_delay_with_label"
 msgstr ""
 
-#. Default: "${group_name} - ${delay} day(s)"
+#. Default: "${org_title} - ${delay} day(s)"
 msgid "advice_delay_without_label"
 msgstr ""
 
@@ -5303,10 +5283,6 @@ msgstr ""
 msgid "wa_removed_return_to_proposing_group_with_all_validations_error"
 msgstr ""
 
-#. Default: "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
-msgid "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
-msgstr ""
-
 #. Default: "References of contained items have been updated."
 msgid "References of contained items have been updated."
 msgstr ""
@@ -5658,4 +5634,28 @@ msgstr ""
 
 #. Default: "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgid "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
+msgstr ""
+
+#. Default: "Every unselected organizations have been removed from the 'selectable copy groups' and 'selectable advisers' fields of every meeting configs."
+msgid "organizations_removed_from_meetingconfigs_selectablecopygroups_selectableadvisers"
+msgstr ""
+
+#. Default: "You are currently adding an organization outside 'My organization', please make sure this is correct.  If you want to create a new group that will be able the create items, give advices, you need to add it directly under 'My organization'."
+msgid "warning_adding_org_outside_own_org"
+msgstr ""
+
+#. Default: "Organizations"
+msgid "meeting_organizations"
+msgstr ""
+
+#. Default: "Manage internal organizations"
+msgid "Manage internal organizations"
+msgstr ""
+
+#. Default: "Create new, change existing organizations parameters, ..."
+msgid "organizations_add"
+msgstr ""
+
+#. Default: "Manage organizations order, enable or disable organizations, ..."
+msgid "organizations_plonegroup"
 msgstr ""

@@ -367,10 +367,6 @@ msgstr ""
 msgid "MeetingConfig"
 msgstr ""
 
-#. Default: "PloneMeeting group"
-msgid "MeetingGroup"
-msgstr ""
-
 #. Default: "PloneGov assembly"
 msgid "MeetingPga"
 msgstr ""
@@ -552,36 +548,24 @@ msgstr ""
 msgid "You can not copy this item : ${title}, your are not in the same proposing group (${proposingGroup})."
 msgstr ""
 
-#. Default: "CopyItem"
-msgid "CopyItem"
+#. Default: "This organization can not be deleted, it is referenced in a meeting configuration (check ${cfg_url})!"
+msgid "can_not_delete_organization_meetingconfig"
 msgstr ""
 
-#. Default: "Main information"
-msgid "label_schema_default"
+#. Default: "This organization can not be deleted, it is used as group in charge of organization ${org_url}!"
+msgid "can_not_delete_organization_groupincharge"
 msgstr ""
 
-#. Default: "Search"
-msgid "label_schema_pm_search"
+#. Default: "This organization can not be deleted, the linked Plone groups are not empty, check ${plone_group_id}!"
+msgid "can_not_delete_organization_plonegroup"
 msgstr ""
 
-#. Default: "This group can not be deleted, it is referenced in a meeting configuration"
-msgid "can_not_delete_meetinggroup_meetingconfig"
+#. Default: "This organization can not be deleted, it is linked to one existing item at least, check ${item_url}!"
+msgid "can_not_delete_organization_meetingitem"
 msgstr ""
 
-#. Default: "This group can not be deleted, it is used as group in charge of group ${group_title}."
-msgid "can_not_delete_meetinggroup_groupincharge"
-msgstr ""
-
-#. Default: "This group can not be deleted, the linked Plone groups are not empty"
-msgid "can_not_delete_meetinggroup_plonegroup"
-msgstr ""
-
-#. Default: "This group can not be deleted, it is linked to one existing item at least"
-msgid "can_not_delete_meetinggroup_meetingitem"
-msgstr ""
-
-#. Default: "This group can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}"
-msgid "can_not_delete_meetinggroup_config_meetingitem"
+#. Default: "This organization can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}!"
+msgid "can_not_delete_organization_config_meetingitem"
 msgstr ""
 
 #. Default: "This configuration can not be deleted, at least one meeting linked to this configuration exists!"
@@ -604,7 +588,7 @@ msgstr ""
 msgid "can_not_delete_meetingconfig_annex_types"
 msgstr ""
 
-#. Default: "This category can not be deleted, at least one item is linked to this category, please check ${url}"
+#. Default: "This category can not be deleted, at least one item is linked to this category, please check ${url}!"
 msgid "can_not_delete_meetingcategory_meetingitem"
 msgstr ""
 
@@ -612,7 +596,7 @@ msgstr ""
 msgid "can_not_delete_meeting_container"
 msgstr ""
 
-#. Default: "You can not paste an item coming from another meeting configuration !"
+#. Default: "You can not paste an item coming from another meeting configuration!"
 msgid "cannot_paste_item_from_other_mc"
 msgstr ""
 

@@ -320,10 +320,6 @@ msgstr ""
 msgid "How many items to list in each topic."
 msgstr "Im Portlet angezeigte Anzahl Treffer pro Suche "
 
-#. Default: "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
-msgid "If you deactivate the meetingGroup, every users of every linked Plone groups will be transfered to the '_observers' group so they only have 'read access' to the existing items and can not create new items anymore.  Moreover, this group will be removed from selectable copy groups."
-msgstr ""
-
 #. Default: "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 msgid "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 msgstr ""
@@ -424,6 +420,10 @@ msgstr ""
 
 #. Default: "Manage dashboard"
 msgid "Manage dashboard"
+msgstr ""
+
+#. Default: "Manage internal organizations"
+msgid "Manage internal organizations"
 msgstr ""
 
 #. Default: "Manage item annexes"
@@ -1833,10 +1833,6 @@ msgstr ""
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr ""
 
-#. Default: "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
-msgid "You cannot delete the group \"${group_id}\", linked to MeetingGroup \"${meeting_group}\" !"
-msgstr ""
-
 #. Default: "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgstr ""
@@ -1934,11 +1930,11 @@ msgstr ""
 msgid "advice_confidentiality_default_descr"
 msgstr ""
 
-#. Default: "${group_name} - ${delay} day(s) (${delay_label})"
+#. Default: "${org_title} - ${delay} day(s) (${delay_label})"
 msgid "advice_delay_with_label"
 msgstr ""
 
-#. Default: "${group_name} - ${delay} day(s)"
+#. Default: "${org_title} - ${delay} day(s)"
 msgid "advice_delay_without_label"
 msgstr ""
 
@@ -3803,14 +3799,6 @@ msgstr "Bearbeiten"
 msgid "label_related_items"
 msgstr "Anhänge"
 
-#. Default: "Delete the meeting configuration : the folder linked to this meeting configuration for each member will be removed too (if empty)!"
-msgid "label_remove_meetingconfig"
-msgstr "Löscht die Sitzungskonfiguration: der Link zum Verzeichnis dieser Sitzungskonfiguration wird für jeden Benutzer gelöscht (falls es leer ist)!"
-
-#. Default: "Delete the group : the linked Plone groups will be removed too (if empty)!"
-msgid "label_remove_meetinggroup"
-msgstr "Gruppe löschen: der Link zur Plonegruppe wird gelöscht (falls sie leer ist)!"
-
 #. Default: "Main information"
 msgid "label_schema_default"
 msgstr "Hauptinformationen"
@@ -4038,6 +4026,10 @@ msgstr ""
 msgid "meeting_of"
 msgstr "Sitzung vom"
 
+#. Default: "Organizations"
+msgid "meeting_organizations"
+msgstr ""
+
 #. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "meeting_powerobservers_states_descr"
 msgstr ""
@@ -4200,10 +4192,6 @@ msgstr ""
 
 #. Default: "Item decision annex"
 msgid "meetingfiletype_related_to_item_decision"
-msgstr ""
-
-#. Default: "As the group has been deactivated, it has been removed from the 'selectable copy groups' and 'selectable advisers' fields of every meeting configs."
-msgid "meetinggroup_removed_from_meetingconfigs_selectablecopygroups_selectableadvisers"
 msgstr ""
 
 #. Default: "Meeting managers"
@@ -4481,6 +4469,18 @@ msgstr ""
 
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
 msgid "ordered_contacts_descr"
+msgstr ""
+
+#. Default: "Create new, change existing organizations parameters, ..."
+msgid "organizations_add"
+msgstr ""
+
+#. Default: "Manage organizations order, enable or disable organizations, ..."
+msgid "organizations_plonegroup"
+msgstr ""
+
+#. Default: "Every unselected organizations have been removed from the 'selectable copy groups' and 'selectable advisers' fields of every meeting configs."
+msgid "organizations_removed_from_meetingconfigs_selectablecopygroups_selectableadvisers"
 msgstr ""
 
 #. Default: "When an item is sent to another meeting config, the annexes of the new item will use meeting file types of the new meeting config.  Define here the correspondences for each meeting config the items of this meeting config can  be sent to.  If you do not define correspondences, the application will use the default meeting file type (first found).  This will not be used if 'Related to advice' is used in the 'Related to' field here above because advices are not kept while an item is sent to another meeting config.  Please select only one value by meeting config the item is sendable to."
@@ -5625,6 +5625,10 @@ msgstr ""
 
 #. Default: "Please wait..."
 msgid "wait_msg"
+msgstr ""
+
+#. Default: "You are currently adding an organization outside 'My organization', please make sure this is correct.  If you want to create a new group that will be able the create items, give advices, you need to add it directly under 'My organization'."
+msgid "warning_adding_org_outside_own_org"
 msgstr ""
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."

@@ -42,10 +42,6 @@ msgstr "Annex decision"
 msgid "Back to 'Advice Under Edit'"
 msgstr "Back to 'Advice Under Edit'"
 
-#. Default: "CopyItem"
-msgid "CopyItem"
-msgstr "Copy item(s)"
-
 # Creation action displayed in history
 #. Default: "Created"
 msgid "Created"
@@ -112,10 +108,6 @@ msgstr "Category"
 #. Default: "Meeting configuration"
 msgid "MeetingConfig"
 msgstr "Meeting configuration"
-
-#. Default: "PloneMeeting group"
-msgid "MeetingGroup"
-msgstr "PloneMeeting group"
 
 #. Default: "Item"
 msgid "MeetingItem"
@@ -208,7 +200,7 @@ msgstr "State"
 
 #. Default: "Store items decision as annex"
 msgid "Store items decision as annex"
-msgstr ""
+msgstr "Store items decision as annex"
 
 #. Default: "This allows to active the tool PloneMeeting."
 msgid "This allows to active the tool PloneMeeting."
@@ -253,11 +245,11 @@ msgstr "Accept with modifications"
 
 #. Default: "Accept out of meeting"
 msgid "accept_out_of_meeting"
-msgstr ""
+msgstr "Accept out of meeting"
 
 #. Default: "Accept out of meeting (Emergency)"
 msgid "accept_out_of_meeting_emergency"
-msgstr ""
+msgstr "Accept out of meeting (Emergency)"
 
 #. Default: "Accepted"
 msgid "accepted"
@@ -269,11 +261,11 @@ msgstr "Accepted with modifications"
 
 #. Default: "Accepted out of meeting"
 msgid "accepted_out_of_meeting"
-msgstr ""
+msgstr "Accepted out of meeting"
 
 #. Default: "Accepted out of meeting (Emergency)"
 msgid "accepted_out_of_meeting_emergency"
-msgstr ""
+msgstr "Accepted out of meeting (Emergency)"
 
 #. Default: "Activate"
 msgid "activate"
@@ -349,18 +341,16 @@ msgid "backToFrozen"
 msgstr "Back to 'Frozen'"
 
 #. Default: "Back to 'Created'"
-#, fuzzy
 msgid "backToItemCreated"
-msgstr "Back to 'created'"
+msgstr "Back to 'Created'"
 
 #. Default: "Back to 'Frozen'"
 msgid "backToItemFrozen"
 msgstr "Back to 'Frozen'"
 
 #. Default: "Back to 'Published'"
-#, fuzzy
 msgid "backToItemPublished"
-msgstr "Back to 'published'"
+msgstr "Back to 'Published'"
 
 #. Default: "Back to 'Presented'"
 msgid "backToPresented"
@@ -388,26 +378,23 @@ msgstr "Remove from meeting"
 
 #. Default: "Back to 'Validated'"
 msgid "backToValidatedFromAcceptedOutOfMeeting"
-msgstr ""
+msgstr "Back to 'Validated'"
 
 #. Default: "Back to 'Validated'"
 msgid "backToValidatedFromAcceptedOutOfMeetingEmergency"
-msgstr ""
+msgstr "Back to 'Validated'"
 
 #. Default: "Back to 'Item created'"
-#, fuzzy
 msgid "backTo_itemcreated_from_waiting_advices"
 msgstr "Back to 'itemcreated'"
 
 #. Default: "Back to 'Prevalidated'"
-#, fuzzy
 msgid "backTo_prevalidated_from_waiting_advices"
-msgstr "Back to 'prevalidated'"
+msgstr "Back to 'Prevalidated'"
 
 #. Default: "Back to 'Proposed'"
-#, fuzzy
 msgid "backTo_proposed_from_waiting_advices"
-msgstr "Back to 'proposed'"
+msgstr "Back to 'Proposed'"
 
 #. Default: "Back to proposing group from proposed"
 msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposed"
@@ -429,13 +416,13 @@ msgstr "Forgot password?"
 msgid "can_not_delete_meeting_container"
 msgstr "You can not delete a container containing one or several meetings!"
 
-#. Default: "This category can not be deleted, at least one item is linked to this category, please check ${url}"
+#. Default: "This category can not be deleted, at least one item is linked to this category, please check ${url}!"
 msgid "can_not_delete_meetingcategory_meetingitem"
-msgstr "This category can not be deleted, at least one item is linked to this category, please check ${url}"
+msgstr "This category can not be deleted, at least one item is linked to this category, please check ${url}!"
 
 #. Default: "This configuration can not be deleted, annex types defined in this configuration are used in field 'Correspondences while sent to other meeting configs' of at least another configuration, check ${other_config_title}!"
 msgid "can_not_delete_meetingconfig_annex_types"
-msgstr ""
+msgstr "This configuration can not be deleted, annex types defined in this configuration are used in field 'Correspondences while sent to other meeting configs' of at least another configuration, check ${other_config_title}!"
 
 #. Default: "This configuration can not be deleted, at least one meeting linked to this configuration exists!"
 msgid "can_not_delete_meetingconfig_meeting"
@@ -443,7 +430,7 @@ msgstr "This configuration can not be deleted, at least one meeting linked to th
 
 #. Default: "This configuration can not be deleted, it is used in another configuration, check ${other_config_title}!"
 msgid "can_not_delete_meetingconfig_meetingconfig"
-msgstr ""
+msgstr "This configuration can not be deleted, it is used in another configuration, check ${other_config_title}!"
 
 #. Default: "This configuration can not be deleted, at least one member folder designed to store PloneMeeting objects is not empty!"
 msgid "can_not_delete_meetingconfig_meetingfolder"
@@ -453,26 +440,6 @@ msgstr "This configuration can not be deleted, at least one member folder design
 msgid "can_not_delete_meetingconfig_meetingitem"
 msgstr "This configuration can not be deleted, at least one item linked to this configuration exists!"
 
-#. Default: "This group can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}"
-msgid "can_not_delete_meetinggroup_config_meetingitem"
-msgstr "This group can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}"
-
-#. Default: "This group can not be deleted, it is used as group in charge of group ${group_title}."
-msgid "can_not_delete_meetinggroup_groupincharge"
-msgstr "This group can not be deleted, it is used as group in charge of group ${group_title}."
-
-#. Default: "This group can not be deleted, it is referenced in a meeting configuration"
-msgid "can_not_delete_meetinggroup_meetingconfig"
-msgstr "This group can not be deleted, it is referenced in a meeting configuration"
-
-#. Default: "This group can not be deleted, it is linked to one existing item at least"
-msgid "can_not_delete_meetinggroup_meetingitem"
-msgstr "This group can not be deleted, it is linked to one existing item at least"
-
-#. Default: "This group can not be deleted, the linked Plone groups are not empty"
-msgid "can_not_delete_meetinggroup_plonegroup"
-msgstr "This group can not be deleted, the linked Plone groups are not empty"
-
 #. Default: "You can not delete a container containing one or several items!"
 msgid "can_not_delete_meetingitem_container"
 msgstr "You can not delete a container containing one or several items!"
@@ -481,9 +448,29 @@ msgstr "You can not delete a container containing one or several items!"
 msgid "can_not_delete_object"
 msgstr "You can not delete this element!"
 
-#. Default: "You can not paste an item coming from another meeting configuration !"
+#. Default: "This organization can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}!"
+msgid "can_not_delete_organization_config_meetingitem"
+msgstr "This organization can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}!"
+
+#. Default: "This organization can not be deleted, it is used as group in charge of organization ${org_url}!"
+msgid "can_not_delete_organization_groupincharge"
+msgstr "This organization can not be deleted, it is used as group in charge of organization ${org_url}!"
+
+#. Default: "This organization can not be deleted, it is referenced in a meeting configuration (check ${cfg_url})!"
+msgid "can_not_delete_organization_meetingconfig"
+msgstr "This organization can not be deleted, it is referenced in a meeting configuration (check ${cfg_url})!"
+
+#. Default: "This organization can not be deleted, it is linked to one existing item at least, check ${item_url}!"
+msgid "can_not_delete_organization_meetingitem"
+msgstr "This organization can not be deleted, it is linked to one existing item at least, check ${item_url}!"
+
+#. Default: "This organization can not be deleted, the linked Plone groups are not empty, check ${plone_group_id}!"
+msgid "can_not_delete_organization_plonegroup"
+msgstr "This organization can not be deleted, the linked Plone groups are not empty, check ${plone_group_id}!"
+
+#. Default: "You can not paste an item coming from another meeting configuration!"
 msgid "cannot_paste_item_from_other_mc"
-msgstr "You can not paste an item coming from another meeting configuration !"
+msgstr "You can not paste an item coming from another meeting configuration!"
 
 #. Default: "Close"
 msgid "close"
@@ -503,11 +490,11 @@ msgstr "Confirmed"
 
 #. Default: "Item created from an item accepted out of meeting."
 msgid "create_from_accepted_out_of_meeting"
-msgstr ""
+msgstr "Item created from an item accepted out of meeting."
 
 #. Default: "Item created from an item accepted out of meeting (emergency)."
 msgid "create_from_accepted_out_of_meeting_emergency"
-msgstr ""
+msgstr "Item created from an item accepted out of meeting (emergency)."
 
 #. Default: "Create from item postponed to next meeting"
 msgid "create_from_postponed_next_meeting"
@@ -666,14 +653,6 @@ msgstr "Edit"
 msgid "label_remove"
 msgstr "Delete"
 
-#. Default: "Main information"
-msgid "label_schema_default"
-msgstr "Main information"
-
-#. Default: "Search"
-msgid "label_schema_pm_search"
-msgstr "Search"
-
 #. Default: "Emails"
 msgid "mail"
 msgstr "Emails"
@@ -806,7 +785,7 @@ msgstr "Returned to proposing group (proposed)"
 #: plone.app.layout/plone/app/layout/viewlets/searchbox.pt:16
 #: plone.app.portlets/plone/app/portlets/portlets/search.pt:28
 msgid "title_search_site"
-msgstr ""
+msgstr "Search everywhere"
 
 #. Default: "Tool PloneMeeting View"
 msgid "toolplonemeeting_view"
