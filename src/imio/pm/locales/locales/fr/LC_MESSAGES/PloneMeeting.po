@@ -422,6 +422,10 @@ msgstr "Gérer les contacts"
 msgid "Manage dashboard"
 msgstr "Gérer le tableau de bord"
 
+#. Default: "Manage internal organizations"
+msgid "Manage internal organizations"
+msgstr "Gérer l'organisation interne"
+
 #. Default: "Manage item annexes"
 msgid "Manage item annexes"
 msgstr "Gérer les annexes du point"
@@ -3987,6 +3991,10 @@ msgstr "Ceci activera une action sur les séances permettant de stocker en tant 
 msgid "meeting_of"
 msgstr "Séance du"
 
+#. Default: "Organizations"
+msgid "meeting_organizations"
+msgstr "Organisations"
+
 #. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "meeting_powerobservers_states_descr"
 msgstr "Quand une séance est dans un des états que vous sélectionnez ici, elle sera visible par les utilisateurs qui sont dans le groupe de 'Super observateurs' de cette configuration de séance.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter 'Mettre à jour les points et séances'!</span>"
@@ -4423,6 +4431,14 @@ msgstr " "
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
 msgid "ordered_contacts_descr"
 msgstr "Sélectionnez les contacts qui seront utilisés comme membres d'assemblée pour les séances.  L'ordre sélectionné ici sera celui repris par défaut lors de la création d'une nouvelle séance."
+
+#. Default: "Create new, change existing organizations parameters, ..."
+msgid "organizations_add"
+msgstr "Créer, éditer, adapter les paramètres des organisations, ..."
+
+#. Default: "Manage organizations order, enable or disable organizations, ..."
+msgid "organizations_plonegroup"
+msgstr "Gére l'ordre, activer/désactiver des organisations, ..."
 
 #. Default: "Every unselected organizations have been removed from the 'selectable copy groups' and 'selectable advisers' fields of every meeting configs."
 msgid "organizations_removed_from_meetingconfigs_selectablecopygroups_selectableadvisers"

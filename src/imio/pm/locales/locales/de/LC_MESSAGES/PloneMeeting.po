@@ -422,6 +422,10 @@ msgstr ""
 msgid "Manage dashboard"
 msgstr ""
 
+#. Default: "Manage internal organizations"
+msgid "Manage internal organizations"
+msgstr ""
+
 #. Default: "Manage item annexes"
 msgid "Manage item annexes"
 msgstr ""
@@ -4018,6 +4022,10 @@ msgstr ""
 msgid "meeting_of"
 msgstr "Sitzung vom"
 
+#. Default: "Organizations"
+msgid "meeting_organizations"
+msgstr ""
+
 #. Default: "When a meeting is in one of the states you choose here, it will be possible for power observers of this meetingConfig to see the meeting.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "meeting_powerobservers_states_descr"
 msgstr ""
@@ -4457,6 +4465,14 @@ msgstr ""
 
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
 msgid "ordered_contacts_descr"
+msgstr ""
+
+#. Default: "Create new, change existing organizations parameters, ..."
+msgid "organizations_add"
+msgstr ""
+
+#. Default: "Manage organizations order, enable or disable organizations, ..."
+msgid "organizations_plonegroup"
 msgstr ""
 
 #. Default: "Every unselected organizations have been removed from the 'selectable copy groups' and 'selectable advisers' fields of every meeting configs."
