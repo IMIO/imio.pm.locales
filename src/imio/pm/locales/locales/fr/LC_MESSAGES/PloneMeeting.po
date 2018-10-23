@@ -132,6 +132,10 @@ msgstr "Annuler"
 msgid "Categories"
 msgstr "Catégories de points"
 
+#. Default: "Held position"
+msgid "Certified signatures held position"
+msgstr "Fonction occupée"
+
 #. Default: "Function"
 msgid "Certified signatures signatory function"
 msgstr "Fonction"
@@ -1690,6 +1694,10 @@ msgstr "Recherches"
 #. Default: "Secret?"
 msgid "Secret while presenting in other MC?"
 msgstr "Huis clos?"
+
+#. Default: "Select a held position if necessary, 'Name', 'Function' and other data of this held position will be used if you leave 'Name' and 'Function' columns empty."
+msgid "Select a held position if necessary, 'Name', 'Function' and other data of this held position will be used if you leave 'Name' and 'Function' columns empty."
+msgstr "Sélectionnez une position occupée par un contact.  Lorsque vous sélectionnez une position occupée, les colonnes 'Nom' et 'Fonction' peuvent être laissées vides, ces données seront reprise depuis le contact."
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
