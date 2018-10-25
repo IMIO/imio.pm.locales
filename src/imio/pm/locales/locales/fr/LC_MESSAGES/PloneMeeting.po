@@ -112,6 +112,22 @@ msgstr "Appliquer jusqu'au point numéro"
 msgid "Asked on ${advice_asked_on_date}"
 msgstr "Demandé le ${advice_asked_on_date}"
 
+#. Default: "Attendee has been set ${not_present_type}."
+msgid "Attendee has been set ${not_present_type}."
+msgstr "Le participant est désormais \"${not_present_type}\" pour ce point."
+
+#. Default: "Attendee has been set back present."
+msgid "Attendee has been set back present."
+msgstr "Le participant est à nouveau présent pour ce point."
+
+#. Default: "Attendee has been set signatory."
+msgid "Attendee has been set signatory."
+msgstr "Le participant est désormais signataire pour ce point."
+
+#. Default: "Attendee is no more defined as item signatory."
+msgid "Attendee is no more defined as item signatory."
+msgstr "Le participant a été enlevé des signataires pour ce point."
+
 #. Default: "Back to the MeetingConfig"
 msgid "Back to the MeetingConfig"
 msgstr "Retourner sur la Configuration de séance"
@@ -123,6 +139,10 @@ msgstr "Retourner sur le point"
 #. Default: "Can not close a meeting containing items returned to proposing group!"
 msgid "Can not close a meeting containing items returned to proposing group!"
 msgstr "Une séance contenant des points 'Renvoyé au groupe proposant pour corrections' ne peut pas être clôturée!"
+
+#. Default: "Can not set ${not_present_type} a person selected as signatory on an item!"
+msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
+msgstr "Impossible de définir un participant \"${not_present_type}\" s'il est spécifiquement défini signataire du point!"
 
 #. Default: "Cancel"
 msgid "Cancel"
@@ -340,6 +360,14 @@ msgstr "Encodez le numéro du point jusqu'auquel ce participant doit être marqu
 msgid "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
 msgstr "Encodez le numéro du point jusqu'auquel ce participant doit être enlevé des absents.  Laissez le champ vide pour l'enlever des absents uniquement pour le point en cours."
 
+#. Default: "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
+msgstr "Encodez le numéro du point jusqu'auquel ce participant doit être marqué comme signataire.  Laissez le champ vide pour le marquer signataire uniquement pour le point en cours."
+
+#. Default: "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
+msgstr "Encodez le numéro du point jusqu'auquel ce participant doit être enlevé des signataires.  Laissez le champ vide pour l'enlever seulement des signataires du point en cours."
+
 # plone.app.querystring
 #. Default: "Informations about advices on an item"
 msgid "Informations about advices on an item"
@@ -510,6 +538,10 @@ msgstr "Aucune information d'historique disponible pour l'instant."
 #. Default: "None"
 msgid "None"
 msgstr "Aucun"
+
+#. Default: "Not present type"
+msgid "Not present type"
+msgstr "Type d'absence"
 
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
@@ -1782,9 +1814,9 @@ msgstr "Cet avis ne doit plus être 'caché pendant la rédaction' avant le ${li
 msgid "This advice was given as personal initiative"
 msgstr "Cet avis a été rendu d'initiative"
 
-#. Default: "This attendee is marked as absent for following item(s)"
-msgid "This attendee is marked as absent for following items"
-msgstr "Ce participant est marqué absent pour le(s) point(s) suivant(s)"
+#. Default: "This attendee is marked as ${not_present_type} for following items"
+msgid "This attendee is marked as ${not_present_type} for following items"
+msgstr "Ce participant est marqué \"${not_present_type}\" pour le(s) point(s) suivant(s)"
 
 #. Default: "This attendee is marked as signatory for following item(s)"
 msgid "This attendee is marked as signatory for following items"
@@ -3668,6 +3700,14 @@ msgstr "Le point est signé, cliquez sur l'image pour enlever la signature."
 msgid "item_manual_sent_to_other_mc_states_descr"
 msgstr "Lorsqu'un point sera dans un des états cochés ci-dessous, les utilisateurs ayant le droit d'édition sur le point auront la possibilité de l'envoyer manuellement vers les autres configurations de séances sélectionnées sur celui-ci."
 
+#. Default: "Absent"
+msgid "item_not_present_type_absent"
+msgstr "Absent"
+
+#. Default: "Absent (excused)"
+msgid "item_not_present_type_excused"
+msgstr "Absent (excusé)"
+
 #. Default: "No move occurred: please specify a valid number."
 msgid "item_number_invalid"
 msgstr "Aucun déplacement n'a eu lieu: veuillez introduire un numéro valide."
@@ -4994,10 +5034,6 @@ msgstr "Afficher / masquer les détails"
 #. Default: "Show / hide poll type observations"
 msgid "show_or_hide_pollTypeObservations"
 msgstr "Afficher / masquer les \"Observations sur le mode de scrutin\""
-
-#. Default: "A signatory can not be in the absents list."
-msgid "signatories_absents_mismatch"
-msgstr "Un signataire ne peut être sélectionné dans la liste des 'Absents pour ce point'.  Contrôlez ces deux champs."
 
 #. Default: "Signatures"
 msgid "signatures"

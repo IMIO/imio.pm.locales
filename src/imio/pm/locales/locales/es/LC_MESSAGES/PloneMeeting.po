@@ -116,6 +116,22 @@ msgstr "Aplicar hasta el numero de tema"
 msgid "Asked on ${advice_asked_on_date}"
 msgstr ""
 
+#. Default: "Attendee has been set ${not_present_type}."
+msgid "Attendee has been set ${not_present_type}."
+msgstr ""
+
+#. Default: "Attendee has been set back present."
+msgid "Attendee has been set back present."
+msgstr ""
+
+#. Default: "Attendee has been set signatory."
+msgid "Attendee has been set signatory."
+msgstr ""
+
+#. Default: "Attendee is no more defined as item signatory."
+msgid "Attendee is no more defined as item signatory."
+msgstr ""
+
 #. Default: "Back to the MeetingConfig"
 msgid "Back to the MeetingConfig"
 msgstr ""
@@ -126,6 +142,10 @@ msgstr ""
 
 #. Default: "Can not close a meeting containing items returned to proposing group!"
 msgid "Can not close a meeting containing items returned to proposing group!"
+msgstr ""
+
+#. Default: "Can not set ${not_present_type} a person selected as signatory on an item!"
+msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgstr ""
 
 #. Default: "Cancel"
@@ -344,6 +364,14 @@ msgstr ""
 msgid "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
 msgstr ""
 
+#. Default: "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
+msgstr ""
+
+#. Default: "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
+msgstr ""
+
 # plone.app.querystring
 #. Default: "Informations about advices on an item"
 msgid "Informations about advices on an item"
@@ -513,6 +541,10 @@ msgstr ""
 
 #. Default: "None"
 msgid "None"
+msgstr ""
+
+#. Default: "Not present type"
+msgid "Not present type"
 msgstr ""
 
 #. Default: "Number of characters of the title to show"
@@ -1791,9 +1823,10 @@ msgstr ""
 msgid "This advice was given as personal initiative"
 msgstr ""
 
-#. Default: "This attendee is marked as absent for following item(s)"
-msgid "This attendee is marked as absent for following items"
-msgstr ""
+#. Default: "This attendee is marked as ${not_present_type} for following items"
+#, fuzzy
+msgid "This attendee is marked as ${not_present_type} for following items"
+msgstr "This attendee is marked as ${not_present_type} for following items"
 
 #. Default: "This attendee is marked as signatory for following item(s)"
 msgid "This attendee is marked as signatory for following items"
@@ -3713,6 +3746,14 @@ msgstr "El tema ha sido firmado. Haga clic en la imagen para eliminar la firma."
 msgid "item_manual_sent_to_other_mc_states_descr"
 msgstr ""
 
+#. Default: "Absent"
+msgid "item_not_present_type_absent"
+msgstr ""
+
+#. Default: "Absent (excused)"
+msgid "item_not_present_type_excused"
+msgstr ""
+
 #. Default: "No move occurred: please specify a valid number."
 msgid "item_number_invalid"
 msgstr "Sin mover: por favor especifique un número valido."
@@ -5063,10 +5104,6 @@ msgstr "Mostrar / ocultar detalles"
 #. Default: "Show / hide poll type observations"
 msgid "show_or_hide_pollTypeObservations"
 msgstr ""
-
-#. Default: "A signatory can not be in the absents list."
-msgid "signatories_absents_mismatch"
-msgstr "Un firmante no puede estar en la lista de ausentes."
 
 #. Default: "Signatures"
 msgid "signatures"
