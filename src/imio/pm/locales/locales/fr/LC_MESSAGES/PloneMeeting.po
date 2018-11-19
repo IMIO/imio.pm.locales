@@ -288,6 +288,10 @@ msgstr "Encodez les présents qui devront être appliqués pour ce point. La val
 msgid "Enter the item excused to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgstr "Encodez les excusés qui devront être appliqués pour ce point. La valeur affichée par défaut dans ce champ est la valeur actuellement définie sur ce point ou sur la séance. Si vous ne changez pas cette valeur, rien ne sera appliqué sur le point. Si vous aviez déjà édité cette valeur et que vous souhaitez retourner vers la valeur utilisée sur la séance, videz ce champ."
 
+#. Default: "Enter the item guests to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgid "Enter the item guests to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgstr "Encodez les invités qui devront être appliqués pour ce point. La valeur affichée par défaut dans ce champ est la valeur actuellement définie sur ce point ou sur la séance. Si vous ne changez pas cette valeur, rien ne sera appliqué sur le point. Si vous aviez déjà édité cette valeur et que vous souhaitez retourner vers la valeur utilisée sur la séance, videz ce champ."
+
 #. Default: "Enter the item signatures to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgid "Enter the item signatures to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgstr "Encodez les signatures qui devront être appliquées pour ce point. La valeur affichée par défaut dans ce champ est la valeur actuellement définie sur ce point ou sur la séance. Si vous ne changez pas cette valeur, rien ne sera appliqué sur le point. Si vous aviez déjà édité cette valeur et que vous souhaitez retourner vers la valeur utilisée sur la séance, videz ce champ."
@@ -417,6 +421,10 @@ msgstr "L'urgence a été changée pour ce point."
 msgid "Item excused to apply"
 msgstr "Excusés à appliquer"
 
+#. Default: "Item guests to apply"
+msgid "Item guests to apply"
+msgstr "Invités à appliquer"
+
 #. Default: "Item signatures have been updated."
 msgid "Item signatures have been updated."
 msgstr "Les signatures des points ont été mises à jour."
@@ -542,6 +550,10 @@ msgstr "Aucun"
 #. Default: "Not present type"
 msgid "Not present type"
 msgstr "Type d'absence"
+
+#. Default: "Nothing to display."
+msgid "Nothing to display."
+msgstr "Rien à afficher."
 
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
@@ -1031,6 +1043,10 @@ msgstr "Absents pour ce point"
 #. Default: "Assembly excused that is specific to this meeting item"
 msgid "PloneMeeting_label_itemAssemblyExcused"
 msgstr "Excusés pour ce point"
+
+#. Default: "Assembly guests that is specific to this meeting item"
+msgid "PloneMeeting_label_itemAssemblyGuests"
+msgstr "Invités pour ce point"
 
 #. Default: "States in which an item will be automatically sent to selected other meeting configurations"
 msgid "PloneMeeting_label_itemAutoSentToOtherMCStates"
@@ -2259,9 +2275,17 @@ msgstr "Excusés définis sur la séance"
 msgid "assembly_excused_meeting_descr"
 msgstr "Définissez ici les personnes excusées pour la séance"
 
+#. Default: "Guests as defined on the linked meeting"
+msgid "assembly_guests_defined_on_meeting"
+msgstr "Invités définis sur la séance"
+
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use 'Excused' and 'Absents' fields"
 msgid "assembly_meeting_descr"
 msgstr "Ajoutez des double crochets [[ ]] autour des personnes absentes, par exemple : [[Mr. Untel Didier]] si vous n'utilisez pas les champs 'Excusés' et 'Absents'"
+
+#. Default: "Using attribute(s) 'itemExcused' and/or 'itemAbsents' requires the use of attribute 'assembly'."
+msgid "assembly_required"
+msgstr "L'usage de(s) l'(les) attribut(s) 'Excusés (itemExcused)' et/ou 'Absents (itemAbsents)' requiert celui de l'attribut 'Assemblée (assembly)'."
 
 #. Default: "Define here the default assembly staves (for example you may type a list of names and first names separated by colons or new lines) that will be automatically selected on newly created meetings."
 msgid "assembly_staves_descr"
@@ -2286,7 +2310,7 @@ msgstr "Présents pour ce point"
 
 #. Default: "Using attribute(s) 'excused' and/or 'absents' requires the use of attribute 'attendees'."
 msgid "attendees_required"
-msgstr "L'usage de(s) l'(les) attribut(s) 'excusés' et/ou 'absents' requiert celui de l'attribut 'présents'."
+msgstr "L'usage de(s) l'(les) attribut(s) 'Excusés (excused)' et/ou 'Absents (absents)' requiert celui de l'attribut 'Présents (attendees)'."
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "authority_notice_descr"
@@ -3578,7 +3602,7 @@ msgstr "Assemblée pour ce point"
 
 #. Default: "If you don't fill this field, meeting assembly absents will be used for this item"
 msgid "item_assembly_absents_descr"
-msgstr "Si vous ne remplissez pas ce champ, les absents définis sur le point seront utilisés"
+msgstr "Si vous ne remplissez pas ce champ, les absents définis sur la séance seront utilisés"
 
 #. Default: "If you don't fill this field, meeting assembly will be used for this item.  Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use excused and absent fields"
 msgid "item_assembly_descr"
@@ -3586,7 +3610,11 @@ msgstr "Si vous ne remplissez pas ce champ, l'assemblée définie sur la séance
 
 #. Default: "If you don't fill this field, meeting assembly excused will be used for this item"
 msgid "item_assembly_excused_descr"
-msgstr "Si vous ne remplissez pas ce champ, les excusés définis sur le point seront utilisés"
+msgstr "Si vous ne remplissez pas ce champ, les excusés définis sur la séance seront utilisés"
+
+#. Default: "If you don't fill this field, meeting assembly guests will be used for this item"
+msgid "item_assembly_guests_descr"
+msgstr "Si vous ne remplissez pas ce champ, les excusés définis sur la séance seront utilisés"
 
 #. Default: "This person was absent during discussion on this item"
 msgid "item_attendee_absent"
@@ -4781,9 +4809,9 @@ msgstr "${portalTitle} - Un problème est survenu lors de l'insertion du point r
 msgid "recurring_items_descr"
 msgstr "Les points récurrents sont des points automatiquement ajoutés à une séance au moment voulu."
 
-#. Default: "${assembly} and ${signatures}"
+#. Default: "${assembly} ${assembly_edit} and ${signatures} ${signatures_edit}"
 msgid "redefinable_assembly_and_signatures"
-msgstr "${assembly} et ${signatures}"
+msgstr "${assembly} ${assembly_edit} et ${signatures} ${signatures_edit}"
 
 #. Default: "Refresh vote values"
 msgid "refresh_votes"

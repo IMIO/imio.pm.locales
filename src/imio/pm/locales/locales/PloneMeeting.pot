@@ -31,6 +31,10 @@ msgstr ""
 msgid "assembly_absents_defined_on_meeting"
 msgstr ""
 
+#. Default: "Guests as defined on the linked meeting"
+msgid "assembly_guests_defined_on_meeting"
+msgstr ""
+
 #. Default: "Signatures as defined on the linked meeting"
 msgid "signatures_defined_on_meeting"
 msgstr ""
@@ -59,6 +63,10 @@ msgstr ""
 msgid "Item absents to apply"
 msgstr ""
 
+#. Default: "Item guests to apply"
+msgid "Item guests to apply"
+msgstr ""
+
 #. Default: "Item signatures to apply"
 msgid "Item signatures to apply"
 msgstr ""
@@ -81,6 +89,10 @@ msgstr ""
 
 #. Default: "Enter the item absents to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgid "Enter the item absents to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgstr ""
+
+#. Default: "Enter the item guests to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgid "Enter the item guests to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgstr ""
 
 #. Default: "Apply until item number"
@@ -160,6 +172,10 @@ msgstr ""
 msgid "PloneMeeting_label_itemAssemblyAbsents"
 msgstr ""
 
+#. Default: "Assembly guests that is specific to this meeting item"
+msgid "PloneMeeting_label_itemAssemblyGuests"
+msgstr ""
+
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use 'Excused' and 'Absents' fields"
 msgid "assembly_meeting_descr"
 msgstr ""
@@ -182,6 +198,10 @@ msgstr ""
 
 #. Default: "If you don't fill this field, meeting assembly absents will be used for this item"
 msgid "item_assembly_absents_descr"
+msgstr ""
+
+#. Default: "If you don't fill this field, meeting assembly guests will be used for this item"
+msgid "item_assembly_guests_descr"
 msgstr ""
 
 #. Default: "This item is related to budgetary information"
@@ -1999,6 +2019,10 @@ msgstr ""
 
 #. Default: "Using attribute(s) 'excused' and/or 'absents' requires the use of attribute 'attendees'."
 msgid "attendees_required"
+msgstr ""
+
+#. Default: "Using attribute(s) 'itemExcused' and/or 'itemAbsents' requires the use of attribute 'assembly'."
+msgid "assembly_required"
 msgstr ""
 
 #. Default: "Attributes 'assembly' and 'attendees' can't be used together."
@@ -5455,7 +5479,7 @@ msgstr ""
 msgid "content_kept_advices"
 msgstr ""
 
-#. Default: "${assembly} and ${signatures}"
+#. Default: "${assembly} ${assembly_edit} and ${signatures} ${signatures_edit}"
 msgid "redefinable_assembly_and_signatures"
 msgstr ""
 
@@ -5706,4 +5730,8 @@ msgstr ""
 
 #. Default: "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
+msgstr ""
+
+#. Default: "Nothing to display."
+msgid "Nothing to display."
 msgstr ""

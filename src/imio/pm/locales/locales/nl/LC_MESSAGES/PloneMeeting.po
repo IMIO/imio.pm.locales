@@ -289,6 +289,10 @@ msgstr ""
 msgid "Enter the item excused to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgstr ""
 
+#. Default: "Enter the item guests to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgid "Enter the item guests to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
+msgstr ""
+
 #. Default: "Enter the item signatures to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgid "Enter the item signatures to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgstr ""
@@ -418,6 +422,10 @@ msgstr ""
 msgid "Item excused to apply"
 msgstr ""
 
+#. Default: "Item guests to apply"
+msgid "Item guests to apply"
+msgstr ""
+
 #. Default: "Item signatures have been updated."
 msgid "Item signatures have been updated."
 msgstr ""
@@ -542,6 +550,10 @@ msgstr ""
 
 #. Default: "Not present type"
 msgid "Not present type"
+msgstr ""
+
+#. Default: "Nothing to display."
+msgid "Nothing to display."
 msgstr ""
 
 #. Default: "Number of characters of the title to show"
@@ -1031,6 +1043,10 @@ msgstr ""
 
 #. Default: "Assembly excused that is specific to this meeting item"
 msgid "PloneMeeting_label_itemAssemblyExcused"
+msgstr ""
+
+#. Default: "Assembly guests that is specific to this meeting item"
+msgid "PloneMeeting_label_itemAssemblyGuests"
 msgstr ""
 
 #. Default: "States in which an item will be automatically sent to selected other meeting configurations"
@@ -2263,8 +2279,16 @@ msgstr ""
 msgid "assembly_excused_meeting_descr"
 msgstr ""
 
+#. Default: "Guests as defined on the linked meeting"
+msgid "assembly_guests_defined_on_meeting"
+msgstr ""
+
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use 'Excused' and 'Absents' fields"
 msgid "assembly_meeting_descr"
+msgstr ""
+
+#. Default: "Using attribute(s) 'itemExcused' and/or 'itemAbsents' requires the use of attribute 'assembly'."
+msgid "assembly_required"
 msgstr ""
 
 #. Default: "Define here the default assembly staves (for example you may type a list of names and first names separated by colons or new lines) that will be automatically selected on newly created meetings."
@@ -3596,6 +3620,10 @@ msgstr ""
 msgid "item_assembly_excused_descr"
 msgstr ""
 
+#. Default: "If you don't fill this field, meeting assembly guests will be used for this item"
+msgid "item_assembly_guests_descr"
+msgstr ""
+
 #. Default: "This person was absent during discussion on this item"
 msgid "item_attendee_absent"
 msgstr ""
@@ -4802,7 +4830,7 @@ msgstr "${portalTitle} - A problem occurred while inserting the recurring item e
 msgid "recurring_items_descr"
 msgstr "You manage here predefined items that will serve, for different purposes, as templates for creating real items."
 
-#. Default: "${assembly} and ${signatures}"
+#. Default: "${assembly} ${assembly_edit} and ${signatures} ${signatures_edit}"
 msgid "redefinable_assembly_and_signatures"
 msgstr ""
 
