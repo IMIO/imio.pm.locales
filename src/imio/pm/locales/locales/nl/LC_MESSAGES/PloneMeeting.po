@@ -229,6 +229,10 @@ msgstr ""
 msgid "Decisions"
 msgstr ""
 
+#. Default: "Defaults"
+msgid "Defaults"
+msgstr ""
+
 #. Default: "Define this attendee as signatory for this item"
 msgid "Define this attendee as signatory for this item"
 msgstr ""
@@ -348,6 +352,10 @@ msgstr ""
 #. Default: "How many items to list in each topic."
 msgid "How many items to list in each topic."
 msgstr "Aantal punten in onderwerp"
+
+#. Default: "If this contact is a default signer, select signature number"
+msgid "If this contact is a default signer, select signature number"
+msgstr ""
 
 #. Default: "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 msgid "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
@@ -849,14 +857,6 @@ msgstr ""
 msgid "PloneMeeting_label_detailedDescription2"
 msgstr ""
 
-#. Default: "Duty"
-msgid "PloneMeeting_label_duty"
-msgstr "Rol"
-
-#. Default: "Duty in the second language"
-msgid "PloneMeeting_label_duty2"
-msgstr ""
-
 #. Default: "Emergency"
 msgid "PloneMeeting_label_emergency"
 msgstr ""
@@ -924,10 +924,6 @@ msgstr "Email van de funktionele administrator"
 #. Default: "Name of the functional administrator"
 msgid "PloneMeeting_label_functionalAdminName"
 msgstr "Email van de funktionele administrator"
-
-#. Default: "Gender"
-msgid "PloneMeeting_label_gender"
-msgstr ""
 
 #. Default: "Group in charge"
 msgid "PloneMeeting_label_groupInCharge"
@@ -1464,14 +1460,6 @@ msgstr ""
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr ""
 
-#. Default: "Duty for users replacing this one"
-msgid "PloneMeeting_label_replacementDuty"
-msgstr ""
-
-#. Default: "Replacement duty in the second language"
-msgid "PloneMeeting_label_replacementDuty2"
-msgstr ""
-
 #. Default: "Replacements"
 msgid "PloneMeeting_label_replacements"
 msgstr ""
@@ -1601,10 +1589,6 @@ msgstr ""
 msgid "PloneMeeting_label_unrestrictedUsers"
 msgstr ""
 
-#. Default: "Usages"
-msgid "PloneMeeting_label_usages"
-msgstr ""
-
 #. Default: "Use advices"
 msgid "PloneMeeting_label_useAdvices"
 msgstr "Gebruik adviezen"
@@ -1705,6 +1689,10 @@ msgstr ""
 msgid "PodTemplates"
 msgstr "Dokument templates"
 
+#. Default: "Position type"
+msgid "Position type"
+msgstr ""
+
 #. Default: "Preview detailled advice"
 msgid "Preview detailled advice"
 msgstr ""
@@ -1760,6 +1748,10 @@ msgstr ""
 
 #. Default: "Signatory specifically defined for this item"
 msgid "Signatory specifically defined for this item"
+msgstr ""
+
+#. Default: "Signature number"
+msgid "Signature number"
 msgstr ""
 
 #. Default: "state"
@@ -1885,6 +1877,10 @@ msgstr ""
 # This way, the "typedescription macro in base_edit does not display 'Meeting' above the title.
 #. Default: "Show / hide details"
 msgid "Toggle descriptions of items"
+msgstr ""
+
+#. Default: "Usages"
+msgid "Usages"
 msgstr ""
 
 #. Default: "View linked Plone groups"
@@ -2223,14 +2219,6 @@ msgstr ""
 msgid "are_you_sure"
 msgstr "Ben je zeker"
 
-#. Default: "Sort order desc"
-msgid "arrow_down"
-msgstr "Oplopend sorteren"
-
-#. Default: "Sort order asc"
-msgid "arrow_up"
-msgstr "Aflopend sorteren"
-
 #. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as copyGroup for an item.  We receive 'item' as the meeting item and 'isCreated' that is only True when the item is in the creation process (not while being edited after).  WARNING, if the 'suffix' returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : 'python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []'"
 msgid "as_copy_group_on_descr"
 msgstr ""
@@ -2253,6 +2241,10 @@ msgstr "${portalTitle} - ${meetingTitle} - A group would like to discuss an item
 
 #. Default: "Asked again"
 msgid "asked_again"
+msgstr ""
+
+#. Default: "Assembly member"
+msgid "assemblyMember"
 msgstr ""
 
 #. Default: "Absents as defined on the linked meeting"
@@ -3085,10 +3077,6 @@ msgstr "Vul dit, alstublieft."
 msgid "file_required"
 msgstr "Gelieve een bestand te kiezen door te klikken op de 'Bladeren' knop."
 
-#. Default: "Filter by a keyword"
-msgid "filter_by_a_key"
-msgstr "Filteren"
-
 #. Default: "Please respect order of transitions sequence to present an item, the first given transition is not a transition leaving the item workflow initial state."
 msgid "first_transition_must_leave_wf_initial_state"
 msgstr ""
@@ -3128,22 +3116,6 @@ msgstr ""
 
 #. Default: "Type here the full name of the functional administrator. If defined, it will be included in the 'from' part of email notifications sent by the application."
 msgid "functional_admin_name_descr"
-msgstr ""
-
-#. Default: "F"
-msgid "gender_f"
-msgstr "Geslacht F"
-
-#. Default: "Miss"
-msgid "gender_f_extended"
-msgstr ""
-
-#. Default: "M"
-msgid "gender_m"
-msgstr "geslacht M"
-
-#. Default: "Mister"
-msgid "gender_m_extended"
 msgstr ""
 
 #. Default: "Please respect order of transitions sequence to present an item, the given sequence of transitions is wrong."
@@ -4132,14 +4104,6 @@ msgstr ""
 msgid "meeting_transition_inserting_me_descr"
 msgstr ""
 
-#. Default: "Enter here the function of the user."
-msgid "meeting_user_duty_descr"
-msgstr ""
-
-#. Default: "Specify here the user gender."
-msgid "meeting_user_gender_descr"
-msgstr ""
-
 #. Default: "A user ID is required."
 msgid "meeting_user_id_required"
 msgstr ""
@@ -4152,21 +4116,12 @@ msgstr ""
 msgid "meeting_user_plone_user_already_used"
 msgstr ""
 
-#. Default: "Indicate here how to formulate the 'ad interim' duty for persons that will act as replacements for this user."
-msgid "meeting_user_replacement_duty_descr"
-msgstr ""
-
 #. Default: "If this user is a signer, you can upload here the scanned image of his handwritten signature."
 msgid "meeting_user_signature_image_descr"
 msgstr ""
 
 #. Default: "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
 msgid "meeting_user_signature_is_default"
-msgstr ""
-
-# MeetingUser
-#. Default: "The title of this meeting user is the 'fullname' of the corresponding Plone user."
-msgid "meeting_user_title_descr"
 msgstr ""
 
 #. Default: "Asker"
@@ -4183,10 +4138,6 @@ msgstr ""
 
 #. Default: "Voter"
 msgid "meeting_user_usage_voter"
-msgstr ""
-
-#. Default: "For what will this user be useful for?"
-msgid "meeting_user_usages_descr"
 msgstr ""
 
 #. Default: "<p class=\"discreet\">While activated (by selecting 'attendees', 'absents', 'excused', 'lateAttendees' and 'signatories' as used meeting attributes in the 'data' tab), assemblies and signatures on items and meetings are managed here.</p><p class=\"discreet\">Management options are defined like this :</p><ul class=\"discreet\"><li>assembly members on a meeting or an item will use MeetingUsers having the 'assembly member' usage;</li><li>signatories on a meeting or an item will use MeetingUsers habing the 'signatory' usage;</li><li>voters on an item (if relevant functionnality is activated in the 'votes' tab) will use MeetingUsers having the 'voter' usage;</li><li>certified signatures on an item will be generated by returning every MeetingUsers having the 'signatory' usage and being a 'default signature';</li><li>item initiators (if relevant field is activated on the item) will use MeetingUsers having the 'initiator' usage.</li></ul><p class=\"discreet\">If you deactivate a MeetingUsers, older meetings and items for which this MeetingUser was selected will still behave correctly but it will not be selectable anymore for existing and new meetings and items.</p>"
@@ -4560,10 +4511,6 @@ msgstr "Andere"
 msgid "owner_may_delete_annex_decision_descr"
 msgstr ""
 
-#. Default: "Parameters defined if the user has a specific function"
-msgid "params_as_special_user"
-msgstr ""
-
 #. Default: "Mark this person absent for this item"
 msgid "person_byebye"
 msgstr ""
@@ -4760,6 +4707,10 @@ msgstr "Pre-validator"
 #. Default: "Pre-validators"
 msgid "prereviewers"
 msgstr "Pre-validators"
+
+#. Default: "Present"
+msgid "present"
+msgstr ""
 
 #. Default: "Presents all selected items at once."
 msgid "present_several_items"
@@ -5377,10 +5328,6 @@ msgstr ""
 #. Default: "Specify here what vote values are in use in this meeting configuration."
 msgid "used_vote_values_descr"
 msgstr ""
-
-#. Default: "Preferences"
-msgid "user_preferences"
-msgstr "Gebruikers instellingen"
 
 #. Default: "Users"
 msgid "users"
