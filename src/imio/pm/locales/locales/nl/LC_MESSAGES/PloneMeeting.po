@@ -749,6 +749,10 @@ msgstr ""
 msgid "PloneMeeting_label_configGroups"
 msgstr ""
 
+#. Default: "Groups using this meeting cofniguration"
+msgid "PloneMeeting_label_configUsingGroups"
+msgstr ""
+
 #. Default: "Identifier of this meeting configuration"
 msgid "PloneMeeting_label_configVersion"
 msgstr "Identificatie van deze meeting configuratie"
@@ -2627,6 +2631,10 @@ msgstr "Sorry, but this configuration is still the default one. If you want to c
 
 #. Default: "Searches ${search_title}"
 msgid "config_search_title"
+msgstr ""
+
+#. Default: "Select here the groups you want to restrict the access to this meeting configuration to.  If left empty, every groups will have access.  When restricting groups, you often need to configure parameters \"Groups not to be displayed in the 'Group' dashboard filter\" and \"Users not to be displayed in filters displaying users like 'Creator' or 'Taken over by'\" in the \"User interface\" tab."
+msgid "config_using_groups_descr"
 msgstr ""
 
 #. Default: "If this meeting configuration corresponds to an organization, institution or group that gives an identifier to its successive forms (ie: City council 2000-2006, 5th Parliament, VIIIth Government...), you can write here the identifier of the current form (ie: 'CC00_06', 'P5', 'Gov VIII'...)."
