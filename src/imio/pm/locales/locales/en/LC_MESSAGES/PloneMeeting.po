@@ -1541,6 +1541,10 @@ msgstr "Taken over by"
 msgid "PloneMeeting_label_templateUsingGroups"
 msgstr "Restrict usage of this template to following groups"
 
+#. Default: "Checklist"
+msgid "PloneMeeting_label_textCheckList"
+msgstr ""
+
 # Meeting
 #. Default: "Title"
 msgid "PloneMeeting_label_title"
@@ -5119,6 +5123,10 @@ msgstr "The item is taken over. Click on the image to remove take over (you will
 #. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything."
 msgid "template_using_groups_descr"
 msgstr "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several groups."
+
+#. Default: "Enter elements that are necessary for this kind of item to be considered as 'complete'."
+msgid "text_check_list_descr"
+msgstr ""
 
 #. Default: "the advice was asked after this date."
 msgid "the advice was asked after this date."

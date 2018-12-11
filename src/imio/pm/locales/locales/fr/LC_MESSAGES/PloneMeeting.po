@@ -1541,6 +1541,10 @@ msgstr "Pris en charge par"
 msgid "PloneMeeting_label_templateUsingGroups"
 msgstr "Restreindre ce canevas de point aux groupes suivants"
 
+#. Default: "Checklist"
+msgid "PloneMeeting_label_textCheckList"
+msgstr "Checklist"
+
 # Meeting
 #. Default: "Title"
 msgid "PloneMeeting_label_title"
@@ -5117,6 +5121,10 @@ msgstr "Le point est pris en charge, cliquez sur l'image pour retirer la prise e
 #. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything."
 msgid "template_using_groups_descr"
 msgstr "Si l'usage de ce point est 'Comme canevas de point', sélectionnez les groupes qui pourront l'utiliser.  Si tous les groupes doivent pouvoir utiliser ce canevas, ne sélectionnez aucun groupe."
+
+#. Default: "Enter elements that are necessary for this kind of item to be considered as 'complete'."
+msgid "text_check_list_descr"
+msgstr "Encodez la liste des éléments nécessaires pour que ce type de point soit considéré \"complet\"."
 
 #. Default: "the advice was asked after this date."
 msgid "the advice was asked after this date."
