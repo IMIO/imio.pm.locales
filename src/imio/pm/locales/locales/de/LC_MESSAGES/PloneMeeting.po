@@ -2982,15 +2982,6 @@ msgstr ""
 msgid "error_list_types_wrong_identifier_format"
 msgstr ""
 
-#. Default: "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."
-msgid "eventOccurred_mail_body"
-msgstr "Auf dieses Objekt kann unter ${objectDavUrl} über WebDAV zugegriffen werden. Wenn Sie durch einen HTTP Request benachrichtigt hätten werden sollen erhalten Sie diese E-Mail weil der HTTP Request gescheitert ist."
-
-# Mails (meeting archiving notifications)
-#. Default: "${portalTitle} - An event occurred on '${objectTitle}'"
-msgid "eventOccurred_mail_subject"
-msgstr "${portalTitle} - ${objectTitle} wurde bearbeitet"
-
 #. Default: "An advice was added or updated on an item (notify the 'Owner')"
 #, fuzzy
 msgid "event_add_advice"

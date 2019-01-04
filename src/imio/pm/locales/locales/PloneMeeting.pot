@@ -3486,15 +3486,6 @@ msgstr ""
 msgid "meeting_state_changed_default_mail_body"
 msgstr ""
 
-# Mails (event notifications)
-#. Default: "${portalTitle} - An event occurred on '${objectTitle}'"
-msgid "eventOccurred_mail_subject"
-msgstr ""
-
-#. Default: "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."
-msgid "eventOccurred_mail_body"
-msgstr ""
-
 # Mails (problems when inserting recurring items)
 #. Default: "${portalTitle} - A problem occurred while inserting the recurring item entitled '${itemTitle}' into a meeting."
 msgid "recurringItemBadTransition_mail_subject"

@@ -2977,15 +2977,6 @@ msgstr "You may not use the same identifier several times."
 msgid "error_list_types_wrong_identifier_format"
 msgstr "You may only use lowercase letters for identifier."
 
-#. Default: "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."
-msgid "eventOccurred_mail_body"
-msgstr "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."
-
-# Mails (meeting archiving notifications)
-#. Default: "${portalTitle} - An event occurred on '${objectTitle}'"
-msgid "eventOccurred_mail_subject"
-msgstr "${portalTitle} - An event occurred on '${objectTitle}'"
-
 #. Default: "An advice was added or updated on an item (notify the 'Owner')"
 msgid "event_add_advice"
 msgstr "An advice was added or updated on an item (notify the 'Owner')"

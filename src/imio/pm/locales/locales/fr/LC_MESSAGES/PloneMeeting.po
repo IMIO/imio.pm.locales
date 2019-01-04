@@ -2977,15 +2977,6 @@ msgstr "Vous ne pouvez pas utiliser le même identifiant plusieurs fois."
 msgid "error_list_types_wrong_identifier_format"
 msgstr "Vous ne pouvez utiliser que des lettres minuscules pour l'identifiant."
 
-#. Default: "This object is accessible, through WebDAV, at ${objectDavUrl}. If you had to be notified through a HTTP request, you receive this mail because the HTTP request failed."
-msgid "eventOccurred_mail_body"
-msgstr "Cet élément est accessible via WebDAV à l'URL ${objectDavUrl}. Si vous deviez être prévenu par requête HTTP, vous recevez ce mail parce que cette requête a échoué."
-
-# Mails (meeting archiving notifications)
-#. Default: "${portalTitle} - An event occurred on '${objectTitle}'"
-msgid "eventOccurred_mail_subject"
-msgstr "${portalTitle} - Un événement est survenu concernant '${meetingTitle}'"
-
 #. Default: "An advice was added or updated on an item (notify the 'Owner')"
 msgid "event_add_advice"
 msgstr "Un avis sur un point a été rendu ou modifié (prévient l'auteur du point)"
