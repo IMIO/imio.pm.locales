@@ -19,6 +19,10 @@ msgstr ""
 msgid "Available on"
 msgstr "Disponible si"
 
+#. Default: "Full label"
+msgid "Config group full label"
+msgstr "Libellé complet"
+
 #. Default: "Label"
 msgid "Config group label"
 msgstr "Libellé"
@@ -63,9 +67,13 @@ msgstr "Encodez une libellé qui sera affiché dans l'application.  Ce libellé 
 msgid "Enter an internal identifier, use only lowercase letters."
 msgstr "Encodez un identifiant interne à l'application, n'utilisez que des lettres minuscules."
 
+#. Default: "Enter the full label that will be useable if necessary like in produced documents."
+msgid "Enter the full label that will be useable if necessary like in produced documents."
+msgstr "Encodez un libellé qui pourra être utilisé lorsque c'est nécessaire, comme par exemple dans des documents générés."
+
 #. Default: "Enter the label that will be displayed in the application."
 msgid "Enter the label that will be displayed in the application."
-msgstr "Encodez le libellé qui sera affiché dans l'application."
+msgstr "Encodez le libellé court qui sera affiché dans l'application."
 
 #. Default: "Date"
 msgid "Holiday date"
