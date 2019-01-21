@@ -1931,6 +1931,14 @@ msgstr "Ajouter un avis"
 msgid "add_object"
 msgstr "En ajouter un(e)"
 
+#. Default: "Add several annexes at the same time"
+msgid "add_several_annexes"
+msgstr "Ajouter plusieurs annexes"
+
+#. Default: "Add several decision annexes at the same time"
+msgid "add_several_decision_annexes"
+msgstr "Ajouter plusieurs annexes (après décision)"
+
 #. Default: "You had an advice to give for '${group_name} (${delay_label})'.  Limit date is ${limit_date}, delay is now expired.  You can access this item here: ${objectUrl}."
 msgid "adviceDelayExpired_mail_body"
 msgstr "Le délai pour rendre l'avis '${group_name} (${delay_label})' est expiré, la date limite était le ${limit_date}. Accédez au point ici: ${objectUrl}."
