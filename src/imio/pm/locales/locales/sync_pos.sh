@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 files="PloneMeeting plone imio.actionspanel datagridfield imio.annex imio.history collective.eeafaceted.batchactions collective.eeafaceted.z3ctable eea collective.behavior.talcondition collective.documentgenerator collective.iconifiedcategory"
 languages="de en es fr nl"
 
