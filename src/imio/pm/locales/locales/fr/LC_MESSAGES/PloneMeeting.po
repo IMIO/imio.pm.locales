@@ -312,6 +312,10 @@ msgstr "Encodez la date depuis laquelle la signature sera valide, utilisez le fo
 msgid "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgstr "Encodez la date jusqu'à laquelle la signature sera valide, utilisez le format AAAA/MM/JJ, laissez le champ vide pour que la signature soit toujours valide."
 
+#. Default: "Filled in the \"Ordered contacts\" for meeting configurations"
+msgid "Filled in the \"Ordered contacts\" for meeting configurations"
+msgstr "Renseigné dans le champ \"Contacts sélectionnables\" des configurations de séances"
+
 #. Default: "Free text fields"
 msgid "Free text fields"
 msgstr "Champs de texte libre"
@@ -1747,6 +1751,10 @@ msgstr "Huis clos?"
 msgid "Select a held position if necessary, 'Name', 'Function' and other data of this held position will be used if you leave 'Name' and 'Function' columns empty."
 msgstr "Sélectionnez une position occupée par un contact.  Lorsque vous sélectionnez une position occupée, les colonnes 'Nom' et 'Fonction' peuvent être laissées vides, ces données seront reprise depuis le contact."
 
+#. Default: "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../edit' target='_blank'>\"edit contacts\"</a>)."
+msgid "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../edit' target='_blank'>\"edit contacts\"</a>)."
+msgstr "En sélectionnant le type de fonction adéquat, le libellé correct sera automatiquement géré en fonction du genre de la personne liée (masculin/féminin) et du contexte dans lequel il est utilisé. Les types de fonctions sont gérées sur l'élément Annuaire (contacts).  Vous pouvez <a href='../../edit' target='_blank'>éditer l'élément contacts</a> si nécessaire."
+
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
 msgstr "Sélectionnez dans la liste le type d'élément que vous souhaitez créer"
@@ -1890,6 +1898,14 @@ msgstr "Afficher / masquer les détails des points dans les tableaux de recherch
 #. Default: "Usages"
 msgid "Usages"
 msgstr "Utilisé comme"
+
+#. Default: "Used by following contents"
+msgid "Used by following contents"
+msgstr "Contact utilisé par"
+
+#. Default: "Used in the assembly for meetings"
+msgid "Used in the assembly for meetings"
+msgstr "Renseigné dans l'assemblée/signatures des séances"
 
 #. Default: "View linked Plone groups"
 msgid "View linked Plone groups"
