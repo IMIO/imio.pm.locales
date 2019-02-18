@@ -1265,6 +1265,10 @@ msgstr ""
 msgid "assemblyMember"
 msgstr ""
 
+#. Default: "Asker"
+msgid "asker"
+msgstr ""
+
 #. Default: "Present"
 msgid "present"
 msgstr ""
@@ -1307,18 +1311,6 @@ msgstr ""
 
 #. Default: "Voter"
 msgid "meeting_user_usage_voter"
-msgstr ""
-
-#. Default: "Signer"
-msgid "meeting_user_usage_signer"
-msgstr ""
-
-#. Default: "Assembly member"
-msgid "meeting_user_usage_assemblyMember"
-msgstr ""
-
-#. Default: "Asker"
-msgid "meeting_user_usage_asker"
 msgstr ""
 
 #. Default: "No Plone user was found with this ID or you did not enter the ID of an existing Plone user."
@@ -5449,7 +5441,7 @@ msgstr ""
 msgid "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
 msgstr ""
 
-#. Default: "Ordered contacts"
+#. Default: "Selectable assembly members"
 msgid "PloneMeeting_label_orderedContacts"
 msgstr ""
 
@@ -5714,7 +5706,7 @@ msgstr ""
 msgid "Used by following contents"
 msgstr ""
 
-#. Default: "Filled in the \"Ordered contacts\" for meeting configurations"
+#. Default: "Filled in the \"Selectable assembly members\" for meeting configurations"
 msgid "Filled in the \"Ordered contacts\" for meeting configurations"
 msgstr ""
 

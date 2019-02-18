@@ -320,7 +320,7 @@ msgstr ""
 msgid "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgstr ""
 
-#. Default: "Filled in the \"Ordered contacts\" for meeting configurations"
+#. Default: "Filled in the \"Selectable assembly members\" for meeting configurations"
 msgid "Filled in the \"Ordered contacts\" for meeting configurations"
 msgstr ""
 
@@ -1354,7 +1354,7 @@ msgstr "Consejeros opcionales"
 msgid "PloneMeeting_label_oralQuestion"
 msgstr "¿Pregunta Oral?"
 
-#. Default: "Ordered contacts"
+#. Default: "Selectable assembly members"
 msgid "PloneMeeting_label_orderedContacts"
 msgstr ""
 
@@ -2289,6 +2289,10 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - ${user}, pertenecientes al gru
 
 #. Default: "Asked again"
 msgid "asked_again"
+msgstr ""
+
+#. Default: "Asker"
+msgid "asker"
 msgstr ""
 
 #. Default: "Assembly member"
@@ -4195,18 +4199,6 @@ msgstr "Si este usuario es uno de los firmantes, puede subir aquí la imagen dig
 #. Default: "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
 msgid "meeting_user_signature_is_default"
 msgstr "Si activa esta casilla, cuando creé una reunión de esta configuración de reunión, el firmante por defecto sera este."
-
-#. Default: "Asker"
-msgid "meeting_user_usage_asker"
-msgstr "Quien pregunta"
-
-#. Default: "Assembly member"
-msgid "meeting_user_usage_assemblyMember"
-msgstr "Miembro de Asamblea"
-
-#. Default: "Signer"
-msgid "meeting_user_usage_signer"
-msgstr "Firmante"
 
 #. Default: "Voter"
 msgid "meeting_user_usage_voter"

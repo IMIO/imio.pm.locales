@@ -316,7 +316,7 @@ msgstr ""
 msgid "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgstr ""
 
-#. Default: "Filled in the \"Ordered contacts\" for meeting configurations"
+#. Default: "Filled in the \"Selectable assembly members\" for meeting configurations"
 msgid "Filled in the \"Ordered contacts\" for meeting configurations"
 msgstr ""
 
@@ -1347,7 +1347,7 @@ msgstr "Optionale Berater"
 msgid "PloneMeeting_label_oralQuestion"
 msgstr "Ist dieser TOP ist eine mündliche Anfrage?"
 
-#. Default: "Ordered contacts"
+#. Default: "Selectable assembly members"
 msgid "PloneMeeting_label_orderedContacts"
 msgstr ""
 
@@ -2283,9 +2283,13 @@ msgstr "${portalTitle} - ${meetingTitle} - ${user}, zur Gruppe ${groups} gehöre
 msgid "asked_again"
 msgstr ""
 
+#. Default: "Asker"
+msgid "asker"
+msgstr ""
+
 #. Default: "Assembly member"
 msgid "assemblyMember"
-msgstr ""
+msgstr "Sitzungsteilnehmer"
 
 #. Default: "Absents as defined on the linked meeting"
 msgid "assembly_absents_defined_on_meeting"
@@ -4170,18 +4174,6 @@ msgstr "Sollte dieser Benutzer ein Unterzeichner sein, dann können Sie hier ein
 #. Default: "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
 msgid "meeting_user_signature_is_default"
 msgstr "Wenn Sie diese Box auswählen, wird er der Standardunterzeichner beim erstellen einer Sitzung in dieser Sitzungskonfiguration."
-
-#. Default: "Asker"
-msgid "meeting_user_usage_asker"
-msgstr ""
-
-#. Default: "Assembly member"
-msgid "meeting_user_usage_assemblyMember"
-msgstr "Sitzungsteilnehmer"
-
-#. Default: "Signer"
-msgid "meeting_user_usage_signer"
-msgstr "Unterschreiben"
 
 #. Default: "Voter"
 msgid "meeting_user_usage_voter"

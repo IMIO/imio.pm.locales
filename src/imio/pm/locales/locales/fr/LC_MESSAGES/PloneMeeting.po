@@ -316,9 +316,9 @@ msgstr "Encodez la date depuis laquelle la signature sera valide, utilisez le fo
 msgid "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgstr "Encodez la date jusqu'à laquelle la signature sera valide, utilisez le format AAAA/MM/JJ, laissez le champ vide pour que la signature soit toujours valide."
 
-#. Default: "Filled in the \"Ordered contacts\" for meeting configurations"
+#. Default: "Filled in the \"Selectable assembly members\" for meeting configurations"
 msgid "Filled in the \"Ordered contacts\" for meeting configurations"
-msgstr "Renseigné dans le champ \"Contacts sélectionnables\" des configurations de séances"
+msgstr "Renseigné dans le champ \"Membres d'assemblée sélectionnables\" des configurations de séances"
 
 #. Default: "Free text fields"
 msgid "Free text fields"
@@ -1345,9 +1345,9 @@ msgstr "Demander l'avis de"
 msgid "PloneMeeting_label_oralQuestion"
 msgstr "Ce point est une question orale ?"
 
-#. Default: "Ordered contacts"
+#. Default: "Selectable assembly members"
 msgid "PloneMeeting_label_orderedContacts"
-msgstr "Contacts sélectionnables"
+msgstr "Membres d'assemblée sélectionnables"
 
 #. Default: "Correspondences while sent to other meeting configs"
 msgid "PloneMeeting_label_otherMCCorrespondences"
@@ -2278,6 +2278,10 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - ${user}, appartenant au(x) gro
 #. Default: "Asked again"
 msgid "asked_again"
 msgstr "Demandé à nouveau"
+
+#. Default: "Asker"
+msgid "asker"
+msgstr "À l'initiative d'un point"
 
 #. Default: "Assembly member"
 msgid "assemblyMember"
@@ -4138,18 +4142,6 @@ msgstr "Si cet utilisateur est un signataire, vous pouvez uploader ici l'image s
 #. Default: "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
 msgid "meeting_user_signature_is_default"
 msgstr "Si vous cochez cette case, à chaque création d'une séance liée à cette configuration, le signataire par défaut sera celui-ci."
-
-#. Default: "Asker"
-msgid "meeting_user_usage_asker"
-msgstr "À l'initiative d'un point"
-
-#. Default: "Assembly member"
-msgid "meeting_user_usage_assemblyMember"
-msgstr "Membre d'assemblée"
-
-#. Default: "Signer"
-msgid "meeting_user_usage_signer"
-msgstr "Signataire"
 
 #. Default: "Voter"
 msgid "meeting_user_usage_voter"

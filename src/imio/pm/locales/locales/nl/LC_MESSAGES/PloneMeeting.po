@@ -317,7 +317,7 @@ msgstr ""
 msgid "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgstr ""
 
-#. Default: "Filled in the \"Ordered contacts\" for meeting configurations"
+#. Default: "Filled in the \"Selectable assembly members\" for meeting configurations"
 msgid "Filled in the \"Ordered contacts\" for meeting configurations"
 msgstr ""
 
@@ -1348,7 +1348,7 @@ msgstr "Optionele adviseurs"
 msgid "PloneMeeting_label_oralQuestion"
 msgstr ""
 
-#. Default: "Ordered contacts"
+#. Default: "Selectable assembly members"
 msgid "PloneMeeting_label_orderedContacts"
 msgstr ""
 
@@ -2281,6 +2281,10 @@ msgstr "${portalTitle} - ${meetingTitle} - A group would like to discuss an item
 
 #. Default: "Asked again"
 msgid "asked_again"
+msgstr ""
+
+#. Default: "Asker"
+msgid "asker"
 msgstr ""
 
 #. Default: "Assembly member"
@@ -4154,18 +4158,6 @@ msgstr ""
 
 #. Default: "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
 msgid "meeting_user_signature_is_default"
-msgstr ""
-
-#. Default: "Asker"
-msgid "meeting_user_usage_asker"
-msgstr ""
-
-#. Default: "Assembly member"
-msgid "meeting_user_usage_assemblyMember"
-msgstr ""
-
-#. Default: "Signer"
-msgid "meeting_user_usage_signer"
 msgstr ""
 
 #. Default: "Voter"

@@ -316,7 +316,7 @@ msgstr "Enter valid from date, use following format : YYYY/MM/DD, leave empty so
 msgid "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgstr "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 
-#. Default: "Filled in the \"Ordered contacts\" for meeting configurations"
+#. Default: "Filled in the \"Selectable assembly members\" for meeting configurations"
 msgid "Filled in the \"Ordered contacts\" for meeting configurations"
 msgstr ""
 
@@ -1345,7 +1345,8 @@ msgstr "Optional advisers"
 msgid "PloneMeeting_label_oralQuestion"
 msgstr "Oral question ?"
 
-#. Default: "Ordered contacts"
+#. Default: "Selectable assembly members"
+#, fuzzy
 msgid "PloneMeeting_label_orderedContacts"
 msgstr "Ordered contacts"
 
@@ -2278,6 +2279,10 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - ${user}, belonging to group(s)
 #. Default: "Asked again"
 msgid "asked_again"
 msgstr "Asked again"
+
+#. Default: "Asker"
+msgid "asker"
+msgstr ""
 
 #. Default: "Assembly member"
 msgid "assemblyMember"
@@ -4139,18 +4144,6 @@ msgstr "If this user is a signer, you can upload here the scanned image of his h
 #. Default: "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
 msgid "meeting_user_signature_is_default"
 msgstr "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
-
-#. Default: "Asker"
-msgid "meeting_user_usage_asker"
-msgstr "Asker"
-
-#. Default: "Assembly member"
-msgid "meeting_user_usage_assemblyMember"
-msgstr "Assembly member"
-
-#. Default: "Signer"
-msgid "meeting_user_usage_signer"
-msgstr "Signer"
 
 #. Default: "Voter"
 msgid "meeting_user_usage_voter"
