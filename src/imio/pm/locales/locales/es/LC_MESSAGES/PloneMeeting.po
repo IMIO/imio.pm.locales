@@ -1358,6 +1358,10 @@ msgstr "¿Pregunta Oral?"
 msgid "PloneMeeting_label_orderedContacts"
 msgstr ""
 
+#. Default: "Selectable item initiators"
+msgid "PloneMeeting_label_orderedItemInitiators"
+msgstr ""
+
 #. Default: "Correspondences while sent to other meeting configs"
 msgid "PloneMeeting_label_otherMCCorrespondences"
 msgstr ""
@@ -4551,6 +4555,10 @@ msgstr ""
 msgid "ordered_contacts_descr"
 msgstr ""
 
+#. Default: "Select here contacts that will be usable to manage item initiators.  The contacts order defined here will be useable if relevant."
+msgid "ordered_item_initiators_descr"
+msgstr ""
+
 #. Default: "Create new, change existing organizations parameters, ..."
 msgid "organizations_add"
 msgstr ""
@@ -5747,7 +5755,7 @@ msgstr ""
 msgid "workflow"
 msgstr "Flujo de trabajos"
 
-#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red;'>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check groups, and if necessary when permissions changed, do not forget to run 'Update security settings' in the ZMi-->portal_workflow!</span>"
+#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red;'>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  If you unselect a workflow adaptation, take care to update fields using item and meeting states/transition BEFORE! Check tabs 'Advices and access' and 'Workflows' and check groups, and if necessary when permissions changed, do not forget to run 'Update security settings' in the ZMi-->portal_workflow!</span>"
 #, fuzzy
 msgid "workflow_adaptations_descr"
 msgstr "Seleccione aquí uno o más definiciones estándar de cambios que serán aplicados a los temas seleccionados y/o flujo de trabajo de reunión. Sus cambios solamente serán aplicados cuando reinstale."

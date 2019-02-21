@@ -1349,6 +1349,10 @@ msgstr "Ce point est une question orale ?"
 msgid "PloneMeeting_label_orderedContacts"
 msgstr "Membres d'assemblée sélectionnables"
 
+#. Default: "Selectable item initiators"
+msgid "PloneMeeting_label_orderedItemInitiators"
+msgstr "Membres à l'initative d'un point sélectionnables"
+
 #. Default: "Correspondences while sent to other meeting configs"
 msgid "PloneMeeting_label_otherMCCorrespondences"
 msgstr "Correspondances lors de l'envoi vers un autre type de séance"
@@ -2305,7 +2309,7 @@ msgstr "Assemblée définie sur la séance"
 
 #. Default: "Define here the default assembly (for example you may type a list of names and first names separated by colons or new lines) that will be automatically selected on newly created meetings. If you want a more structured way to define attendees, absents and excused people on a meeting, do not fill this field, create, in the tab 'data', special users having characteristic 'assembly member' and select, in the same tab, 'attendees', 'absents' and/or 'excused' attributes as attributes used for a meeting."
 msgid "assembly_descr"
-msgstr "Définissez ici l'assemblée par défaut (par exemple, une liste de noms et prénoms séparés par des virgules ou des retours à la ligne) qui sera automatiquement sélectionnée pour chaque séance nouvellement créée. Si vous souhaitez une manière plus structurée de définir les présents, absents et excusés à une séance, n'utilisez pas ce champ, allez dans l'onglet 'données', définissez-y des utilisateurs spéciaux ayant la caractéristique 'membre d'assemblée' et, dans le même onglet, sélectionnez les attributs 'présents', 'absents' et/ou 'excusés' dans la liste des attributs optionnels sur une séance."
+msgstr "Définissez ici l'assemblée par défaut, par exemple, une liste de noms et prénoms séparés par des virgules ou des retours à la ligne, qui sera automatiquement reprise sur chaque séance <span style='color:red;'>nouvellement créée, les changements apportés à ce champ n'impacte pas les séances déjà créées.</span> Ceci fonctionnera uniquement si vous utilisez l'attribut \"Assemblée (assembly)\" sur les séances."
 
 #. Default: "Excused as defined on the linked meeting"
 msgid "assembly_excused_defined_on_meeting"
@@ -2329,7 +2333,7 @@ msgstr "L'usage de(s) l'(les) attribut(s) 'Excusés (itemExcused)' et/ou 'Absent
 
 #. Default: "Define here the default assembly staves (for example you may type a list of names and first names separated by colons or new lines) that will be automatically selected on newly created meetings."
 msgid "assembly_staves_descr"
-msgstr "Définissez ici les assistants défaut (par exemple, une liste de noms et prénoms séparés par des virgules ou des retours à la ligne) qui sera automatiquement sélectionnée pour chaque séance nouvellement créée."
+msgstr "Définissez ici les assistants défaut, par exemple, une liste de noms et prénoms séparés par des virgules ou des retours à la ligne, qui sera automatiquement reprise sur chaque séance <span style='color:red;'>nouvellement créée, les changements apportés à ce champ n'impacte pas les séances déjà créées.</span> Ceci fonctionnera uniquement si vous utilisez l'attribut \"Assistants (assemblyStaves)\" sur les séances."
 
 #. Default: " "
 msgid "associated_group_item_descr"
@@ -4488,7 +4492,11 @@ msgstr " "
 
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
 msgid "ordered_contacts_descr"
-msgstr "Sélectionnez les contacts qui seront utilisés comme membres d'assemblée pour les séances.  L'ordre sélectionné ici sera celui repris par défaut lors de la création d'une nouvelle séance."
+msgstr "Sélectionnez les contacts qui seront utilisés comme membres d'assemblée pour les séances, c'est-à-dire les éléments de type \"Fonction occupée\" pour lesquels la valeur \"Membre d'assemblée\" est sélectionnée dans le champ \"Utilisé comme\".  L'ordre sélectionné ici sera celui repris par défaut sur chaque séance <span style='color:red;'>nouvellement créée, les changements apportés à ce champ n'impacte pas les séances déjà créées.</span> Ceci fonctionnera uniquement si vous utilisez l'attribut \"Présents (attendees)\" sur les séances."
+
+#. Default: "Select here contacts that will be usable to manage item initiators.  The contacts order defined here will be useable if relevant."
+msgid "ordered_item_initiators_descr"
+msgstr "Sélectionnez les contacts qui pourront être choisi comme \"À l'initiative d'un point\", c'est-à-dire les éléments de type '\"Fonction occupée\" pour lesquels la valeur \"À l'initiative d'un point\" est sélectionnée dans le champ \"Utilisé comme\". L'ordre défini ici pourra être utilisé si nécessaire.  Ceci fonctionnera uniquement si vous utilisez l'attribut \"À l'initiative de ce point (itemInitiator)\" sur les points."
 
 #. Default: "Create new, change existing organizations parameters, ..."
 msgid "organizations_add"
@@ -5051,7 +5059,7 @@ msgstr "Signatures définies sur la séance"
 
 #. Default: "Define here the default signatures that will be automatically selected on newly created meetings. Use 2 lines by signature, one for the function and one for the signatory name. This will be applicable only if you use attribute 'Signatures' for meetings."
 msgid "signatures_descr"
-msgstr "Définissez ici les signatures par défaut qui seront automatiquement sélectionnées sur les séances nouvellement créées. Utilisez 2 lignes par signature, une ligne pour la fonction et une ligne pour le nom du signataire. Ceci fonctionnera uniquement si vous utilisez l'attribut 'signatures' sur les séances."
+msgstr "Définissez ici les signatures par défaut qui seront automatiquement sélectionnées sur chaque séance <span style='color:red;'>nouvellement créée, les changements apportés à ce champ n'impacte pas les séances déjà créées.</span> Utilisez 2 lignes par signature, une ligne pour la fonction et une ligne pour le nom du signataire. Ceci fonctionnera uniquement si vous utilisez l'attribut \"Signatures (signatures)\" sur les séances."
 
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
@@ -5673,9 +5681,9 @@ msgstr "Ce point sera envoyé vers ${meetingConfigTitle} (Urgence)"
 msgid "workflow"
 msgstr "Workflows"
 
-#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red;'>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  Check tabs 'Advices and access' and 'Workflows' and check groups, and if necessary when permissions changed, do not forget to run 'Update security settings' in the ZMi-->portal_workflow!</span>"
+#. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red;'>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  If you unselect a workflow adaptation, take care to update fields using item and meeting states/transition BEFORE! Check tabs 'Advices and access' and 'Workflows' and check groups, and if necessary when permissions changed, do not forget to run 'Update security settings' in the ZMi-->portal_workflow!</span>"
 msgid "workflow_adaptations_descr"
-msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. <span style='color: red;'>Vos changements seront appliqués dès l'enregistrement de cette configuration de séance.  Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets 'Avis et accès', 'Workflows' et les groupes, de plus, si des permissions sont affectées par ces changements, exécutez 'Upgrade security settings' dans la ZMi-->portal_workflow!</span>"
+msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. <span style='color: red;'>Vos changements seront appliqués dès l'enregistrement de cette configuration de séance.  Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets 'Avis et accès', 'Workflows' et les groupes, de plus, si des permissions sont affectées par ces changements, exécutez 'Upgrade security settings' dans la ZMi-->portal_workflow!  ATTENTION, si vous désélectionnez des adaptations aux workflows et que ceci entraîne la suppression d'états ou transitions existantes, prenez soin d'adapter les autre paramètres utilisant ces états/transitions avant la désélectionner!</span>"
 
 #. Default: "This will be used to compute advices delays.  <span style='color: red;'>If you change this parameter, do not forget to run 'Update items and meetings'!</span>"
 msgid "working_days_descr"
