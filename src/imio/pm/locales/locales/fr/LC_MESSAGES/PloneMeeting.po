@@ -466,6 +466,10 @@ msgstr "Limite le nombre de caractères de l'objet du point qui seront affichés
 msgid "Linked meeting date"
 msgstr "Date de séance liée (utilisé pour les points)"
 
+#. Default: "Mailing lists are not correctly defined, original error is \"${error}\""
+msgid "Mailing lists are not correctly defined, original error is \"${error}\""
+msgstr "Le champ \"Listes de diffusion\" n'est pas correctement défini dans la configuration pour ce document, l'erreur originale est \"${error}\""
+
 #. Default: "Manage advice annexes"
 msgid "Manage advice annexes"
 msgstr "Gérer les annexes de l'avis"
