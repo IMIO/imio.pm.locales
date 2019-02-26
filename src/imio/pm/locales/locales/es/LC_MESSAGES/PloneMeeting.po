@@ -51,6 +51,10 @@ msgstr "Consejo preguntado automáticamente porque"
 msgid "Advice comment"
 msgstr ""
 
+#. Default: "Advice delay have been reinitialized for advice \"${advice}\""
+msgid "Advice delay have been reinitialized for advice \"${advice}\""
+msgstr ""
+
 #. Default: "Advice given by"
 msgid "Advice given by"
 msgstr "Consejo dado por"
@@ -184,8 +188,8 @@ msgstr ""
 msgid "Change delay"
 msgstr ""
 
-#. Default: "Change delay for this advice from ${from} days to ${to} days."
-msgid "Change delay for this advice from ${from} days to ${to} days."
+#. Default: "Change delay for this advice from ${from} days to ${to} days"
+msgid "Change delay for this advice from ${from} days to ${to} days"
 msgstr ""
 
 #. Default: "Choose a group."
@@ -350,6 +354,10 @@ msgstr ""
 
 #. Default: "History of delay changes"
 msgid "History of delay changes"
+msgstr ""
+
+#. Default: "History of delay changes for ${advice}"
+msgid "History of delay changes for ${advice}"
 msgstr ""
 
 #. Default: "History of emergency changes"

@@ -464,8 +464,16 @@ msgstr ""
 msgid "History of delay changes"
 msgstr ""
 
+#. Default: "History of delay changes for ${advice}"
+msgid "History of delay changes for ${advice}"
+msgstr ""
+
 #. Default: "Reinitiatlize delay"
 msgid "Reinitiatlize delay"
+msgstr ""
+
+#. Default: "Advice delay have been reinitialized for advice \"${advice}\""
+msgid "Advice delay have been reinitialized for advice \"${advice}\""
 msgstr ""
 
 #. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
@@ -4469,8 +4477,8 @@ msgstr ""
 msgid "category_mapping_when_cloning_to_other_mc_descr"
 msgstr ""
 
-#. Default: "Change delay for this advice from ${from} days to ${to} days."
-msgid "Change delay for this advice from ${from} days to ${to} days."
+#. Default: "Change delay for this advice from ${from} days to ${to} days"
+msgid "Change delay for this advice from ${from} days to ${to} days"
 msgstr ""
 
 #. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."

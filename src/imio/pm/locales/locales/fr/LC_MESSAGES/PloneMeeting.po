@@ -47,6 +47,10 @@ msgstr "Avis demandé automatiquement car"
 msgid "Advice comment"
 msgstr "Commentaire"
 
+#. Default: "Advice delay have been reinitialized for advice \"${advice}\""
+msgid "Advice delay have been reinitialized for advice \"${advice}\""
+msgstr "Le délai pour rendre l'avis \"${advice}\" a été remis à zéro."
+
 #. Default: "Advice given by"
 msgid "Advice given by"
 msgstr "Avis rendu par"
@@ -180,9 +184,9 @@ msgstr "Valide jusqu'au (inclus)"
 msgid "Change delay"
 msgstr "Changer le délai de l'avis"
 
-#. Default: "Change delay for this advice from ${from} days to ${to} days."
-msgid "Change delay for this advice from ${from} days to ${to} days."
-msgstr "Changer le délai pour cet avis de ${from} jours à ${to} jours."
+#. Default: "Change delay for this advice from ${from} days to ${to} days"
+msgid "Change delay for this advice from ${from} days to ${to} days"
+msgstr "Changer le délai pour cet avis de ${from} jours à ${to} jours"
 
 #. Default: "Choose a group."
 msgid "Choose a group."
@@ -346,7 +350,11 @@ msgstr "Historique des changements du champ 'Complétude'"
 
 #. Default: "History of delay changes"
 msgid "History of delay changes"
-msgstr "Historique des changements de délai pour cet avis"
+msgstr "Historique des changements de délai"
+
+#. Default: "History of delay changes for ${advice}"
+msgid "History of delay changes for ${advice}"
+msgstr "Historique des changements de délai pour l'avis \"${advice}\""
 
 #. Default: "History of emergency changes"
 msgid "History of emergency changes"
