@@ -1735,6 +1735,10 @@ msgstr "Points récurrents"
 msgid "References of contained items have been updated."
 msgstr "La référence des points a été mise à jour."
 
+#. Default: "Reinitiatlize delay"
+msgid "Reinitiatlize delay"
+msgstr "Réinitialiser le délai pour cet avis"
+
 #. Default: "Remove advice inheritance"
 msgid "Remove advice inheritance"
 msgstr "Enlever l'avis hérité"
@@ -4806,6 +4810,10 @@ msgstr "${assembly} ${assembly_edit} et ${signatures} ${signatures_edit}"
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Rafraîchir les valeurs de vote"
+
+#. Default: "Reinitialize delay for this advice?"
+msgid "reinit_delay_confirm_message"
+msgstr "Etes-vous certain de vouloir réinitialiser le délai pour cet avis?"
 
 #. Default: "Your current configuration does not allow you to ask this advice locally, the inherited advice was not removed. Contact your system administrator if necessary.'
 msgid "remove_advice_inheritance_ask_locally_not_configured"
