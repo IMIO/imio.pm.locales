@@ -4044,6 +4044,14 @@ msgstr "Bei der Anzeige einer Sitzunge, kann die Liste der TOP auf mehrere Seite
 msgid "max_shown_meetings_descr"
 msgstr "Wenn die Anzahl der Sitzungen in einem dieser beiden Portlets höher als die hier angegebene Zahl ist, wird eine Dropdown-Liste angezeigt."
 
+#. Default: "Update all items and meetings of this meeting configuration"
+msgid "mc_update_all_local_roles"
+msgstr ""
+
+#. Default: "Warning: this will update every items and meetings of this configuration, it is only relevant if the field of the configuration that you changed specifies that you need to use this action.  If you only made little changes like adding or removing a state in a field, as an administrator, it is possible to update items and meetings from the dashboards.  To do this, select elements that need to be updated and use the \"Update\" batch action."
+msgid "mc_update_all_local_roles_warning"
+msgstr ""
+
 #. Default: "Similarly to the preceding field, all the actions that are triggered when a meeting goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions are documented."
 msgid "meeting_actions_interface_descr"
 msgstr "Ähnlich wie im vorherigen Feld können alle Aktionen die bei einem Statusübergang einer Sitzung ausgelöst werden durch ein eigens entwickeltes Plone-Produkt konfiguriert werden in dem Sie:<ul><li>ein Python Interface definieren das von dem Interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (Sie müssen den vollen Paketnamen des Interfaces in dem Feld unten eintragen);</li><li>einen Adapter in ZCML erstellen und deklarieren der das Interface Products.PloneMeeting.interfaces.IMeeting zu dem Interface das Sie definiert haben adaptiert.</li></ul>Ihr Adapter kann vom Standardadapter Products.PloneMeeting.Meeting.MeetingWorkflowActions erben: das ermöglicht es Ihnen nur die Methoden für die sie ein anderes Verhalten wünschen zu überschreiben. Alle Methoden die im Interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions definiert werden sind dokumentiert."
@@ -4644,6 +4652,14 @@ msgstr "Gehe zum nächsten TOP"
 msgid "pm_goto_previous"
 msgstr "Gehe zum vorherigen TOP"
 
+#. Default: "Invalidate all cache in the application"
+msgid "pm_invalidate_all_cache"
+msgstr ""
+
+#. Default: "Warning: this will invalidate all cache used in the application, this could lead to application being slow for some minutes until cache is recomputed for currently connected users but is harmless and must be done when changes impacting application header (tabs) are made or if any weirdness occurs (no access to new tabs, ...)."
+msgid "pm_invalidate_all_cache_warning"
+msgstr ""
+
 #. Default: "Modification date"
 msgid "pm_modification_date"
 msgstr ""
@@ -4660,8 +4676,12 @@ msgstr ""
 msgid "pm_update_advice_confidentiality_warning"
 msgstr ""
 
-#. Default: "Update all items and meetings"
+#. Default: "Update all items and meetings of every meeting configurations"
 msgid "pm_update_all_local_roles"
+msgstr ""
+
+#. Default: "Warning: this will update every items and meetings of every configurations.  This action is also available per meeting configuration, if you only changed parameters in one meeting configuration, just execute the action on this meeting configuration!"
+msgid "pm_update_all_local_roles_warning"
 msgstr ""
 
 #. Default: "Initialize every existing annex confidentiality"

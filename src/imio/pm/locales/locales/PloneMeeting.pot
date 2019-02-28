@@ -1558,8 +1558,28 @@ msgstr ""
 msgid "pm_convert_annexes"
 msgstr ""
 
-#. Default: "Update all items and meetings"
+#. Default: "Update all items and meetings of every meeting configurations"
 msgid "pm_update_all_local_roles"
+msgstr ""
+
+#. Default: "Warning: this will update every items and meetings of every configurations.  This action is also available per meeting configuration, if you only changed parameters in one meeting configuration, just execute the action on this meeting configuration!"
+msgid "pm_update_all_local_roles_warning"
+msgstr ""
+
+#. Default: "Update all items and meetings of this meeting configuration"
+msgid "mc_update_all_local_roles"
+msgstr ""
+
+#. Default: "Warning: this will update every items and meetings of this configuration, it is only relevant if the field of the configuration that you changed specifies that you need to use this action.  If you only made little changes like adding or removing a state in a field, as an administrator, it is possible to update items and meetings from the dashboards.  To do this, select elements that need to be updated and use the \"Update\" batch action."
+msgid "mc_update_all_local_roles_warning"
+msgstr ""
+
+#. Default: "Invalidate all cache in the application"
+msgid "pm_invalidate_all_cache"
+msgstr ""
+
+#. Default: "Warning: this will invalidate all cache used in the application, this could lead to application being slow for some minutes until cache is recomputed for currently connected users but is harmless and must be done when changes impacting application header (tabs) are made or if any weirdness occurs (no access to new tabs, ...)."
+msgid "pm_invalidate_all_cache_warning"
 msgstr ""
 
 #. Default: "Other parameters"

@@ -4017,6 +4017,14 @@ msgstr "Lors de l'affichage d'une séance, la liste des points présentés est p
 msgid "max_shown_meetings_descr"
 msgstr "Si le nombre de séances à afficher dans l'une de ces 2 portlets est supérieur à ce nombre, une liste déroulante s'affichera au lieu d'une énumération de séances pouvant potentiellement prendre trop de place."
 
+#. Default: "Update all items and meetings of this meeting configuration"
+msgid "mc_update_all_local_roles"
+msgstr "Mettre à jour les points et séances de cette configuration de séance"
+
+#. Default: "Warning: this will update every items and meetings of this configuration, it is only relevant if the field of the configuration that you changed specifies that you need to use this action.  If you only made little changes like adding or removing a state in a field, as an administrator, it is possible to update items and meetings from the dashboards.  To do this, select elements that need to be updated and use the \"Update\" batch action."
+msgid "mc_update_all_local_roles_warning"
+msgstr "Attention: ceci va mettre à jour tous les points et séances et n'est utile que si vous avez changé un paramètre dans cette configuration de séance pour lequel il est spécifié dans la description du champ qu'il faudra mettre à jour les points et séances.  S'il s'agit de petits changements, comme l'ajout ou suppression d'un état dans un champ, il est possible, en tant qu'administrateur, de ne mettre à jour que les points et séances impactées depuis les tableaux de bord.  Pour ce faire, filtrez les points ou séances pour obtenir les éléments à mettre à jour et utilisez l'action par lot \"Mettre à jour\"."
+
 #. Default: "Similarly to the preceding field, all the actions that are triggered when a meeting goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions are documented."
 msgid "meeting_actions_interface_descr"
 msgstr "À l'instar du champ précédent, toutes les actions qui sont déclenchées lorsqu'une séance passe d'un état à un autre sont configurables via le développement d'un produit Plone tiers dans lequel vous devez:<ul><li>créer une interface Python qui hérite de l'interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (c'est le nom complet de cette interface que vous devez spécifier dans ce champ);</li><li>créer et déclarer en ZCML un adapter qui adapte l'interface Products.PloneMeeting.interfaces.IMeeting vers l'interface que vous avez définie au point précédent.</li></ul>Vous pouvez faire hériter votre adapter de l'adapter par défaut Products.PloneMeeting.Meeting.MeetingWorkflowActions: cela vous permettra de remplacer ou overrider uniquement les méthodes pour lesquelles vous voulez un comportement différent. Toutes les méthodes proposées par l'interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions sont documentées."
@@ -4606,6 +4614,14 @@ msgstr "Aller au suivant."
 msgid "pm_goto_previous"
 msgstr "Aller au précédent."
 
+#. Default: "Invalidate all cache in the application"
+msgid "pm_invalidate_all_cache"
+msgstr "Invalider le cache applicatif"
+
+#. Default: "Warning: this will invalidate all cache used in the application, this could lead to application being slow for some minutes until cache is recomputed for currently connected users but is harmless and must be done when changes impacting application header (tabs) are made or if any weirdness occurs (no access to new tabs, ...)."
+msgid "pm_invalidate_all_cache_warning"
+msgstr "Attention: ceci va invalider tout le cache utilisé dans l'application (vocabulaires, portlets, cache navigateur utilisateurs, ...) et pourrait provoquer quelques lenteurs pendant quelques minutes le temps qu'il soit recalculé chez les différents utilisateurs.  Cette action est sans danger et doit être opérée si des changements impactent l'entête (onglets) de l'application ou si des bizarreries apparaissent (pas d'accès à un élément de configuration créé ou modifié, ...)."
+
 #. Default: "Modification date"
 msgid "pm_modification_date"
 msgstr "Modifié le"
@@ -4622,9 +4638,13 @@ msgstr "Initialiser la confidentialité des avis existants"
 msgid "pm_update_advice_confidentiality_warning"
 msgstr "Attention : l'action 'Initialiser la confidentialité des avis existants' va initialiser la confidentialité de tous les avis existants pour cette configuration de séance à la valeur par défaut définie pour la confidentialité d'un avis (vérifiez le champ 'Valeur par défaut du champ 'Confidentiel?' des avis créés' dans l'onglet 'Avis et accès')."
 
-#. Default: "Update all items and meetings"
+#. Default: "Update all items and meetings of every meeting configurations"
 msgid "pm_update_all_local_roles"
-msgstr "Mettre à jour les points et séances"
+msgstr "Mettre à jour les points et séances de toutes les configurations de séance"
+
+#. Default: "Warning: this will update every items and meetings of every configurations.  This action is also available per meeting configuration, if you only changed parameters in one meeting configuration, just execute the action on this meeting configuration!"
+msgid "pm_update_all_local_roles_warning"
+msgstr "Attention: ceci mettra à jour les points et séances pour toutes les configurations de séances.  Cette action est également disponible par configuration de séance, si vous avez changé un paramètre dans une configuration de séance en particulier, utilisez l'action sur la configuration de séance!"
 
 #. Default: "Initialize every existing annex confidentiality"
 msgid "pm_update_annex_confidentiality"

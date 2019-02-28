@@ -4068,6 +4068,14 @@ msgstr "Cuando se muestra una reunión, la lista de temas en la reunión pueden 
 msgid "max_shown_meetings_descr"
 msgstr "Si el número de reuniones a mostrar en cualquiera de esos portlets es más alto este número, una lista desplegable se mostrará."
 
+#. Default: "Update all items and meetings of this meeting configuration"
+msgid "mc_update_all_local_roles"
+msgstr ""
+
+#. Default: "Warning: this will update every items and meetings of this configuration, it is only relevant if the field of the configuration that you changed specifies that you need to use this action.  If you only made little changes like adding or removing a state in a field, as an administrator, it is possible to update items and meetings from the dashboards.  To do this, select elements that need to be updated and use the \"Update\" batch action."
+msgid "mc_update_all_local_roles_warning"
+msgstr ""
+
 #. Default: "Similarly to the preceding field, all the actions that are triggered when a meeting goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions are documented."
 msgid "meeting_actions_interface_descr"
 msgstr "Similarmente a el campo precedido, todos las acciones que son activadas cuando un consejo va de un estado a otro son configurables a través del desarrollo de otro módulo de Plone dentro del cual debe: <ul><li>crear una interfaz Python que herede desde la interfaz Products.PloneMeeting.interfaces.IMeetingWorkflowActions (usted debe introducir el nombre completo del paquete de esta interfaz en el siguiente campo);</li><li>crear y declarar en el archivo ZCML un adaptador que adapte la interfaz Products.PloneMeeting.interfaces.IMeeting a la interfaz que usted tiene definida en el paso anterior.</li></ul>Su adaptador tal ves herede desde el adaptador por defecto Products.PloneMeeting.Meeting.MeetingWorkflowActions: eso le permitirá a usted anular solo métodos por los cuales usted quiera un comportamiento alterno. Todos los métodos propuestos por la interfaz Products.PloneMeeting.interfaces.IMeetingWorkflowActions son documentado."
@@ -4671,6 +4679,14 @@ msgstr "Ir al próximo tema."
 msgid "pm_goto_previous"
 msgstr "Ir al anterior tema."
 
+#. Default: "Invalidate all cache in the application"
+msgid "pm_invalidate_all_cache"
+msgstr ""
+
+#. Default: "Warning: this will invalidate all cache used in the application, this could lead to application being slow for some minutes until cache is recomputed for currently connected users but is harmless and must be done when changes impacting application header (tabs) are made or if any weirdness occurs (no access to new tabs, ...)."
+msgid "pm_invalidate_all_cache_warning"
+msgstr ""
+
 #. Default: "Modification date"
 msgid "pm_modification_date"
 msgstr ""
@@ -4688,8 +4704,12 @@ msgstr ""
 msgid "pm_update_advice_confidentiality_warning"
 msgstr ""
 
-#. Default: "Update all items and meetings"
+#. Default: "Update all items and meetings of every meeting configurations"
 msgid "pm_update_all_local_roles"
+msgstr ""
+
+#. Default: "Warning: this will update every items and meetings of every configurations.  This action is also available per meeting configuration, if you only changed parameters in one meeting configuration, just execute the action on this meeting configuration!"
+msgid "pm_update_all_local_roles_warning"
 msgstr ""
 
 #. Default: "Initialize every existing annex confidentiality"
