@@ -5333,6 +5333,10 @@ msgstr "Veuillez choisir un type d'annexe."
 msgid "unrestricted_users_descr"
 msgstr "Lorsque l'application est en mode 'Utilisateurs restreints', les utilisateurs suivants seront toujours capables d'accéder aux pages de visualisation des séances. Veuillez entrer un identifiant d'utilisateur par ligne."
 
+#. Default: "Updated accesses for ${number_of_elements} element(s)."
+msgid "update_selected_elements"
+msgstr "Accès mis à jour pour ${number_of_elements} élément(s)."
+
 #. Default: "Set all votes to 'yes'"
 msgid "update_votes_yes"
 msgstr "'Pour' à l'unanimité"
