@@ -15,6 +15,7 @@ Changelog
 - Added translations for MeetingConfig 'Update items and meetings' action.
 - Added translations for ToolPloneMeeting 'Invalidate all cache' action.
 - Added translations for 'Update local roles' batch action.
+- Added translations for 'Unread' ftw.labels related functionnality.
 
 4.1b12 (2019-01-31)
 -------------------

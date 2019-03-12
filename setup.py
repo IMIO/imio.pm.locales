@@ -6,8 +6,7 @@ version = '4.1b13.dev0'
 setup(name='imio.pm.locales',
       version=version,
       description="Locales for PloneMeeting",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      long_description=open("README.txt").read() + "\n" + open("CHANGES.rst").read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
