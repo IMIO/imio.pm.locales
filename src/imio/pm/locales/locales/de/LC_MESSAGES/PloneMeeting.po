@@ -547,6 +547,10 @@ msgstr "Kategorie"
 msgid "Meetings"
 msgstr ""
 
+#. Default: "Select a label"
+msgid "Modified since (in days, default to 30 days)"
+msgstr ""
+
 #. Default: "Name of the signatory (for example 'Mister John Doe')."
 msgid "Name of the signatory (for example 'Mister John Doe')."
 msgstr ""
@@ -1775,6 +1779,10 @@ msgstr ""
 
 #. Default: "Select a held position if necessary, 'Name', 'Function' and other data of this held position will be used if you leave 'Name' and 'Function' columns empty."
 msgid "Select a held position if necessary, 'Name', 'Function' and other data of this held position will be used if you leave 'Name' and 'Function' columns empty."
+msgstr ""
+
+#. Default: "Select a label"
+msgid "Select a label"
 msgstr ""
 
 #. Default: "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../edit' target='_blank'>\"edit contacts\"</a>)."
@@ -4695,6 +4703,14 @@ msgstr ""
 #. Default: "Update annex indexes"
 msgid "pm_update_annex_indexes"
 msgstr "Aktualisiert den Index für die Anlagen."
+
+#. Default: "Initialize personal label on existing items"
+msgid "pm_update_personal_labels"
+msgstr ""
+
+#. Default: "Warning: the action 'Initialize personal labels' will activate selected labels on every existing items that were last modified before given number of days for every users able to see these items."
+msgid "pm_update_personal_labels_warning"
+msgstr ""
 
 #. Default: "Please consult the attached document."
 msgid "podItemByMail_mail_body"

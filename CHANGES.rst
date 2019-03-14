@@ -16,6 +16,7 @@ Changelog
 - Added translations for ToolPloneMeeting 'Invalidate all cache' action.
 - Added translations for 'Update local roles' batch action.
 - Added translations for 'Unread' ftw.labels related functionnality.
+- Added translations for action 'Initialize personal label on existing items'.
 
 4.1b12 (2019-01-31)
 -------------------
