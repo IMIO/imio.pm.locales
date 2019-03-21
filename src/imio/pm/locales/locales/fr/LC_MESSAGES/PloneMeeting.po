@@ -376,6 +376,10 @@ msgstr "Si cette fonction occupée est signataire par défaut, sélectionnez un 
 msgid "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
 msgstr "Si vous ne souhaitez pas que l'avis soit directement affiché après la rédaction, cochez cette case.  Ceci permet à différents membres du groupe rendant l'avis d'intervenir sur celui-ci et de le montrer une fois qu'il est complet.  Attention, si vous perdez l'accès à la rédaction de l'avis (le point change d'état ou le délai pour rendre l'avis est dépassé par exemple), l'avis ne sera pas considéré comme rendu, mais dans un état 'Non rendu, était en cours de rédaction'.  Cependant, si nécessaire, un administrateur pourra publier cet avis."
 
+#. Default: "If you need to use this person data in the application like for example scanned signature or telephone number, select it here."
+msgid "If you need to use this person data in the application like for example scanned signature or telephone number, select it here."
+msgstr "Utile afin de pouvoir utiliser les données de cette personne, comme par exemple la signature scannée ou le numéro de téléphone."
+
 #. Default: "If you specify a number, the values entered here above will be applied from current item to the item number entered. Leave empty to only apply for current item."
 msgid "If you specify a number, the values entered here above will be applied from current item to the item number entered. Leave empty to only apply for current item."
 msgstr "Si vous spécifiez un numéro, les valeurs définies ci-dessus seront appliquées à partir du point courant jusqu'au point ayant ce numéro.  Laissez ce champ vide pour appliquer uniquement sur le point courant."
@@ -622,6 +626,10 @@ msgstr "Entrez un numéro valide s'il vous plaît."
 #. Default: "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgid "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgstr "Spécifiez dans la configuration de PloneMeeting une 'Configuration de séance' par défaut parmi les 'Configurations de séance' actives afin que l'utilisateur soit automatiquement redirigé vers celle-ci une fois connecté."
+
+#. Default: "Plone user"
+msgid "Plone user"
+msgstr "Utilisateur Plone"
 
 #. Default: "PloneMeeting tool policy"
 msgid "PloneMeeting tool policy"

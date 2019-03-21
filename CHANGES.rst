@@ -17,6 +17,8 @@ Changelog
 - Added translations for 'Update local roles' batch action.
 - Added translations for 'Unread' ftw.labels related functionnality.
 - Added translations for action 'Initialize personal label on existing items'.
+- Added translations for person.userid field.
+- Adapted translation for MeetingConfig.customAdvisers 'gives_auto_advice_on' column.
 
 4.1b12 (2019-01-31)
 -------------------
