@@ -916,6 +916,10 @@ msgstr "Enable item duplication"
 msgid "PloneMeeting_label_enableLabels"
 msgstr "Enable labels"
 
+#. Default: "Enable documents scanning"
+msgid "PloneMeeting_label_enableScanDocs"
+msgstr ""
+
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
 msgstr "Enable user preferences"
@@ -3009,6 +3013,10 @@ msgstr "If enabled, item creators will have access to actions 'Duplicate' and 'D
 #. Default: "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
 msgid "enable_labels_descr"
 msgstr "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
+
+#. Default: "Check this box if you use the documents scanning functionnality."
+msgid "enable_scan_docs_descr"
+msgstr ""
 
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"

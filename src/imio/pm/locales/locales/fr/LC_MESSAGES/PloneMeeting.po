@@ -916,6 +916,10 @@ msgstr "Activer la duplication des points"
 msgid "PloneMeeting_label_enableLabels"
 msgstr "Activer les étiquettes"
 
+#. Default: "Enable documents scanning"
+msgid "PloneMeeting_label_enableScanDocs"
+msgstr "Activer le scanning de documents"
+
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
 msgstr "Activer les préférences utilisateur"
@@ -3008,6 +3012,10 @@ msgstr "Si activé, ceci permet à un créateur de point de créer un point sur 
 #. Default: "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
 msgid "enable_labels_descr"
 msgstr "Une fois activé, une boîte de configuration apparaîtra dans l'onglet \"[Données]\" permettant de renseigner les étiquettes qui pourront être sélectionnées sur un point."
+
+#. Default: "Check this box if you use the documents scanning functionnality."
+msgid "enable_scan_docs_descr"
+msgstr "Cochez la case si vous utilisez la fonctionnalité de scanning de documents."
 
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"
