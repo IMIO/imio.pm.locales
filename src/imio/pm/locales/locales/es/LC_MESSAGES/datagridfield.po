@@ -61,8 +61,8 @@ msgstr "Retardo para dar consejos"
 msgid "Delay left alert"
 msgstr "Alerta dejó retardo"
 
-#. Default: "Enter a short label that will be displayed in the application.  This will be translated by the application if possible.  If you want to colorrize this new list type on the meeting view, you will need to do this using CSS like it is the case for 'late' items."
-msgid "Enter a short label that will be displayed in the application.  This will be translated by the application if possible.  If you want to colorrize this new list type on the meeting view, you will need to do this using CSS like it is the case for 'late' items."
+#. Default: "Enter a short label that will be displayed in the application.  This will be translated by the application if possible.  If you want to colorize this new list type on the meeting view, you will need to do this using CSS like it is the case for \"late\" items."
+msgid "Enter a short label that will be displayed in the application.  This will be translated by the application if possible.  If you want to colorize this new list type on the meeting view, you will need to do this using CSS like it is the case for 'late' items."
 msgstr ""
 
 #. Default: "Enter an internal identifier, use only lowercase letters."
@@ -89,7 +89,7 @@ msgstr ""
 msgid "Inserting method"
 msgstr ""
 
-#. Default: "Set to 'Yes' if you want to make a logical link between a row and the previous one.  This will manage the fact of easily being able to change a delay for an asked advice.  The linked rows will make the user being able to select between those different delays in the advice vizualisation popup.  This is only relevant for delay-aware advices, to link differents delays together."
+#. Default: "Set to \"Yes\" if you want to make a logical link between a row and the previous one.  This will manage the fact of easily being able to change a delay for an asked advice.  The linked rows will make the user being able to select between those different delays in the advice vizualisation popup.  This is only relevant for delay-aware advices, to link differents delays together."
 msgid "Is linked to previous row description"
 msgstr ""
 
@@ -137,6 +137,26 @@ msgstr ""
 msgid "On transition field transform transition"
 msgstr ""
 
+#. Default: "Power observer item access TAL expression"
+msgid "Power observer item access TAL expression"
+msgstr ""
+
+#. Default: "Power observer item viewable states"
+msgid "Power observer item viewable states"
+msgstr ""
+
+#. Default: "Power observer label"
+msgid "Power observer label"
+msgstr ""
+
+#. Default: "Power observer meeting access TAL expression"
+msgid "Power observer meeting access TAL expression"
+msgstr ""
+
+#. Default: "Power observer meeting viewable states"
+msgid "Power observer meeting viewable states"
+msgstr ""
+
 #. Default: "Reverse?"
 msgid "Reverse inserting method?"
 msgstr ""
@@ -157,11 +177,11 @@ msgstr "Regla activada para el tema creado hasta"
 msgid "Select the inserting method, methods will be applied in given order, you can not select twice same inserting method."
 msgstr ""
 
-#. Default: "Default value of the 'Confidential ?' attribute of created annexes"
+#. Default: "Default value of the \"Confidential ?\" attribute of created annexes"
 msgid "Sub type confidentiality of created annexes"
 msgstr ""
 
-#. Default: "Please look the help message of the field 'Default value of the 'Confidential ?' attribute of created annexes' here above.  Simply note that if nothing is defined here, the value defined in the field above will be used."
+#. Default: "Please look the help message of the field \"Default value of the 'Confidential ?' attribute of created annexes\" here above.  Simply note that if nothing is defined here, the value defined in the field above will be used."
 msgid "Sub type confidentiality of created annexes description."
 msgstr ""
 
@@ -169,7 +189,7 @@ msgstr ""
 msgid "Sub type correspondences while sent to other meeting configs"
 msgstr ""
 
-#. Default: "Please look the help message of the field 'Correspondences while sent to other meeting configs' here above.  Simply note that if nothing is defined here, the value defined in the field above will be used."
+#. Default: "Please look the help message of the field \"Correspondences while sent to other meeting configs\" here above.  Simply note that if nothing is defined here, the value defined in the field above will be used."
 msgid "Sub type correspondences while sent to other meeting configs description."
 msgstr ""
 
@@ -185,7 +205,7 @@ msgstr ""
 msgid "Sub type title"
 msgstr ""
 
-#. Default: "The TAL expression.  Element 'here' represent the item.  This expression MUST return valid HTML or it will not behave properly on the item."
+#. Default: "The TAL expression.  Element \"here\" represent the item.  This expression MUST return valid HTML or it will not behave properly on the item."
 msgid "The TAL expression.  Element 'here' represent the item.  This expression MUST return valid HTML or it will not behave properly on the item."
 msgstr ""
 
@@ -209,43 +229,69 @@ msgstr ""
 msgid "The transition triggered on the meeting."
 msgstr ""
 
-#. Default: "While sent, the new item is in the workflow initial state, if it was sent automatically (depending on states selected in field 'States in which an item will be automatically sent to selected other meeting configurations' here under), some transitions can be automatically triggered for the new item, select until which transition it will be done (selected transition will also be triggered).  This relies on the 'Transitions for presenting an item' you defined in the 'Workflows' tab of the meeting configuration the item will be sent to."
+#. Default: "While sent, the new item is in the workflow initial state, if it was sent automatically (depending on states selected in field \"States in which an item will be automatically sent to selected other meeting configurations\" here under), some transitions can be automatically triggered for the new item, select until which transition it will be done (selected transition will also be triggered).  This relies on the \"Transitions for presenting an item\" you defined in the \"Workflows\" tab of the meeting configuration the item will be sent to."
 msgid "While sent, the new item is in the workflow initial state, if it was sent automatically (depending on states selected in field 'States in which an item will be automatically sent to selected other meeting configurations' here under), some transitions can be automatically triggered for the new item, select until which transition it will be done (selected transition will also be triggered).  This relies on the 'Transitions for presenting an item' you defined in the 'Workflows' tab of the meeting configuration the item will be sent to."
 msgstr ""
 
-#. Default: "Specify here a TAL expression that will restrict or allow the use of this advice to some condition.  We receive 'item' as the meeting item to give an advice on and 'mayEdit', a boolean to know if current user may edit the item.  A special expression is available to protect a row that should only be available thru the 'Change delay' action, it is : 'python: item.REQUEST.get('managing_available_delays', False)'.  This can not be used if something is defined in the 'Advice will be automatically asked if' column of this advice, but for optional delay-aware advice or for delay-aware advices linked to an automatic advice (using the 'Is linked to previous row?' column)"
+#. Default: "Specify here a TAL expression that will restrict or allow the use of this advice to some condition.  We receive \"item\" as the meeting item to give an advice on and \"mayEdit\", a boolean to know if current user may edit the item.  A special expression is available to protect a row that should only be available thru the \"Change delay\" action, it is : \"python: item.REQUEST.get('managing_available_delays', False)\".  This can not be used if something is defined in the \"Advice will be automatically asked if\" column of this advice, but for optional delay-aware advice or for delay-aware advices linked to an automatic advice (using the \"Is linked to previous row?\" column)"
 msgid "available_on_col_description"
 msgstr ""
 
-#. Default: "Enter the delay the adviser will have to give his advice. If it is not considered as an automatically asked advice (nothing defined in the 'Advice will be automatically asked if' column), the advice will be selectable in the 'Ask advice to' list on the item edit form. A delay is a single digit (like '5' or '10'). If no delay is relevant for this advice, leave this field blank. If several delays are possible for the same advice, you have to define several rows with exactly the same content excepted the delay."
+#. Default: "Enter the delay the adviser will have to give his advice. If it is not considered as an automatically asked advice (nothing defined in the \"Advice will be automatically asked if\" column), the advice will be selectable in the \"Ask advice to\" list on the item edit form. A delay is a single digit (like \"5\" or \"10\"). If no delay is relevant for this advice, leave this field blank. If several delays are possible for the same advice, you have to define several rows with exactly the same content excepted the delay."
+#, fuzzy
 msgid "delay_col_description"
 msgstr "Introduzca el retraso en que el asesor tendrá que dar su consejo. Si no se considera como un consejo pedido automáticamente (no hay nada definido en columna la 'Si el Consejo se le pedirá automáticamente'), el consejo se podrá seleccionar en la lista 'Pida consejo a' en el formulario de elemento de edición. El retraso es de un solo dígito (como '5' o '10'). Si hay retraso es relevante para este consejo, deje este campo en blanco. Si varios retrasos son posibles para el mismo consejo, usted tiene que definir varias filas con exactamente el mismo contenido exceptúa la demora."
 
-#. Default: "If you want a specific label to be displayed on the label displayed in the 'Advice to give' list on the item edit form and on the '?' displayed next to the advice title in the user interface, you can enter it here.  The label will appear between brackets after the message 'Name of the group - delay of X days'."
+#. Default: "If you want a specific label to be displayed on the label displayed in the \"Advice to give\" list on the item edit form and on the \"?\" displayed next to the advice title in the user interface, you can enter it here.  The label will appear between brackets after the message \"Name of the group - delay of X days\"."
+#, fuzzy
 msgid "delay_label_col_description"
 msgstr "Si desea una etiqueta específica que se mostrará en la etiqueta que aparece en la lista 'Consejos para dar' en el formulario de edición de tema y en el signo '?' aparece junto al título del asesoramiento en la interfaz de usuario, puede ingresar aquí. La etiqueta aparecerá entre corchetes después del mensaje 'Nombre del grupo - retraso de X días'."
 
-#. Default: "Enter the treshold beyond wich an alert must be shown regarding left delay.  This will be shown in the UI with a particular color and if activated, a mail notification could be send in this case. Enter a single digit (like '5' or '10') lower than actual 'Delay'. If no treshold is relevant for this advice, leave this field blank."
+#. Default: "Enter the treshold beyond wich an alert must be shown regarding left delay.  This will be shown in the UI with a particular color and if activated, a mail notification could be send in this case. Enter a single digit (like \"5\" or \"10\") lower than actual \"Delay\". If no treshold is relevant for this advice, leave this field blank."
+#, fuzzy
 msgid "delay_left_alert_col_description"
 msgstr "Introduzca el umbral más allá del cual una alerta debe demostrarse en relación con retraso dejado. Esto se muestra en la interfaz de usuario con un color particular y si se activa, una notificación por correo electrónico se podría enviar en este caso. Introduzca un solo dígito (como '5 'o '10') inferior a real 'Retraso'. Si no hay ningún umbral es relevante para este consejo, deje este campo en blanco."
 
-#. Default: "This configuration will be applied on item created from the defined date (defined date included).  Please respect following format : YYYY/MM/DD (year 4 digits/month 2 digits/day 2 digits).  This date will avoid older items created before to be affected, especially when updating every advices thru the 'Update all advices' action."
+#. Default: "This configuration will be applied on item created from the defined date (defined date included).  Please respect following format : YYYY/MM/DD (year 4 digits/month 2 digits/day 2 digits).  This date will avoid older items created before to be affected, especially when updating every advices thru the \"Update all advices\" action."
+#, fuzzy
 msgid "for_item_created_from_col_description"
 msgstr "Esta configuración se aplicará sobre el tema creado a partir de la fecha definida (fecha incluida). Por favor, respeten siguiente formato: AAAA/MM/DD (4 dígitos por año / 2 dígitos por mes / 2 dígitos por día). Esta fecha se evitarán los temas más antiguos creados antes de verse afectados, sobre todo cuando se actualiza cada consejos a través de la acción 'Actualizar todos los consejos'."
 
-#. Default: "This configuration will be applied on item created until the defined date (defined date must be in the future and will not be included).  Please respect following format : YYYY/MM/DD (year 4 digits/month 2 digits/day 2 digits).  This date will avoid newer items created after to be affected, especially when updating every advices thru the 'Update all advices' action. This date will be only settable once, when set, this can not be changed anymore."
+#. Default: "This configuration will be applied on item created until the defined date (defined date must be in the future and will not be included).  Please respect following format : YYYY/MM/DD (year 4 digits/month 2 digits/day 2 digits).  This date will avoid newer items created after to be affected, especially when updating every advices thru the \"Update all advices\" action. This date will be only settable once, when set, this can not be changed anymore."
+#, fuzzy
 msgid "for_item_created_until_col_description"
 msgstr "Esta configuración se aplicará al tema creado hasta la fecha definida (fecha conocida no incluido). Por favor, respeten siguiente formato: AAAA/MM/DD (4 dígitos por año / 2 dígitos por mes / 2 dígitos por día). En esta fecha se evitarán temas nuevos creados después de ser afectados, especialmente cuando se actualiza cada consejos a través de la acción 'Actualizar todos los consejos'. Esta fecha será solo seleccionable una vez, cuando se establece, esto no se puede cambiar nunca más."
 
-#. Default: "Specify here a TAL expression that will return True if the advice of the group must be automatically asked on an item.  We receive 'item' as the meeting item to give an advice on, 'org' and 'org_uid' as the organization (organization UID) that will have to give the advice.  WARNING if the group of advisers linked to this group is empty, it will no be considered, despite the result of the TAL expression.  This advice will NOT be askable manually in the user interface, it is only asked automatically by the application.  If this advice should not be asked automatically, leave this field blank."
+#. Default: "Specify here a TAL expression that will return True if the advice of the group must be automatically asked on an item.  We receive \"item\" as the meeting item to give an advice on, \"org\" and \"org_uid\" as the organization (organization UID) that will have to give the advice.  WARNING if the group of advisers linked to this group is empty, it will no be considered, despite the result of the TAL expression.  This advice will NOT be askable manually in the user interface, it is only asked automatically by the application.  If this advice should not be asked automatically, leave this field blank."
 #, fuzzy
 msgid "gives_auto_advice_on_col_description"
 msgstr "Especifique aquí una expresión TAL que devolverá True si el consejo del grupo debe plantearse de forma automática en un elemento. Recibimos 'elemento' como elemento de reunión para dar un consejo sobre el. ADVERTENCIA si el grupo de asesores vinculados a este grupo PloneMeeting está vacío, no será considerado, a pesar del resultado de la expresión TAL. Este consejo no será preguntable manualmente en la interfaz de usuario, sólo se le pide automáticamente por la aplicación. Si este consejo no se le debe pedir automáticamente, deje este campo en blanco."
 
-#. Default: "If you want a specific help message to be displayed on the '?' displayed next to the advice title in the user interface, you can enter it here.  The message will appear between brackets after the message 'This advice has been automatically asked by the application'."
+#. Default: "If you want a specific help message to be displayed on the \"?\" displayed next to the advice title in the user interface, you can enter it here.  The message will appear between brackets after the message \"This advice has been automatically asked by the application\"."
+#, fuzzy
 msgid "gives_auto_advice_on_help_message_col_description"
 msgstr "Si desea visualizar en el un mensaje de ayuda específica '?' que aparece junto al título de asesoramiento en la interfaz de usuario, puede ingresar aquí. Aparecerá el mensaje entre paréntesis tras el mensaje 'Este consejo se ha pedido automáticamente por la aplicación'."
 
 #. Default: "Please use following format : YYYY/MM/DD.  Dates must be sorted (from older to newer)."
 msgid "holiday_date_col_descr"
+msgstr ""
+
+#. Default: "Power observer item access TAL expression description"
+msgid "power_observers_item_access_on_col_description"
+msgstr ""
+
+#. Default: "Power observer item viewable states description"
+msgid "power_observers_item_states_col_description"
+msgstr ""
+
+#. Default: "Power observer label description"
+msgid "power_observers_label_col_description"
+msgstr ""
+
+#. Default: "Power observer meeting access TAL expression description"
+msgid "power_observers_meeting_access_on_col_description"
+msgstr ""
+
+#. Default: "Power observer meeting viewable states description"
+msgid "power_observers_meeting_states_col_description"
 msgstr ""

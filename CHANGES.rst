@@ -20,6 +20,7 @@ Changelog
 - Added translations for person.userid field.
 - Adapted translation for MeetingConfig.customAdvisers 'gives_auto_advice_on' column.
 - Added translations for 'ToolPloneMeeting.enableScanDocs' field.
+- Added translations regarding 'MeetingConfig.powerObservers' functionnality.
 
 4.1b12 (2019-01-31)
 -------------------
