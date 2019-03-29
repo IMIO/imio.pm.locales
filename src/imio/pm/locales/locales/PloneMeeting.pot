@@ -2862,7 +2862,7 @@ msgid "advice_hidden_during_redaction_help"
 msgstr ""
 
 #. Default: "This advice must not be \"hidden during redaction\" anymore before ${limit_date} or it will be considered not given."
-msgid "This advice must not be \"hidden during redaction\" anymore before ${limit_date} or it will be considered not given."
+msgid "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgstr ""
 
 #. Default: "This advice is considered \"Not given\" because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
@@ -5716,4 +5716,16 @@ msgstr ""
 
 #. Default: "Check this box if you use the documents scanning functionnality."
 msgid "enable_scan_docs_descr"
+msgstr ""
+
+#. Default: "You can not remove a power observer that is used in a field of this meeting configuration.  Please remove reference to this power observer in every fields of the meeting config, save it then remove this power observer."
+msgid "power_observer_removed_used_in_fields"
+msgstr ""
+
+#. Default: "You can not use same label for several power observers."
+msgid "power_observer_same_label_error"
+msgstr ""
+
+#. Default: "You can not remove a power observer for which the linked Plone group is not empty."
+msgid "power_observer_removed_plone_group_not_empty"
 msgstr ""

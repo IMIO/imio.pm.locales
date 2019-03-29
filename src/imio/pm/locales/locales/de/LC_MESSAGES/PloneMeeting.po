@@ -1853,7 +1853,7 @@ msgid "This advice is inherited from ${linkToItem}"
 msgstr ""
 
 #. Default: "This advice must not be \"hidden during redaction\" anymore before ${limit_date} or it will be considered not given."
-msgid "This advice must not be \"hidden during redaction\" anymore before ${limit_date} or it will be considered not given."
+msgid "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgstr ""
 
 #. Default: "This advice was given as personal initiative"
@@ -4725,6 +4725,18 @@ msgstr ""
 
 #. Default: "Select groups that will be able to give an advice on an item even when not asked"
 msgid "power_advisers_groups_descr"
+msgstr ""
+
+#. Default: "You can not remove a power observer for which the linked Plone group is not empty."
+msgid "power_observer_removed_plone_group_not_empty"
+msgstr ""
+
+#. Default: "You can not remove a power observer that is used in a field of this meeting configuration.  Please remove reference to this power observer in every fields of the meeting config, save it then remove this power observer."
+msgid "power_observer_removed_used_in_fields"
+msgstr ""
+
+#. Default: "You can not use same label for several power observers."
+msgid "power_observer_same_label_error"
 msgstr ""
 
 #. Default: "Manage here \"Power observers\", so user profile that will be able to see items or meeting in selected states.  For each defined \"Power observer\", a group is created in groups and users management.  <span style='color: red;'>If you change this parameter, except the \"Label\" field, do not forget to run \"Update items and meetings\"!</span>"

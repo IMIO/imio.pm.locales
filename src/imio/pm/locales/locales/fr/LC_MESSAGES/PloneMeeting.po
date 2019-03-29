@@ -1843,8 +1843,8 @@ msgid "This advice is inherited from ${linkToItem}"
 msgstr "Cet avis est hérité du point ${linkToItem}"
 
 #. Default: "This advice must not be \"hidden during redaction\" anymore before ${limit_date} or it will be considered not given."
-msgid "This advice must not be \"hidden during redaction\" anymore before ${limit_date} or it will be considered not given."
-msgstr ""
+msgid "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
+msgstr "Cet avis ne doit plus être \"caché pendant la rédaction\" avant le ${limit_date} ou il sera considéré \"Non rendu\"."
 
 #. Default: "This advice was given as personal initiative"
 msgid "This advice was given as personal initiative"
@@ -4656,6 +4656,18 @@ msgstr "la possibilité de rendre un avis a été stoppée le ${advice_delay_sto
 #. Default: "Select groups that will be able to give an advice on an item even when not asked"
 msgid "power_advisers_groups_descr"
 msgstr "Sélectionnez les groupes qui pourront rendre un avis sur un point même lorsque leur avis n'aura pas été demandé"
+
+#. Default: "You can not remove a power observer for which the linked Plone group is not empty."
+msgid "power_observer_removed_plone_group_not_empty"
+msgstr "Vous ne pouvez pas supprimer un super observateur pour lequel le groupe Plone lié n'est pas vide."
+
+#. Default: "You can not remove a power observer that is used in a field of this meeting configuration.  Please remove reference to this power observer in every fields of the meeting config, save it then remove this power observer."
+msgid "power_observer_removed_used_in_fields"
+msgstr "Vous ne pouvez pas supprimer un super observateur qui est renseigné dans un autre champ de cette configuration de séance. Veuillez d'abord désélectionner ce super observateur de tous les champs de cette configuration de séance dans lesquels il est utilisé et sauvegarder.  Vous pourrez alors éditer à nouveau cette configuration et supprimer le super observateur."
+
+#. Default: "You can not use same label for several power observers."
+msgid "power_observer_same_label_error"
+msgstr "Le même \"Libellé\" ne peut être utilisé pour plusieurs super observateurs."
 
 #. Default: "Manage here \"Power observers\", so user profile that will be able to see items or meeting in selected states.  For each defined \"Power observer\", a group is created in groups and users management.  <span style='color: red;'>If you change this parameter, except the \"Label\" field, do not forget to run \"Update items and meetings\"!</span>"
 msgid "power_observers_descr"
