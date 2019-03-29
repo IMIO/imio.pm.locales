@@ -729,17 +729,9 @@ msgstr "Asistentes"
 msgid "PloneMeeting_label_authorityNotice"
 msgstr ""
 
-#. Default: "Available user interface languages"
-msgid "PloneMeeting_label_availableInterfaceLanguages"
-msgstr "Idiomas de la interfaz de usuario disponible "
-
 #. Default: "Columns to display for items available for a meeting"
 msgid "PloneMeeting_label_availableItemsListVisibleColumns"
 msgstr ""
-
-#. Default: "Available OCR languages"
-msgid "PloneMeeting_label_availableOcrLanguages"
-msgstr "Idiomas disponibles para el reconocimiento óptico de caracteres"
 
 #. Default: "Items"
 msgid "PloneMeeting_label_body"
@@ -862,10 +854,6 @@ msgstr ""
 msgid "PloneMeeting_label_defaultAdviceType"
 msgstr "Tipo de consejo por defecto"
 
-#. Default: "Default OCR language"
-msgid "PloneMeeting_label_defaultOcrLanguage"
-msgstr "Idioma por defecto para el reconocimiento óptico de caracteres"
-
 #. Default: "Default poll type"
 msgid "PloneMeeting_label_defaultPollType"
 msgstr ""
@@ -941,10 +929,6 @@ msgstr "Hacer cumplir consejos obligatorios"
 #. Default: "Excused"
 msgid "PloneMeeting_label_excused"
 msgstr "Excusado"
-
-#. Default: "Extract text from files"
-msgid "PloneMeeting_label_extractTextFromFiles"
-msgstr "Extraer texto desde archivos"
 
 #. Default: "Extraordinary session?"
 msgid "PloneMeeting_label_extraordinarySession"
@@ -2393,10 +2377,6 @@ msgstr ""
 msgid "auto_linked_items"
 msgstr ""
 
-#. Default: "If you let this field blank, the user interface will be presented in the language defined by the user's browser. If you encode a list of comma-separated ISO 2-chars language codes, the user interface language will be chosen by the user in a dropdown containing one entry per encoded language code."
-msgid "available_interface_languages_descr"
-msgstr "Si deja este campo en blanco, la interfaz de usuario presentará en el idioma definido por el navegador Web del usuario. Si usted escribe una lista de códigos ISO (a 2 caracteres) del idioma separado por comas, el idioma de la interfaz de usuario será seleccionado por el usuario en una lista desplegable que contiene una entrada por cada código de lenguaje."
-
 #. Default: "Available items for this meeting"
 msgid "available_items"
 msgstr "Temas disponibles para esta reunión"
@@ -2408,10 +2388,6 @@ msgstr ""
 #. Default: "Available meetings"
 msgid "available_meetings"
 msgstr "Reuniones disponibles"
-
-#. Default: "Specify here what language packs you have installed for Tesseract."
-msgid "available_ocr_languages_descr"
-msgstr "Especifique aquí los paquetes de idiomas que haya instalado para Tesseract."
 
 #. Default: "Back"
 msgid "back"
@@ -2881,10 +2857,6 @@ msgstr ""
 msgid "default_advice_type_descr"
 msgstr "El tipo de consejo por defecto será preseleccionado en el formulario para agregar un consejo sobre un tema."
 
-#. Default: "The language you choose here will be selected by default when proposing to the user to OCR-ize a document."
-msgid "default_ocr_language_descr"
-msgstr "El idioma que usted elija aquí será seleccionado por defecto, cuando se propone al usuario para aplicar un escaneo de reconocimiento óptico de caracteres a un documento."
-
 #. Default: "The default poll type will be preselected on the form when adding an item."
 msgid "default_poll_type_descr"
 msgstr ""
@@ -3134,10 +3106,6 @@ msgstr "Anexos"
 #. Default: "Votes"
 msgid "existing_votes"
 msgstr "Votos"
-
-#. Default: "If you check this box, every time an annex will be uploaded, its content will be indexed. In the form for uploading an annex, a checkbox will ask the user if the file corresponds to a scanned document. If it is the case, an OCR engine (<a href=\"http://code.google.com/p/tesseract-ocr/\" target=\"_blank\">Tesseract</a>) will be launched for converting the scanned file into text. For installing Tesseract under Ubuntu, type \"sudo apt-get install tesseract-ocr\" in a shell. Tesseract needs to know the language of the scanned document, so it will also be asked to the user in the form. Besides installing Tesseract in itself, you will also need to install additional packages for particular languages (tesseract-fra, tesseract-ita, tesseract-eng...). Note that the scanned document will also be uploaded unchanged (users will still see it when downloading the file) <i>together</i> with the extracted text (that will be used for search purposes)."
-msgid "extract_text_from_files_descr"
-msgstr "Si marca esta casilla, cada ves que un anexo sea subido dentro, su contenido será indexado. En el formulario para subir un anexo, un casilla le preguntará al usuario si el archivo corresponde a un archivo escaneado (digitalizado). Si ese es el caso, un motor de reconocimiento óptico de caracteres llamado (<a href=\"http://code.google.com/p/tesseract-ocr/\" target=\"_blank\">Tesseract</a>) se ejecutará para convertir el documento escaneado en texto. Para la instalación de Tesseract bajo Ubuntu GNU/Linux o distribuciones basadas en Debian ejecute el siguiente comando: \"sudo apt-get install tesseract-ocr\" en una consola de comando. Tesseract necesita saber el lenguaje del documento escaneado, eso también debe ser respondido por el usuario en el formulario de subida de anexo. Además de la misma instalación de Tesseract, usted debe instalar los paquetes adicionales para los idiomas particulares a usar (tesseract-ocr-fra, tesseract-ocr-ita, tesseract-ocr-eng, tesseract-ocr-spa...). Tenga en cuenta que el documento escaneado será también subido sin ser cambiado (aún los usuarios verán al descargar el archivo) <i>junto</i> con el texto extraído (que se utilizarán con fines de búsqueda)."
 
 #. Default: "Cancel edit."
 msgid "fastedit_cancel"
@@ -4312,15 +4280,6 @@ msgstr "Mover el tema arriba"
 msgid "move_several"
 msgstr "Mover este tema a la posición que precede al número que ha introducido. Además, si usted desea mover este tema al final de la lista, especifique le número del último temas mas uno (por ejemplo 3 + 1  = 4)."
 
-#. Default: "This file is a scanned document"
-msgid "needs_ocr"
-msgstr "Este archivo es un documento digitalizado (escaneado)"
-
-#. Default: "Check this box if this file corresponds to a scanned document. If it is the case, we will perform a specific treatment on it (called \"OCR-ization\") to retrieve the text from the scanned document. This way, it will be possible to perform searches in the content of the file, based on keywords."
-#, fuzzy
-msgid "needs_ocr_descr"
-msgstr "Marque esta casilla si este archivo corresponde a un documento escaneado (digitalizado). Si es es el caso, se llevará a cabo un tratamiento específico en él documento (llamado 'Reconocimiento óptico de caracteres'). para recuperar el texto del documento escaneado. De esta manera, será posible realizar búsquedas en el contenido del archivo, basado en palabras claves."
-
 #. Default: "Negative"
 msgid "negative"
 msgstr "Negativo"
@@ -4475,14 +4434,6 @@ msgstr "Observador"
 #. Default: "Observers"
 msgid "observers"
 msgstr "Observadores"
-
-#. Default: "Language of the document"
-msgid "ocr_language"
-msgstr "Lenguaje del documento"
-
-#. Default: "Specify here in what language this document is written."
-msgid "ocr_language_descr"
-msgstr "Especifique aquí en qué idioma está escrito este documento."
 
 #. Default: "Follow all groups order"
 msgid "on_all_groups"

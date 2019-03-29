@@ -21,6 +21,8 @@ Changelog
 - Adapted translation for MeetingConfig.customAdvisers 'gives_auto_advice_on' column.
 - Added translations for 'ToolPloneMeeting.enableScanDocs' field.
 - Added translations regarding 'MeetingConfig.powerObservers' functionnality.
+- Removed translations related to ToolPloneMeeting removed fields 'extractTextFromFiles',
+  'availableOcrLanguages', 'defaultOcrLanguage' and 'enableUserPreferences'
 
 4.1b12 (2019-01-31)
 -------------------

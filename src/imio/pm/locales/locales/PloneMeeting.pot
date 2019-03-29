@@ -644,22 +644,6 @@ msgstr ""
 msgid "make_a_choice"
 msgstr ""
 
-#. Default: "This file is a scanned document"
-msgid "needs_ocr"
-msgstr ""
-
-#. Default: "Check this box if this file corresponds to a scanned document. If it is the case, we will perform a specific treatment on it (called \"OCR-ization\") to retrieve the text from the scanned document. This way, it will be possible to perform searches in the content of the file, based on keywords."
-msgid "needs_ocr_descr"
-msgstr ""
-
-#. Default: "Language of the document"
-msgid "ocr_language"
-msgstr ""
-
-#. Default: "Specify here in what language this document is written."
-msgid "ocr_language_descr"
-msgstr ""
-
 #. Default: ", description"
 msgid "and_description"
 msgstr ""
@@ -1412,38 +1396,6 @@ msgstr ""
 
 #. Default: "When the application is in \"Restrict users\" mode, the following users will still be able to consult page \"Meeting view.\" Please type one user ID per line."
 msgid "unrestricted_users_descr"
-msgstr ""
-
-#. Default: "Extract text from files"
-msgid "PloneMeeting_label_extractTextFromFiles"
-msgstr ""
-
-#. Default: "If you check this box, every time an annex will be uploaded, its content will be indexed. In the form for uploading an annex, a checkbox will ask the user if the file corresponds to a scanned document. If it is the case, an OCR engine (<a href=\"http://code.google.com/p/tesseract-ocr/\" target=\"_blank\">Tesseract</a>) will be launched for converting the scanned file into text. For installing Tesseract under Ubuntu, type \"sudo apt-get install tesseract-ocr\" in a shell. Tesseract needs to know the language of the scanned document, so it will also be asked to the user in the form. Besides installing Tesseract in itself, you will also need to install additional packages for particular languages (tesseract-fra, tesseract-ita, tesseract-eng...). Note that the scanned document will also be uploaded unchanged (users will still see it when downloading the file) <i>together</i> with the extracted text (that will be used for search purposes)."
-msgid "extract_text_from_files_descr"
-msgstr ""
-
-#. Default: "Available user interface languages"
-msgid "PloneMeeting_label_availableInterfaceLanguages"
-msgstr ""
-
-#. Default: "If you let this field blank, the user interface will be presented in the language defined by the user's browser. If you encode a list of comma-separated ISO 2-chars language codes, the user interface language will be chosen by the user in a dropdown containing one entry per encoded language code."
-msgid "available_interface_languages_descr"
-msgstr ""
-
-#. Default: "Available OCR languages"
-msgid "PloneMeeting_label_availableOcrLanguages"
-msgstr ""
-
-#. Default: "Specify here what language packs you have installed for Tesseract."
-msgid "available_ocr_languages_descr"
-msgstr ""
-
-#. Default: "Default OCR language"
-msgid "PloneMeeting_label_defaultOcrLanguage"
-msgstr ""
-
-#. Default: "The language you choose here will be selected by default when proposing to the user to OCR-ize a document."
-msgid "default_ocr_language_descr"
 msgstr ""
 
 #. Default: "Model adaptations"
