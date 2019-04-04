@@ -2385,6 +2385,10 @@ msgstr "Temas disponibles para esta reunión"
 msgid "available_items_list_visible_columns_descr"
 msgstr ""
 
+#. Default: "Click to see available mailing lists for this POD template"
+msgid "available_mailing_lists_title"
+msgstr ""
+
 #. Default: "Available meetings"
 msgid "available_meetings"
 msgstr "Reuniones disponibles"
@@ -2409,7 +2413,7 @@ msgstr ""
 msgid "budget_related_no_edit"
 msgstr ""
 
-#. Default: "This item is not budget related, click on the icon to fill in \"Budgetary informations\"."
+#. Default: "This item is not budget related, click on the icon to fill in \"Budgetary informations\""
 msgid "budget_related_no_img_title_edit"
 msgstr ""
 
@@ -2421,7 +2425,7 @@ msgstr ""
 msgid "budget_related_yes_edit"
 msgstr ""
 
-#. Default: "This item is budget related, click on the icon to hide \"Budgetary informations\"."
+#. Default: "This item is budget related, click on the icon to hide \"Budgetary informations\""
 msgid "budget_related_yes_img_title_edit"
 msgstr ""
 
@@ -5130,7 +5134,7 @@ msgstr "Verifique esta casilla si usted quiere ordenar las etiquetas en orden al
 msgid "state_color"
 msgstr "Coloración dependiendo del estado"
 
-#. Default: "Store as annex of type ${annex_type_title}."
+#. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"
 msgstr ""
 
@@ -5246,7 +5250,8 @@ msgstr ""
 msgid "to_discuss_ask_mail_not_sent"
 msgstr "Los envíos de correo electrónico a los administradores de reuniones han sido deshabilitado. Por favor contacte ellos a través de otros medios para para pedir a ellos para discutir este tema."
 
-#. Default: "A mail was sent to the meeting managers for asking them to discuss this item."
+#. Default: "A mail was sent to the meeting managers for asking them to discuss this item"
+#, fuzzy
 msgid "to_discuss_ask_mail_sent"
 msgstr "Un correo electrónico fue enviado a los administradores de reuniones para pedir a ellos para discutir este tema."
 
@@ -5264,11 +5269,13 @@ msgstr "Maque la casilla si usted quiere los temas 'tardíos' se definan como 'd
 msgid "to_discuss_no"
 msgstr "No se debatirá durante la reunión"
 
-#. Default: "Click on the image for asking to discuss this item."
+#. Default: "Click on the image for asking to discuss this item"
+#, fuzzy
 msgid "to_discuss_no_ask_edit"
 msgstr "Haga clic en la imagen para pedir a discutir este tema."
 
-#. Default: "Not to be discussed during the meeting. Click on the image for discussing the item."
+#. Default: "Not to be discussed during the meeting. Click on the image for discussing the item"
+#, fuzzy
 msgid "to_discuss_no_edit"
 msgstr "No se debatirá durante la reunión. Haga clic en la imagen para debatir el tema."
 
@@ -5281,7 +5288,8 @@ msgstr "Si marca esta casilla, el valor del campo '¿A discutir?', para un tema,
 msgid "to_discuss_yes"
 msgstr "Se debatirán durante la reunión"
 
-#. Default: "To be discussed during the meeting. Click on the image for not discussing the item."
+#. Default: "To be discussed during the meeting. Click on the image for not discussing the item"
+#, fuzzy
 msgid "to_discuss_yes_edit"
 msgstr "Se debatirán durante la reunión. Haga clic en la imagen para no debatir el tema."
 

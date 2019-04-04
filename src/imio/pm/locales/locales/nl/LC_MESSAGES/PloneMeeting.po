@@ -2367,6 +2367,10 @@ msgstr "Beschikbare punten voor deze vergadering"
 msgid "available_items_list_visible_columns_descr"
 msgstr ""
 
+#. Default: "Click to see available mailing lists for this POD template"
+msgid "available_mailing_lists_title"
+msgstr ""
+
 #. Default: "Available meetings"
 msgid "available_meetings"
 msgstr "Beschikbare vergaderingen"
@@ -2391,7 +2395,7 @@ msgstr ""
 msgid "budget_related_no_edit"
 msgstr ""
 
-#. Default: "This item is not budget related, click on the icon to fill in \"Budgetary informations\"."
+#. Default: "This item is not budget related, click on the icon to fill in \"Budgetary informations\""
 msgid "budget_related_no_img_title_edit"
 msgstr ""
 
@@ -2403,7 +2407,7 @@ msgstr ""
 msgid "budget_related_yes_edit"
 msgstr ""
 
-#. Default: "This item is budget related, click on the icon to hide \"Budgetary informations\"."
+#. Default: "This item is budget related, click on the icon to hide \"Budgetary informations\""
 msgid "budget_related_yes_img_title_edit"
 msgstr ""
 
@@ -5055,7 +5059,7 @@ msgstr "Check this box if you want to sort the tags in alphabetic order."
 msgid "state_color"
 msgstr ""
 
-#. Default: "Store as annex of type ${annex_type_title}."
+#. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"
 msgstr ""
 
@@ -5171,7 +5175,8 @@ msgstr ""
 msgid "to_discuss_ask_mail_not_sent"
 msgstr "Sending emails to meeting managers has been disabled. Please contact them through other means for asking them to discuss this item."
 
-#. Default: "A mail was sent to the meeting managers for asking them to discuss this item."
+#. Default: "A mail was sent to the meeting managers for asking them to discuss this item"
+#, fuzzy
 msgid "to_discuss_ask_mail_sent"
 msgstr "A mail was sent to the meeting managers for asking them to discuss this item."
 
@@ -5189,11 +5194,13 @@ msgstr "Check the box if you want the 'late' items to be set to 'discussed' by d
 msgid "to_discuss_no"
 msgstr "Wordt niet besproken tijdens de vergadering"
 
-#. Default: "Click on the image for asking to discuss this item."
+#. Default: "Click on the image for asking to discuss this item"
+#, fuzzy
 msgid "to_discuss_no_ask_edit"
 msgstr "Klik op de afbeelding om te vragen dit punt te bespreken."
 
-#. Default: "Not to be discussed during the meeting. Click on the image for discussing the item."
+#. Default: "Not to be discussed during the meeting. Click on the image for discussing the item"
+#, fuzzy
 msgid "to_discuss_no_edit"
 msgstr "Wordt niet besproken tijdens de vergadering. Klik op de afbeelding om dit punt wel te bespreken."
 
@@ -5205,7 +5212,8 @@ msgstr ""
 msgid "to_discuss_yes"
 msgstr "Te bespreken tijdens de vergadering"
 
-#. Default: "To be discussed during the meeting. Click on the image for not discussing the item."
+#. Default: "To be discussed during the meeting. Click on the image for not discussing the item"
+#, fuzzy
 msgid "to_discuss_yes_edit"
 msgstr "Te bespreken tijdens de vergadering. Klik op de afbeelding om dit punt niet te bespreken."
 

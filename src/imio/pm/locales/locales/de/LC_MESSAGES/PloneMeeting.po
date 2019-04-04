@@ -2375,6 +2375,10 @@ msgstr "Verfügbare TOP für diese Sitzung"
 msgid "available_items_list_visible_columns_descr"
 msgstr ""
 
+#. Default: "Click to see available mailing lists for this POD template"
+msgid "available_mailing_lists_title"
+msgstr ""
+
 #. Default: "Available meetings"
 msgid "available_meetings"
 msgstr "Verfügbare Sitzungen"
@@ -2399,7 +2403,7 @@ msgstr ""
 msgid "budget_related_no_edit"
 msgstr ""
 
-#. Default: "This item is not budget related, click on the icon to fill in \"Budgetary informations\"."
+#. Default: "This item is not budget related, click on the icon to fill in \"Budgetary informations\""
 msgid "budget_related_no_img_title_edit"
 msgstr ""
 
@@ -2411,7 +2415,7 @@ msgstr ""
 msgid "budget_related_yes_edit"
 msgstr ""
 
-#. Default: "This item is budget related, click on the icon to hide \"Budgetary informations\"."
+#. Default: "This item is budget related, click on the icon to hide \"Budgetary informations\""
 msgid "budget_related_yes_img_title_edit"
 msgstr ""
 
@@ -5093,7 +5097,7 @@ msgstr "Markieren Sie dieses Kästchen wenn Sie die Tags in alphabetischer Reihe
 msgid "state_color"
 msgstr "Statusfarbe"
 
-#. Default: "Store as annex of type ${annex_type_title}."
+#. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"
 msgstr ""
 
@@ -5209,7 +5213,8 @@ msgstr ""
 msgid "to_discuss_ask_mail_not_sent"
 msgstr "Der E-Mail-Versand an die Sitzungsleitung wurde deaktiviert. Bitte kontaktieren Sie die Sitzungsleitung auf anderem Wege um darum zu bitten den TOP zu diskutieren."
 
-#. Default: "A mail was sent to the meeting managers for asking them to discuss this item."
+#. Default: "A mail was sent to the meeting managers for asking them to discuss this item"
+#, fuzzy
 msgid "to_discuss_ask_mail_sent"
 msgstr "Eine E-Mail mit der Bitte darum den TOP zu diskutieren wurde an die Sitzungsleitung gesendet."
 
@@ -5227,11 +5232,13 @@ msgstr "Markieren Sie das Häckchen wenn verspätete TOP standardmässig diskuti
 msgid "to_discuss_no"
 msgstr "Nicht zur Diskussion während dieser Sitzung"
 
-#. Default: "Click on the image for asking to discuss this item."
+#. Default: "Click on the image for asking to discuss this item"
+#, fuzzy
 msgid "to_discuss_no_ask_edit"
 msgstr "Klicken Sie auf das Bild um eine Diskussion über diesen TOP zu erbitten."
 
-#. Default: "Not to be discussed during the meeting. Click on the image for discussing the item."
+#. Default: "Not to be discussed during the meeting. Click on the image for discussing the item"
+#, fuzzy
 msgid "to_discuss_no_edit"
 msgstr "Nicht zur Diskussion während dieser Sitzung. Klicken Sie auf das Bild um den TOP zu diskutieren."
 
@@ -5244,7 +5251,8 @@ msgstr "Wenn Sie dieses Feld auswählen, wird das Feld 'zu diskutieren' für ein
 msgid "to_discuss_yes"
 msgstr "Zur Diskussion während dieser Sitzung"
 
-#. Default: "To be discussed during the meeting. Click on the image for not discussing the item."
+#. Default: "To be discussed during the meeting. Click on the image for not discussing the item"
+#, fuzzy
 msgid "to_discuss_yes_edit"
 msgstr "Zur Diskussion während dieser Sitzung. Klicken Sie auf das Bild um den TOP nicht zu diskutieren."
 

@@ -2356,6 +2356,10 @@ msgstr "Points disponibles pour cette séance"
 msgid "available_items_list_visible_columns_descr"
 msgstr "Choisissez ici les colonnes qui seront affichées dans le tableau reprenant les points disponibles pour une séance, sachant que certaines colonnes seront toujours visibles (la colonne 'Objet' par exemple)."
 
+#. Default: "Click to see available mailing lists for this POD template"
+msgid "available_mailing_lists_title"
+msgstr "Cliquez pour voir les listes de diffusion disponible pour ce document à générer"
+
 #. Default: "Available meetings"
 msgid "available_meetings"
 msgstr "Séances disponibles"
@@ -2380,9 +2384,9 @@ msgstr "Oui"
 msgid "budget_related_no_edit"
 msgstr "Ce point n'a aucune information budgétaire."
 
-#. Default: "This item is not budget related, click on the icon to fill in \"Budgetary informations\"."
+#. Default: "This item is not budget related, click on the icon to fill in \"Budgetary informations\""
 msgid "budget_related_no_img_title_edit"
-msgstr "Ce point n'a aucune information budgétaire, cliquez sur l'icône si vous souhaitez les encoder."
+msgstr "Ce point n'a aucune information budgétaire, cliquez sur l'icône si vous souhaitez les encoder"
 
 #. Default: "This item is not budget related."
 msgid "budget_related_no_view"
@@ -2392,9 +2396,9 @@ msgstr "Ce point n'a aucune information budgétaire."
 msgid "budget_related_yes_edit"
 msgstr "Ce point a des informations budgétaires, consultez le champ \"Informations budgétaires\" ci-dessous."
 
-#. Default: "This item is budget related, click on the icon to hide \"Budgetary informations\"."
+#. Default: "This item is budget related, click on the icon to hide \"Budgetary informations\""
 msgid "budget_related_yes_img_title_edit"
-msgstr "Ce point a des informations budgétaires, cliquez sur l'icône si vous souhaitez les cacher."
+msgstr "Ce point a des informations budgétaires, cliquez sur l'icône si vous souhaitez les cacher"
 
 #. Default: "This item is budget related, check \"Budgetary informations\" here under."
 msgid "budget_related_yes_view"
@@ -5016,9 +5020,9 @@ msgstr "Cochez cette case si vous voulez que les marqueurs soient triés par ord
 msgid "state_color"
 msgstr "Coloriser suivant l'état du workflow"
 
-#. Default: "Store as annex of type ${annex_type_title}."
+#. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"
-msgstr "Stocker en tant qu'annexe de type \"${annex_type_title}\"."
+msgstr "Stocker en tant qu'annexe de type \"${annex_type_title}\""
 
 #. Default: "Not allowed to add annex in this element."
 msgid "store_podtemplate_as_annex_can_not_add_annex"
@@ -5132,9 +5136,9 @@ msgstr "À envoyer à la tutelle"
 msgid "to_discuss_ask_mail_not_sent"
 msgstr "L'envoi de courriels aux gestionnaires de séances est désactivé. Veuillez prendre contact avec eux par un autre canal afin d'exprimer votre désir d'évoquer ce point."
 
-#. Default: "A mail was sent to the meeting managers for asking them to discuss this item."
+#. Default: "A mail was sent to the meeting managers for asking them to discuss this item"
 msgid "to_discuss_ask_mail_sent"
-msgstr "Un mail a été envoyé aux gestionnaires de séance pour exprimer votre désir d'évoquer ce point."
+msgstr "Un mail a été envoyé aux gestionnaires de séance pour exprimer votre désir d'évoquer ce point"
 
 #. Default: "The optional item attribute \"to discuss\" allows the meeting manager to specify if an item presented to a meeting should be discussed during this meeting or if, simply, it must appear in the agenda and the meeting decisions for traceability purposes but has already led to a decision before the meeting occurrence. Check the box if you want the items to be set to \"discussed\" by default."
 msgid "to_discuss_default_descr"
@@ -5148,13 +5152,13 @@ msgstr "Cochez la case si vous voulez que les points qui sont présentés \"en u
 msgid "to_discuss_no"
 msgstr "À ne pas évoquer en séance"
 
-#. Default: "Click on the image for asking to discuss this item."
+#. Default: "Click on the image for asking to discuss this item"
 msgid "to_discuss_no_ask_edit"
-msgstr "Cliquez sur l'image pour demander d'évoquer ce point."
+msgstr "Cliquez sur l'image pour demander d'évoquer ce point"
 
-#. Default: "Not to be discussed during the meeting. Click on the image for discussing the item."
+#. Default: "Not to be discussed during the meeting. Click on the image for discussing the item"
 msgid "to_discuss_no_edit"
-msgstr "À ne pas évoquer en séance, cliquez sur l'image pour évoquer ce point."
+msgstr "À ne pas évoquer en séance, cliquez sur l'image pour évoquer ce point"
 
 #. Default: "If you check this box, the value of field \"toDiscuss\", for an item, will be set when inserting the item into a meeting, with a default value as defined by the fields below. Else, the user having the permission to edit the item will be able to give a value to this field, as soon as on item creation."
 msgid "to_discuss_set_on_item_insert_descr"
@@ -5164,9 +5168,9 @@ msgstr "Si vous cochez cette case, la valeur du champ \"A évoquer en séance?\"
 msgid "to_discuss_yes"
 msgstr "À évoquer en séance"
 
-#. Default: "To be discussed during the meeting. Click on the image for not discussing the item."
+#. Default: "To be discussed during the meeting. Click on the image for not discussing the item"
 msgid "to_discuss_yes_edit"
-msgstr "À évoquer en séance, cliquez sur l'image pour ne pas évoquer ce point."
+msgstr "À évoquer en séance, cliquez sur l'image pour ne pas évoquer ce point"
 
 #. Default: "Select here searches you want to display in the \"todo\" portlet appearing on the PloneMeeting home page of the users.  If you do not select any search, the portlet will not show up for users"
 msgid "to_do_list_searches"

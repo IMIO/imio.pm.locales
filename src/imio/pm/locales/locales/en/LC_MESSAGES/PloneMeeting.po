@@ -2401,6 +2401,10 @@ msgstr "Available items for this meeting"
 msgid "available_items_list_visible_columns_descr"
 msgstr "Choose columns to display on the table of items available for a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
 
+#. Default: "Click to see available mailing lists for this POD template"
+msgid "available_mailing_lists_title"
+msgstr ""
+
 #. Default: "Available meetings"
 msgid "available_meetings"
 msgstr "Available meetings"
@@ -2425,7 +2429,7 @@ msgstr "Yes"
 msgid "budget_related_no_edit"
 msgstr "This item is not budget related."
 
-#. Default: "This item is not budget related, click on the icon to fill in \"Budgetary informations\"."
+#. Default: "This item is not budget related, click on the icon to fill in \"Budgetary informations\""
 #, fuzzy
 msgid "budget_related_no_img_title_edit"
 msgstr "This item is not budget related, click on the icon to fill in 'Budgetary informations'."
@@ -2439,7 +2443,7 @@ msgstr "This item is not budget related."
 msgid "budget_related_yes_edit"
 msgstr "This item is budget related, check 'Budgetary informations' here under."
 
-#. Default: "This item is budget related, click on the icon to hide \"Budgetary informations\"."
+#. Default: "This item is budget related, click on the icon to hide \"Budgetary informations\""
 #, fuzzy
 msgid "budget_related_yes_img_title_edit"
 msgstr "This item is budget related, click on the icon to hide 'Budgetary informations'."
@@ -5199,7 +5203,8 @@ msgstr "Check this box if you want to sort the tags in alphabetic order."
 msgid "state_color"
 msgstr "Colorize depending on state"
 
-#. Default: "Store as annex of type ${annex_type_title}."
+#. Default: "Store as annex of type ${annex_type_title}"
+#, fuzzy
 msgid "store_as_annex_type_title"
 msgstr "Store as annex of type ${annex_type_title}."
 
@@ -5316,7 +5321,8 @@ msgstr "To be send to authority"
 msgid "to_discuss_ask_mail_not_sent"
 msgstr "Sending emails to meeting managers has been disabled. Please contact them through other means for asking them to discuss this item."
 
-#. Default: "A mail was sent to the meeting managers for asking them to discuss this item."
+#. Default: "A mail was sent to the meeting managers for asking them to discuss this item"
+#, fuzzy
 msgid "to_discuss_ask_mail_sent"
 msgstr "A mail was sent to the meeting managers for asking them to discuss this item."
 
@@ -5334,11 +5340,13 @@ msgstr "Check the box if you want the 'late' items to be set to 'discussed' by d
 msgid "to_discuss_no"
 msgstr "Not to be discussed during the meeting"
 
-#. Default: "Click on the image for asking to discuss this item."
+#. Default: "Click on the image for asking to discuss this item"
+#, fuzzy
 msgid "to_discuss_no_ask_edit"
 msgstr "Click on the image for asking to discuss this item."
 
-#. Default: "Not to be discussed during the meeting. Click on the image for discussing the item."
+#. Default: "Not to be discussed during the meeting. Click on the image for discussing the item"
+#, fuzzy
 msgid "to_discuss_no_edit"
 msgstr "Not to be discussed during the meeting. Click on the image for discussing the item."
 
@@ -5351,7 +5359,8 @@ msgstr "If you check this box, the value of field 'toDiscuss', for an item, will
 msgid "to_discuss_yes"
 msgstr "To be discussed during the meeting"
 
-#. Default: "To be discussed during the meeting. Click on the image for not discussing the item."
+#. Default: "To be discussed during the meeting. Click on the image for not discussing the item"
+#, fuzzy
 msgid "to_discuss_yes_edit"
 msgstr "To be discussed during the meeting. Click on the image for not discussing the item."
 

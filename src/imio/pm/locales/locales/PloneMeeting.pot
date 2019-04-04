@@ -1117,19 +1117,19 @@ msgstr ""
 msgid "to_discuss_no"
 msgstr ""
 
-#. Default: "To be discussed during the meeting. Click on the image for not discussing the item."
+#. Default: "To be discussed during the meeting. Click on the image for not discussing the item"
 msgid "to_discuss_yes_edit"
 msgstr ""
 
-#. Default: "Not to be discussed during the meeting. Click on the image for discussing the item."
+#. Default: "Not to be discussed during the meeting. Click on the image for discussing the item"
 msgid "to_discuss_no_edit"
 msgstr ""
 
-#. Default: "Click on the image for asking to discuss this item."
+#. Default: "Click on the image for asking to discuss this item"
 msgid "to_discuss_no_ask_edit"
 msgstr ""
 
-#. Default: "A mail was sent to the meeting managers for asking them to discuss this item."
+#. Default: "A mail was sent to the meeting managers for asking them to discuss this item"
 msgid "to_discuss_ask_mail_sent"
 msgstr ""
 
@@ -1145,11 +1145,11 @@ msgstr ""
 msgid "budget_related_yes_edit"
 msgstr ""
 
-#. Default: "This item is budget related, click on the icon to hide \"Budgetary informations\"."
+#. Default: "This item is budget related, click on the icon to hide \"Budgetary informations\""
 msgid "budget_related_yes_img_title_edit"
 msgstr ""
 
-#. Default: "This item is not budget related, click on the icon to fill in \"Budgetary informations\"."
+#. Default: "This item is not budget related, click on the icon to fill in \"Budgetary informations\""
 msgid "budget_related_no_img_title_edit"
 msgstr ""
 
@@ -5209,8 +5209,12 @@ msgstr ""
 msgid "meeting_item_template_to_store_as_annex_descr"
 msgstr ""
 
-#. Default: "Store as annex of type ${annex_type_title}."
+#. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"
+msgstr ""
+
+#. Default: "Click to see available mailing lists for this POD template"
+msgid "available_mailing_lists_title"
 msgstr ""
 
 #. Default: "WF transition ${state_info} (notify users able to view the element)."
