@@ -596,6 +596,10 @@ msgstr ""
 msgid "can_not_delete_meetingcategory_meetingitem"
 msgstr ""
 
+#. Default: "This category can not be deleted, at least one category of another configuration is using it, please check ${url}!"
+msgid "can_not_delete_meetingcategory_other_category_mapping"
+msgstr ""
+
 #. Default: "You can not delete a container containing one or several meetings!"
 msgid "can_not_delete_meeting_container"
 msgstr ""

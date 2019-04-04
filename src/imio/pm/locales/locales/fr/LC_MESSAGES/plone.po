@@ -421,6 +421,10 @@ msgstr "Vous ne pouvez pas supprimer un dossier qui contient une ou plusieurs s�
 msgid "can_not_delete_meetingcategory_meetingitem"
 msgstr "Cette catégorie ne peut pas être supprimée, il existe au moins un point lié à celle-ci!  Vérifiez ici : ${url}"
 
+#. Default: "This category can not be deleted, at least one category of another configuration is using it, please check ${url}!"
+msgid "can_not_delete_meetingcategory_other_category_mapping"
+msgstr "Cette catégorie ne peut pas être supprimée, il existe au moins une catégorie dans une autre configuration liée à celle-ci!  Vérifiez ici : ${url}"
+
 #. Default: "This configuration can not be deleted, annex types defined in this configuration are used in field 'Correspondences while sent to other meeting configs' of at least another configuration, check ${other_config_title}!"
 msgid "can_not_delete_meetingconfig_annex_types"
 msgstr "Cette configuration de séance ne peut pas être supprimée, des types d'annexes de cette configuration sont renseignées dans le champ \"Correspondances lors de l'envoi vers un autre type de séance\" d'au moins une autre configuration de séance, vérifiez la configuration \"${other_config_title}\"!"

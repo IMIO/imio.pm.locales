@@ -24,6 +24,7 @@ Changelog
 - Removed translations related to ToolPloneMeeting removed fields 'extractTextFromFiles',
   'availableOcrLanguages', 'defaultOcrLanguage' and 'enableUserPreferences'
 - Adapted translation for POD template mailing_list description to explain use of 'group:' in recipients
+- Added translation for 'can_not_delete_meetingcategory_other_category_mapping'
 
 4.1b12 (2019-01-31)
 -------------------
