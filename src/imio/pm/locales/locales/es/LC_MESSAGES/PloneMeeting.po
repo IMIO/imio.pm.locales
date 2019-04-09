@@ -1287,6 +1287,10 @@ msgstr "Título de la carpeta que crea PloneMeeting en casa carpeta de usuario"
 msgid "PloneMeeting_label_meetingItemTemplateToStoreAsAnnex"
 msgstr ""
 
+#. Default: "A meeting manager may correct a closed meeting?"
+msgid "PloneMeeting_label_meetingManagerMayCorrectClosedMeeting"
+msgstr ""
+
 #. Default: "Meeting number (sequence number automatically attributed)"
 msgid "PloneMeeting_label_meetingNumber"
 msgstr "Número de reuniones (secuencia de números atribuidos automáticamente)"
@@ -2624,6 +2628,10 @@ msgstr "Un clasificador es un como una categoría. Puede asignar un tema casi un
 #, fuzzy
 msgid "clone_to"
 msgstr "Clonar a"
+
+#. Default: "Your configuration says can not correct this closed meeting, contact your system administrator if you want to change this."
+msgid "closed_meeting_not_correctable_by_config"
+msgstr ""
 
 #. Default: "Complete"
 msgid "completeness_complete"
@@ -4121,6 +4129,10 @@ msgstr ""
 
 #. Default: "This enable an action on the meeting to be able to store as annex a particluar POD template if field \"Store this POD template as annex\" is defined on a POD template."
 msgid "meeting_item_template_to_store_as_annex_descr"
+msgstr ""
+
+#. Default: "If you check this box, meeting managers will be able to correct a closed meeting (it is not the case otherwise)."
+msgid "meeting_manager_may_correct_closed_meeting_descr"
 msgstr ""
 
 # MeetingItem

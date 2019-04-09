@@ -1277,6 +1277,10 @@ msgstr "Titre du répertoire créé dans chaque répertoire d'utilisateur"
 msgid "PloneMeeting_label_meetingItemTemplateToStoreAsAnnex"
 msgstr "Modèle de document POD à générer pour les points à stocker en tant qu'annexe"
 
+#. Default: "A meeting manager may correct a closed meeting?"
+msgid "PloneMeeting_label_meetingManagerMayCorrectClosedMeeting"
+msgstr "Un gestionnaire de séances peut corriger une séance clôturée?"
+
 #. Default: "Meeting number (sequence number automatically attributed)"
 msgid "PloneMeeting_label_meetingNumber"
 msgstr "Numéro de séance (il s'agit d'un numéro de séquence attribué automatiquement)"
@@ -2591,6 +2595,10 @@ msgstr "Un classificateur fonctionne un peu comme une catégorie. Vous pouvez as
 #. Default: "Clone to ${meetingConfigTitle}"
 msgid "clone_to"
 msgstr "Envoyer vers ${meetingConfigTitle}"
+
+#. Default: "Your configuration says can not correct this closed meeting, contact your system administrator if you want to change this."
+msgid "closed_meeting_not_correctable_by_config"
+msgstr "Vous ne pouvez pas corriger une séance clôturée, contactez votre administrateur système qui pourra le faire ou changer la configuration afin que vous puissiez le faire."
 
 #. Default: "Complete"
 msgid "completeness_complete"
@@ -4036,6 +4044,10 @@ msgstr "Paramètre(s) définis dans la configuration qui influent sur l'ordre d'
 #. Default: "This enable an action on the meeting to be able to store as annex a particluar POD template if field \"Store this POD template as annex\" is defined on a POD template."
 msgid "meeting_item_template_to_store_as_annex_descr"
 msgstr "Ceci activera une action sur les séances permettant de stocker en tant qu'annexe le modèle de document POD sélectionné.  Ce champ n'est utile que si vous avez utilisez le champ \"Stocker le modèle de document POD généré en tant qu'annexe\" sur un modèle de document POD."
+
+#. Default: "If you check this box, meeting managers will be able to correct a closed meeting (it is not the case otherwise)."
+msgid "meeting_manager_may_correct_closed_meeting_descr"
+msgstr "Si vous cochez cette case, les gestionnaires de séances pourront corriger une séance cloturée (ce n'est pas le cas par défaut)."
 
 #. Default: "Meeting of"
 msgid "meeting_of"
