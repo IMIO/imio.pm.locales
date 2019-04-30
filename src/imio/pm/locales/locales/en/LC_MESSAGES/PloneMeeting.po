@@ -49,7 +49,7 @@ msgstr "Advice comment"
 
 #. Default: "Advice delay have been reinitialized for advice \"${advice}\""
 msgid "Advice delay have been reinitialized for advice \"${advice}\""
-msgstr ""
+msgstr "Advice delay have been reinitialized for advice \"${advice}\""
 
 #. Default: "Advice given by"
 msgid "Advice given by"
@@ -118,19 +118,19 @@ msgstr "Asked on ${advice_asked_on_date}"
 
 #. Default: "Attendee has been set ${not_present_type}."
 msgid "Attendee has been set ${not_present_type}."
-msgstr ""
+msgstr "Attendee has been set ${not_present_type}."
 
 #. Default: "Attendee has been set back present."
 msgid "Attendee has been set back present."
-msgstr ""
+msgstr "Attendee has been set back present."
 
 #. Default: "Attendee has been set signatory."
 msgid "Attendee has been set signatory."
-msgstr ""
+msgstr "Attendee has been set signatory."
 
 #. Default: "Attendee is no more defined as item signatory."
 msgid "Attendee is no more defined as item signatory."
-msgstr ""
+msgstr "Attendee is no more defined as item signatory."
 
 #. Default: "Back to the MeetingConfig"
 msgid "Back to the MeetingConfig"
@@ -146,7 +146,7 @@ msgstr "Can not close a meeting containing items returned to proposing group!"
 
 #. Default: "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
-msgstr ""
+msgstr "Can not set ${not_present_type} a person selected as signatory on an item!"
 
 #. Default: "Cancel"
 msgid "Cancel"
@@ -158,7 +158,7 @@ msgstr "Item categories"
 
 #. Default: "Held position"
 msgid "Certified signatures held position"
-msgstr ""
+msgstr "Certified signatures held position"
 
 #. Default: "Function"
 msgid "Certified signatures signatory function"
@@ -186,7 +186,7 @@ msgstr "Change delay"
 
 #. Default: "Change delay for this advice from ${from} days to ${to} days"
 msgid "Change delay for this advice from ${from} days to ${to} days"
-msgstr ""
+msgstr "Change delay for this advice from ${from} days to ${to} days"
 
 #. Default: "Choose a group."
 msgid "Choose a group."
@@ -234,7 +234,7 @@ msgstr "Decisions"
 
 #. Default: "Defaults"
 msgid "Defaults"
-msgstr ""
+msgstr "Defaults"
 
 #. Default: "Define this attendee as signatory for this item"
 msgid "Define this attendee as signatory for this item"
@@ -270,7 +270,7 @@ msgstr "Edit attributes of this group of categories"
 
 #. Default: "Edit contacts"
 msgid "Edit contacts"
-msgstr ""
+msgstr "Edit contacts"
 
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
@@ -302,7 +302,7 @@ msgstr "Enter the item excused to be applied. By default, the value of the field
 
 #. Default: "Enter the item guests to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgid "Enter the item guests to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
-msgstr ""
+msgstr "Enter the item guests to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 
 #. Default: "Enter the item signatures to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
 msgid "Enter the item signatures to be applied. By default, the value of the field is what is defined on the meeting. If you do not change this value, nothing will be applied on the item. If you already edited this field before and you want to fallback to meeting value, remove the entire value."
@@ -322,14 +322,14 @@ msgstr "Enter valid to date, use following format : YYYY/MM/DD, leave empty so i
 
 #. Default: "Filled in the \"Selectable assembly members\" for meeting configurations"
 msgid "Filled in the \"Ordered contacts\" for meeting configurations"
-msgstr ""
+msgstr "Filled in the \"Selectable assembly members\" for meeting configurations"
 
 #. Default: "Free text fields"
 msgid "Free text fields"
 msgstr "Free text fields"
 
 #. Default: "Function of the signatory (for example \"Mayor\")."
-msgid "Function of the signatory (for example \"Mayor\")."
+msgid "Function of the signatory (for example 'Mayor')."
 msgstr "Function of the signatory (for example \"Mayor\")."
 
 #. Default: "Given on ${advice_given_on_date}"
@@ -354,7 +354,7 @@ msgstr "History of delay changes"
 
 #. Default: "History of delay changes for ${advice}"
 msgid "History of delay changes for ${advice}"
-msgstr ""
+msgstr "History of delay changes for ${advice}"
 
 #. Default: "History of emergency changes"
 msgid "History of emergency changes"
@@ -370,7 +370,7 @@ msgstr "How many items to list in each topic."
 
 #. Default: "If this contact is a default signer, select signature number"
 msgid "If this contact is a default signer, select signature number"
-msgstr ""
+msgstr "If this contact is a default signer, select signature number"
 
 #. Default: "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered \"Not given, was under edition\".  A manager will be able to publish it nevertheless."
 msgid "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
@@ -378,7 +378,7 @@ msgstr "If you do not want the advice to be shown immediately after redaction, y
 
 #. Default: "If you need to use this person data in the application like for example scanned signature or telephone number, select it here."
 msgid "If you need to use this person data in the application like for example scanned signature or telephone number, select it here."
-msgstr ""
+msgstr "If you need to use this person data in the application like for example scanned signature or telephone number, select it here."
 
 #. Default: "If you specify a number, the values entered here above will be applied from current item to the item number entered. Leave empty to only apply for current item."
 msgid "If you specify a number, the values entered here above will be applied from current item to the item number entered. Leave empty to only apply for current item."
@@ -394,11 +394,11 @@ msgstr "If you specify a number, this attendee will be defined as back into the 
 
 #. Default: "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
+msgstr "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
 
 #. Default: "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
+msgstr "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
 
 # plone.app.querystring
 #. Default: "Informations about advices on an item"
@@ -451,7 +451,7 @@ msgstr "Item excused to apply"
 
 #. Default: "Item guests to apply"
 msgid "Item guests to apply"
-msgstr ""
+msgstr "Item guests to apply"
 
 #. Default: "Item signatures have been updated."
 msgid "Item signatures have been updated."
@@ -480,7 +480,7 @@ msgstr "Linked meeting date (used for items)"
 
 #. Default: "Mailing lists are not correctly defined, original error is \"${error}\""
 msgid "Mailing lists are not correctly defined, original error is \"${error}\""
-msgstr ""
+msgstr "Mailing lists are not correctly defined, original error is \"${error}\""
 
 #. Default: "Manage advice annexes"
 msgid "Manage advice annexes"
@@ -496,7 +496,7 @@ msgstr "Manage dashboard"
 
 #. Default: "Manage internal organizations"
 msgid "Manage internal organizations"
-msgstr ""
+msgstr "Manage internal organizations"
 
 #. Default: "Manage item annexes"
 msgid "Manage item annexes"
@@ -551,9 +551,9 @@ msgstr "Category"
 msgid "Meetings"
 msgstr "Meetings"
 
-#. Default: "Select a label"
+#. Default: "Modified since (in days, default to 30 days)"
 msgid "Modified since (in days, default to 30 days)"
-msgstr ""
+msgstr "Modified since (in days, default to 30 days)"
 
 #. Default: "Name of the signatory (for example \"Mister John Doe\")."
 msgid "Name of the signatory (for example 'Mister John Doe')."
@@ -585,11 +585,11 @@ msgstr "None"
 
 #. Default: "Not present type"
 msgid "Not present type"
-msgstr ""
+msgstr "Not present type"
 
 #. Default: "Nothing to display."
 msgid "Nothing to display."
-msgstr ""
+msgstr "Nothing to display."
 
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
@@ -605,11 +605,11 @@ msgstr "Once viewable, the adviser will have ${advice_delay} days to give the ad
 
 #. Default: "Ordered categories"
 msgid "Ordered categories"
-msgstr ""
+msgstr "Ordered categories"
 
 #. Default: "Ordered groups"
 msgid "Ordered groups"
-msgstr ""
+msgstr "Ordered groups"
 
 #. Default: "Original meeting signatory"
 msgid "Original meeting signatory"
@@ -629,7 +629,7 @@ msgstr "Please specify a default meeting config upon active existing meeting con
 
 #. Default: "Plone user"
 msgid "Plone user"
-msgstr ""
+msgstr "Plone user"
 
 #. Default: "PloneMeeting tool policy"
 msgid "PloneMeeting tool policy"
@@ -780,9 +780,9 @@ msgstr "Group of meeting configurations"
 msgid "PloneMeeting_label_configGroups"
 msgstr "Groups of meeting configurations"
 
-#. Default: "Groups using this meeting cofniguration"
+#. Default: "Groups using this meeting configuration"
 msgid "PloneMeeting_label_configUsingGroups"
-msgstr ""
+msgstr "Groups using this meeting configuration"
 
 #. Default: "Identifier of this meeting configuration"
 msgid "PloneMeeting_label_configVersion"
@@ -906,7 +906,7 @@ msgstr "Enable labels"
 
 #. Default: "Enable documents scanning"
 msgid "PloneMeeting_label_enableScanDocs"
-msgstr ""
+msgstr "Enable documents scanning"
 
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
@@ -1066,7 +1066,7 @@ msgstr "Assembly excused that is specific to this meeting item"
 
 #. Default: "Assembly guests that is specific to this meeting item"
 msgid "PloneMeeting_label_itemAssemblyGuests"
-msgstr ""
+msgstr "Assembly guests that is specific to this meeting item"
 
 #. Default: "States in which an item will be automatically sent to selected other meeting configurations"
 msgid "PloneMeeting_label_itemAutoSentToOtherMCStates"
@@ -1279,7 +1279,7 @@ msgstr "POD template to store as annex from the meeting"
 
 #. Default: "A meeting manager may correct a closed meeting?"
 msgid "PloneMeeting_label_meetingManagerMayCorrectClosedMeeting"
-msgstr ""
+msgstr "A meeting manager may correct a closed meeting?"
 
 #. Default: "Meeting number (sequence number automatically attributed)"
 msgid "PloneMeeting_label_meetingNumber"
@@ -1539,7 +1539,7 @@ msgstr "Restrict usage of this template to following groups"
 
 #. Default: "Checklist"
 msgid "PloneMeeting_label_textCheckList"
-msgstr ""
+msgstr "Checklist"
 
 # Meeting
 #. Default: "Title"
@@ -1692,7 +1692,7 @@ msgstr "Document templates"
 
 #. Default: "Position type"
 msgid "Position type"
-msgstr ""
+msgstr "Position type"
 
 #. Default: "Preview detailled advice"
 msgid "Preview detailled advice"
@@ -1713,7 +1713,7 @@ msgstr "References of contained items have been updated."
 
 #. Default: "Reinitiatlize delay"
 msgid "Reinitiatlize delay"
-msgstr ""
+msgstr "Reinitiatlize delay"
 
 #. Default: "Remove advice inheritance"
 msgid "Remove advice inheritance"
@@ -1741,15 +1741,15 @@ msgstr "Secret?"
 
 #. Default: "Select a held position if necessary, \"Name\", \"Function\" and other data of this held position will be used if you leave \"Name\" and \"Function\" columns empty."
 msgid "Select a held position if necessary, 'Name', 'Function' and other data of this held position will be used if you leave 'Name' and 'Function' columns empty."
-msgstr ""
+msgstr "Select a held position if necessary, \"Name\", \"Function\" and other data of this held position will be used if you leave \"Name\" and \"Function\" columns empty."
 
 #. Default: "Select a label"
 msgid "Select a label"
-msgstr ""
+msgstr "Select a label"
 
 #. Default: "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../edit' target='_blank'>\"edit contacts\"</a>)."
 msgid "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../edit' target='_blank'>\"edit contacts\"</a>)."
-msgstr ""
+msgstr "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../edit' target='_blank'>\"edit contacts\"</a>)."
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
@@ -1765,7 +1765,7 @@ msgstr "Signatory specifically defined for this item"
 
 #. Default: "Signature number"
 msgid "Signature number"
-msgstr ""
+msgstr "Signature number"
 
 #. Default: "state"
 msgid "State"
@@ -1773,7 +1773,7 @@ msgstr "State"
 
 #. Default: "Style templates"
 msgid "Style templates"
-msgstr ""
+msgstr "Style templates"
 
 #. Default: "Taken over by ${fullname}"
 msgid "Taken over by ${fullname}"
@@ -1832,7 +1832,7 @@ msgstr "This advice is inherited from ${linkToItem}"
 
 #. Default: "This advice must not be \"hidden during redaction\" anymore before ${limit_date} or it will be considered not given."
 msgid "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
-msgstr ""
+msgstr "This advice must not be \"hidden during redaction\" anymore before ${limit_date} or it will be considered not given."
 
 #. Default: "This advice was given as personal initiative"
 msgid "This advice was given as personal initiative"
@@ -1884,7 +1884,7 @@ msgstr "To do"
 
 #. Default: "To own organization"
 msgid "To own organization"
-msgstr ""
+msgstr "To own organization"
 
 # This way, the "typedescription" macro in base_edit does not display 'Meeting' above the title.
 #. Default: "Show / hide details"
@@ -1893,15 +1893,15 @@ msgstr "Show / hide details"
 
 #. Default: "Usages"
 msgid "Usages"
-msgstr ""
+msgstr "Usages"
 
 #. Default: "Used by following contents"
 msgid "Used by following contents"
-msgstr ""
+msgstr "Used by following contents"
 
 #. Default: "Used in the assembly for meetings"
 msgid "Used in the assembly for meetings"
-msgstr ""
+msgstr "Used in the assembly for meetings"
 
 #. Default: "View linked Plone groups"
 msgid "View linked Plone groups"
@@ -1945,11 +1945,11 @@ msgstr "Add a new one"
 
 #. Default: "Add several annexes at the same time"
 msgid "add_several_annexes"
-msgstr ""
+msgstr "Add several annexes at the same time"
 
 #. Default: "Add several decision annexes at the same time"
 msgid "add_several_decision_annexes"
-msgstr ""
+msgstr "Add several decision annexes at the same time"
 
 #. Default: "You had an advice to give for \"${group_name} (${delay_label})\".  Limit date is ${limit_date}, delay is now expired.  You can access this item here: ${objectUrl}."
 msgid "adviceDelayExpired_mail_body"
@@ -2273,11 +2273,11 @@ msgstr "Asked again"
 
 #. Default: "Asker"
 msgid "asker"
-msgstr ""
+msgstr "Asker"
 
 #. Default: "Assembly member"
 msgid "assemblyMember"
-msgstr ""
+msgstr "Assembly member"
 
 #. Default: "Absents as defined on the linked meeting"
 msgid "assembly_absents_defined_on_meeting"
@@ -2309,7 +2309,7 @@ msgstr "Define here people that were excused for the meeting"
 
 #. Default: "Guests as defined on the linked meeting"
 msgid "assembly_guests_defined_on_meeting"
-msgstr ""
+msgstr "Guests as defined on the linked meeting"
 
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
 msgid "assembly_meeting_descr"
@@ -2317,7 +2317,7 @@ msgstr "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do 
 
 #. Default: "Using attribute(s) \"itemExcused\" and/or \"itemAbsents\" requires the use of attribute \"assembly\"."
 msgid "assembly_required"
-msgstr ""
+msgstr "Using attribute(s) \"itemExcused\" and/or \"itemAbsents\" requires the use of attribute \"assembly\"."
 
 #. Default: "Define here the default assembly staves (for example you may type a list of names and first names separated by colons or new lines) that will be automatically selected on newly created meetings."
 msgid "assembly_staves_descr"
@@ -2362,7 +2362,7 @@ msgstr "Choose columns to display on the table of items available for a meeting.
 
 #. Default: "Click to see available mailing lists for this POD template"
 msgid "available_mailing_lists_title"
-msgstr ""
+msgstr "Click to see available mailing lists for this POD template"
 
 #. Default: "Available meetings"
 msgid "available_meetings"
@@ -2598,7 +2598,7 @@ msgstr "Clone to ${meetingConfigTitle}"
 
 #. Default: "Your configuration says can not correct this closed meeting, contact your system administrator if you want to change this."
 msgid "closed_meeting_not_correctable_by_config"
-msgstr ""
+msgstr "Your configuration says can not correct this closed meeting, contact your system administrator if you want to change this."
 
 #. Default: "Complete"
 msgid "completeness_complete"
@@ -2650,7 +2650,7 @@ msgstr "Searches ${search_title}"
 
 #. Default: "Select here the groups you want to restrict the access to this meeting configuration to.  If left empty, every groups will have access.  When restricting groups, you often need to configure parameters \"Groups not to be displayed in the \"Group\" dashboard filter\" and \"Users not to be displayed in filters displaying users like \"Creator\" or \"Taken over by\" in the \"User interface\" tab."
 msgid "config_using_groups_descr"
-msgstr ""
+msgstr "Select here the groups you want to restrict the access to this meeting configuration to.  If left empty, every groups will have access.  When restricting groups, you often need to configure parameters \"Groups not to be displayed in the \"Group\" dashboard filter\" and \"Users not to be displayed in filters displaying users like \"Creator\" or \"Taken over by\" in the \"User interface\" tab."
 
 #. Default: "If this meeting configuration corresponds to an organization, institution or group that gives an identifier to its successive forms (ie: City council 2000-2006, 5th Parliament, VIIIth Government...), you can write here the identifier of the current form (ie: \"CC00_06\", \"P5\", \"Gov VIII\"...)."
 msgid "config_version_descr"
@@ -2955,7 +2955,7 @@ msgstr "When enabled, a configuration box will appear in the [Data] configuratio
 
 #. Default: "Check this box if you use the documents scanning functionnality."
 msgid "enable_scan_docs_descr"
-msgstr ""
+msgstr "Check this box if you use the documents scanning functionnality."
 
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"
@@ -3601,7 +3601,7 @@ msgstr "If you don't fill this field, meeting assembly excused will be used for 
 
 #. Default: "If you don't fill this field, meeting assembly guests will be used for this item"
 msgid "item_assembly_guests_descr"
-msgstr ""
+msgstr "If you don't fill this field, meeting assembly guests will be used for this item"
 
 #. Default: "This person was absent during discussion on this item"
 msgid "item_attendee_absent"
@@ -3717,11 +3717,11 @@ msgstr "When an item is in the states you check here, users having edit rights o
 
 #. Default: "Absent"
 msgid "item_not_present_type_absent"
-msgstr ""
+msgstr "Absent"
 
 #. Default: "Absent (excused)"
 msgid "item_not_present_type_excused"
-msgstr ""
+msgstr "Absent (excused)"
 
 #. Default: "No move occurred: please specify a valid number."
 msgid "item_number_invalid"
@@ -3967,11 +3967,11 @@ msgstr "If the number of meetings to display in any of those 2 portlets is highe
 
 #. Default: "Update all items and meetings of this meeting configuration"
 msgid "mc_update_all_local_roles"
-msgstr ""
+msgstr "Update all items and meetings of this meeting configuration"
 
 #. Default: "Warning: this will update every items and meetings of this configuration, it is only relevant if the field of the configuration that you changed specifies that you need to use this action.  If you only made little changes like adding or removing a state in a field, as an administrator, it is possible to update items and meetings from the dashboards.  To do this, select elements that need to be updated and use the \"Update\" batch action."
 msgid "mc_update_all_local_roles_warning"
-msgstr ""
+msgstr "Warning: this will update every items and meetings of this configuration, it is only relevant if the field of the configuration that you changed specifies that you need to use this action.  If you only made little changes like adding or removing a state in a field, as an administrator, it is possible to update items and meetings from the dashboards.  To do this, select elements that need to be updated and use the \"Update\" batch action."
 
 #. Default: "Similarly to the preceding field, all the actions that are triggered when a meeting goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions are documented."
 msgid "meeting_actions_interface_descr"
@@ -4047,7 +4047,7 @@ msgstr "This enable an action on the meeting to be able to store as annex a part
 
 #. Default: "If you check this box, meeting managers will be able to correct a closed meeting (it is not the case otherwise)."
 msgid "meeting_manager_may_correct_closed_meeting_descr"
-msgstr ""
+msgstr "If you check this box, meeting managers will be able to correct a closed meeting (it is not the case otherwise)."
 
 # MeetingItem
 #. Default: "Meeting of"
@@ -4056,7 +4056,7 @@ msgstr "Meeting of"
 
 #. Default: "Organizations"
 msgid "meeting_organizations"
-msgstr ""
+msgstr "Organizations"
 
 #. Default: "When an item is inserted in a meeting from everywhere (so not when on a meeting view), this will take the very next meeting still accepting items.  Define here states to take into account to get this very next meeting."
 msgid "meeting_present_item_when_no_current_meeting_states_descr"
@@ -4428,15 +4428,15 @@ msgstr "Select here contacts that will be usable to manage meeting attendees.  T
 
 #. Default: "Select here contacts that will be usable to manage item initiators.  The contacts order defined here will be useable if relevant."
 msgid "ordered_item_initiators_descr"
-msgstr ""
+msgstr "Select here contacts that will be usable to manage item initiators.  The contacts order defined here will be useable if relevant."
 
 #. Default: "Create new, change existing organizations parameters, ..."
 msgid "organizations_add"
-msgstr ""
+msgstr "Create new, change existing organizations parameters, ..."
 
 #. Default: "Manage organizations order, enable or disable organizations, ..."
 msgid "organizations_plonegroup"
-msgstr ""
+msgstr "Manage organizations order, enable or disable organizations, ..."
 
 #. Default: "Every unselected organizations have been removed from the \"selectable copy groups\" and \"selectable advisers\" fields of every meeting configs."
 msgid "organizations_removed_from_meetingconfigs_selectablecopygroups_selectableadvisers"
@@ -4524,11 +4524,11 @@ msgstr "Go to the previous one."
 
 #. Default: "Invalidate all cache in the application"
 msgid "pm_invalidate_all_cache"
-msgstr ""
+msgstr "Invalidate all cache in the application"
 
 #. Default: "Warning: this will invalidate all cache used in the application, this could lead to application being slow for some minutes until cache is recomputed for currently connected users but is harmless and must be done when changes impacting application header (tabs) are made or if any weirdness occurs (no access to new tabs, ...)."
 msgid "pm_invalidate_all_cache_warning"
-msgstr ""
+msgstr "Warning: this will invalidate all cache used in the application, this could lead to application being slow for some minutes until cache is recomputed for currently connected users but is harmless and must be done when changes impacting application header (tabs) are made or if any weirdness occurs (no access to new tabs, ...)."
 
 #. Default: "Modification date"
 msgid "pm_modification_date"
@@ -4568,11 +4568,11 @@ msgstr "Update annex indexes"
 
 #. Default: "Initialize personal label on existing items"
 msgid "pm_update_personal_labels"
-msgstr ""
+msgstr "Initialize personal label on existing items"
 
 #. Default: "Warning: the action \"Initialize personal labels\" will activate selected labels on every existing items that were last modified before given number of days for every users able to see these items."
 msgid "pm_update_personal_labels_warning"
-msgstr ""
+msgstr "Warning: the action \"Initialize personal labels\" will activate selected labels on every existing items that were last modified before given number of days for every users able to see these items."
 
 #. Default: "Please consult the attached document."
 msgid "podItemByMail_mail_body"
@@ -4628,19 +4628,19 @@ msgstr "Select groups that will be able to give an advice on an item even when n
 
 #. Default: "You can not remove a power observer for which the linked Plone group is not empty."
 msgid "power_observer_removed_plone_group_not_empty"
-msgstr ""
+msgstr "You can not remove a power observer for which the linked Plone group is not empty."
 
 #. Default: "You can not remove a power observer that is used in a field of this meeting configuration.  Please remove reference to this power observer in every fields of the meeting config, save it then remove this power observer."
 msgid "power_observer_removed_used_in_fields"
-msgstr ""
+msgstr "You can not remove a power observer that is used in a field of this meeting configuration.  Please remove reference to this power observer in every fields of the meeting config, save it then remove this power observer."
 
 #. Default: "You can not use same label for several power observers."
 msgid "power_observer_same_label_error"
-msgstr ""
+msgstr "You can not use same label for several power observers."
 
 #. Default: "Manage here \"Power observers\", so user profile that will be able to see items or meeting in selected states.  For each defined \"Power observer\", a group is created in groups and users management.  <span style='color: red;'>If you change this parameter, except the \"Label\" field, do not forget to run \"Update items and meetings\"!</span>"
 msgid "power_observers_descr"
-msgstr ""
+msgstr "Manage here \"Power observers\", so user profile that will be able to see items or meeting in selected states.  For each defined \"Power observer\", a group is created in groups and users management.  <span style='color: red;'>If you change this parameter, except the \"Label\" field, do not forget to run \"Update items and meetings\"!</span>"
 
 #. Default: "Power observers"
 msgid "powerobservers"
@@ -4672,7 +4672,7 @@ msgstr "Pre-validators"
 
 #. Default: "Present"
 msgid "present"
-msgstr ""
+msgstr "Present"
 
 #. Default: "Presents all selected items at once."
 msgid "present_several_items"
@@ -4753,7 +4753,7 @@ msgstr "Refresh vote values"
 
 #. Default: "Reinitialize delay for this advice?"
 msgid "reinit_delay_confirm_message"
-msgstr ""
+msgstr "Reinitialize delay for this advice?"
 
 #. Default: "Your current configuration does not allow you to ask this advice locally, the inherited advice was not removed. Contact your system administrator if necessary."
 msgid "remove_advice_inheritance_ask_locally_not_configured"
@@ -4917,15 +4917,15 @@ msgstr "items taken over"
 
 #. Default: "Unread decided items"
 msgid "searchunreaddecideditems"
-msgstr ""
+msgstr "Unread decided items"
 
 #. Default: "Unread items"
 msgid "searchunreaditems"
-msgstr ""
+msgstr "Unread items"
 
 #. Default: "Unread items in copy"
 msgid "searchunreaditemsincopy"
-msgstr ""
+msgstr "Unread items in copy"
 
 #. Default: "Validable items"
 msgid "searchvalidableitems"
@@ -5107,7 +5107,7 @@ msgstr "Select groups that will be able to use this item as template.  If every 
 
 #. Default: "Enter elements that are necessary for this kind of item to be considered as \"complete\"."
 msgid "text_check_list_descr"
-msgstr ""
+msgstr "Enter elements that are necessary for this kind of item to be considered as \"complete\"."
 
 #. Default: "the advice was asked after this date."
 msgid "the advice was asked after this date."
@@ -5259,7 +5259,7 @@ msgstr "When the application is in \"Restrict users\" mode, the following users 
 
 #. Default: "Updated accesses for ${number_of_elements} element(s)."
 msgid "update_selected_elements"
-msgstr ""
+msgstr "Updated accesses for ${number_of_elements} element(s)."
 
 #. Default: "Set all votes to \"yes\""
 msgid "update_votes_yes"
@@ -5327,7 +5327,7 @@ msgstr "The advisers of the group that gave the advice"
 
 #. Default: "The \"${reader_usecase}\""
 msgid "visible_for_configgroup_"
-msgstr ""
+msgstr "The \"${reader_usecase}\""
 
 #. Default: "The budget impact editors"
 msgid "visible_for_configgroup_budgetimpacteditors"
@@ -5475,7 +5475,7 @@ msgstr "Item decision is pre-encoded by item creator"
 
 #. Default: "Decide items when they come back in meeting after correction."
 msgid "wa_decide_item_when_back_to_meeting_from_returned_to_proposing_group"
-msgstr ""
+msgstr "Decide items when they come back in meeting after correction."
 
 #. Default: "Everyone reads everything in every state"
 msgid "wa_everyone_reads_all"
@@ -5619,7 +5619,7 @@ msgstr "Please wait..."
 
 #. Default: "You are currently adding an organization outside \"My organization\", please make sure this is correct.  If you want to create a new group that will be able the create items, give advices, you need to add it directly under \"My organization\"."
 msgid "warning_adding_org_outside_own_org"
-msgstr ""
+msgstr "You are currently adding an organization outside \"My organization\", please make sure this is correct.  If you want to create a new group that will be able the create items, give advices, you need to add it directly under \"My organization\"."
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"
