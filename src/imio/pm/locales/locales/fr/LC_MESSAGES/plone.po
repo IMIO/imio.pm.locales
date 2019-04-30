@@ -469,9 +469,9 @@ msgstr "Cette organisation ne peut pas être supprimée, elle est référencée 
 msgid "can_not_delete_organization_meetingitem"
 msgstr "Cette organisation ne peut pas être supprimée, elle est liée à au moins un point existant!  Vérifiez ici : ${item_url}."
 
-#. Default: "This organization can not be deleted, the linked Plone groups are not empty, check ${plone_group_id}!"
+#. Default: "This organization can not be deleted, the linked Plone groups are not empty, check ${member_id}!"
 msgid "can_not_delete_organization_plonegroup"
-msgstr "Cette organisation ne peut pas être supprimée, tous les groupes Plone liés ne sont pas vides (par exemple : ${plone_group_id})!"
+msgstr "Cette organisation ne peut pas être supprimée, tous les groupes Plone liés ne sont pas vides (par exemple : ${member_id})!"
 
 #. Default: "You can not paste an item coming from another meeting configuration!"
 msgid "cannot_paste_item_from_other_mc"
