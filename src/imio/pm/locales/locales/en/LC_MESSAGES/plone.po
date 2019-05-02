@@ -196,7 +196,7 @@ msgstr "Document template"
 
 #. Default: "Reorder items"
 msgid "Reorder items"
-msgstr ""
+msgstr "Reorder items"
 
 #. Default: "state"
 msgid "State"
@@ -426,7 +426,7 @@ msgstr "This category can not be deleted, at least one item is linked to this ca
 
 #. Default: "This category can not be deleted, at least one category of another configuration is using it, please check ${url}!"
 msgid "can_not_delete_meetingcategory_other_category_mapping"
-msgstr ""
+msgstr "This category can not be deleted, at least one category of another configuration is using it, please check ${url}!"
 
 #. Default: "This configuration can not be deleted, annex types defined in this configuration are used in field 'Correspondences while sent to other meeting configs' of at least another configuration, check ${other_config_title}!"
 msgid "can_not_delete_meetingconfig_annex_types"
@@ -463,6 +463,10 @@ msgstr "This organization can not be deleted, it is linked to one existing item 
 #. Default: "This organization can not be deleted, it is used as group in charge of organization ${org_url}!"
 msgid "can_not_delete_organization_groupincharge"
 msgstr "This organization can not be deleted, it is used as group in charge of organization ${org_url}!"
+
+#. Default: "This organization can not be deleted, it is used in a category, check ${url}!"
+msgid "can_not_delete_organization_meetingcategory"
+msgstr "This organization can not be deleted, it is used in a category, check ${url}!"
 
 #. Default: "This organization can not be deleted, it is referenced in a meeting configuration (check ${cfg_url})!"
 msgid "can_not_delete_organization_meetingconfig"
@@ -539,7 +543,7 @@ msgstr "Deactivate"
 
 #. Default: "Deactivated"
 msgid "deactivated"
-msgstr ""
+msgstr "Deactivated"
 
 #. Default: "Decide"
 msgid "decide"
