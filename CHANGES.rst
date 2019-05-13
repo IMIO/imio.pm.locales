@@ -27,7 +27,8 @@ Changelog
 - Added translation for 'can_not_delete_meetingcategory_other_category_mapping'
 - Review message used as 'title' on a HTML tag to always use same format (especially no '.' at the end)
 - Added translations for MeetingConfig.meetingPresentItemWhenNoCurrentMeetingStates related functionnality.
-- Changed translation for users who recive mail when item is delayed or an advice was given.
+- Changed translation for users who recive mail when item is delayed or an advice was given
+- Put the status before the title in the email topics
 
 4.1b12 (2019-01-31)
 -------------------

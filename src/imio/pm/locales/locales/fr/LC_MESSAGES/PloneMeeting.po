@@ -3768,9 +3768,9 @@ msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUr
 # This default is used if no accurate translation can be found. We will try for example to translate
 # item_state_changed_decided_mail_subject, if not found (by default), we use item_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - ${itemTitle} - The item is now in state \"${itemState}\"."
+#. Default: "${meetingConfigTitle} - The item is now in state \"${itemState}\" - ${itemTitle}."
 msgid "item_state_changed_default_mail_subject"
-msgstr "${meetingConfigTitle} - ${itemTitle} - Le point est maintenant dans l'état \"${itemState}\"."
+msgstr "${meetingConfigTitle} - Le point est maintenant dans l'état \"${itemState}\" - ${itemTitle}."
 
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
@@ -4078,9 +4078,9 @@ msgstr "Vous pouvez accéder à la séance ici: '${objectUrl}'."
 # This default is used if no accurate translation can be found. We will try for example to translate
 # meeting_state_changed_decided_mail_subject, if not found (by default), we use meeting_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - ${meetingTitle} - The meeting is now in state \"${meetingState}\"."
+#. Default: "${meetingConfigTitle} - The meeting is now in state \"${meetingState}\" - ${meetingTitle}."
 msgid "meeting_state_changed_default_mail_subject"
-msgstr "${meetingConfigTitle} - ${meetingTitle} - La séance est maintenant \"${meetingState}\"."
+msgstr "${meetingConfigTitle} - La séance est maintenant \"${meetingState}\" - ${meetingTitle}."
 
 #. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 msgid "meeting_transition_inserting_me_descr"

@@ -3301,7 +3301,7 @@ msgstr ""
 # This default is used if no accurate translation can be found. We will try for example to translate
 # item_state_changed_decided_mail_subject, if not found (by default), we use item_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - ${itemTitle} - The item is now in state \"${itemState}\"."
+#. Default: "${meetingConfigTitle} - The item is now in state \"${itemState}\" - ${itemTitle}."
 msgid "item_state_changed_default_mail_subject"
 msgstr ""
 
@@ -3426,7 +3426,7 @@ msgstr ""
 # This default is used if no accurate translation can be found. We will try for example to translate
 # meeting_state_changed_decided_mail_subject, if not found (by default), we use meeting_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - ${meetingTitle} - The meeting is now in state \"${meetingState}\"."
+#. Default: "${meetingConfigTitle} - The meeting is now in state \"${meetingState}\" - ${meetingTitle}."
 msgid "meeting_state_changed_default_mail_subject"
 msgstr ""
 
