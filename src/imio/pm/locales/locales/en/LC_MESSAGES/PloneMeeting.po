@@ -2416,6 +2416,10 @@ msgstr "Budget impact editors"
 msgid "can_not_access_this_item"
 msgstr "You can not access this item"
 
+#. Default: "You can not define two rows for the same meeting configuration!"
+msgid "can_not_define_two_rows_for_same_meeting_config"
+msgstr "You can not define two rows for the same meeting configuration!"
+
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
@@ -3002,9 +3006,8 @@ msgid "error_list_types_wrong_identifier_format"
 msgstr "You may only use lowercase letters for identifier."
 
 #. Default: "An advice was added or updated on an item (notify the \"MeetingMember\")"
-#, fuzzy
 msgid "event_add_advice"
-msgstr "An advice was added or updated on an item (notify the \"Owner\")"
+msgstr "An advice was added or updated on an item (notify the \"MeetingMember\")"
 
 #. Default: "An annex was added to an item already presented in a validated agenda (notify \"MeetingManagers\")"
 msgid "event_add_annex"
@@ -3026,9 +3029,9 @@ msgstr "An advice needs to be given on an item (notify users able to add advice)
 msgid "event_ask_discuss_item"
 msgstr "A reviewer wants to discuss an item (notify \"MeetingManagers\")"
 
-#. Default: "An advice on an item has been invalidated (notify creator of the advice that was invalidated)"
+#. Default: "An advice on an item has been invalidated (notify users able to give the advice that was invalidated)"
 msgid "event_invalidate_advice"
-msgstr "An advice on an item has been invalidated (notify creator of the advice that was invalidated)"
+msgstr "An advice on an item has been invalidated (notify users able to give the advice that was invalidated)"
 
 #. Default: "An item as been cloned to this meetingConfig (notify users able to edit the new item)"
 msgid "event_item_clone_to_this_mc"
@@ -3038,13 +3041,13 @@ msgstr "An item as been cloned to this meetingConfig (notify users able to edit 
 msgid "event_item_copy_groups"
 msgstr "An item is now visible by copy groups (notify members of the copy groups)"
 
-#. Default: "An item has been delayed (notify the \"Owner\")"
+#. Default: "An item has been delayed (notify the \"MeetingMember\")"
 msgid "event_item_delayed"
-msgstr "An item has been delayed (notify the \"Owner\")"
+msgstr "An item has been delayed (notify the \"MeetingMember\")"
 
-#. Default: "An item has been inserted into a meeting (notify the \"Owner\")"
+#. Default: "An item has been inserted into a meeting (notify the \"MeetingMember\")"
 msgid "event_item_presented"
-msgstr "An item has been inserted into a meeting (notify the \"Owner\")"
+msgstr "An item has been inserted into a meeting (notify the \"MeetingMember\")"
 
 #. Default: "An item has been corrected and sent to the meeting managers (notify \"MeetingManagers\")"
 msgid "event_item_returned_to_meeting_managers"
@@ -3054,9 +3057,9 @@ msgstr "An item has been corrected and sent to the meeting managers (notify \"Me
 msgid "event_item_returned_to_proposing_group"
 msgstr "An item has been sent back to the proposing group (notify users able to edit the item to correct)"
 
-#. Default: "An item has been removed from a meeting (notify the \"Owner\")"
+#. Default: "An item has been removed from a meeting (notify the \"MeetingMember\")"
 msgid "event_item_unpresented"
-msgstr "An item has been removed from a meeting (notify the \"Owner\")"
+msgstr "An item has been removed from a meeting (notify the \"MeetingMember\")"
 
 #. Default: "A late item was just validated (notify \"MeetingManagers\")"
 msgid "event_late_item"
@@ -3769,9 +3772,9 @@ msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${
 # This default is used if no accurate translation can be found. We will try for example to translate
 # item_state_changed_decided_mail_subject, if not found (by default), we use item_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - ${itemTitle} - The item is now in state \"${itemState}\"."
+#. Default: "${meetingConfigTitle} - The item is now in state \"${itemState}\" - ${itemTitle}."
 msgid "item_state_changed_default_mail_subject"
-msgstr "${meetingConfigTitle} - ${itemTitle} - The item is now in state \"${itemState}\"."
+msgstr "${meetingConfigTitle} - The item is now in state \"${itemState}\" - ${itemTitle}."
 
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
@@ -4080,9 +4083,9 @@ msgstr "You can consult this meeting at ${objectUrl}."
 # This default is used if no accurate translation can be found. We will try for example to translate
 # meeting_state_changed_decided_mail_subject, if not found (by default), we use meeting_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - ${meetingTitle} - The meeting is now in state \"${meetingState}\"."
+#. Default: "${meetingConfigTitle} - The meeting is now in state \"${meetingState}\" - ${meetingTitle}."
 msgid "meeting_state_changed_default_mail_subject"
-msgstr "${meetingConfigTitle} - ${meetingTitle} - The meeting is now in state \"${meetingState}\"."
+msgstr "${meetingConfigTitle} - The meeting is now in state \"${meetingState}\" - ${meetingTitle}."
 
 #. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 msgid "meeting_transition_inserting_me_descr"
@@ -5230,6 +5233,10 @@ msgstr "This transition was triggered automatically while this item was sent to 
 msgid "transition_event"
 msgstr "WF transition ${state_info} (notify users able to view the element)."
 
+#. Default: "The transition you selected does not correspond to the meeting configuration!  Please select a transition using corresponding meeting configuration"
+msgid "transition_not_from_selected_meeting_config"
+msgstr "The transition you selected does not correspond to the meeting configuration!  Please select a transition using corresponding meeting configuration"
+
 #. Default: "Set here the sequence of transitions in the right order to be triggered on an item for it to be presented to a meeting.  The first transition is the one that starts from the initial state and the last transition should be \"present\".  This is used in several functionnalities like recurring items or items sent to another meeting config that need to be presented automatically."
 msgid "transitions_for_presenting_an_item_descr"
 msgstr "Set here the sequence of transitions in the right order to be triggered on an item for it to be presented to a meeting.  The first transition is the one that starts from the initial state and the last transition should be \"present\".  This is used in several functionnalities like recurring items or items sent to another meeting config that need to be presented automatically."
@@ -5253,6 +5260,10 @@ msgstr "Show all"
 #. Default: "An annex type is required."
 msgid "type_required"
 msgstr "An annex type is required."
+
+#. Default: "Unknown meeting configuration (${meeting_config_id})!"
+msgid "unknown_meeting_config_id"
+msgstr "Unknown meeting configuration (${meeting_config_id})!"
 
 #. Default: "When the application is in \"Restrict users\" mode, the following users will still be able to consult page \"Meeting view.\" Please type one user ID per line."
 msgid "unrestricted_users_descr"

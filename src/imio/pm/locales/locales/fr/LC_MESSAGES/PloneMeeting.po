@@ -2416,6 +2416,10 @@ msgstr "Gestionnaires d'informations budgétaires"
 msgid "can_not_access_this_item"
 msgstr "Vous ne pouvez pas accéder à ce point"
 
+#. Default: "You can not define two rows for the same meeting configuration!"
+msgid "can_not_define_two_rows_for_same_meeting_config"
+msgstr "Vous ne pouvez pas définir 2 lignes pour le même type de séance!"
+
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "Ce point ne peut plus être renvoyé vers les gestionnaires de séance car la séance dans laquelle ce point est présenté est dans un état qui ne l'autorise pas (${meetingState})."
@@ -5228,6 +5232,10 @@ msgstr "Cette transition a été déclenchée automatiquement lorsque ce point a
 msgid "transition_event"
 msgstr "Transition du WF \"${state_info}\" (prévient les utilisateurs capables de voir l'élément)"
 
+#. Default: "The transition you selected does not correspond to the meeting configuration!  Please select a transition using corresponding meeting configuration"
+msgid "transition_not_from_selected_meeting_config"
+msgstr "La transition sélectionnée ne correspond pas au type de séance sélectionné!"
+
 #. Default: "Set here the sequence of transitions in the right order to be triggered on an item for it to be presented to a meeting.  The first transition is the one that starts from the initial state and the last transition should be \"present\".  This is used in several functionnalities like recurring items or items sent to another meeting config that need to be presented automatically."
 msgid "transitions_for_presenting_an_item_descr"
 msgstr "Renseignez la succession de transitions à déclencher dans l'ordre sur un point pour qu'il soit présenté dans une séance.  La première transition est celle qui part de l'état initial du point et la dernière renseignée devrait être \"présenter\".  Cette configuration est nécessaire pour différentes fonctionnalités comme les points récurrents ou les points automatiquement insérés dans une séance lorsqu'ils sont envoyés vers un autre type de séance."
@@ -5251,6 +5259,10 @@ msgstr "Tout montrer"
 #. Default: "An annex type is required."
 msgid "type_required"
 msgstr "Veuillez choisir un type d'annexe."
+
+#. Default: "Unknown meeting configuration (${meeting_config_id})!"
+msgid "unknown_meeting_config_id"
+msgstr "Type de séance inconnu (${meeting_config_id})!"
 
 #. Default: "When the application is in \"Restrict users\" mode, the following users will still be able to consult page \"Meeting view.\" Please type one user ID per line."
 msgid "unrestricted_users_descr"

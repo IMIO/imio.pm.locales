@@ -2435,6 +2435,10 @@ msgstr ""
 msgid "can_not_access_this_item"
 msgstr ""
 
+#. Default: "You can not define two rows for the same meeting configuration!"
+msgid "can_not_define_two_rows_for_same_meeting_config"
+msgstr ""
+
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr ""
@@ -3053,7 +3057,7 @@ msgstr ""
 msgid "event_ask_discuss_item"
 msgstr "Ein Rezensent möchte einen TOP diskutieren"
 
-#. Default: "An advice on an item has been invalidated (notify creator of the advice that was invalidated)"
+#. Default: "An advice on an item has been invalidated (notify users able to give the advice that was invalidated)"
 #, fuzzy
 msgid "event_invalidate_advice"
 msgstr "Ein Kommentar oder ein TOP sind ungültig geworden"
@@ -3066,12 +3070,12 @@ msgstr ""
 msgid "event_item_copy_groups"
 msgstr ""
 
-#. Default: "An item has been delayed (notify the \"Owner\")"
+#. Default: "An item has been delayed (notify the \"MeetingMember\")"
 #, fuzzy
 msgid "event_item_delayed"
 msgstr "Ein TOP wurde verschoben"
 
-#. Default: "An item has been inserted into a meeting (notify the \"Owner\")"
+#. Default: "An item has been inserted into a meeting (notify the \"MeetingMember\")"
 #, fuzzy
 msgid "event_item_presented"
 msgstr "Ein TOP wurde zu einer Sitzung hinzugefügt"
@@ -3084,7 +3088,7 @@ msgstr ""
 msgid "event_item_returned_to_proposing_group"
 msgstr ""
 
-#. Default: "An item has been removed from a meeting (notify the \"Owner\")"
+#. Default: "An item has been removed from a meeting (notify the \"MeetingMember\")"
 #, fuzzy
 msgid "event_item_unpresented"
 msgstr "Ein TOP wurde von einer Sitzung zurückgezogen"
@@ -3818,7 +3822,7 @@ msgstr ""
 # This default is used if no accurate translation can be found. We will try for example to translate
 # item_state_changed_decided_mail_subject, if not found (by default), we use item_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - ${itemTitle} - The item is now in state \"${itemState}\"."
+#. Default: "${meetingConfigTitle} - The item is now in state \"${itemState}\" - ${itemTitle}."
 msgid "item_state_changed_default_mail_subject"
 msgstr ""
 
@@ -4137,7 +4141,7 @@ msgstr ""
 # This default is used if no accurate translation can be found. We will try for example to translate
 # meeting_state_changed_decided_mail_subject, if not found (by default), we use meeting_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - ${meetingTitle} - The meeting is now in state \"${meetingState}\"."
+#. Default: "${meetingConfigTitle} - The meeting is now in state \"${meetingState}\" - ${meetingTitle}."
 msgid "meeting_state_changed_default_mail_subject"
 msgstr ""
 
@@ -5313,6 +5317,10 @@ msgstr ""
 msgid "transition_event"
 msgstr ""
 
+#. Default: "The transition you selected does not correspond to the meeting configuration!  Please select a transition using corresponding meeting configuration"
+msgid "transition_not_from_selected_meeting_config"
+msgstr ""
+
 #. Default: "Set here the sequence of transitions in the right order to be triggered on an item for it to be presented to a meeting.  The first transition is the one that starts from the initial state and the last transition should be \"present\".  This is used in several functionnalities like recurring items or items sent to another meeting config that need to be presented automatically."
 msgid "transitions_for_presenting_an_item_descr"
 msgstr ""
@@ -5336,6 +5344,10 @@ msgstr ""
 #. Default: "An annex type is required."
 msgid "type_required"
 msgstr "Ein Anhangs-Typ wird benötigt."
+
+#. Default: "Unknown meeting configuration (${meeting_config_id})!"
+msgid "unknown_meeting_config_id"
+msgstr ""
 
 #. Default: "When the application is in \"Restrict users\" mode, the following users will still be able to consult page \"Meeting view.\" Please type one user ID per line."
 #, fuzzy

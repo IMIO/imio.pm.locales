@@ -5697,3 +5697,15 @@ msgstr ""
 #. Default: "Your configuration says can not correct this closed meeting, contact your system administrator if you want to change this."
 msgid "closed_meeting_not_correctable_by_config"
 msgstr ""
+
+#. Default: "You can not define two rows for the same meeting configuration!"
+msgid "can_not_define_two_rows_for_same_meeting_config"
+msgstr ""
+
+#. Default: "Unknown meeting configuration (${meeting_config_id})!"
+msgid "unknown_meeting_config_id"
+msgstr ""
+
+#. Default: "The transition you selected does not correspond to the meeting configuration!  Please select a transition using corresponding meeting configuration"
+msgid "transition_not_from_selected_meeting_config"
+msgstr ""
