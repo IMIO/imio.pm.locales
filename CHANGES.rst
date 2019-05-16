@@ -95,7 +95,7 @@ Changelog
 ------------------
 
 - Added translations for WFA 'wa_presented_item_back_to_itemcreated',
- 'wa_presented_item_back_to_prevalidated' and 'wa_presented_item_back_to_itemcreated'.
+  'wa_presented_item_back_to_prevalidated' and 'wa_presented_item_back_to_itemcreated'.
 
 4.1b5 (2018-02-23)
 ------------------
