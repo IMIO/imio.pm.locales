@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1b13 (unreleased)
+4.1b13 (2019-05-17)
 -------------------
 
 - Changed translation for header_getItemNumber from empty space to non-breaking spaces.
