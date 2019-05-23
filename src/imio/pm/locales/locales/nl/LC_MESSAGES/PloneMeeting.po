@@ -1470,6 +1470,10 @@ msgstr ""
 msgid "PloneMeeting_label_restrictAccessToSecretItems"
 msgstr ""
 
+#. Default: "Restrict access to secret items to"
+msgid "PloneMeeting_label_restrictAccessToSecretItemsTo"
+msgstr ""
+
 #. Default: "\"Restrict users\" mode"
 msgid "PloneMeeting_label_restrictUsers"
 msgstr ""
@@ -4821,6 +4825,10 @@ msgstr ""
 
 #. Default: "Check the box if access to secret items must be restricted.  This will let only users for which an explicit access to the item has been given, access the item.  It will be the case so for members of the proposing groups, power users (Managers, MeetingManagers, power observers), copy groups and advisers.  Only activate this if necessary, it could be the case if you have a state where everything is accessible by everyone (like a \"published\" state for items) but where you want \"secret\" items not to be accessible by everyone."
 msgid "restrict_access_to_secret_items_descr"
+msgstr ""
+
+#. Default: "Restrict access to secret items to description"
+msgid "restrict_access_to_secret_items_to_descr"
 msgstr ""
 
 #. Default: "If you check this box, the application will enter into a kind of \"emergency\" mode that allows, under heavy load, to limit the number of users allowed to access the page \"Meeting view\". If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page \"Meeting view\"."

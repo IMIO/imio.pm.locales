@@ -35,6 +35,7 @@ Changelog
 - Added translations for MeetingConfig.meetingPresentItemWhenNoCurrentMeetingStates related functionnality.
 - Changed translation for users who recive mail when item is delayed or an advice was given
 - Put the status before the title in the email topics
+- Added missing transaltions (restrict_access_to_secret_items_to_descr, PloneMeeting_label_restrictAccessToSecretItemsTo)
 
 4.1b12 (2019-01-31)
 -------------------
