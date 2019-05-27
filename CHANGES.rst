@@ -5,8 +5,7 @@ Changelog
 4.1b14 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Adapted translations for MeetingConfig.defaultAdviceHiddenDuringRedaction label.
 
 4.1b13 (2019-05-17)
 -------------------
