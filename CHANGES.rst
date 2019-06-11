@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1rc1 (unreleased)
+4.1rc1 (2019-06-11)
 -------------------
 
 - Adapted translations for MeetingConfig.defaultAdviceHiddenDuringRedaction label.
