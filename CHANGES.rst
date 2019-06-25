@@ -6,6 +6,7 @@ Changelog
 -------------------
 
 - Added translation for IPMHeldPosition.position description.
+- Added translations for new inserting method 'on_all_associated_groups' and related changes (MeetingConfig.orderedAssociatedOrganizations).
 
 4.1rc1 (2019-06-11)
 -------------------

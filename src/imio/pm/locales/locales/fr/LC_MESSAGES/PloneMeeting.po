@@ -19,6 +19,10 @@ msgstr ""
 msgid "${element_title} (Inactive)"
 msgstr "${element_title} (Désactivé)"
 
+#. Default: "${term_title} (Not selected in plonegroup)"
+msgid "${term_title} (Not selected in plonegroup)"
+msgstr "${term_title} (Non sélectionné dans plonegroup)"
+
 #. Default: "(Nobody)"
 msgid "(Nobody)"
 msgstr "(Personne)"
@@ -1336,6 +1340,10 @@ msgstr "Demander l'avis de"
 #. Default: "Oral question ?"
 msgid "PloneMeeting_label_oralQuestion"
 msgstr "Ce point est une question orale ?"
+
+#. Default: "Associated organizations order"
+msgid "PloneMeeting_label_orderedAssociatedOrganizations"
+msgstr "Groupes associés sélectionnables sur les points"
 
 #. Default: "Selectable assembly members"
 msgid "PloneMeeting_label_orderedContacts"
@@ -4365,6 +4373,10 @@ msgstr "Observateur"
 msgid "observers"
 msgstr "Observateurs"
 
+#. Default: "Follow all associated groups order"
+msgid "on_all_associated_groups"
+msgstr "Suivre l'ordre de tous les groupes associés"
+
 #. Default: "Follow all groups order"
 msgid "on_all_groups"
 msgstr "Suivre l'ordre de tous les groupes"
@@ -4428,6 +4440,10 @@ msgstr " "
 #. Default: " "
 msgid "oral_question_item_descr"
 msgstr " "
+
+#. Default: "If this field is left empty, selectable associated organizations are every organizations selected in the plonegroup configuration panel.  Here you way select associated organizations in a particular order including organizations that are not selected in the plonegroup configuration panel.  This is only relevant if the 'Associated groups' field is enabled on items."
+msgid "ordered_associated_organizations_descr"
+msgstr "Si vous ne sélectionnez rien dans ce champ, les groupes associés sélectionnables sur un point seront toutes les organisations sélectionnées dans le panneau de configuration de plonegroup.  Sélectionnez et ordonnez ici les organisations qui pourront être sélectionnées sur les points, y compris les organisations qui ne sont pas sélectionnées dans le panneau de configuration de plonegroup. Ceci n'est utile que si vous sélectionnez \"Groupe(s) associé(s) (associatedGroups)\" dans le champ \"Attributs utilisés pour caractériser un point\" ci-dessus."
 
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
 msgid "ordered_contacts_descr"

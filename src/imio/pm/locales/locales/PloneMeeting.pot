@@ -2009,6 +2009,10 @@ msgstr ""
 msgid "on_all_groups"
 msgstr ""
 
+#. Default: "Follow all associated groups order"
+msgid "on_all_associated_groups"
+msgstr ""
+
 #. Default: "Follow the privacy (order is defined in the field \"Selectable privacies\" here under.)"
 msgid "on_privacy"
 msgstr ""
@@ -5716,4 +5720,16 @@ msgstr ""
 
 #. Default: "Restrict access to secret items to"
 msgid "PloneMeeting_label_restrictAccessToSecretItemsTo"
+msgstr ""
+
+#. Default: "Associated organizations order"
+msgid "PloneMeeting_label_orderedAssociatedOrganizations"
+msgstr ""
+
+#. Default: "If this field is left empty, selectable associated organizations are every organizations selected in the plonegroup configuration panel.  Here you way select associated organizations in a particular order including organizations that are not selected in the plonegroup configuration panel.  This is only relevant if the 'Associated groups' field is enabled on items."
+msgid "ordered_associated_organizations_descr"
+msgstr ""
+
+#. Default: "${term_title} (Not selected in plonegroup)"
+msgid "${term_title} (Not selected in plonegroup)"
 msgstr ""

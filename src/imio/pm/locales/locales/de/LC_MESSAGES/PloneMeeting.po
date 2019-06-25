@@ -19,6 +19,10 @@ msgstr ""
 msgid "${element_title} (Inactive)"
 msgstr ""
 
+#. Default: "${term_title} (Not selected in plonegroup)"
+msgid "${term_title} (Not selected in plonegroup)"
+msgstr ""
+
 #. Default: "(Nobody)"
 msgid "(Nobody)"
 msgstr ""
@@ -1341,6 +1345,10 @@ msgstr "Optionale Berater"
 #. Default: "Oral question ?"
 msgid "PloneMeeting_label_oralQuestion"
 msgstr "Ist dieser TOP ist eine mündliche Anfrage?"
+
+#. Default: "Associated organizations order"
+msgid "PloneMeeting_label_orderedAssociatedOrganizations"
+msgstr ""
 
 #. Default: "Selectable assembly members"
 msgid "PloneMeeting_label_orderedContacts"
@@ -4430,6 +4438,10 @@ msgstr ""
 msgid "observers"
 msgstr "Beobachter"
 
+#. Default: "Follow all associated groups order"
+msgid "on_all_associated_groups"
+msgstr ""
+
 #. Default: "Follow all groups order"
 msgid "on_all_groups"
 msgstr "Der Gruppensortierung folgen"
@@ -4493,6 +4505,10 @@ msgstr "Wähle Berater welche zu diesem TOP einen optionalen Kommentar abgeben s
 
 #. Default: " "
 msgid "oral_question_item_descr"
+msgstr ""
+
+#. Default: "If this field is left empty, selectable associated organizations are every organizations selected in the plonegroup configuration panel.  Here you way select associated organizations in a particular order including organizations that are not selected in the plonegroup configuration panel.  This is only relevant if the 'Associated groups' field is enabled on items."
+msgid "ordered_associated_organizations_descr"
 msgstr ""
 
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
