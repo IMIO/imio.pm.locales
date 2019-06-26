@@ -583,6 +583,10 @@ msgstr "Aucune donnée historisée pour cet avis."
 msgid "No history informations are available for now."
 msgstr "Aucune information d'historique disponible pour l'instant."
 
+#. Default: "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
+msgid "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
+msgstr "Aucun groupe en charge valide trouvé pour le point ${item_url}, le point a été inséré en début de séance."
+
 #. Default: "None"
 msgid "None"
 msgstr "Aucun"
@@ -718,7 +722,7 @@ msgstr "Assistants par défaut"
 
 #. Default: "Associated group(s)"
 msgid "PloneMeeting_label_associatedGroups"
-msgstr "Groupe(s) associé(s)"
+msgstr "Groupes associés"
 
 #. Default: "Attendees"
 msgid "PloneMeeting_label_attendees"
@@ -1223,7 +1227,7 @@ msgstr "Mode d'envoi des courriels"
 
 #. Default: "Manually linked items"
 msgid "PloneMeeting_label_manuallyLinkedItems"
-msgstr "Point(s) lié(s) manuellement"
+msgstr "Points liés manuellement"
 
 #. Default: "Marginal notes"
 msgid "PloneMeeting_label_marginalNotes"
@@ -1348,6 +1352,10 @@ msgstr "Groupes associés sélectionnables sur les points"
 #. Default: "Selectable assembly members"
 msgid "PloneMeeting_label_orderedContacts"
 msgstr "Membres d'assemblée sélectionnables"
+
+#. Default: "Ordered groups in charge"
+msgid "PloneMeeting_label_orderedGroupsInCharge"
+msgstr "Groupes en charge sélectionnables sur les points"
 
 #. Default: "Selectable item initiators"
 msgid "PloneMeeting_label_orderedItemInitiators"
@@ -2362,7 +2370,7 @@ msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par le
 
 #. Default: "Automatically linked items"
 msgid "auto_linked_items"
-msgstr "Point(s) lié(s) automatiquement"
+msgstr "Points liés automatiquement"
 
 #. Default: "Available items for this meeting"
 msgid "available_items"
@@ -3761,11 +3769,11 @@ msgstr "À chaque point est associé une référence dont le format peut être d
 
 #. Default: "If you don't select anyone in this list, meeting signatory(ies) will be used for this item."
 msgid "item_signatories_descr"
-msgstr "Si vous ne sélectionnez personne dans cette liste, le(s) signataire(s) de la séance sera (seront) utilisé(s)."
+msgstr "Si vous ne sélectionnez personne dans cette liste, les signataires de la séance seront utilisés."
 
 #. Default: "If you don't fill this field, meeting signature(s) will be used for this item."
 msgid "item_signatures_descr"
-msgstr "Si vous ne remplissez pas ce champ, la (les) signature(s) de la séance sera (seront) utilisée(s)."
+msgstr "Si vous ne remplissez pas ce champ, les signatures de la séance seront utilisées."
 
 #. Default: "Specifically, for this item:"
 msgid "item_specific"
@@ -3883,11 +3891,11 @@ msgstr "--- Ne rien faire, laisser le point dans son état initial ---"
 
 #. Default: "Linked items (${auto_linked_items})"
 msgid "linked_items"
-msgstr "Point(s) lié(s) (${auto_linked_items})"
+msgstr "Points liés (${auto_linked_items})"
 
 #. Default: "Linked items, ${auto_linked_items} automatically and ${manually_linked_items} manually"
 msgid "linked_items_with_manually_linked_items"
-msgstr "Point(s) lié(s), ${auto_linked_items} automatiquement et ${manually_linked_items} manuellement"
+msgstr "Points liés, ${auto_linked_items} automatiquement et ${manually_linked_items} manuellement"
 
 #. Default: "Late"
 msgid "list_type_late"
@@ -4301,6 +4309,10 @@ msgstr "Pas de points."
 msgid "no_pod_folder"
 msgstr "Aucun canevas défini pour le moment."
 
+#. Default: "Attributes \"proposingGroupWithGroupInCharge\" and \"groupsInCharge\" can't be used together."
+msgid "no_proposingGroupWithGroupInCharge_and_groupsInCharge"
+msgstr "Les attributs \"Groupe proposant (Groupe en charge) (proposingGroupWithGroupInCharge)\" et \"Groupes en charge (groupsInCharge)\" ne peuvent être utilisés ensemble."
+
 #. Default: "No recurring item is currently defined."
 msgid "no_recurring_item"
 msgstr "Aucun point récurrent n'est actuellement défini."
@@ -4441,13 +4453,17 @@ msgstr " "
 msgid "oral_question_item_descr"
 msgstr " "
 
-#. Default: "If this field is left empty, selectable associated organizations are every organizations selected in the plonegroup configuration panel.  Here you way select associated organizations in a particular order including organizations that are not selected in the plonegroup configuration panel.  This is only relevant if the 'Associated groups' field is enabled on items."
+#. Default: "If this field is left empty, selectable associated organizations are every organizations selected in the plonegroup configuration panel.  Here you may select associated organizations in a particular order including organizations that are not selected in the plonegroup configuration panel.  This is only relevant if the 'Associated groups' field is enabled on items."
 msgid "ordered_associated_organizations_descr"
-msgstr "Si vous ne sélectionnez rien dans ce champ, les groupes associés sélectionnables sur un point seront toutes les organisations sélectionnées dans le panneau de configuration de plonegroup.  Sélectionnez et ordonnez ici les organisations qui pourront être sélectionnées sur les points, y compris les organisations qui ne sont pas sélectionnées dans le panneau de configuration de plonegroup. Ceci n'est utile que si vous sélectionnez \"Groupe(s) associé(s) (associatedGroups)\" dans le champ \"Attributs utilisés pour caractériser un point\" ci-dessus."
+msgstr "Par défaut, les groupes associés sélectionnables sur un point seront toutes les organisations sélectionnées dans le panneau de configuration de plonegroup.  Définissez ici les organisations qui pourront être sélectionnées sur les points, y compris les organisations qui ne sont pas sélectionnées dans le panneau de configuration de plonegroup. Ceci n'est utile que si vous utilisez le champ \"Groupes associés (associatedGroups)\" sur les points."
 
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
 msgid "ordered_contacts_descr"
 msgstr "Sélectionnez les contacts qui seront utilisés comme membres d'assemblée pour les séances, c'est-à-dire les éléments de type \"Fonction occupée\" pour lesquels la valeur \"Membre d'assemblée\" est sélectionnée dans le champ \"Utilisé comme\".  L'ordre sélectionné ici sera celui repris par défaut sur chaque séance <span style='color:red;'>nouvellement créée, les changements apportés à ce champ n'impacte pas les séances déjà créées.</span> Ceci fonctionnera uniquement si vous utilisez l'attribut \"Présents (attendees)\" sur les séances."
+
+#. Default: "If this field is left empty, selectable groups in charge are every organizations selected in the plonegroup configuration panel.  Here you may select groups in charge in a particular order.  This is only relevant if the 'Groups in charge' field is enabled on items."
+msgid "ordered_groups_in_charge_descr"
+msgstr "Par défaut, les groupes en charge sélectionnables sur un point seront toutes les organisations sélectionnées dans le panneau de configuration de plonegroup. Vous pouvez changer cela en définissant ici les groupes en charge ainsi que l'ordre à utiliser. Ceci n'est utile que si vous utilisez le champ \"Groupes en charge (groupsInCharge)\" sur les points."
 
 #. Default: "Select here contacts that will be usable to manage item initiators.  The contacts order defined here will be useable if relevant."
 msgid "ordered_item_initiators_descr"

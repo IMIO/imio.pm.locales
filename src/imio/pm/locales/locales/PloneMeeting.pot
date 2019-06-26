@@ -1912,6 +1912,10 @@ msgstr ""
 msgid "custom_adviser_not_enough_columns_filled"
 msgstr ""
 
+#. Default: "Attributes \"proposingGroupWithGroupInCharge\" and \"groupsInCharge\" can't be used together."
+msgid "no_proposingGroupWithGroupInCharge_and_groupsInCharge"
+msgstr ""
+
 #. Default: "Attributes \"signatures\" and \"signatories\" can't be used together."
 msgid "no_signatories_and_signatures"
 msgstr ""
@@ -5726,10 +5730,22 @@ msgstr ""
 msgid "PloneMeeting_label_orderedAssociatedOrganizations"
 msgstr ""
 
-#. Default: "If this field is left empty, selectable associated organizations are every organizations selected in the plonegroup configuration panel.  Here you way select associated organizations in a particular order including organizations that are not selected in the plonegroup configuration panel.  This is only relevant if the 'Associated groups' field is enabled on items."
+#. Default: "If this field is left empty, selectable associated organizations are every organizations selected in the plonegroup configuration panel.  Here you may select associated organizations in a particular order including organizations that are not selected in the plonegroup configuration panel.  This is only relevant if the 'Associated groups' field is enabled on items."
 msgid "ordered_associated_organizations_descr"
 msgstr ""
 
 #. Default: "${term_title} (Not selected in plonegroup)"
 msgid "${term_title} (Not selected in plonegroup)"
+msgstr ""
+
+#. Default: "Ordered groups in charge"
+msgid "PloneMeeting_label_orderedGroupsInCharge"
+msgstr ""
+
+#. Default: "If this field is left empty, selectable groups in charge are every organizations selected in the plonegroup configuration panel.  Here you may select groups in charge in a particular order.  This is only relevant if the 'Groups in charge' field is enabled on items."
+msgid "ordered_groups_in_charge_descr"
+msgstr ""
+
+#. Default: "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
+msgid "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
 msgstr ""

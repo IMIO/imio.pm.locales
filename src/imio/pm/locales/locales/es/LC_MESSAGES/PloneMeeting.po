@@ -587,6 +587,10 @@ msgstr ""
 msgid "No history informations are available for now."
 msgstr ""
 
+#. Default: "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
+msgid "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
+msgstr ""
+
 #. Default: "None"
 msgid "None"
 msgstr ""
@@ -1357,6 +1361,10 @@ msgstr ""
 
 #. Default: "Selectable assembly members"
 msgid "PloneMeeting_label_orderedContacts"
+msgstr ""
+
+#. Default: "Ordered groups in charge"
+msgid "PloneMeeting_label_orderedGroupsInCharge"
 msgstr ""
 
 #. Default: "Selectable item initiators"
@@ -4394,6 +4402,10 @@ msgstr "Sin temas."
 msgid "no_pod_folder"
 msgstr "Actualmente sin plantilla POD definido."
 
+#. Default: "Attributes \"proposingGroupWithGroupInCharge\" and \"groupsInCharge\" can't be used together."
+msgid "no_proposingGroupWithGroupInCharge_and_groupsInCharge"
+msgstr ""
+
 #. Default: "No recurring item is currently defined."
 msgid "no_recurring_item"
 msgstr "Actualmente sin tema recurrente definido."
@@ -4536,12 +4548,16 @@ msgstr "Elegir los consejos que tendrá que usar como un consejo opcional para e
 msgid "oral_question_item_descr"
 msgstr ""
 
-#. Default: "If this field is left empty, selectable associated organizations are every organizations selected in the plonegroup configuration panel.  Here you way select associated organizations in a particular order including organizations that are not selected in the plonegroup configuration panel.  This is only relevant if the 'Associated groups' field is enabled on items."
+#. Default: "If this field is left empty, selectable associated organizations are every organizations selected in the plonegroup configuration panel.  Here you may select associated organizations in a particular order including organizations that are not selected in the plonegroup configuration panel.  This is only relevant if the 'Associated groups' field is enabled on items."
 msgid "ordered_associated_organizations_descr"
 msgstr ""
 
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
 msgid "ordered_contacts_descr"
+msgstr ""
+
+#. Default: "If this field is left empty, selectable groups in charge are every organizations selected in the plonegroup configuration panel.  Here you may select groups in charge in a particular order.  This is only relevant if the 'Groups in charge' field is enabled on items."
+msgid "ordered_groups_in_charge_descr"
 msgstr ""
 
 #. Default: "Select here contacts that will be usable to manage item initiators.  The contacts order defined here will be useable if relevant."
