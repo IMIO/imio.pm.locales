@@ -21,7 +21,7 @@ msgstr "${element_title} (Inactive)"
 
 #. Default: "${term_title} (Not selected in plonegroup)"
 msgid "${term_title} (Not selected in plonegroup)"
-msgstr ""
+msgstr "${term_title} (Not selected in plonegroup)"
 
 #. Default: "(Nobody)"
 msgid "(Nobody)"
@@ -585,7 +585,7 @@ msgstr "No history informations are available for now."
 
 #. Default: "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
 msgid "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
-msgstr ""
+msgstr "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
 
 #. Default: "None"
 msgid "None"
@@ -1112,9 +1112,9 @@ msgstr "Description"
 msgid "PloneMeeting_label_itemFieldsToKeepConfigSortingFor"
 msgstr "Item fields to keep configuration sorting for"
 
-#. Default: "Item states in which group in charge will have access to items of groups they have in charge"
-msgid "PloneMeeting_label_itemGroupInChargeStates"
-msgstr "Item states in which group in charge will have access to items of groups they have in charge"
+#. Default: "Item states in which groups in charge will have access to items of groups they have in charge"
+msgid "PloneMeeting_label_itemGroupsInChargeStates"
+msgstr "Item states in which groups in charge will have access to items of groups they have in charge"
 
 #. Default: "Item icon color"
 msgid "PloneMeeting_label_itemIconColor"
@@ -1347,7 +1347,7 @@ msgstr "Oral question ?"
 
 #. Default: "Associated organizations order"
 msgid "PloneMeeting_label_orderedAssociatedOrganizations"
-msgstr ""
+msgstr "Associated organizations order"
 
 #. Default: "Selectable assembly members"
 msgid "PloneMeeting_label_orderedContacts"
@@ -1355,7 +1355,7 @@ msgstr "Selectable assembly members"
 
 #. Default: "Ordered groups in charge"
 msgid "PloneMeeting_label_orderedGroupsInCharge"
-msgstr ""
+msgstr "Ordered groups in charge"
 
 #. Default: "Selectable item initiators"
 msgid "PloneMeeting_label_orderedItemInitiators"
@@ -1483,7 +1483,7 @@ msgstr "Restrict access to secret items?"
 
 #. Default: "Restrict access to secret items to"
 msgid "PloneMeeting_label_restrictAccessToSecretItemsTo"
-msgstr ""
+msgstr "Restrict access to secret items to"
 
 #. Default: "\"Restrict users\" mode"
 msgid "PloneMeeting_label_restrictUsers"
@@ -3699,9 +3699,9 @@ msgstr "The item has been duplicated and a link to the original item has been ke
 msgid "item_fields_to_keep_config_sorting_for_descr"
 msgstr "By default, vocabularies used for selectable fields are sorted alphabetically, if checked, vocabulary will not be sorted and display terms as encoded in the configuration."
 
-#. Default: "When an item is in one of the states you choose here, the Plone subgroup \"observers\" of the group in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
-msgid "item_group_in_charge_states_descr"
-msgstr "When an item is in one of the states you choose here, the Plone subgroup \"observers\" of the group in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+#. Default: "When an item is in one of the states you choose here, the Plone subgroup \"observers\" of the groups in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_groups_in_charge_states_descr"
+msgstr "When an item is in one of the states you choose here, the Plone subgroup \"observers\" of the groups in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 
 #. Default: "This icon is shown in different places where different kind of item (college, council, ...) are shown together.  This is the case in the full text quick search displayed up right in the application, when selecting manually linked items or viewing linked items on the item view.  <span style='color: red;'>If you change this parameter, this will update the icon of each created items of this meeting configuration and this could take some time depending on number of items.  Do not change this during high use period!</span>"
 msgid "item_icon_color_descr"
@@ -4312,7 +4312,7 @@ msgstr "No POD template is currently defined."
 
 #. Default: "Attributes \"proposingGroupWithGroupInCharge\" and \"groupsInCharge\" can't be used together."
 msgid "no_proposingGroupWithGroupInCharge_and_groupsInCharge"
-msgstr ""
+msgstr "Attributes \"proposingGroupWithGroupInCharge\" and \"groupsInCharge\" can't be used together."
 
 #. Default: "No recurring item is currently defined."
 msgid "no_recurring_item"
@@ -4388,7 +4388,7 @@ msgstr "Observers"
 
 #. Default: "Follow all associated groups order"
 msgid "on_all_associated_groups"
-msgstr ""
+msgstr "Follow all associated groups order"
 
 #. Default: "Follow all groups order"
 msgid "on_all_groups"
@@ -4456,7 +4456,7 @@ msgstr " "
 
 #. Default: "If this field is left empty, selectable associated organizations are every organizations selected in the plonegroup configuration panel.  Here you may select associated organizations in a particular order including organizations that are not selected in the plonegroup configuration panel.  This is only relevant if the 'Associated groups' field is enabled on items."
 msgid "ordered_associated_organizations_descr"
-msgstr ""
+msgstr "If this field is left empty, selectable associated organizations are every organizations selected in the plonegroup configuration panel.  Here you may select associated organizations in a particular order including organizations that are not selected in the plonegroup configuration panel.  This is only relevant if the 'Associated groups' field is enabled on items."
 
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
 msgid "ordered_contacts_descr"
@@ -4464,7 +4464,7 @@ msgstr "Select here contacts that will be usable to manage meeting attendees.  T
 
 #. Default: "If this field is left empty, selectable groups in charge are every organizations selected in the plonegroup configuration panel.  Here you may select groups in charge in a particular order.  This is only relevant if the 'Groups in charge' field is enabled on items."
 msgid "ordered_groups_in_charge_descr"
-msgstr ""
+msgstr "If this field is left empty, selectable groups in charge are every organizations selected in the plonegroup configuration panel.  Here you may select groups in charge in a particular order.  This is only relevant if the 'Groups in charge' field is enabled on items."
 
 #. Default: "Select here contacts that will be usable to manage item initiators.  The contacts order defined here will be useable if relevant."
 msgid "ordered_item_initiators_descr"
@@ -4825,7 +4825,7 @@ msgstr "Check the box if access to secret items must be restricted.  This will l
 
 #. Default: "Restrict access to secret items to description"
 msgid "restrict_access_to_secret_items_to_descr"
-msgstr ""
+msgstr "Restrict access to secret items to description"
 
 #. Default: "If you check this box, the application will enter into a kind of \"emergency\" mode that allows, under heavy load, to limit the number of users allowed to access the page \"Meeting view\". If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page \"Meeting view\"."
 msgid "restrict_users_descr"
@@ -5401,9 +5401,9 @@ msgstr "People to which an advice has been asked on the item"
 msgid "visible_for_reader_copy_groups"
 msgstr "The copy groups set on the item"
 
-#. Default: "The group in charge"
-msgid "visible_for_reader_groupincharge"
-msgstr "The group in charge"
+#. Default: "The groups in charge"
+msgid "visible_for_reader_groupsincharge"
+msgstr "The groups in charge"
 
 #. Default: "The \"${meeting_group_suffix}\" of any group"
 msgid "visible_for_suffix_profile_"

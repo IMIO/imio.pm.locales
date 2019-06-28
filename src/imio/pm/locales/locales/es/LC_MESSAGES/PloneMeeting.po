@@ -1119,8 +1119,8 @@ msgstr ""
 msgid "PloneMeeting_label_itemFieldsToKeepConfigSortingFor"
 msgstr ""
 
-#. Default: "Item states in which group in charge will have access to items of groups they have in charge"
-msgid "PloneMeeting_label_itemGroupInChargeStates"
+#. Default: "Item states in which groups in charge will have access to items of groups they have in charge"
+msgid "PloneMeeting_label_itemGroupsInChargeStates"
 msgstr ""
 
 #. Default: "Item icon color"
@@ -3774,8 +3774,8 @@ msgstr "El tema ha sido duplicado y un enlace a el tema original se ha mantenido
 msgid "item_fields_to_keep_config_sorting_for_descr"
 msgstr ""
 
-#. Default: "When an item is in one of the states you choose here, the Plone subgroup \"observers\" of the group in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
-msgid "item_group_in_charge_states_descr"
+#. Default: "When an item is in one of the states you choose here, the Plone subgroup \"observers\" of the groups in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_groups_in_charge_states_descr"
 msgstr ""
 
 #. Default: "This icon is shown in different places where different kind of item (college, council, ...) are shown together.  This is the case in the full text quick search displayed up right in the application, when selecting manually linked items or viewing linked items on the item view.  <span style='color: red;'>If you change this parameter, this will update the icon of each created items of this meeting configuration and this could take some time depending on number of items.  Do not change this during high use period!</span>"
@@ -5525,8 +5525,8 @@ msgstr ""
 msgid "visible_for_reader_copy_groups"
 msgstr ""
 
-#. Default: "The group in charge"
-msgid "visible_for_reader_groupincharge"
+#. Default: "The groups in charge"
+msgid "visible_for_reader_groupsincharge"
 msgstr ""
 
 #. Default: "The \"${meeting_group_suffix}\" of any group"

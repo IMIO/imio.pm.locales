@@ -2713,12 +2713,12 @@ msgstr ""
 msgid "power_observers_descr"
 msgstr ""
 
-#. Default: "Item states in which group in charge will have access to items of groups they have in charge"
-msgid "PloneMeeting_label_itemGroupInChargeStates"
+#. Default: "Item states in which groups in charge will have access to items of groups they have in charge"
+msgid "PloneMeeting_label_itemGroupsInChargeStates"
 msgstr ""
 
-#. Default: "When an item is in one of the states you choose here, the Plone subgroup \"observers\" of the group in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
-msgid "item_group_in_charge_states_descr"
+#. Default: "When an item is in one of the states you choose here, the Plone subgroup \"observers\" of the groups in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_groups_in_charge_states_descr"
 msgstr ""
 
 #. Default: "Item states in which budget impact editors can change budgetary informations"
@@ -4997,8 +4997,8 @@ msgstr ""
 msgid "visible_for_reader_copy_groups"
 msgstr ""
 
-#. Default: "The group in charge"
-msgid "visible_for_reader_groupincharge"
+#. Default: "The groups in charge"
+msgid "visible_for_reader_groupsincharge"
 msgstr ""
 
 #. Default: "The power observers"
