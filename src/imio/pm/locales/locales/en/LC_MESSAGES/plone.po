@@ -456,9 +456,9 @@ msgstr "You can not delete a container containing one or several items!"
 msgid "can_not_delete_object"
 msgstr "You can not delete this element!"
 
-#. Default: "This organization can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}!"
+#. Default: "This organization can not be deleted, it is linked to one existing item at least in the configuration, please check ${item_url}!"
 msgid "can_not_delete_organization_config_meetingitem"
-msgstr "This organization can not be deleted, it is linked to one existing item at least in the configuration, please check ${url}!"
+msgstr "This organization can not be deleted, it is linked to one existing item at least in the configuration, please check ${item_url}!"
 
 #. Default: "This organization can not be deleted, it is used as group in charge of organization ${org_url}!"
 msgid "can_not_delete_organization_groupincharge"
