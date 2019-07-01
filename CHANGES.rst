@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1rc2 (unreleased)
+4.1rc2 (2019-07-01)
 -------------------
 
 - Added translation for IPMHeldPosition.position description.
