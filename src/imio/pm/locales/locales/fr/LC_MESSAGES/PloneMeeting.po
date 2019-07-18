@@ -3699,6 +3699,10 @@ msgstr "Point dupliqué et lien vers le point original gardé : vous voyez actue
 msgid "item_fields_to_keep_config_sorting_for_descr"
 msgstr "Par défaut, les vocabulaires des champs du point sont triés par ordre alphabétique.  Vous pouvez sélectionner ici les champs du points pour lesquels les termes affichés dans le vocabulaire doivent garder l'ordre défini dans la configuration."
 
+#. Default: " "
+msgid "item_groups_in_charge_descr"
+msgstr " "
+
 #. Default: "When an item is in one of the states you choose here, the Plone subgroup \"observers\" of the groups in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 msgid "item_groups_in_charge_states_descr"
 msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par le sous-groupe \"observateurs\" du(des) groupe(s) en charge sélectionné(s) sur le point.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter \"Mettre à jour les points et séances\"!</span>"
