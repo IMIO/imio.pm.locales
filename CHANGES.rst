@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1rc3 (unreleased)
+4.1rc3 (2019-07-19)
 -------------------
 
 - Added an empty translation for MeetingItem.groupsInCharge field description.
