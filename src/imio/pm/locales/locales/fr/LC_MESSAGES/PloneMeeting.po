@@ -1771,9 +1771,9 @@ msgstr "Sélectionnez une position occupée par un contact.  Lorsque vous sélec
 msgid "Select a label"
 msgstr "Sélectionnez une étiquette personnelle"
 
-#. Default: "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../edit' target='_blank'>\"edit contacts\"</a>)."
-msgid "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../edit' target='_blank'>\"edit contacts\"</a>)."
-msgstr "En sélectionnant le type de fonction adéquat, le libellé correct sera automatiquement géré en fonction du genre de la personne liée (masculin/féminin) et du contexte dans lequel il est utilisé. Les types de fonctions sont gérées sur l'élément Annuaire (contacts).  Vous pouvez <a href='../../edit' target='_blank'>éditer l'élément contacts</a> si nécessaire."
+#. Default: "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
+msgid "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
+msgstr "En sélectionnant le type de fonction adéquat, le libellé correct sera automatiquement géré en fonction du genre de la personne liée (masculin/féminin) et du contexte dans lequel il est utilisé. Les types de fonctions sont gérées sur l'élément Annuaire (contacts).  Vous pouvez <a href='../../contacts/edit' target='_blank'>éditer l'élément contacts</a> si nécessaire."
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
