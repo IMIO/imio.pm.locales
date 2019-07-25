@@ -6,6 +6,7 @@ Changelog
 -------------------
 
 - Added translations for 'Groups in charge' and 'Acronym of groups in charge' dashboard columns.
+- Moved translations from collective.contact.core to PloneMeeting domain, only use collective.contact.core to override existing translations.
 
 4.1rc3 (2019-07-19)
 -------------------
