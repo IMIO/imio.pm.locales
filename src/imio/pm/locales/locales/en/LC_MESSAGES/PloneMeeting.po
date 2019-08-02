@@ -585,7 +585,7 @@ msgstr "No history informations are available for now."
 
 #. Default: "No label defined on held position"
 msgid "No label defined on held position"
-msgstr ""
+msgstr "No label defined on held position"
 
 #. Default: "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
 msgid "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
@@ -1773,7 +1773,7 @@ msgstr "Select a label"
 
 #. Default: "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
 msgid "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
-msgstr ""
+msgstr "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
@@ -1781,7 +1781,7 @@ msgstr "Select in the list the type of item you want to add"
 
 #. Default: "Select an organization, most of time, there is one single organization, search for \"My organization\"."
 msgid "Select an organization, most of time, there is one single organization, search for \"My organization\"."
-msgstr ""
+msgstr "Select an organization, most of time, there is one single organization, search for \"My organization\"."
 
 #. Default: "Select the signature number, keep signatures ordered by number."
 msgid "Select the signature number, keep signatures ordered by number."
@@ -3709,7 +3709,7 @@ msgstr "By default, vocabularies used for selectable fields are sorted alphabeti
 
 #. Default: " "
 msgid "item_groups_in_charge_descr"
-msgstr ""
+msgstr " "
 
 #. Default: "When an item is in one of the states you choose here, the Plone subgroup \"observers\" of the groups in charge of the proposing group selected on the item will have a read access to it.  <span style='color: red;'>Take care that only the current group in charge will have access to the items.  If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 msgid "item_groups_in_charge_states_descr"
@@ -4946,6 +4946,10 @@ msgstr "Items to correct to validate"
 #. Default: "Validable items"
 msgid "searchitemstocorrecttovalidateoffeveryreviewergroups"
 msgstr "Validable items"
+
+#. Default: "Items to follow"
+msgid "searchitemstofollow"
+msgstr "Items to follow"
 
 #. Default: "Items to pre validate"
 msgid "searchitemstoprevalidate"
