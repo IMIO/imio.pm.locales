@@ -2561,16 +2561,20 @@ msgstr ""
 msgid "event_late_item"
 msgstr ""
 
-#. Default: "An item has been inserted into a meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been inserted into a meeting (notify the \"Creators\")"
 msgid "event_item_presented"
 msgstr ""
 
-#. Default: "An item has been removed from a meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been removed from a meeting (notify the \"Creators\")"
 msgid "event_item_unpresented"
 msgstr ""
 
-#. Default: "An item has been delayed (notify the \"MeetingMember\")"
+#. Default: "An item has been delayed (notify the \"Creators\")"
 msgid "event_item_delayed"
+msgstr ""
+
+#. Default: "An item has been postponed (notify the \"Creators\")"
+msgid "event_item_postponed_next_meeing"
 msgstr ""
 
 #. Default: "An annex was added to an item already presented in a validated agenda (notify \"MeetingManagers\")"
@@ -2581,7 +2585,7 @@ msgstr ""
 msgid "event_advice_to_give"
 msgstr ""
 
-#. Default: "An advice was added or updated on an item (notify the \"MeetingMember\")"
+#. Default: "An advice was added or updated on an item (notify the \"Creators\")"
 msgid "event_add_advice"
 msgstr ""
 

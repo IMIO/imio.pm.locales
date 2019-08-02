@@ -3058,7 +3058,7 @@ msgstr ""
 msgid "error_list_types_wrong_identifier_format"
 msgstr ""
 
-#. Default: "An advice was added or updated on an item (notify the \"MeetingMember\")"
+#. Default: "An advice was added or updated on an item (notify the \"Creators\")"
 #, fuzzy
 msgid "event_add_advice"
 msgstr "Es wurde ein Kommentar zu einem TOP veröffentlicht oder aktualisiert."
@@ -3098,12 +3098,16 @@ msgstr ""
 msgid "event_item_copy_groups"
 msgstr ""
 
-#. Default: "An item has been delayed (notify the \"MeetingMember\")"
+#. Default: "An item has been delayed (notify the \"Creators\")"
 #, fuzzy
 msgid "event_item_delayed"
 msgstr "Ein TOP wurde verschoben"
 
-#. Default: "An item has been inserted into a meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been postponed (notify the \"Creators\")"
+msgid "event_item_postponed_next_meeing"
+msgstr ""
+
+#. Default: "An item has been inserted into a meeting (notify the \"Creators\")"
 #, fuzzy
 msgid "event_item_presented"
 msgstr "Ein TOP wurde zu einer Sitzung hinzugefügt"
@@ -3116,7 +3120,7 @@ msgstr ""
 msgid "event_item_returned_to_proposing_group"
 msgstr ""
 
-#. Default: "An item has been removed from a meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been removed from a meeting (notify the \"Creators\")"
 #, fuzzy
 msgid "event_item_unpresented"
 msgstr "Ein TOP wurde von einer Sitzung zurückgezogen"

@@ -3033,7 +3033,7 @@ msgstr "Vous ne pouvez pas utiliser le même identifiant plusieurs fois."
 msgid "error_list_types_wrong_identifier_format"
 msgstr "Vous ne pouvez utiliser que des lettres minuscules pour l'identifiant."
 
-#. Default: "An advice was added or updated on an item (notify the \"MeetingMember\")"
+#. Default: "An advice was added or updated on an item (notify the \"Creators\")"
 msgid "event_add_advice"
 msgstr "Un avis sur un point a été rendu ou modifié (prévient les créateurs du groupe proposant du point)"
 
@@ -3069,11 +3069,15 @@ msgstr "Un point a été envoyé vers cette configuration de séance (prévient 
 msgid "event_item_copy_groups"
 msgstr "Un point est désormais visible par les groupes en copies (prévient les membres des groupes mis en copie)"
 
-#. Default: "An item has been delayed (notify the \"MeetingMember\")"
+#. Default: "An item has been delayed (notify the \"Creators\")"
 msgid "event_item_delayed"
 msgstr "Un point a été reporté (prévient les créateurs du groupe proposant du point)"
 
-#. Default: "An item has been inserted into a meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been postponed (notify the \"Creators\")"
+msgid "event_item_postponed_next_meeing"
+msgstr "Un point a été reporté à une prochaine séance (prévient les créateurs du groupe proposant du point)"
+
+#. Default: "An item has been inserted into a meeting (notify the \"Creators\")"
 msgid "event_item_presented"
 msgstr "Un point a été inséré dans une séance (prévient les créateurs du groupe proposant du point)"
 
@@ -3085,7 +3089,7 @@ msgstr "Un point corrigé par le groupe proposant a été renvoyé aux gestionna
 msgid "event_item_returned_to_proposing_group"
 msgstr "Un point a été renvoyé pour correction au groupe proposant (prévient les utilisateurs capables d'éditer le point à corriger)"
 
-#. Default: "An item has been removed from a meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been removed from a meeting (notify the \"Creators\")"
 msgid "event_item_unpresented"
 msgstr "Un point a été retiré d'une séance (prévient les créateurs du groupe proposant du point)"
 

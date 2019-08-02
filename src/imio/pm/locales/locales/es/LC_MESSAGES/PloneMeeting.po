@@ -3071,7 +3071,7 @@ msgstr ""
 msgid "error_list_types_wrong_identifier_format"
 msgstr ""
 
-#. Default: "An advice was added or updated on an item (notify the \"MeetingMember\")"
+#. Default: "An advice was added or updated on an item (notify the \"Creators\")"
 #, fuzzy
 msgid "event_add_advice"
 msgstr "Un consejo fue agregado o actualizado en un tema"
@@ -3113,12 +3113,16 @@ msgstr "Un tema ha sido clonado a esta configuración de reunión"
 msgid "event_item_copy_groups"
 msgstr ""
 
-#. Default: "An item has been delayed (notify the \"MeetingMember\")"
+#. Default: "An item has been delayed (notify the \"Creators\")"
 #, fuzzy
 msgid "event_item_delayed"
 msgstr "Un tema ha sido demorado"
 
-#. Default: "An item has been inserted into a meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been postponed (notify the \"Creators\")"
+msgid "event_item_postponed_next_meeing"
+msgstr ""
+
+#. Default: "An item has been inserted into a meeting (notify the \"Creators\")"
 #, fuzzy
 msgid "event_item_presented"
 msgstr "Un tema ha sido agregado dentro de una reunión"
@@ -3133,7 +3137,7 @@ msgstr "Un tema ha sido corregido y enviado a los administradores de reuniones"
 msgid "event_item_returned_to_proposing_group"
 msgstr "Un tema ha sido enviado de vuelta al grupo proponente"
 
-#. Default: "An item has been removed from a meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been removed from a meeting (notify the \"Creators\")"
 #, fuzzy
 msgid "event_item_unpresented"
 msgstr "Un tema ha sido removido de una reunión"
