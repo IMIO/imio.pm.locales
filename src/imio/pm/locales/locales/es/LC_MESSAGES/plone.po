@@ -93,10 +93,6 @@ msgstr "Flujo de trabajo para Temas de Reunión"
 msgid "Meeting Workflow"
 msgstr "Flujo de trabajo de Reunión"
 
-#. Default: "Meeting Archive Observer"
-msgid "MeetingArchiveObserver"
-msgstr "Observador del archivo de Reunión"
-
 #. Default: "Meeting Budget Impact Editor"
 msgid "MeetingBudgetImpactEditor"
 msgstr "Editor de impacto del presupuestario de Reunión"
@@ -142,21 +138,9 @@ msgstr ""
 msgid "MeetingManager"
 msgstr "Administrador de Reunión"
 
-#. Default: "Meeting Member"
-msgid "MeetingMember"
-msgstr "Miembro de Reunión"
-
 #. Default: "Meeting Observer Global"
 msgid "MeetingObserverGlobal"
 msgstr "Observador Global de Reunión"
-
-#. Default: "Meeting Observer Local"
-msgid "MeetingObserverLocal"
-msgstr "Observador Local de Reunión"
-
-#. Default: "Meeting Observer Unpublished"
-msgid "MeetingObserverUnpublished"
-msgstr "Observador inédito de Reunión"
 
 #. Default: "PloneGov assembly"
 msgid "MeetingPga"
@@ -165,10 +149,6 @@ msgstr "Asamblea PloneGov"
 #. Default: "PloneMeeting assembly"
 msgid "MeetingPma"
 msgstr "Asamblea PloneMeenting"
-
-#. Default: "Meeting Reviewer"
-msgid "MeetingReviewer"
-msgstr "Revisor de Reunión"
 
 #. Default: "User characteristics"
 msgid "MeetingUser"
@@ -372,6 +352,26 @@ msgstr "Volver a 'Validado previamente'"
 #. Default: "Back to 'Proposed'"
 msgid "backToProposed"
 msgstr "Volver a 'Propuesto'"
+
+#. Default: "Back to 'Proposed to level 1'"
+msgid "backToProposedToValidationLevel1"
+msgstr ""
+
+#. Default: "Back to 'Proposed to level 2'"
+msgid "backToProposedToValidationLevel2"
+msgstr ""
+
+#. Default: "Back to 'Proposed to level 3'"
+msgid "backToProposedToValidationLevel3"
+msgstr ""
+
+#. Default: "Back to 'Proposed to level 4'"
+msgid "backToProposedToValidationLevel4"
+msgstr ""
+
+#. Default: "Back to 'Proposed to level 5'"
+msgid "backToProposedToValidationLevel5"
+msgstr ""
 
 #. Default: "Back to 'Published'"
 msgid "backToPublished"
@@ -582,11 +582,13 @@ msgid "description_copyright"
 msgstr "Esta aplicación es mantenida por <a href='http://www.imio.be'>IMIO</a>, miembro de la comunidad <a href='http://www.plonegov.org'>PloneGov</a>."
 
 # Meeting-related vocabulary
-#. Default: ""
+#. Default: " "
+#, fuzzy
 msgid "description_edit_meeting"
 msgstr "Vocabulario relacionado a las reuniones"
 
-#. Default: ""
+#. Default: " "
+#, fuzzy
 msgid "description_edit_meetingitem"
 msgstr "Tema de reunión"
 
@@ -740,9 +742,49 @@ msgstr ""
 msgid "propose"
 msgstr "Proponer"
 
+#. Default: "Propose to level 1"
+msgid "proposeToValidationLevel1"
+msgstr ""
+
+#. Default: "Propose to level 2"
+msgid "proposeToValidationLevel2"
+msgstr ""
+
+#. Default: "Propose to level 3"
+msgid "proposeToValidationLevel3"
+msgstr ""
+
+#. Default: "Propose to level 4"
+msgid "proposeToValidationLevel4"
+msgstr ""
+
+#. Default: "Propose to level 5"
+msgid "proposeToValidationLevel5"
+msgstr ""
+
 #. Default: "Proposed"
 msgid "proposed"
 msgstr "Propuesto"
+
+#. Default: "Proposed to level 1"
+msgid "proposedToValidationLevel1"
+msgstr ""
+
+#. Default: "Proposed to level 2"
+msgid "proposedToValidationLevel2"
+msgstr ""
+
+#. Default: "Proposed to level 3"
+msgid "proposedToValidationLevel3"
+msgstr ""
+
+#. Default: "Proposed to level 4"
+msgid "proposedToValidationLevel4"
+msgstr ""
+
+#. Default: "Proposed to level 5"
+msgid "proposedToValidationLevel5"
+msgstr ""
 
 #. Default: "Waiting advices (proposed or prevalidated)"
 msgid "proposed__or__prevalidated_waiting_advices"

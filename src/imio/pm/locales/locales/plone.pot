@@ -52,6 +52,26 @@ msgstr ""
 msgid "proposed"
 msgstr ""
 
+#. Default: "Proposed to level 1"
+msgid "proposedToValidationLevel1"
+msgstr ""
+
+#. Default: "Proposed to level 2"
+msgid "proposedToValidationLevel2"
+msgstr ""
+
+#. Default: "Proposed to level 3"
+msgid "proposedToValidationLevel3"
+msgstr ""
+
+#. Default: "Proposed to level 4"
+msgid "proposedToValidationLevel4"
+msgstr ""
+
+#. Default: "Proposed to level 5"
+msgid "proposedToValidationLevel5"
+msgstr ""
+
 #. Default: "Pre-validated"
 msgid "prevalidated"
 msgstr ""
@@ -205,6 +225,26 @@ msgstr ""
 msgid "propose"
 msgstr ""
 
+#. Default: "Propose to level 1"
+msgid "proposeToValidationLevel1"
+msgstr ""
+
+#. Default: "Propose to level 2"
+msgid "proposeToValidationLevel2"
+msgstr ""
+
+#. Default: "Propose to level 3"
+msgid "proposeToValidationLevel3"
+msgstr ""
+
+#. Default: "Propose to level 4"
+msgid "proposeToValidationLevel4"
+msgstr ""
+
+#. Default: "Propose to level 5"
+msgid "proposeToValidationLevel5"
+msgstr ""
+
 #. Default: "Pre-validate"
 msgid "prevalidate"
 msgstr ""
@@ -231,6 +271,26 @@ msgstr ""
 
 #. Default: "Back to 'Proposed'"
 msgid "backToProposed"
+msgstr ""
+
+#. Default: "Back to 'Proposed to level 1'"
+msgid "backToProposedToValidationLevel1"
+msgstr ""
+
+#. Default: "Back to 'Proposed to level 2'"
+msgid "backToProposedToValidationLevel2"
+msgstr ""
+
+#. Default: "Back to 'Proposed to level 3'"
+msgid "backToProposedToValidationLevel3"
+msgstr ""
+
+#. Default: "Back to 'Proposed to level 4'"
+msgid "backToProposedToValidationLevel4"
+msgstr ""
+
+#. Default: "Back to 'Proposed to level 5'"
+msgid "backToProposedToValidationLevel5"
 msgstr ""
 
 #. Default: "Back to 'Created'"
@@ -507,13 +567,13 @@ msgid "heading_edit_item"
 msgstr ""
 
 # This way, the "typedescription macro in base_edit does not display 'MeetingItem' above the title.
-#. Default: ""
+#. Default: " "
 msgid "description_edit_meetingitem"
 msgstr " "
 
 # Meeting-related vocabulary
 # This way, the "typedescription macro in base_edit does not display 'Meeting' above the title.
-#. Default: ""
+#. Default: " "
 msgid "description_edit_meeting"
 msgstr " "
 
@@ -672,10 +732,6 @@ msgstr ""
 msgid "publish_decisions"
 msgstr ""
 
-#. Default: "Meeting Archive Observer"
-msgid "MeetingArchiveObserver"
-msgstr ""
-
 #. Default: "Meeting Budget Impact Editor"
 msgid "MeetingBudgetImpactEditor"
 msgstr ""
@@ -684,24 +740,8 @@ msgstr ""
 msgid "MeetingManager"
 msgstr ""
 
-#. Default: "Meeting Member"
-msgid "MeetingMember"
-msgstr ""
-
 #. Default: "Meeting Observer Global"
 msgid "MeetingObserverGlobal"
-msgstr ""
-
-#. Default: "Meeting Observer Local"
-msgid "MeetingObserverLocal"
-msgstr ""
-
-#. Default: "Meeting Observer Unpublished"
-msgid "MeetingObserverUnpublished"
-msgstr ""
-
-#. Default: "Meeting Reviewer"
-msgid "MeetingReviewer"
 msgstr ""
 
 #. Default: "Base View"
