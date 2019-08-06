@@ -408,6 +408,10 @@ msgstr "Back to proposing group from proposed"
 msgid "backTo_returned_to_proposing_group_proposed_from_returned_to_proposing_group_prevalidated"
 msgstr "Back to proposing group (proposed) from prevalidated"
 
+#. Default: "Validate"
+msgid "backTo_validated_from_waiting_advices"
+msgstr ""
+
 #. Default: "Base View"
 msgid "base_view"
 msgstr "Base View"
@@ -761,6 +765,22 @@ msgstr "Proposed"
 msgid "proposedToValidationLevel1"
 msgstr "Proposed to level 1"
 
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4__or__proposedToValidationLevel5_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2_waiting_advices"
+msgstr ""
+
 #. Default: "Proposed to level 2"
 msgid "proposedToValidationLevel2"
 msgstr "Proposed to level 2"
@@ -868,16 +888,8 @@ msgid "votes"
 msgstr "Votes"
 
 #. Default: "Ask advices"
-msgid "wait_advices_from_itemcreated"
-msgstr "Ask advices"
-
-#. Default: "Ask advices"
-msgid "wait_advices_from_prevalidated"
-msgstr "Ask advices"
-
-#. Default: "Ask advices"
-msgid "wait_advices_from_proposed"
-msgstr "Ask advices"
+msgid "wait_advices_from"
+msgstr ""
 
 #. Default: "Waiting advices"
 msgid "waiting_advices"

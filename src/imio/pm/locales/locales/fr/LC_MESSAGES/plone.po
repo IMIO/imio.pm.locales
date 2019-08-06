@@ -405,6 +405,10 @@ msgstr "Remettre en 'À corriger'"
 msgid "backTo_returned_to_proposing_group_proposed_from_returned_to_proposing_group_prevalidated"
 msgstr "Remettre en 'À corriger (proposé)'"
 
+#. Default: "Validate"
+msgid "backTo_validated_from_waiting_advices"
+msgstr "Valider"
+
 #. Default: "Base View"
 msgid "base_view"
 msgstr "Vue"
@@ -758,6 +762,22 @@ msgstr "Proposé"
 msgid "proposedToValidationLevel1"
 msgstr "Proposé au N+1"
 
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4__or__proposedToValidationLevel5_waiting_advices"
+msgstr "En attente des avis"
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4_waiting_advices"
+msgstr "En attente des avis"
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3_waiting_advices"
+msgstr "En attente des avis"
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2_waiting_advices"
+msgstr "En attente des avis"
+
 #. Default: "Proposed to level 2"
 msgid "proposedToValidationLevel2"
 msgstr "Proposé au N+2"
@@ -865,15 +885,7 @@ msgid "votes"
 msgstr "Votes"
 
 #. Default: "Ask advices"
-msgid "wait_advices_from_itemcreated"
-msgstr "Demander les avis"
-
-#. Default: "Ask advices"
-msgid "wait_advices_from_prevalidated"
-msgstr "Demander les avis"
-
-#. Default: "Ask advices"
-msgid "wait_advices_from_proposed"
+msgid "wait_advices_from"
 msgstr "Demander les avis"
 
 #. Default: "Waiting advices"

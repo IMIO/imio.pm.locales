@@ -820,16 +820,24 @@ msgstr ""
 msgid "proposed__or__prevalidated_waiting_advices"
 msgstr ""
 
-#. Default: "Ask advices"
-msgid "wait_advices_from_itemcreated"
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4__or__proposedToValidationLevel5_waiting_advices"
 msgstr ""
 
 #. Default: "Ask advices"
-msgid "wait_advices_from_proposed"
-msgstr ""
-
-#. Default: "Ask advices"
-msgid "wait_advices_from_prevalidated"
+msgid "wait_advices_from"
 msgstr ""
 
 #. Default: "Back to 'Item created'"
@@ -842,6 +850,10 @@ msgstr ""
 
 #. Default: "Back to 'Prevalidated'"
 msgid "backTo_prevalidated_from_waiting_advices"
+msgstr ""
+
+#. Default: "Validate"
+msgid "backTo_validated_from_waiting_advices"
 msgstr ""
 
 #. Default: "Annex decision"
