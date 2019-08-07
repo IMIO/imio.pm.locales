@@ -10,6 +10,7 @@ Changelog
 - Adapted translation of held_position.position_type description so link displayed to edit contacts directory works while adding/editing a held_position.
 - Added translations for "Associated groups" dashboard column and faceted filter.
 - Added translations for "items to follow" faceted search.
+- Changed translation of "Group in charge" eea faceted filter for "Groups in charge".
 
 4.1rc3 (2019-07-19)
 -------------------
