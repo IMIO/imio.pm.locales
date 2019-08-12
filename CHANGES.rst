@@ -9,6 +9,8 @@ Changelog
 - Moved translations from collective.contact.core to PloneMeeting domain, only use collective.contact.core to override existing translations.
 - Adapted translation of held_position.position_type description so link displayed to edit contacts directory works while adding/editing a held_position.
 - Added translations for "Associated groups" dashboard column and faceted filter.
+- Added translations for "items to follow" faceted search.
+- Changed translation of "Group in charge" eea faceted filter for "Groups in charge".
 - Adapted translations for mail notification (now that item validation roles are removed, MeetingMember does not exist anymore for example).
 - Added translations for default item WF validation levels defined in MeetingConfig.itemWFValidationLevels.
 
