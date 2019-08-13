@@ -5,8 +5,8 @@ Changelog
 4.1rc5 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Adapted translations for mail notification (now that item validation roles are removed, MeetingMember does not exist anymore for example).
+- Added translations for default item WF validation levels defined in MeetingConfig.itemWFValidationLevels.
 
 4.1rc4 (2019-08-13)
 -------------------
@@ -17,8 +17,6 @@ Changelog
 - Added translations for "Associated groups" dashboard column and faceted filter.
 - Added translations for "items to follow" faceted search.
 - Changed translation of "Group in charge" eea faceted filter for "Groups in charge".
-- Adapted translations for mail notification (now that item validation roles are removed, MeetingMember does not exist anymore for example).
-- Added translations for default item WF validation levels defined in MeetingConfig.itemWFValidationLevels.
 
 4.1rc3 (2019-07-19)
 -------------------
