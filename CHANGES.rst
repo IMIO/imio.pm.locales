@@ -2,7 +2,13 @@ Changelog
 =========
 
 
-4.1rc4 (unreleased)
+4.1rc5 (unreleased)
+-------------------
+
+- Nothing changed yet.
+
+
+4.1rc4 (2019-08-13)
 -------------------
 
 - Added translations for 'Groups in charge' and 'Acronym of groups in charge' dashboard columns.
