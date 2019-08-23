@@ -821,6 +821,10 @@ msgid "proposed__or__prevalidated_waiting_advices"
 msgstr ""
 
 #. Default: "Waiting advices"
+msgid "proposedToValidationLevel1_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
 msgid "proposedToValidationLevel1__or__proposedToValidationLevel2_waiting_advices"
 msgstr ""
 
@@ -836,8 +840,41 @@ msgstr ""
 msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4__or__proposedToValidationLevel5_waiting_advices"
 msgstr ""
 
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4__or__proposedToValidationLevel5_waiting_advices"
+msgstr ""
+
 #. Default: "Ask advices"
 msgid "wait_advices_from"
+msgstr ""
+
+# wait_advices_from_XXX kept for history reasons
+#. Default: "Ask advices"
+msgid "wait_advices_from_itemcreated"
+msgstr ""
+
+#. Default: "Ask advices"
+msgid "wait_advices_from_proposed"
+msgstr ""
+
+#. Default: "Ask advices"
+msgid "wait_advices_from_prevalidated"
 msgstr ""
 
 #. Default: "Back to 'Item created'"
