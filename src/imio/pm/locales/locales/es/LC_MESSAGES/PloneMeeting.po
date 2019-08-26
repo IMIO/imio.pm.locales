@@ -2543,6 +2543,10 @@ msgstr "Por favor especifique una categoría."
 msgid "category_using_groups_descr"
 msgstr "Seleccione los grupos que serán capaces de utilizar esta categoría. Si cada grupo deben ser capaces de utilizar este categoría, no seleccione nada. Presione la combinación de teclas 'CTRL + clic' para seleccionar varios categorías."
 
+#. Default: "Cautious"
+msgid "cautious"
+msgstr ""
+
 #. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
 msgid "certified_signatures_descr"
 msgstr "Defina aquí las firmas que serán usadas en las plantillas como firmas certificadas. Este campo, tendrá que ser actualizado periódicamente para que coincida con la situación existente este campo."
@@ -4765,6 +4769,10 @@ msgstr ""
 #. Default: "Positive"
 msgid "positive"
 msgstr "Positivo"
+
+#. Default: "Positive with comments"
+msgid "positive_with_comments"
+msgstr ""
 
 #. Default: "Positive with remarks"
 msgid "positive_with_remarks"

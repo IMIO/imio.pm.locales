@@ -2512,6 +2512,10 @@ msgstr "Please select a category."
 msgid "category_using_groups_descr"
 msgstr "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
 
+#. Default: "Cautious"
+msgid "cautious"
+msgstr "Cautious"
+
 #. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
 msgid "certified_signatures_descr"
 msgstr "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
@@ -4665,6 +4669,10 @@ msgstr "Secret separated"
 #. Default: "Positive"
 msgid "positive"
 msgstr "Positive"
+
+#. Default: "Positive with comments"
+msgid "positive_with_comments"
+msgstr "Positive with comments"
 
 #. Default: "Positive with remarks"
 msgid "positive_with_remarks"

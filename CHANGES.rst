@@ -5,8 +5,7 @@ Changelog
 4.1rc5 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations for new advice types "cautious" and "positive_with_comments".
 
 4.1rc4 (2019-08-13)
 -------------------
