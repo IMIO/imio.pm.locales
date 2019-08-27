@@ -6,6 +6,7 @@ Changelog
 -------------------
 
 - Added translations for new advice types "cautious" and "positive_with_comments".
+- Adapted translation for "Taken over by" faceted filter title.
 
 4.1rc4 (2019-08-13)
 -------------------
