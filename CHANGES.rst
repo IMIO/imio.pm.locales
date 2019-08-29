@@ -5,6 +5,8 @@ Changelog
 4.1rc5 (unreleased)
 -------------------
 
+- Added translations for new advice types "cautious" and "positive_with_comments".
+- Adapted translation for "Taken over by" faceted filter title.
 - Adapted translations for mail notification (now that item validation roles are removed, MeetingMember does not exist anymore for example).
 - Added translations for default item WF validation levels defined in MeetingConfig.itemWFValidationLevels.
 
