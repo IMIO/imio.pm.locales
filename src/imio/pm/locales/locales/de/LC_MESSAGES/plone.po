@@ -101,6 +101,10 @@ msgstr ""
 msgid "MeetingCategory"
 msgstr "Kategorie"
 
+#. Default: "Concertation assembly"
+msgid "MeetingConcertation"
+msgstr ""
+
 # Portal type names
 #. Default: "Meeting configuration"
 msgid "MeetingConfig"
@@ -112,6 +116,14 @@ msgid "MeetingItem"
 msgstr "Sitzungspunkt"
 
 #. Default: "Item"
+msgid "MeetingItemConcertation"
+msgstr ""
+
+#. Default: "Item"
+msgid "MeetingItemNegociation"
+msgstr ""
+
+#. Default: "Item"
 msgid "MeetingItemPga"
 msgstr "TOP"
 
@@ -120,11 +132,31 @@ msgid "MeetingItemPma"
 msgstr "TOP"
 
 #. Default: "Recurring item"
+msgid "MeetingItemRecurringConcertation"
+msgstr ""
+
+#. Default: "Recurring item"
+msgid "MeetingItemRecurringNegociation"
+msgstr ""
+
+#. Default: "Recurring item"
 msgid "MeetingItemRecurringPga"
 msgstr ""
 
 #. Default: "Recurring item"
 msgid "MeetingItemRecurringPma"
+msgstr ""
+
+#. Default: "Recurring item"
+msgid "MeetingItemRecurringadvice-committee"
+msgstr ""
+
+#. Default: "Item template"
+msgid "MeetingItemTemplateConcertation"
+msgstr ""
+
+#. Default: "Item template"
+msgid "MeetingItemTemplateNegociation"
 msgstr ""
 
 #. Default: "Item template"
@@ -135,12 +167,24 @@ msgstr ""
 msgid "MeetingItemTemplatePma"
 msgstr ""
 
+#. Default: "Item template"
+msgid "MeetingItemTemplateadvice-committee"
+msgstr ""
+
+#. Default: "Item"
+msgid "MeetingItemadvice-committee"
+msgstr ""
+
 #. Default: "Meeting Manager"
 msgid "MeetingManager"
 msgstr ""
 
 #. Default: "Meeting Member"
 msgid "MeetingMember"
+msgstr ""
+
+#. Default: "Negociation assembly"
+msgid "MeetingNegociation"
 msgstr ""
 
 #. Default: "Meeting Observer Global"
@@ -170,6 +214,10 @@ msgstr ""
 #. Default: "User characteristics"
 msgid "MeetingUser"
 msgstr "Benutzereinstellungen"
+
+#. Default: "Advice Committee assembly"
+msgid "Meetingadvice-committee"
+msgstr ""
 
 #. Default: "No meeting to delete."
 msgid "No meeting to delete."
