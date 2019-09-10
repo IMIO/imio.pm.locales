@@ -4427,7 +4427,7 @@ msgstr "Par type de point (normal, en urgence, ...)"
 
 #. Default: "A TAL expression must be provided when 'Execute expression' is selected in the item action column"
 msgid "on_meeting_transition_item_action_tal_expr_error"
-msgstr "Une \"Expression TAL\" doit être renseignée lorsque la valeur \"Exécuter une expression\" est sélectionnée dans la colonne \"Action à exécuter sur tous les points de la séance\""
+msgstr "Une \"Expression TAL\" doit être renseignée lorsque la valeur \"Exécuter l'expression TAL (ci-contre)\" est sélectionnée dans la colonne \"Action à exécuter sur tous les points de la séance\""
 
 #. Default: "When a transition will be triggered on a meeting, you can define which action to execute on every items of the meeting.  This will make items \"follow\" the meeting state.  You can define several actions to trigger on items for the same meeting transitions, these actions will be executed sequentially on every items of the meeting."
 msgid "on_meeting_transition_item_action_to_execute_descr"
