@@ -116,11 +116,15 @@ msgid "Meeting config to clone to Trigger workflow transitions until"
 msgstr ""
 
 #. Default: "Transition to trigger on every items of the meeting"
-msgid "On meeting transition item transition to trigger item transition"
+msgid "On meeting transition item action to execute item action"
 msgstr ""
 
 #. Default: "Transition triggered on the meeting"
-msgid "On meeting transition item transition to trigger meeting transition"
+msgid "On meeting transition item action to execute meeting transition"
+msgstr ""
+
+#. Default: "On meeting transition item action to execute tal expression"
+msgid "On meeting transition item action to execute tal expression"
 msgstr ""
 
 #. Default: "TAL expression"
@@ -207,16 +211,20 @@ msgstr ""
 msgid "The TAL expression.  Element 'here' represent the item.  This expression MUST return valid HTML or it will not behave properly on the item."
 msgstr ""
 
+#. Default: " "
+msgid "The action that will be executed on every items of the meeting."
+msgstr ""
+
+#. Default: " "
+msgid "The action to execute when 'Execute given action' is selected in column 'Item action'."
+msgstr ""
+
 #. Default: "The item field that will be transformed."
 msgid "The item field that will be transformed."
 msgstr ""
 
 #. Default: "The meeting config the item of this meeting config will be sendable to."
 msgid "The meeting config the item of this meeting config will be sendable to."
-msgstr ""
-
-#. Default: " "
-msgid "The transition that will be triggered on every items of the meeting."
 msgstr ""
 
 #. Default: "The transition that will trigger the field transform."

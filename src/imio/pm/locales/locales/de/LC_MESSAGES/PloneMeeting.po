@@ -1334,8 +1334,8 @@ msgstr "Anpassung an das Datenmodell"
 msgid "PloneMeeting_label_motivation"
 msgstr ""
 
-#. Default: "Transitions to trigger on items of a meeting when a transition is triggered on that meeting"
-msgid "PloneMeeting_label_onMeetingTransitionItemTransitionToTrigger"
+#. Default: "Actions to execute on items of a meeting when a transition is triggered on that meeting"
+msgid "PloneMeeting_label_onMeetingTransitionItemActionToExecute"
 msgstr ""
 
 #. Default: "Transforms to apply to rich text fields of an item after a workflow transition"
@@ -3130,6 +3130,10 @@ msgstr "Ein TOP wurde von einer Sitzung zurückgezogen"
 msgid "event_late_item"
 msgstr "Ein verspäteter TOP wurde soeben bestätigt"
 
+#. Default: "Execute the \"TAL expression\""
+msgid "execute_tal_expression"
+msgstr ""
+
 #. Default: "Annexes"
 msgid "existing_annexes"
 msgstr "Anhänge"
@@ -4486,8 +4490,12 @@ msgstr ""
 msgid "on_list_type"
 msgstr ""
 
-#. Default: "When a transition will be triggered on a meeting, you can define which transitions to trigger on every items of the meeting.  This will make items \"follow\" the meeting state.  You can define several transitions to trigger on items for the same meeting transitions, these transitions will be triggered sequentially on every items of the meeting."
-msgid "on_meeting_transition_item_transition_to_trigger_descr"
+#. Default: "A TAL expression must be provided when 'Execute expression' is selected in the item action column"
+msgid "on_meeting_transition_item_action_tal_expr_error"
+msgstr ""
+
+#. Default: "When a transition will be triggered on a meeting, you can define which action to execute on every items of the meeting.  This will make items \"follow\" the meeting state.  You can define several actions to trigger on items for the same meeting transitions, these actions will be executed sequentially on every items of the meeting."
+msgid "on_meeting_transition_item_action_to_execute_descr"
 msgstr ""
 
 #. Default: "Follow other meeting configs to clone to (items to be send to another meeting config then items not to be send to another meeting config)"

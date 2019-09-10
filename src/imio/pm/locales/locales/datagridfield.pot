@@ -184,7 +184,7 @@ msgid "The TAL expression.  Element 'here' represent the item.  This expression 
 msgstr ""
 
 #. Default: "Transition triggered on the meeting"
-msgid "On meeting transition item transition to trigger meeting transition"
+msgid "On meeting transition item action to execute meeting transition"
 msgstr ""
 
 #. Default: " "
@@ -192,11 +192,19 @@ msgid "The transition triggered on the meeting."
 msgstr ""
 
 #. Default: "Transition to trigger on every items of the meeting"
-msgid "On meeting transition item transition to trigger item transition"
+msgid "On meeting transition item action to execute item action"
 msgstr ""
 
 #. Default: " "
-msgid "The transition that will be triggered on every items of the meeting."
+msgid "The action that will be executed on every items of the meeting."
+msgstr ""
+
+#. Default: "On meeting transition item action to execute tal expression"
+msgid "On meeting transition item action to execute tal expression"
+msgstr ""
+
+#. Default: " "
+msgid "The action to execute when 'Execute given action' is selected in column 'Item action'."
 msgstr ""
 
 #. Default: "List type identifier"
