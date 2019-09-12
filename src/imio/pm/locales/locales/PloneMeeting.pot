@@ -4485,12 +4485,12 @@ msgstr ""
 msgid "on_transition_field_transforms_descr"
 msgstr ""
 
-#. Default: "Transitions to trigger on items of a meeting when a transition is triggered on that meeting"
-msgid "PloneMeeting_label_onMeetingTransitionItemTransitionToTrigger"
+#. Default: "Actions to execute on items of a meeting when a transition is triggered on that meeting"
+msgid "PloneMeeting_label_onMeetingTransitionItemActionToExecute"
 msgstr ""
 
-#. Default: "When a transition will be triggered on a meeting, you can define which transitions to trigger on every items of the meeting.  This will make items \"follow\" the meeting state.  You can define several transitions to trigger on items for the same meeting transitions, these transitions will be triggered sequentially on every items of the meeting."
-msgid "on_meeting_transition_item_transition_to_trigger_descr"
+#. Default: "When a transition will be triggered on a meeting, you can define which action to execute on every items of the meeting.  This will make items \"follow\" the meeting state.  You can define several actions to trigger on items for the same meeting transitions, these actions will be executed sequentially on every items of the meeting."
+msgid "on_meeting_transition_item_action_to_execute_descr"
 msgstr ""
 
 #. Default: "States of the meeting to insert an item into from everywhere"
@@ -5776,4 +5776,12 @@ msgstr ""
 
 #. Default: "No label defined on held position"
 msgid "No label defined on held position"
+msgstr ""
+
+#. Default: "A TAL expression must be provided when 'Execute expression' is selected in the item action column"
+msgid "on_meeting_transition_item_action_tal_expr_error"
+msgstr ""
+
+#. Default: "Execute the \"TAL expression\""
+msgid "execute_tal_expression"
 msgstr ""

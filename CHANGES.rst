@@ -2,13 +2,18 @@ Changelog
 =========
 
 
-4.1rc5 (unreleased)
+4.1rc6 (unreleased)
+-------------------
+
+- Adapted translations for mail notification (now that item validation roles are removed, MeetingMember does not exist anymore for example).
+- Added translations for default item WF validation levels defined in MeetingConfig.itemWFValidationLevels.
+
+4.1rc5 (2019-09-12)
 -------------------
 
 - Added translations for new advice types "cautious" and "positive_with_comments".
 - Adapted translation for "Taken over by" faceted filter title.
-- Adapted translations for mail notification (now that item validation roles are removed, MeetingMember does not exist anymore for example).
-- Added translations for default item WF validation levels defined in MeetingConfig.itemWFValidationLevels.
+- Adapted translations of MeetingConfig.onMeetingTransitionItemTransitionToTrigger that was moved to MeetingConfig.onMeetingTransitionItemActionToExecute.
 
 4.1rc4 (2019-08-13)
 -------------------

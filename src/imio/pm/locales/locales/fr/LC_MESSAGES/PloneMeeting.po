@@ -1329,9 +1329,9 @@ msgstr "Adaptations au modèle de données"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivation"
 
-#. Default: "Transitions to trigger on items of a meeting when a transition is triggered on that meeting"
-msgid "PloneMeeting_label_onMeetingTransitionItemTransitionToTrigger"
-msgstr "Transitions à déclencher sur les points d'une séance lorsqu'une transition est déclenchée sur cette séance"
+#. Default: "Actions to execute on items of a meeting when a transition is triggered on that meeting"
+msgid "PloneMeeting_label_onMeetingTransitionItemActionToExecute"
+msgstr "Actions à exécuter sur les points d'une séance lorsqu'une transition est déclenchée sur cette séance"
 
 #. Default: "Transforms to apply to rich text fields of an item after a workflow transition"
 msgid "PloneMeeting_label_onTransitionFieldTransforms"
@@ -3101,6 +3101,10 @@ msgstr "Un point a été retiré d'une séance (prévient les créateurs du grou
 msgid "event_late_item"
 msgstr "Un point en urgence vient d'être validé (prévient les gestionnaires de séances)"
 
+#. Default: "Execute the \"TAL expression\""
+msgid "execute_tal_expression"
+msgstr "Exécuter l'expression TAL (ci-contre)"
+
 #. Default: "Annexes"
 msgid "existing_annexes"
 msgstr "Annexes"
@@ -4425,9 +4429,13 @@ msgstr "Suivre l'ordre des groupes en charge"
 msgid "on_list_type"
 msgstr "Par type de point (normal, en urgence, ...)"
 
-#. Default: "When a transition will be triggered on a meeting, you can define which transitions to trigger on every items of the meeting.  This will make items \"follow\" the meeting state.  You can define several transitions to trigger on items for the same meeting transitions, these transitions will be triggered sequentially on every items of the meeting."
-msgid "on_meeting_transition_item_transition_to_trigger_descr"
-msgstr "Lorsqu'une transition sera déclenchée sur une séance, vous pouvez définir quelle(s) transition(s) devront être déclenchées automatiquement sur tous les points de la séance.  Ceci permet de faire en sorte que les points \"suivent\" l'état de la séance.  Vous pouvez définir plusieurs transitions à déclencher sur les points pour la même transition déclenchée sur une séance.  Ces transitions seront effectuées séquentiellement sur les points de la séance."
+#. Default: "A TAL expression must be provided when 'Execute expression' is selected in the item action column"
+msgid "on_meeting_transition_item_action_tal_expr_error"
+msgstr "Une \"Expression TAL\" doit être renseignée lorsque la valeur \"Exécuter l'expression TAL (ci-contre)\" est sélectionnée dans la colonne \"Action à exécuter sur tous les points de la séance\""
+
+#. Default: "When a transition will be triggered on a meeting, you can define which action to execute on every items of the meeting.  This will make items \"follow\" the meeting state.  You can define several actions to trigger on items for the same meeting transitions, these actions will be executed sequentially on every items of the meeting."
+msgid "on_meeting_transition_item_action_to_execute_descr"
+msgstr "Lorsqu'une transition sera déclenchée sur une séance, vous pouvez définir quelle(s) action(s) devront être exécutées automatiquement sur tous les points de la séance.  Ceci permet de faire en sorte que les points \"suivent\" l'état de la séance.  Vous pouvez définir plusieurs actions à déclencher sur les points pour la même transition déclenchée sur une séance.  Ces actions seront effectuées séquentiellement sur les points de la séance."
 
 #. Default: "Follow other meeting configs to clone to (items to be send to another meeting config then items not to be send to another meeting config)"
 msgid "on_other_mc_to_clone_to"

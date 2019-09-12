@@ -20,7 +20,7 @@ msgstr "Available on"
 
 #. Default: "Full label"
 msgid "Config group full label"
-msgstr ""
+msgstr "Full label"
 
 #. Default: "Label"
 msgid "Config group label"
@@ -44,7 +44,7 @@ msgstr "Automatic asked advice help message"
 
 #. Default: "Organization"
 msgid "Custom adviser organization"
-msgstr ""
+msgstr "Organization"
 
 #. Default: "Identifier (row_id)"
 msgid "Custom adviser row id"
@@ -60,7 +60,7 @@ msgstr "Delay left alert"
 
 #. Default: "Enter a short label that will be displayed in the application.  This will be translated by the application if possible.  If you want to colorize this new list type on the meeting view, you will need to do this using CSS like it is the case for \"late\" items."
 msgid "Enter a short label that will be displayed in the application.  This will be translated by the application if possible.  If you want to colorize this new list type on the meeting view, you will need to do this using CSS like it is the case for 'late' items."
-msgstr ""
+msgstr "Enter a short label that will be displayed in the application.  This will be translated by the application if possible.  If you want to colorize this new list type on the meeting view, you will need to do this using CSS like it is the case for \"late\" items."
 
 #. Default: "Enter an internal identifier, use only lowercase letters."
 msgid "Enter an internal identifier, use only lowercase letters."
@@ -68,7 +68,7 @@ msgstr "Enter an internal identifier, use only lowercase letters."
 
 #. Default: "Enter the full label that will be useable if necessary like in produced documents."
 msgid "Enter the full label that will be useable if necessary like in produced documents."
-msgstr ""
+msgstr "Enter the full label that will be useable if necessary like in produced documents."
 
 #. Default: "Enter the label that will be displayed in the application."
 msgid "Enter the label that will be displayed in the application."
@@ -116,12 +116,16 @@ msgid "Meeting config to clone to Trigger workflow transitions until"
 msgstr "Meeting config to clone to Trigger workflow transitions until"
 
 #. Default: "Transition to trigger on every items of the meeting"
-msgid "On meeting transition item transition to trigger item transition"
+msgid "On meeting transition item action to execute item action"
 msgstr "Transition to trigger on every items of the meeting"
 
 #. Default: "Transition triggered on the meeting"
-msgid "On meeting transition item transition to trigger meeting transition"
+msgid "On meeting transition item action to execute meeting transition"
 msgstr "Transition triggered on the meeting"
+
+#. Default: "On meeting transition item action to execute tal expression"
+msgid "On meeting transition item action to execute tal expression"
+msgstr "On meeting transition item action to execute tal expression"
 
 #. Default: "TAL expression"
 msgid "On transition field transform TAL expression"
@@ -137,23 +141,23 @@ msgstr "Transition"
 
 #. Default: "Power observer item access TAL expression"
 msgid "Power observer item access TAL expression"
-msgstr ""
+msgstr "Power observer item access TAL expression"
 
 #. Default: "Power observer item viewable states"
 msgid "Power observer item viewable states"
-msgstr ""
+msgstr "Power observer item viewable states"
 
 #. Default: "Power observer label"
 msgid "Power observer label"
-msgstr ""
+msgstr "Power observer label"
 
 #. Default: "Power observer meeting access TAL expression"
 msgid "Power observer meeting access TAL expression"
-msgstr ""
+msgstr "Power observer meeting access TAL expression"
 
 #. Default: "Power observer meeting viewable states"
 msgid "Power observer meeting viewable states"
-msgstr ""
+msgstr "Power observer meeting viewable states"
 
 #. Default: "Reverse?"
 msgid "Reverse inserting method?"
@@ -211,6 +215,14 @@ msgstr "Title"
 msgid "The TAL expression.  Element 'here' represent the item.  This expression MUST return valid HTML or it will not behave properly on the item."
 msgstr "The TAL expression.  Element 'here' represent the item.  This expression MUST return valid HTML or it will not behave properly on the item."
 
+#. Default: " "
+msgid "The action that will be executed on every items of the meeting."
+msgstr " "
+
+#. Default: " "
+msgid "The action to execute when 'Execute given action' is selected in column 'Item action'."
+msgstr " "
+
 #. Default: "The item field that will be transformed."
 msgid "The item field that will be transformed."
 msgstr "The item field that will be transformed."
@@ -218,10 +230,6 @@ msgstr "The item field that will be transformed."
 #. Default: "The meeting config the item of this meeting config will be sendable to."
 msgid "The meeting config the item of this meeting config will be sendable to."
 msgstr "The meeting config the item of this meeting config will be sendable to."
-
-#. Default: " "
-msgid "The transition that will be triggered on every items of the meeting."
-msgstr " "
 
 #. Default: "The transition that will trigger the field transform."
 msgid "The transition that will trigger the field transform."
@@ -282,20 +290,20 @@ msgstr "Please use following format : YYYY/MM/DD.  Dates must be sorted (from ol
 
 #. Default: "Power observer item access TAL expression description"
 msgid "power_observers_item_access_on_col_description"
-msgstr ""
+msgstr "Power observer item access TAL expression description"
 
 #. Default: "Power observer item viewable states description"
 msgid "power_observers_item_states_col_description"
-msgstr ""
+msgstr "Power observer item viewable states description"
 
 #. Default: "Power observer label description"
 msgid "power_observers_label_col_description"
-msgstr ""
+msgstr "Power observer label description"
 
 #. Default: "Power observer meeting access TAL expression description"
 msgid "power_observers_meeting_access_on_col_description"
-msgstr ""
+msgstr "Power observer meeting access TAL expression description"
 
 #. Default: "Power observer meeting viewable states description"
 msgid "power_observers_meeting_states_col_description"
-msgstr ""
+msgstr "Power observer meeting viewable states description"

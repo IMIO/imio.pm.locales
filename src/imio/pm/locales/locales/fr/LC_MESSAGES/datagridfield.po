@@ -116,12 +116,16 @@ msgid "Meeting config to clone to Trigger workflow transitions until"
 msgstr "Exécuter les transitions du workflow jusqu'à"
 
 #. Default: "Transition to trigger on every items of the meeting"
-msgid "On meeting transition item transition to trigger item transition"
-msgstr "Transitions à déclencher sur tous les points de la séance"
+msgid "On meeting transition item action to execute item action"
+msgstr "Actions à exécuter sur tous les points de la séance"
 
 #. Default: "Transition triggered on the meeting"
-msgid "On meeting transition item transition to trigger meeting transition"
+msgid "On meeting transition item action to execute meeting transition"
 msgstr "Transition déclenchée sur la séance"
+
+#. Default: "On meeting transition item action to execute tal expression"
+msgid "On meeting transition item action to execute tal expression"
+msgstr "Expression TAL"
 
 #. Default: "TAL expression"
 msgid "On transition field transform TAL expression"
@@ -207,6 +211,14 @@ msgstr "Titre"
 msgid "The TAL expression.  Element 'here' represent the item.  This expression MUST return valid HTML or it will not behave properly on the item."
 msgstr "Encodez une expression au format TAL. L'élément \"here\" représente le point. Cette expression DOIT retourner du HTML valide ou il ne sera pas affiché correctement sur le point."
 
+#. Default: " "
+msgid "The action that will be executed on every items of the meeting."
+msgstr " "
+
+#. Default: " "
+msgid "The action to execute when 'Execute given action' is selected in column 'Item action'."
+msgstr " "
+
 #. Default: "The item field that will be transformed."
 msgid "The item field that will be transformed."
 msgstr "Le champ du point sur lequel l'adaptation sera appliquée."
@@ -214,10 +226,6 @@ msgstr "Le champ du point sur lequel l'adaptation sera appliquée."
 #. Default: "The meeting config the item of this meeting config will be sendable to."
 msgid "The meeting config the item of this meeting config will be sendable to."
 msgstr "Le type de séance vers laquelle les points de ce type de séance pourront être envoyés."
-
-#. Default: " "
-msgid "The transition that will be triggered on every items of the meeting."
-msgstr " "
 
 #. Default: "The transition that will trigger the field transform."
 msgid "The transition that will trigger the field transform."

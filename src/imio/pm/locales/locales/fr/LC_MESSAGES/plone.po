@@ -97,6 +97,10 @@ msgstr ""
 msgid "MeetingCategory"
 msgstr "Catégorie"
 
+#. Default: "Concertation assembly"
+msgid "MeetingConcertation"
+msgstr "Séance"
+
 # Portal type names
 #. Default: "Meeting configuration"
 msgid "MeetingConfig"
@@ -104,6 +108,14 @@ msgstr "Configuration de séance"
 
 #. Default: "Item"
 msgid "MeetingItem"
+msgstr "Point"
+
+#. Default: "Item"
+msgid "MeetingItemConcertation"
+msgstr "Point"
+
+#. Default: "Item"
+msgid "MeetingItemNegociation"
 msgstr "Point"
 
 #. Default: "Item"
@@ -115,12 +127,32 @@ msgid "MeetingItemPma"
 msgstr "Point"
 
 #. Default: "Recurring item"
+msgid "MeetingItemRecurringConcertation"
+msgstr "Point récurrent"
+
+#. Default: "Recurring item"
+msgid "MeetingItemRecurringNegociation"
+msgstr "Point récurrent"
+
+#. Default: "Recurring item"
 msgid "MeetingItemRecurringPga"
 msgstr "Point récurrent"
 
 #. Default: "Recurring item"
 msgid "MeetingItemRecurringPma"
 msgstr "Point récurrent"
+
+#. Default: "Recurring item"
+msgid "MeetingItemRecurringadvice-committee"
+msgstr "Point récurrent"
+
+#. Default: "Item template"
+msgid "MeetingItemTemplateConcertation"
+msgstr "Modèle de point"
+
+#. Default: "Item template"
+msgid "MeetingItemTemplateNegociation"
+msgstr "Modèle de point"
 
 #. Default: "Item template"
 msgid "MeetingItemTemplatePga"
@@ -130,10 +162,29 @@ msgstr "Modèle de point"
 msgid "MeetingItemTemplatePma"
 msgstr "Modèle de point"
 
+#. Default: "Item template"
+msgid "MeetingItemTemplateadvice-committee"
+msgstr "Modèle de point"
+
+#. Default: "Item"
+msgid "MeetingItemadvice-committee"
+msgstr "Point"
+
 #. Default: "Meeting Manager"
 msgid "MeetingManager"
 msgstr "Gestionnaire de séance"
 
+<<<<<<< HEAD
+=======
+#. Default: "Meeting Member"
+msgid "MeetingMember"
+msgstr ""
+
+#. Default: "Negociation assembly"
+msgid "MeetingNegociation"
+msgstr "Séance"
+
+>>>>>>> origin/master
 #. Default: "Meeting Observer Global"
 msgid "MeetingObserverGlobal"
 msgstr ""
@@ -149,6 +200,10 @@ msgstr "Assemblée PloneMeeting"
 #. Default: "User characteristics"
 msgid "MeetingUser"
 msgstr "Caractéristiques utilisateur"
+
+#. Default: "Advice Committee assembly"
+msgid "Meetingadvice-committee"
+msgstr "Séance"
 
 #. Default: "No meeting to delete."
 msgid "No meeting to delete."
