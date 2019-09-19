@@ -1759,6 +1759,10 @@ msgstr "Enlever l'avis hérité et demander l'avis à nouveau sur ce point"
 msgid "Searches"
 msgstr "Recherches"
 
+#. Default: "Secondary position type"
+msgid "Secondary position type"
+msgstr "Type de fonction secondaire"
+
 #. Default: "Secret?"
 msgid "Secret while presenting in other MC?"
 msgstr "Huis clos?"
@@ -1774,6 +1778,10 @@ msgstr "Sélectionnez une étiquette personnelle"
 #. Default: "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
 msgid "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
 msgstr "En sélectionnant le type de fonction adéquat, le libellé correct sera automatiquement géré en fonction du genre de la personne liée (masculin/féminin) et du contexte dans lequel il est utilisé. Les types de fonctions sont gérées sur l'élément Annuaire (contacts).  Vous pouvez <a href='../../contacts/edit' target='_blank'>éditer l'élément contacts</a> si nécessaire."
+
+#. Default: "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above."
+msgid "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above."
+msgstr "Sélectionnez un type de fonction secondaire si nécessaire. Fonctionne de la même manière que le champ \"Type de fonction\" ci-dessus."
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
