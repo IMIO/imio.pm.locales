@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1rc6 (unreleased)
+4.1rc6 (2019-09-23)
 -------------------
 
 - Added translations for held_position.secondary_position_type field.
