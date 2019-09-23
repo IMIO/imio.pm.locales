@@ -1759,6 +1759,10 @@ msgstr "Enlever l'avis hérité et demander l'avis à nouveau sur ce point"
 msgid "Searches"
 msgstr "Recherches"
 
+#. Default: "Secondary position type"
+msgid "Secondary position type"
+msgstr "Type de fonction secondaire"
+
 #. Default: "Secret?"
 msgid "Secret while presenting in other MC?"
 msgstr "Huis clos?"
@@ -1774,6 +1778,10 @@ msgstr "Sélectionnez une étiquette personnelle"
 #. Default: "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
 msgid "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
 msgstr "En sélectionnant le type de fonction adéquat, le libellé correct sera automatiquement géré en fonction du genre de la personne liée (masculin/féminin) et du contexte dans lequel il est utilisé. Les types de fonctions sont gérées sur l'élément Annuaire (contacts).  Vous pouvez <a href='../../contacts/edit' target='_blank'>éditer l'élément contacts</a> si nécessaire."
+
+#. Default: "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above."
+msgid "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above."
+msgstr "Sélectionnez un type de fonction secondaire si nécessaire. Fonctionne de la même manière que le champ \"Type de fonction\" ci-dessus."
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
@@ -4424,6 +4432,18 @@ msgstr "Suivre l'ordre des catégories"
 #. Default: "Follow groups in charge order"
 msgid "on_groups_in_charge"
 msgstr "Suivre l'ordre des groupes en charge"
+
+#. Default: "Follow the item creator fullname alphabetical order"
+msgid "on_item_creator"
+msgstr "Suivre l'ordre alphabétique du \"Nom complet\" de l'auteur du point"
+
+#. Default: "Follow the item decision first words (default 5 first words) alphabetical order"
+msgid "on_item_decision_first_words"
+msgstr "Suivre l'ordre alphabétique des premiers mots du champ \"Décision\" (MeetingItem.decision) du point"
+
+#. Default: "Follow the item title alphabetical order"
+msgid "on_item_title"
+msgstr "Suivre l'ordre alphabétique de l'objet du point"
 
 #. Default: "Follow list type"
 msgid "on_list_type"

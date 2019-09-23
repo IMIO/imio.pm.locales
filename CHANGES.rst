@@ -2,11 +2,17 @@ Changelog
 =========
 
 
-4.1rc6 (unreleased)
+4.1rc7 (unreleased)
 -------------------
 
 - Adapted translations for mail notification (now that item validation roles are removed, MeetingMember does not exist anymore for example).
 - Added translations for default item WF validation levels defined in MeetingConfig.itemWFValidationLevels.
+
+4.1rc6 (2019-09-23)
+-------------------
+
+- Added translations for held_position.secondary_position_type field.
+- Added translations for new inserting methods 'on_item_title', 'on_item_decision_first_words' and 'on_item_creator'.
 
 4.1rc5 (2019-09-12)
 -------------------
