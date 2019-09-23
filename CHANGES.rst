@@ -6,6 +6,7 @@ Changelog
 -------------------
 
 - Added translations for held_position.secondary_position_type field.
+- Added translations for new inserting methods 'on_item_title', 'on_item_decision_first_words' and 'on_item_creator'.
 
 4.1rc5 (2019-09-12)
 -------------------

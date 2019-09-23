@@ -4429,6 +4429,18 @@ msgstr "Suivre l'ordre des catégories"
 msgid "on_groups_in_charge"
 msgstr "Suivre l'ordre des groupes en charge"
 
+#. Default: "Follow the item creator fullname alphabetical order"
+msgid "on_item_creator"
+msgstr "Suivre l'ordre alphabétique du \"Nom complet\" de l'auteur du point"
+
+#. Default: "Follow the item decision first words (default 5 first words) alphabetical order"
+msgid "on_item_decision_first_words"
+msgstr "Suivre l'ordre alphabétique des premiers mots du champ \"Décision\" (MeetingItem.decision) du point"
+
+#. Default: "Follow the item title alphabetical order"
+msgid "on_item_title"
+msgstr "Suivre l'ordre alphabétique de l'objet du point"
+
 #. Default: "Follow list type"
 msgid "on_list_type"
 msgstr "Par type de point (normal, en urgence, ...)"
