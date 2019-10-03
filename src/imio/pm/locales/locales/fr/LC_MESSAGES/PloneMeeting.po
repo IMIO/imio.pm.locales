@@ -2460,6 +2460,10 @@ msgstr "Vous ne pouvez pas définir 2 lignes pour le même type de séance!"
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "Ce point ne peut plus être renvoyé vers les gestionnaires de séance car la séance dans laquelle ce point est présenté est dans un état qui ne l'autorise pas (${meetingState})."
 
+#. Default: "You can not select an adviser that is already displayed on the item as an inherited advice.  If you need to ask this advice again, you need to remove the inherited advice (as a MeetingManager or a Manager) then select advice again."
+msgid "can_not_select_optional_adviser_same_group_as_inherited"
+msgstr "Vous ne pouvez pas sélectionner un avis qui est déjà hérité sur le point. Si vous devez demander cet avis à nouveau, vous devez d'abord utiliser l'action \"Enlever l'avis hérité\" sur l'avis en tant que gestionnaire de séances ou administrateur de l'application."
+
 #. Default: "You can not select several values for the same group.  Please select a single value for the same group among available ones."
 msgid "can_not_select_several_optional_advisers_same_group"
 msgstr "Vous ne pouvez pas sélectionner plusieurs avis optionnels pour le même groupe.  Sélectionnez un type d'avis pour le même groupe parmi ceux disponibles."

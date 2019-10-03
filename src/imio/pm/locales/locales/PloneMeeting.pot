@@ -4233,6 +4233,10 @@ msgstr ""
 msgid "can_not_select_several_optional_advisers_same_group"
 msgstr ""
 
+#. Default: "You can not select an adviser that is already displayed on the item as an inherited advice.  If you need to ask this advice again, you need to remove the inherited advice (as a MeetingManager or a Manager) then select advice again."
+msgid "can_not_select_optional_adviser_same_group_as_inherited"
+msgstr ""
+
 #. Default: "Asked on ${advice_asked_on_date}"
 msgid "Asked on ${advice_asked_on_date}"
 msgstr ""

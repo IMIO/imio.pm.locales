@@ -2489,6 +2489,10 @@ msgstr ""
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "Este tema ya no puede ser devuelto a los administrador de reunión porque la reunión se encuentra en un estado no se autoriza (${meetingState})."
 
+#. Default: "You can not select an adviser that is already displayed on the item as an inherited advice.  If you need to ask this advice again, you need to remove the inherited advice (as a MeetingManager or a Manager) then select advice again."
+msgid "can_not_select_optional_adviser_same_group_as_inherited"
+msgstr ""
+
 #. Default: "You can not select several values for the same group.  Please select a single value for the same group among available ones."
 msgid "can_not_select_several_optional_advisers_same_group"
 msgstr "No puede seleccionar varios valores para el mismo grupo. Por favor, seleccione un valor único para el mismo grupo de entre los disponibles."

@@ -7,6 +7,8 @@ Changelog
 
 - Added missing translation for 'backTo_returned_to_proposing_group_from_returned_to_proposing_group_prevalidated'.
 - Replaced translations containing strings between quotes (') by strings between double quotes (").
+- Added translation for 'can_not_select_optional_adviser_same_group_as_inherited'.
+- Removed empty translation file 'collective.contact.core.pot' and associated .po files.
 
 4.1rc6 (2019-09-23)
 -------------------
