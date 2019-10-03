@@ -5,8 +5,8 @@ Changelog
 4.1rc7 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added missing translation for 'backTo_returned_to_proposing_group_from_returned_to_proposing_group_prevalidated'.
+- Replaced translations containing strings between quotes (') by strings between double quotes (").
 
 4.1rc6 (2019-09-23)
 -------------------
