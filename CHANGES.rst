@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1 (unreleased)
+4.1 (2019-10-04)
 ----------------
 
 - Added missing translation for 'backTo_returned_to_proposing_group_from_returned_to_proposing_group_prevalidated'.
