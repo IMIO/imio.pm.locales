@@ -1779,9 +1779,9 @@ msgstr "Sélectionnez une étiquette personnelle"
 msgid "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
 msgstr "En sélectionnant le type de fonction adéquat, le libellé correct sera automatiquement géré en fonction du genre de la personne liée (masculin/féminin) et du contexte dans lequel il est utilisé. Les types de fonctions sont gérées sur l'élément Annuaire (contacts).  Vous pouvez <a href='../../contacts/edit' target='_blank'>éditer l'élément contacts</a> si nécessaire."
 
-#. Default: "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above."
+#. Default: "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above. <span style='color: red;'>Warning, this will not add an additional position but will make this information useable if necesary, like when generating POD templates for example.  If this person have several different positions, you need to add as much held positions as necessary.</span>"
 msgid "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above."
-msgstr "Sélectionnez un type de fonction secondaire si nécessaire. Fonctionne de la même manière que le champ \"Type de fonction\" ci-dessus."
+msgstr "Sélectionnez un type de fonction secondaire si nécessaire. Fonctionne de la même manière que le champ \"Type de fonction\" ci-dessus. <span style='color: red;'>Attention, ce champ optionnel permet de pouvoir réutiliser l'information sélectionnée dans un document généré par exemple.  Si cette personne a plusieurs fonctions, vous devez ajouter autant d'élément \"Fonction occupée\" que nécessaire.</span>"
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
