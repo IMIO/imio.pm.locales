@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1.1 (unreleased)
+4.1.1 (2019-10-14)
 ------------------
 
 - Adapted translation of field IPMHeldPosition.secondary_position_type so it is clear that it is not an additional held_position.
