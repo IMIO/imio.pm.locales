@@ -1894,6 +1894,10 @@ msgstr "Ceci est un aperçu, consultez l'avis complet si nécessaire..."
 msgid "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
 msgstr "Ce point n'est pas visible par les émetteurs d'avis de ce groupe dans son état actuel (${item_review_state})."
 
+#. Default: "This label can not be removed as it is used by some items, for example ${item_url}"
+msgid "This label can not be removed as it is used by some items, for example ${item_url}"
+msgstr "Cette étiquette ne peut pas être supprimée car elle est utilisées par certains points, par exemple ${item_url}"
+
 #. Default: "This meeting configuration uses following fields to manage assemblies and signatures"
 msgid "This meeting configuration uses following fields to manage assemblies and signatures"
 msgstr "Cette configuration de séance utilisent les champs suivants pour gérer les assemblées et signatures"

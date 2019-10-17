@@ -5,8 +5,7 @@ Changelog
 4.1.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Added translation for portal_message warning when a ftw.labels label can not be removed because used by an item.
 
 4.1.1 (2019-10-14)
 ------------------
