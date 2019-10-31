@@ -3339,9 +3339,9 @@ msgstr "Ces dates seront utilisées lors du calcul des délais des avis.  <span 
 msgid "holidays_removed_date_in_use_error"
 msgstr "Vous ne pouvez pas supprimer une date qui est/a été utilisée!"
 
-#. Default: "There are not enough holidays defined in the configuration, please contact you system administrator!"
+#. Default: "There are not enough holidays defined in the configuration.  These days are used for advice delay computation.  This warning appear when last holiday defined in the configuration is in less than 60 days. Contact you system administrator if necessary."
 msgid "holidays_warning_message"
-msgstr "Il n'y a plus suffisamment de jours fériés définis dans la configuration, contactez votre administrateur système!"
+msgstr "Il n'y a plus suffisamment de jours fériés définis dans la configuration. Ces jours sont utilisés dans le calcul du délai des avis.  Ce message apparaît lorsque le dernier jour défini dans la configuration est dans moins de 60 jours.  Contactez votre administrateur système si nécessaire."
 
 #. Default: "Wrong date format, please use following format : \"YYYY/MM/DD\"."
 msgid "holidays_wrong_date_format_error"

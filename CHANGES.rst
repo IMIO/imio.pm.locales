@@ -6,6 +6,7 @@ Changelog
 ------------------
 
 - Added translation for portal_message warning when a ftw.labels label can not be removed because used by an item.
+- Adapted translation of 'Holidays warning' collective.messagesviewlet message to be less panicking.
 
 4.1.1 (2019-10-14)
 ------------------

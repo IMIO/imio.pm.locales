@@ -3357,7 +3357,7 @@ msgstr ""
 msgid "holidays_removed_date_in_use_error"
 msgstr ""
 
-#. Default: "There are not enough holidays defined in the configuration, please contact you system administrator!"
+#. Default: "There are not enough holidays defined in the configuration.  These days are used for advice delay computation.  This warning appear when last holiday defined in the configuration is in less than 60 days. Contact you system administrator if necessary."
 msgid "holidays_warning_message"
 msgstr ""
 

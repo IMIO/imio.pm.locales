@@ -3339,9 +3339,9 @@ msgstr "These dates will be used to compute advices delays.  <span style='color:
 msgid "holidays_removed_date_in_use_error"
 msgstr "You removed a date that is currently in use!"
 
-#. Default: "There are not enough holidays defined in the configuration, please contact you system administrator!"
+#. Default: "There are not enough holidays defined in the configuration.  These days are used for advice delay computation.  This warning appear when last holiday defined in the configuration is in less than 60 days. Contact you system administrator if necessary."
 msgid "holidays_warning_message"
-msgstr "There are not enough holidays defined in the configuration, please contact you system administrator!"
+msgstr "There are not enough holidays defined in the configuration.  These days are used for advice delay computation.  This warning appear when last holiday defined in the configuration is in less than 60 days. Contact you system administrator if necessary."
 
 #. Default: "Wrong date format, please use following format : \"YYYY/MM/DD\"."
 msgid "holidays_wrong_date_format_error"
