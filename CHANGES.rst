@@ -5,8 +5,7 @@ Changelog
 4.1.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Fixed typo in 'manually_linked_items_descr' french translation.
 
 4.1.2 (2019-11-04)
 ------------------
