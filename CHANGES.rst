@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1.3 (unreleased)
+4.1.3 (2019-11-19)
 ------------------
 
 - Fixed typo in 'manually_linked_items_descr' french translation.
