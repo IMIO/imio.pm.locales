@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 import os
 
-version = '4.1rc7.dev0'
+version = '4.1.4.dev0'
 
 setup(name='imio.pm.locales',
       version=version,
       description="Locales for PloneMeeting",
-      long_description=open("README.txt").read() + "\n" + open("CHANGES.rst").read(),
+      long_description=open("README.rst").read() + "\n" + open("CHANGES.rst").read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[

@@ -1761,7 +1761,7 @@ msgstr "Searches"
 
 #. Default: "Secondary position type"
 msgid "Secondary position type"
-msgstr ""
+msgstr "Secondary position type"
 
 #. Default: "Secret?"
 msgid "Secret while presenting in other MC?"
@@ -1779,9 +1779,9 @@ msgstr "Select a label"
 msgid "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
 msgstr "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
 
-#. Default: "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above."
+#. Default: "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above. <span style='color: red;'>Warning, this will not add an additional position but will make this information useable if necesary, like when generating POD templates for example.  If this person have several different positions, you need to add as much held positions as necessary.</span>"
 msgid "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above."
-msgstr ""
+msgstr "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above. <span style='color: red;'>Warning, this will not add an additional position but will make this information useable if necesary, like when generating POD templates for example.  If this person have several different positions, you need to add as much held positions as necessary.</span>"
 
 #. Default: "Select in the list the type of item you want to add"
 msgid "Select an item to add"
@@ -1893,6 +1893,10 @@ msgstr "This is an extract of the comment, access full comment if necessary..."
 #. Default: "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
 msgid "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
 msgstr "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
+
+#. Default: "This label can not be removed as it is used by some items, for example ${item_url}"
+msgid "This label can not be removed as it is used by some items, for example ${item_url}"
+msgstr ""
 
 #. Default: "This meeting configuration uses following fields to manage assemblies and signatures"
 msgid "This meeting configuration uses following fields to manage assemblies and signatures"
@@ -2459,6 +2463,10 @@ msgstr "You can not define two rows for the same meeting configuration!"
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
+
+#. Default: "You can not select an adviser that is already displayed on the item as an inherited advice.  If you need to ask this advice again, you need to remove the inherited advice (as a MeetingManager or a Manager) then select advice again."
+msgid "can_not_select_optional_adviser_same_group_as_inherited"
+msgstr "You can not select an adviser that is already displayed on the item as an inherited advice.  If you need to ask this advice again, you need to remove the inherited advice (as a MeetingManager or a Manager) then select advice again."
 
 #. Default: "You can not select several values for the same group.  Please select a single value for the same group among available ones."
 msgid "can_not_select_several_optional_advisers_same_group"
@@ -3335,9 +3343,9 @@ msgstr "These dates will be used to compute advices delays.  <span style='color:
 msgid "holidays_removed_date_in_use_error"
 msgstr "You removed a date that is currently in use!"
 
-#. Default: "There are not enough holidays defined in the configuration, please contact you system administrator!"
+#. Default: "There are not enough holidays defined in the configuration.  These days are used for advice delay computation.  This warning appear when last holiday defined in the configuration is in less than 60 days. Contact you system administrator if necessary."
 msgid "holidays_warning_message"
-msgstr "There are not enough holidays defined in the configuration, please contact you system administrator!"
+msgstr "There are not enough holidays defined in the configuration.  These days are used for advice delay computation.  This warning appear when last holiday defined in the configuration is in less than 60 days. Contact you system administrator if necessary."
 
 #. Default: "Wrong date format, please use following format : \"YYYY/MM/DD\"."
 msgid "holidays_wrong_date_format_error"
@@ -4436,15 +4444,15 @@ msgstr "Follow groups in charge order"
 
 #. Default: "Follow the item creator fullname alphabetical order"
 msgid "on_item_creator"
-msgstr ""
+msgstr "Follow the item creator fullname alphabetical order"
 
 #. Default: "Follow the item decision first words (default 5 first words) alphabetical order"
 msgid "on_item_decision_first_words"
-msgstr ""
+msgstr "Follow the item decision first words (default 5 first words) alphabetical order"
 
 #. Default: "Follow the item title alphabetical order"
 msgid "on_item_title"
-msgstr ""
+msgstr "Follow the item title alphabetical order"
 
 #. Default: "Follow list type"
 msgid "on_list_type"

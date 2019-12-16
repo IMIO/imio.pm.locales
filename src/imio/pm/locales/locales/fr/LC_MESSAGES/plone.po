@@ -37,7 +37,7 @@ msgstr "Annexe (après décision)"
 
 #. Default: "Back to 'Advice Under Edit'"
 msgid "Back to 'Advice Under Edit'"
-msgstr "Remettre en 'Avis en cours de rédaction'"
+msgstr "Remettre en \"Avis en cours de rédaction\""
 
 # Creation action displayed in history
 #. Default: "Created"
@@ -216,7 +216,7 @@ msgstr "Workflow un état PloneMeeting"
 
 #. Default: "PloneMeeting 'folder' view"
 msgid "PloneMeetingFolderView"
-msgstr "Vue PloneMeeting de type 'dossier'"
+msgstr "Vue PloneMeeting de type \"dossier\""
 
 # PodTemplate
 #. Default: "Document template"
@@ -334,68 +334,68 @@ msgstr "Assemblée et signatures"
 
 #. Default: "Back to 'Accepted'"
 msgid "backToAccepted"
-msgstr "Remettre en 'Accepté'"
+msgstr "Remettre en \"Accepté\""
 
 #. Default: "Back to 'Advice Under Edit'"
 msgid "backToAdviceInitialState"
-msgstr "Remettre en 'Avis en cours de rédaction'"
+msgstr "Remettre en \"Avis en cours de rédaction\""
 
 # XXX backward compatibility until ticket # is managed
 #. Default: "Back to 'Advice Under Edit'"
 msgid "backToAdviceUnderEdit"
-msgstr "Remettre en 'Avis en cours de rédaction'"
+msgstr "Remettre en \"Avis en cours de rédaction\""
 
 #. Default: "Back to 'Closed'"
 msgid "backToClosed"
-msgstr "Remettre en 'Clôturé'"
+msgstr "Remettre en \"Clôturé\""
 
 #. Default: "Back to 'Confirmed'"
 msgid "backToConfirmed"
-msgstr "Remettre en 'Confirmé'"
+msgstr "Remettre en \"Confirmé\""
 
 #. Default: "Back to 'Created'"
 msgid "backToCreated"
-msgstr "Remettre 'En création'"
+msgstr "Remettre \"En création\""
 
 #. Default: "Back to 'Decided'"
 msgid "backToDecided"
-msgstr "Remettre 'En rédaction du PV'"
+msgstr "Remettre \"En rédaction du PV\""
 
 #. Default: "Back to 'Decisions published'"
 msgid "backToDecisionsPublished"
-msgstr "Remettre en 'Décisions publiées'"
+msgstr "Remettre en \"Décisions publiées\""
 
 #. Default: "Back to 'Delayed'"
 msgid "backToDelayed"
-msgstr "Remettre en 'Reporté'"
+msgstr "Remettre en \"Reporté\""
 
 #. Default: "Back to 'Frozen'"
 msgid "backToFrozen"
-msgstr "Remettre en 'Gelé'"
+msgstr "Remettre en \"Gelé\""
 
 #. Default: "Back to 'Created'"
 msgid "backToItemCreated"
-msgstr "Remettre 'En création'"
+msgstr "Remettre \"En création\""
 
 #. Default: "Back to 'Frozen'"
 msgid "backToItemFrozen"
-msgstr "Remettre en 'Gelé'"
+msgstr "Remettre en \"Gelé\""
 
 #. Default: "Back to 'Published'"
 msgid "backToItemPublished"
-msgstr "Remettre en 'Publié'"
+msgstr "Remettre en \"Publié\""
 
 #. Default: "Back to 'Presented'"
 msgid "backToPresented"
-msgstr "Remettre en 'Présenté'"
+msgstr "Remettre en \"Présenté\""
 
 #. Default: "Back to 'Pre-validated'"
 msgid "backToPrevalidated"
-msgstr "Remettre en 'Pré-validé'"
+msgstr "Remettre en \"Pré-validé\""
 
 #. Default: "Back to 'Proposed'"
 msgid "backToProposed"
-msgstr "Remettre en 'Proposé'"
+msgstr "Remettre en \"Proposé\""
 
 #. Default: "Back to 'Proposed to level 1'"
 msgid "backToProposedToValidationLevel1"
@@ -419,11 +419,11 @@ msgstr "Renvoyer au N+5"
 
 #. Default: "Back to 'Published'"
 msgid "backToPublished"
-msgstr "Remettre en 'Publié'"
+msgstr "Remettre en \"Publié\""
 
 #. Default: "Back to 'Refused'"
 msgid "backToRefused"
-msgstr "Remettre en 'Refusé'"
+msgstr "Remettre en \"Refusé\""
 
 #. Default: "Remove from meeting"
 msgid "backToValidated"
@@ -431,31 +431,35 @@ msgstr "Retirer de la séance"
 
 #. Default: "Back to 'Validated'"
 msgid "backToValidatedFromAcceptedOutOfMeeting"
-msgstr "Remettre en 'Validé'"
+msgstr "Remettre en \"Validé\""
 
 #. Default: "Back to 'Validated'"
 msgid "backToValidatedFromAcceptedOutOfMeetingEmergency"
-msgstr "Remettre en 'Validé'"
+msgstr "Remettre en \"Validé\""
 
 #. Default: "Back to 'Item created'"
 msgid "backTo_itemcreated_from_waiting_advices"
-msgstr "Remettre 'En création'"
+msgstr "Remettre \"En création\""
 
 #. Default: "Back to 'Prevalidated'"
 msgid "backTo_prevalidated_from_waiting_advices"
-msgstr "Remettre en 'Pré-validé'"
+msgstr "Remettre en \"Pré-validé\""
 
 #. Default: "Back to 'Proposed'"
 msgid "backTo_proposed_from_waiting_advices"
-msgstr "Remettre en 'Proposé'"
+msgstr "Remettre en \"Proposé\""
+
+#. Default: "Back to proposing group from prevalidated"
+msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_prevalidated"
+msgstr "Remettre en \"À corriger\""
 
 #. Default: "Back to proposing group from proposed"
 msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposed"
-msgstr "Remettre en 'À corriger'"
+msgstr "Remettre en \"À corriger\""
 
 #. Default: "Back to proposing group (proposed) from prevalidated"
 msgid "backTo_returned_to_proposing_group_proposed_from_returned_to_proposing_group_prevalidated"
-msgstr "Remettre en 'À corriger (proposé)'"
+msgstr "Remettre en \"À corriger (proposé)\""
 
 #. Default: "Validate"
 msgid "backTo_validated_from_waiting_advices"
@@ -515,7 +519,7 @@ msgstr "Cette organisation ne peut pas être supprimé, elle est référencée d
 
 #. Default: "This organization can not be deleted, it is used as group in charge of organization ${org_url}!"
 msgid "can_not_delete_organization_groupincharge"
-msgstr "Cette organisation ne peut pas être supprimée, elle est utilisés comme 'Groupe en charge' de l'organisation '${org_title}.'!"
+msgstr "Cette organisation ne peut pas être supprimée, elle est utilisés comme \"Groupe en charge\" de l'organisation \"${org_title}.\"!"
 
 #. Default: "This organization can not be deleted, it is used in a category, check ${url}!"
 msgid "can_not_delete_organization_meetingcategory"

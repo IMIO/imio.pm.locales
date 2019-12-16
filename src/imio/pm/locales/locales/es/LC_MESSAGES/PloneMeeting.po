@@ -1795,7 +1795,7 @@ msgstr ""
 msgid "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
 msgstr ""
 
-#. Default: "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above."
+#. Default: "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above. <span style='color: red;'>Warning, this will not add an additional position but will make this information useable if necesary, like when generating POD templates for example.  If this person have several different positions, you need to add as much held positions as necessary.</span>"
 msgid "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above."
 msgstr ""
 
@@ -1909,6 +1909,10 @@ msgstr ""
 
 #. Default: "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
 msgid "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
+msgstr ""
+
+#. Default: "This label can not be removed as it is used by some items, for example ${item_url}"
+msgid "This label can not be removed as it is used by some items, for example ${item_url}"
 msgstr ""
 
 #. Default: "This meeting configuration uses following fields to manage assemblies and signatures"
@@ -2488,6 +2492,10 @@ msgstr ""
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "Este tema ya no puede ser devuelto a los administrador de reunión porque la reunión se encuentra en un estado no se autoriza (${meetingState})."
+
+#. Default: "You can not select an adviser that is already displayed on the item as an inherited advice.  If you need to ask this advice again, you need to remove the inherited advice (as a MeetingManager or a Manager) then select advice again."
+msgid "can_not_select_optional_adviser_same_group_as_inherited"
+msgstr ""
 
 #. Default: "You can not select several values for the same group.  Please select a single value for the same group among available ones."
 msgid "can_not_select_several_optional_advisers_same_group"
@@ -3395,7 +3403,7 @@ msgstr ""
 msgid "holidays_removed_date_in_use_error"
 msgstr ""
 
-#. Default: "There are not enough holidays defined in the configuration, please contact you system administrator!"
+#. Default: "There are not enough holidays defined in the configuration.  These days are used for advice delay computation.  This warning appear when last holiday defined in the configuration is in less than 60 days. Contact you system administrator if necessary."
 msgid "holidays_warning_message"
 msgstr ""
 

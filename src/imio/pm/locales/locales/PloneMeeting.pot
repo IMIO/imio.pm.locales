@@ -1289,7 +1289,7 @@ msgstr ""
 msgid "Secondary position type"
 msgstr ""
 
-#. Default: "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above."
+#. Default: "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above. <span style='color: red;'>Warning, this will not add an additional position but will make this information useable if necesary, like when generating POD templates for example.  If this person have several different positions, you need to add as much held positions as necessary.</span>"
 msgid "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above."
 msgstr ""
 
@@ -4237,6 +4237,10 @@ msgstr ""
 msgid "can_not_select_several_optional_advisers_same_group"
 msgstr ""
 
+#. Default: "You can not select an adviser that is already displayed on the item as an inherited advice.  If you need to ask this advice again, you need to remove the inherited advice (as a MeetingManager or a Manager) then select advice again."
+msgid "can_not_select_optional_adviser_same_group_as_inherited"
+msgstr ""
+
 #. Default: "Asked on ${advice_asked_on_date}"
 msgid "Asked on ${advice_asked_on_date}"
 msgstr ""
@@ -4753,7 +4757,7 @@ msgstr ""
 msgid "Holidays warning (do not delete!)"
 msgstr ""
 
-#. Default: "There are not enough holidays defined in the configuration, please contact you system administrator!"
+#. Default: "There are not enough holidays defined in the configuration.  These days are used for advice delay computation.  This warning appear when last holiday defined in the configuration is in less than 60 days. Contact you system administrator if necessary."
 msgid "holidays_warning_message"
 msgstr ""
 
@@ -5804,4 +5808,8 @@ msgstr ""
 
 #. Default: "Execute the \"TAL expression\""
 msgid "execute_tal_expression"
+msgstr ""
+
+#. Default: "This label can not be removed as it is used by some items, for example ${item_url}"
+msgid "This label can not be removed as it is used by some items, for example ${item_url}"
 msgstr ""

@@ -102,7 +102,7 @@ msgstr "Category"
 
 #. Default: "Concertation assembly"
 msgid "MeetingConcertation"
-msgstr ""
+msgstr "Concertation assembly"
 
 # Portal type names
 #. Default: "Meeting configuration"
@@ -115,11 +115,11 @@ msgstr "Item"
 
 #. Default: "Item"
 msgid "MeetingItemConcertation"
-msgstr ""
+msgstr "Item"
 
 #. Default: "Item"
 msgid "MeetingItemNegociation"
-msgstr ""
+msgstr "Item"
 
 #. Default: "Item"
 msgid "MeetingItemPga"
@@ -131,11 +131,11 @@ msgstr "Item"
 
 #. Default: "Recurring item"
 msgid "MeetingItemRecurringConcertation"
-msgstr ""
+msgstr "Recurring item"
 
 #. Default: "Recurring item"
 msgid "MeetingItemRecurringNegociation"
-msgstr ""
+msgstr "Recurring item"
 
 #. Default: "Recurring item"
 msgid "MeetingItemRecurringPga"
@@ -147,15 +147,15 @@ msgstr "Recurring item"
 
 #. Default: "Recurring item"
 msgid "MeetingItemRecurringadvice-committee"
-msgstr ""
+msgstr "Recurring item"
 
 #. Default: "Item template"
 msgid "MeetingItemTemplateConcertation"
-msgstr ""
+msgstr "Item template"
 
 #. Default: "Item template"
 msgid "MeetingItemTemplateNegociation"
-msgstr ""
+msgstr "Item template"
 
 #. Default: "Item template"
 msgid "MeetingItemTemplatePga"
@@ -167,11 +167,11 @@ msgstr "Item template"
 
 #. Default: "Item template"
 msgid "MeetingItemTemplateadvice-committee"
-msgstr ""
+msgstr "Item template"
 
 #. Default: "Item"
 msgid "MeetingItemadvice-committee"
-msgstr ""
+msgstr "Item"
 
 #. Default: "Meeting Manager"
 msgid "MeetingManager"
@@ -183,7 +183,7 @@ msgstr "Meeting Member"
 
 #. Default: "Negociation assembly"
 msgid "MeetingNegociation"
-msgstr ""
+msgstr "Negociation assembly"
 
 #. Default: "Meeting Observer Global"
 msgid "MeetingObserverGlobal"
@@ -203,7 +203,7 @@ msgstr "User characteristics"
 
 #. Default: "Advice Committee assembly"
 msgid "Meetingadvice-committee"
-msgstr ""
+msgstr "Advice Committee assembly"
 
 #. Default: "No meeting to delete."
 msgid "No meeting to delete."
@@ -451,6 +451,10 @@ msgstr "Back to 'Prevalidated'"
 #. Default: "Back to 'Proposed'"
 msgid "backTo_proposed_from_waiting_advices"
 msgstr "Back to 'Proposed'"
+
+#. Default: "Back to proposing group from prevalidated"
+msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_prevalidated"
+msgstr "Back to proposing group from prevalidated"
 
 #. Default: "Back to proposing group from proposed"
 msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposed"
