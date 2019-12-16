@@ -3225,6 +3225,10 @@ msgstr "When an item is in one of the states you choose here, it will be possibl
 msgid "group_keep_access_to_item_when_advice_is_given_descr"
 msgstr "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 
+#. Default: "Please select a group in charge."
+msgid "groupsInCharge_required"
+msgstr ""
+
 #. Default: "If you do not select anything, every groups will be displayed."
 msgid "groups_hidden_in_dashboard_filter_descr"
 msgstr "If you do not select anything, every groups will be displayed."
