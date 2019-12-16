@@ -3229,6 +3229,10 @@ msgstr "Quand un point est dans un des états que vous sélectionnez ici, il ser
 msgid "group_keep_access_to_item_when_advice_is_given_descr"
 msgstr "Lorsqu'un avis a été rendu sur un point, le point restera visible par les émetteurs d'avis quel que soit l'état du point.  Ceci permet de surcharger le paramètre du même nom défini sur la configuration de séance (onglet \"Avis et accès\") pour ce groupe si nécessaire.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter \"Mettre à jour les points et séances\"!</span>"
 
+#. Default: "Please select a group in charge."
+msgid "groupsInCharge_required"
+msgstr "Veuillez sélectionner un groupe en charge."
+
 #. Default: "If you do not select anything, every groups will be displayed."
 msgid "groups_hidden_in_dashboard_filter_descr"
 msgstr "Si vous ne sélectionnez rien (par défaut), tous les groupes seront affichés."
