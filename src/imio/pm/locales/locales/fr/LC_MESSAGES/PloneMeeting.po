@@ -2404,10 +2404,6 @@ msgstr "Choisissez ici les colonnes qui seront affichées dans le tableau repren
 msgid "available_mailing_lists_title"
 msgstr "Cliquez pour voir les listes de diffusion disponible pour ce document à générer"
 
-#. Default: "Available meetings"
-msgid "available_meetings"
-msgstr "Séances disponibles"
-
 #. Default: "Back"
 msgid "back"
 msgstr "Retour"
@@ -4934,10 +4930,6 @@ msgstr "Avis donnés"
 msgid "searchalladviseditemswithdelay"
 msgstr "Avis donnés (avec délai)"
 
-#. Default: "All decisions"
-msgid "searchalldecisions"
-msgstr "Toutes les décisions"
-
 #. Default: "All items"
 msgid "searchallitems"
 msgstr "Tous les points"
@@ -4950,9 +4942,9 @@ msgstr "Points en copie"
 msgid "searchallitemstoadvice"
 msgstr "Tous les avis à donner"
 
-#. Default: "Available meetings"
+#. Default: "All meetings"
 msgid "searchallmeetings"
-msgstr "Séances disponibles"
+msgstr "Toutes les séances"
 
 #. Default: "Corrected items"
 msgid "searchcorrecteditems"
@@ -5021,6 +5013,10 @@ msgstr "Mes points"
 #. Default: "items taken over"
 msgid "searchmyitemstakenover"
 msgstr "Points pris en charge"
+
+#. Default: "Available meetings"
+msgid "searchnotdecidedmeetings"
+msgstr "Séances disponibles"
 
 #. Default: "Unread decided items"
 msgid "searchunreaddecideditems"

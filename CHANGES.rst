@@ -6,6 +6,7 @@ Changelog
 ------------------
 
 - Added added translation for MeetingItem.validate_groupsInCharge error message.
+- Adapted translation of 'searchallmeetings' and added translation for 'searchnotdecidedmeetings'.
 
 4.1.3 (2019-11-19)
 ------------------

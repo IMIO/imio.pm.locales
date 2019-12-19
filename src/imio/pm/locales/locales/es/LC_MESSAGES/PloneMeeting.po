@@ -2433,10 +2433,6 @@ msgstr ""
 msgid "available_mailing_lists_title"
 msgstr ""
 
-#. Default: "Available meetings"
-msgid "available_meetings"
-msgstr "Reuniones disponibles"
-
 #. Default: "Back"
 msgid "back"
 msgstr "Volver"
@@ -5045,10 +5041,6 @@ msgstr "temas aconsejados"
 msgid "searchalladviseditemswithdelay"
 msgstr "temas asesorados con retraso"
 
-#. Default: "All decisions"
-msgid "searchalldecisions"
-msgstr "todas las decisiones"
-
 #. Default: "All items"
 msgid "searchallitems"
 msgstr "todos los temas"
@@ -5061,7 +5053,8 @@ msgstr "temas en copia"
 msgid "searchallitemstoadvice"
 msgstr "temas para aconsejar"
 
-#. Default: "Available meetings"
+#. Default: "All meetings"
+#, fuzzy
 msgid "searchallmeetings"
 msgstr "reuniones disponibles"
 
@@ -5131,6 +5124,10 @@ msgstr "mis temas"
 
 #. Default: "items taken over"
 msgid "searchmyitemstakenover"
+msgstr ""
+
+#. Default: "Available meetings"
+msgid "searchnotdecidedmeetings"
 msgstr ""
 
 #. Default: "Unread decided items"

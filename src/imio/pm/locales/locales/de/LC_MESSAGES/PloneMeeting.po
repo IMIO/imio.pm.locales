@@ -2423,10 +2423,6 @@ msgstr ""
 msgid "available_mailing_lists_title"
 msgstr ""
 
-#. Default: "Available meetings"
-msgid "available_meetings"
-msgstr "Verfügbare Sitzungen"
-
 #. Default: "Back"
 msgid "back"
 msgstr "Zurück"
@@ -5009,10 +5005,6 @@ msgstr "TOP mit Kommentare"
 msgid "searchalladviseditemswithdelay"
 msgstr ""
 
-#. Default: "All decisions"
-msgid "searchalldecisions"
-msgstr "alle Beschlüsse"
-
 #. Default: "All items"
 msgid "searchallitems"
 msgstr "Alle TOP"
@@ -5025,7 +5017,8 @@ msgstr "TOP in Kopie"
 msgid "searchallitemstoadvice"
 msgstr "TOP zu Kommentieren"
 
-#. Default: "Available meetings"
+#. Default: "All meetings"
+#, fuzzy
 msgid "searchallmeetings"
 msgstr "Vorhandene Sitzungen"
 
@@ -5095,6 +5088,10 @@ msgstr "Meine TOP"
 
 #. Default: "items taken over"
 msgid "searchmyitemstakenover"
+msgstr ""
+
+#. Default: "Available meetings"
+msgid "searchnotdecidedmeetings"
 msgstr ""
 
 #. Default: "Unread decided items"

@@ -1896,7 +1896,7 @@ msgstr "This item is not viewable by the advisers of this group in the current r
 
 #. Default: "This label can not be removed as it is used by some items, for example ${item_url}"
 msgid "This label can not be removed as it is used by some items, for example ${item_url}"
-msgstr ""
+msgstr "This label can not be removed as it is used by some items, for example ${item_url}"
 
 #. Default: "This meeting configuration uses following fields to manage assemblies and signatures"
 msgid "This meeting configuration uses following fields to manage assemblies and signatures"
@@ -2403,10 +2403,6 @@ msgstr "Choose columns to display on the table of items available for a meeting.
 #. Default: "Click to see available mailing lists for this POD template"
 msgid "available_mailing_lists_title"
 msgstr "Click to see available mailing lists for this POD template"
-
-#. Default: "Available meetings"
-msgid "available_meetings"
-msgstr "Available meetings"
 
 #. Default: "Back"
 msgid "back"
@@ -3227,7 +3223,7 @@ msgstr "When an advice has been given on an item, advisers of the given advice w
 
 #. Default: "Please select a group in charge."
 msgid "groupsInCharge_required"
-msgstr ""
+msgstr "Please select a group in charge."
 
 #. Default: "If you do not select anything, every groups will be displayed."
 msgid "groups_hidden_in_dashboard_filter_descr"
@@ -4935,10 +4931,6 @@ msgstr "Advised items"
 msgid "searchalladviseditemswithdelay"
 msgstr "Advised items with delay"
 
-#. Default: "All decisions"
-msgid "searchalldecisions"
-msgstr "All decisions"
-
 #. Default: "All items"
 msgid "searchallitems"
 msgstr "All items"
@@ -4951,7 +4943,8 @@ msgstr "Items in copy"
 msgid "searchallitemstoadvice"
 msgstr "All items to advice"
 
-#. Default: "Available meetings"
+#. Default: "All meetings"
+#, fuzzy
 msgid "searchallmeetings"
 msgstr "Available meetings"
 
@@ -5022,6 +5015,10 @@ msgstr "My items"
 #. Default: "items taken over"
 msgid "searchmyitemstakenover"
 msgstr "items taken over"
+
+#. Default: "Available meetings"
+msgid "searchnotdecidedmeetings"
+msgstr "Available meetings"
 
 #. Default: "Unread decided items"
 msgid "searchunreaddecideditems"
