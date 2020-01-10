@@ -5,7 +5,7 @@ Changelog
 4.1.4 (unreleased)
 ------------------
 
-- Added added translation for MeetingItem.validate_groupsInCharge error message.
+- Added translation for MeetingItem.validate_groupsInCharge error message.
 - Adapted translation of 'searchallmeetings' and added translation for 'searchnotdecidedmeetings'.
 - Simplified french translation for MeetingItem.manuallyLinkedItems description.
 - Added translations for MeetingConfig.includeGroupsInChargeDefinedOnProposingGroup and MeetingConfig.includeGroupsInChargeDefinedOnCategory.
