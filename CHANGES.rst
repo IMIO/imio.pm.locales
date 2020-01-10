@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1.4 (unreleased)
+4.1.4 (2020-01-10)
 ------------------
 
 - Added translation for MeetingItem.validate_groupsInCharge error message.
