@@ -1008,6 +1008,14 @@ msgstr "Attributs des séances pour lesquels l'historique doit être conservé"
 msgid "PloneMeeting_label_holidays"
 msgstr "Jours fériés"
 
+#. Default: "Include groups in charge defined on category"
+msgid "PloneMeeting_label_includeGroupsInChargeDefinedOnCategory"
+msgstr "Inclure les groupes en charge définis sur la catégorie du point"
+
+#. Default: "Include groups in charge defined on proposing group"
+msgid "PloneMeeting_label_includeGroupsInChargeDefinedOnProposingGroup"
+msgstr "Inclure les groupes en charge définis sur le groupe proposant du point"
+
 #. Default: "An adviser may remove inherited advices?"
 msgid "PloneMeeting_label_inheritedAdviceRemoveableByAdviser"
 msgstr "Un émetteur d'avis peut enlever un avis hérité?"
@@ -1086,7 +1094,7 @@ msgstr "États dans lesquels un point sera automatiquement envoyé vers les autr
 
 #. Default: "Item states in which budget impact editors can change budgetary informations"
 msgid "PloneMeeting_label_itemBudgetInfosStates"
-msgstr "États des points dans lesquels les 'Gestionnaires d'informations budgétaires' peuvent modifier les informations budgétaires"
+msgstr "États des points dans lesquels les \"Gestionnaires d'informations budgétaires\" peuvent modifier les informations budgétaires"
 
 #. Default: "Columns to display in lists of items"
 msgid "PloneMeeting_label_itemColumns"
@@ -1118,7 +1126,7 @@ msgstr "Champs du point dont le vocabulaire doit garder l'ordre des termes défi
 
 #. Default: "Item states in which groups in charge will have access to items of groups they have in charge"
 msgid "PloneMeeting_label_itemGroupsInChargeStates"
-msgstr "États des points dans lesquels les 'Groupes en charge' peuvent les voir"
+msgstr "États des points dans lesquels les \"Groupes en charge\" peuvent les voir"
 
 #. Default: "Item icon color"
 msgid "PloneMeeting_label_itemIconColor"
@@ -2404,10 +2412,6 @@ msgstr "Choisissez ici les colonnes qui seront affichées dans le tableau repren
 msgid "available_mailing_lists_title"
 msgstr "Cliquez pour voir les listes de diffusion disponible pour ce document à générer"
 
-#. Default: "Available meetings"
-msgid "available_meetings"
-msgstr "Séances disponibles"
-
 #. Default: "Back"
 msgid "back"
 msgstr "Retour"
@@ -3511,6 +3515,14 @@ msgstr "Pour utiliser cette fonctionnalité, il est nécessaire que l'icône \"$
 msgid "in_and_out_moves_descr"
 msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
 
+#. Default: "If checked, the groups in charge selected on the category of the item will be taken into account."
+msgid "include_groups_in_charge_defined_on_category_descr"
+msgstr "Les groupes en charge définis sur la catégorie du point seront pris en compte par l'application (ordre des points sur séance par groupe en charge, accès aux points par les groupes en charge, accès aux annexes confidentielles, ...)"
+
+#. Default: "If checked, the groups in charge selected on the proposing group of the item will be taken into account."
+msgid "include_groups_in_charge_defined_on_proposing_group_descr"
+msgstr "Les groupes en charge définis sur le groupe proposant du point seront pris en compte par l'application (ordre des points sur séance par groupe en charge, accès aux points par les groupes en charge, accès aux annexes confidentielles, ...)"
+
 #. Default: "By default, only MeetingManagers may remove an inherited advice as long as item is editable.  If checked, this will give the advisers the possibility to remove an advice of their adviser groups when the item is in a state defined in the \"Item states allowing to modify or delete advices\" field here above."
 msgid "inherited_advice_removeable_by_adviser_descr"
 msgstr "Par défaut, seuls les gestionnaires de séances peuvent enlever un avis hérité tant que le point est éditable.  Si la case est cochée, les émetteurs d'avis auront la possibilité de supprimer un avis hérité rendu par leur groupe tant que le point est dans un des états définis dans le champ \"États des points dans lesquels on peut modifier ou supprimer un avis donné\" ci-dessus."
@@ -4011,7 +4023,7 @@ msgstr "Au moins un avis obligatoire pour ce point n'est pas positif ou n'a pas 
 
 #. Default: "Select here items that are linked to this item.  These items will appear in linked items but separated from items linked automatically by the application.  Current item will be also visible in the manually linked items of items you just linked...  To remove a linked item, just unckeck the checkbox in front of the item title.  Items will be automatically sorted chronologically. Manually linked items works like a \"virtual folder\" where every items are stored.  If you unlink an item, it will be unlinked from every items of the \"virtual folder\".  If you unlink every items, this will destroy this \"virtual folder\"."
 msgid "manually_linked_items_descr"
-msgstr "Sélectionnez les points qui sont liés au point courant.  Ces points apparaîtront dans les points liés, mais séparés des points liés automatiquement par l'application.  Le point courant apparaîtra également comme point lié sur les points sélectionnés.  Pour enlever un point lié, décochez la case de ce point.  Les points seront triés chronologiquement.  Les points liés manuellement vont former un \"dossier virtuel\" où tous les points sont liés entre eux.  Si vous enlevez un point de ce \"dossier virtuel\", il ne sera plus lié à aucun des autres points.  Si vous désélectionnez tous les points de ce \"dossier virtuel\", celui-ci sera vidé et plus aucun point ne sera lié aux autres."
+msgstr "Sélectionnez les points qui sont liés au point courant, pour en enlever un, décochez sa case.  Les points liés affichés seront triés chronologiquement et formeront un \"dossier virtuel\" où tous les points sont liés entre eux.  Si vous enlevez un point de ce \"dossier virtuel\", il ne sera plus lié à aucun des autres points et si vous désélectionnez tous les points, plus aucun point ne sera lié aux autres."
 
 #. Default: "This field will still be editable by meeting managers when the item will be decided."
 msgid "marginal_notes_descr"
@@ -4938,10 +4950,6 @@ msgstr "Avis donnés"
 msgid "searchalladviseditemswithdelay"
 msgstr "Avis donnés (avec délai)"
 
-#. Default: "All decisions"
-msgid "searchalldecisions"
-msgstr "Toutes les décisions"
-
 #. Default: "All items"
 msgid "searchallitems"
 msgstr "Tous les points"
@@ -4954,9 +4962,9 @@ msgstr "Points en copie"
 msgid "searchallitemstoadvice"
 msgstr "Tous les avis à donner"
 
-#. Default: "Available meetings"
+#. Default: "All meetings"
 msgid "searchallmeetings"
-msgstr "Séances disponibles"
+msgstr "Toutes les séances"
 
 #. Default: "Corrected items"
 msgid "searchcorrecteditems"
@@ -4968,7 +4976,7 @@ msgstr "Points décidés"
 
 #. Default: "Searches defined here are used in the main portlet. We recommand not modifying them."
 msgid "searches_descr"
-msgstr "Les recherches définies ici seront affichées dans le portlet 'Gestion' dans l'application. Il est vivement conseillé de ne pas les modifier."
+msgstr "Les recherches définies ici seront affichées dans le portlet \"Gestion\" dans l'application. Il est vivement conseillé de ne pas les modifier."
 
 #. Default: "Items of my groups"
 msgid "searchitemsofmygroups"
@@ -5025,6 +5033,10 @@ msgstr "Mes points"
 #. Default: "items taken over"
 msgid "searchmyitemstakenover"
 msgstr "Points pris en charge"
+
+#. Default: "Available meetings"
+msgid "searchnotdecidedmeetings"
+msgstr "Séances disponibles"
 
 #. Default: "Unread decided items"
 msgid "searchunreaddecideditems"

@@ -572,10 +572,6 @@ msgstr ""
 msgid "item_assembly"
 msgstr ""
 
-#. Default: "Available meetings"
-msgid "available_meetings"
-msgstr ""
-
 #. Default: "Meeting into which this item is presented"
 msgid "presented_in_meeting"
 msgstr ""
@@ -3329,7 +3325,7 @@ msgid "create_meeting"
 msgstr ""
 
 #. Default: "Available meetings"
-msgid "searchallmeetings"
+msgid "searchnotdecidedmeetings"
 msgstr ""
 
 #. Default: "No (visible) meeting at present."
@@ -3344,8 +3340,8 @@ msgstr ""
 msgid "searchlastdecisions"
 msgstr ""
 
-#. Default: "All decisions"
-msgid "searchalldecisions"
+#. Default: "All meetings"
+msgid "searchallmeetings"
 msgstr ""
 
 # Mails (item-related)
@@ -5792,6 +5788,22 @@ msgstr ""
 
 #. Default: "If this field is left empty, selectable groups in charge are every organizations selected in the plonegroup configuration panel.  Here you may select groups in charge in a particular order.  This is only relevant if the 'Groups in charge' field is enabled on items."
 msgid "ordered_groups_in_charge_descr"
+msgstr ""
+
+#. Default: "Include groups in charge defined on proposing group"
+msgid "PloneMeeting_label_includeGroupsInChargeDefinedOnProposingGroup"
+msgstr ""
+
+#. Default: "If checked, the groups in charge selected on the proposing group of the item will be taken into account."
+msgid "include_groups_in_charge_defined_on_proposing_group_descr"
+msgstr ""
+
+#. Default: "Include groups in charge defined on category"
+msgid "PloneMeeting_label_includeGroupsInChargeDefinedOnCategory"
+msgstr ""
+
+#. Default: "If checked, the groups in charge selected on the category of the item will be taken into account."
+msgid "include_groups_in_charge_defined_on_category_descr"
 msgstr ""
 
 #. Default: "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."

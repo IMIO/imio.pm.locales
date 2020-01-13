@@ -1010,6 +1010,14 @@ msgstr ""
 msgid "PloneMeeting_label_holidays"
 msgstr ""
 
+#. Default: "Include groups in charge defined on category"
+msgid "PloneMeeting_label_includeGroupsInChargeDefinedOnCategory"
+msgstr ""
+
+#. Default: "Include groups in charge defined on proposing group"
+msgid "PloneMeeting_label_includeGroupsInChargeDefinedOnProposingGroup"
+msgstr ""
+
 #. Default: "An adviser may remove inherited advices?"
 msgid "PloneMeeting_label_inheritedAdviceRemoveableByAdviser"
 msgstr ""
@@ -2415,10 +2423,6 @@ msgstr ""
 msgid "available_mailing_lists_title"
 msgstr ""
 
-#. Default: "Available meetings"
-msgid "available_meetings"
-msgstr "Beschikbare vergaderingen"
-
 #. Default: "Back"
 msgid "back"
 msgstr "Terug"
@@ -3527,6 +3531,14 @@ msgstr ""
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "in_and_out_moves_descr"
+msgstr ""
+
+#. Default: "If checked, the groups in charge selected on the category of the item will be taken into account."
+msgid "include_groups_in_charge_defined_on_category_descr"
+msgstr ""
+
+#. Default: "If checked, the groups in charge selected on the proposing group of the item will be taken into account."
+msgid "include_groups_in_charge_defined_on_proposing_group_descr"
 msgstr ""
 
 #. Default: "By default, only MeetingManagers may remove an inherited advice as long as item is editable.  If checked, this will give the advisers the possibility to remove an advice of their adviser groups when the item is in a state defined in the \"Item states allowing to modify or delete advices\" field here above."
@@ -4975,10 +4987,6 @@ msgstr ""
 msgid "searchalladviseditemswithdelay"
 msgstr ""
 
-#. Default: "All decisions"
-msgid "searchalldecisions"
-msgstr "all decisions"
-
 #. Default: "All items"
 msgid "searchallitems"
 msgstr "all items"
@@ -4991,7 +4999,8 @@ msgstr ""
 msgid "searchallitemstoadvice"
 msgstr ""
 
-#. Default: "Available meetings"
+#. Default: "All meetings"
+#, fuzzy
 msgid "searchallmeetings"
 msgstr "beschikbare vergaderingen"
 
@@ -5061,6 +5070,10 @@ msgstr "mijn punten"
 
 #. Default: "items taken over"
 msgid "searchmyitemstakenover"
+msgstr ""
+
+#. Default: "Available meetings"
+msgid "searchnotdecidedmeetings"
 msgstr ""
 
 #. Default: "Unread decided items"
