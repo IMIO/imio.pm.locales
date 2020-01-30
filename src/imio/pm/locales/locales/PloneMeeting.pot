@@ -5829,3 +5829,7 @@ msgstr ""
 #. Default: "This label can not be removed as it is used by some items, for example ${item_url}"
 msgid "This label can not be removed as it is used by some items, for example ${item_url}"
 msgstr ""
+
+#. Default: "You can not disable or remove a line that is currently used by an item in the application, checkout configuration about state \"item_state\" that is used for example by item at ${item_url}"
+msgid "item_wf_val_states_can_not_be_removed_in_use"
+msgstr ""
