@@ -1183,6 +1183,10 @@ msgstr "Tags"
 msgid "PloneMeeting_label_itemTitle"
 msgstr ""
 
+#. Default: "Item validation levels"
+msgid "PloneMeeting_label_itemWFValidationLevels"
+msgstr ""
+
 #. Default: "An item containing given advice is not deletable"
 msgid "PloneMeeting_label_itemWithGivenAdviceIsNotDeletable"
 msgstr ""
@@ -3908,6 +3912,14 @@ msgstr ""
 
 #. Default: "Item up workflow again"
 msgid "item_up_wf_term"
+msgstr ""
+
+#. Default: "You can not disable or remove a line that is currently used by an item in the application, checkout configuration about state \"${item_state}\" that is used for example by item at \"${item_url}\""
+msgid "item_wf_val_states_can_not_be_removed_in_use"
+msgstr ""
+
+#. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
+msgid "item_wf_validation_levels_descr"
 msgstr ""
 
 #. Default: "If checked, an item that contains given advices will no more be deletable, except by MeetingManagers and Managers."

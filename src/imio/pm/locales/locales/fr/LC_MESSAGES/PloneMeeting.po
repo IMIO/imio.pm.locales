@@ -1181,6 +1181,10 @@ msgstr "Marqueurs"
 msgid "PloneMeeting_label_itemTitle"
 msgstr "Objet"
 
+#. Default: "Item validation levels"
+msgid "PloneMeeting_label_itemWFValidationLevels"
+msgstr "Étapes du workflow de validation des points"
+
 #. Default: "An item containing given advice is not deletable"
 msgid "PloneMeeting_label_itemWithGivenAdviceIsNotDeletable"
 msgstr "Empêcher qu'un point sur lequel des avis ont été rendus soit supprimé?"
@@ -3859,6 +3863,14 @@ msgstr "Les modèles de points seront disponibles aux utilisateurs qui créeront
 #. Default: "Item up workflow again"
 msgid "item_up_wf_term"
 msgstr "Remonte le workflow"
+
+#. Default: "You can not disable or remove a line that is currently used by an item in the application, checkout configuration about state \"${item_state}\" that is used for example by item at \"${item_url}\""
+msgid "item_wf_val_states_can_not_be_removed_in_use"
+msgstr "Vous ne pouvez pas désactiver ou supprimer une ligne correspondant à un état actuellement utilisé dans l'application.  Vérifiez la ligne concernant l'état \"${item_state}\" utilisée par exemple par le point \"${item_url}\""
+
+#. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
+msgid "item_wf_validation_levels_descr"
+msgstr "Ceci génère la partie du workflow du point avant l'état \"Validé\".  Si rien n'est sélectionné, les points seront créés dans l'état \"Validé\".  Si certaines lignes sont activées, la première (état \"En création\") est obligatoire."
 
 #. Default: "If checked, an item that contains given advices will no more be deletable, except by MeetingManagers and Managers."
 msgid "item_with_given_advice_is_not_deletable_descr"
