@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2a1 (unreleased)
+4.2a1 (2020-02-06)
 ------------------
 
 - Adapted translations for mail notification (now that item validation roles are removed, MeetingMember does not exist anymore for example).
