@@ -5,8 +5,7 @@ Changelog
 4.1.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Added translation for 'Temporary QR code!'.
 
 4.1.4 (2020-01-10)
 ------------------
