@@ -705,6 +705,10 @@ msgstr ""
 msgid "PloneMeeting_label_allItemTags"
 msgstr "Etiquetas"
 
+#. Default: "Attributes of annexes only displayed and/or editable by MeetingManagers"
+msgid "PloneMeeting_label_annexRestrictShownAndEditableAttributes"
+msgstr ""
+
 #. Default: "Annex to print mode"
 msgid "PloneMeeting_label_annexToPrintMode"
 msgstr ""
@@ -2243,6 +2247,10 @@ msgstr ""
 msgid "annex_not_kept_because_no_available_annex_type_warning"
 msgstr ""
 
+#. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
+msgid "annex_restrict_shown_and_editable_attributes_descr"
+msgstr ""
+
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Título"
@@ -2711,6 +2719,14 @@ msgstr ""
 
 #. Default: "Not yet evaluated"
 msgid "completeness_not_yet_evaluated"
+msgstr ""
+
+#. Default: "Confidentiality (displayed)"
+msgid "confidentiality_display"
+msgstr ""
+
+#. Default: "Confidentiality (editable)"
+msgid "confidentiality_edit"
 msgstr ""
 
 #. Default: "You can not remove \"${config_group_title}\", it is used by the meeting configuration \"${cfg_title}\"!"
@@ -4931,6 +4947,14 @@ msgstr ""
 msgid "publish_deadline_default_descr"
 msgstr "Especifique aquí la fecha límite para la validación de los temas que se insertan en una reunión dada. Usted tiene la necesidad de expresar este plazo en relación con la fecha de la reunión. Por ejemplo, '5 .9:30' (no escriba las comillas) eso significa: '5 días antes de la fecha de la reunión, a las 9:30'."
 
+#. Default: "Publishable (displayed)"
+msgid "publishable_display"
+msgstr ""
+
+#. Default: "Publishable (editable)"
+msgid "publishable_edit"
+msgstr ""
+
 #. Default: "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
 msgid "record_item_history_states_descr"
 msgstr "Seleccione aquí los estados del tema en los cuales algunos eventos relacionados al tema (como creaciones o eliminaciones de anexo) será almacenada en el histórico del tema."
@@ -5263,6 +5287,14 @@ msgstr "Firmas como se definen en la reunión vinculada"
 msgid "signatures_descr"
 msgstr "Definir aquí las firmas por defecto que se seleccionará automáticamente en las nuevas creaciones de reuniones. Esto será aplicable sólo si se utiliza el atributo 'Firmas' para las reuniones."
 
+#. Default: "Signed (displayed)"
+msgid "signed_display"
+msgstr ""
+
+#. Default: "Signed (editable)"
+msgid "signed_edit"
+msgstr ""
+
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
 msgstr "Verifique esta casilla si usted quiere ordenar las etiquetas en orden alfabético."
@@ -5377,6 +5409,14 @@ msgstr "Un título es requerido"
 
 #. Default: "Ask this advice again (current advice will be historized)"
 msgid "to_advice_asked_again"
+msgstr ""
+
+#. Default: "To be printed (displayed)"
+msgid "to_be_printed_display"
+msgstr ""
+
+#. Default: "To be printed (editable)"
+msgid "to_be_printed_edit"
 msgstr ""
 
 #. Default: "To be send to authority"

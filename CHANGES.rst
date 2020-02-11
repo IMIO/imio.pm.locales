@@ -6,6 +6,7 @@ Changelog
 ------------------
 
 - Added translation for 'Temporary QR code!'.
+- Added translations for MeetingConfig.annexRestrictShownAndEditableAttributes related functionnality.
 
 4.1.4 (2020-01-10)
 ------------------
