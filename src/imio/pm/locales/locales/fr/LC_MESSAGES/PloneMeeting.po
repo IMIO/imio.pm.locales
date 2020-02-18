@@ -700,6 +700,10 @@ msgstr "Avis à garder lors de l'envoi d'un point vers une autre configuration d
 msgid "PloneMeeting_label_allItemTags"
 msgstr "Marqueurs"
 
+#. Default: "Attributes of annexes only displayed and/or editable by MeetingManagers"
+msgid "PloneMeeting_label_annexRestrictShownAndEditableAttributes"
+msgstr "Attributs des annexes affichés ou éditables seulement pas les gestionnaires de séances"
+
 #. Default: "Annex to print mode"
 msgid "PloneMeeting_label_annexToPrintMode"
 msgstr "Mode d'impression des annexes"
@@ -803,6 +807,10 @@ msgstr "Identifiant de la version de cette configuration"
 #. Default: "Contents to keep when item sent to another configuration"
 msgid "PloneMeeting_label_contentsKeptOnSentToOtherMC"
 msgstr "Éléments à garder lors de l'envoi vers une autre configuration de séance"
+
+#. Default: "Meeting convocation date"
+msgid "PloneMeeting_label_convocationDate"
+msgstr "Date de convocation"
 
 #. Default: "Copy groups"
 msgid "PloneMeeting_label_copyGroups"
@@ -1827,6 +1835,10 @@ msgstr "Modèles de style"
 msgid "Taken over by ${fullname}"
 msgstr "Pris en charge par ${fullname}"
 
+#. Default: "Temporary QR code!"
+msgid "Temporary QR code!"
+msgstr "QR code temporaire!"
+
 # plone.app.querystring
 #. Default: "The date of the meeting the item is linked to"
 msgid "The date of the meeting the item is linked to"
@@ -2218,6 +2230,10 @@ msgstr "Cette annexe est confidentielle.  Cliquez sur l'image pour rendre l'anne
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
 msgid "annex_not_kept_because_no_available_annex_type_warning"
 msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée car aucun type d'annexe n'a pu être utilisé dans la configuration de séance de destination, contactez votre administrateur système."
+
+#. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
+msgid "annex_restrict_shown_and_editable_attributes_descr"
+msgstr "Sélectionnez ici pour les attributs activables sur les annexes, lesquels seront affichés ou éditables seulement par les gestionnaires de séances."
 
 #. Default: "Title"
 msgid "annex_title"
@@ -2679,6 +2695,14 @@ msgstr "Le point est incomplet"
 #. Default: "Not yet evaluated"
 msgid "completeness_not_yet_evaluated"
 msgstr "La complétude du point n'a pas encore été évaluée"
+
+#. Default: "Confidentiality (displayed)"
+msgid "confidentiality_display"
+msgstr "Confidentiel (affiché seulement aux gestionnaires de séances)"
+
+#. Default: "Confidentiality (editable)"
+msgid "confidentiality_edit"
+msgstr "Confidentiel (éditable seulement par les gestionnaires de séances)"
 
 #. Default: "You can not remove \"${config_group_title}\", it is used by the meeting configuration \"${cfg_title}\"!"
 msgid "configGroup_removed_in_use_error"
@@ -4841,6 +4865,14 @@ msgstr "Séance publique (entête)"
 msgid "publish_deadline_default_descr"
 msgstr "Spécifiez ici l'échéance pour valider des points à insérer dans une séance donnée. Vous devez exprimer cette échéance comme étant relative à la date de la séance. Par exemple, \"5.9:30\" (n'encodez pas d'apostrophes) signifie \"5 jours avant la date de la séance, à 9:30\".  Laissez le champ vide si vous ne souhaitez pas utiliser cette fonctionnalité."
 
+#. Default: "Publishable (displayed)"
+msgid "publishable_display"
+msgstr "Publiable (affiché seulement aux gestionnaires de séances)"
+
+#. Default: "Publishable (editable)"
+msgid "publishable_edit"
+msgstr "Publiable (éditable seulement par les gestionnaires de séances)"
+
 #. Default: "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
 msgid "record_item_history_states_descr"
 msgstr "Sélectionnez ici les états des points dans lesquels certains événements relatifs aux points (comme la création ou la suppression d'annexes) seront stockés dans leur historique."
@@ -5160,6 +5192,14 @@ msgstr "Signatures définies sur la séance"
 msgid "signatures_descr"
 msgstr "Définissez ici les signatures par défaut qui seront automatiquement sélectionnées sur chaque séance <span style='color:red;'>nouvellement créée, les changements apportés à ce champ n'impacte pas les séances déjà créées.</span> Utilisez 2 lignes par signature, une ligne pour la fonction et une ligne pour le nom du signataire. Ceci fonctionnera uniquement si vous utilisez l'attribut \"Signatures (signatures)\" sur les séances."
 
+#. Default: "Signed (displayed)"
+msgid "signed_display"
+msgstr "À signer/Signé (affiché seulement aux gestionnaires de séances)"
+
+#. Default: "Signed (editable)"
+msgid "signed_edit"
+msgstr "À signer/Signé (éditable seulement par les gestionnaires de séances)"
+
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
 msgstr "Cochez cette case si vous voulez que les marqueurs soient triés par ordre alphabétique."
@@ -5275,6 +5315,14 @@ msgstr "Veuillez spécifier un objet."
 #. Default: "Ask this advice again (current advice will be historized)"
 msgid "to_advice_asked_again"
 msgstr "Demander cet avis à nouveau (l'avis actuel sera historisé)"
+
+#. Default: "To be printed (displayed)"
+msgid "to_be_printed_display"
+msgstr "À imprimer (affiché seulement aux gestionnaires de séances)"
+
+#. Default: "To be printed (editable)"
+msgid "to_be_printed_edit"
+msgstr "À imprimer (éditable seulement par gestionnaires de séances)"
 
 #. Default: "To be send to authority"
 msgid "to_be_send_to_authority_term"

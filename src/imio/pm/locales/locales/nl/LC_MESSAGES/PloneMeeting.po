@@ -702,6 +702,10 @@ msgstr ""
 msgid "PloneMeeting_label_allItemTags"
 msgstr ""
 
+#. Default: "Attributes of annexes only displayed and/or editable by MeetingManagers"
+msgid "PloneMeeting_label_annexRestrictShownAndEditableAttributes"
+msgstr ""
+
 #. Default: "Annex to print mode"
 msgid "PloneMeeting_label_annexToPrintMode"
 msgstr ""
@@ -804,6 +808,10 @@ msgstr "Identificatie van deze meeting configuratie"
 
 #. Default: "Contents to keep when item sent to another configuration"
 msgid "PloneMeeting_label_contentsKeptOnSentToOtherMC"
+msgstr ""
+
+#. Default: "Meeting convocation date"
+msgid "PloneMeeting_label_convocationDate"
 msgstr ""
 
 #. Default: "Copy groups"
@@ -1834,6 +1842,10 @@ msgstr ""
 msgid "Taken over by ${fullname}"
 msgstr ""
 
+#. Default: "Temporary QR code!"
+msgid "Temporary QR code!"
+msgstr ""
+
 # plone.app.querystring
 #. Default: "The date of the meeting the item is linked to"
 msgid "The date of the meeting the item is linked to"
@@ -2227,6 +2239,10 @@ msgstr ""
 
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
 msgid "annex_not_kept_because_no_available_annex_type_warning"
+msgstr ""
+
+#. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
+msgid "annex_restrict_shown_and_editable_attributes_descr"
 msgstr ""
 
 #. Default: "Title"
@@ -2690,6 +2706,14 @@ msgstr ""
 
 #. Default: "Not yet evaluated"
 msgid "completeness_not_yet_evaluated"
+msgstr ""
+
+#. Default: "Confidentiality (displayed)"
+msgid "confidentiality_display"
+msgstr ""
+
+#. Default: "Confidentiality (editable)"
+msgid "confidentiality_edit"
 msgstr ""
 
 #. Default: "You can not remove \"${config_group_title}\", it is used by the meeting configuration \"${cfg_title}\"!"
@@ -4874,6 +4898,14 @@ msgstr ""
 msgid "publish_deadline_default_descr"
 msgstr ""
 
+#. Default: "Publishable (displayed)"
+msgid "publishable_display"
+msgstr ""
+
+#. Default: "Publishable (editable)"
+msgid "publishable_edit"
+msgstr ""
+
 #. Default: "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
 msgid "record_item_history_states_descr"
 msgstr ""
@@ -5200,6 +5232,14 @@ msgstr ""
 msgid "signatures_descr"
 msgstr "Define here the default signatures that will be automatically selected on newly created meetings. This will be applicable only if you use attribute 'Signatures' for meetings."
 
+#. Default: "Signed (displayed)"
+msgid "signed_display"
+msgstr ""
+
+#. Default: "Signed (editable)"
+msgid "signed_edit"
+msgstr ""
+
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
 msgstr "Check this box if you want to sort the tags in alphabetic order."
@@ -5314,6 +5354,14 @@ msgstr "Een titel is vereist."
 
 #. Default: "Ask this advice again (current advice will be historized)"
 msgid "to_advice_asked_again"
+msgstr ""
+
+#. Default: "To be printed (displayed)"
+msgid "to_be_printed_display"
+msgstr ""
+
+#. Default: "To be printed (editable)"
+msgid "to_be_printed_edit"
 msgstr ""
 
 #. Default: "To be send to authority"

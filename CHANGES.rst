@@ -4,9 +4,7 @@ Changelog
 
 4.2a2 (unreleased)
 ------------------
-
 - Nothing changed yet.
-
 
 4.2a1 (2020-02-06)
 ------------------
@@ -14,6 +12,13 @@ Changelog
 - Adapted translations for mail notification (now that item validation roles are removed, MeetingMember does not exist anymore for example).
 - Added translations for default item WF validation levels defined in MeetingConfig.itemWFValidationLevels.
 - Added translation for MeetingItem.validate_groupsInCharge error message.
+
+4.1.5 (2020-02-18)
+------------------
+
+- Added translation for 'Temporary QR code!'.
+- Added translations for MeetingConfig.annexRestrictShownAndEditableAttributes related functionnality.
+- Added translations for Meeting.convocationDate.
 
 4.1.4 (2020-01-10)
 ------------------
