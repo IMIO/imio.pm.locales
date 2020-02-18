@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1.5 (unreleased)
+4.1.5 (2020-02-18)
 ------------------
 
 - Added translation for 'Temporary QR code!'.
