@@ -55,9 +55,9 @@ msgstr "Ce point a été créé suite au report d'un point à une prochaine séa
 msgid "create_from_predecessor_comments"
 msgstr "Ce point a été créé suite au report d'un autre point."
 
-#. Default: "This item has been created from an item template."
+#. Default: "This item has been created from item template \"${template_path_and_title}\"."
 msgid "create_meeting_item_from_template_comments"
-msgstr "Ce point a été créé depuis un modèle."
+msgstr "Ce point a été créé depuis le modèle \"${template_path_and_title}\"."
 
 #. Default: "Item created from a Plonemeeting assembly item."
 msgid "create_to_plonegov-assembly_from_plonemeeting-assembly_comments"
