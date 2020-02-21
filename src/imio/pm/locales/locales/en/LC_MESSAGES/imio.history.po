@@ -54,8 +54,12 @@ msgstr "This item has been created from an item that was postponed to a next mee
 msgid "create_from_predecessor_comments"
 msgstr "This item has been created from a delayed item."
 
-#. Default: "This item has been created from item template \"${template_path_and_title}\"."
+#. Default: "This item has been created from an item template."
 msgid "create_meeting_item_from_template_comments"
+msgstr "This item has been created from an item template."
+
+#. Default: "This item has been created from item template \"${template_path_and_title}\"."
+msgid "create_meeting_item_from_template_label_comments"
 msgstr "This item has been created from item template \"${template_path_and_title}\"."
 
 #. Default: "Item created from a Plonemeeting assembly item."
