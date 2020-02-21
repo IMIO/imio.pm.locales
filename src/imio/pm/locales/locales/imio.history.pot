@@ -27,8 +27,13 @@ msgstr ""
 msgid "create_from_accepted_out_of_meeting_emergency_comments"
 msgstr ""
 
-#. Default: "This item has been created from item template \"${template_path_and_title}\"."
+# XXX kept for backward compatibility
+#. Default: "This item has been created from an item template."
 msgid "create_meeting_item_from_template_comments"
+msgstr ""
+
+#. Default: "This item has been created from item template \"${template_path_and_title}\"."
+msgid "create_meeting_item_from_template_label_comments"
 msgstr ""
 
 #. Default: "This item has been created by duplicating another item."
