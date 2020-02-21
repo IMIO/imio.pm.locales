@@ -5,8 +5,7 @@ Changelog
 4.2a3 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Merged changes from 4.1.6.
 
 4.2a2 (2020-02-21)
 ------------------
