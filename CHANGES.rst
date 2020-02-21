@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1.6 (unreleased)
+4.1.6 (2020-02-21)
 ------------------
 
 - Adapted translation of history message when item was created from item template that includes now the original item template path and title.
