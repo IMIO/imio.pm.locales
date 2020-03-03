@@ -5,8 +5,7 @@ Changelog
 4.1.7 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Added translation for person.firstname_abbreviated field.
 
 4.1.6 (2020-02-21)
 ------------------
