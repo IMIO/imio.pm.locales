@@ -16,7 +16,7 @@ Changelog
 4.2a2 (2020-02-21)
 ------------------
 
-- Adapted translation of history message when item was created from item template that includes now the original item template path and title.
+- Merged changes from 4.1.7.
 
 4.2a1 (2020-02-06)
 ------------------
@@ -24,6 +24,16 @@ Changelog
 - Adapted translations for mail notification (now that item validation roles are removed, MeetingMember does not exist anymore for example).
 - Added translations for default item WF validation levels defined in MeetingConfig.itemWFValidationLevels.
 - Added translation for MeetingItem.validate_groupsInCharge error message.
+
+4.1.7 (unreleased)
+------------------
+
+- Added translation for person.firstname_abbreviated field.
+
+4.1.6 (2020-02-21)
+------------------
+
+- Adapted translation of history message when item was created from item template that includes now the original item template path and title.
 
 4.1.5 (2020-02-18)
 ------------------

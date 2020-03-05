@@ -1,7 +1,11 @@
 from setuptools import setup, find_packages
 import os
 
+<<<<<<< HEAD
 version = '4.2a4.dev0'
+=======
+version = '4.1.7.dev0'
+>>>>>>> origin/master
 
 setup(name='imio.pm.locales',
       version=version,
