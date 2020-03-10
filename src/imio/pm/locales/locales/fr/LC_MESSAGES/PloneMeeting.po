@@ -1313,6 +1313,10 @@ msgstr "Modèle de document POD à générer pour les points à stocker en tant 
 msgid "PloneMeeting_label_meetingManagerMayCorrectClosedMeeting"
 msgstr "Un gestionnaire de séances peut corriger une séance clôturée?"
 
+#. Default: "MeetingManagers notes"
+msgid "PloneMeeting_label_meetingManagersNotes"
+msgstr "Notes gestionnaires de séances"
+
 #. Default: "Meeting number (sequence number automatically attributed)"
 msgid "PloneMeeting_label_meetingNumber"
 msgstr "Numéro de séance (il s'agit d'un numéro de séquence attribué automatiquement)"
@@ -4152,6 +4156,10 @@ msgstr "Ceci activera une action sur les séances permettant de stocker en tant 
 #. Default: "If you check this box, meeting managers will be able to correct a closed meeting (it is not the case otherwise)."
 msgid "meeting_manager_may_correct_closed_meeting_descr"
 msgstr "Si vous cochez cette case, les gestionnaires de séances pourront corriger une séance cloturée (ce n'est pas le cas par défaut)."
+
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "meeting_managers_notes_descr"
+msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
 
 #. Default: "Meeting of"
 msgid "meeting_of"

@@ -1313,6 +1313,10 @@ msgstr "POD template to store as annex from the meeting"
 msgid "PloneMeeting_label_meetingManagerMayCorrectClosedMeeting"
 msgstr "A meeting manager may correct a closed meeting?"
 
+#. Default: "MeetingManagers notes"
+msgid "PloneMeeting_label_meetingManagersNotes"
+msgstr ""
+
 #. Default: "Meeting number (sequence number automatically attributed)"
 msgid "PloneMeeting_label_meetingNumber"
 msgstr "Meeting number (sequence number automatically attributed)"
@@ -4152,6 +4156,10 @@ msgstr "This enable an action on the meeting to be able to store as annex a part
 #. Default: "If you check this box, meeting managers will be able to correct a closed meeting (it is not the case otherwise)."
 msgid "meeting_manager_may_correct_closed_meeting_descr"
 msgstr "If you check this box, meeting managers will be able to correct a closed meeting (it is not the case otherwise)."
+
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "meeting_managers_notes_descr"
+msgstr ""
 
 # MeetingItem
 #. Default: "Meeting of"

@@ -6,6 +6,8 @@ Changelog
 ------------------
 
 - Added translation for person.firstname_abbreviated field.
+- Added translations for MeetingItem.meetingManagersNotes field.
+- Added translation for "Item is signed?" faceted filter.
 
 4.1.6 (2020-02-21)
 ------------------
