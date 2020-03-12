@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1.7 (unreleased)
+4.1.7 (2020-03-12)
 ------------------
 
 - Added translation for person.firstname_abbreviated field.
