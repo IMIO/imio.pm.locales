@@ -5,18 +5,17 @@ Changelog
 4.2a4 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Merged changes from 4.1.7
 
 4.2a3 (2020-02-21)
 ------------------
 
-- Merged changes from 4.1.6.
+- Merged changes from 4.1.6
 
 4.2a2 (2020-02-21)
 ------------------
 
-- Merged changes from 4.1.7.
+- Merged changes from 4.1.5
 
 4.2a1 (2020-02-06)
 ------------------
@@ -25,7 +24,7 @@ Changelog
 - Added translations for default item WF validation levels defined in MeetingConfig.itemWFValidationLevels.
 - Added translation for MeetingItem.validate_groupsInCharge error message.
 
-4.1.7 (unreleased)
+4.1.7 (2020-03-12)
 ------------------
 
 - Added translation for person.firstname_abbreviated field.
