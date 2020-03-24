@@ -5,8 +5,7 @@ Changelog
 4.1.8 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Added translations for the 'Non attendee' functionnality.
 
 4.1.7 (2020-03-12)
 ------------------

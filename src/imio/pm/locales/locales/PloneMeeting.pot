@@ -873,6 +873,14 @@ msgstr ""
 msgid "person_byebye"
 msgstr ""
 
+#. Default: "Remove this person from non attendees for this item"
+msgid "nonattendee_welcome"
+msgstr ""
+
+#. Default: "Mark this person as non attendee for this item"
+msgid "nonattendee_byebye"
+msgstr ""
+
 #. Default: "This person was absent during discussion on this item"
 msgid "item_attendee_absent"
 msgstr ""
@@ -891,6 +899,10 @@ msgstr ""
 
 #. Default: "Voter?"
 msgid "is_voter"
+msgstr ""
+
+#. Default: "Non attendee?"
+msgid "is_non_attendee"
 msgstr ""
 
 #. Default: "Specifically, for this item:"
@@ -5405,6 +5417,14 @@ msgstr ""
 msgid "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
 msgstr ""
 
+#. Default: "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
+msgstr ""
+
+#. Default: "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
+msgstr ""
+
 #. Default: "Selectable assembly members"
 msgid "PloneMeeting_label_orderedContacts"
 msgstr ""
@@ -5604,6 +5624,10 @@ msgstr ""
 
 #. Default: "Absent (excused)"
 msgid "item_not_present_type_excused"
+msgstr ""
+
+#. Default: "Non attendee"
+msgid "item_not_present_type_non_attendee"
 msgstr ""
 
 #. Default: "This attendee is marked as ${not_present_type} for following items"

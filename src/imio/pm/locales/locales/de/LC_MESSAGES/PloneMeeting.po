@@ -396,8 +396,16 @@ msgstr ""
 msgid "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
 msgstr ""
 
+#. Default: "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
+msgstr ""
+
 #. Default: "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
+msgstr ""
+
+#. Default: "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
 msgstr ""
 
 #. Default: "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
@@ -3655,6 +3663,10 @@ msgstr "Entschuldigt?"
 msgid "is_late_attendee"
 msgstr ""
 
+#. Default: "Non attendee?"
+msgid "is_non_attendee"
+msgstr ""
+
 #. Default: "Replaced by"
 msgid "is_replaced"
 msgstr "Ersetzt durch?"
@@ -3878,6 +3890,10 @@ msgstr ""
 
 #. Default: "Absent (excused)"
 msgid "item_not_present_type_excused"
+msgstr ""
+
+#. Default: "Non attendee"
+msgid "item_not_present_type_non_attendee"
 msgstr ""
 
 #. Default: "No move occurred: please specify a valid number."
@@ -4492,6 +4508,14 @@ msgstr ""
 
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
+msgstr ""
+
+#. Default: "Mark this person as non attendee for this item"
+msgid "nonattendee_byebye"
+msgstr ""
+
+#. Default: "Remove this person from non attendees for this item"
+msgid "nonattendee_welcome"
 msgstr ""
 
 #. Default: "Normal item"
