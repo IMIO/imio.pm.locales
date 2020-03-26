@@ -126,7 +126,7 @@ msgstr "Attendee has been set ${not_present_type}."
 
 #. Default: "Attendee has been set back attendee."
 msgid "Attendee has been set back attendee."
-msgstr ""
+msgstr "Attendee has been set back attendee."
 
 #. Default: "Attendee has been set back present."
 msgid "Attendee has been set back present."
@@ -334,7 +334,7 @@ msgstr "Filled in the \"Selectable assembly members\" for meeting configurations
 
 #. Default: "Firstname abbreviated"
 msgid "Firstname abbreviated"
-msgstr ""
+msgstr "Firstname abbreviated"
 
 #. Default: "Free text fields"
 msgid "Free text fields"
@@ -402,7 +402,7 @@ msgstr "If you specify a number, this attendee will be defined as absent from cu
 
 #. Default: "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
+msgstr "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
 
 #. Default: "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
@@ -410,7 +410,7 @@ msgstr "If you specify a number, this attendee will be defined as back into the 
 
 #. Default: "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
+msgstr "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
 
 #. Default: "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
@@ -1237,10 +1237,6 @@ msgstr "Keep info \"to print?\" of annexes when duplicating items"
 msgid "PloneMeeting_label_lastMeetingNumber"
 msgstr "Number of the last meeting in this config"
 
-#. Default: "Late attendees"
-msgid "PloneMeeting_label_lateAttendees"
-msgstr "Late attendees"
-
 #. Default: "Type of item"
 msgid "PloneMeeting_label_listType"
 msgstr "Type of item"
@@ -1327,7 +1323,7 @@ msgstr "A meeting manager may correct a closed meeting?"
 
 #. Default: "MeetingManagers notes"
 msgid "PloneMeeting_label_meetingManagersNotes"
-msgstr ""
+msgstr "MeetingManagers notes"
 
 #. Default: "Meeting number (sequence number automatically attributed)"
 msgid "PloneMeeting_label_meetingNumber"
@@ -1364,6 +1360,10 @@ msgstr "Model adaptations"
 #. Default: "Motivation"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivation"
+
+#. Default: "Non attendees"
+msgid "PloneMeeting_label_nonAttendees"
+msgstr "Non attendees"
 
 #. Default: "Actions to execute on items of a meeting when a transition is triggered on that meeting"
 msgid "PloneMeeting_label_onMeetingTransitionItemActionToExecute"
@@ -3629,7 +3629,7 @@ msgstr "Late attendee?"
 
 #. Default: "Non attendee?"
 msgid "is_non_attendee"
-msgstr ""
+msgstr "Non attendee?"
 
 #. Default: "Replaced by"
 msgid "is_replaced"
@@ -3849,7 +3849,7 @@ msgstr "Absent (excused)"
 
 #. Default: "Non attendee"
 msgid "item_not_present_type_non_attendee"
-msgstr ""
+msgstr "Non attendee"
 
 #. Default: "No move occurred: please specify a valid number."
 msgid "item_number_invalid"
@@ -4179,7 +4179,7 @@ msgstr "If you check this box, meeting managers will be able to correct a closed
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "meeting_managers_notes_descr"
-msgstr ""
+msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 
 # MeetingItem
 #. Default: "Meeting of"
@@ -4452,11 +4452,11 @@ msgstr "Please select among non delay-aware advisers"
 
 #. Default: "Mark this person as non attendee for this item"
 msgid "nonattendee_byebye"
-msgstr ""
+msgstr "Mark this person as non attendee for this item"
 
 #. Default: "Remove this person from non attendees for this item"
 msgid "nonattendee_welcome"
-msgstr ""
+msgstr "Remove this person from non attendees for this item"
 
 #. Default: "Normal item"
 msgid "normal"

@@ -1237,10 +1237,6 @@ msgstr "Garder l'information \"A imprimer?\" des annexes des points dupliqués"
 msgid "PloneMeeting_label_lastMeetingNumber"
 msgstr "Numéro de la dernière séance de cette configuration"
 
-#. Default: "Late attendees"
-msgid "PloneMeeting_label_lateAttendees"
-msgstr "Présents, mais pas au début"
-
 #. Default: "Type of item"
 msgid "PloneMeeting_label_listType"
 msgstr "Type de point"
@@ -1364,6 +1360,10 @@ msgstr "Adaptations au modèle de données"
 #. Default: "Motivation"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivation"
+
+#. Default: "Non attendees"
+msgid "PloneMeeting_label_nonAttendees"
+msgstr "Non participants"
 
 #. Default: "Actions to execute on items of a meeting when a transition is triggered on that meeting"
 msgid "PloneMeeting_label_onMeetingTransitionItemActionToExecute"

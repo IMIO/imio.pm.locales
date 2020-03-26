@@ -1245,10 +1245,6 @@ msgstr ""
 msgid "PloneMeeting_label_lastMeetingNumber"
 msgstr "Número de la ultima reunión en esta configuración"
 
-#. Default: "Late attendees"
-msgid "PloneMeeting_label_lateAttendees"
-msgstr "Asistentes tardíos"
-
 #. Default: "Type of item"
 msgid "PloneMeeting_label_listType"
 msgstr ""
@@ -1374,6 +1370,10 @@ msgstr "Adaptaciones del Modelo"
 #. Default: "Motivation"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivación"
+
+#. Default: "Non attendees"
+msgid "PloneMeeting_label_nonAttendees"
+msgstr ""
 
 #. Default: "Actions to execute on items of a meeting when a transition is triggered on that meeting"
 msgid "PloneMeeting_label_onMeetingTransitionItemActionToExecute"
