@@ -1518,6 +1518,10 @@ msgstr "Stati der TOP für welche die Speicherung der History aktiviert ist"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr ""
 
+#. Default: "Remove annexes previews on meeting closure"
+msgid "PloneMeeting_label_removeAnnexesPreviewsOnMeetingClosure"
+msgstr ""
+
 #. Default: "Replacements"
 msgid "PloneMeeting_label_replacements"
 msgstr ""
@@ -1766,6 +1770,10 @@ msgstr ""
 
 #. Default: "Preview detailled advice"
 msgid "Preview detailled advice"
+msgstr ""
+
+#. Default: "Preview of annexes were deleted upon meeting closure."
+msgid "Preview of annexes were deleted upon meeting closure."
 msgstr ""
 
 # plone.app.querystring
@@ -5022,6 +5030,10 @@ msgstr ""
 
 #. Default: "Advice inheritance was removed and advice is asked locally."
 msgid "remove_advice_inheritance_removed_and_asked_locally"
+msgstr ""
+
+#. Default: "If enabled, the eventual previews computed on annexes will be deleted."
+msgid "remove_annexes_previews_on_meeting_closure_descr"
 msgstr ""
 
 #. Default: "remove all selected items at once."

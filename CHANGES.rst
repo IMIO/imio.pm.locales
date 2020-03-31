@@ -6,6 +6,7 @@ Changelog
 ------------------
 
 - Added translations for the 'Non attendee' functionnality.
+- Added translations for 'MeetingConfig.removeAnnexesPreviewsOnMeetingClosure' related functionnality.
 
 4.1.7 (2020-03-12)
 ------------------
