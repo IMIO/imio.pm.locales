@@ -1515,7 +1515,7 @@ msgstr "Meeting states into which events will be recorded in meeting's history"
 
 #. Default: "Remove annexes previews on meeting closure"
 msgid "PloneMeeting_label_removeAnnexesPreviewsOnMeetingClosure"
-msgstr ""
+msgstr "Remove annexes previews on meeting closure"
 
 #. Default: "Replacements"
 msgid "PloneMeeting_label_replacements"
@@ -1764,7 +1764,7 @@ msgstr "Preview detailled advice"
 
 #. Default: "Preview of annexes were deleted upon meeting closure."
 msgid "Preview of annexes were deleted upon meeting closure."
-msgstr ""
+msgstr "Preview of annexes were deleted upon meeting closure."
 
 # plone.app.querystring
 #. Default: "Previous review state"
@@ -4716,7 +4716,7 @@ msgstr "Modification date"
 
 #. Default: "Remove annexes previews of items in closed meetings"
 msgid "pm_remove_annexes_previews"
-msgstr ""
+msgstr "Remove annexes previews of items in closed meetings"
 
 #. Default: "Warning: take care that launching these proceedings may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
@@ -4965,7 +4965,7 @@ msgstr "Advice inheritance was removed and advice is asked locally."
 
 #. Default: "If enabled, the eventual previews computed on annexes will be deleted."
 msgid "remove_annexes_previews_on_meeting_closure_descr"
-msgstr ""
+msgstr "If enabled, the eventual previews computed on annexes will be deleted."
 
 #. Default: "remove all selected items at once."
 msgid "remove_several_items"
@@ -5724,6 +5724,10 @@ msgstr "Items come validated"
 #. Default: "Mark not applicable"
 msgid "wa_mark_not_applicable"
 msgstr "Mark not applicable"
+
+#. Default: "MeetingManagers may correct a closed meeting"
+msgid "wa_meetingmanager_correct_closed_meeting"
+msgstr "MeetingManagers may correct a closed meeting"
 
 #. Default: "No global items observation"
 msgid "wa_no_global_observation"
