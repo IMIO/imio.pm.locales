@@ -1322,10 +1322,6 @@ msgstr "Titel van de folder die Plonemeeting aanmaakt in elke gebruiker folder"
 msgid "PloneMeeting_label_meetingItemTemplateToStoreAsAnnex"
 msgstr ""
 
-#. Default: "A meeting manager may correct a closed meeting?"
-msgid "PloneMeeting_label_meetingManagerMayCorrectClosedMeeting"
-msgstr ""
-
 #. Default: "MeetingManagers notes"
 msgid "PloneMeeting_label_meetingManagersNotes"
 msgstr ""
@@ -4212,10 +4208,6 @@ msgstr ""
 msgid "meeting_item_template_to_store_as_annex_descr"
 msgstr ""
 
-#. Default: "If you check this box, meeting managers will be able to correct a closed meeting (it is not the case otherwise)."
-msgid "meeting_manager_may_correct_closed_meeting_descr"
-msgstr ""
-
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "meeting_managers_notes_descr"
 msgstr ""
@@ -5774,6 +5766,10 @@ msgstr ""
 
 #. Default: "Mark not applicable"
 msgid "wa_mark_not_applicable"
+msgstr ""
+
+#. Default: "MeetingManagers may correct a closed meeting"
+msgid "wa_meetingmanager_correct_closed_meeting"
 msgstr ""
 
 #. Default: "No global items observation"
