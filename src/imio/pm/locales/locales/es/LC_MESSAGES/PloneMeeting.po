@@ -128,6 +128,10 @@ msgstr ""
 msgid "Attendee has been set ${not_present_type}."
 msgstr ""
 
+#. Default: "Attendee has been set back attendee."
+msgid "Attendee has been set back attendee."
+msgstr ""
+
 #. Default: "Attendee has been set back present."
 msgid "Attendee has been set back present."
 msgstr ""
@@ -400,8 +404,16 @@ msgstr ""
 msgid "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
 msgstr ""
 
+#. Default: "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
+msgstr ""
+
 #. Default: "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
+msgstr ""
+
+#. Default: "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
 msgstr ""
 
 #. Default: "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
@@ -1237,10 +1249,6 @@ msgstr ""
 msgid "PloneMeeting_label_lastMeetingNumber"
 msgstr "Número de la ultima reunión en esta configuración"
 
-#. Default: "Late attendees"
-msgid "PloneMeeting_label_lateAttendees"
-msgstr "Asistentes tardíos"
-
 #. Default: "Type of item"
 msgid "PloneMeeting_label_listType"
 msgstr ""
@@ -1366,6 +1374,10 @@ msgstr "Adaptaciones del Modelo"
 #. Default: "Motivation"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivación"
+
+#. Default: "Non attendees"
+msgid "PloneMeeting_label_nonAttendees"
+msgstr ""
 
 #. Default: "Actions to execute on items of a meeting when a transition is triggered on that meeting"
 msgid "PloneMeeting_label_onMeetingTransitionItemActionToExecute"
@@ -1515,6 +1527,10 @@ msgstr "Los estados de temas en los que los eventos serán registrados en el his
 #. Default: "Meeting states into which events will be recorded in meeting's history"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr "Los estados de reunión en los cuales los eventos serán registrados en el historial de la reunión"
+
+#. Default: "Remove annexes previews on meeting closure"
+msgid "PloneMeeting_label_removeAnnexesPreviewsOnMeetingClosure"
+msgstr ""
 
 #. Default: "Replacements"
 msgid "PloneMeeting_label_replacements"
@@ -1764,6 +1780,10 @@ msgstr ""
 
 #. Default: "Preview detailled advice"
 msgid "Preview detailled advice"
+msgstr ""
+
+#. Default: "Preview of annexes were deleted upon meeting closure."
+msgid "Preview of annexes were deleted upon meeting closure."
 msgstr ""
 
 # plone.app.querystring
@@ -3684,6 +3704,10 @@ msgstr "¿Excusado?"
 msgid "is_late_attendee"
 msgstr "¿asistente tardío?"
 
+#. Default: "Non attendee?"
+msgid "is_non_attendee"
+msgstr ""
+
 #. Default: "Replaced by"
 msgid "is_replaced"
 msgstr "Remplazado por"
@@ -3912,6 +3936,10 @@ msgstr ""
 
 #. Default: "Absent (excused)"
 msgid "item_not_present_type_excused"
+msgstr ""
+
+#. Default: "Non attendee"
+msgid "item_not_present_type_non_attendee"
 msgstr ""
 
 #. Default: "No move occurred: please specify a valid number."
@@ -4539,6 +4567,14 @@ msgstr ""
 msgid "non_delay_aware_optional_advisers_term"
 msgstr "Por favor, seleccione entre los asesores que no son retardo conscientes"
 
+#. Default: "Mark this person as non attendee for this item"
+msgid "nonattendee_byebye"
+msgstr ""
+
+#. Default: "Remove this person from non attendees for this item"
+msgid "nonattendee_welcome"
+msgstr ""
+
 #. Default: "Normal item"
 msgid "normal"
 msgstr ""
@@ -4792,6 +4828,10 @@ msgstr ""
 msgid "pm_modification_date"
 msgstr ""
 
+#. Default: "Remove annexes previews of items in closed meetings"
+msgid "pm_remove_annexes_previews"
+msgstr ""
+
 #. Default: "Warning: take care that launching these proceedings may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 #, fuzzy
 msgid "pm_tool_updates_warning"
@@ -5042,6 +5082,10 @@ msgstr ""
 
 #. Default: "Advice inheritance was removed and advice is asked locally."
 msgid "remove_advice_inheritance_removed_and_asked_locally"
+msgstr ""
+
+#. Default: "If enabled, the eventual previews computed on annexes will be deleted."
+msgid "remove_annexes_previews_on_meeting_closure_descr"
 msgstr ""
 
 #. Default: "remove all selected items at once."

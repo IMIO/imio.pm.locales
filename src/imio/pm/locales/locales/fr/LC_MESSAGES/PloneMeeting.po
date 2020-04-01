@@ -122,19 +122,23 @@ msgstr "Demandé le ${advice_asked_on_date}"
 
 #. Default: "Attendee has been set ${not_present_type}."
 msgid "Attendee has been set ${not_present_type}."
-msgstr "Le participant est désormais \"${not_present_type}\" pour ce point."
+msgstr "Le membre est désormais \"${not_present_type}\" pour ce point."
+
+#. Default: "Attendee has been set back attendee."
+msgid "Attendee has been set back attendee."
+msgstr "Le membre est à nouveau participant pour ce point."
 
 #. Default: "Attendee has been set back present."
 msgid "Attendee has been set back present."
-msgstr "Le participant est à nouveau présent pour ce point."
+msgstr "Le membre est à nouveau présent pour ce point."
 
 #. Default: "Attendee has been set signatory."
 msgid "Attendee has been set signatory."
-msgstr "Le participant est désormais signataire pour ce point."
+msgstr "Le membre est désormais signataire pour ce point."
 
 #. Default: "Attendee is no more defined as item signatory."
 msgid "Attendee is no more defined as item signatory."
-msgstr "Le participant a été enlevé des signataires pour ce point."
+msgstr "Le membre a été enlevé des signataires pour ce point."
 
 #. Default: "Back to the MeetingConfig"
 msgid "Back to the MeetingConfig"
@@ -150,7 +154,7 @@ msgstr "Une séance contenant des points 'Renvoyé au groupe proposant pour corr
 
 #. Default: "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
-msgstr "Impossible de définir un participant \"${not_present_type}\" s'il est spécifiquement défini signataire du point!"
+msgstr "Impossible de définir un membre \"${not_present_type}\" s'il est spécifiquement défini signataire du point!"
 
 #. Default: "Cancel"
 msgid "Cancel"
@@ -242,7 +246,7 @@ msgstr "Par défaut"
 
 #. Default: "Define this attendee as signatory for this item"
 msgid "Define this attendee as signatory for this item"
-msgstr "Définir ce participant comme signataire pour ce point"
+msgstr "Définir ce membre comme signataire pour ce point"
 
 #. Default: "Delete advice"
 msgid "Delete advice"
@@ -394,19 +398,27 @@ msgstr "Si vous spécifiez un numéro, les valeurs définies ci-dessus seront ap
 
 #. Default: "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
-msgstr "Encodez le numéro du point jusqu'auquel ce participant doit être marqué comme absent.  Laissez le champ vide pour le marquer absent uniquement pour le point en cours."
+msgstr "Encodez le numéro du point jusqu'auquel ce membre doit être marqué comme absent.  Laissez le champ vide pour le marquer absent uniquement pour le point en cours."
+
+#. Default: "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
+msgstr "Encodez le numéro du point jusqu'auquel ce membre doit être enlevé des non participants.  Laissez le champ vide pour l'enlever des non participants uniquement pour le point en cours."
 
 #. Default: "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgstr "Encodez le numéro du point jusqu'auquel ce participant doit être enlevé des absents.  Laissez le champ vide pour l'enlever des absents uniquement pour le point en cours."
+msgstr "Encodez le numéro du point jusqu'auquel ce membre doit être enlevé des absents.  Laissez le champ vide pour l'enlever des absents uniquement pour le point en cours."
+
+#. Default: "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
+msgid "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
+msgstr "Encodez le numéro du point jusqu'auquel ce membre doit être marqué comme non participant.  Laissez le champ vide pour le marquer non participant uniquement pour le point en cours."
 
 #. Default: "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
-msgstr "Encodez le numéro du point jusqu'auquel ce participant doit être marqué comme signataire.  Laissez le champ vide pour le marquer signataire uniquement pour le point en cours."
+msgstr "Encodez le numéro du point jusqu'auquel ce membre doit être marqué comme signataire.  Laissez le champ vide pour le marquer signataire uniquement pour le point en cours."
 
 #. Default: "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
 msgid "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
-msgstr "Encodez le numéro du point jusqu'auquel ce participant doit être enlevé des signataires.  Laissez le champ vide pour l'enlever seulement des signataires du point en cours."
+msgstr "Encodez le numéro du point jusqu'auquel ce membre doit être enlevé des signataires.  Laissez le champ vide pour l'enlever seulement des signataires du point en cours."
 
 # plone.app.querystring
 #. Default: "Informations about advices on an item"
@@ -1229,10 +1241,6 @@ msgstr "Garder l'information \"A imprimer?\" des annexes des points dupliqués"
 msgid "PloneMeeting_label_lastMeetingNumber"
 msgstr "Numéro de la dernière séance de cette configuration"
 
-#. Default: "Late attendees"
-msgid "PloneMeeting_label_lateAttendees"
-msgstr "Présents, mais pas au début"
-
 #. Default: "Type of item"
 msgid "PloneMeeting_label_listType"
 msgstr "Type de point"
@@ -1356,6 +1364,10 @@ msgstr "Adaptations au modèle de données"
 #. Default: "Motivation"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivation"
+
+#. Default: "Non attendees"
+msgid "PloneMeeting_label_nonAttendees"
+msgstr "Non participants"
 
 #. Default: "Actions to execute on items of a meeting when a transition is triggered on that meeting"
 msgid "PloneMeeting_label_onMeetingTransitionItemActionToExecute"
@@ -1504,6 +1516,10 @@ msgstr "États des points dans lesquels l'historisation est active"
 #. Default: "Meeting states into which events will be recorded in meeting's history"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr "États des séances dans lesquels l'historisation est active"
+
+#. Default: "Remove annexes previews on meeting closure"
+msgid "PloneMeeting_label_removeAnnexesPreviewsOnMeetingClosure"
+msgstr "Supprimer les prévisualisations des annexes lors de la clôture de la séance"
 
 #. Default: "Replacements"
 msgid "PloneMeeting_label_replacements"
@@ -1750,6 +1766,10 @@ msgstr "Type de fonction"
 msgid "Preview detailled advice"
 msgstr "Prévisualiser l'avis complet"
 
+#. Default: "Preview of annexes were deleted upon meeting closure."
+msgid "Preview of annexes were deleted upon meeting closure."
+msgstr "Les prévisualisations des annexes de tous les points ont été supprimées lors de la clôture de la séance."
+
 # plone.app.querystring
 #. Default: "Previous review state"
 msgid "Previous review state"
@@ -1773,7 +1793,7 @@ msgstr "Enlever l'avis hérité"
 
 #. Default: "Remove attendee from signatory defined for this item"
 msgid "Remove attendee from signatory defined for this item"
-msgstr "Enlever ce participant des signataires redéfinis pour ce point"
+msgstr "Enlever ce membre des signataires redéfinis pour ce point"
 
 #. Default: "Remove inherited advice"
 msgid "Remove inherited advice"
@@ -1908,11 +1928,11 @@ msgstr "Cet avis a été rendu d'initiative"
 
 #. Default: "This attendee is marked as ${not_present_type} for following items"
 msgid "This attendee is marked as ${not_present_type} for following items"
-msgstr "Ce participant est marqué \"${not_present_type}\" pour le(s) point(s) suivant(s)"
+msgstr "Ce membre est marqué \"${not_present_type}\" pour le(s) point(s) suivant(s)"
 
 #. Default: "This attendee is marked as signatory for following item(s)"
 msgid "This attendee is marked as signatory for following items"
-msgstr "Ce participant est spécifiquement défini signataire pour le(s) point(s) suivant(s)"
+msgstr "Ce membre est spécifiquement défini signataire pour le(s) point(s) suivant(s)"
 
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"
@@ -2361,7 +2381,7 @@ msgstr "Absents définis sur la séance"
 
 #. Default: "Define here people that were absents (not excused) for the meeting"
 msgid "assembly_absents_meeting_descr"
-msgstr "Définissez ici les participants absents (non excusés) pour la séance"
+msgstr "Définissez ici les membres absents (non excusés) pour la séance"
 
 #. Default: "Assembly and signatures"
 msgid "assembly_and_signatures"
@@ -3623,6 +3643,10 @@ msgstr "Absent (excusé)?"
 msgid "is_late_attendee"
 msgstr "Présent, mais pas au début?"
 
+#. Default: "Non attendee?"
+msgid "is_non_attendee"
+msgstr "Non participant?"
+
 #. Default: "Replaced by"
 msgid "is_replaced"
 msgstr "Remplacé par"
@@ -3717,7 +3741,7 @@ msgstr "Si vous ne remplissez pas ce champ, les excusés définis sur la séance
 
 #. Default: "This person was absent during discussion on this item"
 msgid "item_attendee_absent"
-msgstr "Ce participant est marqué absent pour ce point"
+msgstr "Ce membre est marqué absent pour ce point"
 
 #. Default: "As soon as an item will be in one of the states you check here, it will be sent to other meeting configurations selected on it."
 msgid "item_auto_sent_to_other_mc_states_descr"
@@ -3838,6 +3862,10 @@ msgstr "Absent"
 #. Default: "Absent (excused)"
 msgid "item_not_present_type_excused"
 msgstr "Absent (excusé)"
+
+#. Default: "Non attendee"
+msgid "item_not_present_type_non_attendee"
+msgstr "Non participant"
 
 #. Default: "No move occurred: please specify a valid number."
 msgid "item_number_invalid"
@@ -4445,6 +4473,14 @@ msgstr "Ce groupe ne contient aucun utilisateur."
 msgid "non_delay_aware_optional_advisers_term"
 msgstr "* * * Avis sans délai * * *"
 
+#. Default: "Mark this person as non attendee for this item"
+msgid "nonattendee_byebye"
+msgstr "Marquer ce membre non participant pour le point"
+
+#. Default: "Remove this person from non attendees for this item"
+msgid "nonattendee_welcome"
+msgstr "Enlever ce membre des non participants pour ce point"
+
 #. Default: "Normal item"
 msgid "normal"
 msgstr "Point normal"
@@ -4615,11 +4651,11 @@ msgstr "Si vous cochez cette case, l'utilisateur ayant ajouté une annexe à la 
 
 #. Default: "Mark this person absent for this item"
 msgid "person_byebye"
-msgstr "Marquer ce participant absent pour ce point"
+msgstr "Marquer ce membre absent pour ce point"
 
 #. Default: "Remove this person from absents for this item"
 msgid "person_welcome"
-msgstr "Enlever ce participant des absents pour ce point"
+msgstr "Enlever ce membre des absents pour ce point"
 
 #. Default: "Please encode this other place."
 msgid "place_other_required"
@@ -4692,6 +4728,10 @@ msgstr "Attention: ceci va invalider tout le cache utilisé dans l'application (
 #. Default: "Modification date"
 msgid "pm_modification_date"
 msgstr "Modifié le"
+
+#. Default: "Remove annexes previews of items in closed meetings"
+msgid "pm_remove_annexes_previews"
+msgstr "Supprimer les prévisualisations des annexes des points dans les séances clôturée"
 
 #. Default: "Warning: take care that launching these proceedings may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
@@ -4937,6 +4977,10 @@ msgstr "L'avis hérité a été enlevé."
 #. Default: "Advice inheritance was removed and advice is asked locally."
 msgid "remove_advice_inheritance_removed_and_asked_locally"
 msgstr "L'avis hérité a été enlevé et un nouvel avis a été demandé sur le point."
+
+#. Default: "If enabled, the eventual previews computed on annexes will be deleted."
+msgid "remove_annexes_previews_on_meeting_closure_descr"
+msgstr "Si activé, les prévisualisations de toutes les annexes des points présentés à la séance seront supprimées lors de la clôture de celle-ci.  Seules les prévisualisations des annexes sont supprimées, les annexes restent stockées dans les points."
 
 #. Default: "remove all selected items at once."
 msgid "remove_several_items"
