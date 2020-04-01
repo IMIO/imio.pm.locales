@@ -5,6 +5,7 @@ Changelog
 4.1.8 (unreleased)
 ------------------
 
+- Added translations for improved edition functionality
 - Added translations for the 'Non attendee' functionnality.
 - Added translations for 'MeetingConfig.removeAnnexesPreviewsOnMeetingClosure' related functionnality.
 
