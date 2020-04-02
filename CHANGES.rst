@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1.8 (unreleased)
+4.1.8 (2020-04-02)
 ------------------
 
 - Added translations for improved edition functionality
