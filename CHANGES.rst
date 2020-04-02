@@ -5,8 +5,15 @@ Changelog
 4.2a5 (unreleased)
 ------------------
 
+- Merged changes from 4.1.8
+
+4.1.8 (2020-04-02)
+------------------
+
+- Added translations for improved edition functionality
 - Added translations for the 'Non attendee' functionnality.
 - Added translations for 'MeetingConfig.removeAnnexesPreviewsOnMeetingClosure' related functionnality.
+- Added translation for 'wa_meetingmanager_correct_closed_meeting' and removed translations for 'MeetingConfig.meetingManagerMayCorrectClosedMeeting'.
 
 4.2a4 (2020-03-13)
 ------------------

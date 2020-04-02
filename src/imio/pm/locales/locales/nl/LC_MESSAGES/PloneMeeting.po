@@ -1326,10 +1326,6 @@ msgstr "Titel van de folder die Plonemeeting aanmaakt in elke gebruiker folder"
 msgid "PloneMeeting_label_meetingItemTemplateToStoreAsAnnex"
 msgstr ""
 
-#. Default: "A meeting manager may correct a closed meeting?"
-msgid "PloneMeeting_label_meetingManagerMayCorrectClosedMeeting"
-msgstr ""
-
 #. Default: "MeetingManagers notes"
 msgid "PloneMeeting_label_meetingManagersNotes"
 msgstr ""
@@ -3209,6 +3205,10 @@ msgstr "Bestaande stemmen"
 msgid "fastedit_cancel"
 msgstr ""
 
+#. Default: "Save changes and exit."
+msgid "fastedit_save_and_exit_changes"
+msgstr ""
+
 #. Default: "Save changes."
 msgid "fastedit_save_changes"
 msgstr ""
@@ -4222,10 +4222,6 @@ msgstr ""
 
 #. Default: "This enable an action on the meeting to be able to store as annex a particluar POD template if field \"Store this POD template as annex\" is defined on a POD template."
 msgid "meeting_item_template_to_store_as_annex_descr"
-msgstr ""
-
-#. Default: "If you check this box, meeting managers will be able to correct a closed meeting (it is not the case otherwise)."
-msgid "meeting_manager_may_correct_closed_meeting_descr"
 msgstr ""
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
@@ -5786,6 +5782,10 @@ msgstr ""
 
 #. Default: "Mark not applicable"
 msgid "wa_mark_not_applicable"
+msgstr ""
+
+#. Default: "MeetingManagers may correct a closed meeting"
+msgid "wa_meetingmanager_correct_closed_meeting"
 msgstr ""
 
 #. Default: "No global items observation"
