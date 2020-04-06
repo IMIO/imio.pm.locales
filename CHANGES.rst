@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1.9 (unreleased)
+4.1.9 (2020-04-06)
 ------------------
 
 - Added translations for MeetingItem.decisionSuite field.
