@@ -5,13 +5,12 @@ Changelog
 4.1.9 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Added translations for MeetingItem.decisionSuite field.
 
 4.1.8 (2020-04-02)
 ------------------
 
-- Added translations for improved edition functionality
+- Added translations for improved edition functionality.
 - Added translations for the 'Non attendee' functionnality.
 - Added translations for 'MeetingConfig.removeAnnexesPreviewsOnMeetingClosure' related functionnality.
 - Added translation for 'wa_meetingmanager_correct_closed_meeting' and removed translations for 'MeetingConfig.meetingManagerMayCorrectClosedMeeting'.
