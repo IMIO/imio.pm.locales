@@ -1530,6 +1530,10 @@ msgstr ""
 msgid "pm_convert_annexes"
 msgstr ""
 
+#. Default: "Remove annexes previews of items in closed meetings"
+msgid "pm_remove_annexes_previews"
+msgstr ""
+
 #. Default: "Update all items and meetings of every meeting configurations"
 msgid "pm_update_all_local_roles"
 msgstr ""
@@ -1842,6 +1846,18 @@ msgstr ""
 
 #. Default: "If enabled, when an item is duplicated into or to this configuration, the \"to print?\" information defined on cloned annexes will be kept.  If not enabled, the default defined here under is used."
 msgid "keep_original_to_print_of_cloned_items_descr"
+msgstr ""
+
+#. Default: "Remove annexes previews on meeting closure"
+msgid "PloneMeeting_label_removeAnnexesPreviewsOnMeetingClosure"
+msgstr ""
+
+#. Default: "If enabled, the eventual previews computed on annexes will be deleted."
+msgid "remove_annexes_previews_on_meeting_closure_descr"
+msgstr ""
+
+#. Default: "Preview of annexes were deleted upon meeting closure."
+msgid "Preview of annexes were deleted upon meeting closure."
 msgstr ""
 
 #. Default: "If this meeting configuration corresponds to an organization, institution or group that gives an identifier to its successive forms (ie: City council 2000-2006, 5th Parliament, VIIIth Government...), you can write here the identifier of the current form (ie: \"CC00_06\", \"P5\", \"Gov VIII\"...)."
@@ -2927,6 +2943,10 @@ msgstr ""
 
 #. Default: "Save changes."
 msgid "fastedit_save_changes"
+msgstr ""
+
+#. Default: "Save changes and exit."
+msgid "fastedit_save_and_exit_changes"
 msgstr ""
 
 #. Default: "Warning: if you add an annex through this form or if you delete an annex, all advices given on this item will be invalidated."
@@ -5209,6 +5229,10 @@ msgstr ""
 msgid "wa_decide_item_when_back_to_meeting_from_returned_to_proposing_group"
 msgstr ""
 
+#. Default: "MeetingManagers may correct a closed meeting"
+msgid "wa_meetingmanager_correct_closed_meeting"
+msgstr ""
+
 #. Default: "References of contained items have been updated."
 msgid "References of contained items have been updated."
 msgstr ""
@@ -5776,14 +5800,6 @@ msgstr ""
 
 #. Default: "You can not remove a power observer for which the linked Plone group is not empty."
 msgid "power_observer_removed_plone_group_not_empty"
-msgstr ""
-
-#. Default: "A meeting manager may correct a closed meeting?"
-msgid "PloneMeeting_label_meetingManagerMayCorrectClosedMeeting"
-msgstr ""
-
-#. Default: "If you check this box, meeting managers will be able to correct a closed meeting (it is not the case otherwise)."
-msgid "meeting_manager_may_correct_closed_meeting_descr"
 msgstr ""
 
 #. Default: "Your configuration says can not correct this closed meeting, contact your system administrator if you want to change this."

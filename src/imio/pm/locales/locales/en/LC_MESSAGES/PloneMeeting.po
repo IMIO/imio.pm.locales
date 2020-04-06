@@ -1321,10 +1321,6 @@ msgstr "Title of the folder created in each user folder"
 msgid "PloneMeeting_label_meetingItemTemplateToStoreAsAnnex"
 msgstr "POD template to store as annex from the meeting"
 
-#. Default: "A meeting manager may correct a closed meeting?"
-msgid "PloneMeeting_label_meetingManagerMayCorrectClosedMeeting"
-msgstr "A meeting manager may correct a closed meeting?"
-
 #. Default: "MeetingManagers notes"
 msgid "PloneMeeting_label_meetingManagersNotes"
 msgstr "MeetingManagers notes"
@@ -1516,6 +1512,10 @@ msgstr "Item states into which events will be recorded in item's history"
 #. Default: "Meeting states into which events will be recorded in meeting's history"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr "Meeting states into which events will be recorded in meeting's history"
+
+#. Default: "Remove annexes previews on meeting closure"
+msgid "PloneMeeting_label_removeAnnexesPreviewsOnMeetingClosure"
+msgstr "Remove annexes previews on meeting closure"
 
 #. Default: "Replacements"
 msgid "PloneMeeting_label_replacements"
@@ -1761,6 +1761,10 @@ msgstr "Position type"
 #. Default: "Preview detailled advice"
 msgid "Preview detailled advice"
 msgstr "Preview detailled advice"
+
+#. Default: "Preview of annexes were deleted upon meeting closure."
+msgid "Preview of annexes were deleted upon meeting closure."
+msgstr "Preview of annexes were deleted upon meeting closure."
 
 # plone.app.querystring
 #. Default: "Previous review state"
@@ -3181,6 +3185,10 @@ msgstr "Votes"
 msgid "fastedit_cancel"
 msgstr "Cancel edit."
 
+#. Default: "Save changes and exit."
+msgid "fastedit_save_and_exit_changes"
+msgstr ""
+
 #. Default: "Save changes."
 msgid "fastedit_save_changes"
 msgstr "Save changes."
@@ -4177,10 +4185,6 @@ msgstr "Parameters of configuration influencing orders of insertion of item in t
 msgid "meeting_item_template_to_store_as_annex_descr"
 msgstr "This enable an action on the meeting to be able to store as annex a particluar POD template if field \"Store this POD template as annex\" is defined on a POD template."
 
-#. Default: "If you check this box, meeting managers will be able to correct a closed meeting (it is not the case otherwise)."
-msgid "meeting_manager_may_correct_closed_meeting_descr"
-msgstr "If you check this box, meeting managers will be able to correct a closed meeting (it is not the case otherwise)."
-
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "meeting_managers_notes_descr"
 msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
@@ -4710,6 +4714,10 @@ msgstr "Warning: this will invalidate all cache used in the application, this co
 msgid "pm_modification_date"
 msgstr "Modification date"
 
+#. Default: "Remove annexes previews of items in closed meetings"
+msgid "pm_remove_annexes_previews"
+msgstr "Remove annexes previews of items in closed meetings"
+
 #. Default: "Warning: take care that launching these proceedings may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
 msgstr "Warning: take care that launching these proceedings may take time, depending on the number of existing elements!  Do not launch during period of high use!"
@@ -4954,6 +4962,10 @@ msgstr "Advice inheritance was removed."
 #. Default: "Advice inheritance was removed and advice is asked locally."
 msgid "remove_advice_inheritance_removed_and_asked_locally"
 msgstr "Advice inheritance was removed and advice is asked locally."
+
+#. Default: "If enabled, the eventual previews computed on annexes will be deleted."
+msgid "remove_annexes_previews_on_meeting_closure_descr"
+msgstr "If enabled, the eventual previews computed on annexes will be deleted."
 
 #. Default: "remove all selected items at once."
 msgid "remove_several_items"
@@ -5712,6 +5724,10 @@ msgstr "Items come validated"
 #. Default: "Mark not applicable"
 msgid "wa_mark_not_applicable"
 msgstr "Mark not applicable"
+
+#. Default: "MeetingManagers may correct a closed meeting"
+msgid "wa_meetingmanager_correct_closed_meeting"
+msgstr "MeetingManagers may correct a closed meeting"
 
 #. Default: "No global items observation"
 msgid "wa_no_global_observation"
