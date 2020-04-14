@@ -5,8 +5,7 @@ Changelog
 4.1.10 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations for copyGroups faceted filter related functionnality.
 
 4.1.9 (2020-04-06)
 ------------------

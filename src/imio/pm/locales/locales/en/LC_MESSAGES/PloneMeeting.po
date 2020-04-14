@@ -878,7 +878,7 @@ msgstr "This annex type is specifically linked to the decision taken on this ite
 
 #. Default: "Decision (suite)"
 msgid "PloneMeeting_label_decisionSuite"
-msgstr ""
+msgstr "Decision (suite)"
 
 #. Default: "Enable \"Hide advice during redaction\" by default for following advice types"
 msgid "PloneMeeting_label_defaultAdviceHiddenDuringRedaction"
@@ -1918,6 +1918,10 @@ msgstr "This advice is inherited from ${linkToItem}"
 msgid "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgstr "This advice must not be \"hidden during redaction\" anymore before ${limit_date} or it will be considered not given."
 
+#. Default: "This advice was asked automatically by the application"
+msgid "This advice was asked automatically by the application"
+msgstr "This advice was asked automatically by the application"
+
 #. Default: "This advice was given as personal initiative"
 msgid "This advice was given as personal initiative"
 msgstr "This advice was given as personal initiative"
@@ -1933,6 +1937,10 @@ msgstr "This attendee is marked as signatory for following item(s)"
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgstr "This automatic advice has been asked by the application (shown by his title not being between brackets)"
+
+#. Default: "This copy group was set automatically by the application"
+msgid "This copy group was set automatically by the application"
+msgstr "This copy group was set automatically by the application"
 
 #. Default: "This is an extract of the comment, access full comment if necessary..."
 msgid "This is an extract of the comment, access full comment if necessary..."
@@ -3187,7 +3195,7 @@ msgstr "Cancel edit."
 
 #. Default: "Save changes and exit."
 msgid "fastedit_save_and_exit_changes"
-msgstr ""
+msgstr "Save changes and exit."
 
 #. Default: "Save changes."
 msgid "fastedit_save_changes"
