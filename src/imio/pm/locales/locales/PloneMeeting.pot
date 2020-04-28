@@ -4589,6 +4589,10 @@ msgstr ""
 msgid "annex_not_kept_because_no_available_annex_type_warning"
 msgstr ""
 
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because using a scan_id, please contact system administrator."
+msgid "annex_not_kept_because_using_scan_id"
+msgstr ""
+
 #. Default: "Check Pod templates"
 msgid "pm_check_pod_templates"
 msgstr ""
@@ -5940,4 +5944,64 @@ msgstr ""
 
 #. Default: "This advice was asked automatically by the application"
 msgid "This advice was asked automatically by the application"
+msgstr ""
+
+#. Default: "Keep link?"
+msgid "Keep link?"
+msgstr ""
+
+#. Default: "Annexes to keep"
+msgid "Annexes to keep"
+msgstr ""
+
+#. Default: "Decision annexes to keep"
+msgid "Decision annexes to keep"
+msgstr ""
+
+#. Default: "Duplicate item"
+msgid "Duplicate item"
+msgstr ""
+
+#. Default: "Item actions column configuration"
+msgid "PloneMeeting_label_itemActionsColumnConfig"
+msgstr ""
+
+#. Default: "Select here optional actions that will appear in the \"Actions\" column of dashboards displaying items.  This column is the heaviest to display, so selecting less actions will make your dashboards display faster."
+msgid "item_actions_column_config_descr"
+msgstr ""
+
+#. Default: "Item action delete"
+msgid "Item action delete"
+msgstr ""
+
+#. Default: "Item action duplicate"
+msgid "Item action duplicate"
+msgstr ""
+
+#. Default: "Item action history"
+msgid "Item action history"
+msgstr ""
+
+#. Default: "Item action delete (Manager)"
+msgid "Item action delete (Manager)"
+msgstr ""
+
+#. Default: "Item action duplicate (Manager)"
+msgid "Item action duplicate (Manager)"
+msgstr ""
+
+#. Default: "Item action history (Manager)"
+msgid "Item action history (Manager)"
+msgstr ""
+
+#. Default: "Item action delete (MeetingManager)"
+msgid "Item action delete (MeetingManager)"
+msgstr ""
+
+#. Default: "Item action duplicate (MeetingManager)"
+msgid "Item action duplicate (MeetingManager)"
+msgstr ""
+
+#. Default: "Item action history (MeetingManager)"
+msgid "Item action history (MeetingManager)"
 msgstr ""

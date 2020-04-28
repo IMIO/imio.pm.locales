@@ -96,6 +96,10 @@ msgstr "Un avis doit encore être rendu sur ce point en respectant le délai imp
 msgid "Annex types"
 msgstr "Types d'annexes"
 
+#. Default: "Annexes to keep"
+msgid "Annexes to keep"
+msgstr "Garder les annexes suivantes"
+
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Annexes (après décision)"
@@ -236,6 +240,10 @@ msgstr "Données principales du point lorsque l'avis a été rendu"
 msgid "Days to give advice"
 msgstr "Nombre de jours ouvrables pour rendre l'avis : ${daysToGiveAdvice} jours"
 
+#. Default: "Decision annexes to keep"
+msgid "Decision annexes to keep"
+msgstr "Garder les annexes (après décision) suivantes"
+
 #. Default: "Decisions"
 msgid "Decisions"
 msgstr "Décisions"
@@ -259,6 +267,10 @@ msgstr "Modèles de documents"
 #. Default: "Download annex"
 msgid "Download annex"
 msgstr "Télécharger"
+
+#. Default: "Duplicate item"
+msgid "Duplicate item"
+msgstr "Dupliquer un point"
 
 #. Default: "Edit"
 msgid "Edit"
@@ -441,6 +453,42 @@ msgstr "Il n'est pas possible d'ajouter des annexes car aucun type d'annexe n'es
 msgid "Item absents to apply"
 msgstr "Absents à appliquer"
 
+#. Default: "Item action delete"
+msgid "Item action delete"
+msgstr "Supprimer (pour tout le monde)"
+
+#. Default: "Item action delete (Manager)"
+msgid "Item action delete (Manager)"
+msgstr "Supprimer (pour les administrateurs)"
+
+#. Default: "Item action delete (MeetingManager)"
+msgid "Item action delete (MeetingManager)"
+msgstr "Supprimer (pour les gestionnaires de séances)"
+
+#. Default: "Item action duplicate"
+msgid "Item action duplicate"
+msgstr "Dupliquer (pour tout le monde)"
+
+#. Default: "Item action duplicate (Manager)"
+msgid "Item action duplicate (Manager)"
+msgstr "Dupliquer (pour les administrateurs)"
+
+#. Default: "Item action duplicate (MeetingManager)"
+msgid "Item action duplicate (MeetingManager)"
+msgstr "Dupliquer (pour les gestionnaires de séances)"
+
+#. Default: "Item action history"
+msgid "Item action history"
+msgstr "Historique (pour tout le monde)"
+
+#. Default: "Item action history (Manager)"
+msgid "Item action history (Manager)"
+msgstr "Historique (pour les administrateurs)"
+
+#. Default: "Item action history (MeetingManager)"
+msgid "Item action history (MeetingManager)"
+msgstr "Historique (pour les gestionnaires de séances)"
+
 #. Default: "Item annexes"
 msgid "Item annexes"
 msgstr "Annexes aux points"
@@ -484,6 +532,10 @@ msgstr "Signatures à appliquer"
 #. Default: "Item templates"
 msgid "Item templates"
 msgstr "Modèles de points"
+
+#. Default: "Keep link?"
+msgid "Keep link?"
+msgstr "Garder un lien avec le point dupliqué?"
 
 #. Default: "Limit date ${advice_limit_date}"
 msgid "Limit date ${advice_limit_date}"
@@ -1075,6 +1127,10 @@ msgstr "Cette configuration est celle par défaut"
 #. Default: "Absents for the item"
 msgid "PloneMeeting_label_itemAbsents"
 msgstr "Absents pour ce point"
+
+#. Default: "Item actions column configuration"
+msgid "PloneMeeting_label_itemActionsColumnConfig"
+msgstr "Configuration de la colonne \"Actions\" des listes de points"
 
 #. Default: "Interface allowing to use a specific Zope3 adapter for modifying the actions defined on the transitions of the item workflow"
 msgid "PloneMeeting_label_itemActionsInterface"
@@ -2262,6 +2318,10 @@ msgstr "Cette annexe est confidentielle.  Cliquez sur l'image pour rendre l'anne
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
 msgid "annex_not_kept_because_no_available_annex_type_warning"
 msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée car aucun type d'annexe n'a pu être utilisé dans la configuration de séance de destination, contactez votre administrateur système."
+
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because using a scan_id, please contact system administrator."
+msgid "annex_not_kept_because_using_scan_id"
+msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée car elle intègre un QR code qui doit rester unique, contactez votre administrateur système si nécessaire."
 
 #. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
 msgid "annex_restrict_shown_and_editable_attributes_descr"
@@ -3698,6 +3758,10 @@ msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUr
 #. Default: "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been removed from a meeting."
 msgid "itemUnpresented_mail_subject"
 msgstr "${meetingConfigTitle} - Un de vos points : \"${itemTitle}\", a été retiré d'une séance."
+
+#. Default: "Select here optional actions that will appear in the \"Actions\" column of dashboards displaying items.  This column is the heaviest to display, so selecting less actions will make your dashboards display faster."
+msgid "item_actions_column_config_descr"
+msgstr "Sélectionnez les actions optionnelles qui apparaîtront dans la colonne \"Actions\" des tableaux de bord affichant des points.  La colonne \"Actions\" étant la plus lourde à afficher dans les tableaux de bord, sélectionner moins d'actions rendra l'affichage plus rapide."
 
 #. Default: "Similarly to the preceding field, all the actions that are triggered when an item goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions are documented."
 msgid "item_actions_interface_descr"

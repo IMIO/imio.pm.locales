@@ -6,6 +6,7 @@ Changelog
 -------------------
 
 - Simplified french translation "${number_of_annexes} annexe(s) a(ont) été stockée(s)." to "${number_of_annexes} annexes ont été stockées.".
+- Added translations for the 'Duplicate item with options' functionnality.
 
 4.1.10 (2020-04-20)
 -------------------

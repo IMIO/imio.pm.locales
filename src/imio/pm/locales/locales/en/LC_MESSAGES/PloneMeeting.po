@@ -96,6 +96,10 @@ msgstr "An advice on this item still needs to be given respecting given delay."
 msgid "Annex types"
 msgstr "Annex types"
 
+#. Default: "Annexes to keep"
+msgid "Annexes to keep"
+msgstr "Annexes to keep"
+
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr "Annexes (decision)"
@@ -236,6 +240,10 @@ msgstr "Data of the item when advice was given"
 msgid "Days to give advice"
 msgstr "Days to give advice : ${daysToGiveAdvice} days"
 
+#. Default: "Decision annexes to keep"
+msgid "Decision annexes to keep"
+msgstr "Decision annexes to keep"
+
 #. Default: "Decisions"
 msgid "Decisions"
 msgstr "Decisions"
@@ -259,6 +267,10 @@ msgstr "Document templates"
 #. Default: "Download annex"
 msgid "Download annex"
 msgstr "Download annex"
+
+#. Default: "Duplicate item"
+msgid "Duplicate item"
+msgstr "Duplicate item"
 
 #. Default: "Edit"
 msgid "Edit"
@@ -441,6 +453,42 @@ msgstr "It is not possible to add annexes because no file types is defined, plea
 msgid "Item absents to apply"
 msgstr "Item absents to apply"
 
+#. Default: "Item action delete"
+msgid "Item action delete"
+msgstr ""
+
+#. Default: "Item action delete (Manager)"
+msgid "Item action delete (Manager)"
+msgstr ""
+
+#. Default: "Item action delete (MeetingManager)"
+msgid "Item action delete (MeetingManager)"
+msgstr ""
+
+#. Default: "Item action duplicate"
+msgid "Item action duplicate"
+msgstr ""
+
+#. Default: "Item action duplicate (Manager)"
+msgid "Item action duplicate (Manager)"
+msgstr ""
+
+#. Default: "Item action duplicate (MeetingManager)"
+msgid "Item action duplicate (MeetingManager)"
+msgstr ""
+
+#. Default: "Item action history"
+msgid "Item action history"
+msgstr ""
+
+#. Default: "Item action history (Manager)"
+msgid "Item action history (Manager)"
+msgstr ""
+
+#. Default: "Item action history (MeetingManager)"
+msgid "Item action history (MeetingManager)"
+msgstr ""
+
 #. Default: "Item annexes"
 msgid "Item annexes"
 msgstr "Item annexes"
@@ -484,6 +532,10 @@ msgstr "Item signatures to apply"
 #. Default: "Item templates"
 msgid "Item templates"
 msgstr "Item templates"
+
+#. Default: "Keep link?"
+msgid "Keep link?"
+msgstr "Keep link?"
 
 #. Default: "Limit date ${advice_limit_date}"
 msgid "Limit date ${advice_limit_date}"
@@ -1075,6 +1127,10 @@ msgstr "This configuration is the default meeting configuration"
 #. Default: "Absents for the item"
 msgid "PloneMeeting_label_itemAbsents"
 msgstr "Absents for the item"
+
+#. Default: "Item actions column configuration"
+msgid "PloneMeeting_label_itemActionsColumnConfig"
+msgstr "Item actions column configuration"
 
 #. Default: "Interface allowing to use a specific Zope3 adapter for modifying the actions defined on the transitions of the item workflow"
 msgid "PloneMeeting_label_itemActionsInterface"
@@ -2262,6 +2318,10 @@ msgstr "The annex is confidential.  Click on the image to set it as not confiden
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
 msgid "annex_not_kept_because_no_available_annex_type_warning"
 msgstr "The item was duplicated but the annex with title \"${annexTitle}\" could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
+
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because using a scan_id, please contact system administrator."
+msgid "annex_not_kept_because_using_scan_id"
+msgstr "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because using a scan_id, please contact system administrator."
 
 #. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
 msgid "annex_restrict_shown_and_editable_attributes_descr"
@@ -3698,6 +3758,10 @@ msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${
 #. Default: "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been removed from a meeting."
 msgid "itemUnpresented_mail_subject"
 msgstr "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been removed from a meeting."
+
+#. Default: "Select here optional actions that will appear in the \"Actions\" column of dashboards displaying items.  This column is the heaviest to display, so selecting less actions will make your dashboards display faster."
+msgid "item_actions_column_config_descr"
+msgstr "Select here optional actions that will appear in the \"Actions\" column of dashboards displaying items.  This column is the heaviest to display, so selecting less actions will make your dashboards display faster."
 
 #. Default: "Similarly to the preceding field, all the actions that are triggered when an item goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions are documented."
 msgid "item_actions_interface_descr"
