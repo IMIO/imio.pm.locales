@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1.11 (unreleased)
+4.1.11 (2020-04-29)
 -------------------
 
 - Simplified french translation "${number_of_annexes} annexe(s) a(ont) été stockée(s)." to "${number_of_annexes} annexes ont été stockées.".
