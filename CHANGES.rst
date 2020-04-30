@@ -6,6 +6,7 @@ Changelog
 -------------------
 
 - Added back french translation for "Duplicate and keep link" in plone.po.
+- Completed translation "Disabled (greyed) annexes will not be kept on the new duplicated item.".
 
 4.1.11 (2020-04-29)
 -------------------
