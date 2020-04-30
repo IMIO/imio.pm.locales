@@ -5,8 +5,7 @@ Changelog
 4.1.12 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added back french translation for "Duplicate and keep link" in plone.po.
 
 4.1.11 (2020-04-29)
 -------------------
