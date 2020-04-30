@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1.12 (unreleased)
+4.1.12 (2020-04-30)
 -------------------
 
 - Added back french translation for "Duplicate and keep link" in plone.po.
