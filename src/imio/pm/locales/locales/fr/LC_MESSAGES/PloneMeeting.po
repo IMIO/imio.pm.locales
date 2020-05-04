@@ -15,6 +15,14 @@ msgstr ""
 "Domain: PloneMeeting\n"
 "X-is-fallback-for: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
 
+#. Default: " [holds scan_id]"
+msgid " [holds scan_id]"
+msgstr " [contient un QR code]"
+
+#. Default: " [reserved MeetingManagers]"
+msgid " [reserved MeetingManagers]"
+msgstr " [réservé aux gestionnaires de séances]"
+
 #. Default: "${element_title} (Inactive)"
 msgid "${element_title} (Inactive)"
 msgstr "${element_title} (Désactivé)"
@@ -95,6 +103,10 @@ msgstr "Un avis doit encore être rendu sur ce point en respectant le délai imp
 #. Default: "Annex types"
 msgid "Annex types"
 msgstr "Types d'annexes"
+
+#. Default: "Annexes to keep"
+msgid "Annexes to keep"
+msgstr "Garder les annexes suivantes"
 
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
@@ -236,6 +248,10 @@ msgstr "Données principales du point lorsque l'avis a été rendu"
 msgid "Days to give advice"
 msgstr "Nombre de jours ouvrables pour rendre l'avis : ${daysToGiveAdvice} jours"
 
+#. Default: "Decision annexes to keep"
+msgid "Decision annexes to keep"
+msgstr "Garder les annexes (après décision) suivantes"
+
 #. Default: "Decisions"
 msgid "Decisions"
 msgstr "Décisions"
@@ -252,6 +268,10 @@ msgstr "Définir ce membre comme signataire pour ce point"
 msgid "Delete advice"
 msgstr "Supprimer l'avis"
 
+#. Default: "Disabled (greyed) annexes will not be kept on the new duplicated item."
+msgid "Disabled (greyed) annexes will not be kept on the new duplicated item."
+msgstr "ATTENTION, les annexes désactivées/grisées (utilisant un QR code ou un type d'annexe restreint aux gestionnaires de séances) ne seront pas gardées!"
+
 #. Default: "Document templates"
 msgid "Document templates"
 msgstr "Modèles de documents"
@@ -259,6 +279,10 @@ msgstr "Modèles de documents"
 #. Default: "Download annex"
 msgid "Download annex"
 msgstr "Télécharger"
+
+#. Default: "Duplicate item"
+msgid "Duplicate item"
+msgstr "Dupliquer un point"
 
 #. Default: "Edit"
 msgid "Edit"
@@ -441,6 +465,42 @@ msgstr "Il n'est pas possible d'ajouter des annexes car aucun type d'annexe n'es
 msgid "Item absents to apply"
 msgstr "Absents à appliquer"
 
+#. Default: "Item action delete"
+msgid "Item action delete"
+msgstr "Supprimer (pour tout le monde)"
+
+#. Default: "Item action delete (Manager)"
+msgid "Item action delete (Manager)"
+msgstr "Supprimer (pour les administrateurs)"
+
+#. Default: "Item action delete (MeetingManager)"
+msgid "Item action delete (MeetingManager)"
+msgstr "Supprimer (pour les gestionnaires de séances)"
+
+#. Default: "Item action duplicate"
+msgid "Item action duplicate"
+msgstr "Dupliquer (pour tout le monde)"
+
+#. Default: "Item action duplicate (Manager)"
+msgid "Item action duplicate (Manager)"
+msgstr "Dupliquer (pour les administrateurs)"
+
+#. Default: "Item action duplicate (MeetingManager)"
+msgid "Item action duplicate (MeetingManager)"
+msgstr "Dupliquer (pour les gestionnaires de séances)"
+
+#. Default: "Item action history"
+msgid "Item action history"
+msgstr "Historique (pour tout le monde)"
+
+#. Default: "Item action history (Manager)"
+msgid "Item action history (Manager)"
+msgstr "Historique (pour les administrateurs)"
+
+#. Default: "Item action history (MeetingManager)"
+msgid "Item action history (MeetingManager)"
+msgstr "Historique (pour les gestionnaires de séances)"
+
 #. Default: "Item annexes"
 msgid "Item annexes"
 msgstr "Annexes aux points"
@@ -484,6 +544,10 @@ msgstr "Signatures à appliquer"
 #. Default: "Item templates"
 msgid "Item templates"
 msgstr "Modèles de points"
+
+#. Default: "Keep link?"
+msgid "Keep link?"
+msgstr "Garder un lien avec le point dupliqué?"
 
 #. Default: "Limit date ${advice_limit_date}"
 msgid "Limit date ${advice_limit_date}"
@@ -876,6 +940,10 @@ msgstr "Décision"
 msgid "PloneMeeting_label_decisionRelated"
 msgstr "Ce type d'annexe est spécifiquement lié à la décision prise sur le point"
 
+#. Default: "Decision (suite)"
+msgid "PloneMeeting_label_decisionSuite"
+msgstr "Suite de la décision"
+
 #. Default: "Enable \"Hide advice during redaction\" by default for following advice types"
 msgid "PloneMeeting_label_defaultAdviceHiddenDuringRedaction"
 msgstr "Par défaut, cocher la case \"Cacher l'avis pendant sa rédaction\" pour les types d'avis suivants"
@@ -1071,6 +1139,10 @@ msgstr "Cette configuration est celle par défaut"
 #. Default: "Absents for the item"
 msgid "PloneMeeting_label_itemAbsents"
 msgstr "Absents pour ce point"
+
+#. Default: "Item actions column configuration"
+msgid "PloneMeeting_label_itemActionsColumnConfig"
+msgstr "Configuration de la colonne \"Actions\" des listes de points"
 
 #. Default: "Interface allowing to use a specific Zope3 adapter for modifying the actions defined on the transitions of the item workflow"
 msgid "PloneMeeting_label_itemActionsInterface"
@@ -1918,6 +1990,10 @@ msgstr "Cet avis est hérité du point ${linkToItem}"
 msgid "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgstr "Cet avis ne doit plus être \"caché pendant la rédaction\" avant le ${limit_date} ou il sera considéré \"Non rendu\"."
 
+#. Default: "This advice was asked automatically by the application"
+msgid "This advice was asked automatically by the application"
+msgstr "Cet avis a été demandé automatiquement par l'application"
+
 #. Default: "This advice was given as personal initiative"
 msgid "This advice was given as personal initiative"
 msgstr "Cet avis a été rendu d'initiative"
@@ -1933,6 +2009,10 @@ msgstr "Ce membre est spécifiquement défini signataire pour le(s) point(s) sui
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgstr "Cet avis a été automatiquement demandé par l'application (montré par le fait que le titre n'est pas entre parenthèses)"
+
+#. Default: "This copy group was set automatically by the application"
+msgid "This copy group was set automatically by the application"
+msgstr "Ce groupe a été mis en copie automatiquement par l'application"
 
 #. Default: "This is an extract of the comment, access full comment if necessary..."
 msgid "This is an extract of the comment, access full comment if necessary..."
@@ -2254,6 +2334,10 @@ msgstr "Cette annexe est confidentielle.  Cliquez sur l'image pour rendre l'anne
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
 msgid "annex_not_kept_because_no_available_annex_type_warning"
 msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée car aucun type d'annexe n'a pu être utilisé dans la configuration de séance de destination, contactez votre administrateur système."
+
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because using a scan_id, please contact system administrator."
+msgid "annex_not_kept_because_using_scan_id"
+msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée car elle intègre un QR code qui doit rester unique, contactez votre administrateur système si nécessaire."
 
 #. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
 msgid "annex_restrict_shown_and_editable_attributes_descr"
@@ -3694,6 +3778,10 @@ msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUr
 #. Default: "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been removed from a meeting."
 msgid "itemUnpresented_mail_subject"
 msgstr "${meetingConfigTitle} - Un de vos points : \"${itemTitle}\", a été retiré d'une séance."
+
+#. Default: "Select here optional actions that will appear in the \"Actions\" column of dashboards displaying items.  This column is the heaviest to display, so selecting less actions will make your dashboards display faster."
+msgid "item_actions_column_config_descr"
+msgstr "Sélectionnez les actions optionnelles qui apparaîtront dans la colonne \"Actions\" des tableaux de bord affichant des points.  La colonne \"Actions\" étant la plus lourde à afficher dans les tableaux de bord, sélectionner moins d'actions rendra l'affichage plus rapide."
 
 #. Default: "Similarly to the preceding field, all the actions that are triggered when an item goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions are documented."
 msgid "item_actions_interface_descr"
@@ -5278,7 +5366,7 @@ msgstr "Impossible de stocker l'annexe en utilisant le type d'annexe défini dan
 
 #. Default: "Stored ${number_of_annexes} annexes."
 msgid "stored_item_template_as_annex"
-msgstr "${number_of_annexes} annexe(s) a(ont) été stockée(s)."
+msgstr "${number_of_annexes} annexes ont été stockées."
 
 #. Default: "You can not remove a sub type that has already been used in the application.  You removed the sub type with title \"${sub_type_title}\", it is in use for example by item at ${item_url}.  Please add it back (or click on the \"Edit\" tab here above to retrieve old values).  If you need to deactivate a sub type, you can uncheck the \"Active?\" check box."
 msgid "sub_type_can_not_remove_used_row"

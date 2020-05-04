@@ -6,11 +6,37 @@ Changelog
 ------------------
 
 - Merged changes from 4.1.8
+- Merged changes from 4.1.9
+- Merged changes from 4.1.10
+- Merged changes from 4.1.11
+- Merged changes from 4.1.12
+
+4.1.12 (2020-04-30)
+-------------------
+
+- Added back french translation for "Duplicate and keep link" in plone.po.
+- Completed translation "Disabled (greyed) annexes will not be kept on the new duplicated item.".
+
+4.1.11 (2020-04-29)
+-------------------
+
+- Simplified french translation "${number_of_annexes} annexe(s) a(ont) été stockée(s)." to "${number_of_annexes} annexes ont été stockées.".
+- Added translations for the 'Duplicate item with options' functionnality.
+
+4.1.10 (2020-04-20)
+-------------------
+
+- Added translations for copyGroups faceted filter related functionnality.
+
+4.1.9 (2020-04-06)
+------------------
+
+- Added translations for MeetingItem.decisionSuite field.
 
 4.1.8 (2020-04-02)
 ------------------
 
-- Added translations for improved edition functionality
+- Added translations for improved edition functionality.
 - Added translations for the 'Non attendee' functionnality.
 - Added translations for 'MeetingConfig.removeAnnexesPreviewsOnMeetingClosure' related functionnality.
 - Added translation for 'wa_meetingmanager_correct_closed_meeting' and removed translations for 'MeetingConfig.meetingManagerMayCorrectClosedMeeting'.

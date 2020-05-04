@@ -16,6 +16,14 @@ msgstr ""
 "X-is-fallback-for: nl-be\n"
 "X-Generator: Poedit 1.5.5\n"
 
+#. Default: " [holds scan_id]"
+msgid " [holds scan_id]"
+msgstr ""
+
+#. Default: " [reserved MeetingManagers]"
+msgid " [reserved MeetingManagers]"
+msgstr ""
+
 #. Default: "${element_title} (Inactive)"
 msgid "${element_title} (Inactive)"
 msgstr ""
@@ -95,6 +103,10 @@ msgstr ""
 
 #. Default: "Annex types"
 msgid "Annex types"
+msgstr ""
+
+#. Default: "Annexes to keep"
+msgid "Annexes to keep"
 msgstr ""
 
 #. Default: "Annexes (decision)"
@@ -237,6 +249,10 @@ msgstr ""
 msgid "Days to give advice"
 msgstr ""
 
+#. Default: "Decision annexes to keep"
+msgid "Decision annexes to keep"
+msgstr ""
+
 #. Default: "Decisions"
 msgid "Decisions"
 msgstr ""
@@ -253,12 +269,20 @@ msgstr ""
 msgid "Delete advice"
 msgstr ""
 
+#. Default: "Disabled (greyed) annexes will not be kept on the new duplicated item."
+msgid "Disabled (greyed) annexes will not be kept on the new duplicated item."
+msgstr ""
+
 #. Default: "Document templates"
 msgid "Document templates"
 msgstr ""
 
 #. Default: "Download annex"
 msgid "Download annex"
+msgstr ""
+
+#. Default: "Duplicate item"
+msgid "Duplicate item"
 msgstr ""
 
 #. Default: "Edit"
@@ -442,6 +466,42 @@ msgstr ""
 msgid "Item absents to apply"
 msgstr ""
 
+#. Default: "Item action delete"
+msgid "Item action delete"
+msgstr ""
+
+#. Default: "Item action delete (Manager)"
+msgid "Item action delete (Manager)"
+msgstr ""
+
+#. Default: "Item action delete (MeetingManager)"
+msgid "Item action delete (MeetingManager)"
+msgstr ""
+
+#. Default: "Item action duplicate"
+msgid "Item action duplicate"
+msgstr ""
+
+#. Default: "Item action duplicate (Manager)"
+msgid "Item action duplicate (Manager)"
+msgstr ""
+
+#. Default: "Item action duplicate (MeetingManager)"
+msgid "Item action duplicate (MeetingManager)"
+msgstr ""
+
+#. Default: "Item action history"
+msgid "Item action history"
+msgstr ""
+
+#. Default: "Item action history (Manager)"
+msgid "Item action history (Manager)"
+msgstr ""
+
+#. Default: "Item action history (MeetingManager)"
+msgid "Item action history (MeetingManager)"
+msgstr ""
+
 #. Default: "Item annexes"
 msgid "Item annexes"
 msgstr ""
@@ -484,6 +544,10 @@ msgstr ""
 
 #. Default: "Item templates"
 msgid "Item templates"
+msgstr ""
+
+#. Default: "Keep link?"
+msgid "Keep link?"
 msgstr ""
 
 #. Default: "Limit date ${advice_limit_date}"
@@ -878,6 +942,10 @@ msgstr "Beslissing"
 msgid "PloneMeeting_label_decisionRelated"
 msgstr "Dit bijlage type is specifiek gelinkt aan de beslissing genomen op dit item"
 
+#. Default: "Decision (suite)"
+msgid "PloneMeeting_label_decisionSuite"
+msgstr ""
+
 #. Default: "Enable \"Hide advice during redaction\" by default for following advice types"
 msgid "PloneMeeting_label_defaultAdviceHiddenDuringRedaction"
 msgstr ""
@@ -1072,6 +1140,10 @@ msgstr "Deze configuratie is de standaard meeting configuratie"
 
 #. Default: "Absents for the item"
 msgid "PloneMeeting_label_itemAbsents"
+msgstr ""
+
+#. Default: "Item actions column configuration"
+msgid "PloneMeeting_label_itemActionsColumnConfig"
 msgstr ""
 
 #. Default: "Interface allowing to use a specific Zope3 adapter for modifying the actions defined on the transitions of the item workflow"
@@ -1925,6 +1997,10 @@ msgstr ""
 msgid "This advice must not be 'hidden during redaction' anymore before ${limit_date} or it will be considered not given."
 msgstr ""
 
+#. Default: "This advice was asked automatically by the application"
+msgid "This advice was asked automatically by the application"
+msgstr ""
+
 #. Default: "This advice was given as personal initiative"
 msgid "This advice was given as personal initiative"
 msgstr ""
@@ -1940,6 +2016,10 @@ msgstr ""
 
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"
+msgstr ""
+
+#. Default: "This copy group was set automatically by the application"
+msgid "This copy group was set automatically by the application"
 msgstr ""
 
 #. Default: "This is an extract of the comment, access full comment if necessary..."
@@ -2263,6 +2343,10 @@ msgstr ""
 
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
 msgid "annex_not_kept_because_no_available_annex_type_warning"
+msgstr ""
+
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because using a scan_id, please contact system administrator."
+msgid "annex_not_kept_because_using_scan_id"
 msgstr ""
 
 #. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
@@ -3711,6 +3795,10 @@ msgstr ""
 
 #. Default: "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been removed from a meeting."
 msgid "itemUnpresented_mail_subject"
+msgstr ""
+
+#. Default: "Select here optional actions that will appear in the \"Actions\" column of dashboards displaying items.  This column is the heaviest to display, so selecting less actions will make your dashboards display faster."
+msgid "item_actions_column_config_descr"
 msgstr ""
 
 #. Default: "Similarly to the preceding field, all the actions that are triggered when an item goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowActions are documented."
