@@ -990,6 +990,10 @@ msgstr ""
 msgid "PloneMeeting_label_detailedDescription2"
 msgstr ""
 
+#. Default: "Display available items to"
+msgid "PloneMeeting_label_displayAvailableItemsTo"
+msgstr ""
+
 #. Default: "Emergency"
 msgid "PloneMeeting_label_emergency"
 msgstr ""
@@ -2425,6 +2429,10 @@ msgstr ""
 msgid "annexes_to_sign_term"
 msgstr ""
 
+#. Default: "Application users"
+msgid "app_users"
+msgstr ""
+
 #. Default: "Are you sure?"
 msgid "are_you_sure"
 msgstr "Ben je zeker"
@@ -3068,6 +3076,10 @@ msgstr ""
 
 #. Default: "You are just able to see visible elements here. Please consult the \"manage\" box here opposite."
 msgid "description_only_see_visible_items"
+msgstr ""
+
+#. Default: "By default only MeetingManagers will see the available items panel on a meeting as long as the meeting is accepting items.  This let's you show this panel to selected profiles.  Note that if you enable this, the meeting view will be displayed slower."
+msgid "display_available_items_to_descr"
 msgstr ""
 
 #. Default: "Assembly stored on the linked meeting"

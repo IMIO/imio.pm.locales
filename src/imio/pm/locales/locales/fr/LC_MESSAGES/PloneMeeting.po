@@ -988,6 +988,10 @@ msgstr "Description détaillée"
 msgid "PloneMeeting_label_detailedDescription2"
 msgstr "Description détaillée"
 
+#. Default: "Display available items to"
+msgid "PloneMeeting_label_displayAvailableItemsTo"
+msgstr "Afficher les points disponibles sur une séance aux"
+
 #. Default: "Emergency"
 msgid "PloneMeeting_label_emergency"
 msgstr "Urgence"
@@ -2415,6 +2419,10 @@ msgstr "Annexes à imprimer"
 msgid "annexes_to_sign_term"
 msgstr "Annexes à signer"
 
+#. Default: "Application users"
+msgid "app_users"
+msgstr "Utilisateurs de l'application (créateurs, validateurs, ...)"
+
 #. Default: "Are you sure?"
 msgid "are_you_sure"
 msgstr "Êtes-vous sûr de vouloir effectuer cette action?"
@@ -3056,6 +3064,10 @@ msgstr "Sélectionnez les jours indisponibles comme dernier jour d'un délai.  S
 #. Default: "You are just able to see visible elements here. Please consult the \"manage\" box here opposite."
 msgid "description_only_see_visible_items"
 msgstr "Vous êtes seulement autorisé à consulter les éléments visibles.  Utilisez la boîte \"Gestion\" ci-contre pour consulter le contenu que vous pouvez voir."
+
+#. Default: "By default only MeetingManagers will see the available items panel on a meeting as long as the meeting is accepting items.  This let's you show this panel to selected profiles.  Note that if you enable this, the meeting view will be displayed slower."
+msgid "display_available_items_to_descr"
+msgstr "Par défaut, seuls les gestionnaires de séances voient les points disponibles sur une séance, tant que la séance n'est pas clôturée. <span style='color: red;'>Notez qu'activer ceci rend l'affichage d'une séance plus lent pour les profils sélectionnés.</span>"
 
 #. Default: "Assembly stored on the linked meeting"
 msgid "display_meeting_assembly_legend"

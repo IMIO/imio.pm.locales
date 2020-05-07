@@ -6,6 +6,7 @@ Changelog
 -------------------
 
 - Simplified translation "Disabled (greyed) annexes will not be kept on the new duplicated item.".
+- Added translation for "Show available items to application users" functionnality.
 
 4.1.12 (2020-04-30)
 -------------------
