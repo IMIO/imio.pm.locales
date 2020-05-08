@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1.13 (unreleased)
+4.1.13 (2020-05-08)
 -------------------
 
 - Simplified translation "Disabled (greyed) annexes will not be kept on the new duplicated item.".
