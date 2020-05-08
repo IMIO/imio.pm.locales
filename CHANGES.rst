@@ -8,6 +8,7 @@ Changelog
 - Simplified translation "Disabled (greyed) annexes will not be kept on the new duplicated item.".
 - Added translation for "Show available items to application users" functionnality.
 - The msgid "Preview detailled advice" was renamed to "Preview detailed advice".
+- Added translations for email notifications "itemPostponedNextMeeting" and "adviceEditedOwner".
 
 4.1.12 (2020-04-30)
 -------------------

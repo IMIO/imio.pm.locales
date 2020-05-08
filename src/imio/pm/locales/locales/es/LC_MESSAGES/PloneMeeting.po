@@ -2153,6 +2153,14 @@ msgid "adviceDelayWarning_mail_subject"
 msgstr ""
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "adviceEditedOwner_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+msgid "adviceEditedOwner_mail_subject"
+msgstr ""
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 #, fuzzy
 msgid "adviceEdited_mail_body"
 msgstr "Usted puede acceder a este tema aquí: ${objectUrl}."
@@ -3244,6 +3252,10 @@ msgstr ""
 msgid "event_add_advice"
 msgstr "Un consejo fue agregado o actualizado en un tema"
 
+#. Default: "An advice was added or updated on an item (notify the \"Owner\")"
+msgid "event_add_advice_owner"
+msgstr ""
+
 #. Default: "An annex was added to an item already presented in a validated agenda (notify \"MeetingManagers\")"
 #, fuzzy
 msgid "event_add_annex"
@@ -3285,6 +3297,10 @@ msgstr ""
 #, fuzzy
 msgid "event_item_delayed"
 msgstr "Un tema ha sido demorado"
+
+#. Default: "An item has been postponed to the nexe meeting (notify the \"MeetingMember\")"
+msgid "event_item_postponed_next_meeting"
+msgstr ""
 
 #. Default: "An item has been inserted into a meeting (notify the \"MeetingMember\")"
 #, fuzzy
@@ -3830,6 +3846,14 @@ msgstr "Si bien este tema se encuentra aún en la reunión, pero marcado como 'd
 #. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
 msgid "itemDelayed_mail_subject"
 msgstr "${meetingConfigTitle} - Uno de sus temas, ${itemTitle}, han sido retardado en la reunión."
+
+#. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${objectUrl} and it has been validated automatically for a next meeting."
+msgid "itemPostponedNextMeeting_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been postponed to the next meeting."
+msgid "itemPostponedNextMeeting_mail_subject"
+msgstr ""
 
 #. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 #, fuzzy

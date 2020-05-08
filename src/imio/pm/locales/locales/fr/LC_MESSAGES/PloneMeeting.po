@@ -2136,6 +2136,14 @@ msgid "adviceDelayWarning_mail_subject"
 msgstr "${meetingConfigTitle} - Avertissement expiration délai pour rendre un avis sur le point \"${itemTitle}\"."
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "adviceEditedOwner_mail_body"
+msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
+
+#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+msgid "adviceEditedOwner_mail_subject"
+msgstr "${meetingConfigTitle} - Un avis a été rendu ou modifié sur le point \"${itemTitle}\"."
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
 msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
 
@@ -3205,6 +3213,10 @@ msgstr "Vous ne pouvez utiliser que des lettres minuscules pour l'identifiant."
 msgid "event_add_advice"
 msgstr "Un avis sur un point a été rendu ou modifié (prévient les créateurs du groupe proposant du point)"
 
+#. Default: "An advice was added or updated on an item (notify the \"Owner\")"
+msgid "event_add_advice_owner"
+msgstr "Un avis sur un point a été rendu ou modifié (prévient le créateur du point)"
+
 #. Default: "An annex was added to an item already presented in a validated agenda (notify \"MeetingManagers\")"
 msgid "event_add_annex"
 msgstr "Une annexe a été ajoutée à un point qui était déjà présenté dans un ordre du jour (prévient les gestionnaires de séances)"
@@ -3240,6 +3252,10 @@ msgstr "Un point est désormais visible par les groupes en copies (prévient les
 #. Default: "An item has been delayed (notify the \"MeetingMember\")"
 msgid "event_item_delayed"
 msgstr "Un point a été reporté (prévient les créateurs du groupe proposant du point)"
+
+#. Default: "An item has been postponed to the nexe meeting (notify the \"MeetingMember\")"
+msgid "event_item_postponed_next_meeting"
+msgstr "Un point a été reporté à la prochaine séance (prévient les créateurs du groupe proposant du point)"
 
 #. Default: "An item has been inserted into a meeting (notify the \"MeetingMember\")"
 msgid "event_item_presented"
@@ -3761,11 +3777,19 @@ msgstr "Le point \"${itemTitle}\" a été envoyé vers la séance \"${meetingCon
 
 #. Default: "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${objectUrl}. You can work on it again and propose it to another meeting."
 msgid "itemDelayed_mail_body"
-msgstr "Ce point est toujours dans la séance mais marqué comme \"reporté\", une copie en a été créée ici: ${objectUrl}. Vous pouver retravailler ce point et le proposer à une autre séance."
+msgstr "Ce point est toujours dans la séance mais marqué comme \"Reporté\", une copie en a été créée ici: ${objectUrl}. Vous pouver retravailler ce point et le proposer à une autre séance."
 
 #. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
 msgid "itemDelayed_mail_subject"
 msgstr "${meetingConfigTitle} - Un de vos points: ${itemTitle}, a été reporté."
+
+#. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${objectUrl} and it has been validated automatically for a next meeting."
+msgid "itemPostponedNextMeeting_mail_body"
+msgstr "Ce point est toujours dans la séance mais marqué comme \"Reporté à la prochaine séance\", une copie en a été créée ici: ${objectUrl} et a été automatiquement validée."
+
+#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been postponed to the next meeting."
+msgid "itemPostponedNextMeeting_mail_subject"
+msgstr "${meetingConfigTitle} - Un de vos points: ${itemTitle}, a été reporté à une prochaine séance."
 
 #. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "itemPresented_mail_body"

@@ -2633,6 +2633,10 @@ msgstr ""
 msgid "event_item_delayed"
 msgstr ""
 
+#. Default: "An item has been postponed to the nexe meeting (notify the \"MeetingMember\")"
+msgid "event_item_postponed_next_meeting"
+msgstr ""
+
 #. Default: "An annex was added to an item already presented in a validated agenda (notify \"MeetingManagers\")"
 msgid "event_add_annex"
 msgstr ""
@@ -2643,6 +2647,10 @@ msgstr ""
 
 #. Default: "An advice was added or updated on an item (notify the \"MeetingMember\")"
 msgid "event_add_advice"
+msgstr ""
+
+#. Default: "An advice was added or updated on an item (notify the \"Owner\")"
+msgid "event_add_advice_owner"
 msgstr ""
 
 #. Default: "An advice on an item has been invalidated (notify users able to give the advice that was invalidated)"
@@ -3429,6 +3437,14 @@ msgstr ""
 msgid "itemDelayed_mail_body"
 msgstr ""
 
+#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been postponed to the next meeting."
+msgid "itemPostponedNextMeeting_mail_subject"
+msgstr ""
+
+#. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${objectUrl} and it has been validated automatically for a next meeting."
+msgid "itemPostponedNextMeeting_mail_body"
+msgstr ""
+
 #. Default: "${meetingConfigTitle} - ${meetingTitle} - An annex was just added to an item."
 msgid "annexAdded_mail_subject"
 msgstr ""
@@ -3483,6 +3499,14 @@ msgstr ""
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+msgid "adviceEditedOwner_mail_subject"
+msgstr ""
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "adviceEditedOwner_mail_body"
 msgstr ""
 
 #. Default: "${meetingConfigTitle} - One or your advices has been invalidated on the item \"${itemTitle}\"."
