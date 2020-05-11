@@ -5,8 +5,7 @@ Changelog
 4.1.14 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations for "Empty item is also created from an item template" functionnality.
 
 4.1.13 (2020-05-08)
 -------------------
