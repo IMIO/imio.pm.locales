@@ -2929,13 +2929,22 @@ msgstr ""
 msgid "create_meeting"
 msgstr "Creatie van een vergadering"
 
+#. Default: "create a meeting (disabled during edit)"
+msgid "create_meeting_disabled_during_edit"
+msgstr ""
+
 #. Default: "Create an item"
 msgid "create_meeting_item"
 msgstr "Aanmaak agenda punt"
 
-#. Default: "Create an item in the current folder"
-msgid "create_meeting_item_in_current_folder"
-msgstr "Aanmaak van een punt in de huidige folder"
+# Portlet "PloneMeeting"
+#. Default: "Create an item (disabled during edit)"
+msgid "create_meeting_item_disabled_during_edit"
+msgstr ""
+
+#. Default: "Create an item from a template (disabled during edit)"
+msgid "create_meeting_item_from_template_disabled_during_edit"
+msgstr ""
 
 #. Default: "Creator"
 msgid "creator"

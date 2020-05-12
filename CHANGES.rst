@@ -6,6 +6,7 @@ Changelog
 -------------------
 
 - Added translations for "Empty item is also created from an item template" functionnality.
+- Added translations for "Avoid multiple clicks when creating new item by disabling the icon" functionnality.
 
 4.1.13 (2020-05-08)
 -------------------

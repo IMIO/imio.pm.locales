@@ -2916,13 +2916,22 @@ msgstr "Certaines transitions n'ont pas pu être déclenchées sur le point envo
 msgid "create_meeting"
 msgstr "Créer une séance"
 
+#. Default: "create a meeting (disabled during edit)"
+msgid "create_meeting_disabled_during_edit"
+msgstr "Créer une séance (désactivé lorsqu'une édition est en cours)"
+
 #. Default: "Create an item"
 msgid "create_meeting_item"
 msgstr "Créer un point"
 
-#. Default: "Create an item in the current folder"
-msgid "create_meeting_item_in_current_folder"
-msgstr "Créer un point ici"
+# Portlet "PloneMeeting"
+#. Default: "Create an item (disabled during edit)"
+msgid "create_meeting_item_disabled_during_edit"
+msgstr "Créer un point (désactivé lorsqu'une édition est en cours)"
+
+#. Default: "Create an item from a template (disabled during edit)"
+msgid "create_meeting_item_from_template_disabled_during_edit"
+msgstr "Créer un point depuis un modèle (désactivé lorsqu'une édition est en cours)"
 
 #. Default: "Creator"
 msgid "creator"
