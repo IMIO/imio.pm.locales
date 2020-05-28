@@ -2634,7 +2634,7 @@ msgid "event_item_delayed"
 msgstr ""
 
 #. Default: "An item has been postponed (notify the \"Creators\")"
-msgid "event_item_postponed_next_meeing"
+msgid "event_item_postponed_next_meeting"
 msgstr ""
 
 #. Default: "An annex was added to an item already presented in a validated agenda (notify \"MeetingManagers\")"
@@ -2647,6 +2647,10 @@ msgstr ""
 
 #. Default: "An advice was added or updated on an item (notify the \"Creators\")"
 msgid "event_add_advice"
+msgstr ""
+
+#. Default: "An advice was added or updated on an item (notify the \"Owner\")"
+msgid "event_add_advice_owner"
 msgstr ""
 
 #. Default: "An advice on an item has been invalidated (notify users able to give the advice that was invalidated)"
@@ -3057,8 +3061,8 @@ msgstr ""
 msgid "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
 msgstr ""
 
-#. Default: "Preview detailled advice"
-msgid "Preview detailled advice"
+#. Default: "Preview detailed advice"
+msgid "Preview detailed advice"
 msgstr ""
 
 #. Default: "Advice advanced management screen"
@@ -3208,8 +3212,13 @@ msgstr ""
 msgid "create_meeting_item"
 msgstr ""
 
-#. Default: "Create an item in the current folder"
-msgid "create_meeting_item_in_current_folder"
+# Portlet "PloneMeeting"
+#. Default: "Create an item (disabled during edit)"
+msgid "create_meeting_item_disabled_during_edit"
+msgstr ""
+
+#. Default: "Create an item from a template (disabled during edit)"
+msgid "create_meeting_item_from_template_disabled_during_edit"
 msgstr ""
 
 #. Default: "My items"
@@ -3368,6 +3377,10 @@ msgstr ""
 msgid "create_meeting"
 msgstr ""
 
+#. Default: "create a meeting (disabled during edit)"
+msgid "create_meeting_disabled_during_edit"
+msgstr ""
+
 #. Default: "Available meetings"
 msgid "searchnotdecidedmeetings"
 msgstr ""
@@ -3433,6 +3446,14 @@ msgstr ""
 msgid "itemDelayed_mail_body"
 msgstr ""
 
+#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been postponed to the next meeting."
+msgid "itemPostponedNextMeeting_mail_subject"
+msgstr ""
+
+#. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${objectUrl} and it has been validated automatically for a next meeting."
+msgid "itemPostponedNextMeeting_mail_body"
+msgstr ""
+
 #. Default: "${meetingConfigTitle} - ${meetingTitle} - An annex was just added to an item."
 msgid "annexAdded_mail_subject"
 msgstr ""
@@ -3487,6 +3508,14 @@ msgstr ""
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+msgid "adviceEditedOwner_mail_subject"
+msgstr ""
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "adviceEditedOwner_mail_body"
 msgstr ""
 
 #. Default: "${meetingConfigTitle} - One or your advices has been invalidated on the item \"${itemTitle}\"."
@@ -6032,4 +6061,32 @@ msgstr ""
 
 #. Default: " [reserved MeetingManagers]"
 msgid " [reserved MeetingManagers]"
+msgstr ""
+
+#. Default: "Display available items to"
+msgid "PloneMeeting_label_displayAvailableItemsTo"
+msgstr ""
+
+#. Default: "By default only MeetingManagers will see the available items panel on a meeting as long as the meeting is accepting items.  This let's you show this panel to selected profiles.  Note that if you enable this, the meeting view will be displayed slower."
+msgid "display_available_items_to_descr"
+msgstr ""
+
+#. Default: "By default only MeetingManagers will see the available items panel on a meeting as long as the meeting is accepting items.  This let's you show this panel to selected profiles.  Note that if you enable this, the meeting view will be displayed slower."
+msgid "display_available_items_to_descr"
+msgstr ""
+
+#. Default: "Application users"
+msgid "app_users"
+msgstr ""
+
+#. Default: "Default ${cfg_title} item template"
+msgid "Default ${cfg_title} item template"
+msgstr ""
+
+#. Default: "You cannot delete the default item template, but you can deactivate it if necessary!"
+msgid "You cannot delete the default item template, but you can deactivate it if necessary!"
+msgstr ""
+
+#. Default: "The default item template ${default_template_title} is ${default_template_review_state}."
+msgid "The default item template ${default_template_title} is ${default_template_review_state}."
 msgstr ""

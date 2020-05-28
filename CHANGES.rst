@@ -4,12 +4,32 @@ Changelog
 
 4.2a5 (unreleased)
 ------------------
-
 - Merged changes from 4.1.8
 - Merged changes from 4.1.9
 - Merged changes from 4.1.10
 - Merged changes from 4.1.11
 - Merged changes from 4.1.12
+- Merged changes from 4.1.13
+- Merged changes from 4.1.14
+
+4.1.15 (unreleased)
+-------------------
+
+- Nothing changed yet.
+
+4.1.14 (2020-05-26)
+-------------------
+
+- Added translations for "Empty item is also created from an item template" functionnality.
+- Added translations for "Avoid multiple clicks when creating new item by disabling the icon" functionnality.
+
+4.1.13 (2020-05-08)
+-------------------
+
+- Simplified translation "Disabled (greyed) annexes will not be kept on the new duplicated item.".
+- Added translation for "Show available items to application users" functionnality.
+- The msgid "Preview detailled advice" was renamed to "Preview detailed advice".
+- Added translations for email notifications "itemPostponedNextMeeting" and "adviceEditedOwner".
 
 4.1.12 (2020-04-30)
 -------------------

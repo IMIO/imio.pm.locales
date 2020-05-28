@@ -257,6 +257,10 @@ msgstr ""
 msgid "Decisions"
 msgstr ""
 
+#. Default: "Default ${cfg_title} item template"
+msgid "Default ${cfg_title} item template"
+msgstr ""
+
 #. Default: "Defaults"
 msgid "Defaults"
 msgstr ""
@@ -988,6 +992,10 @@ msgstr ""
 
 #. Default: "Detailed description"
 msgid "PloneMeeting_label_detailedDescription2"
+msgstr ""
+
+#. Default: "Display available items to"
+msgid "PloneMeeting_label_displayAvailableItemsTo"
 msgstr ""
 
 #. Default: "Emergency"
@@ -1837,8 +1845,8 @@ msgstr "Dokument templates"
 msgid "Position type"
 msgstr ""
 
-#. Default: "Preview detailled advice"
-msgid "Preview detailled advice"
+#. Default: "Preview detailed advice"
+msgid "Preview detailed advice"
 msgstr ""
 
 #. Default: "Preview of annexes were deleted upon meeting closure."
@@ -1950,6 +1958,10 @@ msgstr ""
 # plone.app.querystring
 #. Default: "The date the meeting occurs"
 msgid "The date the meeting occurs"
+msgstr ""
+
+#. Default: "The default item template ${default_template_title} is ${default_template_review_state}."
+msgid "The default item template ${default_template_title} is ${default_template_review_state}."
 msgstr ""
 
 #. Default: "The field here above is not used, check the \"users\" tab."
@@ -2087,6 +2099,10 @@ msgstr ""
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr ""
 
+#. Default: "You cannot delete the default item template, but you can deactivate it if necessary!"
+msgid "You cannot delete the default item template, but you can deactivate it if necessary!"
+msgstr ""
+
 #. Default: "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgstr ""
@@ -2141,6 +2157,14 @@ msgstr ""
 
 #. Default: "${meetingConfigTitle} - Warning advice delay expiration for item \"${itemTitle}\"."
 msgid "adviceDelayWarning_mail_subject"
+msgstr ""
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "adviceEditedOwner_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+msgid "adviceEditedOwner_mail_subject"
 msgstr ""
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
@@ -2427,6 +2451,10 @@ msgstr ""
 
 #. Default: "Annexes to sign"
 msgid "annexes_to_sign_term"
+msgstr ""
+
+#. Default: "Application users"
+msgid "app_users"
 msgstr ""
 
 #. Default: "Are you sure?"
@@ -2905,13 +2933,22 @@ msgstr ""
 msgid "create_meeting"
 msgstr "Creatie van een vergadering"
 
+#. Default: "create a meeting (disabled during edit)"
+msgid "create_meeting_disabled_during_edit"
+msgstr ""
+
 #. Default: "Create an item"
 msgid "create_meeting_item"
 msgstr "Aanmaak agenda punt"
 
-#. Default: "Create an item in the current folder"
-msgid "create_meeting_item_in_current_folder"
-msgstr "Aanmaak van een punt in de huidige folder"
+# Portlet "PloneMeeting"
+#. Default: "Create an item (disabled during edit)"
+msgid "create_meeting_item_disabled_during_edit"
+msgstr ""
+
+#. Default: "Create an item from a template (disabled during edit)"
+msgid "create_meeting_item_from_template_disabled_during_edit"
+msgstr ""
 
 #. Default: "Creator"
 msgid "creator"
@@ -3074,6 +3111,10 @@ msgstr ""
 msgid "description_only_see_visible_items"
 msgstr ""
 
+#. Default: "By default only MeetingManagers will see the available items panel on a meeting as long as the meeting is accepting items.  This let's you show this panel to selected profiles.  Note that if you enable this, the meeting view will be displayed slower."
+msgid "display_available_items_to_descr"
+msgstr ""
+
 #. Default: "Assembly stored on the linked meeting"
 msgid "display_meeting_assembly_legend"
 msgstr ""
@@ -3210,6 +3251,10 @@ msgstr ""
 msgid "event_add_advice"
 msgstr ""
 
+#. Default: "An advice was added or updated on an item (notify the \"Owner\")"
+msgid "event_add_advice_owner"
+msgstr ""
+
 #. Default: "An annex was added to an item already presented in a validated agenda (notify \"MeetingManagers\")"
 #, fuzzy
 msgid "event_add_annex"
@@ -3249,7 +3294,7 @@ msgid "event_item_delayed"
 msgstr ""
 
 #. Default: "An item has been postponed (notify the \"Creators\")"
-msgid "event_item_postponed_next_meeing"
+msgid "event_item_postponed_next_meeting"
 msgstr ""
 
 #. Default: "An item has been inserted into a meeting (notify the \"Creators\")"
@@ -3779,6 +3824,14 @@ msgstr ""
 
 #. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
 msgid "itemDelayed_mail_subject"
+msgstr ""
+
+#. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${objectUrl} and it has been validated automatically for a next meeting."
+msgid "itemPostponedNextMeeting_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been postponed to the next meeting."
+msgid "itemPostponedNextMeeting_mail_subject"
 msgstr ""
 
 #. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."

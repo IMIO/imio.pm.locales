@@ -256,6 +256,10 @@ msgstr "Garder les annexes (après décision) suivantes"
 msgid "Decisions"
 msgstr "Décisions"
 
+#. Default: "Default ${cfg_title} item template"
+msgid "Default ${cfg_title} item template"
+msgstr "Modèle ${cfg_title} point vide"
+
 #. Default: "Defaults"
 msgid "Defaults"
 msgstr "Par défaut"
@@ -270,7 +274,7 @@ msgstr "Supprimer l'avis"
 
 #. Default: "Disabled (greyed) annexes will not be kept on the new duplicated item."
 msgid "Disabled (greyed) annexes will not be kept on the new duplicated item."
-msgstr "ATTENTION, les annexes désactivées/grisées (utilisant un QR code ou un type d'annexe restreint aux gestionnaires de séances) ne seront pas gardées!"
+msgstr "ATTENTION, les annexes grisées ne seront pas gardées si elles comportent un QR code ou un type d'annexe restreint aux gestionnaires de séances!"
 
 #. Default: "Document templates"
 msgid "Document templates"
@@ -987,6 +991,10 @@ msgstr "Description détaillée"
 #. Default: "Detailed description"
 msgid "PloneMeeting_label_detailedDescription2"
 msgstr "Description détaillée"
+
+#. Default: "Display available items to"
+msgid "PloneMeeting_label_displayAvailableItemsTo"
+msgstr "Afficher les points disponibles sur une séance aux"
 
 #. Default: "Emergency"
 msgid "PloneMeeting_label_emergency"
@@ -1830,8 +1838,8 @@ msgstr "Canevas de documents"
 msgid "Position type"
 msgstr "Type de fonction"
 
-#. Default: "Preview detailled advice"
-msgid "Preview detailled advice"
+#. Default: "Preview detailed advice"
+msgid "Preview detailed advice"
 msgstr "Prévisualiser l'avis complet"
 
 #. Default: "Preview of annexes were deleted upon meeting closure."
@@ -1944,6 +1952,10 @@ msgstr "La date de la séance à laquelle le point est lié"
 #. Default: "The date the meeting occurs"
 msgid "The date the meeting occurs"
 msgstr "La date à laquelle la séance a lieu"
+
+#. Default: "The default item template ${default_template_title} is ${default_template_review_state}."
+msgid "The default item template ${default_template_title} is ${default_template_review_state}."
+msgstr "Le modèle de point par défaut ${default_template_title} est ${default_template_review_state}."
 
 #. Default: "The field here above is not used, check the \"users\" tab."
 msgid "The field here above is not used, check the 'users' tab."
@@ -2079,6 +2091,10 @@ msgstr "Voir les groupes Plone liés"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr "Vous êtes sur le point de changer le délai de cet avis pour ${new_advice_delay} jours, vous pouvez entrer un commentaire si nécessaire."
 
+#. Default: "You cannot delete the default item template, but you can deactivate it if necessary!"
+msgid "You cannot delete the default item template, but you can deactivate it if necessary!"
+msgstr "Vous ne pouvez pas supprimer le modèle de point par défaut, mais vous pouvez le désactiver si nécessaire!"
+
 #. Default: "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgstr "Vous ne pouvez pas supprimer la fonction occupée \"${held_position_title}\" car elle est utilisée par l'élement \"${obj_url}\" !"
@@ -2134,6 +2150,14 @@ msgstr "La date limite pour rendre l'avis \"${group_name} (${delay_label})\" est
 #. Default: "${meetingConfigTitle} - Warning advice delay expiration for item \"${itemTitle}\"."
 msgid "adviceDelayWarning_mail_subject"
 msgstr "${meetingConfigTitle} - Avertissement expiration délai pour rendre un avis sur le point \"${itemTitle}\"."
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "adviceEditedOwner_mail_body"
+msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
+
+#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+msgid "adviceEditedOwner_mail_subject"
+msgstr "${meetingConfigTitle} - Un avis a été rendu ou modifié sur le point \"${itemTitle}\"."
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
@@ -2418,6 +2442,10 @@ msgstr "Annexes à imprimer"
 #. Default: "Annexes to sign"
 msgid "annexes_to_sign_term"
 msgstr "Annexes à signer"
+
+#. Default: "Application users"
+msgid "app_users"
+msgstr "Utilisateurs de l'application (créateurs, validateurs, ...)"
 
 #. Default: "Are you sure?"
 msgid "are_you_sure"
@@ -2892,13 +2920,22 @@ msgstr "Certaines transitions n'ont pas pu être déclenchées sur le point envo
 msgid "create_meeting"
 msgstr "Créer une séance"
 
+#. Default: "create a meeting (disabled during edit)"
+msgid "create_meeting_disabled_during_edit"
+msgstr "Créer une séance (désactivé lorsqu'une édition est en cours)"
+
 #. Default: "Create an item"
 msgid "create_meeting_item"
 msgstr "Créer un point"
 
-#. Default: "Create an item in the current folder"
-msgid "create_meeting_item_in_current_folder"
-msgstr "Créer un point ici"
+# Portlet "PloneMeeting"
+#. Default: "Create an item (disabled during edit)"
+msgid "create_meeting_item_disabled_during_edit"
+msgstr "Créer un point (désactivé lorsqu'une édition est en cours)"
+
+#. Default: "Create an item from a template (disabled during edit)"
+msgid "create_meeting_item_from_template_disabled_during_edit"
+msgstr "Créer un point depuis un modèle (désactivé lorsqu'une édition est en cours)"
 
 #. Default: "Creator"
 msgid "creator"
@@ -3061,6 +3098,10 @@ msgstr "Sélectionnez les jours indisponibles comme dernier jour d'un délai.  S
 msgid "description_only_see_visible_items"
 msgstr "Vous êtes seulement autorisé à consulter les éléments visibles.  Utilisez la boîte \"Gestion\" ci-contre pour consulter le contenu que vous pouvez voir."
 
+#. Default: "By default only MeetingManagers will see the available items panel on a meeting as long as the meeting is accepting items.  This let's you show this panel to selected profiles.  Note that if you enable this, the meeting view will be displayed slower."
+msgid "display_available_items_to_descr"
+msgstr "Par défaut, seuls les gestionnaires de séances voient les points disponibles sur une séance, tant que la séance n'est pas clôturée. <span style='color: red;'>Notez qu'activer ceci rend l'affichage d'une séance plus lent pour les profils sélectionnés.</span>"
+
 #. Default: "Assembly stored on the linked meeting"
 msgid "display_meeting_assembly_legend"
 msgstr "Assemblée définie sur la séance"
@@ -3197,6 +3238,10 @@ msgstr "Vous ne pouvez utiliser que des lettres minuscules pour l'identifiant."
 msgid "event_add_advice"
 msgstr "Un avis sur un point a été rendu ou modifié (prévient les créateurs du groupe proposant du point)"
 
+#. Default: "An advice was added or updated on an item (notify the \"Owner\")"
+msgid "event_add_advice_owner"
+msgstr "Un avis sur un point a été rendu ou modifié (prévient le créateur du point)"
+
 #. Default: "An annex was added to an item already presented in a validated agenda (notify \"MeetingManagers\")"
 msgid "event_add_annex"
 msgstr "Une annexe a été ajoutée à un point qui était déjà présenté dans un ordre du jour (prévient les gestionnaires de séances)"
@@ -3234,7 +3279,7 @@ msgid "event_item_delayed"
 msgstr "Un point a été reporté (prévient les créateurs du groupe proposant du point)"
 
 #. Default: "An item has been postponed (notify the \"Creators\")"
-msgid "event_item_postponed_next_meeing"
+msgid "event_item_postponed_next_meeting"
 msgstr "Un point a été reporté à une prochaine séance (prévient les créateurs du groupe proposant du point)"
 
 #. Default: "An item has been inserted into a meeting (notify the \"Creators\")"
@@ -3757,11 +3802,19 @@ msgstr "Le point \"${itemTitle}\" a été envoyé vers la séance \"${meetingCon
 
 #. Default: "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${objectUrl}. You can work on it again and propose it to another meeting."
 msgid "itemDelayed_mail_body"
-msgstr "Ce point est toujours dans la séance mais marqué comme \"reporté\", une copie en a été créée ici: ${objectUrl}. Vous pouver retravailler ce point et le proposer à une autre séance."
+msgstr "Ce point est toujours dans la séance mais marqué comme \"Reporté\", une copie en a été créée ici: ${objectUrl}. Vous pouver retravailler ce point et le proposer à une autre séance."
 
 #. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
 msgid "itemDelayed_mail_subject"
 msgstr "${meetingConfigTitle} - Un de vos points: ${itemTitle}, a été reporté."
+
+#. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${objectUrl} and it has been validated automatically for a next meeting."
+msgid "itemPostponedNextMeeting_mail_body"
+msgstr "Ce point est toujours dans la séance mais marqué comme \"Reporté à la prochaine séance\", une copie en a été créée ici: ${objectUrl} et a été automatiquement validée."
+
+#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been postponed to the next meeting."
+msgid "itemPostponedNextMeeting_mail_subject"
+msgstr "${meetingConfigTitle} - Un de vos points: ${itemTitle}, a été reporté à une prochaine séance."
 
 #. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "itemPresented_mail_body"
