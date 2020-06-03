@@ -5,8 +5,7 @@ Changelog
 4.1.15 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translation for "wf_transition_triggered_by_application" msgid in imio.history domain.
 
 4.1.14 (2020-05-26)
 -------------------
