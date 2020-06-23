@@ -5115,6 +5115,10 @@ msgstr "Retirer tous les points sélectionnés."
 msgid "remove_several_items_done"
 msgstr "Les points sélectionnés ont été retirés de la séance."
 
+#. Default: "You can not remove a position type that is in use, you removed \"${removed_position_type}\" used by \"${hp_url}\"!"
+msgid "removed_position_type_in_use_error"
+msgstr "Vous ne pouvez pas supprimer un type de fonction utilisé, le type de fonction supprimé \"${removed_position_type}\" est utilisé par \"${hp_url}\"!"
+
 #. Default: "A category must be selected on this item so it may evolve in the workflow"
 msgid "required_category_ko"
 msgstr "Une catégorie doit être sélectionnée sur ce point afin qu'il puisse continuer à évoluer dans le workflow"

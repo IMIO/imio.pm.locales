@@ -5116,6 +5116,10 @@ msgstr "remove all selected items at once."
 msgid "remove_several_items_done"
 msgstr "Selected items have been removed from the meeting."
 
+#. Default: "You can not remove a position type that is in use, you removed \"${removed_position_type}\" used by \"${hp_url}\"!"
+msgid "removed_position_type_in_use_error"
+msgstr ""
+
 #. Default: "A category must be selected on this item so it may evolve in the workflow"
 msgid "required_category_ko"
 msgstr "A category must be selected on this item so it may evolve in the workflow"
