@@ -11,11 +11,17 @@ Changelog
 - Merged changes from 4.1.12
 - Merged changes from 4.1.13
 - Merged changes from 4.1.14
+- Merged changes from 4.1.15
 
-4.1.15 (unreleased)
+4.1.16 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Added translation for `directory.position_types` validator.
+
+4.1.15 (2020-06-11)
+-------------------
+
+- Added translation for "wf_transition_triggered_by_application" msgid in imio.history domain.
 
 4.1.14 (2020-05-26)
 -------------------

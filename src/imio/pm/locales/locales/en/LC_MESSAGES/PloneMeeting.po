@@ -2922,7 +2922,7 @@ msgstr "create a meeting"
 
 #. Default: "create a meeting (disabled during edit)"
 msgid "create_meeting_disabled_during_edit"
-msgstr ""
+msgstr "create a meeting (disabled during edit)"
 
 #. Default: "Create an item"
 msgid "create_meeting_item"
@@ -2931,11 +2931,11 @@ msgstr "Create an item"
 # Portlet "PloneMeeting"
 #. Default: "Create an item (disabled during edit)"
 msgid "create_meeting_item_disabled_during_edit"
-msgstr ""
+msgstr "Create an item (disabled during edit)"
 
 #. Default: "Create an item from a template (disabled during edit)"
 msgid "create_meeting_item_from_template_disabled_during_edit"
-msgstr ""
+msgstr "Create an item from a template (disabled during edit)"
 
 #. Default: "Creator"
 msgid "creator"
@@ -5127,6 +5127,10 @@ msgstr "remove all selected items at once."
 #. Default: "Selected items have been removed from the meeting."
 msgid "remove_several_items_done"
 msgstr "Selected items have been removed from the meeting."
+
+#. Default: "You can not remove a position type that is in use, you removed \"${removed_position_type}\" used by \"${hp_url}\"!"
+msgid "removed_position_type_in_use_error"
+msgstr "You can not remove a position type that is in use, you removed \"${removed_position_type}\" used by \"${hp_url}\"!"
 
 #. Default: "A category must be selected on this item so it may evolve in the workflow"
 msgid "required_category_ko"
