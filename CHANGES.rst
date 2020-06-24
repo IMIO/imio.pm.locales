@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1.16 (unreleased)
+4.1.16 (2020-06-24)
 -------------------
 
 - Added translation for `directory.position_types` validator.
