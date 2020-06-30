@@ -1600,6 +1600,10 @@ msgstr "Los estados de temas en los que los eventos serán registrados en el his
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr "Los estados de reunión en los cuales los eventos serán registrados en el historial de la reunión"
 
+#. Default: "On login redirects to the next meeting?"
+msgid "PloneMeeting_label_redirectToNextMeeting"
+msgstr ""
+
 #. Default: "Remove annexes previews on meeting closure"
 msgid "PloneMeeting_label_removeAnnexesPreviewsOnMeetingClosure"
 msgstr ""
@@ -5187,6 +5191,10 @@ msgstr "Usted puede manejar aquí temas predefinidos que servirán, para diferen
 
 #. Default: "${assembly} ${assembly_edit} and ${signatures} ${signatures_edit}"
 msgid "redefinable_assembly_and_signatures"
+msgstr ""
+
+#. Default: "If you check this box, after the user logs in or arrives on an instance, it will be redirected to the next meeting if there is one."
+msgid "redirect_to_next_meeting_desc"
 msgstr ""
 
 #. Default: "Refresh vote values"

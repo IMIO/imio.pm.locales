@@ -1589,6 +1589,10 @@ msgstr "États des points dans lesquels l'historisation est active"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr "États des séances dans lesquels l'historisation est active"
 
+#. Default: "On login redirects to the next meeting?"
+msgid "PloneMeeting_label_redirectToNextMeeting"
+msgstr "A la connexion redirige vers la prochaine séance?"
+
 #. Default: "Remove annexes previews on meeting closure"
 msgid "PloneMeeting_label_removeAnnexesPreviewsOnMeetingClosure"
 msgstr "Supprimer les prévisualisations des annexes lors de la clôture de la séance"
@@ -5082,6 +5086,10 @@ msgstr "Les points récurrents sont des points automatiquement ajoutés à une s
 #. Default: "${assembly} ${assembly_edit} and ${signatures} ${signatures_edit}"
 msgid "redefinable_assembly_and_signatures"
 msgstr "${assembly} ${assembly_edit} et ${signatures} ${signatures_edit}"
+
+#. Default: "If you check this box, after the user logs in or arrives on an instance, it will be redirected to the next meeting if there is one."
+msgid "redirect_to_next_meeting_desc"
+msgstr "Si vous cochez cette case, après que l'utilisateur ce soit connecté ou arrive sur un instance, celui-ci sera redirigé vers la prochaine séance si il y en a une."
 
 #. Default: "Refresh vote values"
 msgid "refresh_votes"

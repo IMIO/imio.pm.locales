@@ -5,7 +5,7 @@ Changelog
 4.1.17 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Add translation for `redirectToNextMeeting` option.
 
 
 4.1.16 (2020-06-24)

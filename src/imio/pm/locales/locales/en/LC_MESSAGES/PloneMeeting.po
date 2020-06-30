@@ -1589,6 +1589,10 @@ msgstr "Item states into which events will be recorded in item's history"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr "Meeting states into which events will be recorded in meeting's history"
 
+#. Default: "On login redirects to the next meeting?"
+msgid "PloneMeeting_label_redirectToNextMeeting"
+msgstr ""
+
 #. Default: "Remove annexes previews on meeting closure"
 msgid "PloneMeeting_label_removeAnnexesPreviewsOnMeetingClosure"
 msgstr "Remove annexes previews on meeting closure"
@@ -5083,6 +5087,10 @@ msgstr "Recurring items are items that will be automatically added to a meeting 
 #. Default: "${assembly} ${assembly_edit} and ${signatures} ${signatures_edit}"
 msgid "redefinable_assembly_and_signatures"
 msgstr "${assembly} ${assembly_edit} and ${signatures} ${signatures_edit}"
+
+#. Default: "If you check this box, after the user logs in or arrives on an instance, it will be redirected to the next meeting if there is one."
+msgid "redirect_to_next_meeting_desc"
+msgstr ""
 
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
