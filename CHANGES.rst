@@ -5,8 +5,7 @@ Changelog
 4.1.17 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translation for `Enabled?`.
 
 4.1.16 (2020-06-24)
 -------------------
