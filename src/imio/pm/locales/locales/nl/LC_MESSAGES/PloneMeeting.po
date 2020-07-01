@@ -217,10 +217,6 @@ msgstr ""
 msgid "Choose an advice type."
 msgstr ""
 
-#. Default: "Item classifiers"
-msgid "Classifiers"
-msgstr "Classificaties"
-
 #. Default: "Close"
 msgid "Close"
 msgstr ""
@@ -864,10 +860,6 @@ msgstr ""
 
 #. Default: "Certified signatures"
 msgid "PloneMeeting_label_certifiedSignatures"
-msgstr ""
-
-#. Default: "Classifier"
-msgid "PloneMeeting_label_classifier"
 msgstr ""
 
 #. Default: "Observations for the committee"
@@ -2812,10 +2804,6 @@ msgstr ""
 msgid "ckeditor_style_x_small"
 msgstr ""
 
-#. Default: "A classifier is a bit like a category. You can assign an item a given classifier almost the same way you can assign it a given category. The difference resides in the widget used: the \"category chooser\" is a listbox, while the \"classifier chooser\" is a ReferenceBrowserWidget (=a popup with filtering capabilities). So if you have many \"categories\", you may prefer to use \"classifiers\" instead."
-msgid "classifiers_descr"
-msgstr ""
-
 #. Default: "Clone to ${meetingConfigTitle}"
 msgid "clone_to"
 msgstr ""
@@ -3922,10 +3910,6 @@ msgstr ""
 msgid "item_category_descr"
 msgstr ""
 
-#. Default: "Classifier"
-msgid "item_classifier_descr"
-msgstr ""
-
 #. Default: "Choose here which columns to display when listing items (ie, when requesting \"my items\", \"all items\", ... or when performing custom searches)."
 msgid "item_columns_descr"
 msgstr ""
@@ -4552,10 +4536,6 @@ msgstr ""
 #. Default: "No category is currently defined."
 msgid "no_category"
 msgstr "Geen categorie wordt momenteel bepaald."
-
-#. Default: "No classifier is currently defined."
-msgid "no_classifier"
-msgstr ""
 
 # Values of colorSystems
 #. Default: "no_color"

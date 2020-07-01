@@ -216,10 +216,6 @@ msgstr "Choose a group."
 msgid "Choose an advice type."
 msgstr "Choose an advice type."
 
-#. Default: "Item classifiers"
-msgid "Classifiers"
-msgstr "Item classifiers"
-
 #. Default: "Close"
 msgid "Close"
 msgstr "Close"
@@ -863,10 +859,6 @@ msgstr "Category to use when sending item of this meeting config to another one"
 #. Default: "Certified signatures"
 msgid "PloneMeeting_label_certifiedSignatures"
 msgstr "Certified signatures"
-
-#. Default: "Classifier"
-msgid "PloneMeeting_label_classifier"
-msgstr "Classifier"
 
 #. Default: "Observations for the committee"
 msgid "PloneMeeting_label_committeeObservations"
@@ -2800,10 +2792,6 @@ msgstr "X-large text"
 msgid "ckeditor_style_x_small"
 msgstr "X-small text"
 
-#. Default: "A classifier is a bit like a category. You can assign an item a given classifier almost the same way you can assign it a given category. The difference resides in the widget used: the \"category chooser\" is a listbox, while the \"classifier chooser\" is a ReferenceBrowserWidget (=a popup with filtering capabilities). So if you have many \"categories\", you may prefer to use \"classifiers\" instead."
-msgid "classifiers_descr"
-msgstr "A classifier is a bit like a category. You can assign an item a given classifier almost the same way you can assign it a given category. The difference resides in the widget used: the 'category chooser' is a listbox, while the 'classifier chooser' is a ReferenceBrowserWidget (=a popup with filtering capabilities). So if you have many \"categories\", you may prefer to use \"classifiers\" instead."
-
 #. Default: "Clone to ${meetingConfigTitle}"
 msgid "clone_to"
 msgstr "Clone to ${meetingConfigTitle}"
@@ -3904,10 +3892,6 @@ msgstr "Budgetary informations"
 msgid "item_category_descr"
 msgstr " "
 
-#. Default: "Classifier"
-msgid "item_classifier_descr"
-msgstr " "
-
 #. Default: "Choose here which columns to display when listing items (ie, when requesting \"my items\", \"all items\", ... or when performing custom searches)."
 msgid "item_columns_descr"
 msgstr "Choose here which columns to display when listing items (ie, when requesting \"my items\", \"all items\", ... or when performing custom searches)."
@@ -4521,10 +4505,6 @@ msgstr "Attributes \"assembly\" and \"attendees\" can't be used together."
 #. Default: "No category is currently defined."
 msgid "no_category"
 msgstr "No category is currently defined."
-
-#. Default: "No classifier is currently defined."
-msgid "no_classifier"
-msgstr "No classifier is currently defined."
 
 # Values of colorSystems
 #. Default: "no_color"

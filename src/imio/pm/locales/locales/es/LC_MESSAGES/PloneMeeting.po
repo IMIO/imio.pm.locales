@@ -220,10 +220,6 @@ msgstr "Elija un grupo."
 msgid "Choose an advice type."
 msgstr "Elija un tipo de consejo."
 
-#. Default: "Item classifiers"
-msgid "Classifiers"
-msgstr "Clasificadores de tema"
-
 #. Default: "Close"
 msgid "Close"
 msgstr "Cerrar"
@@ -869,10 +865,6 @@ msgstr ""
 #. Default: "Certified signatures"
 msgid "PloneMeeting_label_certifiedSignatures"
 msgstr "Firmas certificadas"
-
-#. Default: "Classifier"
-msgid "PloneMeeting_label_classifier"
-msgstr "Clasificador"
 
 #. Default: "Observations for the committee"
 msgid "PloneMeeting_label_committeeObservations"
@@ -2831,11 +2823,6 @@ msgstr ""
 msgid "ckeditor_style_x_small"
 msgstr ""
 
-#. Default: "A classifier is a bit like a category. You can assign an item a given classifier almost the same way you can assign it a given category. The difference resides in the widget used: the \"category chooser\" is a listbox, while the \"classifier chooser\" is a ReferenceBrowserWidget (=a popup with filtering capabilities). So if you have many \"categories\", you may prefer to use \"classifiers\" instead."
-#, fuzzy
-msgid "classifiers_descr"
-msgstr "Un clasificador es un como una categoría. Puede asignar un tema casi un clasificador de la misma manera que se puede asignar una determinada categoría. La diferencia reside en el widget utilizado: el \"selector de categoría\" es una lista, mientras que el 'selector clasificador \"es un ReferenceBrowserWidget (eso es igual a una ventana emergente \"popup\" con capacidades de filtrado). Así que si usted tiene muchos «categorías», puede que prefiera utilizar \"clasificadores\", en lugar las categorías."
-
 #. Default: "Clone to ${meetingConfigTitle}"
 #, fuzzy
 msgid "clone_to"
@@ -3976,10 +3963,6 @@ msgstr "Informaciones presupuestaria"
 msgid "item_category_descr"
 msgstr "Categoría"
 
-#. Default: "Classifier"
-msgid "item_classifier_descr"
-msgstr "Clasificador"
-
 #. Default: "Choose here which columns to display when listing items (ie, when requesting \"my items\", \"all items\", ... or when performing custom searches)."
 #, fuzzy
 msgid "item_columns_descr"
@@ -4613,10 +4596,6 @@ msgstr "Los atributos 'asamblea' y 'asistentes' no puede ser usado juntos."
 #. Default: "No category is currently defined."
 msgid "no_category"
 msgstr "Actualmente sin categorías definida."
-
-#. Default: "No classifier is currently defined."
-msgid "no_classifier"
-msgstr "El clasificador no está definido."
 
 # Values of colorSystems
 #. Default: "no_color"
