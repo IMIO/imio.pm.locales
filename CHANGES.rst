@@ -6,6 +6,8 @@ Changelog
 -------------------
 
 - Added translation for `Enabled?`.
+- Renamed msgid `PloneMeeting_label_categoryMappingsWhenCloningToOtherMC` to
+  `PloneMeeting_label_category_mapping_when_cloning_to_other_mc`.
 
 4.1.16 (2020-06-24)
 -------------------
