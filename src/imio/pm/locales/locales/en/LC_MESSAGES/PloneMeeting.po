@@ -218,7 +218,7 @@ msgstr "Choose an advice type."
 
 #. Default: "Item classifiers"
 msgid "Classifiers"
-msgstr ""
+msgstr "Item classifiers"
 
 #. Default: "Close"
 msgid "Close"
@@ -705,7 +705,7 @@ msgstr "Ordered categories"
 
 #. Default: "Ordered classifiers"
 msgid "Ordered classifiers"
-msgstr ""
+msgstr "Ordered classifiers"
 
 #. Default: "Ordered groups"
 msgid "Ordered groups"
@@ -866,7 +866,7 @@ msgstr "Certified signatures"
 
 #. Default: "Classifier"
 msgid "PloneMeeting_label_classifier"
-msgstr ""
+msgstr "Classifier"
 
 #. Default: "Observations for the committee"
 msgid "PloneMeeting_label_committeeObservations"
@@ -3910,7 +3910,7 @@ msgstr " "
 
 #. Default: "Classifier"
 msgid "item_classifier_descr"
-msgstr ""
+msgstr " "
 
 #. Default: "Choose here which columns to display when listing items (ie, when requesting \"my items\", \"all items\", ... or when performing custom searches)."
 msgid "item_columns_descr"
@@ -4524,7 +4524,7 @@ msgstr "No category is currently defined."
 
 #. Default: "No classifier is currently defined."
 msgid "no_classifier"
-msgstr ""
+msgstr "No classifier is currently defined."
 
 #. Default: "None"
 msgid "no_config_group"
@@ -4664,7 +4664,7 @@ msgstr "Follow categories order"
 
 #. Default: "Follow classifiers order"
 msgid "on_classifiers"
-msgstr ""
+msgstr "Follow classifiers order"
 
 #. Default: "Follow groups in charge order"
 msgid "on_groups_in_charge"
@@ -5126,6 +5126,10 @@ msgstr "You can not remove a position type that is in use, you removed \"${remov
 #. Default: "A category must be selected on this item so it may evolve in the workflow"
 msgid "required_category_ko"
 msgstr "A category must be selected on this item so it may evolve in the workflow"
+
+#. Default: "A classifier must be selected on this item so it may evolve in the workflow"
+msgid "required_classifier_ko"
+msgstr "A classifier must be selected on this item so it may evolve in the workflow"
 
 #. Default: "Check the box if access to secret items must be restricted.  This will let only users for which an explicit access to the item has been given, access the item.  It will be the case so for members of the proposing groups, power users (Managers, MeetingManagers, power observers), copy groups and advisers.  Only activate this if necessary, it could be the case if you have a state where everything is accessible by everyone (like a \"published\" state for items) but where you want \"secret\" items not to be accessible by everyone."
 msgid "restrict_access_to_secret_items_descr"
