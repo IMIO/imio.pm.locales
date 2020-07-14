@@ -216,6 +216,10 @@ msgstr "Choose a group."
 msgid "Choose an advice type."
 msgstr "Choose an advice type."
 
+#. Default: "Item classifiers"
+msgid "Classifiers"
+msgstr ""
+
 #. Default: "Close"
 msgid "Close"
 msgstr "Close"
@@ -631,10 +635,6 @@ msgstr "Meeting users"
 msgid "MeetingAdvice"
 msgstr "Advice"
 
-#. Default: "Category"
-msgid "MeetingCategory"
-msgstr "Category"
-
 #. Default: "Meetings"
 msgid "Meetings"
 msgstr "Meetings"
@@ -702,6 +702,10 @@ msgstr "Once viewable, the adviser will have ${advice_delay} days to give the ad
 #. Default: "Ordered categories"
 msgid "Ordered categories"
 msgstr "Ordered categories"
+
+#. Default: "Ordered classifiers"
+msgid "Ordered classifiers"
+msgstr ""
 
 #. Default: "Ordered groups"
 msgid "Ordered groups"
@@ -859,6 +863,10 @@ msgstr "Category to use when sending item of this meeting config to another one"
 #. Default: "Certified signatures"
 msgid "PloneMeeting_label_certifiedSignatures"
 msgstr "Certified signatures"
+
+#. Default: "Classifier"
+msgid "PloneMeeting_label_classifier"
+msgstr ""
 
 #. Default: "Observations for the committee"
 msgid "PloneMeeting_label_committeeObservations"
@@ -2792,6 +2800,14 @@ msgstr "X-large text"
 msgid "ckeditor_style_x_small"
 msgstr "X-small text"
 
+#. Default: "Please select a classifier."
+msgid "classifier_required"
+msgstr "Please select a classifier."
+
+#. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
+msgid "classifiers_descr"
+msgstr "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
+
 #. Default: "Clone to ${meetingConfigTitle}"
 msgid "clone_to"
 msgstr "Clone to ${meetingConfigTitle}"
@@ -3892,6 +3908,10 @@ msgstr "Budgetary informations"
 msgid "item_category_descr"
 msgstr " "
 
+#. Default: "Classifier"
+msgid "item_classifier_descr"
+msgstr ""
+
 #. Default: "Choose here which columns to display when listing items (ie, when requesting \"my items\", \"all items\", ... or when performing custom searches)."
 msgid "item_columns_descr"
 msgstr "Choose here which columns to display when listing items (ie, when requesting \"my items\", \"all items\", ... or when performing custom searches)."
@@ -4454,10 +4474,6 @@ msgstr "Metadata"
 msgid "model_adaptations_descr"
 msgstr "Select here some standard adaptations that can be applied to data structures."
 
-#. Default: "modification_color"
-msgid "modification_color"
-msgstr "Colorize depending on modification"
-
 #. Default: "Move the item down"
 msgid "move_item_down"
 msgstr "Move the item down"
@@ -4506,10 +4522,9 @@ msgstr "Attributes \"assembly\" and \"attendees\" can't be used together."
 msgid "no_category"
 msgstr "No category is currently defined."
 
-# Values of colorSystems
-#. Default: "no_color"
-msgid "no_color"
-msgstr "Do not colorize"
+#. Default: "No classifier is currently defined."
+msgid "no_classifier"
+msgstr ""
 
 #. Default: "None"
 msgid "no_config_group"
@@ -4646,6 +4661,10 @@ msgstr "Follow all groups order"
 #. Default: "Follow categories order"
 msgid "on_categories"
 msgstr "Follow categories order"
+
+#. Default: "Follow classifiers order"
+msgid "on_classifiers"
+msgstr ""
 
 #. Default: "Follow groups in charge order"
 msgid "on_groups_in_charge"
@@ -5373,10 +5392,6 @@ msgstr "Signed (editable)"
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
 msgstr "Check this box if you want to sort the tags in alphabetic order."
-
-#. Default: "state_color"
-msgid "state_color"
-msgstr "Colorize depending on state"
 
 #. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"

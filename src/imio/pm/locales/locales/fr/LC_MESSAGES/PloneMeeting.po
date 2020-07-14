@@ -216,6 +216,10 @@ msgstr "Choisissez le groupe au nom duquel l'avis sera remis."
 msgid "Choose an advice type."
 msgstr "Choisissez un type d'avis."
 
+#. Default: "Item classifiers"
+msgid "Classifiers"
+msgstr "Classificateurs"
+
 #. Default: "Close"
 msgid "Close"
 msgstr "Fermer"
@@ -631,10 +635,6 @@ msgstr "Utilisateurs"
 msgid "MeetingAdvice"
 msgstr "Avis"
 
-#. Default: "Category"
-msgid "MeetingCategory"
-msgstr "Catégorie"
-
 #. Default: "Meetings"
 msgid "Meetings"
 msgstr "Séances"
@@ -702,6 +702,10 @@ msgstr "Une fois visible, l'avis devra être rendu dans les ${advice_delay} jour
 #. Default: "Ordered categories"
 msgid "Ordered categories"
 msgstr "Ordre des catégories"
+
+#. Default: "Ordered classifiers"
+msgid "Ordered classifiers"
+msgstr "Ordre des classificateurs"
 
 #. Default: "Ordered groups"
 msgid "Ordered groups"
@@ -859,6 +863,10 @@ msgstr "Catégorie à utiliser lorsqu'un point de cette configuration de séance
 #. Default: "Certified signatures"
 msgid "PloneMeeting_label_certifiedSignatures"
 msgstr "Signatures certifiées conformes"
+
+#. Default: "Classifier"
+msgid "PloneMeeting_label_classifier"
+msgstr "Classificateur"
 
 #. Default: "Observations for the committee"
 msgid "PloneMeeting_label_committeeObservations"
@@ -2792,6 +2800,14 @@ msgstr "Très grand texte"
 msgid "ckeditor_style_x_small"
 msgstr "Très petit texte"
 
+#. Default: "Please select a classifier."
+msgid "classifier_required"
+msgstr "Veuillez sélectionner un classificateur."
+
+#. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
+msgid "classifiers_descr"
+msgstr "Un classificateur fonctionne comme une seconde catégorie. Vous pouvez assigner un classificateur à un point de la même manière que vous lui assignez une catégorie."
+
 #. Default: "Clone to ${meetingConfigTitle}"
 msgid "clone_to"
 msgstr "Envoyer vers ${meetingConfigTitle}"
@@ -3892,6 +3908,10 @@ msgstr " "
 msgid "item_category_descr"
 msgstr " "
 
+#. Default: "Classifier"
+msgid "item_classifier_descr"
+msgstr " "
+
 #. Default: "Choose here which columns to display when listing items (ie, when requesting \"my items\", \"all items\", ... or when performing custom searches)."
 msgid "item_columns_descr"
 msgstr "Choisissez ici les colonnes à afficher sur les listes de points (par exemple, sur les listes prédéfinies comme \"mes points\" ou \"tous les points\" ou sur des résultats de recherches avancées).</span>"
@@ -4453,10 +4473,6 @@ msgstr "Méta-données"
 msgid "model_adaptations_descr"
 msgstr "Sélectionnez ici quelques jeux de modifications que l'on peut appliquer aux structures de données."
 
-#. Default: "modification_color"
-msgid "modification_color"
-msgstr "Coloriser suivant les modifications"
-
 #. Default: "Move the item down"
 msgid "move_item_down"
 msgstr "Déplacer le point vers le bas"
@@ -4505,10 +4521,9 @@ msgstr "Les attributs \"assemblée\" et \"présents\" ne peuvent être utilisés
 msgid "no_category"
 msgstr "Aucune catégorie n'est actuellement définie."
 
-# Values of colorSystems
-#. Default: "no_color"
-msgid "no_color"
-msgstr "Ne pas coloriser"
+#. Default: "No classifier is currently defined."
+msgid "no_classifier"
+msgstr "Aucun classificateur n'est actuellement défini."
 
 #. Default: "None"
 msgid "no_config_group"
@@ -4645,6 +4660,10 @@ msgstr "Suivre l'ordre de tous les groupes"
 #. Default: "Follow categories order"
 msgid "on_categories"
 msgstr "Suivre l'ordre des catégories"
+
+#. Default: "Follow classifiers order"
+msgid "on_classifiers"
+msgstr "Suivre l'ordre des classificateurs"
 
 #. Default: "Follow groups in charge order"
 msgid "on_groups_in_charge"
@@ -5372,10 +5391,6 @@ msgstr "À signer/Signé (éditable seulement par les gestionnaires de séances)
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
 msgstr "Cochez cette case si vous voulez que les marqueurs soient triés par ordre alphabétique."
-
-#. Default: "state_color"
-msgid "state_color"
-msgstr "Coloriser suivant l'état du workflow"
 
 #. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"

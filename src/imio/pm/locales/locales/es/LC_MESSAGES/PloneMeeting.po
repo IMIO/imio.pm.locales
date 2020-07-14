@@ -220,6 +220,10 @@ msgstr "Elija un grupo."
 msgid "Choose an advice type."
 msgstr "Elija un tipo de consejo."
 
+#. Default: "Item classifiers"
+msgid "Classifiers"
+msgstr ""
+
 #. Default: "Close"
 msgid "Close"
 msgstr "Cerrar"
@@ -635,10 +639,6 @@ msgstr ""
 msgid "MeetingAdvice"
 msgstr "Consejo de reunión"
 
-#. Default: "Category"
-msgid "MeetingCategory"
-msgstr "Categoría de reunión"
-
 #. Default: "Meetings"
 msgid "Meetings"
 msgstr ""
@@ -705,6 +705,10 @@ msgstr "Una vez visible, el asesor tendrá ${advice_delay} día(s) para dar el c
 
 #. Default: "Ordered categories"
 msgid "Ordered categories"
+msgstr ""
+
+#. Default: "Ordered classifiers"
+msgid "Ordered classifiers"
 msgstr ""
 
 #. Default: "Ordered groups"
@@ -865,6 +869,10 @@ msgstr ""
 #. Default: "Certified signatures"
 msgid "PloneMeeting_label_certifiedSignatures"
 msgstr "Firmas certificadas"
+
+#. Default: "Classifier"
+msgid "PloneMeeting_label_classifier"
+msgstr ""
 
 #. Default: "Observations for the committee"
 msgid "PloneMeeting_label_committeeObservations"
@@ -2823,6 +2831,15 @@ msgstr ""
 msgid "ckeditor_style_x_small"
 msgstr ""
 
+#. Default: "Please select a classifier."
+msgid "classifier_required"
+msgstr ""
+
+#. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
+#, fuzzy
+msgid "classifiers_descr"
+msgstr "Un clasificador es un como una categoría. Puede asignar un tema casi un clasificador de la misma manera que se puede asignar una determinada categoría. La diferencia reside en el widget utilizado: el \"selector de categoría\" es una lista, mientras que el 'selector clasificador \"es un ReferenceBrowserWidget (eso es igual a una ventana emergente \"popup\" con capacidades de filtrado). Así que si usted tiene muchos «categorías», puede que prefiera utilizar \"clasificadores\", en lugar las categorías."
+
 #. Default: "Clone to ${meetingConfigTitle}"
 #, fuzzy
 msgid "clone_to"
@@ -3963,6 +3980,10 @@ msgstr "Informaciones presupuestaria"
 msgid "item_category_descr"
 msgstr "Categoría"
 
+#. Default: "Classifier"
+msgid "item_classifier_descr"
+msgstr ""
+
 #. Default: "Choose here which columns to display when listing items (ie, when requesting \"my items\", \"all items\", ... or when performing custom searches)."
 #, fuzzy
 msgid "item_columns_descr"
@@ -4544,10 +4565,6 @@ msgstr "Metadata"
 msgid "model_adaptations_descr"
 msgstr "Seleccione aquí algunas adaptaciones estándar que puede ser aplicada a la estructuras de los datos."
 
-#. Default: "modification_color"
-msgid "modification_color"
-msgstr "Coloración dependiendo de la modificación"
-
 #. Default: "Move the item down"
 msgid "move_item_down"
 msgstr "Mover el tema abajo"
@@ -4597,10 +4614,9 @@ msgstr "Los atributos 'asamblea' y 'asistentes' no puede ser usado juntos."
 msgid "no_category"
 msgstr "Actualmente sin categorías definida."
 
-# Values of colorSystems
-#. Default: "no_color"
-msgid "no_color"
-msgstr "Sin color"
+#. Default: "No classifier is currently defined."
+msgid "no_classifier"
+msgstr ""
 
 #. Default: "None"
 msgid "no_config_group"
@@ -4738,6 +4754,10 @@ msgstr "Seguir orden de todos los grupos"
 #. Default: "Follow categories order"
 msgid "on_categories"
 msgstr "Seguir orden de categorías"
+
+#. Default: "Follow classifiers order"
+msgid "on_classifiers"
+msgstr ""
 
 #. Default: "Follow groups in charge order"
 msgid "on_groups_in_charge"
@@ -5486,10 +5506,6 @@ msgstr ""
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
 msgstr "Verifique esta casilla si usted quiere ordenar las etiquetas en orden alfabético."
-
-#. Default: "state_color"
-msgid "state_color"
-msgstr "Coloración dependiendo del estado"
 
 #. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"

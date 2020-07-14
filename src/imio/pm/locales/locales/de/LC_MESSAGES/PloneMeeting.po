@@ -216,6 +216,10 @@ msgstr ""
 msgid "Choose an advice type."
 msgstr ""
 
+#. Default: "Item classifiers"
+msgid "Classifiers"
+msgstr ""
+
 #. Default: "Close"
 msgid "Close"
 msgstr ""
@@ -631,10 +635,6 @@ msgstr ""
 msgid "MeetingAdvice"
 msgstr ""
 
-#. Default: "Category"
-msgid "MeetingCategory"
-msgstr "Kategorie"
-
 #. Default: "Meetings"
 msgid "Meetings"
 msgstr ""
@@ -701,6 +701,10 @@ msgstr ""
 
 #. Default: "Ordered categories"
 msgid "Ordered categories"
+msgstr ""
+
+#. Default: "Ordered classifiers"
+msgid "Ordered classifiers"
 msgstr ""
 
 #. Default: "Ordered groups"
@@ -860,6 +864,10 @@ msgstr ""
 
 #. Default: "Certified signatures"
 msgid "PloneMeeting_label_certifiedSignatures"
+msgstr ""
+
+#. Default: "Classifier"
+msgid "PloneMeeting_label_classifier"
 msgstr ""
 
 #. Default: "Observations for the committee"
@@ -2812,6 +2820,15 @@ msgstr ""
 msgid "ckeditor_style_x_small"
 msgstr ""
 
+#. Default: "Please select a classifier."
+msgid "classifier_required"
+msgstr ""
+
+#. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
+#, fuzzy
+msgid "classifiers_descr"
+msgstr "Eine Klassifizierung ist ähnlich wie eine Kategorie. "
+
 #. Default: "Clone to ${meetingConfigTitle}"
 msgid "clone_to"
 msgstr ""
@@ -3938,6 +3955,10 @@ msgstr "Budget Informationen"
 msgid "item_category_descr"
 msgstr "Kategorie"
 
+#. Default: "Classifier"
+msgid "item_classifier_descr"
+msgstr ""
+
 #. Default: "Choose here which columns to display when listing items (ie, when requesting \"my items\", \"all items\", ... or when performing custom searches)."
 #, fuzzy
 msgid "item_columns_descr"
@@ -4515,10 +4536,6 @@ msgstr "Metadaten"
 msgid "model_adaptations_descr"
 msgstr "Wählen Sie hier einige Standard Anpassungen die an die Datenstruktur angewendet werden können"
 
-#. Default: "modification_color"
-msgid "modification_color"
-msgstr "Änderungsfarben"
-
 #. Default: "Move the item down"
 msgid "move_item_down"
 msgstr "TOP nach unten bewegen"
@@ -4568,10 +4585,9 @@ msgstr "Die Attribute 'Standard Sitzungsteilnehmer' und 'Anwesende' können nich
 msgid "no_category"
 msgstr "Derzeit ist keine Kategorie definiert."
 
-# Values of colorSystems
-#. Default: "no_color"
-msgid "no_color"
-msgstr "Kein Farbschema"
+#. Default: "No classifier is currently defined."
+msgid "no_classifier"
+msgstr ""
 
 #. Default: "None"
 msgid "no_config_group"
@@ -4709,6 +4725,10 @@ msgstr "Der Gruppensortierung folgen"
 #. Default: "Follow categories order"
 msgid "on_categories"
 msgstr "Der Kategoriensortierung folgen"
+
+#. Default: "Follow classifiers order"
+msgid "on_classifiers"
+msgstr ""
 
 #. Default: "Follow groups in charge order"
 msgid "on_groups_in_charge"
@@ -5449,10 +5469,6 @@ msgstr ""
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
 msgstr "Markieren Sie dieses Kästchen wenn Sie die Tags in alphabetischer Reihenfolge angezeigt bekommen wollen."
-
-#. Default: "state_color"
-msgid "state_color"
-msgstr "Statusfarbe"
 
 #. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"
