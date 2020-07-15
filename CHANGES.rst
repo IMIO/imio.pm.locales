@@ -6,6 +6,7 @@ Changelog
 -------------------
 
 - Added translation for `Enabled?`.
+- Added translation for warning message explaining why a `MeetingConfig` can not be disabled.
 
 4.1.16 (2020-06-24)
 -------------------

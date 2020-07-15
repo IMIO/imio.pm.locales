@@ -164,6 +164,10 @@ msgstr "Retourner sur le point"
 msgid "Can not close a meeting containing items returned to proposing group!"
 msgstr "Une séance contenant des points 'Renvoyé au groupe proposant pour corrections' ne peut pas être clôturée!"
 
+#. Default: "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
+msgid "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
+msgstr "Une configuration de séance renseignée dans une autre ne peut pas être désactivée! Vérifiez le champ \"${field_title}\" de la configuration de séance \"${other_cfg_title}\"!"
+
 #. Default: "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgstr "Impossible de définir un membre \"${not_present_type}\" s'il est spécifiquement défini signataire du point!"
