@@ -7,6 +7,7 @@ Changelog
 
 - Added translation for `Enabled?`.
 - Added translation for warning message explaining why a `MeetingConfig` can not be disabled.
+- Added translation for `Data that will be used on new item`.
 
 4.1.16 (2020-06-24)
 -------------------
