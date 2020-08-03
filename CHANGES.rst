@@ -6,6 +6,8 @@ Changelog
 -------------------
 
 - Added translation for `Enabled?`.
+- Added translation for warning message explaining why a `MeetingConfig` can not be disabled.
+- Added translation for `Data that will be used on new item`.
 - Renamed msgid `PloneMeeting_label_categoryMappingsWhenCloningToOtherMC` to
   `PloneMeeting_label_category_mapping_when_cloning_to_other_mc`.
 - Adapted `MeetingItem.classifier` related translations.
