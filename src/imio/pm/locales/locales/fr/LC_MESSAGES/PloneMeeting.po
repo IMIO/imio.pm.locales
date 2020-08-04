@@ -643,10 +643,6 @@ msgstr "Utilisateurs"
 msgid "MeetingAdvice"
 msgstr "Avis"
 
-#. Default: "Category"
-msgid "MeetingCategory"
-msgstr "Catégorie"
-
 #. Default: "Meetings"
 msgid "Meetings"
 msgstr "Séances"
@@ -714,6 +710,10 @@ msgstr "Une fois visible, l'avis devra être rendu dans les ${advice_delay} jour
 #. Default: "Ordered categories"
 msgid "Ordered categories"
 msgstr "Ordre des catégories"
+
+#. Default: "Ordered classifiers"
+msgid "Ordered classifiers"
+msgstr "Ordre des classificateurs"
 
 #. Default: "Ordered groups"
 msgid "Ordered groups"
@@ -865,7 +865,7 @@ msgid "PloneMeeting_label_categoryId"
 msgstr "Identifiant de la catégorie"
 
 #. Default: "Category to use when sending item of this meeting config to another one"
-msgid "PloneMeeting_label_categoryMappingsWhenCloningToOtherMC"
+msgid "PloneMeeting_label_category_mapping_when_cloning_to_other_mc"
 msgstr "Catégorie à utiliser lorsqu'un point de cette configuration de séance est envoyé vers une autre configuration de séance"
 
 #. Default: "Certified signatures"
@@ -2676,9 +2676,9 @@ msgstr "forcer l'affichage"
 msgid "categories_force_display_descr"
 msgstr "Vous pouvez ${force_display} des catégories (ceci peut prendre un certain temps)."
 
-#. Default: "You may use the ${folder_contents_link} to manage categories."
+#. Default: "You may use the ${folder_contents_link} to manage elements order."
 msgid "categories_use_folder_contents"
-msgstr "Vous pouvez utiliser ${folder_contents_link} pour gérer les catégories."
+msgstr "Vous pouvez utiliser ${folder_contents_link} pour gérer l'ordre des éléments."
 
 #. Default: "Choose here some identifier for your category."
 msgid "category_category_id_descr"
@@ -2808,9 +2808,13 @@ msgstr "Très grand texte"
 msgid "ckeditor_style_x_small"
 msgstr "Très petit texte"
 
-#. Default: "A classifier is a bit like a category. You can assign an item a given classifier almost the same way you can assign it a given category. The difference resides in the widget used: the \"category chooser\" is a listbox, while the \"classifier chooser\" is a ReferenceBrowserWidget (=a popup with filtering capabilities). So if you have many \"categories\", you may prefer to use \"classifiers\" instead."
+#. Default: "Please select a classifier."
+msgid "classifier_required"
+msgstr "Veuillez sélectionner un classificateur."
+
+#. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
 msgid "classifiers_descr"
-msgstr "Un classificateur fonctionne un peu comme une catégorie. Vous pouvez assigner un classificateur à un point presque de la même manière que vous lui assignez une catégorie. La différence réside dans le widget utilisé: le classificateur se choisit dans une popup (avec options de filtrage et de recherche) et non dans une liste déroulante comme c'est le cas pour les catégories. Si donc vous avez beaucoup de \"catégories\", vous pourriez préférer l'usage de \"classificateurs\" au lieu de \"catégories\"."
+msgstr "Un classificateur fonctionne comme une seconde catégorie. Vous pouvez assigner un classificateur à un point de la même manière que vous lui assignez une catégorie."
 
 #. Default: "Clone to ${meetingConfigTitle}"
 msgid "clone_to"
@@ -4477,10 +4481,6 @@ msgstr "Méta-données"
 msgid "model_adaptations_descr"
 msgstr "Sélectionnez ici quelques jeux de modifications que l'on peut appliquer aux structures de données."
 
-#. Default: "modification_color"
-msgid "modification_color"
-msgstr "Coloriser suivant les modifications"
-
 #. Default: "Move the item down"
 msgid "move_item_down"
 msgstr "Déplacer le point vers le bas"
@@ -4532,11 +4532,6 @@ msgstr "Aucune catégorie n'est actuellement définie."
 #. Default: "No classifier is currently defined."
 msgid "no_classifier"
 msgstr "Aucun classificateur n'est actuellement défini."
-
-# Values of colorSystems
-#. Default: "no_color"
-msgid "no_color"
-msgstr "Ne pas coloriser"
 
 #. Default: "None"
 msgid "no_config_group"
@@ -4673,6 +4668,10 @@ msgstr "Suivre l'ordre de tous les groupes"
 #. Default: "Follow categories order"
 msgid "on_categories"
 msgstr "Suivre l'ordre des catégories"
+
+#. Default: "Follow classifiers order"
+msgid "on_classifiers"
+msgstr "Suivre l'ordre des classificateurs"
 
 #. Default: "Follow groups in charge order"
 msgid "on_groups_in_charge"
@@ -5135,6 +5134,10 @@ msgstr "Vous ne pouvez pas supprimer un type de fonction utilisé, le type de fo
 msgid "required_category_ko"
 msgstr "Une catégorie doit être sélectionnée sur ce point afin qu'il puisse continuer à évoluer dans le workflow"
 
+#. Default: "A classifier must be selected on this item so it may evolve in the workflow"
+msgid "required_classifier_ko"
+msgstr "Un classificateur doit être sélectionné sur ce point afin qu'il puisse continuer à évoluer dans le workflow"
+
 #. Default: "Check the box if access to secret items must be restricted.  This will let only users for which an explicit access to the item has been given, access the item.  It will be the case so for members of the proposing groups, power users (Managers, MeetingManagers, power observers), copy groups and advisers.  Only activate this if necessary, it could be the case if you have a state where everything is accessible by everyone (like a \"published\" state for items) but where you want \"secret\" items not to be accessible by everyone."
 msgid "restrict_access_to_secret_items_descr"
 msgstr "Si vous cochez cette case, l'accès aux points \"à huis clos\" sera restreint pour certains utilisateurs.  Ceci permet de spécifier que les points à huis clos ne doivent être accessible qu'aux personnes ayant reçu un accès explicite au point : les super utilisteurs (administrateurs, gestionnaires de séances, super observateurs), les membres du groupe proposant, les groupes en copies et les émetteurs d'avis (dont l'avis est demandé sur le point).  Par défaut, cette fonctionnalité est désactivée, à n'activer que si nécessaire, par exemple dans le cas où vous avez un état sur le point qui est accessible à tous (par exemple \"publié\") mais que vous souhaitez malgré tout que les points à huis clos ne soient accessible que de manière explicite."
@@ -5400,10 +5403,6 @@ msgstr "À signer/Signé (éditable seulement par les gestionnaires de séances)
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
 msgstr "Cochez cette case si vous voulez que les marqueurs soient triés par ordre alphabétique."
-
-#. Default: "state_color"
-msgid "state_color"
-msgstr "Coloriser suivant l'état du workflow"
 
 #. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"
