@@ -11,6 +11,7 @@ Changelog
 - Renamed msgid `PloneMeeting_label_categoryMappingsWhenCloningToOtherMC` to
   `PloneMeeting_label_category_mapping_when_cloning_to_other_mc`.
 - Adapted `MeetingItem.classifier` related translations.
+- Shorter translation for `Signature number` in `DataGridField`, now default is `Number`.
 
 4.1.16 (2020-06-24)
 -------------------
