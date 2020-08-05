@@ -193,9 +193,8 @@ msgid "Certified signatures signatory name"
 msgstr "Name"
 
 #. Default: "Number"
-#, fuzzy
 msgid "Certified signatures signature number"
-msgstr "Signature number"
+msgstr "Number"
 
 #. Default: "Valid from (included)"
 msgid "Certified signatures valid from (included)"
@@ -251,7 +250,7 @@ msgstr "Data of the item when advice was given"
 
 #. Default: "Data that will be used on new item"
 msgid "Data that will be used on new item"
-msgstr ""
+msgstr "Data that will be used on new item"
 
 #. Default: "Days to give advice : ${daysToGiveAdvice} days"
 msgid "Days to give advice"
@@ -561,6 +560,10 @@ msgstr "Item signatures to apply"
 #. Default: "Item templates"
 msgid "Item templates"
 msgstr "Item templates"
+
+#. Default: "Items have been reordered."
+msgid "Items have been reordered."
+msgstr "Items have been reordered."
 
 #. Default: "Keep link?"
 msgid "Keep link?"
@@ -2678,9 +2681,8 @@ msgid "categories_force_display_descr"
 msgstr "You can ${force_display} of every categories (may take some time)."
 
 #. Default: "You may use the ${folder_contents_link} to manage elements order."
-#, fuzzy
 msgid "categories_use_folder_contents"
-msgstr "You may use the ${folder_contents_link} to manage categories."
+msgstr "You may use the ${folder_contents_link} to manage elements order."
 
 #. Default: "Choose here some identifier for your category."
 msgid "category_category_id_descr"
