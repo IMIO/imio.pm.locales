@@ -13,6 +13,7 @@ Changelog
 - Adapted `MeetingItem.classifier` related translations.
 - Shorter translation for `Signature number` in `DataGridField`, now default is `Number`.
 - Added translation for `Items have been reordered.`
+- Added translation for `ckeditor_style_page_break`.
 
 4.1.16 (2020-06-24)
 -------------------
