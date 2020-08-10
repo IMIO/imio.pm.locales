@@ -1605,6 +1605,10 @@ msgstr "Item states into which events will be recorded in item's history"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr "Meeting states into which events will be recorded in meeting's history"
 
+#. Default: "Redirect to the next meeting"
+msgid "PloneMeeting_label_redirectToNextMeeting"
+msgstr "Redirect to the next meeting"
+
 #. Default: "Remove annexes previews on meeting closure"
 msgid "PloneMeeting_label_removeAnnexesPreviewsOnMeetingClosure"
 msgstr "Remove annexes previews on meeting closure"
@@ -2798,7 +2802,7 @@ msgstr "Large text"
 
 #. Default: "Page break"
 msgid "ckeditor_style_page_break"
-msgstr ""
+msgstr "Page break"
 
 #. Default: "Small text"
 msgid "ckeditor_style_small"
@@ -5102,6 +5106,10 @@ msgstr "Recurring items are items that will be automatically added to a meeting 
 #. Default: "${assembly} ${assembly_edit} and ${signatures} ${signatures_edit}"
 msgid "redefinable_assembly_and_signatures"
 msgstr "${assembly} ${assembly_edit} and ${signatures} ${signatures_edit}"
+
+#. Default: "By default, once connected, user is redirected to a dashboard displaying items.  Select here profiles that will be redirected to the next meeting if it exists."
+msgid "redirect_to_next_meeting_descr"
+msgstr "By default, once connected, user is redirected to a dashboard displaying items.  Select here profiles that will be redirected to the next meeting if it exists."
 
 #. Default: "Refresh vote values"
 msgid "refresh_votes"

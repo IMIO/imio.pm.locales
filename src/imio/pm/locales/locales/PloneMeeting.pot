@@ -1832,8 +1832,16 @@ msgstr ""
 msgid "PloneMeeting_label_yearlyInitMeetingNumber"
 msgstr ""
 
+#. Default: "Redirect to the next meeting"
+msgid "PloneMeeting_label_redirectToNextMeeting"
+msgstr ""
+
 #. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
 msgid "yearly_init_meeting_nb_descr"
+msgstr ""
+
+#. Default: "By default, once connected, user is redirected to a dashboard displaying items.  Select here profiles that will be redirected to the next meeting if it exists."
+msgid "redirect_to_next_meeting_descr"
 msgstr ""
 
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
