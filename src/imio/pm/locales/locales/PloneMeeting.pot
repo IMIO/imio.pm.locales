@@ -592,6 +592,10 @@ msgstr ""
 msgid "category_required"
 msgstr ""
 
+#. Default: "Please select a classifier."
+msgid "classifier_required"
+msgstr ""
+
 #. Default: "Please select a group in charge."
 msgid "groupsInCharge_required"
 msgstr ""
@@ -1704,7 +1708,7 @@ msgstr ""
 msgid "Classifiers"
 msgstr ""
 
-#. Default: "A classifier is a bit like a category. You can assign an item a given classifier almost the same way you can assign it a given category. The difference resides in the widget used: the \"category chooser\" is a listbox, while the \"classifier chooser\" is a ReferenceBrowserWidget (=a popup with filtering capabilities). So if you have many \"categories\", you may prefer to use \"classifiers\" instead."
+#. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
 msgid "classifiers_descr"
 msgstr ""
 
@@ -1828,7 +1832,7 @@ msgstr ""
 msgid "PloneMeeting_label_yearlyInitMeetingNumber"
 msgstr ""
 
-#. Default: "On login redirects to the next meeting?"
+#. Default: "Redirect to the next meeting"
 msgid "PloneMeeting_label_redirectToNextMeeting"
 msgstr ""
 
@@ -1836,8 +1840,8 @@ msgstr ""
 msgid "yearly_init_meeting_nb_descr"
 msgstr ""
 
-#. Default: "If you check this box, after the user logs in or arrives on an instance, it will be redirected to the next meeting if there is one."
-msgid "redirect_to_next_meeting_desc"
+#. Default: "By default, once connected, user is redirected to a dashboard displaying items.  Select here profiles that will be redirected to the next meeting if it exists."
+msgid "redirect_to_next_meeting_descr"
 msgstr ""
 
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
@@ -2061,6 +2065,10 @@ msgstr ""
 msgid "on_categories"
 msgstr ""
 
+#. Default: "Follow classifiers order"
+msgid "on_classifiers"
+msgstr ""
+
 #. Default: "Follow proposing groups order"
 msgid "on_proposing_groups"
 msgstr ""
@@ -2103,19 +2111,6 @@ msgstr ""
 
 #. Default: "Follow the item creator fullname alphabetical order"
 msgid "on_item_creator"
-msgstr ""
-
-# Values of colorSystems
-#. Default: "no_color"
-msgid "no_color"
-msgstr ""
-
-#. Default: "state_color"
-msgid "state_color"
-msgstr ""
-
-#. Default: "modification_color"
-msgid "modification_color"
 msgstr ""
 
 #. Default: "Tags"
@@ -3133,11 +3128,6 @@ msgstr ""
 msgid "config_is_still_default"
 msgstr ""
 
-# MeetingCategory
-#. Default: "Category"
-msgid "MeetingCategory"
-msgstr ""
-
 #. Default: "Category identifier"
 msgid "PloneMeeting_label_categoryId"
 msgstr ""
@@ -3950,6 +3940,10 @@ msgstr ""
 msgid "required_category_ko"
 msgstr ""
 
+#. Default: "A classifier must be selected on this item so it may evolve in the workflow"
+msgid "required_classifier_ko"
+msgstr ""
+
 #. Default: "The emergency must be accepted in order to be able to decide the item out of meeting emergency"
 msgid "emergency_accepted_required_to_accept_out_of_meeting_emergency"
 msgstr ""
@@ -4254,6 +4248,10 @@ msgstr ""
 msgid "ckeditor_style_table_no_optimization"
 msgstr ""
 
+#. Default: "Page break"
+msgid "ckeditor_style_page_break"
+msgstr ""
+
 #. Default: "Unable to update following items because you can not edit them, item numbers : ${itemNumbers}"
 msgid "manage_item_not_update_items_numbers"
 msgstr ""
@@ -4487,7 +4485,7 @@ msgid "error_can_not_select_several_cat_for_same_mc"
 msgstr ""
 
 #. Default: "Category to use when sending item of this meeting config to another one"
-msgid "PloneMeeting_label_categoryMappingsWhenCloningToOtherMC"
+msgid "PloneMeeting_label_category_mapping_when_cloning_to_other_mc"
 msgstr ""
 
 #. Default: "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
@@ -4884,6 +4882,10 @@ msgstr ""
 
 #. Default: "Can not close a meeting containing items returned to proposing group!"
 msgid "Can not close a meeting containing items returned to proposing group!"
+msgstr ""
+
+#. Default: "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
+msgid "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
 msgstr ""
 
 #. Default: "No object found"
@@ -5326,7 +5328,7 @@ msgstr ""
 msgid "categories_force_display"
 msgstr ""
 
-#. Default: "You may use the ${folder_contents_link} to manage categories."
+#. Default: "You may use the ${folder_contents_link} to manage elements order."
 msgid "categories_use_folder_contents"
 msgstr ""
 
@@ -5614,8 +5616,7 @@ msgstr ""
 msgid "Application parameters"
 msgstr ""
 
-
-#. Default: "Signature number"
+#. Default: "Number"
 msgid "Certified signatures signature number"
 msgstr ""
 
@@ -5769,6 +5770,10 @@ msgstr ""
 
 #. Default: "Ordered categories"
 msgid "Ordered categories"
+msgstr ""
+
+#. Default: "Ordered classifiers"
+msgid "Ordered classifiers"
 msgstr ""
 
 #. Default: "Used by following contents"
@@ -6091,3 +6096,14 @@ msgstr ""
 msgid "removed_position_type_in_use_error"
 msgstr ""
 
+#. Default: "Enabled?"
+msgid "Enabled?"
+msgstr ""
+
+#. Default: "Data that will be used on new item"
+msgid "Data that will be used on new item"
+msgstr ""
+
+#. Default: "Items have been reordered."
+msgid "Items have been reordered."
+msgstr ""
