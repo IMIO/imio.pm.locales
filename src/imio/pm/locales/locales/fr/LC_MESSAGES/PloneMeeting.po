@@ -4448,6 +4448,10 @@ msgstr "Les contacts sont utilisés pour gérer l'assemblée des séances de man
 msgid "meetingconfig_data_descr"
 msgstr "Les paramètres liés aux données permettent de choisir certains éléments liés aux attributs et associations existant entre les 2 principaux types de contenu: les points et les séances."
 
+#. Default: "Here are groups depending directly of this meeting configuration."
+msgid "meetingconfig_display_groups_and_users_descr"
+msgstr "Ces groupes dépendent directement de cette configuration de séance et ne donnent des accès que pour celle-ci."
+
 # MeetingConfig
 #. Default: "Parameters listed here allow to customize the way the application generates documents based on created items and meetings."
 msgid "meetingconfig_doc_descr"

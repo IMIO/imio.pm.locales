@@ -15,6 +15,7 @@ Changelog
 - Added translation for `Items have been reordered.`
 - Added translation for `ckeditor_style_page_break`.
 - Added translation for `redirectToNextMeeting` option.
+- Added translation for `meetingconfig_display_groups_and_users_descr`.
 
 4.1.16 (2020-06-24)
 -------------------
