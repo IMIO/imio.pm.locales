@@ -19,6 +19,7 @@ Changelog
 - Removed translation for `no_users_in_group` that was moved to `collective.contact.plonegroup`.
 - Removed translation for `View linked Plone groups` that was moved to `collective.contact.plonegroup`.
 - Added translation for `POD template to annex`.
+- Adapted translations for `MeetingConfig.meetingItemTemplatesToStoreAsAnnex`.
 
 4.1.16 (2020-06-24)
 -------------------

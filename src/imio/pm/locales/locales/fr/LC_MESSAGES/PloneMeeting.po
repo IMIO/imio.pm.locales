@@ -1413,9 +1413,9 @@ msgstr "Configurations de séance vers lesquelles les points de cette configurat
 msgid "PloneMeeting_label_meetingFolderTitle"
 msgstr "Titre du répertoire créé dans chaque répertoire d'utilisateur"
 
-#. Default: "POD template to store as annex from the meeting"
-msgid "PloneMeeting_label_meetingItemTemplateToStoreAsAnnex"
-msgstr "Modèle de document POD à générer pour les points à stocker en tant qu'annexe"
+#. Default: "POD templates to store as annex from the meeting"
+msgid "PloneMeeting_label_meetingItemTemplatesToStoreAsAnnex"
+msgstr "Modèles de document POD à stocker en annexe des points depuis une séance"
 
 #. Default: "MeetingManagers notes"
 msgid "PloneMeeting_label_meetingManagersNotes"
@@ -4346,9 +4346,9 @@ msgstr "Cette action ne peut être effectuée tant que la séance n'a pas eu lie
 msgid "meeting_inserting_methods_help_msg_descr"
 msgstr "Paramètre(s) définis dans la configuration qui influent sur l'ordre d'insertion des points dans la séance"
 
-#. Default: "This enable an action on the meeting to be able to store as annex a particluar POD template if field \"Store this POD template as annex\" is defined on a POD template."
-msgid "meeting_item_template_to_store_as_annex_descr"
-msgstr "Ceci activera une action sur les séances permettant de stocker en tant qu'annexe le modèle de document POD sélectionné.  Ce champ n'est utile que si vous avez utilisez le champ \"Stocker le modèle de document POD généré en tant qu'annexe\" sur un modèle de document POD."
+#. Default: "This enable an action on the meeting to be able to store as annex a selected POD template if field \"Store this POD template as annex\" is defined on a POD template."
+msgid "meeting_item_templates_to_store_as_annex_descr"
+msgstr "Ceci activera une action sur les séances permettant de stocker en tant qu'annexe les modèles de document POD sélectionnés.  Ce champ n'est utile que si vous avez utilisez le champ \"Stocker le modèle de document POD généré en tant qu'annexe\" sur un modèle de document POD."
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "meeting_managers_notes_descr"
