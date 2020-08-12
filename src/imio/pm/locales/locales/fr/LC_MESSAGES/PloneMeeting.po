@@ -727,6 +727,10 @@ msgstr "Ordre des groupes"
 msgid "Original meeting signatory"
 msgstr "Signataire défini sur la séance"
 
+#. Default: "POD template to annex"
+msgid "POD template to annex"
+msgstr "Modèle de document à annexer"
+
 #. Default: "Please check that opening \"[[\" have corresponding closing \"]]\"."
 msgid "Please check that opening \"[[\" have corresponding closing \"]]\"."
 msgstr "Vérifiez que chaque \"[[\" ouvrant a son \"]]\" fermant correspondant."
@@ -1695,7 +1699,7 @@ msgstr "Pris en charge par"
 
 #. Default: "Restrict usage of this template to following groups"
 msgid "PloneMeeting_label_templateUsingGroups"
-msgstr "Restreindre ce canevas de point aux groupes suivants"
+msgstr "Restreindre ce modèle de point aux groupes suivants"
 
 #. Default: "Checklist"
 msgid "PloneMeeting_label_textCheckList"
@@ -1848,7 +1852,7 @@ msgstr "Notes et interpellations"
 
 #. Default: "Document templates"
 msgid "PodTemplates"
-msgstr "Canevas de documents"
+msgstr "Modèles de documents"
 
 #. Default: "Position type"
 msgid "Position type"
@@ -2470,10 +2474,6 @@ msgstr "Spécifiez une expression TAL qui retourne une liste de suffixes de grou
 #. Default: "As recurring item"
 msgid "as_recurring_item"
 msgstr "Comme point récurrent"
-
-#. Default: "As template item"
-msgid "as_template_item"
-msgstr "Comme canevas de point"
 
 #. Default: "The item is entitled \"${itemNumber} - ${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "askDiscussItem_mail_body"
@@ -4583,7 +4583,7 @@ msgstr "Pas de points."
 
 #. Default: "No POD template is currently defined."
 msgid "no_pod_folder"
-msgstr "Aucun canevas défini pour le moment."
+msgstr "Aucun modèle de document défini pour le moment."
 
 #. Default: "Attributes \"proposingGroupWithGroupInCharge\" and \"groupsInCharge\" can't be used together."
 msgid "no_proposingGroupWithGroupInCharge_and_groupsInCharge"
@@ -4935,7 +4935,7 @@ msgstr "${meetingConfigTitle} - ${podTemplateTitle} - ${meetingLongTitle}."
 
 #. Default: "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application."
 msgid "pod_templates_descr"
-msgstr "Dans cette section, gérez les canevas vous permettant de produire des documents dans des formats bureautiques depuis les types de contenu gérés par l'application (points, séances, avis) et les tableaux de bord."
+msgstr "Dans cette section, gérez les modèles vous permettant de produire des documents dans des formats bureautiques depuis les types de contenu gérés par l'application (points, séances, avis) et les tableaux de bord."
 
 #. Default: "Freehand"
 msgid "polltype_freehand"
@@ -5486,7 +5486,7 @@ msgstr "Le point est pris en charge, cliquez sur l'image pour retirer la prise e
 
 #. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything."
 msgid "template_using_groups_descr"
-msgstr "Si l'usage de ce point est 'Comme canevas de point', sélectionnez les groupes qui pourront l'utiliser.  Si tous les groupes doivent pouvoir utiliser ce canevas, ne sélectionnez aucun groupe."
+msgstr "Si l'usage de ce point est 'Comme modèle de point', sélectionnez les groupes qui pourront l'utiliser.  Si tous les groupes doivent pouvoir utiliser ce modèle, ne sélectionnez aucun groupe."
 
 #. Default: "Enter elements that are necessary for this kind of item to be considered as \"complete\"."
 msgid "text_check_list_descr"
