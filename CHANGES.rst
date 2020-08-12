@@ -17,6 +17,7 @@ Changelog
 - Added translation for `redirectToNextMeeting` option.
 - Added translation for `meetingconfig_display_groups_and_users_descr`.
 - Removed translation for `no_users_in_group` that was moved to `collective.contact.plonegroup`.
+- Removed translation for `View linked Plone groups` that was moved to `collective.contact.plonegroup`.
 
 4.1.16 (2020-06-24)
 -------------------
