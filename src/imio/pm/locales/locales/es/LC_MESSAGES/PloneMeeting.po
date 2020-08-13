@@ -2172,7 +2172,7 @@ msgstr ""
 msgid "adviceDelayExpired_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - Advice delay expired for item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Advice delay expired - ${itemTitle}"
 msgid "adviceDelayExpired_mail_subject"
 msgstr ""
 
@@ -2180,7 +2180,7 @@ msgstr ""
 msgid "adviceDelayWarning_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - Warning advice delay expiration for item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Warning advice delay expiration - ${itemTitle}"
 msgid "adviceDelayWarning_mail_subject"
 msgstr ""
 
@@ -2188,7 +2188,7 @@ msgstr ""
 msgid "adviceEditedOwner_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - An advice has been added or modified - ${itemTitle}"
 msgid "adviceEditedOwner_mail_subject"
 msgstr ""
 
@@ -2197,7 +2197,7 @@ msgstr ""
 msgid "adviceEdited_mail_body"
 msgstr "Usted puede acceder a este tema aquí: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - An advice has been added or modified  - ${itemTitle}"
 #, fuzzy
 msgid "adviceEdited_mail_subject"
 msgstr "${meetingConfigTitle} - Un consejo se ha agregado o modificado en el tema '${itemTitle}'."
@@ -2206,7 +2206,7 @@ msgstr "${meetingConfigTitle} - Un consejo se ha agregado o modificado en el tem
 msgid "adviceInvalidated_mail_body"
 msgstr "Puede consultar este tema en ${objectUrl}. Su consejo es ahora de devuelto en el menú con un icono de signo de interrogación. Usted puede editar haciendo clic de nuevo en el icono del lápiz fuera de esta."
 
-#. Default: "${meetingConfigTitle} - One or your advices has been invalidated on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - One or your advices has been invalidated - ${itemTitle}"
 #, fuzzy
 msgid "adviceInvalidated_mail_subject"
 msgstr "${meetingConfigTitle} - Uno o sus consejos han sido invalidados en el tema '${itemTitle}'."
@@ -2216,7 +2216,7 @@ msgstr "${meetingConfigTitle} - Uno o sus consejos han sido invalidados en el te
 msgid "adviceToGive_mail_body"
 msgstr "Usted puede acceder a este tema aquí: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - Your advice is requested on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
 #, fuzzy
 msgid "adviceToGive_mail_subject"
 msgstr "${meetingConfigTitle} - Su consejo es requerido en el tema '${itemTitle}'."
@@ -2735,7 +2735,8 @@ msgstr "Seleccione los grupos que serán capaces de utilizar esta categoría. Si
 msgid "cautious"
 msgstr ""
 
-#. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
+#. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  <span style='color: red;'>By signature number, the first valid signature found will be used.</span>"
+#, fuzzy
 msgid "certified_signatures_descr"
 msgstr "Defina aquí las firmas que serán usadas en las plantillas como firmas certificadas. Este campo, tendrá que ser actualizado periódicamente para que coincida con la situación existente este campo."
 
@@ -2955,7 +2956,7 @@ msgstr ""
 msgid "copyGroups_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - You have been carbon copied the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - You have been carbon copied - ${itemTitle}"
 msgid "copyGroups_mail_subject"
 msgstr ""
 
@@ -3878,7 +3879,7 @@ msgstr ""
 msgid "itemClonedToThisMC_mail_body"
 msgstr "Usted puede consultar el nuevo tema en ${objectUrl}."
 
-#. Default: "${itemTitle} has been transfered to ${meetingConfigTitle}."
+#. Default: "${meetingConfigTitle} - Item received from ${originMeetingConfigTitle} - ${itemTitle}"
 #, fuzzy
 msgid "itemClonedToThisMC_mail_subject"
 msgstr "${itemTitle} ha sido transferido a '${meetingConfigTitle}'."
@@ -3888,7 +3889,8 @@ msgstr "${itemTitle} ha sido transferido a '${meetingConfigTitle}'."
 msgid "itemDelayed_mail_body"
 msgstr "Si bien este tema se encuentra aún en la reunión, pero marcado como 'demorado', una copia del mismo se ha creado en ${objectUrl}. Se puede trabajar sobre ella de nuevo, y lo propondrá en otra reunión."
 
-#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
+#. Default: "${meetingConfigTitle} - Item delayed - ${itemTitle}"
+#, fuzzy
 msgid "itemDelayed_mail_subject"
 msgstr "${meetingConfigTitle} - Uno de sus temas, ${itemTitle}, han sido retardado en la reunión."
 
@@ -3896,7 +3898,7 @@ msgstr "${meetingConfigTitle} - Uno de sus temas, ${itemTitle}, han sido retarda
 msgid "itemPostponedNextMeeting_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been postponed to the next meeting."
+#. Default: "${meetingConfigTitle} - Item postponed to the next meeting - ${itemTitle}"
 msgid "itemPostponedNextMeeting_mail_subject"
 msgstr ""
 
@@ -3905,7 +3907,7 @@ msgstr ""
 msgid "itemPresented_mail_body"
 msgstr "Esta reunión puede estar todavía en construcción y es potencialmente inaccesibles. Puede acceder a este artículo aquí: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been inserted into a meeting."
+#. Default: "${meetingConfigTitle} - Item has been inserted into a meeting - ${itemTitle}"
 #, fuzzy
 msgid "itemPresented_mail_subject"
 msgstr "${meetingConfigTitle} - Uno de sus temas, ${itemTitle}, ha sido añadido dentro de una reunión."
@@ -3915,7 +3917,7 @@ msgstr "${meetingConfigTitle} - Uno de sus temas, ${itemTitle}, ha sido añadido
 msgid "itemUnpresented_mail_body"
 msgstr "Usted puede acceder a este tema aqui: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been removed from a meeting."
+#. Default: "${meetingConfigTitle} - Item was removed from meeting - ${itemTitle}"
 #, fuzzy
 msgid "itemUnpresented_mail_subject"
 msgstr "${meetingConfigTitle} - Uno de sus temas: ${itemTitle}, ha sido removido de una reunión."
@@ -4150,7 +4152,7 @@ msgstr "Usted puede consultar este tema en ${objectUrl}."
 # This default is used if no accurate translation can be found. We will try for example to translate
 # item_state_changed_decided_mail_subject, if not found (by default), we use item_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - The item is now in state \"${itemState}\" - ${itemTitle}."
+#. Default: "${meetingConfigTitle} - Item in state \"${itemState}\" - ${itemTitle}"
 #, fuzzy
 msgid "item_state_changed_default_mail_subject"
 msgstr "${meetingConfigTitle} - ${itemTitle} - Este tema esta ahora en el estado '${itemState}'."
@@ -4470,7 +4472,7 @@ msgstr "Usted puede consultar esta reunión en ${objectUrl}."
 # This default is used if no accurate translation can be found. We will try for example to translate
 # meeting_state_changed_decided_mail_subject, if not found (by default), we use meeting_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - The meeting is now in state \"${meetingState}\" - ${meetingTitle}."
+#. Default: "${meetingConfigTitle} - Meeting in state \"${meetingState}\" - ${meetingTitle}"
 #, fuzzy
 msgid "meeting_state_changed_default_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - Este reunión esta ahora en el estado '${meetingState}'."
@@ -5179,23 +5181,12 @@ msgstr "Seleccione aquí los estados del tema en los cuales algunos eventos rela
 msgid "record_meeting_history_states_descr"
 msgstr "Seleccione aquí los estados de la reunión en los cuales algunos eventos relacionados a la reunión será almacenada en el histórico de la reunión."
 
-#. Default: "A meeting configuration specifies that the recurring item identified in the subject of this email must be inserted in a meeting when a non-appropriated transition is triggered on meetings (ie when a meeting is archived or when a \"backward step\" is performed on it, because something has to be corrected). Please correct this in the appropriate meeting configuration. More information can be found in the log file of your Zope instance."
-#, fuzzy
-msgid "recurringItemBadTransition_mail_body"
-msgstr "Una configuración de reunión especifica la identificación de tema recurrente en el tema de este mensaje del correo electrónico que debe ser insertado en una reunión cuando una transición inapropiada es activada en las reuniones (ejemplo, cuando una reunión es archivada o cuando se realiza en una, por que algunas cosas tiene que ser corregida). Por favor corrija esto en la configuración de reunión. Se puede encontrar más información en el archivo de registro de su instancia de Zope."
-
-# Mails (problems when inserting recurring items)
-#. Default: "${portalTitle} - A problem occurred while inserting the recurring item entitled \"${itemTitle}\" into a meeting."
-#, fuzzy
-msgid "recurringItemBadTransition_mail_subject"
-msgstr "${portalTitle} - Un problema ocurrió mientras estaba insertando el tema recurrente titulado '${itemTitle}' dentro de una reunión."
-
 #. Default: "The recurring item specified in the subject of this email could not be inserted in a meeting. Maybe does it lack some important information (a text for the decision, for example) while the meeting is in an \"advanced\" state (it is already \"decided\", for instance). More information can be found in the log file of your Zope instance."
 #, fuzzy
 msgid "recurringItemWorkflowError_mail_body"
 msgstr "El tema recurrente especificado en sujeto de este mensaje de correo electrónico no puede insertarse en una reunión. Tal vez lo hace falta alguna información importante (un texto de la decisión, por ejemplo), mientras que en la reunión este en un estado 'avanzado' (que ya está \"decidido\", por ejemplo). Más información puede ser encontrada en archivo de registro de su instancia Zope."
 
-#. Default: "${portalTitle} - A problem occurred while inserting the recurring item entitled \"${itemTitle}\" into a meeting."
+#. Default: "${portalTitle} - A problem occurred while inserting a recurring into a meeting - ${itemTitle}"
 #, fuzzy
 msgid "recurringItemWorkflowError_mail_subject"
 msgstr "${portalTitle} - Un problema ocurrió mientras estaba insertando el tema recurrente titulado '${itemTitle}' dentro de una reunión."
@@ -5278,7 +5269,7 @@ msgstr ""
 msgid "returnedToMeetingManagers_mail_body"
 msgstr "Usted puede acceder este tema aquí: '${objectUrl}'."
 
-#. Default: "${meetingConfigTitle} - The item \"${itemTitle}\" has been corrected and sent back to the meeting managers."
+#. Default: "${meetingConfigTitle} - Item corrected and sent back to the meeting managers - ${itemTitle}"
 #, fuzzy
 msgid "returnedToMeetingManagers_mail_subject"
 msgstr "${meetingConfigTitle} - El tema '${itemTitle}' se ha corregido y enviado de vuelta a los administradores de la reunión."
@@ -5288,7 +5279,7 @@ msgstr "${meetingConfigTitle} - El tema '${itemTitle}' se ha corregido y enviado
 msgid "returnedToProposingGroup_mail_body"
 msgstr "Usted puede acceder este tema aquí: '${objectUrl}'."
 
-#. Default: "${meetingConfigTitle} - The item \"${itemTitle}\" has been sent back to you for corrections."
+#. Default: "${meetingConfigTitle} - Item sent back to you for corrections - ${itemTitle}"
 #, fuzzy
 msgid "returnedToProposingGroup_mail_subject"
 msgstr "${meetingConfigTitle} - El tema '${itemTitle}' ha sido enviado de regreso a usted para sus correcciones."

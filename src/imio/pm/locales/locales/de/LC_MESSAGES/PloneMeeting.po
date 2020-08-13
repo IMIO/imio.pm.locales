@@ -2166,7 +2166,7 @@ msgstr ""
 msgid "adviceDelayExpired_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - Advice delay expired for item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Advice delay expired - ${itemTitle}"
 msgid "adviceDelayExpired_mail_subject"
 msgstr ""
 
@@ -2174,7 +2174,7 @@ msgstr ""
 msgid "adviceDelayWarning_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - Warning advice delay expiration for item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Warning advice delay expiration - ${itemTitle}"
 msgid "adviceDelayWarning_mail_subject"
 msgstr ""
 
@@ -2182,7 +2182,7 @@ msgstr ""
 msgid "adviceEditedOwner_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - An advice has been added or modified - ${itemTitle}"
 msgid "adviceEditedOwner_mail_subject"
 msgstr ""
 
@@ -2191,7 +2191,7 @@ msgstr ""
 msgid "adviceEdited_mail_body"
 msgstr "Mehr Informationen hier ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - An advice has been added or modified  - ${itemTitle}"
 #, fuzzy
 msgid "adviceEdited_mail_subject"
 msgstr "Ein Kommentar wurde gerade zum TOP '${itemTitle}' hinzugefügt oder geändert."
@@ -2200,7 +2200,7 @@ msgstr "Ein Kommentar wurde gerade zum TOP '${itemTitle}' hinzugefügt oder geä
 msgid "adviceInvalidated_mail_body"
 msgstr "Sie können diesen TOP hier ${objectUrl} begutachten. Ihr Kommentar ist jetzt wieder mit einem Fragezeichen versehen. Sie können den Kommentar editieren indem Sie auf den Stift klicken."
 
-#. Default: "${meetingConfigTitle} - One or your advices has been invalidated on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - One or your advices has been invalidated - ${itemTitle}"
 #, fuzzy
 msgid "adviceInvalidated_mail_subject"
 msgstr "Einer Ihrer Kommentare ist ungültig geworden in folgendem TOP: '${itemTitle}'. "
@@ -2209,7 +2209,7 @@ msgstr "Einer Ihrer Kommentare ist ungültig geworden in folgendem TOP: '${itemT
 msgid "adviceToGive_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - Your advice is requested on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
 msgid "adviceToGive_mail_subject"
 msgstr ""
 
@@ -2724,7 +2724,7 @@ msgstr ""
 msgid "cautious"
 msgstr ""
 
-#. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
+#. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  <span style='color: red;'>By signature number, the first valid signature found will be used.</span>"
 msgid "certified_signatures_descr"
 msgstr ""
 
@@ -2943,7 +2943,7 @@ msgstr ""
 msgid "copyGroups_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - You have been carbon copied the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - You have been carbon copied - ${itemTitle}"
 msgid "copyGroups_mail_subject"
 msgstr ""
 
@@ -3856,7 +3856,7 @@ msgstr ""
 msgid "itemClonedToThisMC_mail_body"
 msgstr ""
 
-#. Default: "${itemTitle} has been transfered to ${meetingConfigTitle}."
+#. Default: "${meetingConfigTitle} - Item received from ${originMeetingConfigTitle} - ${itemTitle}"
 msgid "itemClonedToThisMC_mail_subject"
 msgstr ""
 
@@ -3865,7 +3865,8 @@ msgstr ""
 msgid "itemDelayed_mail_body"
 msgstr "Dieser TOP steht noch auf eine Sitzung ist aber als 'verschoben' markiert, deshalb wurde ein Kopie auf diese URL ${objectURL} erstellt. Sie können diesen TOP nachbearbeiten und für eine andere Sitzung vorschlagen."
 
-#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
+#. Default: "${meetingConfigTitle} - Item delayed - ${itemTitle}"
+#, fuzzy
 msgid "itemDelayed_mail_subject"
 msgstr "Einer Ihrer TOP, ${itemTitle}, aus einer Sitzung wurde verschoben."
 
@@ -3873,7 +3874,7 @@ msgstr "Einer Ihrer TOP, ${itemTitle}, aus einer Sitzung wurde verschoben."
 msgid "itemPostponedNextMeeting_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been postponed to the next meeting."
+#. Default: "${meetingConfigTitle} - Item postponed to the next meeting - ${itemTitle}"
 msgid "itemPostponedNextMeeting_mail_subject"
 msgstr ""
 
@@ -3882,7 +3883,7 @@ msgstr ""
 msgid "itemPresented_mail_body"
 msgstr "Die Sitzung ist folgende: ${meetingTitle}."
 
-#. Default: "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been inserted into a meeting."
+#. Default: "${meetingConfigTitle} - Item has been inserted into a meeting - ${itemTitle}"
 #, fuzzy
 msgid "itemPresented_mail_subject"
 msgstr "Einer Ihrer TOP, ${itemTitle}, wurde zu einer Sitzung hinzugefügt. Diese Sitzung kann noch im Erstellungsstatus sein und ist deshalb nicht zugreifbar."
@@ -3892,7 +3893,7 @@ msgstr "Einer Ihrer TOP, ${itemTitle}, wurde zu einer Sitzung hinzugefügt. Dies
 msgid "itemUnpresented_mail_body"
 msgstr "Die Sitzung ist folgende: ${meetingTitle}."
 
-#. Default: "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been removed from a meeting."
+#. Default: "${meetingConfigTitle} - Item was removed from meeting - ${itemTitle}"
 #, fuzzy
 msgid "itemUnpresented_mail_subject"
 msgstr "Einer Ihrer TOP, ${itemTitle}, wurde von einer Sitzung gestrichen. Diese Sitzung kann noch im Erstellungsstatus sein und ist deshalb nicht zugreifbar."
@@ -4123,7 +4124,7 @@ msgstr ""
 # This default is used if no accurate translation can be found. We will try for example to translate
 # item_state_changed_decided_mail_subject, if not found (by default), we use item_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - The item is now in state \"${itemState}\" - ${itemTitle}."
+#. Default: "${meetingConfigTitle} - Item in state \"${itemState}\" - ${itemTitle}"
 msgid "item_state_changed_default_mail_subject"
 msgstr ""
 
@@ -4442,7 +4443,7 @@ msgstr ""
 # This default is used if no accurate translation can be found. We will try for example to translate
 # meeting_state_changed_decided_mail_subject, if not found (by default), we use meeting_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - The meeting is now in state \"${meetingState}\" - ${meetingTitle}."
+#. Default: "${meetingConfigTitle} - Meeting in state \"${meetingState}\" - ${meetingTitle}"
 msgid "meeting_state_changed_default_mail_subject"
 msgstr ""
 
@@ -5147,23 +5148,12 @@ msgstr "Wählen sie hier die Stati der TOP für welche einige Ereignisse relativ
 msgid "record_meeting_history_states_descr"
 msgstr ""
 
-#. Default: "A meeting configuration specifies that the recurring item identified in the subject of this email must be inserted in a meeting when a non-appropriated transition is triggered on meetings (ie when a meeting is archived or when a \"backward step\" is performed on it, because something has to be corrected). Please correct this in the appropriate meeting configuration. More information can be found in the log file of your Zope instance."
-#, fuzzy
-msgid "recurringItemBadTransition_mail_body"
-msgstr "Eine Sitzungs-Konfiguration legt fest dass der sich wiederholende TOP im Betreff dieser E-Mail in eine Sitzung eingefügt werden muss wenn ein unzulässiger Statusübergang in Sitzungen ausgelöst wurde (z.B. wenn eine Sitzung archiviert wird oder wenn ein Element zurückgezogen wurde um es zu korrigieren). Bitte korrigieren Sie dies in der entsprechenden Sitzungs-Konfiguration. Mehr Informationen können in der log-Datei Ihrer Zope-Instanz finden."
-
-# Mails (problems when inserting recurring items)
-#. Default: "${portalTitle} - A problem occurred while inserting the recurring item entitled \"${itemTitle}\" into a meeting."
-#, fuzzy
-msgid "recurringItemBadTransition_mail_subject"
-msgstr "${portalTitle} - Ein Problem ist beim Einfügen des sich wiederholenden TOPs '${itemTitle}' in eine Sitzung aufgetreten."
-
 #. Default: "The recurring item specified in the subject of this email could not be inserted in a meeting. Maybe does it lack some important information (a text for the decision, for example) while the meeting is in an \"advanced\" state (it is already \"decided\", for instance). More information can be found in the log file of your Zope instance."
 #, fuzzy
 msgid "recurringItemWorkflowError_mail_body"
 msgstr "Der sich wiederholende TOP im Betreff dieser E-Mail konnte nicht in eine Sitzung eingefügt werden. Vielleicht fehlen noch wichtige Informationen (ein Text für den Beschluss zum Beispiel) während die Sitzung in einem fortgeschrittenen Status ist (zum Beispiel schon 'entschieden'). Mehr Informationen können in der log-Datei Ihrer Zope-Instanz finden."
 
-#. Default: "${portalTitle} - A problem occurred while inserting the recurring item entitled \"${itemTitle}\" into a meeting."
+#. Default: "${portalTitle} - A problem occurred while inserting a recurring into a meeting - ${itemTitle}"
 #, fuzzy
 msgid "recurringItemWorkflowError_mail_subject"
 msgstr "${portalTitle} - Ein Problem ist beim Einfügen des sich wiederholenden TOPs '${itemTitle}' in eine Sitzung aufgetreten."
@@ -5245,7 +5235,7 @@ msgstr ""
 msgid "returnedToMeetingManagers_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - The item \"${itemTitle}\" has been corrected and sent back to the meeting managers."
+#. Default: "${meetingConfigTitle} - Item corrected and sent back to the meeting managers - ${itemTitle}"
 msgid "returnedToMeetingManagers_mail_subject"
 msgstr ""
 
@@ -5253,7 +5243,7 @@ msgstr ""
 msgid "returnedToProposingGroup_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - The item \"${itemTitle}\" has been sent back to you for corrections."
+#. Default: "${meetingConfigTitle} - Item sent back to you for corrections - ${itemTitle}"
 msgid "returnedToProposingGroup_mail_subject"
 msgstr ""
 

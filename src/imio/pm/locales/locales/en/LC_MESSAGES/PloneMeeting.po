@@ -729,7 +729,7 @@ msgstr "Original meeting signatory"
 
 #. Default: "POD template to annex"
 msgid "POD template to annex"
-msgstr ""
+msgstr "POD template to annex"
 
 #. Default: "Please check that opening \"[[\" have corresponding closing \"]]\"."
 msgid "Please check that opening \"[[\" have corresponding closing \"]]\"."
@@ -1415,7 +1415,7 @@ msgstr "Title of the folder created in each user folder"
 
 #. Default: "POD templates to store as annex from the meeting"
 msgid "PloneMeeting_label_meetingItemTemplatesToStoreAsAnnex"
-msgstr ""
+msgstr "POD templates to store as annex from the meeting"
 
 #. Default: "MeetingManagers notes"
 msgid "PloneMeeting_label_meetingManagersNotes"
@@ -2155,49 +2155,49 @@ msgstr "Add several decision annexes at the same time"
 msgid "adviceDelayExpired_mail_body"
 msgstr "You had an advice to give for \"${group_name} (${delay_label})\".  Limit date is ${limit_date}, delay is now expired.  You can access this item here: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - Advice delay expired for item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Advice delay expired - ${itemTitle}"
 msgid "adviceDelayExpired_mail_subject"
-msgstr "${meetingConfigTitle} - Advice delay expired for item \"${itemTitle}\"."
+msgstr "${meetingConfigTitle} - Advice delay expired - ${itemTitle}"
 
 #. Default: "You have an advice to give for \"${group_name} (${delay_label})\".  Limit date is ${limit_date) (in ${left_delay} day(s)).  You can access this item here: ${objectUrl}."
 msgid "adviceDelayWarning_mail_body"
 msgstr "You have an advice to give for \"${group_name} (${delay_label})\".  Limit date is ${limit_date) (in ${left_delay} day(s)).  You can access this item here: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - Warning advice delay expiration for item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Warning advice delay expiration - ${itemTitle}"
 msgid "adviceDelayWarning_mail_subject"
-msgstr "${meetingConfigTitle} - Warning advice delay expiration for item \"${itemTitle}\"."
+msgstr "${meetingConfigTitle} - Warning advice delay expiration - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceEditedOwner_mail_body"
 msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - An advice has been added or modified - ${itemTitle}"
 msgid "adviceEditedOwner_mail_subject"
-msgstr "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+msgstr "${meetingConfigTitle} - An advice has been added or modified - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
 msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - An advice has been added or modified  - ${itemTitle}"
 msgid "adviceEdited_mail_subject"
-msgstr "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+msgstr "${meetingConfigTitle} - An advice has been added or modified  - ${itemTitle}"
 
 #. Default: "You can consult this item at ${objectUrl}. You advice is now back in the menu with a question mark icon. You can edit it again by clicking on the pen besides it."
 msgid "adviceInvalidated_mail_body"
 msgstr "You can consult this item at ${objectUrl}. You advice is now back in the menu with a question mark icon. You can edit it again by clicking on the pen besides it."
 
-#. Default: "${meetingConfigTitle} - One or your advices has been invalidated on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - One or your advices has been invalidated - ${itemTitle}"
 msgid "adviceInvalidated_mail_subject"
-msgstr "${meetingConfigTitle} - One or your advices has been invalidated on the item \"${itemTitle}\"."
+msgstr "${meetingConfigTitle} - One or your advices has been invalidated - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceToGive_mail_body"
 msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - Your advice is requested on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
 msgid "adviceToGive_mail_subject"
-msgstr "${meetingConfigTitle} - Your advice is requested on the item \"${itemTitle}\"."
+msgstr "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
 
 #. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action \"Update categorized elements\" in the \"Advice annnex types\" configuration.</span>"
 msgid "advice_annex_confidential_visible_for_descr"
@@ -2704,9 +2704,9 @@ msgstr "Select groups that will be able to select this category.  If every group
 msgid "cautious"
 msgstr "Cautious"
 
-#. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
+#. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  <span style='color: red;'>By signature number, the first valid signature found will be used.</span>"
 msgid "certified_signatures_descr"
-msgstr "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
+msgstr "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  <span style='color: red;'>By signature number, the first valid signature found will be used.</span>"
 
 #. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
 msgid "change_advice_delay_descr"
@@ -2920,9 +2920,9 @@ msgstr "Select here contents of original item that will be kept when sending an 
 msgid "copyGroups_mail_body"
 msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - You have been carbon copied the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - You have been carbon copied - ${itemTitle}"
 msgid "copyGroups_mail_subject"
-msgstr "${meetingConfigTitle} - You have been carbon copied the item \"${itemTitle}\"."
+msgstr "${meetingConfigTitle} - You have been carbon copied - ${itemTitle}"
 
 #. Default: " "
 msgid "copy_groups_item_descr"
@@ -3816,41 +3816,41 @@ msgstr "Values defined in the \"itemEditStates\" field must contains at least ev
 msgid "itemClonedToThisMC_mail_body"
 msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 
-#. Default: "${itemTitle} has been transfered to ${meetingConfigTitle}."
+#. Default: "${meetingConfigTitle} - Item received from ${originMeetingConfigTitle} - ${itemTitle}"
 msgid "itemClonedToThisMC_mail_subject"
-msgstr "${itemTitle} has been transfered to ${meetingConfigTitle}."
+msgstr "${meetingConfigTitle} - Item received from ${originMeetingConfigTitle} - ${itemTitle}"
 
 #. Default: "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${objectUrl}. You can work on it again and propose it to another meeting."
 msgid "itemDelayed_mail_body"
 msgstr "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${objectUrl}. You can work on it again and propose it to another meeting."
 
-#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
+#. Default: "${meetingConfigTitle} - Item delayed - ${itemTitle}"
 msgid "itemDelayed_mail_subject"
-msgstr "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
+msgstr "${meetingConfigTitle} - Item delayed - ${itemTitle}"
 
 #. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${objectUrl} and it has been validated automatically for a next meeting."
 msgid "itemPostponedNextMeeting_mail_body"
 msgstr "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${objectUrl} and it has been validated automatically for a next meeting."
 
-#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been postponed to the next meeting."
+#. Default: "${meetingConfigTitle} - Item postponed to the next meeting - ${itemTitle}"
 msgid "itemPostponedNextMeeting_mail_subject"
-msgstr "${meetingConfigTitle} - One of your items: ${itemTitle}, has been postponed to the next meeting."
+msgstr "${meetingConfigTitle} - Item postponed to the next meeting - ${itemTitle}"
 
 #. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "itemPresented_mail_body"
 msgstr "This meeting may still be under construction and is potentially inaccessible.  The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been inserted into a meeting."
+#. Default: "${meetingConfigTitle} - Item has been inserted into a meeting - ${itemTitle}"
 msgid "itemPresented_mail_subject"
-msgstr "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been inserted into a meeting."
+msgstr "${meetingConfigTitle} - Item has been inserted into a meeting - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "itemUnpresented_mail_body"
 msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been removed from a meeting."
+#. Default: "${meetingConfigTitle} - Item was removed from meeting - ${itemTitle}"
 msgid "itemUnpresented_mail_subject"
-msgstr "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been removed from a meeting."
+msgstr "${meetingConfigTitle} - Item was removed from meeting - ${itemTitle}"
 
 #. Default: "Select here optional actions that will appear in the \"Actions\" column of dashboards displaying items.  This column is the heaviest to display, so selecting less actions will make your dashboards display faster."
 msgid "item_actions_column_config_descr"
@@ -4073,9 +4073,9 @@ msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${
 # This default is used if no accurate translation can be found. We will try for example to translate
 # item_state_changed_decided_mail_subject, if not found (by default), we use item_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - The item is now in state \"${itemState}\" - ${itemTitle}."
+#. Default: "${meetingConfigTitle} - Item in state \"${itemState}\" - ${itemTitle}"
 msgid "item_state_changed_default_mail_subject"
-msgstr "${meetingConfigTitle} - The item is now in state \"${itemState}\" - ${itemTitle}."
+msgstr "${meetingConfigTitle} - Item in state \"${itemState}\" - ${itemTitle}"
 
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
@@ -4348,7 +4348,7 @@ msgstr "Parameters of configuration influencing orders of insertion of item in t
 
 #. Default: "This enable an action on the meeting to be able to store as annex a selected POD template if field \"Store this POD template as annex\" is defined on a POD template."
 msgid "meeting_item_templates_to_store_as_annex_descr"
-msgstr ""
+msgstr "This enable an action on the meeting to be able to store as annex a selected POD template if field \"Store this POD template as annex\" is defined on a POD template."
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "meeting_managers_notes_descr"
@@ -4384,9 +4384,9 @@ msgstr "You can consult this meeting at ${objectUrl}."
 # This default is used if no accurate translation can be found. We will try for example to translate
 # meeting_state_changed_decided_mail_subject, if not found (by default), we use meeting_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - The meeting is now in state \"${meetingState}\" - ${meetingTitle}."
+#. Default: "${meetingConfigTitle} - Meeting in state \"${meetingState}\" - ${meetingTitle}"
 msgid "meeting_state_changed_default_mail_subject"
-msgstr "${meetingConfigTitle} - The meeting is now in state \"${meetingState}\" - ${meetingTitle}."
+msgstr "${meetingConfigTitle} - Meeting in state \"${meetingState}\" - ${meetingTitle}"
 
 #. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 msgid "meeting_transition_inserting_me_descr"
@@ -4447,7 +4447,7 @@ msgstr "Parameters in this section allow to customize some elements linked to at
 
 #. Default: "Here are groups depending directly of this meeting configuration."
 msgid "meetingconfig_display_groups_and_users_descr"
-msgstr ""
+msgstr "Here are groups depending directly of this meeting configuration."
 
 # MeetingConfig
 #. Default: "Parameters listed here allow to customize the way the application generates documents based on created items and meetings."
@@ -5078,22 +5078,13 @@ msgstr "Select here the item states into which some events related to the item (
 msgid "record_meeting_history_states_descr"
 msgstr "Select here the meeting states into which some events related to the meeting will be stored in the meeting's history."
 
-#. Default: "A meeting configuration specifies that the recurring item identified in the subject of this email must be inserted in a meeting when a non-appropriated transition is triggered on meetings (ie when a meeting is archived or when a \"backward step\" is performed on it, because something has to be corrected). Please correct this in the appropriate meeting configuration. More information can be found in the log file of your Zope instance."
-msgid "recurringItemBadTransition_mail_body"
-msgstr "A meeting configuration specifies that the recurring item identified in the subject of this email must be inserted in a meeting when a non-appropriated transition is triggered on meetings (ie when a meeting is archived or when a \"backward step\" is performed on it, because something has to be corrected). Please correct this in the appropriate meeting configuration. More information can be found in the log file of your Zope instance."
-
-# Mails (problems when inserting recurring items)
-#. Default: "${portalTitle} - A problem occurred while inserting the recurring item entitled \"${itemTitle}\" into a meeting."
-msgid "recurringItemBadTransition_mail_subject"
-msgstr "${portalTitle} - A problem occurred while inserting the recurring item entitled \"${itemTitle}\" into a meeting."
-
 #. Default: "The recurring item specified in the subject of this email could not be inserted in a meeting. Maybe does it lack some important information (a text for the decision, for example) while the meeting is in an \"advanced\" state (it is already \"decided\", for instance). More information can be found in the log file of your Zope instance."
 msgid "recurringItemWorkflowError_mail_body"
 msgstr "The recurring item specified in the subject of this email could not be inserted in a meeting. Maybe does it lack some important information (a text for the decision, for example) while the meeting is in an \"advanced\" state (it is already \"decided\", for instance). More information can be found in the log file of your Zope instance."
 
-#. Default: "${portalTitle} - A problem occurred while inserting the recurring item entitled \"${itemTitle}\" into a meeting."
+#. Default: "${portalTitle} - A problem occurred while inserting a recurring into a meeting - ${itemTitle}"
 msgid "recurringItemWorkflowError_mail_subject"
-msgstr "${portalTitle} - A problem occurred while inserting the recurring item entitled \"${itemTitle}\" into a meeting."
+msgstr "${portalTitle} - A problem occurred while inserting a recurring into a meeting - ${itemTitle}"
 
 #. Default: "Recurring items are items that will be automatically added to a meeting at a defined moment."
 msgid "recurring_items_descr"
@@ -5171,17 +5162,17 @@ msgstr "Restricted power observers"
 msgid "returnedToMeetingManagers_mail_body"
 msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - The item \"${itemTitle}\" has been corrected and sent back to the meeting managers."
+#. Default: "${meetingConfigTitle} - Item corrected and sent back to the meeting managers - ${itemTitle}"
 msgid "returnedToMeetingManagers_mail_subject"
-msgstr "${meetingConfigTitle} - The item \"${itemTitle}\" has been corrected and sent back to the meeting managers."
+msgstr "${meetingConfigTitle} - Item corrected and sent back to the meeting managers - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "returnedToProposingGroup_mail_body"
 msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - The item \"${itemTitle}\" has been sent back to you for corrections."
+#. Default: "${meetingConfigTitle} - Item sent back to you for corrections - ${itemTitle}"
 msgid "returnedToProposingGroup_mail_subject"
-msgstr "${meetingConfigTitle} - The item \"${itemTitle}\" has been sent back to you for corrections."
+msgstr "${meetingConfigTitle} - Item sent back to you for corrections - ${itemTitle}"
 
 #. Default: "Validator"
 msgid "reviewer"
