@@ -23,8 +23,21 @@ Changelog
 4.1.17 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translation for `Enabled?`.
+- Added translation for warning message explaining why a `MeetingConfig` can not be disabled.
+- Added translation for `Data that will be used on new item`.
+- Renamed msgid `PloneMeeting_label_categoryMappingsWhenCloningToOtherMC` to
+  `PloneMeeting_label_category_mapping_when_cloning_to_other_mc`.
+- Adapted `MeetingItem.classifier` related translations.
+- Shorter translation for `Signature number` in `DataGridField`, now default is `Number`.
+- Added translation for `Items have been reordered.`
+- Added translation for `ckeditor_style_page_break`.
+- Added translation for `redirectToNextMeeting` option.
+- Added translation for `meetingconfig_display_groups_and_users_descr`.
+- Removed translation for `no_users_in_group` that was moved to `collective.contact.plonegroup`.
+- Removed translation for `View linked Plone groups` that was moved to `collective.contact.plonegroup`.
+- Added translation for `POD template to annex`.
+- Adapted translations for `MeetingConfig.meetingItemTemplatesToStoreAsAnnex`.
 
 4.1.16 (2020-06-24)
 -------------------

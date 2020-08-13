@@ -191,10 +191,6 @@ msgstr "PloneGov Versammlung"
 msgid "MeetingPma"
 msgstr "PloneMeeting Versammlung"
 
-#. Default: "User characteristics"
-msgid "MeetingUser"
-msgstr "Benutzereinstellungen"
-
 #. Default: "Advice Committee assembly"
 msgid "Meetingadvice-committee"
 msgstr ""
@@ -214,11 +210,6 @@ msgstr ""
 #. Default: "PloneMeeting 'folder' view"
 msgid "PloneMeetingFolderView"
 msgstr "PloneMeeting 'Ordner' Ansicht"
-
-# PodTemplate
-#. Default: "Document template"
-msgid "PodTemplate"
-msgstr "POD-Dokumentvorlage"
 
 #. Default: "Reorder items"
 msgid "Reorder items"
@@ -656,10 +647,6 @@ msgstr " "
 #, fuzzy
 msgid "description_edit_meetingitem"
 msgstr " "
-
-#. Default: "Document template that conforms to POD (Python Open Document)."
-msgid "description_edit_podtemplate"
-msgstr "Dokumentvorlage die POD (Python Open Document) entspricht."
 
 #. Default: "Documents"
 msgid "doc"

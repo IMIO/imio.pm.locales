@@ -168,6 +168,10 @@ msgstr ""
 msgid "Can not close a meeting containing items returned to proposing group!"
 msgstr ""
 
+#. Default: "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
+msgid "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
+msgstr ""
+
 #. Default: "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgstr ""
@@ -192,7 +196,7 @@ msgstr ""
 msgid "Certified signatures signatory name"
 msgstr ""
 
-#. Default: "Signature number"
+#. Default: "Number"
 msgid "Certified signatures signature number"
 msgstr ""
 
@@ -222,7 +226,7 @@ msgstr "Elija un tipo de consejo."
 
 #. Default: "Item classifiers"
 msgid "Classifiers"
-msgstr "Clasificadores de tema"
+msgstr ""
 
 #. Default: "Close"
 msgid "Close"
@@ -246,6 +250,10 @@ msgstr ""
 
 #. Default: "Data of the item when advice was given"
 msgid "Data of the item when advice was given"
+msgstr ""
+
+#. Default: "Data that will be used on new item"
+msgid "Data that will be used on new item"
 msgstr ""
 
 #. Default: "Days to give advice : ${daysToGiveAdvice} days"
@@ -314,6 +322,10 @@ msgstr ""
 
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
+msgstr ""
+
+#. Default: "Enabled?"
+msgid "Enabled?"
 msgstr ""
 
 #. Default: "Enter a reference for this advice if necessary."
@@ -553,6 +565,10 @@ msgstr "Firmas del tema para aplicar"
 msgid "Item templates"
 msgstr ""
 
+#. Default: "Items have been reordered."
+msgid "Items have been reordered."
+msgstr ""
+
 #. Default: "Keep link?"
 msgid "Keep link?"
 msgstr ""
@@ -635,10 +651,6 @@ msgstr ""
 msgid "MeetingAdvice"
 msgstr "Consejo de reunión"
 
-#. Default: "Category"
-msgid "MeetingCategory"
-msgstr "Categoría de reunión"
-
 #. Default: "Meetings"
 msgid "Meetings"
 msgstr ""
@@ -707,12 +719,20 @@ msgstr "Una vez visible, el asesor tendrá ${advice_delay} día(s) para dar el c
 msgid "Ordered categories"
 msgstr ""
 
+#. Default: "Ordered classifiers"
+msgid "Ordered classifiers"
+msgstr ""
+
 #. Default: "Ordered groups"
 msgid "Ordered groups"
 msgstr ""
 
 #. Default: "Original meeting signatory"
 msgid "Original meeting signatory"
+msgstr ""
+
+#. Default: "POD template to annex"
+msgid "POD template to annex"
 msgstr ""
 
 #. Default: "Please check that opening \"[[\" have corresponding closing \"]]\"."
@@ -859,7 +879,7 @@ msgid "PloneMeeting_label_categoryId"
 msgstr "Identificador de la categoría"
 
 #. Default: "Category to use when sending item of this meeting config to another one"
-msgid "PloneMeeting_label_categoryMappingsWhenCloningToOtherMC"
+msgid "PloneMeeting_label_category_mapping_when_cloning_to_other_mc"
 msgstr ""
 
 #. Default: "Certified signatures"
@@ -868,7 +888,7 @@ msgstr "Firmas certificadas"
 
 #. Default: "Classifier"
 msgid "PloneMeeting_label_classifier"
-msgstr "Clasificador"
+msgstr ""
 
 #. Default: "Observations for the committee"
 msgid "PloneMeeting_label_committeeObservations"
@@ -1407,8 +1427,8 @@ msgstr "Configuraciones de reuniones para clonar los temas hacia"
 msgid "PloneMeeting_label_meetingFolderTitle"
 msgstr "Título de la carpeta que crea PloneMeeting en casa carpeta de usuario"
 
-#. Default: "POD template to store as annex from the meeting"
-msgid "PloneMeeting_label_meetingItemTemplateToStoreAsAnnex"
+#. Default: "POD templates to store as annex from the meeting"
+msgid "PloneMeeting_label_meetingItemTemplatesToStoreAsAnnex"
 msgstr ""
 
 #. Default: "MeetingManagers notes"
@@ -1603,6 +1623,10 @@ msgstr "Los estados de temas en los que los eventos serán registrados en el his
 #. Default: "Meeting states into which events will be recorded in meeting's history"
 msgid "PloneMeeting_label_recordMeetingHistoryStates"
 msgstr "Los estados de reunión en los cuales los eventos serán registrados en el historial de la reunión"
+
+#. Default: "Redirect to the next meeting"
+msgid "PloneMeeting_label_redirectToNextMeeting"
+msgstr ""
 
 #. Default: "Remove annexes previews on meeting closure"
 msgid "PloneMeeting_label_removeAnnexesPreviewsOnMeetingClosure"
@@ -2100,10 +2124,6 @@ msgstr ""
 msgid "Used in the assembly for meetings"
 msgstr ""
 
-#. Default: "View linked Plone groups"
-msgid "View linked Plone groups"
-msgstr ""
-
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr ""
@@ -2484,10 +2504,6 @@ msgstr "Especifique aquí una expresión TAL que devolverá una lista de sufijos
 msgid "as_recurring_item"
 msgstr "Como elemento recurrente"
 
-#. Default: "As template item"
-msgid "as_template_item"
-msgstr "Como elemento plantilla"
-
 #. Default: "The item is entitled \"${itemNumber} - ${itemTitle}\". You can access this item here: ${objectUrl}."
 #, fuzzy
 msgid "askDiscussItem_mail_body"
@@ -2699,7 +2715,7 @@ msgstr ""
 msgid "categories_force_display_descr"
 msgstr ""
 
-#. Default: "You may use the ${folder_contents_link} to manage categories."
+#. Default: "You may use the ${folder_contents_link} to manage elements order."
 msgid "categories_use_folder_contents"
 msgstr ""
 
@@ -2815,6 +2831,10 @@ msgstr ""
 msgid "ckeditor_style_large"
 msgstr ""
 
+#. Default: "Page break"
+msgid "ckeditor_style_page_break"
+msgstr ""
+
 #. Default: "Small text"
 msgid "ckeditor_style_small"
 msgstr ""
@@ -2831,7 +2851,11 @@ msgstr ""
 msgid "ckeditor_style_x_small"
 msgstr ""
 
-#. Default: "A classifier is a bit like a category. You can assign an item a given classifier almost the same way you can assign it a given category. The difference resides in the widget used: the \"category chooser\" is a listbox, while the \"classifier chooser\" is a ReferenceBrowserWidget (=a popup with filtering capabilities). So if you have many \"categories\", you may prefer to use \"classifiers\" instead."
+#. Default: "Please select a classifier."
+msgid "classifier_required"
+msgstr ""
+
+#. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
 #, fuzzy
 msgid "classifiers_descr"
 msgstr "Un clasificador es un como una categoría. Puede asignar un tema casi un clasificador de la misma manera que se puede asignar una determinada categoría. La diferencia reside en el widget utilizado: el \"selector de categoría\" es una lista, mientras que el 'selector clasificador \"es un ReferenceBrowserWidget (eso es igual a una ventana emergente \"popup\" con capacidades de filtrado). Así que si usted tiene muchos «categorías», puede que prefiera utilizar \"clasificadores\", en lugar las categorías."
@@ -3978,7 +4002,7 @@ msgstr "Categoría"
 
 #. Default: "Classifier"
 msgid "item_classifier_descr"
-msgstr "Clasificador"
+msgstr ""
 
 #. Default: "Choose here which columns to display when listing items (ie, when requesting \"my items\", \"all items\", ... or when performing custom searches)."
 #, fuzzy
@@ -4420,8 +4444,8 @@ msgstr "Con el fin de realizar esta acción, la fecha de la reunión debe estar 
 msgid "meeting_inserting_methods_help_msg_descr"
 msgstr ""
 
-#. Default: "This enable an action on the meeting to be able to store as annex a particluar POD template if field \"Store this POD template as annex\" is defined on a POD template."
-msgid "meeting_item_template_to_store_as_annex_descr"
+#. Default: "This enable an action on the meeting to be able to store as annex a selected POD template if field \"Store this POD template as annex\" is defined on a POD template."
+msgid "meeting_item_templates_to_store_as_annex_descr"
 msgstr ""
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
@@ -4522,6 +4546,10 @@ msgstr ""
 msgid "meetingconfig_data_descr"
 msgstr "Los parámetros en esta sección permiten personalizar algunos elementos relacionados a atributos de las asociaciones entre los dos principales tipos de contenidos gestionados por PloneMeeting: temas y reuniones."
 
+#. Default: "Here are groups depending directly of this meeting configuration."
+msgid "meetingconfig_display_groups_and_users_descr"
+msgstr ""
+
 #. Default: "Parameters listed here allow to customize the way the application generates documents based on created items and meetings."
 #, fuzzy
 msgid "meetingconfig_doc_descr"
@@ -4568,10 +4596,6 @@ msgstr "Metadata"
 #. Default: "Select here some standard adaptations that can be applied to data structures."
 msgid "model_adaptations_descr"
 msgstr "Seleccione aquí algunas adaptaciones estándar que puede ser aplicada a la estructuras de los datos."
-
-#. Default: "modification_color"
-msgid "modification_color"
-msgstr "Coloración dependiendo de la modificación"
 
 #. Default: "Move the item down"
 msgid "move_item_down"
@@ -4624,12 +4648,7 @@ msgstr "Actualmente sin categorías definida."
 
 #. Default: "No classifier is currently defined."
 msgid "no_classifier"
-msgstr "El clasificador no está definido."
-
-# Values of colorSystems
-#. Default: "no_color"
-msgid "no_color"
-msgstr "Sin color"
+msgstr ""
 
 #. Default: "None"
 msgid "no_config_group"
@@ -4694,10 +4713,6 @@ msgstr ""
 
 #. Default: "No subtypes defined."
 msgid "no_sub_types_defined"
-msgstr ""
-
-#. Default: "No user was found in this group."
-msgid "no_users_in_group"
 msgstr ""
 
 #. Default: "Please select among non delay-aware advisers"
@@ -4767,6 +4782,10 @@ msgstr "Seguir orden de todos los grupos"
 #. Default: "Follow categories order"
 msgid "on_categories"
 msgstr "Seguir orden de categorías"
+
+#. Default: "Follow classifiers order"
+msgid "on_classifiers"
+msgstr ""
 
 #. Default: "Follow groups in charge order"
 msgid "on_groups_in_charge"
@@ -5201,6 +5220,10 @@ msgstr "Usted puede manejar aquí temas predefinidos que servirán, para diferen
 msgid "redefinable_assembly_and_signatures"
 msgstr ""
 
+#. Default: "By default, once connected, user is redirected to a dashboard displaying items.  Select here profiles that will be redirected to the next meeting if it exists."
+msgid "redirect_to_next_meeting_descr"
+msgstr ""
+
 #. Default: "Refresh vote values"
 msgid "refresh_votes"
 msgstr "Actualizar valores de voto"
@@ -5239,6 +5262,10 @@ msgstr ""
 
 #. Default: "A category must be selected on this item so it may evolve in the workflow"
 msgid "required_category_ko"
+msgstr ""
+
+#. Default: "A classifier must be selected on this item so it may evolve in the workflow"
+msgid "required_classifier_ko"
 msgstr ""
 
 #. Default: "Check the box if access to secret items must be restricted.  This will let only users for which an explicit access to the item has been given, access the item.  It will be the case so for members of the proposing groups, power users (Managers, MeetingManagers, power observers), copy groups and advisers.  Only activate this if necessary, it could be the case if you have a state where everything is accessible by everyone (like a \"published\" state for items) but where you want \"secret\" items not to be accessible by everyone."
@@ -5515,10 +5542,6 @@ msgstr ""
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
 msgstr "Verifique esta casilla si usted quiere ordenar las etiquetas en orden alfabético."
-
-#. Default: "state_color"
-msgid "state_color"
-msgstr "Coloración dependiendo del estado"
 
 #. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"
