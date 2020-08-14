@@ -2560,10 +2560,6 @@ msgstr "Présents pour ce point"
 msgid "attendees_required"
 msgstr "L'usage de(s) l'(les) attribut(s) \"Excusés (excused)\" et/ou \"Absents (absents)\" requiert celui de l'attribut \"Présents (attendees)\"."
 
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "authority_notice_descr"
-msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
-
 #. Default: "Automatically linked items"
 msgid "auto_linked_items"
 msgstr "Points liés automatiquement"
@@ -3350,6 +3346,14 @@ msgstr "Enregistrer les changements."
 msgid "field_required"
 msgstr "Veuillez remplir ce champ."
 
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "field_reserved_to_meeting_managers_descr"
+msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
+msgid "field_vieawable_by_everyone_descr"
+msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestionnaires de séances mais visible de tous</span>"
+
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
 msgid "file_required"
 msgstr "Veuillez sélectionner un fichier en cliquant sur le bouton \"Parcourir\"."
@@ -3715,10 +3719,6 @@ msgstr "Ce point passe à nouveau par cette étape dans le workflow"
 #. Default: "To use this functionnality, it is necessary that the icon \"${iconname}\" that will trigger the action exists.  Please creates it before continuing..."
 msgid "iconname_does_not_exist"
 msgstr "Pour utiliser cette fonctionnalité, il est nécessaire que l'icône \"${iconname}\" qui sera utilisée pour déclencher l'action existe.  Veuillez la créer."
-
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "in_and_out_moves_descr"
-msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
 
 #. Default: "If checked, the groups in charge selected on the category of the item will be taken into account."
 msgid "include_groups_in_charge_defined_on_category_descr"
@@ -4350,10 +4350,6 @@ msgstr "Paramètre(s) définis dans la configuration qui influent sur l'ordre d'
 msgid "meeting_item_templates_to_store_as_annex_descr"
 msgstr "Ceci activera une action sur les séances permettant de stocker en tant qu'annexe les modèles de document POD sélectionnés.  Ce champ n'est utile que si vous avez utilisez le champ \"Stocker le modèle de document POD généré en tant qu'annexe\" sur un modèle de document POD."
 
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "meeting_managers_notes_descr"
-msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
-
 #. Default: "Meeting of"
 msgid "meeting_of"
 msgstr "Séance du"
@@ -4640,10 +4636,6 @@ msgstr "Pas à envoyer"
 #. Default: "Not to be send to authority"
 msgid "not_to_be_send_to_authority_term"
 msgstr "Pas à envoyer à la tutelle"
-
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "notes_descr"
-msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
 
 #. Default: "Nothing is defined on the meeting."
 msgid "nothing_defined_on_meeting"

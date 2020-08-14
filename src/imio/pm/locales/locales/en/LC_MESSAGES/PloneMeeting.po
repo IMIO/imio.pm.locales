@@ -2560,10 +2560,6 @@ msgstr "Attendees for this item"
 msgid "attendees_required"
 msgstr "Using attribute(s) \"excused\" and/or \"absents\" requires the use of attribute \"attendees\"."
 
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "authority_notice_descr"
-msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-
 #. Default: "Automatically linked items"
 msgid "auto_linked_items"
 msgstr "Automatically linked items"
@@ -3350,6 +3346,14 @@ msgstr "Save changes."
 msgid "field_required"
 msgstr "Please fill this field."
 
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "field_reserved_to_meeting_managers_descr"
+msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
+msgid "field_vieawable_by_everyone_descr"
+msgstr ""
+
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
 msgid "file_required"
 msgstr "Please choose a file by clicking on the \"Browse\" button."
@@ -3715,10 +3719,6 @@ msgstr "This item is again up the workflow"
 #. Default: "To use this functionnality, it is necessary that the icon \"${iconname}\" that will trigger the action exists.  Please creates it before continuing..."
 msgid "iconname_does_not_exist"
 msgstr "To use this functionnality, it is necessary that the icon \"${iconname}\" that will trigger the action exists.  Please creates it before continuing..."
-
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "in_and_out_moves_descr"
-msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 
 #. Default: "If checked, the groups in charge selected on the category of the item will be taken into account."
 msgid "include_groups_in_charge_defined_on_category_descr"
@@ -4350,10 +4350,6 @@ msgstr "Parameters of configuration influencing orders of insertion of item in t
 msgid "meeting_item_templates_to_store_as_annex_descr"
 msgstr "This enable an action on the meeting to be able to store as annex a selected POD template if field \"Store this POD template as annex\" is defined on a POD template."
 
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "meeting_managers_notes_descr"
-msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-
 # MeetingItem
 #. Default: "Meeting of"
 msgid "meeting_of"
@@ -4641,10 +4637,6 @@ msgstr "Not to be cloned to anywhere"
 #. Default: "Not to be send to authority"
 msgid "not_to_be_send_to_authority_term"
 msgstr "Not to be send to authority"
-
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "notes_descr"
-msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 
 #. Default: "Nothing is defined on the meeting."
 msgid "nothing_defined_on_meeting"

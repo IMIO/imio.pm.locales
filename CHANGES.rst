@@ -22,6 +22,8 @@ Changelog
 - Adapted translations for `MeetingConfig.meetingItemTemplatesToStoreAsAnnex`.
 - Reworked email notifications subject to always have relevant information at
   the beginning of the subject in case item title is very long.
+- Rationalized every field descr using translation `only editable/vieable by MeetingManagers` and
+  `only editable by MeetingManagers but viewable by everyone`.
 
 4.1.16 (2020-06-24)
 -------------------

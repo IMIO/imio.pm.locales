@@ -2571,10 +2571,6 @@ msgstr ""
 msgid "attendees_required"
 msgstr "leden verplicht"
 
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "authority_notice_descr"
-msgstr ""
-
 #. Default: "Automatically linked items"
 msgid "auto_linked_items"
 msgstr ""
@@ -3366,6 +3362,14 @@ msgstr ""
 msgid "field_required"
 msgstr "Vul dit, alstublieft."
 
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "field_reserved_to_meeting_managers_descr"
+msgstr ""
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
+msgid "field_vieawable_by_everyone_descr"
+msgstr ""
+
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
 #, fuzzy
 msgid "file_required"
@@ -3732,10 +3736,6 @@ msgstr ""
 
 #. Default: "To use this functionnality, it is necessary that the icon \"${iconname}\" that will trigger the action exists.  Please creates it before continuing..."
 msgid "iconname_does_not_exist"
-msgstr ""
-
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "in_and_out_moves_descr"
 msgstr ""
 
 #. Default: "If checked, the groups in charge selected on the category of the item will be taken into account."
@@ -4377,10 +4377,6 @@ msgstr ""
 msgid "meeting_item_templates_to_store_as_annex_descr"
 msgstr ""
 
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "meeting_managers_notes_descr"
-msgstr ""
-
 # MeetingItem
 #. Default: "Meeting of"
 msgid "meeting_of"
@@ -4671,10 +4667,6 @@ msgstr ""
 
 #. Default: "Not to be send to authority"
 msgid "not_to_be_send_to_authority_term"
-msgstr ""
-
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "notes_descr"
 msgstr ""
 
 #. Default: "Nothing is defined on the meeting."
