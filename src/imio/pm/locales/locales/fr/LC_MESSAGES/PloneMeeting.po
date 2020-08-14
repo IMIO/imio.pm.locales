@@ -2159,49 +2159,49 @@ msgstr "Ajouter plusieurs annexes (après décision)"
 msgid "adviceDelayExpired_mail_body"
 msgstr "Le délai pour rendre l'avis \"${group_name} (${delay_label})\" est expiré, la date limite était le ${limit_date}. Accédez au point ici: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - Advice delay expired for item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Advice delay expired - ${itemTitle}"
 msgid "adviceDelayExpired_mail_subject"
-msgstr "${meetingConfigTitle} - Délai expiré pour rendre un avis sur le point \"${itemTitle}\"."
+msgstr "${meetingConfigTitle} - Délai expiré pour rendre un avis - ${itemTitle}"
 
 #. Default: "You have an advice to give for \"${group_name} (${delay_label})\".  Limit date is ${limit_date) (in ${left_delay} day(s)).  You can access this item here: ${objectUrl}."
 msgid "adviceDelayWarning_mail_body"
 msgstr "La date limite pour rendre l'avis \"${group_name} (${delay_label})\" est le ${limit_date} (dans ${left_delay} jour(s)). Accédez au point ici: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - Warning advice delay expiration for item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Warning advice delay expiration - ${itemTitle}"
 msgid "adviceDelayWarning_mail_subject"
-msgstr "${meetingConfigTitle} - Avertissement expiration délai pour rendre un avis sur le point \"${itemTitle}\"."
+msgstr "${meetingConfigTitle} - Avertissement expiration délai pour rendre un avis - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceEditedOwner_mail_body"
 msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - An advice has been added or modified - ${itemTitle}"
 msgid "adviceEditedOwner_mail_subject"
-msgstr "${meetingConfigTitle} - Un avis a été rendu ou modifié sur le point \"${itemTitle}\"."
+msgstr "${meetingConfigTitle} - Un avis a été rendu ou modifié - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
 msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - An advice has been added or modified  - ${itemTitle}"
 msgid "adviceEdited_mail_subject"
-msgstr "${meetingConfigTitle} - Un avis a été rendu ou modifié sur le point \"${itemTitle}\"."
+msgstr "${meetingConfigTitle} - Un avis a été rendu ou modifié - ${itemTitle}"
 
 #. Default: "You can consult this item at ${objectUrl}. You advice is now back in the menu with a question mark icon. You can edit it again by clicking on the pen besides it."
 msgid "adviceInvalidated_mail_body"
 msgstr "Votre avis est de retour dans le menu avec un point d'interrogation. Vous pouvez l'éditer à nouveau en cliquant sur le crayon à sa droite. Accédez à ce point ici: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - One or your advices has been invalidated on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - One or your advices has been invalidated - ${itemTitle}"
 msgid "adviceInvalidated_mail_subject"
-msgstr "${meetingConfigTitle} - Un des avis que vous avez rendus sur le point \"${itemTitle}\" a été invalidé."
+msgstr "${meetingConfigTitle} - Un avis que vous avez rendu a été invalidé - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceToGive_mail_body"
 msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - Your advice is requested on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
 msgid "adviceToGive_mail_subject"
-msgstr "${meetingConfigTitle} - Votre avis est demandé sur le point \"${itemTitle}\"."
+msgstr "${meetingConfigTitle} - Votre avis est demandé - ${itemTitle}"
 
 #. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action \"Update categorized elements\" in the \"Advice annnex types\" configuration.</span>"
 msgid "advice_annex_confidential_visible_for_descr"
@@ -2564,10 +2564,6 @@ msgstr "Présents pour ce point"
 msgid "attendees_required"
 msgstr "L'usage de(s) l'(les) attribut(s) \"Excusés (excused)\" et/ou \"Absents (absents)\" requiert celui de l'attribut \"Présents (attendees)\"."
 
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "authority_notice_descr"
-msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
-
 #. Default: "Automatically linked items"
 msgid "auto_linked_items"
 msgstr "Points liés automatiquement"
@@ -2708,9 +2704,9 @@ msgstr "Sélectionnez les groupes qui pourront utiliser cette catégorie.  Si to
 msgid "cautious"
 msgstr "Réservé"
 
-#. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
+#. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  <span style='color: red;'>By signature number, the first valid signature found will be used.</span>"
 msgid "certified_signatures_descr"
-msgstr "Définissez ici les signatures certifiées conformes qui pourront être utilisées lors de la génération de divers documents.  Vous pouvez définir plusieurs lignes pour la même signature (même numéro) avec une période de validité différente.  Par numéro de signature, la première signature trouvée et valide sera utilisée."
+msgstr "Définissez ici les signatures certifiées conformes qui pourront être utilisées lors de la génération de divers documents.  Vous pouvez définir plusieurs lignes pour la même signature (même numéro) avec une période de validité différente.  <span style='color: red;'>Par numéro de signature, la première signature trouvée et valide sera utilisée.</span>"
 
 #. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
 msgid "change_advice_delay_descr"
@@ -2924,9 +2920,9 @@ msgstr "Sélectionnez ici les éléments à garder lors de l'envoi d'un point ve
 msgid "copyGroups_mail_body"
 msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - You have been carbon copied the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - You have been carbon copied - ${itemTitle}"
 msgid "copyGroups_mail_subject"
-msgstr "${meetingConfigTitle} - Vous avez été mis en copie du point \"${itemTitle}\"."
+msgstr "${meetingConfigTitle} - Vous avez été mis en copie - ${itemTitle}"
 
 #. Default: " "
 msgid "copy_groups_item_descr"
@@ -3354,6 +3350,14 @@ msgstr "Enregistrer les changements."
 msgid "field_required"
 msgstr "Veuillez remplir ce champ."
 
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "field_reserved_to_meeting_managers_descr"
+msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
+msgid "field_vieawable_by_everyone_descr"
+msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestionnaires de séances mais visible de tous</span>"
+
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
 msgid "file_required"
 msgstr "Veuillez sélectionner un fichier en cliquant sur le bouton \"Parcourir\"."
@@ -3720,10 +3724,6 @@ msgstr "Ce point passe à nouveau par cette étape dans le workflow"
 msgid "iconname_does_not_exist"
 msgstr "Pour utiliser cette fonctionnalité, il est nécessaire que l'icône \"${iconname}\" qui sera utilisée pour déclencher l'action existe.  Veuillez la créer."
 
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "in_and_out_moves_descr"
-msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
-
 #. Default: "If checked, the groups in charge selected on the category of the item will be taken into account."
 msgid "include_groups_in_charge_defined_on_category_descr"
 msgstr "Les groupes en charge définis sur la catégorie du point seront pris en compte par l'application (ordre des points sur séance par groupe en charge, accès aux points par les groupes en charge, accès aux annexes confidentielles, ...)"
@@ -3820,41 +3820,41 @@ msgstr "Les états sélectionnés ici doivent reprendre au moins tous les états
 msgid "itemClonedToThisMC_mail_body"
 msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
 
-#. Default: "${itemTitle} has been transfered to ${meetingConfigTitle}."
+#. Default: "${meetingConfigTitle} - Item received from ${originMeetingConfigTitle} - ${itemTitle}"
 msgid "itemClonedToThisMC_mail_subject"
-msgstr "Le point \"${itemTitle}\" a été envoyé vers la séance \"${meetingConfigTitle}\""
+msgstr "${meetingConfigTitle} - Point reçu depuis ${originMeetingConfigTitle} - ${itemTitle}"
 
 #. Default: "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${objectUrl}. You can work on it again and propose it to another meeting."
 msgid "itemDelayed_mail_body"
 msgstr "Ce point est toujours dans la séance mais marqué comme \"Reporté\", une copie en a été créée ici: ${objectUrl}. Vous pouver retravailler ce point et le proposer à une autre séance."
 
-#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
+#. Default: "${meetingConfigTitle} - Item delayed - ${itemTitle}"
 msgid "itemDelayed_mail_subject"
-msgstr "${meetingConfigTitle} - Un de vos points: ${itemTitle}, a été reporté."
+msgstr "${meetingConfigTitle} - Point reporté - ${itemTitle}"
 
 #. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${objectUrl} and it has been validated automatically for a next meeting."
 msgid "itemPostponedNextMeeting_mail_body"
 msgstr "Ce point est toujours dans la séance mais marqué comme \"Reporté à la prochaine séance\", une copie en a été créée ici: ${objectUrl} et a été automatiquement validée."
 
-#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been postponed to the next meeting."
+#. Default: "${meetingConfigTitle} - Item postponed to the next meeting - ${itemTitle}"
 msgid "itemPostponedNextMeeting_mail_subject"
-msgstr "${meetingConfigTitle} - Un de vos points: ${itemTitle}, a été reporté à une prochaine séance."
+msgstr "${meetingConfigTitle} - Point reporté à une prochaine séance - ${itemTitle}"
 
 #. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "itemPresented_mail_body"
 msgstr "La séance est peut-être encore en cours d'élaboration et donc inaccessible pour l'instant. L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been inserted into a meeting."
+#. Default: "${meetingConfigTitle} - Item has been inserted into a meeting - ${itemTitle}"
 msgid "itemPresented_mail_subject"
-msgstr "${meetingConfigTitle} - Un de vos points : \"${itemTitle}\", a été inséré dans une séance."
+msgstr "${meetingConfigTitle} - Point inséré dans une séance - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "itemUnpresented_mail_body"
 msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been removed from a meeting."
+#. Default: "${meetingConfigTitle} - Item was removed from meeting - ${itemTitle}"
 msgid "itemUnpresented_mail_subject"
-msgstr "${meetingConfigTitle} - Un de vos points : \"${itemTitle}\", a été retiré d'une séance."
+msgstr "${meetingConfigTitle} - Point retiré de la séance - ${itemTitle}"
 
 #. Default: "Select here optional actions that will appear in the \"Actions\" column of dashboards displaying items.  This column is the heaviest to display, so selecting less actions will make your dashboards display faster."
 msgid "item_actions_column_config_descr"
@@ -4077,9 +4077,9 @@ msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUr
 # This default is used if no accurate translation can be found. We will try for example to translate
 # item_state_changed_decided_mail_subject, if not found (by default), we use item_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - The item is now in state \"${itemState}\" - ${itemTitle}."
+#. Default: "${meetingConfigTitle} - Item in state \"${itemState}\" - ${itemTitle}"
 msgid "item_state_changed_default_mail_subject"
-msgstr "${meetingConfigTitle} - Le point est maintenant dans l'état \"${itemState}\" - ${itemTitle}."
+msgstr "${meetingConfigTitle} - Point dans l'état \"${itemState}\" - ${itemTitle}"
 
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
@@ -4362,10 +4362,6 @@ msgstr "Paramètre(s) définis dans la configuration qui influent sur l'ordre d'
 msgid "meeting_item_templates_to_store_as_annex_descr"
 msgstr "Ceci activera une action sur les séances permettant de stocker en tant qu'annexe les modèles de document POD sélectionnés.  Ce champ n'est utile que si vous avez utilisez le champ \"Stocker le modèle de document POD généré en tant qu'annexe\" sur un modèle de document POD."
 
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "meeting_managers_notes_descr"
-msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
-
 #. Default: "Meeting of"
 msgid "meeting_of"
 msgstr "Séance du"
@@ -4395,9 +4391,9 @@ msgstr "Vous pouvez accéder à la séance ici: '${objectUrl}'."
 # This default is used if no accurate translation can be found. We will try for example to translate
 # meeting_state_changed_decided_mail_subject, if not found (by default), we use meeting_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - The meeting is now in state \"${meetingState}\" - ${meetingTitle}."
+#. Default: "${meetingConfigTitle} - Meeting in state \"${meetingState}\" - ${meetingTitle}"
 msgid "meeting_state_changed_default_mail_subject"
-msgstr "${meetingConfigTitle} - La séance est maintenant \"${meetingState}\" - ${meetingTitle}."
+msgstr "${meetingConfigTitle} - Séance dans l'état \"${meetingState}\" - ${meetingTitle}"
 
 #. Default: "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 msgid "meeting_transition_inserting_me_descr"
@@ -4652,10 +4648,6 @@ msgstr "Pas à envoyer"
 #. Default: "Not to be send to authority"
 msgid "not_to_be_send_to_authority_term"
 msgstr "Pas à envoyer à la tutelle"
-
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "notes_descr"
-msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
 
 #. Default: "Nothing is defined on the meeting."
 msgid "nothing_defined_on_meeting"
@@ -5089,22 +5081,13 @@ msgstr "Sélectionnez ici les états des points dans lesquels certains événeme
 msgid "record_meeting_history_states_descr"
 msgstr "Sélectionnez ici les états des séances dans lesquels l'historisation sera activée."
 
-#. Default: "A meeting configuration specifies that the recurring item identified in the subject of this email must be inserted in a meeting when a non-appropriated transition is triggered on meetings (ie when a meeting is archived or when a \"backward step\" is performed on it, because something has to be corrected). Please correct this in the appropriate meeting configuration. More information can be found in the log file of your Zope instance."
-msgid "recurringItemBadTransition_mail_body"
-msgstr "Une configuration de séance spécifie que le point récurrent identifié dans le sujet de ce courriel doit s'insérer dans les séances lorsque celles-ci effectuent une transition qui n'est pas appropriée (lors de l'archivage d'une séance ou lors d'un \"pas en arrière\" -une correction-, par exemple). Veuillez corriger cela dans la configuration de séance appropriée. Plus d'info dans le log de votre instance Zope."
-
-# Mails (problems when inserting recurring items)
-#. Default: "${portalTitle} - A problem occurred while inserting the recurring item entitled \"${itemTitle}\" into a meeting."
-msgid "recurringItemBadTransition_mail_subject"
-msgstr "${portalTitle} - Un problème est survenu lors de l'insertion du point récurrent intitulé \"${itemTitle}\" dans une séance."
-
 #. Default: "The recurring item specified in the subject of this email could not be inserted in a meeting. Maybe does it lack some important information (a text for the decision, for example) while the meeting is in an \"advanced\" state (it is already \"decided\", for instance). More information can be found in the log file of your Zope instance."
 msgid "recurringItemWorkflowError_mail_body"
 msgstr "Le point récurrent spécifié dans le sujet de ce courriel n'a pas pu être ajouté à une séance. Peut-être ne dispose-t-il pas de suffisemment d'informations (un texte pour la décision, par exemple) pour être ajouté à la séance, celle-ci pouvant se trouver dans un état \"avancé\" (décidée, par exemple). Plus d'info dans le log de votre instance Zope."
 
-#. Default: "${portalTitle} - A problem occurred while inserting the recurring item entitled \"${itemTitle}\" into a meeting."
+#. Default: "${portalTitle} - A problem occurred while inserting a recurring into a meeting - ${itemTitle}"
 msgid "recurringItemWorkflowError_mail_subject"
-msgstr "${portalTitle} - Un problème est survenu lors de l'insertion du point récurrent intitulé \"${itemTitle}\" dans une séance."
+msgstr "${portalTitle} - Problème survenu lors de l'insertion d'un point récurrent dans une séance - ${itemTitle}"
 
 #. Default: "Recurring items are items that will be automatically added to a meeting at a defined moment."
 msgid "recurring_items_descr"
@@ -5182,17 +5165,17 @@ msgstr "Super observateurs restreints"
 msgid "returnedToMeetingManagers_mail_body"
 msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - The item \"${itemTitle}\" has been corrected and sent back to the meeting managers."
+#. Default: "${meetingConfigTitle} - Item corrected and sent back to the meeting managers - ${itemTitle}"
 msgid "returnedToMeetingManagers_mail_subject"
-msgstr "${meetingConfigTitle} - Le point \"${itemTitle}\" a été corrigé par le groupe proposant et renvoyé aux gestionnaires de séances."
+msgstr "${meetingConfigTitle} - Point corrigé renvoyé aux gestionnaires de séances - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "returnedToProposingGroup_mail_body"
 msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
 
-#. Default: "${meetingConfigTitle} - The item \"${itemTitle}\" has been sent back to you for corrections."
+#. Default: "${meetingConfigTitle} - Item sent back to you for corrections - ${itemTitle}"
 msgid "returnedToProposingGroup_mail_subject"
-msgstr "${meetingConfigTitle} - Le point \"${itemTitle}\" vous a été renvoyé pour corrections."
+msgstr "${meetingConfigTitle} - Point à corriger renvoyé au groupe proposant - ${itemTitle}"
 
 #. Default: "Validator"
 msgid "reviewer"
@@ -5365,11 +5348,11 @@ msgstr "Le point a été envoyé au ${cfgTitle}."
 
 #. Default: "${meetingConfigTitle} (to send to)"
 msgid "sent_to_other_mc_term__clonable_to"
-msgstr "${meetingConfigTitle} (A envoyer)"
+msgstr "${meetingConfigTitle} (À envoyer)"
 
 #. Default: "${meetingConfigTitle} (to send to - Emergency)"
 msgid "sent_to_other_mc_term__clonable_to_emergency"
-msgstr "${meetingConfigTitle} (A envoyer - Urgence)"
+msgstr "${meetingConfigTitle} (À envoyer - Urgence)"
 
 #. Default: "${meetingConfigTitle} (sent to)"
 msgid "sent_to_other_mc_term__cloned_to"

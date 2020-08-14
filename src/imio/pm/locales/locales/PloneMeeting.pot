@@ -348,24 +348,12 @@ msgstr ""
 msgid "PloneMeeting_notes"
 msgstr ""
 
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "notes_descr"
-msgstr ""
-
 #. Default: "MeetingManagers notes"
 msgid "PloneMeeting_label_meetingManagersNotes"
 msgstr ""
 
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "meeting_managers_notes_descr"
-msgstr ""
-
 #. Default: "Assembly in and out movements"
 msgid "PloneMeeting_inAndOutMoves"
-msgstr ""
-
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "in_and_out_moves_descr"
 msgstr ""
 
 #. Default: "Observations"
@@ -981,12 +969,16 @@ msgstr ""
 msgid "PloneMeeting_label_secretMeetingObservations"
 msgstr ""
 
-#. Default: "Authority notice"
-msgid "PloneMeeting_label_authorityNotice"
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
+msgid "field_vieawable_by_everyone_descr"
 msgstr ""
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "authority_notice_descr"
+msgid "field_reserved_to_meeting_managers_descr"
+msgstr ""
+
+#. Default: "Authority notice"
+msgid "PloneMeeting_label_authorityNotice"
 msgstr ""
 
 #. Default: "Meeting number (sequence number automatically attributed)"
@@ -1780,7 +1772,7 @@ msgstr ""
 msgid "PloneMeeting_label_certifiedSignatures"
 msgstr ""
 
-#. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  By signature number, the first valid signature found will be used."
+#. Default: "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  <span style='color: red;'>By signature number, the first valid signature found will be used.</span>"
 msgid "certified_signatures_descr"
 msgstr ""
 
@@ -3404,7 +3396,7 @@ msgstr ""
 # This default is used if no accurate translation can be found. We will try for example to translate
 # item_state_changed_decided_mail_subject, if not found (by default), we use item_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - The item is now in state \"${itemState}\" - ${itemTitle}."
+#. Default: "${meetingConfigTitle} - Item in state \"${itemState}\" - ${itemTitle}"
 msgid "item_state_changed_default_mail_subject"
 msgstr ""
 
@@ -3420,7 +3412,7 @@ msgstr ""
 msgid "lateItem_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been inserted into a meeting."
+#. Default: "${meetingConfigTitle} - Item has been inserted into a meeting - ${itemTitle}"
 msgid "itemPresented_mail_subject"
 msgstr ""
 
@@ -3428,7 +3420,7 @@ msgstr ""
 msgid "itemPresented_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - One of your items: \"${itemTitle}\", has been removed from a meeting."
+#. Default: "${meetingConfigTitle} - Item was removed from meeting - ${itemTitle}"
 msgid "itemUnpresented_mail_subject"
 msgstr ""
 
@@ -3436,7 +3428,7 @@ msgstr ""
 msgid "itemUnpresented_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been delayed."
+#. Default: "${meetingConfigTitle} - Item delayed - ${itemTitle}"
 msgid "itemDelayed_mail_subject"
 msgstr ""
 
@@ -3444,7 +3436,7 @@ msgstr ""
 msgid "itemDelayed_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - One of your items: ${itemTitle}, has been postponed to the next meeting."
+#. Default: "${meetingConfigTitle} - Item postponed to the next meeting - ${itemTitle}"
 msgid "itemPostponedNextMeeting_mail_subject"
 msgstr ""
 
@@ -3460,7 +3452,7 @@ msgstr ""
 msgid "annexAdded_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - The item \"${itemTitle}\" has been sent back to you for corrections."
+#. Default: "${meetingConfigTitle} - Item sent back to you for corrections - ${itemTitle}"
 msgid "returnedToProposingGroup_mail_subject"
 msgstr ""
 
@@ -3468,7 +3460,7 @@ msgstr ""
 msgid "returnedToProposingGroup_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - The item \"${itemTitle}\" has been corrected and sent back to the meeting managers."
+#. Default: "${meetingConfigTitle} - Item corrected and sent back to the meeting managers - ${itemTitle}"
 msgid "returnedToMeetingManagers_mail_subject"
 msgstr ""
 
@@ -3476,7 +3468,7 @@ msgstr ""
 msgid "returnedToMeetingManagers_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - Your advice is requested on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
 msgid "adviceToGive_mail_subject"
 msgstr ""
 
@@ -3484,7 +3476,7 @@ msgstr ""
 msgid "adviceToGive_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - Warning advice delay expiration for item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Warning advice delay expiration - ${itemTitle}"
 msgid "adviceDelayWarning_mail_subject"
 msgstr ""
 
@@ -3492,7 +3484,7 @@ msgstr ""
 msgid "adviceDelayWarning_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - Advice delay expired for item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - Advice delay expired - ${itemTitle}"
 msgid "adviceDelayExpired_mail_subject"
 msgstr ""
 
@@ -3500,7 +3492,7 @@ msgstr ""
 msgid "adviceDelayExpired_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - An advice has been added or modified  - ${itemTitle}"
 msgid "adviceEdited_mail_subject"
 msgstr ""
 
@@ -3508,7 +3500,7 @@ msgstr ""
 msgid "adviceEdited_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - An advice has been added or modified on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - An advice has been added or modified - ${itemTitle}"
 msgid "adviceEditedOwner_mail_subject"
 msgstr ""
 
@@ -3516,7 +3508,7 @@ msgstr ""
 msgid "adviceEditedOwner_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - One or your advices has been invalidated on the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - One or your advices has been invalidated - ${itemTitle}"
 msgid "adviceInvalidated_mail_subject"
 msgstr ""
 
@@ -3524,7 +3516,7 @@ msgstr ""
 msgid "adviceInvalidated_mail_body"
 msgstr ""
 
-#. Default: "${itemTitle} has been transfered to ${meetingConfigTitle}."
+#. Default: "${meetingConfigTitle} - Item received from ${originMeetingConfigTitle} - ${itemTitle}"
 msgid "itemClonedToThisMC_mail_subject"
 msgstr ""
 
@@ -3545,7 +3537,7 @@ msgstr ""
 # This default is used if no accurate translation can be found. We will try for example to translate
 # meeting_state_changed_decided_mail_subject, if not found (by default), we use meeting_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - The meeting is now in state \"${meetingState}\" - ${meetingTitle}."
+#. Default: "${meetingConfigTitle} - Meeting in state \"${meetingState}\" - ${meetingTitle}"
 msgid "meeting_state_changed_default_mail_subject"
 msgstr ""
 
@@ -3553,16 +3545,7 @@ msgstr ""
 msgid "meeting_state_changed_default_mail_body"
 msgstr ""
 
-# Mails (problems when inserting recurring items)
-#. Default: "${portalTitle} - A problem occurred while inserting the recurring item entitled \"${itemTitle}\" into a meeting."
-msgid "recurringItemBadTransition_mail_subject"
-msgstr ""
-
-#. Default: "A meeting configuration specifies that the recurring item identified in the subject of this email must be inserted in a meeting when a non-appropriated transition is triggered on meetings (ie when a meeting is archived or when a \"backward step\" is performed on it, because something has to be corrected). Please correct this in the appropriate meeting configuration. More information can be found in the log file of your Zope instance."
-msgid "recurringItemBadTransition_mail_body"
-msgstr ""
-
-#. Default: "${portalTitle} - A problem occurred while inserting the recurring item entitled \"${itemTitle}\" into a meeting."
+#. Default: "${portalTitle} - A problem occurred while inserting a recurring into a meeting - ${itemTitle}"
 msgid "recurringItemWorkflowError_mail_subject"
 msgstr ""
 
@@ -3586,7 +3569,7 @@ msgstr ""
 msgid "podMeetingByMail_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - You have been carbon copied the item \"${itemTitle}\"."
+#. Default: "${meetingConfigTitle} - You have been carbon copied - ${itemTitle}"
 msgid "copyGroups_mail_subject"
 msgstr ""
 
