@@ -24,6 +24,7 @@ Changelog
   the beginning of the subject in case item title is very long.
 - Rationalized every field descr using translation `only editable/vieable by MeetingManagers` and
   `only editable by MeetingManagers but viewable by everyone`.
+- Added more accurate translation for `warning_adding_org_outside_own_org`.
 
 4.1.16 (2020-06-24)
 -------------------
