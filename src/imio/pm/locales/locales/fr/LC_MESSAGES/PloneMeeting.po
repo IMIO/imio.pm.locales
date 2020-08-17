@@ -3462,6 +3462,10 @@ msgstr "Sélectionnez le(s) groupe(s) en charge de ce groupe.  Cette information
 msgid "gui"
 msgstr "Interface utilisateur"
 
+#. Default: "Some required advices must still be given before you may validate this item.  Please check other transitions about \"Ask advices\" or unselect asked advices from item to be able to validate."
+msgid "has_required_waiting_advices"
+msgstr "Certains avis doivent toujours être rendus sur ce point avant que vous puissiez le valider.  Vérifiez les autres actions disponibles sur le point de type \"Demander les avis\" ou désélectionnez les avis demandés sur le point."
+
 # Misc
 #. Default: "Actions"
 msgid "heading_actions"
