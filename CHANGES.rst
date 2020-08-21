@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.1.17 (unreleased)
+4.1.17 (2020-08-21)
 -------------------
 
 - Added translation for `Enabled?`.
