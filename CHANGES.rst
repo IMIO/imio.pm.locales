@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2a6 (unreleased)
+4.2b1 (unreleased)
 ------------------
 
 - Added translation for `has_required_waiting_advices`.
