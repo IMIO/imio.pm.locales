@@ -1236,10 +1236,6 @@ msgstr "Item states allowing copy groups to view the item"
 msgid "PloneMeeting_label_itemCreatedOnlyUsingTemplate"
 msgstr "Only create items using item templates"
 
-#. Default: "Item decided states"
-msgid "PloneMeeting_label_itemDecidedStates"
-msgstr "Item decided states"
-
 #. Default: "Description"
 msgid "PloneMeeting_label_itemDescription"
 msgstr "Description"
@@ -1276,10 +1272,6 @@ msgstr "States in which an item may be manually sent to selected other meeting c
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Number"
 
-#. Default: "Item positive decided states"
-msgid "PloneMeeting_label_itemPositiveDecidedStates"
-msgstr "Item positive decided states"
-
 #. Default: "Item reference"
 msgid "PloneMeeting_label_itemReference"
 msgstr "Item reference"
@@ -1304,6 +1296,10 @@ msgstr "Tags"
 #. Default: "Purpose"
 msgid "PloneMeeting_label_itemTitle"
 msgstr "Purpose"
+
+#. Default: "Item validation levels"
+msgid "PloneMeeting_label_itemWFValidationLevels"
+msgstr ""
 
 #. Default: "An item containing given advice is not deletable"
 msgid "PloneMeeting_label_itemWithGivenAdviceIsNotDeletable"
@@ -3250,9 +3246,9 @@ msgstr "You may not use the same identifier several times."
 msgid "error_list_types_wrong_identifier_format"
 msgstr "You may only use lowercase letters for identifier."
 
-#. Default: "An advice was added or updated on an item (notify the \"MeetingMember\")"
+#. Default: "An advice was added or updated on an item (notify the \"Creators\")"
 msgid "event_add_advice"
-msgstr "An advice was added or updated on an item (notify the \"MeetingMember\")"
+msgstr "An advice was added or updated on an item (notify the \"Creators\")"
 
 #. Default: "An advice was added or updated on an item (notify the \"Owner\")"
 msgid "event_add_advice_owner"
@@ -3290,17 +3286,17 @@ msgstr "An item as been cloned to this meetingConfig (notify users able to edit 
 msgid "event_item_copy_groups"
 msgstr "An item is now visible by copy groups (notify members of the copy groups)"
 
-#. Default: "An item has been delayed (notify the \"MeetingMember\")"
+#. Default: "An item has been delayed (notify the \"Creators\")"
 msgid "event_item_delayed"
-msgstr "An item has been delayed (notify the \"MeetingMember\")"
+msgstr "An item has been delayed (notify the \"Creators\")"
 
-#. Default: "An item has been postponed to the nexe meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been postponed (notify the \"Creators\")"
 msgid "event_item_postponed_next_meeting"
-msgstr "An item has been postponed to the nexe meeting (notify the \"MeetingMember\")"
+msgstr "An item has been postponed (notify the \"Creators\")"
 
-#. Default: "An item has been inserted into a meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been inserted into a meeting (notify the \"Creators\")"
 msgid "event_item_presented"
-msgstr "An item has been inserted into a meeting (notify the \"MeetingMember\")"
+msgstr "An item has been inserted into a meeting (notify the \"Creators\")"
 
 #. Default: "An item has been corrected and sent to the meeting managers (notify \"MeetingManagers\")"
 msgid "event_item_returned_to_meeting_managers"
@@ -3310,9 +3306,9 @@ msgstr "An item has been corrected and sent to the meeting managers (notify \"Me
 msgid "event_item_returned_to_proposing_group"
 msgstr "An item has been sent back to the proposing group (notify users able to edit the item to correct)"
 
-#. Default: "An item has been removed from a meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been removed from a meeting (notify the \"Creators\")"
 msgid "event_item_unpresented"
-msgstr "An item has been removed from a meeting (notify the \"MeetingMember\")"
+msgstr "An item has been removed from a meeting (notify the \"Creators\")"
 
 #. Default: "A late item was just validated (notify \"MeetingManagers\")"
 msgid "event_late_item"
@@ -3457,6 +3453,10 @@ msgstr "Select here the groups that are in charge of the current group.  This wi
 #. Default: "User interface"
 msgid "gui"
 msgstr "User interface"
+
+#. Default: "Some required advices must still be given before you may validate this item.  Please check other transitions about \"Ask advices\" or unselect asked advices from item to be able to validate."
+msgid "has_required_waiting_advices"
+msgstr ""
 
 # Misc
 #. Default: "Actions"
@@ -3948,10 +3948,6 @@ msgstr "When an item is in one of the states you choose here, it will be viewabl
 msgid "item_created_only_using_template_descr"
 msgstr "If you check this box, item creators will only be able to create new items using an item template, no more item from scratch."
 
-#. Default: "Choose decided state for an item"
-msgid "item_decided_states_descr"
-msgstr "Choose decided state for an item"
-
 #. Default: "No move occurred because you specified the same item number."
 msgid "item_did_not_move"
 msgstr "No move occurred because you specified the same item number."
@@ -4040,10 +4036,6 @@ msgstr "You do not have access to the item number you entered."
 msgid "item_number_not_accessible_redirected_to_closest_item"
 msgstr "You do not have access to the item you tried to access, you have been redirected to the closest accessible item."
 
-#. Default: "Choose positive decided state for an item"
-msgid "item_positive_decided_states_descr"
-msgstr "Choose positive decided state for an item"
-
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."
 msgid "item_reference_format_descr"
 msgstr "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."
@@ -4084,6 +4076,14 @@ msgstr "Item templates will be available to users creating new items in the appl
 #. Default: "Item up workflow again"
 msgid "item_up_wf_term"
 msgstr "Item up workflow again"
+
+#. Default: "You can not disable or remove a line that is currently used by an item in the application, checkout configuration about state \"${item_state}\" that is used for example by item at \"${item_url}\""
+msgid "item_wf_val_states_can_not_be_removed_in_use"
+msgstr ""
+
+#. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
+msgid "item_wf_validation_levels_descr"
+msgstr ""
 
 #. Default: "If checked, an item that contains given advices will no more be deletable, except by MeetingManagers and Managers."
 msgid "item_with_given_advice_is_not_deletable_descr"

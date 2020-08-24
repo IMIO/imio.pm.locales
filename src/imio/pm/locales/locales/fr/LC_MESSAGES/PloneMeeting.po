@@ -1236,10 +1236,6 @@ msgstr "États des points dans lesquels les groupes en copie peuvent les voir"
 msgid "PloneMeeting_label_itemCreatedOnlyUsingTemplate"
 msgstr "Les points sont créés uniquement depuis un modèle"
 
-#. Default: "Item decided states"
-msgid "PloneMeeting_label_itemDecidedStates"
-msgstr "États des points décidés"
-
 #. Default: "Description"
 msgid "PloneMeeting_label_itemDescription"
 msgstr "Description"
@@ -1276,10 +1272,6 @@ msgstr "États dans lesquels un point pourra être manuellement envoyé vers les
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Numéro"
 
-#. Default: "Item positive decided states"
-msgid "PloneMeeting_label_itemPositiveDecidedStates"
-msgstr "États des points décidés positivement"
-
 #. Default: "Item reference"
 msgid "PloneMeeting_label_itemReference"
 msgstr "Référence du point"
@@ -1304,6 +1296,10 @@ msgstr "Marqueurs"
 #. Default: "Purpose"
 msgid "PloneMeeting_label_itemTitle"
 msgstr "Objet"
+
+#. Default: "Item validation levels"
+msgid "PloneMeeting_label_itemWFValidationLevels"
+msgstr "Étapes du workflow de validation des points"
 
 #. Default: "An item containing given advice is not deletable"
 msgid "PloneMeeting_label_itemWithGivenAdviceIsNotDeletable"
@@ -3250,7 +3246,7 @@ msgstr "Vous ne pouvez pas utiliser le même identifiant plusieurs fois."
 msgid "error_list_types_wrong_identifier_format"
 msgstr "Vous ne pouvez utiliser que des lettres minuscules pour l'identifiant."
 
-#. Default: "An advice was added or updated on an item (notify the \"MeetingMember\")"
+#. Default: "An advice was added or updated on an item (notify the \"Creators\")"
 msgid "event_add_advice"
 msgstr "Un avis sur un point a été rendu ou modifié (prévient les créateurs du groupe proposant du point)"
 
@@ -3290,15 +3286,15 @@ msgstr "Un point a été envoyé vers cette configuration de séance (prévient 
 msgid "event_item_copy_groups"
 msgstr "Un point est désormais visible par les groupes en copies (prévient les membres des groupes mis en copie)"
 
-#. Default: "An item has been delayed (notify the \"MeetingMember\")"
+#. Default: "An item has been delayed (notify the \"Creators\")"
 msgid "event_item_delayed"
 msgstr "Un point a été reporté (prévient les créateurs du groupe proposant du point)"
 
-#. Default: "An item has been postponed to the nexe meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been postponed (notify the \"Creators\")"
 msgid "event_item_postponed_next_meeting"
-msgstr "Un point a été reporté à la prochaine séance (prévient les créateurs du groupe proposant du point)"
+msgstr "Un point a été reporté à une prochaine séance (prévient les créateurs du groupe proposant du point)"
 
-#. Default: "An item has been inserted into a meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been inserted into a meeting (notify the \"Creators\")"
 msgid "event_item_presented"
 msgstr "Un point a été inséré dans une séance (prévient les créateurs du groupe proposant du point)"
 
@@ -3310,7 +3306,7 @@ msgstr "Un point corrigé par le groupe proposant a été renvoyé aux gestionna
 msgid "event_item_returned_to_proposing_group"
 msgstr "Un point a été renvoyé pour correction au groupe proposant (prévient les utilisateurs capables d'éditer le point à corriger)"
 
-#. Default: "An item has been removed from a meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been removed from a meeting (notify the \"Creators\")"
 msgid "event_item_unpresented"
 msgstr "Un point a été retiré d'une séance (prévient les créateurs du groupe proposant du point)"
 
@@ -3457,6 +3453,10 @@ msgstr "Sélectionnez le(s) groupe(s) en charge de ce groupe.  Cette information
 #. Default: "User interface"
 msgid "gui"
 msgstr "Interface utilisateur"
+
+#. Default: "Some required advices must still be given before you may validate this item.  Please check other transitions about \"Ask advices\" or unselect asked advices from item to be able to validate."
+msgid "has_required_waiting_advices"
+msgstr "Certains avis doivent toujours être rendus sur ce point avant que vous puissiez le valider.  Vérifiez les autres actions disponibles sur le point de type \"Demander les avis\" ou désélectionnez les avis demandés sur le point."
 
 # Misc
 #. Default: "Actions"
@@ -3948,10 +3948,6 @@ msgstr "Quand un point est dans un des états que vous sélectionnez ici, il ser
 msgid "item_created_only_using_template_descr"
 msgstr "Si vous cochez cette case, les créateurs de points devront obligatoirement sélectionner un modèle pour créer un nouveau point, ils ne pourront plus créer un point vierge."
 
-#. Default: "Choose decided state for an item"
-msgid "item_decided_states_descr"
-msgstr "Choisissez les états dans lesquels les points sont considérés \"décidés\"."
-
 #. Default: "No move occurred because you specified the same item number."
 msgid "item_did_not_move"
 msgstr "Aucun déplacement n'a eu lieu."
@@ -4040,10 +4036,6 @@ msgstr "Vous n'avez pas accès au numéro de point demandé."
 msgid "item_number_not_accessible_redirected_to_closest_item"
 msgstr "Vous n'avez pas accès au point demandé, vous avez été redirigé vers le point le plus proche."
 
-#. Default: "Choose positive decided state for an item"
-msgid "item_positive_decided_states_descr"
-msgstr "Choisissez les états dans lesquels les points sont considérés \"décidés\" de manière positive."
-
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."
 msgid "item_reference_format_descr"
 msgstr "À chaque point est associé une référence dont le format peut être défini ici, sous la forme d'une expression TAL.  Les éléments \"item\" (aussi disponible sous le nom \"here\") et \"meeting\" sont disponibles dans l'expression."
@@ -4084,6 +4076,14 @@ msgstr "Les modèles de points seront disponibles aux utilisateurs qui créeront
 #. Default: "Item up workflow again"
 msgid "item_up_wf_term"
 msgstr "Remonte le workflow"
+
+#. Default: "You can not disable or remove a line that is currently used by an item in the application, checkout configuration about state \"${item_state}\" that is used for example by item at \"${item_url}\""
+msgid "item_wf_val_states_can_not_be_removed_in_use"
+msgstr "Vous ne pouvez pas désactiver ou supprimer une ligne correspondant à un état actuellement utilisé dans l'application.  Vérifiez la ligne concernant l'état \"${item_state}\" utilisée par exemple par le point \"${item_url}\""
+
+#. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
+msgid "item_wf_validation_levels_descr"
+msgstr "Ceci génère la partie du workflow du point avant l'état \"Validé\".  Si rien n'est sélectionné, les points seront créés dans l'état \"Validé\".  Si certaines lignes sont activées, la première (état \"En création\") est obligatoire."
 
 #. Default: "If checked, an item that contains given advices will no more be deletable, except by MeetingManagers and Managers."
 msgid "item_with_given_advice_is_not_deletable_descr"

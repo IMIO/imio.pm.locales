@@ -2,11 +2,26 @@ Changelog
 =========
 
 
-4.1.18 (unreleased)
--------------------
+4.2a6 (unreleased)
+------------------
 
-- Nothing changed yet.
+- Added translation for `has_required_waiting_advices`.
+- Merged changes from 4.1.17
+- Removed translations for `PloneMeeting_label_itemDecidedStates` and
+  `PloneMeeting_label_itemDecidedStates` as corresponding fields were removed
+  from MeetingConfig.
 
+4.2a5 (2020-06-24)
+------------------
+- Merged changes from 4.1.8
+- Merged changes from 4.1.9
+- Merged changes from 4.1.10
+- Merged changes from 4.1.11
+- Merged changes from 4.1.12
+- Merged changes from 4.1.13
+- Merged changes from 4.1.14
+- Merged changes from 4.1.15
+- Merged changes from 4.1.16
 
 4.1.17 (2020-08-21)
 -------------------
@@ -85,6 +100,28 @@ Changelog
 - Added translations for the 'Non attendee' functionnality.
 - Added translations for 'MeetingConfig.removeAnnexesPreviewsOnMeetingClosure' related functionnality.
 - Added translation for 'wa_meetingmanager_correct_closed_meeting' and removed translations for 'MeetingConfig.meetingManagerMayCorrectClosedMeeting'.
+
+4.2a4 (2020-03-13)
+------------------
+
+- Merged changes from 4.1.7
+
+4.2a3 (2020-02-21)
+------------------
+
+- Merged changes from 4.1.6
+
+4.2a2 (2020-02-21)
+------------------
+
+- Merged changes from 4.1.5
+
+4.2a1 (2020-02-06)
+------------------
+
+- Adapted translations for mail notification (now that item validation roles are removed, MeetingMember does not exist anymore for example).
+- Added translations for default item WF validation levels defined in MeetingConfig.itemWFValidationLevels.
+- Added translation for MeetingItem.validate_groupsInCharge error message.
 
 4.1.7 (2020-03-12)
 ------------------

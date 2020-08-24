@@ -92,10 +92,6 @@ msgstr "Meeting Item Workflow"
 msgid "Meeting Workflow"
 msgstr "Meeting Workflow"
 
-#. Default: "Meeting Archive Observer"
-msgid "MeetingArchiveObserver"
-msgstr "Meeting Archive Observer"
-
 #. Default: "Meeting Budget Impact Editor"
 msgid "MeetingBudgetImpactEditor"
 msgstr "Meeting Budget Impact Editor"
@@ -181,10 +177,6 @@ msgstr "Item"
 msgid "MeetingManager"
 msgstr "Meeting Manager"
 
-#. Default: "Meeting Member"
-msgid "MeetingMember"
-msgstr "Meeting Member"
-
 #. Default: "Negociation assembly"
 msgid "MeetingNegociation"
 msgstr "Negociation assembly"
@@ -193,14 +185,6 @@ msgstr "Negociation assembly"
 msgid "MeetingObserverGlobal"
 msgstr "Meeting Observer Global"
 
-#. Default: "Meeting Observer Local"
-msgid "MeetingObserverLocal"
-msgstr "Meeting Observer Local"
-
-#. Default: "Meeting Observer Unpublished"
-msgid "MeetingObserverUnpublished"
-msgstr "Meeting Observer Unpublished"
-
 #. Default: "PloneGov assembly"
 msgid "MeetingPga"
 msgstr "PloneGov assembly"
@@ -208,10 +192,6 @@ msgstr "PloneGov assembly"
 #. Default: "PloneMeeting assembly"
 msgid "MeetingPma"
 msgstr "PloneMeeting assembly"
-
-#. Default: "Meeting Reviewer"
-msgid "MeetingReviewer"
-msgstr "Meeting Reviewer"
 
 #. Default: "Advice Committee assembly"
 msgid "Meetingadvice-committee"
@@ -407,6 +387,26 @@ msgstr "Back to 'Pre-validated'"
 msgid "backToProposed"
 msgstr "Back to 'Proposed'"
 
+#. Default: "Back to 'Proposed to level 1'"
+msgid "backToProposedToValidationLevel1"
+msgstr "Back to 'Proposed to level 1'"
+
+#. Default: "Back to 'Proposed to level 2'"
+msgid "backToProposedToValidationLevel2"
+msgstr "Back to 'Proposed to level 2'"
+
+#. Default: "Back to 'Proposed to level 3'"
+msgid "backToProposedToValidationLevel3"
+msgstr "Back to 'Proposed to level 3'"
+
+#. Default: "Back to 'Proposed to level 4'"
+msgid "backToProposedToValidationLevel4"
+msgstr "Back to 'Proposed to level 4'"
+
+#. Default: "Back to 'Proposed to level 5'"
+msgid "backToProposedToValidationLevel5"
+msgstr "Back to 'Proposed to level 5'"
+
 #. Default: "Back to 'Published'"
 msgid "backToPublished"
 msgstr "Back to 'Published'"
@@ -450,6 +450,10 @@ msgstr "Back to proposing group from proposed"
 #. Default: "Back to proposing group (proposed) from prevalidated"
 msgid "backTo_returned_to_proposing_group_proposed_from_returned_to_proposing_group_prevalidated"
 msgstr "Back to proposing group (proposed) from prevalidated"
+
+#. Default: "Validate"
+msgid "backTo_validated_from_waiting_advices"
+msgstr ""
 
 #. Default: "Base View"
 msgid "base_view"
@@ -618,11 +622,11 @@ msgid "description_copyright"
 msgstr "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
 
 # Meeting-related vocabulary
-#. Default: ""
+#. Default: " "
 msgid "description_edit_meeting"
 msgstr " "
 
-#. Default: ""
+#. Default: " "
 msgid "description_edit_meetingitem"
 msgstr " "
 
@@ -679,6 +683,26 @@ msgstr "Archived"
 #. Default: "Created"
 msgid "itemcreated"
 msgstr "Created"
+
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4__or__proposedToValidationLevel5_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1_waiting_advices"
+msgstr ""
 
 #. Default: "Waiting advices (itemcreated)"
 msgid "itemcreated_waiting_advices"
@@ -772,9 +796,69 @@ msgstr "Waiting advices (prevalidated)"
 msgid "propose"
 msgstr "Propose"
 
+#. Default: "Propose to level 1"
+msgid "proposeToValidationLevel1"
+msgstr "Propose to level 1"
+
+#. Default: "Propose to level 2"
+msgid "proposeToValidationLevel2"
+msgstr "Propose to level 2"
+
+#. Default: "Propose to level 3"
+msgid "proposeToValidationLevel3"
+msgstr "Propose to level 3"
+
+#. Default: "Propose to level 4"
+msgid "proposeToValidationLevel4"
+msgstr "Propose to level 4"
+
+#. Default: "Propose to level 5"
+msgid "proposeToValidationLevel5"
+msgstr "Propose to level 5"
+
 #. Default: "Proposed"
 msgid "proposed"
 msgstr "Proposed"
+
+#. Default: "Proposed to level 1"
+msgid "proposedToValidationLevel1"
+msgstr "Proposed to level 1"
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4__or__proposedToValidationLevel5_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2_waiting_advices"
+msgstr ""
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1_waiting_advices"
+msgstr ""
+
+#. Default: "Proposed to level 2"
+msgid "proposedToValidationLevel2"
+msgstr "Proposed to level 2"
+
+#. Default: "Proposed to level 3"
+msgid "proposedToValidationLevel3"
+msgstr "Proposed to level 3"
+
+#. Default: "Proposed to level 4"
+msgid "proposedToValidationLevel4"
+msgstr "Proposed to level 4"
+
+#. Default: "Proposed to level 5"
+msgid "proposedToValidationLevel5"
+msgstr "Proposed to level 5"
 
 #. Default: "Waiting advices (proposed or prevalidated)"
 msgid "proposed__or__prevalidated_waiting_advices"
@@ -867,16 +951,21 @@ msgid "votes"
 msgstr "Votes"
 
 #. Default: "Ask advices"
+msgid "wait_advices_from"
+msgstr ""
+
+# wait_advices_from_XXX kept for history reasons
+#. Default: "Ask advices"
 msgid "wait_advices_from_itemcreated"
-msgstr "Ask advices"
+msgstr ""
 
 #. Default: "Ask advices"
 msgid "wait_advices_from_prevalidated"
-msgstr "Ask advices"
+msgstr ""
 
 #. Default: "Ask advices"
 msgid "wait_advices_from_proposed"
-msgstr "Ask advices"
+msgstr ""
 
 #. Default: "Waiting advices"
 msgid "waiting_advices"

@@ -2616,19 +2616,19 @@ msgstr ""
 msgid "event_late_item"
 msgstr ""
 
-#. Default: "An item has been inserted into a meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been inserted into a meeting (notify the \"Creators\")"
 msgid "event_item_presented"
 msgstr ""
 
-#. Default: "An item has been removed from a meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been removed from a meeting (notify the \"Creators\")"
 msgid "event_item_unpresented"
 msgstr ""
 
-#. Default: "An item has been delayed (notify the \"MeetingMember\")"
+#. Default: "An item has been delayed (notify the \"Creators\")"
 msgid "event_item_delayed"
 msgstr ""
 
-#. Default: "An item has been postponed to the nexe meeting (notify the \"MeetingMember\")"
+#. Default: "An item has been postponed (notify the \"Creators\")"
 msgid "event_item_postponed_next_meeting"
 msgstr ""
 
@@ -2640,7 +2640,7 @@ msgstr ""
 msgid "event_advice_to_give"
 msgstr ""
 
-#. Default: "An advice was added or updated on an item (notify the \"MeetingMember\")"
+#. Default: "An advice was added or updated on an item (notify the \"Creators\")"
 msgid "event_add_advice"
 msgstr ""
 
@@ -2750,22 +2750,6 @@ msgstr ""
 
 #. Default: "Item states allowing to define advices"
 msgid "PloneMeeting_label_itemAdviceStates"
-msgstr ""
-
-#. Default: "Choose decided state for an item"
-msgid "item_decided_states_descr"
-msgstr ""
-
-#. Default: "Choose positive decided state for an item"
-msgid "item_positive_decided_states_descr"
-msgstr ""
-
-#. Default: "Item decided states"
-msgid "PloneMeeting_label_itemDecidedStates"
-msgstr ""
-
-#. Default: "Item positive decided states"
-msgid "PloneMeeting_label_itemPositiveDecidedStates"
 msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, it will be possible to add an advice on this item.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
@@ -5911,6 +5895,18 @@ msgstr ""
 msgid "This label can not be removed as it is used by some items, for example ${item_url}"
 msgstr ""
 
+#. Default: "You can not disable or remove a line that is currently used by an item in the application, checkout configuration about state \"${item_state}\" that is used for example by item at \"${item_url}\""
+msgid "item_wf_val_states_can_not_be_removed_in_use"
+msgstr ""
+
+#. Default: "Item validation levels"
+msgid "PloneMeeting_label_itemWFValidationLevels"
+msgstr ""
+
+#. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
+msgid "item_wf_validation_levels_descr"
+msgstr ""
+
 #. Default: "Temporary QR code!"
 msgid "Temporary QR code!"
 msgstr ""
@@ -6085,4 +6081,8 @@ msgstr ""
 
 #. Default: "POD template to annex"
 msgid "POD template to annex"
+msgstr ""
+
+#. Default: "Some required advices must still be given before you may validate this item.  Please check other transitions about \"Ask advices\" or unselect asked advices from item to be able to validate."
+msgid "has_required_waiting_advices"
 msgstr ""

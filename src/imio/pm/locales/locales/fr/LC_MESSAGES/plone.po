@@ -89,10 +89,6 @@ msgstr "Workflow Point"
 msgid "Meeting Workflow"
 msgstr "Workflow Séance"
 
-#. Default: "Meeting Archive Observer"
-msgid "MeetingArchiveObserver"
-msgstr ""
-
 #. Default: "Meeting Budget Impact Editor"
 msgid "MeetingBudgetImpactEditor"
 msgstr ""
@@ -178,24 +174,12 @@ msgstr "Point"
 msgid "MeetingManager"
 msgstr "Gestionnaire de séance"
 
-#. Default: "Meeting Member"
-msgid "MeetingMember"
-msgstr ""
-
 #. Default: "Negociation assembly"
 msgid "MeetingNegociation"
 msgstr "Séance"
 
 #. Default: "Meeting Observer Global"
 msgid "MeetingObserverGlobal"
-msgstr ""
-
-#. Default: "Meeting Observer Local"
-msgid "MeetingObserverLocal"
-msgstr ""
-
-#. Default: "Meeting Observer Unpublished"
-msgid "MeetingObserverUnpublished"
 msgstr ""
 
 #. Default: "PloneGov assembly"
@@ -205,10 +189,6 @@ msgstr "Assemblée PloneGov"
 #. Default: "PloneMeeting assembly"
 msgid "MeetingPma"
 msgstr "Assemblée PloneMeeting"
-
-#. Default: "Meeting Reviewer"
-msgid "MeetingReviewer"
-msgstr ""
 
 #. Default: "Advice Committee assembly"
 msgid "Meetingadvice-committee"
@@ -404,6 +384,26 @@ msgstr "Remettre en \"Pré-validé\""
 msgid "backToProposed"
 msgstr "Remettre en \"Proposé\""
 
+#. Default: "Back to 'Proposed to level 1'"
+msgid "backToProposedToValidationLevel1"
+msgstr "Renvoyer au N+1"
+
+#. Default: "Back to 'Proposed to level 2'"
+msgid "backToProposedToValidationLevel2"
+msgstr "Renvoyer au N+2"
+
+#. Default: "Back to 'Proposed to level 3'"
+msgid "backToProposedToValidationLevel3"
+msgstr "Renvoyer au N+3"
+
+#. Default: "Back to 'Proposed to level 4'"
+msgid "backToProposedToValidationLevel4"
+msgstr "Renvoyer au N+4"
+
+#. Default: "Back to 'Proposed to level 5'"
+msgid "backToProposedToValidationLevel5"
+msgstr "Renvoyer au N+5"
+
 #. Default: "Back to 'Published'"
 msgid "backToPublished"
 msgstr "Remettre en \"Publié\""
@@ -447,6 +447,10 @@ msgstr "Remettre en \"À corriger\""
 #. Default: "Back to proposing group (proposed) from prevalidated"
 msgid "backTo_returned_to_proposing_group_proposed_from_returned_to_proposing_group_prevalidated"
 msgstr "Remettre en \"À corriger (proposé)\""
+
+#. Default: "Validate"
+msgid "backTo_validated_from_waiting_advices"
+msgstr "Valider"
 
 #. Default: "Base View"
 msgid "base_view"
@@ -615,11 +619,11 @@ msgid "description_copyright"
 msgstr "Cette application est maintenue par <a href='http://www.imio.be'>IMIO</a>, membre de la communauté <a href='http://www.plonegov.org'>PloneGov</a>."
 
 # Meeting-related vocabulary
-#. Default: ""
+#. Default: " "
 msgid "description_edit_meeting"
 msgstr " "
 
-#. Default: ""
+#. Default: " "
 msgid "description_edit_meetingitem"
 msgstr " "
 
@@ -676,6 +680,26 @@ msgstr "Archivé"
 #. Default: "Created"
 msgid "itemcreated"
 msgstr "En création"
+
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4__or__proposedToValidationLevel5_waiting_advices"
+msgstr "En attente des avis"
+
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4_waiting_advices"
+msgstr "En attente des avis"
+
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3_waiting_advices"
+msgstr "En attente des avis"
+
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2_waiting_advices"
+msgstr "En attente des avis"
+
+#. Default: "Waiting advices"
+msgid "itemcreated__or__proposedToValidationLevel1_waiting_advices"
+msgstr "En attente des avis"
 
 #. Default: "Waiting advices (itemcreated)"
 msgid "itemcreated_waiting_advices"
@@ -769,9 +793,69 @@ msgstr "En attente des avis (Pré-validé)"
 msgid "propose"
 msgstr "Proposer"
 
+#. Default: "Propose to level 1"
+msgid "proposeToValidationLevel1"
+msgstr "Proposer au N+1"
+
+#. Default: "Propose to level 2"
+msgid "proposeToValidationLevel2"
+msgstr "Proposer au N+2"
+
+#. Default: "Propose to level 3"
+msgid "proposeToValidationLevel3"
+msgstr "Proposer au N+3"
+
+#. Default: "Propose to level 4"
+msgid "proposeToValidationLevel4"
+msgstr "Proposer au N+4"
+
+#. Default: "Propose to level 5"
+msgid "proposeToValidationLevel5"
+msgstr "Proposer au N+5"
+
 #. Default: "Proposed"
 msgid "proposed"
 msgstr "Proposé"
+
+#. Default: "Proposed to level 1"
+msgid "proposedToValidationLevel1"
+msgstr "Proposé au N+1"
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4__or__proposedToValidationLevel5_waiting_advices"
+msgstr "En attente des avis"
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4_waiting_advices"
+msgstr "En attente des avis"
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3_waiting_advices"
+msgstr "En attente des avis"
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1__or__proposedToValidationLevel2_waiting_advices"
+msgstr "En attente des avis"
+
+#. Default: "Waiting advices"
+msgid "proposedToValidationLevel1_waiting_advices"
+msgstr "En attente des avis"
+
+#. Default: "Proposed to level 2"
+msgid "proposedToValidationLevel2"
+msgstr "Proposé au N+2"
+
+#. Default: "Proposed to level 3"
+msgid "proposedToValidationLevel3"
+msgstr "Proposé au N+3"
+
+#. Default: "Proposed to level 4"
+msgid "proposedToValidationLevel4"
+msgstr "Proposé au N+4"
+
+#. Default: "Proposed to level 5"
+msgid "proposedToValidationLevel5"
+msgstr "Proposé au N+5"
 
 #. Default: "Waiting advices (proposed or prevalidated)"
 msgid "proposed__or__prevalidated_waiting_advices"
@@ -863,6 +947,11 @@ msgstr "Validé"
 msgid "votes"
 msgstr "Votes"
 
+#. Default: "Ask advices"
+msgid "wait_advices_from"
+msgstr "Demander les avis"
+
+# wait_advices_from_XXX kept for history reasons
 #. Default: "Ask advices"
 msgid "wait_advices_from_itemcreated"
 msgstr "Demander les avis"
