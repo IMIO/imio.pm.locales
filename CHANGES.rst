@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b1 (unreleased)
+4.2b1 (2020-08-24)
 ------------------
 
 - Added translation for `has_required_waiting_advices`.
