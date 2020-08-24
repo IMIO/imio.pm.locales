@@ -1236,10 +1236,6 @@ msgstr "États des points dans lesquels les groupes en copie peuvent les voir"
 msgid "PloneMeeting_label_itemCreatedOnlyUsingTemplate"
 msgstr "Les points sont créés uniquement depuis un modèle"
 
-#. Default: "Item decided states"
-msgid "PloneMeeting_label_itemDecidedStates"
-msgstr "États des points décidés"
-
 #. Default: "Description"
 msgid "PloneMeeting_label_itemDescription"
 msgstr "Description"
@@ -1275,10 +1271,6 @@ msgstr "États dans lesquels un point pourra être manuellement envoyé vers les
 #. Default: "Number"
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Numéro"
-
-#. Default: "Item positive decided states"
-msgid "PloneMeeting_label_itemPositiveDecidedStates"
-msgstr "États des points décidés positivement"
 
 #. Default: "Item reference"
 msgid "PloneMeeting_label_itemReference"
@@ -3956,10 +3948,6 @@ msgstr "Quand un point est dans un des états que vous sélectionnez ici, il ser
 msgid "item_created_only_using_template_descr"
 msgstr "Si vous cochez cette case, les créateurs de points devront obligatoirement sélectionner un modèle pour créer un nouveau point, ils ne pourront plus créer un point vierge."
 
-#. Default: "Choose decided state for an item"
-msgid "item_decided_states_descr"
-msgstr "Choisissez les états dans lesquels les points sont considérés \"décidés\"."
-
 #. Default: "No move occurred because you specified the same item number."
 msgid "item_did_not_move"
 msgstr "Aucun déplacement n'a eu lieu."
@@ -4047,10 +4035,6 @@ msgstr "Vous n'avez pas accès au numéro de point demandé."
 #. Default: "You do not have access to the item you tried to access, you have been redirected to the closest accessible item."
 msgid "item_number_not_accessible_redirected_to_closest_item"
 msgstr "Vous n'avez pas accès au point demandé, vous avez été redirigé vers le point le plus proche."
-
-#. Default: "Choose positive decided state for an item"
-msgid "item_positive_decided_states_descr"
-msgstr "Choisissez les états dans lesquels les points sont considérés \"décidés\" de manière positive."
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."
 msgid "item_reference_format_descr"

@@ -1236,10 +1236,6 @@ msgstr "Item states allowing copy groups to view the item"
 msgid "PloneMeeting_label_itemCreatedOnlyUsingTemplate"
 msgstr "Only create items using item templates"
 
-#. Default: "Item decided states"
-msgid "PloneMeeting_label_itemDecidedStates"
-msgstr "Item decided states"
-
 #. Default: "Description"
 msgid "PloneMeeting_label_itemDescription"
 msgstr "Description"
@@ -1275,10 +1271,6 @@ msgstr "States in which an item may be manually sent to selected other meeting c
 #. Default: "Number"
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Number"
-
-#. Default: "Item positive decided states"
-msgid "PloneMeeting_label_itemPositiveDecidedStates"
-msgstr "Item positive decided states"
 
 #. Default: "Item reference"
 msgid "PloneMeeting_label_itemReference"
@@ -3956,10 +3948,6 @@ msgstr "When an item is in one of the states you choose here, it will be viewabl
 msgid "item_created_only_using_template_descr"
 msgstr "If you check this box, item creators will only be able to create new items using an item template, no more item from scratch."
 
-#. Default: "Choose decided state for an item"
-msgid "item_decided_states_descr"
-msgstr "Choose decided state for an item"
-
 #. Default: "No move occurred because you specified the same item number."
 msgid "item_did_not_move"
 msgstr "No move occurred because you specified the same item number."
@@ -4047,10 +4035,6 @@ msgstr "You do not have access to the item number you entered."
 #. Default: "You do not have access to the item you tried to access, you have been redirected to the closest accessible item."
 msgid "item_number_not_accessible_redirected_to_closest_item"
 msgstr "You do not have access to the item you tried to access, you have been redirected to the closest accessible item."
-
-#. Default: "Choose positive decided state for an item"
-msgid "item_positive_decided_states_descr"
-msgstr "Choose positive decided state for an item"
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."
 msgid "item_reference_format_descr"

@@ -7,6 +7,9 @@ Changelog
 
 - Added translation for `has_required_waiting_advices`.
 - Merged changes from 4.1.17
+- Removed translations for `PloneMeeting_label_itemDecidedStates` and
+  `PloneMeeting_label_itemDecidedStates` as corresponding fields were removed
+  from MeetingConfig.
 
 4.2a5 (2020-06-24)
 ------------------

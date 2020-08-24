@@ -1243,10 +1243,6 @@ msgstr "Estados de temas que permiten copiar grupos para ver el tema"
 msgid "PloneMeeting_label_itemCreatedOnlyUsingTemplate"
 msgstr ""
 
-#. Default: "Item decided states"
-msgid "PloneMeeting_label_itemDecidedStates"
-msgstr "Estados de los temas decididos"
-
 #. Default: "Description"
 msgid "PloneMeeting_label_itemDescription"
 msgstr ""
@@ -1282,10 +1278,6 @@ msgstr ""
 #. Default: "Number"
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Número"
-
-#. Default: "Item positive decided states"
-msgid "PloneMeeting_label_itemPositiveDecidedStates"
-msgstr ""
 
 #. Default: "Item reference"
 msgid "PloneMeeting_label_itemReference"
@@ -4033,10 +4025,6 @@ msgstr "Cuando un tema se encuentra en uno de los estados a los que decide aquí
 msgid "item_created_only_using_template_descr"
 msgstr ""
 
-#. Default: "Choose decided state for an item"
-msgid "item_decided_states_descr"
-msgstr "Seleccione el estado decidido para un tema"
-
 #. Default: "No move occurred because you specified the same item number."
 msgid "item_did_not_move"
 msgstr "Sin mover por que usted especifico el número o este número más uno. Si usted especifica un número X, el tema irá justo antes del tema anterior de número X, y los otros temas se cambiará. Si usted quiere mover un tema al final de la lista, usted debe especificar el número del ultimo tema más uno. Tenga en cuenta que cuando dos temas se muestran en las listas, usted no puede mover los temas desde una lista a la otra."
@@ -4123,10 +4111,6 @@ msgstr ""
 
 #. Default: "You do not have access to the item you tried to access, you have been redirected to the closest accessible item."
 msgid "item_number_not_accessible_redirected_to_closest_item"
-msgstr ""
-
-#. Default: "Choose positive decided state for an item"
-msgid "item_positive_decided_states_descr"
 msgstr ""
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."

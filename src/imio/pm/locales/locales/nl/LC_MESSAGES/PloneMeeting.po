@@ -1238,10 +1238,6 @@ msgstr ""
 msgid "PloneMeeting_label_itemCreatedOnlyUsingTemplate"
 msgstr ""
 
-#. Default: "Item decided states"
-msgid "PloneMeeting_label_itemDecidedStates"
-msgstr ""
-
 #. Default: "Description"
 msgid "PloneMeeting_label_itemDescription"
 msgstr ""
@@ -1277,10 +1273,6 @@ msgstr ""
 #. Default: "Number"
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Nummer"
-
-#. Default: "Item positive decided states"
-msgid "PloneMeeting_label_itemPositiveDecidedStates"
-msgstr ""
 
 #. Default: "Item reference"
 msgid "PloneMeeting_label_itemReference"
@@ -3975,10 +3967,6 @@ msgstr ""
 msgid "item_created_only_using_template_descr"
 msgstr ""
 
-#. Default: "Choose decided state for an item"
-msgid "item_decided_states_descr"
-msgstr ""
-
 #. Default: "No move occurred because you specified the same item number."
 msgid "item_did_not_move"
 msgstr "No move occurred because you specified the item number or this number plus one. If you specify a number X, the item will go just before the previous item having number X, and the other items will be shifted. If you want to move an item at the end of the list, you must specify the number of the last item plus one. Note that when two items lists are shown, you can't move items from one list to the other."
@@ -4065,10 +4053,6 @@ msgstr ""
 
 #. Default: "You do not have access to the item you tried to access, you have been redirected to the closest accessible item."
 msgid "item_number_not_accessible_redirected_to_closest_item"
-msgstr ""
-
-#. Default: "Choose positive decided state for an item"
-msgid "item_positive_decided_states_descr"
 msgstr ""
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."
