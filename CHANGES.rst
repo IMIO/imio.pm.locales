@@ -5,8 +5,7 @@ Changelog
 4.2b2 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Added translation for `To discuss?` faceted filter.
 
 4.2b1 (2020-08-24)
 ------------------
