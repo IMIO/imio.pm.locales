@@ -6,6 +6,7 @@ Changelog
 ------------------
 
 - Added translation for `To discuss?` faceted filter.
+- Added translations for `To top of the page` and `To bottom of the page`.
 
 4.2b1 (2020-08-24)
 ------------------
