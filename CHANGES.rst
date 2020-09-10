@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b2 (unreleased)
+4.2b2 (2020-09-10)
 ------------------
 
 - Added translation for `To discuss?` faceted filter.
