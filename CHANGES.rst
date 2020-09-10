@@ -7,6 +7,7 @@ Changelog
 
 - Added translation for `To discuss?` faceted filter.
 - Added translations for `To top of the page` and `To bottom of the page`.
+- Added translation for `empty_annex_file_content`.
 
 4.2b1 (2020-08-24)
 ------------------
