@@ -5,8 +5,7 @@ Changelog
 4.2b3 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Added translation for `empty_annex_file_content`.
 
 4.2b2 (2020-09-10)
 ------------------

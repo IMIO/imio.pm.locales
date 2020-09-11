@@ -30,6 +30,14 @@ msgstr "Stocker le modèle de document POD généré en tant qu'annexe"
 msgid "store_as_annex_descr"
 msgstr "Si vous sélectionnez un type d'annexe ici, une icône apparaîtra dans l'application à côté de l'icône de génération de ce modèle de document POD qui vous permettra de stocker en tant qu'annexe le document généré.  Prenez soin de sélectionner un type d'annexe qui correspond au type d'élément que vous allez générer (point, séance, avis, ...)."
 
+#. Default: "Store an empty file instead generating a POD template"
+msgid "store_as_annex_empty_file"
+msgstr "Stocker un fichier vide en tant qu'annexe"
+
+#. Default: "When using the \"Store as annex\" functionnality, this will store an empty file instead generating a POD template for performance reasons.  If purpose of this file is onlye to be replaced by the document scanning procedure."
+msgid "store_as_annex_empty_file_descr"
+msgstr "Lors de l'utilisation de \"Stocker le modèle de document POD généré en tant qu'annexe\", ceci permet de stocker un fichier vide au lieu de générer le document POD.  Ceci est bien plus performant et suffit si la finalité de cette action est de remplacer le fichier via la procédure de scanning de documents."
+
 #. Default: "TAL expression to generate title when storing as annex"
 msgid "store_as_annex_title_expr"
 msgstr "Expression au format TAL permettant de générer le titre de l'annexe stockée"

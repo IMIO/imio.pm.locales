@@ -30,6 +30,14 @@ msgstr ""
 msgid "store_as_annex_descr"
 msgstr ""
 
+#. Default: "Store an empty file instead generating a POD template"
+msgid "store_as_annex_empty_file"
+msgstr ""
+
+#. Default: "When using the \"Store as annex\" functionnality, this will store an empty file instead generating a POD template for performance reasons.  If purpose of this file is onlye to be replaced by the document scanning procedure."
+msgid "store_as_annex_empty_file_descr"
+msgstr ""
+
 #. Default: "TAL expression to generate title when storing as annex"
 msgid "store_as_annex_title_expr"
 msgstr ""
