@@ -6,6 +6,7 @@ Changelog
 ------------------
 
 - Added translation for `empty_annex_file_content`.
+- Fixed french translations, replace translation `donneur` by `émetteur` everywhere.
 
 4.2b2 (2020-09-10)
 ------------------

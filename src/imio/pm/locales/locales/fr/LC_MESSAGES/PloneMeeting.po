@@ -1190,7 +1190,7 @@ msgstr "États des points dans lesquels on peut donner un avis"
 
 #. Default: "Item states allowing advisers to continue to view the item"
 msgid "PloneMeeting_label_itemAdviceViewStates"
-msgstr "États des points dans lesquels les donneurs d'avis de ces points peuvent continuer à les voir"
+msgstr "États des points dans lesquels les émetteurs d'avis de ces points peuvent continuer à les voir"
 
 #. Default: "Confidential item annexes are visible for"
 msgid "PloneMeeting_label_itemAnnexConfidentialVisibleFor"
@@ -2241,7 +2241,7 @@ msgstr "Cet avis est considéré \"Non rendu\" car il était toujours en cours d
 
 #. Default: "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
 msgid "advice_hidden_during_redaction_help"
-msgstr "Cet avis est en cours de rédaction par les donneurs d'avis du groupe auquel l'avis a été demandé et n'est pas accessible aux autres groupes."
+msgstr "Cet avis est en cours de rédaction par les émetteurs d'avis du groupe auquel l'avis a été demandé et n'est pas accessible aux autres groupes."
 
 #. Default: "Informations displayed regarding advice are taken from the other item including informations about dates, delay and states."
 msgid "advice_inherited_popup_descr"
@@ -3268,11 +3268,11 @@ msgstr "Une annexe a été ajoutée à un point qui était déjà présenté dan
 
 #. Default: "An advice delay is expired (notify advisers of relevant advice)"
 msgid "event_advice_delay_expired"
-msgstr "Le délai pour rendre un avis est expiré (prévient les donneurs d'avis concernés)"
+msgstr "Le délai pour rendre un avis est expiré (prévient les émetteurs d'avis concernés)"
 
 #. Default: "An advice delay is about to expire (notify advisers of relevant advice)"
 msgid "event_advice_delay_warning"
-msgstr "Le délai pour rendre un avis sera bientôt expiré (prévient les donneurs d'avis concernés)"
+msgstr "Le délai pour rendre un avis sera bientôt expiré (prévient les émetteurs d'avis concernés)"
 
 #. Default: "An advice needs to be given on an item (notify users able to add advice)"
 msgid "event_advice_to_give"
@@ -3530,7 +3530,7 @@ msgstr "Ceci cachera les points liés à un point qui ne sont pas visibles au li
 
 #. Default: "When an advice is given, so when it switch to a state where adviser may not advice it anymore, it is historized.  If you chek this box, every relevant item data (title and rich text fields) will be historized together with the advice."
 msgid "historize_item_data_when_advice_is_given_descr"
-msgstr "Lorsqu'un avis est officiellement rendu, c'est-à-dire lorsqu'il quitte l'état dans lequel les donneurs d'avis peuvent encoder cet avis, ce dernier est historisé.  Si vous cochez cette case, les informations essentielles du point (titre et champs de rexte riche) seront également historisées avec l'avis."
+msgstr "Lorsqu'un avis est officiellement rendu, c'est-à-dire lorsqu'il quitte l'état dans lequel les émetteurs d'avis peuvent encoder cet avis, ce dernier est historisé.  Si vous cochez cette case, les informations essentielles du point (titre et champs de rexte riche) seront également historisées avec l'avis."
 
 #. Default: "For every field you select here, the application will keep track of any change on any item, if it is in one of the \"historizable\" states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
 msgid "historized_item_attrs_descr"
@@ -4895,7 +4895,7 @@ msgstr "Mettre à jour les points et séances de toutes les configurations de s�
 
 #. Default: "Warning: this will update every items and meetings of every configurations.  This action is also available per meeting configuration, if you only changed parameters in one meeting configuration, just execute the action on this meeting configuration!"
 msgid "pm_update_all_local_roles_warning"
-msgstr "Attention: ceci mettra à jour les points et séances pour toutes les configurations de séances.  Cette action est également disponible par configuration de séance, si vous avez changé un paramètre dans une configuration de séance en particulier, utilisez l'action sur la configuration de séance!"
+msgstr "Attention: ceci mettra à jour les points et séances pour toutes les configurations de séances.  Cette action est également disponible par configuration de séance, si vous avez changé un paramètre dans une configuration de séance en particulier, utilisez l'action sur la configuration de séance.  Enfin, l'action par lot \"Mettre à jour les accès\" disponible dans les tableaux de bord de points et séances pour les administrateurs permet d'effectuer la même mise à jour si vous savez quels points et séances sont impactés."
 
 #. Default: "Initialize every existing annex confidentiality"
 msgid "pm_update_annex_confidentiality"
@@ -5717,7 +5717,7 @@ msgstr "Lorsqu'un avis est \"rendu\" et qu'il n'est plus éditable par les émet
 
 #. Default: "The advisers of the group that gave the advice"
 msgid "visible_for_adviser_group"
-msgstr "Les donneurs d'avis du groupe ayant rendu l'avis"
+msgstr "Les émetteurs d'avis du groupe ayant rendu l'avis"
 
 #. Default: "The \"${reader_usecase}\""
 msgid "visible_for_configgroup_"
@@ -5737,7 +5737,7 @@ msgstr "Les 'Super observateurs restreints'"
 
 #. Default: "People to which an advice has been asked on the item"
 msgid "visible_for_reader_advices"
-msgstr "Tous les donneurs d'avis pour lesquels l'avis a été demandé sur le point"
+msgstr "Tous les émetteurs d'avis pour lesquels l'avis a été demandé sur le point"
 
 #. Default: "The copy groups set on the item"
 msgid "visible_for_reader_copy_groups"
