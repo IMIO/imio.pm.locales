@@ -5,8 +5,8 @@ Changelog
 4.1.18 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Backport from 4.2.x:
+  Added translation for `empty_annex_file_content`.
 
 4.1.17 (2020-08-21)
 -------------------
