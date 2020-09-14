@@ -7,6 +7,7 @@ Changelog
 
 - Backport from 4.2.x:
   Added translation for `empty_annex_file_content`.
+- Added translation for `stored_single_item_template_as_annex`.
 
 4.1.17 (2020-08-21)
 -------------------
