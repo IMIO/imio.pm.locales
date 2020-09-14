@@ -3168,7 +3168,7 @@ msgstr "Sub-group \"${suffix}\" is empty"
 
 #. Default: "This file will be replaced by the scan process"
 msgid "empty_annex_file_content"
-msgstr ""
+msgstr "This file will be replaced by the scan process"
 
 #. Default: " "
 msgid "empty_description"
@@ -3356,7 +3356,7 @@ msgstr "<span style='color: red;'>This field is only editable and viewable by me
 
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
 msgid "field_vieawable_by_everyone_descr"
-msgstr ""
+msgstr "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
 
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
 msgid "file_required"
@@ -5427,6 +5427,10 @@ msgstr "Can not store annex using annex type selected in the configuration.  Ple
 #. Default: "Stored ${number_of_annexes} annexes."
 msgid "stored_item_template_as_annex"
 msgstr "Stored ${number_of_annexes} annexes."
+
+#. Default: "The annex was stored."
+msgid "stored_single_item_template_as_annex"
+msgstr "The annex was stored."
 
 #. Default: "You can not remove a sub type that has already been used in the application.  You removed the sub type with title \"${sub_type_title}\", it is in use for example by item at ${item_url}.  Please add it back (or click on the \"Edit\" tab here above to retrieve old values).  If you need to deactivate a sub type, you can uncheck the \"Active?\" check box."
 msgid "sub_type_can_not_remove_used_row"
