@@ -420,9 +420,9 @@ msgstr "Avertissement jours fériés (ne pas supprimer!)"
 msgid "How many items to list in each topic."
 msgstr "Nombre d'éléments à afficher par recherche dans le portlet."
 
-#. Default: "If this contact is a default signer, select signature number"
-msgid "If this contact is a default signer, select signature number"
-msgstr "Si cette fonction occupée est signataire par défaut, sélectionnez un numéro de signature"
+#. Default: "If this contact is a default signer, select signature number."
+msgid "If this contact is a default signer, select signature number."
+msgstr "Si cette fonction occupée est signataire par défaut, sélectionnez un numéro de signature."
 
 #. Default: "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered \"Not given, was under edition\".  A manager will be able to publish it nevertheless."
 msgid "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
@@ -1895,6 +1895,10 @@ msgstr "Enlever l'avis hérité"
 msgid "Remove inherited advice and ask advice locally"
 msgstr "Enlever l'avis hérité et demander l'avis à nouveau sur ce point"
 
+#. Default: "Represented organizations"
+msgid "Represented organizations"
+msgstr "Organisations représentées"
+
 #. Default: "Searches"
 msgid "Searches"
 msgstr "Recherches"
@@ -1930,6 +1934,10 @@ msgstr "Sélectionnez dans la liste le type d'élément que vous souhaitez crée
 #. Default: "Select an organization, most of time, there is one single organization, search for \"My organization\"."
 msgid "Select an organization, most of time, there is one single organization, search for \"My organization\"."
 msgstr "Sélectionnez une organisation, par défaut l'organisation \"Mon organisation\" est sélectionnée."
+
+#. Default: "Select organizations the current held position is representative for."
+msgid "Select organizations the current held position is representative for."
+msgstr "Sélectionnez les organisations représentées par cette fonction occupée (et la personne liée).  Ceci permet de formaliser un lien direct entre une organisation et une personne/fonction occupée."
 
 #. Default: "Select the signature number, keep signatures ordered by number."
 msgid "Select the signature number, keep signatures ordered by number."
