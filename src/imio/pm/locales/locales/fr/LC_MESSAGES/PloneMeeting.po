@@ -2628,6 +2628,10 @@ msgstr "Vous ne pouvez pas accéder à ce point"
 msgid "can_not_define_two_rows_for_same_meeting_config"
 msgstr "Vous ne pouvez pas définir 2 lignes pour le même type de séance!"
 
+#. Default: "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
+msgid "can_not_remove_attendee_redefined_on_items"
+msgstr "Vous ne pouvez pas désélectionner un membre d'assemblée qui a été redéfini sur un point de la séance.  Vérifiez \"${attendee_title}\"."
+
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "Ce point ne peut plus être renvoyé vers les gestionnaires de séance car la séance dans laquelle ce point est présenté est dans un état qui ne l'autorise pas (${meetingState})."

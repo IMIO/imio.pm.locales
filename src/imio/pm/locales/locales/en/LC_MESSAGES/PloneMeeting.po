@@ -2628,6 +2628,10 @@ msgstr "You can not access this item"
 msgid "can_not_define_two_rows_for_same_meeting_config"
 msgstr "You can not define two rows for the same meeting configuration!"
 
+#. Default: "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
+msgid "can_not_remove_attendee_redefined_on_items"
+msgstr "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
+
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
