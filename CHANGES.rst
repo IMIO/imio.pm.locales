@@ -9,6 +9,7 @@ Changelog
 - Fixed french translations, replace translation `donneur` by `émetteur` everywhere.
 - Added translation for `stored_single_item_template_as_annex`.
 - Added translations for `held_position.represented_organizations` related functionnality.
+- Added translations for meeting attendees validation error message.
 
 4.2b2 (2020-09-10)
 ------------------

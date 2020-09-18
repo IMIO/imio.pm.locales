@@ -422,7 +422,7 @@ msgstr "How many items to list in each topic."
 
 #. Default: "If this contact is a default signer, select signature number."
 msgid "If this contact is a default signer, select signature number."
-msgstr ""
+msgstr "If this contact is a default signer, select signature number."
 
 #. Default: "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered \"Not given, was under edition\".  A manager will be able to publish it nevertheless."
 msgid "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered 'Not given, was under edition'.  A manager will be able to publish it nevertheless."
@@ -1299,7 +1299,7 @@ msgstr "Purpose"
 
 #. Default: "Item validation levels"
 msgid "PloneMeeting_label_itemWFValidationLevels"
-msgstr ""
+msgstr "Item validation levels"
 
 #. Default: "An item containing given advice is not deletable"
 msgid "PloneMeeting_label_itemWithGivenAdviceIsNotDeletable"
@@ -1897,7 +1897,7 @@ msgstr "Remove inherited advice and ask advice locally"
 
 #. Default: "Represented organizations"
 msgid "Represented organizations"
-msgstr ""
+msgstr "Represented organizations"
 
 #. Default: "Searches"
 msgid "Searches"
@@ -1937,7 +1937,7 @@ msgstr "Select an organization, most of time, there is one single organization, 
 
 #. Default: "Select organizations the current held position is representative for."
 msgid "Select organizations the current held position is representative for."
-msgstr ""
+msgstr "Select organizations the current held position is representative for."
 
 #. Default: "Select the signature number, keep signatures ordered by number."
 msgid "Select the signature number, keep signatures ordered by number."
@@ -2598,7 +2598,7 @@ msgstr "Yes"
 
 #. Default: "Go to bottom of the page"
 msgid "bottom_of_page"
-msgstr ""
+msgstr "Go to bottom of the page"
 
 #. Default: "This item is not budget related."
 msgid "budget_related_no_edit"
@@ -2635,6 +2635,10 @@ msgstr "You can not access this item"
 #. Default: "You can not define two rows for the same meeting configuration!"
 msgid "can_not_define_two_rows_for_same_meeting_config"
 msgstr "You can not define two rows for the same meeting configuration!"
+
+#. Default: "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
+msgid "can_not_remove_attendee_redefined_on_items"
+msgstr "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
@@ -3472,7 +3476,7 @@ msgstr "User interface"
 
 #. Default: "Some required advices must still be given before you may validate this item.  Please check other transitions about \"Ask advices\" or unselect asked advices from item to be able to validate."
 msgid "has_required_waiting_advices"
-msgstr ""
+msgstr "Some required advices must still be given before you may validate this item.  Please check other transitions about \"Ask advices\" or unselect asked advices from item to be able to validate."
 
 # Misc
 #. Default: "Actions"
@@ -4095,11 +4099,11 @@ msgstr "Item up workflow again"
 
 #. Default: "You can not disable or remove a line that is currently used by an item in the application, checkout configuration about state \"${item_state}\" that is used for example by item at \"${item_url}\""
 msgid "item_wf_val_states_can_not_be_removed_in_use"
-msgstr ""
+msgstr "You can not disable or remove a line that is currently used by an item in the application, checkout configuration about state \"${item_state}\" that is used for example by item at \"${item_url}\""
 
 #. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
 msgid "item_wf_validation_levels_descr"
-msgstr ""
+msgstr "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
 
 #. Default: "If checked, an item that contains given advices will no more be deletable, except by MeetingManagers and Managers."
 msgid "item_with_given_advice_is_not_deletable_descr"
@@ -5610,7 +5614,7 @@ msgstr "If, for some reason (ie, some specific reverse proxy configuration), Zop
 
 #. Default: "Back to top of the page"
 msgid "top_of_page"
-msgstr ""
+msgstr "Back to top of the page"
 
 #. Default: "The result shows only elements you are allowed to view."
 msgid "topic_description"
