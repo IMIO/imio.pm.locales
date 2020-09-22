@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-4.1.19 (unreleased)
--------------------
+4.1.18.1 (unreleased)
+---------------------
 
 - Backport from 4.2.x:
   Added translations for meeting attendees validation error message.
