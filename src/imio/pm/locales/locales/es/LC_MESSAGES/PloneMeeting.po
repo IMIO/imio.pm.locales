@@ -962,9 +962,9 @@ msgstr "Limites para la validación de temas"
 msgid "PloneMeeting_label_decision"
 msgstr "Decisión"
 
-#. Default: "Decision"
-msgid "PloneMeeting_label_decision2"
-msgstr "Decisión"
+#. Default: "Decision (end)"
+msgid "PloneMeeting_label_decisionEnd"
+msgstr ""
 
 #. Default: "This annex type is specifically linked to the decision taken on this item"
 msgid "PloneMeeting_label_decisionRelated"
@@ -997,10 +997,6 @@ msgstr "Diferir el tratamiento de las notificaciones"
 #. Default: "Delay can not end following days"
 msgid "PloneMeeting_label_delayUnavailableEndDays"
 msgstr ""
-
-#. Default: "Deliberation (motivation and decision)"
-msgid "PloneMeeting_label_deliberation"
-msgstr "Deliberación (motivación y decisión)"
 
 #. Default: "Description"
 msgid "PloneMeeting_label_description"
@@ -1425,6 +1421,14 @@ msgstr ""
 
 #. Default: "MeetingManagers notes"
 msgid "PloneMeeting_label_meetingManagersNotes"
+msgstr ""
+
+#. Default: "MeetingManagers notes (end)"
+msgid "PloneMeeting_label_meetingManagersNotesEnd"
+msgstr ""
+
+#. Default: "MeetingManagers notes (suite)"
+msgid "PloneMeeting_label_meetingManagersNotesSuite"
 msgstr ""
 
 #. Default: "Meeting number (sequence number automatically attributed)"

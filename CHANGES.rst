@@ -11,6 +11,10 @@ Changelog
 - Added translations for `held_position.represented_organizations` related functionnality.
 - Added translations for meeting attendees validation error message.
 - Added translations for `waiting_advices` item WF prettylink icon down/up WF.
+- Added translations for new fields `MeetingItem.decisionEnd`,
+  `MeetingItem.meetingManagersNotesSuite`, `MeetingItem.meetingManagersNotesEnd` and
+  `MeetingItem.otherMeetingConfigsClonableToFieldDecisionEnd`.
+  [gbastien]
 
 4.2b2 (2020-09-10)
 ------------------
