@@ -2376,8 +2376,52 @@ msgstr ""
 msgid "wa_pre_validation"
 msgstr ""
 
-#. Default: "Wait advices"
+#. Default: "Wait advices (base: from custom configuration, from itemcreated/proposed, select who may send back)"
 msgid "wa_waiting_advices"
+msgstr ""
+
+#. Default: "Wait advices (complementary: advice askable from every validation levels)"
+msgid "wa_waiting_advices_from_every_val_levels"
+msgstr ""
+
+#. Default: "Wait advices (complementary: advice askable from before last validation levels)"
+msgid "wa_waiting_advices_from_before_last_val_level"
+msgstr ""
+
+#. Default: "Wait advices (complementary: advice askable from last validation levels)"
+msgid "wa_waiting_advices_from_last_val_level"
+msgstr ""
+
+#. Default: "Wait advices (complementary: when item in state \"Waiting advices\", item may be sent back by advisers)"
+msgid "wa_waiting_advices_adviser_send_back"
+msgstr ""
+
+#. Default: "Wait advices (complementary: when item in state \"Waiting advices\", item may be sent back by propsosing group)"
+msgid "wa_waiting_advices_proposing_group_send_back"
+msgstr ""
+
+#. Default: "Wait advices (complementary: when item in state \"Waiting advices\", item may be validated by advisers)"
+msgid "wa_waiting_advices_adviser_may_validate"
+msgstr ""
+
+#. Default: "Wait advices (complementary: in last item validation state, no \"Wait advices\" transition must be available, meaning that every advices are given in order to validate the item)"
+msgid "wa_waiting_advices_given_advices_required_to_validate"
+msgstr ""
+
+#. Default: "Item back to presented from validation state \"${item_state}\""
+msgid "wa_presented_item_back_to_validation_state"
+msgstr ""
+
+#. Default: "Accepted but modified"
+msgid "wa_accepted_but_modified"
+msgstr ""
+
+#. Default: "Pre-accepted"
+msgid "wa_pre_accepted"
+msgstr ""
+
+#. Default: "Delayed"
+msgid "wa_delayed"
 msgstr ""
 
 #. Default: "Postpone next meeting"
@@ -2446,18 +2490,6 @@ msgstr ""
 
 #. Default: "Creator may edit its items unless items are definitively decided"
 msgid "wa_creator_edits_unless_closed"
-msgstr ""
-
-#. Default: "Send a \"Presented\" item back to state \"Itemcreated\""
-msgid "wa_presented_item_back_to_itemcreated"
-msgstr ""
-
-#. Default: "Send a \"Presented\" item back to state \"Proposed\""
-msgid "wa_presented_item_back_to_proposed"
-msgstr ""
-
-#. Default: "Send a \"Presented\" item back to state \"Pre-validated\""
-msgid "wa_presented_item_back_to_prevalidated"
 msgstr ""
 
 #. Default: "Return to proposing group for corrections"
@@ -5911,6 +5943,10 @@ msgstr ""
 msgid "item_wf_val_states_can_not_be_removed_in_use"
 msgstr ""
 
+#. Default: "You can not disable or remove a line that is currently used by a parameter in this configuration, checkout configuration about state \"${state_or_transition}\" that is used for example by parameter \"${cfg_field_name}\""
+msgid "item_wf_val_states_can_not_be_removed_in_use_config"
+msgstr ""
+
 #. Default: "Item validation levels"
 msgid "PloneMeeting_label_itemWFValidationLevels"
 msgstr ""
@@ -6125,4 +6161,16 @@ msgstr ""
 
 #. Default: "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"
+msgstr ""
+
+#. Default: "You can not remove/disable a function that is used by an item in the application.  Please check ${item_url}."
+msgid "can_not_delete_plone_group_meetingitem"
+msgstr ""
+
+#. Default: "You can not remove/disable a function that is used by an item in the configuration.  Please check ${item_url}."
+msgid "can_not_delete_plone_group_config_meetingitem"
+msgstr ""
+
+#. Default: "You can not remove/disable a function that is used by a parameter of a configuration.  Please check ${cfg_title}."
+msgid "can_not_delete_plone_group_meetingconfig"
 msgstr ""
