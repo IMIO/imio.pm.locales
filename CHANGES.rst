@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b3 (unreleased)
+4.2b3 (2020-10-02)
 ------------------
 
 - Added translation for `empty_annex_file_content`.
