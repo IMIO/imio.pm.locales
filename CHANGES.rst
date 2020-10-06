@@ -5,8 +5,7 @@ Changelog
 4.2b4 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Better french translation for `only_for_meeting_managers_descr`.
 
 4.2b3 (2020-10-02)
 ------------------
