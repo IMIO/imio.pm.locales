@@ -2668,6 +2668,10 @@ msgstr "Vous ne pouvez pas sélectionner un avis qui est déjà hérité sur le 
 msgid "can_not_select_several_optional_advisers_same_group"
 msgstr "Vous ne pouvez pas sélectionner plusieurs avis optionnels pour le même groupe.  Sélectionnez un type d'avis pour le même groupe parmi ceux disponibles."
 
+#. Default: "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
+msgid "can_not_switch_polltype_votes_encoded"
+msgstr "Vous ne pouvez pas changer la forme du vote (public/secret/pas de vote) car des votes ont déjà été encodés!  Supprimez les votes encodés y compris le premier vote avant de pouvoir changer la forme du vote."
+
 #. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
 msgid "can_not_unselect_already_given_advice"
 msgstr "Vous ne pouvez pas désélectionner un avis optionnel qui a déjà été rendu.  Vérifiez l'avis \"${removedAdviser}\"."
@@ -4697,6 +4701,10 @@ msgstr "Rien à faire."
 msgid "notify_users_able_to_view_element"
 msgstr "prévient les utilisateurs capables de voir l'élément"
 
+#. Default: "Total number of voters"
+msgid "number_of_voters"
+msgstr "Nombre total de votants"
+
 #. Default: "Observer"
 msgid "observer"
 msgstr "Observateur"
@@ -4981,9 +4989,17 @@ msgstr "Dans cette section, gérez les modèles vous permettant de produire des 
 msgid "polltype_freehand"
 msgstr "À main levée"
 
+#. Default: "Mechanical"
+msgid "polltype_mechanical"
+msgstr "Exprimé mécaniquement"
+
 #. Default: "No vote"
 msgid "polltype_no_vote"
 msgstr "Pas de vote"
+
+#. Default: "Out loud"
+msgid "polltype_out_loud"
+msgstr "À voix haute"
 
 #. Default: "Secret"
 msgid "polltype_secret"
@@ -5801,7 +5817,7 @@ msgstr "Les membres du sous-groupe \"${meeting_group_suffix}\" du groupe proposa
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name \"item\"). If it returns False, no vote may occur on the item."
 msgid "vote_condition_descr"
-msgstr "L'expression Python que vous pouvez définir ici sera évaluée sur chaque point individuel (donné à l'expression sous le nom \"item\"). Si elle retourne \"False\", cela signifie qu'aucun vote ne pourra avoir lieu sur ce point."
+msgstr "Encodez une expression TAL qui complète le condition permettant de définir quand un point est \"votable\".  Par défaut tant que le point est dans une séance et modifiable par le gestionnaire de séance."
 
 #. Default: "Number of votes"
 msgid "vote_count"

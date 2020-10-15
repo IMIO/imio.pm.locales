@@ -6,6 +6,7 @@ Changelog
 ------------------
 
 - Better french translation for `only_for_meeting_managers_descr`.
+- Added translations for `votes` functionnality.
 
 4.2b3 (2020-10-02)
 ------------------

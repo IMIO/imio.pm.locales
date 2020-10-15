@@ -5039,6 +5039,14 @@ msgstr ""
 msgid "polltype_freehand"
 msgstr ""
 
+#. Default: "Out loud"
+msgid "polltype_out_loud"
+msgstr ""
+
+#. Default: "Mechanical"
+msgid "polltype_mechanical"
+msgstr ""
+
 #. Default: "No vote"
 msgid "polltype_no_vote"
 msgstr ""
@@ -6173,4 +6181,12 @@ msgstr ""
 
 #. Default: "You can not remove/disable a function that is used by a parameter of a configuration.  Please check ${cfg_title}."
 msgid "can_not_delete_plone_group_meetingconfig"
+msgstr ""
+
+#. Default: "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
+msgid "can_not_switch_polltype_votes_encoded"
+msgstr ""
+
+#. Default: "Total number of voters"
+msgid "number_of_voters"
 msgstr ""

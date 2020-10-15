@@ -2668,6 +2668,10 @@ msgstr "You can not select an adviser that is already displayed on the item as a
 msgid "can_not_select_several_optional_advisers_same_group"
 msgstr "You can not select several values for the same group.  Please select a single value for the same group among available ones."
 
+#. Default: "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
+msgid "can_not_switch_polltype_votes_encoded"
+msgstr ""
+
 #. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
 msgid "can_not_unselect_already_given_advice"
 msgstr "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
@@ -4698,6 +4702,10 @@ msgstr "Nothing to do."
 msgid "notify_users_able_to_view_element"
 msgstr "notify users able to view the element"
 
+#. Default: "Total number of voters"
+msgid "number_of_voters"
+msgstr ""
+
 #. Default: "Observer"
 msgid "observer"
 msgstr "Observer"
@@ -4982,9 +4990,17 @@ msgstr "This section allows you manage the document templates that you may speci
 msgid "polltype_freehand"
 msgstr "Freehand"
 
+#. Default: "Mechanical"
+msgid "polltype_mechanical"
+msgstr ""
+
 #. Default: "No vote"
 msgid "polltype_no_vote"
 msgstr "No vote"
+
+#. Default: "Out loud"
+msgid "polltype_out_loud"
+msgstr ""
 
 #. Default: "Secret"
 msgid "polltype_secret"

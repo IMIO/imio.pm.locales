@@ -2687,6 +2687,10 @@ msgstr ""
 msgid "can_not_select_several_optional_advisers_same_group"
 msgstr ""
 
+#. Default: "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
+msgid "can_not_switch_polltype_votes_encoded"
+msgstr ""
+
 #. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
 msgid "can_not_unselect_already_given_advice"
 msgstr ""
@@ -4763,6 +4767,10 @@ msgstr "Nichts zu unternehmen."
 msgid "notify_users_able_to_view_element"
 msgstr ""
 
+#. Default: "Total number of voters"
+msgid "number_of_voters"
+msgstr ""
+
 #. Default: "Observer"
 msgid "observer"
 msgstr ""
@@ -5051,8 +5059,16 @@ msgstr "Dieser Abschnitt gibt Ihnen die Möglichkeit die Vorlagen von Dokumenten
 msgid "polltype_freehand"
 msgstr ""
 
+#. Default: "Mechanical"
+msgid "polltype_mechanical"
+msgstr ""
+
 #. Default: "No vote"
 msgid "polltype_no_vote"
+msgstr ""
+
+#. Default: "Out loud"
+msgid "polltype_out_loud"
 msgstr ""
 
 #. Default: "Secret"
