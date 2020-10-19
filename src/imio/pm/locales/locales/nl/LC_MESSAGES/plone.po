@@ -651,6 +651,18 @@ msgstr " Omschrijving aanpassen meeting"
 msgid "description_edit_meetingitem"
 msgstr " beschrijving aanpassing agendapunt"
 
+#. Default: "Groups are logical collections of users, such as departments and business units. Groups are not directly related to permissions on a global level, you normally use Roles for that - and let certain Groups have a particular role."
+#: CMFPlone/skins/plone_deprecated/prefs_groups_overview.cpt:68
+#: plone.app.controlpanel/plone/app/controlpanel/usergroups_groupsoverview.pt:69
+msgid "description_groups_management"
+msgstr ""
+
+#. Default: "Click the user's name to see and change the details of a specific user. You can also add and remove users."
+#: CMFPlone/skins/plone_deprecated/prefs_users_overview.cpt:60
+#: plone.app.controlpanel/plone/app/controlpanel/usergroups_usersoverview.pt:64
+msgid "description_user_management"
+msgstr ""
+
 #. Default: "Documents"
 msgid "doc"
 msgstr "Documenten"
@@ -753,6 +765,12 @@ msgstr "Bewerken"
 #. Default: "Delete"
 msgid "label_remove"
 msgstr "Verwijderen"
+
+#. Default: "Remove user"
+#: CMFPlone/skins/plone_deprecated/prefs_users_overview.cpt:137
+#: plone.app.controlpanel/plone/app/controlpanel/usergroups_usersoverview.pt:141
+msgid "listingheader_remove_user"
+msgstr ""
 
 #. Default: "Emails"
 msgid "mail"
