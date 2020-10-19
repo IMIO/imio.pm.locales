@@ -5,8 +5,9 @@ Changelog
 4.1.18.2 (unreleased)
 ---------------------
 
-- Nothing changed yet.
-
+- Backport from 4.2.x:
+  Adapted translations regarding message displayed in Plone users and groups management
+  as we greyed actions Remove user/Remove group.
 
 4.1.18.1 (2020-09-22)
 ---------------------
