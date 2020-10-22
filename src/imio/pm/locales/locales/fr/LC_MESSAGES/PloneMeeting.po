@@ -4490,7 +4490,7 @@ msgstr "Les paramètres liés aux données permettent de choisir certains élém
 
 #. Default: "Here are groups depending directly of this meeting configuration."
 msgid "meetingconfig_display_groups_and_users_descr"
-msgstr "Ces groupes dépendent directement de cette configuration de séance et ne donnent des accès que pour celle-ci."
+msgstr "Ces groupes dépendent directement de cette configuration de séance et ne donnent des accès que pour celle-ci, sauf le groupe \"Administrators\" qui est un groupe global à l'application."
 
 # MeetingConfig
 #. Default: "Parameters listed here allow to customize the way the application generates documents based on created items and meetings."
