@@ -1325,8 +1325,8 @@ msgstr "Las columnas a mostrar en los temas dentro de las reuniones"
 msgid "PloneMeeting_label_itemsListVisibleFields"
 msgstr ""
 
-#. Default: "Keep access to item when an advice is given"
-msgid "PloneMeeting_label_keepAccessToItemWhenAdviceIsGiven"
+#. Default: "Keep access to item when an advice"
+msgid "PloneMeeting_label_keepAccessToItemWhenAdvice"
 msgstr ""
 
 #. Default: "Keep info \"to print?\" of annexes when duplicating items"
@@ -3529,10 +3529,6 @@ msgstr "Cuando un tema tiene uno de los estados que usted selecciono aquí, eso 
 msgid "group_item_advice_view_states_descr"
 msgstr "Cuando un tema se encuentra en uno de los estados a los que decide aquí, será posible que un asesor seleccionado en este tema pueda continuar viendo el tema. Si no se especifica ningún estado aquí, una lista de los estados, a nivel global a todos los grupos, que se definen en el nivel de configuración se utiliza en su lugar. <span style='color: red';>¡Si cambia este parámetro, no se olvide de actualizar consejos!</span>"
 
-#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
-msgid "group_keep_access_to_item_when_advice_is_given_descr"
-msgstr ""
-
 #. Default: "Please select a group in charge."
 msgid "groupsInCharge_required"
 msgstr ""
@@ -4239,8 +4235,24 @@ msgstr ""
 msgid "itemtemplatesmanagers"
 msgstr ""
 
-#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
-msgid "keep_access_to_item_when_advice_is_given_descr"
+#. Default: "Use values defined in the \"Item states allowing to define advices\" field"
+msgid "keep_access_to_item_when_advice_default"
+msgstr ""
+
+#. Default: "Select how to behave regarding item access for advisers.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "keep_access_to_item_when_advice_descr"
+msgstr ""
+
+#. Default: "If advice was given on the item"
+msgid "keep_access_to_item_when_advice_is_given"
+msgstr ""
+
+#. Default: "By default, use value for this parameter from MeetingConfig ([Advices and access] tab)"
+msgid "keep_access_to_item_when_advice_use_meetingconfig_value"
+msgstr ""
+
+#. Default: "If advice was every giveable on the item"
+msgid "keep_access_to_item_when_advice_was_giveable"
 msgstr ""
 
 #. Default: "If enabled, when an item is duplicated into or to this configuration, the \"to print?\" information defined on cloned annexes will be kept.  If not enabled, the default defined here under is used."
@@ -5840,10 +5852,6 @@ msgstr "Marque la casilla si desea que los creadores de temas puedan seleccionar
 #, fuzzy
 msgid "use_groups_as_categories_descr"
 msgstr "En PloneMeeting, para cada configuración de reunión, cada tema es definido por una categoría y no puede pertenecer a varias categorías a la vez. Estas categorías pueden ser importantes, por ejemplo, cuando los temas son presentados en una agenda: ellos pueden ser ordenados de acuerdo a su categoría (eso depende del valor de otro parámetro de esta página). Si usted estima que los grupos de PloneMeeting corresponden a sus categorías, y que no es necesario un régimen de categorización más, marque la casilla."
-
-#. Default: "Use value defined on the meeting configuration (default)"
-msgid "use_meetingconfig_value"
-msgstr ""
 
 #. Default: "User replacements allow you to select a replacement user for any absent or excused user in a meeting."
 msgid "use_user_replacements_descr"

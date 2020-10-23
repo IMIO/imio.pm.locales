@@ -9,6 +9,7 @@ Changelog
 - Adapted translations regarding message displayed in Plone users and groups management
   as we greyed actions Remove user/Remove group.
 - Adapted french translation of `meetingconfig_display_groups_and_users_descr`.
+- Added translations for `MeetingConfig.keepAccessToItemWhenAdvice` related functionnality.
 
 4.2b3 (2020-10-02)
 ------------------
