@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b4 (unreleased)
+4.2b4 (2020-10-26)
 ------------------
 
 - Better french translation for `only_for_meeting_managers_descr`.
