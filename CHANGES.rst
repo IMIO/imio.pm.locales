@@ -2,11 +2,20 @@ Changelog
 =========
 
 
-4.2b4 (unreleased)
+4.2b5 (unreleased)
+------------------
+
+- Added translations for `votes` functionnality.
+
+4.2b4 (2020-10-26)
 ------------------
 
 - Better french translation for `only_for_meeting_managers_descr`.
-- Added translations for `votes` functionnality.
+- Adapted translations regarding message displayed in Plone users and groups management
+  as we greyed actions Remove user/Remove group.
+- Adapted french translation of `meetingconfig_display_groups_and_users_descr`.
+- Added translations for `MeetingConfig.keepAccessToItemWhenAdvice` related functionnality.
+- Added translation for `Currently selected meeting config`.
 
 4.2b3 (2020-10-02)
 ------------------

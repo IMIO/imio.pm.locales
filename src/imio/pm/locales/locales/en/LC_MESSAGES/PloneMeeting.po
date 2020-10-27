@@ -244,6 +244,10 @@ msgstr "Copy PloneMeeting"
 msgid "Create an item from an item template"
 msgstr "Create an item from an item template"
 
+#. Default: "Currently selected meeting config"
+msgid "Currently selected meeting config"
+msgstr ""
+
 #. Default: "Data of the item when advice was given"
 msgid "Data of the item when advice was given"
 msgstr "Data of the item when advice was given"
@@ -1317,9 +1321,9 @@ msgstr "Columns to display for items within a meeting"
 msgid "PloneMeeting_label_itemsListVisibleFields"
 msgstr "Fields of the items to show/hide in the dashboards"
 
-#. Default: "Keep access to item when an advice is given"
-msgid "PloneMeeting_label_keepAccessToItemWhenAdviceIsGiven"
-msgstr "Keep access to item when an advice is given"
+#. Default: "Keep access to item when an advice"
+msgid "PloneMeeting_label_keepAccessToItemWhenAdvice"
+msgstr ""
 
 #. Default: "Keep info \"to print?\" of annexes when duplicating items"
 msgid "PloneMeeting_label_keepOriginalToPrintOfClonedItems"
@@ -3474,10 +3478,6 @@ msgstr "When an item is in one of the states you choose here, it will be possibl
 msgid "group_item_advice_view_states_descr"
 msgstr "When an item is in one of the states you choose here, it will be possible for an adviser selected on this item to continue to view the item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 
-#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
-msgid "group_keep_access_to_item_when_advice_is_given_descr"
-msgstr "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  This will override the value defined in the MeetingConfig specifically for this group if necessary.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
-
 #. Default: "Please select a group in charge."
 msgid "groupsInCharge_required"
 msgstr "Please select a group in charge."
@@ -4161,9 +4161,25 @@ msgstr "Select here fields of the item that will be show/hidden when a user will
 msgid "itemtemplatesmanagers"
 msgstr "Item templates managers"
 
-#. Default: "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
-msgid "keep_access_to_item_when_advice_is_given_descr"
-msgstr "When an advice has been given on an item, advisers of the given advice will always keep access to the item, no matter the review state in which the item will be set.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+#. Default: "Use values defined in the \"Item states allowing to define advices\" field"
+msgid "keep_access_to_item_when_advice_default"
+msgstr ""
+
+#. Default: "Select how to behave regarding item access for advisers.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "keep_access_to_item_when_advice_descr"
+msgstr ""
+
+#. Default: "If advice was given on the item"
+msgid "keep_access_to_item_when_advice_is_given"
+msgstr ""
+
+#. Default: "By default, use value for this parameter from MeetingConfig ([Advices and access] tab)"
+msgid "keep_access_to_item_when_advice_use_meetingconfig_value"
+msgstr ""
+
+#. Default: "If advice was every giveable on the item"
+msgid "keep_access_to_item_when_advice_was_giveable"
+msgstr ""
 
 #. Default: "If enabled, when an item is duplicated into or to this configuration, the \"to print?\" information defined on cloned annexes will be kept.  If not enabled, the default defined here under is used."
 msgid "keep_original_to_print_of_cloned_items_descr"
@@ -5731,10 +5747,6 @@ msgstr "Check the box if you want item creators to be able to select copy groups
 #. Default: "For every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red;'>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because \"living\" items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
 msgid "use_groups_as_categories_descr"
 msgstr "For every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red;'>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because \"living\" items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
-
-#. Default: "Use value defined on the meeting configuration (default)"
-msgid "use_meetingconfig_value"
-msgstr "Use value defined on the meeting configuration (default)"
 
 #. Default: "User replacements allow you to select a replacement user for any absent or excused user in a meeting."
 msgid "use_user_replacements_descr"
