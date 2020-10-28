@@ -2658,7 +2658,7 @@ msgstr "Vous ne pouvez pas supprimer/désactiver une fonction qui est utilisée 
 
 #. Default: "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"
-msgstr "Vous ne pouvez pas désélectionner un membre d'assemblée qui a été redéfini sur un point de la séance.  Vérifiez \"${attendee_title}\"."
+msgstr "Vous ne pouvez pas désélectionner un membre d'assemblée qui a été redéfini ou utilisé sur un point de la séance (absents, excusés, votes, ...).  Vérifiez \"${attendee_title}\"."
 
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
