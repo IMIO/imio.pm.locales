@@ -2180,14 +2180,6 @@ msgid "adviceDelayWarning_mail_subject"
 msgstr "${meetingConfigTitle} - Avertissement expiration délai pour rendre un avis - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
-msgid "adviceEditedOwner_mail_body"
-msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
-
-#. Default: "${meetingConfigTitle} - An advice has been added or modified - ${itemTitle}"
-msgid "adviceEditedOwner_mail_subject"
-msgstr "${meetingConfigTitle} - Un avis a été rendu ou modifié - ${itemTitle}"
-
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
 msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
 
@@ -3292,7 +3284,7 @@ msgstr "Un avis sur un point a été rendu ou modifié (prévient les créateurs
 
 #. Default: "An advice was added or updated on an item (notify the \"Owner\")"
 msgid "event_add_advice_owner"
-msgstr "Un avis sur un point a été rendu ou modifié (prévient le créateur du point)"
+msgstr "Un avis sur un point a été rendu ou modifié (prévient l'auteur du point)"
 
 #. Default: "An annex was added to an item already presented in a validated agenda (notify \"MeetingManagers\")"
 msgid "event_add_annex"
@@ -3330,6 +3322,10 @@ msgstr "Un point est désormais visible par les groupes en copies (prévient les
 msgid "event_item_delayed"
 msgstr "Un point a été reporté (prévient les créateurs du groupe proposant du point)"
 
+#. Default: "An item has been delayed (notify the \"Owner\")"
+msgid "event_item_delayed_owner"
+msgstr "Un point a été reporté (prévient l'auteur du point)"
+
 #. Default: "An item has been postponed (notify the \"Creators\")"
 msgid "event_item_postponed_next_meeting"
 msgstr "Un point a été reporté à une prochaine séance (prévient les créateurs du groupe proposant du point)"
@@ -3337,6 +3333,10 @@ msgstr "Un point a été reporté à une prochaine séance (prévient les créat
 #. Default: "An item has been inserted into a meeting (notify the \"Creators\")"
 msgid "event_item_presented"
 msgstr "Un point a été inséré dans une séance (prévient les créateurs du groupe proposant du point)"
+
+#. Default: "An item has been inserted into a meeting (notify the \"Owner\")"
+msgid "event_item_presented_owner"
+msgstr "Un point a été inséré dans une séance (prévient l'auteur du point)"
 
 #. Default: "An item has been corrected and sent to the meeting managers (notify \"MeetingManagers\")"
 msgid "event_item_returned_to_meeting_managers"
@@ -3346,9 +3346,17 @@ msgstr "Un point corrigé par le groupe proposant a été renvoyé aux gestionna
 msgid "event_item_returned_to_proposing_group"
 msgstr "Un point a été renvoyé pour correction au groupe proposant (prévient les utilisateurs capables d'éditer le point à corriger)"
 
+#. Default: "An item has been sent back to the proposing group (notify the \"Owner\")"
+msgid "event_item_returned_to_proposing_group_owner"
+msgstr "Un point a été renvoyé pour correction au groupe proposant (prévient l'auteur du point)"
+
 #. Default: "An item has been removed from a meeting (notify the \"Creators\")"
 msgid "event_item_unpresented"
 msgstr "Un point a été retiré d'une séance (prévient les créateurs du groupe proposant du point)"
+
+#. Default: "An item has been removed from a meeting (notify the \"Owner\")"
+msgid "event_item_unpresented_owner"
+msgstr "Un point a été retiré d'une séance (prévient l'auteur du point)"
 
 #. Default: "A late item was just validated (notify \"MeetingManagers\")"
 msgid "event_late_item"

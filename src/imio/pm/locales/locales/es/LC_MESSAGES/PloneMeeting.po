@@ -2197,14 +2197,6 @@ msgid "adviceDelayWarning_mail_subject"
 msgstr ""
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
-msgid "adviceEditedOwner_mail_body"
-msgstr ""
-
-#. Default: "${meetingConfigTitle} - An advice has been added or modified - ${itemTitle}"
-msgid "adviceEditedOwner_mail_subject"
-msgstr ""
-
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 #, fuzzy
 msgid "adviceEdited_mail_body"
 msgstr "Usted puede acceder a este tema aquí: ${objectUrl}."
@@ -3376,6 +3368,10 @@ msgstr ""
 msgid "event_item_delayed"
 msgstr "Un tema ha sido demorado"
 
+#. Default: "An item has been delayed (notify the \"Owner\")"
+msgid "event_item_delayed_owner"
+msgstr ""
+
 #. Default: "An item has been postponed (notify the \"Creators\")"
 msgid "event_item_postponed_next_meeting"
 msgstr ""
@@ -3384,6 +3380,10 @@ msgstr ""
 #, fuzzy
 msgid "event_item_presented"
 msgstr "Un tema ha sido agregado dentro de una reunión"
+
+#. Default: "An item has been inserted into a meeting (notify the \"Owner\")"
+msgid "event_item_presented_owner"
+msgstr ""
 
 #. Default: "An item has been corrected and sent to the meeting managers (notify \"MeetingManagers\")"
 #, fuzzy
@@ -3395,10 +3395,18 @@ msgstr "Un tema ha sido corregido y enviado a los administradores de reuniones"
 msgid "event_item_returned_to_proposing_group"
 msgstr "Un tema ha sido enviado de vuelta al grupo proponente"
 
+#. Default: "An item has been sent back to the proposing group (notify the \"Owner\")"
+msgid "event_item_returned_to_proposing_group_owner"
+msgstr ""
+
 #. Default: "An item has been removed from a meeting (notify the \"Creators\")"
 #, fuzzy
 msgid "event_item_unpresented"
 msgstr "Un tema ha sido removido de una reunión"
+
+#. Default: "An item has been removed from a meeting (notify the \"Owner\")"
+msgid "event_item_unpresented_owner"
+msgstr ""
 
 #. Default: "A late item was just validated (notify \"MeetingManagers\")"
 #, fuzzy

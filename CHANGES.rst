@@ -5,8 +5,9 @@ Changelog
 4.2b5 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Added translations for email notifications `itemPresentedOwner`,
+  `itemUnpresentedOwner`, `itemDelayedOwner` and `returnedToProposingGroupOwner`.
+  [gbastien]
 
 4.2b4 (2020-10-26)
 ------------------
