@@ -2,10 +2,17 @@ Changelog
 =========
 
 
-4.2b5 (unreleased)
+4.2b6 (unreleased)
 ------------------
 
 - Added translations for `votes` functionnality.
+
+4.2b5 (2020-11-19)
+------------------
+
+- Added translations for email notifications `itemPresentedOwner`,
+  `itemUnpresentedOwner`, `itemDelayedOwner` and `returnedToProposingGroupOwner`.
+  [gbastien]
 
 4.2b4 (2020-10-26)
 ------------------

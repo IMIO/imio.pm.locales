@@ -2656,12 +2656,24 @@ msgstr ""
 msgid "event_item_presented"
 msgstr ""
 
+#. Default: "An item has been inserted into a meeting (notify the \"Owner\")"
+msgid "event_item_presented_owner"
+msgstr ""
+
 #. Default: "An item has been removed from a meeting (notify the \"Creators\")"
 msgid "event_item_unpresented"
 msgstr ""
 
+#. Default: "An item has been removed from a meeting (notify the \"Owner\")"
+msgid "event_item_unpresented_owner"
+msgstr ""
+
 #. Default: "An item has been delayed (notify the \"Creators\")"
 msgid "event_item_delayed"
+msgstr ""
+
+#. Default: "An item has been delayed (notify the \"Owner\")"
+msgid "event_item_delayed_owner"
 msgstr ""
 
 #. Default: "An item has been postponed (notify the \"Creators\")"
@@ -2706,6 +2718,10 @@ msgstr ""
 
 #. Default: "An item has been sent back to the proposing group (notify users able to edit the item to correct)"
 msgid "event_item_returned_to_proposing_group"
+msgstr ""
+
+#. Default: "An item has been sent back to the proposing group (notify the \"Owner\")"
+msgid "event_item_returned_to_proposing_group_owner"
 msgstr ""
 
 #. Default: "An item has been corrected and sent to the meeting managers (notify \"MeetingManagers\")"
@@ -3518,14 +3534,6 @@ msgstr ""
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
-msgstr ""
-
-#. Default: "${meetingConfigTitle} - An advice has been added or modified - ${itemTitle}"
-msgid "adviceEditedOwner_mail_subject"
-msgstr ""
-
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
-msgid "adviceEditedOwner_mail_body"
 msgstr ""
 
 #. Default: "${meetingConfigTitle} - One or your advices has been invalidated - ${itemTitle}"
