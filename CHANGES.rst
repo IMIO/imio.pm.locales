@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b5 (unreleased)
+4.2b5 (2020-11-19)
 ------------------
 
 - Added translations for email notifications `itemPresentedOwner`,
