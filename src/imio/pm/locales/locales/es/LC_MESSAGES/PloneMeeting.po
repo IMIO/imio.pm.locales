@@ -2207,6 +2207,10 @@ msgstr ""
 msgid "Votes"
 msgstr ""
 
+#. Default: "Votes are completed for following ${number} ${polltype} item(s)"
+msgid "Votes are completed for following ${number} ${polltype} item(s)"
+msgstr ""
+
 #. Default: "Votes are not completed for following ${number} ${polltype} item(s)"
 msgid "Votes are not completed for following ${number} ${polltype} item(s)"
 msgstr ""
@@ -2758,6 +2762,14 @@ msgstr ""
 
 #. Default: "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"
+msgstr ""
+
+#. Default: "You can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
+msgid "can_not_remove_public_voter_voted_on_items"
+msgstr ""
+
+#. Default: "You can not unselect a voter that already voted on a secret vote item."
+msgid "can_not_remove_secret_voter_voted_on_items"
 msgstr ""
 
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."

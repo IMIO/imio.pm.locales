@@ -2191,6 +2191,10 @@ msgstr "Voter already encoded a vote for another linked vote"
 msgid "Votes"
 msgstr "Votes"
 
+#. Default: "Votes are completed for following ${number} ${polltype} item(s)"
+msgid "Votes are completed for following ${number} ${polltype} item(s)"
+msgstr "Votes are completed for following ${number} ${polltype} item(s)"
+
 #. Default: "Votes are not completed for following ${number} ${polltype} item(s)"
 msgid "Votes are not completed for following ${number} ${polltype} item(s)"
 msgstr "Votes are not completed for following ${number} ${polltype} item(s)"
@@ -2731,6 +2735,14 @@ msgstr "You can not remove/disable a function that is used by an item in the app
 #. Default: "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"
 msgstr "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
+
+#. Default: "You can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
+msgid "can_not_remove_public_voter_voted_on_items"
+msgstr "You can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
+
+#. Default: "You can not unselect a voter that already voted on a secret vote item."
+msgid "can_not_remove_secret_voter_voted_on_items"
+msgstr "You can not unselect a voter that already voted on a secret vote item."
 
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"

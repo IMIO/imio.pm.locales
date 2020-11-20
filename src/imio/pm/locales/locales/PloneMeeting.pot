@@ -6175,6 +6175,14 @@ msgstr ""
 msgid "can_not_remove_attendee_redefined_on_items"
 msgstr ""
 
+#. Default: "You can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
+msgid "can_not_remove_public_voter_voted_on_items"
+msgstr ""
+
+#. Default: "You can not unselect a voter that already voted on a secret vote item."
+msgid "can_not_remove_secret_voter_voted_on_items"
+msgstr ""
+
 #. Default: "You can not remove/disable a function that is used by an item in the application.  Please check ${item_url}."
 msgid "can_not_delete_plone_group_meetingitem"
 msgstr ""
@@ -6305,6 +6313,10 @@ msgstr ""
 
 #. Default: "Votes are not completed for following ${number} ${polltype} item(s)"
 msgid "Votes are not completed for following ${number} ${polltype} item(s)"
+msgstr ""
+
+#. Default: "Votes are completed for following ${number} ${polltype} item(s)"
+msgid "Votes are completed for following ${number} ${polltype} item(s)"
 msgstr ""
 
 #. Default: "Voter already encoded a vote for another linked vote"

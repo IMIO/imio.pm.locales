@@ -2191,9 +2191,13 @@ msgstr "Votant déjà encodé pour un autre vote lié"
 msgid "Votes"
 msgstr "Votes"
 
+#. Default: "Votes are completed for following ${number} ${polltype} item(s)"
+msgid "Votes are completed for following ${number} ${polltype} item(s)"
+msgstr "Votes complétés pour le(s) ${number} point(s) à scrutin ${polltype} suivant(s)"
+
 #. Default: "Votes are not completed for following ${number} ${polltype} item(s)"
 msgid "Votes are not completed for following ${number} ${polltype} item(s)"
-msgstr "Les votes ne sont pas complétés pour le(s) ${number} point(s) à scrutin ${polltype} suivant(s)"
+msgstr "Votes non complétés pour le(s) ${number} point(s) à scrutin ${polltype} suivant(s)"
 
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
@@ -2731,6 +2735,14 @@ msgstr "Vous ne pouvez pas supprimer/désactiver une fonction qui est utilisée 
 #. Default: "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"
 msgstr "Vous ne pouvez pas désélectionner un membre d'assemblée qui a été redéfini ou utilisé sur un point de la séance (absents, excusés, votes, ...).  Vérifiez \"${attendee_title}\"."
+
+#. Default: "You can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
+msgid "can_not_remove_public_voter_voted_on_items"
+msgstr "Vous ne pouvez pas désélectionner un votant qui a déjà voté sur un point à scrutin public.  Vérifiez \"${attendee_title}\"."
+
+#. Default: "You can not unselect a voter that already voted on a secret vote item."
+msgid "can_not_remove_secret_voter_voted_on_items"
+msgstr "Vous ne pouvez pas désélectionner un votant qui a déjà voté sur un point à scrutin secret."
 
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
