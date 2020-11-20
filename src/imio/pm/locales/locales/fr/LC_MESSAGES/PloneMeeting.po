@@ -43,6 +43,14 @@ msgstr "Ajout d'un portlet 'PloneMeeting'"
 msgid "Add Todo Portlet"
 msgstr "Ajout d'un portlet 'à faire'"
 
+#. Default: "Add new linked vote"
+msgid "Add new linked vote"
+msgstr "Ajouter un nouveau vote lié"
+
+#. Default: "Add new vote"
+msgid "Add new vote"
+msgstr "Ajouter un nouveau vote"
+
 #. Default: "Advice advanced management screen"
 msgid "Advice advanced management screen"
 msgstr "Écran de gestion avancé de l'avis"
@@ -284,6 +292,10 @@ msgstr "Définir ce membre comme signataire pour ce point"
 msgid "Delete advice"
 msgstr "Supprimer l'avis"
 
+#. Default: "Delete this vote"
+msgid "Delete this vote"
+msgstr "Supprimer ce vote"
+
 #. Default: "Disabled (greyed) annexes will not be kept on the new duplicated item."
 msgid "Disabled (greyed) annexes will not be kept on the new duplicated item."
 msgstr "ATTENTION, les annexes grisées ne seront pas gardées si elles comportent un QR code ou un type d'annexe restreint aux gestionnaires de séances!"
@@ -320,6 +332,10 @@ msgstr "Éditer les paramètres de ce groupe de catégories ('Activer l'option \
 msgid "Edit contacts"
 msgstr "Éditer l'annuaire \"Contacts\""
 
+#. Default: "Edit this vote"
+msgid "Edit this vote"
+msgstr "Éditer ce vote"
+
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
 msgstr "Urgence"
@@ -327,6 +343,14 @@ msgstr "Urgence"
 #. Default: "Enabled?"
 msgid "Enabled?"
 msgstr "Activé?"
+
+#. Default: "Encode secret votes"
+msgid "Encode secret votes"
+msgstr "Encoder les votes secrets"
+
+#. Default: "Encode votes"
+msgid "Encode votes"
+msgstr "Encoder les votes"
 
 #. Default: "Enter a reference for this advice if necessary."
 msgid "Enter a reference for this advice if necessary."
@@ -379,6 +403,10 @@ msgstr "Renseigné dans le champ \"Membres d'assemblée sélectionnables\" des c
 #. Default: "Firstname abbreviated"
 msgid "Firstname abbreviated"
 msgstr "Prénom (abréviation)"
+
+#. Default: "Free label that will identify the vote, useful when several votes are defined on an item. Leave empty if not used."
+msgid "Free label that will identify the vote, useful when several votes are defined on an item. Leave empty if not used."
+msgstr "Libellé libre qui permet d'identifier un vote, particulièrement lorsque plusieurs votes sont encodés pour le même point.  Laissez vide si pas utilisé."
 
 #. Default: "Free text fields"
 msgid "Free text fields"
@@ -573,6 +601,10 @@ msgstr "Les points ont été réordonnés."
 msgid "Keep link?"
 msgstr "Garder un lien avec le point dupliqué?"
 
+#. Default: "Label"
+msgid "Label"
+msgstr "Libellé"
+
 #. Default: "Limit date ${advice_limit_date}"
 msgid "Limit date ${advice_limit_date}"
 msgstr "Date limite ${advice_limit_date}"
@@ -695,9 +727,17 @@ msgstr "Aucun groupe en charge valide trouvé pour le point ${item_url}, le poin
 msgid "None"
 msgstr "Aucun"
 
+#. Default: "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
+msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
+msgstr "Impossible d'ajouter un vote lié car des valeurs incompatibles ont déjà été encodées sur le vote courant"
+
 #. Default: "Not present type"
 msgid "Not present type"
 msgstr "Type d'absence"
+
+#. Default: "Not voter"
+msgid "Not voter"
+msgstr "Non votant"
 
 #. Default: "Nothing to display when item is not presented into a meeting."
 msgid "Nothing to display when item is not presented into a meeting."
@@ -1067,6 +1107,10 @@ msgstr "Séance extraordinaire?"
 #. Default: "Number of the first item contained in this meeting"
 msgid "PloneMeeting_label_firstItemNumber"
 msgstr "Numéro du premier point de cette séance"
+
+#. Default: "First linked vote values"
+msgid "PloneMeeting_label_firstLinkedVoteUsedVoteValues"
+msgstr "Valeurs de votes utilisables sur le premier vote lié"
 
 #. Default: "Name of the folder linked to this configuration"
 msgid "PloneMeeting_label_folderTitle"
@@ -1464,6 +1508,10 @@ msgstr "Adaptations au modèle de données"
 #. Default: "Motivation"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivation"
+
+#. Default: "Next linked votes values"
+msgid "PloneMeeting_label_nextLinkedVotesUsedVoteValues"
+msgstr "Valeurs de vote utilisables sur les votes liés suivants"
 
 #. Default: "Non attendees"
 msgid "PloneMeeting_label_nonAttendees"
@@ -2094,6 +2142,10 @@ msgstr "Ce portlet affiche les contrôles nécessaires pour PloneMeeting."
 msgid "This portlet shows things to do."
 msgstr "Ce portlet affiche les tâches à effectuer."
 
+#. Default: "This vote is linked to previous vote"
+msgid "This vote is linked to previous vote"
+msgstr "Ce vote est lié au vote précédent"
+
 #. Default: "To do"
 msgid "To do"
 msgstr "À faire"
@@ -2118,6 +2170,30 @@ msgstr "Contact utilisé par"
 #. Default: "Used in the assembly for meetings"
 msgid "Used in the assembly for meetings"
 msgstr "Renseigné dans l'assemblée/signatures des séances"
+
+#. Default: "Vote count"
+msgid "Vote count"
+msgstr "Nombre de voix"
+
+#. Default: "Vote value"
+msgid "Vote value"
+msgstr "Vote"
+
+#. Default: "Voter"
+msgid "Voter"
+msgstr "Votant"
+
+#. Default: "Voter already encoded a vote for another linked vote"
+msgid "Voter already encoded a vote for another linked vote"
+msgstr "Votant déjà encodé pour un autre vote lié"
+
+#. Default: "Votes"
+msgid "Votes"
+msgstr "Votes"
+
+#. Default: "Votes are not completed for following ${number} ${polltype} item(s)"
+msgid "Votes are not completed for following ${number} ${polltype} item(s)"
+msgstr "Les votes ne sont pas complétés pour le(s) ${number} point(s) à scrutin ${polltype} suivant(s)"
 
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
@@ -3254,6 +3330,10 @@ msgstr "Si vous cochez cette case, les utilisateurs pourront accéder à un écr
 msgid "enforce_advice_mandatoriness_descr"
 msgstr "Quand le caractère obligatoire des avis est d'application, un point ne peut être inséré dans une séance à moins que tous les avis obligatoires n'aient été rendus et soient positifs."
 
+#. Default: "You can not encode more than ${max_voters} voters."
+msgid "error_can_not_encode_more_than_max_voters"
+msgstr "Vous ne pouvez pas encoder plus de ${max_voters} votes."
+
 #. Default: "You can not select several categories for the same meeting config."
 msgid "error_can_not_select_several_cat_for_same_mc"
 msgstr "Vous ne pouvez pas sélectionner plusieurs catégories pour la même configuration de séance."
@@ -3413,6 +3493,10 @@ msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestion
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
 msgid "file_required"
 msgstr "Veuillez sélectionner un fichier en cliquant sur le bouton \"Parcourir\"."
+
+#. Default: "While using linked vote values, select here values that will be selectable for the first linked vote value"
+msgid "first_linked_vote_used_vote_values_descr"
+msgstr "Lorsque vous liez des votre entre eux, sélectionnez les valeurs de votes qui pourront être utilisée sur le premier vote lié"
 
 #. Default: "Please respect order of transitions sequence to present an item, the first given transition is not a transition leaving the item workflow initial state."
 msgid "first_transition_must_leave_wf_initial_state"
@@ -4592,6 +4676,10 @@ msgstr "Déplace ce point à la position qui précède le numéro que vous intro
 #. Default: "Negative"
 msgid "negative"
 msgstr "Négatif"
+
+#. Default: "While using linked vote values, select here values that will be selectable for the next votes (so votes after the first)"
+msgid "next_linked_votes_used_vote_values_descr"
+msgstr "Lorsque vous liez des votre entre eux, sélectionnez les valeurs de votes qui pourront être utilisées sur les votes suivants le premier vote"
 
 #. Default: "There are ${nb} task(s) foreseen for next night."
 msgid "night_works"

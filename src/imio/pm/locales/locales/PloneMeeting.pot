@@ -6222,3 +6222,91 @@ msgstr ""
 #. Default: "Nothing to display when item is not presented into a meeting."
 msgid "Nothing to display when item is not presented into a meeting."
 msgstr ""
+
+#. Default: "Edit this vote"
+msgid "Edit this vote"
+msgstr ""
+
+#. Default: "Delete this vote"
+msgid "Delete this vote"
+msgstr ""
+
+#. Default: "Add new vote"
+msgid "Add new vote"
+msgstr ""
+
+#. Default: "Add new linked vote"
+msgid "Add new linked vote"
+msgstr ""
+
+#. Default: "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
+msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
+msgstr ""
+
+#. Default: "Not voter"
+msgid "Not voter"
+msgstr ""
+
+#. Default: "First linked vote values"
+msgid "PloneMeeting_label_firstLinkedVoteUsedVoteValues"
+msgstr ""
+
+#. Default: "While using linked vote values, select here values that will be selectable for the first linked vote value"
+msgid "first_linked_vote_used_vote_values_descr"
+msgstr ""
+
+#. Default: "Next linked votes values"
+msgid "PloneMeeting_label_nextLinkedVotesUsedVoteValues"
+msgstr ""
+
+#. Default: "While using linked vote values, select here values that will be selectable for the next votes (so votes after the first)"
+msgid "next_linked_votes_used_vote_values_descr"
+msgstr ""
+
+#. Default: "Encode votes"
+msgid "Encode votes"
+msgstr ""
+
+#. Default: "Encode secret votes"
+msgid "Encode secret votes"
+msgstr ""
+
+#. Default: "Label"
+msgid "Label"
+msgstr ""
+
+#. Default: "Free label that will identify the vote, useful when several votes are defined on an item. Leave empty if not used."
+msgid "Free label that will identify the vote, useful when several votes are defined on an item. Leave empty if not used."
+msgstr ""
+
+#. Default: "Votes"
+msgid "Votes"
+msgstr ""
+
+#. Default: "Voter"
+msgid "Voter"
+msgstr ""
+
+#. Default: "Vote value"
+msgid "Vote value"
+msgstr ""
+
+#. Default: "Vote count"
+msgid "Vote count"
+msgstr ""
+
+#. Default: "You can not encode more than ${max_voters} voters."
+msgid "error_can_not_encode_more_than_max_voters"
+msgstr ""
+
+#. Default: "This vote is linked to previous vote"
+msgid "This vote is linked to previous vote"
+msgstr ""
+
+#. Default: "Votes are not completed for following ${number} ${polltype} item(s)"
+msgid "Votes are not completed for following ${number} ${polltype} item(s)"
+msgstr ""
+
+#. Default: "Voter already encoded a vote for another linked vote"
+msgid "Voter already encoded a vote for another linked vote"
+msgstr ""
