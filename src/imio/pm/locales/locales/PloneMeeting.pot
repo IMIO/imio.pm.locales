@@ -2313,20 +2313,12 @@ msgstr ""
 msgid "wa_added_no_publication_error"
 msgstr ""
 
-#. Default: "You can not select the \"No proposal\" adaptation as there are still items in state \"proposed\"."
-msgid "wa_added_no_proposal_error"
-msgstr ""
-
 #. Default: "You can not select the \"Items come validated\" adaptation as there are still items in state \"itemcreated\" or \"proposed\"."
 msgid "wa_added_items_come_validated_error"
 msgstr ""
 
 #. Default: "You can not unselect the \"Archiving\" adaptation, when selected, there is no way back."
 msgid "wa_removed_archiving_error"
-msgstr ""
-
-#. Default: "You can not unselect the \"Prevalidation\" adaptation as there are still items in state \"prevalidated\"."
-msgid "wa_removed_pre_validation_error"
 msgstr ""
 
 #. Default: "You can not unselect the \"Postpone next meeting\" adaptation as there are still items in state \"postponed next meeting\"."
@@ -2472,24 +2464,8 @@ msgstr ""
 msgid "wa_reviewers_take_back_validated_item"
 msgstr ""
 
-#. Default: "Archiving"
-msgid "wa_archiving"
-msgstr ""
-
 #. Default: "Skip publication step"
 msgid "wa_no_publication"
-msgstr ""
-
-#. Default: "Skip item proposition step"
-msgid "wa_no_proposal"
-msgstr ""
-
-#. Default: "Everyone reads everything in every state"
-msgid "wa_everyone_reads_all"
-msgstr ""
-
-#. Default: "Creator may edit its items unless items are definitively decided"
-msgid "wa_creator_edits_unless_closed"
 msgstr ""
 
 #. Default: "Return to proposing group for corrections"
@@ -3971,6 +3947,10 @@ msgstr ""
 msgid "icon_help_returned_to_proposing_group"
 msgstr ""
 
+#. Default: "Returned to proposing group for corrections ($validation_state)"
+msgid "icon_help_returned_to_proposing_group_with_validation_state"
+msgstr ""
+
 #. Default: "In order to perform this action, the meeting date must be in the past."
 msgid "meeting_in_past"
 msgstr ""
@@ -5246,14 +5226,6 @@ msgstr "
 #. Default: "Return to proposing group for corrections with all validations"
 msgid "wa_return_to_proposing_group_with_all_validations"
 msgstr "
-
-#. Default: "Returned to proposing group for corrections (proposed)"
-msgid "icon_help_returned_to_proposing_group_proposed"
-msgstr ""
-
-#. Default: "Returned to proposing group for corrections (prevalidated)"
-msgid "icon_help_returned_to_proposing_group_prevalidated"
-msgstr ""
 
 #. Default: "Items to correct to validate"
 msgid "searchitemstocorrecttovalidate"

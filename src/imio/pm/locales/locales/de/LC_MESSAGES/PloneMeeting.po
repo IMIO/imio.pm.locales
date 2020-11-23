@@ -3768,12 +3768,8 @@ msgstr ""
 msgid "icon_help_returned_to_proposing_group"
 msgstr ""
 
-#. Default: "Returned to proposing group for corrections (prevalidated)"
-msgid "icon_help_returned_to_proposing_group_prevalidated"
-msgstr ""
-
-#. Default: "Returned to proposing group for corrections (proposed)"
-msgid "icon_help_returned_to_proposing_group_proposed"
+#. Default: "Returned to proposing group for corrections ($validation_state)"
+msgid "icon_help_returned_to_proposing_group_with_validation_state"
 msgstr ""
 
 #. Default: "Waiting advices"
@@ -6001,25 +5997,13 @@ msgstr ""
 msgid "wa_added_items_come_validated_error"
 msgstr ""
 
-#. Default: "You can not select the \"No proposal\" adaptation as there are still items in state \"proposed\"."
-msgid "wa_added_no_proposal_error"
-msgstr ""
-
 #. Default: "You can not select the \"No publication\" adaptation as there are still items or meetings in state \"published\"."
 msgid "wa_added_no_publication_error"
 msgstr ""
 
-#. Default: "Archiving"
-msgid "wa_archiving"
-msgstr "Archivierung"
-
 #. Default: "This combination of workflow adaptations is invalid."
 msgid "wa_conflicts"
 msgstr "Die Kombination dieser Anpassungen ist ungültig."
-
-#. Default: "Creator may edit its items unless items are definitively decided"
-msgid "wa_creator_edits_unless_closed"
-msgstr ""
 
 #. Default: "Item decision is pre-encoded by item creator"
 msgid "wa_creator_initiated_decisions"
@@ -6031,10 +6015,6 @@ msgstr ""
 
 #. Default: "Delayed"
 msgid "wa_delayed"
-msgstr ""
-
-#. Default: "Everyone reads everything in every state"
-msgid "wa_everyone_reads_all"
 msgstr ""
 
 #. Default: "Hide the decision to the proposing group when it is under writing"
@@ -6056,10 +6036,6 @@ msgstr ""
 #. Default: "No global items observation"
 msgid "wa_no_global_observation"
 msgstr "Keine globale Beobachtung der TOP"
-
-#. Default: "Skip item proposition step"
-msgid "wa_no_proposal"
-msgstr ""
 
 #. Default: "Skip publication step"
 msgid "wa_no_publication"
@@ -6119,10 +6095,6 @@ msgstr ""
 
 #. Default: "You can not unselect the \"Postpone next meeting\" adaptation as there are still items in state \"postponed next meeting\"."
 msgid "wa_removed_postpone_next_meeting_error"
-msgstr ""
-
-#. Default: "You can not unselect the \"Prevalidation\" adaptation as there are still items in state \"prevalidated\"."
-msgid "wa_removed_pre_validation_error"
 msgstr ""
 
 #. Default: "You can not unselect the \"Refused\" adaptation as there are still items in state \"refused\"."

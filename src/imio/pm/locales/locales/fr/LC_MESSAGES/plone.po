@@ -444,9 +444,17 @@ msgstr "Remettre en \"À corriger\""
 msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposed"
 msgstr "Remettre en \"À corriger\""
 
+#. Default: "Back to proposing group from proposed to level 1"
+msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposedToValidationLevel1"
+msgstr "Remettre en \"À corriger\""
+
+#. Default: "Back to proposing group (proposed to level 1) from proposed to level 2"
+msgid "backTo_returned_to_proposing_group_proposedToValidationLevel1_from_returned_to_proposing_group_proposedToValidationLevel2"
+msgstr "Remettre en \"À corriger (Proposé au N+1)\""
+
 #. Default: "Back to proposing group (proposed) from prevalidated"
 msgid "backTo_returned_to_proposing_group_proposed_from_returned_to_proposing_group_prevalidated"
-msgstr "Remettre en \"À corriger (proposé)\""
+msgstr "Remettre en \"À corriger (Proposé)\""
 
 #. Default: "Validate"
 msgid "backTo_validated_from_waiting_advices"
@@ -657,11 +665,15 @@ msgstr "Rendre l'avis"
 
 #. Default: "Go to returned to proposing group (prevalidated)"
 msgid "goTo_returned_to_proposing_group_prevalidated"
-msgstr "Pré-valider"
+msgstr "Pré-valider (À corriger)"
 
 #. Default: "Go to returned to proposing group (proposed)"
 msgid "goTo_returned_to_proposing_group_proposed"
-msgstr "Proposer"
+msgstr "Proposer (À corriger)"
+
+#. Default: "Go to returned to proposing group (proposed to level 1)"
+msgid "goTo_returned_to_proposing_group_proposedToValidationLevel1"
+msgstr "Proposer au N+1 (À corriger)"
 
 #. Default: "User interface"
 msgid "gui"
@@ -877,7 +889,7 @@ msgstr "Proposé au N+5"
 
 #. Default: "Waiting advices (proposed or prevalidated)"
 msgid "proposed__or__prevalidated_waiting_advices"
-msgstr "En attente des avis (proposé ou pré-validé)"
+msgstr "En attente des avis (Proposé ou Pré-validé)"
 
 #. Default: "Waiting advices (proposed)"
 msgid "proposed_waiting_advices"
@@ -925,15 +937,19 @@ msgstr "À corriger"
 
 #. Default: "Returned to proposing group for corrections"
 msgid "returned_to_proposing_group"
-msgstr "Renvoyé au groupe proposant pour corrections"
+msgstr "À corriger"
 
 #. Default: "Returned to proposing group (prevalidated)"
 msgid "returned_to_proposing_group_prevalidated"
-msgstr "Renvoyé au groupe proposant pour corrections (pré-validé)"
+msgstr "À corriger (Pré-validé)"
 
 #. Default: "Returned to proposing group (proposed)"
 msgid "returned_to_proposing_group_proposed"
-msgstr "Renvoyé au groupe proposant pour corrections (proposé)"
+msgstr "À corriger (Proposé)"
+
+#. Default: "Returned to proposing group (proposed to level 1)"
+msgid "returned_to_proposing_group_proposedToValidationLevel1"
+msgstr "À corriger (Proposé au N+1)"
 
 #. Default: "Search everywhere"
 #: plone.app.layout/plone/app/layout/viewlets/searchbox.pt:16

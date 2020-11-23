@@ -5,8 +5,8 @@ Changelog
 4.2b6 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Reworked `Return to proposing group` related translations.
+  [gbastien]
 
 4.2b5 (2020-11-19)
 ------------------

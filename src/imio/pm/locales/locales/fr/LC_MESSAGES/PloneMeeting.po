@@ -162,7 +162,7 @@ msgstr "Retourner sur le point"
 
 #. Default: "Can not close a meeting containing items returned to proposing group!"
 msgid "Can not close a meeting containing items returned to proposing group!"
-msgstr "Une séance contenant des points 'Renvoyé au groupe proposant pour corrections' ne peut pas être clôturée!"
+msgstr "Une séance contenant des points \"À corriger\" ne peut pas être clôturée!"
 
 #. Default: "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
 msgid "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
@@ -3726,15 +3726,11 @@ msgstr "Retiré"
 
 #. Default: "Returned to proposing group for corrections"
 msgid "icon_help_returned_to_proposing_group"
-msgstr "Renvoyé au groupe proposant pour corrections"
+msgstr "À corriger"
 
-#. Default: "Returned to proposing group for corrections (prevalidated)"
-msgid "icon_help_returned_to_proposing_group_prevalidated"
-msgstr "Renvoyé au groupe proposant pour corrections (pré-validé)"
-
-#. Default: "Returned to proposing group for corrections (proposed)"
-msgid "icon_help_returned_to_proposing_group_proposed"
-msgstr "Renvoyé au groupe proposant pour corrections (proposé)"
+#. Default: "Returned to proposing group for corrections ($validation_state)"
+msgid "icon_help_returned_to_proposing_group_with_validation_state"
+msgstr "À corriger ($validation_state)"
 
 #. Default: "Waiting advices"
 msgid "icon_help_waiting_advices"
@@ -5235,7 +5231,7 @@ msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUr
 
 #. Default: "${meetingConfigTitle} - Item sent back to you for corrections - ${itemTitle}"
 msgid "returnedToProposingGroup_mail_subject"
-msgstr "${meetingConfigTitle} - Point à corriger renvoyé au groupe proposant - ${itemTitle}"
+msgstr "${meetingConfigTitle} - Point à corriger - ${itemTitle}"
 
 #. Default: "Validator"
 msgid "reviewer"
@@ -5911,25 +5907,13 @@ msgstr "Accepter un point hors séance lorsqu'il est validé lorsque l'urgence e
 msgid "wa_added_items_come_validated_error"
 msgstr "Vous ne pouvez pas sélectionner l'adaptation \"Les points arrivent validés\" car il reste des points dans l'état \"en création\" ou \"proposé\"."
 
-#. Default: "You can not select the \"No proposal\" adaptation as there are still items in state \"proposed\"."
-msgid "wa_added_no_proposal_error"
-msgstr "Vous ne pouvez pas sélectionner l'adaptation \"Sauter l'étape de proposition des points\" car il reste des points dans l'état \"proposé\" ou \"Renvoyé au groupe proposant pour corrections (proposé)\"."
-
 #. Default: "You can not select the \"No publication\" adaptation as there are still items or meetings in state \"published\"."
 msgid "wa_added_no_publication_error"
 msgstr "Vous ne pouvez pas sélectionner l'adaptation \"Sauter l'étape de publication\" car il reste des points ou des séances dans l'état \"publié\"."
 
-#. Default: "Archiving"
-msgid "wa_archiving"
-msgstr "Archivage"
-
 #. Default: "This combination of workflow adaptations is invalid."
 msgid "wa_conflicts"
 msgstr "Cette combinaison d'adaptations est invalide."
-
-#. Default: "Creator may edit its items unless items are definitively decided"
-msgid "wa_creator_edits_unless_closed"
-msgstr "Le créateur d'un point peut le modifier tant qu'il n'est pas décidé"
 
 #. Default: "Item decision is pre-encoded by item creator"
 msgid "wa_creator_initiated_decisions"
@@ -5942,10 +5926,6 @@ msgstr "Décider les points automatiquement quand ils reviennent dans la séance
 #. Default: "Delayed"
 msgid "wa_delayed"
 msgstr "Ajouter l'état de décision \"Reporté\" sur un point"
-
-#. Default: "Everyone reads everything in every state"
-msgid "wa_everyone_reads_all"
-msgstr "Tout le monde peut tout consulter dans tout état"
 
 #. Default: "Hide the decision to the proposing group when it is under writing"
 msgid "wa_hide_decisions_when_under_writing"
@@ -5966,10 +5946,6 @@ msgstr "Les gestionnaires de séances peuvent corriger une séance clôturée"
 #. Default: "No global items observation"
 msgid "wa_no_global_observation"
 msgstr "Pas d'observation globale des points"
-
-#. Default: "Skip item proposition step"
-msgid "wa_no_proposal"
-msgstr "Sauter l'étape de proposition des points"
 
 #. Default: "Skip publication step"
 msgid "wa_no_publication"
@@ -6031,10 +6007,6 @@ msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Ajouter l'état de d�
 msgid "wa_removed_postpone_next_meeting_error"
 msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Reporter le point à la prochaine séance\" car il reste des points dans l'état \"Reporté à la prochaine séance\"."
 
-#. Default: "You can not unselect the \"Prevalidation\" adaptation as there are still items in state \"prevalidated\"."
-msgid "wa_removed_pre_validation_error"
-msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Pré-validation des points\" car il reste des points dans l'état \"pré-validé\" ou des points dans l'état \"Renvoyé au groupe proposant pour corrections (pré-validé)\"."
-
 #. Default: "You can not unselect the \"Refused\" adaptation as there are still items in state \"refused\"."
 msgid "wa_removed_refused_error"
 msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Ajouter l'état de décision 'Refusé' sur un point\" car il reste des points dans l'état \"Refusé\"."
@@ -6045,7 +6017,7 @@ msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Ajouter l'état de d�
 
 #. Default: "You can not unselect the \"Return to proposing group\" adaptation as there are still items in state \"returned to proposing group\"."
 msgid "wa_removed_return_to_proposing_group_error"
-msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance\" car il reste des points dans l'état \"Renvoyé au groupe proposant pour corrections\"."
+msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance\" car il reste des points dans l'état \"À corriger\"."
 
 #. Default: "You can not unselect the \"Return to proposing group with all validations\" adaptation as there are still items in states \"returned to proposing group xxx\"."
 msgid "wa_removed_return_to_proposing_group_with_all_validations_error"
