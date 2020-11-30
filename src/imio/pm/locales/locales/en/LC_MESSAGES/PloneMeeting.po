@@ -3374,15 +3374,19 @@ msgstr "Annexes"
 msgid "existing_votes"
 msgstr "Votes"
 
-#. Default: "Cancel edit."
+#. Default: "Cancel edit"
 msgid "fastedit_cancel"
 msgstr "Cancel edit."
 
-#. Default: "Save changes and exit."
+#. Default: "Edit this field"
+msgid "fastedit_edit"
+msgstr "Edit this field"
+
+#. Default: "Save changes and exit"
 msgid "fastedit_save_and_exit_changes"
 msgstr "Save changes and exit."
 
-#. Default: "Save changes."
+#. Default: "Save changes"
 msgid "fastedit_save_changes"
 msgstr "Save changes."
 
@@ -3730,7 +3734,7 @@ msgstr "Returned to proposing group for corrections"
 
 #. Default: "Returned to proposing group for corrections ($validation_state)"
 msgid "icon_help_returned_to_proposing_group_with_validation_state"
-msgstr ""
+msgstr "Returned to proposing group for corrections ($validation_state)"
 
 #. Default: "Waiting advices"
 msgid "icon_help_waiting_advices"
