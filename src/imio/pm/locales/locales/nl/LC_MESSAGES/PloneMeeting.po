@@ -1738,14 +1738,6 @@ msgstr ""
 msgid "PloneMeeting_label_signatories"
 msgstr ""
 
-#. Default: "Signature image"
-msgid "PloneMeeting_label_signatureImage"
-msgstr ""
-
-#. Default: "This signature is the default signature"
-msgid "PloneMeeting_label_signatureIsDefault"
-msgstr ""
-
 #. Default: "Default signatures"
 msgid "PloneMeeting_label_signatures"
 msgstr "Standaard handtekeningen"
@@ -4602,30 +4594,6 @@ msgstr ""
 msgid "meeting_transition_inserting_me_descr"
 msgstr ""
 
-#. Default: "A user ID is required."
-msgid "meeting_user_id_required"
-msgstr ""
-
-#. Default: "No Plone user was found with this ID or you did not enter the ID of an existing Plone user."
-msgid "meeting_user_no_plone_user"
-msgstr ""
-
-#. Default: "A Special user is already linked to this Plone user."
-msgid "meeting_user_plone_user_already_used"
-msgstr ""
-
-#. Default: "If this user is a signer, you can upload here the scanned image of his handwritten signature."
-msgid "meeting_user_signature_image_descr"
-msgstr ""
-
-#. Default: "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
-msgid "meeting_user_signature_is_default"
-msgstr ""
-
-#. Default: "Voter"
-msgid "meeting_user_usage_voter"
-msgstr ""
-
 #. Default: "A meeting having the same date and hour already exists. Please choose another date and/or hour."
 msgid "meeting_with_same_date_exists"
 msgstr "A meeting having the same date and hour already exists. Please choose another date and/or hour."
@@ -6050,6 +6018,10 @@ msgstr ""
 
 #. Default: "Yes"
 msgid "vote_value_yes"
+msgstr ""
+
+#. Default: "Voter"
+msgid "voter"
 msgstr ""
 
 #. Default: "There are ${numberOfVoters} voters for this item."

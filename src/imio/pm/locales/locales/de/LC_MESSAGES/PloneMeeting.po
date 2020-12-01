@@ -1739,14 +1739,6 @@ msgstr ""
 msgid "PloneMeeting_label_signatories"
 msgstr ""
 
-#. Default: "Signature image"
-msgid "PloneMeeting_label_signatureImage"
-msgstr "Unterschriftsbild"
-
-#. Default: "This signature is the default signature"
-msgid "PloneMeeting_label_signatureIsDefault"
-msgstr "Diese Unterschrift ist die Standardunterschrift"
-
 #. Default: "Default signatures"
 msgid "PloneMeeting_label_signatures"
 msgstr "Standard-Unterschriften"
@@ -4634,30 +4626,6 @@ msgstr ""
 msgid "meeting_transition_inserting_me_descr"
 msgstr "Statusübergang der Sitzung der das Einfügen dieses TOPs in eine Sitzung auslöst. Füllen Sie dieses Feld nur aus, wenn Sie 'Wiederkehrender TOP' für diese TOP ausgwählt haben."
 
-#. Default: "A user ID is required."
-msgid "meeting_user_id_required"
-msgstr "Eine Benutzer-ID muss angegeben werden."
-
-#. Default: "No Plone user was found with this ID or you did not enter the ID of an existing Plone user."
-msgid "meeting_user_no_plone_user"
-msgstr "Es wurde kein Plonebenutzer mit dieser ID gefunden oder Sie haben eine ID von einem nicht existierenden Plonebenutzer eingegeben."
-
-#. Default: "A Special user is already linked to this Plone user."
-msgid "meeting_user_plone_user_already_used"
-msgstr "Dieser Plonebenutzer ist schon ein Spezieller Benutzer."
-
-#. Default: "If this user is a signer, you can upload here the scanned image of his handwritten signature."
-msgid "meeting_user_signature_image_descr"
-msgstr "Sollte dieser Benutzer ein Unterzeichner sein, dann können Sie hier ein gescanntes Bild seiner Unterschrift hochladen."
-
-#. Default: "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
-msgid "meeting_user_signature_is_default"
-msgstr "Wenn Sie diese Box auswählen, wird er der Standardunterzeichner beim erstellen einer Sitzung in dieser Sitzungskonfiguration."
-
-#. Default: "Voter"
-msgid "meeting_user_usage_voter"
-msgstr "Abstimmen"
-
 #. Default: "A meeting having the same date and hour already exists. Please choose another date and/or hour."
 msgid "meeting_with_same_date_exists"
 msgstr "Eine Sitzung zur selben Zeit existiert bereits. Bitte wählen Sie ein anderes Datum und/oder eine andere Zeit."
@@ -6095,6 +6063,10 @@ msgstr "Noch nicht eingegeben"
 #. Default: "Yes"
 msgid "vote_value_yes"
 msgstr "Ja"
+
+#. Default: "Voter"
+msgid "voter"
+msgstr ""
 
 #. Default: "There are ${numberOfVoters} voters for this item."
 msgid "voter_count"

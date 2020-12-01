@@ -1745,14 +1745,6 @@ msgstr "Mostrar los posibles objetivos para palabras clave del tema"
 msgid "PloneMeeting_label_signatories"
 msgstr ""
 
-#. Default: "Signature image"
-msgid "PloneMeeting_label_signatureImage"
-msgstr "Imagen digitalizada de la Firma"
-
-#. Default: "This signature is the default signature"
-msgid "PloneMeeting_label_signatureIsDefault"
-msgstr "Esta firma es la firma por defecto"
-
 #. Default: "Default signatures"
 msgid "PloneMeeting_label_signatures"
 msgstr "Firmas por defecto"
@@ -4666,30 +4658,6 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - Este reunión esta ahora en el
 msgid "meeting_transition_inserting_me_descr"
 msgstr "Seleccione aquí que evento en las reuniones disparará la inserción de este tema en una reunión. Rellene este campo solamente si usted selecciona 'Como un tema recurrente' en medio de los usos de temas."
 
-#. Default: "A user ID is required."
-msgid "meeting_user_id_required"
-msgstr "Un identificador de usuario es requerido."
-
-#. Default: "No Plone user was found with this ID or you did not enter the ID of an existing Plone user."
-msgid "meeting_user_no_plone_user"
-msgstr "Sin usuario Plone encontrado con este identificador o usted no ha introducido el identificador de un usuario Plone existente."
-
-#. Default: "A Special user is already linked to this Plone user."
-msgid "meeting_user_plone_user_already_used"
-msgstr "Un usuario especial esta vinculado a este usuario Plone."
-
-#. Default: "If this user is a signer, you can upload here the scanned image of his handwritten signature."
-msgid "meeting_user_signature_image_descr"
-msgstr "Si este usuario es uno de los firmantes, puede subir aquí la imagen digitalizada de su firma manuscrita."
-
-#. Default: "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
-msgid "meeting_user_signature_is_default"
-msgstr "Si activa esta casilla, cuando creé una reunión de esta configuración de reunión, el firmante por defecto sera este."
-
-#. Default: "Voter"
-msgid "meeting_user_usage_voter"
-msgstr "Votantes"
-
 #. Default: "A meeting having the same date and hour already exists. Please choose another date and/or hour."
 msgid "meeting_with_same_date_exists"
 msgstr "Un reunión tiene la misma fecha y hora existente. Por favor seleccione otra fecha y / o hora."
@@ -6134,6 +6102,10 @@ msgstr "Aún no ha votado"
 #. Default: "Yes"
 msgid "vote_value_yes"
 msgstr "Sí"
+
+#. Default: "Voter"
+msgid "voter"
+msgstr ""
 
 #. Default: "There are ${numberOfVoters} voters for this item."
 msgid "voter_count"

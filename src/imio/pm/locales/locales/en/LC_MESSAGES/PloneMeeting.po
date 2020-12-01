@@ -1733,14 +1733,6 @@ msgstr "Show possible targets for item keywords"
 msgid "PloneMeeting_label_signatories"
 msgstr "Signatories"
 
-#. Default: "Signature image"
-msgid "PloneMeeting_label_signatureImage"
-msgstr "Signature image"
-
-#. Default: "This signature is the default signature"
-msgid "PloneMeeting_label_signatureIsDefault"
-msgstr "This signature is the default signature"
-
 #. Default: "Default signatures"
 msgid "PloneMeeting_label_signatures"
 msgstr "Default signatures"
@@ -4576,30 +4568,6 @@ msgstr "${meetingConfigTitle} - Meeting in state \"${meetingState}\" - ${meeting
 msgid "meeting_transition_inserting_me_descr"
 msgstr "Choose here what event on meetings will trigger the insertion of this item in a meeting."
 
-#. Default: "A user ID is required."
-msgid "meeting_user_id_required"
-msgstr "A user ID is required."
-
-#. Default: "No Plone user was found with this ID or you did not enter the ID of an existing Plone user."
-msgid "meeting_user_no_plone_user"
-msgstr "No Plone user was found with this ID or you did not enter the ID of an existing Plone user."
-
-#. Default: "A Special user is already linked to this Plone user."
-msgid "meeting_user_plone_user_already_used"
-msgstr "A Special user is already linked to this Plone user."
-
-#. Default: "If this user is a signer, you can upload here the scanned image of his handwritten signature."
-msgid "meeting_user_signature_image_descr"
-msgstr "If this user is a signer, you can upload here the scanned image of his handwritten signature."
-
-#. Default: "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
-msgid "meeting_user_signature_is_default"
-msgstr "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
-
-#. Default: "Voter"
-msgid "meeting_user_usage_voter"
-msgstr "Voter"
-
 #. Default: "A meeting having the same date and hour already exists. Please choose another date and/or hour."
 msgid "meeting_with_same_date_exists"
 msgstr "A meeting having the same date and hour already exists. Please choose another date and/or hour."
@@ -6007,6 +5975,10 @@ msgstr "Not yet encoded"
 #. Default: "Yes"
 msgid "vote_value_yes"
 msgstr "Yes"
+
+#. Default: "Voter"
+msgid "voter"
+msgstr ""
 
 #. Default: "There are ${numberOfVoters} voters for this item."
 msgid "voter_count"

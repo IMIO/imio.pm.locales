@@ -1293,6 +1293,10 @@ msgstr ""
 msgid "present"
 msgstr ""
 
+#. Default: "Voter"
+msgid "voter"
+msgstr ""
+
 #. Default: "Signature number"
 msgid "Signature number"
 msgstr ""
@@ -1319,38 +1323,6 @@ msgstr ""
 
 #. Default: "Select groups that will be able to use this item as template.  If every groups must be able to use this catgory, do not select anything."
 msgid "template_using_groups_descr"
-msgstr ""
-
-#. Default: "Signature image"
-msgid "PloneMeeting_label_signatureImage"
-msgstr ""
-
-#. Default: "If this user is a signer, you can upload here the scanned image of his handwritten signature."
-msgid "meeting_user_signature_image_descr"
-msgstr ""
-
-#. Default: "This signature is the default signature"
-msgid "PloneMeeting_label_signatureIsDefault"
-msgstr ""
-
-#. Default: "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
-msgid "meeting_user_signature_is_default"
-msgstr ""
-
-#. Default: "Voter"
-msgid "meeting_user_usage_voter"
-msgstr ""
-
-#. Default: "No Plone user was found with this ID or you did not enter the ID of an existing Plone user."
-msgid "meeting_user_no_plone_user"
-msgstr ""
-
-#. Default: "A Special user is already linked to this Plone user."
-msgid "meeting_user_plone_user_already_used"
-msgstr ""
-
-#. Default: "A user ID is required."
-msgid "meeting_user_id_required"
 msgstr ""
 
 # ToolPloneMeeting
