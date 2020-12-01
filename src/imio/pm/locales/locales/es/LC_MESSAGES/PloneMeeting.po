@@ -184,6 +184,10 @@ msgstr ""
 msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgstr ""
 
+#. Default: "Can not set ${not_present_type} a person that voted on an item!"
+msgid "Can not set ${not_present_type} a person that voted on an item!"
+msgstr ""
+
 #. Default: "Cancel"
 msgid "Cancel"
 msgstr "Cancelar"
@@ -781,6 +785,10 @@ msgstr ""
 
 #. Default: "POD template to annex"
 msgid "POD template to annex"
+msgstr ""
+
+#. Default: "Please check item number ${item_number} at ${item_url}."
+msgid "Please check item number ${item_number} at ${item_url}."
 msgstr ""
 
 #. Default: "Please check that opening \"[[\" have corresponding closing \"]]\"."
@@ -3528,15 +3536,21 @@ msgstr "Anexos"
 msgid "existing_votes"
 msgstr "Votos"
 
-#. Default: "Cancel edit."
+#. Default: "Cancel edit"
+#, fuzzy
 msgid "fastedit_cancel"
 msgstr "Cancelar edición."
 
-#. Default: "Save changes and exit."
+#. Default: "Edit this field"
+msgid "fastedit_edit"
+msgstr ""
+
+#. Default: "Save changes and exit"
 msgid "fastedit_save_and_exit_changes"
 msgstr ""
 
-#. Default: "Save changes."
+#. Default: "Save changes"
+#, fuzzy
 msgid "fastedit_save_changes"
 msgstr "Guardar cambios."
 
@@ -3897,12 +3911,8 @@ msgstr ""
 msgid "icon_help_returned_to_proposing_group"
 msgstr "Volver a grupo proponente para correcciones"
 
-#. Default: "Returned to proposing group for corrections (prevalidated)"
-msgid "icon_help_returned_to_proposing_group_prevalidated"
-msgstr ""
-
-#. Default: "Returned to proposing group for corrections (proposed)"
-msgid "icon_help_returned_to_proposing_group_proposed"
+#. Default: "Returned to proposing group for corrections ($validation_state)"
+msgid "icon_help_returned_to_proposing_group_with_validation_state"
 msgstr ""
 
 #. Default: "Waiting advices"
@@ -6161,26 +6171,13 @@ msgstr ""
 msgid "wa_added_items_come_validated_error"
 msgstr ""
 
-#. Default: "You can not select the \"No proposal\" adaptation as there are still items in state \"proposed\"."
-msgid "wa_added_no_proposal_error"
-msgstr ""
-
 #. Default: "You can not select the \"No publication\" adaptation as there are still items or meetings in state \"published\"."
 msgid "wa_added_no_publication_error"
 msgstr ""
 
-#. Default: "Archiving"
-msgid "wa_archiving"
-msgstr "Archivando"
-
 #. Default: "This combination of workflow adaptations is invalid."
 msgid "wa_conflicts"
 msgstr "Esta combinación de adaptaciones de flujos de trabajo es invalida."
-
-#. Default: "Creator may edit its items unless items are definitively decided"
-#, fuzzy
-msgid "wa_creator_edits_unless_closed"
-msgstr "Creador puede editar sus temas a menos que la reunión este cerrada"
 
 #. Default: "Item decision is pre-encoded by item creator"
 msgid "wa_creator_initiated_decisions"
@@ -6193,10 +6190,6 @@ msgstr ""
 #. Default: "Delayed"
 msgid "wa_delayed"
 msgstr ""
-
-#. Default: "Everyone reads everything in every state"
-msgid "wa_everyone_reads_all"
-msgstr "Todo el mundo lee todo en cada estado"
 
 #. Default: "Hide the decision to the proposing group when it is under writing"
 msgid "wa_hide_decisions_when_under_writing"
@@ -6217,10 +6210,6 @@ msgstr ""
 #. Default: "No global items observation"
 msgid "wa_no_global_observation"
 msgstr "Sin observaciones de temas globales"
-
-#. Default: "Skip item proposition step"
-msgid "wa_no_proposal"
-msgstr "Saltar paso proposición de tema"
 
 #. Default: "Skip publication step"
 msgid "wa_no_publication"
@@ -6280,10 +6269,6 @@ msgstr ""
 
 #. Default: "You can not unselect the \"Postpone next meeting\" adaptation as there are still items in state \"postponed next meeting\"."
 msgid "wa_removed_postpone_next_meeting_error"
-msgstr ""
-
-#. Default: "You can not unselect the \"Prevalidation\" adaptation as there are still items in state \"prevalidated\"."
-msgid "wa_removed_pre_validation_error"
 msgstr ""
 
 #. Default: "You can not unselect the \"Refused\" adaptation as there are still items in state \"refused\"."

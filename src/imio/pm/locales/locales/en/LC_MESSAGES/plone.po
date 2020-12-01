@@ -447,6 +447,14 @@ msgstr "Back to proposing group from prevalidated"
 msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposed"
 msgstr "Back to proposing group from proposed"
 
+#. Default: "Back to proposing group from proposed to level 1"
+msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposedToValidationLevel1"
+msgstr ""
+
+#. Default: "Back to proposing group (proposed to level 1) from proposed to level 2"
+msgid "backTo_returned_to_proposing_group_proposedToValidationLevel1_from_returned_to_proposing_group_proposedToValidationLevel2"
+msgstr ""
+
 #. Default: "Back to proposing group (proposed) from prevalidated"
 msgid "backTo_returned_to_proposing_group_proposed_from_returned_to_proposing_group_prevalidated"
 msgstr "Back to proposing group (proposed) from prevalidated"
@@ -665,6 +673,10 @@ msgstr "Go to returned to proposing group (prevalidated)"
 #. Default: "Go to returned to proposing group (proposed)"
 msgid "goTo_returned_to_proposing_group_proposed"
 msgstr "Go to returned to proposing group (proposed)"
+
+#. Default: "Go to returned to proposing group (proposed to level 1)"
+msgid "goTo_returned_to_proposing_group_proposedToValidationLevel1"
+msgstr ""
 
 #. Default: "User interface"
 msgid "gui"
@@ -937,6 +949,10 @@ msgstr "Returned to proposing group (prevalidated)"
 #. Default: "Returned to proposing group (proposed)"
 msgid "returned_to_proposing_group_proposed"
 msgstr "Returned to proposing group (proposed)"
+
+#. Default: "Returned to proposing group (proposed to level 1)"
+msgid "returned_to_proposing_group_proposedToValidationLevel1"
+msgstr ""
 
 #. Default: "Search everywhere"
 #: plone.app.layout/plone/app/layout/viewlets/searchbox.pt:16

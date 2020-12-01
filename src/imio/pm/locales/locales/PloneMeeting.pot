@@ -2317,20 +2317,12 @@ msgstr ""
 msgid "wa_added_no_publication_error"
 msgstr ""
 
-#. Default: "You can not select the \"No proposal\" adaptation as there are still items in state \"proposed\"."
-msgid "wa_added_no_proposal_error"
-msgstr ""
-
 #. Default: "You can not select the \"Items come validated\" adaptation as there are still items in state \"itemcreated\" or \"proposed\"."
 msgid "wa_added_items_come_validated_error"
 msgstr ""
 
 #. Default: "You can not unselect the \"Archiving\" adaptation, when selected, there is no way back."
 msgid "wa_removed_archiving_error"
-msgstr ""
-
-#. Default: "You can not unselect the \"Prevalidation\" adaptation as there are still items in state \"prevalidated\"."
-msgid "wa_removed_pre_validation_error"
 msgstr ""
 
 #. Default: "You can not unselect the \"Postpone next meeting\" adaptation as there are still items in state \"postponed next meeting\"."
@@ -2476,24 +2468,8 @@ msgstr ""
 msgid "wa_reviewers_take_back_validated_item"
 msgstr ""
 
-#. Default: "Archiving"
-msgid "wa_archiving"
-msgstr ""
-
 #. Default: "Skip publication step"
 msgid "wa_no_publication"
-msgstr ""
-
-#. Default: "Skip item proposition step"
-msgid "wa_no_proposal"
-msgstr ""
-
-#. Default: "Everyone reads everything in every state"
-msgid "wa_everyone_reads_all"
-msgstr ""
-
-#. Default: "Creator may edit its items unless items are definitively decided"
-msgid "wa_creator_edits_unless_closed"
 msgstr ""
 
 #. Default: "Return to proposing group for corrections"
@@ -2976,15 +2952,19 @@ msgstr ""
 msgid "pm_tool_updates_warning"
 msgstr ""
 
-#. Default: "Cancel edit."
+#. Default: "Edit this field"
+msgid "fastedit_edit"
+msgstr ""
+
+#. Default: "Cancel edit"
 msgid "fastedit_cancel"
 msgstr ""
 
-#. Default: "Save changes."
+#. Default: "Save changes"
 msgid "fastedit_save_changes"
 msgstr ""
 
-#. Default: "Save changes and exit."
+#. Default: "Save changes and exit"
 msgid "fastedit_save_and_exit_changes"
 msgstr ""
 
@@ -3973,6 +3953,10 @@ msgstr ""
 
 #. Default: "Returned to proposing group for corrections"
 msgid "icon_help_returned_to_proposing_group"
+msgstr ""
+
+#. Default: "Returned to proposing group for corrections ($validation_state)"
+msgid "icon_help_returned_to_proposing_group_with_validation_state"
 msgstr ""
 
 #. Default: "In order to perform this action, the meeting date must be in the past."
@@ -5259,14 +5243,6 @@ msgstr "
 msgid "wa_return_to_proposing_group_with_all_validations"
 msgstr "
 
-#. Default: "Returned to proposing group for corrections (proposed)"
-msgid "icon_help_returned_to_proposing_group_proposed"
-msgstr ""
-
-#. Default: "Returned to proposing group for corrections (prevalidated)"
-msgid "icon_help_returned_to_proposing_group_prevalidated"
-msgstr ""
-
 #. Default: "Items to correct to validate"
 msgid "searchitemstocorrecttovalidate"
 msgstr ""
@@ -5749,6 +5725,14 @@ msgstr ""
 
 #. Default: "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
+msgstr ""
+
+#. Default: "Can not set ${not_present_type} a person that voted on an item!"
+msgid "Can not set ${not_present_type} a person that voted on an item!"
+msgstr ""
+
+#. Default: "Please check item number ${item_number} at ${item_url}."
+msgid "Please check item number ${item_number} at ${item_url}."
 msgstr ""
 
 #. Default: "Nothing to display."
