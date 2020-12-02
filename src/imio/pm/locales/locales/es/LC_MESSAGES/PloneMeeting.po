@@ -47,6 +47,14 @@ msgstr "Agregar Portlet PloneMeeting"
 msgid "Add Todo Portlet"
 msgstr "Agregar Portlet Todo"
 
+#. Default: "Add new linked vote"
+msgid "Add new linked vote"
+msgstr ""
+
+#. Default: "Add new vote"
+msgid "Add new vote"
+msgstr ""
+
 #. Default: "Advice advanced management screen"
 msgid "Advice advanced management screen"
 msgstr ""
@@ -176,6 +184,10 @@ msgstr ""
 msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgstr ""
 
+#. Default: "Can not set ${not_present_type} a person that voted on an item!"
+msgid "Can not set ${not_present_type} a person that voted on an item!"
+msgstr ""
+
 #. Default: "Cancel"
 msgid "Cancel"
 msgstr "Cancelar"
@@ -288,6 +300,10 @@ msgstr ""
 msgid "Delete advice"
 msgstr "Eliminar consejo"
 
+#. Default: "Delete this vote"
+msgid "Delete this vote"
+msgstr ""
+
 #. Default: "Disabled (greyed) annexes will not be kept on the new duplicated item."
 msgid "Disabled (greyed) annexes will not be kept on the new duplicated item."
 msgstr ""
@@ -324,12 +340,24 @@ msgstr ""
 msgid "Edit contacts"
 msgstr ""
 
+#. Default: "Edit this vote"
+msgid "Edit this vote"
+msgstr ""
+
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
 msgstr ""
 
 #. Default: "Enabled?"
 msgid "Enabled?"
+msgstr ""
+
+#. Default: "Encode secret votes"
+msgid "Encode secret votes"
+msgstr ""
+
+#. Default: "Encode votes"
+msgid "Encode votes"
 msgstr ""
 
 #. Default: "Enter a reference for this advice if necessary."
@@ -382,6 +410,10 @@ msgstr ""
 
 #. Default: "Firstname abbreviated"
 msgid "Firstname abbreviated"
+msgstr ""
+
+#. Default: "Free label that will identify the vote, useful when several votes are defined on an item. Leave empty if not used."
+msgid "Free label that will identify the vote, useful when several votes are defined on an item. Leave empty if not used."
 msgstr ""
 
 #. Default: "Free text fields"
@@ -577,6 +609,10 @@ msgstr ""
 msgid "Keep link?"
 msgstr ""
 
+#. Default: "Label"
+msgid "Label"
+msgstr ""
+
 #. Default: "Limit date ${advice_limit_date}"
 msgid "Limit date ${advice_limit_date}"
 msgstr ""
@@ -699,8 +735,20 @@ msgstr ""
 msgid "None"
 msgstr ""
 
+#. Default: "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
+msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
+msgstr ""
+
 #. Default: "Not present type"
 msgid "Not present type"
+msgstr ""
+
+#. Default: "Not voter"
+msgid "Not voter"
+msgstr ""
+
+#. Default: "Nothing to display when item is not presented into a meeting."
+msgid "Nothing to display when item is not presented into a meeting."
 msgstr ""
 
 #. Default: "Nothing to display."
@@ -737,6 +785,10 @@ msgstr ""
 
 #. Default: "POD template to annex"
 msgid "POD template to annex"
+msgstr ""
+
+#. Default: "Please check item number ${item_number} at ${item_url}."
+msgid "Please check item number ${item_number} at ${item_url}."
 msgstr ""
 
 #. Default: "Please check that opening \"[[\" have corresponding closing \"]]\"."
@@ -1069,6 +1121,10 @@ msgstr ""
 #. Default: "Number of the first item contained in this meeting"
 msgid "PloneMeeting_label_firstItemNumber"
 msgstr "Número del primer tema contenido en esta reunión"
+
+#. Default: "First linked vote values"
+msgid "PloneMeeting_label_firstLinkedVoteUsedVoteValues"
+msgstr ""
 
 #. Default: "Name of the folder linked to this configuration"
 msgid "PloneMeeting_label_folderTitle"
@@ -1471,6 +1527,10 @@ msgstr "Adaptaciones del Modelo"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivación"
 
+#. Default: "Next linked votes values"
+msgid "PloneMeeting_label_nextLinkedVotesUsedVoteValues"
+msgstr ""
+
 #. Default: "Non attendees"
 msgid "PloneMeeting_label_nonAttendees"
 msgstr ""
@@ -1684,14 +1744,6 @@ msgstr "Mostrar los posibles objetivos para palabras clave del tema"
 #. Default: "Signatories"
 msgid "PloneMeeting_label_signatories"
 msgstr ""
-
-#. Default: "Signature image"
-msgid "PloneMeeting_label_signatureImage"
-msgstr "Imagen digitalizada de la Firma"
-
-#. Default: "This signature is the default signature"
-msgid "PloneMeeting_label_signatureIsDefault"
-msgstr "Esta firma es la firma por defecto"
 
 #. Default: "Default signatures"
 msgid "PloneMeeting_label_signatures"
@@ -2058,13 +2110,12 @@ msgstr ""
 msgid "This advice was given as personal initiative"
 msgstr ""
 
-#. Default: "This attendee is marked as ${not_present_type} for following items"
-#, fuzzy
-msgid "This attendee is marked as ${not_present_type} for following items"
-msgstr "This attendee is marked as ${not_present_type} for following items"
+#. Default: "This attendee is marked as ${not_present_type} for the ${number} following items"
+msgid "This attendee is marked as ${not_present_type} for the ${number} following items"
+msgstr ""
 
-#. Default: "This attendee is marked as signatory for following item(s)"
-msgid "This attendee is marked as signatory for following items"
+#. Default: "This attendee is marked as signatory for the ${number} following item(s)"
+msgid "This attendee is marked as signatory for the ${number} following item(s)"
 msgstr ""
 
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
@@ -2107,6 +2158,10 @@ msgstr "Este portlet muestra controles de PloneMeeting."
 msgid "This portlet shows things to do."
 msgstr "Este portlet muestra las cosas pendiente por hacer."
 
+#. Default: "This vote is linked to previous vote"
+msgid "This vote is linked to previous vote"
+msgstr ""
+
 #. Default: "To do"
 msgid "To do"
 msgstr "Por hacer"
@@ -2130,6 +2185,34 @@ msgstr ""
 
 #. Default: "Used in the assembly for meetings"
 msgid "Used in the assembly for meetings"
+msgstr ""
+
+#. Default: "Vote count"
+msgid "Vote count"
+msgstr ""
+
+#. Default: "Vote value"
+msgid "Vote value"
+msgstr ""
+
+#. Default: "Voter"
+msgid "Voter"
+msgstr ""
+
+#. Default: "Voter already encoded a vote for another linked vote"
+msgid "Voter already encoded a vote for another linked vote"
+msgstr ""
+
+#. Default: "Votes"
+msgid "Votes"
+msgstr ""
+
+#. Default: "Votes are completed for following ${number} ${polltype} item(s)"
+msgid "Votes are completed for following ${number} ${polltype} item(s)"
+msgstr ""
+
+#. Default: "Votes are not completed for following ${number} ${polltype} item(s)"
+msgid "Votes are not completed for following ${number} ${polltype} item(s)"
 msgstr ""
 
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
@@ -2681,6 +2764,14 @@ msgstr ""
 msgid "can_not_remove_attendee_redefined_on_items"
 msgstr ""
 
+#. Default: "You can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
+msgid "can_not_remove_public_voter_voted_on_items"
+msgstr ""
+
+#. Default: "You can not unselect a voter that already voted on a secret vote item."
+msgid "can_not_remove_secret_voter_voted_on_items"
+msgstr ""
+
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "Este tema ya no puede ser devuelto a los administrador de reunión porque la reunión se encuentra en un estado no se autoriza (${meetingState})."
@@ -2692,6 +2783,10 @@ msgstr ""
 #. Default: "You can not select several values for the same group.  Please select a single value for the same group among available ones."
 msgid "can_not_select_several_optional_advisers_same_group"
 msgstr "No puede seleccionar varios valores para el mismo grupo. Por favor, seleccione un valor único para el mismo grupo de entre los disponibles."
+
+#. Default: "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
+msgid "can_not_switch_polltype_votes_encoded"
+msgstr ""
 
 #. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
 #, fuzzy
@@ -3139,6 +3234,10 @@ msgstr ""
 msgid "default_advice_type_descr"
 msgstr "El tipo de consejo por defecto será preseleccionado en el formulario para agregar un consejo sobre un tema."
 
+#. Default: "Default, for all items:"
+msgid "default_for_all_items"
+msgstr ""
+
 #. Default: "The default poll type will be preselected on the form when adding an item."
 msgid "default_poll_type_descr"
 msgstr ""
@@ -3280,6 +3379,10 @@ msgstr "Si marca esta casilla, los usuarios podrán acceder a una pantalla para 
 #. Default: "When advice mandatoriness is enforced, an item can't be inserted into a meeting unless all mandatory advices are given and positive."
 msgid "enforce_advice_mandatoriness_descr"
 msgstr "Cuando el consejo obligatorio es forzado, un tema no puede ser insertado dentro de una reunión a menos que todos los consejos obligatorios son dados y son positivos."
+
+#. Default: "You can not encode more than ${max_voters} voters."
+msgid "error_can_not_encode_more_than_max_voters"
+msgstr ""
 
 #. Default: "You can not select several categories for the same meeting config."
 msgid "error_can_not_select_several_cat_for_same_mc"
@@ -3459,6 +3562,10 @@ msgstr ""
 #, fuzzy
 msgid "file_required"
 msgstr "Por favor elija un archivo haciendo clic en el botón 'Navegar'."
+
+#. Default: "While using linked vote values, select here values that will be selectable for the first linked vote value"
+msgid "first_linked_vote_used_vote_values_descr"
+msgstr ""
 
 #. Default: "Please respect order of transitions sequence to present an item, the first given transition is not a transition leaving the item workflow initial state."
 msgid "first_transition_must_leave_wf_initial_state"
@@ -4551,30 +4658,6 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - Este reunión esta ahora en el
 msgid "meeting_transition_inserting_me_descr"
 msgstr "Seleccione aquí que evento en las reuniones disparará la inserción de este tema en una reunión. Rellene este campo solamente si usted selecciona 'Como un tema recurrente' en medio de los usos de temas."
 
-#. Default: "A user ID is required."
-msgid "meeting_user_id_required"
-msgstr "Un identificador de usuario es requerido."
-
-#. Default: "No Plone user was found with this ID or you did not enter the ID of an existing Plone user."
-msgid "meeting_user_no_plone_user"
-msgstr "Sin usuario Plone encontrado con este identificador o usted no ha introducido el identificador de un usuario Plone existente."
-
-#. Default: "A Special user is already linked to this Plone user."
-msgid "meeting_user_plone_user_already_used"
-msgstr "Un usuario especial esta vinculado a este usuario Plone."
-
-#. Default: "If this user is a signer, you can upload here the scanned image of his handwritten signature."
-msgid "meeting_user_signature_image_descr"
-msgstr "Si este usuario es uno de los firmantes, puede subir aquí la imagen digitalizada de su firma manuscrita."
-
-#. Default: "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
-msgid "meeting_user_signature_is_default"
-msgstr "Si activa esta casilla, cuando creé una reunión de esta configuración de reunión, el firmante por defecto sera este."
-
-#. Default: "Voter"
-msgid "meeting_user_usage_voter"
-msgstr "Votantes"
-
 #. Default: "A meeting having the same date and hour already exists. Please choose another date and/or hour."
 msgid "meeting_with_same_date_exists"
 msgstr "Un reunión tiene la misma fecha y hora existente. Por favor seleccione otra fecha y / o hora."
@@ -4676,6 +4759,10 @@ msgstr "Mover este tema a la posición que precede al número que ha introducido
 #. Default: "Negative"
 msgid "negative"
 msgstr "Negativo"
+
+#. Default: "While using linked vote values, select here values that will be selectable for the next votes (so votes after the first)"
+msgid "next_linked_votes_used_vote_values_descr"
+msgstr ""
 
 #. Default: "There are ${nb} task(s) foreseen for next night."
 msgid "night_works"
@@ -4817,6 +4904,10 @@ msgstr "Nada por hacer"
 
 #. Default: "notify users able to view the element"
 msgid "notify_users_able_to_view_element"
+msgstr ""
+
+#. Default: "Total number of voters"
+msgid "number_of_voters"
 msgstr ""
 
 #. Default: "Observer"
@@ -5110,8 +5201,16 @@ msgstr "Esta sección le permitirá administrar las platillas de documentos que 
 msgid "polltype_freehand"
 msgstr ""
 
+#. Default: "Mechanical"
+msgid "polltype_mechanical"
+msgstr ""
+
 #. Default: "No vote"
 msgid "polltype_no_vote"
+msgstr ""
+
+#. Default: "Out loud"
+msgid "polltype_out_loud"
 msgstr ""
 
 #. Default: "Secret"
@@ -5269,9 +5368,9 @@ msgstr ""
 msgid "redirect_to_next_meeting_descr"
 msgstr ""
 
-#. Default: "Refresh vote values"
-msgid "refresh_votes"
-msgstr "Actualizar valores de voto"
+#. Default: "Refresh values"
+msgid "refresh_values"
+msgstr ""
 
 #. Default: "Reinitialize delay for this advice?"
 msgid "reinit_delay_confirm_message"
@@ -6003,6 +6102,10 @@ msgstr "Aún no ha votado"
 #. Default: "Yes"
 msgid "vote_value_yes"
 msgstr "Sí"
+
+#. Default: "Voter"
+msgid "voter"
+msgstr ""
 
 #. Default: "There are ${numberOfVoters} voters for this item."
 msgid "voter_count"

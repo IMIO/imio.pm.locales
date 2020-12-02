@@ -43,6 +43,14 @@ msgstr "Ajout d'un portlet 'PloneMeeting'"
 msgid "Add Todo Portlet"
 msgstr "Ajout d'un portlet 'à faire'"
 
+#. Default: "Add new linked vote"
+msgid "Add new linked vote"
+msgstr "Ajouter un nouveau vote lié"
+
+#. Default: "Add new vote"
+msgid "Add new vote"
+msgstr "Ajouter un nouveau vote"
+
 #. Default: "Advice advanced management screen"
 msgid "Advice advanced management screen"
 msgstr "Écran de gestion avancé de l'avis"
@@ -172,6 +180,10 @@ msgstr "Une configuration de séance renseignée dans une autre ne peut pas êtr
 msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgstr "Impossible de définir un membre \"${not_present_type}\" s'il est spécifiquement défini signataire du point!"
 
+#. Default: "Can not set ${not_present_type} a person that voted on an item!"
+msgid "Can not set ${not_present_type} a person that voted on an item!"
+msgstr "Impossible de définir un membre \"${not_present_type}\" s'il a déjà voté sur le point!"
+
 #. Default: "Cancel"
 msgid "Cancel"
 msgstr "Annuler"
@@ -284,6 +296,10 @@ msgstr "Définir ce membre comme signataire pour ce point"
 msgid "Delete advice"
 msgstr "Supprimer l'avis"
 
+#. Default: "Delete this vote"
+msgid "Delete this vote"
+msgstr "Supprimer ce vote"
+
 #. Default: "Disabled (greyed) annexes will not be kept on the new duplicated item."
 msgid "Disabled (greyed) annexes will not be kept on the new duplicated item."
 msgstr "ATTENTION, les annexes grisées ne seront pas gardées si elles comportent un QR code ou un type d'annexe restreint aux gestionnaires de séances!"
@@ -320,6 +336,10 @@ msgstr "Éditer les paramètres de ce groupe de catégories ('Activer l'option \
 msgid "Edit contacts"
 msgstr "Éditer l'annuaire \"Contacts\""
 
+#. Default: "Edit this vote"
+msgid "Edit this vote"
+msgstr "Éditer ce vote"
+
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
 msgstr "Urgence"
@@ -327,6 +347,14 @@ msgstr "Urgence"
 #. Default: "Enabled?"
 msgid "Enabled?"
 msgstr "Activé?"
+
+#. Default: "Encode secret votes"
+msgid "Encode secret votes"
+msgstr "Encoder les votes secrets"
+
+#. Default: "Encode votes"
+msgid "Encode votes"
+msgstr "Encoder les votes"
 
 #. Default: "Enter a reference for this advice if necessary."
 msgid "Enter a reference for this advice if necessary."
@@ -379,6 +407,10 @@ msgstr "Renseigné dans le champ \"Membres d'assemblée sélectionnables\" des c
 #. Default: "Firstname abbreviated"
 msgid "Firstname abbreviated"
 msgstr "Prénom (abréviation)"
+
+#. Default: "Free label that will identify the vote, useful when several votes are defined on an item. Leave empty if not used."
+msgid "Free label that will identify the vote, useful when several votes are defined on an item. Leave empty if not used."
+msgstr "Libellé libre qui permet d'identifier un vote, particulièrement lorsque plusieurs votes sont encodés pour le même point.  Laissez vide si pas utilisé."
 
 #. Default: "Free text fields"
 msgid "Free text fields"
@@ -573,6 +605,10 @@ msgstr "Les points ont été réordonnés."
 msgid "Keep link?"
 msgstr "Garder un lien avec le point dupliqué?"
 
+#. Default: "Label"
+msgid "Label"
+msgstr "Libellé"
+
 #. Default: "Limit date ${advice_limit_date}"
 msgid "Limit date ${advice_limit_date}"
 msgstr "Date limite ${advice_limit_date}"
@@ -695,9 +731,21 @@ msgstr "Aucun groupe en charge valide trouvé pour le point ${item_url}, le poin
 msgid "None"
 msgstr "Aucun"
 
+#. Default: "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
+msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
+msgstr "Impossible d'ajouter un vote lié car des valeurs incompatibles ont déjà été encodées sur le vote courant"
+
 #. Default: "Not present type"
 msgid "Not present type"
 msgstr "Type d'absence"
+
+#. Default: "Not voter"
+msgid "Not voter"
+msgstr "Non votant"
+
+#. Default: "Nothing to display when item is not presented into a meeting."
+msgid "Nothing to display when item is not presented into a meeting."
+msgstr "Rien à afficher tant que le point n'est pas présenté dans une séance."
 
 #. Default: "Nothing to display."
 msgid "Nothing to display."
@@ -734,6 +782,10 @@ msgstr "Signataire défini sur la séance"
 #. Default: "POD template to annex"
 msgid "POD template to annex"
 msgstr "Modèle de document à annexer"
+
+#. Default: "Please check item number ${item_number} at ${item_url}."
+msgid "Please check item number ${item_number} at ${item_url}."
+msgstr "Vérifiez le point numéro \"${item_number}\" (${item_url})."
 
 #. Default: "Please check that opening \"[[\" have corresponding closing \"]]\"."
 msgid "Please check that opening \"[[\" have corresponding closing \"]]\"."
@@ -1063,6 +1115,10 @@ msgstr "Séance extraordinaire?"
 #. Default: "Number of the first item contained in this meeting"
 msgid "PloneMeeting_label_firstItemNumber"
 msgstr "Numéro du premier point de cette séance"
+
+#. Default: "First linked vote values"
+msgid "PloneMeeting_label_firstLinkedVoteUsedVoteValues"
+msgstr "Valeurs de votes utilisables sur le premier vote lié"
 
 #. Default: "Name of the folder linked to this configuration"
 msgid "PloneMeeting_label_folderTitle"
@@ -1461,6 +1517,10 @@ msgstr "Adaptations au modèle de données"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivation"
 
+#. Default: "Next linked votes values"
+msgid "PloneMeeting_label_nextLinkedVotesUsedVoteValues"
+msgstr "Valeurs de vote utilisables sur les votes liés suivants"
+
 #. Default: "Non attendees"
 msgid "PloneMeeting_label_nonAttendees"
 msgstr "Non participants"
@@ -1672,14 +1732,6 @@ msgstr "Montrer les cibles possibles pour les mots-clé de recherches de points"
 #. Default: "Signatories"
 msgid "PloneMeeting_label_signatories"
 msgstr "Signataires"
-
-#. Default: "Signature image"
-msgid "PloneMeeting_label_signatureImage"
-msgstr "Signature scannée"
-
-#. Default: "This signature is the default signature"
-msgid "PloneMeeting_label_signatureIsDefault"
-msgstr "Cette signature est la signature par défaut"
 
 #. Default: "Default signatures"
 msgid "PloneMeeting_label_signatures"
@@ -2042,13 +2094,13 @@ msgstr "Cet avis a été demandé automatiquement par l'application"
 msgid "This advice was given as personal initiative"
 msgstr "Cet avis a été rendu d'initiative"
 
-#. Default: "This attendee is marked as ${not_present_type} for following items"
-msgid "This attendee is marked as ${not_present_type} for following items"
-msgstr "Ce membre est marqué \"${not_present_type}\" pour le(s) point(s) suivant(s)"
+#. Default: "This attendee is marked as ${not_present_type} for the ${number} following items"
+msgid "This attendee is marked as ${not_present_type} for the ${number} following items"
+msgstr "Ce membre est marqué \"${not_present_type}\" pour ${number} point(s)"
 
-#. Default: "This attendee is marked as signatory for following item(s)"
-msgid "This attendee is marked as signatory for following items"
-msgstr "Ce membre est spécifiquement défini signataire pour le(s) point(s) suivant(s)"
+#. Default: "This attendee is marked as signatory for the ${number} following item(s)"
+msgid "This attendee is marked as signatory for the ${number} following item(s)"
+msgstr "Ce membre est spécifiquement défini signataire pour ${number} point(s)"
 
 #. Default: "This automatic advice has been asked by the application (shown by his title not being between brackets)"
 msgid "This automatic advice has been asked by the application (shown by his title not being between brackets)"
@@ -2090,6 +2142,10 @@ msgstr "Ce portlet affiche les contrôles nécessaires pour PloneMeeting."
 msgid "This portlet shows things to do."
 msgstr "Ce portlet affiche les tâches à effectuer."
 
+#. Default: "This vote is linked to previous vote"
+msgid "This vote is linked to previous vote"
+msgstr "Ce vote est lié au vote précédent"
+
 #. Default: "To do"
 msgid "To do"
 msgstr "À faire"
@@ -2114,6 +2170,34 @@ msgstr "Contact utilisé par"
 #. Default: "Used in the assembly for meetings"
 msgid "Used in the assembly for meetings"
 msgstr "Renseigné dans l'assemblée/signatures des séances"
+
+#. Default: "Vote count"
+msgid "Vote count"
+msgstr "Nombre de voix"
+
+#. Default: "Vote value"
+msgid "Vote value"
+msgstr "Vote"
+
+#. Default: "Voter"
+msgid "Voter"
+msgstr "Votant"
+
+#. Default: "Voter already encoded a vote for another linked vote"
+msgid "Voter already encoded a vote for another linked vote"
+msgstr "Votant déjà encodé pour un autre vote lié"
+
+#. Default: "Votes"
+msgid "Votes"
+msgstr "Votes"
+
+#. Default: "Votes are completed for following ${number} ${polltype} item(s)"
+msgid "Votes are completed for following ${number} ${polltype} item(s)"
+msgstr "Votes à scrutin ${polltype} complétés pour ${number} point(s)"
+
+#. Default: "Votes are not completed for following ${number} ${polltype} item(s)"
+msgid "Votes are not completed for following ${number} ${polltype} item(s)"
+msgstr "Votes à scrutin ${polltype} non complétés pour ${number} point(s)"
 
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
@@ -2650,7 +2734,15 @@ msgstr "Vous ne pouvez pas supprimer/désactiver une fonction qui est utilisée 
 
 #. Default: "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"
-msgstr "Vous ne pouvez pas désélectionner un membre d'assemblée qui a été redéfini sur un point de la séance.  Vérifiez \"${attendee_title}\"."
+msgstr "Vous ne pouvez pas désélectionner un membre d'assemblée qui a été redéfini ou utilisé sur un point de la séance (absents, excusés, votes, ...).  Vérifiez \"${attendee_title}\"."
+
+#. Default: "You can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
+msgid "can_not_remove_public_voter_voted_on_items"
+msgstr "Vous ne pouvez pas désélectionner un votant qui a déjà voté sur un point à scrutin public.  Vérifiez \"${attendee_title}\"."
+
+#. Default: "You can not unselect a voter that already voted on a secret vote item."
+msgid "can_not_remove_secret_voter_voted_on_items"
+msgstr "Vous ne pouvez pas désélectionner un votant qui a déjà voté sur un point à scrutin secret."
 
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
@@ -2663,6 +2755,10 @@ msgstr "Vous ne pouvez pas sélectionner un avis qui est déjà hérité sur le 
 #. Default: "You can not select several values for the same group.  Please select a single value for the same group among available ones."
 msgid "can_not_select_several_optional_advisers_same_group"
 msgstr "Vous ne pouvez pas sélectionner plusieurs avis optionnels pour le même groupe.  Sélectionnez un type d'avis pour le même groupe parmi ceux disponibles."
+
+#. Default: "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
+msgid "can_not_switch_polltype_votes_encoded"
+msgstr "Vous ne pouvez pas changer la forme du vote (public/secret/pas de vote) car des votes ont déjà été encodés!  Supprimez les votes encodés y compris le premier vote avant de pouvoir changer la forme du vote."
 
 #. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
 msgid "can_not_unselect_already_given_advice"
@@ -3102,6 +3198,10 @@ msgstr "Comme mentionné sur l'avis dans la partie aide du champ, ceci permet au
 msgid "default_advice_type_descr"
 msgstr "Le type d'avis par défaut sera présélectionné sur le formulaire permettant d'ajouter un avis."
 
+#. Default: "Default, for all items:"
+msgid "default_for_all_items"
+msgstr "Par défaut pour tous les points:"
+
 #. Default: "The default poll type will be preselected on the form when adding an item."
 msgid "default_poll_type_descr"
 msgstr "Le mode de scrutin par défaut sera présélectionné sur le formulaire lors de l'ajout d'un point."
@@ -3241,6 +3341,10 @@ msgstr "Si vous cochez cette case, les utilisateurs pourront accéder à un écr
 #. Default: "When advice mandatoriness is enforced, an item can't be inserted into a meeting unless all mandatory advices are given and positive."
 msgid "enforce_advice_mandatoriness_descr"
 msgstr "Quand le caractère obligatoire des avis est d'application, un point ne peut être inséré dans une séance à moins que tous les avis obligatoires n'aient été rendus et soient positifs."
+
+#. Default: "You can not encode more than ${max_voters} voters."
+msgid "error_can_not_encode_more_than_max_voters"
+msgstr "Vous ne pouvez pas encoder plus de ${max_voters} votes."
 
 #. Default: "You can not select several categories for the same meeting config."
 msgid "error_can_not_select_several_cat_for_same_mc"
@@ -3405,6 +3509,10 @@ msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestion
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
 msgid "file_required"
 msgstr "Veuillez sélectionner un fichier en cliquant sur le bouton \"Parcourir\"."
+
+#. Default: "While using linked vote values, select here values that will be selectable for the first linked vote value"
+msgid "first_linked_vote_used_vote_values_descr"
+msgstr "Lorsque vous liez des votre entre eux, sélectionnez les valeurs de votes qui pourront être utilisée sur le premier vote lié"
 
 #. Default: "Please respect order of transitions sequence to present an item, the first given transition is not a transition leaving the item workflow initial state."
 msgid "first_transition_must_leave_wf_initial_state"
@@ -4459,30 +4567,6 @@ msgstr "${meetingConfigTitle} - Séance dans l'état \"${meetingState}\" - ${mee
 msgid "meeting_transition_inserting_me_descr"
 msgstr "Choisissez ici quel événement sur les séances va déclencher l'ajout de ce point dans chaque séance."
 
-#. Default: "A user ID is required."
-msgid "meeting_user_id_required"
-msgstr "Un identifiant d'utilisateur est requis."
-
-#. Default: "No Plone user was found with this ID or you did not enter the ID of an existing Plone user."
-msgid "meeting_user_no_plone_user"
-msgstr "Aucun utilisateur Plone n'a été trouvé avec cet identifiant, ou vous n'avez pas encodé d'identifiant (valide)."
-
-#. Default: "A Special user is already linked to this Plone user."
-msgid "meeting_user_plone_user_already_used"
-msgstr "Un utilisateur spécial est déjà défini avec cet identifiant Plone."
-
-#. Default: "If this user is a signer, you can upload here the scanned image of his handwritten signature."
-msgid "meeting_user_signature_image_descr"
-msgstr "Si cet utilisateur est un signataire, vous pouvez uploader ici l'image scannée de sa signature manuscrite."
-
-#. Default: "If you check this box, when creating a meeting of this meeting configuration, the default signer will be this one."
-msgid "meeting_user_signature_is_default"
-msgstr "Si vous cochez cette case, à chaque création d'une séance liée à cette configuration, le signataire par défaut sera celui-ci."
-
-#. Default: "Voter"
-msgid "meeting_user_usage_voter"
-msgstr "Votant"
-
 #. Default: "A meeting having the same date and hour already exists. Please choose another date and/or hour."
 msgid "meeting_with_same_date_exists"
 msgstr "Une séance ayant la même date et heure existe déjà. Veuillez choisir une autre date et/ou heure."
@@ -4580,6 +4664,10 @@ msgstr "Déplace ce point à la position qui précède le numéro que vous intro
 #. Default: "Negative"
 msgid "negative"
 msgstr "Négatif"
+
+#. Default: "While using linked vote values, select here values that will be selectable for the next votes (so votes after the first)"
+msgid "next_linked_votes_used_vote_values_descr"
+msgstr "Lorsque vous liez des votre entre eux, sélectionnez les valeurs de votes qui pourront être utilisées sur les votes suivants le premier vote"
 
 #. Default: "There are ${nb} task(s) foreseen for next night."
 msgid "night_works"
@@ -4720,6 +4808,10 @@ msgstr "Rien à faire."
 #. Default: "notify users able to view the element"
 msgid "notify_users_able_to_view_element"
 msgstr "prévient les utilisateurs capables de voir l'élément"
+
+#. Default: "Total number of voters"
+msgid "number_of_voters"
+msgstr "Votants"
 
 #. Default: "Observer"
 msgid "observer"
@@ -5005,9 +5097,17 @@ msgstr "Dans cette section, gérez les modèles vous permettant de produire des 
 msgid "polltype_freehand"
 msgstr "À main levée"
 
+#. Default: "Mechanical"
+msgid "polltype_mechanical"
+msgstr "Exprimé mécaniquement"
+
 #. Default: "No vote"
 msgid "polltype_no_vote"
 msgstr "Pas de vote"
+
+#. Default: "Out loud"
+msgid "polltype_out_loud"
+msgstr "À voix haute"
 
 #. Default: "Secret"
 msgid "polltype_secret"
@@ -5161,9 +5261,9 @@ msgstr "${assembly} ${assembly_edit} et ${signatures} ${signatures_edit}"
 msgid "redirect_to_next_meeting_descr"
 msgstr "Par défaut, une fois connecté, les utilisateurs sont redirigés vers une recherche de points (mes points, tous les points, ...).  Sélectionnez les profils qui seront redirigés vers la prochaine séance s'il y en a une."
 
-#. Default: "Refresh vote values"
-msgid "refresh_votes"
-msgstr "Rafraîchir les valeurs de vote"
+#. Default: "Refresh values"
+msgid "refresh_values"
+msgstr "Actualiser"
 
 #. Default: "Reinitialize delay for this advice?"
 msgid "reinit_delay_confirm_message"
@@ -5821,7 +5921,7 @@ msgstr "Les membres du sous-groupe \"${meeting_group_suffix}\" du groupe proposa
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name \"item\"). If it returns False, no vote may occur on the item."
 msgid "vote_condition_descr"
-msgstr "L'expression Python que vous pouvez définir ici sera évaluée sur chaque point individuel (donné à l'expression sous le nom \"item\"). Si elle retourne \"False\", cela signifie qu'aucun vote ne pourra avoir lieu sur ce point."
+msgstr "Encodez une expression TAL qui complète le condition permettant de définir quand un point est \"votable\".  Par défaut tant que le point est dans une séance et modifiable par le gestionnaire de séance."
 
 #. Default: "Number of votes"
 msgid "vote_count"
@@ -5869,11 +5969,15 @@ msgstr "Bulletin non trouvé dans l'urne"
 
 #. Default: "Not yet encoded"
 msgid "vote_value_not_yet"
-msgstr "Pas encore encodé"
+msgstr "Pas encodé"
 
 #. Default: "Yes"
 msgid "vote_value_yes"
 msgstr "Pour"
+
+#. Default: "Voter"
+msgid "voter"
+msgstr "Votant"
 
 #. Default: "There are ${numberOfVoters} voters for this item."
 msgid "voter_count"

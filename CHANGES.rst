@@ -9,6 +9,8 @@ Changelog
   [gbastien]
 - Added translations for `DX quick edit` related functionnality.
   [gbastien]
+- Added translations for `votes` functionnality.
+  [gbastien]
 
 4.2b5 (2020-11-19)
 ------------------
