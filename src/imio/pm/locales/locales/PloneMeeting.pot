@@ -2356,7 +2356,7 @@ msgstr ""
 msgid "wa_pre_validation"
 msgstr ""
 
-#. Default: "Wait advices (base: from custom configuration, from itemcreated/proposed, select who may send back)"
+#. Default: "Wait advices (base: from custom configuration, from itemcreated/proposed/prevalidated, select who may send back)"
 msgid "wa_waiting_advices"
 msgstr ""
 
@@ -6293,4 +6293,8 @@ msgstr ""
 
 #. Default: "Annexes may only be added by users managing current element but are viewable by every users excepted when using confidentiality."
 msgid "annexes_descr"
+msgstr ""
+
+#. Default: "Category"
+msgid "MeetingCategory"
 msgstr ""

@@ -687,6 +687,10 @@ msgstr "Utilisateurs"
 msgid "MeetingAdvice"
 msgstr "Avis"
 
+#. Default: "Category"
+msgid "MeetingCategory"
+msgstr "Catégorie"
+
 #. Default: "Meetings"
 msgid "Meetings"
 msgstr "Séances"
@@ -6171,9 +6175,9 @@ msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans 
 msgid "wa_reviewers_take_back_validated_item"
 msgstr "Les validateurs peuvent reprendre un point validé"
 
-#. Default: "Wait advices (base: from custom configuration, from itemcreated/proposed, select who may send back)"
+#. Default: "Wait advices (base: from custom configuration, from itemcreated/proposed/prevalidated, select who may send back)"
 msgid "wa_waiting_advices"
-msgstr "État supplémentaire pour demander les avis (base: demandé depuis états \"En création\"/\"Proposé\", sélectionnez ci-dessous qui peut renvoyer le point lorsqu'il est \"En attente des avis\")"
+msgstr "État supplémentaire pour demander les avis (base: demandé depuis états \"En création\"/\"Proposé\"/\"Pré-validé\", sélectionnez ci-dessous qui peut renvoyer le point lorsqu'il est \"En attente des avis\")"
 
 #. Default: "Wait advices (complementary: when item in state \"Waiting advices\", item may be validated by advisers)"
 msgid "wa_waiting_advices_adviser_may_validate"

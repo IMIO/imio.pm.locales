@@ -687,6 +687,10 @@ msgstr "Meeting users"
 msgid "MeetingAdvice"
 msgstr "Advice"
 
+#. Default: "Category"
+msgid "MeetingCategory"
+msgstr ""
+
 #. Default: "Meetings"
 msgid "Meetings"
 msgstr "Meetings"
@@ -6172,7 +6176,8 @@ msgstr "Return to proposing group for corrections with one validation (the last)
 msgid "wa_reviewers_take_back_validated_item"
 msgstr "Reviewers may take back validated item"
 
-#. Default: "Wait advices (base: from custom configuration, from itemcreated/proposed, select who may send back)"
+#. Default: "Wait advices (base: from custom configuration, from itemcreated/proposed/prevalidated, select who may send back)"
+#, fuzzy
 msgid "wa_waiting_advices"
 msgstr "Wait advices (base: from custom configuration, from itemcreated/proposed, select who may send back)"
 

@@ -14,6 +14,8 @@ Changelog
 - Added translations for `committeeObservations/votesObservations`
   `Meeting/MeetingItem` fields.
   [gbastien]
+- Translate `MeetingCategory` in `PloneMeeting` domain.
+  [gbastien]
 - Added translation for message displayed on over of redefined
   signatory on meeting or item.
   [gbastien]
