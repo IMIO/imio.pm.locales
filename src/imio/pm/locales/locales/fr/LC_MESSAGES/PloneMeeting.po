@@ -675,9 +675,9 @@ msgstr "Date de la séance (utilisé pour les séances)"
 msgid "Meeting items"
 msgstr "Points"
 
-#. Default: "Meeting signatory replaced for this item"
-msgid "Meeting signatory replaced for this item"
-msgstr "Signataire défini sur la séance redéfini pour ce point"
+#. Default: "Meeting signatory not used, another signatory with same signature number is used"
+msgid "Meeting signatory not used, another signatory with same signature number is used"
+msgstr "Ce signataire n'est pas utilisé car un autre signataire avec le même numéro de signature a priorité (défini avant ou redéfini)"
 
 #. Default: "Users"
 msgid "Meeting users"
