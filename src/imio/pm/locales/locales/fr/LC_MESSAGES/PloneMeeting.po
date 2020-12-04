@@ -1874,6 +1874,10 @@ msgstr "Les votes pour ce point sont secrets"
 msgid "PloneMeeting_label_votesEncoder"
 msgstr "Qui encode les votes?"
 
+#. Default: "Observations for the votes"
+msgid "PloneMeeting_label_votesObservations"
+msgstr "Observations pour les votes"
+
 #. Default: "Workflow adaptation(s)"
 msgid "PloneMeeting_label_workflowAdaptations"
 msgstr "Adaptation(s) aux workflows"
@@ -2518,6 +2522,10 @@ msgstr "À chaque point, avis et séances vous pouvez associer une série d'anne
 #. Default: "Annexes"
 msgid "annexes"
 msgstr "Annexes"
+
+#. Default: "Annexes may only be added by users managing current element but are viewable by every users excepted when using confidentiality."
+msgid "annexes_descr"
+msgstr "Les annexes peuvent être gérées par les utilisateurs pouvant éditer l'élément courant mais peuvent être visualisées par tout utilisateur ayant accès sauf lorsque la confidentialité des annexes est activée."
 
 #. Default: "Annexes preview"
 msgid "annexes_preview"
@@ -3505,6 +3513,14 @@ msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par le
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
 msgid "field_vieawable_by_everyone_descr"
 msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestionnaires de séances mais visible de tous</span>"
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once item is decided</span>"
+msgid "field_vieawable_by_everyone_once_item_decided_descr"
+msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestionnaires de séances, consultable par les super observateurs ayant accès au point et <strong>consultable par tout le monde seulement lorsque le point est décidé</strong></span>"
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
+msgid "field_vieawable_by_everyone_once_meeting_decided_descr"
+msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestionnaires de séances, consultable par les super observateurs ayant accès à la séance et <strong>consultable par tout le monde seulement lorsque la séance est décidée</strong></span>"
 
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
 msgid "file_required"

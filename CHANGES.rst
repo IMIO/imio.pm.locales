@@ -11,6 +11,9 @@ Changelog
   [gbastien]
 - Added translations for `votes` functionnality.
   [gbastien]
+- Added translations for `committeeObservations/votesObservations`
+  `Meeting/MeetingItem` fields.
+  [gbastien]
 
 4.2b5 (2020-11-19)
 ------------------

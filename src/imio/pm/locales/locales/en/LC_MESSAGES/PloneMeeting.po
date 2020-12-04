@@ -182,7 +182,7 @@ msgstr "Can not set ${not_present_type} a person selected as signatory on an ite
 
 #. Default: "Can not set ${not_present_type} a person that voted on an item!"
 msgid "Can not set ${not_present_type} a person that voted on an item!"
-msgstr ""
+msgstr "Can not set ${not_present_type} a person that voted on an item!"
 
 #. Default: "Cancel"
 msgid "Cancel"
@@ -785,7 +785,7 @@ msgstr "POD template to annex"
 
 #. Default: "Please check item number ${item_number} at ${item_url}."
 msgid "Please check item number ${item_number} at ${item_url}."
-msgstr ""
+msgstr "Please check item number ${item_number} at ${item_url}."
 
 #. Default: "Please check that opening \"[[\" have corresponding closing \"]]\"."
 msgid "Please check that opening \"[[\" have corresponding closing \"]]\"."
@@ -1874,6 +1874,10 @@ msgstr "Votes are secret"
 msgid "PloneMeeting_label_votesEncoder"
 msgstr "Who does encode the votes?"
 
+#. Default: "Observations for the votes"
+msgid "PloneMeeting_label_votesObservations"
+msgstr "Observations for the votes"
+
 #. Default: "Workflow adaptation(s)"
 msgid "PloneMeeting_label_workflowAdaptations"
 msgstr "Workflow adaptation(s)"
@@ -2518,6 +2522,10 @@ msgstr "Every item may be associated with a series of annexes. Some annexes may 
 #. Default: "Annexes"
 msgid "annexes"
 msgstr "Annexes"
+
+#. Default: "Annexes may only be added by users managing current element but are viewable by every users excepted when using confidentiality."
+msgid "annexes_descr"
+msgstr "Annexes may only be added by users managing current element but are viewable by every users excepted when using confidentiality."
 
 #. Default: "Annexes preview"
 msgid "annexes_preview"
@@ -3505,6 +3513,14 @@ msgstr "<span style='color: red;'>This field is only editable and viewable by me
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
 msgid "field_vieawable_by_everyone_descr"
 msgstr "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once item is decided</span>"
+msgid "field_vieawable_by_everyone_once_item_decided_descr"
+msgstr "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once item is decided</span>"
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
+msgid "field_vieawable_by_everyone_once_meeting_decided_descr"
+msgstr "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
 
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
 msgid "file_required"
@@ -5264,7 +5280,7 @@ msgstr "By default, once connected, user is redirected to a dashboard displaying
 
 #. Default: "Refresh values"
 msgid "refresh_values"
-msgstr ""
+msgstr "Refresh values"
 
 #. Default: "Reinitialize delay for this advice?"
 msgid "reinit_delay_confirm_message"
@@ -5978,7 +5994,7 @@ msgstr "Yes"
 
 #. Default: "Voter"
 msgid "voter"
-msgstr ""
+msgstr "Voter"
 
 #. Default: "There are ${numberOfVoters} voters for this item."
 msgid "voter_count"

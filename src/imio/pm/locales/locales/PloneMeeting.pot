@@ -965,6 +965,10 @@ msgstr ""
 msgid "PloneMeeting_label_committeeObservations"
 msgstr ""
 
+#. Default: "Observations for the votes"
+msgid "PloneMeeting_label_votesObservations"
+msgstr ""
+
 #. Default: "Observations for public meeting"
 msgid "PloneMeeting_label_publicMeetingObservations"
 msgstr ""
@@ -975,6 +979,14 @@ msgstr ""
 
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
 msgid "field_vieawable_by_everyone_descr"
+msgstr ""
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
+msgid "field_vieawable_by_everyone_once_meeting_decided_descr"
+msgstr ""
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once item is decided</span>"
+msgid "field_vieawable_by_everyone_once_item_decided_descr"
 msgstr ""
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
@@ -6277,4 +6289,8 @@ msgstr ""
 
 #. Default: "Voter already encoded a vote for another linked vote"
 msgid "Voter already encoded a vote for another linked vote"
+msgstr ""
+
+#. Default: "Annexes may only be added by users managing current element but are viewable by every users excepted when using confidentiality."
+msgid "annexes_descr"
 msgstr ""

@@ -1890,6 +1890,10 @@ msgstr "Los votos son secretos"
 msgid "PloneMeeting_label_votesEncoder"
 msgstr "¿Quién escribirá los votos?"
 
+#. Default: "Observations for the votes"
+msgid "PloneMeeting_label_votesObservations"
+msgstr ""
+
 #. Default: "Workflow adaptation(s)"
 msgid "PloneMeeting_label_workflowAdaptations"
 msgstr "Adaptaciones de Flujo de trabajo"
@@ -2541,6 +2545,10 @@ msgstr ""
 #. Default: "Annexes"
 msgid "annexes"
 msgstr "Anexos"
+
+#. Default: "Annexes may only be added by users managing current element but are viewable by every users excepted when using confidentiality."
+msgid "annexes_descr"
+msgstr ""
 
 #. Default: "Annexes preview"
 msgid "annexes_preview"
@@ -3556,6 +3564,14 @@ msgstr ""
 
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
 msgid "field_vieawable_by_everyone_descr"
+msgstr ""
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once item is decided</span>"
+msgid "field_vieawable_by_everyone_once_item_decided_descr"
+msgstr ""
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
+msgid "field_vieawable_by_everyone_once_meeting_decided_descr"
 msgstr ""
 
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
