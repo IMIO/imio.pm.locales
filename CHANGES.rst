@@ -19,6 +19,9 @@ Changelog
 - Added translation for message displayed on over of redefined
   signatory on meeting or item.
   [gbastien]
+- Added translations for MeetingConfig field `itemsVisibleFields`,
+  `itemsNotViewableVisibleFields` and `itemsNotViewableVisibleFieldsTALExpr`.
+  [gbastien]
 
 4.2b5 (2020-11-19)
 ------------------

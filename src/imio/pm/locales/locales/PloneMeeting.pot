@@ -4527,6 +4527,30 @@ msgstr ""
 msgid "Days to give advice"
 msgstr ""
 
+#. Default: "Fields to display on visible linked items"
+msgid "PloneMeeting_label_itemsVisibleFields"
+msgstr ""
+
+#. Default: "When consulting linked items of an item, some extra fields may be shown if it is selected here."
+msgid "items_visible_fields_descr"
+msgstr ""
+
+#. Default: "Fields to display on not visible linked items"
+msgid "PloneMeeting_label_itemsNotViewableVisibleFields"
+msgstr ""
+
+#. Default: "When consulting not viewable linked items of an item, some extra fields may be shown if it is selected here.  This let's you show some choosen informations on linked items that are not accessible to the current user."
+msgid "items_not_viewable_visible_fields_descr"
+msgstr ""
+
+#. Default: "Fields to display on not visible linked items if"
+msgid "PloneMeeting_label_itemsNotViewableVisibleFieldsTALExpr"
+msgstr ""
+
+#. Default: "Specify here a TAL expression that will enable the functionnality of showing some fields when linked items are not viewable by the current user."
+msgid "items_not_viewable_visible_fields_tal_expr_descr"
+msgstr ""
+
 #. Default: "Fields of the items to show/hide in the dashboards"
 msgid "PloneMeeting_label_itemsListVisibleFields"
 msgstr ""

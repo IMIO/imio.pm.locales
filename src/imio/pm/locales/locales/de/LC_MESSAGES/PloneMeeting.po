@@ -1384,6 +1384,18 @@ msgstr "Spalten die in TOP-Tabellen angezeigt werden können"
 msgid "PloneMeeting_label_itemsListVisibleFields"
 msgstr ""
 
+#. Default: "Fields to display on not visible linked items"
+msgid "PloneMeeting_label_itemsNotViewableVisibleFields"
+msgstr ""
+
+#. Default: "Fields to display on not visible linked items if"
+msgid "PloneMeeting_label_itemsNotViewableVisibleFieldsTALExpr"
+msgstr ""
+
+#. Default: "Fields to display on visible linked items"
+msgid "PloneMeeting_label_itemsVisibleFields"
+msgstr ""
+
 #. Default: "Keep access to item when an advice"
 msgid "PloneMeeting_label_keepAccessToItemWhenAdvice"
 msgstr ""
@@ -4339,6 +4351,18 @@ msgstr "Die Seite die eine Sitzung anzeigt kann mehrere Tabellen voll von TOP en
 
 #. Default: "Select here fields of the item that will be show/hidden when a user will click on the \"Show/hide details\" label in the application.  This will affect every listing of items, so classic listings and the meetings view."
 msgid "items_list_visible_fields_descr"
+msgstr ""
+
+#. Default: "When consulting not viewable linked items of an item, some extra fields may be shown if it is selected here.  This let's you show some choosen informations on linked items that are not accessible to the current user."
+msgid "items_not_viewable_visible_fields_descr"
+msgstr ""
+
+#. Default: "Specify here a TAL expression that will enable the functionnality of showing some fields when linked items are not viewable by the current user."
+msgid "items_not_viewable_visible_fields_tal_expr_descr"
+msgstr ""
+
+#. Default: "When consulting linked items of an item, some extra fields may be shown if it is selected here."
+msgid "items_visible_fields_descr"
 msgstr ""
 
 #. Default: "Item templates managers"
