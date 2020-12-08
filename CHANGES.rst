@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b6 (unreleased)
+4.2b6 (2020-12-08)
 ------------------
 
 - Reworked `Return to proposing group` related translations.
