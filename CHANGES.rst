@@ -5,8 +5,9 @@ Changelog
 4.2b7 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Added translations regarding being able to define a `position_type`
+  while redefining a signatory on an item.
+  [gbastien]
 
 4.2b6 (2020-12-08)
 ------------------
