@@ -513,6 +513,10 @@ msgstr "Présenter comme point normal"
 msgid "It is not possible to add annexes because no file types is defined, please contact system administrator."
 msgstr "Il n'est pas possible d'ajouter des annexes car aucun type d'annexe n'est défini dans la configuration, contactez votre administrateur système."
 
+#. Default: "Item \"${item_title}\" could not be presented!"
+msgid "Item \"${item_title}\" could not be presented!"
+msgstr "Le point \"${item_title}\" n'a pas pu être présenté dans cette séance!"
+
 #. Default: "Item absents to apply"
 msgid "Item absents to apply"
 msgstr "Absents à appliquer"
@@ -5295,7 +5299,7 @@ msgstr "Sélectionnez ici les états des séances dans lesquels l'historisation 
 
 #. Default: "The recurring item specified in the subject of this email could not be inserted in a meeting. Maybe does it lack some important information (a text for the decision, for example) while the meeting is in an \"advanced\" state (it is already \"decided\", for instance). More information can be found in the log file of your Zope instance."
 msgid "recurringItemWorkflowError_mail_body"
-msgstr "Le point récurrent spécifié dans le sujet de ce courriel n'a pas pu être ajouté à une séance. Peut-être ne dispose-t-il pas de suffisemment d'informations (un texte pour la décision, par exemple) pour être ajouté à la séance, celle-ci pouvant se trouver dans un état \"avancé\" (décidée, par exemple). Plus d'info dans le log de votre instance Zope."
+msgstr "Le point récurrent spécifié dans le sujet de ce courriel n'a pas pu être présenté dans une séance. Peut-être ne dispose-t-il pas de suffisemment d'informations (un texte pour la décision, par exemple) pour être ajouté à la séance, celle-ci pouvant se trouver dans un état \"avancé\" (décidée, par exemple). Plus d'info dans le log de votre instance Zope."
 
 #. Default: "${portalTitle} - A problem occurred while inserting a recurring into a meeting - ${itemTitle}"
 msgid "recurringItemWorkflowError_mail_subject"
