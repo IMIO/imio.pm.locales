@@ -5,8 +5,12 @@ Changelog
 4.2b7 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Added translations regarding being able to define a `position_type`
+  while redefining a signatory on an item.
+  [gbastien]
+- Added translation for warning message displayed when an item could not be
+  presented using the `@@present-several-items` view.
+  [gbastien]
 
 4.2b6 (2020-12-08)
 ------------------

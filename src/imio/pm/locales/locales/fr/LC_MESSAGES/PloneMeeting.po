@@ -513,6 +513,10 @@ msgstr "Présenter comme point normal"
 msgid "It is not possible to add annexes because no file types is defined, please contact system administrator."
 msgstr "Il n'est pas possible d'ajouter des annexes car aucun type d'annexe n'est défini dans la configuration, contactez votre administrateur système."
 
+#. Default: "Item \"${item_title}\" could not be presented!"
+msgid "Item \"${item_title}\" could not be presented!"
+msgstr "Le point \"${item_title}\" n'a pas pu être présenté dans cette séance!"
+
 #. Default: "Item absents to apply"
 msgid "Item absents to apply"
 msgstr "Absents à appliquer"
@@ -1934,6 +1938,10 @@ msgstr "Modèles de documents"
 msgid "Position type"
 msgstr "Type de fonction"
 
+#. Default: "Position type to use as label for the signature."
+msgid "Position type to use as label for the signature."
+msgstr "Sélectionnez le type de fonction qui sera utilisé pour afficher la signature dans les documents générés."
+
 #. Default: "Preview detailed advice"
 msgid "Preview detailed advice"
 msgstr "Prévisualiser l'avis complet"
@@ -2001,7 +2009,7 @@ msgstr "Sélectionnez une étiquette personnelle"
 
 #. Default: "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
 msgid "Select a position type, correct label will be taken from this list depending on person gender and context. If you need to add new position types, it is defined on the directory at the root of contacts configuration (element <a href='../../contacts/edit' target='_blank'>\"edit contacts\"</a>)."
-msgstr "En sélectionnant le type de fonction adéquat, le libellé correct sera automatiquement géré en fonction du genre de la personne liée (masculin/féminin) et du contexte dans lequel il est utilisé. Les types de fonctions sont gérées sur l'élément Annuaire (contacts).  Vous pouvez <a href='../../contacts/edit' target='_blank'>éditer l'élément contacts</a> si nécessaire."
+msgstr "En sélectionnant le type de fonction adéquat, le libellé correct sera automatiquement géré en fonction du genre de la personne liée (masculin/féminin) et du contexte dans lequel il est utilisé. Les types de fonctions sont gérés sur l'élément \"Annuaire (contacts)\".  Vous pouvez <a href='../../contacts/edit' target='_blank'>éditer l'annuaire Contacts</a> si nécessaire."
 
 #. Default: "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above. <span style='color: red;'>Warning, this will not add an additional position but will make this information useable if necesary, like when generating POD templates for example.  If this person have several different positions, you need to add as much held positions as necessary.</span>"
 msgid "Select a secondary position type if necessary. Will work the same way as field \"Position type\" here above."
@@ -2030,6 +2038,10 @@ msgstr "Signataire spécifiquement défini pour ce point"
 #. Default: "Signature number"
 msgid "Signature number"
 msgstr "Numéro de signature"
+
+#. Default: "Signature position type"
+msgid "Signature position type"
+msgstr "Fonction pour la signature"
 
 #. Default: "state"
 msgid "State"
@@ -5287,7 +5299,7 @@ msgstr "Sélectionnez ici les états des séances dans lesquels l'historisation 
 
 #. Default: "The recurring item specified in the subject of this email could not be inserted in a meeting. Maybe does it lack some important information (a text for the decision, for example) while the meeting is in an \"advanced\" state (it is already \"decided\", for instance). More information can be found in the log file of your Zope instance."
 msgid "recurringItemWorkflowError_mail_body"
-msgstr "Le point récurrent spécifié dans le sujet de ce courriel n'a pas pu être ajouté à une séance. Peut-être ne dispose-t-il pas de suffisemment d'informations (un texte pour la décision, par exemple) pour être ajouté à la séance, celle-ci pouvant se trouver dans un état \"avancé\" (décidée, par exemple). Plus d'info dans le log de votre instance Zope."
+msgstr "Le point récurrent spécifié dans le sujet de ce courriel n'a pas pu être présenté dans une séance. Peut-être ne dispose-t-il pas de suffisemment d'informations (un texte pour la décision, par exemple) pour être ajouté à la séance, celle-ci pouvant se trouver dans un état \"avancé\" (décidée, par exemple). Plus d'info dans le log de votre instance Zope."
 
 #. Default: "${portalTitle} - A problem occurred while inserting a recurring into a meeting - ${itemTitle}"
 msgid "recurringItemWorkflowError_mail_subject"
