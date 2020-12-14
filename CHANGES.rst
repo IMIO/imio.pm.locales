@@ -11,6 +11,8 @@ Changelog
 - Added translation for warning message displayed when an item could not be
   presented using the `@@present-several-items` view.
   [gbastien]
+- Added translations for dashboard header title help messages.
+  [gbastien]
 
 4.2b6 (2020-12-08)
 ------------------
