@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b7 (unreleased)
+4.2b7 (2021-01-06)
 ------------------
 
 - Added translations regarding being able to define a `position_type`
