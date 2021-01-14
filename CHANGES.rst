@@ -2,11 +2,17 @@ Changelog
 =========
 
 
-4.2b8 (unreleased)
+4.2b9 (unreleased)
 ------------------
 
 - Nothing changed yet.
 
+
+4.2b8 (2021-01-14)
+------------------
+
+- Accurate french translation for `Position type to use as label for the signature.`.
+  [gbastien]
 
 4.2b7 (2021-01-06)
 ------------------
