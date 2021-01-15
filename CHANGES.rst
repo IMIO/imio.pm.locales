@@ -5,8 +5,8 @@ Changelog
 4.2b9 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Added translations for `Not completed votes` and `Completed votes`.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
