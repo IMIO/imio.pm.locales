@@ -5,7 +5,8 @@ Changelog
 4.2b9 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Removed single quotes for `meeting_state_changed_default_mail_body`.
+  [aduchene]
 
 
 4.2b8 (2021-01-14)
