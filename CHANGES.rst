@@ -5,8 +5,9 @@ Changelog
 4.1.18.3 (unreleased)
 ---------------------
 
-- Nothing changed yet.
-
+- Backport from 4.2.x:
+  Removed single quotes for `meeting_state_changed_default_mail_body`.
+  [aduchene]
 
 4.1.18.2 (2020-10-19)
 ---------------------
