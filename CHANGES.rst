@@ -7,6 +7,8 @@ Changelog
 
 - Added translations for `Not completed votes` and `Completed votes`.
   [gbastien]
+- Removed single quotes for `meeting_state_changed_default_mail_body`.
+  [aduchene]
 
 4.2b8 (2021-01-14)
 ------------------
