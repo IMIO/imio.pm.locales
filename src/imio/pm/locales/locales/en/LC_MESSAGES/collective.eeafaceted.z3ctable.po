@@ -62,9 +62,14 @@ msgstr "Item is signed?"
 msgid "header_getItemNumber"
 msgstr " "
 
-#. Default: "Preferred meeting"
+#. Default: "P. meeting"
+#, fuzzy
 msgid "header_getPreferredMeetingDate"
 msgstr "Preferred meeting"
+
+#. Default: "Preferred meeting"
+msgid "header_getPreferredMeetingDate_help"
+msgstr ""
 
 #. Default: "Proposing group"
 msgid "header_getProposingGroup"

@@ -9,6 +9,8 @@ Changelog
   [gbastien]
 - Removed single quotes for `meeting_state_changed_default_mail_body`.
   [aduchene]
+- Added translations now that `Preferred meeting date` column is abbreviated.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
