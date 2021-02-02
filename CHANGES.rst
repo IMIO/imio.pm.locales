@@ -11,6 +11,8 @@ Changelog
   [aduchene]
 - Added translations now that `Preferred meeting date` column is abbreviated.
   [gbastien]
+- Adapted translations now that Meeting was moved from AT to DX.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------

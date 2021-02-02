@@ -177,7 +177,7 @@ msgid "PloneMeeting_label_itemAssemblyGuests"
 msgstr ""
 
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
-msgid "assembly_meeting_descr"
+msgid "descr_assembly"
 msgstr ""
 
 #. Default: "Define here people that were excused for the meeting"
@@ -978,11 +978,11 @@ msgid "PloneMeeting_label_secretMeetingObservations"
 msgstr ""
 
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
-msgid "field_vieawable_by_everyone_descr"
+msgid "descr_field_vieawable_by_everyone"
 msgstr ""
 
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
-msgid "field_vieawable_by_everyone_once_meeting_decided_descr"
+msgid "descr_field_vieawable_by_everyone_once_meeting_decided"
 msgstr ""
 
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once item is decided</span>"
@@ -990,7 +990,7 @@ msgid "field_vieawable_by_everyone_once_item_decided_descr"
 msgstr ""
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "field_reserved_to_meeting_managers_descr"
+msgid "descr_field_reserved_to_meeting_managers"
 msgstr ""
 
 #. Default: "Authority notice"
@@ -3971,10 +3971,6 @@ msgstr ""
 msgid "default"
 msgstr ""
 
-#. Default: "Assembly and signatures"
-msgid "assembly_and_signatures"
-msgstr ""
-
 #. Default: "Data"
 msgid "data"
 msgstr ""
@@ -6342,3 +6338,156 @@ msgstr ""
 #. Default: "Not completed votes"
 msgid "Not completed votes"
 msgstr ""
+
+#. Default: "Dates and data"
+msgid "fieldset_dates_and_data"
+msgstr ""
+
+#. Default: "Assembly and signatures"
+msgid "fieldset_assembly"
+msgstr ""
+
+#. Default: "Details"
+msgid "fieldset_details"
+msgstr ""
+
+#. Default: "Meeting managers reserved parameters"
+msgid "fieldset_managers_parameters"
+msgstr ""
+
+#. Default: "Date"
+msgid "title_date"
+msgstr ""
+
+#. Default: "Start date"
+msgid "title_start_date"
+msgstr ""
+
+#. Default: "Mid date"
+msgid "title_mid_date"
+msgstr ""
+
+#. Default: "End date"
+msgid "title_end_date"
+msgstr ""
+
+#. Default: "Approval date"
+msgid "title_approval_date"
+msgstr ""
+
+#. Default: "Convocation date"
+msgid "title_convocation_date"
+msgstr ""
+
+#. Default: "Assembly"
+msgid "title_assembly"
+msgstr ""
+
+#. Default: "Assembly excused"
+msgid "title_assembly_excused"
+msgstr ""
+
+#. Default: "Assembly absents"
+msgid "title_assembly_absents"
+msgstr ""
+
+#. Default: "Assembly guests"
+msgid "title_assembly_guests"
+msgstr ""
+
+#. Default: "Assembly proxies"
+msgid "title_assembly_proxies"
+msgstr ""
+
+#. Default: "Assembly staves"
+msgid "title_assembly_staves"
+msgstr ""
+
+#. Default: "Signatures"
+msgid "title_signatures"
+msgstr ""
+
+#. Default: "Place"
+msgid "title_place"
+msgstr ""
+
+#. Default: "Pre meeting date"
+msgid "title_pre_meeting_date"
+msgstr ""
+
+#. Default: "Pre meeting place"
+msgid "title_pre_meeting_place"
+msgstr ""
+
+#. Default: "Extraordinary session"
+msgid "title_extraordinary_session"
+msgstr ""
+
+#. Default: "In and out moves"
+msgid "title_in_and_out_moves"
+msgstr ""
+
+#. Default: "Notes"
+msgid "title_notes"
+msgstr ""
+
+#. Default: "Observations"
+msgid "title_observations"
+msgstr ""
+
+#. Default: "Pre observations"
+msgid "title_pre_observations"
+msgstr ""
+
+#. Default: "Committee observations"
+msgid "title_committee_observations"
+msgstr ""
+
+#. Default: "Votes observations"
+msgid "title_votes_observations"
+msgstr ""
+
+#. Default: Public meeting observations""
+msgid "title_public_meeting_observations"
+msgstr ""
+
+#. Default: "Secret meeting observations"
+msgid "title_secret_meeting_observations"
+msgstr ""
+
+#. Default: "Authority notice"
+msgid "title_authority_notice"
+msgstr ""
+
+#. Default: "Meeting number"
+msgid "title_meeting_number"
+msgstr ""
+
+#. Default: "First item number"
+msgid "title_first_item_number"
+msgstr ""
+
+#. Default: ""
+msgid "descr_meeting_assembly"
+msgstr ""
+
+#. Default: ""
+msgid ""
+msgstr ""
+
+#. Default: ""
+msgid ""
+msgstr ""
+
+#. Default: ""
+msgid ""
+msgstr ""
+
+#. Default: ""
+msgid ""
+msgstr ""
+
+#. Default: ""
+msgid ""
+msgstr ""
+

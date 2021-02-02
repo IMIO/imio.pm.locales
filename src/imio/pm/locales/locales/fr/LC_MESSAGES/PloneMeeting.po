@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-05-17 15:00-100\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2635,10 +2635,6 @@ msgstr "Absents définis sur la séance"
 msgid "assembly_absents_meeting_descr"
 msgstr "Définissez ici les membres absents (non excusés) pour la séance"
 
-#. Default: "Assembly and signatures"
-msgid "assembly_and_signatures"
-msgstr "Assemblée et signatures"
-
 #. Default: "Assembly as defined on the linked meeting"
 msgid "assembly_defined_on_meeting"
 msgstr "Assemblée définie sur la séance"
@@ -2658,10 +2654,6 @@ msgstr "Définissez ici les personnes excusées pour la séance"
 #. Default: "Guests as defined on the linked meeting"
 msgid "assembly_guests_defined_on_meeting"
 msgstr "Invités définis sur la séance"
-
-#. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
-msgid "assembly_meeting_descr"
-msgstr "Ajoutez des double crochets [[ ]] autour des personnes absentes, par exemple : [[Mr. Untel Didier]] si vous n'utilisez pas les champs \"Excusés\" et \"Absents\""
 
 #. Default: "Using attribute(s) \"itemExcused\" and/or \"itemAbsents\" requires the use of attribute \"assembly\"."
 msgid "assembly_required"
@@ -3278,6 +3270,30 @@ msgstr "Délai de ${delay} jour(s)"
 msgid "delay_unavailable_end_days_descr"
 msgstr "Sélectionnez les jours indisponibles comme dernier jour d'un délai.  Si un délai calculé tombe sur un des jours sélectionnés, le délai sera automatiquement prolongé au prochain jour disponible.  <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter \"Mettre à jour les points et séances\"!</span>"
 
+#. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
+msgid "descr_assembly"
+msgstr "Ajoutez des double crochets [[ ]] autour des personnes absentes, par exemple : [[Mr. Untel Didier]] si vous n'utilisez pas les champs \"Excusés\" et \"Absents\""
+
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "descr_field_reserved_to_meeting_managers"
+msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
+msgid "descr_field_vieawable_by_everyone"
+msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestionnaires de séances mais visible de tous</span>"
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
+msgid "descr_field_vieawable_by_everyone_once_meeting_decided"
+msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestionnaires de séances, consultable par les super observateurs ayant accès à la séance et <strong>consultable par tout le monde seulement lorsque la séance est décidée</strong></span>"
+
+#. Default: ""
+msgid "descr_meeting_assembly"
+msgstr ""
+
+#. Default: "Remove useless values"
+msgid "descr_place"
+msgstr ""
+
 #. Default: "You are just able to see visible elements here. Please consult the \"manage\" box here opposite."
 msgid "description_only_see_visible_items"
 msgstr "Vous êtes seulement autorisé à consulter les éléments visibles.  Utilisez la boîte \"Gestion\" ci-contre pour consulter le contenu que vous pouvez voir."
@@ -3542,21 +3558,25 @@ msgstr "Enregistrer les changements"
 msgid "field_required"
 msgstr "Veuillez remplir ce champ."
 
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "field_reserved_to_meeting_managers_descr"
-msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
-
-#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
-msgid "field_vieawable_by_everyone_descr"
-msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestionnaires de séances mais visible de tous</span>"
-
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once item is decided</span>"
 msgid "field_vieawable_by_everyone_once_item_decided_descr"
 msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestionnaires de séances, consultable par les super observateurs ayant accès au point et <strong>consultable par tout le monde seulement lorsque le point est décidé</strong></span>"
 
-#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
-msgid "field_vieawable_by_everyone_once_meeting_decided_descr"
-msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestionnaires de séances, consultable par les super observateurs ayant accès à la séance et <strong>consultable par tout le monde seulement lorsque la séance est décidée</strong></span>"
+#. Default: "Assembly and signatures"
+msgid "fieldset_assembly"
+msgstr "Assemblée et signatures"
+
+#. Default: "Dates and data"
+msgid "fieldset_dates_and_data"
+msgstr "Dates et données"
+
+#. Default: "Details"
+msgid "fieldset_details"
+msgstr "Détails"
+
+#. Default: "Meeting managers reserved parameters"
+msgid "fieldset_managers_parameters"
+msgstr "Réservés aux gestionnaires de séances"
 
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
 msgid "file_required"
@@ -5739,9 +5759,121 @@ msgstr "Ce point N'EST PAS une question orale"
 msgid "this_meeting_is_extraordinary_session"
 msgstr "Séance extraordinaire"
 
+#. Default: "Approval date"
+msgid "title_approval_date"
+msgstr "Date d'approbation"
+
+#. Default: "Assembly"
+msgid "title_assembly"
+msgstr "Assemblée"
+
+#. Default: "Assembly absents"
+msgid "title_assembly_absents"
+msgstr "Absents"
+
+#. Default: "Assembly excused"
+msgid "title_assembly_excused"
+msgstr "Excusés"
+
+#. Default: "Assembly guests"
+msgid "title_assembly_guests"
+msgstr "Invités"
+
+#. Default: "Assembly proxies"
+msgid "title_assembly_proxies"
+msgstr "Procurations"
+
+#. Default: "Assembly staves"
+msgid "title_assembly_staves"
+msgstr "Assistants"
+
+#. Default: "Authority notice"
+msgid "title_authority_notice"
+msgstr "Avis de tutelle"
+
+#. Default: "Committee observations"
+msgid "title_committee_observations"
+msgstr "Observations (commissions)"
+
+#. Default: "Convocation date"
+msgid "title_convocation_date"
+msgstr "Date de convocation"
+
+#. Default: "Date"
+msgid "title_date"
+msgstr "Date"
+
+#. Default: "End date"
+msgid "title_end_date"
+msgstr "Date et heure de fin"
+
+#. Default: "Extraordinary session"
+msgid "title_extraordinary_session"
+msgstr "Séance extraordinaire?"
+
+#. Default: "First item number"
+msgid "title_first_item_number"
+msgstr "Numéro du premier point de cette séance"
+
+#. Default: "In and out moves"
+msgid "title_in_and_out_moves"
+msgstr "Entrées et sorties (assemblée)"
+
+#. Default: "Meeting number"
+msgid "title_meeting_number"
+msgstr "Numéro de séance (il s'agit d'un numéro de séquence attribué automatiquement)"
+
+#. Default: "Mid date"
+msgid "title_mid_date"
+msgstr "Date et heure de fin de la première partie"
+
+#. Default: "Notes"
+msgid "title_notes"
+msgstr "Notes et interpellations"
+
+#. Default: "Observations"
+msgid "title_observations"
+msgstr "Observations"
+
+#. Default: "Place"
+msgid "title_place"
+msgstr "Lieu"
+
+#. Default: "Pre meeting date"
+msgid "title_pre_meeting_date"
+msgstr "Date (séance préparatoire)"
+
+#. Default: "Pre meeting place"
+msgid "title_pre_meeting_place"
+msgstr "Lieu (séance préparatoire)"
+
+#. Default: "Pre observations"
+msgid "title_pre_observations"
+msgstr "Observations (séance préparatoire)"
+
+#. Default: Public meeting observations""
+msgid "title_public_meeting_observations"
+msgstr "Observations (séance publique)"
+
 #. Default: "A title is required."
 msgid "title_required"
 msgstr "Veuillez spécifier un objet."
+
+#. Default: "Secret meeting observations"
+msgid "title_secret_meeting_observations"
+msgstr "Observations (huis clos)"
+
+#. Default: "Signatures"
+msgid "title_signatures"
+msgstr "Signatures"
+
+#. Default: "Start date"
+msgid "title_start_date"
+msgstr "Date et heure de début"
+
+#. Default: "Votes observations"
+msgid "title_votes_observations"
+msgstr "Observations (votes)"
 
 #. Default: "Ask this advice again (current advice will be historized)"
 msgid "to_advice_asked_again"
