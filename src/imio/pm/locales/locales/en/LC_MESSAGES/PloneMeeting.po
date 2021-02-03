@@ -3286,14 +3286,6 @@ msgstr ""
 msgid "descr_field_vieawable_by_everyone_once_meeting_decided"
 msgstr ""
 
-#. Default: ""
-msgid "descr_meeting_assembly"
-msgstr ""
-
-#. Default: "Remove useless values"
-msgid "descr_place"
-msgstr ""
-
 #. Default: "You are just able to see visible elements here. Please consult the \"manage\" box here opposite."
 msgid "description_only_see_visible_items"
 msgstr "You are just able to see visible elements here. Please consult the \"manage\" box here opposite."
@@ -3397,6 +3389,10 @@ msgstr "Check this box if you use the documents scanning functionnality."
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"
 msgstr "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
+
+#. Default: "The meeting end date must occur after the start date and meeting date."
+msgid "end_date_before_meeting_date"
+msgstr ""
 
 #. Default: "When advice mandatoriness is enforced, an item can't be inserted into a meeting unless all mandatory advices are given and positive."
 msgid "enforce_advice_mandatoriness_descr"
@@ -3574,7 +3570,7 @@ msgstr ""
 msgid "fieldset_details"
 msgstr ""
 
-#. Default: "Manager reserved parameters"
+#. Default: "Meeting managers reserved parameters"
 msgid "fieldset_managers_parameters"
 msgstr ""
 
@@ -5655,6 +5651,14 @@ msgstr "Signed (editable)"
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
 msgstr "Check this box if you want to sort the tags in alphabetic order."
+
+#. Default: "The meeting start date must occur before the end date."
+msgid "start_date_after_end_date"
+msgstr ""
+
+#. Default: "The meeting start date must occur after the meeting date."
+msgid "start_date_before_meeting_date"
+msgstr ""
 
 #. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"
