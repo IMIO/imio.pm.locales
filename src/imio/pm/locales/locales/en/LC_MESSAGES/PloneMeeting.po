@@ -759,6 +759,10 @@ msgstr "Not present type"
 msgid "Not voter"
 msgstr "Not voter"
 
+#. Default: "Nothing selected in the configuration to be displayed."
+msgid "Nothing selected in the configuration to be displayed."
+msgstr ""
+
 #. Default: "Nothing to display when item is not presented into a meeting."
 msgid "Nothing to display when item is not presented into a meeting."
 msgstr "Nothing to display when item is not presented into a meeting."
@@ -1066,10 +1070,6 @@ msgstr "First linked vote values"
 #. Default: "Name of the folder linked to this configuration"
 msgid "PloneMeeting_label_folderTitle"
 msgstr "Name of the folder linked to this configuration"
-
-#. Default: "Default deadline for validating late items for a given meeting"
-msgid "PloneMeeting_label_freezeDeadlineDefault"
-msgstr "Default deadline for validating late items for a given meeting"
 
 #. Default: "Email of the functional administrator"
 msgid "PloneMeeting_label_functionalAdminEmail"
@@ -1528,10 +1528,6 @@ msgstr "Groups to consider as \"Power advisers\""
 msgid "PloneMeeting_label_powerObservers"
 msgstr "Manage power observers"
 
-#. Default: "Default date for the pre-meeting"
-msgid "PloneMeeting_label_preMeetingDateDefault"
-msgstr "Default date for the pre-meeting"
-
 #. Default: "Previous item"
 msgid "PloneMeeting_label_predecessor"
 msgstr "Previous item"
@@ -1555,10 +1551,6 @@ msgstr "Proposing group (Group in charge)"
 #. Default: "Public URL"
 msgid "PloneMeeting_label_publicUrl"
 msgstr "Public URL"
-
-#. Default: "Default deadline for validating items for a given meeting"
-msgid "PloneMeeting_label_publishDeadlineDefault"
-msgstr "Default deadline for validating items for a given meeting"
 
 #. Default: "Questions"
 msgid "PloneMeeting_label_questioners"
@@ -3392,10 +3384,6 @@ msgstr "Please respect order of transitions sequence to present an item, the fir
 msgid "folder_title_descr"
 msgstr "In the application folder of every member, a sub-folder is created for each meeting configuration. The name of this sub-folder is defined here."
 
-#. Default: "Specify here the deadline for validating late items to be inserted in a given meeting.  Leave the field empty not to use this functionality."
-msgid "freeze_deadline_default_descr"
-msgstr "Specify here the deadline for validating late items to be inserted in a given meeting.  Leave the field empty not to use this functionnality."
-
 #. Default: "<p>PloneMeeting body in HTML format.</p>"
 msgid "front_page_body"
 msgstr "<p>PloneMeeting body in HTML format.</p>"
@@ -4988,10 +4976,6 @@ msgstr "Power observers"
 msgid "pre_date_after_meeting_date"
 msgstr "The preparatory meeting must occur before the meeting."
 
-#. Default: "Specify here the date of the pre-meeting, relative to its meeting, in the same format as fields above.  Leave the field empty not to use this functionality."
-msgid "pre_meeting_date_default_descr"
-msgstr "Specify here the date of the pre-meeting, relative to its meeting, in the same format as fields above.  Leave the field emtpy no to use the functionnality."
-
 #. Default: "If this is a normal item and you want it to be inserted in any availale meeting, just select \"No preference\" value.  Selecting a date is for 2 usecases : this will make the item not presentable to the meetings before selected one, or if the selected meeting is \"frozen\", this will make current item considered as \"late\" item presentable in the selected frozen meeting.  Indeed, the only way to insert an item in a frozen meeting is to select this meeting as preferred meeting."
 msgid "preferred_meeting_descr"
 msgstr "If this is a normal item and you want it to be inserted in any availale meeting, just select \"No preference\" value.  Selecting a date is for 2 usecases : this will make the item not presentable to the meetings before selected one, or if the selected meeting is \"frozen\", this will make current item considered as \"late\" item presentable in the selected frozen meeting.  Indeed, the only way to insert an item in a frozen meeting is to select this meeting as preferred meeting."
@@ -5043,10 +5027,6 @@ msgstr "Public meeting"
 #. Default: "Public meeting (heading)"
 msgid "public_heading"
 msgstr "Public meeting (heading)"
-
-#. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\".  Leave the field empty not to use this functionality."
-msgid "publish_deadline_default_descr"
-msgstr "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\".  Leave the field empty not to use this functionality."
 
 #. Default: "Publishable (displayed)"
 msgid "publishable_display"

@@ -763,6 +763,10 @@ msgstr ""
 msgid "Not voter"
 msgstr ""
 
+#. Default: "Nothing selected in the configuration to be displayed."
+msgid "Nothing selected in the configuration to be displayed."
+msgstr ""
+
 #. Default: "Nothing to display when item is not presented into a meeting."
 msgid "Nothing to display when item is not presented into a meeting."
 msgstr ""
@@ -1073,10 +1077,6 @@ msgstr ""
 #. Default: "Name of the folder linked to this configuration"
 msgid "PloneMeeting_label_folderTitle"
 msgstr "Nombre de la carpeta enlazada a esta configuración"
-
-#. Default: "Default deadline for validating late items for a given meeting"
-msgid "PloneMeeting_label_freezeDeadlineDefault"
-msgstr "Limite por defecto para la validación de temas retardados para una reunión dada"
 
 #. Default: "Email of the functional administrator"
 msgid "PloneMeeting_label_functionalAdminEmail"
@@ -1540,10 +1540,6 @@ msgstr "Grupos a considerar como 'asesores potenciales'"
 msgid "PloneMeeting_label_powerObservers"
 msgstr ""
 
-#. Default: "Default date for the pre-meeting"
-msgid "PloneMeeting_label_preMeetingDateDefault"
-msgstr "Fecha por defecto para la reunión previa"
-
 #. Default: "Previous item"
 msgid "PloneMeeting_label_predecessor"
 msgstr "Temas vinculados"
@@ -1567,10 +1563,6 @@ msgstr ""
 #. Default: "Public URL"
 msgid "PloneMeeting_label_publicUrl"
 msgstr "Dirección URL Pública"
-
-#. Default: "Default deadline for validating items for a given meeting"
-msgid "PloneMeeting_label_publishDeadlineDefault"
-msgstr "Limite por defecto para la validación de temas para una reunión dada"
 
 #. Default: "Questions"
 msgid "PloneMeeting_label_questioners"
@@ -3446,10 +3438,6 @@ msgstr ""
 msgid "folder_title_descr"
 msgstr "En la carpeta PloneMeeting de cada miembro, una subcarpeta es creada para cada configuración de reunión. El nombre de esta subcarpeta es definida aquí."
 
-#. Default: "Specify here the deadline for validating late items to be inserted in a given meeting.  Leave the field empty not to use this functionality."
-msgid "freeze_deadline_default_descr"
-msgstr "Especifique aquí el limite para la validación de temas retardados a ser insertados en un reunión dada."
-
 #. Default: "<p>PloneMeeting body in HTML format.</p>"
 msgid "front_page_body"
 msgstr "<p>Cuerpo de PloneMeeting en formato HTML.</p>"
@@ -5091,10 +5079,6 @@ msgstr "Observadores potenciales"
 msgid "pre_date_after_meeting_date"
 msgstr "La reunión preparatoria debe ocurrir antes de la reunión."
 
-#. Default: "Specify here the date of the pre-meeting, relative to its meeting, in the same format as fields above.  Leave the field empty not to use this functionality."
-msgid "pre_meeting_date_default_descr"
-msgstr "Especifique aquí la fecha de la reunión preparatoria, relativa a esta reunión, en el mismo formato como en los campos de arriba."
-
 #. Default: "If this is a normal item and you want it to be inserted in any availale meeting, just select \"No preference\" value.  Selecting a date is for 2 usecases : this will make the item not presentable to the meetings before selected one, or if the selected meeting is \"frozen\", this will make current item considered as \"late\" item presentable in the selected frozen meeting.  Indeed, the only way to insert an item in a frozen meeting is to select this meeting as preferred meeting."
 msgid "preferred_meeting_descr"
 msgstr ""
@@ -5146,11 +5130,6 @@ msgstr ""
 #. Default: "Public meeting (heading)"
 msgid "public_heading"
 msgstr ""
-
-#. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\".  Leave the field empty not to use this functionality."
-#, fuzzy
-msgid "publish_deadline_default_descr"
-msgstr "Especifique aquí la fecha límite para la validación de los temas que se insertan en una reunión dada. Usted tiene la necesidad de expresar este plazo en relación con la fecha de la reunión. Por ejemplo, '5 .9:30' (no escriba las comillas) eso significa: '5 días antes de la fecha de la reunión, a las 9:30'."
 
 #. Default: "Publishable (displayed)"
 msgid "publishable_display"

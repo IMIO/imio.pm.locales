@@ -759,6 +759,10 @@ msgstr "Type d'absence"
 msgid "Not voter"
 msgstr "Non votant"
 
+#. Default: "Nothing selected in the configuration to be displayed."
+msgid "Nothing selected in the configuration to be displayed."
+msgstr "Aucun champ sélectionné dans la configuration."
+
 #. Default: "Nothing to display when item is not presented into a meeting."
 msgid "Nothing to display when item is not presented into a meeting."
 msgstr "Rien à afficher tant que le point n'est pas présenté dans une séance."
@@ -1066,10 +1070,6 @@ msgstr "Valeurs de votes utilisables sur le premier vote lié"
 #. Default: "Name of the folder linked to this configuration"
 msgid "PloneMeeting_label_folderTitle"
 msgstr "Nom du répertoire lié à cette configuration"
-
-#. Default: "Default deadline for validating late items for a given meeting"
-msgid "PloneMeeting_label_freezeDeadlineDefault"
-msgstr "Echéance par défaut pour valider les points en urgence pour une séance donnée"
 
 #. Default: "Email of the functional administrator"
 msgid "PloneMeeting_label_functionalAdminEmail"
@@ -1528,10 +1528,6 @@ msgstr "Groupes considérés comme \"Super émetteurs d'avis\""
 msgid "PloneMeeting_label_powerObservers"
 msgstr "Configuration des \"Super observateurs\""
 
-#. Default: "Default date for the pre-meeting"
-msgid "PloneMeeting_label_preMeetingDateDefault"
-msgstr "Date par défaut pour la séance préparatoire"
-
 #. Default: "Previous item"
 msgid "PloneMeeting_label_predecessor"
 msgstr "Point précédent"
@@ -1555,10 +1551,6 @@ msgstr "Groupe proposant (Groupe en charge)"
 #. Default: "Public URL"
 msgid "PloneMeeting_label_publicUrl"
 msgstr "URL publique"
-
-#. Default: "Default deadline for validating items for a given meeting"
-msgid "PloneMeeting_label_publishDeadlineDefault"
-msgstr "Échéance par défaut pour valider les points pour une séance donnée"
 
 #. Default: "Questions"
 msgid "PloneMeeting_label_questioners"
@@ -3392,10 +3384,6 @@ msgstr "Respectez bien l'ordre des transitions menant à l'état 'présenté', l
 msgid "folder_title_descr"
 msgstr "Dans le répertoire de chaque utilisateur, un sous-répertoire par configuration de séance est créé. Le nom de ce sous-répertoire se définit ici."
 
-#. Default: "Specify here the deadline for validating late items to be inserted in a given meeting.  Leave the field empty not to use this functionality."
-msgid "freeze_deadline_default_descr"
-msgstr "Spécifiez ici l'échéance pour valider des points à insérer en urgence dans une séance donnée.  Laissez le champ vide si vous ne souhaitez pas utiliser cette fonctionnalité."
-
 #. Default: "<p>PloneMeeting body in HTML format.</p>"
 msgid "front_page_body"
 msgstr "<p>Avant de tester, nous vous recommandons de lire la <span class=\"link-external\"><a target=\"_blank\" href=\"http://www.imio.be/support/documentation/manual/plonemeeting41\">documentation</a></span> qui explique en détails le fonctionnement du logiciel. Ce manuel évolue constamment.</p>"
@@ -4987,10 +4975,6 @@ msgstr "Super observateurs"
 msgid "pre_date_after_meeting_date"
 msgstr "La date de séance préparatoire doit être avant la date de séance."
 
-#. Default: "Specify here the date of the pre-meeting, relative to its meeting, in the same format as fields above.  Leave the field empty not to use this functionality."
-msgid "pre_meeting_date_default_descr"
-msgstr "Spécifiez ici la date de la séance préparatoire, par rapport à la date de la séance, dans le même format que les champs ci-dessus.  Laissez le champ vide si vous ne souhaitez pas utiliser cette fonctionnalité."
-
 #. Default: "If this is a normal item and you want it to be inserted in any availale meeting, just select \"No preference\" value.  Selecting a date is for 2 usecases : this will make the item not presentable to the meetings before selected one, or if the selected meeting is \"frozen\", this will make current item considered as \"late\" item presentable in the selected frozen meeting.  Indeed, the only way to insert an item in a frozen meeting is to select this meeting as preferred meeting."
 msgid "preferred_meeting_descr"
 msgstr "Si vous laissez la valeur \"Pas de préférence\", le point pourra être présenté dans n'importe quelle séance \"En création\" mais ne pourra pas être présenté \"En urgence\" dans une séance \"Gelée\".  Deux fonctonnalités sont activées lorsqu'une séance est sélectionnée: premièrement le point ne pourra pas être présenté dans une séance avant celle sélectionnée, ensuite, le point pourra y être présenté quel que soit l'état de celle-ci (\"En création\", \"Gelée\", ...) et notamment en tant que point \"En urgence\" dès que la séance sera \"Gelée\"."
@@ -5042,10 +5026,6 @@ msgstr "Séance publique"
 #. Default: "Public meeting (heading)"
 msgid "public_heading"
 msgstr "Séance publique (entête)"
-
-#. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\".  Leave the field empty not to use this functionality."
-msgid "publish_deadline_default_descr"
-msgstr "Spécifiez ici l'échéance pour valider des points à insérer dans une séance donnée. Vous devez exprimer cette échéance comme étant relative à la date de la séance. Par exemple, \"5.9:30\" (n'encodez pas d'apostrophes) signifie \"5 jours avant la date de la séance, à 9:30\".  Laissez le champ vide si vous ne souhaitez pas utiliser cette fonctionnalité."
 
 #. Default: "Publishable (displayed)"
 msgid "publishable_display"
