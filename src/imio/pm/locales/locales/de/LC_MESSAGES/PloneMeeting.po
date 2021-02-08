@@ -1122,10 +1122,6 @@ msgstr ""
 msgid "PloneMeeting_label_historizedItemAttributes"
 msgstr ""
 
-#. Default: "Meeting attributes for which history must be kept"
-msgid "PloneMeeting_label_historizedMeetingAttributes"
-msgstr ""
-
 #. Default: "Holidays"
 msgid "PloneMeeting_label_holidays"
 msgstr ""
@@ -1565,10 +1561,6 @@ msgstr ""
 #. Default: "Item states into which events will be recorded in item's history"
 msgid "PloneMeeting_label_recordItemHistoryStates"
 msgstr "Stati der TOP für welche die Speicherung der History aktiviert ist"
-
-#. Default: "Meeting states into which events will be recorded in meeting's history"
-msgid "PloneMeeting_label_recordMeetingHistoryStates"
-msgstr ""
 
 #. Default: "Redirect to the next meeting"
 msgid "PloneMeeting_label_redirectToNextMeeting"
@@ -3577,10 +3569,6 @@ msgstr ""
 msgid "historized_item_attrs_descr"
 msgstr ""
 
-#. Default: "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the \"historizable\" states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
-msgid "historized_meeting_attrs_descr"
-msgstr ""
-
 #. Default: "See changes"
 msgid "history_changes"
 msgstr ""
@@ -5108,10 +5096,6 @@ msgstr ""
 #. Default: "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
 msgid "record_item_history_states_descr"
 msgstr "Wählen sie hier die Stati der TOP für welche einige Ereignisse relativ zum TOP (wie das anhägen oder löchen von Anlagen), in der TOP-History gespeichert werden."
-
-#. Default: "Select here the meeting states into which some events related to the meeting will be stored in the meeting's history."
-msgid "record_meeting_history_states_descr"
-msgstr ""
 
 #. Default: "The recurring item specified in the subject of this email could not be inserted in a meeting. Maybe does it lack some important information (a text for the decision, for example) while the meeting is in an \"advanced\" state (it is already \"decided\", for instance). More information can be found in the log file of your Zope instance."
 #, fuzzy

@@ -1119,10 +1119,6 @@ msgstr "Historiser les informations essentielles du point lorsqu'un avis est ren
 msgid "PloneMeeting_label_historizedItemAttributes"
 msgstr "Attributs des points pour lesquels l'historique doit être conservé"
 
-#. Default: "Meeting attributes for which history must be kept"
-msgid "PloneMeeting_label_historizedMeetingAttributes"
-msgstr "Attributs des séances pour lesquels l'historique doit être conservé"
-
 #. Default: "Holidays"
 msgid "PloneMeeting_label_holidays"
 msgstr "Jours fériés"
@@ -1559,10 +1555,6 @@ msgstr "Questions"
 #. Default: "Item states into which events will be recorded in item's history"
 msgid "PloneMeeting_label_recordItemHistoryStates"
 msgstr "États des points dans lesquels l'historisation est active"
-
-#. Default: "Meeting states into which events will be recorded in meeting's history"
-msgid "PloneMeeting_label_recordMeetingHistoryStates"
-msgstr "États des séances dans lesquels l'historisation est active"
 
 #. Default: "Redirect to the next meeting"
 msgid "PloneMeeting_label_redirectToNextMeeting"
@@ -3538,10 +3530,6 @@ msgstr "Lorsqu'un avis est officiellement rendu, c'est-à-dire lorsqu'il quitte 
 msgid "historized_item_attrs_descr"
 msgstr "Pour chaque champ que vous sélectionnez ici, l'application conservera la trace de tout changement sur chaque point qui est dans un des états listés ci-dessous.  <span style='color: red;'>Cette fonctionnalité est toujours dans un status \"BETA\", vous pourriez rencontrer un comportement étrange lors de l'utilisation.  Cette fonctionnalité sera complètement retravaillée dans une prochaine version.</span>"
 
-#. Default: "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the \"historizable\" states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
-msgid "historized_meeting_attrs_descr"
-msgstr "Pour chaque champ que vous sélectionnez ici, l'application conservera la trace de tout changement sur chaque séance qui est dans un des états listés ci-dessous.  <span style='color: red;'>Cette fonctionnalité est toujours dans un status \"BETA\", vous pourriez rencontrer un comportement étrange lors de l'utilisation.  Cette fonctionnalité sera complètement retravaillée dans une prochaine version.</span>"
-
 #. Default: "See changes"
 msgid "history_changes"
 msgstr "Voir les changements"
@@ -5038,10 +5026,6 @@ msgstr "Publiable (éditable seulement par les gestionnaires de séances)"
 #. Default: "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
 msgid "record_item_history_states_descr"
 msgstr "Sélectionnez ici les états des points dans lesquels certains événements relatifs aux points (comme la création ou la suppression d'annexes) seront stockés dans leur historique."
-
-#. Default: "Select here the meeting states into which some events related to the meeting will be stored in the meeting's history."
-msgid "record_meeting_history_states_descr"
-msgstr "Sélectionnez ici les états des séances dans lesquels l'historisation sera activée."
 
 #. Default: "The recurring item specified in the subject of this email could not be inserted in a meeting. Maybe does it lack some important information (a text for the decision, for example) while the meeting is in an \"advanced\" state (it is already \"decided\", for instance). More information can be found in the log file of your Zope instance."
 msgid "recurringItemWorkflowError_mail_body"

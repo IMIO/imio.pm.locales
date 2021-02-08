@@ -1651,22 +1651,6 @@ msgstr ""
 msgid "used_meeting_attributes_descr"
 msgstr ""
 
-#. Default: "Meeting attributes for which history must be kept"
-msgid "PloneMeeting_label_historizedMeetingAttributes"
-msgstr ""
-
-#. Default: "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the \"historizable\" states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
-msgid "historized_meeting_attrs_descr"
-msgstr ""
-
-#. Default: "Meeting states into which events will be recorded in meeting's history"
-msgid "PloneMeeting_label_recordMeetingHistoryStates"
-msgstr ""
-
-#. Default: "Select here the meeting states into which some events related to the meeting will be stored in the meeting's history."
-msgid "record_meeting_history_states_descr"
-msgstr ""
-
 #. Default: "There is a problem with a date defined for group \"${groupName}\".  If the date is in the \"Rule activated for item created until\", it has to be a date in the future.  Moreover, respect following format YYYY/MM/DD, like 2013/12/31."
 msgid "custom_adviser_wrong_date_format"
 msgstr ""
