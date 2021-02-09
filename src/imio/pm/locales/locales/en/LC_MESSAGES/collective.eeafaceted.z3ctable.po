@@ -62,15 +62,6 @@ msgstr "Item is signed?"
 msgid "header_getItemNumber"
 msgstr " "
 
-#. Default: "P. meeting"
-#, fuzzy
-msgid "header_getPreferredMeetingDate"
-msgstr "Preferred meeting"
-
-#. Default: "Preferred meeting"
-msgid "header_getPreferredMeetingDate_help"
-msgstr ""
-
 #. Default: "Proposing group"
 msgid "header_getProposingGroup"
 msgstr "Proposing group"
@@ -92,12 +83,20 @@ msgid "header_groups_in_charge_acronym_help"
 msgstr ""
 
 #. Default: "Meeting"
-msgid "header_linkedMeetingDate"
-msgstr "Meeting"
+msgid "header_meeting_date"
+msgstr ""
 
 #. Default: "Poll type"
 msgid "header_pollType"
 msgstr "Poll type"
+
+#. Default: "P. meeting"
+msgid "header_preferred_meeting_date"
+msgstr ""
+
+#. Default: "Preferred meeting"
+msgid "header_preferred_meeting_date_help"
+msgstr ""
 
 #. Default: "Privacy"
 msgid "header_privacy"

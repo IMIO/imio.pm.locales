@@ -62,14 +62,6 @@ msgstr "Point signé?"
 msgid "header_getItemNumber"
 msgstr "&nbsp;&nbsp;&nbsp;"
 
-#. Default: "P. meeting"
-msgid "header_getPreferredMeetingDate"
-msgstr "Séance s."
-
-#. Default: "Preferred meeting"
-msgid "header_getPreferredMeetingDate_help"
-msgstr "Séance souhaitée"
-
 #. Default: "Proposing group"
 msgid "header_getProposingGroup"
 msgstr "G.P."
@@ -91,12 +83,20 @@ msgid "header_groups_in_charge_acronym_help"
 msgstr "Groupes en charge"
 
 #. Default: "Meeting"
-msgid "header_linkedMeetingDate"
+msgid "header_meeting_date"
 msgstr "Séance"
 
 #. Default: "Poll type"
 msgid "header_pollType"
 msgstr "Mode de scrutin"
+
+#. Default: "P. meeting"
+msgid "header_preferred_meeting_date"
+msgstr "Séance s."
+
+#. Default: "Preferred meeting"
+msgid "header_preferred_meeting_date_help"
+msgstr "Séance souhaitée"
 
 #. Default: "Privacy"
 msgid "header_privacy"
