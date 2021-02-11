@@ -2557,6 +2557,10 @@ msgstr ""
 msgid "can_not_access_this_item"
 msgstr ""
 
+#. Default: "Assembly and signatures : you can not use same signature number several times."
+msgid "can_not_define_several_same_signature_number"
+msgstr ""
+
 #. Default: "You can not define two rows for the same meeting configuration!"
 msgid "can_not_define_two_rows_for_same_meeting_config"
 msgstr ""
@@ -2573,15 +2577,15 @@ msgstr ""
 msgid "can_not_delete_plone_group_meetingitem"
 msgstr ""
 
-#. Default: "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
+#. Default: "Assembly and signatures : you can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"
 msgstr ""
 
-#. Default: "You can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
+#. Default: "Assembly and signatures : you can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
 msgid "can_not_remove_public_voter_voted_on_items"
 msgstr ""
 
-#. Default: "You can not unselect a voter that already voted on a secret vote item."
+#. Default: "Assembly and signatures : you can not unselect a voter that already voted on a secret vote item."
 msgid "can_not_remove_secret_voter_voted_on_items"
 msgstr ""
 
@@ -5665,7 +5669,7 @@ msgstr ""
 msgid "title_pre_observations"
 msgstr ""
 
-#. Default: Public meeting observations""
+#. Default: "Public meeting observations"
 msgid "title_public_meeting_observations"
 msgstr ""
 

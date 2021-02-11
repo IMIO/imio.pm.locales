@@ -5882,16 +5882,20 @@ msgstr ""
 msgid "Select organizations the current held position is representative for."
 msgstr ""
 
-#. Default: "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
+#. Default: "Assembly and signatures : you can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"
 msgstr ""
 
-#. Default: "You can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
+#. Default: "Assembly and signatures : you can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
 msgid "can_not_remove_public_voter_voted_on_items"
 msgstr ""
 
-#. Default: "You can not unselect a voter that already voted on a secret vote item."
+#. Default: "Assembly and signatures : you can not unselect a voter that already voted on a secret vote item."
 msgid "can_not_remove_secret_voter_voted_on_items"
+msgstr ""
+
+#. Default: "Assembly and signatures : you can not use same signature number several times."
+msgid "can_not_define_several_same_signature_number"
 msgstr ""
 
 #. Default: "You can not remove/disable a function that is used by an item in the application.  Please check ${item_url}."
@@ -6162,7 +6166,7 @@ msgstr ""
 msgid "title_votes_observations"
 msgstr ""
 
-#. Default: Public meeting observations""
+#. Default: "Public meeting observations"
 msgid "title_public_meeting_observations"
 msgstr ""
 

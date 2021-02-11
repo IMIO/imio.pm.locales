@@ -2538,6 +2538,10 @@ msgstr "Gestionnaires d'informations budgétaires"
 msgid "can_not_access_this_item"
 msgstr "Vous ne pouvez pas accéder à ce point"
 
+#. Default: "Assembly and signatures : you can not use same signature number several times."
+msgid "can_not_define_several_same_signature_number"
+msgstr "Assemblée et signatures : vous ne pouvez pas utiliser le même numéro de signature plusieurs fois."
+
 #. Default: "You can not define two rows for the same meeting configuration!"
 msgid "can_not_define_two_rows_for_same_meeting_config"
 msgstr "Vous ne pouvez pas définir 2 lignes pour le même type de séance!"
@@ -2554,17 +2558,17 @@ msgstr "Vous ne pouvez pas supprimer/désactiver une fonction qui est utilisée 
 msgid "can_not_delete_plone_group_meetingitem"
 msgstr "Vous ne pouvez pas supprimer/désactiver une fonction qui est utilisée par un point dans l'application.  Vérifiez ${item_url}."
 
-#. Default: "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
+#. Default: "Assembly and signatures : you can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"
-msgstr "Vous ne pouvez pas désélectionner un membre d'assemblée qui a été redéfini ou utilisé sur un point de la séance (absents, excusés, votes, ...).  Vérifiez \"${attendee_title}\"."
+msgstr "Assemblée et signatures : vous ne pouvez pas désélectionner un membre d'assemblée qui a été redéfini ou utilisé sur un point de la séance (absents, excusés, votes, ...).  Vérifiez \"${attendee_title}\"."
 
-#. Default: "You can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
+#. Default: "Assembly and signatures : you can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
 msgid "can_not_remove_public_voter_voted_on_items"
-msgstr "Vous ne pouvez pas désélectionner un votant qui a déjà voté sur un point à scrutin public.  Vérifiez \"${attendee_title}\"."
+msgstr "Assemblée et signatures : vous ne pouvez pas désélectionner un votant qui a déjà voté sur un point à scrutin public.  Vérifiez \"${attendee_title}\"."
 
-#. Default: "You can not unselect a voter that already voted on a secret vote item."
+#. Default: "Assembly and signatures : you can not unselect a voter that already voted on a secret vote item."
 msgid "can_not_remove_secret_voter_voted_on_items"
-msgstr "Vous ne pouvez pas désélectionner un votant qui a déjà voté sur un point à scrutin secret."
+msgstr "Assemblée et signatures : vous ne pouvez pas désélectionner un votant qui a déjà voté sur un point à scrutin secret."
 
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
@@ -5589,7 +5593,7 @@ msgstr "Lieu (séance préparatoire)"
 msgid "title_pre_observations"
 msgstr "Observations (séance préparatoire)"
 
-#. Default: Public meeting observations""
+#. Default: "Public meeting observations"
 msgid "title_public_meeting_observations"
 msgstr "Observations (séance publique)"
 

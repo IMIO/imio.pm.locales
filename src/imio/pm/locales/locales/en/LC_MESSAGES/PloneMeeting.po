@@ -246,7 +246,7 @@ msgstr "Commentaire"
 
 #. Default: "Completed votes"
 msgid "Completed votes"
-msgstr ""
+msgstr "Completed votes"
 
 #. Default: "Contacts fields"
 msgid "Contacts fields"
@@ -519,7 +519,7 @@ msgstr "It is not possible to add annexes because no file types is defined, plea
 
 #. Default: "Item \"${item_title}\" could not be presented!"
 msgid "Item \"${item_title}\" could not be presented!"
-msgstr ""
+msgstr "Item \"${item_title}\" could not be presented!"
 
 #. Default: "Item absents to apply"
 msgid "Item absents to apply"
@@ -685,7 +685,7 @@ msgstr "Items"
 
 #. Default: "Meeting signatory not used, another signatory with same signature number is used"
 msgid "Meeting signatory not used, another signatory with same signature number is used"
-msgstr ""
+msgstr "Meeting signatory not used, another signatory with same signature number is used"
 
 #. Default: "Users"
 msgid "Meeting users"
@@ -697,7 +697,7 @@ msgstr "Advice"
 
 #. Default: "Category"
 msgid "MeetingCategory"
-msgstr ""
+msgstr "Category"
 
 #. Default: "Meetings"
 msgid "Meetings"
@@ -749,7 +749,7 @@ msgstr "Not able to add new linked votes because incompatible vote vales have be
 
 #. Default: "Not completed votes"
 msgid "Not completed votes"
-msgstr ""
+msgstr "Not completed votes"
 
 #. Default: "Not present type"
 msgid "Not present type"
@@ -761,7 +761,7 @@ msgstr "Not voter"
 
 #. Default: "Nothing selected in the configuration to be displayed."
 msgid "Nothing selected in the configuration to be displayed."
-msgstr ""
+msgstr "Nothing selected in the configuration to be displayed."
 
 #. Default: "Nothing to display when item is not presented into a meeting."
 msgid "Nothing to display when item is not presented into a meeting."
@@ -1314,15 +1314,15 @@ msgstr "Fields of the items to show/hide in the dashboards"
 
 #. Default: "Fields to display on not visible linked items"
 msgid "PloneMeeting_label_itemsNotViewableVisibleFields"
-msgstr ""
+msgstr "Fields to display on not visible linked items"
 
 #. Default: "Fields to display on not visible linked items if"
 msgid "PloneMeeting_label_itemsNotViewableVisibleFieldsTALExpr"
-msgstr ""
+msgstr "Fields to display on not visible linked items if"
 
 #. Default: "Fields to display on visible linked items"
 msgid "PloneMeeting_label_itemsVisibleFields"
-msgstr ""
+msgstr "Fields to display on visible linked items"
 
 #. Default: "Keep access to item when an advice"
 msgid "PloneMeeting_label_keepAccessToItemWhenAdvice"
@@ -1774,7 +1774,7 @@ msgstr "Position type"
 
 #. Default: "Position type to use as label for the signature."
 msgid "Position type to use as label for the signature."
-msgstr ""
+msgstr "Position type to use as label for the signature."
 
 #. Default: "Preview detailed advice"
 msgid "Preview detailed advice"
@@ -1875,7 +1875,7 @@ msgstr "Signature number"
 
 #. Default: "Signature position type"
 msgid "Signature position type"
-msgstr ""
+msgstr "Signature position type"
 
 #. Default: "state"
 msgid "State"
@@ -2423,7 +2423,7 @@ msgstr "Absents as defined on the linked meeting"
 
 #. Default: "Assembly and signatures"
 msgid "assembly_and_signatures"
-msgstr ""
+msgstr "Assembly and signatures"
 
 #. Default: "Assembly as defined on the linked meeting"
 msgid "assembly_defined_on_meeting"
@@ -2538,6 +2538,10 @@ msgstr "Budget impact editors"
 msgid "can_not_access_this_item"
 msgstr "You can not access this item"
 
+#. Default: "Assembly and signatures : you can not use same signature number several times."
+msgid "can_not_define_several_same_signature_number"
+msgstr "Assembly and signatures : you can not use same signature number several times."
+
 #. Default: "You can not define two rows for the same meeting configuration!"
 msgid "can_not_define_two_rows_for_same_meeting_config"
 msgstr "You can not define two rows for the same meeting configuration!"
@@ -2554,17 +2558,17 @@ msgstr "You can not remove/disable a function that is used by a parameter of a c
 msgid "can_not_delete_plone_group_meetingitem"
 msgstr "You can not remove/disable a function that is used by an item in the application.  Please check ${item_url}."
 
-#. Default: "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
+#. Default: "Assembly and signatures : you can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"
-msgstr "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
+msgstr "Assembly and signatures : you can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 
-#. Default: "You can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
+#. Default: "Assembly and signatures : you can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
 msgid "can_not_remove_public_voter_voted_on_items"
-msgstr "You can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
+msgstr "Assembly and signatures : you can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
 
-#. Default: "You can not unselect a voter that already voted on a secret vote item."
+#. Default: "Assembly and signatures : you can not unselect a voter that already voted on a secret vote item."
 msgid "can_not_remove_secret_voter_voted_on_items"
-msgstr "You can not unselect a voter that already voted on a secret vote item."
+msgstr "Assembly and signatures : you can not unselect a voter that already voted on a secret vote item."
 
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
@@ -3058,19 +3062,19 @@ msgstr "Select here the days a computed delay can not ends with.  If a computed 
 
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
 msgid "descr_assembly"
-msgstr ""
+msgstr "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "descr_field_reserved_to_meeting_managers"
-msgstr ""
+msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
 msgid "descr_field_vieawable_by_everyone"
-msgstr ""
+msgstr "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
 
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
 msgid "descr_field_vieawable_by_everyone_once_meeting_decided"
-msgstr ""
+msgstr "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
 
 #. Default: "You are just able to see visible elements here. Please consult the \"manage\" box here opposite."
 msgid "description_only_see_visible_items"
@@ -3178,7 +3182,7 @@ msgstr "If you check this box, users will be able to access a screen for modifyi
 
 #. Default: "The meeting end date must occur after the start date and meeting date."
 msgid "end_date_before_meeting_date"
-msgstr ""
+msgstr "The meeting end date must occur after the start date and meeting date."
 
 #. Default: "When advice mandatoriness is enforced, an item can't be inserted into a meeting unless all mandatory advices are given and positive."
 msgid "enforce_advice_mandatoriness_descr"
@@ -3346,19 +3350,19 @@ msgstr "<span style='color: green;'>This field is only editable by meeting manag
 
 #. Default: "Assembly and signatures"
 msgid "fieldset_assembly"
-msgstr ""
+msgstr "Assembly and signatures"
 
 #. Default: "Dates and data"
 msgid "fieldset_dates_and_data"
-msgstr ""
+msgstr "Dates and data"
 
 #. Default: "Details"
 msgid "fieldset_details"
-msgstr ""
+msgstr "Details"
 
 #. Default: "Meeting managers reserved parameters"
 msgid "fieldset_managers_parameters"
-msgstr ""
+msgstr "Meeting managers reserved parameters"
 
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
 msgid "file_required"
@@ -4113,15 +4117,15 @@ msgstr "Select here fields of the item that will be show/hidden when a user will
 
 #. Default: "When consulting not viewable linked items of an item, some extra fields may be shown if it is selected here.  This let's you show some choosen informations on linked items that are not accessible to the current user."
 msgid "items_not_viewable_visible_fields_descr"
-msgstr ""
+msgstr "When consulting not viewable linked items of an item, some extra fields may be shown if it is selected here.  This let's you show some choosen informations on linked items that are not accessible to the current user."
 
 #. Default: "Specify here a TAL expression that will enable the functionnality of showing some fields when linked items are not viewable by the current user."
 msgid "items_not_viewable_visible_fields_tal_expr_descr"
-msgstr ""
+msgstr "Specify here a TAL expression that will enable the functionnality of showing some fields when linked items are not viewable by the current user."
 
 #. Default: "When consulting linked items of an item, some extra fields may be shown if it is selected here."
 msgid "items_visible_fields_descr"
-msgstr ""
+msgstr "When consulting linked items of an item, some extra fields may be shown if it is selected here."
 
 #. Default: "Item templates managers"
 msgid "itemtemplatesmanagers"
@@ -5356,11 +5360,11 @@ msgstr "Check this box if you want to sort the tags in alphabetic order."
 
 #. Default: "The meeting start date must occur before the end date."
 msgid "start_date_after_end_date"
-msgstr ""
+msgstr "The meeting start date must occur before the end date."
 
 #. Default: "The meeting start date must occur after the meeting date."
 msgid "start_date_before_meeting_date"
-msgstr ""
+msgstr "The meeting start date must occur after the meeting date."
 
 #. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"
@@ -5464,139 +5468,139 @@ msgstr "This item is NOT an oral question"
 
 #. Default: "Extraordinary session"
 msgid "this_meeting_is_extraordinary_session"
-msgstr ""
+msgstr "Extraordinary session"
 
 #. Default: "Absents"
 msgid "title_absents"
-msgstr ""
+msgstr "Absents"
 
 #. Default: "Approval date"
 msgid "title_approval_date"
-msgstr ""
+msgstr "Approval date"
 
 #. Default: "Assembly"
 msgid "title_assembly"
-msgstr ""
+msgstr "Assembly"
 
 #. Default: "Assembly absents"
 msgid "title_assembly_absents"
-msgstr ""
+msgstr "Assembly absents"
 
 #. Default: "Assembly excused"
 msgid "title_assembly_excused"
-msgstr ""
+msgstr "Assembly excused"
 
 #. Default: "Assembly guests"
 msgid "title_assembly_guests"
-msgstr ""
+msgstr "Assembly guests"
 
 #. Default: "Assembly observations"
 msgid "title_assembly_observations"
-msgstr ""
+msgstr "Assembly observations"
 
 #. Default: "Assembly proxies"
 msgid "title_assembly_proxies"
-msgstr ""
+msgstr "Assembly proxies"
 
 #. Default: "Assembly staves"
 msgid "title_assembly_staves"
-msgstr ""
+msgstr "Assembly staves"
 
 #. Default: "Attendees"
 msgid "title_attendees"
-msgstr ""
+msgstr "Attendees"
 
 #. Default: "Authority notice"
 msgid "title_authority_notice"
-msgstr ""
+msgstr "Authority notice"
 
 #. Default: "Committee observations"
 msgid "title_committee_observations"
-msgstr ""
+msgstr "Committee observations"
 
 #. Default: "Convocation date"
 msgid "title_convocation_date"
-msgstr ""
+msgstr "Convocation date"
 
 #. Default: "Date"
 msgid "title_date"
-msgstr ""
+msgstr "Date"
 
 #. Default: "Default assembly"
 msgid "title_default_assembly"
-msgstr ""
+msgstr "Default assembly"
 
 #. Default: "Default assembly staves"
 msgid "title_default_assembly_staves"
-msgstr ""
+msgstr "Default assembly staves"
 
 #. Default: "Default signatures"
 msgid "title_default_signatures"
-msgstr ""
+msgstr "Default signatures"
 
 #. Default: "End date"
 msgid "title_end_date"
-msgstr ""
+msgstr "End date"
 
 #. Default: "Excused"
 msgid "title_excused"
-msgstr ""
+msgstr "Excused"
 
 #. Default: "Extraordinary session"
 msgid "title_extraordinary_session"
-msgstr ""
+msgstr "Extraordinary session"
 
 #. Default: "First item number"
 msgid "title_first_item_number"
-msgstr ""
+msgstr "First item number"
 
 #. Default: "In and out moves"
 msgid "title_in_and_out_moves"
-msgstr ""
+msgstr "In and out moves"
 
 #. Default: "Meeting number"
 msgid "title_meeting_number"
-msgstr ""
+msgstr "Meeting number"
 
 #. Default: "Mid date"
 msgid "title_mid_date"
-msgstr ""
+msgstr "Mid date"
 
 #. Default: "Non attendees"
 msgid "title_non_attendees"
-msgstr ""
+msgstr "Non attendees"
 
 #. Default: "Notes"
 msgid "title_notes"
-msgstr ""
+msgstr "Notes"
 
 #. Default: "Observations"
 msgid "title_observations"
-msgstr ""
+msgstr "Observations"
 
 #. Default: "Place"
 msgid "title_place"
-msgstr ""
+msgstr "Place"
 
 #. Default: "Pre meeting date"
 msgid "title_pre_meeting_date"
-msgstr ""
+msgstr "Pre meeting date"
 
 #. Default: "Pre meeting place"
 msgid "title_pre_meeting_place"
-msgstr ""
+msgstr "Pre meeting place"
 
 #. Default: "Pre observations"
 msgid "title_pre_observations"
-msgstr ""
+msgstr "Pre observations"
 
-#. Default: Public meeting observations""
+#. Default: "Public meeting observations"
 msgid "title_public_meeting_observations"
-msgstr ""
+msgstr "Public meeting observations"
 
 #. Default: "Replacements"
 msgid "title_replacements"
-msgstr ""
+msgstr "Replacements"
 
 #. Default: "A title is required."
 msgid "title_required"
@@ -5604,23 +5608,23 @@ msgstr "A title is required."
 
 #. Default: "Secret meeting observations"
 msgid "title_secret_meeting_observations"
-msgstr ""
+msgstr "Secret meeting observations"
 
 #. Default: "Signatories"
 msgid "title_signatories"
-msgstr ""
+msgstr "Signatories"
 
 #. Default: "Signatures"
 msgid "title_signatures"
-msgstr ""
+msgstr "Signatures"
 
 #. Default: "Start date"
 msgid "title_start_date"
-msgstr ""
+msgstr "Start date"
 
 #. Default: "Votes observations"
 msgid "title_votes_observations"
-msgstr ""
+msgstr "Votes observations"
 
 #. Default: "Ask this advice again (current advice will be historized)"
 msgid "to_advice_asked_again"
@@ -6099,9 +6103,8 @@ msgid "wa_reviewers_take_back_validated_item"
 msgstr "Reviewers may take back validated item"
 
 #. Default: "Wait advices (base: from custom configuration, from itemcreated/proposed/prevalidated, select who may send back)"
-#, fuzzy
 msgid "wa_waiting_advices"
-msgstr "Wait advices (base: from custom configuration, from itemcreated/proposed, select who may send back)"
+msgstr "Wait advices (base: from custom configuration, from itemcreated/proposed/prevalidated, select who may send back)"
 
 #. Default: "Wait advices (complementary: when item in state \"Waiting advices\", item may be validated by advisers)"
 msgid "wa_waiting_advices_adviser_may_validate"
