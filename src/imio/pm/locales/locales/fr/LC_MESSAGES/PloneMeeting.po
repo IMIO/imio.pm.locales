@@ -3360,9 +3360,9 @@ msgstr "Dates et données"
 msgid "fieldset_details"
 msgstr "Détails"
 
-#. Default: "Meeting managers reserved parameters"
-msgid "fieldset_managers_parameters"
-msgstr "Réservés aux gestionnaires de séances"
+#. Default: "Parameters"
+msgid "fieldset_parameters"
+msgstr "Paramètres avancés"
 
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
 msgid "file_required"
@@ -4323,6 +4323,10 @@ msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annex
 #. Default: "Choose here which page will be shown after logon."
 msgid "meeting_app_default_view_descr"
 msgstr "Choisissez ici la page qui s'affiche directement après connexion."
+
+#. Default: "Meeting assembly (${number_of_attendees}) and signatories (${number_of_signatories})"
+msgid "meeting_attendees_and_signatories"
+msgstr "Assemblée (${number_of_attendees}) et signataires (${number_of_signatories})"
 
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 msgid "meeting_columns_descr"
@@ -5549,9 +5553,9 @@ msgstr "Excusés"
 msgid "title_extraordinary_session"
 msgstr "Séance extraordinaire?"
 
-#. Default: "First item number"
+#. Default: "First item number (managed automatically when meeting is frozen)"
 msgid "title_first_item_number"
-msgstr "Numéro du premier point de cette séance"
+msgstr "Numéro du premier point de cette séance (géré automatiquement lors du gel de la séance)"
 
 #. Default: "In and out moves"
 msgid "title_in_and_out_moves"
@@ -5580,6 +5584,10 @@ msgstr "Observations"
 #. Default: "Place"
 msgid "title_place"
 msgstr "Lieu"
+
+#. Default: "Other place"
+msgid "title_place_other"
+msgstr "Autre lieu"
 
 #. Default: "Pre meeting date"
 msgid "title_pre_meeting_date"

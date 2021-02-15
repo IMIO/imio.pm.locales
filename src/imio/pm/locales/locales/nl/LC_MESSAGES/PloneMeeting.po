@@ -3376,8 +3376,8 @@ msgstr ""
 msgid "fieldset_details"
 msgstr ""
 
-#. Default: "Meeting managers reserved parameters"
-msgid "fieldset_managers_parameters"
+#. Default: "Parameters"
+msgid "fieldset_parameters"
 msgstr ""
 
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
@@ -4348,6 +4348,10 @@ msgstr ""
 #. Default: "Choose here which page will be shown after logon."
 msgid "meeting_app_default_view_descr"
 msgstr "Choose here which page will be shown after logon."
+
+#. Default: "Meeting assembly (${number_of_attendees}) and signatories (${number_of_signatories})"
+msgid "meeting_attendees_and_signatories"
+msgstr ""
 
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 msgid "meeting_columns_descr"
@@ -5587,7 +5591,7 @@ msgstr ""
 msgid "title_extraordinary_session"
 msgstr ""
 
-#. Default: "First item number"
+#. Default: "First item number (managed automatically when meeting is frozen)"
 msgid "title_first_item_number"
 msgstr ""
 
@@ -5617,6 +5621,10 @@ msgstr ""
 
 #. Default: "Place"
 msgid "title_place"
+msgstr ""
+
+#. Default: "Other place"
+msgid "title_place_other"
 msgstr ""
 
 #. Default: "Pre meeting date"

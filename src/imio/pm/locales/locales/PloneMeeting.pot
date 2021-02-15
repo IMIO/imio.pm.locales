@@ -6066,8 +6066,8 @@ msgstr ""
 msgid "fieldset_details"
 msgstr ""
 
-#. Default: "Meeting managers reserved parameters"
-msgid "fieldset_managers_parameters"
+#. Default: "Parameters"
+msgid "fieldset_parameters"
 msgstr ""
 
 #. Default: "Date"
@@ -6130,6 +6130,10 @@ msgstr ""
 msgid "title_place"
 msgstr ""
 
+#. Default: "Other place"
+msgid "title_place_other"
+msgstr ""
+
 #. Default: "Pre meeting date"
 msgid "title_pre_meeting_date"
 msgstr ""
@@ -6182,7 +6186,7 @@ msgstr ""
 msgid "title_meeting_number"
 msgstr ""
 
-#. Default: "First item number"
+#. Default: "First item number (managed automatically when meeting is frozen)"
 msgid "title_first_item_number"
 msgstr ""
 
@@ -6224,4 +6228,8 @@ msgstr ""
 
 #. Default: "Nothing selected in the configuration to be displayed."
 msgid "Nothing selected in the configuration to be displayed."
+msgstr ""
+
+#. Default: "Meeting assembly (${number_of_attendees}) and signatories (${number_of_signatories})"
+msgid "meeting_attendees_and_signatories"
 msgstr ""
