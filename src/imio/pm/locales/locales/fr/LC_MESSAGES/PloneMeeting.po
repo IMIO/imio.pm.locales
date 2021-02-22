@@ -3076,6 +3076,10 @@ msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUr
 msgid "copyGroups_mail_subject"
 msgstr "${meetingConfigTitle} - Vous avez été mis en copie - ${itemTitle}"
 
+#. Default: "These groups will have read access to the item in following states: ${states}.  When the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
+msgid "copy_groups_help_msg"
+msgstr "Les groupes en copie auront accès en lecture seule au point dans les états suivants: ${states}.  Si le libellé \"[auto]\"est affiché à la suite du titre du groupe en copie, ceci signifie qu'il a été mis en copie automatiquement par l'application."
+
 #. Default: " "
 msgid "copy_groups_item_descr"
 msgstr " "

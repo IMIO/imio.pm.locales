@@ -3076,6 +3076,10 @@ msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${
 msgid "copyGroups_mail_subject"
 msgstr "${meetingConfigTitle} - You have been carbon copied - ${itemTitle}"
 
+#. Default: "These groups will have read access to the item in following states: ${states}.  When the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
+msgid "copy_groups_help_msg"
+msgstr ""
+
 #. Default: " "
 msgid "copy_groups_item_descr"
 msgstr "Select here groups that will be able to see this item"
