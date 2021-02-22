@@ -244,6 +244,10 @@ msgstr "Close"
 msgid "Comment"
 msgstr "Commentaire"
 
+#. Default: "Completed votes"
+msgid "Completed votes"
+msgstr "Completed votes"
+
 #. Default: "Contacts fields"
 msgid "Contacts fields"
 msgstr "Contacts fields"
@@ -743,6 +747,10 @@ msgstr "None"
 msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
 msgstr "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
 
+#. Default: "Not completed votes"
+msgid "Not completed votes"
+msgstr "Not completed votes"
+
 #. Default: "Not present type"
 msgid "Not present type"
 msgstr "Not present type"
@@ -750,6 +758,10 @@ msgstr "Not present type"
 #. Default: "Not voter"
 msgid "Not voter"
 msgstr "Not voter"
+
+#. Default: "Nothing selected in the configuration to be displayed."
+msgid "Nothing selected in the configuration to be displayed."
+msgstr "Nothing selected in the configuration to be displayed."
 
 #. Default: "Nothing to display when item is not presented into a meeting."
 msgid "Nothing to display when item is not presented into a meeting."
@@ -827,15 +839,6 @@ msgstr "Assembly in and out movements"
 msgid "PloneMeeting_itemObservations"
 msgstr "Observations"
 
-#. Default: "Observations"
-msgid "PloneMeeting_itemObservations2"
-msgstr "Observations"
-
-# MeetingGroup
-#. Default: "Absents"
-msgid "PloneMeeting_label_absents"
-msgstr "Absents (not excused)"
-
 #. Default: "Acronym"
 msgid "PloneMeeting_label_acronym"
 msgstr "Acronym"
@@ -880,41 +883,17 @@ msgstr "PloneMeeting_label_annexToPrintMode"
 msgid "PloneMeeting_label_answerers"
 msgstr "Answers"
 
-#. Default: "Meeting approval date"
-msgid "PloneMeeting_label_approvalDate"
-msgstr "Meeting approval date"
-
 #. Default: "As copy group on"
 msgid "PloneMeeting_label_asCopyGroupOn"
 msgstr "As copy group on"
-
-#. Default: "Default assembly"
-msgid "PloneMeeting_label_assembly"
-msgstr "Default assembly"
-
-#. Default: "Default assembly staves"
-msgid "PloneMeeting_label_assemblyStaves"
-msgstr "Default assembly staves"
 
 #. Default: "Associated group(s)"
 msgid "PloneMeeting_label_associatedGroups"
 msgstr "Associated group(s)"
 
-#. Default: "Attendees"
-msgid "PloneMeeting_label_attendees"
-msgstr "Attendees"
-
-#. Default: "Authority notice"
-msgid "PloneMeeting_label_authorityNotice"
-msgstr "Authority notice"
-
 #. Default: "Columns to display for items available for a meeting"
 msgid "PloneMeeting_label_availableItemsListVisibleColumns"
 msgstr "Columns to display for items available for a meeting"
-
-#. Default: "Items"
-msgid "PloneMeeting_label_body"
-msgstr "Items"
 
 #. Default: "Default value for the \"budget information\" field"
 msgid "PloneMeeting_label_budgetDefault"
@@ -976,10 +955,6 @@ msgstr "Identifier of this meeting configuration"
 msgid "PloneMeeting_label_contentsKeptOnSentToOtherMC"
 msgstr "Contents to keep when item sent to another configuration"
 
-#. Default: "Meeting convocation date"
-msgid "PloneMeeting_label_convocationDate"
-msgstr "Convocation date"
-
 #. Default: "Copy groups"
 msgid "PloneMeeting_label_copyGroups"
 msgstr "Copy groups"
@@ -1003,18 +978,6 @@ msgstr "Advanced filters to show on \"Available items\""
 #. Default: "Advanced filters to show on \"Items of a meeting\""
 msgid "PloneMeeting_label_dashboardMeetingLinkedItemsFilters"
 msgstr "Advanced filters to show on \"Items of a meeting\""
-
-#. Default: "Date"
-msgid "PloneMeeting_label_date"
-msgstr "Date"
-
-#. Default: "Deadline for validating late items"
-msgid "PloneMeeting_label_deadlineFreeze"
-msgstr "Deadline for validating late items"
-
-#. Default: "Deadline for validating items"
-msgid "PloneMeeting_label_deadlinePublish"
-msgstr "Deadline for validating items"
 
 #. Default: "Decision"
 msgid "PloneMeeting_label_decision"
@@ -1060,16 +1023,8 @@ msgstr "Delay can not end following days"
 msgid "PloneMeeting_label_description"
 msgstr "Description"
 
-#. Default: "Description in the second language"
-msgid "PloneMeeting_label_description2"
-msgstr "Description in the second language"
-
 #. Default: "Detailed description"
 msgid "PloneMeeting_label_detailedDescription"
-msgstr "Detailed description"
-
-#. Default: "Detailed description"
-msgid "PloneMeeting_label_detailedDescription2"
 msgstr "Detailed description"
 
 #. Default: "Display available items to"
@@ -1104,25 +1059,9 @@ msgstr "Enable documents scanning"
 msgid "PloneMeeting_label_enableUserPreferences"
 msgstr "Enable user preferences"
 
-#. Default: "Effective end date and hour"
-msgid "PloneMeeting_label_endDate"
-msgstr "Effective end date and hour"
-
 #. Default: "Enforce advice mandatoriness"
 msgid "PloneMeeting_label_enforceAdviceMandatoriness"
 msgstr "Enforce advice mandatoriness"
-
-#. Default: "Excused"
-msgid "PloneMeeting_label_excused"
-msgstr "Excused"
-
-#. Default: "Extraordinary session?"
-msgid "PloneMeeting_label_extraordinarySession"
-msgstr "Extraordinary session?"
-
-#. Default: "Number of the first item contained in this meeting"
-msgid "PloneMeeting_label_firstItemNumber"
-msgstr "Number of the first item contained in this meeting"
 
 #. Default: "First linked vote values"
 msgid "PloneMeeting_label_firstLinkedVoteUsedVoteValues"
@@ -1131,10 +1070,6 @@ msgstr "First linked vote values"
 #. Default: "Name of the folder linked to this configuration"
 msgid "PloneMeeting_label_folderTitle"
 msgstr "Name of the folder linked to this configuration"
-
-#. Default: "Default deadline for validating late items for a given meeting"
-msgid "PloneMeeting_label_freezeDeadlineDefault"
-msgstr "Default deadline for validating late items for a given meeting"
 
 #. Default: "Email of the functional administrator"
 msgid "PloneMeeting_label_functionalAdminEmail"
@@ -1183,10 +1118,6 @@ msgstr "Historize item data when an advice is given"
 #. Default: "Item attributes for which history must be kept"
 msgid "PloneMeeting_label_historizedItemAttributes"
 msgstr "Item attributes for which history must be kept"
-
-#. Default: "Meeting attributes for which history must be kept"
-msgid "PloneMeeting_label_historizedMeetingAttributes"
-msgstr "Meeting attributes for which history must be kept"
 
 #. Default: "Holidays"
 msgid "PloneMeeting_label_holidays"
@@ -1373,10 +1304,6 @@ msgstr "An item containing given advice is not deletable"
 msgid "PloneMeeting_label_itemWorkflow"
 msgstr "Workflow that dictates the life cycle of every item into this configuration"
 
-#. Default: "Items"
-msgid "PloneMeeting_label_items"
-msgstr "Items"
-
 #. Default: "Columns to display for items within a meeting"
 msgid "PloneMeeting_label_itemsListVisibleColumns"
 msgstr "Columns to display for items within a meeting"
@@ -1473,10 +1400,6 @@ msgstr "Columns to display in lists of meetings"
 msgid "PloneMeeting_label_meetingConditionsInterface"
 msgstr "Interface allowing to use a specific Zope3 adapter for modifying the conditions defined on the transitions of the meeting workflow"
 
-#. Default: "Identifier of the configuration's version that is linked to this meeting"
-msgid "PloneMeeting_label_meetingConfigVersion"
-msgstr "Identifier of the configuration's version that is linked to this meeting"
-
 #. Default: "Meeting configs to clone items to"
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
 msgstr "Meeting configs to clone items to"
@@ -1501,18 +1424,6 @@ msgstr "MeetingManagers notes (end)"
 msgid "PloneMeeting_label_meetingManagersNotesSuite"
 msgstr "MeetingManagers notes (suite)"
 
-#. Default: "Meeting number (sequence number automatically attributed)"
-msgid "PloneMeeting_label_meetingNumber"
-msgstr "Meeting number (sequence number automatically attributed)"
-
-#. Default: "Observations"
-msgid "PloneMeeting_label_meetingObservations"
-msgstr "Observations"
-
-#. Default: "Observations"
-msgid "PloneMeeting_label_meetingObservations2"
-msgstr "Observations"
-
 #. Default: "States of the meeting to insert an item into from everywhere"
 msgid "PloneMeeting_label_meetingPresentItemWhenNoCurrentMeetingStates"
 msgstr "States of the meeting to insert an item into from everywhere"
@@ -1525,10 +1436,6 @@ msgstr "Meeting transition that triggers the insertion of this item as a recurri
 msgid "PloneMeeting_label_meetingWorkflow"
 msgstr "Workflow that dictates the life cycle of every meeting into this configuration"
 
-#. Default: "End date for meeting first part"
-msgid "PloneMeeting_label_midDate"
-msgstr "End date for meeting first part"
-
 #. Default: "Model adaptations"
 msgid "PloneMeeting_label_modelAdaptations"
 msgstr "Model adaptations"
@@ -1540,10 +1447,6 @@ msgstr "Motivation"
 #. Default: "Next linked votes values"
 msgid "PloneMeeting_label_nextLinkedVotesUsedVoteValues"
 msgstr "Next linked votes values"
-
-#. Default: "Non attendees"
-msgid "PloneMeeting_label_nonAttendees"
-msgstr "Non attendees"
 
 #. Default: "Actions to execute on items of a meeting when a transition is triggered on that meeting"
 msgid "PloneMeeting_label_onMeetingTransitionItemActionToExecute"
@@ -1601,10 +1504,6 @@ msgstr "Leave unchecked if item is public"
 msgid "PloneMeeting_label_ownerMayDeleteAnnexDecision"
 msgstr "Owner of a annex decision may delete it when item is no more editable?"
 
-#. Default: "Place"
-msgid "PloneMeeting_label_place"
-msgstr "Place"
-
 #. Default: "Meeting places"
 msgid "PloneMeeting_label_places"
 msgstr "Meeting places"
@@ -1625,33 +1524,9 @@ msgstr "Groups to consider as \"Power advisers\""
 msgid "PloneMeeting_label_powerObservers"
 msgstr "Manage power observers"
 
-#. Default: "Date"
-msgid "PloneMeeting_label_preMeetingDate"
-msgstr "Date"
-
-#. Default: "Default date for the pre-meeting"
-msgid "PloneMeeting_label_preMeetingDateDefault"
-msgstr "Default date for the pre-meeting"
-
-#. Default: "Place"
-msgid "PloneMeeting_label_preMeetingPlace"
-msgstr "Place"
-
-#. Default: "Observations for the preparatory meeting"
-msgid "PloneMeeting_label_preObservations"
-msgstr "Observations for the preparatory meeting"
-
-#. Default: "Observations for the preparatory meeting"
-msgid "PloneMeeting_label_preObservations2"
-msgstr "Observations for the preparatory meeting"
-
 #. Default: "Previous item"
 msgid "PloneMeeting_label_predecessor"
 msgstr "Previous item"
-
-#. Default: "Predefined title in the second language"
-msgid "PloneMeeting_label_predefinedTitle2"
-msgstr "Predefined title in the second language"
 
 #. Default: "Preferred meeting"
 msgid "PloneMeeting_label_preferredMeeting"
@@ -1669,17 +1544,9 @@ msgstr "Proposing group"
 msgid "PloneMeeting_label_proposingGroupWithGroupInCharge"
 msgstr "Proposing group (Group in charge)"
 
-#. Default: "Observations for public meeting"
-msgid "PloneMeeting_label_publicMeetingObservations"
-msgstr "Observations for public meeting"
-
 #. Default: "Public URL"
 msgid "PloneMeeting_label_publicUrl"
 msgstr "Public URL"
-
-#. Default: "Default deadline for validating items for a given meeting"
-msgid "PloneMeeting_label_publishDeadlineDefault"
-msgstr "Default deadline for validating items for a given meeting"
 
 #. Default: "Questions"
 msgid "PloneMeeting_label_questioners"
@@ -1688,10 +1555,6 @@ msgstr "Questions"
 #. Default: "Item states into which events will be recorded in item's history"
 msgid "PloneMeeting_label_recordItemHistoryStates"
 msgstr "Item states into which events will be recorded in item's history"
-
-#. Default: "Meeting states into which events will be recorded in meeting's history"
-msgid "PloneMeeting_label_recordMeetingHistoryStates"
-msgstr "Meeting states into which events will be recorded in meeting's history"
 
 #. Default: "Redirect to the next meeting"
 msgid "PloneMeeting_label_redirectToNextMeeting"
@@ -1716,10 +1579,6 @@ msgstr "Restrict access to secret items to"
 #. Default: "\"Restrict users\" mode"
 msgid "PloneMeeting_label_restrictUsers"
 msgstr "\"Restrict users\" mode"
-
-#. Default: "Observations for the secret meeting"
-msgid "PloneMeeting_label_secretMeetingObservations"
-msgstr "Observations for the secret meeting"
 
 #. Default: "Selectable advisers"
 msgid "PloneMeeting_label_selectableAdvisers"
@@ -1753,17 +1612,9 @@ msgstr "Show possible targets for item keywords"
 msgid "PloneMeeting_label_signatories"
 msgstr "Signatories"
 
-#. Default: "Default signatures"
-msgid "PloneMeeting_label_signatures"
-msgstr "Default signatures"
-
 #. Default: "Sort the tags alphabetically"
 msgid "PloneMeeting_label_sortAllItemTags"
 msgstr "Sort the tags alphabetically"
-
-#. Default: "Effective start date and hour"
-msgid "PloneMeeting_label_startDate"
-msgstr "Effective start date and hour"
 
 #. Default: "Meeting file sub types"
 msgid "PloneMeeting_label_subTypes"
@@ -1780,15 +1631,6 @@ msgstr "Restrict usage of this template to following groups"
 #. Default: "Checklist"
 msgid "PloneMeeting_label_textCheckList"
 msgstr "Checklist"
-
-# Meeting
-#. Default: "Title"
-msgid "PloneMeeting_label_title"
-msgstr "Title"
-
-#. Default: "Title in the second language"
-msgid "PloneMeeting_label_title2"
-msgstr "Title in the second language"
 
 #. Default: "To discuss ?"
 msgid "PloneMeeting_label_toDiscuss"
@@ -1917,14 +1759,6 @@ msgstr "Rich text transform types"
 #. Default: "Reinitialise meeting number every year?"
 msgid "PloneMeeting_label_yearlyInitMeetingNumber"
 msgstr "Reinitialise meeting number every year?"
-
-#. Default: "Observations"
-msgid "PloneMeeting_meetingObservations"
-msgstr "Observations"
-
-#. Default: "Observations"
-msgid "PloneMeeting_meetingObservations2"
-msgstr "Observations"
 
 #. Default: "Notes"
 msgid "PloneMeeting_notes"
@@ -2475,22 +2309,6 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - An annex was just added to an 
 msgid "annex_confidential_for_descr"
 msgstr "If an annex is marked as \"Confidential\" by a meeting manager, following selected profiles will not be able to see it."
 
-#. Default: "The annex is not confidential and will be visible by everybody who has access to this item."
-msgid "annex_is_confidential_no"
-msgstr "The annex is not confidential and will be visible by everybody who has access to this item."
-
-#. Default: "The annex is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
-msgid "annex_is_confidential_no_edit"
-msgstr "The annex is not confidential and will be visible by everybody who has access to this item.  Click on the image to set it as confidential."
-
-#. Default: "The annex is confidential."
-msgid "annex_is_confidential_yes"
-msgstr "The annex is confidential."
-
-#. Default: "The annex is confidential.  Click on the image to set it as not confidential."
-msgid "annex_is_confidential_yes_edit"
-msgstr "The annex is confidential.  Click on the image to set it as not confidential."
-
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
 msgid "annex_not_kept_because_no_available_annex_type_warning"
 msgstr "The item was duplicated but the annex with title \"${annexTitle}\" could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
@@ -2507,10 +2325,6 @@ msgstr "Select for each optional annexes attributes which are only displayed or 
 msgid "annex_title"
 msgstr "Title"
 
-#. Default: "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
-msgid "annex_to_print_disabled"
-msgstr "The annex is not printable because it can not be converted (unsupported format or error during conversion).  Please use common office formats."
-
 #. Default: "Automated (annexes are printed by the application)"
 msgid "annex_to_print_mode_automated"
 msgstr "Automated (annexes are printed by the application)"
@@ -2522,22 +2336,6 @@ msgstr "If print functionnality is enabled for annexes and an annex is set \"to 
 #. Default: "For information (annexes are printed manually)"
 msgid "annex_to_print_mode_info"
 msgstr "For information (annexes are printed manually)"
-
-#. Default: "The annex will not be printed."
-msgid "annex_to_print_no"
-msgstr "The annex will not be printed."
-
-#. Default: "The annex will not be printed. Click on the image to print it."
-msgid "annex_to_print_no_edit"
-msgstr "The annex will not be printed. Click on the image to print it."
-
-#. Default: "The annex will be printed."
-msgid "annex_to_print_yes"
-msgstr "The annex will be printed."
-
-#. Default: "The annex will be printed. Click on the image not to print it."
-msgid "annex_to_print_yes_edit"
-msgstr "The annex will be printed. Click on the image not to print it."
 
 #. Default: "Annex type"
 msgid "annex_type"
@@ -2623,10 +2421,6 @@ msgstr "Assembly member"
 msgid "assembly_absents_defined_on_meeting"
 msgstr "Absents as defined on the linked meeting"
 
-#. Default: "Define here people that were absents (not excused) for the meeting"
-msgid "assembly_absents_meeting_descr"
-msgstr "Define here people that were absents (not excused) for the meeting"
-
 #. Default: "Assembly and signatures"
 msgid "assembly_and_signatures"
 msgstr "Assembly and signatures"
@@ -2643,17 +2437,9 @@ msgstr "Define here the default assembly (for example you may type a list of nam
 msgid "assembly_excused_defined_on_meeting"
 msgstr "Excused as defined on the linked meeting"
 
-#. Default: "Define here people that were excused for the meeting"
-msgid "assembly_excused_meeting_descr"
-msgstr "Define here people that were excused for the meeting"
-
 #. Default: "Guests as defined on the linked meeting"
 msgid "assembly_guests_defined_on_meeting"
 msgstr "Guests as defined on the linked meeting"
-
-#. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
-msgid "assembly_meeting_descr"
-msgstr "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
 
 #. Default: "Using attribute(s) \"itemExcused\" and/or \"itemAbsents\" requires the use of attribute \"assembly\"."
 msgid "assembly_required"
@@ -2752,6 +2538,10 @@ msgstr "Budget impact editors"
 msgid "can_not_access_this_item"
 msgstr "You can not access this item"
 
+#. Default: "Assembly and signatures : you can not use same signature number several times."
+msgid "can_not_define_several_same_signature_number"
+msgstr "Assembly and signatures : you can not use same signature number several times."
+
 #. Default: "You can not define two rows for the same meeting configuration!"
 msgid "can_not_define_two_rows_for_same_meeting_config"
 msgstr "You can not define two rows for the same meeting configuration!"
@@ -2768,17 +2558,17 @@ msgstr "You can not remove/disable a function that is used by a parameter of a c
 msgid "can_not_delete_plone_group_meetingitem"
 msgstr "You can not remove/disable a function that is used by an item in the application.  Please check ${item_url}."
 
-#. Default: "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
+#. Default: "Assembly and signatures : you can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"
-msgstr "You can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
+msgstr "Assembly and signatures : you can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 
-#. Default: "You can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
+#. Default: "Assembly and signatures : you can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
 msgid "can_not_remove_public_voter_voted_on_items"
-msgstr "You can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
+msgstr "Assembly and signatures : you can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
 
-#. Default: "You can not unselect a voter that already voted on a secret vote item."
+#. Default: "Assembly and signatures : you can not unselect a voter that already voted on a secret vote item."
 msgid "can_not_remove_secret_voter_voted_on_items"
-msgstr "You can not unselect a voter that already voted on a secret vote item."
+msgstr "Assembly and signatures : you can not unselect a voter that already voted on a secret vote item."
 
 #. Default: "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 msgid "can_not_return_to_meeting_because_of_meeting_state"
@@ -3274,6 +3064,22 @@ msgstr "Delay of ${delay} clear day(s)"
 msgid "delay_unavailable_end_days_descr"
 msgstr "Select here the days a computed delay can not ends with.  If a computed delay is ending on one of selected week day, the delay will be extend to next available day.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 
+#. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
+msgid "descr_assembly"
+msgstr "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
+
+#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+msgid "descr_field_reserved_to_meeting_managers"
+msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
+msgid "descr_field_vieawable_by_everyone"
+msgstr "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
+
+#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
+msgid "descr_field_vieawable_by_everyone_once_meeting_decided"
+msgstr "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
+
 #. Default: "You are just able to see visible elements here. Please consult the \"manage\" box here opposite."
 msgid "description_only_see_visible_items"
 msgstr "You are just able to see visible elements here. Please consult the \"manage\" box here opposite."
@@ -3377,6 +3183,10 @@ msgstr "Check this box if you use the documents scanning functionnality."
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"
 msgstr "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
+
+#. Default: "The meeting end date must occur after the start date and meeting date."
+msgid "end_date_before_meeting_date"
+msgstr "The meeting end date must occur after the start date and meeting date."
 
 #. Default: "When advice mandatoriness is enforced, an item can't be inserted into a meeting unless all mandatory advices are given and positive."
 msgid "enforce_advice_mandatoriness_descr"
@@ -3538,21 +3348,25 @@ msgstr "Save changes."
 msgid "field_required"
 msgstr "Please fill this field."
 
-#. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-msgid "field_reserved_to_meeting_managers_descr"
-msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
-
-#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
-msgid "field_vieawable_by_everyone_descr"
-msgstr "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
-
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once item is decided</span>"
 msgid "field_vieawable_by_everyone_once_item_decided_descr"
 msgstr "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once item is decided</span>"
 
-#. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
-msgid "field_vieawable_by_everyone_once_meeting_decided_descr"
-msgstr "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
+#. Default: "Assembly and signatures"
+msgid "fieldset_assembly"
+msgstr "Assembly and signatures"
+
+#. Default: "Dates and data"
+msgid "fieldset_dates_and_data"
+msgstr "Dates and data"
+
+#. Default: "Details"
+msgid "fieldset_details"
+msgstr "Details"
+
+#. Default: "Parameters"
+msgid "fieldset_parameters"
+msgstr "Parameters"
 
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
 msgid "file_required"
@@ -3569,14 +3383,6 @@ msgstr "Please respect order of transitions sequence to present an item, the fir
 #. Default: "In the application folder of every member, a sub-folder is created for each meeting configuration. The name of this sub-folder is defined here."
 msgid "folder_title_descr"
 msgstr "In the application folder of every member, a sub-folder is created for each meeting configuration. The name of this sub-folder is defined here."
-
-#. Default: "For the administrator only"
-msgid "for_admin_only"
-msgstr "For the administrator only"
-
-#. Default: "Specify here the deadline for validating late items to be inserted in a given meeting.  Leave the field empty not to use this functionality."
-msgid "freeze_deadline_default_descr"
-msgstr "Specify here the deadline for validating late items to be inserted in a given meeting.  Leave the field empty not to use this functionnality."
 
 #. Default: "<p>PloneMeeting body in HTML format.</p>"
 msgid "front_page_body"
@@ -3731,10 +3537,6 @@ msgstr "When an advice is given, so when it switch to a state where adviser may 
 #. Default: "For every field you select here, the application will keep track of any change on any item, if it is in one of the \"historizable\" states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
 msgid "historized_item_attrs_descr"
 msgstr "For every field you select here, the application will keep track of any change on any item, if it is in one of the \"historizable\" states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
-
-#. Default: "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the \"historizable\" states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
-msgid "historized_meeting_attrs_descr"
-msgstr "For every field you select here, the application will keep track of any change on any meeting, if it is in one of the \"historizable\" states as defined below.  <span style='color: red;'>This functionnality is still in beta status, you may use it but encounter some weirdness, this will be entirely reworked in a forthcoming version.</span>"
 
 #. Default: "See changes"
 msgid "history_changes"
@@ -4402,10 +4204,6 @@ msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${
 msgid "lateItem_mail_subject"
 msgstr "${meetingConfigTitle} - A \"late\" item has been validated."
 
-#. Default: "Items presented tardily"
-msgid "late_presented_items"
-msgstr "Items presented tardily"
-
 #. Default: "--- Do nothing, let the item in the workflow initial state ---"
 msgid "let_item_in_initial_state"
 msgstr "--- Do nothing, let the item in the workflow initial state ---"
@@ -4530,29 +4328,9 @@ msgstr "Select here profiles of users that will be able to see an annex added to
 msgid "meeting_app_default_view_descr"
 msgstr "Choose here which page will be shown after logon."
 
-#. Default: "Assembly"
-msgid "meeting_assembly"
-msgstr "Assembly"
-
-#. Default: "Absents"
-msgid "meeting_assemblyAbsents"
-msgstr "Absents"
-
-#. Default: "Excused"
-msgid "meeting_assemblyExcused"
-msgstr "Excused"
-
-#. Default: "Guests"
-msgid "meeting_assemblyGuests"
-msgstr "Guests"
-
-#. Default: "Proxies"
-msgid "meeting_assemblyProxies"
-msgstr "Proxies"
-
-#. Default: "Staves"
-msgid "meeting_assemblyStaves"
-msgstr "Staves"
+#. Default: "Meeting assembly (${number_of_attendees}) and signatories (${number_of_signatories})"
+msgid "meeting_attendees_and_signatories"
+msgstr ""
 
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 msgid "meeting_columns_descr"
@@ -4602,14 +4380,6 @@ msgstr "Organizations"
 #. Default: "When an item is inserted in a meeting from everywhere (so not when on a meeting view), this will take the very next meeting still accepting items.  Define here states to take into account to get this very next meeting."
 msgid "meeting_present_item_when_no_current_meeting_states_descr"
 msgstr "When an item is inserted in a meeting from everywhere (so not when on a meeting view), this will take the very next meeting still accepting items.  Define here states to take into account to get this very next meeting."
-
-#. Default: "Signatories"
-msgid "meeting_signatories"
-msgstr "Signatories"
-
-#. Default: "Signatures"
-msgid "meeting_signatures"
-msgstr "Signatures"
 
 #. Default: "You can consult this meeting at ${objectUrl}."
 msgid "meeting_state_changed_default_mail_body"
@@ -4706,17 +4476,9 @@ msgstr "Metadata"
 msgid "model_adaptations_descr"
 msgstr "Select here some standard adaptations that can be applied to data structures."
 
-#. Default: "Move the item down"
-msgid "move_item_down"
-msgstr "Move the item down"
-
 #. Default: "Move item to given position"
 msgid "move_item_to_given_position"
 msgstr "Move item to given position"
-
-#. Default: "Move the item up"
-msgid "move_item_up"
-msgstr "Move the item up"
 
 #. Default: "Moves this item to the position that precedes the number you have introduced besides. If you want to move the item at the end of the list, specify the number of the last item plus one."
 msgid "move_several"
@@ -4793,10 +4555,6 @@ msgstr "No annex type is currently defined."
 #. Default: "No special user is currently defined."
 msgid "no_meeting_user"
 msgstr "No special user is currently defined."
-
-#. Default: "No items."
-msgid "no_meetingitems"
-msgstr "No items."
 
 #. Default: "No POD template is currently defined."
 msgid "no_pod_folder"
@@ -5018,10 +4776,6 @@ msgstr "Mark this person absent for this item"
 msgid "person_welcome"
 msgstr "Remove this person from absents for this item"
 
-#. Default: "Please encode this other place."
-msgid "place_other_required"
-msgstr "Please encode this other place."
-
 #. Default: "Enter here some default places where meetings occur. There must be one place per line. The first one will be the default one."
 msgid "places_descr"
 msgstr "Enter here some default places where meetings occur. There must be one place per line. The first one will be the default one."
@@ -5222,14 +4976,6 @@ msgstr "Power observers"
 msgid "pre_date_after_meeting_date"
 msgstr "The preparatory meeting must occur before the meeting."
 
-#. Default: "Preparatory meeting"
-msgid "pre_meeting"
-msgstr "Preparatory meeting"
-
-#. Default: "Specify here the date of the pre-meeting, relative to its meeting, in the same format as fields above.  Leave the field empty not to use this functionality."
-msgid "pre_meeting_date_default_descr"
-msgstr "Specify here the date of the pre-meeting, relative to its meeting, in the same format as fields above.  Leave the field emtpy no to use the functionnality."
-
 #. Default: "If this is a normal item and you want it to be inserted in any availale meeting, just select \"No preference\" value.  Selecting a date is for 2 usecases : this will make the item not presentable to the meetings before selected one, or if the selected meeting is \"frozen\", this will make current item considered as \"late\" item presentable in the selected frozen meeting.  Indeed, the only way to insert an item in a frozen meeting is to select this meeting as preferred meeting."
 msgid "preferred_meeting_descr"
 msgstr "If this is a normal item and you want it to be inserted in any availale meeting, just select \"No preference\" value.  Selecting a date is for 2 usecases : this will make the item not presentable to the meetings before selected one, or if the selected meeting is \"frozen\", this will make current item considered as \"late\" item presentable in the selected frozen meeting.  Indeed, the only way to insert an item in a frozen meeting is to select this meeting as preferred meeting."
@@ -5282,10 +5028,6 @@ msgstr "Public meeting"
 msgid "public_heading"
 msgstr "Public meeting (heading)"
 
-#. Default: "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\".  Leave the field empty not to use this functionality."
-msgid "publish_deadline_default_descr"
-msgstr "Specify here the deadline for validating items to be inserted in a given meeting. You need to express this deadline relative to the meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\".  Leave the field empty not to use this functionality."
-
 #. Default: "Publishable (displayed)"
 msgid "publishable_display"
 msgstr "Publishable (displayed)"
@@ -5297,10 +5039,6 @@ msgstr "Publishable (editable)"
 #. Default: "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
 msgid "record_item_history_states_descr"
 msgstr "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
-
-#. Default: "Select here the meeting states into which some events related to the meeting will be stored in the meeting's history."
-msgid "record_meeting_history_states_descr"
-msgstr "Select here the meeting states into which some events related to the meeting will be stored in the meeting's history."
 
 #. Default: "The recurring item specified in the subject of this email could not be inserted in a meeting. Maybe does it lack some important information (a text for the decision, for example) while the meeting is in an \"advanced\" state (it is already \"decided\", for instance). More information can be found in the log file of your Zope instance."
 msgid "recurringItemWorkflowError_mail_body"
@@ -5608,10 +5346,6 @@ msgstr "Show / hide details"
 msgid "show_or_hide_pollTypeObservations"
 msgstr "Show / hide poll type observations"
 
-#. Default: "Signatures"
-msgid "signatures"
-msgstr "Signatures"
-
 #. Default: "Signatures as defined on the linked meeting"
 msgid "signatures_defined_on_meeting"
 msgstr "Signatures as defined on the linked meeting"
@@ -5631,6 +5365,14 @@ msgstr "Signed (editable)"
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
 msgstr "Check this box if you want to sort the tags in alphabetic order."
+
+#. Default: "The meeting start date must occur before the end date."
+msgid "start_date_after_end_date"
+msgstr "The meeting start date must occur before the end date."
+
+#. Default: "The meeting start date must occur after the meeting date."
+msgid "start_date_before_meeting_date"
+msgstr "The meeting start date must occur after the meeting date."
 
 #. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"
@@ -5733,12 +5475,169 @@ msgid "this_item_is_not_an_oral_question"
 msgstr "This item is NOT an oral question"
 
 #. Default: "Extraordinary session"
-msgid "this_meeting_is_extraodrinary_session"
+msgid "this_meeting_is_extraordinary_session"
 msgstr "Extraordinary session"
+
+#. Default: "Absents"
+msgid "title_absents"
+msgstr "Absents"
+
+#. Default: "Approval date"
+msgid "title_approval_date"
+msgstr "Approval date"
+
+#. Default: "Assembly"
+msgid "title_assembly"
+msgstr "Assembly"
+
+#. Default: "Assembly absents"
+msgid "title_assembly_absents"
+msgstr "Assembly absents"
+
+#. Default: "Assembly excused"
+msgid "title_assembly_excused"
+msgstr "Assembly excused"
+
+#. Default: "Assembly guests"
+msgid "title_assembly_guests"
+msgstr "Assembly guests"
+
+#. Default: "Assembly observations"
+msgid "title_assembly_observations"
+msgstr "Assembly observations"
+
+#. Default: "Assembly proxies"
+msgid "title_assembly_proxies"
+msgstr "Assembly proxies"
+
+#. Default: "Assembly staves"
+msgid "title_assembly_staves"
+msgstr "Assembly staves"
+
+#. Default: "Attendees"
+msgid "title_attendees"
+msgstr "Attendees"
+
+#. Default: "Authority notice"
+msgid "title_authority_notice"
+msgstr "Authority notice"
+
+#. Default: "Committee observations"
+msgid "title_committee_observations"
+msgstr "Committee observations"
+
+#. Default: "Convocation date"
+msgid "title_convocation_date"
+msgstr "Convocation date"
+
+#. Default: "Date"
+msgid "title_date"
+msgstr "Date"
+
+#. Default: "Default assembly"
+msgid "title_default_assembly"
+msgstr "Default assembly"
+
+#. Default: "Default assembly staves"
+msgid "title_default_assembly_staves"
+msgstr "Default assembly staves"
+
+#. Default: "Default signatures"
+msgid "title_default_signatures"
+msgstr "Default signatures"
+
+#. Default: "End date"
+msgid "title_end_date"
+msgstr "End date"
+
+#. Default: "Excused"
+msgid "title_excused"
+msgstr "Excused"
+
+#. Default: "Extraordinary session"
+msgid "title_extraordinary_session"
+msgstr "Extraordinary session"
+
+#. Default: "First item number (managed automatically when meeting is frozen)"
+#, fuzzy
+msgid "title_first_item_number"
+msgstr "First item number"
+
+#. Default: "In and out moves"
+msgid "title_in_and_out_moves"
+msgstr "In and out moves"
+
+#. Default: "Meeting number"
+msgid "title_meeting_number"
+msgstr "Meeting number"
+
+#. Default: "Mid date"
+msgid "title_mid_date"
+msgstr "Mid date"
+
+#. Default: "Non attendees"
+msgid "title_non_attendees"
+msgstr "Non attendees"
+
+#. Default: "Notes"
+msgid "title_notes"
+msgstr "Notes"
+
+#. Default: "Observations"
+msgid "title_observations"
+msgstr "Observations"
+
+#. Default: "Place"
+msgid "title_place"
+msgstr "Place"
+
+#. Default: "Other place"
+msgid "title_place_other"
+msgstr ""
+
+#. Default: "Pre meeting date"
+msgid "title_pre_meeting_date"
+msgstr "Pre meeting date"
+
+#. Default: "Pre meeting place"
+msgid "title_pre_meeting_place"
+msgstr "Pre meeting place"
+
+#. Default: "Pre observations"
+msgid "title_pre_observations"
+msgstr "Pre observations"
+
+#. Default: "Public meeting observations"
+msgid "title_public_meeting_observations"
+msgstr "Public meeting observations"
+
+#. Default: "Replacements"
+msgid "title_replacements"
+msgstr "Replacements"
 
 #. Default: "A title is required."
 msgid "title_required"
 msgstr "A title is required."
+
+#. Default: "Secret meeting observations"
+msgid "title_secret_meeting_observations"
+msgstr "Secret meeting observations"
+
+#. Default: "Signatories"
+msgid "title_signatories"
+msgstr "Signatories"
+
+#. Default: "Signatures"
+msgid "title_signatures"
+msgstr "Signatures"
+
+#. Default: "Start date"
+msgid "title_start_date"
+msgstr "Start date"
+
+#. Default: "Votes observations"
+msgid "title_votes_observations"
+msgstr "Votes observations"
 
 #. Default: "Ask this advice again (current advice will be historized)"
 msgid "to_advice_asked_again"

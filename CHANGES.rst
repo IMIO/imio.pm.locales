@@ -5,12 +5,18 @@ Changelog
 4.2b9 (unreleased)
 ------------------
 
+- Added translations for `Not completed votes` and `Completed votes`.
+  [gbastien]
 - Removed single quotes for `meeting_state_changed_default_mail_body`.
   [aduchene]
+- Added translations now that `Preferred meeting date` column is abbreviated.
+  [gbastien]
 - Renamed msgid `You cannot delete the default item template, but you can deactivate it if necessary!` to
   `You cannot delete or move the default item template, but you can deactivate it if necessary!`.
   [gbastien]
 - Added translations for `copy_groups_help_msg`.
+  [gbastien]
+- Adapted translations now that Meeting was moved from AT to DX.
   [gbastien]
 
 4.2b8 (2021-01-14)
