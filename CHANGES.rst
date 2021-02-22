@@ -7,7 +7,9 @@ Changelog
 
 - Removed single quotes for `meeting_state_changed_default_mail_body`.
   [aduchene]
-
+- Renamed msgid `You cannot delete the default item template, but you can deactivate it if necessary!` to
+  `You cannot delete or move the default item template, but you can deactivate it if necessary!`.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------

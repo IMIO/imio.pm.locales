@@ -515,7 +515,7 @@ msgstr "It is not possible to add annexes because no file types is defined, plea
 
 #. Default: "Item \"${item_title}\" could not be presented!"
 msgid "Item \"${item_title}\" could not be presented!"
-msgstr ""
+msgstr "Item \"${item_title}\" could not be presented!"
 
 #. Default: "Item absents to apply"
 msgid "Item absents to apply"
@@ -681,7 +681,7 @@ msgstr "Items"
 
 #. Default: "Meeting signatory not used, another signatory with same signature number is used"
 msgid "Meeting signatory not used, another signatory with same signature number is used"
-msgstr ""
+msgstr "Meeting signatory not used, another signatory with same signature number is used"
 
 #. Default: "Users"
 msgid "Meeting users"
@@ -693,7 +693,7 @@ msgstr "Advice"
 
 #. Default: "Category"
 msgid "MeetingCategory"
-msgstr ""
+msgstr "Category"
 
 #. Default: "Meetings"
 msgid "Meetings"
@@ -1387,15 +1387,15 @@ msgstr "Fields of the items to show/hide in the dashboards"
 
 #. Default: "Fields to display on not visible linked items"
 msgid "PloneMeeting_label_itemsNotViewableVisibleFields"
-msgstr ""
+msgstr "Fields to display on not visible linked items"
 
 #. Default: "Fields to display on not visible linked items if"
 msgid "PloneMeeting_label_itemsNotViewableVisibleFieldsTALExpr"
-msgstr ""
+msgstr "Fields to display on not visible linked items if"
 
 #. Default: "Fields to display on visible linked items"
 msgid "PloneMeeting_label_itemsVisibleFields"
-msgstr ""
+msgstr "Fields to display on visible linked items"
 
 #. Default: "Keep access to item when an advice"
 msgid "PloneMeeting_label_keepAccessToItemWhenAdvice"
@@ -1940,7 +1940,7 @@ msgstr "Position type"
 
 #. Default: "Position type to use as label for the signature."
 msgid "Position type to use as label for the signature."
-msgstr ""
+msgstr "Position type to use as label for the signature."
 
 #. Default: "Preview detailed advice"
 msgid "Preview detailed advice"
@@ -2041,7 +2041,7 @@ msgstr "Signature number"
 
 #. Default: "Signature position type"
 msgid "Signature position type"
-msgstr ""
+msgstr "Signature position type"
 
 #. Default: "state"
 msgid "State"
@@ -2235,9 +2235,9 @@ msgstr "Votes are not completed for following ${number} ${polltype} item(s)"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 
-#. Default: "You cannot delete the default item template, but you can deactivate it if necessary!"
-msgid "You cannot delete the default item template, but you can deactivate it if necessary!"
-msgstr "You cannot delete the default item template, but you can deactivate it if necessary!"
+#. Default: "You cannot delete or move the default item template, but you can deactivate it if necessary!"
+msgid "You cannot delete or move the default item template, but you can deactivate it if necessary!"
+msgstr "You cannot delete or move the default item template, but you can deactivate it if necessary!"
 
 #. Default: "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
@@ -4315,15 +4315,15 @@ msgstr "Select here fields of the item that will be show/hidden when a user will
 
 #. Default: "When consulting not viewable linked items of an item, some extra fields may be shown if it is selected here.  This let's you show some choosen informations on linked items that are not accessible to the current user."
 msgid "items_not_viewable_visible_fields_descr"
-msgstr ""
+msgstr "When consulting not viewable linked items of an item, some extra fields may be shown if it is selected here.  This let's you show some choosen informations on linked items that are not accessible to the current user."
 
 #. Default: "Specify here a TAL expression that will enable the functionnality of showing some fields when linked items are not viewable by the current user."
 msgid "items_not_viewable_visible_fields_tal_expr_descr"
-msgstr ""
+msgstr "Specify here a TAL expression that will enable the functionnality of showing some fields when linked items are not viewable by the current user."
 
 #. Default: "When consulting linked items of an item, some extra fields may be shown if it is selected here."
 msgid "items_visible_fields_descr"
-msgstr ""
+msgstr "When consulting linked items of an item, some extra fields may be shown if it is selected here."
 
 #. Default: "Item templates managers"
 msgid "itemtemplatesmanagers"
@@ -6213,9 +6213,8 @@ msgid "wa_reviewers_take_back_validated_item"
 msgstr "Reviewers may take back validated item"
 
 #. Default: "Wait advices (base: from custom configuration, from itemcreated/proposed/prevalidated, select who may send back)"
-#, fuzzy
 msgid "wa_waiting_advices"
-msgstr "Wait advices (base: from custom configuration, from itemcreated/proposed, select who may send back)"
+msgstr "Wait advices (base: from custom configuration, from itemcreated/proposed/prevalidated, select who may send back)"
 
 #. Default: "Wait advices (complementary: when item in state \"Waiting advices\", item may be validated by advisers)"
 msgid "wa_waiting_advices_adviser_may_validate"
