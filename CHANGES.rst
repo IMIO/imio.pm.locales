@@ -5,8 +5,10 @@ Changelog
 4.1.18.4 (unreleased)
 ---------------------
 
-- Nothing changed yet.
-
+- Backport from 4.2.x:
+  Renamed msgid `You cannot delete the default item template, but you can deactivate it if necessary!` to
+  `You cannot delete or move the default item template, but you can deactivate it if necessary!`.
+  [gbastien]
 
 4.1.18.3 (2021-01-26)
 ---------------------
