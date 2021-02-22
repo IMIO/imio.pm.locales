@@ -6,11 +6,12 @@ Changelog
 ---------------------
 
 - Backport from 4.2.x:
-  Renamed msgid `You cannot delete the default item template, but you can deactivate it if necessary!` to
-  `You cannot delete or move the default item template, but you can deactivate it if necessary!`.
-  [gbastien]
-- Added translations for `copy_groups_help_msg`.
-  [gbastien]
+
+  - Renamed msgid `You cannot delete the default item template, but you can deactivate it if necessary!` to
+    `You cannot delete or move the default item template, but you can deactivate it if necessary!`.
+    [gbastien]
+  - Added translations for `copy_groups_help_msg`.
+    [gbastien]
 
 4.1.18.3 (2021-01-26)
 ---------------------
