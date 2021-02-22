@@ -2069,9 +2069,9 @@ msgstr "Votes à scrutin ${polltype} non complétés pour ${number} point(s)"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr "Vous êtes sur le point de changer le délai de cet avis pour ${new_advice_delay} jours, vous pouvez entrer un commentaire si nécessaire."
 
-#. Default: "You cannot delete the default item template, but you can deactivate it if necessary!"
-msgid "You cannot delete the default item template, but you can deactivate it if necessary!"
-msgstr "Vous ne pouvez pas supprimer le modèle de point par défaut, mais vous pouvez le désactiver si nécessaire!"
+#. Default: "You cannot delete or move the default item template, but you can deactivate it if necessary!"
+msgid "You cannot delete or move the default item template, but you can deactivate it if necessary!"
+msgstr "Vous ne pouvez pas supprimer ou déplacer le modèle de point par défaut, mais vous pouvez le désactiver si nécessaire!"
 
 #. Default: "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
@@ -2856,7 +2856,7 @@ msgstr "Les annexes (après décision)"
 
 #. Default: "Select here contents of original item that will be kept when sending an item to another meeting configuration.  If you select \"The advices\", advices will be inherited from original item, this mean that advices from original item will be displayed readonly on the new item but actually, informations are taken from original item.  You can also select advices to keep in \"Advices to keep when item is sent to another configuration\" field below."
 msgid "contents_kept_on_sent_to_other_mc_descr"
-msgstr "Sélectionnez ici les éléments à garder lors de l'envoi d'un point vers un autre type de séance.  Si vous sélectionnez de garder \"Les avis\", ils seront \"hérités\" du point original, ceci signifie que les avis seront affichés en lecture seule sur le nouveau point, mais les informations seront reprises du point original.  Vous pouvez sélectionner les avis à garder ci-dessous dans le champ \"Avis à garder lors de l'envoi d'un point vers une autre configuration de séance\"."
+msgstr "Sélectionnez ici les éléments à garder lors de l'envoi d'un point vers un autre type de séance.  Si vous sélectionnez de garder \"Les avis\", ils seront \"hérités\" du point original, cela signifie que les avis seront affichés en lecture seule sur le nouveau point, mais les informations seront reprises du point original.  Vous pouvez sélectionner les avis à garder ci-dessous dans le champ \"Avis à garder lors de l'envoi d'un point vers une autre configuration de séance\"."
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "copyGroups_mail_body"
@@ -2865,6 +2865,10 @@ msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUr
 #. Default: "${meetingConfigTitle} - You have been carbon copied - ${itemTitle}"
 msgid "copyGroups_mail_subject"
 msgstr "${meetingConfigTitle} - Vous avez été mis en copie - ${itemTitle}"
+
+#. Default: "These groups will have read access to the item in following states: ${states}.  When the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
+msgid "copy_groups_help_msg"
+msgstr "Les groupes en copie auront accès en lecture seule au point dans les états suivants: ${states}.  Si le libellé \"[auto]\"est affiché à la suite du titre du groupe en copie, cela signifie qu'il a été mis en copie automatiquement par l'application."
 
 #. Default: " "
 msgid "copy_groups_item_descr"

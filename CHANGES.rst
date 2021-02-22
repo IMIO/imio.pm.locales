@@ -11,6 +11,11 @@ Changelog
   [aduchene]
 - Added translations now that `Preferred meeting date` column is abbreviated.
   [gbastien]
+- Renamed msgid `You cannot delete the default item template, but you can deactivate it if necessary!` to
+  `You cannot delete or move the default item template, but you can deactivate it if necessary!`.
+  [gbastien]
+- Added translations for `copy_groups_help_msg`.
+  [gbastien]
 - Adapted translations now that Meeting was moved from AT to DX.
   [gbastien]
 

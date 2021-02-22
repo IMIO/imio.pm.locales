@@ -5830,8 +5830,8 @@ msgstr ""
 msgid "Default ${cfg_title} item template"
 msgstr ""
 
-#. Default: "You cannot delete the default item template, but you can deactivate it if necessary!"
-msgid "You cannot delete the default item template, but you can deactivate it if necessary!"
+#. Default: "You cannot delete or move the default item template, but you can deactivate it if necessary!"
+msgid "You cannot delete or move the default item template, but you can deactivate it if necessary!"
 msgstr ""
 
 #. Default: "The default item template ${default_template_title} is ${default_template_review_state}."
@@ -6233,3 +6233,8 @@ msgstr ""
 #. Default: "Meeting assembly (${number_of_attendees}) and signatories (${number_of_signatories})"
 msgid "meeting_attendees_and_signatories"
 msgstr ""
+
+#. Default: "These groups will have read access to the item in following states: ${states}.  When the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
+msgid "copy_groups_help_msg"
+msgstr ""
+
