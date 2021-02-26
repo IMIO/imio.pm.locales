@@ -2774,6 +2774,14 @@ msgstr "Envoyer vers ${meetingConfigTitle}"
 msgid "closed_meeting_not_correctable_by_config"
 msgstr "Vous ne pouvez pas corriger une séance clôturée, contactez votre administrateur système qui pourra le faire ou changer la configuration afin que vous puissiez le faire."
 
+#. Default: "${title} (${number} s.)"
+msgid "committee_title_with_abbr_suppl"
+msgstr "${title} (${number} s.)"
+
+#. Default: "${title} (${number} supplement)"
+msgid "committee_title_with_suppl"
+msgstr "${title} (${number} supplément)"
+
 #. Default: "Complete"
 msgid "completeness_complete"
 msgstr "Le point est complet"
@@ -4626,6 +4634,14 @@ msgstr "Rien à faire."
 #. Default: "notify users able to view the element"
 msgid "notify_users_able_to_view_element"
 msgstr "prévient les utilisateurs capables de voir l'élément"
+
+#. Default: "${number}st"
+msgid "num_part_st"
+msgstr "${number}er"
+
+#. Default: "${number}th"
+msgid "num_part_th"
+msgstr "${number}ème"
 
 #. Default: "Total number of voters"
 msgid "number_of_voters"

@@ -2774,6 +2774,14 @@ msgstr "Clone to ${meetingConfigTitle}"
 msgid "closed_meeting_not_correctable_by_config"
 msgstr "Your configuration says can not correct this closed meeting, contact your system administrator if you want to change this."
 
+#. Default: "${title} (${number} s.)"
+msgid "committee_title_with_abbr_suppl"
+msgstr ""
+
+#. Default: "${title} (${number} supplement)"
+msgid "committee_title_with_suppl"
+msgstr ""
+
 #. Default: "Complete"
 msgid "completeness_complete"
 msgstr "Complete"
@@ -4627,6 +4635,14 @@ msgstr "Nothing to do."
 #. Default: "notify users able to view the element"
 msgid "notify_users_able_to_view_element"
 msgstr "notify users able to view the element"
+
+#. Default: "${number}st"
+msgid "num_part_st"
+msgstr ""
+
+#. Default: "${number}th"
+msgid "num_part_th"
+msgstr ""
 
 #. Default: "Total number of voters"
 msgid "number_of_voters"
