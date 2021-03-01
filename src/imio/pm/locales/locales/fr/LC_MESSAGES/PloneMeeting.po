@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-05-17 15:00-100\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3364,6 +3364,10 @@ msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestion
 msgid "fieldset_assembly"
 msgstr "Assemblée et signatures"
 
+#. Default: "Committees"
+msgid "fieldset_committees"
+msgstr "Commissions"
+
 #. Default: "Dates and data"
 msgid "fieldset_dates_and_data"
 msgstr "Dates et données"
@@ -5537,9 +5541,45 @@ msgstr "Présents"
 msgid "title_authority_notice"
 msgstr "Avis de tutelle"
 
+#. Default: "Assembly"
+msgid "title_committee_assembly"
+msgstr "Assemblée"
+
+#. Default: "Attendees"
+msgid "title_committee_attendees"
+msgstr "Présents"
+
+#. Default: "Convocation date"
+msgid "title_committee_convocation_date"
+msgstr "Date de convocation"
+
+#. Default: "Date"
+msgid "title_committee_date"
+msgstr "Date"
+
 #. Default: "Committee observations"
 msgid "title_committee_observations"
 msgstr "Observations (commissions)"
+
+#. Default: "Place"
+msgid "title_committee_place"
+msgstr "Lieu"
+
+#. Default: "Committee"
+msgid "title_committee_row_id"
+msgstr "Commission"
+
+#. Default: "Signatories"
+msgid "title_committee_signatories"
+msgstr "Signataires"
+
+#. Default: "Signatures"
+msgid "title_committee_signatures"
+msgstr "Signatures"
+
+#. Default: ""
+msgid "title_committees"
+msgstr " "
 
 #. Default: "Convocation date"
 msgid "title_convocation_date"

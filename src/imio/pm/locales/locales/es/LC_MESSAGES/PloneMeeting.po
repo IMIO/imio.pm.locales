@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PloneMeeting 1.6\n"
-"POT-Creation-Date: 2005-05-17 15:00-100\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "PO-Revision-Date: 2014-02-20 11:55-0430\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: ES <LL@li.org>\n"
@@ -3416,6 +3416,10 @@ msgstr ""
 msgid "fieldset_assembly"
 msgstr ""
 
+#. Default: "Committees"
+msgid "fieldset_committees"
+msgstr ""
+
 #. Default: "Dates and data"
 msgid "fieldset_dates_and_data"
 msgstr ""
@@ -5651,8 +5655,44 @@ msgstr ""
 msgid "title_authority_notice"
 msgstr ""
 
+#. Default: "Assembly"
+msgid "title_committee_assembly"
+msgstr ""
+
+#. Default: "Attendees"
+msgid "title_committee_attendees"
+msgstr ""
+
+#. Default: "Convocation date"
+msgid "title_committee_convocation_date"
+msgstr ""
+
+#. Default: "Date"
+msgid "title_committee_date"
+msgstr ""
+
 #. Default: "Committee observations"
 msgid "title_committee_observations"
+msgstr ""
+
+#. Default: "Place"
+msgid "title_committee_place"
+msgstr ""
+
+#. Default: "Committee"
+msgid "title_committee_row_id"
+msgstr ""
+
+#. Default: "Signatories"
+msgid "title_committee_signatories"
+msgstr ""
+
+#. Default: "Signatures"
+msgid "title_committee_signatures"
+msgstr ""
+
+#. Default: ""
+msgid "title_committees"
 msgstr ""
 
 #. Default: "Convocation date"
