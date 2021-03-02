@@ -931,6 +931,10 @@ msgstr "Classifier"
 msgid "PloneMeeting_label_committeeObservations"
 msgstr "Observations for the committee"
 
+#. Default: "Committees"
+msgid "PloneMeeting_label_committees"
+msgstr ""
+
 #. Default: "Completeness"
 msgid "PloneMeeting_label_completeness"
 msgstr "Completeness"
@@ -1471,6 +1475,10 @@ msgstr "Oral question ?"
 #. Default: "Associated organizations order"
 msgid "PloneMeeting_label_orderedAssociatedOrganizations"
 msgstr "Associated organizations order"
+
+#. Default: "Attendees selectable for committees"
+msgid "PloneMeeting_label_orderedCommitteeContacts"
+msgstr ""
 
 #. Default: "Selectable assembly members"
 msgid "PloneMeeting_label_orderedContacts"
@@ -2782,6 +2790,14 @@ msgstr ""
 msgid "committee_title_with_suppl"
 msgstr ""
 
+#. Default: "Committees"
+msgid "committees"
+msgstr ""
+
+#. Default: "Define committees that will be useable on meetings and items (you also need to enable \"Committees\" on the meeting in the [Data] tab). This will show a \"Committees\" table on the meeting and will be also managed on the item. <br />There are 2 ways to manage committees on the item, either manually or automatically:<ul><li>Manually: just define committees, this will create a multiselection box on the item and users may select it.  It is possible to use the column \"Restrict to\" to define which proposing groups will be able to select the committee;</li><li>Automatically: use the column \"Auto from\" to define which committees to associate to the item depending on proposing group, category or classifier. A MeetingManager is nevertheless able to edit the committee on the item.</li></ul>. These 2 ways are mutually exclusive, if you select values in the \"auto_from\" columb here under, the \"Automatic\" mode will be used."
+msgid "committees_descr"
+msgstr ""
+
 #. Default: "Complete"
 msgid "completeness_complete"
 msgstr "Complete"
@@ -3223,6 +3239,14 @@ msgstr "Please make sure encoded dates are valid at row number ${row_number}.  U
 #. Default: "Signatures must be ordered by signature number, please check and order signature using the arrows on the right of the table."
 msgid "error_certified_signatures_order"
 msgstr "Signatures must be ordered by signature number, please check and order signature using the arrows on the right of the table."
+
+#. Default: "You can not remove a configuration that was already used, removed configuration \"${committee_label}\" is used for example by item at ${url}.  If you lost encoded values, just cancel edition and edit again correctly."
+msgid "error_committee_row_id_removed_already_used"
+msgstr ""
+
+#. Default: "You can not define values for the \"auto_from\" and \"using_groups\" columns, their use is multually exclusive.  If you lost encoded values, just cancel edition and edit again correctly."
+msgid "error_committees_mutually_exclusive_auto_from_and_using_groups"
+msgstr ""
 
 #. Default: "You may not remove a list type that is currently used by an item, check for example : ${url}."
 msgid "error_list_types_identifier_removed_already_used"
@@ -4752,6 +4776,10 @@ msgstr " "
 msgid "ordered_associated_organizations_descr"
 msgstr "If this field is left empty, selectable associated organizations are every organizations selected in the plonegroup configuration panel.  Here you may select associated organizations in a particular order including organizations that are not selected in the plonegroup configuration panel.  This is only relevant if the 'Associated groups' field is enabled on items."
 
+#. Default: "Select here attendees that will be selectable in the \"Attendees\" column of defined committees here under.  <span style='color: red;'>If you select/unselect values, you need to save first then edit again for these values to appear/disappear if field \"Committees\" here under.</span>"
+msgid "ordered_committee_contacts_descr"
+msgstr ""
+
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
 msgid "ordered_contacts_descr"
 msgstr "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
@@ -5883,10 +5911,6 @@ msgstr "Specify here which poll types you are going to use."
 msgid "used_vote_values_descr"
 msgstr "Specify here what vote values are in use in this meeting configuration."
 
-#. Default: "Users"
-msgid "users"
-msgstr "Users"
-
 #. Default: "If you do not select anything, every users will be displayed."
 msgid "users_hidden_in_dashboard_filter_descr"
 msgstr "If you do not select anything, every users will be displayed."
@@ -5999,7 +6023,7 @@ msgstr "Voter"
 msgid "voter_count"
 msgstr "There are ${numberOfVoters} voters for this item."
 
-#. Default: "Votes and committees"
+#. Default: "Votes"
 #, fuzzy
 msgid "votes"
 msgstr "Votes"

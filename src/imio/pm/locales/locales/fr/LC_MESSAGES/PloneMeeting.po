@@ -931,6 +931,10 @@ msgstr "Classificateur"
 msgid "PloneMeeting_label_committeeObservations"
 msgstr "Observations pour les commissions"
 
+#. Default: "Committees"
+msgid "PloneMeeting_label_committees"
+msgstr "Commissions"
+
 #. Default: "Completeness"
 msgid "PloneMeeting_label_completeness"
 msgstr "Complétude"
@@ -1471,6 +1475,10 @@ msgstr "Ce point est une question orale ?"
 #. Default: "Associated organizations order"
 msgid "PloneMeeting_label_orderedAssociatedOrganizations"
 msgstr "Groupes associés sélectionnables sur les points"
+
+#. Default: "Attendees selectable for committees"
+msgid "PloneMeeting_label_orderedCommitteeContacts"
+msgstr "Membres d'assemblée des commissions sélectionnables"
 
 #. Default: "Selectable assembly members"
 msgid "PloneMeeting_label_orderedContacts"
@@ -2391,7 +2399,7 @@ msgstr "Êtes-vous sûr de vouloir effectuer cette action?"
 
 #. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as copyGroup for an item.  We receive \"item\" as the meeting item and \"isCreated\" that is only True when the item is in the creation process (not while being edited after).  WARNING, if the \"suffix\" returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : \"python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []\""
 msgid "as_copy_group_on_descr"
-msgstr "Spécifiez une expression TAL qui retourne une liste de suffixes de groupes Plone (par exemple ['creators', 'reviewers', ]) qui devront être automatiquement sélectionnés comme groupes en copie d'un point.  L'expression est évaluée à chaque modification du point (création et éditions suivantes).  L'élément \"item\" (point) est utilisable dans l'expression ainsi que \"isCreated\" qui est \"True\" uniquement lorsque le point est en création (\"False\" lors des éditions suivantes). ATTENTION: si le groupe Plone lié au suffixe n'est pas défini dans la liste des \"Groupes qui pourront être mis en copie\" sur la \"Configuration de séance\" du point, le groupe ne sera pas mis en copie et ce, quel que soit le résultat de l'expression.  Exemple d'expression : \"python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []\""
+msgstr "Spécifiez une expression TAL qui retourne une liste de suffixes de groupes Plone (par exemple ['creators', 'reviewers', ]) qui devront être automatiquement sélectionnés comme groupes en copie d'un point.  L'expression est évaluée à chaque modification du point (création et éditions suivantes).  L'élément \"item\" (point) est utilisable dans l'expression ainsi que \"isCreated\" qui est \"True\" uniquement lorsque le point est en création (\"False\" lors des éditions suivantes). ATTENTION, si le groupe Plone lié au suffixe n'est pas défini dans la liste des \"Groupes qui pourront être mis en copie\" sur la \"Configuration de séance\" du point, le groupe ne sera pas mis en copie et ce, quel que soit le résultat de l'expression.  Exemple d'expression : \"python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []\""
 
 #. Default: "As recurring item"
 msgid "as_recurring_item"
@@ -2781,6 +2789,14 @@ msgstr "${title} (${number} s.)"
 #. Default: "${title} (${number} supplement)"
 msgid "committee_title_with_suppl"
 msgstr "${title} (${number} supplément)"
+
+#. Default: "Committees"
+msgid "committees"
+msgstr "Commissions"
+
+#. Default: "Define committees that will be useable on meetings and items (you also need to enable \"Committees\" on the meeting in the [Data] tab). This will show a \"Committees\" table on the meeting and will be also managed on the item. <br />There are 2 ways to manage committees on the item, either manually or automatically:<ul><li>Manually: just define committees, this will create a multiselection box on the item and users may select it.  It is possible to use the column \"Restrict to\" to define which proposing groups will be able to select the committee;</li><li>Automatically: use the column \"Auto from\" to define which committees to associate to the item depending on proposing group, category or classifier. A MeetingManager is nevertheless able to edit the committee on the item.</li></ul>. These 2 ways are mutually exclusive, if you select values in the \"auto_from\" columb here under, the \"Automatic\" mode will be used."
+msgid "committees_descr"
+msgstr "Définissez les commissions qui pourront être utilisées sur les séances et points (vous devez également activer le champ \"Commissions\" dans le champ \"Attributs utilisés pour caractériser une séance\" de l'onglet \"[Données]\").  Les commissions seront affichées sur la séance, et elles pourront être encodées sur les points.<br />Il y a 2 manières de gérer les commissions sur les points, soit manuellement ou automatiquement :<ul><li>Manuellement: les commissions définies génèrent une liste à choix multiple sur le point.  Il est possible de restreindre ces choix via la colonne \"Restreindre à\" en sélectionnant les groupes proposant qui pourront sélectionner la commission;</li><li>Automatiquement: aucun champ n'est affiché sur le point, les commissions seront automatiquement sélectionnées sur les points en fonction de ce qui est sélectionné dans la colonne \"Automatiquement pour\" (donc en fonction du groupe proposant, de la catégorie ou du classificateur sélectionné sur le point). Seul un gestionnaire de séances pourra éditer cette valeur sur les points.</li></ul>.  Ces 2 modes de fonctionnement sont incompatibles, le mode \"Automatique\" sera activé si vous renseignez des valeurs dans la colonne \"Automatiquement si\"."
 
 #. Default: "Complete"
 msgid "completeness_complete"
@@ -3223,6 +3239,14 @@ msgstr "Veuillez vérifier les dates encodées à la ligne ${row_number}.  Utili
 #. Default: "Signatures must be ordered by signature number, please check and order signature using the arrows on the right of the table."
 msgid "error_certified_signatures_order"
 msgstr "Les signatures doivent être ordonnées par numéro de signature, vérifiez les numéros de signatures et utilisez les flèches à la droite du tableau pour les ordonner correctement."
+
+#. Default: "You can not remove a configuration that was already used, removed configuration \"${committee_label}\" is used for example by item at ${url}.  If you lost encoded values, just cancel edition and edit again correctly."
+msgid "error_committee_row_id_removed_already_used"
+msgstr "Vous ne pouvez pas supprimer une configuration qui a déjà été utilisée.  La configuration \"${committee_label}\" est utilisée par exemple par le point ${url}.  Si vous avez perdu les valeurs encodées, annulez l'édition et éditez à nouveau."
+
+#. Default: "You can not define values for the \"auto_from\" and \"using_groups\" columns, their use is multually exclusive.  If you lost encoded values, just cancel edition and edit again correctly."
+msgid "error_committees_mutually_exclusive_auto_from_and_using_groups"
+msgstr "Vous ne pouvez définir de valeurs pour les colonnes \"Restreindre à\" et \"Défini automatiquement si\", ces 2 colonnes sont mutuellement exclusives.  Si vous avez perdu les valeurs encodées, annulez l'édition et éditez à nouveau."
 
 #. Default: "You may not remove a list type that is currently used by an item, check for example : ${url}."
 msgid "error_list_types_identifier_removed_already_used"
@@ -4326,7 +4350,7 @@ msgstr "Mettre à jour les points et séances de cette configuration de séance"
 
 #. Default: "Warning: this will update every items and meetings of this configuration, it is only relevant if the field of the configuration that you changed specifies that you need to use this action.  If you only made little changes like adding or removing a state in a field, as an administrator, it is possible to update items and meetings from the dashboards.  To do this, select elements that need to be updated and use the \"Update\" batch action."
 msgid "mc_update_all_local_roles_warning"
-msgstr "Attention: ceci va mettre à jour tous les points et séances et n'est utile que si vous avez changé un paramètre dans cette configuration de séance pour lequel il est spécifié dans la description du champ qu'il faudra mettre à jour les points et séances.  S'il s'agit de petits changements, comme l'ajout ou suppression d'un état dans un champ, il est possible, en tant qu'administrateur, de ne mettre à jour que les points et séances impactées depuis les tableaux de bord.  Pour ce faire, filtrez les points ou séances pour obtenir les éléments à mettre à jour et utilisez l'action par lot \"Mettre à jour\"."
+msgstr "Attention, ceci va mettre à jour tous les points et séances et n'est utile que si vous avez changé un paramètre dans cette configuration de séance pour lequel il est spécifié dans la description du champ qu'il faudra mettre à jour les points et séances.  S'il s'agit de petits changements, comme l'ajout ou suppression d'un état dans un champ, il est possible, en tant qu'administrateur, de ne mettre à jour que les points et séances impactées depuis les tableaux de bord.  Pour ce faire, filtrez les points ou séances pour obtenir les éléments à mettre à jour et utilisez l'action par lot \"Mettre à jour\"."
 
 #. Default: "Similarly to the preceding field, all the actions that are triggered when a meeting goes from one state to another are configurable through the development of another Plone product into which you must:<ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeeting to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.Meeting.MeetingWorkflowActions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingWorkflowActions are documented."
 msgid "meeting_actions_interface_descr"
@@ -4751,6 +4775,10 @@ msgstr " "
 msgid "ordered_associated_organizations_descr"
 msgstr "Par défaut, les groupes associés sélectionnables sur un point seront toutes les organisations sélectionnées dans le panneau de configuration de plonegroup.  Définissez ici les organisations qui pourront être sélectionnées sur les points, y compris les organisations qui ne sont pas sélectionnées dans le panneau de configuration de plonegroup. Ceci n'est utile que si vous utilisez le champ \"Groupes associés (associatedGroups)\" sur les points."
 
+#. Default: "Select here attendees that will be selectable in the \"Attendees\" column of defined committees here under.  <span style='color: red;'>If you select/unselect values, you need to save first then edit again for these values to appear/disappear if field \"Committees\" here under.</span>"
+msgid "ordered_committee_contacts_descr"
+msgstr "Sélectionnez les contacts qui seront utilisés comme membres d'assemblée pour les commissions (ainsi que pour la colonne \"Présents par défaut / Signataires par défaut\" ci-dessous).  <span style='color: red;'>Attention, si vous (dé)séléctionnez des valeurs, vous devrez d'abord sauvegarder et éditer la configuration à nouveau pour qu'elles apparaissent/disparaissent des \"Commissions\" ci-dessous.</span>"
+
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
 msgid "ordered_contacts_descr"
 msgstr "Sélectionnez les contacts qui seront utilisés comme membres d'assemblée pour les séances, c'est-à-dire les éléments de type \"Fonction occupée\" pour lesquels la valeur \"Membre d'assemblée\" est sélectionnée dans le champ \"Utilisé comme\".  L'ordre sélectionné ici sera celui repris par défaut sur chaque séance <span style='color:red;'>nouvellement créée, les changements apportés à ce champ n'impacte pas les séances déjà créées.</span> Ceci fonctionnera uniquement si vous utilisez l'attribut \"Présents (attendees)\" sur les séances."
@@ -4817,7 +4845,7 @@ msgstr "Vérifier les modèles Pod"
 
 #. Default: "Warning: the action \"Check Pod templates\" will check that every Pod templates defined in the configuration are working correctly."
 msgid "pm_check_pod_templates_warning"
-msgstr "Attention: l'action \"Vérifier les modèles Pod\" va vérifier que les modèles définis dans la partie \"[Documents]\" de cette configuration fonctionnent correctement."
+msgstr "Attention, l'action \"Vérifier les modèles Pod\" va vérifier que les modèles définis dans la partie \"[Documents]\" de cette configuration fonctionnent correctement."
 
 #. Default: "Configuration of deliberations"
 msgid "pm_configuration"
@@ -4857,7 +4885,7 @@ msgstr "Invalider le cache applicatif"
 
 #. Default: "Warning: this will invalidate all cache used in the application, this could lead to application being slow for some minutes until cache is recomputed for currently connected users but is harmless and must be done when changes impacting application header (tabs) are made or if any weirdness occurs (no access to new tabs, ...)."
 msgid "pm_invalidate_all_cache_warning"
-msgstr "Attention: ceci va invalider tout le cache utilisé dans l'application (vocabulaires, portlets, cache navigateur utilisateurs, ...) et pourrait provoquer quelques lenteurs pendant quelques minutes le temps qu'il soit recalculé chez les différents utilisateurs.  Cette action est sans danger et doit être opérée si des changements impactent l'entête (onglets) de l'application ou si des bizarreries apparaissent (pas d'accès à un élément de configuration créé ou modifié, ...)."
+msgstr "Attention, ceci va invalider tout le cache utilisé dans l'application (vocabulaires, portlets, cache navigateur utilisateurs, ...) et pourrait provoquer quelques lenteurs pendant quelques minutes le temps qu'il soit recalculé chez les différents utilisateurs.  Cette action est sans danger et doit être opérée si des changements impactent l'entête (onglets) de l'application ou si des bizarreries apparaissent (pas d'accès à un élément de configuration créé ou modifié, ...)."
 
 #. Default: "Modification date"
 msgid "pm_modification_date"
@@ -4869,7 +4897,7 @@ msgstr "Supprimer les prévisualisations des annexes des points dans les séance
 
 #. Default: "Warning: take care that launching these proceedings may take time, depending on the number of existing elements!  Do not launch during period of high use!"
 msgid "pm_tool_updates_warning"
-msgstr "Attention: ces opérations peuvent prendre du temps en fonction du nombre d'éléments existants!  Ne pas lancer dans une période de forte utilisation!"
+msgstr "Attention, ces opérations peuvent prendre du temps en fonction du nombre d'éléments existants!  Ne pas lancer dans une période de forte utilisation!"
 
 #. Default: "Initialize every existing advice confidentiality"
 msgid "pm_update_advice_confidentiality"
@@ -4877,7 +4905,7 @@ msgstr "Initialiser la confidentialité des avis existants"
 
 #. Default: "Warning: the action \"Initialize existing advices confidentiality\" will initialize every existing advice confidentiality to what is defined as default value in this meeting configuration (check the field \"Advice confidentiality default value\" of the \"Advices and access\" tab)."
 msgid "pm_update_advice_confidentiality_warning"
-msgstr "Attention : l'action \"Initialiser la confidentialité des avis existants\" va initialiser la confidentialité de tous les avis existants pour cette configuration de séance à la valeur par défaut définie pour la confidentialité d'un avis (vérifiez le champ \"Valeur par défaut du champ 'Confidentiel?' des avis créés\" dans l'onglet \"Avis et accès\")."
+msgstr "Attention, l'action \"Initialiser la confidentialité des avis existants\" va initialiser la confidentialité de tous les avis existants pour cette configuration de séance à la valeur par défaut définie pour la confidentialité d'un avis (vérifiez le champ \"Valeur par défaut du champ 'Confidentiel?' des avis créés\" dans l'onglet \"Avis et accès\")."
 
 #. Default: "Update all items and meetings of every meeting configurations"
 msgid "pm_update_all_local_roles"
@@ -4885,7 +4913,7 @@ msgstr "Mettre à jour les points et séances de toutes les configurations de s�
 
 #. Default: "Warning: this will update every items and meetings of every configurations.  This action is also available per meeting configuration, if you only changed parameters in one meeting configuration, just execute the action on this meeting configuration!"
 msgid "pm_update_all_local_roles_warning"
-msgstr "Attention: ceci mettra à jour les points et séances pour toutes les configurations de séances.  Cette action est également disponible par configuration de séance, si vous avez changé un paramètre dans une configuration de séance en particulier, utilisez l'action sur la configuration de séance.  Enfin, l'action par lot \"Mettre à jour les accès\" disponible dans les tableaux de bord de points et séances pour les administrateurs permet d'effectuer la même mise à jour si vous savez quels points et séances sont impactés."
+msgstr "Attention, ceci mettra à jour les points et séances pour toutes les configurations de séances.  Cette action est également disponible par configuration de séance, si vous avez changé un paramètre dans une configuration de séance en particulier, utilisez l'action sur la configuration de séance.  Enfin, l'action par lot \"Mettre à jour les accès\" disponible dans les tableaux de bord de points et séances pour les administrateurs permet d'effectuer la même mise à jour si vous savez quels points et séances sont impactés."
 
 #. Default: "Initialize every existing annex confidentiality"
 msgid "pm_update_annex_confidentiality"
@@ -4893,7 +4921,7 @@ msgstr "Initialiser la confidentialité des annexes existantes"
 
 #. Default: "Warning: the action \"Initialize existing annexes confidentiality\" will initialize every existing annex confidentiality to what is defined in the corresponding annex type (check the \"Annex types\" in the \"Data\" tab)."
 msgid "pm_update_annex_confidentiality_warning"
-msgstr "Attention : l'action \"Initialiser la confidentialité des annexes existantes\" va initialiser la confidentialité de toutes les annexes existantes pour cette configuration de séance à la valeur par défaut définie sur le \"Type d'annexe\" correspondant (vérifiez les \"Types d'annexes\" dans l'onglet \"Données\")."
+msgstr "Attention, l'action \"Initialiser la confidentialité des annexes existantes\" va initialiser la confidentialité de toutes les annexes existantes pour cette configuration de séance à la valeur par défaut définie sur le \"Type d'annexe\" correspondant (vérifiez les \"Types d'annexes\" dans l'onglet \"Données\")."
 
 #. Default: "Update annex indexes"
 msgid "pm_update_annex_indexes"
@@ -4905,7 +4933,7 @@ msgstr "Initialiser l'étiquette sur les points existants"
 
 #. Default: "Warning: the action \"Initialize personal labels\" will activate selected labels on every existing items that were last modified before given number of days for every users able to see these items."
 msgid "pm_update_personal_labels_warning"
-msgstr "Attention : l'action \"Initialiser l'étiquette sur les points existants\" va activer l'étiquette sélectionnée sur tous les points existants qui n'ont plus été modifiés depuis le nombre de jours choisi, et ce, pour tous les utilisateurs qui peuvent voir ces points."
+msgstr "Attention, l'action \"Initialiser l'étiquette sur les points existants\" va activer l'étiquette sélectionnée sur tous les points existants qui n'ont plus été modifiés depuis le nombre de jours choisi, et ce, pour tous les utilisateurs qui peuvent voir ces points."
 
 #. Default: "Please consult the attached document."
 msgid "podItemByMail_mail_body"
@@ -5881,10 +5909,6 @@ msgstr "Spécifiez ici quels modes de scrutin vous voulez utiliser."
 msgid "used_vote_values_descr"
 msgstr "Spécifiez ici quelles valeurs de vote sont utilisées dans cette configuration de séance."
 
-#. Default: "Users"
-msgid "users"
-msgstr "Utilisateurs"
-
 #. Default: "If you do not select anything, every users will be displayed."
 msgid "users_hidden_in_dashboard_filter_descr"
 msgstr "Si vous ne sélectionnez rien (par défaut), tous les utilisateurs seront affichés.  Ceci impacte les filtres affichant des utilisateurs tels que les filtres 'Auteur' ou 'Pris en charge'."
@@ -5997,9 +6021,9 @@ msgstr "Votant"
 msgid "voter_count"
 msgstr "Il y a ${numberOfVoters} votants pour ce point"
 
-#. Default: "Votes and committees"
+#. Default: "Votes"
 msgid "votes"
-msgstr "Votes et commissions"
+msgstr "Votes"
 
 #. Default: "You can choose here who will effectively encode the votes. Several choices are possible."
 msgid "votes_encoder_descr"
@@ -6211,7 +6235,7 @@ msgstr "Vous êtes en train d'ajouter une organisation en dehors de \"Mon organi
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"
-msgstr "Attention: si vous modifiez une donnée et cliquez sur le bouton 'Enregister' au bas du formulaire, tous les avis déjà donnés sur ce point seront invalidés!  Pour ne pas invalider les avis, cliquez sur le bouton 'Annuler' au bas du formulaire."
+msgstr "Attention, si vous modifiez une donnée et cliquez sur le bouton 'Enregister' au bas du formulaire, tous les avis déjà donnés sur ce point seront invalidés!  Pour ne pas invalider les avis, cliquez sur le bouton 'Annuler' au bas du formulaire."
 
 #. Default: "If you modify this field, all given advices will be invalidated."
 msgid "warning_invalidate_advices_fastedit"
@@ -6219,7 +6243,7 @@ msgstr "Si vous modifiez ce champ, tous les avis seront invalidés!"
 
 #. Default: "Warning: if you add an annex through this form or if you delete an annex, all advices given on this item will be invalidated."
 msgid "warning_invalidate_advices_with_annex"
-msgstr "Attention: si vous ajoutez ou supprimez une annexe, tous les avis déjà donnés sur ce point seront invalidés."
+msgstr "Attention, si vous ajoutez ou supprimez une annexe, tous les avis déjà donnés sur ce point seront invalidés."
 
 #. Default: "DO NOT CHANGE PARAMETERS DEFINED IN THIS SECTION UNLESS YOU ARE REALLY SURE WHAT YOU ARE DOING!"
 msgid "warning_meetingconfig_edit_section_descr"

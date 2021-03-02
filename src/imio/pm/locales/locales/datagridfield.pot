@@ -362,3 +362,83 @@ msgstr ""
 #. Default: "Item WF validation levels enabled description."
 msgid "Item WF validation levels enabled description."
 msgstr ""
+
+#. Default: "Committee row id"
+msgid "Committee row id"
+msgstr ""
+
+#. Default: "Committee label"
+msgid "Committee label"
+msgstr ""
+
+#. Default: "Committee acronym"
+msgid "Committee acronym"
+msgstr ""
+
+#. Default: "Committee default place"
+msgid "Committee default place"
+msgstr ""
+
+#. Default: "Committee default assembly"
+msgid "Committee default assembly"
+msgstr ""
+
+#. Default: "Committee default signatures"
+msgid "Committee default signatures"
+msgstr ""
+
+#. Default: "Committee default attendees"
+msgid "Committee default attendees"
+msgstr ""
+
+#. Default: "Committee default signatories"
+msgid "Committee default signatories"
+msgstr ""
+
+#. Default: "Committee using groups"
+msgid "Committee using groups"
+msgstr ""
+
+#. Default: "Committee auto from"
+msgid "Committee auto from"
+msgstr ""
+
+#. Default: "Committee supplements"
+msgid "Committee supplements"
+msgstr ""
+
+#. Default: "Committee enabled?"
+msgid "Committee enabled?"
+msgstr ""
+
+#. Default: "Used when creating a new meeting if field \"Place\" is enabled for committees, does not impact already created meetings."
+msgid "committees_default_place_col_description"
+msgstr ""
+
+#. Default: "Used when creating a new meeting if field \"Assembly\" is enabled for committees, does not impact already created meetings."
+msgid "committees_default_assembly_col_description"
+msgstr ""
+
+#. Default: "Used when creating a new meeting if field \"Signatures\" is enabled for committees, does not impact already created meetings."
+msgid "committees_default_signatures_col_description"
+msgstr ""
+
+#. Default: "Used when creating a new meeting if field \"Attendees\" is enabled for committees, does not impact already created meetings."
+msgid "committees_default_attendees_col_description"
+msgstr ""
+
+#. Default: "Used when creating a new meeting if field \"Signatories\" is enabled for committees, does not impact already created meetings."
+msgid "committees_default_signatories_col_description"
+msgstr ""
+
+#. Default: "Used to restrict availability of a committee on the item committees selection box.  This may only be used when column \"auto_from\" is not used."
+msgid "committees_using_groups_col_description"
+msgstr ""
+
+#. Default: "Used to automatically determinate the committee for the item, the field \"Committees\" will not appear on the item when editing it (except for MeetingManagers).  This may only be used when column \"using_groups\" is not used."
+msgid "committees_auto_from_col_description"
+msgstr ""
+
+#. Default: "Will generate new values on item \"Committees\" field when necessary to manage supplements (items added to meeting after committees convocation were sent).  This will only be useable by MeetingManagers."
+msgid "committees_supplements_col_description"
+msgstr ""

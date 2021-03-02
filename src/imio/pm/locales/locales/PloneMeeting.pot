@@ -3706,12 +3706,12 @@ msgstr ""
 msgid "mail"
 msgstr ""
 
-#. Default: "Votes and committees"
-msgid "votes"
+#. Default: "Committees"
+msgid "committees"
 msgstr ""
 
-#. Default: "Users"
-msgid "users"
+#. Default: "Votes"
+msgid "votes"
 msgstr ""
 
 #. Default: "Criteria"
@@ -6294,8 +6294,28 @@ msgstr ""
 msgid "title_committee_signatories"
 msgstr ""
 
-#. Default: ""
-msgid ""
+#. Default: "You can not remove a configuration that was already used, removed configuration \"${committee_label}\" is used for example by item at ${url}.  If you lost encoded values, just cancel edition and edit again correctly."
+msgid "error_committee_row_id_removed_already_used"
+msgstr ""
+
+#. Default: "You can not define values for the \"auto_from\" and \"using_groups\" columns, their use is multually exclusive.  If you lost encoded values, just cancel edition and edit again correctly."
+msgid "error_committees_mutually_exclusive_auto_from_and_using_groups"
+msgstr ""
+
+#. Default: "Attendees selectable for committees"
+msgid "PloneMeeting_label_orderedCommitteeContacts"
+msgstr ""
+
+#. Default: "Select here attendees that will be selectable in the \"Attendees\" column of defined committees here under.  <span style='color: red;'>If you select/unselect values, you need to save first then edit again for these values to appear/disappear if field \"Committees\" here under.</span>"
+msgid "ordered_committee_contacts_descr"
+msgstr ""
+
+#. Default: "Committees"
+msgid "PloneMeeting_label_committees"
+msgstr ""
+
+#. Default: "Define committees that will be useable on meetings and items (you also need to enable \"Committees\" on the meeting in the [Data] tab). This will show a \"Committees\" table on the meeting and will be also managed on the item. <br />There are 2 ways to manage committees on the item, either manually or automatically:<ul><li>Manually: just define committees, this will create a multiselection box on the item and users may select it.  It is possible to use the column \"Restrict to\" to define which proposing groups will be able to select the committee;</li><li>Automatically: use the column \"Auto from\" to define which committees to associate to the item depending on proposing group, category or classifier. A MeetingManager is nevertheless able to edit the committee on the item.</li></ul>. These 2 ways are mutually exclusive, if you select values in the \"auto_from\" columb here under, the \"Automatic\" mode will be used."
+msgid "committees_descr"
 msgstr ""
 
 #. Default: ""
