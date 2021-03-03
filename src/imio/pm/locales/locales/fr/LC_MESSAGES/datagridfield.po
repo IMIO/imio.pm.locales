@@ -365,35 +365,35 @@ msgstr "Spécifiez une expression TAL qui permet de restreindre ou d'accorder l'
 
 #. Default: "Used to automatically determinate the committee for the item, the field \"Committees\" will not appear on the item when editing it (except for MeetingManagers).  This may only be used when column \"using_groups\" is not used."
 msgid "committees_auto_from_col_description"
-msgstr ""
+msgstr "Active le mode \"automatique\" pour déterminer les commissions d'un point, le champ permettant de sélectionner les commissions n'apparaîtra pas lors de l'édition du point (sauf pour les gestionnaires de séances). Ce paramètre ne peut pas être utilisé avec le paramètre \"Restreindre à\"."
 
 #. Default: "Used when creating a new meeting if field \"Assembly\" is enabled for committees, does not impact already created meetings."
 msgid "committees_default_assembly_col_description"
-msgstr ""
+msgstr "Utilisé à la création d'une nouvelle séance si la paramère \"Assemblée (committees_assembly)\" est activé sur les séances. N'impacte pas les séances déjà créées."
 
 #. Default: "Used when creating a new meeting if field \"Attendees\" is enabled for committees, does not impact already created meetings."
 msgid "committees_default_attendees_col_description"
-msgstr ""
+msgstr "Utilisé à la création d'une nouvelle séance si la paramère \"Présents (committees_attendees)\" est activé sur les séances. N'impacte pas les séances déjà créées."
 
 #. Default: "Used when creating a new meeting if field \"Place\" is enabled for committees, does not impact already created meetings."
 msgid "committees_default_place_col_description"
-msgstr ""
+msgstr "Utilisé à la création d'une nouvelle séance si la paramère \"Lieu (committees_place)\" est activé sur les séances. N'impacte pas les séances déjà créées."
 
 #. Default: "Used when creating a new meeting if field \"Signatories\" is enabled for committees, does not impact already created meetings."
 msgid "committees_default_signatories_col_description"
-msgstr ""
+msgstr "Utilisé à la création d'une nouvelle séance si la paramère \"Signataires (committees_signatories)\" est activé sur les séances. N'impacte pas les séances déjà créées."
 
 #. Default: "Used when creating a new meeting if field \"Signatures\" is enabled for committees, does not impact already created meetings."
 msgid "committees_default_signatures_col_description"
-msgstr ""
+msgstr "Utilisé à la création d'une nouvelle séance si la paramère \"Signatures (committees_signatures)\" est activé sur les séances. N'impacte pas les séances déjà créées."
 
 #. Default: "Will generate new values on item \"Committees\" field when necessary to manage supplements (items added to meeting after committees convocation were sent).  This will only be useable by MeetingManagers."
 msgid "committees_supplements_col_description"
-msgstr ""
+msgstr "Permet de gérer les suppléments pour les commissions. Ces valeurs peuvent être sélectionnées sur le point uniquement par les gestionnaires de séances."
 
 #. Default: "Used to restrict availability of a committee on the item committees selection box.  This may only be used when column \"auto_from\" is not used."
 msgid "committees_using_groups_col_description"
-msgstr ""
+msgstr "Si le mode \"automatique\" n'est pas activé, le champ permettant de sélectionner les commissions apparaîtra lors de l'édition du point, ceci permet de restreindre les valeurs sélectionnables en fonction du groupe proposant du point. Ce paramètre ne peut pas être utilisé avec le paramètre \"Automatiquement si\"."
 
 #. Default: "Enter the delay the adviser will have to give his advice. If it is not considered as an automatically asked advice (nothing defined in the \"Advice will be automatically asked if\" column), the advice will be selectable in the \"Ask advice to\" list on the item edit form. A delay is a single digit (like \"5\" or \"10\"). If no delay is relevant for this advice, leave this field blank. If several delays are possible for the same advice, you have to define several rows with exactly the same content excepted the delay."
 msgid "delay_col_description"
