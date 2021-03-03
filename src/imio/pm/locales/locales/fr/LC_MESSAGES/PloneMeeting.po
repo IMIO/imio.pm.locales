@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"POT-Creation-Date: 2005-05-17 15:00-100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2389,6 +2389,10 @@ msgstr "Annexes à imprimer"
 msgid "annexes_to_sign_term"
 msgstr "Annexes à signer"
 
+#. Default: "Annexes types are hidden by default, you can ${force_display} of it (may take some time)."
+msgid "annexes_types_force_display_descr"
+msgstr "Les types d'annexes sont cachés par défaut, vous pouvez cependant en ${force_display} (ceci peut prendre un certain temps en fonction du nombre de types d'annexes)."
+
 #. Default: "Application users"
 msgid "app_users"
 msgstr "Utilisateurs de l'application (créateurs, validateurs, ...)"
@@ -2622,13 +2626,9 @@ msgstr "Chaque point, au sein de cette configuration de séance, peut appartenir
 msgid "categories_folder_contents_view"
 msgstr "la vue \"Contenus\""
 
-#. Default: "force display"
-msgid "categories_force_display"
-msgstr "forcer l'affichage"
-
 #. Default: "You can ${force_display} of every categories (may take some time)."
 msgid "categories_force_display_descr"
-msgstr "Vous pouvez ${force_display} des catégories (ceci peut prendre un certain temps)."
+msgstr "Vous pouvez ${force_display} des catégories (ceci peut prendre un certain temps en fonction du nombre de catégories)."
 
 #. Default: "You may use the ${folder_contents_link} to manage elements order."
 msgid "categories_use_folder_contents"
@@ -2797,6 +2797,10 @@ msgstr "Commissions"
 #. Default: "Define committees that will be useable on meetings and items (you also need to enable \"Committees\" on the meeting in the [Data] tab). This will show a \"Committees\" table on the meeting and will be also managed on the item. <br />There are 2 ways to manage committees on the item, either manually or automatically:<ul><li>Manually: just define committees, this will create a multiselection box on the item and users may select it.  It is possible to use the column \"Restrict to\" to define which proposing groups will be able to select the committee;</li><li>Automatically: use the column \"Auto from\" to define which committees to associate to the item depending on proposing group, category or classifier. A MeetingManager is nevertheless able to edit the committee on the item.</li></ul>. These 2 ways are mutually exclusive, if you select values in the \"auto_from\" columb here under, the \"Automatic\" mode will be used."
 msgid "committees_descr"
 msgstr "Définissez les commissions qui pourront être utilisées sur les séances et points (vous devez également activer le champ \"Commissions\" dans le champ \"Attributs utilisés pour caractériser une séance\" de l'onglet \"[Données]\").  Les commissions seront affichées sur la séance, et elles pourront être encodées sur les points.<br />Il y a 2 manières de gérer les commissions sur les points, soit manuellement ou automatiquement :<ul><li>Manuellement: les commissions définies génèrent une liste à choix multiple sur le point.  Il est possible de restreindre ces choix via la colonne \"Restreindre à\" en sélectionnant les groupes proposant qui pourront sélectionner la commission;</li><li>Automatiquement: aucun champ n'est affiché sur le point, les commissions seront automatiquement sélectionnées sur les points en fonction de ce qui est sélectionné dans la colonne \"Automatiquement pour\" (donc en fonction du groupe proposant, de la catégorie ou du classificateur sélectionné sur le point). Seul un gestionnaire de séances pourra éditer cette valeur sur les points.</li></ul>.  Ces 2 modes de fonctionnement sont incompatibles, le mode \"Automatique\" sera activé si vous renseignez des valeurs dans la colonne \"Automatiquement si\"."
+
+#. Default: "Using a \"Committees\" field requires the use of attribute \"Committees (committees)\"."
+msgid "committees_required"
+msgstr "L'usage d'un attribut lié aux \"Commissions\" requiert l'activation du champ \"Commissions (committees)\"."
 
 #. Default: "Complete"
 msgid "completeness_complete"
@@ -3419,6 +3423,10 @@ msgstr "Respectez bien l'ordre des transitions menant à l'état 'présenté', l
 #. Default: "In the application folder of every member, a sub-folder is created for each meeting configuration. The name of this sub-folder is defined here."
 msgid "folder_title_descr"
 msgstr "Dans le répertoire de chaque utilisateur, un sous-répertoire par configuration de séance est créé. Le nom de ce sous-répertoire se définit ici."
+
+#. Default: "force display"
+msgid "force_display"
+msgstr "forcer l'affichage"
 
 #. Default: "<p>PloneMeeting body in HTML format.</p>"
 msgid "front_page_body"
@@ -4549,7 +4557,7 @@ msgstr "Annexes à ne pas signer"
 
 #. Default: "Attributes \"assembly\" and \"attendees\" can't be used together."
 msgid "no_assembly_and_attendees"
-msgstr "Les attributs \"assemblée\" et \"présents\" ne peuvent être utilisés ensemble."
+msgstr "Les attributs \"Assemblée (assembly)\" et \"Présents (attendees)\" ne peuvent être utilisés ensemble."
 
 #. Default: "No category is currently defined."
 msgid "no_category"
@@ -4558,6 +4566,14 @@ msgstr "Aucune catégorie n'est actuellement définie."
 #. Default: "No classifier is currently defined."
 msgid "no_classifier"
 msgstr "Aucun classificateur n'est actuellement défini."
+
+#. Default: "Attributes \"committees_assembly\" and \"committees_attendees\" can't be used together."
+msgid "no_committees_assembly_and_committees_attendees"
+msgstr "Les attributs \"Assemblée (committees_assembly)\" et \"Présents (committees_attendees)\" ne peuvent être utilisés ensemble."
+
+#. Default: "Attributes \"committees_sigantures\" and \"committees_signatories\" can't be used together."
+msgid "no_committees_signatures_and_committees_signatories"
+msgstr "Les attributs \"Signatures (committees_signatures)\" et \"Présents (committees_attendees)\" ne peuvent être utilisés ensemble."
 
 #. Default: "None"
 msgid "no_config_group"
@@ -5569,45 +5585,45 @@ msgstr "Présents"
 msgid "title_authority_notice"
 msgstr "Avis de tutelle"
 
+#. Default: "Committees"
+msgid "title_committees"
+msgstr "Commissions"
+
 #. Default: "Assembly"
-msgid "title_committee_assembly"
+msgid "title_committees_assembly"
 msgstr "Assemblée"
 
 #. Default: "Attendees"
-msgid "title_committee_attendees"
+msgid "title_committees_attendees"
 msgstr "Présents"
 
 #. Default: "Convocation date"
-msgid "title_committee_convocation_date"
+msgid "title_committees_convocation_date"
 msgstr "Date de convocation"
 
 #. Default: "Date"
-msgid "title_committee_date"
+msgid "title_committees_date"
 msgstr "Date"
 
-#. Default: "Committee observations"
-msgid "title_committee_observations"
+#. Default: "Committees observations"
+msgid "title_committees_observations"
 msgstr "Observations (commissions)"
 
 #. Default: "Place"
-msgid "title_committee_place"
+msgid "title_committees_place"
 msgstr "Lieu"
 
 #. Default: "Committee"
-msgid "title_committee_row_id"
+msgid "title_committees_row_id"
 msgstr "Commission"
 
 #. Default: "Signatories"
-msgid "title_committee_signatories"
+msgid "title_committees_signatories"
 msgstr "Signataires"
 
 #. Default: "Signatures"
-msgid "title_committee_signatures"
+msgid "title_committees_signatures"
 msgstr "Signatures"
-
-#. Default: ""
-msgid "title_committees"
-msgstr " "
 
 #. Default: "Convocation date"
 msgid "title_convocation_date"

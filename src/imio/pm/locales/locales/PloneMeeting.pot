@@ -5042,8 +5042,12 @@ msgstr ""
 msgid "categories_force_display_descr"
 msgstr ""
 
+#. Default: "Annexes types are hidden by default, you can ${force_display} of it (may take some time)."
+msgid "annexes_types_force_display_descr"
+msgstr ""
+
 #. Default: "force display"
-msgid "categories_force_display"
+msgid "force_display"
 msgstr ""
 
 #. Default: "You may use the ${folder_contents_link} to manage elements order."
@@ -6166,8 +6170,8 @@ msgstr ""
 msgid "title_pre_observations"
 msgstr ""
 
-#. Default: "Committee observations"
-msgid "title_committee_observations"
+#. Default: "Committees observations"
+msgid "title_committees_observations"
 msgstr ""
 
 #. Default: "Votes observations"
@@ -6259,39 +6263,39 @@ msgid "num_part_th"
 msgstr ""
 
 #. Default: "Committee"
-msgid "title_committee_row_id"
+msgid "title_committees_row_id"
 msgstr ""
 
 #. Default: "Date"
-msgid "title_committee_date"
+msgid "title_committees_date"
 msgstr ""
 
 #. Default: "Convocation date"
-msgid "title_committee_convocation_date"
+msgid "title_committees_convocation_date"
 msgstr ""
 
 #. Default: "Place"
-msgid "title_committee_place"
+msgid "title_committees_place"
 msgstr ""
 
 #. Default: "Assembly"
-msgid "title_committee_assembly"
+msgid "title_committees_assembly"
 msgstr ""
 
 #. Default: "Attendees"
-msgid "title_committee_attendees"
+msgid "title_committees_attendees"
 msgstr ""
 
 #. Default: "Signatures"
-msgid "title_committee_signatures"
+msgid "title_committees_signatures"
 msgstr ""
 
-#. Default: ""
+#. Default: "Committees"
 msgid "title_committees"
 msgstr ""
 
 #. Default: "Signatories"
-msgid "title_committee_signatories"
+msgid "title_committees_signatories"
 msgstr ""
 
 #. Default: "You can not remove a configuration that was already used, removed configuration \"${committee_label}\" is used for example by item at ${url}.  If you lost encoded values, just cancel edition and edit again correctly."
@@ -6318,16 +6322,16 @@ msgstr ""
 msgid "committees_descr"
 msgstr ""
 
-#. Default: ""
-msgid ""
+#. Default: "Using a \"Committees\" field requires the use of attribute \"Committees (committees)\"."
+msgid "committees_required"
 msgstr ""
 
-#. Default: ""
-msgid ""
+#. Default: "Attributes \"committees_assembly\" and \"committees_attendees\" can't be used together."
+msgid "no_committees_assembly_and_committees_attendees"
 msgstr ""
 
-#. Default: ""
-msgid ""
+#. Default: "Attributes \"committees_sigantures\" and \"committees_signatories\" can't be used together."
+msgid "no_committees_signatures_and_committees_signatories"
 msgstr ""
 
 #. Default: ""

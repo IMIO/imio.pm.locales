@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PloneMeeting\n"
-"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"POT-Creation-Date: 2005-05-17 15:00-100\n"
 "PO-Revision-Date: 2010-02-23 10:14+0100\n"
 "Last-Translator: Gaetan Delannay <gaetan.delannay@geezteem.com>\n"
 "Language-Team: English <gaetan.delannay@geezteem.com>\n"
@@ -2389,6 +2389,10 @@ msgstr "Annexes to print"
 msgid "annexes_to_sign_term"
 msgstr "Annexes to sign"
 
+#. Default: "Annexes types are hidden by default, you can ${force_display} of it (may take some time)."
+msgid "annexes_types_force_display_descr"
+msgstr ""
+
 #. Default: "Application users"
 msgid "app_users"
 msgstr "Application users"
@@ -2622,10 +2626,6 @@ msgstr "Every item, within this meeting configuration, can only belong to one ca
 msgid "categories_folder_contents_view"
 msgstr "the \"Folder contents view\""
 
-#. Default: "force display"
-msgid "categories_force_display"
-msgstr "force display"
-
 #. Default: "You can ${force_display} of every categories (may take some time)."
 msgid "categories_force_display_descr"
 msgstr "You can ${force_display} of every categories (may take some time)."
@@ -2796,6 +2796,10 @@ msgstr ""
 
 #. Default: "Define committees that will be useable on meetings and items (you also need to enable \"Committees\" on the meeting in the [Data] tab). This will show a \"Committees\" table on the meeting and will be also managed on the item. <br />There are 2 ways to manage committees on the item, either manually or automatically:<ul><li>Manually: just define committees, this will create a multiselection box on the item and users may select it.  It is possible to use the column \"Restrict to\" to define which proposing groups will be able to select the committee;</li><li>Automatically: use the column \"Auto from\" to define which committees to associate to the item depending on proposing group, category or classifier. A MeetingManager is nevertheless able to edit the committee on the item.</li></ul>. These 2 ways are mutually exclusive, if you select values in the \"auto_from\" columb here under, the \"Automatic\" mode will be used."
 msgid "committees_descr"
+msgstr ""
+
+#. Default: "Using a \"Committees\" field requires the use of attribute \"Committees (committees)\"."
+msgid "committees_required"
 msgstr ""
 
 #. Default: "Complete"
@@ -3419,6 +3423,10 @@ msgstr "Please respect order of transitions sequence to present an item, the fir
 #. Default: "In the application folder of every member, a sub-folder is created for each meeting configuration. The name of this sub-folder is defined here."
 msgid "folder_title_descr"
 msgstr "In the application folder of every member, a sub-folder is created for each meeting configuration. The name of this sub-folder is defined here."
+
+#. Default: "force display"
+msgid "force_display"
+msgstr ""
 
 #. Default: "<p>PloneMeeting body in HTML format.</p>"
 msgid "front_page_body"
@@ -4560,6 +4568,14 @@ msgstr "No category is currently defined."
 msgid "no_classifier"
 msgstr "No classifier is currently defined."
 
+#. Default: "Attributes \"committees_assembly\" and \"committees_attendees\" can't be used together."
+msgid "no_committees_assembly_and_committees_attendees"
+msgstr ""
+
+#. Default: "Attributes \"committees_sigantures\" and \"committees_signatories\" can't be used together."
+msgid "no_committees_signatures_and_committees_signatories"
+msgstr ""
+
 #. Default: "None"
 msgid "no_config_group"
 msgstr "None"
@@ -5570,44 +5586,44 @@ msgstr "Attendees"
 msgid "title_authority_notice"
 msgstr "Authority notice"
 
+#. Default: "Committees"
+msgid "title_committees"
+msgstr ""
+
 #. Default: "Assembly"
-msgid "title_committee_assembly"
+msgid "title_committees_assembly"
 msgstr ""
 
 #. Default: "Attendees"
-msgid "title_committee_attendees"
+msgid "title_committees_attendees"
 msgstr ""
 
 #. Default: "Convocation date"
-msgid "title_committee_convocation_date"
+msgid "title_committees_convocation_date"
 msgstr ""
 
 #. Default: "Date"
-msgid "title_committee_date"
+msgid "title_committees_date"
 msgstr ""
 
-#. Default: "Committee observations"
-msgid "title_committee_observations"
-msgstr "Committee observations"
+#. Default: "Committees observations"
+msgid "title_committees_observations"
+msgstr ""
 
 #. Default: "Place"
-msgid "title_committee_place"
+msgid "title_committees_place"
 msgstr ""
 
 #. Default: "Committee"
-msgid "title_committee_row_id"
+msgid "title_committees_row_id"
 msgstr ""
 
 #. Default: "Signatories"
-msgid "title_committee_signatories"
+msgid "title_committees_signatories"
 msgstr ""
 
 #. Default: "Signatures"
-msgid "title_committee_signatures"
-msgstr ""
-
-#. Default: ""
-msgid "title_committees"
+msgid "title_committees_signatures"
 msgstr ""
 
 #. Default: "Convocation date"
