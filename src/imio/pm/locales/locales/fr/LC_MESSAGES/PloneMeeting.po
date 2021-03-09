@@ -2586,6 +2586,10 @@ msgstr "Assemblée et signatures : vous ne pouvez pas désélectionner un votant
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "Ce point ne peut plus être renvoyé vers les gestionnaires de séance car la séance dans laquelle ce point est présenté est dans un état qui ne l'autorise pas (${meetingState})."
 
+#. Default: "You can not select \"No committee\" and a committee."
+msgid "can_not_select_no_committee_and_committee"
+msgstr "Vous ne pouvez pas sélectionner \"Ne passe pas en commission\" et une commission."
+
 #. Default: "You can not select an adviser that is already displayed on the item as an inherited advice.  If you need to ask this advice again, you need to remove the inherited advice (as a MeetingManager or a Manager) then select advice again."
 msgid "can_not_select_optional_adviser_same_group_as_inherited"
 msgstr "Vous ne pouvez pas sélectionner un avis qui est déjà hérité sur le point. Si vous devez demander cet avis à nouveau, vous devez d'abord utiliser l'action \"Enlever l'avis hérité\" sur l'avis en tant que gestionnaire de séances ou administrateur de l'application."
@@ -3267,6 +3271,10 @@ msgstr "Vous ne pouvez pas utiliser le même identifiant plusieurs fois."
 #. Default: "You may only use lowercase letters for identifier."
 msgid "error_list_types_wrong_identifier_format"
 msgstr "Vous ne pouvez utiliser que des lettres minuscules pour l'identifiant."
+
+#. Default: "Some selected values are no more selectable (no more selected in the \"Ordered committees contacts\" field), please check value \"${hp_title}\".  You can not select \"No committee\" and a committee.  If you lost encoded values, just cancel edition and edit again correctly."
+msgid "error_value_removed_used_in_committees_field"
+msgstr "Vous ne pouvez utiliser que des valeurs sélectionnées dans le champ \"Membres d'assemblée des commissions sélectionnables\", vérifiez la valeur \"${hp_title}\". Si vous avez perdu les valeurs encodées, annulez l'édition et éditez à nouveau."
 
 #. Default: "An advice was added or updated on an item (notify the \"Creators\")"
 msgid "event_add_advice"
@@ -4566,6 +4574,14 @@ msgstr "Aucune catégorie n'est actuellement définie."
 #. Default: "No classifier is currently defined."
 msgid "no_classifier"
 msgstr "Aucun classificateur n'est actuellement défini."
+
+#. Default: "NC"
+msgid "no_committee_term_title_acronym"
+msgstr "NoComm"
+
+#. Default: "No committee"
+msgid "no_committee_term_title_label"
+msgstr "Ne passe pas en commission"
 
 #. Default: "Attributes \"committees_assembly\" and \"committees_attendees\" can't be used together."
 msgid "no_committees_assembly_and_committees_attendees"
