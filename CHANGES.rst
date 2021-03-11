@@ -18,6 +18,8 @@ Changelog
   [gbastien]
 - Adapted translations now that Meeting was moved from AT to DX.
   [gbastien]
+- Added translations regarding the `Committees` management.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------

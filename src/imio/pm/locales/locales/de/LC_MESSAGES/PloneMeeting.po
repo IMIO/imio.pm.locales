@@ -35,6 +35,10 @@ msgstr ""
 msgid "(Nobody)"
 msgstr ""
 
+#. Default: "(None)"
+msgid "(None)"
+msgstr ""
+
 #. Default: "Add PloneMeeting Portlet"
 msgid "Add PloneMeeting Portlet"
 msgstr "PloneMeeting Portlet hinzufügen"
@@ -934,6 +938,10 @@ msgstr ""
 msgid "PloneMeeting_label_committeeObservations"
 msgstr ""
 
+#. Default: "Committees"
+msgid "PloneMeeting_label_committees"
+msgstr ""
+
 #. Default: "Completeness"
 msgid "PloneMeeting_label_completeness"
 msgstr ""
@@ -1476,6 +1484,10 @@ msgstr "Ist dieser TOP ist eine mündliche Anfrage?"
 
 #. Default: "Associated organizations order"
 msgid "PloneMeeting_label_orderedAssociatedOrganizations"
+msgstr ""
+
+#. Default: "Attendees selectable for committees"
+msgid "PloneMeeting_label_orderedCommitteeContacts"
 msgstr ""
 
 #. Default: "Selectable assembly members"
@@ -2397,6 +2409,10 @@ msgstr ""
 msgid "annexes_to_sign_term"
 msgstr ""
 
+#. Default: "Annexes types are hidden by default, you can ${force_display} of it (may take some time)."
+msgid "annexes_types_force_display_descr"
+msgstr ""
+
 #. Default: "Application users"
 msgid "app_users"
 msgstr ""
@@ -2593,6 +2609,10 @@ msgstr ""
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr ""
 
+#. Default: "You can not select \"No committee\" and a committee."
+msgid "can_not_select_no_committee_and_committee"
+msgstr ""
+
 #. Default: "You can not select an adviser that is already displayed on the item as an inherited advice.  If you need to ask this advice again, you need to remove the inherited advice (as a MeetingManager or a Manager) then select advice again."
 msgid "can_not_select_optional_adviser_same_group_as_inherited"
 msgstr ""
@@ -2632,10 +2652,6 @@ msgstr "Jeder TOP in dieser Sitzungs-Konfiguration kann nur zu einer Kategorie g
 
 #. Default: "the \"Folder contents view\""
 msgid "categories_folder_contents_view"
-msgstr ""
-
-#. Default: "force display"
-msgid "categories_force_display"
 msgstr ""
 
 #. Default: "You can ${force_display} of every categories (may take some time)."
@@ -2793,6 +2809,26 @@ msgstr ""
 
 #. Default: "Your configuration says can not correct this closed meeting, contact your system administrator if you want to change this."
 msgid "closed_meeting_not_correctable_by_config"
+msgstr ""
+
+#. Default: "${title} (${number}&nbsp;s.)"
+msgid "committee_title_with_abbr_suppl"
+msgstr ""
+
+#. Default: "${title} (${number}&nbsp;supplement)"
+msgid "committee_title_with_suppl"
+msgstr ""
+
+#. Default: "Committees"
+msgid "committees"
+msgstr ""
+
+#. Default: "Define committees that will be useable on meetings and items (you also need to enable \"Committees\" on the meeting in the [Data] tab). This will show a \"Committees\" table on the meeting and will be also managed on the item. <br />There are 2 ways to manage committees on the item, either manually or automatically:<ul><li>Manually: just define committees, this will create a multiselection box on the item and users may select it.  It is possible to use the column \"Restrict to\" to define which proposing groups will be able to select the committee;</li><li>Automatically: use the column \"Auto from\" to define which committees to associate to the item depending on proposing group, category or classifier. A MeetingManager is nevertheless able to edit the committee on the item.</li></ul>. These 2 ways are mutually exclusive, if you select values in the \"auto_from\" columb here under, the \"Automatic\" mode will be used."
+msgid "committees_descr"
+msgstr ""
+
+#. Default: "Using a \"Committees\" field requires the use of attribute \"Committees (committees)\"."
+msgid "committees_required"
 msgstr ""
 
 #. Default: "Complete"
@@ -3241,6 +3277,14 @@ msgstr ""
 msgid "error_certified_signatures_order"
 msgstr ""
 
+#. Default: "You can not remove a configuration that was already used, removed configuration \"${committee_label}\" is used for example by item at ${url}.  If you lost encoded values, just cancel edition and edit again correctly."
+msgid "error_committee_row_id_removed_already_used"
+msgstr ""
+
+#. Default: "You can not define values for the \"auto_from\" and \"using_groups\" columns, their use is multually exclusive.  If you lost encoded values, just cancel edition and edit again correctly."
+msgid "error_committees_mutually_exclusive_auto_from_and_using_groups"
+msgstr ""
+
 #. Default: "You may not remove a list type that is currently used by an item, check for example : ${url}."
 msgid "error_list_types_identifier_removed_already_used"
 msgstr ""
@@ -3255,6 +3299,10 @@ msgstr ""
 
 #. Default: "You may only use lowercase letters for identifier."
 msgid "error_list_types_wrong_identifier_format"
+msgstr ""
+
+#. Default: "Some selected values are no more selectable (no more selected in the \"Ordered committees contacts\" field), please check value \"${hp_title}\".  You can not select \"No committee\" and a committee.  If you lost encoded values, just cancel edition and edit again correctly."
+msgid "error_value_removed_used_in_committees_field"
 msgstr ""
 
 #. Default: "An advice was added or updated on an item (notify the \"Creators\")"
@@ -3389,12 +3437,16 @@ msgstr ""
 msgid "fieldset_assembly"
 msgstr ""
 
+#. Default: "Committees"
+msgid "fieldset_committees"
+msgstr ""
+
 #. Default: "Dates and data"
 msgid "fieldset_dates_and_data"
 msgstr ""
 
-#. Default: "Details"
-msgid "fieldset_details"
+#. Default: "Informations"
+msgid "fieldset_informations"
 msgstr ""
 
 #. Default: "Parameters"
@@ -3418,6 +3470,10 @@ msgstr ""
 #, fuzzy
 msgid "folder_title_descr"
 msgstr "Im PloneMeeting-Ordner jedes Nutzers wird für jede Sitzungs-Konfiguration ein Unterordner erstellt. Der Name dieses Unterordners wird hier definiert."
+
+#. Default: "force display"
+msgid "force_display"
+msgstr ""
 
 #. Default: "<p>PloneMeeting body in HTML format.</p>"
 msgid "front_page_body"
@@ -4588,6 +4644,22 @@ msgstr "Derzeit ist keine Kategorie definiert."
 msgid "no_classifier"
 msgstr ""
 
+#. Default: "NC"
+msgid "no_committee_term_title_acronym"
+msgstr ""
+
+#. Default: "No committee"
+msgid "no_committee_term_title_label"
+msgstr ""
+
+#. Default: "Attributes \"committees_assembly\" and \"committees_attendees\" can't be used together."
+msgid "no_committees_assembly_and_committees_attendees"
+msgstr ""
+
+#. Default: "Attributes \"committees_sigantures\" and \"committees_signatories\" can't be used together."
+msgid "no_committees_signatures_and_committees_signatories"
+msgstr ""
+
 #. Default: "None"
 msgid "no_config_group"
 msgstr ""
@@ -4693,6 +4765,14 @@ msgstr "Nichts zu unternehmen."
 msgid "notify_users_able_to_view_element"
 msgstr ""
 
+#. Default: "${number}st"
+msgid "num_part_st"
+msgstr ""
+
+#. Default: "${number}th"
+msgid "num_part_th"
+msgstr ""
+
 #. Default: "Total number of voters"
 msgid "number_of_voters"
 msgstr ""
@@ -4707,6 +4787,10 @@ msgstr "Beobachter"
 
 #. Default: "Follow all associated groups order"
 msgid "on_all_associated_groups"
+msgstr ""
+
+#. Default: "Follow all committees order"
+msgid "on_all_committees"
 msgstr ""
 
 #. Default: "Follow all groups order"
@@ -4796,6 +4880,10 @@ msgstr ""
 
 #. Default: "If this field is left empty, selectable associated organizations are every organizations selected in the plonegroup configuration panel.  Here you may select associated organizations in a particular order including organizations that are not selected in the plonegroup configuration panel.  This is only relevant if the 'Associated groups' field is enabled on items."
 msgid "ordered_associated_organizations_descr"
+msgstr ""
+
+#. Default: "Select here attendees that will be selectable in the \"Attendees\" column of defined committees here under.  <span style='color: red;'>If you select/unselect values, you need to save first then edit again for these values to appear/disappear if field \"Committees\" here under.</span>"
+msgid "ordered_committee_contacts_descr"
 msgstr ""
 
 #. Default: "Select here contacts that will be usable to manage meeting attendees.  The contacts order defined here will be the default order when creating a new meeting."
@@ -5597,8 +5685,44 @@ msgstr ""
 msgid "title_authority_notice"
 msgstr ""
 
-#. Default: "Committee observations"
-msgid "title_committee_observations"
+#. Default: "Committees"
+msgid "title_committees"
+msgstr ""
+
+#. Default: "Assembly"
+msgid "title_committees_assembly"
+msgstr ""
+
+#. Default: "Attendees"
+msgid "title_committees_attendees"
+msgstr ""
+
+#. Default: "Convocation date"
+msgid "title_committees_convocation_date"
+msgstr ""
+
+#. Default: "Date"
+msgid "title_committees_date"
+msgstr ""
+
+#. Default: "Committees observations"
+msgid "title_committees_observations"
+msgstr ""
+
+#. Default: "Place"
+msgid "title_committees_place"
+msgstr ""
+
+#. Default: "Committee"
+msgid "title_committees_row_id"
+msgstr ""
+
+#. Default: "Signatories"
+msgid "title_committees_signatories"
+msgstr ""
+
+#. Default: "Signatures"
+msgid "title_committees_signatures"
 msgstr ""
 
 #. Default: "Convocation date"
@@ -5914,10 +6038,6 @@ msgstr ""
 msgid "used_vote_values_descr"
 msgstr "Legen Sie hier fest welche Abstimmungsmöglichkeiten für dieses Sitzungskonfiguration bestehen."
 
-#. Default: "Users"
-msgid "users"
-msgstr "Benutzer"
-
 #. Default: "If you do not select anything, every users will be displayed."
 msgid "users_hidden_in_dashboard_filter_descr"
 msgstr ""
@@ -6031,6 +6151,7 @@ msgid "voter_count"
 msgstr "${numberOfVoters} Stimmberechtigte"
 
 #. Default: "Votes"
+#, fuzzy
 msgid "votes"
 msgstr "Abstimmungen"
 

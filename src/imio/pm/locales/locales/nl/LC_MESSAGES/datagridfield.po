@@ -18,6 +18,54 @@ msgstr ""
 msgid "Available on"
 msgstr ""
 
+#. Default: "Committee acronym"
+msgid "Committee acronym"
+msgstr ""
+
+#. Default: "Committee auto from"
+msgid "Committee auto from"
+msgstr ""
+
+#. Default: "Committee default assembly"
+msgid "Committee default assembly"
+msgstr ""
+
+#. Default: "Committee default attendees"
+msgid "Committee default attendees"
+msgstr ""
+
+#. Default: "Committee default place"
+msgid "Committee default place"
+msgstr ""
+
+#. Default: "Committee default signatories"
+msgid "Committee default signatories"
+msgstr ""
+
+#. Default: "Committee default signatures"
+msgid "Committee default signatures"
+msgstr ""
+
+#. Default: "Committee enabled?"
+msgid "Committee enabled?"
+msgstr ""
+
+#. Default: "Committee label"
+msgid "Committee label"
+msgstr ""
+
+#. Default: "Committee row id"
+msgid "Committee row id"
+msgstr ""
+
+#. Default: "Committee supplements"
+msgid "Committee supplements"
+msgstr ""
+
+#. Default: "Committee using groups"
+msgid "Committee using groups"
+msgstr ""
+
 #. Default: "Full label"
 msgid "Config group full label"
 msgstr ""
@@ -312,6 +360,38 @@ msgstr ""
 
 #. Default: "Specify here a TAL expression that will restrict or allow the use of this advice to some condition.  We receive \"item\" as the meeting item to give an advice on and \"mayEdit\", a boolean to know if current user may edit the item.  A special expression is available to protect a row that should only be available thru the \"Change delay\" action, it is : \"python: item.REQUEST.get('managing_available_delays', False)\".  This can not be used if something is defined in the \"Advice will be automatically asked if\" column of this advice, but for optional delay-aware advice or for delay-aware advices linked to an automatic advice (using the \"Is linked to previous row?\" column)"
 msgid "available_on_col_description"
+msgstr ""
+
+#. Default: "Used to automatically determinate the committee for the item, the field \"Committees\" will not appear on the item when editing it (except for MeetingManagers).  This may only be used when column \"using_groups\" is not used."
+msgid "committees_auto_from_col_description"
+msgstr ""
+
+#. Default: "Used when creating a new meeting if field \"Assembly\" is enabled for committees, does not impact already created meetings."
+msgid "committees_default_assembly_col_description"
+msgstr ""
+
+#. Default: "Used when creating a new meeting if field \"Attendees\" is enabled for committees, does not impact already created meetings."
+msgid "committees_default_attendees_col_description"
+msgstr ""
+
+#. Default: "Used when creating a new meeting if field \"Place\" is enabled for committees, does not impact already created meetings."
+msgid "committees_default_place_col_description"
+msgstr ""
+
+#. Default: "Used when creating a new meeting if field \"Signatories\" is enabled for committees, does not impact already created meetings."
+msgid "committees_default_signatories_col_description"
+msgstr ""
+
+#. Default: "Used when creating a new meeting if field \"Signatures\" is enabled for committees, does not impact already created meetings."
+msgid "committees_default_signatures_col_description"
+msgstr ""
+
+#. Default: "Will generate new values on item \"Committees\" field when necessary to manage supplements (items added to meeting after committees convocation were sent).  This will only be useable by MeetingManagers."
+msgid "committees_supplements_col_description"
+msgstr ""
+
+#. Default: "Used to restrict availability of a committee on the item committees selection box.  This may only be used when column \"auto_from\" is not used."
+msgid "committees_using_groups_col_description"
 msgstr ""
 
 #. Default: "Enter the delay the adviser will have to give his advice. If it is not considered as an automatically asked advice (nothing defined in the \"Advice will be automatically asked if\" column), the advice will be selectable in the \"Ask advice to\" list on the item edit form. A delay is a single digit (like \"5\" or \"10\"). If no delay is relevant for this advice, leave this field blank. If several delays are possible for the same advice, you have to define several rows with exactly the same content excepted the delay."

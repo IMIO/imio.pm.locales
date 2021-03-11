@@ -380,6 +380,10 @@ msgstr ""
 msgid "(Nobody)"
 msgstr ""
 
+#. Default: "(None)"
+msgid "(None)"
+msgstr ""
+
 #. Default: "Taken over by ${fullname}"
 msgid "Taken over by ${fullname}"
 msgstr ""
@@ -1810,6 +1814,10 @@ msgstr ""
 
 #. Default: "Follow all associated groups order"
 msgid "on_all_associated_groups"
+msgstr ""
+
+#. Default: "Follow all committees order"
+msgid "on_all_committees"
 msgstr ""
 
 #. Default: "Follow the privacy (order is defined in the field \"Selectable privacies\" here under.)"
@@ -3706,12 +3714,12 @@ msgstr ""
 msgid "mail"
 msgstr ""
 
-#. Default: "Votes"
-msgid "votes"
+#. Default: "Committees"
+msgid "committees"
 msgstr ""
 
-#. Default: "Users"
-msgid "users"
+#. Default: "Votes"
+msgid "votes"
 msgstr ""
 
 #. Default: "Criteria"
@@ -5042,8 +5050,12 @@ msgstr ""
 msgid "categories_force_display_descr"
 msgstr ""
 
+#. Default: "Annexes types are hidden by default, you can ${force_display} of it (may take some time)."
+msgid "annexes_types_force_display_descr"
+msgstr ""
+
 #. Default: "force display"
-msgid "categories_force_display"
+msgid "force_display"
 msgstr ""
 
 #. Default: "You may use the ${folder_contents_link} to manage elements order."
@@ -6062,8 +6074,12 @@ msgstr ""
 msgid "fieldset_assembly"
 msgstr ""
 
-#. Default: "Details"
-msgid "fieldset_details"
+#. Default: "Informations"
+msgid "fieldset_informations"
+msgstr ""
+
+#. Default: "Committees"
+msgid "fieldset_committees"
 msgstr ""
 
 #. Default: "Parameters"
@@ -6162,8 +6178,8 @@ msgstr ""
 msgid "title_pre_observations"
 msgstr ""
 
-#. Default: "Committee observations"
-msgid "title_committee_observations"
+#. Default: "Committees observations"
+msgid "title_committees_observations"
 msgstr ""
 
 #. Default: "Votes observations"
@@ -6238,3 +6254,106 @@ msgstr ""
 msgid "copy_groups_help_msg"
 msgstr ""
 
+#. Default: "${title} (${number}&nbsp;supplement)"
+msgid "committee_title_with_suppl"
+msgstr ""
+
+#. Default: "${title} (${number}&nbsp;s.)"
+msgid "committee_title_with_abbr_suppl"
+msgstr ""
+
+#. Default: "${number}st"
+msgid "num_part_st"
+msgstr ""
+
+#. Default: "${number}th"
+msgid "num_part_th"
+msgstr ""
+
+#. Default: "Committee"
+msgid "title_committees_row_id"
+msgstr ""
+
+#. Default: "Date"
+msgid "title_committees_date"
+msgstr ""
+
+#. Default: "Convocation date"
+msgid "title_committees_convocation_date"
+msgstr ""
+
+#. Default: "Place"
+msgid "title_committees_place"
+msgstr ""
+
+#. Default: "Assembly"
+msgid "title_committees_assembly"
+msgstr ""
+
+#. Default: "Attendees"
+msgid "title_committees_attendees"
+msgstr ""
+
+#. Default: "Signatures"
+msgid "title_committees_signatures"
+msgstr ""
+
+#. Default: "Committees"
+msgid "title_committees"
+msgstr ""
+
+#. Default: "Signatories"
+msgid "title_committees_signatories"
+msgstr ""
+
+#. Default: "You can not remove a configuration that was already used, removed configuration \"${committee_label}\" is used for example by item at ${url}.  If you lost encoded values, just cancel edition and edit again correctly."
+msgid "error_committee_row_id_removed_already_used"
+msgstr ""
+
+#. Default: "You can not define values for the \"auto_from\" and \"using_groups\" columns, their use is multually exclusive.  If you lost encoded values, just cancel edition and edit again correctly."
+msgid "error_committees_mutually_exclusive_auto_from_and_using_groups"
+msgstr ""
+
+#. Default: "Attendees selectable for committees"
+msgid "PloneMeeting_label_orderedCommitteeContacts"
+msgstr ""
+
+#. Default: "Select here attendees that will be selectable in the \"Attendees\" column of defined committees here under.  <span style='color: red;'>If you select/unselect values, you need to save first then edit again for these values to appear/disappear if field \"Committees\" here under.</span>"
+msgid "ordered_committee_contacts_descr"
+msgstr ""
+
+#. Default: "Committees"
+msgid "PloneMeeting_label_committees"
+msgstr ""
+
+#. Default: "Define committees that will be useable on meetings and items (you also need to enable \"Committees\" on the meeting in the [Data] tab). This will show a \"Committees\" table on the meeting and will be also managed on the item. <br />There are 2 ways to manage committees on the item, either manually or automatically:<ul><li>Manually: just define committees, this will create a multiselection box on the item and users may select it.  It is possible to use the column \"Restrict to\" to define which proposing groups will be able to select the committee;</li><li>Automatically: use the column \"Auto from\" to define which committees to associate to the item depending on proposing group, category or classifier. A MeetingManager is nevertheless able to edit the committee on the item.</li></ul>. These 2 ways are mutually exclusive, if you select values in the \"auto_from\" columb here under, the \"Automatic\" mode will be used."
+msgid "committees_descr"
+msgstr ""
+
+#. Default: "Using a \"Committees\" field requires the use of attribute \"Committees (committees)\"."
+msgid "committees_required"
+msgstr ""
+
+#. Default: "Attributes \"committees_assembly\" and \"committees_attendees\" can't be used together."
+msgid "no_committees_assembly_and_committees_attendees"
+msgstr ""
+
+#. Default: "Attributes \"committees_sigantures\" and \"committees_signatories\" can't be used together."
+msgid "no_committees_signatures_and_committees_signatories"
+msgstr ""
+
+#. Default: "No committee"
+msgid "no_committee_term_title_label"
+msgstr ""
+
+#. Default: "NC"
+msgid "no_committee_term_title_acronym"
+msgstr ""
+
+#. Default: "You can not select \"No committee\" and a committee."
+msgid "can_not_select_no_committee_and_committee"
+msgstr ""
+
+#. Default: "Some selected values are no more selectable (no more selected in the \"Ordered committees contacts\" field), please check value \"${hp_title}\".  You can not select \"No committee\" and a committee.  If you lost encoded values, just cancel edition and edit again correctly."
+msgid "error_value_removed_used_in_committees_field"
+msgstr ""
