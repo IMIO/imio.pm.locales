@@ -5,8 +5,10 @@ Changelog
 4.1.18.5 (unreleased)
 ---------------------
 
-- Nothing changed yet.
+- Backport from 4.2.x:
 
+  - Changed default translation for `move_item_to_given_position`.
+    [gbastien]
 
 4.1.18.4 (2021-02-24)
 ---------------------
