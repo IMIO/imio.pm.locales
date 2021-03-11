@@ -20,6 +20,8 @@ Changelog
   [gbastien]
 - Added translations regarding the `Committees` management.
   [gbastien]
+- Changed default translation for `move_item_to_given_position`.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
