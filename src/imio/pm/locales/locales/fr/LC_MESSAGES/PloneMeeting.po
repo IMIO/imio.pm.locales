@@ -2333,6 +2333,42 @@ msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\
 msgid "annex_restrict_shown_and_editable_attributes_descr"
 msgstr "Sélectionnez ici pour les attributs activables sur les annexes, lesquels seront affichés ou éditables seulement par les gestionnaires de séances."
 
+#. Default: "Confidential"
+msgid "annex_term_confidential"
+msgstr "Confidentiel"
+
+#. Default: "Not confidential"
+msgid "annex_term_not_confidential"
+msgstr "Non confidentiel"
+
+#. Default: "Not publishable"
+msgid "annex_term_not_publishable"
+msgstr "Non publiable"
+
+#. Default: "Not to print"
+msgid "annex_term_not_to_print"
+msgstr "Pas à imprimer"
+
+#. Default: "Not to sign"
+msgid "annex_term_not_to_sign"
+msgstr "Pas à signer"
+
+#. Default: "Publishable"
+msgid "annex_term_publishable"
+msgstr "Publiable"
+
+#. Default: "Signed"
+msgid "annex_term_signed"
+msgstr "Signé"
+
+#. Default: "To print"
+msgid "annex_term_to_print"
+msgstr "À imprimer"
+
+#. Default: "To sign"
+msgid "annex_term_to_sign"
+msgstr "À signer"
+
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titre"
@@ -2380,18 +2416,6 @@ msgstr "<span style='color: red;'>La prévisualisation des annexes est désactiv
 #. Default: "<span style='color: green;'>Annexes preview is enabled in the ${documentviewer_url}.</span>"
 msgid "annexes_preview_enabled"
 msgstr "<span style='color: green;'>La prévisualisation des annexes est activée dans les '${documentviewer_url}' (la case 'Convertir automatiquement' est cochée).</span>"
-
-#. Default: "Signed annexes"
-msgid "annexes_signed_term"
-msgstr "Annexes signées"
-
-#. Default: "Annexes to print"
-msgid "annexes_to_print_term"
-msgstr "Annexes à imprimer"
-
-#. Default: "Annexes to sign"
-msgid "annexes_to_sign_term"
-msgstr "Annexes à signer"
 
 #. Default: "Annexes types are hidden by default, you can ${force_display} of it (may take some time)."
 msgid "annexes_types_force_display_descr"
@@ -4558,14 +4582,6 @@ msgstr "Néant"
 #. Default: "No annex is currently defined for this element."
 msgid "no_annexes"
 msgstr "Aucune."
-
-#. Default: "No annexes to print"
-msgid "no_annexes_to_print_term"
-msgstr "Aucune annexe à imprimer"
-
-#. Default: "Annexes not to sign"
-msgid "no_annexes_to_sign_term"
-msgstr "Annexes à ne pas signer"
 
 #. Default: "Attributes \"assembly\" and \"attendees\" can't be used together."
 msgid "no_assembly_and_attendees"
