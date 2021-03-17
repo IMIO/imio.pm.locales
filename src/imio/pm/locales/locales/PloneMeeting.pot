@@ -4450,26 +4450,6 @@ msgstr ""
 msgid "not_to_be_send_to_authority_term"
 msgstr ""
 
-#. Default: "Annexes to print"
-msgid "annexes_to_print_term"
-msgstr ""
-
-#. Default: "No annexes to print"
-msgid "no_annexes_to_print_term"
-msgstr ""
-
-#. Default: "Annexes to sign"
-msgid "annexes_to_sign_term"
-msgstr ""
-
-#. Default: "Signed annexes"
-msgid "annexes_signed_term"
-msgstr ""
-
-#. Default: "Annexes not to sign"
-msgid "no_annexes_to_sign_term"
-msgstr ""
-
 #. Default: "Item down workflow"
 msgid "item_down_wf_term"
 msgstr ""
@@ -6356,4 +6336,40 @@ msgstr ""
 
 #. Default: "Some selected values are no more selectable (no more selected in the \"Ordered committees contacts\" field), please check value \"${hp_title}\".  You can not select \"No committee\" and a committee.  If you lost encoded values, just cancel edition and edit again correctly."
 msgid "error_value_removed_used_in_committees_field"
+msgstr ""
+
+#. Default: "Signed"
+msgid "annex_term_signed"
+msgstr ""
+
+#. Default: "Confidential"
+msgid "annex_term_confidential"
+msgstr ""
+
+#. Default: "Not confidential"
+msgid "annex_term_not_confidential"
+msgstr ""
+
+#. Default: "Publishable"
+msgid "annex_term_publishable"
+msgstr ""
+
+#. Default: "Not publishable"
+msgid "annex_term_not_publishable"
+msgstr ""
+
+#. Default: "To sign"
+msgid "annex_term_to_sign"
+msgstr ""
+
+#. Default: "Not to sign"
+msgid "annex_term_not_to_sign"
+msgstr ""
+
+#. Default: "To print"
+msgid "annex_term_to_print"
+msgstr ""
+
+#. Default: "Not to print"
+msgid "annex_term_not_to_print"
 msgstr ""

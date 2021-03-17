@@ -22,6 +22,8 @@ Changelog
   [gbastien]
 - Changed default translation for `move_item_to_given_position`.
   [gbastien]
+- Added translations for annexes faceted filter vocabulary.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------

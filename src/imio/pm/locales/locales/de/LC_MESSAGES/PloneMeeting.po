@@ -2349,6 +2349,42 @@ msgstr ""
 msgid "annex_restrict_shown_and_editable_attributes_descr"
 msgstr ""
 
+#. Default: "Confidential"
+msgid "annex_term_confidential"
+msgstr ""
+
+#. Default: "Not confidential"
+msgid "annex_term_not_confidential"
+msgstr ""
+
+#. Default: "Not publishable"
+msgid "annex_term_not_publishable"
+msgstr ""
+
+#. Default: "Not to print"
+msgid "annex_term_not_to_print"
+msgstr ""
+
+#. Default: "Not to sign"
+msgid "annex_term_not_to_sign"
+msgstr ""
+
+#. Default: "Publishable"
+msgid "annex_term_publishable"
+msgstr ""
+
+#. Default: "Signed"
+msgid "annex_term_signed"
+msgstr ""
+
+#. Default: "To print"
+msgid "annex_term_to_print"
+msgstr ""
+
+#. Default: "To sign"
+msgid "annex_term_to_sign"
+msgstr ""
+
 #. Default: "Title"
 msgid "annex_title"
 msgstr "Titel"
@@ -2395,18 +2431,6 @@ msgstr ""
 
 #. Default: "<span style='color: green;'>Annexes preview is enabled in the ${documentviewer_url}.</span>"
 msgid "annexes_preview_enabled"
-msgstr ""
-
-#. Default: "Signed annexes"
-msgid "annexes_signed_term"
-msgstr ""
-
-#. Default: "Annexes to print"
-msgid "annexes_to_print_term"
-msgstr ""
-
-#. Default: "Annexes to sign"
-msgid "annexes_to_sign_term"
 msgstr ""
 
 #. Default: "Annexes types are hidden by default, you can ${force_display} of it (may take some time)."
@@ -4622,14 +4646,6 @@ msgstr "Null"
 #. Default: "No annex is currently defined for this element."
 msgid "no_annexes"
 msgstr "Für diesen TOP ist kein Anhang vorhanden."
-
-#. Default: "No annexes to print"
-msgid "no_annexes_to_print_term"
-msgstr ""
-
-#. Default: "Annexes not to sign"
-msgid "no_annexes_to_sign_term"
-msgstr ""
 
 #. Default: "Attributes \"assembly\" and \"attendees\" can't be used together."
 #, fuzzy
