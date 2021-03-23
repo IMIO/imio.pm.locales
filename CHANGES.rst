@@ -9,6 +9,8 @@ Changelog
 
   - Changed default translation for `move_item_to_given_position`.
     [gbastien]
+  - Added translation for `required_groupsInCharge_ko`.
+    [gbastien]
 
 4.1.18.4 (2021-02-24)
 ---------------------
