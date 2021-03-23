@@ -5207,6 +5207,10 @@ msgstr "Une catégorie doit être sélectionnée sur ce point afin qu'il puisse 
 msgid "required_classifier_ko"
 msgstr "Un classificateur doit être sélectionné sur ce point afin qu'il puisse continuer à évoluer dans le workflow"
 
+#. Default: "A group in charge must be selected on this item so it may evolve in the workflow"
+msgid "required_groupsInCharge_ko"
+msgstr "Un groupe en charge doit être sélectionné sur ce point afin qu'il puisse continuer à évoluer dans le workflow"
+
 #. Default: "Check the box if access to secret items must be restricted.  This will let only users for which an explicit access to the item has been given, access the item.  It will be the case so for members of the proposing groups, power users (Managers, MeetingManagers, power observers), copy groups and advisers.  Only activate this if necessary, it could be the case if you have a state where everything is accessible by everyone (like a \"published\" state for items) but where you want \"secret\" items not to be accessible by everyone."
 msgid "restrict_access_to_secret_items_descr"
 msgstr "Si vous cochez cette case, l'accès aux points \"à huis clos\" sera restreint pour certains utilisateurs.  Ceci permet de spécifier que les points à huis clos ne doivent être accessible qu'aux personnes ayant reçu un accès explicite au point : les super utilisteurs (administrateurs, gestionnaires de séances, super observateurs), les membres du groupe proposant, les groupes en copies et les émetteurs d'avis (dont l'avis est demandé sur le point).  Par défaut, cette fonctionnalité est désactivée, à n'activer que si nécessaire, par exemple dans le cas où vous avez un état sur le point qui est accessible à tous (par exemple \"publié\") mais que vous souhaitez malgré tout que les points à huis clos ne soient accessible que de manière explicite."

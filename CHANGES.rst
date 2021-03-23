@@ -24,6 +24,8 @@ Changelog
   [gbastien]
 - Added translations for annexes faceted filter vocabulary.
   [gbastien]
+- Added translation for `required_groupsInCharge_ko`.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------

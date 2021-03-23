@@ -5312,6 +5312,10 @@ msgstr ""
 msgid "required_classifier_ko"
 msgstr ""
 
+#. Default: "A group in charge must be selected on this item so it may evolve in the workflow"
+msgid "required_groupsInCharge_ko"
+msgstr ""
+
 #. Default: "Check the box if access to secret items must be restricted.  This will let only users for which an explicit access to the item has been given, access the item.  It will be the case so for members of the proposing groups, power users (Managers, MeetingManagers, power observers), copy groups and advisers.  Only activate this if necessary, it could be the case if you have a state where everything is accessible by everyone (like a \"published\" state for items) but where you want \"secret\" items not to be accessible by everyone."
 msgid "restrict_access_to_secret_items_descr"
 msgstr ""
