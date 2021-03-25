@@ -2926,7 +2926,7 @@ msgstr "${meetingConfigTitle} - You have been carbon copied - ${itemTitle}"
 
 #. Default: "These groups will have read access to the item in following states: ${states}.  When the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
 msgid "copy_groups_help_msg"
-msgstr ""
+msgstr "These groups will have read access to the item in following states: ${states}.  When the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
 
 #. Default: " "
 msgid "copy_groups_item_descr"
@@ -3568,9 +3568,9 @@ msgstr "Defined date must be defined by ascending order, from older date at the 
 msgid "holidays_descr"
 msgstr "These dates will be used to compute advices delays.  <span style='color: red;'>If you change this parameter and modified dates are interacting with some existing advice delays, do not forget to run \"Update items and meetings\"!</span>"
 
-#. Default: "You removed a date that is currently in use!"
+#. Default: "You removed a date that is currently in use! Check item at ${item_url}"
 msgid "holidays_removed_date_in_use_error"
-msgstr "You removed a date that is currently in use!"
+msgstr "You removed a date that is currently in use! Check item at ${item_url}"
 
 #. Default: "There are not enough holidays defined in the configuration.  These days are used for advice delay computation.  This warning appear when last holiday defined in the configuration is in less than 60 days. Contact you system administrator if necessary."
 msgid "holidays_warning_message"
@@ -4512,7 +4512,7 @@ msgstr "Save item number (you may also use the [Enter] key)"
 
 #. Default: "Move the item up"
 msgid "move_item_up"
-msgstr "Move the item up"
+msgstr ""
 
 #. Default: "Moves this item to the position that precedes the number you have introduced besides. If you want to move the item at the end of the list, specify the number of the last item plus one."
 msgid "move_several"

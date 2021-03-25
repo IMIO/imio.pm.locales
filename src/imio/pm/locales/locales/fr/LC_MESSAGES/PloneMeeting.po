@@ -3568,9 +3568,9 @@ msgstr "Les dates doivent être définies de manière ascendante, de la plus anc
 msgid "holidays_descr"
 msgstr "Ces dates seront utilisées lors du calcul des délais des avis.  <span style='color: red;'>Si vous modifiez ce paramètre et que les dates modifiées peuvent changer le délai d'un avis existant, n'oubliez pas d'exécuter \"Mettre à jour les points et séances\"!</span>"
 
-#. Default: "You removed a date that is currently in use!"
+#. Default: "You removed a date that is currently in use! Check item at ${item_url}"
 msgid "holidays_removed_date_in_use_error"
-msgstr "Vous ne pouvez pas supprimer une date qui est/a été utilisée!"
+msgstr "Vous ne pouvez pas supprimer une date qui est/a été utilisée! Vérifiez par exemple ${item_url}"
 
 #. Default: "There are not enough holidays defined in the configuration.  These days are used for advice delay computation.  This warning appear when last holiday defined in the configuration is in less than 60 days. Contact you system administrator if necessary."
 msgid "holidays_warning_message"
