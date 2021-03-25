@@ -26,6 +26,8 @@ Changelog
   [gbastien]
 - Added translation for `required_groupsInCharge_ko`.
   [gbastien]
+- Include `item_url` in `holidays_removed_date_in_use_error` translation.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------

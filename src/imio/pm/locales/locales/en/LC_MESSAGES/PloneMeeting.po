@@ -3642,9 +3642,9 @@ msgstr "Defined date must be defined by ascending order, from older date at the 
 msgid "holidays_descr"
 msgstr "These dates will be used to compute advices delays.  <span style='color: red;'>If you change this parameter and modified dates are interacting with some existing advice delays, do not forget to run \"Update items and meetings\"!</span>"
 
-#. Default: "You removed a date that is currently in use!"
+#. Default: "You removed a date that is currently in use! Check item at ${item_url}"
 msgid "holidays_removed_date_in_use_error"
-msgstr "You removed a date that is currently in use!"
+msgstr "You removed a date that is currently in use! Check item at ${item_url}"
 
 #. Default: "There are not enough holidays defined in the configuration.  These days are used for advice delay computation.  This warning appear when last holiday defined in the configuration is in less than 60 days. Contact you system administrator if necessary."
 msgid "holidays_warning_message"
@@ -4557,9 +4557,8 @@ msgid "model_adaptations_descr"
 msgstr "Select here some standard adaptations that can be applied to data structures."
 
 #. Default: "Save item number (you may also use the [Enter] key)"
-#, fuzzy
 msgid "move_item_to_given_position"
-msgstr "Move item to given position"
+msgstr "Save item number (you may also use the [Enter] key)"
 
 #. Default: "Moves this item to the position that precedes the number you have introduced besides. If you want to move the item at the end of the list, specify the number of the last item plus one."
 msgid "move_several"
@@ -5704,9 +5703,8 @@ msgid "title_extraordinary_session"
 msgstr "Extraordinary session"
 
 #. Default: "First item number (managed automatically when meeting is frozen)"
-#, fuzzy
 msgid "title_first_item_number"
-msgstr "First item number"
+msgstr "First item number (managed automatically when meeting is frozen)"
 
 #. Default: "In and out moves"
 msgid "title_in_and_out_moves"
@@ -6085,7 +6083,6 @@ msgid "voter_count"
 msgstr "There are ${numberOfVoters} voters for this item."
 
 #. Default: "Votes"
-#, fuzzy
 msgid "votes"
 msgstr "Votes"
 
