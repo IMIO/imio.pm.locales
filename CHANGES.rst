@@ -6,6 +6,7 @@ Changelog
 ---------------------
 
 - Backport from 4.2.x:
+
   - Include `item_url` in `holidays_removed_date_in_use_error` translation.
     [gbastien]
 
