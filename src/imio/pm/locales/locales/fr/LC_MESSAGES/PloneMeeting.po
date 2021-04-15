@@ -3570,6 +3570,10 @@ msgstr "Sous-types d'annexes"
 msgid "helpSelectItemsIcon"
 msgstr "Cocher/décocher les points"
 
+#. Default: "This is the date the advice was originally given, this will change when the advice will be considered \"Given\" in a state where it is no more editable"
+msgid "help_given_on_before_started_on"
+msgstr "Lorsqu'un avis est \"Demandé à nouveau\" la date affichée sous \"Rendu le\" est la date de remise de l'avis original.  Cette date sera adaptée lorsqu'un nouvel avis aura été rendu. Cette date est affichée pour information concernant l'avis original"
+
 #. Default: "No preview available because this type of file can not be converted.  Please use common office formats.  You can download the file, look in the \"actions\" column."
 msgid "help_no_preview_available"
 msgstr "Aucune prévisualisation pour cette annexe car ce type de fichier ne peut être converti correctement.  Utilisez un format bureautique courant (.doc, .xls, .odt, ...).  Vous pouvez cependant télécharger cette annexe en utilisant l'action \"Télécharger\" dans la colonne \"Actions\"."
@@ -6292,6 +6296,10 @@ msgstr "Patientez s'il vous plaît..."
 #. Default: "You are currently adding an organization outside \"My organization\", please make sure this is correct.  If you want to create a new group that will be able the create items, give advices, you need to add it directly under \"My organization\"."
 msgid "warning_adding_org_outside_own_org"
 msgstr "Vous êtes en train d'ajouter une organisation en dehors de \"Mon organisation\", est ce bien ce que vous souhaitez faire?  Si vous souhaitez créer un nouveau groupe qui pourra créer des points, émettre des avis, ... vous devez l'ajouter directement sous \"Mon organisation\" (utilisez l'icône présente dans la boîte \"Recherches\" ci-contre, à côté du libellé \"Organisations\")."
+
+#. Default: "Advice is currently \"Asked again\" do not forget to change value of field \"Advice type\" to another value than \"Asked again\""
+msgid "warning_advice_asked_again_need_to_change_advice_type"
+msgstr "L'avis est actuellement \"Demandé à nouveau\", lors de l'édition, n'oubliez pas de choisir une autre valeur pour l'avis dans le champ \"Type d'avis\" ou l'avis sera toujours considéré comme \"Demandé à nouveau\""
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"

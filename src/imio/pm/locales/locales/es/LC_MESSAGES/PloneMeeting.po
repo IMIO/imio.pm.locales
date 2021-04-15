@@ -3630,6 +3630,10 @@ msgstr ""
 msgid "helpSelectItemsIcon"
 msgstr "Marcar / Desmarcar temas"
 
+#. Default: "This is the date the advice was originally given, this will change when the advice will be considered \"Given\" in a state where it is no more editable"
+msgid "help_given_on_before_started_on"
+msgstr ""
+
 #. Default: "No preview available because this type of file can not be converted.  Please use common office formats.  You can download the file, look in the \"actions\" column."
 msgid "help_no_preview_available"
 msgstr ""
@@ -6418,6 +6422,10 @@ msgstr ""
 
 #. Default: "You are currently adding an organization outside \"My organization\", please make sure this is correct.  If you want to create a new group that will be able the create items, give advices, you need to add it directly under \"My organization\"."
 msgid "warning_adding_org_outside_own_org"
+msgstr ""
+
+#. Default: "Advice is currently \"Asked again\" do not forget to change value of field \"Advice type\" to another value than \"Asked again\""
+msgid "warning_advice_asked_again_need_to_change_advice_type"
 msgstr ""
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."

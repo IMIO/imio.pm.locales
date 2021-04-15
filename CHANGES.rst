@@ -28,6 +28,8 @@ Changelog
   [gbastien]
 - Include `item_url` in `holidays_removed_date_in_use_error` translation.
   [gbastien]
+- Added translation related to advice behavior that changed (delay no more reinitialized for a given advice).
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
