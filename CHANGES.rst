@@ -30,6 +30,8 @@ Changelog
   [gbastien]
 - Added translation related to advice behavior that changed (delay no more reinitialized for a given advice).
   [gbastien]
+- Removed msgids beginning with `list_type_` in the `PloneMeeting` domain, seem no more used.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
