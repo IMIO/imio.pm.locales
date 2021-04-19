@@ -480,30 +480,6 @@ msgstr "Utile afin de pouvoir utiliser les données de cette personne, comme par
 msgid "If you specify a number, the values entered here above will be applied from current item to the item number entered. Leave empty to only apply for current item."
 msgstr "Si vous spécifiez un numéro, les valeurs définies ci-dessus seront appliquées à partir du point courant jusqu'au point ayant ce numéro.  Laissez ce champ vide pour appliquer uniquement sur le point courant."
 
-#. Default: "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
-msgstr "Encodez le numéro du point jusqu'auquel ce membre doit être marqué comme absent.  Laissez le champ vide pour le marquer absent uniquement pour le point en cours."
-
-#. Default: "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgstr "Encodez le numéro du point jusqu'auquel ce membre doit être enlevé des non participants.  Laissez le champ vide pour l'enlever des non participants uniquement pour le point en cours."
-
-#. Default: "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgstr "Encodez le numéro du point jusqu'auquel ce membre doit être enlevé des absents.  Laissez le champ vide pour l'enlever des absents uniquement pour le point en cours."
-
-#. Default: "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
-msgstr "Encodez le numéro du point jusqu'auquel ce membre doit être marqué comme non participant.  Laissez le champ vide pour le marquer non participant uniquement pour le point en cours."
-
-#. Default: "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
-msgstr "Encodez le numéro du point jusqu'auquel ce membre doit être marqué comme signataire.  Laissez le champ vide pour le marquer signataire uniquement pour le point en cours."
-
-#. Default: "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
-msgstr "Encodez le numéro du point jusqu'auquel ce membre doit être enlevé des signataires.  Laissez le champ vide pour l'enlever seulement des signataires du point en cours."
-
 # plone.app.querystring
 #. Default: "Informations about advices on an item"
 msgid "Informations about advices on an item"
@@ -802,6 +778,10 @@ msgstr "Ordre des groupes"
 #. Default: "Original meeting signatory"
 msgid "Original meeting signatory"
 msgstr "Signataire défini sur la séance"
+
+#. Default: "Original position"
+msgid "Original position"
+msgstr "Fonction sur la séance"
 
 #. Default: "POD template to annex"
 msgid "POD template to annex"
@@ -1784,9 +1764,17 @@ msgstr "Modèles de documents"
 msgid "Position type"
 msgstr "Type de fonction"
 
+#. Default: "Position type to use"
+msgid "Position type to use"
+msgstr "Fonction à utiliser"
+
 #. Default: "Position type to use as label for the signature."
 msgid "Position type to use as label for the signature."
 msgstr "Sélectionnez la fonction qui sera utilisée sur la signature affichée dans les documents générés. Par défaut le \"Type de fonction secondaire\" défini sur la fonction occupée est sélectionné, si vide le \"Type de fonction\" sera alors sélectionné."
+
+#. Default: "Position type to use for the attendee on this item."
+msgid "Position type to use for the attendee on this item."
+msgstr "Sélectionnez la fonction qui sera utilisée pour ce membre d'assemblée sur ce point."
 
 #. Default: "Preview detailed advice"
 msgid "Preview detailed advice"
@@ -1804,6 +1792,14 @@ msgstr "État précédent"
 #. Default: "Recurring items"
 msgid "RecurringItems"
 msgstr "Points récurrents"
+
+#. Default: "Redefine position for this attendee for this item"
+msgid "Redefine position for this attendee for this item"
+msgstr "Changer la fonction de ce membre pour ce point"
+
+#. Default: "Redefined position"
+msgid "Redefined position"
+msgstr "Fonction pour le point"
 
 #. Default: "References of contained items have been updated."
 msgid "References of contained items have been updated."
@@ -1889,6 +1885,10 @@ msgstr "Numéro de signature"
 msgid "Signature position type"
 msgstr "Fonction pour la signature"
 
+#. Default: "Specify a number to which this will be applied. Field default is current item number."
+msgid "Specify a number to which this will be applied. Field default is current item number."
+msgstr "Encodez le numéro du point jusqu'auquel appliquer ce changement.  <br/>Ce champ contient par défaut le numéro du point en cours."
+
 #. Default: "state"
 msgid "State"
 msgstr "État"
@@ -1939,6 +1939,10 @@ msgstr "Le point que vous avez essayé de prendre en charge a été pris en char
 #. Default: "The item, advice or meeting previous review state"
 msgid "The item, advice or meeting previous review state"
 msgstr "L'état du WF précdent pour le point, l'avis ou la séance"
+
+#. Default: "The position of this attendee was changed for the ${number} following item(s)"
+msgid "The position of this attendee was changed for the ${number} following item(s)"
+msgstr "La fonction de ce participant a été redéfinie pour ${number} point(s)"
 
 #. Default: "There was an error during annex conversion, please contact system administrator."
 msgid "There was an error during annex conversion, please contact system administrator."
