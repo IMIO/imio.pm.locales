@@ -164,6 +164,10 @@ msgstr "Le membre est désormais signataire pour ce point."
 msgid "Attendee is no more defined as item signatory."
 msgstr "Le membre a été enlevé des signataires pour ce point."
 
+#. Default: "Attendee position has been redefined."
+msgid "Attendee position has been redefined."
+msgstr "La fonction du membre a été redéfinie pour ce point."
+
 #. Default: "Back to the MeetingConfig"
 msgid "Back to the MeetingConfig"
 msgstr "Retourner sur la Configuration de séance"
@@ -1797,6 +1801,10 @@ msgstr "Points récurrents"
 msgid "Redefine position for this attendee for this item"
 msgstr "Changer la fonction de ce membre pour ce point"
 
+#. Default: "Redefined attendee position was removed."
+msgid "Redefined attendee position was removed."
+msgstr "Le membre utilise à nouveau sa fonction définie sur la séance pour ce point."
+
 #. Default: "Redefined position"
 msgid "Redefined position"
 msgstr "Fonction pour le point"
@@ -1824,6 +1832,10 @@ msgstr "Enlever l'avis hérité"
 #. Default: "Remove inherited advice and ask advice locally"
 msgid "Remove inherited advice and ask advice locally"
 msgstr "Enlever l'avis hérité et demander l'avis à nouveau sur ce point"
+
+#. Default: "Remove redefined attendee position for this item"
+msgid "Remove redefined attendee position for this item"
+msgstr "Enlever la fonction redéfinie pour ce membre pour ce point"
 
 #. Default: "Represented organizations"
 msgid "Represented organizations"
