@@ -34,6 +34,9 @@ Changelog
   [gbastien]
 - Added translations related to `Redefine attendee position on item`.
   [gbastien]
+- Changed translation for `no_shown_items` from `No visible item for now.`
+  to `You do not have access to these items.`.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
