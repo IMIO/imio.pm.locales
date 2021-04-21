@@ -164,6 +164,10 @@ msgstr ""
 msgid "Attendee is no more defined as item signatory."
 msgstr ""
 
+#. Default: "Attendee position has been redefined."
+msgid "Attendee position has been redefined."
+msgstr ""
+
 #. Default: "Back to the MeetingConfig"
 msgid "Back to the MeetingConfig"
 msgstr ""
@@ -480,30 +484,6 @@ msgstr ""
 msgid "If you specify a number, the values entered here above will be applied from current item to the item number entered. Leave empty to only apply for current item."
 msgstr ""
 
-#. Default: "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
-
-#. Default: "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
-
-#. Default: "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
-
-#. Default: "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
-
-#. Default: "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
-
-#. Default: "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
-
 # plone.app.querystring
 #. Default: "Informations about advices on an item"
 msgid "Informations about advices on an item"
@@ -801,6 +781,10 @@ msgstr ""
 
 #. Default: "Original meeting signatory"
 msgid "Original meeting signatory"
+msgstr ""
+
+#. Default: "Original position"
+msgid "Original position"
 msgstr ""
 
 #. Default: "POD template to annex"
@@ -1795,8 +1779,16 @@ msgstr "Dokumentvorlagen"
 msgid "Position type"
 msgstr ""
 
+#. Default: "Position type to use"
+msgid "Position type to use"
+msgstr ""
+
 #. Default: "Position type to use as label for the signature."
 msgid "Position type to use as label for the signature."
+msgstr ""
+
+#. Default: "Position type to use for the attendee on this item."
+msgid "Position type to use for the attendee on this item."
 msgstr ""
 
 #. Default: "Preview detailed advice"
@@ -1815,6 +1807,18 @@ msgstr ""
 #. Default: "Recurring items"
 msgid "RecurringItems"
 msgstr "Sich wiederholende TOP"
+
+#. Default: "Redefine position for this attendee for this item"
+msgid "Redefine position for this attendee for this item"
+msgstr ""
+
+#. Default: "Redefined attendee position was removed."
+msgid "Redefined attendee position was removed."
+msgstr ""
+
+#. Default: "Redefined position"
+msgid "Redefined position"
+msgstr ""
 
 #. Default: "References of contained items have been updated."
 msgid "References of contained items have been updated."
@@ -1838,6 +1842,10 @@ msgstr ""
 
 #. Default: "Remove inherited advice and ask advice locally"
 msgid "Remove inherited advice and ask advice locally"
+msgstr ""
+
+#. Default: "Remove redefined attendee position for this item"
+msgid "Remove redefined attendee position for this item"
 msgstr ""
 
 #. Default: "Represented organizations"
@@ -1900,6 +1908,10 @@ msgstr ""
 msgid "Signature position type"
 msgstr ""
 
+#. Default: "Specify a number to which this will be applied. Field default is current item number."
+msgid "Specify a number to which this will be applied. Field default is current item number."
+msgstr ""
+
 #. Default: "state"
 msgid "State"
 msgstr "Status"
@@ -1949,6 +1961,10 @@ msgstr ""
 # plone.app.querystring
 #. Default: "The item, advice or meeting previous review state"
 msgid "The item, advice or meeting previous review state"
+msgstr ""
+
+#. Default: "The position of this attendee was changed for the ${number} following item(s)"
+msgid "The position of this attendee was changed for the ${number} following item(s)"
 msgstr ""
 
 #. Default: "There was an error during annex conversion, please contact system administrator."
@@ -4936,6 +4952,14 @@ msgstr ""
 
 #. Default: "Mark this person absent for this item"
 msgid "person_byebye"
+msgstr ""
+
+#. Default: "Redefine position for attendee for this item"
+msgid "person_redefine_attendee_position"
+msgstr ""
+
+#. Default: "Remove redefined position for attendee for this item"
+msgid "person_remove_redefined_attendee_position"
 msgstr ""
 
 #. Default: "Remove this person from absents for this item"

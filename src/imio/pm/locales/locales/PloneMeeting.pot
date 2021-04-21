@@ -768,6 +768,14 @@ msgstr ""
 msgid "nonattendee_welcome"
 msgstr ""
 
+#. Default: "Redefine position for attendee for this item"
+msgid "person_redefine_attendee_position"
+msgstr ""
+
+#. Default: "Remove redefined position for attendee for this item"
+msgid "person_remove_redefined_attendee_position"
+msgstr ""
+
 #. Default: "Mark this person as non attendee for this item"
 msgid "nonattendee_byebye"
 msgstr ""
@@ -5174,32 +5182,40 @@ msgstr ""
 msgid "This attendee is marked as signatory for the ${number} following item(s)"
 msgstr ""
 
+#. Default: "The position of this attendee was changed for the ${number} following item(s)"
+msgid "The position of this attendee was changed for the ${number} following item(s)"
+msgstr ""
+
+#. Default: "Original position"
+msgid "Original position"
+msgstr ""
+
+#. Default: "Redefined position"
+msgid "Redefined position"
+msgstr ""
+
+#. Default: "Redefine position for this attendee for this item"
+msgid "Redefine position for this attendee for this item"
+msgstr ""
+
+#. Default: "Remove redefined attendee position for this item"
+msgid "Remove redefined attendee position for this item"
+msgstr ""
+
+#. Default: "Position type to use"
+msgid "Position type to use"
+msgstr ""
+
+#. Default: "Position type to use for the attendee on this item."
+msgid "Position type to use for the attendee on this item."
+msgstr ""
+
 #. Default: "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgstr ""
 
-#. Default: "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as absent from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
-
-#. Default: "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as back into the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
-
-#. Default: "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as signatory from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
-
-#. Default: "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will no longer be considered item signatory from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
-
-#. Default: "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as non attendee from current item to entered item number. Leave empty to only apply for current item."
-msgstr ""
-
-#. Default: "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
-msgid "If you specify a number, this attendee will be defined as attendee for the meeting from current item to entered item number. Leave empty to only apply for current item."
+#. Default: "Specify a number to which this will be applied. Field default is current item number."
+msgid "Specify a number to which this will be applied. Field default is current item number."
 msgstr ""
 
 #. Default: "Selectable assembly members"
@@ -6378,3 +6394,10 @@ msgstr ""
 msgid "help_given_on_before_started_on"
 msgstr ""
 
+#. Default: "Attendee position has been redefined."
+msgid "Attendee position has been redefined."
+msgstr ""
+
+#. Default: "Redefined attendee position was removed."
+msgid "Redefined attendee position was removed."
+msgstr ""

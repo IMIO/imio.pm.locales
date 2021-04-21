@@ -32,6 +32,8 @@ Changelog
   [gbastien]
 - Removed msgids beginning with `list_type_` in the `PloneMeeting` domain, seem no more used.
   [gbastien]
+- Added translations related to `Redefine attendee position on item`.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
