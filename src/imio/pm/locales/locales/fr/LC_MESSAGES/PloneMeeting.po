@@ -2093,6 +2093,10 @@ msgstr "Votes à scrutin ${polltype} complétés pour ${number} point(s)"
 msgid "Votes are not completed for following ${number} ${polltype} item(s)"
 msgstr "Votes à scrutin ${polltype} non complétés pour ${number} point(s)"
 
+#. Default: "Warning, there is a problem with encoded data for assembly and signatures, please check especially that at least 2 signatories are defined"
+msgid "warning_assembly_and_signatures"
+msgstr "Attention, veuillez vérifier les données encodées pour l'assemblée et les signatures, vérifiez notamment que les 2 signatures sont correctement définies"
+
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr "Vous êtes sur le point de changer le délai de cet avis pour ${new_advice_delay} jours, vous pouvez entrer un commentaire si nécessaire."
