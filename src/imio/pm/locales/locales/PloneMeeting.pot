@@ -860,6 +860,10 @@ msgstr ""
 msgid "descr_field_reserved_to_meeting_managers"
 msgstr ""
 
+#. Default: "<span style='color: red;'>WARNING, this field is managed by the application and it's value will be \"-1\" until the meeting is frozen, then it will be computed automatically. Do only change it manually when necessary (in general this should never happen). This field is only editable and viewable by meeting managers</span>"
+msgid "descr_config_field_reserved_to_meeting_managers"
+msgstr ""
+
 #. Default: "Agenda"
 msgid "agenda"
 msgstr ""

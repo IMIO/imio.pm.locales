@@ -2093,10 +2093,6 @@ msgstr "Votes à scrutin ${polltype} complétés pour ${number} point(s)"
 msgid "Votes are not completed for following ${number} ${polltype} item(s)"
 msgstr "Votes à scrutin ${polltype} non complétés pour ${number} point(s)"
 
-#. Default: "Warning, there is a problem with encoded data for assembly and signatures, please check especially that at least 2 signatories are defined"
-msgid "warning_assembly_and_signatures"
-msgstr "Attention, veuillez vérifier les données encodées pour l'assemblée et les signatures, vérifiez notamment que les 2 signatures sont correctement définies"
-
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr "Vous êtes sur le point de changer le délai de cet avis pour ${new_advice_delay} jours, vous pouvez entrer un commentaire si nécessaire."
@@ -3147,6 +3143,10 @@ msgstr "Sélectionnez les jours indisponibles comme dernier jour d'un délai.  S
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
 msgid "descr_assembly"
 msgstr "Ajoutez des double crochets [[ ]] autour des personnes absentes, par exemple : [[Mr. Untel Didier]] si vous n'utilisez pas les champs \"Excusés\" et \"Absents\""
+
+#. Default: "<span style='color: red;'>WARNING, this field is managed by the application and it's value will be \"-1\" until the meeting is frozen, then it will be computed automatically. Do only change it manually when necessary (in general this should never happen). This field is only editable and viewable by meeting managers</span>"
+msgid "descr_config_field_reserved_to_meeting_managers"
+msgstr "<span style='color: red;'>ATTENTION, ce champ est géré par l'application et sa valeur sera \"-1\" tant que la séance n'aura pas été gelée. Ne changez cette valeur que si un décallage survient et prévenez votre administrateur système. Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "descr_field_reserved_to_meeting_managers"
@@ -5727,7 +5727,7 @@ msgstr "Séance extraordinaire?"
 
 #. Default: "First item number (managed automatically when meeting is frozen)"
 msgid "title_first_item_number"
-msgstr "Numéro du premier point de cette séance (géré automatiquement lors du gel de la séance)"
+msgstr "Numéro du premier point de cette séance (géré automatiquement par l'application lors du gel de la séance)"
 
 #. Default: "In and out moves"
 msgid "title_in_and_out_moves"
@@ -5735,7 +5735,7 @@ msgstr "Entrées et sorties (assemblée)"
 
 #. Default: "Meeting number"
 msgid "title_meeting_number"
-msgstr "Numéro de séance (il s'agit d'un numéro de séquence attribué automatiquement)"
+msgstr "Numéro de séance (géré automatiquement par l'application lors du gel de la séance)"
 
 #. Default: "Mid date"
 msgid "title_mid_date"
@@ -6320,6 +6320,10 @@ msgstr "Vous êtes en train d'ajouter une organisation en dehors de \"Mon organi
 #. Default: "Advice is currently \"Asked again\" do not forget to change value of field \"Advice type\" to another value than \"Asked again\""
 msgid "warning_advice_asked_again_need_to_change_advice_type"
 msgstr "L'avis est actuellement \"Demandé à nouveau\", lors de l'édition, n'oubliez pas de choisir une autre valeur pour l'avis dans le champ \"Type d'avis\" ou l'avis sera toujours considéré comme \"Demandé à nouveau\""
+
+#. Default: "Warning, there is a problem with encoded data for assembly and signatures, please check especially that at least 2 signatories are defined"
+msgid "warning_assembly_and_signatures"
+msgstr "Attention, veuillez vérifier les données encodées pour l'assemblée et les signatures, vérifiez notamment que les 2 signatures sont correctement définies"
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"

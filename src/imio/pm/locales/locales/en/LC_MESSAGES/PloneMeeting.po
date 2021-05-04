@@ -2093,10 +2093,6 @@ msgstr "Votes are completed for following ${number} ${polltype} item(s)"
 msgid "Votes are not completed for following ${number} ${polltype} item(s)"
 msgstr "Votes are not completed for following ${number} ${polltype} item(s)"
 
-#. Default: "warning_assembly_and_signatures"
-msgid "Warning, there is a problem with encoded data for assembly and signatures, please check especially that at least 2 signatories are defined"
-msgstr ""
-
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
@@ -3147,6 +3143,10 @@ msgstr "Select here the days a computed delay can not ends with.  If a computed 
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
 msgid "descr_assembly"
 msgstr "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
+
+#. Default: "<span style='color: red;'>WARNING, this field is managed by the application and it's value will be \"-1\" until the meeting is frozen, then it will be computed automatically. Do only change it manually when necessary (in general this should never happen). This field is only editable and viewable by meeting managers</span>"
+msgid "descr_config_field_reserved_to_meeting_managers"
+msgstr ""
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "descr_field_reserved_to_meeting_managers"
@@ -6321,6 +6321,10 @@ msgstr "You are currently adding an organization outside \"My organization\", pl
 
 #. Default: "Advice is currently \"Asked again\" do not forget to change value of field \"Advice type\" to another value than \"Asked again\""
 msgid "warning_advice_asked_again_need_to_change_advice_type"
+msgstr ""
+
+#. Default: "Warning, there is a problem with encoded data for assembly and signatures, please check especially that at least 2 signatories are defined"
+msgid "warning_assembly_and_signatures"
 msgstr ""
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."

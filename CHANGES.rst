@@ -39,6 +39,9 @@ Changelog
   [gbastien]
 - Added translation for warning displayed on the meeting view when `assembly/signatures` are not correct.
   [gbastien]
+- More accurate translation for `Meeting.meeting_number` and `Meeting.first_item_number`
+  description, explaining it is managed by the application.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
