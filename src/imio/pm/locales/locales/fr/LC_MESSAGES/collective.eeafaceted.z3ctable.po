@@ -14,13 +14,29 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
+#. Default: "Approval date (in the 'Title' column)"
+msgid "approval_date_column"
+msgstr "Date d'approbation (dans la colonne 'Objet')"
+
+#. Default: "Authority notice (in the 'Title' column)"
+msgid "authority_notice_column"
+msgstr "Avis de tutelle (dans la colonne 'Objet')"
+
 #. Default: "Budgetary informations (in the 'Purpose' column)"
 msgid "budget_infos_column"
 msgstr "Informations budgétaires (dans la colonne 'Objet')"
 
+#. Default: "Convocation date (in the 'Title' column)"
+msgid "convocation_date_column"
+msgstr "Date de convocation (dans la colonne 'Objet')"
+
 #. Default: "End date (in the 'Title' column)"
-msgid "endDate_column"
-msgstr "Date et heure effective de fin (dans la colonne 'Titre')"
+msgid "end_date_column"
+msgstr "Date et heure de fin (dans la colonne 'Titre')"
+
+#. Default: "First item number (in the 'Title' column)"
+msgid "first_item_number_column"
+msgstr "Numéro du premier point de cette séance (dans la colonne 'Objet')"
 
 #. Default: "Advices"
 msgid "header_advices"
@@ -146,10 +162,18 @@ msgstr "Référence du point (dans la colonne 'Objet')"
 msgid "labels_column"
 msgstr "Étiquettes (dans la colonne 'Objet')"
 
+#. Default: "Meeting number (in the 'Title' column)"
+msgid "meeting_number_column"
+msgstr "Numéro de séance (dans la colonne 'Objet')"
+
 #. Default: "Place (in the 'Title' column)"
 msgid "place_column"
 msgstr "Lieu (dans la colonne 'Titre')"
 
+#. Default: "Place other (in the 'Title' column)"
+msgid "place_other_column"
+msgstr "Lieu (\"Autre\") (dans la colonne 'Titre')"
+
 #. Default: "Start date (in the 'Title' column)"
-msgid "startDate_column"
-msgstr "Date et heure effective de début (dans la colonne 'Titre')"
+msgid "start_date_column"
+msgstr "Date et heure de début (dans la colonne 'Titre')"

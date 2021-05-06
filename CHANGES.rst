@@ -42,6 +42,8 @@ Changelog
 - More accurate translation for `Meeting.meeting_number` and `Meeting.first_item_number`
   description, explaining it is managed by the application.
   [gbastien]
+- Added translations for new static columns selectable in `MeetingConfig.meetingColumns`.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
