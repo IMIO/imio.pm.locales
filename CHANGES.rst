@@ -44,6 +44,8 @@ Changelog
   [gbastien]
 - Added translations for new static columns selectable in `MeetingConfig.meetingColumns`.
   [gbastien]
+- Added translations for `not_confidential_annexes`.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
