@@ -2004,10 +2004,6 @@ msgstr "Cet avis a été automatiquement demandé par l'application (montré par
 msgid "This copy group was set automatically by the application"
 msgstr "Ce groupe a été mis en copie automatiquement par l'application"
 
-#. Default: "This is an extract of the comment, access full comment if necessary..."
-msgid "This is an extract of the comment, access full comment if necessary..."
-msgstr "Ceci est un aperçu, consultez l'avis complet si nécessaire..."
-
 #. Default: "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
 msgid "This item is not viewable by the advisers of this group in the current review state (${item_review_state})."
 msgstr "Ce point n'est pas visible par les émetteurs d'avis de ce groupe dans son état actuel (${item_review_state})."
@@ -5166,6 +5162,14 @@ msgstr "Publiable (affiché seulement aux gestionnaires de séances)"
 #. Default: "Publishable (editable)"
 msgid "publishable_edit"
 msgstr "Publiable (éditable seulement par les gestionnaires de séances)"
+
+#. Default: "Read less"
+msgid "read_less"
+msgstr "Cacher le texte"
+
+#. Default: "Read more"
+msgid "read_more"
+msgstr "Lire la suite"
 
 #. Default: "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
 msgid "record_item_history_states_descr"

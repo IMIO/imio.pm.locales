@@ -46,6 +46,9 @@ Changelog
   [gbastien]
 - Added translations for `not_confidential_annexes`.
   [gbastien]
+- Added translations for `Read more/Read less`, removed useless translation
+  `This is an extract of the comment, access full comment if necessary...`.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
