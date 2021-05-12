@@ -49,6 +49,8 @@ Changelog
 - Added translations for `Read more/Read less`, removed useless translation
   `This is an extract of the comment, access full comment if necessary...`.
   [gbastien]
+- Added translation for `marginal_notes_column`.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
