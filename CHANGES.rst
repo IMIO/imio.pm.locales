@@ -51,6 +51,8 @@ Changelog
   [gbastien]
 - Added translation for `marginal_notes_column`.
   [gbastien]
+- Added translation for `not_able_to_find_meeting_to_present_item_into`.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------

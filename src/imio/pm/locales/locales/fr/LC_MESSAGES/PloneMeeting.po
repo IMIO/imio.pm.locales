@@ -4703,6 +4703,10 @@ msgstr "Point normal"
 msgid "notPloneMeetingUser"
 msgstr "Vous êtes un utilisateur enregistré mais votre compte n'a pas encore été activé. Veuillez contacter l'administrateur."
 
+#. Default: "Not able to find a meeting to present this item into.  Only meetings in the future are taken into account, check configuration if necessary"
+msgid "not_able_to_find_meeting_to_present_item_into"
+msgstr "Impossible de déterminer une séance dans laquelle présenter ce point.  Seules les séances dans le futur sont prises en compte, vérifiez la configuration si nécessaire"
+
 #. Default: "Not confidential annexes"
 msgid "not_confidential_annexes"
 msgstr "Annexes (non confidentielles)"
