@@ -5,8 +5,10 @@ Changelog
 4.1.18.7 (unreleased)
 ---------------------
 
-- Nothing changed yet.
+- Backport from 4.2.x:
 
+  - Added translation for `not_able_to_find_meeting_to_present_item_into`.
+    [gbastien]
 
 4.1.18.6 (2021-04-02)
 ---------------------
