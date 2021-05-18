@@ -3300,6 +3300,14 @@ msgstr "You can not remove a configuration that was already used, removed config
 msgid "error_committees_mutually_exclusive_auto_from_and_using_groups"
 msgstr "You can not define values for the \"auto_from\" and \"using_groups\" columns, their use is multually exclusive.  If you lost encoded values, just cancel edition and edit again correctly."
 
+#. Default: "Default poll type must be among used poll types"
+msgid "error_default_poll_type_must_be_among_used_poll_types"
+msgstr ""
+
+#. Default: "First linked vote used votes values must be among used vote values"
+msgid "error_first_linked_vote_used_vote_values_must_be_among_used_vote_values"
+msgstr ""
+
 #. Default: "You may not remove a list type that is currently used by an item, check for example : ${url}."
 msgid "error_list_types_identifier_removed_already_used"
 msgstr "You may not remove a list type that is currently used by an item, check for example : ${url}."
@@ -3315,6 +3323,10 @@ msgstr "You may not use the same identifier several times."
 #. Default: "You may only use lowercase letters for identifier."
 msgid "error_list_types_wrong_identifier_format"
 msgstr "You may only use lowercase letters for identifier."
+
+#. Default: "Next linked votes used vote values must be among used vote values"
+msgid "error_next_linked_votes_used_vote_values_must_be_among_used_vote_values"
+msgstr ""
 
 #. Default: "Some selected values are no more selectable (no more selected in the \"Ordered committees contacts\" field), please check value \"${hp_title}\".  You can not select \"No committee\" and a committee.  If you lost encoded values, just cancel edition and edit again correctly."
 msgid "error_value_removed_used_in_committees_field"

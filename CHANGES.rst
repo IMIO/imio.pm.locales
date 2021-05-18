@@ -53,6 +53,10 @@ Changelog
   [gbastien]
 - Added translation for `not_able_to_find_meeting_to_present_item_into`.
   [gbastien]
+- Added translations for `error_default_poll_type_must_be_among_used_poll_types`,
+  `error_first_linked_vote_used_vote_values_must_be_among_used_vote_values` and
+  `error_next_linked_votes_used_vote_values_must_be_among_used_vote_values`.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
