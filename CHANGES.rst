@@ -57,6 +57,8 @@ Changelog
   `error_first_linked_vote_used_vote_values_must_be_among_used_vote_values` and
   `error_next_linked_votes_used_vote_values_must_be_among_used_vote_values`.
   [gbastien]
+- Added translation for `title_meetingmanagers_notes`.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
