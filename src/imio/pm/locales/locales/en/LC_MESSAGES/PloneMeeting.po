@@ -1051,6 +1051,10 @@ msgstr "Enable documents scanning"
 msgid "PloneMeeting_label_enableUserPreferences"
 msgstr "Enable user preferences"
 
+#. Default: "Enabled annexes batch actions"
+msgid "PloneMeeting_label_enabledAnnexesBatchActions"
+msgstr ""
+
 #. Default: "Enforce advice mandatoriness"
 msgid "PloneMeeting_label_enforceAdviceMandatoriness"
 msgstr "Enforce advice mandatoriness"
@@ -3259,6 +3263,10 @@ msgstr "Check this box if you use the documents scanning functionnality."
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"
 msgstr "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
+
+#. Default: "Select the batch actions that will be displayed on the table listing annexes"
+msgid "enabled_annexes_batch_actions_descr"
+msgstr ""
 
 #. Default: "The meeting end date must occur after the start date and meeting date."
 msgid "end_date_before_meeting_date"

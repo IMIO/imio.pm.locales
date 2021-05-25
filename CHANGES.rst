@@ -59,6 +59,8 @@ Changelog
   [gbastien]
 - Added translation for `title_meetingmanagers_notes`.
   [gbastien]
+- Added translation for `MeetingConfig.enabledAnnexesBatchActions`.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------

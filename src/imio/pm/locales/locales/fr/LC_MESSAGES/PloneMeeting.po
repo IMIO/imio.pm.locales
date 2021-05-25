@@ -1051,6 +1051,10 @@ msgstr "Activer le scanning de documents"
 msgid "PloneMeeting_label_enableUserPreferences"
 msgstr "Activer les préférences utilisateur"
 
+#. Default: "Enabled annexes batch actions"
+msgid "PloneMeeting_label_enabledAnnexesBatchActions"
+msgstr "Actions par lot activées sur les annexes"
+
 #. Default: "Enforce advice mandatoriness"
 msgid "PloneMeeting_label_enforceAdviceMandatoriness"
 msgstr "Appliquer le caractère obligatoire des avis"
@@ -1498,7 +1502,7 @@ msgstr "Non coché = séance publique"
 
 #. Default: "Owner of a annex decision may delete it when item is no more editable?"
 msgid "PloneMeeting_label_ownerMayDeleteAnnexDecision"
-msgstr "L'utilisateur ayant ajouté une 'annexe après décision' peut la supprimer lorsque le point n'est plus éditable?"
+msgstr "L'utilisateur ayant ajouté une \"Annexe (après décision)\" peut la supprimer lorsque le point n'est plus éditable?"
 
 #. Default: "Meeting places"
 msgid "PloneMeeting_label_places"
@@ -3259,6 +3263,10 @@ msgstr "Cochez la case si vous utilisez la fonctionnalité de scanning de docume
 #. Default: "If you check this box, users will be able to access a screen for modifying their preferences. While powerful, some may think it exposes too much complexity to users."
 msgid "enable_user_preferences_descr"
 msgstr "Si vous cochez cette case, les utilisateurs pourront accéder à un écran permettant de modifier leurs préférences. Bien que puissant, cet écran peut être perçu comme confrontant l'utilisateur à une trop grande complexité."
+
+#. Default: "Select the batch actions that will be displayed on the table listing annexes"
+msgid "enabled_annexes_batch_actions_descr"
+msgstr "Sélectionnez les actions par lot qui apparaîtront dans l'onglet \"Annexes\" et qui pourront être appliquées sur les annexes sélectionnées."
 
 #. Default: "The meeting end date must occur after the start date and meeting date."
 msgid "end_date_before_meeting_date"
