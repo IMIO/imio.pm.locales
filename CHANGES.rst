@@ -61,6 +61,10 @@ Changelog
   [gbastien]
 - Added translation for `MeetingConfig.enabledAnnexesBatchActions`.
   [gbastien]
+- Adapted translations for `MeetingConfig.includeGroupsInChargeDefinedOnProposingGroup`
+  and `MeetingConfig.includeGroupsInChargeDefinedOnCategory` fields description
+  now that, when enabled, selected `groupsInCharge` will be stored on the item.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
