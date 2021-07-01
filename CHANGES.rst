@@ -65,6 +65,8 @@ Changelog
   and `MeetingConfig.includeGroupsInChargeDefinedOnCategory` fields description
   now that, when enabled, selected `groupsInCharge` will be stored on the item.
   [gbastien]
+- Completed french translation for the help message about copy groups on the item view.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------
