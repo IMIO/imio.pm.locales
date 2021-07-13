@@ -1592,6 +1592,10 @@ msgstr "Groupes qui pourront être mis en copie"
 msgid "PloneMeeting_label_selectablePrivacies"
 msgstr "Niveaux de confidentialité utilisés"
 
+#. Default: "Selectable redefined position types"
+msgid "PloneMeeting_label_selectableRedefinedPositionTypes"
+msgstr "Types de fonction sélectionnables lors du changement de la fonction d'un membre d'assemblée pour un point"
+
 #. Default: "Is group selectable in the plonegroup configuration panel?"
 msgid "PloneMeeting_label_selectable_for_plonegroup"
 msgstr "Groupe sélectionnable dans la Configuration des groupes plone via contact?"
@@ -3489,7 +3493,7 @@ msgstr "Veuillez sélectionner un fichier en cliquant sur le bouton \"Parcourir\
 
 #. Default: "While using linked vote values, select here values that will be selectable for the first linked vote value"
 msgid "first_linked_vote_used_vote_values_descr"
-msgstr "Lorsque vous liez des votre entre eux, sélectionnez les valeurs de votes qui pourront être utilisée sur le premier vote lié"
+msgstr "Lorsque vous liez des votre entre eux, sélectionnez les valeurs de votes qui pourront être utilisées sur le premier vote lié"
 
 #. Default: "Please respect order of transitions sequence to present an item, the first given transition is not a transition leaving the item workflow initial state."
 msgid "first_transition_must_leave_wf_initial_state"
@@ -5258,9 +5262,13 @@ msgstr "Retirer tous les points sélectionnés."
 msgid "remove_several_items_done"
 msgstr "Les points sélectionnés ont été retirés de la séance."
 
-#. Default: "You can not remove a position type that is in use, you removed \"${removed_position_type}\" used by \"${hp_url}\"!"
+#. Default: "You can not remove a position type that is in use, you removed \"${removed_position_type}\" used by held position at \"${hp_url}\"!"
 msgid "removed_position_type_in_use_error"
-msgstr "Vous ne pouvez pas supprimer un type de fonction utilisé, le type de fonction supprimé \"${removed_position_type}\" est utilisé par \"${hp_url}\"!"
+msgstr "Vous ne pouvez pas supprimer un type de fonction utilisé, le type de fonction supprimé \"${removed_position_type}\" est utilisé par la fonction occupée \"${hp_url}\"!"
+
+#. Default: "You can not remove a position type that was used as redefined position for an attendee on an item, you removed \"${removed_position_type}\", check attendees on item at \"${item_url}\"!"
+msgid "removed_redefined_position_type_in_use_error"
+msgstr "Vous ne pouvez pas supprimer un type de fonction utilisé comme fonction redéfinie pour un membre d'assemblée pour un point, le type de fonction supprimé \"${removed_position_type}\" est utilisé par un membre d'assemblée sur le point \"${item_url}\"!"
 
 #. Default: "A category must be selected on this item so it may evolve in the workflow"
 msgid "required_category_ko"
@@ -5462,6 +5470,10 @@ msgstr "Décocher cette case si cette organisation est ajoutée dans un autre bu
 #. Default: "Select here privacies that will be selectable by users editing items of this configuration.  If \"on privacy\" is used in the \"Sort order(s) to apply when adding an item to a meeting\" field, it is the order of values selected here that will be used."
 msgid "selectable_privacies_descr"
 msgstr "Spécifiez ici les niveaux de confidentialité qui pourront être sélectionnés lors de l'édition d'un point.  Si \"Par niveau de confidentialité\" est sélectionné dans \"Méthode(s) de tri lors de l'ajout d'un point dans une séance\", c'est l'ordre des niveaux de confidentialité sélectionnés ici qui sera utilisé."
+
+#. Default: "Select here position types that will be selectable when redefining the position of an attendee for an item.  If nothing selected (default), then any position types is selectable."
+msgid "selectable_redefined_position_types_descr"
+msgstr "Sélectionnez les types de fonction qui pourront être utilisées lors de l'utilisation de la fonctionnalité \"Changer la fonction de ce membre pour ce point\".  Si rien n'est sélectionné (comportement par défaut), tous les types de fonction pourront être choisis."
 
 #. Default: "Check the box if item needs to be send to authority, if so, a line will be automatically printed in the item deliberation document."
 msgid "send_to_authority_descr"

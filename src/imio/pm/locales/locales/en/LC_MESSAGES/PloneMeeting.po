@@ -37,7 +37,7 @@ msgstr "(Nobody)"
 
 #. Default: "(None)"
 msgid "(None)"
-msgstr ""
+msgstr "(None)"
 
 #. Default: "Add PloneMeeting Portlet"
 msgid "Add PloneMeeting Portlet"
@@ -166,7 +166,7 @@ msgstr "Attendee is no more defined as item signatory."
 
 #. Default: "Attendee position has been redefined."
 msgid "Attendee position has been redefined."
-msgstr ""
+msgstr "Attendee position has been redefined."
 
 #. Default: "Back to the MeetingConfig"
 msgid "Back to the MeetingConfig"
@@ -785,7 +785,7 @@ msgstr "Original meeting signatory"
 
 #. Default: "Original position"
 msgid "Original position"
-msgstr ""
+msgstr "Original position"
 
 #. Default: "POD template to annex"
 msgid "POD template to annex"
@@ -1053,7 +1053,7 @@ msgstr "Enable user preferences"
 
 #. Default: "Enabled annexes batch actions"
 msgid "PloneMeeting_label_enabledAnnexesBatchActions"
-msgstr ""
+msgstr "Enabled annexes batch actions"
 
 #. Default: "Enforce advice mandatoriness"
 msgid "PloneMeeting_label_enforceAdviceMandatoriness"
@@ -1592,6 +1592,10 @@ msgstr "Groups that can be in copy for an item"
 msgid "PloneMeeting_label_selectablePrivacies"
 msgstr "Selectable privacies"
 
+#. Default: "Selectable redefined position types"
+msgid "PloneMeeting_label_selectableRedefinedPositionTypes"
+msgstr "Selectable redefined position types"
+
 #. Default: "Is group selectable in the plonegroup configuration panel?"
 msgid "PloneMeeting_label_selectable_for_plonegroup"
 msgstr "Is group selectable in the plonegroup configuration panel?"
@@ -1774,7 +1778,7 @@ msgstr "Position type"
 
 #. Default: "Position type to use"
 msgid "Position type to use"
-msgstr ""
+msgstr "Position type to use"
 
 #. Default: "Position type to use as label for the signature."
 msgid "Position type to use as label for the signature."
@@ -1782,7 +1786,7 @@ msgstr "Position type to use as label for the signature."
 
 #. Default: "Position type to use for the attendee on this item."
 msgid "Position type to use for the attendee on this item."
-msgstr ""
+msgstr "Position type to use for the attendee on this item."
 
 #. Default: "Preview detailed advice"
 msgid "Preview detailed advice"
@@ -1803,15 +1807,15 @@ msgstr "Recurring items"
 
 #. Default: "Redefine position for this attendee for this item"
 msgid "Redefine position for this attendee for this item"
-msgstr ""
+msgstr "Redefine position for this attendee for this item"
 
 #. Default: "Redefined attendee position was removed."
 msgid "Redefined attendee position was removed."
-msgstr ""
+msgstr "Redefined attendee position was removed."
 
 #. Default: "Redefined position"
 msgid "Redefined position"
-msgstr ""
+msgstr "Redefined position"
 
 #. Default: "References of contained items have been updated."
 msgid "References of contained items have been updated."
@@ -1839,7 +1843,7 @@ msgstr "Remove inherited advice and ask advice locally"
 
 #. Default: "Remove redefined attendee position for this item"
 msgid "Remove redefined attendee position for this item"
-msgstr ""
+msgstr "Remove redefined attendee position for this item"
 
 #. Default: "Represented organizations"
 msgid "Represented organizations"
@@ -1903,7 +1907,7 @@ msgstr "Signature position type"
 
 #. Default: "Specify a number to which this will be applied. Field default is current item number."
 msgid "Specify a number to which this will be applied. Field default is current item number."
-msgstr ""
+msgstr "Specify a number to which this will be applied. Field default is current item number."
 
 #. Default: "state"
 msgid "State"
@@ -1958,7 +1962,7 @@ msgstr "The item, advice or meeting previous review state"
 
 #. Default: "The position of this attendee was changed for the ${number} following item(s)"
 msgid "The position of this attendee was changed for the ${number} following item(s)"
-msgstr ""
+msgstr "The position of this attendee was changed for the ${number} following item(s)"
 
 #. Default: "There was an error during annex conversion, please contact system administrator."
 msgid "There was an error during annex conversion, please contact system administrator."
@@ -2351,39 +2355,39 @@ msgstr "Select for each optional annexes attributes which are only displayed or 
 
 #. Default: "Confidential"
 msgid "annex_term_confidential"
-msgstr ""
+msgstr "Confidential"
 
 #. Default: "Not confidential"
 msgid "annex_term_not_confidential"
-msgstr ""
+msgstr "Not confidential"
 
 #. Default: "Not publishable"
 msgid "annex_term_not_publishable"
-msgstr ""
+msgstr "Not publishable"
 
 #. Default: "Not to print"
 msgid "annex_term_not_to_print"
-msgstr ""
+msgstr "Not to print"
 
 #. Default: "Not to sign"
 msgid "annex_term_not_to_sign"
-msgstr ""
+msgstr "Not to sign"
 
 #. Default: "Publishable"
 msgid "annex_term_publishable"
-msgstr ""
+msgstr "Publishable"
 
 #. Default: "Signed"
 msgid "annex_term_signed"
-msgstr ""
+msgstr "Signed"
 
 #. Default: "To print"
 msgid "annex_term_to_print"
-msgstr ""
+msgstr "To print"
 
 #. Default: "To sign"
 msgid "annex_term_to_sign"
-msgstr ""
+msgstr "To sign"
 
 #. Default: "Title"
 msgid "annex_title"
@@ -3149,7 +3153,7 @@ msgstr "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do 
 
 #. Default: "<span style='color: red;'>WARNING, this field is managed by the application and it's value will be \"-1\" until the meeting is frozen, then it will be computed automatically. Do only change it manually when necessary (in general this should never happen). This field is only editable and viewable by meeting managers</span>"
 msgid "descr_config_field_reserved_to_meeting_managers"
-msgstr ""
+msgstr "<span style='color: red;'>WARNING, this field is managed by the application and it's value will be \"-1\" until the meeting is frozen, then it will be computed automatically. Do only change it manually when necessary (in general this should never happen). This field is only editable and viewable by meeting managers</span>"
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "descr_field_reserved_to_meeting_managers"
@@ -3269,7 +3273,7 @@ msgstr "If you check this box, users will be able to access a screen for modifyi
 
 #. Default: "Select the batch actions that will be displayed on the table listing annexes"
 msgid "enabled_annexes_batch_actions_descr"
-msgstr ""
+msgstr "Select the batch actions that will be displayed on the table listing annexes"
 
 #. Default: "The meeting end date must occur after the start date and meeting date."
 msgid "end_date_before_meeting_date"
@@ -3313,11 +3317,11 @@ msgstr "You can not define values for the \"auto_from\" and \"using_groups\" col
 
 #. Default: "Default poll type must be among used poll types"
 msgid "error_default_poll_type_must_be_among_used_poll_types"
-msgstr ""
+msgstr "Default poll type must be among used poll types"
 
 #. Default: "First linked vote used votes values must be among used vote values"
 msgid "error_first_linked_vote_used_vote_values_must_be_among_used_vote_values"
-msgstr ""
+msgstr "First linked vote used votes values must be among used vote values"
 
 #. Default: "You may not remove a list type that is currently used by an item, check for example : ${url}."
 msgid "error_list_types_identifier_removed_already_used"
@@ -3337,7 +3341,7 @@ msgstr "You may only use lowercase letters for identifier."
 
 #. Default: "Next linked votes used vote values must be among used vote values"
 msgid "error_next_linked_votes_used_vote_values_must_be_among_used_vote_values"
-msgstr ""
+msgstr "Next linked votes used vote values must be among used vote values"
 
 #. Default: "Some selected values are no more selectable (no more selected in the \"Ordered committees contacts\" field), please check value \"${hp_title}\".  You can not select \"No committee\" and a committee.  If you lost encoded values, just cancel edition and edit again correctly."
 msgid "error_value_removed_used_in_committees_field"
@@ -3611,7 +3615,7 @@ msgstr "Check/uncheck items"
 
 #. Default: "This is the date the advice was originally given, this will change when the advice will be considered \"Given\" in a state where it is no more editable"
 msgid "help_given_on_before_started_on"
-msgstr ""
+msgstr "This is the date the advice was originally given, this will change when the advice will be considered \"Given\" in a state where it is no more editable"
 
 #. Default: "No preview available because this type of file can not be converted.  Please use common office formats.  You can download the file, look in the \"actions\" column."
 msgid "help_no_preview_available"
@@ -3715,7 +3719,7 @@ msgstr "This application allows you to manage your official meetings."
 
 #. Default: "iA.Delib documentation"
 msgid "iA.Delib documentation"
-msgstr ""
+msgstr "iA.Delib documentation"
 
 #. Default: "Azur"
 msgid "icon_color_azur"
@@ -4733,11 +4737,11 @@ msgstr "You are a registered user but your account has not been activated yet. P
 
 #. Default: "Not able to find a meeting to present this item into.  Only meetings in the future are taken into account, check configuration if necessary"
 msgid "not_able_to_find_meeting_to_present_item_into"
-msgstr ""
+msgstr "Not able to find a meeting to present this item into.  Only meetings in the future are taken into account, check configuration if necessary"
 
 #. Default: "Not confidential annexes"
 msgid "not_confidential_annexes"
-msgstr ""
+msgstr "Not confidential annexes"
 
 #. Default: "Not given yet"
 msgid "not_given"
@@ -4789,7 +4793,7 @@ msgstr "Follow all associated groups order"
 
 #. Default: "Follow all committees order"
 msgid "on_all_committees"
-msgstr ""
+msgstr "Follow all committees order"
 
 #. Default: "Follow all groups order"
 msgid "on_all_groups"
@@ -4925,11 +4929,11 @@ msgstr "Mark this person absent for this item"
 
 #. Default: "Redefine position for attendee for this item"
 msgid "person_redefine_attendee_position"
-msgstr ""
+msgstr "Redefine position for attendee for this item"
 
 #. Default: "Remove redefined position for attendee for this item"
 msgid "person_remove_redefined_attendee_position"
-msgstr ""
+msgstr "Remove redefined position for attendee for this item"
 
 #. Default: "Remove this person from absents for this item"
 msgid "person_welcome"
@@ -5197,11 +5201,11 @@ msgstr "Publishable (editable)"
 
 #. Default: "Read less"
 msgid "read_less"
-msgstr ""
+msgstr "Read less"
 
 #. Default: "Read more"
 msgid "read_more"
-msgstr ""
+msgstr "Read more"
 
 #. Default: "Select here the item states into which some events related to the item (like annex creations or deletions) will be stored in the item's history."
 msgid "record_item_history_states_descr"
@@ -5259,9 +5263,13 @@ msgstr "remove all selected items at once."
 msgid "remove_several_items_done"
 msgstr "Selected items have been removed from the meeting."
 
-#. Default: "You can not remove a position type that is in use, you removed \"${removed_position_type}\" used by \"${hp_url}\"!"
+#. Default: "You can not remove a position type that is in use, you removed \"${removed_position_type}\" used by held position at \"${hp_url}\"!"
 msgid "removed_position_type_in_use_error"
-msgstr "You can not remove a position type that is in use, you removed \"${removed_position_type}\" used by \"${hp_url}\"!"
+msgstr "You can not remove a position type that is in use, you removed \"${removed_position_type}\" used by held position at \"${hp_url}\"!"
+
+#. Default: "You can not remove a position type that was used as redefined position for an attendee on an item, you removed \"${removed_position_type}\", check attendees on item at \"${item_url}\"!"
+msgid "removed_redefined_position_type_in_use_error"
+msgstr "You can not remove a position type that was used as redefined position for an attendee on an item, you removed \"${removed_position_type}\", check attendees on item at \"${item_url}\"!"
 
 #. Default: "A category must be selected on this item so it may evolve in the workflow"
 msgid "required_category_ko"
@@ -5273,7 +5281,7 @@ msgstr "A classifier must be selected on this item so it may evolve in the workf
 
 #. Default: "A group in charge must be selected on this item so it may evolve in the workflow"
 msgid "required_groupsInCharge_ko"
-msgstr ""
+msgstr "A group in charge must be selected on this item so it may evolve in the workflow"
 
 #. Default: "Check the box if access to secret items must be restricted.  This will let only users for which an explicit access to the item has been given, access the item.  It will be the case so for members of the proposing groups, power users (Managers, MeetingManagers, power observers), copy groups and advisers.  Only activate this if necessary, it could be the case if you have a state where everything is accessible by everyone (like a \"published\" state for items) but where you want \"secret\" items not to be accessible by everyone."
 msgid "restrict_access_to_secret_items_descr"
@@ -5463,6 +5471,10 @@ msgstr "Uncheck this box if this organization is added for another purpose than 
 #. Default: "Select here privacies that will be selectable by users editing items of this configuration.  If \"on privacy\" is used in the \"Sort order(s) to apply when adding an item to a meeting\" field, it is the order of values selected here that will be used."
 msgid "selectable_privacies_descr"
 msgstr "Select here privacies that will be selectable by users editing items of this configuration.  If \"on privacy\" is used in the \"Sort order(s) to apply when adding an item to a meeting\" field, it is the order of values selected here that will be used."
+
+#. Default: "Select here position types that will be selectable when redefining the position of an attendee for an item.  If nothing selected (default), then any position types is selectable."
+msgid "selectable_redefined_position_types_descr"
+msgstr "Select here position types that will be selectable when redefining the position of an attendee for an item.  If nothing selected (default), then any position types is selectable."
 
 #. Default: "Check the box if item needs to be send to authority, if so, a line will be automatically printed in the item deliberation document."
 msgid "send_to_authority_descr"
@@ -5779,7 +5791,7 @@ msgstr "Meeting number"
 
 #. Default: "Meeting managers notes"
 msgid "title_meetingmanagers_notes"
-msgstr ""
+msgstr "Meeting managers notes"
 
 #. Default: "Mid date"
 msgid "title_mid_date"
@@ -6363,11 +6375,11 @@ msgstr "You are currently adding an organization outside \"My organization\", pl
 
 #. Default: "Advice is currently \"Asked again\" do not forget to change value of field \"Advice type\" to another value than \"Asked again\""
 msgid "warning_advice_asked_again_need_to_change_advice_type"
-msgstr ""
+msgstr "Advice is currently \"Asked again\" do not forget to change value of field \"Advice type\" to another value than \"Asked again\""
 
 #. Default: "Warning, there is a problem with encoded data for assembly and signatures, please check especially that at least 2 signatories are defined"
 msgid "warning_assembly_and_signatures"
-msgstr ""
+msgstr "Warning, there is a problem with encoded data for assembly and signatures, please check especially that at least 2 signatories are defined"
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"

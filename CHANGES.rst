@@ -67,6 +67,9 @@ Changelog
   [gbastien]
 - Completed french translation for the help message about copy groups on the item view.
   [gbastien]
+- Added translations for `MeetingConfig.selectableRedefinedPositionTypes` and
+  `directory.position_types` invariant `removed_redefined_position_type_in_use_error` error message.
+  [gbastien]
 
 4.2b8 (2021-01-14)
 ------------------

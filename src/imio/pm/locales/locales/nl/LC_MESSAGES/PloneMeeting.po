@@ -1598,6 +1598,10 @@ msgstr "Groepen die in kopie voor een punt kunnen zijn"
 msgid "PloneMeeting_label_selectablePrivacies"
 msgstr ""
 
+#. Default: "Selectable redefined position types"
+msgid "PloneMeeting_label_selectableRedefinedPositionTypes"
+msgstr ""
+
 #. Default: "Is group selectable in the plonegroup configuration panel?"
 msgid "PloneMeeting_label_selectable_for_plonegroup"
 msgstr ""
@@ -5291,8 +5295,12 @@ msgstr ""
 msgid "remove_several_items_done"
 msgstr ""
 
-#. Default: "You can not remove a position type that is in use, you removed \"${removed_position_type}\" used by \"${hp_url}\"!"
+#. Default: "You can not remove a position type that is in use, you removed \"${removed_position_type}\" used by held position at \"${hp_url}\"!"
 msgid "removed_position_type_in_use_error"
+msgstr ""
+
+#. Default: "You can not remove a position type that was used as redefined position for an attendee on an item, you removed \"${removed_position_type}\", check attendees on item at \"${item_url}\"!"
+msgid "removed_redefined_position_type_in_use_error"
 msgstr ""
 
 #. Default: "A category must be selected on this item so it may evolve in the workflow"
@@ -5495,6 +5503,10 @@ msgstr ""
 
 #. Default: "Select here privacies that will be selectable by users editing items of this configuration.  If \"on privacy\" is used in the \"Sort order(s) to apply when adding an item to a meeting\" field, it is the order of values selected here that will be used."
 msgid "selectable_privacies_descr"
+msgstr ""
+
+#. Default: "Select here position types that will be selectable when redefining the position of an attendee for an item.  If nothing selected (default), then any position types is selectable."
+msgid "selectable_redefined_position_types_descr"
 msgstr ""
 
 #. Default: "Check the box if item needs to be send to authority, if so, a line will be automatically printed in the item deliberation document."
