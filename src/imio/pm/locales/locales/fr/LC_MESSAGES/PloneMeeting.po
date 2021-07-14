@@ -6376,9 +6376,9 @@ msgstr "Vous êtes en train d'ajouter une organisation en dehors de \"Mon organi
 msgid "warning_advice_asked_again_need_to_change_advice_type"
 msgstr "L'avis est actuellement \"Demandé à nouveau\", lors de l'édition, n'oubliez pas de choisir une autre valeur pour l'avis dans le champ \"Type d'avis\" ou l'avis sera toujours considéré comme \"Demandé à nouveau\""
 
-#. Default: "Warning, there is a problem with encoded data for assembly and signatures, please check especially that at least 2 signatories are defined"
+#. Default: "Warning, there is a problem with encoded data for assembly and signatures, please check especially that signatories are correctly defined"
 msgid "warning_assembly_and_signatures"
-msgstr "Attention, veuillez vérifier les données encodées pour l'assemblée et les signatures, vérifiez notamment que les 2 signatures sont correctement définies"
+msgstr "Attention, veuillez vérifier les données encodées pour l'assemblée et les signatures, vérifiez notamment que la ou les signature(s) sont correctement définie(s)"
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"
