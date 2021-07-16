@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b9 (unreleased)
+4.2b9 (2021-07-16)
 ------------------
 
 - Added translations for `Not completed votes` and `Completed votes`.
