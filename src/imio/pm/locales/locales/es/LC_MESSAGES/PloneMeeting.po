@@ -71,6 +71,10 @@ msgstr ""
 msgid "Advice asked automatically because"
 msgstr "Consejo preguntado automáticamente porque"
 
+#. Default: "Advice asked to"
+msgid "Advice asked to"
+msgstr ""
+
 #. Default: "Comment"
 msgid "Advice comment"
 msgstr ""
@@ -2666,6 +2670,10 @@ msgstr ""
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "Este tema ya no puede ser devuelto a los administrador de reunión porque la reunión se encuentra en un estado no se autoriza (${meetingState})."
 
+#. Default: "You can not select an advisers group and some specific userids.  Select either the group to ask advice to, or one or several users of this adviser."
+msgid "can_not_select_advisers_group_and_userids"
+msgstr ""
+
 #. Default: "You can not select \"No committee\" and a committee."
 msgid "can_not_select_no_committee_and_committee"
 msgstr ""
@@ -2677,6 +2685,10 @@ msgstr ""
 #. Default: "You can not select several values for the same group.  Please select a single value for the same group among available ones."
 msgid "can_not_select_several_optional_advisers_same_group"
 msgstr "No puede seleccionar varios valores para el mismo grupo. Por favor, seleccione un valor único para el mismo grupo de entre los disponibles."
+
+#. Default: "You can not select userids for same advisers group.  Select userids for a single advice type of this advisers group."
+msgid "can_not_select_userids_for_same_advice_of_different_type"
+msgstr ""
 
 #. Default: "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
 msgid "can_not_switch_polltype_votes_encoded"
@@ -5533,6 +5545,10 @@ msgstr "mis temas"
 
 #. Default: "items taken over"
 msgid "searchmyitemstakenover"
+msgstr ""
+
+#. Default: "My items to advice"
+msgid "searchmyitemstoadvice"
 msgstr ""
 
 #. Default: "Available meetings"

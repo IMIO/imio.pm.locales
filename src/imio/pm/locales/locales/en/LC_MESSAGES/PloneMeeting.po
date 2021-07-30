@@ -67,6 +67,10 @@ msgstr "Advice annexes"
 msgid "Advice asked automatically because"
 msgstr "Advice asked automatically because"
 
+#. Default: "Advice asked to"
+msgid "Advice asked to"
+msgstr ""
+
 #. Default: "Comment"
 msgid "Advice comment"
 msgstr "Advice comment"
@@ -2638,6 +2642,10 @@ msgstr "Assembly and signatures : you can not unselect a voter that already vote
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "This item can no more be returned to the meeting managers because the meeting is in a state not authorizing it (${meetingState})."
 
+#. Default: "You can not select an advisers group and some specific userids.  Select either the group to ask advice to, or one or several users of this adviser."
+msgid "can_not_select_advisers_group_and_userids"
+msgstr ""
+
 #. Default: "You can not select \"No committee\" and a committee."
 msgid "can_not_select_no_committee_and_committee"
 msgstr "You can not select \"No committee\" and a committee."
@@ -2649,6 +2657,10 @@ msgstr "You can not select an adviser that is already displayed on the item as a
 #. Default: "You can not select several values for the same group.  Please select a single value for the same group among available ones."
 msgid "can_not_select_several_optional_advisers_same_group"
 msgstr "You can not select several values for the same group.  Please select a single value for the same group among available ones."
+
+#. Default: "You can not select userids for same advisers group.  Select userids for a single advice type of this advisers group."
+msgid "can_not_select_userids_for_same_advice_of_different_type"
+msgstr ""
 
 #. Default: "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
 msgid "can_not_switch_polltype_votes_encoded"
@@ -5426,6 +5438,10 @@ msgstr "My items"
 #. Default: "items taken over"
 msgid "searchmyitemstakenover"
 msgstr "items taken over"
+
+#. Default: "My items to advice"
+msgid "searchmyitemstoadvice"
+msgstr ""
 
 #. Default: "Available meetings"
 msgid "searchnotdecidedmeetings"

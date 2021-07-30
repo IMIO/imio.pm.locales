@@ -2978,6 +2978,10 @@ msgstr ""
 msgid "searchunreaditemsincopy"
 msgstr ""
 
+#. Default: "My items to advice"
+msgid "searchmyitemstoadvice"
+msgstr ""
+
 #. Default: "All items to advice"
 msgid "searchallitemstoadvice"
 msgstr ""
@@ -4032,6 +4036,14 @@ msgstr ""
 
 #. Default: "You can not select several values for the same group.  Please select a single value for the same group among available ones."
 msgid "can_not_select_several_optional_advisers_same_group"
+msgstr ""
+
+#. Default: "You can not select an advisers group and some specific userids.  Select either the group to ask advice to, or one or several users of this adviser."
+msgid "can_not_select_advisers_group_and_userids"
+msgstr ""
+
+#. Default: "You can not select userids for same advisers group.  Select userids for a single advice type of this advisers group."
+msgid "can_not_select_userids_for_same_advice_of_different_type"
 msgstr ""
 
 #. Default: "You can not select an adviser that is already displayed on the item as an inherited advice.  If you need to ask this advice again, you need to remove the inherited advice (as a MeetingManager or a Manager) then select advice again."
@@ -6464,4 +6476,8 @@ msgstr ""
 
 #. Default: "User will be notified for this advice (by e-mail or thru the search \"my advices to give\")"
 msgid "adviser_userid_notified"
+msgstr ""
+
+#. Default: "Advice asked to"
+msgid "Advice asked to"
 msgstr ""

@@ -67,6 +67,10 @@ msgstr "Annexes aux avis"
 msgid "Advice asked automatically because"
 msgstr "Avis demandé automatiquement car"
 
+#. Default: "Advice asked to"
+msgid "Advice asked to"
+msgstr "Demandé à"
+
 #. Default: "Comment"
 msgid "Advice comment"
 msgstr "Commentaire"
@@ -2638,6 +2642,10 @@ msgstr "Assemblée et signatures : vous ne pouvez pas désélectionner un votant
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr "Ce point ne peut plus être renvoyé vers les gestionnaires de séance car la séance dans laquelle ce point est présenté est dans un état qui ne l'autorise pas (${meetingState})."
 
+#. Default: "You can not select an advisers group and some specific userids.  Select either the group to ask advice to, or one or several users of this adviser."
+msgid "can_not_select_advisers_group_and_userids"
+msgstr "Vous ne pouvez pas sélectionner un groupe et des utilisateurs de ce groupe.  Sélectionnez soit le groupe (tous les émetteurs d'avis du groupe seront notifiés) ou certains utilisateurs (seuls ces utilisateurs seront notifiés)."
+
 #. Default: "You can not select \"No committee\" and a committee."
 msgid "can_not_select_no_committee_and_committee"
 msgstr "Vous ne pouvez pas sélectionner \"Ne passe pas en commission\" et une commission."
@@ -2648,7 +2656,11 @@ msgstr "Vous ne pouvez pas sélectionner un avis qui est déjà hérité sur le 
 
 #. Default: "You can not select several values for the same group.  Please select a single value for the same group among available ones."
 msgid "can_not_select_several_optional_advisers_same_group"
-msgstr "Vous ne pouvez pas sélectionner plusieurs avis optionnels pour le même groupe.  Sélectionnez un type d'avis pour le même groupe parmi ceux disponibles."
+msgstr "Vous ne pouvez pas sélectionner plusieurs avis pour le même groupe.  Sélectionnez un type d'avis pour le même groupe parmi ceux disponibles."
+
+#. Default: "You can not select userids for same advisers group.  Select userids for a single advice type of this advisers group."
+msgid "can_not_select_userids_for_same_advice_of_different_type"
+msgstr "Vous ne pouvez pas sélectionner des utilisateurs pour différents types d'avis du même groupe émetteur d'avis.  Sélectionnez des utilisateurs pour un seul type d'avis."
 
 #. Default: "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
 msgid "can_not_switch_polltype_votes_encoded"
@@ -5425,6 +5437,10 @@ msgstr "Mes points"
 #. Default: "items taken over"
 msgid "searchmyitemstakenover"
 msgstr "Points pris en charge"
+
+#. Default: "My items to advice"
+msgid "searchmyitemstoadvice"
+msgstr "Mes avis à donner"
 
 #. Default: "Available meetings"
 msgid "searchnotdecidedmeetings"
