@@ -2182,6 +2182,14 @@ msgid "adviceInvalidated_mail_subject"
 msgstr "${meetingConfigTitle} - Un avis que vous avez rendu a été invalidé - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "adviceToGiveByUser_mail_body"
+msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
+
+#. Default: "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
+msgid "adviceToGiveByUser_mail_subject"
+msgstr "${meetingConfigTitle} - Votre avis est demandé - ${itemTitle}"
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceToGive_mail_body"
 msgstr "L'objet du point est \"${itemTitle}\". Accédez au point ici: ${objectUrl}."
 
@@ -3387,6 +3395,10 @@ msgstr "Le délai pour rendre un avis sera bientôt expiré (prévient les émet
 msgid "event_advice_to_give"
 msgstr "Un avis doit être rendu sur un point (prévient les utilisateurs capables d'ajouter un avis sur le point)"
 
+#. Default: "An advice needs to be given on an item (notify users of advisers group selected on item or the users able to add advice)"
+msgid "event_advice_to_give_by_user"
+msgstr "Un avis doit être rendu sur un point (prévient les utilisateurs sélectionnés sur le point ou les utilisateurs capables d'ajouter un avis sur le point)"
+
 #. Default: "A reviewer wants to discuss an item (notify \"MeetingManagers\")"
 msgid "event_ask_discuss_item"
 msgstr "Un validateur souhaite évoquer un point (prévient les gestionnaires de séances)"
@@ -4386,6 +4398,10 @@ msgstr "Gérer le contenu de la configuration dans une seconde langue"
 #. Default: "Emails"
 msgid "mail"
 msgstr "Courriels"
+
+#. Default: "Notifications \"${conflicting_notifications}\" may not be selected together."
+msgid "mail_item_events_conflicts"
+msgstr "Les notifications \"${conflicting_notifications}\" ne peuvent pas être sélectionnées ensemble."
 
 #. Default: "In the list below, select the item-related events that will cause an e-mail being sent."
 msgid "mail_item_events_descr"

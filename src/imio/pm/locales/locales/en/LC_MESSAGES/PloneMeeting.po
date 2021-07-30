@@ -69,7 +69,7 @@ msgstr "Advice asked automatically because"
 
 #. Default: "Advice asked to"
 msgid "Advice asked to"
-msgstr ""
+msgstr "Advice asked to"
 
 #. Default: "Comment"
 msgid "Advice comment"
@@ -2182,6 +2182,14 @@ msgid "adviceInvalidated_mail_subject"
 msgstr "${meetingConfigTitle} - One or your advices has been invalidated - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "adviceToGiveByUser_mail_body"
+msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+
+#. Default: "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
+msgid "adviceToGiveByUser_mail_subject"
+msgstr "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceToGive_mail_body"
 msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 
@@ -2315,7 +2323,7 @@ msgstr "Adviser"
 
 #. Default: "User will be notified for this advice (by e-mail or thru the search \"my advices to give\")"
 msgid "adviser_userid_notified"
-msgstr ""
+msgstr "User will be notified for this advice (by e-mail or thru the search \"my advices to give\")"
 
 #. Default: "Advisers"
 msgid "advisers"
@@ -2644,7 +2652,7 @@ msgstr "This item can no more be returned to the meeting managers because the me
 
 #. Default: "You can not select an advisers group and some specific userids.  Select either the group to ask advice to, or one or several users of this adviser."
 msgid "can_not_select_advisers_group_and_userids"
-msgstr ""
+msgstr "You can not select an advisers group and some specific userids.  Select either the group to ask advice to, or one or several users of this adviser."
 
 #. Default: "You can not select \"No committee\" and a committee."
 msgid "can_not_select_no_committee_and_committee"
@@ -2660,7 +2668,7 @@ msgstr "You can not select several values for the same group.  Please select a s
 
 #. Default: "You can not select userids for same advisers group.  Select userids for a single advice type of this advisers group."
 msgid "can_not_select_userids_for_same_advice_of_different_type"
-msgstr ""
+msgstr "You can not select userids for same advisers group.  Select userids for a single advice type of this advisers group."
 
 #. Default: "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
 msgid "can_not_switch_polltype_votes_encoded"
@@ -2964,7 +2972,7 @@ msgstr "${meetingConfigTitle} - You have been carbon copied - ${itemTitle}"
 
 #. Default: "These groups will have read access to the item in following states: ${states}.\nWhen icon is green, this means that copy groups have access to the item.\nWhen the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
 msgid "copy_groups_help_msg"
-msgstr ""
+msgstr "These groups will have read access to the item in following states: ${states}.\nWhen icon is green, this means that copy groups have access to the item.\nWhen the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
 "These groups will have read access to the item in following states: ${states}.\n"
 "When icon is green, this means that copy groups have access to the item.\n"
 "When the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
@@ -3386,6 +3394,10 @@ msgstr "An advice delay is about to expire (notify advisers of relevant advice)"
 #. Default: "An advice needs to be given on an item (notify users able to add advice)"
 msgid "event_advice_to_give"
 msgstr "An advice needs to be given on an item (notify users able to add advice)"
+
+#. Default: "An advice needs to be given on an item (notify users of advisers group selected on item or the users able to add advice)"
+msgid "event_advice_to_give_by_user"
+msgstr "An advice needs to be given on an item (notify users of advisers group selected on item or the users able to add advice)"
 
 #. Default: "A reviewer wants to discuss an item (notify \"MeetingManagers\")"
 msgid "event_ask_discuss_item"
@@ -4386,6 +4398,10 @@ msgstr "Manage configuration content in a second language"
 #. Default: "Emails"
 msgid "mail"
 msgstr "Emails"
+
+#. Default: "Notifications \"${conflicting_notifications}\" may not be selected together."
+msgid "mail_item_events_conflicts"
+msgstr "Notifications \"${conflicting_notifications}\" may not be selected together."
 
 #. Default: "In the list below, select the item-related events that will cause an e-mail being sent."
 msgid "mail_item_events_descr"
@@ -5441,7 +5457,7 @@ msgstr "items taken over"
 
 #. Default: "My items to advice"
 msgid "searchmyitemstoadvice"
-msgstr ""
+msgstr "My items to advice"
 
 #. Default: "Available meetings"
 msgid "searchnotdecidedmeetings"
@@ -6398,9 +6414,8 @@ msgid "warning_advice_asked_again_need_to_change_advice_type"
 msgstr "Advice is currently \"Asked again\" do not forget to change value of field \"Advice type\" to another value than \"Asked again\""
 
 #. Default: "Warning, there is a problem with encoded data for assembly and signatures, please check especially that signatories are correctly defined"
-#, fuzzy
 msgid "warning_assembly_and_signatures"
-msgstr "Warning, there is a problem with encoded data for assembly and signatures, please check especially that at least 2 signatories are defined"
+msgstr "Warning, there is a problem with encoded data for assembly and signatures, please check especially that signatories are correctly defined"
 
 #. Default: "Warning: if you modify the title or description and save this form, all given advices will be invalidated."
 msgid "warning_invalidate_advices"

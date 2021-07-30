@@ -2202,6 +2202,14 @@ msgid "adviceInvalidated_mail_subject"
 msgstr "${meetingConfigTitle} - Uno o sus consejos han sido invalidados en el tema '${itemTitle}'."
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "adviceToGiveByUser_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
+msgid "adviceToGiveByUser_mail_subject"
+msgstr ""
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 #, fuzzy
 msgid "adviceToGive_mail_body"
 msgstr "Usted puede acceder a este tema aquí: ${objectUrl}."
@@ -3425,6 +3433,10 @@ msgstr ""
 msgid "event_advice_to_give"
 msgstr "Un consejo debe darse en un tema"
 
+#. Default: "An advice needs to be given on an item (notify users of advisers group selected on item or the users able to add advice)"
+msgid "event_advice_to_give_by_user"
+msgstr ""
+
 #. Default: "A reviewer wants to discuss an item (notify \"MeetingManagers\")"
 #, fuzzy
 msgid "event_ask_discuss_item"
@@ -4467,6 +4479,10 @@ msgstr "Administrar la configuración del contenido en un segundo idioma"
 #. Default: "Emails"
 msgid "mail"
 msgstr "Correos electrónicos"
+
+#. Default: "Notifications \"${conflicting_notifications}\" may not be selected together."
+msgid "mail_item_events_conflicts"
+msgstr ""
 
 #. Default: "In the list below, select the item-related events that will cause an e-mail being sent."
 msgid "mail_item_events_descr"

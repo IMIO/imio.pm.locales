@@ -2036,6 +2036,10 @@ msgstr ""
 msgid "transitions_for_presenting_an_item_descr"
 msgstr ""
 
+#. Default: "Notifications \"${conflicting_notifications}\" may not be selected together."
+msgid "mail_item_events_conflicts"
+msgstr ""
+
 #. Default: "This combination of workflow adaptations is invalid."
 msgid "wa_conflicts"
 msgstr ""
@@ -2389,6 +2393,10 @@ msgstr ""
 
 #. Default: "An advice needs to be given on an item (notify users able to add advice)"
 msgid "event_advice_to_give"
+msgstr ""
+
+#. Default: "An advice needs to be given on an item (notify users of advisers group selected on item or the users able to add advice)"
+msgid "event_advice_to_give_by_user"
 msgstr ""
 
 #. Default: "An advice was added or updated on an item (notify the \"Creators\")"
@@ -3217,6 +3225,14 @@ msgstr ""
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceToGive_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
+msgid "adviceToGiveByUser_mail_subject"
+msgstr ""
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "adviceToGiveByUser_mail_body"
 msgstr ""
 
 #. Default: "${meetingConfigTitle} - Warning advice delay expiration - ${itemTitle}"
