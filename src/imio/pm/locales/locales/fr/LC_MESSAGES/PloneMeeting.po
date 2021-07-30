@@ -1584,6 +1584,10 @@ msgstr "Restreindre l'accès aux points à huis clos aux"
 msgid "PloneMeeting_label_restrictUsers"
 msgstr "Mode \"Utilisateurs restreints\""
 
+#. Default: "Selectable adviser users"
+msgid "PloneMeeting_label_selectableAdviserUsers"
+msgstr "Groupes émetteurs d'avis pour lequels les membres du groupe pourront être sélectionnés"
+
 #. Default: "Selectable advisers"
 msgid "PloneMeeting_label_selectableAdvisers"
 msgstr "Groupes auxquels un avis optionnel pourra être demandé"
@@ -5490,6 +5494,10 @@ msgstr "Huis clos (entête)"
 #. Default: "See everything..."
 msgid "see_everything"
 msgstr "Voir tout..."
+
+#. Default: "This field is linked to field \"Selectable advisers\" here above.  Choose here advisers for which users will be selectable when asking advice.  Advice is still asked to the advisers group but the e-mail notification will be sent to the selected users and a new search \"My items to advice\" will be available for them."
+msgid "selectable_adviser_users_descr"
+msgstr "Ce champ est lié au champ \"Groupes auxquels un avis optionnel pourra être demandé\" ci-dessus.  Sélectionnez les groupes pour lesquels les membres du groupe \"Émetteurs d'avis\" pourront être sélectionnés sur le point.  L'avis sera toujours demandé au groupe mais seuls les utilisateurs sélectionnés seront notifiés par e-mail (si activé) et une recherche spécifique \"Mes avis à donner\" sera affichée."
 
 #. Default: "Choose here advisers that will be selectable on an item in the \"Optional advisers\" field. If a group does not contains users in the \"Advisers\" sub-group, it is mentioned, only select it if you intend to add users in that sub-group or the advice will never be given."
 msgid "selectable_advisers_descr"
