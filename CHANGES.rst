@@ -6,7 +6,9 @@ Changelog
 -------------------
 
 - Added translations regarding the `Ask advice to specific users` functionnality.
- [gbastien]
+  [gbastien]
+- Added translations regarding the `Deadlines to validate items for a meeting` functionnality.
+  [gbastien]
 
 4.2b9 (2021-07-16)
 ------------------

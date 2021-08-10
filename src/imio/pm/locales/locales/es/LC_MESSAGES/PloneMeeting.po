@@ -1078,6 +1078,10 @@ msgstr ""
 msgid "PloneMeeting_label_folderTitle"
 msgstr "Nombre de la carpeta enlazada a esta configuración"
 
+#. Default: "Default deadline for validating late items for a given meeting"
+msgid "PloneMeeting_label_freezeDeadlineDefault"
+msgstr ""
+
 #. Default: "Email of the functional administrator"
 msgid "PloneMeeting_label_functionalAdminEmail"
 msgstr "Correo electrónico del administrador funcional"
@@ -1748,6 +1752,10 @@ msgstr ""
 #. Default: "Restrict the category to following groups"
 msgid "PloneMeeting_label_usingGroups"
 msgstr "Restringir la categoría a los siguientes grupos"
+
+#. Default: "Default deadline for validating items for a given meeting"
+msgid "PloneMeeting_label_validationDeadlineDefault"
+msgstr ""
 
 #. Default: "Versionate advice if it was given and item is edited"
 msgid "PloneMeeting_label_versionateAdviceIfGivenAndItemModified"
@@ -3590,6 +3598,10 @@ msgstr "En la carpeta PloneMeeting de cada miembro, una subcarpeta es creada par
 msgid "force_display"
 msgstr ""
 
+#. Default: "Specify here the deadline for validating late items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating late items\" is enabled on meetings. Use same format as field above."
+msgid "freeze_deadline_default_descr"
+msgstr ""
+
 #. Default: "<p>PloneMeeting body in HTML format.</p>"
 msgid "front_page_body"
 msgstr "<p>Cuerpo de PloneMeeting en formato HTML.</p>"
@@ -3872,6 +3884,10 @@ msgstr ""
 msgid "icon_help_delayed"
 msgstr "Demorado"
 
+#. Default: "This item was validated after the freeze deadline defined on this meeting"
+msgid "icon_help_freeze_deadline_ko"
+msgstr ""
+
 #. Default: "Late"
 msgid "icon_help_late"
 msgstr "Tardío"
@@ -3914,6 +3930,10 @@ msgstr "Volver a grupo proponente para correcciones"
 
 #. Default: "Returned to proposing group for corrections ($validation_state)"
 msgid "icon_help_returned_to_proposing_group_with_validation_state"
+msgstr ""
+
+#. Default: "This item was validated after the validation deadline defined on this meeting"
+msgid "icon_help_validation_deadline_ko"
 msgstr ""
 
 #. Default: "Waiting advices"
@@ -5936,6 +5956,10 @@ msgstr ""
 msgid "title_first_item_number"
 msgstr ""
 
+#. Default: "Deadline for validating late items"
+msgid "title_freeze_deadline"
+msgstr ""
+
 #. Default: "In and out moves"
 msgid "title_in_and_out_moves"
 msgstr ""
@@ -6010,6 +6034,10 @@ msgstr ""
 
 #. Default: "Start date"
 msgid "title_start_date"
+msgstr ""
+
+#. Default: "Deadline for validating items"
+msgid "title_validation_deadline"
 msgstr ""
 
 #. Default: "Votes observations"
@@ -6217,6 +6245,10 @@ msgstr "Especifique aquí que valores de la votación están en uso en esta conf
 
 #. Default: "If you do not select anything, every users will be displayed."
 msgid "users_hidden_in_dashboard_filter_descr"
+msgstr ""
+
+#. Default: "Specify here the deadline for validating items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating items\" is enabled on meetings. Date is expressed relative to meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\"."
+msgid "validation_deadline_default_descr"
 msgstr ""
 
 #. Default: "When an advice is \"given\" and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically versioned. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to versionate advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is \"itemcreated\", a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is versioned when the item is edited if necessary (so if it was not already versioned since last advice edition).  If you have a specific state \"waiting advice\" where proposing group is not able to edit the item, this box may be left unchecked."
