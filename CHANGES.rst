@@ -5,8 +5,8 @@ Changelog
 4.2b10 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations for `itemPreferredMeetingStates`.
+  [aduchene]
 
 4.2b9 (2021-07-16)
 ------------------

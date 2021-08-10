@@ -1424,6 +1424,14 @@ msgstr "Notes gestionnaires de séances (suite)"
 msgid "PloneMeeting_label_meetingPresentItemWhenNoCurrentMeetingStates"
 msgstr "États des séances pris en compte pour déterminer la séance dans laquelle doit être présenté un point (lorsque le gestionnaire de séance n'est pas sur une séance)"
 
+#. Default: "States of selectable preferred meetings"
+msgid "PloneMeeting_label_itemPreferredMeetingStates"
+msgstr "États des séances pris en compte pour déterminer la liste des séances sélectionnables comme séance souhaitée"
+
+#. Default: "This allow to select a preferred meeting that are in theses selected states."
+msgid "itemPreferredMeetingStates_descr"
+msgstr "Les séances qui seront dans ces états pourront être sélectionnée comme séance souhaite. Sélectionner la valeur 'clôturée' n'aura aucun effet."
+
 #. Default: "Meeting transition that triggers the insertion of this item as a recurring item"
 msgid "PloneMeeting_label_meetingTransitionInsertingMe"
 msgstr "Transition de la séance qui déclenche l'ajout de ce point en tant que point récurrent"
