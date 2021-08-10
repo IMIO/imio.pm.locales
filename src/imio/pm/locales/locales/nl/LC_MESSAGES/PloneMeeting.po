@@ -68,6 +68,10 @@ msgstr ""
 msgid "Advice asked automatically because"
 msgstr ""
 
+#. Default: "Advice asked to"
+msgid "Advice asked to"
+msgstr ""
+
 #. Default: "Comment"
 msgid "Advice comment"
 msgstr ""
@@ -1586,6 +1590,10 @@ msgstr ""
 msgid "PloneMeeting_label_restrictUsers"
 msgstr ""
 
+#. Default: "Selectable adviser users"
+msgid "PloneMeeting_label_selectableAdviserUsers"
+msgstr ""
+
 #. Default: "Selectable advisers"
 msgid "PloneMeeting_label_selectableAdvisers"
 msgstr ""
@@ -2186,6 +2194,14 @@ msgid "adviceInvalidated_mail_subject"
 msgstr ""
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "adviceToGiveByUser_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
+msgid "adviceToGiveByUser_mail_subject"
+msgstr ""
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceToGive_mail_body"
 msgstr ""
 
@@ -2316,6 +2332,10 @@ msgstr "Advies standaard"
 #. Default: "Adviser"
 msgid "adviser"
 msgstr "Adviseur"
+
+#. Default: "User will be notified for this advice (by e-mail or thru the search \"my advices to give\")"
+msgid "adviser_userid_notified"
+msgstr ""
 
 #. Default: "Advisers"
 msgid "advisers"
@@ -2645,6 +2665,10 @@ msgstr ""
 msgid "can_not_return_to_meeting_because_of_meeting_state"
 msgstr ""
 
+#. Default: "You can not select an advisers group and some specific userids.  Select either the group to ask advice to, or one or several users of this adviser."
+msgid "can_not_select_advisers_group_and_userids"
+msgstr ""
+
 #. Default: "You can not select \"No committee\" and a committee."
 msgid "can_not_select_no_committee_and_committee"
 msgstr ""
@@ -2655,6 +2679,10 @@ msgstr ""
 
 #. Default: "You can not select several values for the same group.  Please select a single value for the same group among available ones."
 msgid "can_not_select_several_optional_advisers_same_group"
+msgstr ""
+
+#. Default: "You can not select userids for same advisers group.  Select userids for a single advice type of this advisers group."
+msgid "can_not_select_userids_for_same_advice_of_different_type"
 msgstr ""
 
 #. Default: "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
@@ -3380,6 +3408,10 @@ msgstr ""
 
 #. Default: "An advice needs to be given on an item (notify users able to add advice)"
 msgid "event_advice_to_give"
+msgstr ""
+
+#. Default: "An advice needs to be given on an item (notify users of advisers group selected on item or the users able to add advice)"
+msgid "event_advice_to_give_by_user"
 msgstr ""
 
 #. Default: "A reviewer wants to discuss an item (notify \"MeetingManagers\")"
@@ -4391,6 +4423,10 @@ msgstr ""
 #. Default: "Emails"
 msgid "mail"
 msgstr "e-Mails"
+
+#. Default: "Notifications \"${conflicting_notifications}\" may not be selected together."
+msgid "mail_item_events_conflicts"
+msgstr ""
 
 #. Default: "In the list below, select the item-related events that will cause an e-mail being sent."
 msgid "mail_item_events_descr"
@@ -5456,6 +5492,10 @@ msgstr "mijn punten"
 msgid "searchmyitemstakenover"
 msgstr ""
 
+#. Default: "My items to advice"
+msgid "searchmyitemstoadvice"
+msgstr ""
+
 #. Default: "Available meetings"
 msgid "searchnotdecidedmeetings"
 msgstr ""
@@ -5488,6 +5528,10 @@ msgstr ""
 #. Default: "See everything..."
 msgid "see_everything"
 msgstr "Toon alles"
+
+#. Default: "This field is linked to field \"Selectable advisers\" here above.  Choose here advisers for which users will be selectable when asking advice.  Advice is still asked to the advisers group but the e-mail notification will be sent to the selected users and a new search \"My items to advice\" will be available for them."
+msgid "selectable_adviser_users_descr"
+msgstr ""
 
 #. Default: "Choose here advisers that will be selectable on an item in the \"Optional advisers\" field. If a group does not contains users in the \"Advisers\" sub-group, it is mentioned, only select it if you intend to add users in that sub-group or the advice will never be given."
 msgid "selectable_advisers_descr"
