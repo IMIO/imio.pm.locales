@@ -6505,3 +6505,43 @@ msgstr ""
 #. Default: "Advice asked to"
 msgid "Advice asked to"
 msgstr ""
+
+#. Default: "The validation deadline for meeting freezing has not been respected"
+msgid "icon_help_publish_deadline_ko"
+msgstr ""
+
+#. Default: "The validation deadline for meeting publication has not been respected"
+msgid "icon_help_publish_freeze_ko"
+msgstr ""
+
+#. Default: "Deadline for validating late items"
+msgid "title_freeze_deadline"
+msgstr ""
+
+#. Default: "Deadline for validating items"
+msgid "title_validation_deadline"
+msgstr ""
+
+#. Default: "This item was validated after the validation deadline defined on this meeting"
+msgid "icon_help_validation_deadline_ko"
+msgstr ""
+
+#. Default: "This item was validated after the freeze deadline defined on this meeting"
+msgid "icon_help_freeze_deadline_ko"
+msgstr ""
+
+#. Default: "Default deadline for validating items for a given meeting"
+msgid "PloneMeeting_label_validationDeadlineDefault"
+msgstr ""
+
+#. Default: "Default deadline for validating late items for a given meeting"
+msgid "PloneMeeting_label_freezeDeadlineDefault"
+msgstr ""
+
+#. Default: "Specify here the deadline for validating items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating items\" is enabled on meetings. Date is expressed relative to meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\"."
+msgid "validation_deadline_default_descr"
+msgstr ""
+
+#. Default: "Specify here the deadline for validating late items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating late items\" is enabled on meetings. Use same format as field above."
+msgid "freeze_deadline_default_descr"
+msgstr ""

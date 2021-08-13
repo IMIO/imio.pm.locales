@@ -1071,6 +1071,10 @@ msgstr "Valeurs de votes utilisables sur le premier vote lié"
 msgid "PloneMeeting_label_folderTitle"
 msgstr "Nom du répertoire lié à cette configuration"
 
+#. Default: "Default deadline for validating late items for a given meeting"
+msgid "PloneMeeting_label_freezeDeadlineDefault"
+msgstr "Echéance par défaut pour valider les points en urgence pour une séance donnée"
+
 #. Default: "Email of the functional administrator"
 msgid "PloneMeeting_label_functionalAdminEmail"
 msgstr "Courriel de l'administrateur fonctionnel"
@@ -1731,6 +1735,10 @@ msgstr "Utilisateurs à ne pas afficher dans les filtres des tableaux de bord"
 #. Default: "Restrict the category to following groups"
 msgid "PloneMeeting_label_usingGroups"
 msgstr "Restreindre cette catégorie aux groupes suivants"
+
+#. Default: "Default deadline for validating items for a given meeting"
+msgid "PloneMeeting_label_validationDeadlineDefault"
+msgstr "Echéance par défaut pour valider les points pour une séance donnée"
 
 #. Default: "Versionate advice if it was given and item is edited"
 msgid "PloneMeeting_label_versionateAdviceIfGivenAndItemModified"
@@ -3539,6 +3547,10 @@ msgstr "Dans le répertoire de chaque utilisateur, un sous-répertoire par confi
 msgid "force_display"
 msgstr "forcer l'affichage"
 
+#. Default: "Specify here the deadline for validating late items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating late items\" is enabled on meetings. Use same format as field above."
+msgid "freeze_deadline_default_descr"
+msgstr "Spécifiez ici l'échéance par défaut pour valider les points en urgence à présenter dans une séance. Initialisera le champ \"Échéance pour valider les points en urgence\" de la séance s'il est activé. Utilisez les format décrit dans le champ ci-dessus."
+
 #. Default: "<p>PloneMeeting body in HTML format.</p>"
 msgid "front_page_body"
 msgstr "<p>Avant de tester, nous vous recommandons de lire la <span class=\"link-external\"><a target=\"_blank\" href=\"http://www.imio.be/support/documentation/manual/plonemeeting41\">documentation</a></span> qui explique en détails le fonctionnement du logiciel. Ce manuel évolue constamment.</p>"
@@ -3813,6 +3825,10 @@ msgstr "Reçu depuis le ${meetingConfigTitle}, le point original est \"${predece
 msgid "icon_help_delayed"
 msgstr "Reporté"
 
+#. Default: "This item was validated after the freeze deadline defined on this meeting"
+msgid "icon_help_freeze_deadline_ko"
+msgstr "Ce point a été validé après la date \"Échéance pour valider les points en urgence\" définie sur cette séance"
+
 #. Default: "Late"
 msgid "icon_help_late"
 msgstr "En urgence"
@@ -3856,6 +3872,10 @@ msgstr "À corriger"
 #. Default: "Returned to proposing group for corrections ($validation_state)"
 msgid "icon_help_returned_to_proposing_group_with_validation_state"
 msgstr "À corriger ($validation_state)"
+
+#. Default: "This item was validated after the validation deadline defined on this meeting"
+msgid "icon_help_validation_deadline_ko"
+msgstr "Ce point a été validé après la date \"Échéance pour valider les points\" définie sur cette séance"
 
 #. Default: "Waiting advices"
 msgid "icon_help_waiting_advices"
@@ -5824,6 +5844,10 @@ msgstr "Séance extraordinaire?"
 msgid "title_first_item_number"
 msgstr "Numéro du premier point de cette séance (géré automatiquement par l'application lors du gel de la séance)"
 
+#. Default: "Deadline for validating late items"
+msgid "title_freeze_deadline"
+msgstr "Échéance pour valider les points en urgence"
+
 #. Default: "In and out moves"
 msgid "title_in_and_out_moves"
 msgstr "Entrées et sorties (assemblée)"
@@ -5899,6 +5923,10 @@ msgstr "Signatures"
 #. Default: "Start date"
 msgid "title_start_date"
 msgstr "Date et heure de début"
+
+#. Default: "Deadline for validating items"
+msgid "title_validation_deadline"
+msgstr "Échéance pour valider les points"
 
 #. Default: "Votes observations"
 msgid "title_votes_observations"
@@ -6095,6 +6123,10 @@ msgstr "Spécifiez ici quelles valeurs de vote sont utilisées dans cette config
 #. Default: "If you do not select anything, every users will be displayed."
 msgid "users_hidden_in_dashboard_filter_descr"
 msgstr "Si vous ne sélectionnez rien (par défaut), tous les utilisateurs seront affichés.  Ceci impacte les filtres affichant des utilisateurs tels que les filtres 'Auteur' ou 'Pris en charge'."
+
+#. Default: "Specify here the deadline for validating items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating items\" is enabled on meetings. Date is expressed relative to meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\"."
+msgid "validation_deadline_default_descr"
+msgstr "Spécifiez ici l'échéance par défaut pour valider les points à présenter dans une séance. Initialisera le champ \"Échéance pour valider les points\" de la séance s'il est activé. Ceci permettra de définir automatiquement une date relative à la date de la séance.  Par exemple \"5.9:30\" (sans les guillemets) signifie: 5 jours avant la date de la séance, à 9h30."
 
 #. Default: "When an advice is \"given\" and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically versioned. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to versionate advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is \"itemcreated\", a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is versioned when the item is edited if necessary (so if it was not already versioned since last advice edition).  If you have a specific state \"waiting advice\" where proposing group is not able to edit the item, this box may be left unchecked."
 msgid "versionate_advice_if_given_and_item_modified_descr"
