@@ -5,6 +5,8 @@ Changelog
 4.2b10 (unreleased)
 -------------------
 
+- Added translations for `MeetingConfig.itemPreferredMeetingStates`.
+  [aduchene]
 - Added translations regarding the `Ask advice to specific users` functionnality.
   [gbastien]
 - Added translations regarding the `Deadlines to validate items for a meeting` functionnality.
