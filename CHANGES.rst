@@ -11,6 +11,8 @@ Changelog
   [gbastien]
 - Added translations regarding the `Deadlines to validate items for a meeting` functionnality.
   [gbastien]
+- Added translations for new mail notification settings.
+  [aduchene]
 
 4.2b9 (2021-07-16)
 ------------------
