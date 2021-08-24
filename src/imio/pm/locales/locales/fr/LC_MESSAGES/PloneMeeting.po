@@ -6044,6 +6044,18 @@ msgstr "Cette transition a été déclenchée automatiquement lorsque ce point a
 msgid "transition_event"
 msgstr "Transition du WF \"${state_info}\" (prévient les utilisateurs capables de voir l'élément)"
 
+#. Default: "WF transition ${state_info} (notify users based on history)."
+msgid "transition_event_history_aware"
+msgstr "Transition du WF \"${state_info}\" (prévient l'utilisateur en fonction de l'historique)"
+
+#. Default: "WF transition ${state_info} (notify proposing group suffix)."
+msgid "transition_event_proposing_group_suffix"
+msgstr "Transition du WF \"${state_info}\" (prévient le sous-groupe ayant la main sur le point)"
+
+#. Default: "WF transition ${state_info} (notify proposing group suffix except manager)."
+msgid "transition_event_proposing_group_except_manager"
+msgstr "Transition du WF \"${state_info}\" (prévient le sous-groupe ayant la main sur le point, sauf le gestionnaire de séance)"
+
 #. Default: "The transition you selected does not correspond to the meeting configuration!  Please select a transition using corresponding meeting configuration"
 msgid "transition_not_from_selected_meeting_config"
 msgstr "La transition sélectionnée ne correspond pas au type de séance sélectionné!"
