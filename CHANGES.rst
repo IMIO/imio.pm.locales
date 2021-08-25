@@ -13,6 +13,8 @@ Changelog
   [gbastien]
 - Accurate french translations for item navigation widget `Go to next/previous/... item`.
   [gbastien]
+- Completed `MeetingConfig.hideHistoryTo` field description.
+  [gbastien]
 
 4.2b9 (2021-07-16)
 ------------------
