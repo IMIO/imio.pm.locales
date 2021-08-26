@@ -903,9 +903,10 @@ msgstr "Des informations budgétaires sont liées"
 msgid "PloneMeeting_label_category"
 msgstr "Catégorie"
 
-#. Default: "Category identifier"
+#. Default: "Category secondary identifier"
+#, fuzzy
 msgid "PloneMeeting_label_categoryId"
-msgstr "Identifiant de la catégorie"
+msgstr "Identifiant secondaire de la catégorie"
 
 #. Default: "Category to use when sending item of this meeting config to another one"
 msgid "PloneMeeting_label_category_mapping_when_cloning_to_other_mc"
@@ -1271,6 +1272,10 @@ msgstr "États dans lesquels un point pourra être manuellement envoyé vers les
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Numéro"
 
+#. Default: "States of selectable preferred meetings"
+msgid "PloneMeeting_label_itemPreferredMeetingStates"
+msgstr "États des séances pris en compte par le champ \"Séance souhaitée\" lors de l'édition d'un point."
+
 #. Default: "Item reference"
 msgid "PloneMeeting_label_itemReference"
 msgstr "Référence du point"
@@ -1431,14 +1436,6 @@ msgstr "Notes gestionnaires de séances (suite)"
 #. Default: "States of the meeting to insert an item into from everywhere"
 msgid "PloneMeeting_label_meetingPresentItemWhenNoCurrentMeetingStates"
 msgstr "États des séances pris en compte pour déterminer la séance dans laquelle doit être présenté un point (lorsque le gestionnaire de séance n'est pas sur une séance)"
-
-#. Default: "States of selectable preferred meetings"
-msgid "PloneMeeting_label_itemPreferredMeetingStates"
-msgstr "États des séances pris en compte par le champ \"Séance souhaitée\" lors de l'édition d'un point."
-
-#. Default: "This allow to select a preferred meeting that are in theses selected states."
-msgid "itemPreferredMeetingStates_descr"
-msgstr "Les séances qui seront dans ces états pourront être sélectionnées comme séance souhaitée par les utlisateurs qui ne sont pas gestionnaire de séance. Le gestionnaire de séance pourra toujours sélectionner les séances qui ne sont pas dans l'état \"clôturé\"."
 
 #. Default: "Meeting transition that triggers the insertion of this item as a recurring item"
 msgid "PloneMeeting_label_meetingTransitionInsertingMe"
@@ -2730,9 +2727,10 @@ msgstr "Vous pouvez ${force_display} des catégories (ceci peut prendre un certa
 msgid "categories_use_folder_contents"
 msgstr "Vous pouvez utiliser ${folder_contents_link} pour gérer l'ordre des éléments."
 
-#. Default: "Choose here some identifier for your category."
+#. Default: "Choose here a secondary identifier for your category."
+#, fuzzy
 msgid "category_category_id_descr"
-msgstr "Choisissez ici un identifiant pour votre catégorie."
+msgstr "Choisissez ici un identifiant secondaire pour votre catégorie."
 
 #. Default: "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
@@ -4036,6 +4034,10 @@ msgstr "Ce point est toujours dans la séance mais marqué comme \"Reporté à l
 #. Default: "${meetingConfigTitle} - Item postponed to the next meeting - ${itemTitle}"
 msgid "itemPostponedNextMeeting_mail_subject"
 msgstr "${meetingConfigTitle} - Point reporté à une prochaine séance - ${itemTitle}"
+
+#. Default: "This allow to select a preferred meeting that are in theses selected states."
+msgid "itemPreferredMeetingStates_descr"
+msgstr "Les séances qui seront dans ces états pourront être sélectionnées comme séance souhaitée par les utlisateurs qui ne sont pas gestionnaire de séance. Le gestionnaire de séance pourra toujours sélectionner les séances qui ne sont pas dans l'état \"clôturé\"."
 
 #. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "itemPresented_mail_body"

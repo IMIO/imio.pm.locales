@@ -15,6 +15,9 @@ Changelog
   [gbastien]
 - Completed `MeetingConfig.hideHistoryTo` field description.
   [gbastien]
+- Adapted translation of field `MeetingCategory.category_id` from `Category identifier`
+  to `Category secondary identifier` to avoid confusion with category identifier (id).
+  [gbastien]
 
 4.2b9 (2021-07-16)
 ------------------

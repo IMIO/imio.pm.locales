@@ -906,7 +906,8 @@ msgstr "Mit diesem TOP sind Budget Informationen verknüpft"
 msgid "PloneMeeting_label_category"
 msgstr "Kategorie"
 
-#. Default: "Category identifier"
+#. Default: "Category secondary identifier"
+#, fuzzy
 msgid "PloneMeeting_label_categoryId"
 msgstr "Kategorie Bezeichnung"
 
@@ -1273,6 +1274,10 @@ msgstr ""
 #. Default: "Number"
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Nummer"
+
+#. Default: "States of selectable preferred meetings"
+msgid "PloneMeeting_label_itemPreferredMeetingStates"
+msgstr ""
 
 #. Default: "Item reference"
 msgid "PloneMeeting_label_itemReference"
@@ -2742,7 +2747,8 @@ msgstr ""
 msgid "categories_use_folder_contents"
 msgstr ""
 
-#. Default: "Choose here some identifier for your category."
+#. Default: "Choose here a secondary identifier for your category."
+#, fuzzy
 msgid "category_category_id_descr"
 msgstr "Wählen Sie hier einen Wert für die Kategorie aus."
 
@@ -4066,6 +4072,10 @@ msgstr ""
 
 #. Default: "${meetingConfigTitle} - Item postponed to the next meeting - ${itemTitle}"
 msgid "itemPostponedNextMeeting_mail_subject"
+msgstr ""
+
+#. Default: "This allow to select a preferred meeting that are in theses selected states."
+msgid "itemPreferredMeetingStates_descr"
 msgstr ""
 
 #. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
