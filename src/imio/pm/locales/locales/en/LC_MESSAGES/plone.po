@@ -449,11 +449,11 @@ msgstr "Back to proposing group from proposed"
 
 #. Default: "Back to proposing group from proposed to level 1"
 msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposedToValidationLevel1"
-msgstr ""
+msgstr "Back to proposing group from proposed to level 1"
 
 #. Default: "Back to proposing group (proposed to level 1) from proposed to level 2"
 msgid "backTo_returned_to_proposing_group_proposedToValidationLevel1_from_returned_to_proposing_group_proposedToValidationLevel2"
-msgstr ""
+msgstr "Back to proposing group (proposed to level 1) from proposed to level 2"
 
 #. Default: "Back to proposing group (proposed) from prevalidated"
 msgid "backTo_returned_to_proposing_group_proposed_from_returned_to_proposing_group_prevalidated"
@@ -549,7 +549,7 @@ msgstr "Closed"
 
 #. Default: "Committees"
 msgid "committees"
-msgstr ""
+msgstr "Committees"
 
 #. Default: "Confirm"
 msgid "confirm"
@@ -646,13 +646,13 @@ msgstr " "
 #: CMFPlone/skins/plone_deprecated/prefs_groups_overview.cpt:68
 #: plone.app.controlpanel/plone/app/controlpanel/usergroups_groupsoverview.pt:69
 msgid "description_groups_management"
-msgstr ""
+msgstr "Groups are logical collections of users, such as departments and business units. Groups are not directly related to permissions on a global level, you normally use Roles for that - and let certain Groups have a particular role."
 
 #. Default: "Click the user's name to see and change the details of a specific user. You can also add and remove users."
 #: CMFPlone/skins/plone_deprecated/prefs_users_overview.cpt:60
 #: plone.app.controlpanel/plone/app/controlpanel/usergroups_usersoverview.pt:64
 msgid "description_user_management"
-msgstr ""
+msgstr "Click the user's name to see and change the details of a specific user. You can also add and remove users."
 
 #. Default: "Documents"
 msgid "doc"
@@ -680,7 +680,7 @@ msgstr "Go to returned to proposing group (proposed)"
 
 #. Default: "Go to returned to proposing group (proposed to level 1)"
 msgid "goTo_returned_to_proposing_group_proposedToValidationLevel1"
-msgstr ""
+msgstr "Go to returned to proposing group (proposed to level 1)"
 
 #. Default: "User interface"
 msgid "gui"
@@ -764,7 +764,7 @@ msgstr "Delete"
 #: CMFPlone/skins/plone_deprecated/prefs_users_overview.cpt:137
 #: plone.app.controlpanel/plone/app/controlpanel/usergroups_usersoverview.pt:141
 msgid "listingheader_remove_user"
-msgstr ""
+msgstr "Remove user"
 
 #. Default: "Emails"
 msgid "mail"
@@ -956,7 +956,7 @@ msgstr "Returned to proposing group (proposed)"
 
 #. Default: "Returned to proposing group (proposed to level 1)"
 msgid "returned_to_proposing_group_proposedToValidationLevel1"
-msgstr ""
+msgstr "Returned to proposing group (proposed to level 1)"
 
 #. Default: "Search everywhere"
 #: plone.app.layout/plone/app/layout/viewlets/searchbox.pt:16
@@ -985,7 +985,6 @@ msgid "validated"
 msgstr "Validated"
 
 #. Default: "Votes"
-#, fuzzy
 msgid "votes"
 msgstr "Votes"
 
