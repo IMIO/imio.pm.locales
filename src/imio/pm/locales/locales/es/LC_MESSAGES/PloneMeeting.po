@@ -910,7 +910,8 @@ msgstr "Este elemento es relacionado a la Información presupuestaria"
 msgid "PloneMeeting_label_category"
 msgstr "Categoría"
 
-#. Default: "Category identifier"
+#. Default: "Category secondary identifier"
+#, fuzzy
 msgid "PloneMeeting_label_categoryId"
 msgstr "Identificador de la categoría"
 
@@ -1278,6 +1279,10 @@ msgstr ""
 #. Default: "Number"
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Número"
+
+#. Default: "States of selectable preferred meetings"
+msgid "PloneMeeting_label_itemPreferredMeetingStates"
+msgstr ""
 
 #. Default: "Item reference"
 msgid "PloneMeeting_label_itemReference"
@@ -2752,7 +2757,8 @@ msgstr ""
 msgid "categories_use_folder_contents"
 msgstr ""
 
-#. Default: "Choose here some identifier for your category."
+#. Default: "Choose here a secondary identifier for your category."
+#, fuzzy
 msgid "category_category_id_descr"
 msgstr "Elija aquí algunos identificadores para su categoría."
 
@@ -4092,6 +4098,10 @@ msgstr ""
 msgid "itemPostponedNextMeeting_mail_subject"
 msgstr ""
 
+#. Default: "This allow to select a preferred meeting that are in theses selected states."
+msgid "itemPreferredMeetingStates_descr"
+msgstr ""
+
 #. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 #, fuzzy
 msgid "itemPresented_mail_body"
@@ -5129,23 +5139,28 @@ msgstr "Convertir los anexos para la vista previa"
 msgid "pm_creation_date"
 msgstr "Fecha de creación"
 
-#. Default: "Go to the first one."
+#. Default: "Go to the first one"
+#, fuzzy
 msgid "pm_goto_first"
 msgstr "Ir al primer tema en esta reunión."
 
-#. Default: "Go to the last one."
+#. Default: "Go to the last one"
+#, fuzzy
 msgid "pm_goto_last"
 msgstr "Ir al ultimo tema en esta reunión."
 
-#. Default: "Go to the meeting containing this item."
+#. Default: "Go to the meeting containing this item and position on the item"
+#, fuzzy
 msgid "pm_goto_meeting"
 msgstr "Ir a reunión que contiene este tema."
 
-#. Default: "Go to the next one."
+#. Default: "Go to the next one"
+#, fuzzy
 msgid "pm_goto_next"
 msgstr "Ir al próximo tema."
 
-#. Default: "Go to the previous one."
+#. Default: "Go to the previous one"
+#, fuzzy
 msgid "pm_goto_previous"
 msgstr "Ir al anterior tema."
 

@@ -903,9 +903,9 @@ msgstr "This item is related to budgetary information"
 msgid "PloneMeeting_label_category"
 msgstr "Category"
 
-#. Default: "Category identifier"
+#. Default: "Category secondary identifier"
 msgid "PloneMeeting_label_categoryId"
-msgstr "Category identifier"
+msgstr "Category secondary identifier"
 
 #. Default: "Category to use when sending item of this meeting config to another one"
 msgid "PloneMeeting_label_category_mapping_when_cloning_to_other_mc"
@@ -1073,7 +1073,7 @@ msgstr "Name of the folder linked to this configuration"
 
 #. Default: "Default deadline for validating late items for a given meeting"
 msgid "PloneMeeting_label_freezeDeadlineDefault"
-msgstr ""
+msgstr "Default deadline for validating late items for a given meeting"
 
 #. Default: "Email of the functional administrator"
 msgid "PloneMeeting_label_functionalAdminEmail"
@@ -1270,6 +1270,10 @@ msgstr "States in which an item may be manually sent to selected other meeting c
 #. Default: "Number"
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Number"
+
+#. Default: "States of selectable preferred meetings"
+msgid "PloneMeeting_label_itemPreferredMeetingStates"
+msgstr "States of selectable preferred meetings"
 
 #. Default: "Item reference"
 msgid "PloneMeeting_label_itemReference"
@@ -1590,7 +1594,7 @@ msgstr "\"Restrict users\" mode"
 
 #. Default: "Selectable adviser users"
 msgid "PloneMeeting_label_selectableAdviserUsers"
-msgstr ""
+msgstr "Selectable adviser users"
 
 #. Default: "Selectable advisers"
 msgid "PloneMeeting_label_selectableAdvisers"
@@ -1738,7 +1742,7 @@ msgstr "Restrict the category to following groups"
 
 #. Default: "Default deadline for validating items for a given meeting"
 msgid "PloneMeeting_label_validationDeadlineDefault"
-msgstr ""
+msgstr "Default deadline for validating items for a given meeting"
 
 #. Default: "Versionate advice if it was given and item is edited"
 msgid "PloneMeeting_label_versionateAdviceIfGivenAndItemModified"
@@ -2722,9 +2726,9 @@ msgstr "You can ${force_display} of every categories (may take some time)."
 msgid "categories_use_folder_contents"
 msgstr "You may use the ${folder_contents_link} to manage elements order."
 
-#. Default: "Choose here some identifier for your category."
+#. Default: "Choose here a secondary identifier for your category."
 msgid "category_category_id_descr"
-msgstr "Choose here some identifier for your category."
+msgstr "Choose here a secondary identifier for your category."
 
 #. Default: "When an item of this meeting config using this category will sent to another meeting config, select here the category that will be used in the destination meeting config.  This is only relevant if current meeting config and destination meeting config use categories."
 msgid "category_mapping_when_cloning_to_other_mc_descr"
@@ -3551,7 +3555,7 @@ msgstr "force display"
 
 #. Default: "Specify here the deadline for validating late items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating late items\" is enabled on meetings. Use same format as field above."
 msgid "freeze_deadline_default_descr"
-msgstr ""
+msgstr "Specify here the deadline for validating late items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating late items\" is enabled on meetings. Use same format as field above."
 
 #. Default: "<p>PloneMeeting body in HTML format.</p>"
 msgid "front_page_body"
@@ -3829,7 +3833,7 @@ msgstr "Delayed"
 
 #. Default: "This item was validated after the freeze deadline defined on this meeting"
 msgid "icon_help_freeze_deadline_ko"
-msgstr ""
+msgstr "This item was validated after the freeze deadline defined on this meeting"
 
 #. Default: "Late"
 msgid "icon_help_late"
@@ -3877,7 +3881,7 @@ msgstr "Returned to proposing group for corrections ($validation_state)"
 
 #. Default: "This item was validated after the validation deadline defined on this meeting"
 msgid "icon_help_validation_deadline_ko"
-msgstr ""
+msgstr "This item was validated after the validation deadline defined on this meeting"
 
 #. Default: "Waiting advices"
 msgid "icon_help_waiting_advices"
@@ -4030,6 +4034,10 @@ msgstr "While this item is still in the meeting, but marked as \"postponed next 
 #. Default: "${meetingConfigTitle} - Item postponed to the next meeting - ${itemTitle}"
 msgid "itemPostponedNextMeeting_mail_subject"
 msgstr "${meetingConfigTitle} - Item postponed to the next meeting - ${itemTitle}"
+
+#. Default: "This allow to select a preferred meeting that are in theses selected states."
+msgid "itemPreferredMeetingStates_descr"
+msgstr "This allow to select a preferred meeting that are in theses selected states."
 
 #. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "itemPresented_mail_body"
@@ -5033,25 +5041,25 @@ msgstr "Convert annexes for preview"
 msgid "pm_creation_date"
 msgstr "Creation date"
 
-#. Default: "Go to the first one."
+#. Default: "Go to the first one"
 msgid "pm_goto_first"
-msgstr "Go to the first one."
+msgstr "Go to the first one"
 
-#. Default: "Go to the last one."
+#. Default: "Go to the last one"
 msgid "pm_goto_last"
-msgstr "Go to the last one."
+msgstr "Go to the last one"
 
-#. Default: "Go to the meeting containing this item."
+#. Default: "Go to the meeting containing this item and position on the item"
 msgid "pm_goto_meeting"
-msgstr "Go to the meeting containing this item."
+msgstr "Go to the meeting containing this item and position on the item"
 
-#. Default: "Go to the next one."
+#. Default: "Go to the next one"
 msgid "pm_goto_next"
-msgstr "Go to the next one."
+msgstr "Go to the next one"
 
-#. Default: "Go to the previous one."
+#. Default: "Go to the previous one"
 msgid "pm_goto_previous"
-msgstr "Go to the previous one."
+msgstr "Go to the previous one"
 
 #. Default: "Invalidate all cache in the application"
 msgid "pm_invalidate_all_cache"
@@ -5520,7 +5528,7 @@ msgstr "See everything..."
 
 #. Default: "This field is linked to field \"Selectable advisers\" here above.  Choose here advisers for which users will be selectable when asking advice.  Advice is still asked to the advisers group but the e-mail notification will be sent to the selected users and a new search \"My items to advice\" will be available for them."
 msgid "selectable_adviser_users_descr"
-msgstr ""
+msgstr "This field is linked to field \"Selectable advisers\" here above.  Choose here advisers for which users will be selectable when asking advice.  Advice is still asked to the advisers group but the e-mail notification will be sent to the selected users and a new search \"My items to advice\" will be available for them."
 
 #. Default: "Choose here advisers that will be selectable on an item in the \"Optional advisers\" field. If a group does not contains users in the \"Advisers\" sub-group, it is mentioned, only select it if you intend to add users in that sub-group or the advice will never be given."
 msgid "selectable_advisers_descr"
@@ -5849,7 +5857,7 @@ msgstr "First item number (managed automatically when meeting is frozen)"
 
 #. Default: "Deadline for validating late items"
 msgid "title_freeze_deadline"
-msgstr ""
+msgstr "Deadline for validating late items"
 
 #. Default: "In and out moves"
 msgid "title_in_and_out_moves"
@@ -5929,7 +5937,7 @@ msgstr "Start date"
 
 #. Default: "Deadline for validating items"
 msgid "title_validation_deadline"
-msgstr ""
+msgstr "Deadline for validating items"
 
 #. Default: "Votes observations"
 msgid "title_votes_observations"
@@ -6129,7 +6137,7 @@ msgstr "If you do not select anything, every users will be displayed."
 
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating items\" is enabled on meetings. Date is expressed relative to meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\"."
 msgid "validation_deadline_default_descr"
-msgstr ""
+msgstr "Specify here the deadline for validating items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating items\" is enabled on meetings. Date is expressed relative to meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\"."
 
 #. Default: "When an advice is \"given\" and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically versioned. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to versionate advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is \"itemcreated\", a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is versioned when the item is edited if necessary (so if it was not already versioned since last advice edition).  If you have a specific state \"waiting advice\" where proposing group is not able to edit the item, this box may be left unchecked."
 msgid "versionate_advice_if_given_and_item_modified_descr"

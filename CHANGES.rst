@@ -11,6 +11,13 @@ Changelog
   [gbastien]
 - Added translations regarding the `Deadlines to validate items for a meeting` functionnality.
   [gbastien]
+- Accurate french translations for item navigation widget `Go to next/previous/... item`.
+  [gbastien]
+- Completed `MeetingConfig.hideHistoryTo` field description.
+  [gbastien]
+- Adapted translation of field `MeetingCategory.category_id` from `Category identifier`
+  to `Category secondary identifier` to avoid confusion with category identifier (id).
+  [gbastien]
 - Added translations for new mail notification settings.
   [aduchene]
 
