@@ -4278,6 +4278,10 @@ msgstr "Les modèles de points seront disponibles aux utilisateurs qui créeront
 msgid "item_up_wf_term"
 msgstr "Remonte le workflow"
 
+#. Default: "Every values of the \"Back transition if\" column must start with \"back\"."
+msgid "item_wf_val_states_back_transition_must_start_with_back"
+msgstr "Toutes les valeurs de la colonne \"Transition retour (Identifiant)\" doivent commencer par \"back\"."
+
 #. Default: "You can not disable or remove a line that is currently used by an item in the application, checkout configuration about state \"${item_state}\" that is used for example by item at \"${item_url}\""
 msgid "item_wf_val_states_can_not_be_removed_in_use"
 msgstr "Vous ne pouvez pas désactiver ou supprimer une ligne correspondant à un état actuellement utilisé dans l'application.  Vérifiez la ligne concernant l'état \"${item_state}\" utilisée par exemple par le point \"${item_url}\""
@@ -4285,6 +4289,18 @@ msgstr "Vous ne pouvez pas désactiver ou supprimer une ligne correspondant à u
 #. Default: "You can not disable or remove a line that is currently used by a parameter in this configuration, checkout configuration about state \"${state_or_transition}\" that is used for example by parameter \"${cfg_field_name}\""
 msgid "item_wf_val_states_can_not_be_removed_in_use_config"
 msgstr "Vous ne pouvez pas désactiver ou supprimer une ligne correspondant à un état actuellement utilisé dans la configuration.  Vérifiez la ligne concernant l'état \"${state_or_transition}\" utilisée par exemple par le paramètre \"${cfg_field_name}\""
+
+#. Default: "If you enable some validation levels, then the \"Item created\" level must mandatorily be the first level (item initial state)."
+msgid "item_wf_val_states_itemcreated_mandatory"
+msgstr "Si certains niveaux de validations sont activés, la première ligne \"itemcreated (en création)\" doit obligatoirement être activée."
+
+#. Default: "You can not remove the \"Item created\" line that but mandatorily be the first line."
+msgid "item_wf_val_states_itemcreated_must_exist"
+msgstr "La ligne \"itemcreated (en création)\" ne peut pas être supprimée (vous pouvez la désactiver) et doit être la première ligne renseignée."
+
+#. Default: "Identifiers used in the configuration must respect following format: one single word (no spaces) without accents or special characters."
+msgid "item_wf_val_states_wrong_identifier_format"
+msgstr "Les colonnes \"(Identifiant)\" doivent respecter le format suivant: un seul mot (sans espace), uniquement lettres et chiffres sans caractères spéciaux."
 
 #. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
 msgid "item_wf_validation_levels_descr"
