@@ -18,6 +18,8 @@ Changelog
 - Adapted translation of field `MeetingCategory.category_id` from `Category identifier`
   to `Category secondary identifier` to avoid confusion with category identifier (id).
   [gbastien]
+- Added translations for new mail notification settings.
+  [aduchene]
 - Completed translations of error messages returned by `MeetingConfig.validate_itemWFValidationLevels`.
   [gbastien]
 
