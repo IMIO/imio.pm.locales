@@ -20,6 +20,8 @@ Changelog
   [gbastien]
 - Added translations for new mail notification settings.
   [aduchene]
+- Completed translations of error messages returned by `MeetingConfig.validate_itemWFValidationLevels`.
+  [gbastien]
 
 4.2b9 (2021-07-16)
 ------------------
