@@ -931,6 +931,10 @@ msgstr "Commissions"
 msgid "PloneMeeting_label_completeness"
 msgstr "Complétude"
 
+#. Default: "Compute item reference for items decided out of meeting ?"
+msgid "PloneMeeting_label_computeItemReferenceForItemsOutOfMeeting"
+msgstr "Affecter une référence aux points décidés hors séance?"
+
 #. Default: "Group of meeting configurations"
 msgid "PloneMeeting_label_configGroup"
 msgstr "Groupe de Configurations de séance"
@@ -1474,7 +1478,7 @@ msgstr "Demander l'avis de"
 
 #. Default: "Oral question ?"
 msgid "PloneMeeting_label_oralQuestion"
-msgstr "Ce point est une question orale ?"
+msgstr "Ce point est une question orale?"
 
 #. Default: "Associated organizations order"
 msgid "PloneMeeting_label_orderedAssociatedOrganizations"
@@ -2914,6 +2918,10 @@ msgstr "Le point est incomplet"
 msgid "completeness_not_yet_evaluated"
 msgstr "La complétude du point n'a pas encore été évaluée"
 
+#. Default: "By default, only items presented to a meeting that is a least \"Frozen\" will get a reference.  This enable computation of reference on items decided out of a meeting.  In this case, the \"Item reference format\" defined here above must take into account that item may not be linked to a meeting."
+msgid "compute_item_reference_for_items_out_of_meeting_descr"
+msgstr "Par défaut, la référence des points est calculée pour les points présentés à une séance à partir du moment où celle-ci est au moins \"Gelée\".  Ceci active le calcul d'une référence pour les points décidés hors séance.  <span style='color: red;'>Attention, dans ce cas, l'expression renseignée dans le champ \"Format de la référence d'un point\" ci-dessus doit tenir compte du fait que le point peut ne pas être lié à une séance.<span style='color: red;'>"
+
 #. Default: "Confidentiality (displayed)"
 msgid "confidentiality_display"
 msgstr "Confidentiel (affiché seulement aux gestionnaires de séances)"
@@ -4239,7 +4247,7 @@ msgstr "Vous n'avez pas accès au point demandé, vous avez été redirigé vers
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."
 msgid "item_reference_format_descr"
-msgstr "À chaque point est associé une référence dont le format peut être défini ici, sous la forme d'une expression TAL.  Les éléments \"item\" (aussi disponible sous le nom \"here\") et \"meeting\" sont disponibles dans l'expression."
+msgstr "À chaque point est associé une référence dont le format peut être défini ici, sous la forme d'une expression TAL.  Les éléments habituels (\"item\", \"here\", \"tool\", \"cfg\", \"member\", \"pm_utils\", ...) sont disponibles dans l'expression."
 
 #. Default: "If you don't select anyone in this list, meeting signatory(ies) will be used for this item."
 msgid "item_signatories_descr"

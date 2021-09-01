@@ -356,6 +356,10 @@ msgstr ""
 msgid "PloneMeeting_label_itemReference"
 msgstr ""
 
+#. Default: "Compute item reference for items decided out of meeting ?"
+msgid "PloneMeeting_label_computeItemReferenceForItemsOutOfMeeting"
+msgstr ""
+
 #. Default: "To discuss ?"
 msgid "PloneMeeting_label_toDiscuss"
 msgstr ""
@@ -1777,6 +1781,10 @@ msgstr ""
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."
 msgid "item_reference_format_descr"
+msgstr ""
+
+#. Default: "By default, only items presented to a meeting that is a least \"Frozen\" will get a reference.  This enable computation of reference on items decided out of a meeting.  In this case, the \"Item reference format\" defined here above must take into account that item may not be linked to a meeting."
+msgid "compute_item_reference_for_items_out_of_meeting_descr"
 msgstr ""
 
 #. Default: "Enable labels"

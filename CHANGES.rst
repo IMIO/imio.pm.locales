@@ -22,6 +22,8 @@ Changelog
   [aduchene]
 - Completed translations of error messages returned by `MeetingConfig.validate_itemWFValidationLevels`.
   [gbastien]
+- Added translations for `MeetingConfig.computeItemReferenceForItemsOutOfMeeting`.
+  [gbastien]
 
 4.2b9 (2021-07-16)
 ------------------
