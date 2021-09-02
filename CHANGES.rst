@@ -24,6 +24,8 @@ Changelog
   [gbastien]
 - Added translations for `MeetingConfig.computeItemReferenceForItemsOutOfMeeting`.
   [gbastien]
+- Added translation for `error_some_values_are_not_integers` validation error message.
+  [gbastien]
 
 4.2b9 (2021-07-16)
 ------------------
