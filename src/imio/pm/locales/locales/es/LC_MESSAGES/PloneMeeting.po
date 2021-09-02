@@ -910,7 +910,8 @@ msgstr "Este elemento es relacionado a la Información presupuestaria"
 msgid "PloneMeeting_label_category"
 msgstr "Categoría"
 
-#. Default: "Category identifier"
+#. Default: "Category secondary identifier"
+#, fuzzy
 msgid "PloneMeeting_label_categoryId"
 msgstr "Identificador de la categoría"
 
@@ -936,6 +937,10 @@ msgstr ""
 
 #. Default: "Completeness"
 msgid "PloneMeeting_label_completeness"
+msgstr ""
+
+#. Default: "Compute item reference for items decided out of meeting ?"
+msgid "PloneMeeting_label_computeItemReferenceForItemsOutOfMeeting"
 msgstr ""
 
 #. Default: "Group of meeting configurations"
@@ -1278,6 +1283,10 @@ msgstr ""
 #. Default: "Number"
 msgid "PloneMeeting_label_itemNumber"
 msgstr "Número"
+
+#. Default: "States of selectable preferred meetings"
+msgid "PloneMeeting_label_itemPreferredMeetingStates"
+msgstr ""
 
 #. Default: "Item reference"
 msgid "PloneMeeting_label_itemReference"
@@ -2752,7 +2761,8 @@ msgstr ""
 msgid "categories_use_folder_contents"
 msgstr ""
 
-#. Default: "Choose here some identifier for your category."
+#. Default: "Choose here a secondary identifier for your category."
+#, fuzzy
 msgid "category_category_id_descr"
 msgstr "Elija aquí algunos identificadores para su categoría."
 
@@ -2941,6 +2951,10 @@ msgstr ""
 
 #. Default: "Not yet evaluated"
 msgid "completeness_not_yet_evaluated"
+msgstr ""
+
+#. Default: "By default, only items presented to a meeting that is a least \"Frozen\" will get a reference.  This enable computation of reference on items decided out of a meeting.  In this case, the \"Item reference format\" defined here above must take into account that item may not be linked to a meeting."
+msgid "compute_item_reference_for_items_out_of_meeting_descr"
 msgstr ""
 
 #. Default: "Confidentiality (displayed)"
@@ -4092,6 +4106,10 @@ msgstr ""
 msgid "itemPostponedNextMeeting_mail_subject"
 msgstr ""
 
+#. Default: "This allow to select a preferred meeting that are in theses selected states."
+msgid "itemPreferredMeetingStates_descr"
+msgstr ""
+
 #. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 #, fuzzy
 msgid "itemPresented_mail_body"
@@ -4347,12 +4365,28 @@ msgstr ""
 msgid "item_up_wf_term"
 msgstr ""
 
+#. Default: "Every values of the \"Back transition if\" column must start with \"back\"."
+msgid "item_wf_val_states_back_transition_must_start_with_back"
+msgstr ""
+
 #. Default: "You can not disable or remove a line that is currently used by an item in the application, checkout configuration about state \"${item_state}\" that is used for example by item at \"${item_url}\""
 msgid "item_wf_val_states_can_not_be_removed_in_use"
 msgstr ""
 
 #. Default: "You can not disable or remove a line that is currently used by a parameter in this configuration, checkout configuration about state \"${state_or_transition}\" that is used for example by parameter \"${cfg_field_name}\""
 msgid "item_wf_val_states_can_not_be_removed_in_use_config"
+msgstr ""
+
+#. Default: "If you enable some validation levels, then the \"Item created\" level must mandatorily be the first level (item initial state)."
+msgid "item_wf_val_states_itemcreated_mandatory"
+msgstr ""
+
+#. Default: "You can not remove the \"Item created\" line that but mandatorily be the first line."
+msgid "item_wf_val_states_itemcreated_must_exist"
+msgstr ""
+
+#. Default: "Identifiers used in the configuration must respect following format: one single word (no spaces) without accents or special characters."
+msgid "item_wf_val_states_wrong_identifier_format"
 msgstr ""
 
 #. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
@@ -5129,23 +5163,28 @@ msgstr "Convertir los anexos para la vista previa"
 msgid "pm_creation_date"
 msgstr "Fecha de creación"
 
-#. Default: "Go to the first one."
+#. Default: "Go to the first one"
+#, fuzzy
 msgid "pm_goto_first"
 msgstr "Ir al primer tema en esta reunión."
 
-#. Default: "Go to the last one."
+#. Default: "Go to the last one"
+#, fuzzy
 msgid "pm_goto_last"
 msgstr "Ir al ultimo tema en esta reunión."
 
-#. Default: "Go to the meeting containing this item."
+#. Default: "Go to the meeting containing this item and position on the item"
+#, fuzzy
 msgid "pm_goto_meeting"
 msgstr "Ir a reunión que contiene este tema."
 
-#. Default: "Go to the next one."
+#. Default: "Go to the next one"
+#, fuzzy
 msgid "pm_goto_next"
 msgstr "Ir al próximo tema."
 
-#. Default: "Go to the previous one."
+#. Default: "Go to the previous one"
+#, fuzzy
 msgid "pm_goto_previous"
 msgstr "Ir al anterior tema."
 
