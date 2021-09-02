@@ -5122,6 +5122,18 @@ msgstr ""
 msgid "transition_event"
 msgstr ""
 
+#. Default: "WF transition ${state_info} (notify users based on history)."
+msgid "transition_event_history_aware"
+msgstr ""
+
+#. Default: "WF transition ${state_info} (notify proposing group suffix)."
+msgid "transition_event_proposing_group_suffix"
+msgstr ""
+
+#. Default: "WF transition ${state_info} (notify proposing group suffix except manager)."
+msgid "transition_event_proposing_group_except_manager"
+msgstr ""
+
 #. Default: "Not grouped meeting configurations"
 msgid "_no_config_group_"
 msgstr ""
