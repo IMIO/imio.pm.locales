@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b10 (unreleased)
+4.2b10 (2021-09-09)
 -------------------
 
 - Added translations for `MeetingConfig.itemPreferredMeetingStates`.
