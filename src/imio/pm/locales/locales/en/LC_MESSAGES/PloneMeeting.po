@@ -6175,9 +6175,9 @@ msgstr "Specify here what vote values are in use in this meeting configuration."
 msgid "users_hidden_in_dashboard_filter_descr"
 msgstr "If you do not select anything, every users will be displayed."
 
-#. Default: "\"${users}\" users in \"${suffix}\" sub-group"
+#. Default: "\"${users}\" user(s) in \"${suffix}\" sub-group"
 msgid "users_in_suffixed_group"
-msgstr "\"${users}\" users in \"${suffix}\" sub-group"
+msgstr "\"${users}\" user(s) in \"${suffix}\" sub-group"
 
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating items\" is enabled on meetings. Date is expressed relative to meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\"."
 msgid "validation_deadline_default_descr"
