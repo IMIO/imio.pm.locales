@@ -5,8 +5,8 @@ Changelog
 4.2b11 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Completed french translation for `transition_event_history_aware`.
+  [gbastien]
 
 4.2b10 (2021-09-09)
 -------------------

@@ -6074,11 +6074,11 @@ msgstr "Transition du WF \"${state_info}\" (prévient les utilisateurs capables 
 
 #. Default: "WF transition ${state_info} (notify users based on history)."
 msgid "transition_event_history_aware"
-msgstr "Transition du WF \"${state_info}\" (prévient l'utilisateur en fonction de l'historique)"
+msgstr "Transition du WF \"${state_info}\" (prévient l'utilisateur en fonction de l'historique, sauf les gestionnaires de séances lors de la première transition montante)"
 
 #. Default: "WF transition ${state_info} (notify proposing group suffix except manager)."
 msgid "transition_event_proposing_group_except_manager"
-msgstr "Transition du WF \"${state_info}\" (prévient le sous-groupe ayant la main sur le point, sauf le gestionnaire de séance)"
+msgstr "Transition du WF \"${state_info}\" (prévient le sous-groupe ayant la main sur le point, sauf les gestionnaires de séances)"
 
 #. Default: "WF transition ${state_info} (notify proposing group suffix)."
 msgid "transition_event_proposing_group_suffix"
