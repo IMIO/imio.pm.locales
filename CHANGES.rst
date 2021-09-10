@@ -7,6 +7,10 @@ Changelog
 
 - Completed french translation for `transition_event_history_aware`.
   [gbastien]
+- Added translation for `users_in_suffixed_group` used in
+  `MeetingConfig.listSelectableAdvisers` to display number
+  of users in advisers Plone group.
+  [gbastien]
 
 4.2b10 (2021-09-09)
 -------------------

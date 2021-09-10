@@ -3267,10 +3267,6 @@ msgstr "Urgence souhaitée"
 msgid "emergency_refused"
 msgstr "Urgence refusée"
 
-#. Default: "Sub-group \"${suffix}\" is empty"
-msgid "empty_advisers_group"
-msgstr "Sous-groupe \"${suffix}\" vide"
-
 #. Default: "This file will be replaced by the scan process"
 msgid "empty_annex_file_content"
 msgstr "Ce fichier sera remplacé par la procédure de scan de documents"
@@ -3278,6 +3274,10 @@ msgstr "Ce fichier sera remplacé par la procédure de scan de documents"
 #. Default: " "
 msgid "empty_description"
 msgstr " "
+
+#. Default: "Sub-group \"${suffix}\" is empty"
+msgid "empty_suffixed_group"
+msgstr "Le sous-groupe \"${suffix}\" est vide"
 
 #. Default: "If you enable advice confidentiality, it will be possible for meeting managers to select on every advices if it is confidential or not.  This information is only visible to meeting managers."
 msgid "enable_advice_confidentiality_descr"
@@ -6171,6 +6171,10 @@ msgstr "Spécifiez ici quelles valeurs de vote sont utilisées dans cette config
 #. Default: "If you do not select anything, every users will be displayed."
 msgid "users_hidden_in_dashboard_filter_descr"
 msgstr "Si vous ne sélectionnez rien (par défaut), tous les utilisateurs seront affichés.  Ceci impacte les filtres affichant des utilisateurs tels que les filtres 'Auteur' ou 'Pris en charge'."
+
+#. Default: "\"${users}\" users in \"${suffix}\" sub-group"
+msgid "users_in_suffixed_group"
+msgstr "\"${users}\" utilisateurs dans le sous-groupe \"${suffix}\""
 
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating items\" is enabled on meetings. Date is expressed relative to meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\"."
 msgid "validation_deadline_default_descr"

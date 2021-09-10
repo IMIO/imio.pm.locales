@@ -933,7 +933,7 @@ msgstr "Completeness"
 
 #. Default: "Compute item reference for items decided out of meeting ?"
 msgid "PloneMeeting_label_computeItemReferenceForItemsOutOfMeeting"
-msgstr ""
+msgstr "Compute item reference for items decided out of meeting ?"
 
 #. Default: "Group of meeting configurations"
 msgid "PloneMeeting_label_configGroup"
@@ -2920,7 +2920,7 @@ msgstr "Not yet evaluated"
 
 #. Default: "By default, only items presented to a meeting that is a least \"Frozen\" will get a reference.  This enable computation of reference on items decided out of a meeting.  In this case, the \"Item reference format\" defined here above must take into account that item may not be linked to a meeting."
 msgid "compute_item_reference_for_items_out_of_meeting_descr"
-msgstr ""
+msgstr "By default, only items presented to a meeting that is a least \"Frozen\" will get a reference.  This enable computation of reference on items decided out of a meeting.  In this case, the \"Item reference format\" defined here above must take into account that item may not be linked to a meeting."
 
 #. Default: "Confidentiality (displayed)"
 msgid "confidentiality_display"
@@ -3269,10 +3269,6 @@ msgstr "Emergency asked"
 msgid "emergency_refused"
 msgstr "Emergency refused"
 
-#. Default: "Sub-group \"${suffix}\" is empty"
-msgid "empty_advisers_group"
-msgstr "Sub-group \"${suffix}\" is empty"
-
 #. Default: "This file will be replaced by the scan process"
 msgid "empty_annex_file_content"
 msgstr "This file will be replaced by the scan process"
@@ -3280,6 +3276,10 @@ msgstr "This file will be replaced by the scan process"
 #. Default: " "
 msgid "empty_description"
 msgstr " "
+
+#. Default: "Sub-group \"${suffix}\" is empty"
+msgid "empty_suffixed_group"
+msgstr "Sub-group \"${suffix}\" is empty"
 
 #. Default: "If you enable advice confidentiality, it will be possible for meeting managers to select on every advices if it is confidential or not.  This information is only visible to meeting managers."
 msgid "enable_advice_confidentiality_descr"
@@ -3395,7 +3395,7 @@ msgstr "Next linked votes used vote values must be among used vote values"
 
 #. Default: "You can not encode values that are not integer values, please encode only numbers."
 msgid "error_some_values_are_not_integers"
-msgstr ""
+msgstr "You can not encode values that are not integer values, please encode only numbers."
 
 #. Default: "Some selected values are no more selectable (no more selected in the \"Ordered committees contacts\" field), please check value \"${hp_title}\".  You can not select \"No committee\" and a committee.  If you lost encoded values, just cancel edition and edit again correctly."
 msgid "error_value_removed_used_in_committees_field"
@@ -4294,7 +4294,7 @@ msgstr "Item up workflow again"
 
 #. Default: "Every values of the \"Back transition if\" column must start with \"back\"."
 msgid "item_wf_val_states_back_transition_must_start_with_back"
-msgstr ""
+msgstr "Every values of the \"Back transition if\" column must start with \"back\"."
 
 #. Default: "You can not disable or remove a line that is currently used by an item in the application, checkout configuration about state \"${item_state}\" that is used for example by item at \"${item_url}\""
 msgid "item_wf_val_states_can_not_be_removed_in_use"
@@ -4306,15 +4306,15 @@ msgstr "You can not disable or remove a line that is currently used by a paramet
 
 #. Default: "If you enable some validation levels, then the \"Item created\" level must mandatorily be the first level (item initial state)."
 msgid "item_wf_val_states_itemcreated_mandatory"
-msgstr ""
+msgstr "If you enable some validation levels, then the \"Item created\" level must mandatorily be the first level (item initial state)."
 
 #. Default: "You can not remove the \"Item created\" line that but mandatorily be the first line."
 msgid "item_wf_val_states_itemcreated_must_exist"
-msgstr ""
+msgstr "You can not remove the \"Item created\" line that but mandatorily be the first line."
 
 #. Default: "Identifiers used in the configuration must respect following format: one single word (no spaces) without accents or special characters."
 msgid "item_wf_val_states_wrong_identifier_format"
-msgstr ""
+msgstr "Identifiers used in the configuration must respect following format: one single word (no spaces) without accents or special characters."
 
 #. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
 msgid "item_wf_validation_levels_descr"
@@ -6077,15 +6077,15 @@ msgstr "WF transition ${state_info} (notify users able to view the element)."
 
 #. Default: "WF transition ${state_info} (notify users based on history)."
 msgid "transition_event_history_aware"
-msgstr ""
+msgstr "WF transition ${state_info} (notify users based on history)."
 
 #. Default: "WF transition ${state_info} (notify proposing group suffix except manager)."
 msgid "transition_event_proposing_group_except_manager"
-msgstr ""
+msgstr "WF transition ${state_info} (notify proposing group suffix except manager)."
 
 #. Default: "WF transition ${state_info} (notify proposing group suffix)."
 msgid "transition_event_proposing_group_suffix"
-msgstr ""
+msgstr "WF transition ${state_info} (notify proposing group suffix)."
 
 #. Default: "The transition you selected does not correspond to the meeting configuration!  Please select a transition using corresponding meeting configuration"
 msgid "transition_not_from_selected_meeting_config"
@@ -6174,6 +6174,10 @@ msgstr "Specify here what vote values are in use in this meeting configuration."
 #. Default: "If you do not select anything, every users will be displayed."
 msgid "users_hidden_in_dashboard_filter_descr"
 msgstr "If you do not select anything, every users will be displayed."
+
+#. Default: "\"${users}\" users in \"${suffix}\" sub-group"
+msgid "users_in_suffixed_group"
+msgstr "\"${users}\" users in \"${suffix}\" sub-group"
 
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating items\" is enabled on meetings. Date is expressed relative to meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\"."
 msgid "validation_deadline_default_descr"
