@@ -11,6 +11,8 @@ Changelog
   `MeetingConfig.listSelectableAdvisers` to display number
   of users in advisers Plone group.
   [gbastien]
+- Fixed typo in french translation of `PloneMeeting_label_selectableAdviserUsers`.
+  [gbastien]
 
 4.2b10 (2021-09-09)
 -------------------
