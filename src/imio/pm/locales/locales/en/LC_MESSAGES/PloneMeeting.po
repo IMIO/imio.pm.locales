@@ -4271,18 +4271,14 @@ msgstr "Specifically, for this item:"
 msgid "item_state"
 msgstr "State"
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "item_state_changed_default_mail_body"
-msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 
 # Mails (item-related)
-# Default translation for mails sent upon item transition
-# This default is used if no accurate translation can be found. We will try for example to translate
-# item_state_changed_decided_mail_subject, if not found (by default), we use item_state_changed_default_mail_subject.
-# This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - Item in state \"${itemState}\" - ${itemTitle}"
+#. Default: "${meetingConfigTitle} - Item in state \"${itemState}\" (following \"${transitionTitle}\") - ${itemTitle}"
 msgid "item_state_changed_default_mail_subject"
-msgstr "${meetingConfigTitle} - Item in state \"${itemState}\" - ${itemTitle}"
+msgstr "${meetingConfigTitle} - Item in state \"${itemState}\" (following \"${transitionTitle}\") - ${itemTitle}"
 
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"

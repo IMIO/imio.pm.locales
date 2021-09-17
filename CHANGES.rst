@@ -13,6 +13,10 @@ Changelog
   [gbastien]
 - Fixed typo in french translation of `PloneMeeting_label_selectableAdviserUsers`.
   [gbastien]
+- Completed mail notifications translations `item_state_changed_default_mail_subject`
+  and `item_state_changed_default_mail_body` to include transition infos
+  (title, actor, comments) now that it is available in received `translationMapping`.
+  [gbastien]
 
 4.2b10 (2021-09-09)
 -------------------
