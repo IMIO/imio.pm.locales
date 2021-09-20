@@ -4346,7 +4346,7 @@ msgstr "Especialmente, para este tema:"
 msgid "item_state"
 msgstr "Estado"
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 #, fuzzy
 msgid "item_state_changed_default_mail_body"
 msgstr "Usted puede consultar este tema en ${objectUrl}."
@@ -4356,7 +4356,7 @@ msgstr "Usted puede consultar este tema en ${objectUrl}."
 # This default is used if no accurate translation can be found. We will try for example to translate
 # item_state_changed_decided_mail_subject, if not found (by default), we use item_state_changed_default_mail_subject.
 # This way we can have specific mail message for each different transition
-#. Default: "${meetingConfigTitle} - Item in state \"${itemState}\" - ${itemTitle}"
+#. Default: "${meetingConfigTitle} - Item in state \"${itemState}\" (following \"${transitionTitle}\") - ${itemTitle}"
 #, fuzzy
 msgid "item_state_changed_default_mail_subject"
 msgstr "${meetingConfigTitle} - ${itemTitle} - Este tema esta ahora en el estado '${itemState}'."
