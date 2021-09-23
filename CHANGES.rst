@@ -17,6 +17,8 @@ Changelog
   and `item_state_changed_default_mail_body` to include transition infos
   (title, actor, comments) now that it is available in received `translationMapping`.
   [gbastien]
+- Added translation `ckeditor_style_pm_anonymize`.
+  [gbastien]
 
 4.2b10 (2021-09-09)
 -------------------

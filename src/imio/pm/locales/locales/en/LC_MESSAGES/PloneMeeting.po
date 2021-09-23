@@ -2846,6 +2846,10 @@ msgstr "Large text"
 msgid "ckeditor_style_page_break"
 msgstr "Page break"
 
+#. Default: "Highlight in grey (anonymize)"
+msgid "ckeditor_style_pm_anonymize"
+msgstr ""
+
 #. Default: "Small text"
 msgid "ckeditor_style_small"
 msgstr "Small text"
@@ -4273,7 +4277,11 @@ msgstr "State"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "item_state_changed_default_mail_body"
-msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
+msgstr ""
+"The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n"
+"\n"
+"Action was done by \"${transitionActor}\".\n"
+"Comments: ${transitionComments}."
 
 # Mails (item-related)
 #. Default: "${meetingConfigTitle} - Item in state \"${itemState}\" (following \"${transitionTitle}\") - ${itemTitle}"

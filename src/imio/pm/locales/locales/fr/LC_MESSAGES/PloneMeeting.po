@@ -2171,7 +2171,9 @@ msgstr "Ajouter plusieurs annexes (après décision)"
 
 #. Default: "You had an advice to give for \"${group_name} (${delay_label})\".  Limit date is ${limit_date}, delay is now expired.  You can access this item here: ${objectUrl}."
 msgid "adviceDelayExpired_mail_body"
-msgstr "Le délai pour rendre l'avis \"${group_name} (${delay_label})\" est expiré, la date limite était le ${limit_date}.\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"Le délai pour rendre l'avis \"${group_name} (${delay_label})\" est expiré, la date limite était le ${limit_date}.\n"
+"Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - Advice delay expired - ${itemTitle}"
 msgid "adviceDelayExpired_mail_subject"
@@ -2179,7 +2181,9 @@ msgstr "${meetingConfigTitle} - Délai expiré pour rendre un avis - ${itemTitle
 
 #. Default: "You have an advice to give for \"${group_name} (${delay_label})\".  Limit date is ${limit_date) (in ${left_delay} day(s)).  You can access this item here: ${objectUrl}."
 msgid "adviceDelayWarning_mail_body"
-msgstr "La date limite pour rendre l'avis \"${group_name} (${delay_label})\" est le ${limit_date} (dans ${left_delay} jour(s)).\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"La date limite pour rendre l'avis \"${group_name} (${delay_label})\" est le ${limit_date} (dans ${left_delay} jour(s)).\n"
+"Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - Warning advice delay expiration - ${itemTitle}"
 msgid "adviceDelayWarning_mail_subject"
@@ -2187,7 +2191,9 @@ msgstr "${meetingConfigTitle} - Avertissement expiration délai pour rendre un a
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceEdited_mail_body"
-msgstr "L'objet du point est \"${itemTitle}\".\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"L'objet du point est \"${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - An advice has been added or modified  - ${itemTitle}"
 msgid "adviceEdited_mail_subject"
@@ -2195,7 +2201,9 @@ msgstr "${meetingConfigTitle} - Un avis a été rendu ou modifié - ${itemTitle}
 
 #. Default: "You can consult this item at ${objectUrl}. You advice is now back in the menu with a question mark icon. You can edit it again by clicking on the pen besides it."
 msgid "adviceInvalidated_mail_body"
-msgstr "Votre avis est de retour dans le menu avec un point d'interrogation. Vous pouvez l'éditer à nouveau en cliquant sur le crayon à sa droite.\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"Votre avis est de retour dans le menu avec un point d'interrogation. Vous pouvez l'éditer à nouveau en cliquant sur le crayon à sa droite.\n"
+"Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - One or your advices has been invalidated - ${itemTitle}"
 msgid "adviceInvalidated_mail_subject"
@@ -2203,7 +2211,9 @@ msgstr "${meetingConfigTitle} - Un avis que vous avez rendu a été invalidé - 
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceToGiveByUser_mail_body"
-msgstr "L'objet du point est \"${itemTitle}\".\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"L'objet du point est \"${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
 msgid "adviceToGiveByUser_mail_subject"
@@ -2211,7 +2221,9 @@ msgstr "${meetingConfigTitle} - Votre avis est demandé - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "adviceToGive_mail_body"
-msgstr "L'objet du point est \"${itemTitle}\".\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"L'objet du point est \"${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
 msgid "adviceToGive_mail_subject"
@@ -2367,7 +2379,9 @@ msgstr ", description"
 
 #. Default: "An annex has been added to the item \"${itemTitle}\" that was already presented to the meeting.  You can access this item here: ${objectUrl}."
 msgid "annexAdded_mail_body"
-msgstr "Une annexe a été ajoutée au point \"${itemTitle}\" alors qu'il était déjà présenté dans une séance.\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"Une annexe a été ajoutée au point \"${itemTitle}\" alors qu'il était déjà présenté dans une séance.\n"
+"Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - ${meetingTitle} - An annex was just added to an item."
 msgid "annexAdded_mail_subject"
@@ -2495,7 +2509,9 @@ msgstr "Comme point récurrent"
 
 #. Default: "The item is entitled \"${itemNumber} - ${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "askDiscussItem_mail_body"
-msgstr "L'objet du point est \"${itemNumber} - ${itemTitle}\".\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"L'objet du point est \"${itemNumber} - ${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - ${meetingTitle} - ${user}, belonging to group(s) ${groups}, would like to discuss an item."
 msgid "askDiscussItem_mail_subject"
@@ -2846,6 +2862,10 @@ msgstr "Grand texte"
 msgid "ckeditor_style_page_break"
 msgstr "Saut de page"
 
+#. Default: "Highlight in grey (anonymize)"
+msgid "ckeditor_style_pm_anonymize"
+msgstr "Surligner en gris (anonymiser)"
+
 #. Default: "Small text"
 msgid "ckeditor_style_small"
 msgstr "Petit texte"
@@ -2988,7 +3008,9 @@ msgstr "Sélectionnez ici les éléments à garder lors de l'envoi d'un point ve
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "copyGroups_mail_body"
-msgstr "L'objet du point est \"${itemTitle}\".\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"L'objet du point est \"${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - You have been carbon copied - ${itemTitle}"
 msgid "copyGroups_mail_subject"
@@ -4023,7 +4045,9 @@ msgstr "Les états sélectionnés ici doivent reprendre au moins tous les états
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "itemClonedToThisMC_mail_body"
-msgstr "L'objet du point est \"${itemTitle}\".\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"L'objet du point est \"${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - Item received from ${originMeetingConfigTitle} - ${itemTitle}"
 msgid "itemClonedToThisMC_mail_subject"
@@ -4051,7 +4075,9 @@ msgstr "Les séances qui seront dans ces états pourront être sélectionnées c
 
 #. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "itemPresented_mail_body"
-msgstr "La séance est peut-être encore en cours d'élaboration et donc inaccessible pour l'instant. L'objet du point est \"${itemTitle}\".\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"La séance est peut-être encore en cours d'élaboration et donc inaccessible pour l'instant. L'objet du point est \"${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - Item has been inserted into a meeting - ${itemTitle}"
 msgid "itemPresented_mail_subject"
@@ -4059,7 +4085,9 @@ msgstr "${meetingConfigTitle} - Point inséré dans une séance - ${itemTitle}"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "itemUnpresented_mail_body"
-msgstr "L'objet du point est \"${itemTitle}\".\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"L'objet du point est \"${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - Item was removed from meeting - ${itemTitle}"
 msgid "itemUnpresented_mail_subject"
@@ -4272,7 +4300,8 @@ msgstr "État"
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "item_state_changed_default_mail_body"
 msgstr ""
-"L'objet du point est \"${itemTitle}\".\nAccédez au point ici: ${objectUrl}.\n"
+"L'objet du point est \"${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}.\n"
 "\n"
 "Action exécutée par \"${transitionActor}\".\n"
 "Commentaire: ${transitionComments}."
@@ -4416,7 +4445,9 @@ msgstr "Point supplémentaire (ou en urgence)"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "lateItem_mail_body"
-msgstr "L'objet du point est \"${itemTitle}\".\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"L'objet du point est \"${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}."
 
 # Mails (item-related)
 #. Default: "${meetingConfigTitle} - A \"late\" item has been validated."
@@ -5392,7 +5423,9 @@ msgstr "Super observateurs restreints"
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "returnedToMeetingManagers_mail_body"
-msgstr "L'objet du point est \"${itemTitle}\".\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"L'objet du point est \"${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - Item corrected and sent back to the meeting managers - ${itemTitle}"
 msgid "returnedToMeetingManagers_mail_subject"
@@ -5400,7 +5433,9 @@ msgstr "${meetingConfigTitle} - Point corrigé renvoyé aux gestionnaires de sé
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "returnedToProposingGroup_mail_body"
-msgstr "L'objet du point est \"${itemTitle}\".\nAccédez au point ici: ${objectUrl}."
+msgstr ""
+"L'objet du point est \"${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}."
 
 #. Default: "${meetingConfigTitle} - Item sent back to you for corrections - ${itemTitle}"
 msgid "returnedToProposingGroup_mail_subject"
