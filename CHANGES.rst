@@ -5,8 +5,10 @@ Changelog
 4.1.18.9 (unreleased)
 ---------------------
 
-- Nothing changed yet.
+- Backport from 4.2.x:
 
+  - Added translation `ckeditor_style_pm_anonymize`.
+    [gbastien]
 
 4.1.18.8 (2021-05-31)
 ---------------------
