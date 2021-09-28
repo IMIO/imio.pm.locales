@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b12 (unreleased)
+4.2b12 (2021-09-28)
 -------------------
 
 - More accurate french translation for `ckeditor_style_pm_anonymize`.
