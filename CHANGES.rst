@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b11 (unreleased)
+4.2b11 (2021-09-28)
 -------------------
 
 - Completed french translation for `transition_event_history_aware`.
