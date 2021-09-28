@@ -5,8 +5,8 @@ Changelog
 4.2b12 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- More accurate french translation for `ckeditor_style_pm_anonymize`.
+  [gbastien]
 
 4.2b11 (2021-09-28)
 -------------------
