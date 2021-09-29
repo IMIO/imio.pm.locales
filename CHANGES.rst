@@ -5,8 +5,8 @@ Changelog
 4.2b13 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- More accurate french translation for `can_not_switch_polltype_votes_encoded`.
+  [gbastien]
 
 4.2b12 (2021-09-28)
 -------------------

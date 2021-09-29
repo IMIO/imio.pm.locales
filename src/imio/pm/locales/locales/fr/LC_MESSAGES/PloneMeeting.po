@@ -2708,7 +2708,7 @@ msgstr "Vous ne pouvez pas sélectionner des utilisateurs pour différents types
 
 #. Default: "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
 msgid "can_not_switch_polltype_votes_encoded"
-msgstr "Vous ne pouvez pas changer la forme du vote (public/secret/pas de vote) car des votes ont déjà été encodés!  Supprimez les votes encodés y compris le premier vote avant de pouvoir changer la forme du vote."
+msgstr "Vous ne pouvez pas changer le mode de scrutin (public/secret/pas de vote) car des votes ont déjà été encodés!  Supprimez les votes encodés y compris le premier vote avant de pouvoir changer le mode de scrutin."
 
 #. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
 msgid "can_not_unselect_already_given_advice"
