@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b13 (unreleased)
+4.2b13 (2021-09-29)
 -------------------
 
 - More accurate french translation for `can_not_switch_polltype_votes_encoded`.
