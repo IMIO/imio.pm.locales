@@ -9,6 +9,8 @@ Changelog
 
   - Added translation `ckeditor_style_pm_anonymize`.
     [gbastien]
+  - More accurate french translation for `ckeditor_style_pm_anonymize`.
+    [gbastien]
 
 4.1.18.8 (2021-05-31)
 ---------------------
