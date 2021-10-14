@@ -5,8 +5,8 @@ Changelog
 4.2b14 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translation for `proposing_group_not_available`.
+  [gbastien]
 
 4.2b13 (2021-09-29)
 -------------------

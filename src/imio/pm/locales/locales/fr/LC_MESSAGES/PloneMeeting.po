@@ -1358,11 +1358,11 @@ msgstr "Types de point"
 
 #. Default: "Item-related events that trigger e-mail notifications"
 msgid "PloneMeeting_label_mailItemEvents"
-msgstr "Evénements survenant sur des points, donnant lieu à une notification par courriel"
+msgstr "Événements survenant sur des points, donnant lieu à une notification par courriel"
 
 #. Default: "Meeting-related events that trigger e-mail notifications"
 msgid "PloneMeeting_label_mailMeetingEvents"
-msgstr "Evénements survenant sur des séances, donnant lieu à une notification par courriel"
+msgstr "Événements survenant sur des séances, donnant lieu à une notification par courriel"
 
 #. Default: "Mail mode"
 msgid "PloneMeeting_label_mailMode"
@@ -1746,7 +1746,7 @@ msgstr "Restreindre cette catégorie aux groupes suivants"
 
 #. Default: "Default deadline for validating items for a given meeting"
 msgid "PloneMeeting_label_validationDeadlineDefault"
-msgstr "Echéance par défaut pour valider les points pour une séance donnée"
+msgstr "Échéance par défaut pour valider les points pour une séance donnée"
 
 #. Default: "Versionate advice if it was given and item is edited"
 msgid "PloneMeeting_label_versionateAdviceIfGivenAndItemModified"
@@ -2263,7 +2263,7 @@ msgstr "${org_title} - ${delay} jour(s)"
 
 #. Default: "Quick edit advice"
 msgid "advice_edit"
-msgstr "Edition rapide de l'avis"
+msgstr "Édition rapide de l'avis"
 
 #. Default: "The advice has been created or updated."
 msgid "advice_edited"
@@ -5296,6 +5296,10 @@ msgstr "Points présentés à cette séance"
 #. Default: "Preview of annexes grouped by type"
 msgid "preview_grouped_annexes"
 msgstr "Annexes groupées par type d'annexe (puis listées par ordre alphabétique)"
+
+#. Default: "Proposing group is not available for user."
+msgid "proposing_group_not_available"
+msgstr "Groupe proposant non disponible pour cet utilisateur."
 
 #. Default: "A proposing group is required."
 msgid "proposing_group_required"
