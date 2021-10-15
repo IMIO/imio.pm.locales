@@ -7,6 +7,8 @@ Changelog
 
 - Added translation for `proposing_group_not_available`.
   [gbastien]
+- Added translations regarding `Advice proposing group comment` functionnality.
+  [gbastien]
 
 4.2b13 (2021-09-29)
 -------------------
