@@ -9,6 +9,8 @@ Changelog
   [gbastien]
 - Added translations regarding `Advice proposing group comment` functionnality.
   [gbastien]
+- Fixed typo in french translation of `itemDelayed_mail_body`.
+  [gbastien]
 
 4.2b13 (2021-09-29)
 -------------------
