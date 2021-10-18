@@ -5,8 +5,10 @@ Changelog
 4.1.18.10 (unreleased)
 ----------------------
 
-- Nothing changed yet.
+- Backport from 4.2.x:
 
+  - Fixed typo in french translation of `itemDelayed_mail_body`.
+    [gbastien]
 
 4.1.18.9 (2021-09-30)
 ---------------------
