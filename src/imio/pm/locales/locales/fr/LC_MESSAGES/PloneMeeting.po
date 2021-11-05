@@ -5201,9 +5201,9 @@ msgstr "Veuillez consulter le fichier joint."
 msgid "podMeetingByMail_mail_subject"
 msgstr "${meetingConfigTitle} - ${podTemplateTitle} - ${meetingLongTitle}."
 
-#. Default: "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application."
+#. Default: "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application.<br />Details are hidden by default, you can <a href='.?pageName=doc&show_details=1'>display details</a>."
 msgid "pod_templates_descr"
-msgstr "Dans cette section, gérez les modèles vous permettant de produire des documents dans des formats bureautiques depuis les types de contenu gérés par l'application (points, séances, avis) et les tableaux de bord."
+msgstr "Dans cette section, gérez les modèles vous permettant de produire des documents dans des formats bureautiques depuis les types de contenu gérés par l'application (points, séances, avis) et les tableaux de bord.<br />Par défaut les détails sont cachés mais vous pouvez <a href='.?pageName=doc&show_details=1'>les afficher</a>."
 
 #. Default: "Freehand"
 msgid "polltype_freehand"
@@ -6417,7 +6417,7 @@ msgstr "Sauter l'étape de publication"
 
 #. Default: "Only creators may delete items"
 msgid "wa_only_creator_may_delete"
-msgstr "Seuls les créateurs de points peuvent supprimer des points"
+msgstr "Seuls les créateurs de points d'un groupe proposant peuvent supprimer leurs points (lorsque le point est remis \"en création\")"
 
 #. Default: "Postpone next meeting"
 msgid "wa_postpone_next_meeting"

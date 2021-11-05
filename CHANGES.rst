@@ -11,6 +11,9 @@ Changelog
   [gbastien]
 - Fixed typo in french translation of `itemDelayed_mail_body`.
   [gbastien]
+- Adapted translation for `pod_templates_descr` to include link to
+  `Show POD templates details`.
+  [gbastien]
 
 4.2b13 (2021-09-29)
 -------------------
