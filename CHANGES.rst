@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b14 (unreleased)
+4.2b14 (2021-11-08)
 -------------------
 
 - Added translation for `proposing_group_not_available`.
