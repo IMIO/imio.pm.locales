@@ -5,8 +5,10 @@ Changelog
 4.2b15 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Small fix in e-mail notification sent when a WF transition is triggered,
+  avoid use of `"` in `item_state_changed_default_mail_subject` translation as
+  it may also be in translated message leading to `""`.
+  [gbastien]
 
 4.2b14 (2021-11-08)
 -------------------

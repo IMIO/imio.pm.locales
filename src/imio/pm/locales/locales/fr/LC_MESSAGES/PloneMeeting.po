@@ -4321,7 +4321,7 @@ msgstr ""
 # Mails (item-related)
 #. Default: "${meetingConfigTitle} - Item in state \"${itemState}\" (following \"${transitionTitle}\") - ${itemTitle}"
 msgid "item_state_changed_default_mail_subject"
-msgstr "${meetingConfigTitle} - Point \"${itemState}\" (action \"${transitionTitle}\") - ${itemTitle}"
+msgstr "${meetingConfigTitle} - Point \"${itemState}\" (action: ${transitionTitle}) - ${itemTitle}"
 
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
