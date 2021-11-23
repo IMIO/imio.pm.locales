@@ -9,6 +9,9 @@ Changelog
   avoid use of `"` in `item_state_changed_default_mail_subject` translation as
   it may also be in translated message leading to `""`.
   [gbastien]
+- Make some french translations (`Waiting advices WFA` and `Held position label`)
+  more accurate.
+  [gbastien]
 
 4.2b14 (2021-11-08)
 -------------------

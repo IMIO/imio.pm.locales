@@ -6513,7 +6513,7 @@ msgstr "Les validateurs peuvent reprendre un point validé"
 
 #. Default: "Wait advices (base: from custom configuration, from itemcreated/proposed/prevalidated, select who may send back)"
 msgid "wa_waiting_advices"
-msgstr "État supplémentaire pour demander les avis (base: demandé depuis états \"En création\"/\"Proposé\"/\"Pré-validé\", sélectionnez ci-dessous qui peut renvoyer le point lorsqu'il est \"En attente des avis\")"
+msgstr "État supplémentaire pour demander les avis (base: demandé depuis états \"En création\"/\"Proposé\"/\"Pré-validé\", ATTENTION: sélectionnez ci-dessous qui peut renvoyer le point lorsqu'il est \"En attente des avis\")"
 
 #. Default: "Wait advices (complementary: when item in state \"Waiting advices\", item may be validated by advisers)"
 msgid "wa_waiting_advices_adviser_may_validate"
