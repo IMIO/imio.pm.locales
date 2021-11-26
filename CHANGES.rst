@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b15 (unreleased)
+4.2b15 (2021-11-26)
 -------------------
 
 - Small fix in e-mail notification sent when a WF transition is triggered,
