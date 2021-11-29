@@ -1051,6 +1051,10 @@ msgstr "Enable advice confidentiality"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Enable advice invalidation"
 
+#. Default: "Enable advice proposing group comment"
+msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
+msgstr ""
+
 #. Default: "Enable item duplication"
 msgid "PloneMeeting_label_enableItemDuplication"
 msgstr "Enable item duplication"
@@ -3304,6 +3308,10 @@ msgstr "If you enable advice confidentiality, it will be possible for meeting ma
 #. Default: "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A \"change\" is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."
 msgid "enable_advice_invalidation_descr"
 msgstr "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A \"change\" is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."
+
+#. Default: "Enable advice proposing group comment descr"
+msgid "enable_advice_proposing_group_comment_descr"
+msgstr ""
 
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"

@@ -1051,6 +1051,10 @@ msgstr "Activer la confidentialité des avis "
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Activer l'invalidation des avis"
 
+#. Default: "Enable advice proposing group comment"
+msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
+msgstr "Activer le champ \"Commentaire du groupe proposant\""
+
 #. Default: "Enable item duplication"
 msgid "PloneMeeting_label_enableItemDuplication"
 msgstr "Activer la duplication des points"
@@ -3320,6 +3324,10 @@ msgstr "Si vous activez la confidentialité des avis, il sera possible pour les 
 #. Default: "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A \"change\" is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."
 msgid "enable_advice_invalidation_descr"
 msgstr "Quand l'invalidation des avis est activée, tout changement sur un point pour lequel au moins un avis a été rendu invalidera tous les avis rendus sur ce point. Par \"changement\", nous entendons toute modification de l'objet ou de la description du point ainsi que tout ajout et toute suppression d'annexe."
+
+#. Default: "Enable advice proposing group comment descr"
+msgid "enable_advice_proposing_group_comment_descr"
+msgstr "Ceci affichera une zone de texte \"Commentaire du groupe proposant\" dans le popup affiché au survol des avis.  Le commentaire est éditable par les membres du groupe proposant tant que le point est éditable par le groupe proposant ou que l'avis peut être ajouté/édité."
 
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"

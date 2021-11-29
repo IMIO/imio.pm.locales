@@ -1059,6 +1059,10 @@ msgstr ""
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Habilitar invalidación consejos"
 
+#. Default: "Enable advice proposing group comment"
+msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
+msgstr ""
+
 #. Default: "Enable item duplication"
 msgid "PloneMeeting_label_enableItemDuplication"
 msgstr ""
@@ -3339,6 +3343,10 @@ msgstr ""
 #, fuzzy
 msgid "enable_advice_invalidation_descr"
 msgstr "Cuando la invalidación consejo es permitido, todo cambio a un tema para el que ya por lo menos un consejo que se ha dado invalidará a todos los consejos dados. Un 'cambio' se considera como cada vez que el título o la descripción de un tema es cambiado y cada vez que se agrega o elimina un anexo en el tema."
+
+#. Default: "Enable advice proposing group comment descr"
+msgid "enable_advice_proposing_group_comment_descr"
+msgstr ""
 
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"

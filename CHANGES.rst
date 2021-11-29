@@ -5,8 +5,8 @@ Changelog
 4.2b16 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations for `MeetingConfig.enableAdviceProposingGroupComment`.
+  [gbastien]
 
 4.2b15 (2021-11-26)
 -------------------

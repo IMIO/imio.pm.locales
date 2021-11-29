@@ -1055,6 +1055,10 @@ msgstr ""
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Ungültig setzen von Kommentaren zulassen"
 
+#. Default: "Enable advice proposing group comment"
+msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
+msgstr ""
+
 #. Default: "Enable item duplication"
 msgid "PloneMeeting_label_enableItemDuplication"
 msgstr ""
@@ -3326,6 +3330,10 @@ msgstr ""
 #, fuzzy
 msgid "enable_advice_invalidation_descr"
 msgstr "Wenn die Funktion 'Kommentar ungültig setzen' aktiviert ist, werden bei jeder Änderung an einem TOP, welcher schon einen Kommentar hatte, alle vorhandenen Kommentare zu diesem TOP ungültig. Eine 'Änderung' ist jedesmal wenn in einem TOP der Titel oder die Beschreibung verändert wurde und diese Änderung gespeichert wurde oder wenn eine Anlage hinzugefügt oder gelöscht wurde."
+
+#. Default: "Enable advice proposing group comment descr"
+msgid "enable_advice_proposing_group_comment_descr"
+msgstr ""
 
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
