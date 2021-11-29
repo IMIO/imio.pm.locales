@@ -9,6 +9,8 @@ Changelog
   [gbastien]
 - Added translation for `listingheader_pod_template_or_odt_file`.
   [gbastien]
+- Added translations for `MeetingConfig.itemLabelsEditableByProposingGroupForever`.
+  [gbastien]
 
 4.2b15 (2021-11-26)
 -------------------

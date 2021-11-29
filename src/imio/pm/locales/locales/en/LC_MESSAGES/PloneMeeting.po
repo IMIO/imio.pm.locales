@@ -1279,6 +1279,10 @@ msgstr "Item is signed ?"
 msgid "PloneMeeting_label_itemKeywords"
 msgstr "Keywords"
 
+#. Default: "Are item labels editable by proposing group forever?"
+msgid "PloneMeeting_label_itemLabelsEditableByProposingGroupForever"
+msgstr ""
+
 #. Default: "States in which an item may be manually sent to selected other meeting configurations"
 msgid "PloneMeeting_label_itemManualSentToOtherMCStates"
 msgstr "States in which an item may be manually sent to selected other meeting configurations"
@@ -4246,6 +4250,10 @@ msgstr "The item is signed."
 #. Default: "The item is signed. Click on the image to remove signature."
 msgid "item_is_signed_yes_edit"
 msgstr "The item is signed. Click on the image to remove signature."
+
+#. Default: "By default item labels are editable by the item proposing group as long as it may edit the item, after, only meeting managers may edit the item labels.  If checked, item labels will be editable by proposing group members forever."
+msgid "item_labels_editable_by_proposing_group_forever_descr"
+msgstr ""
 
 #. Default: "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
 msgid "item_manual_sent_to_other_mc_states_descr"
