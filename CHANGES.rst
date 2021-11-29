@@ -7,6 +7,8 @@ Changelog
 
 - Added translations for `MeetingConfig.enableAdviceProposingGroupComment`.
   [gbastien]
+- Added translation for `listingheader_pod_template_or_odt_file`.
+  [gbastien]
 
 4.2b15 (2021-11-26)
 -------------------
