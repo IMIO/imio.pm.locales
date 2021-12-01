@@ -11,6 +11,8 @@ Changelog
   [gbastien]
 - Added translations for `MeetingConfig.itemLabelsEditableByProposingGroupForever`.
   [gbastien]
+- Added translations for `MeetingConfig.itemInternalNotesEditableByMeetingManagers`.
+  [gbastien]
 
 4.2b15 (2021-11-26)
 -------------------

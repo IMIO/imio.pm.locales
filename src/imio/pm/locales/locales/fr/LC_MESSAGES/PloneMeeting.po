@@ -1271,6 +1271,10 @@ msgstr "Couleur de l'icône des points"
 msgid "PloneMeeting_label_itemInitiator"
 msgstr "À l'initiative de ce point"
 
+#. Default: "The \"Internal notes\" field on items is editable by meeting managers?"
+msgid "PloneMeeting_label_itemInternalNotesEditableByMeetingManagers"
+msgstr "Le champ \"Notes internes\" des points est éditable par les gestionnaires de séances?"
+
 #. Default: "Item is signed ?"
 msgid "PloneMeeting_label_itemIsSigned"
 msgstr "Point signé?"
@@ -4021,7 +4025,7 @@ msgstr "Vous ne pouvez pas utiliser \"Inverser?\" avec la méthode d'insertion \
 
 #. Default: "This field is only accessible to members of the proposing group."
 msgid "internal_notes_descr"
-msgstr "Ce champ n'est accessible qu'aux membres du groupe proposant."
+msgstr "Ce champ n'est accessible (visible et éditable) que par les membres du groupe proposant (ainsi que les gestionnaires de séances si activé dans la configuration)."
 
 #. Default: "Absent?"
 msgid "is_absent"
@@ -4256,6 +4260,10 @@ msgstr "Le point sélectionné ne peut pas changer de position avec l'autre poin
 #. Default: " "
 msgid "item_initiator_descr"
 msgstr " "
+
+#. Default: "By default the \"Internal notes\" field on items is only viewable and editable by the members of the proposing group.  If checked, the field will also be viewable and editable by meeting managers even if not member of the proposing group."
+msgid "item_internal_notes_editable_by_meeting_managers_descr"
+msgstr "Par défaut, seuls les membres du groupe proposant peuvent voir et éditer le champ \"Notes internes\" des points.  Si coché, les gestionnaires de séances pourront aussi voir et éditer ce champ même s'ils ne font pas partie du groupe proposant."
 
 #. Default: "The item is not signed."
 msgid "item_is_signed_no"

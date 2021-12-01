@@ -1275,6 +1275,10 @@ msgstr ""
 msgid "PloneMeeting_label_itemInitiator"
 msgstr ""
 
+#. Default: "The \"Internal notes\" field on items is editable by meeting managers?"
+msgid "PloneMeeting_label_itemInternalNotesEditableByMeetingManagers"
+msgstr ""
+
 #. Default: "Item is signed ?"
 msgid "PloneMeeting_label_itemIsSigned"
 msgstr ""
@@ -4280,6 +4284,10 @@ msgstr ""
 
 #. Default: " "
 msgid "item_initiator_descr"
+msgstr ""
+
+#. Default: "By default the \"Internal notes\" field on items is only viewable and editable by the members of the proposing group.  If checked, the field will also be viewable and editable by meeting managers even if not member of the proposing group."
+msgid "item_internal_notes_editable_by_meeting_managers_descr"
 msgstr ""
 
 #. Default: "The item is not signed."
