@@ -11,6 +11,8 @@ Changelog
   [gbastien]
 - Fixed typo in french translation of `itemDelayed_mail_body`.
   [gbastien]
+- Added translations regarding `Meeting in videoconference` functionality.
+  [aduchene]
 
 4.2b13 (2021-09-29)
 -------------------
