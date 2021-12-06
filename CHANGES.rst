@@ -7,7 +7,7 @@ Changelog
 
 - Added translation for `proposing_group_not_available`.
   [gbastien]
-- Added translations regarding `Advice proposing group comment` functionnality.
+- Added translations regarding `Advice proposing group comment` functionality.
   [gbastien]
 - Fixed typo in french translation of `itemDelayed_mail_body`.
   [gbastien]
@@ -49,9 +49,9 @@ Changelog
 
 - Added translations for `MeetingConfig.itemPreferredMeetingStates`.
   [aduchene]
-- Added translations regarding the `Ask advice to specific users` functionnality.
+- Added translations regarding the `Ask advice to specific users` functionality.
   [gbastien]
-- Added translations regarding the `Deadlines to validate items for a meeting` functionnality.
+- Added translations regarding the `Deadlines to validate items for a meeting` functionality.
   [gbastien]
 - Accurate french translations for item navigation widget `Go to next/previous/... item`.
   [gbastien]
@@ -161,9 +161,9 @@ Changelog
 
 - Reworked `Return to proposing group` related translations.
   [gbastien]
-- Added translations for `DX quick edit` related functionnality.
+- Added translations for `DX quick edit` related functionality.
   [gbastien]
-- Added translations for `votes` functionnality.
+- Added translations for `votes` functionality.
   [gbastien]
 - Added translations for `committeeObservations/votesObservations`
   `Meeting/MeetingItem` fields.
@@ -191,7 +191,7 @@ Changelog
 - Adapted translations regarding message displayed in Plone users and groups management
   as we greyed actions Remove user/Remove group.
 - Adapted french translation of `meetingconfig_display_groups_and_users_descr`.
-- Added translations for `MeetingConfig.keepAccessToItemWhenAdvice` related functionnality.
+- Added translations for `MeetingConfig.keepAccessToItemWhenAdvice` related functionality.
 - Added translation for `Currently selected meeting config`.
 
 4.2b3 (2020-10-02)
@@ -200,7 +200,7 @@ Changelog
 - Added translation for `empty_annex_file_content`.
 - Fixed french translations, replace translation `donneur` by `émetteur` everywhere.
 - Added translation for `stored_single_item_template_as_annex`.
-- Added translations for `held_position.represented_organizations` related functionnality.
+- Added translations for `held_position.represented_organizations` related functionality.
 - Added translations for meeting attendees validation error message.
 - Added translations for `waiting_advices` item WF prettylink icon down/up WF.
 - Added translations for new fields `MeetingItem.decisionEnd`,
@@ -272,14 +272,14 @@ Changelog
 4.1.14 (2020-05-26)
 -------------------
 
-- Added translations for "Empty item is also created from an item template" functionnality.
-- Added translations for "Avoid multiple clicks when creating new item by disabling the icon" functionnality.
+- Added translations for "Empty item is also created from an item template" functionality.
+- Added translations for "Avoid multiple clicks when creating new item by disabling the icon" functionality.
 
 4.1.13 (2020-05-08)
 -------------------
 
 - Simplified translation "Disabled (greyed) annexes will not be kept on the new duplicated item.".
-- Added translation for "Show available items to application users" functionnality.
+- Added translation for "Show available items to application users" functionality.
 - The msgid "Preview detailled advice" was renamed to "Preview detailed advice".
 - Added translations for email notifications "itemPostponedNextMeeting" and "adviceEditedOwner".
 
@@ -293,12 +293,12 @@ Changelog
 -------------------
 
 - Simplified french translation "${number_of_annexes} annexe(s) a(ont) été stockée(s)." to "${number_of_annexes} annexes ont été stockées.".
-- Added translations for the 'Duplicate item with options' functionnality.
+- Added translations for the 'Duplicate item with options' functionality.
 
 4.1.10 (2020-04-20)
 -------------------
 
-- Added translations for copyGroups faceted filter related functionnality.
+- Added translations for copyGroups faceted filter related functionality.
 
 4.1.9 (2020-04-06)
 ------------------
@@ -309,8 +309,8 @@ Changelog
 ------------------
 
 - Added translations for improved edition functionality.
-- Added translations for the 'Non attendee' functionnality.
-- Added translations for 'MeetingConfig.removeAnnexesPreviewsOnMeetingClosure' related functionnality.
+- Added translations for the 'Non attendee' functionality.
+- Added translations for 'MeetingConfig.removeAnnexesPreviewsOnMeetingClosure' related functionality.
 - Added translation for 'wa_meetingmanager_correct_closed_meeting' and removed translations for 'MeetingConfig.meetingManagerMayCorrectClosedMeeting'.
 
 4.2a4 (2020-03-13)
@@ -351,7 +351,7 @@ Changelog
 ------------------
 
 - Added translation for 'Temporary QR code!'.
-- Added translations for MeetingConfig.annexRestrictShownAndEditableAttributes related functionnality.
+- Added translations for MeetingConfig.annexRestrictShownAndEditableAttributes related functionality.
 - Added translations for Meeting.convocationDate.
 
 4.1.4 (2020-01-10)
@@ -440,18 +440,18 @@ Changelog
 - Added translations for MeetingConfig 'Update items and meetings' action.
 - Added translations for ToolPloneMeeting 'Invalidate all cache' action.
 - Added translations for 'Update local roles' batch action.
-- Added translations for 'Unread' ftw.labels related functionnality.
+- Added translations for 'Unread' ftw.labels related functionality.
 - Added translations for action 'Initialize personal label on existing items'.
 - Added translations for person.userid field.
 - Adapted translation for MeetingConfig.customAdvisers 'gives_auto_advice_on' column.
 - Added translations for 'ToolPloneMeeting.enableScanDocs' field.
-- Added translations regarding 'MeetingConfig.powerObservers' functionnality.
+- Added translations regarding 'MeetingConfig.powerObservers' functionality.
 - Removed translations related to ToolPloneMeeting removed fields 'extractTextFromFiles',
   'availableOcrLanguages', 'defaultOcrLanguage' and 'enableUserPreferences'
 - Adapted translation for POD template mailing_list description to explain use of 'group:' in recipients
 - Added translation for 'can_not_delete_meetingcategory_other_category_mapping'
 - Review message used as 'title' on a HTML tag to always use same format (especially no '.' at the end)
-- Added translations for MeetingConfig.meetingPresentItemWhenNoCurrentMeetingStates related functionnality.
+- Added translations for MeetingConfig.meetingPresentItemWhenNoCurrentMeetingStates related functionality.
 - Changed translation for users who recive mail when item is delayed or an advice was given
 - Put the status before the title in the email topics
 - Added missing transaltions (restrict_access_to_secret_items_to_descr, PloneMeeting_label_restrictAccessToSecretItemsTo)
@@ -472,8 +472,8 @@ Changelog
 -------------------
 
 - Accurate translation when a user is adding an organization outside 'My organization'.
-- Added translations for MeetingConfig.usingGroup related functionnality.
-- Added translations for MeetingItem.textCheckList related functionnality.
+- Added translations for MeetingConfig.usingGroup related functionality.
+- Added translations for MeetingItem.textCheckList related functionality.
 - Removed translations for MeetingConfig.defaultMeetingItemMotivation as field was removed.
 - Added translations for new columns selectable in the MeetingConfig.meetingColumns.
 - Removed useless msgids eventOccurred_mail_subject and eventOccurred_mail_body
@@ -501,7 +501,7 @@ Changelog
 - Added translations for MeetingConfig before delete exceptions.
 - Added translations for MeetingConfig.groupsHiddenInDashboardFilter.
 - Added translations for MeetingConfig.inheritedAdviceRemoveableByAdviser and advice
-  inheritance removal related functionnality.
+  inheritance removal related functionality.
 - Use shorter msgids for "advice hidden during redaction" and "advice considered not
   given" sentences
 - Added translation for item advice addable states displayed in "?" of advice popup
