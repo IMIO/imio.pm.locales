@@ -2,7 +2,32 @@ Changelog
 =========
 
 
-4.2b14 (unreleased)
+4.2b16 (unreleased)
+-------------------
+
+- Added translations for `MeetingConfig.enableAdviceProposingGroupComment`.
+  [gbastien]
+- Added translation for `listingheader_pod_template_or_odt_file`.
+  [gbastien]
+- Added translations for `MeetingConfig.itemLabelsEditableByProposingGroupForever`.
+  [gbastien]
+- Added translations for `MeetingConfig.itemInternalNotesEditableByMeetingManagers`.
+  [gbastien]
+- Added translations regarding `Meeting in videoconference` functionality.
+  [aduchene]
+
+4.2b15 (2021-11-26)
+-------------------
+
+- Small fix in e-mail notification sent when a WF transition is triggered,
+  avoid use of `"` in `item_state_changed_default_mail_subject` translation as
+  it may also be in translated message leading to `""`.
+  [gbastien]
+- Make some french translations (`Waiting advices WFA` and `Held position label`)
+  more accurate.
+  [gbastien]
+
+4.2b14 (2021-11-08)
 -------------------
 
 - Added translation for `proposing_group_not_available`.
@@ -11,8 +36,9 @@ Changelog
   [gbastien]
 - Fixed typo in french translation of `itemDelayed_mail_body`.
   [gbastien]
-- Added translations regarding `Meeting in videoconference` functionality.
-  [aduchene]
+- Adapted translation for `pod_templates_descr` to include link to
+  `Show POD templates details`.
+  [gbastien]
 
 4.2b13 (2021-09-29)
 -------------------

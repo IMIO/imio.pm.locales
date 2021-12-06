@@ -1055,6 +1055,10 @@ msgstr ""
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Ungültig setzen von Kommentaren zulassen"
 
+#. Default: "Enable advice proposing group comment"
+msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
+msgstr ""
+
 #. Default: "Enable item duplication"
 msgid "PloneMeeting_label_enableItemDuplication"
 msgstr ""
@@ -1271,6 +1275,10 @@ msgstr ""
 msgid "PloneMeeting_label_itemInitiator"
 msgstr ""
 
+#. Default: "The \"Internal notes\" field on items is editable by meeting managers?"
+msgid "PloneMeeting_label_itemInternalNotesEditableByMeetingManagers"
+msgstr ""
+
 #. Default: "Item is signed ?"
 msgid "PloneMeeting_label_itemIsSigned"
 msgstr ""
@@ -1278,6 +1286,10 @@ msgstr ""
 #. Default: "Keywords"
 msgid "PloneMeeting_label_itemKeywords"
 msgstr "Stichwörter"
+
+#. Default: "Are item labels editable by proposing group forever?"
+msgid "PloneMeeting_label_itemLabelsEditableByProposingGroupForever"
+msgstr ""
 
 #. Default: "States in which an item may be manually sent to selected other meeting configurations"
 msgid "PloneMeeting_label_itemManualSentToOtherMCStates"
@@ -3327,6 +3339,10 @@ msgstr ""
 msgid "enable_advice_invalidation_descr"
 msgstr "Wenn die Funktion 'Kommentar ungültig setzen' aktiviert ist, werden bei jeder Änderung an einem TOP, welcher schon einen Kommentar hatte, alle vorhandenen Kommentare zu diesem TOP ungültig. Eine 'Änderung' ist jedesmal wenn in einem TOP der Titel oder die Beschreibung verändert wurde und diese Änderung gespeichert wurde oder wenn eine Anlage hinzugefügt oder gelöscht wurde."
 
+#. Default: "Enable advice proposing group comment descr"
+msgid "enable_advice_proposing_group_comment_descr"
+msgstr ""
+
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
 msgstr ""
@@ -4270,6 +4286,10 @@ msgstr ""
 msgid "item_initiator_descr"
 msgstr ""
 
+#. Default: "By default the \"Internal notes\" field on items is only viewable and editable by the members of the proposing group.  If checked, the field will also be viewable and editable by meeting managers even if not member of the proposing group."
+msgid "item_internal_notes_editable_by_meeting_managers_descr"
+msgstr ""
+
 #. Default: "The item is not signed."
 msgid "item_is_signed_no"
 msgstr "The item is signed. Click on the image to unisgn to remove signature."
@@ -4284,6 +4304,10 @@ msgstr ""
 
 #. Default: "The item is signed. Click on the image to remove signature."
 msgid "item_is_signed_yes_edit"
+msgstr ""
+
+#. Default: "By default item labels are editable by the item proposing group as long as it may edit the item, after, only meeting managers may edit the item labels.  If checked, item labels will be editable by proposing group members forever."
+msgid "item_labels_editable_by_proposing_group_forever_descr"
 msgstr ""
 
 #. Default: "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
@@ -4507,6 +4531,10 @@ msgstr ""
 
 #. Default: "Types of list of items that will be available when an item is linked to a meeting."
 msgid "list_types_descr"
+msgstr ""
+
+#. Default: "POD template or odt_file"
+msgid "listingheader_pod_template_or_odt_file"
 msgstr ""
 
 #. Default: "Size"
@@ -5248,7 +5276,7 @@ msgstr ""
 msgid "podMeetingByMail_mail_subject"
 msgstr ""
 
-#. Default: "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application."
+#. Default: "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application.<br />Details are hidden by default, you can <a href='.?pageName=doc&show_details=1'>display details</a>."
 #, fuzzy
 msgid "pod_templates_descr"
 msgstr "Dieser Abschnitt gibt Ihnen die Möglichkeit die Vorlagen von Dokumenten zu bezeichnen die Dokumente mit Inhalt auf Basis von PloneMeeting Inhalte erstellen (TOP, Sitzungen, Anlagen, usw...)"

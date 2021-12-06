@@ -1051,6 +1051,10 @@ msgstr "Activer la confidentialité des avis "
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Activer l'invalidation des avis"
 
+#. Default: "Enable advice proposing group comment"
+msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
+msgstr "Activer le champ \"Commentaire du groupe proposant\""
+
 #. Default: "Enable item duplication"
 msgid "PloneMeeting_label_enableItemDuplication"
 msgstr "Activer la duplication des points"
@@ -1267,6 +1271,10 @@ msgstr "Couleur de l'icône des points"
 msgid "PloneMeeting_label_itemInitiator"
 msgstr "À l'initiative de ce point"
 
+#. Default: "The \"Internal notes\" field on items is editable by meeting managers?"
+msgid "PloneMeeting_label_itemInternalNotesEditableByMeetingManagers"
+msgstr "Le champ \"Notes internes\" des points est visible et éditable par les gestionnaires de séances?"
+
 #. Default: "Item is signed ?"
 msgid "PloneMeeting_label_itemIsSigned"
 msgstr "Point signé?"
@@ -1274,6 +1282,10 @@ msgstr "Point signé?"
 #. Default: "Keywords"
 msgid "PloneMeeting_label_itemKeywords"
 msgstr "Mots-clé"
+
+#. Default: "Are item labels editable by proposing group forever?"
+msgid "PloneMeeting_label_itemLabelsEditableByProposingGroupForever"
+msgstr "Les étiquettes des points sont éditables par le groupe proposant indéfiniment?"
 
 #. Default: "States in which an item may be manually sent to selected other meeting configurations"
 msgid "PloneMeeting_label_itemManualSentToOtherMCStates"
@@ -3321,6 +3333,10 @@ msgstr "Si vous activez la confidentialité des avis, il sera possible pour les 
 msgid "enable_advice_invalidation_descr"
 msgstr "Quand l'invalidation des avis est activée, tout changement sur un point pour lequel au moins un avis a été rendu invalidera tous les avis rendus sur ce point. Par \"changement\", nous entendons toute modification de l'objet ou de la description du point ainsi que tout ajout et toute suppression d'annexe."
 
+#. Default: "Enable advice proposing group comment descr"
+msgid "enable_advice_proposing_group_comment_descr"
+msgstr "Ceci affichera une zone de texte \"Commentaire du groupe proposant\" dans le popup affiché au survol des avis.  Le commentaire est éditable par les membres du groupe proposant tant que le point est éditable par le groupe proposant ou que l'avis peut être ajouté/édité."
+
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
 msgstr "Si vous activez la confidentialité des annexes, il sera possible pour les gestionnaires de séances de définir pour chaque annexe si elle est confidentielle ou non.  Cette information ne sera visible que par les gestionnaires de séances.  Il sera aussi possible de définir une valeur par défaut pour ce champ sur les types d'annexes."
@@ -4009,7 +4025,7 @@ msgstr "Vous ne pouvez pas utiliser \"Inverser?\" avec la méthode d'insertion \
 
 #. Default: "This field is only accessible to members of the proposing group."
 msgid "internal_notes_descr"
-msgstr "Ce champ n'est accessible qu'aux membres du groupe proposant."
+msgstr "Ce champ n'est accessible (visible et éditable) que par les membres du groupe proposant (ainsi que les gestionnaires de séances si activé dans la configuration)."
 
 #. Default: "Absent?"
 msgid "is_absent"
@@ -4245,6 +4261,10 @@ msgstr "Le point sélectionné ne peut pas changer de position avec l'autre poin
 msgid "item_initiator_descr"
 msgstr " "
 
+#. Default: "By default the \"Internal notes\" field on items is only viewable and editable by the members of the proposing group.  If checked, the field will also be viewable and editable by meeting managers even if not member of the proposing group."
+msgid "item_internal_notes_editable_by_meeting_managers_descr"
+msgstr "Par défaut, seuls les membres du groupe proposant peuvent voir et éditer le champ \"Notes internes\" des points.  Si coché, les gestionnaires de séances pourront aussi voir et éditer ce champ même s'ils ne font pas partie du groupe proposant."
+
 #. Default: "The item is not signed."
 msgid "item_is_signed_no"
 msgstr "Le point n'est pas signé."
@@ -4260,6 +4280,10 @@ msgstr "Le point est signé."
 #. Default: "The item is signed. Click on the image to remove signature."
 msgid "item_is_signed_yes_edit"
 msgstr "Le point est signé, cliquez sur l'image pour enlever la signature."
+
+#. Default: "By default item labels are editable by the item proposing group as long as it may edit the item, after, only meeting managers may edit the item labels.  If checked, item labels will be editable by proposing group members forever."
+msgid "item_labels_editable_by_proposing_group_forever_descr"
+msgstr "Par défaut, le groupe proposant peut éditer les étiquettes du point tant qu'il peut éditer le point, ensuite seuls les gestionnaires de séances peuvent gérer les étiquettes. Si cette case est cochée, les étiquettes pourront être éditées sur les points par le groupe proposant même lorsqu'il ne sera plus éditable."
 
 #. Default: "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
 msgid "item_manual_sent_to_other_mc_states_descr"
@@ -4321,7 +4345,7 @@ msgstr ""
 # Mails (item-related)
 #. Default: "${meetingConfigTitle} - Item in state \"${itemState}\" (following \"${transitionTitle}\") - ${itemTitle}"
 msgid "item_state_changed_default_mail_subject"
-msgstr "${meetingConfigTitle} - Point \"${itemState}\" (action \"${transitionTitle}\") - ${itemTitle}"
+msgstr "${meetingConfigTitle} - Point \"${itemState}\" (action: ${transitionTitle}) - ${itemTitle}"
 
 #. Default: "Item templates will be available to users creating new items in the application."
 msgid "item_templates_descr"
@@ -4481,6 +4505,10 @@ msgstr "Points liés, ${auto_linked_items} automatiquement et ${manually_linked_
 #. Default: "Types of list of items that will be available when an item is linked to a meeting."
 msgid "list_types_descr"
 msgstr "Types de liste de points qui seront disponibles lorsqu'un point est dans une séance."
+
+#. Default: "POD template or odt_file"
+msgid "listingheader_pod_template_or_odt_file"
+msgstr "Fichier ou Modèle de document POD maître"
 
 #. Default: "Size"
 msgid "listingheader_size"
@@ -5201,9 +5229,9 @@ msgstr "Veuillez consulter le fichier joint."
 msgid "podMeetingByMail_mail_subject"
 msgstr "${meetingConfigTitle} - ${podTemplateTitle} - ${meetingLongTitle}."
 
-#. Default: "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application."
+#. Default: "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application.<br />Details are hidden by default, you can <a href='.?pageName=doc&show_details=1'>display details</a>."
 msgid "pod_templates_descr"
-msgstr "Dans cette section, gérez les modèles vous permettant de produire des documents dans des formats bureautiques depuis les types de contenu gérés par l'application (points, séances, avis) et les tableaux de bord."
+msgstr "Dans cette section, gérez les modèles vous permettant de produire des documents dans des formats bureautiques depuis les types de contenu gérés par l'application (points, séances, avis) et les tableaux de bord.<br />Par défaut les détails sont cachés mais vous pouvez <a href='.?pageName=doc&show_details=1'>les afficher</a>."
 
 #. Default: "Freehand"
 msgid "polltype_freehand"
@@ -6425,7 +6453,7 @@ msgstr "Sauter l'étape de publication"
 
 #. Default: "Only creators may delete items"
 msgid "wa_only_creator_may_delete"
-msgstr "Seuls les créateurs de points peuvent supprimer des points"
+msgstr "Seuls les créateurs de points d'un groupe proposant peuvent supprimer leurs points (lorsque le point est remis \"en création\")"
 
 #. Default: "Postpone next meeting"
 msgid "wa_postpone_next_meeting"
@@ -6521,7 +6549,7 @@ msgstr "Les validateurs peuvent reprendre un point validé"
 
 #. Default: "Wait advices (base: from custom configuration, from itemcreated/proposed/prevalidated, select who may send back)"
 msgid "wa_waiting_advices"
-msgstr "État supplémentaire pour demander les avis (base: demandé depuis états \"En création\"/\"Proposé\"/\"Pré-validé\", sélectionnez ci-dessous qui peut renvoyer le point lorsqu'il est \"En attente des avis\")"
+msgstr "État supplémentaire pour demander les avis (base: demandé depuis états \"En création\"/\"Proposé\"/\"Pré-validé\", ATTENTION: sélectionnez ci-dessous qui peut renvoyer le point lorsqu'il est \"En attente des avis\")"
 
 #. Default: "Wait advices (complementary: when item in state \"Waiting advices\", item may be validated by advisers)"
 msgid "wa_waiting_advices_adviser_may_validate"

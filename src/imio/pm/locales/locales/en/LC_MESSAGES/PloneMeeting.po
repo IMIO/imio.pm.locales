@@ -1051,6 +1051,10 @@ msgstr "Enable advice confidentiality"
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Enable advice invalidation"
 
+#. Default: "Enable advice proposing group comment"
+msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
+msgstr ""
+
 #. Default: "Enable item duplication"
 msgid "PloneMeeting_label_enableItemDuplication"
 msgstr "Enable item duplication"
@@ -1267,6 +1271,10 @@ msgstr "Item icon color"
 msgid "PloneMeeting_label_itemInitiator"
 msgstr "Initiator of this item"
 
+#. Default: "The \"Internal notes\" field on items is editable by meeting managers?"
+msgid "PloneMeeting_label_itemInternalNotesEditableByMeetingManagers"
+msgstr ""
+
 #. Default: "Item is signed ?"
 msgid "PloneMeeting_label_itemIsSigned"
 msgstr "Item is signed ?"
@@ -1274,6 +1282,10 @@ msgstr "Item is signed ?"
 #. Default: "Keywords"
 msgid "PloneMeeting_label_itemKeywords"
 msgstr "Keywords"
+
+#. Default: "Are item labels editable by proposing group forever?"
+msgid "PloneMeeting_label_itemLabelsEditableByProposingGroupForever"
+msgstr ""
 
 #. Default: "States in which an item may be manually sent to selected other meeting configurations"
 msgid "PloneMeeting_label_itemManualSentToOtherMCStates"
@@ -3305,6 +3317,10 @@ msgstr "If you enable advice confidentiality, it will be possible for meeting ma
 msgid "enable_advice_invalidation_descr"
 msgstr "When advice invalidation is enabled, every change to an item for which at least one advice has already been given will invalidate all given advices. A \"change\" is considered as is every time the title or description of an item is changed and every time an annex is added or deleted on the item."
 
+#. Default: "Enable advice proposing group comment descr"
+msgid "enable_advice_proposing_group_comment_descr"
+msgstr ""
+
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
 msgstr "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
@@ -4223,6 +4239,10 @@ msgstr "Selected items may not be switched, specify item number manually."
 msgid "item_initiator_descr"
 msgstr "Use CTRL+click to select several initiators."
 
+#. Default: "By default the \"Internal notes\" field on items is only viewable and editable by the members of the proposing group.  If checked, the field will also be viewable and editable by meeting managers even if not member of the proposing group."
+msgid "item_internal_notes_editable_by_meeting_managers_descr"
+msgstr ""
+
 #. Default: "The item is not signed."
 msgid "item_is_signed_no"
 msgstr "The item is signed. Click on the image to unisgn to remove signature."
@@ -4238,6 +4258,10 @@ msgstr "The item is signed."
 #. Default: "The item is signed. Click on the image to remove signature."
 msgid "item_is_signed_yes_edit"
 msgstr "The item is signed. Click on the image to remove signature."
+
+#. Default: "By default item labels are editable by the item proposing group as long as it may edit the item, after, only meeting managers may edit the item labels.  If checked, item labels will be editable by proposing group members forever."
+msgid "item_labels_editable_by_proposing_group_forever_descr"
+msgstr ""
 
 #. Default: "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
 msgid "item_manual_sent_to_other_mc_states_descr"
@@ -4456,6 +4480,10 @@ msgstr "Linked items, ${auto_linked_items} automatically and ${manually_linked_i
 #. Default: "Types of list of items that will be available when an item is linked to a meeting."
 msgid "list_types_descr"
 msgstr "Types of list of items that will be available when an item is linked to a meeting."
+
+#. Default: "POD template or odt_file"
+msgid "listingheader_pod_template_or_odt_file"
+msgstr ""
 
 #. Default: "Size"
 msgid "listingheader_size"
@@ -5177,9 +5205,9 @@ msgstr "Please consult the attached document."
 msgid "podMeetingByMail_mail_subject"
 msgstr "${meetingConfigTitle} - ${podTemplateTitle} - ${meetingLongTitle}."
 
-#. Default: "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application."
+#. Default: "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application.<br />Details are hidden by default, you can <a href='.?pageName=doc&show_details=1'>display details</a>."
 msgid "pod_templates_descr"
-msgstr "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application."
+msgstr "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application.<br />Details are hidden by default, you can <a href='.?pageName=doc&show_details=1'>display details</a>."
 
 #. Default: "Freehand"
 msgid "polltype_freehand"

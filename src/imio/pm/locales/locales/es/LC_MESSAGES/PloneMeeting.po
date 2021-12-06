@@ -1059,6 +1059,10 @@ msgstr ""
 msgid "PloneMeeting_label_enableAdviceInvalidation"
 msgstr "Habilitar invalidación consejos"
 
+#. Default: "Enable advice proposing group comment"
+msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
+msgstr ""
+
 #. Default: "Enable item duplication"
 msgid "PloneMeeting_label_enableItemDuplication"
 msgstr ""
@@ -1276,6 +1280,10 @@ msgstr ""
 msgid "PloneMeeting_label_itemInitiator"
 msgstr "Iniciador de este tema"
 
+#. Default: "The \"Internal notes\" field on items is editable by meeting managers?"
+msgid "PloneMeeting_label_itemInternalNotesEditableByMeetingManagers"
+msgstr ""
+
 #. Default: "Item is signed ?"
 msgid "PloneMeeting_label_itemIsSigned"
 msgstr "¿El tema se firmó?"
@@ -1283,6 +1291,10 @@ msgstr "¿El tema se firmó?"
 #. Default: "Keywords"
 msgid "PloneMeeting_label_itemKeywords"
 msgstr "Palabras claves"
+
+#. Default: "Are item labels editable by proposing group forever?"
+msgid "PloneMeeting_label_itemLabelsEditableByProposingGroupForever"
+msgstr ""
 
 #. Default: "States in which an item may be manually sent to selected other meeting configurations"
 msgid "PloneMeeting_label_itemManualSentToOtherMCStates"
@@ -3340,6 +3352,10 @@ msgstr ""
 msgid "enable_advice_invalidation_descr"
 msgstr "Cuando la invalidación consejo es permitido, todo cambio a un tema para el que ya por lo menos un consejo que se ha dado invalidará a todos los consejos dados. Un 'cambio' se considera como cada vez que el título o la descripción de un tema es cambiado y cada vez que se agrega o elimina un anexo en el tema."
 
+#. Default: "Enable advice proposing group comment descr"
+msgid "enable_advice_proposing_group_comment_descr"
+msgstr ""
+
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
 msgstr ""
@@ -4297,6 +4313,10 @@ msgstr ""
 msgid "item_initiator_descr"
 msgstr "Presione la tecla CTRL+clic al seleccionar varios iniciadores."
 
+#. Default: "By default the \"Internal notes\" field on items is only viewable and editable by the members of the proposing group.  If checked, the field will also be viewable and editable by meeting managers even if not member of the proposing group."
+msgid "item_internal_notes_editable_by_meeting_managers_descr"
+msgstr ""
+
 #. Default: "The item is not signed."
 msgid "item_is_signed_no"
 msgstr "El tema ha sido firmado. Haga Clic en la imagen para anular la firma para eliminar la firma."
@@ -4312,6 +4332,10 @@ msgstr "El tema ha sido firmado."
 #. Default: "The item is signed. Click on the image to remove signature."
 msgid "item_is_signed_yes_edit"
 msgstr "El tema ha sido firmado. Haga clic en la imagen para eliminar la firma."
+
+#. Default: "By default item labels are editable by the item proposing group as long as it may edit the item, after, only meeting managers may edit the item labels.  If checked, item labels will be editable by proposing group members forever."
+msgid "item_labels_editable_by_proposing_group_forever_descr"
+msgstr ""
 
 #. Default: "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
 msgid "item_manual_sent_to_other_mc_states_descr"
@@ -4536,6 +4560,10 @@ msgstr ""
 
 #. Default: "Types of list of items that will be available when an item is linked to a meeting."
 msgid "list_types_descr"
+msgstr ""
+
+#. Default: "POD template or odt_file"
+msgid "listingheader_pod_template_or_odt_file"
 msgstr ""
 
 #. Default: "Size"
@@ -5281,7 +5309,7 @@ msgstr "Por favor, consulte el documento adjuntado."
 msgid "podMeetingByMail_mail_subject"
 msgstr "${meetingConfigTitle} - ${podTemplateTitle} - ${meetingLongTitle}."
 
-#. Default: "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application."
+#. Default: "This section allows you manage the document templates that you may specify for producing documents from content (items, meetings, advices) and dashboards managed by the application.<br />Details are hidden by default, you can <a href='.?pageName=doc&show_details=1'>display details</a>."
 #, fuzzy
 msgid "pod_templates_descr"
 msgstr "Esta sección le permitirá administrar las platillas de documentos que usted  tal ves especifique para producir documentos desde el contenido gestionado por PloneMeeting (temas, reuniones, anexos, etc)."
