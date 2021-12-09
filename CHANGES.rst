@@ -13,6 +13,8 @@ Changelog
   [gbastien]
 - Added translations for `MeetingConfig.itemInternalNotesEditableByMeetingManagers`.
   [gbastien]
+- Fixed typo in french translation of `PloneMeeting_label_orderedItemInitiators`.
+  [gbastien]
 
 4.2b15 (2021-11-26)
 -------------------
