@@ -1271,8 +1271,8 @@ msgstr "Item icon color"
 msgid "PloneMeeting_label_itemInitiator"
 msgstr "Initiator of this item"
 
-#. Default: "The \"Internal notes\" field on items is editable by meeting managers?"
-msgid "PloneMeeting_label_itemInternalNotesEditableByMeetingManagers"
+#. Default: "The \"Internal notes\" field on items is editable by"
+msgid "PloneMeeting_label_itemInternalNotesEditableBy"
 msgstr ""
 
 #. Default: "Item is signed ?"
@@ -4239,8 +4239,8 @@ msgstr "Selected items may not be switched, specify item number manually."
 msgid "item_initiator_descr"
 msgstr "Use CTRL+click to select several initiators."
 
-#. Default: "By default the \"Internal notes\" field on items is only viewable and editable by the members of the proposing group.  If checked, the field will also be viewable and editable by meeting managers even if not member of the proposing group."
-msgid "item_internal_notes_editable_by_meeting_managers_descr"
+#. Default: "Select here profiles that will be able to view and edit the \"Internal notes\" field of the items.  This field is viewable and editable forever."
+msgid "item_internal_notes_editable_by_descr"
 msgstr ""
 
 #. Default: "The item is not signed."

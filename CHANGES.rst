@@ -11,7 +11,7 @@ Changelog
   [gbastien]
 - Added translations for `MeetingConfig.itemLabelsEditableByProposingGroupForever`.
   [gbastien]
-- Added translations for `MeetingConfig.itemInternalNotesEditableByMeetingManagers`.
+- Added translations for `MeetingConfig.itemInternalNotesEditableBy`.
   [gbastien]
 - Fixed typo in french translation of `PloneMeeting_label_orderedItemInitiators`.
   [gbastien]

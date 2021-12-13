@@ -1271,9 +1271,9 @@ msgstr "Couleur de l'icône des points"
 msgid "PloneMeeting_label_itemInitiator"
 msgstr "À l'initiative de ce point"
 
-#. Default: "The \"Internal notes\" field on items is editable by meeting managers?"
-msgid "PloneMeeting_label_itemInternalNotesEditableByMeetingManagers"
-msgstr "Le champ \"Notes internes\" des points est visible et éditable par les gestionnaires de séances?"
+#. Default: "The \"Internal notes\" field on items is editable by"
+msgid "PloneMeeting_label_itemInternalNotesEditableBy"
+msgstr "Le champ \"Notes internes\" des points est visible et éditable par"
 
 #. Default: "Item is signed ?"
 msgid "PloneMeeting_label_itemIsSigned"
@@ -2251,7 +2251,7 @@ msgstr "${meetingConfigTitle} - Votre avis est demandé - ${itemTitle}"
 
 #. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action \"Update categorized elements\" in the \"Advice annnex types\" configuration.</span>"
 msgid "advice_annex_confidential_visible_for_descr"
-msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des avis et définies comme confidentielles.  <span style='color: red;'>Si vous changez ces valeurs et que des annexes confidentielles existent, exécutez l'action \"Mise à jour des éléments catégorisés\" dans la configuration des \"Annexes aux avis\".</span>"
+msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des avis et définies comme confidentielles.  <span style='color: red;'>Si vous changez ces valeurs et que des annexes confidentielles existent, exécutez l'action \"Mise à jour des éléments catégorisés\" dans la configuration des \"Annexes aux avis\"!</span>"
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
@@ -4147,7 +4147,7 @@ msgstr "Quand un point est dans un des états que vous sélectionnez ici, il ser
 
 #. Default: "Select here profiles of users that will be able to see an annex added to an item that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action \"Update categorized elements\" in the \"Item annex types\" and \"Item annex types (after decision)\" configuration.</span>"
 msgid "item_annex_confidential_visible_for_descr"
-msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des points et définies comme confidentielles.  <span style='color: red;'>Si vous changez ces valeurs et que des annexes confidentielles existent, exécutez l'action \"Mise à jour des éléments catégorisés\" dans la configuration des \"Annexes aux points\" et \"Annexes aux points (après décision)\".</span>"
+msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des points et définies comme confidentielles.  <span style='color: red;'>Si vous changez ces valeurs et que des annexes confidentielles existent, exécutez l'action \"Mise à jour des éléments catégorisés\" dans la configuration des \"Annexes aux points\" et \"Annexes aux points (après décision)\"!</span>"
 
 #. Default: "Assembly for the item"
 msgid "item_assembly"
@@ -4261,9 +4261,9 @@ msgstr "Le point sélectionné ne peut pas changer de position avec l'autre poin
 msgid "item_initiator_descr"
 msgstr " "
 
-#. Default: "By default the \"Internal notes\" field on items is only viewable and editable by the members of the proposing group.  If checked, the field will also be viewable and editable by meeting managers even if not member of the proposing group."
-msgid "item_internal_notes_editable_by_meeting_managers_descr"
-msgstr "Par défaut, seuls les membres du groupe proposant peuvent voir et éditer le champ \"Notes internes\" des points.  Si coché, les gestionnaires de séances pourront aussi voir et éditer ce champ même s'ils ne font pas partie du groupe proposant."
+#. Default: "Select here profiles that will be able to view and edit the \"Internal notes\" field of the items.  This field is viewable and editable forever."
+msgid "item_internal_notes_editable_by_descr"
+msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir et éditer le champ \"Notes internes\" des points. <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter \"Mettre à jour les points et séances\"!</span>"
 
 #. Default: "The item is not signed."
 msgid "item_is_signed_no"
@@ -4608,7 +4608,7 @@ msgstr "À l'instar du champ précédent, toutes les actions qui sont déclench�
 
 #. Default: "Select here profiles of users that will be able to see an annex added to a meeting that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action \"Update categorized elements\" in the \"Meeting annnex types\" configuration.</span>"
 msgid "meeting_annex_confidential_visible_for_descr"
-msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des séances et définies comme confidentielles.  <span style='color: red;'>Si vous changez ces valeurs et que des annexes confidentielles existent, exécutez l'action \"Mise à jour des éléments catégorisés\" dans la configuration des \"Annexes aux séances\".</span>"
+msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des séances et définies comme confidentielles.  <span style='color: red;'>Si vous changez ces valeurs et que des annexes confidentielles existent, exécutez l'action \"Mise à jour des éléments catégorisés\" dans la configuration des \"Annexes aux séances\"!</span>"
 
 #. Default: "Choose here which page will be shown after logon."
 msgid "meeting_app_default_view_descr"
@@ -6565,7 +6565,7 @@ msgstr "État supplémentaire pour demander les avis (configuration complémenta
 
 #. Default: "Wait advices (complementary: in last item validation state, no \"Wait advices\" transition must be available, meaning that every advices are given in order to validate the item)"
 msgid "wa_waiting_advices_given_advices_required_to_validate"
-msgstr "État supplémentaire pour demander les avis (configuration complémentaire: les avis doivent être rendus pour que le point puisse être validé (avis demandé depus le dernier niveau de validation)"
+msgstr "État supplémentaire pour demander les avis (configuration complémentaire: les avis doivent être rendus pour que le point puisse être validé (avis demandé depuis le dernier niveau de validation)"
 
 #. Default: "Wait advices (complementary: when item in state \"Waiting advices\", item may be sent back by propsosing group)"
 msgid "wa_waiting_advices_proposing_group_send_back"
