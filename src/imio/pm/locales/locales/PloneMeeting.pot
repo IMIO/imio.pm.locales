@@ -5670,12 +5670,20 @@ msgstr ""
 msgid "If you need to use this person data in the application like for example scanned signature or telephone number, select it here."
 msgstr ""
 
-#. Default: "Enable documents scanning"
+#. Default: "Enable documents scanning?"
 msgid "PloneMeeting_label_enableScanDocs"
 msgstr ""
 
 #. Default: "Check this box if you use the documents scanning functionnality."
 msgid "enable_scan_docs_descr"
+msgstr ""
+
+#. Default: "Defer annex parent reindex?"
+msgid "PloneMeeting_label_deferAnnexParentReindex"
+msgstr ""
+
+#. Default: "By default, annex title is indexed in parent's full text index. This will defer parent's reindexation when an annex is added, optimizing performances.  Nevertheless, the annex title will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
+msgid "defer_annex_parent_reindex_descr"
 msgstr ""
 
 #. Default: "You can not remove a power observer that is used in a field of this meeting configuration.  Please remove reference to this power observer in every fields of the meeting config, save it then remove this power observer."

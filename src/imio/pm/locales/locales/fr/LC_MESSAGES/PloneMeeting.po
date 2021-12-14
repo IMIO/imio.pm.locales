@@ -1019,6 +1019,10 @@ msgstr "Mode de scrutin par défaut"
 msgid "PloneMeeting_label_defaultVoteValue"
 msgstr "Valeur de vote par défaut"
 
+#. Default: "Defer annex parent reindex?"
+msgid "PloneMeeting_label_deferAnnexParentReindex"
+msgstr "Reporter l'indexation des annexes?"
+
 #. Default: "Defer handling of notifications"
 msgid "PloneMeeting_label_deferredNotificationsHandling"
 msgstr "Différer le traitement des notifications"
@@ -1063,9 +1067,9 @@ msgstr "Activer la duplication des points"
 msgid "PloneMeeting_label_enableLabels"
 msgstr "Activer les étiquettes"
 
-#. Default: "Enable documents scanning"
+#. Default: "Enable documents scanning?"
 msgid "PloneMeeting_label_enableScanDocs"
-msgstr "Activer le scanning de documents"
+msgstr "Activer le scanning de documents?"
 
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
@@ -3216,6 +3220,10 @@ msgstr "Le mode de scrutin par défaut sera présélectionné sur le formulaire 
 #. Default: "When the MeetingManager encodes the votes himself, a default value may already be pre-encoded: the one you choose here."
 msgid "default_vote_value_descr"
 msgstr "Quand le gestonnaire de séance encode lui-même les votes, une valeur par défaut peut être pré-encodée: celle que vous choisissez ici."
+
+#. Default: "By default, annex title is indexed in parent's full text index. This will defer parent's reindexation when an annex is added, optimizing performances.  Nevertheless, the annex title will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
+msgid "defer_annex_parent_reindex_descr"
+msgstr "Par défaut le titre des annexes est indexé dans l'index \"fulltext\" afin d'être trouvé dans les recherches \"Texte\". En cochant cette case, la réindexation n'est pas faites lors de l'ajout d'une nouvelle annexe mais par la suite au moment opportun (lors d'une autre modification sur un champ de texte ou au plus tard la nuit par une procédure qui s'assure de réindexer les éléments n'ayant pas été réindexés). Ceci peut optimiser les performances si l'application est chargée lors de l'ajout de nombreuses annexes sur un élément."
 
 #. Default: "If you check this box, handling of notifications received from external systems will be handled only during next night. Do this if you expect this handling to take a long time."
 msgid "deferred_notifs_handling_descr"

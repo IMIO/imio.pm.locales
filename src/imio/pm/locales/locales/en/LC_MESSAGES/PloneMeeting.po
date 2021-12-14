@@ -1019,6 +1019,10 @@ msgstr "Default poll type"
 msgid "PloneMeeting_label_defaultVoteValue"
 msgstr "Default vote value"
 
+#. Default: "Defer annex parent reindex?"
+msgid "PloneMeeting_label_deferAnnexParentReindex"
+msgstr ""
+
 #. Default: "Defer handling of notifications"
 msgid "PloneMeeting_label_deferredNotificationsHandling"
 msgstr "Defer handling of notifications"
@@ -1063,7 +1067,8 @@ msgstr "Enable item duplication"
 msgid "PloneMeeting_label_enableLabels"
 msgstr "Enable labels"
 
-#. Default: "Enable documents scanning"
+#. Default: "Enable documents scanning?"
+#, fuzzy
 msgid "PloneMeeting_label_enableScanDocs"
 msgstr "Enable documents scanning"
 
@@ -3200,6 +3205,10 @@ msgstr "The default poll type will be preselected on the form when adding an ite
 #. Default: "When the MeetingManager encodes the votes himself, a default value may already be pre-encoded: the one you choose here."
 msgid "default_vote_value_descr"
 msgstr "When the MeetingManager encodes the votes himself, a default value may already pre-encoded: the one you choose here."
+
+#. Default: "By default, annex title is indexed in parent's full text index. This will defer parent's reindexation when an annex is added, optimizing performances.  Nevertheless, the annex title will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
+msgid "defer_annex_parent_reindex_descr"
+msgstr ""
 
 #. Default: "If you check this box, handling of notifications received from external systems will be handled only during next night. Do this if you expect this handling to take a long time."
 msgid "deferred_notifs_handling_descr"

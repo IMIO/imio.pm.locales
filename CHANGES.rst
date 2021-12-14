@@ -15,6 +15,8 @@ Changelog
   [gbastien]
 - Fixed typo in french translation of `PloneMeeting_label_orderedItemInitiators`.
   [gbastien]
+- Added translations for `ToolPloneMeeting.deferAnnexParentReindex`.
+  [gbastien]
 
 4.2b15 (2021-11-26)
 -------------------
