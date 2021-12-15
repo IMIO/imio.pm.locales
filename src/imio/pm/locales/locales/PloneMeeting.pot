@@ -5682,12 +5682,12 @@ msgstr ""
 msgid "enable_scan_docs_descr"
 msgstr ""
 
-#. Default: "Defer annex parent reindex?"
-msgid "PloneMeeting_label_deferAnnexParentReindex"
+#. Default: "Defer parent reindex for"
+msgid "PloneMeeting_label_deferParentReindex"
 msgstr ""
 
-#. Default: "By default, annex title is indexed in parent's full text index. This will defer parent's reindexation when an annex is added, optimizing performances.  Nevertheless, the annex title will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
-msgid "defer_annex_parent_reindex_descr"
+#. Default: "By default, annex title and item reference are indexed in parent's full text index so it is searchable. If selected here, this will defer parent's reindexation when an annex is added or when item reference is computed, optimizing performances.  Nevertheless, the info will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
+msgid "defer_parent_reindex_descr"
 msgstr ""
 
 #. Default: "You can not remove a power observer that is used in a field of this meeting configuration.  Please remove reference to this power observer in every fields of the meeting config, save it then remove this power observer."

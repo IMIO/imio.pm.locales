@@ -15,7 +15,7 @@ Changelog
   [gbastien]
 - Fixed typo in french translation of `PloneMeeting_label_orderedItemInitiators`.
   [gbastien]
-- Added translations for `ToolPloneMeeting.deferAnnexParentReindex`.
+- Added translations for `ToolPloneMeeting.deferParentReindex`.
   [gbastien]
 - Added translations regarding `Meeting in videoconference` functionality.
   [aduchene]
