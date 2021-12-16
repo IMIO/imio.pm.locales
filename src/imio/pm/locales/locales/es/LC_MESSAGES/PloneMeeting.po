@@ -1027,8 +1027,8 @@ msgstr ""
 msgid "PloneMeeting_label_defaultVoteValue"
 msgstr "Valor por defecto de votación"
 
-#. Default: "Defer annex parent reindex?"
-msgid "PloneMeeting_label_deferAnnexParentReindex"
+#. Default: "Defer parent reindex for"
+msgid "PloneMeeting_label_deferParentReindex"
 msgstr ""
 
 #. Default: "Defer handling of notifications"
@@ -3238,8 +3238,16 @@ msgstr ""
 msgid "default_vote_value_descr"
 msgstr "Cuando el encargado de la reunión codifica los votos el mismo, un valor por defecto pueden ya pre-codificar: el que elija aquí."
 
-#. Default: "By default, annex title is indexed in parent's full text index. This will defer parent's reindexation when an annex is added, optimizing performances.  Nevertheless, the annex title will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
-msgid "defer_annex_parent_reindex_descr"
+#. Default: "By default, annex title and item reference are indexed in parent's full text index so it is searchable. If selected here, this will defer parent's reindexation when an annex is added or when item reference is computed, optimizing performances.  Nevertheless, the info will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
+msgid "defer_parent_reindex_descr"
+msgstr ""
+
+#. Default: "When new annexes added (especially when using batch annex creation)"
+msgid "defer_reindex_for_annex"
+msgstr ""
+
+#. Default: "When item references are computed (by default when the meeting is frozen)"
+msgid "defer_reindex_for_item_reference"
 msgstr ""
 
 #. Default: "If you check this box, handling of notifications received from external systems will be handled only during next night. Do this if you expect this handling to take a long time."
@@ -5935,6 +5943,10 @@ msgstr "Este tema NO es una pregunta oral"
 msgid "this_meeting_is_extraordinary_session"
 msgstr ""
 
+#. Default: "Videoconference"
+msgid "this_meeting_is_videoconference"
+msgstr ""
+
 #. Default: "Absents"
 msgid "title_absents"
 msgstr ""
@@ -6137,6 +6149,10 @@ msgstr ""
 
 #. Default: "Deadline for validating items"
 msgid "title_validation_deadline"
+msgstr ""
+
+#. Default: "Videoconference"
+msgid "title_videoconference"
 msgstr ""
 
 #. Default: "Votes observations"

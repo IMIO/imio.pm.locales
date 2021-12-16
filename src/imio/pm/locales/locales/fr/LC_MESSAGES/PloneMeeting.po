@@ -1020,8 +1020,8 @@ msgid "PloneMeeting_label_defaultVoteValue"
 msgstr "Valeur de vote par défaut"
 
 #. Default: "Defer parent reindex for"
-msgid "PloneMeeting_label_deferAnnexReindex"
-msgstr "Reporter l'indexation lors de"
+msgid "PloneMeeting_label_deferParentReindex"
+msgstr "Reporter l'indexation lors"
 
 #. Default: "Defer handling of notifications"
 msgid "PloneMeeting_label_deferredNotificationsHandling"
@@ -3221,9 +3221,17 @@ msgstr "Le mode de scrutin par défaut sera présélectionné sur le formulaire 
 msgid "default_vote_value_descr"
 msgstr "Quand le gestonnaire de séance encode lui-même les votes, une valeur par défaut peut être pré-encodée: celle que vous choisissez ici."
 
-#. Default: "By default, annex title is indexed in parent's full text index. This will defer parent's reindexation when an annex is added, optimizing performances.  Nevertheless, the annex title will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
+#. Default: "By default, annex title and item reference are indexed in parent's full text index so it is searchable. If selected here, this will defer parent's reindexation when an annex is added or when item reference is computed, optimizing performances.  Nevertheless, the info will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
 msgid "defer_parent_reindex_descr"
-msgstr "Par défaut le titre des annexes et la référence du point sont indexés dans l'index \"fulltext\" afin d'être trouvé dans les recherches \"Texte\". Si sélectionné, la réindexation n'est pas faites lors de l'action (ajout d'une annexe ou calcul de la référence) mais par la suite au moment opportun (lors d'une autre modification sur un champ de texte ou au plus tard la nuit par une procédure qui s'assure de réindexer les éléments n'ayant pas été réindexés). Ceci peut optimiser les performances si l'application est chargée lors de l'ajout de nombreuses annexes sur un élément ou du gel d'une séance."
+msgstr "Par défaut certaines actions mettent à jour l'index \"fulltext\" afin que le résultat de l'action puisse être trouvé dans les recherches \"Texte\". La réindexation ne sera pas faites pour les actions sélectionnées lorsqu'elle sont exécutées mais par la suite au moment opportun (lors d'une autre modification sur un champ de texte de l'élément ou, au plus tard, la nuit par une procédure qui s'assure de réindexer les éléments n'ayant pas été réindexés). Ceci permet d'optimiser les performances si l'application est chargée."
+
+#. Default: "When new annexes added (especially when using batch annex creation)"
+msgid "defer_reindex_for_annex"
+msgstr "De l'ajout des annexes (particulièrement lors de l'utilisation de la fonctionnalité d'ajout d'annexes par lot)"
+
+#. Default: "When item references are computed (by default when the meeting is frozen)"
+msgid "defer_reindex_for_item_reference"
+msgstr "Du calcul des références des points (par défaut, dès que la séance est gelée et ensuite lors de changements sur les points de la séance comme point présenté/enlevé/position changée)"
 
 #. Default: "If you check this box, handling of notifications received from external systems will be handled only during next night. Do this if you expect this handling to take a long time."
 msgid "deferred_notifs_handling_descr"
@@ -5843,13 +5851,13 @@ msgstr "Ce point est une question orale"
 msgid "this_item_is_not_an_oral_question"
 msgstr "Ce point N'EST PAS une question orale"
 
-#. Default: "Videoconference"
-msgid "this_meeting_is_videoconference"
-msgstr "Séance en visioconférence"
-
 #. Default: "Extraordinary session"
 msgid "this_meeting_is_extraordinary_session"
 msgstr "Séance extraordinaire"
+
+#. Default: "Videoconference"
+msgid "this_meeting_is_videoconference"
+msgstr "Séance en visioconférence"
 
 #. Default: "Absents"
 msgid "title_absents"
@@ -5963,10 +5971,6 @@ msgstr "Date et heure de fin"
 msgid "title_excused"
 msgstr "Excusés"
 
-#. Default: "Videoconference"
-msgid "title_videoconference"
-msgstr "En visioconférence?"
-
 #. Default: "Extraordinary session"
 msgid "title_extraordinary_session"
 msgstr "Séance extraordinaire?"
@@ -6058,6 +6062,10 @@ msgstr "Date et heure de début"
 #. Default: "Deadline for validating items"
 msgid "title_validation_deadline"
 msgstr "Échéance pour valider les points"
+
+#. Default: "Videoconference"
+msgid "title_videoconference"
+msgstr "En visioconférence?"
 
 #. Default: "Votes observations"
 msgid "title_votes_observations"
