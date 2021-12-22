@@ -4323,11 +4323,11 @@ msgstr "Aucun déplacement n'a eu lieu: veuillez introduire un numéro valide."
 
 #. Default: "You do not have access to the item number you entered."
 msgid "item_number_not_accessible"
-msgstr "Vous n'avez pas accès au numéro de point demandé."
+msgstr "Vous n'avez pas accès au numéro de point demandé, accédez à la séance pour voir les points auxquels vous avez accès."
 
 #. Default: "You do not have access to the item you tried to access, you have been redirected to the closest accessible item."
 msgid "item_number_not_accessible_redirected_to_closest_item"
-msgstr "Vous n'avez pas accès au point demandé, vous avez été redirigé vers le point le plus proche."
+msgstr "Vous n'avez pas accès au point demandé, vous avez été redirigé vers le point le plus proche, accédez à la séance pour voir les points auxquels vous avez accès."
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."
 msgid "item_reference_format_descr"
