@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b17 (unreleased)
+4.2b17 (2022-01-03)
 -------------------
 
 - Added translation for `ckeditor_style_table_optimization`.
