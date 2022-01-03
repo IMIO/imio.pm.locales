@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b16 (unreleased)
+4.2b16 (2022-01-03)
 -------------------
 
 - Added translations for `MeetingConfig.enableAdviceProposingGroupComment`.
