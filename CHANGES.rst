@@ -5,8 +5,8 @@ Changelog
 4.2b17 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translation for `ckeditor_style_table_optimization`.
+  [gbastien]
 
 4.2b16 (2022-01-03)
 -------------------
