@@ -11,6 +11,7 @@ setup(name='imio.pm.locales',
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
+          "Development Status :: 6 - Mature",
           "Environment :: Web Environment",
           "Framework :: Plone",
           "Framework :: Zope2",
