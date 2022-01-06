@@ -5,8 +5,8 @@ Changelog
 4.2b18 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translation for `Used as item initiator for items`.
+  [gbastien]
 
 4.2b17 (2022-01-03)
 -------------------
