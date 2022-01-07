@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b18 (unreleased)
+4.2b18 (2022-01-07)
 -------------------
 
 - Added translation for `Used as item initiator for items`.
