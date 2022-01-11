@@ -5,8 +5,8 @@ Changelog
 4.2b19 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translation for `header_async_actions`.
+  [gbastien]
 
 4.2b18 (2022-01-07)
 -------------------
