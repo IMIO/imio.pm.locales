@@ -7,7 +7,7 @@ Changelog
 
 - Added translation for `header_async_actions`.
   [gbastien]
-- Clearified french translation for `remove_advice_inheritance_ask_locally_not_configured`.
+- Clarified french translation for `remove_advice_inheritance_ask_locally_not_configured`.
   [gbastien]
 
 4.2b18 (2022-01-07)
