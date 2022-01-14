@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-4.2b20 (unreleased)
---------------------
+4.2b20 (2022-01-14)
+-------------------
 
 - Added help message for column header `header_privacy_help` and
   `header_pollType_help` to get narrower columns.
