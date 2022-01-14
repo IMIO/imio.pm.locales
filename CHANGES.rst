@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b19 (unreleased)
+4.2b19 (2022-01-14)
 -------------------
 
 - Added translation for `header_async_actions`.
