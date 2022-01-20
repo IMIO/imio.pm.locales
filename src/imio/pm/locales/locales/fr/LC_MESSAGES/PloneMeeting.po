@@ -4337,9 +4337,9 @@ msgstr "Vous n'avez pas accès au numéro de point demandé, accédez à la séa
 msgid "item_number_not_accessible_redirected_to_closest_item"
 msgstr "Vous n'avez pas accès au point demandé, vous avez été redirigé vers le point le plus proche, accédez à la séance pour voir les points auxquels vous avez accès."
 
-#. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."
+#. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression.  <span style='color: red;'>The purpose of the item reference is to be unique, if so, it will be easy to find an item by searching on it's reference that is indexed.</span>"
 msgid "item_reference_format_descr"
-msgstr "À chaque point est associé une référence dont le format peut être défini ici, sous la forme d'une expression TAL.  Les éléments habituels (\"item\", \"here\", \"tool\", \"cfg\", \"member\", \"pm_utils\", ...) sont disponibles dans l'expression."
+msgstr "À chaque point est associé une référence dont le format peut être défini ici, sous la forme d'une expression TAL.  Les éléments habituels (\"item\", \"here\", \"tool\", \"cfg\", \"member\", \"pm_utils\", ...) sont disponibles dans l'expression.  <span style='color: red;'>L'objectif est de générer une référence unique qui permettra de retrouver facilement un point via la recherche.</span>"
 
 #. Default: "If you don't select anyone in this list, meeting signatory(ies) will be used for this item."
 msgid "item_signatories_descr"

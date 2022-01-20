@@ -5,8 +5,8 @@ Changelog
 4.2b21 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Completed `item_reference_format_descr`.
+  [gbastien]
 
 4.2b20 (2022-01-14)
 -------------------

@@ -1787,7 +1787,7 @@ msgstr ""
 msgid "PloneMeeting_label_itemReferenceFormat"
 msgstr ""
 
-#. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."
+#. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression.  <span style='color: red;'>The purpose of the item reference is to be unique, if so, it will be easy to find an item by searching on it's reference that is indexed.</span>"
 msgid "item_reference_format_descr"
 msgstr ""
 

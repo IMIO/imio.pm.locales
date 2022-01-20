@@ -4362,7 +4362,7 @@ msgstr ""
 msgid "item_number_not_accessible_redirected_to_closest_item"
 msgstr ""
 
-#. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."
+#. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression.  <span style='color: red;'>The purpose of the item reference is to be unique, if so, it will be easy to find an item by searching on it's reference that is indexed.</span>"
 #, fuzzy
 msgid "item_reference_format_descr"
 msgstr "Jeder TOP wird mit einer Referenz verknüpft. Das Format der Referenz kann hier als TAL (Tag Attribute Language) Ausdruck definiert werden. Wenn Sie TAL nicht kennen können Sie <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">hier</a> nähere Informationen erhalten."
