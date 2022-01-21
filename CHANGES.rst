@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b21 (unreleased)
+4.2b21 (2022-01-21)
 -------------------
 
 - Completed `item_reference_format_descr`.
