@@ -5,8 +5,8 @@ Changelog
 4.2b22 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- More generic translation for `internal_notes_descr`.
+  [gbastien]
 
 4.2b21 (2022-01-21)
 -------------------
