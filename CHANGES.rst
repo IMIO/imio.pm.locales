@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b22 (unreleased)
+4.2b22 (2022-01-27)
 -------------------
 
 - More generic translation for `internal_notes_descr`.
