@@ -5,8 +5,8 @@ Changelog
 4.2b23 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translation `All cache was invalidated`.
+  [gbastien]
 
 4.2b22 (2022-01-27)
 -------------------
