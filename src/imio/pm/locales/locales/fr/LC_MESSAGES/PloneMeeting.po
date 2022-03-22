@@ -5863,6 +5863,10 @@ msgstr "Ce point est une question orale"
 msgid "this_item_is_not_an_oral_question"
 msgstr "Ce point N'EST PAS une question orale"
 
+#. Default: "This meeting adopts next agenda of ${cfg_titles}"
+msgid "this_meeting_adopts_next_agenda_of"
+msgstr "Cette séance arrête l'ordre du jour du prochain ${cfg_titles}"
+
 #. Default: "Extraordinary session"
 msgid "this_meeting_is_extraordinary_session"
 msgstr "Séance extraordinaire"
@@ -5874,6 +5878,10 @@ msgstr "Séance en visioconférence"
 #. Default: "Absents"
 msgid "title_absents"
 msgstr "Absents (non excusés)"
+
+#. Default: "Adopts next agenda of"
+msgid "title_adopts_next_agenda_of"
+msgstr "Arrête l'ordre du jour du prochain"
 
 #. Default: "Approval date"
 msgid "title_approval_date"

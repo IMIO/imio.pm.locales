@@ -5,8 +5,8 @@ Changelog
 4.2b24 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations for new field `Meeting.adopts_next_agenda_of`.
+  [gbastien]
 
 4.2b23 (2022-03-07)
 -------------------
