@@ -513,8 +513,8 @@ msgid "can_not_delete_organization_config_meetingitem"
 msgstr "Cette organisation ne peut pas être supprimé, elle est référencée dans un point d'une configuration de séance!  Vérifiez ici : ${item_url}"
 
 #. Default: "This organization can not be deleted, it is used as group in charge of organization ${org_url}!"
-msgid "can_not_delete_organization_groupincharge"
-msgstr "Cette organisation ne peut pas être supprimée, elle est utilisés comme \"Groupe en charge\" de l'organisation \"${org_title}.\"!"
+msgid "can_not_delete_organization_groupsincharge"
+msgstr "Cette organisation ne peut pas être supprimée, elle est utilisée comme \"Groupe en charge\" de l'organisation \"${org_url}\"!"
 
 #. Default: "This organization can not be deleted, it is used in a category, check ${url}!"
 msgid "can_not_delete_organization_meetingcategory"

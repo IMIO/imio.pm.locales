@@ -4522,6 +4522,26 @@ msgstr "${meetingConfigTitle} - Un point en urgence vient d'être validé."
 msgid "let_item_in_initial_state"
 msgstr "--- Ne rien faire, laisser le point dans son état initial ---"
 
+#. Default: "Reviewers L+1"
+msgid "level1reviewers"
+msgstr "Validateurs N+1"
+
+#. Default: "Reviewers L+2"
+msgid "level2reviewers"
+msgstr "Validateurs N+2"
+
+#. Default: "Reviewers L+3"
+msgid "level3reviewers"
+msgstr "Validateurs N+3"
+
+#. Default: "Reviewers L+4"
+msgid "level4reviewers"
+msgstr "Validateurs N+4"
+
+#. Default: "Reviewers L+5"
+msgid "level5reviewers"
+msgstr "Validateurs N+5"
+
 #. Default: "Linked items (${auto_linked_items})"
 msgid "linked_items"
 msgstr "Points liés (${auto_linked_items})"

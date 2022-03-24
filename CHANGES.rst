@@ -7,6 +7,11 @@ Changelog
 
 - Added translations for new field `Meeting.adopts_next_agenda_of`.
   [gbastien]
+- Added translations for every `levelXreviewers` plonegroup suffixes.
+  [gbastien]
+- Fixed translation for `can_not_delete_organization_groupsincharge`,
+  was `can_not_delete_organization_groupincharge` before (missing `s`).
+  [gbastien]
 
 4.2b23 (2022-03-07)
 -------------------
