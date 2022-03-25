@@ -101,11 +101,11 @@ msgstr "Advice official comment"
 
 #. Default: "Advice proposing group comment"
 msgid "Advice proposing group comment"
-msgstr ""
+msgstr "Advice proposing group comment"
 
 #. Default: "Advice proposing group comment description"
 msgid "Advice proposing group comment description"
-msgstr ""
+msgstr "Advice proposing group comment description"
 
 #. Default: "Advice reference"
 msgid "Advice reference"
@@ -122,7 +122,7 @@ msgstr "Advisers index"
 
 #. Default: "All cache was invalidated"
 msgid "All cache was invalidated"
-msgstr ""
+msgstr "All cache was invalidated"
 
 #. Default: "An advice on this item still needs to be given respecting given delay."
 msgid "An advice on this item still needs to be given respecting given delay."
@@ -1025,7 +1025,7 @@ msgstr "Default vote value"
 
 #. Default: "Defer parent reindex for"
 msgid "PloneMeeting_label_deferParentReindex"
-msgstr ""
+msgstr "Defer parent reindex for"
 
 #. Default: "Defer handling of notifications"
 msgid "PloneMeeting_label_deferredNotificationsHandling"
@@ -1061,7 +1061,7 @@ msgstr "Enable advice invalidation"
 
 #. Default: "Enable advice proposing group comment"
 msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
-msgstr ""
+msgstr "Enable advice proposing group comment"
 
 #. Default: "Enable item duplication"
 msgid "PloneMeeting_label_enableItemDuplication"
@@ -1282,7 +1282,7 @@ msgstr "Initiator of this item"
 
 #. Default: "The \"Internal notes\" field on items is editable by"
 msgid "PloneMeeting_label_itemInternalNotesEditableBy"
-msgstr ""
+msgstr "The \"Internal notes\" field on items is editable by"
 
 #. Default: "Item is signed ?"
 msgid "PloneMeeting_label_itemIsSigned"
@@ -1294,7 +1294,7 @@ msgstr "Keywords"
 
 #. Default: "Are item labels editable by proposing group forever?"
 msgid "PloneMeeting_label_itemLabelsEditableByProposingGroupForever"
-msgstr ""
+msgstr "Are item labels editable by proposing group forever?"
 
 #. Default: "States in which an item may be manually sent to selected other meeting configurations"
 msgid "PloneMeeting_label_itemManualSentToOtherMCStates"
@@ -2116,7 +2116,7 @@ msgstr "Usages"
 
 #. Default: "Used as item initiator for items"
 msgid "Used as item initiator for items"
-msgstr ""
+msgstr "Used as item initiator for items"
 
 #. Default: "Used by following contents"
 msgid "Used by following contents"
@@ -2328,7 +2328,7 @@ msgstr "Optional"
 
 #. Default: "Edit advice proposing group comment"
 msgid "advice_proposing_group_comment_edit"
-msgstr ""
+msgstr "Edit advice proposing group comment"
 
 #. Default: "No advice to ask"
 msgid "advice_required_to_ask_advices"
@@ -2885,7 +2885,7 @@ msgstr "Page break"
 
 #. Default: "Highlight in grey (anonymize)"
 msgid "ckeditor_style_pm_anonymize"
-msgstr ""
+msgstr "Highlight in grey (anonymize)"
 
 #. Default: "Small text"
 msgid "ckeditor_style_small"
@@ -2897,7 +2897,7 @@ msgstr "No optimization"
 
 #. Default: "Optimization"
 msgid "ckeditor_style_table_optimization"
-msgstr ""
+msgstr "Optimization"
 
 #. Default: "X-large text"
 msgid "ckeditor_style_x_large"
@@ -3219,16 +3219,16 @@ msgid "default_vote_value_descr"
 msgstr "When the MeetingManager encodes the votes himself, a default value may already pre-encoded: the one you choose here."
 
 #. Default: "By default, annex title and item reference are indexed in parent's full text index so it is searchable. If selected here, this will defer parent's reindexation when an annex is added or when item reference is computed, optimizing performances.  Nevertheless, the info will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
-msgid "defer_parent_reindex_descr"
-msgstr ""
+msgid "defer_parent_reindex_descrBy default, annex title and item reference are indexed in parent's full text index so it is searchable. If selected here, this will defer parent's reindexation when an annex is added or when item reference is computed, optimizing performances.  Nevertheless, the info will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
+msgstr "By default, annex title and item reference are indexed in parent's full text index so it is searchable. If selected here, this will defer parent's reindexation when an annex is added or when item reference is computed, optimizing performances.  Nevertheless, the info will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
 
 #. Default: "When new annexes added (especially when using batch annex creation)"
 msgid "defer_reindex_for_annex"
-msgstr ""
+msgstr "When new annexes added (especially when using batch annex creation)"
 
 #. Default: "When item references are computed (by default when the meeting is frozen)"
 msgid "defer_reindex_for_item_reference"
-msgstr ""
+msgstr "When item references are computed (by default when the meeting is frozen)"
 
 #. Default: "If you check this box, handling of notifications received from external systems will be handled only during next night. Do this if you expect this handling to take a long time."
 msgid "deferred_notifs_handling_descr"
@@ -3348,7 +3348,7 @@ msgstr "When advice invalidation is enabled, every change to an item for which a
 
 #. Default: "Enable advice proposing group comment descr"
 msgid "enable_advice_proposing_group_comment_descr"
-msgstr ""
+msgstr "Enable advice proposing group comment descr"
 
 #. Default: "If you enable annex confidentiality, it will be possible for meeting managers to select on every annexes if it is confidential or not.  This information is only visible to meeting managers.  If enabled, it will be possible to define a default value for it on the corresponding meeting file type."
 msgid "enable_annex_confidentiality_descr"
@@ -4270,7 +4270,7 @@ msgstr "Use CTRL+click to select several initiators."
 
 #. Default: "Select here profiles that will be able to view and edit the \"Internal notes\" field of the items.  This field is viewable and editable forever."
 msgid "item_internal_notes_editable_by_descr"
-msgstr ""
+msgstr "Select here profiles that will be able to view and edit the \"Internal notes\" field of the items.  This field is viewable and editable forever."
 
 #. Default: "The item is not signed."
 msgid "item_is_signed_no"
@@ -4290,7 +4290,7 @@ msgstr "The item is signed. Click on the image to remove signature."
 
 #. Default: "By default item labels are editable by the item proposing group as long as it may edit the item, after, only meeting managers may edit the item labels.  If checked, item labels will be editable by proposing group members forever."
 msgid "item_labels_editable_by_proposing_group_forever_descr"
-msgstr ""
+msgstr "By default item labels are editable by the item proposing group as long as it may edit the item, after, only meeting managers may edit the item labels.  If checked, item labels will be editable by proposing group members forever."
 
 #. Default: "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
 msgid "item_manual_sent_to_other_mc_states_descr"
@@ -4501,23 +4501,23 @@ msgstr "--- Do nothing, let the item in the workflow initial state ---"
 
 #. Default: "Reviewers L+1"
 msgid "level1reviewers"
-msgstr ""
+msgstr "Reviewers L+1"
 
 #. Default: "Reviewers L+2"
 msgid "level2reviewers"
-msgstr ""
+msgstr "Reviewers L+2"
 
 #. Default: "Reviewers L+3"
 msgid "level3reviewers"
-msgstr ""
+msgstr "Reviewers L+3"
 
 #. Default: "Reviewers L+4"
 msgid "level4reviewers"
-msgstr ""
+msgstr "Reviewers L+4"
 
 #. Default: "Reviewers L+5"
 msgid "level5reviewers"
-msgstr ""
+msgstr "Reviewers L+5"
 
 #. Default: "Linked items (${auto_linked_items})"
 msgid "linked_items"
@@ -4533,7 +4533,7 @@ msgstr "Types of list of items that will be available when an item is linked to 
 
 #. Default: "POD template or odt_file"
 msgid "listingheader_pod_template_or_odt_file"
-msgstr ""
+msgstr "POD template or odt_file"
 
 #. Default: "Size"
 msgid "listingheader_size"
@@ -5365,7 +5365,7 @@ msgstr "Preview of annexes grouped by type"
 
 #. Default: "Proposing group is not available for user."
 msgid "proposing_group_not_available"
-msgstr ""
+msgstr "Proposing group is not available for user."
 
 #. Default: "A proposing group is required."
 msgid "proposing_group_required"
@@ -5859,7 +5859,7 @@ msgstr "This item is NOT an oral question"
 
 #. Default: "This meeting adopts next agenda of ${cfg_titles}"
 msgid "this_meeting_adopts_next_agenda_of"
-msgstr ""
+msgstr "This meeting adopts next agenda of ${cfg_titles}"
 
 #. Default: "Extraordinary session"
 msgid "this_meeting_is_extraordinary_session"
@@ -5867,7 +5867,7 @@ msgstr "Extraordinary session"
 
 #. Default: "Videoconference"
 msgid "this_meeting_is_videoconference"
-msgstr ""
+msgstr "Videoconference"
 
 #. Default: "Absents"
 msgid "title_absents"
@@ -5875,7 +5875,7 @@ msgstr "Absents"
 
 #. Default: "Adopts next agenda of"
 msgid "title_adopts_next_agenda_of"
-msgstr ""
+msgstr "Adopts next agenda of"
 
 #. Default: "Approval date"
 msgid "title_approval_date"
@@ -6013,6 +6013,10 @@ msgstr "Meeting managers notes"
 msgid "title_mid_date"
 msgstr "Mid date"
 
+#. Default: "Mid start date"
+msgid "title_mid_start_date"
+msgstr "Mid start date"
+
 #. Default: "Non attendees"
 msgid "title_non_attendees"
 msgstr "Non attendees"
@@ -6079,7 +6083,7 @@ msgstr "Deadline for validating items"
 
 #. Default: "Videoconference"
 msgid "title_videoconference"
-msgstr ""
+msgstr "Videoconference"
 
 #. Default: "Votes observations"
 msgid "title_votes_observations"
