@@ -14,6 +14,8 @@ Changelog
   [gbastien]
 - Added translations for new field `Meeting.mid_start_date`.
   [gbastien]
+- Removed `icon_help_waiting_advices_from_xxx` translations, no more used.
+  [gbastien]
 
 4.2b23 (2022-03-07)
 -------------------

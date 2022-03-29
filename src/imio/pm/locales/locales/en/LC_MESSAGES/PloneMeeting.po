@@ -3219,8 +3219,8 @@ msgid "default_vote_value_descr"
 msgstr "When the MeetingManager encodes the votes himself, a default value may already pre-encoded: the one you choose here."
 
 #. Default: "By default, annex title and item reference are indexed in parent's full text index so it is searchable. If selected here, this will defer parent's reindexation when an annex is added or when item reference is computed, optimizing performances.  Nevertheless, the info will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
-msgid "defer_parent_reindex_descrBy default, annex title and item reference are indexed in parent's full text index so it is searchable. If selected here, this will defer parent's reindexation when an annex is added or when item reference is computed, optimizing performances.  Nevertheless, the info will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
-msgstr "By default, annex title and item reference are indexed in parent's full text index so it is searchable. If selected here, this will defer parent's reindexation when an annex is added or when item reference is computed, optimizing performances.  Nevertheless, the info will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
+msgid "defer_parent_reindex_descr"
+msgstr ""
 
 #. Default: "When new annexes added (especially when using batch annex creation)"
 msgid "defer_reindex_for_annex"
@@ -3963,18 +3963,6 @@ msgstr "Waiting advices"
 #. Default: "Waiting advices (advice down workflow)"
 msgid "icon_help_waiting_advices_down"
 msgstr "Waiting advices (advice down workflow)"
-
-#. Default: "Waiting advices (Item created)"
-msgid "icon_help_waiting_advices_from_itemcreated"
-msgstr "Waiting advices (Item created)"
-
-#. Default: "Waiting advices (Prevalidated)"
-msgid "icon_help_waiting_advices_from_prevalidated"
-msgstr "Waiting advices (Prevalidated)"
-
-#. Default: "Waiting advices (Proposed)"
-msgid "icon_help_waiting_advices_from_proposed"
-msgstr "Waiting advices (Proposed)"
 
 #. Default: "Waiting advices (advice is again up the workflow)"
 msgid "icon_help_waiting_advices_up"
