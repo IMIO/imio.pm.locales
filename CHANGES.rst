@@ -16,6 +16,8 @@ Changelog
   [gbastien]
 - Removed `icon_help_waiting_advices_from_xxx` translations, no more used.
   [gbastien]
+- Added translation for `proposing_group_with_group_in_charge_required`.
+  [gbastien]
 
 4.2b23 (2022-03-07)
 -------------------
