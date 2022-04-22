@@ -2735,6 +2735,10 @@ msgstr "Can not switch vote type (no vote/public/secret) as votes are already en
 msgid "can_not_unselect_already_given_advice"
 msgstr "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
 
+#. Default: "You can not unselect an organization that is in use by another organization, please check.  Please check ${org_url}."
+msgid "can_not_unselect_plone_group_org"
+msgstr "You can not unselect an organization that is in use by another organization, please check.  Please check ${org_url}."
+
 #. Default: "You can not change this value because this meeting file type is already used by an advice annex added on item, like for example: ${item_url} !"
 msgid "cannot_change_inuse_advice_relatedto"
 msgstr "You can not change this value because this meeting file type is already used by an advice annex added on item, like for example: ${item_url} !"
@@ -3220,7 +3224,7 @@ msgstr "When the MeetingManager encodes the votes himself, a default value may a
 
 #. Default: "By default, annex title and item reference are indexed in parent's full text index so it is searchable. If selected here, this will defer parent's reindexation when an annex is added or when item reference is computed, optimizing performances.  Nevertheless, the info will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
 msgid "defer_parent_reindex_descr"
-msgstr ""
+msgstr "By default, annex title and item reference are indexed in parent's full text index so it is searchable. If selected here, this will defer parent's reindexation when an annex is added or when item reference is computed, optimizing performances.  Nevertheless, the info will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
 
 #. Default: "When new annexes added (especially when using batch annex creation)"
 msgid "defer_reindex_for_annex"
@@ -5361,7 +5365,7 @@ msgstr "A proposing group is required."
 
 #. Default: "Please select a proposing group with a group in charge."
 msgid "proposing_group_with_group_in_charge_required"
-msgstr ""
+msgstr "Please select a proposing group with a group in charge."
 
 #. Default: "The document has been sent."
 msgid "pt_mailing_sent"

@@ -2745,6 +2745,10 @@ msgstr ""
 msgid "can_not_unselect_already_given_advice"
 msgstr ""
 
+#. Default: "You can not unselect an organization that is in use by another organization, please check.  Please check ${org_url}."
+msgid "can_not_unselect_plone_group_org"
+msgstr ""
+
 #. Default: "You can not change this value because this meeting file type is already used by an advice annex added on item, like for example: ${item_url} !"
 msgid "cannot_change_inuse_advice_relatedto"
 msgstr ""

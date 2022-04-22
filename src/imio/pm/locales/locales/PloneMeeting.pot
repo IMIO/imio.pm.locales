@@ -6082,6 +6082,10 @@ msgstr ""
 msgid "can_not_delete_plone_group_meetingconfig"
 msgstr ""
 
+#. Default: "You can not unselect an organization that is in use by another organization, please check.  Please check ${org_url}."
+msgid "can_not_unselect_plone_group_org"
+msgstr ""
+
 #. Default: "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
 msgid "can_not_switch_polltype_votes_encoded"
 msgstr ""

@@ -2750,6 +2750,10 @@ msgstr "Vous ne pouvez pas changer le mode de scrutin (public/secret/pas de vote
 msgid "can_not_unselect_already_given_advice"
 msgstr "Vous ne pouvez pas désélectionner un avis optionnel qui a déjà été rendu.  Vérifiez l'avis \"${removedAdviser}\"."
 
+#. Default: "You can not unselect an organization that is in use by another organization, please check.  Please check ${org_url}."
+msgid "can_not_unselect_plone_group_org"
+msgstr "Vous ne pouvez pas désélectionner une organisation utilisée par une autre organisation.  Vérifiez l'organisation \"${org_url}\"."
+
 #. Default: "You can not change this value because this meeting file type is already used by an advice annex added on item, like for example: ${item_url} !"
 msgid "cannot_change_inuse_advice_relatedto"
 msgstr "Vous ne pouvez pas changer cette valeur car ce type d'annexe est déjà utilisé par des annexes ajoutées à un avis, comme par exemple: ${item_url} !"
