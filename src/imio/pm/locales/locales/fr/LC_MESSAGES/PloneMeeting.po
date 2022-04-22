@@ -6483,9 +6483,21 @@ msgstr "Décider les points automatiquement quand ils reviennent dans la séance
 msgid "wa_delayed"
 msgstr "Ajouter l'état de décision \"Reporté\" sur un point"
 
+#. Default: "You selected some workflow adaptations that relies on other being selected, please correct."
+msgid "wa_dependencies"
+msgstr "Certaines adaptations sélectionnées dépendent d'une adaptation de base qui n'est pas sélectionnée."
+
 #. Default: "Hide the decision to the proposing group when it is under writing"
 msgid "wa_hide_decisions_when_under_writing"
 msgstr "Cacher les décisions au service pendant leur rédaction par les gestionnaires de séances"
+
+#. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
+msgid "wa_item_validation_no_validate_shortcuts"
+msgstr "Ajouter des raccourcis lors du processus de validation du point (base: tous les états entre \"En création\" et \"Validé\")"
+
+#. Default: "Add shortcuts in the item validation process"
+msgid "wa_item_validation_shortcuts"
+msgstr "Ajouter des raccourcis lors du processus de validation du point (configuration complémentaire: excepté vers l'état \"Validé\")"
 
 #. Default: "Items come validated"
 msgid "wa_items_come_validated"
@@ -6498,6 +6510,14 @@ msgstr "Ajouter l'état de décision \"Marqué sans objet\" sur un point"
 #. Default: "MeetingManagers may correct a closed meeting"
 msgid "wa_meetingmanager_correct_closed_meeting"
 msgstr "Les gestionnaires de séances peuvent corriger une séance clôturée"
+
+#. Default: "No decide"
+msgid "wa_no_decide"
+msgstr "Sauter l'étape de rédaction du PV"
+
+#. Default: "No freeze"
+msgid "wa_no_freeze"
+msgstr "Sauter l'étape de gel"
 
 #. Default: "No global items observation"
 msgid "wa_no_global_observation"

@@ -2092,6 +2092,10 @@ msgstr ""
 msgid "wa_conflicts"
 msgstr ""
 
+#. Default: "You selected some workflow adaptations that relies on other being selected, please correct."
+msgid "wa_dependencies"
+msgstr ""
+
 #. Default: "You can not select the \"No publication\" adaptation as there are still items or meetings in state \"published\"."
 msgid "wa_added_no_publication_error"
 msgstr ""
@@ -2257,6 +2261,22 @@ msgstr ""
 
 #. Default: "Hide the decision to the proposing group when it is under writing"
 msgid "wa_hide_decisions_when_under_writing"
+msgstr ""
+
+#. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
+msgid "wa_item_validation_no_validate_shortcuts"
+msgstr ""
+
+#. Default: "Add shortcuts in the item validation process"
+msgid "wa_item_validation_shortcuts"
+msgstr ""
+
+#. Default: "No decide"
+msgid "wa_no_decide"
+msgstr ""
+
+#. Default: "No freeze"
+msgid "wa_no_freeze"
 msgstr ""
 
 #. Default: "<p class='highlightValue'>The decision is currently under edit by managers, you can not access it.</p>"

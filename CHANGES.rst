@@ -20,6 +20,10 @@ Changelog
   [gbastien]
 - Added translation for `can_not_unselect_plone_group_org`.
   [gbastien]
+- Added new WFAdaptations related translations (`dependencies validation`,
+  `item_validation_no_validate_shortcuts`, `item_validation_shortcuts`,
+  `no_decide`, `no_freeze`).
+  [gbastien]
 
 4.2b23 (2022-03-07)
 -------------------

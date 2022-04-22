@@ -6584,9 +6584,21 @@ msgstr ""
 msgid "wa_delayed"
 msgstr ""
 
+#. Default: "You selected some workflow adaptations that relies on other being selected, please correct."
+msgid "wa_dependencies"
+msgstr ""
+
 #. Default: "Hide the decision to the proposing group when it is under writing"
 msgid "wa_hide_decisions_when_under_writing"
 msgstr "Ocultar la decisión al grupo proponente cuando está bajo redacción"
+
+#. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
+msgid "wa_item_validation_no_validate_shortcuts"
+msgstr ""
+
+#. Default: "Add shortcuts in the item validation process"
+msgid "wa_item_validation_shortcuts"
+msgstr ""
 
 #. Default: "Items come validated"
 msgid "wa_items_come_validated"
@@ -6598,6 +6610,14 @@ msgstr ""
 
 #. Default: "MeetingManagers may correct a closed meeting"
 msgid "wa_meetingmanager_correct_closed_meeting"
+msgstr ""
+
+#. Default: "No decide"
+msgid "wa_no_decide"
+msgstr ""
+
+#. Default: "No freeze"
+msgid "wa_no_freeze"
 msgstr ""
 
 #. Default: "No global items observation"
