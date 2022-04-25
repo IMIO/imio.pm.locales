@@ -24,6 +24,8 @@ Changelog
   `item_validation_no_validate_shortcuts`, `item_validation_shortcuts`,
   `no_decide`, `no_freeze`).
   [gbastien]
+- Added translation for `The configuration does not let you add annexes.`.
+  [gbastien]
 
 4.2b23 (2022-03-07)
 -------------------
