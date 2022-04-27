@@ -26,6 +26,9 @@ Changelog
   [gbastien]
 - Added translation for `The configuration does not let you add annexes.`.
   [gbastien]
+- Completed translation for `This attendee is marked as ${not_present_type}
+  for the ${number} following items (${clusters})`.
+  [gbastien]
 
 4.2b23 (2022-03-07)
 -------------------

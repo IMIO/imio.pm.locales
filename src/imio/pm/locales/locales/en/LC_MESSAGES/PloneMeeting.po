@@ -1980,7 +1980,7 @@ msgstr "Temporary QR code!"
 
 #. Default: "The configuration does not let you add annexes."
 msgid "The configuration does not let you add annexes."
-msgstr ""
+msgstr "The configuration does not let you add annexes."
 
 # plone.app.querystring
 #. Default: "The date of the meeting the item is linked to"
@@ -2053,9 +2053,9 @@ msgstr "This advice was asked automatically by the application"
 msgid "This advice was given as personal initiative"
 msgstr "This advice was given as personal initiative"
 
-#. Default: "This attendee is marked as ${not_present_type} for the ${number} following items"
-msgid "This attendee is marked as ${not_present_type} for the ${number} following items"
-msgstr "This attendee is marked as ${not_present_type} for the ${number} following items"
+#. Default: "This attendee is marked as ${not_present_type} for the ${number} following items (${clusters})"
+msgid "This attendee is marked as ${not_present_type} for the ${number} following items (${clusters})"
+msgstr "This attendee is marked as ${not_present_type} for the ${number} following items (${clusters})"
 
 #. Default: "This attendee is marked as signatory for the ${number} following item(s)"
 msgid "This attendee is marked as signatory for the ${number} following item(s)"
@@ -6463,7 +6463,7 @@ msgstr "Delayed"
 
 #. Default: "You selected some workflow adaptations that relies on other being selected, please correct."
 msgid "wa_dependencies"
-msgstr ""
+msgstr "You selected some workflow adaptations that relies on other being selected, please correct."
 
 #. Default: "Hide the decision to the proposing group when it is under writing"
 msgid "wa_hide_decisions_when_under_writing"
@@ -6471,11 +6471,11 @@ msgstr "Hide the decision to the proposing group when it is under writing"
 
 #. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
 msgid "wa_item_validation_no_validate_shortcuts"
-msgstr ""
+msgstr "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
 
 #. Default: "Add shortcuts in the item validation process"
 msgid "wa_item_validation_shortcuts"
-msgstr ""
+msgstr "Add shortcuts in the item validation process"
 
 #. Default: "Items come validated"
 msgid "wa_items_come_validated"
@@ -6491,11 +6491,11 @@ msgstr "MeetingManagers may correct a closed meeting"
 
 #. Default: "No decide"
 msgid "wa_no_decide"
-msgstr ""
+msgstr "No decide"
 
 #. Default: "No freeze"
 msgid "wa_no_freeze"
-msgstr ""
+msgstr "No freeze"
 
 #. Default: "No global items observation"
 msgid "wa_no_global_observation"
