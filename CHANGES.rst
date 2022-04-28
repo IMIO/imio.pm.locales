@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b24 (unreleased)
+4.2b24 (2022-04-28)
 -------------------
 
 - Added translations for new field `Meeting.adopts_next_agenda_of`.
