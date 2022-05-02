@@ -173,7 +173,7 @@ msgstr "Suffixes supplémentaires"
 
 #. Default: "Item WF validation levels extra suffixes description."
 msgid "Item WF validation levels extra suffixes description."
-msgstr "Suffixes supplémentaires qui auront la main sur le point lorsqu'il sera dans cet état."
+msgstr "Suffixes supplémentaires qui auront la main sur le point lorsqu'il sera dans cet état. CAS PARTICULIER: si aucune étape n'est activée (les points sont créés dans l'état \"validé (validated)\"), les \"Suffixes supplémentaires\" renseignés sur l'étape \"itemcreated\" auront accès au point en lecture."
 
 #. Default: "Item WF validation levels leading transition"
 msgid "Item WF validation levels leading transition"
