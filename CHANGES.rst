@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b25 (unreleased)
+4.2b25 (2022-05-03)
 -------------------
 
 - Completed translation `Item WF validation levels extra suffixes description.`.
