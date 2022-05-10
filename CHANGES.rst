@@ -5,8 +5,8 @@ Changelog
 4.2b26 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translation for `advice_hide_during_redaction_set_auto_to_true`.
+  [gbastien]
 
 4.2b25 (2022-05-03)
 -------------------

@@ -2313,6 +2313,10 @@ msgstr "Cet avis est considéré \"Non rendu\" car il était toujours en cours d
 msgid "advice_hidden_during_redaction_help"
 msgstr "Cet avis est en cours de rédaction par les émetteurs d'avis du groupe auquel l'avis a été demandé et n'est pas accessible aux autres groupes."
 
+#. Default: "The advice was automatically hidden during redaction, do not forget to unhide it when advice will be ready."
+msgid "advice_hide_during_redaction_set_auto_to_true"
+msgstr "L'option \"Cacher l'avis pendant sa rédaction\" a été automatiquement cochée, vous pouvez la décocher maintenant ou utiliser l'action \"Publier l'avis\" lorsqu'il sera prêt."
+
 #. Default: "Informations displayed regarding advice are taken from the other item including informations about dates, delay and states."
 msgid "advice_inherited_popup_descr"
 msgstr "Les informations affichées dans le cadre ci-contre à propos de l'avis sont reprises du point, y compris les informations éventuelles concernant le délai restant, l'état du point ou les dates de demande/remise de l'avis."

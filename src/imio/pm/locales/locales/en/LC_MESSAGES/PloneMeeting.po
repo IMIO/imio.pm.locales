@@ -2302,6 +2302,10 @@ msgstr "This advice is considered \"Not given\" because it was still under redac
 msgid "advice_hidden_during_redaction_help"
 msgstr "This advice is currently under redaction by the advisers of the group and is not visible to other groups."
 
+#. Default: "The advice was automatically hidden during redaction, do not forget to unhide it when advice will be ready."
+msgid "advice_hide_during_redaction_set_auto_to_true"
+msgstr ""
+
 #. Default: "Informations displayed regarding advice are taken from the other item including informations about dates, delay and states."
 msgid "advice_inherited_popup_descr"
 msgstr "Informations displayed regarding advice are taken from the other item including informations about dates, delay and states."
