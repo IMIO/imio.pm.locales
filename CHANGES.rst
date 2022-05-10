@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b26 (unreleased)
+4.2b26 (2022-05-10)
 -------------------
 
 - Added translation for `advice_hide_during_redaction_set_auto_to_true`.
