@@ -2304,7 +2304,7 @@ msgstr "This advice is currently under redaction by the advisers of the group an
 
 #. Default: "The advice was automatically hidden during redaction, do not forget to unhide it when advice will be ready."
 msgid "advice_hide_during_redaction_set_auto_to_true"
-msgstr ""
+msgstr "The advice was automatically hidden during redaction, do not forget to unhide it when advice will be ready."
 
 #. Default: "Informations displayed regarding advice are taken from the other item including informations about dates, delay and states."
 msgid "advice_inherited_popup_descr"
@@ -6185,10 +6185,6 @@ msgstr "Back to top of the page"
 msgid "topic_description"
 msgstr "The result shows only elements you are allowed to view."
 
-#. Default: "Transfer"
-msgid "transfer"
-msgstr "Transfer"
-
 #. Default: "This transition was triggered automatically while this item was sent to this meeting config."
 msgid "transition_auto_triggered_item_sent_to_this_config"
 msgstr "This transition was triggered automatically while this item was sent to this meeting config."
@@ -6604,6 +6600,14 @@ msgstr "Return to proposing group for corrections with one validation (the last)
 #. Default: "Reviewers may take back validated item"
 msgid "wa_reviewers_take_back_validated_item"
 msgstr "Reviewers may take back validated item"
+
+#. Default: "Set a \"Validated\" item to \"Transfered\""
+msgid "wa_transfered"
+msgstr "Set a \"Validated\" item to \"Transfered\""
+
+#. Default: "Set a \"Validated\" item to \"Transfered\" (the item is duplicated, validated and given advices are kept)"
+msgid "wa_transfered_and_duplicated"
+msgstr "Set a \"Validated\" item to \"Transfered\" (the item is duplicated, validated and given advices are kept)"
 
 #. Default: "Wait advices (base: from custom configuration, from itemcreated/proposed/prevalidated, select who may send back)"
 msgid "wa_waiting_advices"

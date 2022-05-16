@@ -2235,6 +2235,14 @@ msgstr ""
 msgid "wa_accepted_out_of_meeting_emergency_and_duplicated"
 msgstr ""
 
+#. Default: "Set a \"Validated\" item to \"Transfered\""
+msgid "wa_transfered"
+msgstr ""
+
+#. Default: "Set a \"Validated\" item to \"Transfered\" (the item is duplicated, validated and given advices are kept)"
+msgid "wa_transfered_and_duplicated"
+msgstr ""
+
 #. Default: "Removed (and duplicated)"
 msgid "wa_removed_and_duplicated"
 msgstr ""
@@ -3696,10 +3704,6 @@ msgstr ""
 
 #. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
 msgid "icon_help_cloned_not_decided"
-msgstr ""
-
-#. Default: "Transfer"
-msgid "transfer"
 msgstr ""
 
 #. Default: "Values defined in the \"itemEditStates\" field must contains at least every values selected in the \"itemAdvicesStates\" field!  Missing states is (are) : ${missingStates}."

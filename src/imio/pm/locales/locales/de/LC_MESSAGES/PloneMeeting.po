@@ -6268,11 +6268,6 @@ msgstr ""
 msgid "topic_description"
 msgstr "In der Liste werden nur Elemente angezeigt die Sie sehen dürfen."
 
-# Workflow transitions
-#. Default: "Transfer"
-msgid "transfer"
-msgstr "Transfer"
-
 #. Default: "This transition was triggered automatically while this item was sent to this meeting config."
 msgid "transition_auto_triggered_item_sent_to_this_config"
 msgstr ""
@@ -6693,6 +6688,14 @@ msgstr ""
 
 #. Default: "Reviewers may take back validated item"
 msgid "wa_reviewers_take_back_validated_item"
+msgstr ""
+
+#. Default: "Set a \"Validated\" item to \"Transfered\""
+msgid "wa_transfered"
+msgstr ""
+
+#. Default: "Set a \"Validated\" item to \"Transfered\" (the item is duplicated, validated and given advices are kept)"
+msgid "wa_transfered_and_duplicated"
 msgstr ""
 
 #. Default: "Wait advices (base: from custom configuration, from itemcreated/proposed/prevalidated, select who may send back)"

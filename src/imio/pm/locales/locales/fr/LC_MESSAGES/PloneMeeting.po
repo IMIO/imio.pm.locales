@@ -6211,10 +6211,6 @@ msgstr "Retour en haut de la page"
 msgid "topic_description"
 msgstr "Le résultat de la recherche montre seulement les éléments que vous pouvez voir."
 
-#. Default: "Transfer"
-msgid "transfer"
-msgstr "Transférer"
-
 #. Default: "This transition was triggered automatically while this item was sent to this meeting config."
 msgid "transition_auto_triggered_item_sent_to_this_config"
 msgstr "Cette transition a été déclenchée automatiquement lorsque ce point a été envoyé vers ce type de séance."
@@ -6630,6 +6626,14 @@ msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans 
 #. Default: "Reviewers may take back validated item"
 msgid "wa_reviewers_take_back_validated_item"
 msgstr "Les validateurs peuvent reprendre un point validé"
+
+#. Default: "Set a \"Validated\" item to \"Transfered\""
+msgid "wa_transfered"
+msgstr "Mettre un point \"Validé\" dans l'état final \"Transféré\""
+
+#. Default: "Set a \"Validated\" item to \"Transfered\" (the item is duplicated, validated and given advices are kept)"
+msgid "wa_transfered_and_duplicated"
+msgstr "Mettre un point \"Validé\" dans l'état final \"Transféré\" (le point sera dupliqué, le point dupliqué sera validé et gardera les avis)"
 
 #. Default: "Wait advices (base: from custom configuration, from itemcreated/proposed/prevalidated, select who may send back)"
 msgid "wa_waiting_advices"

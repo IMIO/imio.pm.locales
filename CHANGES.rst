@@ -8,6 +8,8 @@ Changelog
 - Fixed typos in french for `first_linked_vote_used_vote_values_descr` and
   `next_linked_votes_used_vote_values_descr`.
   [gbastien]
+- Added translations for `transfered WF adaptation`.
+  [gbastien]
 
 4.2b26 (2022-05-10)
 -------------------
