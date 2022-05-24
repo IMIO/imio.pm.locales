@@ -6194,6 +6194,26 @@ msgstr ""
 msgid "Encode secret votes"
 msgstr ""
 
+#. Default: "Votes have been encoded for current item."
+msgid "Votes have been encoded for current item."
+msgstr ""
+
+#. Default: "Votes have been encoded for items \"${item_numbers}\"."
+msgid "Votes have been encoded for items \"${item_numbers}\"."
+msgstr ""
+
+#. Default: "Votes could not be update for items \"${item_numbers}\", please check pollType, voters, ..."
+msgid "error_updating_votes_for_items"
+msgstr ""
+
+#. Default: "Votes number ${vote_number} have been deleted for current item."
+msgid "Votes number ${vote_number} have been deleted for current item."
+msgstr ""
+
+#. Default: "Not available when using several votes on same item."
+msgid "Not available when using several votes on same item."
+msgstr ""
+
 #. Default: "Label"
 msgid "Label"
 msgstr ""
@@ -6736,4 +6756,12 @@ msgstr ""
 
 #. Default: "The advice was automatically hidden during redaction, do not forget to unhide it when advice will be ready."
 msgid "advice_hide_during_redaction_set_auto_to_true"
+msgstr ""
+
+#. Default: "All"
+msgid "All"
+msgstr ""
+
+#. Default: "Others"
+msgid "Others"
 msgstr ""

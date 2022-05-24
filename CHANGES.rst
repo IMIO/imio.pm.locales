@@ -10,6 +10,8 @@ Changelog
   [gbastien]
 - Added translations for `transfered WF adaptation`.
   [gbastien]
+- Added translations related to `encode votes by group`.
+  [gbastien]
 
 4.2b26 (2022-05-10)
 -------------------

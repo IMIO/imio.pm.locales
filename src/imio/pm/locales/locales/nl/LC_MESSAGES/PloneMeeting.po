@@ -121,6 +121,10 @@ msgstr ""
 msgid "Advisers index"
 msgstr ""
 
+#. Default: "All"
+msgid "All"
+msgstr ""
+
 #. Default: "All cache was invalidated"
 msgid "All cache was invalidated"
 msgstr ""
@@ -748,6 +752,10 @@ msgstr ""
 msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
 msgstr ""
 
+#. Default: "Not available when using several votes on same item."
+msgid "Not available when using several votes on same item."
+msgstr ""
+
 #. Default: "Not completed votes"
 msgid "Not completed votes"
 msgstr ""
@@ -802,6 +810,10 @@ msgstr ""
 
 #. Default: "Original position"
 msgid "Original position"
+msgstr ""
+
+#. Default: "Others"
+msgid "Others"
 msgstr ""
 
 #. Default: "POD template to annex"
@@ -2165,6 +2177,18 @@ msgstr ""
 msgid "Votes are not completed for following ${number} ${polltype} item(s)"
 msgstr ""
 
+#. Default: "Votes have been encoded for current item."
+msgid "Votes have been encoded for current item."
+msgstr ""
+
+#. Default: "Votes have been encoded for items \"${item_numbers}\"."
+msgid "Votes have been encoded for items \"${item_numbers}\"."
+msgstr ""
+
+#. Default: "Votes number ${vote_number} have been deleted for current item."
+msgid "Votes number ${vote_number} have been deleted for current item."
+msgstr ""
+
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr ""
@@ -3475,6 +3499,10 @@ msgstr ""
 
 #. Default: "You can not encode values that are not integer values, please encode only numbers."
 msgid "error_some_values_are_not_integers"
+msgstr ""
+
+#. Default: "Votes could not be update for items \"${item_numbers}\", please check pollType, voters, ..."
+msgid "error_updating_votes_for_items"
 msgstr ""
 
 #. Default: "Some selected values are no more selectable (no more selected in the \"Ordered committees contacts\" field), please check value \"${hp_title}\".  You can not select \"No committee\" and a committee.  If you lost encoded values, just cancel edition and edit again correctly."

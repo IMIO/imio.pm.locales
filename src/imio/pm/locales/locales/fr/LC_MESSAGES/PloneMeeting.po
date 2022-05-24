@@ -120,6 +120,10 @@ msgstr "Type d'avis"
 msgid "Advisers index"
 msgstr "Index avis"
 
+#. Default: "All"
+msgid "All"
+msgstr "Tous"
+
 #. Default: "All cache was invalidated"
 msgid "All cache was invalidated"
 msgstr "Le cache a été réinitialisé"
@@ -747,6 +751,10 @@ msgstr "Aucun"
 msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
 msgstr "Impossible d'ajouter un vote lié car des valeurs incompatibles ont déjà été encodées sur le vote courant"
 
+#. Default: "Not available when using several votes on same item."
+msgid "Not available when using several votes on same item."
+msgstr "Non disponibles lorsque plusieurs votes sont définis sur le point."
+
 #. Default: "Not completed votes"
 msgid "Not completed votes"
 msgstr "Votes non complétés"
@@ -802,6 +810,10 @@ msgstr "Signataire défini sur la séance"
 #. Default: "Original position"
 msgid "Original position"
 msgstr "Fonction sur la séance"
+
+#. Default: "Others"
+msgid "Others"
+msgstr "Autres"
 
 #. Default: "POD template to annex"
 msgid "POD template to annex"
@@ -2157,6 +2169,18 @@ msgstr "Votes à scrutin ${polltype} complétés pour ${number} point(s)"
 msgid "Votes are not completed for following ${number} ${polltype} item(s)"
 msgstr "Votes à scrutin ${polltype} non complétés pour ${number} point(s)"
 
+#. Default: "Votes have been encoded for current item."
+msgid "Votes have been encoded for current item."
+msgstr "Les votes ont été encodés pour ce point."
+
+#. Default: "Votes have been encoded for items \"${item_numbers}\"."
+msgid "Votes have been encoded for items \"${item_numbers}\"."
+msgstr "Les votes ont été encodés pour les points \"${item_numbers}\"."
+
+#. Default: "Votes number ${vote_number} have been deleted for current item."
+msgid "Votes number ${vote_number} have been deleted for current item."
+msgstr "Le vote numéro \"${vote_number}\" a été supprimé pour ce point."
+
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr "Vous êtes sur le point de changer le délai de cet avis pour ${new_advice_delay} jours, vous pouvez entrer un commentaire si nécessaire."
@@ -3484,6 +3508,10 @@ msgstr "Vous ne pouvez utiliser que des valeurs sélectionnées dans le champ \"
 #. Default: "You can not encode values that are not integer values, please encode only numbers."
 msgid "error_some_values_are_not_integers"
 msgstr "Vous ne pouvez encoder que des valeurs entières (utilisez uniquement des chiffres)."
+
+#. Default: "Votes could not be update for items \"${item_numbers}\", please check pollType, voters, ..."
+msgid "error_updating_votes_for_items"
+msgstr "Les votes du (des) point(s) \"${item_numbers}\" n'ont pas pu être encodés. Des votes ne peuvent être encodés sur plusieurs points que si ces points utilisent le même \"Mode de scrutin\", ont les mêmes votants et n'utilisent pas de votes liés."
 
 #. Default: "Some selected values are no more selectable (no more selected in the \"Ordered committees contacts\" field), please check value \"${hp_title}\".  You can not select \"No committee\" and a committee.  If you lost encoded values, just cancel edition and edit again correctly."
 msgid "error_value_removed_used_in_committees_field"
