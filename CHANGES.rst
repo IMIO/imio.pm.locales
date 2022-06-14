@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b27 (unreleased)
+4.2b27 (2022-06-14)
 -------------------
 
 - Fixed typos in french for `first_linked_vote_used_vote_values_descr` and
