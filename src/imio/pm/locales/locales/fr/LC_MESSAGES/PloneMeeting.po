@@ -55,6 +55,10 @@ msgstr "Ajouter un nouveau vote lié"
 msgid "Add new vote"
 msgstr "Ajouter un nouveau vote"
 
+#. Default: "Add organization outside \"My organization\""
+msgid "Add organization outside \"My organization\""
+msgstr "Ajouter une organisation hors de \"Mon organisation\""
+
 #. Default: "Advice advanced management screen"
 msgid "Advice advanced management screen"
 msgstr "Écran de gestion avancé de l'avis"
@@ -1058,6 +1062,10 @@ msgstr "Description détaillée"
 #. Default: "Display available items to"
 msgid "PloneMeeting_label_displayAvailableItemsTo"
 msgstr "Afficher les points disponibles sur une séance aux"
+
+#. Default: "Display voting group"
+msgid "PloneMeeting_label_displayVotingGroup"
+msgstr "Afficher le \"Groupe votant\""
 
 #. Default: "Emergency"
 msgid "PloneMeeting_label_emergency"
@@ -2180,6 +2188,14 @@ msgstr "Les votes ont été encodés pour les points \"${item_numbers}\"."
 #. Default: "Votes number ${vote_number} have been deleted for current item."
 msgid "Votes number ${vote_number} have been deleted for current item."
 msgstr "Le vote numéro \"${vote_number}\" a été supprimé pour ce point."
+
+#. Default: "Voting group"
+msgid "Voting group"
+msgstr "Groupe votant"
+
+#. Default: "Voting group descr"
+msgid "Voting group descr"
+msgstr "Si nécessaire, sélectionnez une organisation qui permettra de grouper les votants (selon la couleur politique par exemple), pour cela il peut être nécessaire d'ajouter une organisation hors de \"Mon organisation\"."
 
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
@@ -3344,6 +3360,10 @@ msgstr "Présents définis sur la séance"
 #. Default: "signatures stored on the linked meeting"
 msgid "display_meeting_signatures_legend"
 msgstr "Signatures définies sur la séance"
+
+#. Default: "Display voting group in assemblies."
+msgid "display_voting_group_descr"
+msgstr "Affichera le \"Groupe votant\" dans l'interface (Assemblée et signatures)."
 
 #. Default: "Documents"
 msgid "doc"
