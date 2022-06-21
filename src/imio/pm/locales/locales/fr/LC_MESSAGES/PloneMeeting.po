@@ -55,6 +55,10 @@ msgstr "Ajouter un nouveau vote lié"
 msgid "Add new vote"
 msgstr "Ajouter un nouveau vote"
 
+#. Default: "Add organization outside \"My organization\""
+msgid "Add organization outside \"My organization\""
+msgstr "Ajouter une organisation hors de \"Mon organisation\""
+
 #. Default: "Advice advanced management screen"
 msgid "Advice advanced management screen"
 msgstr "Écran de gestion avancé de l'avis"
@@ -119,6 +123,10 @@ msgstr "Type d'avis"
 #. Default: "Advisers index"
 msgid "Advisers index"
 msgstr "Index avis"
+
+#. Default: "All"
+msgid "All"
+msgstr "Tous"
 
 #. Default: "All cache was invalidated"
 msgid "All cache was invalidated"
@@ -747,6 +755,10 @@ msgstr "Aucun"
 msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
 msgstr "Impossible d'ajouter un vote lié car des valeurs incompatibles ont déjà été encodées sur le vote courant"
 
+#. Default: "Not available when using several votes on same item."
+msgid "Not available when using several votes on same item."
+msgstr "Non disponibles lorsque plusieurs votes sont définis sur le point."
+
 #. Default: "Not completed votes"
 msgid "Not completed votes"
 msgstr "Votes non complétés"
@@ -802,6 +814,10 @@ msgstr "Signataire défini sur la séance"
 #. Default: "Original position"
 msgid "Original position"
 msgstr "Fonction sur la séance"
+
+#. Default: "Others"
+msgid "Others"
+msgstr "Autres"
 
 #. Default: "POD template to annex"
 msgid "POD template to annex"
@@ -1046,6 +1062,10 @@ msgstr "Description détaillée"
 #. Default: "Display available items to"
 msgid "PloneMeeting_label_displayAvailableItemsTo"
 msgstr "Afficher les points disponibles sur une séance aux"
+
+#. Default: "Display voting group"
+msgid "PloneMeeting_label_displayVotingGroup"
+msgstr "Afficher le \"Groupe votant\""
 
 #. Default: "Emergency"
 msgid "PloneMeeting_label_emergency"
@@ -2156,6 +2176,26 @@ msgstr "Votes à scrutin ${polltype} complétés pour ${number} point(s)"
 #. Default: "Votes are not completed for following ${number} ${polltype} item(s)"
 msgid "Votes are not completed for following ${number} ${polltype} item(s)"
 msgstr "Votes à scrutin ${polltype} non complétés pour ${number} point(s)"
+
+#. Default: "Votes have been encoded for current item."
+msgid "Votes have been encoded for current item."
+msgstr "Les votes ont été encodés pour ce point."
+
+#. Default: "Votes have been encoded for items \"${item_numbers}\"."
+msgid "Votes have been encoded for items \"${item_numbers}\"."
+msgstr "Les votes ont été encodés pour les points \"${item_numbers}\"."
+
+#. Default: "Votes number ${vote_number} have been deleted for current item."
+msgid "Votes number ${vote_number} have been deleted for current item."
+msgstr "Le vote numéro \"${vote_number}\" a été supprimé pour ce point."
+
+#. Default: "Voting group"
+msgid "Voting group"
+msgstr "Groupe votant"
+
+#. Default: "Voting group descr"
+msgid "Voting group descr"
+msgstr "Si nécessaire, sélectionnez une organisation qui permettra de grouper les votants (selon la couleur politique par exemple), pour cela il peut être nécessaire d'ajouter une organisation hors de \"Mon organisation\"."
 
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
@@ -3321,6 +3361,10 @@ msgstr "Présents définis sur la séance"
 msgid "display_meeting_signatures_legend"
 msgstr "Signatures définies sur la séance"
 
+#. Default: "Display voting group in assemblies."
+msgid "display_voting_group_descr"
+msgstr "Affichera le \"Groupe votant\" dans l'interface (Assemblée et signatures)."
+
 #. Default: "Documents"
 msgid "doc"
 msgstr "Documents"
@@ -3484,6 +3528,10 @@ msgstr "Vous ne pouvez utiliser que des valeurs sélectionnées dans le champ \"
 #. Default: "You can not encode values that are not integer values, please encode only numbers."
 msgid "error_some_values_are_not_integers"
 msgstr "Vous ne pouvez encoder que des valeurs entières (utilisez uniquement des chiffres)."
+
+#. Default: "Votes could not be updated for items \"${item_numbers}\"."
+msgid "error_updating_votes_for_items"
+msgstr "Les votes du (des) point(s) \"${item_numbers}\" n'ont pas pu être encodés. Des votes ne peuvent être encodés sur plusieurs points que si ces points utilisent le même \"Mode de scrutin\", ont les mêmes votants et n'utilisent pas de votes liés."
 
 #. Default: "Some selected values are no more selectable (no more selected in the \"Ordered committees contacts\" field), please check value \"${hp_title}\".  You can not select \"No committee\" and a committee.  If you lost encoded values, just cancel edition and edit again correctly."
 msgid "error_value_removed_used_in_committees_field"

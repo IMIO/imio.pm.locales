@@ -55,6 +55,10 @@ msgstr "Add new linked vote"
 msgid "Add new vote"
 msgstr "Add new vote"
 
+#. Default: "Add organization outside \"My organization\""
+msgid "Add organization outside \"My organization\""
+msgstr ""
+
 #. Default: "Advice advanced management screen"
 msgid "Advice advanced management screen"
 msgstr "Advice advanced management screen"
@@ -119,6 +123,10 @@ msgstr "Advice type"
 #. Default: "Advisers index"
 msgid "Advisers index"
 msgstr "Advisers index"
+
+#. Default: "All"
+msgid "All"
+msgstr ""
 
 #. Default: "All cache was invalidated"
 msgid "All cache was invalidated"
@@ -747,6 +755,10 @@ msgstr "None"
 msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
 msgstr "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
 
+#. Default: "Not available when using several votes on same item."
+msgid "Not available when using several votes on same item."
+msgstr ""
+
 #. Default: "Not completed votes"
 msgid "Not completed votes"
 msgstr "Not completed votes"
@@ -802,6 +814,10 @@ msgstr "Original meeting signatory"
 #. Default: "Original position"
 msgid "Original position"
 msgstr "Original position"
+
+#. Default: "Others"
+msgid "Others"
+msgstr ""
 
 #. Default: "POD template to annex"
 msgid "POD template to annex"
@@ -1047,6 +1063,10 @@ msgstr "Detailed description"
 msgid "PloneMeeting_label_displayAvailableItemsTo"
 msgstr "Display available items to"
 
+#. Default: "Display voting group"
+msgid "PloneMeeting_label_displayVotingGroup"
+msgstr ""
+
 #. Default: "Emergency"
 msgid "PloneMeeting_label_emergency"
 msgstr "Emergency"
@@ -1072,9 +1092,8 @@ msgid "PloneMeeting_label_enableLabels"
 msgstr "Enable labels"
 
 #. Default: "Enable documents scanning?"
-#, fuzzy
 msgid "PloneMeeting_label_enableScanDocs"
-msgstr "Enable documents scanning"
+msgstr "Enable documents scanning?"
 
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
@@ -2157,6 +2176,26 @@ msgstr "Votes are completed for following ${number} ${polltype} item(s)"
 #. Default: "Votes are not completed for following ${number} ${polltype} item(s)"
 msgid "Votes are not completed for following ${number} ${polltype} item(s)"
 msgstr "Votes are not completed for following ${number} ${polltype} item(s)"
+
+#. Default: "Votes have been encoded for current item."
+msgid "Votes have been encoded for current item."
+msgstr ""
+
+#. Default: "Votes have been encoded for items \"${item_numbers}\"."
+msgid "Votes have been encoded for items \"${item_numbers}\"."
+msgstr ""
+
+#. Default: "Votes number ${vote_number} have been deleted for current item."
+msgid "Votes number ${vote_number} have been deleted for current item."
+msgstr ""
+
+#. Default: "Voting group"
+msgid "Voting group"
+msgstr ""
+
+#. Default: "Voting group descr"
+msgid "Voting group descr"
+msgstr ""
 
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
@@ -3306,6 +3345,10 @@ msgstr "Attendees stored on the linked meeting"
 msgid "display_meeting_signatures_legend"
 msgstr "signatures stored on the linked meeting"
 
+#. Default: "Display voting group in assemblies."
+msgid "display_voting_group_descr"
+msgstr ""
+
 #. Default: "Documents"
 msgid "doc"
 msgstr "Documents"
@@ -3469,6 +3512,10 @@ msgstr "Next linked votes used vote values must be among used vote values"
 #. Default: "You can not encode values that are not integer values, please encode only numbers."
 msgid "error_some_values_are_not_integers"
 msgstr "You can not encode values that are not integer values, please encode only numbers."
+
+#. Default: "Votes could not be updated for items \"${item_numbers}\"."
+msgid "error_updating_votes_for_items"
+msgstr "Votes could not be updated for items \"${item_numbers}\"."
 
 #. Default: "Some selected values are no more selectable (no more selected in the \"Ordered committees contacts\" field), please check value \"${hp_title}\".  You can not select \"No committee\" and a committee.  If you lost encoded values, just cancel edition and edit again correctly."
 msgid "error_value_removed_used_in_committees_field"
@@ -4321,9 +4368,8 @@ msgid "item_number_not_accessible_redirected_to_closest_item"
 msgstr "You do not have access to the item you tried to access, you have been redirected to the closest accessible item."
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression.  <span style='color: red;'>The purpose of the item reference is to be unique, if so, it will be easy to find an item by searching on it's reference that is indexed.</span>"
-#, fuzzy
 msgid "item_reference_format_descr"
-msgstr "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."
+msgstr "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression.  <span style='color: red;'>The purpose of the item reference is to be unique, if so, it will be easy to find an item by searching on it's reference that is indexed.</span>"
 
 #. Default: "If you don't select anyone in this list, meeting signatory(ies) will be used for this item."
 msgid "item_signatories_descr"
