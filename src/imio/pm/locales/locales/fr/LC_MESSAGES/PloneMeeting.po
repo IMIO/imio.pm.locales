@@ -3509,7 +3509,7 @@ msgstr "Vous ne pouvez utiliser que des valeurs sélectionnées dans le champ \"
 msgid "error_some_values_are_not_integers"
 msgstr "Vous ne pouvez encoder que des valeurs entières (utilisez uniquement des chiffres)."
 
-#. Default: "Votes could not be update for items \"${item_numbers}\", please check pollType, voters, ..."
+#. Default: "Votes could not be updated for items \"${item_numbers}\"."
 msgid "error_updating_votes_for_items"
 msgstr "Les votes du (des) point(s) \"${item_numbers}\" n'ont pas pu être encodés. Des votes ne peuvent être encodés sur plusieurs points que si ces points utilisent le même \"Mode de scrutin\", ont les mêmes votants et n'utilisent pas de votes liés."
 

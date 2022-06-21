@@ -1084,9 +1084,8 @@ msgid "PloneMeeting_label_enableLabels"
 msgstr "Enable labels"
 
 #. Default: "Enable documents scanning?"
-#, fuzzy
 msgid "PloneMeeting_label_enableScanDocs"
-msgstr "Enable documents scanning"
+msgstr "Enable documents scanning?"
 
 #. Default: "Enable user preferences"
 msgid "PloneMeeting_label_enableUserPreferences"
@@ -3494,9 +3493,9 @@ msgstr "Next linked votes used vote values must be among used vote values"
 msgid "error_some_values_are_not_integers"
 msgstr "You can not encode values that are not integer values, please encode only numbers."
 
-#. Default: "Votes could not be update for items \"${item_numbers}\", please check pollType, voters, ..."
+#. Default: "Votes could not be updated for items \"${item_numbers}\"."
 msgid "error_updating_votes_for_items"
-msgstr ""
+msgstr "Votes could not be updated for items \"${item_numbers}\"."
 
 #. Default: "Some selected values are no more selectable (no more selected in the \"Ordered committees contacts\" field), please check value \"${hp_title}\".  You can not select \"No committee\" and a committee.  If you lost encoded values, just cancel edition and edit again correctly."
 msgid "error_value_removed_used_in_committees_field"
@@ -4349,9 +4348,8 @@ msgid "item_number_not_accessible_redirected_to_closest_item"
 msgstr "You do not have access to the item you tried to access, you have been redirected to the closest accessible item."
 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression.  <span style='color: red;'>The purpose of the item reference is to be unique, if so, it will be easy to find an item by searching on it's reference that is indexed.</span>"
-#, fuzzy
 msgid "item_reference_format_descr"
-msgstr "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression."
+msgstr "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression.  <span style='color: red;'>The purpose of the item reference is to be unique, if so, it will be easy to find an item by searching on it's reference that is indexed.</span>"
 
 #. Default: "If you don't select anyone in this list, meeting signatory(ies) will be used for this item."
 msgid "item_signatories_descr"

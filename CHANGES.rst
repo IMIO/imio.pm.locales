@@ -5,8 +5,8 @@ Changelog
 4.2b28 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations related to `encode votes by group`.
+  [gbastien]
 
 4.2b27 (2022-06-14)
 -------------------
@@ -15,8 +15,6 @@ Changelog
   `next_linked_votes_used_vote_values_descr`.
   [gbastien]
 - Added translations for `transfered WF adaptation`.
-  [gbastien]
-- Added translations related to `encode votes by group`.
   [gbastien]
 
 4.2b26 (2022-05-10)
