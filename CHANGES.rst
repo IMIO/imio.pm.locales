@@ -7,6 +7,8 @@ Changelog
 
 - Added translations related to `encode votes by group`.
   [gbastien]
+- Completed item assembly text related descriptions.
+  [gbastien]
 
 4.2b27 (2022-06-14)
 -------------------
