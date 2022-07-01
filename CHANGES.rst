@@ -9,6 +9,9 @@ Changelog
   [gbastien]
 - Completed item assembly text related descriptions.
   [gbastien]
+- Removed translations for `start_date_before_meeting_date` and
+  `end_date_before_meeting_date`.
+  [gbastien]
 
 4.2b27 (2022-06-14)
 -------------------

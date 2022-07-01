@@ -3476,10 +3476,6 @@ msgstr "Si marca esta casilla, los usuarios podrán acceder a una pantalla para 
 msgid "enabled_annexes_batch_actions_descr"
 msgstr ""
 
-#. Default: "The meeting end date must occur after the start date and meeting date."
-msgid "end_date_before_meeting_date"
-msgstr ""
-
 #. Default: "When advice mandatoriness is enforced, an item can't be inserted into a meeting unless all mandatory advices are given and positive."
 msgid "enforce_advice_mandatoriness_descr"
 msgstr "Cuando el consejo obligatorio es forzado, un tema no puede ser insertado dentro de una reunión a menos que todos los consejos obligatorios son dados y son positivos."
@@ -5917,10 +5913,6 @@ msgstr "Verifique esta casilla si usted quiere ordenar las etiquetas en orden al
 
 #. Default: "The meeting start date must occur before the end date."
 msgid "start_date_after_end_date"
-msgstr ""
-
-#. Default: "The meeting start date must occur after the meeting date."
-msgid "start_date_before_meeting_date"
 msgstr ""
 
 #. Default: "Store as annex of type ${annex_type_title}"

@@ -3457,10 +3457,6 @@ msgstr "Si vous cochez cette case, les utilisateurs pourront accéder à un écr
 msgid "enabled_annexes_batch_actions_descr"
 msgstr "Sélectionnez les actions par lot qui apparaîtront dans l'onglet \"Annexes\" et qui pourront être appliquées sur les annexes sélectionnées."
 
-#. Default: "The meeting end date must occur after the start date and meeting date."
-msgid "end_date_before_meeting_date"
-msgstr "La date de fin ne peut pas être avant la date de début ou la date de la séance."
-
 #. Default: "When advice mandatoriness is enforced, an item can't be inserted into a meeting unless all mandatory advices are given and positive."
 msgid "enforce_advice_mandatoriness_descr"
 msgstr "Quand le caractère obligatoire des avis est d'application, un point ne peut être inséré dans une séance à moins que tous les avis obligatoires n'aient été rendus et soient positifs."
@@ -5830,10 +5826,6 @@ msgstr "Cochez cette case si vous voulez que les marqueurs soient triés par ord
 #. Default: "The meeting start date must occur before the end date."
 msgid "start_date_after_end_date"
 msgstr "La date de début doit être avant la date de fin."
-
-#. Default: "The meeting start date must occur after the meeting date."
-msgid "start_date_before_meeting_date"
-msgstr "La date de début de la séance ne peut pas être avant la date de séance."
 
 #. Default: "Store as annex of type ${annex_type_title}"
 msgid "store_as_annex_type_title"
