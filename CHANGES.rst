@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b28 (unreleased)
+4.2b28 (2022-07-01)
 -------------------
 
 - Added translations related to `encode votes by group`.
