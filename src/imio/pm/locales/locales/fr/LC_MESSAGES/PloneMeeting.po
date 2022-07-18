@@ -192,6 +192,14 @@ msgstr "Le membre a été enlevé des signataires pour ce point."
 msgid "Attendee position has been redefined."
 msgstr "La fonction du membre a été redéfinie pour ce point."
 
+#. Default: "Attendee position was changed."
+msgid "Attendee position was changed."
+msgstr "La position du membre d'assemblée a été changée pour ce point."
+
+#. Default: "Attendees order was reinitialized to meeting order for this item."
+msgid "Attendees order was reinitialized to meeting order for this item."
+msgstr "Les positions des membres ont été réinitialisées, l'ordre des membres d'assemblée est identique à l'ordre défini sur la séance."
+
 #. Default: "Back to the MeetingConfig"
 msgid "Back to the MeetingConfig"
 msgstr "Retourner sur la Configuration de séance"
@@ -1893,6 +1901,10 @@ msgstr "Fonction pour le point"
 msgid "References of contained items have been updated."
 msgstr "La référence des points a été mise à jour."
 
+#. Default: "Reinitialize attendees order from meeting"
+msgid "Reinitialize attendees order from meeting"
+msgstr "Réinitialiser l'ordre des membres d'assemblée de ce point à ce qui est défini sur la séance."
+
 #. Default: "Reinitiatlize delay"
 msgid "Reinitiatlize delay"
 msgstr "Réinitialiser le délai pour cet avis"
@@ -2654,6 +2666,10 @@ msgstr " "
 msgid "at_the_end"
 msgstr "À la fin de la séance"
 
+#. Default: "The order of this attendee was changed for this item and is different from his order on the meeting"
+msgid "attendee_order_changed_title"
+msgstr "L'ordre de ce membre d'assemblée est différent par rapport à l'ordre défini sur la séance."
+
 #. Default: "Attendees as defined on the linked meeting"
 msgid "attendees_defined_on_meeting"
 msgstr "Présents définis sur la séance"
@@ -2757,6 +2773,10 @@ msgstr "Vous ne pouvez pas supprimer/désactiver une fonction qui est utilisée 
 #. Default: "Assembly and signatures : you can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"
 msgstr "Assemblée et signatures : vous ne pouvez pas désélectionner un membre d'assemblée qui a été redéfini ou utilisé sur un point de la séance (absents, excusés, votes, ...).  Vérifiez \"${attendee_title}\"."
+
+#. Default: "You can not remove or add an attendee on the meeting if attendees order was redefined for some items, please check item at \"${item_url}\"."
+msgid "can_not_remove_or_add_attendee_item_attendees_reordered"
+msgstr "Assemblée et signatures : vous ne pouvez pas ajouter ou supprimer des membres si l'ordre des membres a été redéfini sur certains points, vérifiez par exemple le point \"${item_url}."
 
 #. Default: "Assembly and signatures : you can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
 msgid "can_not_remove_public_voter_voted_on_items"

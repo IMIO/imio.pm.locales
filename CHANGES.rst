@@ -5,8 +5,8 @@ Changelog
 4.2b29 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations related to `attendees order by item`.
+  [gbastien]
 
 4.2b28 (2022-07-01)
 -------------------

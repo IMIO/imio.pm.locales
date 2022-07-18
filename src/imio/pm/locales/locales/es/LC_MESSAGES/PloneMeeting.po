@@ -196,6 +196,14 @@ msgstr ""
 msgid "Attendee position has been redefined."
 msgstr ""
 
+#. Default: "Attendee position was changed."
+msgid "Attendee position was changed."
+msgstr ""
+
+#. Default: "Attendees order was reinitialized to meeting order for this item."
+msgid "Attendees order was reinitialized to meeting order for this item."
+msgstr ""
+
 #. Default: "Back to the MeetingConfig"
 msgid "Back to the MeetingConfig"
 msgstr ""
@@ -1911,6 +1919,10 @@ msgstr ""
 msgid "References of contained items have been updated."
 msgstr ""
 
+#. Default: "Reinitialize attendees order from meeting"
+msgid "Reinitialize attendees order from meeting"
+msgstr ""
+
 #. Default: "Reinitiatlize delay"
 msgid "Reinitiatlize delay"
 msgstr ""
@@ -2666,6 +2678,10 @@ msgstr "Presione la combinación de teclas 'CTRL + clic' para seleccionar varios
 msgid "at_the_end"
 msgstr "Al final"
 
+#. Default: "The order of this attendee was changed for this item and is different from his order on the meeting"
+msgid "attendee_order_changed_title"
+msgstr ""
+
 #. Default: "Attendees as defined on the linked meeting"
 msgid "attendees_defined_on_meeting"
 msgstr ""
@@ -2769,6 +2785,10 @@ msgstr ""
 
 #. Default: "Assembly and signatures : you can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"
+msgstr ""
+
+#. Default: "You can not remove or add an attendee on the meeting if attendees order was redefined for some items, please check item at \"${item_url}\"."
+msgid "can_not_remove_or_add_attendee_item_attendees_reordered"
 msgstr ""
 
 #. Default: "Assembly and signatures : you can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
