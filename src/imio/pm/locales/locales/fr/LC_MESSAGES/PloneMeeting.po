@@ -789,7 +789,7 @@ msgstr "Rien à afficher tant que le point n'est pas présenté dans une séance
 
 #. Default: "Nothing to display."
 msgid "Nothing to display."
-msgstr "Rien à afficher."
+msgstr "Rien à afficher ou vous n'avez pas accès aux éléments."
 
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
@@ -2047,6 +2047,10 @@ msgstr "Le point que vous avez essayé de prendre en charge a été pris en char
 #. Default: "The item, advice or meeting previous review state"
 msgid "The item, advice or meeting previous review state"
 msgstr "L'état du WF précdent pour le point, l'avis ou la séance"
+
+#. Default: "The order of attendees was changed for the ${number} following item(s)"
+msgid "The order of attendees was changed for the ${number} following item(s)"
+msgstr "Ordre des membres d'assemblée redéfini pour ${number} point(s)"
 
 #. Default: "The position of this attendee was changed for the ${number} following item(s)"
 msgid "The position of this attendee was changed for the ${number} following item(s)"
