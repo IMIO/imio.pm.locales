@@ -1736,10 +1736,6 @@ msgstr "Recherches à afficher dans le portlet \"À faire\""
 msgid "PloneMeeting_label_toPrint"
 msgstr "À imprimer?"
 
-#. Default: "Transitions for presenting an item"
-msgid "PloneMeeting_label_transitionsForPresentingAnItem"
-msgstr "Succession de transitions à effectuer pour présenter un point"
-
 #. Default: "Transitions that will reinitialize advice delays"
 msgid "PloneMeeting_label_transitionsReinitializingDelays"
 msgstr "Transitions qui remettent à zéro les délais des avis"
@@ -3709,10 +3705,6 @@ msgstr "Veuillez sélectionner un fichier en cliquant sur le bouton \"Parcourir\
 msgid "first_linked_vote_used_vote_values_descr"
 msgstr "Lorsque vous liez des votes entre eux, sélectionnez les valeurs de votes qui pourront être utilisées sur le premier vote lié."
 
-#. Default: "Please respect order of transitions sequence to present an item, the first given transition is not a transition leaving the item workflow initial state."
-msgid "first_transition_must_leave_wf_initial_state"
-msgstr "Respectez bien l'ordre des transitions menant à l'état 'présenté', la première transition renseignée n'est pas une transition qui part de l'état initial du workflow du point."
-
 #. Default: "In the application folder of every member, a sub-folder is created for each meeting configuration. The name of this sub-folder is defined here."
 msgid "folder_title_descr"
 msgstr "Dans le répertoire de chaque utilisateur, un sous-répertoire par configuration de séance est créé. Le nom de ce sous-répertoire se définit ici."
@@ -3744,10 +3736,6 @@ msgstr "Adresse e-mail a utiliser lors de l'envoi des notifications.  Si ce cham
 #. Default: "Type here the full name of the functional administrator. If defined, it will be included in the \"from\" part of email notifications sent by the application."
 msgid "functional_admin_name_descr"
 msgstr "Ecrivez ici le nom complet de l'administrateur fonctionnel. Si défini, il sera utilisé dans le champ \"de\" des courriels de notification envoyés."
-
-#. Default: "Please respect order of transitions sequence to present an item, the given sequence of transitions is wrong."
-msgid "given_wf_path_does_not_lead_to_present"
-msgstr "Respectez bien l'ordre des transitions menant à l'état 'présenté', la succession de transitions renseignée n'est pas valide."
 
 #. Default: "Back to the first elements"
 msgid "goto_first"
@@ -4566,10 +4554,6 @@ msgstr "Recherche"
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
 msgstr "Au sein de chaque configuration, les séances sont numérotées en séquence."
-
-#. Default: "Please respect order of transitions sequence to present an item, the given sequence is not resulting in the \"presented\" state."
-msgid "last_transition_must_result_in_presented_state"
-msgstr "Respectez bien l'ordre des transitions menant à l'état \"présenté\", la succession de transitions renseignée ne mène pas à l'état \"présenté\"."
 
 #. Default: "Late item"
 msgid "late"
@@ -6298,10 +6282,6 @@ msgstr "Transition du WF \"${state_info}\" (prévient le sous-groupe ayant la ma
 #. Default: "The transition you selected does not correspond to the meeting configuration!  Please select a transition using corresponding meeting configuration"
 msgid "transition_not_from_selected_meeting_config"
 msgstr "La transition sélectionnée ne correspond pas au type de séance sélectionné!"
-
-#. Default: "Set here the sequence of transitions in the right order to be triggered on an item for it to be presented to a meeting.  The first transition is the one that starts from the initial state and the last transition should be \"present\".  This is used in several functionnalities like recurring items or items sent to another meeting config that need to be presented automatically."
-msgid "transitions_for_presenting_an_item_descr"
-msgstr "Renseignez la succession de transitions à déclencher dans l'ordre sur un point pour qu'il soit présenté dans une séance.  La première transition est celle qui part de l'état initial du point et la dernière renseignée devrait être \"présenter\".  Cette configuration est nécessaire pour différentes fonctionnalités comme les points récurrents ou les points automatiquement insérés dans une séance lorsqu'ils sont envoyés vers un autre type de séance."
 
 #. Default: "Select the transitions triggered on an item that will reinitialize (set back to null) delays started on delay-aware advices.  This will only be the case for not given advices."
 msgid "transitions_reinitializing_delays_descr"

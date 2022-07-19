@@ -7,6 +7,9 @@ Changelog
 
 - Added translations related to `attendees order by item`.
   [gbastien]
+- Removed translations related to field
+  `MeetingConfig.transitionsForPresentingAnItem` that was removed.
+  [gbastien]
 
 4.2b28 (2022-07-01)
 -------------------
