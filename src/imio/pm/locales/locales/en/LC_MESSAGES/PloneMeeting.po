@@ -2046,7 +2046,7 @@ msgstr "The item, advice or meeting previous review state"
 
 #. Default: "The order of attendees was changed for the ${number} following item(s)"
 msgid "The order of attendees was changed for the ${number} following item(s)"
-msgstr ""
+msgstr "The order of attendees was changed for the ${number} following item(s)"
 
 #. Default: "The position of this attendee was changed for the ${number} following item(s)"
 msgid "The position of this attendee was changed for the ${number} following item(s)"
@@ -3685,6 +3685,10 @@ msgstr "Parameters"
 msgid "file_required"
 msgstr "Please choose a file by clicking on the \"Browse\" button."
 
+#. Default: "First item number was initialized to \"${first_item_number}\"."
+msgid "first_item_number_init"
+msgstr "First item number was initialized to \"${first_item_number}\"."
+
 #. Default: "While using linked vote values, select here values that will be selectable for the first linked vote value"
 msgid "first_linked_vote_used_vote_values_descr"
 msgstr "While using linked vote values, select here values that will be selectable for the first linked vote value"
@@ -4729,6 +4733,14 @@ msgstr "Parameters of configuration influencing orders of insertion of item in t
 msgid "meeting_item_templates_to_store_as_annex_descr"
 msgstr "This enable an action on the meeting to be able to store as annex a selected POD template if field \"Store this POD template as annex\" is defined on a POD template."
 
+#. Default: "Warning, the meeting number is inconsistent with previous meeting number that is \"${previous_meeting_number}\", please check meetings numbers consitency manually and adapt field \"Last meeting number\" in the configuration if necessary!."
+msgid "meeting_number_inconsistent"
+msgstr "Warning, the meeting number is inconsistent with previous meeting number that is \"${previous_meeting_number}\", please check meetings numbers consitency manually and adapt field \"Last meeting number\" in the configuration if necessary!."
+
+#. Default: "Meeting number was initialized to \"${meeting_number}\"."
+msgid "meeting_number_init"
+msgstr "Meeting number was initialized to \"${meeting_number}\"."
+
 # MeetingItem
 #. Default: "Meeting of"
 msgid "meeting_of"
@@ -4741,6 +4753,10 @@ msgstr "Organizations"
 #. Default: "When an item is inserted in a meeting from everywhere (so not when on a meeting view), this will take the very next meeting still accepting items.  Define here states to take into account to get this very next meeting."
 msgid "meeting_present_item_when_no_current_meeting_states_descr"
 msgstr "When an item is inserted in a meeting from everywhere (so not when on a meeting view), this will take the very next meeting still accepting items.  Define here states to take into account to get this very next meeting."
+
+#. Default: "Warning, you deleted a meeting but fields \"First item number\" and \"Meeting number\" were already initialized, please check that other meeting are consistent!"
+msgid "meeting_removed_verify_numbers"
+msgstr "Warning, you deleted a meeting but fields \"First item number\" and \"Meeting number\" were already initialized, please check that other meeting are consistent!"
 
 #. Default: "You can consult this meeting at ${objectUrl}."
 msgid "meeting_state_changed_default_mail_body"

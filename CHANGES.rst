@@ -10,6 +10,8 @@ Changelog
 - Removed translations related to field
   `MeetingConfig.transitionsForPresentingAnItem` that was removed.
   [gbastien]
+- Added translations related to meeting numbers info and warning messages.
+  [gbastien]
 
 4.2b28 (2022-07-01)
 -------------------

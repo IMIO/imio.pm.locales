@@ -2928,7 +2928,7 @@ msgstr "Champ \"Types de contenu autorisés\" non renseigné"
 
 #. Default: "The \"pod_portal_types\" attribute is not defined for these templates, it is necessary to find an object to test the template."
 msgid "check_pod_template_no_pod_portal_types_descr"
-msgstr "Le champs \"Types de contenu autorisés\" doit être renseigné afin de pouvoir trouver un objet pour tester le modèle."
+msgstr "Le champ \"Types de contenu autorisés\" doit être renseigné afin de pouvoir trouver un objet pour tester le modèle."
 
 #. Default: "Not enabled"
 msgid "check_pod_template_not_enabled"
@@ -3700,6 +3700,10 @@ msgstr "Paramètres avancés"
 #. Default: "Please choose a file by clicking on the \"Browse\" button."
 msgid "file_required"
 msgstr "Veuillez sélectionner un fichier en cliquant sur le bouton \"Parcourir\"."
+
+#. Default: "First item number was initialized to \"${first_item_number}\"."
+msgid "first_item_number_init"
+msgstr "Le champ \"Numéro du premier point de cette séance\" a été initialisé à \"${first_item_number}\"."
 
 #. Default: "While using linked vote values, select here values that will be selectable for the first linked vote value"
 msgid "first_linked_vote_used_vote_values_descr"
@@ -4754,6 +4758,14 @@ msgstr "Paramètre(s) définis dans la configuration qui influent sur l'ordre d'
 msgid "meeting_item_templates_to_store_as_annex_descr"
 msgstr "Ceci activera une action sur les séances permettant de stocker en tant qu'annexe les modèles de document POD sélectionnés.  Ce champ n'est utile que si vous avez utilisez le champ \"Stocker le modèle de document POD généré en tant qu'annexe\" sur un modèle de document POD."
 
+#. Default: "Warning, the meeting number is inconsistent with previous meeting number that is \"${previous_meeting_number}\", please check meetings numbers consitency manually and adapt field \"Last meeting number\" in the configuration if necessary!."
+msgid "meeting_number_inconsistent"
+msgstr "Attention, le champ \"Numéro de séance\" qui vient d'être initialisé pour cette séance est incohérent avec le \"Numéro de la séance\" de la séance précédente (séance du \"${previous_meeting_date}\" dont le \"Numéro de séance\" est \"${previous_meeting_number}\"), veuillez corriger les numéros de séances manuellement et adapter le champ \"Numéro de la dernière séance de cette configuration\" si nécessaire!"
+
+#. Default: "Meeting number was initialized to \"${meeting_number}\"."
+msgid "meeting_number_init"
+msgstr "Le champ \"Numéro de séance\" a été initialisé à \"${meeting_number}\"."
+
 #. Default: "Meeting of"
 msgid "meeting_of"
 msgstr "Séance du"
@@ -4765,6 +4777,10 @@ msgstr "Organisations"
 #. Default: "When an item is inserted in a meeting from everywhere (so not when on a meeting view), this will take the very next meeting still accepting items.  Define here states to take into account to get this very next meeting."
 msgid "meeting_present_item_when_no_current_meeting_states_descr"
 msgstr "Lorsqu'un gestionnaire de séance souhaite présenter un point dans une séance sans être sur la vue de la séance, donc par exemple lorsqu'il est sur la vue d'un point, via l'action 'Présenter', ou lorsqu'il est dans les tableaux de bords, le point sera présenté automatiquement dans la prochaine séance (dont la date est dans le futur) dans laquelle des points peuvent toujours être présentés et dont l'état est un des états sélectionnés ici."
+
+#. Default: "Warning, you deleted a meeting but fields \"First item number\" and \"Meeting number\" were already initialized, please check that other meeting are consistent!"
+msgid "meeting_removed_verify_numbers"
+msgstr "Attention, les champs \"Numéro de séance\" et \"Numéro du premier point de cette séance\" étaient déjà intialisés sur la séance que vous venez de supprimer, veuillez vérifier ces informations sur les autres séances existantes (partculièrement les séances suivantes chronologiquement)!"
 
 #. Default: "You can consult this meeting at ${objectUrl}."
 msgid "meeting_state_changed_default_mail_body"
@@ -6069,7 +6085,7 @@ msgstr "Séance extraordinaire?"
 
 #. Default: "First item number (managed automatically when meeting is frozen)"
 msgid "title_first_item_number"
-msgstr "Numéro du premier point de cette séance (géré automatiquement par l'application lors du gel de la séance)"
+msgstr "Numéro du premier point de cette séance (géré automatiquement par l'application lors du passage \"En Rédaction du PV\" de la séance)"
 
 #. Default: "Deadline for validating late items"
 msgid "title_freeze_deadline"

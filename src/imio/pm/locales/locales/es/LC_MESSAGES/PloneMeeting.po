@@ -3735,6 +3735,10 @@ msgstr ""
 msgid "file_required"
 msgstr "Por favor elija un archivo haciendo clic en el botón 'Navegar'."
 
+#. Default: "First item number was initialized to \"${first_item_number}\"."
+msgid "first_item_number_init"
+msgstr ""
+
 #. Default: "While using linked vote values, select here values that will be selectable for the first linked vote value"
 msgid "first_linked_vote_used_vote_values_descr"
 msgstr ""
@@ -4814,6 +4818,14 @@ msgstr ""
 msgid "meeting_item_templates_to_store_as_annex_descr"
 msgstr ""
 
+#. Default: "Warning, the meeting number is inconsistent with previous meeting number that is \"${previous_meeting_number}\", please check meetings numbers consitency manually and adapt field \"Last meeting number\" in the configuration if necessary!."
+msgid "meeting_number_inconsistent"
+msgstr ""
+
+#. Default: "Meeting number was initialized to \"${meeting_number}\"."
+msgid "meeting_number_init"
+msgstr ""
+
 # MeetingItem
 #. Default: "Meeting of"
 msgid "meeting_of"
@@ -4825,6 +4837,10 @@ msgstr ""
 
 #. Default: "When an item is inserted in a meeting from everywhere (so not when on a meeting view), this will take the very next meeting still accepting items.  Define here states to take into account to get this very next meeting."
 msgid "meeting_present_item_when_no_current_meeting_states_descr"
+msgstr ""
+
+#. Default: "Warning, you deleted a meeting but fields \"First item number\" and \"Meeting number\" were already initialized, please check that other meeting are consistent!"
+msgid "meeting_removed_verify_numbers"
 msgstr ""
 
 #. Default: "You can consult this meeting at ${objectUrl}."

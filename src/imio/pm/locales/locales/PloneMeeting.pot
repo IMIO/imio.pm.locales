@@ -6777,3 +6777,19 @@ msgstr ""
 #. Default: "You can not remove or add an attendee on the meeting if attendees order was redefined for some items, please check item at \"${item_url}\"."
 msgid "can_not_remove_or_add_attendee_item_attendees_reordered"
 msgstr ""
+
+#. Default: "Meeting number was initialized to \"${meeting_number}\"."
+msgid "meeting_number_init"
+msgstr ""
+
+#. Default: "Warning, the meeting number is inconsistent with previous meeting number that is \"${previous_meeting_number}\", please check meetings numbers consitency manually and adapt field \"Last meeting number\" in the configuration if necessary!."
+msgid "meeting_number_inconsistent"
+msgstr ""
+
+#. Default: "First item number was initialized to \"${first_item_number}\"."
+msgid "first_item_number_init"
+msgstr ""
+
+#. Default: "Warning, you deleted a meeting but fields \"First item number\" and \"Meeting number\" were already initialized, please check that other meeting are consistent!"
+msgid "meeting_removed_verify_numbers"
+msgstr ""
