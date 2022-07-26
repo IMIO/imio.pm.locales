@@ -1854,9 +1854,9 @@ msgstr "Campos de texto enriquecido necesario para una transformación"
 msgid "PloneMeeting_label_xhtmlTransformTypes"
 msgstr "Tipos de transformaciones de texto enriquecido"
 
-#. Default: "Reinitialise meeting number every year?"
-msgid "PloneMeeting_label_yearlyInitMeetingNumber"
-msgstr "¿Reinicializar número de reunión cada año?"
+#. Default: "Reinitialise following meeting fields every year?"
+msgid "PloneMeeting_label_yearlyInitMeetingNumbers"
+msgstr ""
 
 #. Default: "Notes"
 msgid "PloneMeeting_notes"
@@ -6892,6 +6892,6 @@ msgstr "Cada campo que seleccione en esta lista, aparecerá cada vez que es su o
 msgid "xhtml_transform_types_descr"
 msgstr "Seleccione aquí los tipos de transformación para aplicarla en los campos de texto enriquecido seleccionado anteriormente."
 
-#. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-msgid "yearly_init_meeting_nb_descr"
-msgstr "Si usted marca esta casilla, el número de la reunión  auto incrementado será definido a cero cada año. Eso significa que la primera reunión de cada año obtendrá un número."
+#. Default: "Checked values will be automatically set to 1 every year for the first meeting of the year."
+msgid "yearly_init_meeting_numbers_descr"
+msgstr ""

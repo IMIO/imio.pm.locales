@@ -1836,9 +1836,9 @@ msgstr "Champs de texte riche qui doivent être transformés"
 msgid "PloneMeeting_label_xhtmlTransformTypes"
 msgstr "Types de transformations pour les champs de texte riche"
 
-#. Default: "Reinitialise meeting number every year?"
-msgid "PloneMeeting_label_yearlyInitMeetingNumber"
-msgstr "Réinitialiser le numéro de séance chaque année?"
+#. Default: "Reinitialise following meeting fields every year?"
+msgid "PloneMeeting_label_yearlyInitMeetingNumbers"
+msgstr "Réinitialiser chaque année les champs de séance"
 
 #. Default: "Notes"
 msgid "PloneMeeting_notes"
@@ -6791,6 +6791,6 @@ msgstr "Chaque champ que vous sélectionnez dans cette liste subira, lors de cha
 msgid "xhtml_transform_types_descr"
 msgstr "Sélectionnez ici le(s) type(s) de transformation(s) à appliquer aux champs de texte riche sélectionnés ci-dessus."
 
-#. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-msgid "yearly_init_meeting_nb_descr"
-msgstr "Si vous cochez cette case, le numéro de séance s'incrémentant automatiquement sera réinitialisé à zéro chaque année. Cela signifie que la première séance de chaque année recevra le numéro un."
+#. Default: "Checked values will be automatically set to 1 every year for the first meeting of the year."
+msgid "yearly_init_meeting_numbers_descr"
+msgstr "Les champs sélectionnés seront automatiquement réinitialisés à \"1\" tous les ans pour la première séance de l'année."

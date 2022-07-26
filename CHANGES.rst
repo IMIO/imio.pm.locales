@@ -12,6 +12,9 @@ Changelog
   [gbastien]
 - Added translations related to meeting numbers info and warning messages.
   [gbastien]
+- Adapted translations as field `MeetingConfig.yearlyInitMeetingNumber`
+  was renamed to `MeetingConfig.yearlyInitMeetingNumbers`.
+  [gbastien]
 
 4.2b28 (2022-07-01)
 -------------------

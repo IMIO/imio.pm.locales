@@ -1848,8 +1848,8 @@ msgstr "Richtext Format Felder die verändert werden müssen "
 msgid "PloneMeeting_label_xhtmlTransformTypes"
 msgstr "Arten der Veränderungen für Richtext Felder"
 
-#. Default: "Reinitialise meeting number every year?"
-msgid "PloneMeeting_label_yearlyInitMeetingNumber"
+#. Default: "Reinitialise following meeting fields every year?"
+msgid "PloneMeeting_label_yearlyInitMeetingNumbers"
 msgstr ""
 
 #. Default: "Notes"
@@ -6855,6 +6855,6 @@ msgstr "Jedes Feld, dass Sie in dieser Liste auswählen, wird bei jeder Erstellu
 msgid "xhtml_transform_types_descr"
 msgstr "Wählen Sie hier die Arten der Änderungen die, im hierdrüber ausgewählten Richtext Feld, angewendet werden sollen."
 
-#. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-msgid "yearly_init_meeting_nb_descr"
+#. Default: "Checked values will be automatically set to 1 every year for the first meeting of the year."
+msgid "yearly_init_meeting_numbers_descr"
 msgstr ""

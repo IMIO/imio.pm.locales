@@ -1623,16 +1623,16 @@ msgstr ""
 msgid "PloneMeeting_label_lastMeetingNumber"
 msgstr ""
 
-#. Default: "Reinitialise meeting number every year?"
-msgid "PloneMeeting_label_yearlyInitMeetingNumber"
+#. Default: "Reinitialise following meeting fields every year?"
+msgid "PloneMeeting_label_yearlyInitMeetingNumbers"
 msgstr ""
 
 #. Default: "Redirect to the next meeting"
 msgid "PloneMeeting_label_redirectToNextMeeting"
 msgstr ""
 
-#. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-msgid "yearly_init_meeting_nb_descr"
+#. Default: "Checked values will be automatically set to 1 every year for the first meeting of the year."
+msgid "yearly_init_meeting_numbers_descr"
 msgstr ""
 
 #. Default: "By default, once connected, user is redirected to a dashboard displaying items.  Select here profiles that will be redirected to the next meeting if it exists."

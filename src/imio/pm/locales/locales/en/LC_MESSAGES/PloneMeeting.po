@@ -1836,9 +1836,9 @@ msgstr "Rich text fields needing a transform"
 msgid "PloneMeeting_label_xhtmlTransformTypes"
 msgstr "Rich text transform types"
 
-#. Default: "Reinitialise meeting number every year?"
-msgid "PloneMeeting_label_yearlyInitMeetingNumber"
-msgstr "Reinitialise meeting number every year?"
+#. Default: "Reinitialise following meeting fields every year?"
+msgid "PloneMeeting_label_yearlyInitMeetingNumbers"
+msgstr ""
 
 #. Default: "Notes"
 msgid "PloneMeeting_notes"
@@ -6763,6 +6763,6 @@ msgstr "Every field that you select in this list will, every time its object wil
 msgid "xhtml_transform_types_descr"
 msgstr "Select here the transform types to apply on the rich text fields selected above."
 
-#. Default: "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
-msgid "yearly_init_meeting_nb_descr"
-msgstr "If you check this box, the automatically incremented meeting number will be set to zero every year. It means that the first meeting of every year will get number one."
+#. Default: "Checked values will be automatically set to 1 every year for the first meeting of the year."
+msgid "yearly_init_meeting_numbers_descr"
+msgstr ""
