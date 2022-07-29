@@ -387,6 +387,10 @@ msgstr "Utilisé à la création d'une nouvelle séance si la paramère \"Signat
 msgid "committees_default_signatures_col_description"
 msgstr "Utilisé à la création d'une nouvelle séance si la paramère \"Signatures (committees_signatures)\" est activé sur les séances. N'impacte pas les séances déjà créées."
 
+#. Default: "When selecting \"Item only\" the value will only be selectable on items but not on meetings."
+msgid "committees_enabled_col_description"
+msgstr "La valeur \"Sur les points\" rend la commission sélectionnable uniquement sur les points mais pas sur les séances."
+
 #. Default: "Will generate new values on item \"Committees\" field when necessary to manage supplements (items added to meeting after committees convocation were sent).  This will only be useable by MeetingManagers."
 msgid "committees_supplements_col_description"
 msgstr "Permet de gérer les suppléments pour les commissions. Ces valeurs peuvent être sélectionnées sur le point uniquement par les gestionnaires de séances."

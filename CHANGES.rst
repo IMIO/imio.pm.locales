@@ -15,6 +15,8 @@ Changelog
 - Adapted translations as field `MeetingConfig.yearlyInitMeetingNumber`
   was renamed to `MeetingConfig.yearlyInitMeetingNumbers`.
   [gbastien]
+- Added translations related to `item_only` committee.
+  [gbastien]
 
 4.2b28 (2022-07-01)
 -------------------
