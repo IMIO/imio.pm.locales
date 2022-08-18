@@ -17,6 +17,9 @@ Changelog
   [gbastien]
 - Added translations related to `item_only` committee.
   [gbastien]
+- Adapted `has_required_waiting_advices` to explain to check that
+  given advices reached their workflow last step.
+  [gbastien]
 
 4.2b28 (2022-07-01)
 -------------------
