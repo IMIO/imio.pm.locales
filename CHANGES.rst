@@ -23,6 +23,7 @@ Changelog
 - Adapted translations for `store_as_annex_type_title` and
   `available_mailing_lists_title` to specify generated format now that
   POD templates are grouped by title in the generationlinks viewlet.
+  Added translation for `Please choose a format to generate here next`.
   [gbastien]
 
 4.2b28 (2022-07-01)

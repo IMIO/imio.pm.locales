@@ -839,6 +839,10 @@ msgstr "Please check item number ${item_number} at ${item_url}."
 msgid "Please check that opening \"[[\" have corresponding closing \"]]\"."
 msgstr "Please check that opening \"[[\" have corresponding closing \"]]\"."
 
+#. Default: "Please choose a format to generate here next"
+msgid "Please choose a format to generate here next"
+msgstr "Please choose a format to generate here next"
+
 #. Default: "Please provide a valid number."
 msgid "Please provide a valid number."
 msgstr "Please provide a valid number."
@@ -1838,7 +1842,7 @@ msgstr "Rich text transform types"
 
 #. Default: "Reinitialise following meeting fields every year?"
 msgid "PloneMeeting_label_yearlyInitMeetingNumbers"
-msgstr ""
+msgstr "Reinitialise following meeting fields every year?"
 
 #. Default: "Notes"
 msgid "PloneMeeting_notes"
@@ -3463,7 +3467,7 @@ msgstr "Select the batch actions that will be displayed on the table listing ann
 
 #. Default: "Item only"
 msgid "enabled_item_only"
-msgstr ""
+msgstr "Item only"
 
 #. Default: "When advice mandatoriness is enforced, an item can't be inserted into a meeting unless all mandatory advices are given and positive."
 msgid "enforce_advice_mandatoriness_descr"
@@ -6769,4 +6773,4 @@ msgstr "Select here the transform types to apply on the rich text fields selecte
 
 #. Default: "Checked values will be automatically set to 1 every year for the first meeting of the year."
 msgid "yearly_init_meeting_numbers_descr"
-msgstr ""
+msgstr "Checked values will be automatically set to 1 every year for the first meeting of the year."
