@@ -20,6 +20,10 @@ Changelog
 - Adapted `has_required_waiting_advices` to explain to check that
   given advices reached their workflow last step.
   [gbastien]
+- Adapted translations for `store_as_annex_type_title` and
+  `available_mailing_lists_title` to specify generated format now that
+  POD templates are grouped by title in the generationlinks viewlet.
+  [gbastien]
 
 4.2b28 (2022-07-01)
 -------------------

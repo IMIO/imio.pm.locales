@@ -2678,9 +2678,9 @@ msgstr "Available items for this meeting"
 msgid "available_items_list_visible_columns_descr"
 msgstr "Choose columns to display on the table of items available for a meeting. Note that a fixed number of columns will always be displayed (like the column containing the item title)."
 
-#. Default: "Click to see available mailing lists for this POD template"
+#. Default: "Click to see available mailing lists for this POD template to generate with format \"${output_format}\""
 msgid "available_mailing_lists_title"
-msgstr "Click to see available mailing lists for this POD template"
+msgstr "Click to see available mailing lists for this POD template to generate with format \"${output_format}\""
 
 #. Default: "Back"
 msgid "back"
@@ -5827,9 +5827,9 @@ msgstr "Check this box if you want to sort the tags in alphabetic order."
 msgid "start_date_after_end_date"
 msgstr "The meeting start date must occur before the end date."
 
-#. Default: "Store as annex of type ${annex_type_title}"
+#. Default: "Store as annex of type \"${annex_type_title}\" with format \"${output_format}\""
 msgid "store_as_annex_type_title"
-msgstr "Store as annex of type ${annex_type_title}"
+msgstr "Store as annex of type \"${annex_type_title}\" with format \"${output_format}\""
 
 #. Default: "Not allowed to add annex in this element."
 msgid "store_podtemplate_as_annex_can_not_add_annex"

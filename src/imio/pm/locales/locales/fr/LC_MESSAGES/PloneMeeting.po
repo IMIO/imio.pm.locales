@@ -2694,9 +2694,9 @@ msgstr "Points disponibles pour cette séance"
 msgid "available_items_list_visible_columns_descr"
 msgstr "Choisissez ici les colonnes qui seront affichées dans le tableau reprenant les points disponibles pour une séance, sachant que certaines colonnes seront toujours visibles (la colonne 'Objet' par exemple)."
 
-#. Default: "Click to see available mailing lists for this POD template"
+#. Default: "Click to see available mailing lists for this POD template to generate with format \"${output_format}\""
 msgid "available_mailing_lists_title"
-msgstr "Cliquez pour voir les listes de diffusion disponible pour ce document à générer"
+msgstr "Cliquez pour voir les listes de diffusion disponible pour ce document à générer au format \"${output_format}\""
 
 #. Default: "Back"
 msgid "back"
@@ -5855,9 +5855,9 @@ msgstr "Cochez cette case si vous voulez que les marqueurs soient triés par ord
 msgid "start_date_after_end_date"
 msgstr "La date de début doit être avant la date de fin."
 
-#. Default: "Store as annex of type ${annex_type_title}"
+#. Default: "Store as annex of type \"${annex_type_title}\" with format \"${output_format}\""
 msgid "store_as_annex_type_title"
-msgstr "Stocker en tant qu'annexe de type \"${annex_type_title}\""
+msgstr "Stocker en tant qu'annexe de type \"${annex_type_title}\" au format \"${output_format}\""
 
 #. Default: "Not allowed to add annex in this element."
 msgid "store_podtemplate_as_annex_can_not_add_annex"
