@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b29 (unreleased)
+4.2b29 (2022-08-26)
 -------------------
 
 - Added translations related to `attendees order by item`.
