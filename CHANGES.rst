@@ -5,8 +5,8 @@ Changelog
 4.2b30 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Use `"` instead `'` everywhere possible.
+  [gbastien]
 
 4.2b29 (2022-08-26)
 -------------------
