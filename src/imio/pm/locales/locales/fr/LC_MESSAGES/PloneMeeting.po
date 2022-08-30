@@ -3985,15 +3985,15 @@ msgstr "Accepté avec modifications"
 
 #. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
 msgid "icon_help_cloned_and_decided"
-msgstr "Reçu depuis le ${meetingConfigTitle} (${meetingDate}), le point original est \"${predecessorState}\"."
+msgstr "Créé depuis le ${meetingConfigTitle} (${meetingDate}), le point original est \"${predecessorState}\"."
 
 #. Default: "Sent from ${meetingConfigTitle} (${meetingDate}), original item is \"${predecessorState}\"."
 msgid "icon_help_cloned_not_decided"
-msgstr "Reçu depuis le ${meetingConfigTitle} (${meetingDate}), le point original est \"${predecessorState}\"."
+msgstr "Créé depuis le ${meetingConfigTitle} (${meetingDate}), le point original est \"${predecessorState}\"."
 
 #. Default: "Sent from ${meetingConfigTitle}, original item is \"${predecessorState}\"."
 msgid "icon_help_cloned_not_presented"
-msgstr "Reçu depuis le ${meetingConfigTitle}, le point original est \"${predecessorState}\"."
+msgstr "Créé depuis le ${meetingConfigTitle}, le point original est \"${predecessorState}\"."
 
 #. Default: "Delayed"
 msgid "icon_help_delayed"
@@ -4175,7 +4175,7 @@ msgstr ""
 
 #. Default: "${meetingConfigTitle} - Item received from ${originMeetingConfigTitle} - ${itemTitle}"
 msgid "itemClonedToThisMC_mail_subject"
-msgstr "${meetingConfigTitle} - Point reçu depuis ${originMeetingConfigTitle} - ${itemTitle}"
+msgstr "${meetingConfigTitle} - Point créé depuis ${originMeetingConfigTitle} - ${itemTitle}"
 
 #. Default: "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${objectUrl}. You can work on it again and propose it to another meeting."
 msgid "itemDelayed_mail_body"

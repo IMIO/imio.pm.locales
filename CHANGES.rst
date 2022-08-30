@@ -7,6 +7,9 @@ Changelog
 
 - Use `"` instead `'` everywhere possible.
   [gbastien]
+- For items created from another config, use french term `Créé depuis`
+  instead `Reçu depuis`.
+  [gbastien]
 
 4.2b29 (2022-08-26)
 -------------------
