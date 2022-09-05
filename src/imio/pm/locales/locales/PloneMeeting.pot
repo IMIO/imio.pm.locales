@@ -5574,12 +5574,24 @@ msgstr ""
 msgid "Not present type"
 msgstr ""
 
+#. Default: "Can not set ${not_present_type} a person that is not present on the meeting!"
+msgid "Can not set ${not_present_type} a person that is not present on the meeting!"
+msgstr ""
+
 #. Default: "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgstr ""
 
 #. Default: "Can not set ${not_present_type} a person that voted on an item!"
 msgid "Can not set ${not_present_type} a person that voted on an item!"
+msgstr ""
+
+#. Default: "Can not set absent a person selected as excused on an item!"
+msgid "Can not set absent a person selected as excused on an item!"
+msgstr ""
+
+#. Default: "Can not set excused a person selected as absent on an item!"
+msgid "Can not set excused a person selected as absent on an item!"
 msgstr ""
 
 #. Default: "Please check item number ${item_number} at ${item_url}."
@@ -6776,6 +6788,10 @@ msgstr ""
 
 #. Default: "Attendees order was reinitialized to meeting order for this item."
 msgid "Attendees order was reinitialized to meeting order for this item."
+msgstr ""
+
+#. Default: "Redefined item attendees order"
+msgid "Redefined item attendees order"
 msgstr ""
 
 #. Default: "You can not remove or add an attendee on the meeting if attendees order was redefined for some items, please check item at \"${item_url}\"."

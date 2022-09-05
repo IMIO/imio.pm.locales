@@ -224,8 +224,20 @@ msgstr ""
 msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgstr ""
 
+#. Default: "Can not set ${not_present_type} a person that is not present on the meeting!"
+msgid "Can not set ${not_present_type} a person that is not present on the meeting!"
+msgstr ""
+
 #. Default: "Can not set ${not_present_type} a person that voted on an item!"
 msgid "Can not set ${not_present_type} a person that voted on an item!"
+msgstr ""
+
+#. Default: "Can not set absent a person selected as excused on an item!"
+msgid "Can not set absent a person selected as excused on an item!"
+msgstr ""
+
+#. Default: "Can not set excused a person selected as absent on an item!"
+msgid "Can not set excused a person selected as absent on an item!"
 msgstr ""
 
 #. Default: "Cancel"
@@ -1909,6 +1921,10 @@ msgstr ""
 
 #. Default: "Redefined attendee position was removed."
 msgid "Redefined attendee position was removed."
+msgstr ""
+
+#. Default: "Redefined item attendees order"
+msgid "Redefined item attendees order"
 msgstr ""
 
 #. Default: "Redefined position"

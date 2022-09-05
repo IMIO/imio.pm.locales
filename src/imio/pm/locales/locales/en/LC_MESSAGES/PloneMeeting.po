@@ -220,9 +220,21 @@ msgstr "Can not disable a meeting configuration used in another, please check fi
 msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgstr "Can not set ${not_present_type} a person selected as signatory on an item!"
 
+#. Default: "Can not set ${not_present_type} a person that is not present on the meeting!"
+msgid "Can not set ${not_present_type} a person that is not present on the meeting!"
+msgstr "Can not set ${not_present_type} a person that is not present on the meeting!"
+
 #. Default: "Can not set ${not_present_type} a person that voted on an item!"
 msgid "Can not set ${not_present_type} a person that voted on an item!"
 msgstr "Can not set ${not_present_type} a person that voted on an item!"
+
+#. Default: "Can not set absent a person selected as excused on an item!"
+msgid "Can not set absent a person selected as excused on an item!"
+msgstr "Can not set absent a person selected as excused on an item!"
+
+#. Default: "Can not set excused a person selected as absent on an item!"
+msgid "Can not set excused a person selected as absent on an item!"
+msgstr "Can not set excused a person selected as absent on an item!"
 
 #. Default: "Cancel"
 msgid "Cancel"
@@ -1892,6 +1904,10 @@ msgstr "Redefine position for this attendee for this item"
 #. Default: "Redefined attendee position was removed."
 msgid "Redefined attendee position was removed."
 msgstr "Redefined attendee position was removed."
+
+#. Default: "Redefined item attendees order"
+msgid "Redefined item attendees order"
+msgstr "Redefined item attendees order"
 
 #. Default: "Redefined position"
 msgid "Redefined position"

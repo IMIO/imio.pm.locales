@@ -220,9 +220,21 @@ msgstr "Une configuration de séance renseignée dans une autre ne peut pas êtr
 msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
 msgstr "Impossible de définir un membre \"${not_present_type}\" s'il est spécifiquement défini signataire du point!"
 
+#. Default: "Can not set ${not_present_type} a person that is not present on the meeting!"
+msgid "Can not set ${not_present_type} a person that is not present on the meeting!"
+msgstr "Impossible de définir un membre \"${not_present_type}\" s'il n'est pas présent sur la séance!"
+
 #. Default: "Can not set ${not_present_type} a person that voted on an item!"
 msgid "Can not set ${not_present_type} a person that voted on an item!"
 msgstr "Impossible de définir un membre \"${not_present_type}\" s'il a déjà voté sur le point!"
+
+#. Default: "Can not set absent a person selected as excused on an item!"
+msgid "Can not set absent a person selected as excused on an item!"
+msgstr "Impossible de définir un membre \"Absent\" s'il est déjà \"Absent (excusé)\"!"
+
+#. Default: "Can not set excused a person selected as absent on an item!"
+msgid "Can not set excused a person selected as absent on an item!"
+msgstr "Impossible de définir un membre \"Absent (excusé)\" s'il est déjà \"Absent\"!"
 
 #. Default: "Cancel"
 msgid "Cancel"
@@ -1892,6 +1904,10 @@ msgstr "Changer la fonction de ce membre pour ce point"
 #. Default: "Redefined attendee position was removed."
 msgid "Redefined attendee position was removed."
 msgstr "Le membre utilise à nouveau sa fonction définie sur la séance pour ce point."
+
+#. Default: "Redefined item attendees order"
+msgid "Redefined item attendees order"
+msgstr "Points pour lesquels l'ordre des membres d'assemblée a été redéfini"
 
 #. Default: "Redefined position"
 msgid "Redefined position"
