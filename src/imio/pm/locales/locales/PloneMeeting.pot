@@ -6070,6 +6070,10 @@ msgstr ""
 msgid "can_not_remove_attendee_redefined_on_items"
 msgstr ""
 
+#. Default: "Assembly and signatures : you can not unselect an attendee that is still signatory on the meeting.  Please check ${attendee_title}."
+msgid "can_not_remove_attendee_defined_as_signatory"
+msgstr ""
+
 #. Default: "Assembly and signatures : you can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
 msgid "can_not_remove_public_voter_voted_on_items"
 msgstr ""

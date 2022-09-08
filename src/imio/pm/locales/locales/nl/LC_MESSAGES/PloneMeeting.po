@@ -2785,6 +2785,10 @@ msgstr ""
 msgid "can_not_delete_plone_group_meetingitem"
 msgstr ""
 
+#. Default: "Assembly and signatures : you can not unselect an attendee that is still signatory on the meeting.  Please check ${attendee_title}."
+msgid "can_not_remove_attendee_defined_as_signatory"
+msgstr ""
+
 #. Default: "Assembly and signatures : you can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"
 msgstr ""
