@@ -12,6 +12,8 @@ Changelog
   [gbastien]
 - Completed attendees changes related translations.
   [gbastien]
+- Added translation for `can_not_remove_attendee_defined_as_signatory`.
+  [gbastien]
 
 4.2b29 (2022-08-26)
 -------------------
