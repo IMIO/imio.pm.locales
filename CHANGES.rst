@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b30 (unreleased)
+4.2b30 (2022-09-19)
 -------------------
 
 - Use `"` instead `'` everywhere possible.
