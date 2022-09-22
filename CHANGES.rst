@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2b31 (unreleased)
+4.2b31 (2022-09-22)
 -------------------
 
 - Added translation for `wa_waiting_advices_given_and_signed_advices_required_to_validate`.
