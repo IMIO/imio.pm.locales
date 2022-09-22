@@ -6751,6 +6751,10 @@ msgstr "État supplémentaire pour demander les avis (configuration complémenta
 msgid "wa_waiting_advices_given_advices_required_to_validate"
 msgstr "État supplémentaire pour demander les avis (configuration complémentaire: les avis doivent être rendus pour que le point puisse être validé (avis demandé depuis le dernier niveau de validation)"
 
+#. Default: "Wait advices (complementary: item will not be validable if advices did not reach their last state in their workflow)"
+msgid "wa_waiting_advices_given_and_signed_advices_required_to_validate"
+msgstr "État supplémentaire pour demander les avis (configuration complémentaire: le point ne pourra pas être \"validé\" si les avis n'ont pas atteint le dernier état de leur workflow, comme \"avis signé\")"
+
 #. Default: "Wait advices (complementary: when item in state \"Waiting advices\", item may be sent back by propsosing group)"
 msgid "wa_waiting_advices_proposing_group_send_back"
 msgstr "État supplémentaire pour demander les avis (configuration complémentaire: lorsque le point est \"En attente des avis\", les membres du groupe proposant peuvent renvoyer le point au groupe proposant)"

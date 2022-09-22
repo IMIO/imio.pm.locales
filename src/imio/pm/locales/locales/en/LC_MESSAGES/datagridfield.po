@@ -20,51 +20,51 @@ msgstr "Available on"
 
 #. Default: "Committee acronym"
 msgid "Committee acronym"
-msgstr ""
+msgstr "Committee acronym"
 
 #. Default: "Committee auto from"
 msgid "Committee auto from"
-msgstr ""
+msgstr "Committee auto from"
 
 #. Default: "Committee default assembly"
 msgid "Committee default assembly"
-msgstr ""
+msgstr "Committee default assembly"
 
 #. Default: "Committee default attendees"
 msgid "Committee default attendees"
-msgstr ""
+msgstr "Committee default attendees"
 
 #. Default: "Committee default place"
 msgid "Committee default place"
-msgstr ""
+msgstr "Committee default place"
 
 #. Default: "Committee default signatories"
 msgid "Committee default signatories"
-msgstr ""
+msgstr "Committee default signatories"
 
 #. Default: "Committee default signatures"
 msgid "Committee default signatures"
-msgstr ""
+msgstr "Committee default signatures"
 
 #. Default: "Committee enabled?"
 msgid "Committee enabled?"
-msgstr ""
+msgstr "Committee enabled?"
 
 #. Default: "Committee label"
 msgid "Committee label"
-msgstr ""
+msgstr "Committee label"
 
 #. Default: "Committee row id"
 msgid "Committee row id"
-msgstr ""
+msgstr "Committee row id"
 
 #. Default: "Committee supplements"
 msgid "Committee supplements"
-msgstr ""
+msgstr "Committee supplements"
 
 #. Default: "Committee using groups"
 msgid "Committee using groups"
-msgstr ""
+msgstr "Committee using groups"
 
 #. Default: "Full label"
 msgid "Config group full label"
@@ -364,39 +364,39 @@ msgstr "Specify here a TAL expression that will restrict or allow the use of thi
 
 #. Default: "Used to automatically determinate the committee for the item, the field \"Committees\" will not appear on the item when editing it (except for MeetingManagers).  This may only be used when column \"using_groups\" is not used."
 msgid "committees_auto_from_col_description"
-msgstr ""
+msgstr "Used to automatically determinate the committee for the item, the field \"Committees\" will not appear on the item when editing it (except for MeetingManagers).  This may only be used when column \"using_groups\" is not used."
 
 #. Default: "Used when creating a new meeting if field \"Assembly\" is enabled for committees, does not impact already created meetings."
 msgid "committees_default_assembly_col_description"
-msgstr ""
+msgstr "Used when creating a new meeting if field \"Assembly\" is enabled for committees, does not impact already created meetings."
 
 #. Default: "Used when creating a new meeting if field \"Attendees\" is enabled for committees, does not impact already created meetings."
 msgid "committees_default_attendees_col_description"
-msgstr ""
+msgstr "Used when creating a new meeting if field \"Attendees\" is enabled for committees, does not impact already created meetings."
 
 #. Default: "Used when creating a new meeting if field \"Place\" is enabled for committees, does not impact already created meetings."
 msgid "committees_default_place_col_description"
-msgstr ""
+msgstr "Used when creating a new meeting if field \"Place\" is enabled for committees, does not impact already created meetings."
 
 #. Default: "Used when creating a new meeting if field \"Signatories\" is enabled for committees, does not impact already created meetings."
 msgid "committees_default_signatories_col_description"
-msgstr ""
+msgstr "Used when creating a new meeting if field \"Signatories\" is enabled for committees, does not impact already created meetings."
 
 #. Default: "Used when creating a new meeting if field \"Signatures\" is enabled for committees, does not impact already created meetings."
 msgid "committees_default_signatures_col_description"
-msgstr ""
+msgstr "Used when creating a new meeting if field \"Signatures\" is enabled for committees, does not impact already created meetings."
 
 #. Default: "When selecting \"Item only\" the value will only be selectable on items but not on meetings."
 msgid "committees_enabled_col_description"
-msgstr ""
+msgstr "When selecting \"Item only\" the value will only be selectable on items but not on meetings."
 
 #. Default: "Will generate new values on item \"Committees\" field when necessary to manage supplements (items added to meeting after committees convocation were sent).  This will only be useable by MeetingManagers."
 msgid "committees_supplements_col_description"
-msgstr ""
+msgstr "Will generate new values on item \"Committees\" field when necessary to manage supplements (items added to meeting after committees convocation were sent).  This will only be useable by MeetingManagers."
 
 #. Default: "Used to restrict availability of a committee on the item committees selection box.  This may only be used when column \"auto_from\" is not used."
 msgid "committees_using_groups_col_description"
-msgstr ""
+msgstr "Used to restrict availability of a committee on the item committees selection box.  This may only be used when column \"auto_from\" is not used."
 
 #. Default: "Enter the delay the adviser will have to give his advice. If it is not considered as an automatically asked advice (nothing defined in the \"Advice will be automatically asked if\" column), the advice will be selectable in the \"Ask advice to\" list on the item edit form. A delay is a single digit (like \"5\" or \"10\"). If no delay is relevant for this advice, leave this field blank. If several delays are possible for the same advice, you have to define several rows with exactly the same content excepted the delay."
 msgid "delay_col_description"
