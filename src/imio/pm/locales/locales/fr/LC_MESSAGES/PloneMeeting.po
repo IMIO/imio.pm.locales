@@ -320,9 +320,9 @@ msgstr "Configuration de séance en cours"
 msgid "Data of the item when advice was given"
 msgstr "Données principales du point lorsque l'avis a été rendu"
 
-#. Default: "Data that will be used on new item"
-msgid "Data that will be used on new item"
-msgstr "Données utilisées pour le nouveau point"
+#. Default: "Data that will be used on new item to ${cfg_titles}"
+msgid "Data that will be used on new item to ${cfg_titles}"
+msgstr "Données utilisées pour le nouveau point ${cfg_titles}"
 
 #. Default: "Days to give advice : ${daysToGiveAdvice} days"
 msgid "Days to give advice"

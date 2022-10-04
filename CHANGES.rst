@@ -5,8 +5,8 @@ Changelog
 4.2b32 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Completed translation `Data that will be used on new item to ${cfg_titles}`.
+  [gbastien]
 
 4.2b31 (2022-09-22)
 -------------------
