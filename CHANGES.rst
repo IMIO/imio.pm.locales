@@ -7,6 +7,9 @@ Changelog
 
 - Completed translation `Data that will be used on new item to ${cfg_titles}`.
   [gbastien]
+- Do not use `&nbsp;` in committees translations or it is displayed in
+  the faceted search filter.
+  [gbastien]
 
 4.2b31 (2022-09-22)
 -------------------
