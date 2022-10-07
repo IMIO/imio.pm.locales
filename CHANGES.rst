@@ -10,6 +10,9 @@ Changelog
 - Do not use `&nbsp;` in committees translations or it is displayed in
   the faceted search filter.
   [gbastien]
+- Fixed french translations inversion for `wa_item_validation_shortcuts` and
+  `wa_item_validation_no_validate_shortcuts`.
+  [gbastien]
 
 4.2b31 (2022-09-22)
 -------------------
