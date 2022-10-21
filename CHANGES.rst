@@ -13,6 +13,10 @@ Changelog
 - Fixed french translations inversion for `wa_item_validation_shortcuts` and
   `wa_item_validation_no_validate_shortcuts`.
   [gbastien]
+- Added translations for `Advice of ${advice_name}`.
+  [gbastien]
+- Removed unused translation `can_not_remove_attendee_defined_as_signatory`.
+  [gbastien]
 
 4.2b31 (2022-09-22)
 -------------------

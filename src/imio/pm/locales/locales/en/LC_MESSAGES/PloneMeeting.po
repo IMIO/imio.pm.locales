@@ -99,6 +99,10 @@ msgstr "Advice not deletable because it was already historized (if necessary ask
 msgid "Advice observations"
 msgstr "Advice observations"
 
+#. Default: "Advice of ${advice_name}"
+msgid "Advice of ${advice_name}"
+msgstr ""
+
 #. Default: "Advice official comment"
 msgid "Advice official comment"
 msgstr "Advice official comment"
@@ -2773,10 +2777,6 @@ msgstr "You can not remove/disable a function that is used by a parameter of a c
 #. Default: "You can not remove/disable a function that is used by an item in the application.  Please check ${item_url}."
 msgid "can_not_delete_plone_group_meetingitem"
 msgstr "You can not remove/disable a function that is used by an item in the application.  Please check ${item_url}."
-
-#. Default: "Assembly and signatures : you can not unselect an attendee that is still signatory on the meeting.  Please check ${attendee_title}."
-msgid "can_not_remove_attendee_defined_as_signatory"
-msgstr "Assembly and signatures : you can not unselect an attendee that is still signatory on the meeting.  Please check ${attendee_title}."
 
 #. Default: "Assembly and signatures : you can not unselect an attendee that has been redefined on items.  Please check ${attendee_title}."
 msgid "can_not_remove_attendee_redefined_on_items"

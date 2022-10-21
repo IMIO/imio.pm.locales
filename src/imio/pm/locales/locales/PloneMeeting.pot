@@ -6074,10 +6074,6 @@ msgstr ""
 msgid "can_not_remove_attendee_redefined_on_items"
 msgstr ""
 
-#. Default: "Assembly and signatures : you can not unselect an attendee that is still signatory on the meeting.  Please check ${attendee_title}."
-msgid "can_not_remove_attendee_defined_as_signatory"
-msgstr ""
-
 #. Default: "Assembly and signatures : you can not unselect a voter that already voted on a public vote item.  Please check ${attendee_title}."
 msgid "can_not_remove_public_voter_voted_on_items"
 msgstr ""
@@ -6724,6 +6720,10 @@ msgstr ""
 
 #. Default: "Specify here the deadline for validating late items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating late items\" is enabled on meetings. Use same format as field above."
 msgid "freeze_deadline_default_descr"
+msgstr ""
+
+#. Default: "Advice of ${advice_name}"
+msgid "Advice of ${advice_name}"
 msgstr ""
 
 #. Default: "Advice proposing group comment"
