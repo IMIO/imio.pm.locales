@@ -17,6 +17,8 @@ Changelog
   [gbastien]
 - Removed unused translation `can_not_remove_attendee_defined_as_signatory`.
   [gbastien]
+- Added translation for `title_committees_committee_observations`.
+  [gbastien]
 
 4.2b31 (2022-09-22)
 -------------------

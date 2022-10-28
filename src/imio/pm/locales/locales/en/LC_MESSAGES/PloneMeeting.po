@@ -101,7 +101,7 @@ msgstr "Advice observations"
 
 #. Default: "Advice of ${advice_name}"
 msgid "Advice of ${advice_name}"
-msgstr ""
+msgstr "Advice of ${advice_name}"
 
 #. Default: "Advice official comment"
 msgid "Advice official comment"
@@ -326,7 +326,7 @@ msgstr "Data of the item when advice was given"
 
 #. Default: "Data that will be used on new item to ${cfg_titles}"
 msgid "Data that will be used on new item to ${cfg_titles}"
-msgstr ""
+msgstr "Data that will be used on new item to ${cfg_titles}"
 
 #. Default: "Days to give advice : ${daysToGiveAdvice} days"
 msgid "Days to give advice"
@@ -6022,6 +6022,10 @@ msgstr "Assembly"
 #. Default: "Attendees"
 msgid "title_committees_attendees"
 msgstr "Attendees"
+
+#. Default: "Observations"
+msgid "title_committees_committee_observations"
+msgstr "Observations"
 
 #. Default: "Convocation date"
 msgid "title_committees_convocation_date"
