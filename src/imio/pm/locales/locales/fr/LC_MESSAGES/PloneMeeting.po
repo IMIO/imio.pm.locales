@@ -79,6 +79,10 @@ msgstr "Demandé à"
 msgid "Advice comment"
 msgstr "Commentaire"
 
+#. Default: "Advice data"
+msgid "Advice data"
+msgstr "Données de l'avis"
+
 #. Default: "Advice delay have been reinitialized for advice \"${advice}\""
 msgid "Advice delay have been reinitialized for advice \"${advice}\""
 msgstr "Le délai pour rendre l'avis \"${advice}\" a été remis à zéro."
@@ -95,17 +99,9 @@ msgstr "Avis rendu sur le point ${item_title}"
 msgid "Advice not deletable"
 msgstr "Cet avis ne peut plus être supprimé car il a déjà été historisé (si nécessaire, un Administrateur pourra cependant le supprimer)"
 
-#. Default: "Advice observations"
-msgid "Advice observations"
-msgstr "Observations"
-
 #. Default: "Advice of ${advice_name}"
 msgid "Advice of ${advice_name}"
 msgstr "Avis du ${advice_name}"
-
-#. Default: "Advice official comment"
-msgid "Advice official comment"
-msgstr "Motivation"
 
 #. Default: "Advice proposing group comment"
 msgid "Advice proposing group comment"
@@ -114,14 +110,6 @@ msgstr "Commentaire du groupe proposant"
 #. Default: "Advice proposing group comment description"
 msgid "Advice proposing group comment description"
 msgstr "Le commentaire du groupe proposant n'est éditable que par le groupe proposant du point et les gestionnaires de séances (quand c'est nécessaire).  Il sera visible par les émetteurs d'avis du groupe auquel l'avis est demandé."
-
-#. Default: "Advice reference"
-msgid "Advice reference"
-msgstr "Référence"
-
-#. Default: "Advice type"
-msgid "Advice type"
-msgstr "Type d'avis"
 
 # plone.app.querystring
 #. Default: "Advisers index"
@@ -484,13 +472,9 @@ msgstr "Fonction du signataire (par exemple \"Le Bourgmestre\")."
 msgid "Given on ${advice_given_on_date}"
 msgstr "Rendu le ${advice_given_on_date}"
 
-#. Default: "Group"
-msgid "Group"
-msgstr "Groupe"
-
-#. Default: "Hide advice during redaction"
-msgid "Hide advice during redaction"
-msgstr "Cacher l'avis pendant sa rédaction"
+#. Default: "Historized data"
+msgid "Historized data"
+msgstr ""
 
 #. Default: "History of completeness changes"
 msgid "History of completeness changes"
@@ -608,6 +592,10 @@ msgstr "Assemblée à appliquer"
 #. Default: "Item attendees to apply"
 msgid "Item attendees to apply"
 msgstr "Présents à appliquer"
+
+#. Default: "Item data"
+msgid "Item data"
+msgstr "Données du point"
 
 #. Default: "Item decision annexes"
 msgid "Item decision annexes"
@@ -5998,6 +5986,30 @@ msgstr "Absents (non excusés)"
 #. Default: "Adopts next agenda of"
 msgid "title_adopts_next_agenda_of"
 msgstr "Arrête l'ordre du jour du prochain"
+
+#. Default: "Advice official comment"
+msgid "title_advice_comment"
+msgstr "Motivation"
+
+#. Default: "Group"
+msgid "title_advice_group"
+msgstr "Groupe"
+
+#. Default: "Hide advice during redaction"
+msgid "title_advice_hide_during_redaction"
+msgstr "Cacher l'avis pendant sa rédaction"
+
+#. Default: "Advice observations"
+msgid "title_advice_observations"
+msgstr "Observations"
+
+#. Default: "Advice reference"
+msgid "title_advice_reference"
+msgstr "Référence"
+
+#. Default: "Advice type"
+msgid "title_advice_type"
+msgstr "Type d'avis"
 
 #. Default: "Approval date"
 msgid "title_approval_date"

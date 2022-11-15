@@ -79,6 +79,10 @@ msgstr "Advice asked to"
 msgid "Advice comment"
 msgstr "Advice comment"
 
+#. Default: "Advice data"
+msgid "Advice data"
+msgstr ""
+
 #. Default: "Advice delay have been reinitialized for advice \"${advice}\""
 msgid "Advice delay have been reinitialized for advice \"${advice}\""
 msgstr "Advice delay have been reinitialized for advice \"${advice}\""
@@ -95,17 +99,9 @@ msgstr "Advice given on item ${item_title}"
 msgid "Advice not deletable"
 msgstr "Advice not deletable because it was already historized (if necessary ask a Manager to delete the advice)"
 
-#. Default: "Advice observations"
-msgid "Advice observations"
-msgstr "Advice observations"
-
 #. Default: "Advice of ${advice_name}"
 msgid "Advice of ${advice_name}"
 msgstr "Advice of ${advice_name}"
-
-#. Default: "Advice official comment"
-msgid "Advice official comment"
-msgstr "Advice official comment"
 
 #. Default: "Advice proposing group comment"
 msgid "Advice proposing group comment"
@@ -114,14 +110,6 @@ msgstr "Advice proposing group comment"
 #. Default: "Advice proposing group comment description"
 msgid "Advice proposing group comment description"
 msgstr "Advice proposing group comment description"
-
-#. Default: "Advice reference"
-msgid "Advice reference"
-msgstr "Advice reference"
-
-#. Default: "Advice type"
-msgid "Advice type"
-msgstr "Advice type"
 
 # plone.app.querystring
 #. Default: "Advisers index"
@@ -484,13 +472,9 @@ msgstr "Function of the signatory (for example \"Mayor\")."
 msgid "Given on ${advice_given_on_date}"
 msgstr "Given on ${advice_given_on_date}"
 
-#. Default: "Group"
-msgid "Group"
-msgstr "Group"
-
-#. Default: "Hide advice during redaction"
-msgid "Hide advice during redaction"
-msgstr "Hide advice during redaction"
+#. Default: "Historized data"
+msgid "Historized data"
+msgstr ""
 
 #. Default: "History of completeness changes"
 msgid "History of completeness changes"
@@ -608,6 +592,10 @@ msgstr "Item assembly to apply"
 #. Default: "Item attendees to apply"
 msgid "Item attendees to apply"
 msgstr "Item attendees to apply"
+
+#. Default: "Item data"
+msgid "Item data"
+msgstr ""
 
 #. Default: "Item decision annexes"
 msgid "Item decision annexes"
@@ -5970,6 +5958,30 @@ msgstr "Absents"
 #. Default: "Adopts next agenda of"
 msgid "title_adopts_next_agenda_of"
 msgstr "Adopts next agenda of"
+
+#. Default: "Advice official comment"
+msgid "title_advice_comment"
+msgstr ""
+
+#. Default: "Group"
+msgid "title_advice_group"
+msgstr ""
+
+#. Default: "Hide advice during redaction"
+msgid "title_advice_hide_during_redaction"
+msgstr ""
+
+#. Default: "Advice observations"
+msgid "title_advice_observations"
+msgstr ""
+
+#. Default: "Advice reference"
+msgid "title_advice_reference"
+msgstr ""
+
+#. Default: "Advice type"
+msgid "title_advice_type"
+msgstr ""
 
 #. Default: "Approval date"
 msgid "title_approval_date"
