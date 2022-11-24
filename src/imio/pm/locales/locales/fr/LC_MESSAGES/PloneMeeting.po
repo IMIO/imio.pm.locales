@@ -1175,6 +1175,10 @@ msgstr "Cacher les commentaires dans l'historique d'un point aux utilisateurs ne
 msgid "PloneMeeting_label_hideNotViewableLinkedItemsTo"
 msgstr "Cacher les points liés non visibles aux"
 
+#. Default: "Historize advice if it was given and item is edited"
+msgid "PloneMeeting_label_historizeAdviceIfGivenAndItemModified"
+msgstr "Historiser les avis lorsque le point est édité"
+
 #. Default: "Historize item data when an advice is given"
 msgid "PloneMeeting_label_historizeItemDataWhenAdviceIsGiven"
 msgstr "Historiser les informations essentielles du point lorsqu'un avis est rendu"
@@ -1807,10 +1811,6 @@ msgstr "Restreindre cette catégorie aux groupes suivants"
 #. Default: "Default deadline for validating items for a given meeting"
 msgid "PloneMeeting_label_validationDeadlineDefault"
 msgstr "Échéance par défaut pour valider les points pour une séance donnée"
-
-#. Default: "Versionate advice if it was given and item is edited"
-msgid "PloneMeeting_label_versionateAdviceIfGivenAndItemModified"
-msgstr "Versionner les avis lorsque le point est édité"
 
 #. Default: "Vote condition"
 msgid "PloneMeeting_label_voteCondition"
@@ -3882,6 +3882,10 @@ msgstr "Cette page n'est pas accessible pour le moment. Les gestionnaires de sé
 #. Default: "This will hide not viewable linked items to selected profiles instead of showing it with the \"You can not access this element\" warning."
 msgid "hide_not_viewable_linked_items_to_descr"
 msgstr "Ceci cachera les points liés à un point qui ne sont pas visibles au lieu d'afficher l'avertissement \"(Vous n'avez pas accès à cet élément)\"."
+
+#. Default: "When an advice is \"given\" and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically historized. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to historize advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is \"itemcreated\", a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is historized when the item is edited if necessary (so if it was not already historized since last advice edition).  If you have a specific state \"waiting advice\" where proposing group is not able to edit the item, this box may be left unchecked."
+msgid "historize_advice_if_given_and_item_modified_descr"
+msgstr "Lorsqu'un avis est \"rendu\" et qu'il n'est plus éditable par les émetteurs d'avis, donc qu'il a été mis dans un état où les émetteurs d'avis ne peuvent plus l'éditer, il est automatiquement historisé. Si dans votre configuration, un avis peut être rendu alors que le point peut toujours être édité par le groupe proposant, il peut être nécessaire d'historiser l'avis lors de l'édition du point. Par exemple si les avis peuvent être rendus lorsque le point est \"en création\", le groupe proposant peut éditer le point. Dans ce cas, cochez cette case, ceci permettra de s'assurer que l'avis est historisé avant toute modification du point. Si par contre vous avez un état dans votre workflow du type \"en attente des avis\" dans lequel le groupe proposant ne peut pas éditer le point, vous pouvez décocher cette case."
 
 #. Default: "When an advice is given, so when it switch to a state where adviser may not advice it anymore, it is historized.  If you chek this box, every relevant item data (title and rich text fields) will be historized together with the advice."
 msgid "historize_item_data_when_advice_is_given_descr"
@@ -6434,10 +6438,6 @@ msgstr "\"${users}\" utilisateur(s) dans le sous-groupe \"${suffix}\""
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating items\" is enabled on meetings. Date is expressed relative to meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\"."
 msgid "validation_deadline_default_descr"
 msgstr "Spécifiez ici l'échéance par défaut pour valider les points à présenter dans une séance. Initialisera le champ \"Échéance pour valider les points\" de la séance s'il est activé. Ceci permettra de définir automatiquement une date relative à la date de la séance.  Par exemple \"5.9:30\" (sans les guillemets) signifie: 5 jours avant la date de la séance, à 9h30."
-
-#. Default: "When an advice is \"given\" and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically versioned. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to versionate advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is \"itemcreated\", a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is versioned when the item is edited if necessary (so if it was not already versioned since last advice edition).  If you have a specific state \"waiting advice\" where proposing group is not able to edit the item, this box may be left unchecked."
-msgid "versionate_advice_if_given_and_item_modified_descr"
-msgstr "Lorsqu'un avis est \"rendu\" et qu'il n'est plus éditable par les émetteurs d'avis, donc qu'il a été mis dans un état où les émetteurs d'avis ne peuvent plus l'éditer, il est automatiquement versionné. Si dans votre configuration, un avis peut être rendu alors que le point peut toujours être édité par le groupe proposant, il peut être nécessaire de versionner l'avis lors de l'édition du point. Par exemple si les avis peuvent être rendus lorsque le point est \"en création\", le groupe proposant peut éditer le point. Dans ce cas, cochez cette case, ceci permettra de s'assurer que l'avis est versionné avant toute modification du point. Si par contre vous avez un état dans votre workflow du type \"en attente des avis\" dans lequel le groupe proposant ne peut pas éditer le point, vous pouvez décocher cette case."
 
 #. Default: "The advisers of the group that gave the advice"
 msgid "visible_for_adviser_group"

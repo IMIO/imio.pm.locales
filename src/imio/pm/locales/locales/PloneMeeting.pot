@@ -4682,12 +4682,12 @@ msgstr ""
 msgid "keep_access_to_item_when_advice_descr"
 msgstr ""
 
-#. Default: "Versionate advice if it was given and item is edited"
-msgid "PloneMeeting_label_versionateAdviceIfGivenAndItemModified"
+#. Default: "Historize advice if it was given and item is edited"
+msgid "PloneMeeting_label_historizeAdviceIfGivenAndItemModified"
 msgstr ""
 
-#. Default: "When an advice is \"given\" and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically versioned. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to versionate advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is \"itemcreated\", a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is versioned when the item is edited if necessary (so if it was not already versioned since last advice edition).  If you have a specific state \"waiting advice\" where proposing group is not able to edit the item, this box may be left unchecked."
-msgid "versionate_advice_if_given_and_item_modified_descr"
+#. Default: "When an advice is \"given\" and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically historized. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to historize advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is \"itemcreated\", a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is historized when the item is edited if necessary (so if it was not already historized since last advice edition).  If you have a specific state \"waiting advice\" where proposing group is not able to edit the item, this box may be left unchecked."
+msgid "historize_advice_if_given_and_item_modified_descr"
 msgstr ""
 
 #. Default: "Can not close a meeting containing items returned to proposing group!"
