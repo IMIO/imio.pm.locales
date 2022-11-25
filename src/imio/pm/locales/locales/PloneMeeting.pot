@@ -3126,8 +3126,12 @@ msgstr ""
 msgid "choose_item_template"
 msgstr ""
 
+#. Default: "Identifier (row_id)"
+msgid "title_advice_row_id"
+msgstr ""
+
 #. Default: "Group"
-msgid "Group"
+msgid "title_advice_group"
 msgstr ""
 
 #. Default: "Choose a group."
@@ -3135,7 +3139,7 @@ msgid "Choose a group."
 msgstr ""
 
 #. Default: "Advice type"
-msgid "Advice type"
+msgid "title_advice_type"
 msgstr ""
 
 #. Default: "Choose an advice type."
@@ -3143,7 +3147,7 @@ msgid "Choose an advice type."
 msgstr ""
 
 #. Default: "Hide advice during redaction"
-msgid "Hide advice during redaction"
+msgid "title_advice_hide_during_redaction"
 msgstr ""
 
 #. Default: "If you do not want the advice to be shown immediately after redaction, you can check this box.  This will let you or other member of your group work on the advice before showing it.  Note that if you lose access to the advice (for example if the item state evolve), the advice will be considered \"Not given, was under edition\".  A manager will be able to publish it nevertheless."
@@ -3151,7 +3155,7 @@ msgid "If you do not want the advice to be shown immediately after redaction, yo
 msgstr ""
 
 #. Default: "Advice official comment"
-msgid "Advice official comment"
+msgid "title_advice_comment"
 msgstr ""
 
 #. Default: "Enter the official comment."
@@ -3159,7 +3163,7 @@ msgid "Enter the official comment."
 msgstr ""
 
 #. Default: "Advice observations"
-msgid "Advice observations"
+msgid "title_advice_observations"
 msgstr ""
 
 #. Default: "Enter optionnal observations if necessary."
@@ -3167,7 +3171,7 @@ msgid "Enter optionnal observations if necessary."
 msgstr ""
 
 #. Default: "Advice reference"
-msgid "Advice reference"
+msgid "title_advice_reference"
 msgstr ""
 
 #. Default: "Enter a reference for this advice if necessary."
@@ -4678,12 +4682,12 @@ msgstr ""
 msgid "keep_access_to_item_when_advice_descr"
 msgstr ""
 
-#. Default: "Versionate advice if it was given and item is edited"
-msgid "PloneMeeting_label_versionateAdviceIfGivenAndItemModified"
+#. Default: "Historize advice if it was given and item is edited"
+msgid "PloneMeeting_label_historizeAdviceIfGivenAndItemModified"
 msgstr ""
 
-#. Default: "When an advice is \"given\" and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically versioned. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to versionate advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is \"itemcreated\", a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is versioned when the item is edited if necessary (so if it was not already versioned since last advice edition).  If you have a specific state \"waiting advice\" where proposing group is not able to edit the item, this box may be left unchecked."
-msgid "versionate_advice_if_given_and_item_modified_descr"
+#. Default: "When an advice is \"given\" and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically historized. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to historize advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is \"itemcreated\", a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is historized when the item is edited if necessary (so if it was not already historized since last advice edition).  If you have a specific state \"waiting advice\" where proposing group is not able to edit the item, this box may be left unchecked."
+msgid "historize_advice_if_given_and_item_modified_descr"
 msgstr ""
 
 #. Default: "Can not close a meeting containing items returned to proposing group!"
@@ -6828,4 +6832,16 @@ msgstr ""
 
 #. Default: "Please choose a format to generate here next"
 msgid "Please choose a format to generate here next"
+msgstr ""
+
+#. Default: "Historized data"
+msgid "Historized data"
+msgstr ""
+
+#. Default: "Advice data"
+msgid "Advice data"
+msgstr ""
+
+#. Default: "Item data"
+msgid "Item data"
 msgstr ""

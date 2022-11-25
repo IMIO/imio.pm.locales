@@ -83,6 +83,10 @@ msgstr ""
 msgid "Advice comment"
 msgstr ""
 
+#. Default: "Advice data"
+msgid "Advice data"
+msgstr ""
+
 #. Default: "Advice delay have been reinitialized for advice \"${advice}\""
 msgid "Advice delay have been reinitialized for advice \"${advice}\""
 msgstr ""
@@ -99,16 +103,8 @@ msgstr "Consejo dado en tema ${item_title}"
 msgid "Advice not deletable"
 msgstr ""
 
-#. Default: "Advice observations"
-msgid "Advice observations"
-msgstr ""
-
 #. Default: "Advice of ${advice_name}"
 msgid "Advice of ${advice_name}"
-msgstr ""
-
-#. Default: "Advice official comment"
-msgid "Advice official comment"
 msgstr ""
 
 #. Default: "Advice proposing group comment"
@@ -118,14 +114,6 @@ msgstr ""
 #. Default: "Advice proposing group comment description"
 msgid "Advice proposing group comment description"
 msgstr ""
-
-#. Default: "Advice reference"
-msgid "Advice reference"
-msgstr ""
-
-#. Default: "Advice type"
-msgid "Advice type"
-msgstr "Tipo de Consejo"
 
 # plone.app.querystring
 #. Default: "Advisers index"
@@ -488,12 +476,8 @@ msgstr ""
 msgid "Given on ${advice_given_on_date}"
 msgstr ""
 
-#. Default: "Group"
-msgid "Group"
-msgstr "Grupo"
-
-#. Default: "Hide advice during redaction"
-msgid "Hide advice during redaction"
+#. Default: "Historized data"
+msgid "Historized data"
 msgstr ""
 
 #. Default: "History of completeness changes"
@@ -611,6 +595,10 @@ msgstr "Tema de asamblea a aplicar"
 
 #. Default: "Item attendees to apply"
 msgid "Item attendees to apply"
+msgstr ""
+
+#. Default: "Item data"
+msgid "Item data"
 msgstr ""
 
 #. Default: "Item decision annexes"
@@ -1193,6 +1181,10 @@ msgstr ""
 
 #. Default: "Hide not viewable items to"
 msgid "PloneMeeting_label_hideNotViewableLinkedItemsTo"
+msgstr ""
+
+#. Default: "Historize advice if it was given and item is edited"
+msgid "PloneMeeting_label_historizeAdviceIfGivenAndItemModified"
 msgstr ""
 
 #. Default: "Historize item data when an advice is given"
@@ -1836,10 +1828,6 @@ msgstr "Restringir la categoría a los siguientes grupos"
 
 #. Default: "Default deadline for validating items for a given meeting"
 msgid "PloneMeeting_label_validationDeadlineDefault"
-msgstr ""
-
-#. Default: "Versionate advice if it was given and item is edited"
-msgid "PloneMeeting_label_versionateAdviceIfGivenAndItemModified"
 msgstr ""
 
 #. Default: "Vote condition"
@@ -3934,6 +3922,10 @@ msgstr "Esta página no está accesible. Los administradores de Reunión pronto 
 
 #. Default: "This will hide not viewable linked items to selected profiles instead of showing it with the \"You can not access this element\" warning."
 msgid "hide_not_viewable_linked_items_to_descr"
+msgstr ""
+
+#. Default: "When an advice is \"given\" and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically historized. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to historize advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is \"itemcreated\", a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is historized when the item is edited if necessary (so if it was not already historized since last advice edition).  If you have a specific state \"waiting advice\" where proposing group is not able to edit the item, this box may be left unchecked."
+msgid "historize_advice_if_given_and_item_modified_descr"
 msgstr ""
 
 #. Default: "When an advice is given, so when it switch to a state where adviser may not advice it anymore, it is historized.  If you chek this box, every relevant item data (title and rich text fields) will be historized together with the advice."
@@ -6087,6 +6079,34 @@ msgstr ""
 msgid "title_adopts_next_agenda_of"
 msgstr ""
 
+#. Default: "Advice official comment"
+msgid "title_advice_comment"
+msgstr ""
+
+#. Default: "Group"
+msgid "title_advice_group"
+msgstr ""
+
+#. Default: "Hide advice during redaction"
+msgid "title_advice_hide_during_redaction"
+msgstr ""
+
+#. Default: "Advice observations"
+msgid "title_advice_observations"
+msgstr ""
+
+#. Default: "Advice reference"
+msgid "title_advice_reference"
+msgstr ""
+
+#. Default: "Identifier (row_id)"
+msgid "title_advice_row_id"
+msgstr ""
+
+#. Default: "Advice type"
+msgid "title_advice_type"
+msgstr ""
+
 #. Default: "Approval date"
 msgid "title_approval_date"
 msgstr ""
@@ -6515,10 +6535,6 @@ msgstr ""
 
 #. Default: "Specify here the deadline for validating items to be inserted in a given meeting.  This is only relevant when field \"Deadline for validating items\" is enabled on meetings. Date is expressed relative to meeting date. For example, \"5.9:30\" (do not type quotes) means: \"5 days before the meeting date, at 9:30.\"."
 msgid "validation_deadline_default_descr"
-msgstr ""
-
-#. Default: "When an advice is \"given\" and no more editable by the advisers, so when it was set in a state where advisers may not edit it anymore, it is automatically versioned. Depending on the configuration, if advice may be given when the item is still editable by the proposing group, it may be necessary to versionate advice if it was given (but still editable by advisers) and the item was edited. For example, advices are giveable when item is \"itemcreated\", a state where item may still be edited by the proposing group. If it is the case, check this box, it will ensure that the advice is versioned when the item is edited if necessary (so if it was not already versioned since last advice edition).  If you have a specific state \"waiting advice\" where proposing group is not able to edit the item, this box may be left unchecked."
-msgid "versionate_advice_if_given_and_item_modified_descr"
 msgstr ""
 
 #. Default: "The advisers of the group that gave the advice"
