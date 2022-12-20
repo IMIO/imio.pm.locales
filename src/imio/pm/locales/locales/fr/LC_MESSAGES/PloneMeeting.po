@@ -59,6 +59,10 @@ msgstr "Ajouter un nouveau vote"
 msgid "Add organization outside \"My organization\""
 msgstr "Ajouter une organisation hors de \"Mon organisation\""
 
+#. Default: "Advice ${advice_label} given on item ${item_title}"
+msgid "Advice ${advice_label} given on item ${item_title}"
+msgstr "Avis \"${advice_label}\" rendu sur le point \"${item_title}\""
+
 #. Default: "Advice advanced management screen"
 msgid "Advice advanced management screen"
 msgstr "Écran de gestion avancé de l'avis"
@@ -90,10 +94,6 @@ msgstr "Le délai pour rendre l'avis \"${advice}\" a été remis à zéro."
 #. Default: "Advice given by"
 msgid "Advice given by"
 msgstr "Avis rendu par"
-
-#. Default: "Advice given on item ${item_title}"
-msgid "Advice given on item ${item_title}"
-msgstr "Avis rendu sur le point ${item_title}"
 
 #. Default: "Advice not deletable because it was already historized (if necessary ask a Manager to delete the advice)"
 msgid "Advice not deletable"
