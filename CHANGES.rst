@@ -19,6 +19,8 @@ Changelog
   [gbastien]
 - Added translation for `title_committees_committee_observations`.
   [gbastien]
+- Adapted translation for advice title to include advice label.
+  [gbastien]
 
 4.2b31 (2022-09-22)
 -------------------
