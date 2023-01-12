@@ -21,6 +21,8 @@ Changelog
   [gbastien]
 - Adapted translation for advice title to include advice label.
   [gbastien]
+- Completed translations regarding `committees editors` functionality.
+  [gbastien]
 
 4.2b31 (2022-09-22)
 -------------------
