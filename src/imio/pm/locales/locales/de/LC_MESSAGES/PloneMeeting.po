@@ -971,6 +971,10 @@ msgstr ""
 msgid "PloneMeeting_label_committeeObservations"
 msgstr ""
 
+#. Default: "Committee transcript"
+msgid "PloneMeeting_label_committeeTranscript"
+msgstr ""
+
 #. Default: "Committees"
 msgid "PloneMeeting_label_committees"
 msgstr ""
@@ -1290,6 +1294,14 @@ msgstr ""
 #. Default: "Columns to display in lists of items"
 msgid "PloneMeeting_label_itemColumns"
 msgstr "Anzuzeigende Spalten in TOP-Listen"
+
+#. Default: "Item committees states"
+msgid "PloneMeeting_label_itemCommitteesStates"
+msgstr ""
+
+#. Default: "Item committees view states"
+msgid "PloneMeeting_label_itemCommitteesViewStates"
+msgstr ""
 
 #. Default: "Interface allowing to use a specific Zope3 adapter for modifying the conditions defined on the transitions of the item workflow"
 msgid "PloneMeeting_label_itemConditionsInterface"
@@ -3369,8 +3381,16 @@ msgstr ""
 msgid "descr_config_field_reserved_to_meeting_managers"
 msgstr ""
 
+#. Default: "<span style='color: red;'>This field is only editable by committee editors but viewable by everyone</span>"
+msgid "descr_field_editable_by_committee_editors"
+msgstr ""
+
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "descr_field_reserved_to_meeting_managers"
+msgstr ""
+
+#. Default: "<span style='color: red;'>This field is only editable and viewable by committee editors</span>"
+msgid "descr_field_vieawable_by_committee_editors"
 msgstr ""
 
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
@@ -4336,6 +4356,14 @@ msgstr ""
 #, fuzzy
 msgid "item_columns_descr"
 msgstr "Wählen Sie hier die Spalten aus, die Sie bei den TOP-Listen anzeigen wollen (z.B., bei vordefinierten Listen wie 'Meine TOP' oder 'Alle TOP' oder bei der Erweiterten Suche)."
+
+#. Default: "When an item is in one of the states you choose here, it will be possible for the committee editors to access the item and edit the \"Committee observations\" and \"Committee transcript\" fields.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_committees_states_descr"
+msgstr ""
+
+#. Default: "When an item is in one of the states you choose here, it will be possible for the committee editors to access the item.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_committees_view_states_descr"
+msgstr ""
 
 #. Default: "Specify here if item looks complete.  If you select \"Incomplete\", you will be able to add a comment."
 msgid "item_completeness_descr"

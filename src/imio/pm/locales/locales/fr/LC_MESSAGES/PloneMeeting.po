@@ -967,6 +967,10 @@ msgstr "Classificateur"
 msgid "PloneMeeting_label_committeeObservations"
 msgstr "Observations pour les commissions"
 
+#. Default: "Committee transcript"
+msgid "PloneMeeting_label_committeeTranscript"
+msgstr "Procès-verbal des commissions"
+
 #. Default: "Committees"
 msgid "PloneMeeting_label_committees"
 msgstr "Commissions"
@@ -1286,6 +1290,14 @@ msgstr "États des points dans lesquels les \"Gestionnaires d'informations budg�
 #. Default: "Columns to display in lists of items"
 msgid "PloneMeeting_label_itemColumns"
 msgstr "Colonnes à afficher sur les listes de points"
+
+#. Default: "Item committees states"
+msgid "PloneMeeting_label_itemCommitteesStates"
+msgstr "États des points dans lesquels les éditeurs de commissions peuvent éditer"
+
+#. Default: "Item committees view states"
+msgid "PloneMeeting_label_itemCommitteesViewStates"
+msgstr "États des points dans lesquels les éditeurs de commissions peuvent continuer à les voir"
 
 #. Default: "Interface allowing to use a specific Zope3 adapter for modifying the conditions defined on the transitions of the item workflow"
 msgid "PloneMeeting_label_itemConditionsInterface"
@@ -3365,9 +3377,17 @@ msgstr "Ajoutez des double crochets [[ ]] autour des personnes absentes, par exe
 msgid "descr_config_field_reserved_to_meeting_managers"
 msgstr "<span style='color: red;'>ATTENTION, ce champ est géré par l'application et sa valeur sera \"-1\" tant que la séance n'aura pas été gelée. Ne changez cette valeur que si un décallage survient et prévenez votre administrateur système. Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
 
+#. Default: "<span style='color: red;'>This field is only editable by committee editors but viewable by everyone</span>"
+msgid "descr_field_editable_by_committee_editors"
+msgstr "<span style='color: red;'>Ce champ n'est éditable que par les éditeurs de commissions mais visible de tous</span>"
+
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "descr_field_reserved_to_meeting_managers"
 msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les gestionnaires de séances</span>"
+
+#. Default: "<span style='color: red;'>This field is only editable and viewable by committee editors</span>"
+msgid "descr_field_vieawable_by_committee_editors"
+msgstr "<span style='color: red;'>Ce champ n'est visible et éditable que par les éditeurs de commissions et gestionnaires de séances</span>"
 
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
 msgid "descr_field_vieawable_by_everyone"
@@ -4312,6 +4332,14 @@ msgstr " "
 #. Default: "Choose here which columns to display when listing items (ie, when requesting \"my items\", \"all items\", ... or when performing custom searches)."
 msgid "item_columns_descr"
 msgstr "Choisissez ici les colonnes à afficher sur les listes de points (par exemple, sur les listes prédéfinies comme \"mes points\" ou \"tous les points\" ou sur des résultats de recherches avancées).</span>"
+
+#. Default: "When an item is in one of the states you choose here, it will be possible for the committee editors to access the item and edit the \"Committee observations\" and \"Committee transcript\" fields.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_committees_states_descr"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera possible pour les éditeurs de commissions d'éditer les champs \"Observations pour les commissions\" et \"Procès-verbal des commissions\". <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter \"Mettre à jour les points et séances\"!</span>"
+
+#. Default: "When an item is in one of the states you choose here, it will be possible for the committee editors to access the item.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_committees_view_states_descr"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera toujours visible par les éditeurs de commissions. <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter \"Mettre à jour les points et séances\"!</span>"
 
 #. Default: "Specify here if item looks complete.  If you select \"Incomplete\", you will be able to add a comment."
 msgid "item_completeness_descr"

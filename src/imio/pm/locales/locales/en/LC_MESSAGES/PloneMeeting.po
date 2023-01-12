@@ -967,6 +967,10 @@ msgstr "Classifier"
 msgid "PloneMeeting_label_committeeObservations"
 msgstr "Observations for the committee"
 
+#. Default: "Committee transcript"
+msgid "PloneMeeting_label_committeeTranscript"
+msgstr ""
+
 #. Default: "Committees"
 msgid "PloneMeeting_label_committees"
 msgstr "Committees"
@@ -1286,6 +1290,14 @@ msgstr "Item states in which budget impact editors can change budgetary informat
 #. Default: "Columns to display in lists of items"
 msgid "PloneMeeting_label_itemColumns"
 msgstr "Columns to display in lists of items"
+
+#. Default: "Item committees states"
+msgid "PloneMeeting_label_itemCommitteesStates"
+msgstr ""
+
+#. Default: "Item committees view states"
+msgid "PloneMeeting_label_itemCommitteesViewStates"
+msgstr ""
 
 #. Default: "Interface allowing to use a specific Zope3 adapter for modifying the conditions defined on the transitions of the item workflow"
 msgid "PloneMeeting_label_itemConditionsInterface"
@@ -3349,9 +3361,17 @@ msgstr "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do 
 msgid "descr_config_field_reserved_to_meeting_managers"
 msgstr "<span style='color: red;'>WARNING, this field is managed by the application and it's value will be \"-1\" until the meeting is frozen, then it will be computed automatically. Do only change it manually when necessary (in general this should never happen). This field is only editable and viewable by meeting managers</span>"
 
+#. Default: "<span style='color: red;'>This field is only editable by committee editors but viewable by everyone</span>"
+msgid "descr_field_editable_by_committee_editors"
+msgstr ""
+
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "descr_field_reserved_to_meeting_managers"
 msgstr "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
+
+#. Default: "<span style='color: red;'>This field is only editable and viewable by committee editors</span>"
+msgid "descr_field_vieawable_by_committee_editors"
+msgstr ""
 
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
 msgid "descr_field_vieawable_by_everyone"
@@ -4290,6 +4310,14 @@ msgstr " "
 #. Default: "Choose here which columns to display when listing items (ie, when requesting \"my items\", \"all items\", ... or when performing custom searches)."
 msgid "item_columns_descr"
 msgstr "Choose here which columns to display when listing items (ie, when requesting \"my items\", \"all items\", ... or when performing custom searches)."
+
+#. Default: "When an item is in one of the states you choose here, it will be possible for the committee editors to access the item and edit the \"Committee observations\" and \"Committee transcript\" fields.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_committees_states_descr"
+msgstr ""
+
+#. Default: "When an item is in one of the states you choose here, it will be possible for the committee editors to access the item.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_committees_view_states_descr"
+msgstr ""
 
 #. Default: "Specify here if item looks complete.  If you select \"Incomplete\", you will be able to add a comment."
 msgid "item_completeness_descr"

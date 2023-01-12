@@ -6849,3 +6849,31 @@ msgstr ""
 #. Default: "${label} - Committee editors"
 msgid "committee_editors_group_title"
 msgstr ""
+
+#. Default: "Committee transcript"
+msgid "PloneMeeting_label_committeeTranscript"
+msgstr ""
+
+#. Default: "<span style='color: red;'>This field is only editable and viewable by committee editors</span>"
+msgid "descr_field_vieawable_by_committee_editors"
+msgstr ""
+
+#. Default: "<span style='color: red;'>This field is only editable by committee editors but viewable by everyone</span>"
+msgid "descr_field_editable_by_committee_editors"
+msgstr ""
+
+#. Default: "Item committees states"
+msgid "PloneMeeting_label_itemCommitteesStates"
+msgstr ""
+
+#. Default: "When an item is in one of the states you choose here, it will be possible for the committee editors to access the item and edit the \"Committee observations\" and \"Committee transcript\" fields.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_committees_states_descr"
+msgstr ""
+
+#. Default: "Item committees view states"
+msgid "PloneMeeting_label_itemCommitteesViewStates"
+msgstr ""
+
+#. Default: "When an item is in one of the states you choose here, it will be possible for the committee editors to access the item.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_committees_view_states_descr"
+msgstr ""
