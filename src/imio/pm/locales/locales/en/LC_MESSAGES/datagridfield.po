@@ -46,6 +46,10 @@ msgstr "Committee default signatories"
 msgid "Committee default signatures"
 msgstr "Committee default signatures"
 
+#. Default: "Committee editors group enabled?"
+msgid "Committee editors group enabled?"
+msgstr ""
+
 #. Default: "Committee enabled?"
 msgid "Committee enabled?"
 msgstr "Committee enabled?"
@@ -385,6 +389,10 @@ msgstr "Used when creating a new meeting if field \"Signatories\" is enabled for
 #. Default: "Used when creating a new meeting if field \"Signatures\" is enabled for committees, does not impact already created meetings."
 msgid "committees_default_signatures_col_description"
 msgstr "Used when creating a new meeting if field \"Signatures\" is enabled for committees, does not impact already created meetings."
+
+#. Default: "When enabled, a Plone group is created and users of this group will be able to edit \"Committee\" related fields on the item."
+msgid "committees_enable_editors_col_description"
+msgstr ""
 
 #. Default: "When selecting \"Item only\" the value will only be selectable on items but not on meetings."
 msgid "committees_enabled_col_description"

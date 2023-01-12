@@ -47,6 +47,10 @@ msgstr "Signataires par défaut"
 msgid "Committee default signatures"
 msgstr "Signatures par défaut"
 
+#. Default: "Committee editors group enabled?"
+msgid "Committee editors group enabled?"
+msgstr "Éditeurs de commissions activé?"
+
 #. Default: "Committee enabled?"
 msgid "Committee enabled?"
 msgstr "Activé?"
@@ -386,6 +390,10 @@ msgstr "Utilisé à la création d'une nouvelle séance si la paramère \"Signat
 #. Default: "Used when creating a new meeting if field \"Signatures\" is enabled for committees, does not impact already created meetings."
 msgid "committees_default_signatures_col_description"
 msgstr "Utilisé à la création d'une nouvelle séance si la paramère \"Signatures (committees_signatures)\" est activé sur les séances. N'impacte pas les séances déjà créées."
+
+#. Default: "When enabled, a Plone group is created and users of this group will be able to edit \"Committee\" related fields on the item."
+msgid "committees_enable_editors_col_description"
+msgstr "Si activé, un groupe sera créé, les membres de ce groupe pourront éditer les champs \"Observations pour les commissions\" et \"Procès-verbal des commissions\" sur les points utilisant cette commission."
 
 #. Default: "When selecting \"Item only\" the value will only be selectable on items but not on meetings."
 msgid "committees_enabled_col_description"
