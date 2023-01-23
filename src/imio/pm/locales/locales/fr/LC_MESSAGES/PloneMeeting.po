@@ -764,12 +764,12 @@ msgid "None"
 msgstr "Aucun"
 
 #. Default: "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
-msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
-msgstr "Impossible d'ajouter un vote lié car des valeurs incompatibles ont déjà été encodées sur le vote courant"
+msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote or poll type for current vote was redefined"
+msgstr "Impossible d'ajouter un vote lié car des valeurs incompatibles ont déjà été encodées sur le vote courant ou le \"Mode de scrutin\" a été redéfini pour le vote courant"
 
 #. Default: "Not available when using several votes on same item."
 msgid "Not available when using several votes on same item."
-msgstr "Non disponibles lorsque plusieurs votes sont définis sur le point."
+msgstr "Non disponible lorsque plusieurs votes sont définis sur le point ou si le \"Mode de scrutin\" a été redéfini sur le vote."
 
 #. Default: "Not completed votes"
 msgid "Not completed votes"

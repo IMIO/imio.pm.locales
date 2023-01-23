@@ -23,6 +23,8 @@ Changelog
   [gbastien]
 - Completed translations regarding `committees editors` functionality.
   [gbastien]
+- Adapted translations regarind `per vote poll_type` functionnality.
+  [gbastien]
 
 4.2b31 (2022-09-22)
 -------------------
