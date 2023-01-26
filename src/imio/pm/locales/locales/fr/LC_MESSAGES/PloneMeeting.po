@@ -2838,6 +2838,14 @@ msgstr "Vous ne pouvez pas sélectionner des utilisateurs pour différents types
 msgid "can_not_switch_polltype_votes_encoded"
 msgstr "Vous ne pouvez pas changer le mode de scrutin (public/secret/pas de vote) car des votes ont déjà été encodés!  Supprimez les votes encodés y compris le premier vote avant de pouvoir changer le mode de scrutin."
 
+#. Default: "Can not switch a vote poll type (no vote/public/secret) as this vote is par of linked votes. Please delete this vote using the \"Trash\" icon and change the \"Poll type\" before linking votes together."
+msgid "can_not_switch_vote_polltype_linked_to_previous"
+msgstr "Vous ne pouvez pas changer le mode de scrutin (public/secret/pas de vote) de ce vote car il fait partie de votes liés!  Supprimez les votes liés et changez le \"Mode de scrutin\" avant de lier les votes."
+
+#. Default: "Can not switch a vote poll type (no vote/public/secret) as this vote is already encoded!  Please delete this vote using the \"Trash\" icon if you want to change the \"Poll type\"."
+msgid "can_not_switch_vote_polltype_votes_encoded"
+msgstr "Vous ne pouvez pas changer le mode de scrutin (public/secret/pas de vote) car ce vote a déjà été encodé!  Supprimez le vote et changez le \"Mode de scrutin\" avant d'encoder les votes."
+
 #. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
 msgid "can_not_unselect_already_given_advice"
 msgstr "Vous ne pouvez pas désélectionner un avis optionnel qui a déjà été rendu.  Vérifiez l'avis \"${removedAdviser}\"."

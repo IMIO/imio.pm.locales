@@ -6118,6 +6118,14 @@ msgstr ""
 msgid "can_not_switch_polltype_votes_encoded"
 msgstr ""
 
+#. Default: "Can not switch a vote poll type (no vote/public/secret) as this vote is already encoded!  Please delete this vote using the \"Trash\" icon if you want to change the \"Poll type\"."
+msgid "can_not_switch_vote_polltype_votes_encoded"
+msgstr ""
+
+#. Default: "Can not switch a vote poll type (no vote/public/secret) as this vote is par of linked votes. Please delete this vote using the \"Trash\" icon and change the \"Poll type\" before linking votes together."
+msgid "can_not_switch_vote_polltype_linked_to_previous"
+msgstr ""
+
 #. Default: "Total number of voters"
 msgid "number_of_voters"
 msgstr ""
