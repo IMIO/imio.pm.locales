@@ -768,7 +768,7 @@ msgid "None"
 msgstr ""
 
 #. Default: "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
-msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
+msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote or poll type for current vote was redefined"
 msgstr ""
 
 #. Default: "Not available when using several votes on same item."
@@ -2849,6 +2849,14 @@ msgstr ""
 
 #. Default: "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
 msgid "can_not_switch_polltype_votes_encoded"
+msgstr ""
+
+#. Default: "Can not switch a vote poll type (no vote/public/secret) as this vote is par of linked votes. Please delete this vote using the \"Trash\" icon and change the \"Poll type\" before linking votes together."
+msgid "can_not_switch_vote_polltype_linked_to_previous"
+msgstr ""
+
+#. Default: "Can not switch a vote poll type (no vote/public/secret) as this vote is already encoded!  Please delete this vote using the \"Trash\" icon if you want to change the \"Poll type\"."
+msgid "can_not_switch_vote_polltype_votes_encoded"
 msgstr ""
 
 #. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."

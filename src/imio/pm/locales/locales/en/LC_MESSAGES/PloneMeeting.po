@@ -61,7 +61,7 @@ msgstr "Add organization outside \"My organization\""
 
 #. Default: "Advice ${advice_label} given on item ${item_title}"
 msgid "Advice ${advice_label} given on item ${item_title}"
-msgstr ""
+msgstr "Advice ${advice_label} given on item ${item_title}"
 
 #. Default: "Advice advanced management screen"
 msgid "Advice advanced management screen"
@@ -764,7 +764,7 @@ msgid "None"
 msgstr "None"
 
 #. Default: "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
-msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
+msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote or poll type for current vote was redefined"
 msgstr "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
 
 #. Default: "Not available when using several votes on same item."
@@ -969,7 +969,7 @@ msgstr "Observations for the committee"
 
 #. Default: "Committee transcript"
 msgid "PloneMeeting_label_committeeTranscript"
-msgstr ""
+msgstr "Committee transcript"
 
 #. Default: "Committees"
 msgid "PloneMeeting_label_committees"
@@ -1293,11 +1293,11 @@ msgstr "Columns to display in lists of items"
 
 #. Default: "Item committees states"
 msgid "PloneMeeting_label_itemCommitteesStates"
-msgstr ""
+msgstr "Item committees states"
 
 #. Default: "Item committees view states"
 msgid "PloneMeeting_label_itemCommitteesViewStates"
-msgstr ""
+msgstr "Item committees view states"
 
 #. Default: "Interface allowing to use a specific Zope3 adapter for modifying the conditions defined on the transitions of the item workflow"
 msgid "PloneMeeting_label_itemConditionsInterface"
@@ -2822,6 +2822,14 @@ msgstr "You can not select userids for same advisers group.  Select userids for 
 msgid "can_not_switch_polltype_votes_encoded"
 msgstr "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
 
+#. Default: "Can not switch a vote poll type (no vote/public/secret) as this vote is par of linked votes. Please delete this vote using the \"Trash\" icon and change the \"Poll type\" before linking votes together."
+msgid "can_not_switch_vote_polltype_linked_to_previousCan not switch a vote poll type (no vote/public/secret) as this vote is par of linked votes. Please delete this vote using the \"Trash\" icon and change the \"Poll type\" before linking votes together."
+msgstr "Can not switch a vote poll type (no vote/public/secret) as this vote is par of linked votes. Please delete this vote using the \"Trash\" icon and change the \"Poll type\" before linking votes together."
+
+#. Default: "Can not switch a vote poll type (no vote/public/secret) as this vote is already encoded!  Please delete this vote using the \"Trash\" icon if you want to change the \"Poll type\"."
+msgid "can_not_switch_vote_polltype_votes_encoded"
+msgstr "Can not switch a vote poll type (no vote/public/secret) as this vote is already encoded!  Please delete this vote using the \"Trash\" icon if you want to change the \"Poll type\"."
+
 #. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
 msgid "can_not_unselect_already_given_advice"
 msgstr "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
@@ -3020,7 +3028,7 @@ msgstr "Your configuration says can not correct this closed meeting, contact you
 
 #. Default: "${label} - Committee editors"
 msgid "committee_editors_group_title"
-msgstr ""
+msgstr "${label} - Committee editors"
 
 #. Default: "${title} (${number} s.)"
 msgid "committee_title_with_abbr_suppl"
@@ -3363,7 +3371,7 @@ msgstr "<span style='color: red;'>WARNING, this field is managed by the applicat
 
 #. Default: "<span style='color: red;'>This field is only editable by committee editors but viewable by everyone</span>"
 msgid "descr_field_editable_by_committee_editors"
-msgstr ""
+msgstr "<span style='color: red;'>This field is only editable by committee editors but viewable by everyone</span>"
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by meeting managers</span>"
 msgid "descr_field_reserved_to_meeting_managers"
@@ -3371,7 +3379,7 @@ msgstr "<span style='color: red;'>This field is only editable and viewable by me
 
 #. Default: "<span style='color: red;'>This field is only editable and viewable by committee editors</span>"
 msgid "descr_field_vieawable_by_committee_editors"
-msgstr ""
+msgstr "<span style='color: red;'>This field is only editable and viewable by committee editors</span>"
 
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone</span>"
 msgid "descr_field_vieawable_by_everyone"
@@ -4313,11 +4321,11 @@ msgstr "Choose here which columns to display when listing items (ie, when reques
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for the committee editors to access the item and edit the \"Committee observations\" and \"Committee transcript\" fields.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 msgid "item_committees_states_descr"
-msgstr ""
+msgstr "When an item is in one of the states you choose here, it will be possible for the committee editors to access the item and edit the \"Committee observations\" and \"Committee transcript\" fields.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for the committee editors to access the item.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 msgid "item_committees_view_states_descr"
-msgstr ""
+msgstr "When an item is in one of the states you choose here, it will be possible for the committee editors to access the item.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 
 #. Default: "Specify here if item looks complete.  If you select \"Incomplete\", you will be able to add a comment."
 msgid "item_completeness_descr"
@@ -5683,11 +5691,11 @@ msgstr "Searches defined here are used in the main portlet. We recommand not mod
 
 #. Default: "Items of my committees"
 msgid "searchitemsofmycommittees"
-msgstr ""
+msgstr "Items of my committees"
 
 #. Default: "Items of my committees editable"
 msgid "searchitemsofmycommitteeseditable"
-msgstr ""
+msgstr "Items of my committees editable"
 
 #. Default: "Items of my groups"
 msgid "searchitemsofmygroups"
