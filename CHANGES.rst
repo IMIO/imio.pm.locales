@@ -25,6 +25,8 @@ Changelog
   [gbastien]
 - Adapted translations regarding `per vote poll_type` functionality.
   [gbastien]
+- Added translations for the `MeetingItem.votesResult` functionnality.
+  [gbastien]
 
 4.2b31 (2022-09-22)
 -------------------

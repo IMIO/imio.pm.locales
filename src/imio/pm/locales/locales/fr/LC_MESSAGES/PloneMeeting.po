@@ -1840,6 +1840,10 @@ msgstr "Qui encode les votes?"
 msgid "PloneMeeting_label_votesObservations"
 msgstr "Observations pour les votes"
 
+#. Default: "Votes result"
+msgid "PloneMeeting_label_votesResult"
+msgstr "Résultat du vote"
+
 #. Default: "Workflow adaptation(s)"
 msgid "PloneMeeting_label_workflowAdaptations"
 msgstr "Adaptation(s) aux workflows"
@@ -6595,9 +6599,25 @@ msgstr "Il y a ${numberOfVoters} votants pour ce point"
 msgid "votes"
 msgstr "Votes"
 
+#. Default: "Votes result (repeated un-editable field after field \"decisionEnd\")"
+msgid "votesResult_after_decisionEnd"
+msgstr "Résultat du vote: champ répété non-éditable, affiché après le champ \"Décision (fin)\""
+
+#. Default: "Votes result (repeated un-editable field after field \"motivation\")"
+msgid "votesResult_after_motivation"
+msgstr "Résultat du vote: champ répété non-éditable, affiché après le champ \"Motivation\""
+
+#. Default: "Editable in "Assembly and signatures" here above"
+msgid "votesResult_collapsible_field_comment"
+msgstr "Éditable dans la zone \"Assemblée et Signatures\" ci-dessus"
+
 #. Default: "You can choose here who will effectively encode the votes. Several choices are possible."
 msgid "votes_encoder_descr"
 msgstr "Vous pouvez choisir ici qui va effectivement encoder les votes. Plusieurs choix sont possibles."
+
+#. Default: "This field will hold a generated text but is editable when necessary."
+msgid "votes_result_descr"
+msgstr "Ce champ contient une version générée des résultats du vote, mais si nécessaire, vous pouvez l'éditer.  Videz le champ et enregistrez pour retourner à la version du texte généré."
 
 #. Default: "Accepted but modified"
 msgid "wa_accepted_but_modified"
