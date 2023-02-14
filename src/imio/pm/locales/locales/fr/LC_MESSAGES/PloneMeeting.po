@@ -1085,7 +1085,7 @@ msgstr "Afficher les points disponibles sur une séance aux"
 
 #. Default: "Display voting group"
 msgid "PloneMeeting_label_displayVotingGroup"
-msgstr "Afficher le \"Groupe votant\""
+msgstr "Afficher le \"Groupe votant\"?"
 
 #. Default: "Emergency"
 msgid "PloneMeeting_label_emergency"
@@ -1843,6 +1843,10 @@ msgstr "Observations pour les votes"
 #. Default: "Votes result"
 msgid "PloneMeeting_label_votesResult"
 msgstr "Résultat du vote"
+
+#. Default: "Votes result TAL expression"
+msgid "PloneMeeting_label_votesResultTALExpr"
+msgstr "Texte généré pour le résultat du vote"
 
 #. Default: "Workflow adaptation(s)"
 msgid "PloneMeeting_label_workflowAdaptations"
@@ -6618,6 +6622,10 @@ msgstr "Vous pouvez choisir ici qui va effectivement encoder les votes. Plusieur
 #. Default: "This field will hold a generated text but is editable when necessary."
 msgid "votes_result_descr"
 msgstr "Ce champ contient une version générée des résultats du vote, mais si nécessaire, vous pouvez l'éditer.  Videz le champ et enregistrez pour retourner à la version du texte généré."
+
+#. Default: "Votes result TAL expression description"
+msgid "votes_result_tal_expr_descr"
+msgstr "Encodez une expression TAL qui permet de générer une version texte du résultat du vote.  Ce texte sera repris automatiquement dans le champ \"Résultat du vote\" du point."
 
 #. Default: "Accepted but modified"
 msgid "wa_accepted_but_modified"
