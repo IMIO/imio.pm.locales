@@ -220,6 +220,18 @@ msgstr ""
 msgid "oral_question_item_descr"
 msgstr ""
 
+#. Default: "Votes result"
+msgid "PloneMeeting_label_votesResult"
+msgstr ""
+
+#. Default: "This field will hold a generated text but is editable when necessary."
+msgid "votes_result_descr"
+msgstr ""
+
+#. Default: "Editable in \"Assembly and signatures\" here above"
+msgid "votesResult_collapsible_field_comment"
+msgstr ""
+
 #. Default: "Internal notes"
 msgid "PloneMeeting_label_internalNotes"
 msgstr ""
@@ -6892,4 +6904,24 @@ msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for the committee editors to access the item.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 msgid "item_committees_view_states_descr"
+msgstr ""
+
+#. Default: "Votes result (repeated un-editable field after field \"motivation\")"
+msgid "votesResult_after_motivation"
+msgstr ""
+
+#. Default: "Votes result (repeated un-editable field after field \"decisionEnd\")"
+msgid "votesResult_after_decisionEnd"
+msgstr ""
+
+#. Default: "Votes result TAL expression"
+msgid "PloneMeeting_label_votesResultTALExpr"
+msgstr ""
+
+#. Default: "Votes result TAL expression description"
+msgid "votes_result_tal_expr_descr"
+msgstr ""
+
+#. Default: "Votes result is not HTML"
+msgid "votes_result_not_html"
 msgstr ""

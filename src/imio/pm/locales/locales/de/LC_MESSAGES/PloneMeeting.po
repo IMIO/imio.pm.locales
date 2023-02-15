@@ -1852,6 +1852,14 @@ msgstr "Wer pflegt die Abstimmungen ein?"
 msgid "PloneMeeting_label_votesObservations"
 msgstr ""
 
+#. Default: "Votes result"
+msgid "PloneMeeting_label_votesResult"
+msgstr ""
+
+#. Default: "Votes result TAL expression"
+msgid "PloneMeeting_label_votesResultTALExpr"
+msgstr ""
+
 #. Default: "Workflow adaptation(s)"
 msgid "PloneMeeting_label_workflowAdaptations"
 msgstr "Anpassung(en) der Workflows"
@@ -6658,9 +6666,33 @@ msgstr "${numberOfVoters} Stimmberechtigte"
 msgid "votes"
 msgstr "Abstimmungen"
 
+#. Default: "Votes result (repeated un-editable field after field \"decisionEnd\")"
+msgid "votesResult_after_decisionEnd"
+msgstr ""
+
+#. Default: "Votes result (repeated un-editable field after field \"motivation\")"
+msgid "votesResult_after_motivation"
+msgstr ""
+
+#. Default: "Editable in \"Assembly and signatures\" here above"
+msgid "votesResult_collapsible_field_comment"
+msgstr ""
+
 #. Default: "You can choose here who will effectively encode the votes. Several choices are possible."
 msgid "votes_encoder_descr"
 msgstr "Sie können hier auswählen wer letzendlich die Abstimmungen einpflegt. Mehrfachauswahl ist möglich."
+
+#. Default: "This field will hold a generated text but is editable when necessary."
+msgid "votes_result_descr"
+msgstr ""
+
+#. Default: "Votes result is not HTML"
+msgid "votes_result_not_html"
+msgstr ""
+
+#. Default: "Votes result TAL expression description"
+msgid "votes_result_tal_expr_descr"
+msgstr ""
 
 #. Default: "Accepted but modified"
 msgid "wa_accepted_but_modified"

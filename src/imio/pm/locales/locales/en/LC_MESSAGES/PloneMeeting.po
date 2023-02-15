@@ -1840,6 +1840,14 @@ msgstr "Who does encode the votes?"
 msgid "PloneMeeting_label_votesObservations"
 msgstr "Observations for the votes"
 
+#. Default: "Votes result"
+msgid "PloneMeeting_label_votesResult"
+msgstr "Votes result"
+
+#. Default: "Votes result TAL expression"
+msgid "PloneMeeting_label_votesResultTALExpr"
+msgstr "Votes result TAL expression"
+
 #. Default: "Workflow adaptation(s)"
 msgid "PloneMeeting_label_workflowAdaptations"
 msgstr "Workflow adaptation(s)"
@@ -2823,7 +2831,7 @@ msgid "can_not_switch_polltype_votes_encoded"
 msgstr "Can not switch vote type (no vote/public/secret) as votes are already encoded on item!  Please delete every votes, including first one using the \"Trash\" icon."
 
 #. Default: "Can not switch a vote poll type (no vote/public/secret) as this vote is par of linked votes. Please delete this vote using the \"Trash\" icon and change the \"Poll type\" before linking votes together."
-msgid "can_not_switch_vote_polltype_linked_to_previousCan not switch a vote poll type (no vote/public/secret) as this vote is par of linked votes. Please delete this vote using the \"Trash\" icon and change the \"Poll type\" before linking votes together."
+msgid "can_not_switch_vote_polltype_linked_to_previous"
 msgstr "Can not switch a vote poll type (no vote/public/secret) as this vote is par of linked votes. Please delete this vote using the \"Trash\" icon and change the \"Poll type\" before linking votes together."
 
 #. Default: "Can not switch a vote poll type (no vote/public/secret) as this vote is already encoded!  Please delete this vote using the \"Trash\" icon if you want to change the \"Poll type\"."
@@ -6567,9 +6575,33 @@ msgstr "There are ${numberOfVoters} voters for this item."
 msgid "votes"
 msgstr "Votes"
 
+#. Default: "Votes result (repeated un-editable field after field \"decisionEnd\")"
+msgid "votesResult_after_decisionEnd"
+msgstr "Votes result (repeated un-editable field after field \"decisionEnd\")"
+
+#. Default: "Votes result (repeated un-editable field after field \"motivation\")"
+msgid "votesResult_after_motivation"
+msgstr "Votes result (repeated un-editable field after field \"motivation\")"
+
+#. Default: "Editable in \"Assembly and signatures\" here above"
+msgid "votesResult_collapsible_field_comment"
+msgstr "Editable in \"Assembly and signatures\" here above"
+
 #. Default: "You can choose here who will effectively encode the votes. Several choices are possible."
 msgid "votes_encoder_descr"
 msgstr "You can choose here who will effectively encode the votes. Several choices are possible."
+
+#. Default: "This field will hold a generated text but is editable when necessary."
+msgid "votes_result_descr"
+msgstr "This field will hold a generated text but is editable when necessary."
+
+#. Default: "Votes result is not HTML"
+msgid "votes_result_not_html"
+msgstr "Votes result is not HTML"
+
+#. Default: "Votes result TAL expression description"
+msgid "votes_result_tal_expr_descr"
+msgstr "Votes result TAL expression description"
 
 #. Default: "Accepted but modified"
 msgid "wa_accepted_but_modified"
