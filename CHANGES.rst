@@ -25,7 +25,7 @@ Changelog
   [gbastien]
 - Adapted translations regarding `per vote poll_type` functionality.
   [gbastien]
-- Added translations for the `MeetingItem.votesResult` functionnality.
+- Added translations for the `MeetingItem.votesResult` functionality.
   [gbastien]
 
 4.2b31 (2022-09-22)
@@ -623,7 +623,7 @@ Changelog
 
 - Added translation for IPMHeldPosition.position description.
 - Added translations for new inserting method 'on_all_associated_groups' and related changes (MeetingConfig.orderedAssociatedOrganizations).
-- Added translations for MeetingItem.groupsInCharge and MeetingConfig.orderedGroupsInCharge fields and functionnalities.
+- Added translations for MeetingItem.groupsInCharge and MeetingConfig.orderedGroupsInCharge fields and functionalities.
 - Use same ${item_url} for messages can_not_delete_organization_meetingitem and can_not_delete_organization_config_meetingitem.
 
 4.1rc1 (2019-06-11)
