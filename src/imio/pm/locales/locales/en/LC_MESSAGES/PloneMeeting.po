@@ -1842,11 +1842,11 @@ msgstr "Observations for the votes"
 
 #. Default: "Votes result"
 msgid "PloneMeeting_label_votesResult"
-msgstr ""
+msgstr "Votes result"
 
 #. Default: "Votes result TAL expression"
 msgid "PloneMeeting_label_votesResultTALExpr"
-msgstr ""
+msgstr "Votes result TAL expression"
 
 #. Default: "Workflow adaptation(s)"
 msgid "PloneMeeting_label_workflowAdaptations"
@@ -6577,15 +6577,15 @@ msgstr "Votes"
 
 #. Default: "Votes result (repeated un-editable field after field \"decisionEnd\")"
 msgid "votesResult_after_decisionEnd"
-msgstr ""
+msgstr "Votes result (repeated un-editable field after field \"decisionEnd\")"
 
 #. Default: "Votes result (repeated un-editable field after field \"motivation\")"
 msgid "votesResult_after_motivation"
-msgstr ""
+msgstr "Votes result (repeated un-editable field after field \"motivation\")"
 
-#. Default: "Editable in "Assembly and signatures" here above"
+#. Default: "Editable in \"Assembly and signatures\" here above"
 msgid "votesResult_collapsible_field_comment"
-msgstr ""
+msgstr "Editable in \"Assembly and signatures\" here above"
 
 #. Default: "You can choose here who will effectively encode the votes. Several choices are possible."
 msgid "votes_encoder_descr"
@@ -6593,11 +6593,15 @@ msgstr "You can choose here who will effectively encode the votes. Several choic
 
 #. Default: "This field will hold a generated text but is editable when necessary."
 msgid "votes_result_descr"
-msgstr ""
+msgstr "This field will hold a generated text but is editable when necessary."
+
+#. Default: "Votes result is not HTML"
+msgid "votes_result_not_html"
+msgstr "Votes result is not HTML"
 
 #. Default: "Votes result TAL expression description"
 msgid "votes_result_tal_expr_descr"
-msgstr ""
+msgstr "Votes result TAL expression description"
 
 #. Default: "Accepted but modified"
 msgid "wa_accepted_but_modified"

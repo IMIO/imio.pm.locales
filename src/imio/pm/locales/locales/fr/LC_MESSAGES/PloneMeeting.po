@@ -6611,7 +6611,8 @@ msgstr "Résultat du vote: champ répété non-éditable, affiché après le cha
 msgid "votesResult_after_motivation"
 msgstr "Résultat du vote: champ répété non-éditable, affiché après le champ \"Motivation\""
 
-#. Default: "Editable in "Assembly and signatures" here above"
+#. Default: "Editable in \"Assembly and signatures\" here above"
+#, fuzzy
 msgid "votesResult_collapsible_field_comment"
 msgstr "Éditable dans la zone \"Assemblée et Signatures\" ci-dessus"
 
@@ -6622,6 +6623,10 @@ msgstr "Vous pouvez choisir ici qui va effectivement encoder les votes. Plusieur
 #. Default: "This field will hold a generated text but is editable when necessary."
 msgid "votes_result_descr"
 msgstr "Ce champ contient une version générée des résultats du vote, mais si nécessaire, vous pouvez l'éditer.  Videz le champ et enregistrez pour retourner à la version du texte généré."
+
+#. Default: "Votes result is not HTML"
+msgid "votes_result_not_html"
+msgstr "Le texte généré pour le champ \"Résultat du vote\" doit être au format HTML!"
 
 #. Default: "Votes result TAL expression description"
 msgid "votes_result_tal_expr_descr"
