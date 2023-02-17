@@ -6740,6 +6740,10 @@ msgstr "Pré-validation des points"
 msgid "wa_pre_validation_keep_reviewer_permissions"
 msgstr "Pré-validation des points (un validateur peut aussi pré-valider)"
 
+#. Default: "The workflow adaptation \"${wfa_back_from_title}\" is no more available!"
+msgid "wa_presented_back_to_wrong_itemWFValidationLevels"
+msgstr "L'adaptation \"${wfa_back_from_title}\" n'est plus disponible!"
+
 #. Default: "If you select the \"Send a Presented\" item back to state \"Pre-validated\" then you need to select the \"Item pre-validation\" or \"Item pre-validation (reviewer may also prevalidate)\" workflow adaptation as well."
 msgid "wa_presented_item_back_to_prevalidated_needs_pre_validation_error"
 msgstr "Si vous sélectionnez \"Renvoyer un point \"Présenté\" dans l'état \"Pré-validé\"\" alors vous devez également sélectionner \"Pré-validation des points\" ou \"Pré-validation des points (un validateur peut aussi pré-valider)\""

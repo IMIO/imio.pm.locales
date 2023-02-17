@@ -27,6 +27,8 @@ Changelog
   [gbastien]
 - Added translations for the `MeetingItem.votesResult` functionality.
   [gbastien]
+- Added missing translation for `wa_presented_back_to_wrong_itemWFValidationLevels`.
+  [gbastien]
 
 4.2b31 (2022-09-22)
 -------------------
