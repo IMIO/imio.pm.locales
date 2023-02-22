@@ -29,6 +29,8 @@ Changelog
   [gbastien]
 - Added missing translation for `wa_presented_back_to_wrong_itemWFValidationLevels`.
   [gbastien]
+- Added translations regarding `MeetingConfig.itemObserversStates`.
+  [gbastien]
 
 4.2b31 (2022-09-22)
 -------------------
