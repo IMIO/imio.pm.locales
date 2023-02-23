@@ -204,10 +204,6 @@ msgstr ""
 msgid "Back to the item"
 msgstr ""
 
-#. Default: "Can not close a meeting containing items returned to proposing group!"
-msgid "Can not close a meeting containing items returned to proposing group!"
-msgstr ""
-
 #. Default: "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
 msgid "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
 msgstr ""
@@ -222,6 +218,10 @@ msgstr ""
 
 #. Default: "Can not set ${not_present_type} a person that voted on an item!"
 msgid "Can not set ${not_present_type} a person that voted on an item!"
+msgstr ""
+
+#. Default: "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
+msgid "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
 msgstr ""
 
 #. Default: "Can not set absent a person selected as excused on an item!"
@@ -3952,6 +3952,10 @@ msgstr ""
 msgid "hide_css_classes_to_descr"
 msgstr ""
 
+#. Default: "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
+msgid "hide_decisions_when_under_writing_check_returned_to_proposing_group"
+msgstr ""
+
 #. Default: "Hide links to the history in various place (item, meeting and advice view, dashboards, ...)."
 msgid "hide_history_to_descr"
 msgstr ""
@@ -6787,7 +6791,8 @@ msgstr ""
 msgid "wa_dependencies"
 msgstr ""
 
-#. Default: "Hide the decision to the proposing group when it is under writing"
+#. Default: "Hide the decision to the proposing group when it is under writing (base)"
+#, fuzzy
 msgid "wa_hide_decisions_when_under_writing"
 msgstr "Ocultar la decisión al grupo proponente cuando está bajo redacción"
 

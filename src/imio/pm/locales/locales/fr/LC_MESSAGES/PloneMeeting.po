@@ -200,10 +200,6 @@ msgstr "Retourner sur la Configuration de séance"
 msgid "Back to the item"
 msgstr "Retourner sur le point"
 
-#. Default: "Can not close a meeting containing items returned to proposing group!"
-msgid "Can not close a meeting containing items returned to proposing group!"
-msgstr "Une séance contenant des points \"À corriger\" ne peut pas être clôturée!"
-
 #. Default: "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
 msgid "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
 msgstr "Une configuration de séance renseignée dans une autre ne peut pas être désactivée! Vérifiez le champ \"${field_title}\" de la configuration de séance \"${other_cfg_title}\"!"
@@ -219,6 +215,10 @@ msgstr "Impossible de définir un membre \"${not_present_type}\" s'il n'est pas 
 #. Default: "Can not set ${not_present_type} a person that voted on an item!"
 msgid "Can not set ${not_present_type} a person that voted on an item!"
 msgstr "Impossible de définir un membre \"${not_present_type}\" s'il a déjà voté sur le point!"
+
+#. Default: "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
+msgid "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
+msgstr "Impossible de mettre une séance en \"${new_state_title}\" si elle contient encore des points \"À corriger\"!"
 
 #. Default: "Can not set absent a person selected as excused on an item!"
 msgid "Can not set absent a person selected as excused on an item!"
@@ -3911,6 +3911,10 @@ msgstr "Caché pendant la rédaction de l'avis"
 msgid "hide_css_classes_to_descr"
 msgstr "Sélectionnez les profils pour lesquels les classes Css définies ci-dessus dans le champ \"Classes Css à cacher\" ne seront pas rendues.  <span style='color: red;'>Si vous activez cela sur un site contenant déjà des points et avis, allez à la racine de Zope --> Control_Panel --> Database Mangement --> sélectionnez la bonne base de données, allez sur l'onglet \"Flush Cache\" et cliquez sur le bouton \"Minimize\".</span>"
 
+#. Default: "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
+msgid "wa_hide_decisions_when_under_writing_check_returned_to_proposing_group"
+msgstr "Cacher les décisions au service pendant leur rédaction par les gestionnaires de séances (configuration complémentaire: empêcher si des points sont toujours \"À corriger\")"
+
 #. Default: "Hide links to the history in various place (item, meeting and advice view, dashboards, ...)."
 msgid "hide_history_to_descr"
 msgstr "Cacher les liens vers l'historique dans différents endroits (vue point, séance et avis, tableaux de bord, ...). Si l'utilisateur est dans les groupes sélectionnés mais également membre du groupe proposant du point, il aura malgré tout accès à l'historique."
@@ -6620,7 +6624,6 @@ msgid "votesResult_after_motivation"
 msgstr "Résultat du vote: champ répété non-éditable, affiché après le champ \"Motivation\""
 
 #. Default: "Editable in \"Assembly and signatures\" here above"
-#, fuzzy
 msgid "votesResult_collapsible_field_comment"
 msgstr "Éditable dans la zone \"Assemblée et Signatures\" ci-dessus"
 
@@ -6688,9 +6691,9 @@ msgstr "Ajouter l'état de décision \"Reporté\" sur un point"
 msgid "wa_dependencies"
 msgstr "Certaines adaptations sélectionnées dépendent d'une adaptation de base qui n'est pas sélectionnée."
 
-#. Default: "Hide the decision to the proposing group when it is under writing"
+#. Default: "Hide the decision to the proposing group when it is under writing (base)"
 msgid "wa_hide_decisions_when_under_writing"
-msgstr "Cacher les décisions au service pendant leur rédaction par les gestionnaires de séances"
+msgstr "Cacher les décisions au service pendant leur rédaction par les gestionnaires de séances (base)"
 
 #. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
 msgid "wa_item_validation_no_validate_shortcuts"

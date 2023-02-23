@@ -200,10 +200,6 @@ msgstr "Back to the MeetingConfig"
 msgid "Back to the item"
 msgstr "Back to the item"
 
-#. Default: "Can not close a meeting containing items returned to proposing group!"
-msgid "Can not close a meeting containing items returned to proposing group!"
-msgstr "Can not close a meeting containing items returned to proposing group!"
-
 #. Default: "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
 msgid "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
 msgstr "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
@@ -219,6 +215,10 @@ msgstr "Can not set ${not_present_type} a person that is not present on the meet
 #. Default: "Can not set ${not_present_type} a person that voted on an item!"
 msgid "Can not set ${not_present_type} a person that voted on an item!"
 msgstr "Can not set ${not_present_type} a person that voted on an item!"
+
+#. Default: "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
+msgid "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
+msgstr "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
 
 #. Default: "Can not set absent a person selected as excused on an item!"
 msgid "Can not set absent a person selected as excused on an item!"
@@ -3895,6 +3895,10 @@ msgstr "Hidden during redaction"
 msgid "hide_css_classes_to_descr"
 msgstr "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
 
+#. Default: "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
+msgid "wa_hide_decisions_when_under_writing_check_returned_to_proposing_group"
+msgstr "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
+
 #. Default: "Hide links to the history in various place (item, meeting and advice view, dashboards, ...)."
 msgid "hide_history_to_descr"
 msgstr "Hide links to the history in various place (item, meeting and advice view, dashboards, ...)."
@@ -6659,9 +6663,9 @@ msgstr "Delayed"
 msgid "wa_dependencies"
 msgstr "You selected some workflow adaptations that relies on other being selected, please correct."
 
-#. Default: "Hide the decision to the proposing group when it is under writing"
+#. Default: "Hide the decision to the proposing group when it is under writing (base)"
 msgid "wa_hide_decisions_when_under_writing"
-msgstr "Hide the decision to the proposing group when it is under writing"
+msgstr "Hide the decision to the proposing group when it is under writing (base)"
 
 #. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
 msgid "wa_item_validation_no_validate_shortcuts"

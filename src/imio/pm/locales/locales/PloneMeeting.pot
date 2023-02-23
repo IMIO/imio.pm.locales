@@ -2271,8 +2271,12 @@ msgstr ""
 msgid "wa_return_to_proposing_group"
 msgstr ""
 
-#. Default: "Hide the decision to the proposing group when it is under writing"
+#. Default: "Hide the decision to the proposing group when it is under writing (base)"
 msgid "wa_hide_decisions_when_under_writing"
+msgstr ""
+
+#. Default: "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
+msgid "wa_hide_decisions_when_under_writing_check_returned_to_proposing_group"
 msgstr ""
 
 #. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
@@ -4714,8 +4718,8 @@ msgstr ""
 msgid "historize_advice_if_given_and_item_modified_descr"
 msgstr ""
 
-#. Default: "Can not close a meeting containing items returned to proposing group!"
-msgid "Can not close a meeting containing items returned to proposing group!"
+#. Default: "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
+msgid "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
 msgstr ""
 
 #. Default: "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
