@@ -1784,10 +1784,6 @@ msgstr "Utiliser la gestion des avis"
 msgid "PloneMeeting_label_useCopies"
 msgstr "Utiliser la gestion des points en copie"
 
-#. Default: "Use groups as categories"
-msgid "PloneMeeting_label_useGroupsAsCategories"
-msgstr "Utiliser les groupes comme catégories"
-
 #. Default: "Use user replacements"
 msgid "PloneMeeting_label_useUserReplacements"
 msgstr "Activer la gestion des remplaçants"
@@ -3910,10 +3906,6 @@ msgstr "Caché pendant la rédaction de l'avis"
 #. Default: "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
 msgid "hide_css_classes_to_descr"
 msgstr "Sélectionnez les profils pour lesquels les classes Css définies ci-dessus dans le champ \"Classes Css à cacher\" ne seront pas rendues.  <span style='color: red;'>Si vous activez cela sur un site contenant déjà des points et avis, allez à la racine de Zope --> Control_Panel --> Database Mangement --> sélectionnez la bonne base de données, allez sur l'onglet \"Flush Cache\" et cliquez sur le bouton \"Minimize\".</span>"
-
-#. Default: "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
-msgid "wa_hide_decisions_when_under_writing_check_returned_to_proposing_group"
-msgstr "Cacher les décisions au service pendant leur rédaction par les gestionnaires de séances (configuration complémentaire: empêcher si des points sont toujours \"À corriger\")"
 
 #. Default: "Hide links to the history in various place (item, meeting and advice view, dashboards, ...)."
 msgid "hide_history_to_descr"
@@ -6463,10 +6455,6 @@ msgstr "Donner la possibilité aux émetteurs d'avis de laisser un avis sur les 
 msgid "use_copies_descr"
 msgstr "Cette fonctionnalité permet au créateur d'un point de sélectionner des groupes qui seront mis en copie sur un point, c'est-à-dire qui seront capables de voir (uniquement) ce point."
 
-#. Default: "For every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red;'>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because \"living\" items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
-msgid "use_groups_as_categories_descr"
-msgstr "Par configuration de séance, chaque point est défini par une catégorie et ne peut appartenir qu'à une et une seule catégorie. Ces catégories peuvent avoir de l'importance notamment lorsque des points sont présentés dans un ordre du jour: ils peuvent être ordonnés par catégorie (voir un autre paramètre de configuration plus bas). Si vous vous dites que les groupes correspondent à vos catégories et que vous n'avez pas besoin d'une catégorisation supplémentaire, cochez cette case. <span style='color: red;'>Si vous activez les catégories alors que des points ont déjà été créés sans catégories, faites-le au moment opportun, en effet une séance ne peut pas contenir des points avec et sans catégories si \"Suivre l'ordre de catégories\" est sélectionné dans \"Méthode(s) de tri lors de l'ajout d'un point dans une séance\", vous devrez mettre à jour les points \"vivants\" existants, y compris les points récurrents. Les points liés à d'anciennes séances pourront rester sans catégorie.</span>"
-
 #. Default: "User replacements allow you to select a replacement user for any absent or excused user in a meeting."
 msgid "use_user_replacements_descr"
 msgstr "La gestion des remplaçants vous permet de sélectionner un remplaçant pour tout membre d'assemblée absent à une réunion."
@@ -6694,6 +6682,10 @@ msgstr "Certaines adaptations sélectionnées dépendent d'une adaptation de bas
 #. Default: "Hide the decision to the proposing group when it is under writing (base)"
 msgid "wa_hide_decisions_when_under_writing"
 msgstr "Cacher les décisions au service pendant leur rédaction par les gestionnaires de séances (base)"
+
+#. Default: "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
+msgid "wa_hide_decisions_when_under_writing_check_returned_to_proposing_group"
+msgstr "Cacher les décisions au service pendant leur rédaction par les gestionnaires de séances (configuration complémentaire: empêcher si des points sont toujours \"À corriger\")"
 
 #. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
 msgid "wa_item_validation_no_validate_shortcuts"

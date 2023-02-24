@@ -1784,10 +1784,6 @@ msgstr "Use advices"
 msgid "PloneMeeting_label_useCopies"
 msgstr "Use copies"
 
-#. Default: "Use groups as categories"
-msgid "PloneMeeting_label_useGroupsAsCategories"
-msgstr "Use groups as categories"
-
 #. Default: "Use user replacements"
 msgid "PloneMeeting_label_useUserReplacements"
 msgstr "Use user replacements"
@@ -3894,10 +3890,6 @@ msgstr "Hidden during redaction"
 #. Default: "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
 msgid "hide_css_classes_to_descr"
 msgstr "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
-
-#. Default: "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
-msgid "wa_hide_decisions_when_under_writing_check_returned_to_proposing_group"
-msgstr "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
 
 #. Default: "Hide links to the history in various place (item, meeting and advice view, dashboards, ...)."
 msgid "hide_history_to_descr"
@@ -6435,10 +6427,6 @@ msgstr "Check the box if you want advisers to be able to issue advices on items"
 msgid "use_copies_descr"
 msgstr "Check the box if you want item creators to be able to select copy groups for this item"
 
-#. Default: "For every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red;'>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because \"living\" items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
-msgid "use_groups_as_categories_descr"
-msgstr "For every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red;'>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because \"living\" items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
-
 #. Default: "User replacements allow you to select a replacement user for any absent or excused user in a meeting."
 msgid "use_user_replacements_descr"
 msgstr "User replacements allow you to select a replacement user for any absent or excused user in a meeting."
@@ -6666,6 +6654,10 @@ msgstr "You selected some workflow adaptations that relies on other being select
 #. Default: "Hide the decision to the proposing group when it is under writing (base)"
 msgid "wa_hide_decisions_when_under_writing"
 msgstr "Hide the decision to the proposing group when it is under writing (base)"
+
+#. Default: "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
+msgid "wa_hide_decisions_when_under_writing_check_returned_to_proposing_group"
+msgstr "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
 
 #. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
 msgid "wa_item_validation_no_validate_shortcuts"

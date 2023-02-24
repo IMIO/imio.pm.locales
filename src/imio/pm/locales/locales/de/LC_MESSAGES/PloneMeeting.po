@@ -1796,10 +1796,6 @@ msgstr "Kommentare benutzen"
 msgid "PloneMeeting_label_useCopies"
 msgstr "Kopien benutzen"
 
-#. Default: "Use groups as categories"
-msgid "PloneMeeting_label_useGroupsAsCategories"
-msgstr "Gruppen als Kategorien benutzen"
-
 #. Default: "Use user replacements"
 msgid "PloneMeeting_label_useUserReplacements"
 msgstr "Aktivieren der Verwaltung der Stellvertreter"
@@ -3929,10 +3925,6 @@ msgstr ""
 
 #. Default: "Select profiles to which Css classes defined here above in the \"Css classes to hide\" field will not be rendered.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
 msgid "hide_css_classes_to_descr"
-msgstr ""
-
-#. Default: "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
-msgid "hide_decisions_when_under_writing_check_returned_to_proposing_group"
 msgstr ""
 
 #. Default: "Hide links to the history in various place (item, meeting and advice view, dashboards, ...)."
@@ -6522,11 +6514,6 @@ msgstr "Wählen Sie diese Box aus wenn Sie möchten das 'Berater' ihre Bemerkung
 msgid "use_copies_descr"
 msgstr "Wählen Sie diese Box aus wenn Sie möchten das Ersteller 'Gruppen in Kopie' für diese TOP auswählen kônnen."
 
-#. Default: "For every meeting configuration, every item is defined by a category and can't belong to several categories at once. Those categories may be important, for instance when items are presented in an agenda: they may be ordered according to their category (it depends on the value of another parameter of this page). If you estimate that the groups do correspond to your categories, and that you don't need one more categorization scheme, check the box.  <span style='color: red;'>If you activate categories on a configuration where items already exist without a category, you will have to do it at an appropriate time because \"living\" items will have to have a category selected, you can not present mixed items with and without a category to a meeting.  Items already presented to older meetings may stay without a category.</span>"
-#, fuzzy
-msgid "use_groups_as_categories_descr"
-msgstr "Jede Sitzungs-Konfiguration in PloneMeeting wird jeder TOP von einer Kategorie definiert und kann nicht mehreren Kategorien gleichzeitig angehören. Diese Kategorien können wichtig sein, zum Beispiel wenn TOP in einer Agenda präsentiert werden: sie könnten nach ihrer Kategorie sortiert sein (das hängt von einer anderen Einstellung auf dieser Seite ab). Wenn Ihre PloneMeeting-Gruppen mit den Kategorien übereinstimmen und Sie glauben dass Sie keine weitere Kategorisierung benötigen markieren Sie das Kästchen."
-
 #. Default: "User replacements allow you to select a replacement user for any absent or excused user in a meeting."
 msgid "use_user_replacements_descr"
 msgstr "Die Verwaltung der Stellvertreter ermöglicht es Ihnen einen Ersatz für jeden abwesenden oder entschuldigten Sitzungsteilnehmer aus zu wählen."
@@ -6756,6 +6743,10 @@ msgstr ""
 
 #. Default: "Hide the decision to the proposing group when it is under writing (base)"
 msgid "wa_hide_decisions_when_under_writing"
+msgstr ""
+
+#. Default: "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
+msgid "wa_hide_decisions_when_under_writing_check_returned_to_proposing_group"
 msgstr ""
 
 #. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"

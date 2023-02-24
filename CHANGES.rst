@@ -34,6 +34,8 @@ Changelog
 - Added trabskations regarding
   WFA `hide_decisions_when_under_writing_check_returned_to_proposing_group`.
   [gbastien]
+- Removed translations for field `MeetingConfig.useGroupsAsCategories` that was removed.
+  [gbastien]
 
 4.2b31 (2022-09-22)
 -------------------
