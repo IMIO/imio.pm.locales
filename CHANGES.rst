@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-4.2b32 (unreleased)
--------------------
+4.2 (unreleased)
+----------------
 
 - Completed translation `Data that will be used on new item to ${cfg_titles}`.
   [gbastien]
