@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2 (unreleased)
+4.2 (2023-03-06)
 ----------------
 
 - Completed translation `Data that will be used on new item to ${cfg_titles}`.
