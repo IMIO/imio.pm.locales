@@ -204,29 +204,29 @@ msgstr "Retourner sur le point"
 msgid "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
 msgstr "Une configuration de séance renseignée dans une autre ne peut pas être désactivée! Vérifiez le champ \"${field_title}\" de la configuration de séance \"${other_cfg_title}\"!"
 
-#. Default: "Can not set ${not_present_type} a person selected as signatory on an item!"
-msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
+#. Default: "Can not set \"${not_present_type}\" a person selected as signatory on an item!"
+msgid "Can not set \"${not_present_type}\" a person selected as signatory on an item!"
 msgstr "Impossible de définir un membre \"${not_present_type}\" s'il est spécifiquement défini signataire du point!"
 
-#. Default: "Can not set ${not_present_type} a person that is not present on the meeting!"
-msgid "Can not set ${not_present_type} a person that is not present on the meeting!"
+#. Default: "Can not set \"${not_present_type}\" a person that is not present on the meeting!"
+msgid "Can not set \"${not_present_type}\" a person that is not present on the meeting!"
 msgstr "Impossible de définir un membre \"${not_present_type}\" s'il n'est pas présent sur la séance!"
 
-#. Default: "Can not set ${not_present_type} a person that voted on an item!"
-msgid "Can not set ${not_present_type} a person that voted on an item!"
+#. Default: "Can not set \"${not_present_type}\" a person that voted on an item!"
+msgid "Can not set \"${not_present_type}\" a person that voted on an item!"
 msgstr "Impossible de définir un membre \"${not_present_type}\" s'il a déjà voté sur le point!"
+
+#. Default: "Can not set \"Absent\" a person selected as excused on an item!"
+msgid "Can not set \"Absent\" a person selected as excused on an item!"
+msgstr "Impossible de définir un membre \"Absent\" s'il est déjà \"Absent (excusé)\"!"
+
+#. Default: "Can not set \"Excused\" a person selected as absent on an item!"
+msgid "Can not set \"Excused\" a person selected as absent on an item!"
+msgstr "Impossible de définir un membre \"Absent (excusé)\" s'il est déjà \"Absent\"!"
 
 #. Default: "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
 msgid "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
 msgstr "Impossible de mettre une séance en \"${new_state_title}\" si elle contient encore des points \"À corriger\"!"
-
-#. Default: "Can not set absent a person selected as excused on an item!"
-msgid "Can not set absent a person selected as excused on an item!"
-msgstr "Impossible de définir un membre \"Absent\" s'il est déjà \"Absent (excusé)\"!"
-
-#. Default: "Can not set excused a person selected as absent on an item!"
-msgid "Can not set excused a person selected as absent on an item!"
-msgstr "Impossible de définir un membre \"Absent (excusé)\" s'il est déjà \"Absent\"!"
 
 #. Default: "Cancel"
 msgid "Cancel"

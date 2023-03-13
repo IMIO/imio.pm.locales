@@ -5,8 +5,8 @@ Changelog
 4.3 (unreleased)
 ----------------
 
-- Nothing changed yet.
-
+- Adapted translations regarding @attendees restapi endpoints.
+  [gbastien]
 
 4.2 (2023-03-06)
 ----------------
