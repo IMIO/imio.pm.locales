@@ -2261,6 +2261,10 @@ msgstr "Not grouped meeting configurations"
 msgid "a_meeting_manager"
 msgstr "A meeting manager"
 
+#. Default: "Absent"
+msgid "absent"
+msgstr "Absent"
+
 #. Default: "The element has been activated."
 msgid "activate_done_descr"
 msgstr "The element has been activated."
@@ -3681,6 +3685,10 @@ msgstr "An item has been removed from a meeting (notify the \"Owner\")"
 msgid "event_late_item"
 msgstr "A late item was just validated (notify \"MeetingManagers\")"
 
+#. Default: "Absent (excused)"
+msgid "excused"
+msgstr "Absent (excused)"
+
 #. Default: "Execute the \"TAL expression\""
 msgid "execute_tal_expression"
 msgstr "Execute the \"TAL expression\""
@@ -4423,18 +4431,6 @@ msgstr "By default item labels are editable by the item proposing group as long 
 msgid "item_manual_sent_to_other_mc_states_descr"
 msgstr "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
 
-#. Default: "Absent"
-msgid "item_not_present_type_absent"
-msgstr "Absent"
-
-#. Default: "Absent (excused)"
-msgid "item_not_present_type_excused"
-msgstr "Absent (excused)"
-
-#. Default: "Non attendee"
-msgid "item_not_present_type_non_attendee"
-msgstr "Non attendee"
-
 #. Default: "No move occurred: please specify a valid number."
 msgid "item_number_invalid"
 msgstr "No move occurred: please specify a valid number."
@@ -5040,6 +5036,10 @@ msgstr "No style POD template is currently defined."
 #. Default: "No subtypes defined."
 msgid "no_sub_types_defined"
 msgstr "No subtypes defined."
+
+#. Default: "Non attendee"
+msgid "non_attendee"
+msgstr "Non attendee"
 
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"

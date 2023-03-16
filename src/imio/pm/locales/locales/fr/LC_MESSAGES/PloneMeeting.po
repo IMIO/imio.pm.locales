@@ -2261,6 +2261,10 @@ msgstr "Configurations de séances non groupées"
 msgid "a_meeting_manager"
 msgstr "Un gestionnaire de séance"
 
+#. Default: "Absent"
+msgid "absent"
+msgstr "Absent"
+
 #. Default: "The element has been activated."
 msgid "activate_done_descr"
 msgstr "L'élément a été activé."
@@ -3697,6 +3701,10 @@ msgstr "Un point a été retiré d'une séance (prévient l'auteur du point)"
 msgid "event_late_item"
 msgstr "Un point en urgence vient d'être validé (prévient les gestionnaires de séances)"
 
+#. Default: "Absent (excused)"
+msgid "excused"
+msgstr "Absent (excusé)"
+
 #. Default: "Execute the \"TAL expression\""
 msgid "execute_tal_expression"
 msgstr "Exécuter l'expression TAL (ci-contre)"
@@ -4445,18 +4453,6 @@ msgstr "Par défaut, le groupe proposant peut éditer les étiquettes du point t
 msgid "item_manual_sent_to_other_mc_states_descr"
 msgstr "Lorsqu'un point sera dans un des états cochés ci-dessous, les utilisateurs ayant le droit d'édition sur le point auront la possibilité de l'envoyer manuellement vers les autres configurations de séances sélectionnées sur celui-ci."
 
-#. Default: "Absent"
-msgid "item_not_present_type_absent"
-msgstr "Absent"
-
-#. Default: "Absent (excused)"
-msgid "item_not_present_type_excused"
-msgstr "Absent (excusé)"
-
-#. Default: "Non attendee"
-msgid "item_not_present_type_non_attendee"
-msgstr "Non participant"
-
 #. Default: "No move occurred: please specify a valid number."
 msgid "item_number_invalid"
 msgstr "Aucun déplacement n'a eu lieu: veuillez introduire un numéro valide."
@@ -5064,6 +5060,10 @@ msgstr "Aucun modèle de style défini pour le moment."
 #. Default: "No subtypes defined."
 msgid "no_sub_types_defined"
 msgstr "Aucun sous-type n'a été défini."
+
+#. Default: "Non attendee"
+msgid "non_attendee"
+msgstr "Non participant"
 
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"

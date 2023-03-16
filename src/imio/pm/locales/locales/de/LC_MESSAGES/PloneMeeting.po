@@ -2273,6 +2273,10 @@ msgstr ""
 msgid "a_meeting_manager"
 msgstr "Ein Sitzungsmanager"
 
+#. Default: "Absent"
+msgid "absent"
+msgstr ""
+
 #. Default: "The element has been activated."
 msgid "activate_done_descr"
 msgstr ""
@@ -3711,6 +3715,10 @@ msgstr ""
 msgid "event_late_item"
 msgstr "Ein verspäteter TOP wurde soeben bestätigt"
 
+#. Default: "Absent (excused)"
+msgid "excused"
+msgstr ""
+
 #. Default: "Execute the \"TAL expression\""
 msgid "execute_tal_expression"
 msgstr ""
@@ -4470,18 +4478,6 @@ msgstr ""
 msgid "item_manual_sent_to_other_mc_states_descr"
 msgstr ""
 
-#. Default: "Absent"
-msgid "item_not_present_type_absent"
-msgstr ""
-
-#. Default: "Absent (excused)"
-msgid "item_not_present_type_excused"
-msgstr ""
-
-#. Default: "Non attendee"
-msgid "item_not_present_type_non_attendee"
-msgstr ""
-
 #. Default: "No move occurred: please specify a valid number."
 msgid "item_number_invalid"
 msgstr "Der TOP konnte nicht verschoben werden, bitte geben Sie eine gültige Nummer an."
@@ -5102,6 +5098,10 @@ msgstr ""
 
 #. Default: "No subtypes defined."
 msgid "no_sub_types_defined"
+msgstr ""
+
+#. Default: "Non attendee"
+msgid "non_attendee"
 msgstr ""
 
 #. Default: "Please select among non delay-aware advisers"
