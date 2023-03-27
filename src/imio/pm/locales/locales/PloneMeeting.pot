@@ -5430,6 +5430,10 @@ msgstr ""
 msgid "Remove attendee from signatory defined for this item"
 msgstr ""
 
+#. Default: "Edit redefined signatory for this item"
+msgid "Edit redefined signatory for this item"
+msgstr ""
+
 #. Default: "Define this attendee as signatory for this item"
 msgid "Define this attendee as signatory for this item"
 msgstr ""
@@ -5559,15 +5563,15 @@ msgid "organizations_plonegroup"
 msgstr ""
 
 #. Default: "Absent"
-msgid "item_not_present_type_absent"
+msgid "absent"
 msgstr ""
 
 #. Default: "Absent (excused)"
-msgid "item_not_present_type_excused"
+msgid "excused"
 msgstr ""
 
 #. Default: "Non attendee"
-msgid "item_not_present_type_non_attendee"
+msgid "non_attendee"
 msgstr ""
 
 #. Default: "This attendee is marked as ${not_present_type} for the ${number} following items (${clusters})"
@@ -5602,24 +5606,20 @@ msgstr ""
 msgid "Not present type"
 msgstr ""
 
-#. Default: "Can not set ${not_present_type} a person that is not present on the meeting!"
-msgid "Can not set ${not_present_type} a person that is not present on the meeting!"
+#. Default: "Can not set \"${not_present_type}\" a person that is not present on the meeting!"
+msgid "Can not set \"${not_present_type}\" a person that is not present on the meeting!"
 msgstr ""
 
-#. Default: "Can not set ${not_present_type} a person selected as signatory on an item!"
-msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
+#. Default: "Can not set \"${not_present_type}\" a person that is not present on the item!"
+msgid "Can not set \"${not_present_type}\" a person that is not present on the item!"
 msgstr ""
 
-#. Default: "Can not set ${not_present_type} a person that voted on an item!"
-msgid "Can not set ${not_present_type} a person that voted on an item!"
+#. Default: "Can not set \"${not_present_type}\" a person selected as signatory on an item!"
+msgid "Can not set \"${not_present_type}\" a person selected as signatory on an item!"
 msgstr ""
 
-#. Default: "Can not set absent a person selected as excused on an item!"
-msgid "Can not set absent a person selected as excused on an item!"
-msgstr ""
-
-#. Default: "Can not set excused a person selected as absent on an item!"
-msgid "Can not set excused a person selected as absent on an item!"
+#. Default: "Can not set \"${not_present_type}\" a person that voted on an item!"
+msgid "Can not set \"${not_present_type}\" a person that voted on an item!"
 msgstr ""
 
 #. Default: "Please check item number ${item_number} at ${item_url}."

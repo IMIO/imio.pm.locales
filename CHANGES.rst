@@ -5,8 +5,12 @@ Changelog
 4.3 (unreleased)
 ----------------
 
-- Nothing changed yet.
-
+- Adapted translations regarding `@attendees` restapi endpoints.
+  [gbastien]
+- Renamed translations `item_not_present_type_absent`/`item_not_present_type_excused`/
+  `item_not_present_type_non_attendee` by `absent/excused/non_attendee` so it is
+  easier to reuse in other contexts.
+  [gbastien]
 
 4.2 (2023-03-06)
 ----------------

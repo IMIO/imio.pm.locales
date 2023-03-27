@@ -205,28 +205,24 @@ msgstr ""
 msgid "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
 msgstr ""
 
-#. Default: "Can not set ${not_present_type} a person selected as signatory on an item!"
-msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
+#. Default: "Can not set \"${not_present_type}\" a person selected as signatory on an item!"
+msgid "Can not set \"${not_present_type}\" a person selected as signatory on an item!"
 msgstr ""
 
-#. Default: "Can not set ${not_present_type} a person that is not present on the meeting!"
-msgid "Can not set ${not_present_type} a person that is not present on the meeting!"
+#. Default: "Can not set \"${not_present_type}\" a person that is not present on the item!"
+msgid "Can not set \"${not_present_type}\" a person that is not present on the item!"
 msgstr ""
 
-#. Default: "Can not set ${not_present_type} a person that voted on an item!"
-msgid "Can not set ${not_present_type} a person that voted on an item!"
+#. Default: "Can not set \"${not_present_type}\" a person that is not present on the meeting!"
+msgid "Can not set \"${not_present_type}\" a person that is not present on the meeting!"
+msgstr ""
+
+#. Default: "Can not set \"${not_present_type}\" a person that voted on an item!"
+msgid "Can not set \"${not_present_type}\" a person that voted on an item!"
 msgstr ""
 
 #. Default: "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
 msgid "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
-msgstr ""
-
-#. Default: "Can not set absent a person selected as excused on an item!"
-msgid "Can not set absent a person selected as excused on an item!"
-msgstr ""
-
-#. Default: "Can not set excused a person selected as absent on an item!"
-msgid "Can not set excused a person selected as absent on an item!"
 msgstr ""
 
 #. Default: "Cancel"
@@ -383,6 +379,10 @@ msgstr ""
 
 #. Default: "Edit contacts"
 msgid "Edit contacts"
+msgstr ""
+
+#. Default: "Edit redefined signatory for this item"
+msgid "Edit redefined signatory for this item"
 msgstr ""
 
 #. Default: "Edit this vote"
@@ -2269,6 +2269,10 @@ msgstr ""
 msgid "a_meeting_manager"
 msgstr "Meeting beheerder"
 
+#. Default: "Absent"
+msgid "absent"
+msgstr ""
+
 #. Default: "The element has been activated."
 msgid "activate_done_descr"
 msgstr ""
@@ -3692,6 +3696,10 @@ msgstr ""
 msgid "event_late_item"
 msgstr "Een recent punt werd bevestigd"
 
+#. Default: "Absent (excused)"
+msgid "excused"
+msgstr ""
+
 #. Default: "Execute the \"TAL expression\""
 msgid "execute_tal_expression"
 msgstr ""
@@ -4437,18 +4445,6 @@ msgstr ""
 msgid "item_manual_sent_to_other_mc_states_descr"
 msgstr ""
 
-#. Default: "Absent"
-msgid "item_not_present_type_absent"
-msgstr ""
-
-#. Default: "Absent (excused)"
-msgid "item_not_present_type_excused"
-msgstr ""
-
-#. Default: "Non attendee"
-msgid "item_not_present_type_non_attendee"
-msgstr ""
-
 #. Default: "No move occurred: please specify a valid number."
 msgid "item_number_invalid"
 msgstr "No move occurred: please specify a valid number."
@@ -5066,6 +5062,10 @@ msgstr ""
 
 #. Default: "No subtypes defined."
 msgid "no_sub_types_defined"
+msgstr ""
+
+#. Default: "Non attendee"
+msgid "non_attendee"
 msgstr ""
 
 #. Default: "Please select among non delay-aware advisers"

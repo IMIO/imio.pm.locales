@@ -204,29 +204,25 @@ msgstr "Back to the item"
 msgid "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
 msgstr "Can not disable a meeting configuration used in another, please check field \"${field_title}\" in meeting configuration \"${other_cfg_title}\"!"
 
-#. Default: "Can not set ${not_present_type} a person selected as signatory on an item!"
-msgid "Can not set ${not_present_type} a person selected as signatory on an item!"
-msgstr "Can not set ${not_present_type} a person selected as signatory on an item!"
+#. Default: "Can not set \"${not_present_type}\" a person selected as signatory on an item!"
+msgid "Can not set \"${not_present_type}\" a person selected as signatory on an item!"
+msgstr "Can not set \"${not_present_type}\" a person selected as signatory on an item!"
 
-#. Default: "Can not set ${not_present_type} a person that is not present on the meeting!"
-msgid "Can not set ${not_present_type} a person that is not present on the meeting!"
-msgstr "Can not set ${not_present_type} a person that is not present on the meeting!"
+#. Default: "Can not set \"${not_present_type}\" a person that is not present on the item!"
+msgid "Can not set \"${not_present_type}\" a person that is not present on the item!"
+msgstr "Can not set \"${not_present_type}\" a person that is not present on the item!"
 
-#. Default: "Can not set ${not_present_type} a person that voted on an item!"
-msgid "Can not set ${not_present_type} a person that voted on an item!"
-msgstr "Can not set ${not_present_type} a person that voted on an item!"
+#. Default: "Can not set \"${not_present_type}\" a person that is not present on the meeting!"
+msgid "Can not set \"${not_present_type}\" a person that is not present on the meeting!"
+msgstr "Can not set \"${not_present_type}\" a person that is not present on the meeting!"
+
+#. Default: "Can not set \"${not_present_type}\" a person that voted on an item!"
+msgid "Can not set \"${not_present_type}\" a person that voted on an item!"
+msgstr "Can not set \"${not_present_type}\" a person that voted on an item!"
 
 #. Default: "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
 msgid "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
 msgstr "Can not set a meeting to ${new_state_title} if it contains items returned to proposing group!"
-
-#. Default: "Can not set absent a person selected as excused on an item!"
-msgid "Can not set absent a person selected as excused on an item!"
-msgstr "Can not set absent a person selected as excused on an item!"
-
-#. Default: "Can not set excused a person selected as absent on an item!"
-msgid "Can not set excused a person selected as absent on an item!"
-msgstr "Can not set excused a person selected as absent on an item!"
 
 #. Default: "Cancel"
 msgid "Cancel"
@@ -383,6 +379,10 @@ msgstr "Edit attributes of this group of categories"
 #. Default: "Edit contacts"
 msgid "Edit contacts"
 msgstr "Edit contacts"
+
+#. Default: "Edit redefined signatory for this item"
+msgid "Edit redefined signatory for this item"
+msgstr "Edit redefined signatory for this item"
 
 #. Default: "Edit this vote"
 msgid "Edit this vote"
@@ -2261,6 +2261,10 @@ msgstr "Not grouped meeting configurations"
 msgid "a_meeting_manager"
 msgstr "A meeting manager"
 
+#. Default: "Absent"
+msgid "absent"
+msgstr "Absent"
+
 #. Default: "The element has been activated."
 msgid "activate_done_descr"
 msgstr "The element has been activated."
@@ -3681,6 +3685,10 @@ msgstr "An item has been removed from a meeting (notify the \"Owner\")"
 msgid "event_late_item"
 msgstr "A late item was just validated (notify \"MeetingManagers\")"
 
+#. Default: "Absent (excused)"
+msgid "excused"
+msgstr "Absent (excused)"
+
 #. Default: "Execute the \"TAL expression\""
 msgid "execute_tal_expression"
 msgstr "Execute the \"TAL expression\""
@@ -4423,18 +4431,6 @@ msgstr "By default item labels are editable by the item proposing group as long 
 msgid "item_manual_sent_to_other_mc_states_descr"
 msgstr "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
 
-#. Default: "Absent"
-msgid "item_not_present_type_absent"
-msgstr "Absent"
-
-#. Default: "Absent (excused)"
-msgid "item_not_present_type_excused"
-msgstr "Absent (excused)"
-
-#. Default: "Non attendee"
-msgid "item_not_present_type_non_attendee"
-msgstr "Non attendee"
-
 #. Default: "No move occurred: please specify a valid number."
 msgid "item_number_invalid"
 msgstr "No move occurred: please specify a valid number."
@@ -5040,6 +5036,10 @@ msgstr "No style POD template is currently defined."
 #. Default: "No subtypes defined."
 msgid "no_sub_types_defined"
 msgstr "No subtypes defined."
+
+#. Default: "Non attendee"
+msgid "non_attendee"
+msgstr "Non attendee"
 
 #. Default: "Please select among non delay-aware advisers"
 msgid "non_delay_aware_optional_advisers_term"
