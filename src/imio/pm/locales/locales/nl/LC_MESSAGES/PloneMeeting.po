@@ -2519,8 +2519,12 @@ msgstr "${portalTitle} - ${meetingTitle} - An annex was just added to an item."
 msgid "annex_confidential_for_descr"
 msgstr ""
 
-#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
 msgid "annex_not_kept_because_no_available_annex_type_warning"
+msgstr ""
+
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not be kept because it requires a PDF file in the destination configuration, please contact system administrator."
+msgid "annex_not_kept_because_only_pdf_annex_type_warning"
 msgstr ""
 
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because using a scan_id, please contact system administrator."

@@ -2509,9 +2509,13 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - An annex was just added to an 
 msgid "annex_confidential_for_descr"
 msgstr "If an annex is marked as \"Confidential\" by a meeting manager, following selected profiles will not be able to see it."
 
-#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
 msgid "annex_not_kept_because_no_available_annex_type_warning"
-msgstr "The item was duplicated but the annex with title \"${annexTitle}\" could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
+msgstr "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
+
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not be kept because it requires a PDF file in the destination configuration, please contact system administrator."
+msgid "annex_not_kept_because_only_pdf_annex_type_warning"
+msgstr "The item was duplicated but the annex with title \"${annexTitle}\" was not be kept because it requires a PDF file in the destination configuration, please contact system administrator."
 
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because using a scan_id, please contact system administrator."
 msgid "annex_not_kept_because_using_scan_id"

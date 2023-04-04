@@ -2523,9 +2523,13 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - Une annexe vient d'être ajout
 msgid "annex_confidential_for_descr"
 msgstr "Si une annexe est marquée comme \"Confidentielle\" par un gestionnaire des séances, les profils sélectionnés ci-dessous ne pourront pas la voir."
 
-#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" could not be kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
 msgid "annex_not_kept_because_no_available_annex_type_warning"
-msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée car aucun type d'annexe n'a pu être utilisé dans la configuration de séance de destination, contactez votre administrateur système."
+msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée car aucun type d'annexe n'a pu être utilisé dans la configuration de séance de destination, contactez votre administrateur système si nécessaire."
+
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not be kept because it requires a PDF file in the destination configuration, please contact system administrator."
+msgid "annex_not_kept_because_only_pdf_annex_type_warning"
+msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée car le type d'annexe utilisé dans la configuration de séance de destination requiert un fichier PDF, contactez votre administrateur système si nécessaire."
 
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because using a scan_id, please contact system administrator."
 msgid "annex_not_kept_because_using_scan_id"
