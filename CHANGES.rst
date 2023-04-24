@@ -13,7 +13,9 @@ Changelog
   [gbastien]
 - Added translation for `annex_not_kept_because_only_pdf_annex_type_warning`.
   [gbastien]
-- Refactored translations regarding unselecting `WFAdaptations`.
+- Refactored translations related to `MeetingConfig.validate_workflowAdaptations`
+  and `MeetingConfig.validate_itemWFValidationLevels` now that states/transitions
+  are checked in datagridfields.
   [gbastien]
 
 4.2 (2023-03-06)
