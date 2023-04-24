@@ -4527,10 +4527,6 @@ msgstr "Toutes les valeurs de la colonne \"Transition retour (Identifiant)\" doi
 msgid "item_wf_val_states_can_not_be_removed_in_use"
 msgstr "Vous ne pouvez pas désactiver ou supprimer une ligne correspondant à un état actuellement utilisé dans l'application.  Vérifiez la ligne concernant l'état \"${item_state}\" utilisée par exemple par le point \"${item_url}\""
 
-#. Default: "You can not disable or remove a line that is currently used by a parameter in this configuration, checkout configuration about state \"${state_or_transition}\" that is used for example by parameter \"${cfg_field_name}\""
-msgid "item_wf_val_states_can_not_be_removed_in_use_config"
-msgstr "Vous ne pouvez pas désactiver ou supprimer une ligne correspondant à un état actuellement utilisé dans la configuration.  Vérifiez la ligne concernant l'état \"${state_or_transition}\" utilisée par exemple par le paramètre \"${cfg_field_name}\""
-
 #. Default: "If you enable some validation levels, then the \"Item created\" level must mandatorily be the first level (item initial state)."
 msgid "item_wf_val_states_itemcreated_mandatory"
 msgstr "Si certains niveaux de validations sont activés, la première ligne \"itemcreated (en création)\" doit obligatoirement être activée."
@@ -5939,6 +5935,14 @@ msgstr "Cochez cette case si vous voulez que les marqueurs soient triés par ord
 msgid "start_date_after_end_date"
 msgstr "La date de début doit être avant la date de fin."
 
+#. Default: "These change would remove or disable a value that is currently used by a parameter in this configuration, checkout configuration about state or transition \"${state_or_transition}\" that is used for example by parameter \"${cfg_field_name}\""
+msgid "state_or_transition_can_not_be_removed_in_use_config"
+msgstr "Ces changements vont enlever ou désactiver un état ou une transition actuellement utilisé dans la configuration.  L'état ou transition \"${state_or_transition}\" est utilisé par exemple par le paramètre \"${cfg_field_name}\""
+
+#. Default: "The disabled or removed transition \"${transition}\" is used by parameter \"${parameter_label}\" of configuration \"${other_cfg_title}\""
+msgid "state_or_transition_can_not_be_removed_in_use_other_config"
+msgstr "La transition \"${transition}\" ne peut pas être désactivée ou supprimée car elle est utilisée par le paramètre \"${parameter_label}\" de la configuration \"${other_cfg_title}\""
+
 #. Default: "Store as annex of type \"${annex_type_title}\" with format \"${output_format}\""
 msgid "store_as_annex_type_title"
 msgstr "Stocker en tant qu'annexe de type \"${annex_type_title}\" au format \"${output_format}\""
@@ -6775,41 +6779,13 @@ msgstr "Ajouter l'état de décision \"Retiré\" sur un point"
 msgid "wa_removed_and_duplicated"
 msgstr "Ajouter l'état de décision \"Retiré\" sur un point (avec duplication du point chez le créateur)"
 
-#. Default: "You can not unselect the \"Archiving\" adaptation, when selected, there is no way back."
-msgid "wa_removed_archiving_error"
-msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Archivage\", une fois activé, il n'est plus possible de revenir en arrière."
-
-#. Default: "You can not unselect the \"Hide decisions during redaction\" adaptation as there are still meetings in state \"decisions published\"."
-msgid "wa_removed_hide_decisions_when_under_writing_error"
-msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Cacher les décisions au service pendant leur rédaction par les gestionnaires de séances\" car il reste des séances dans l'état \"Décisions publiées\"."
-
-#. Default: "You can not unselect the \"Mark not applicable\" adaptation as there are still items in state \"marked not applicable\"."
-msgid "wa_removed_mark_not_applicable_error"
-msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Ajouter l'état de décision \"Marqué sans objet\" sur un point\" car il reste des points dans l'état \"Marqué sans objet\"."
-
-#. Default: "You can not unselect the \"Postpone next meeting\" adaptation as there are still items in state \"postponed next meeting\"."
-msgid "wa_removed_postpone_next_meeting_error"
-msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Reporter le point à la prochaine séance\" car il reste des points dans l'état \"Reporté à la prochaine séance\"."
-
-#. Default: "You can not unselect the \"Refused\" adaptation as there are still items in state \"refused\"."
-msgid "wa_removed_refused_error"
-msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Ajouter l'état de décision \"Refusé\" sur un point\" car il reste des points dans l'état \"Refusé\"."
-
-#. Default: "You can not unselect the \"Removed\" adaptation as there are still items in state \"removed\"."
-msgid "wa_removed_removed_error"
-msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Ajouter l'état de décision \"Retiré\" sur un point\" car il reste des points dans l'état \"Retiré\"."
-
-#. Default: "You can not unselect the \"Return to proposing group\" adaptation as there are still items in state \"returned to proposing group\"."
-msgid "wa_removed_return_to_proposing_group_error"
-msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance\" car il reste des points dans l'état \"À corriger\"."
+#. Default: "You can not unselect the \"${wfa}\" adaptation as there are still elements in state \"${review_state}\"."
+msgid "wa_removed_found_elements_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation \"${wfa}\" car il reste des éléments dans l'état \"${review_state}\"."
 
 #. Default: "You can not unselect the \"Return to proposing group with all validations\" adaptation as there are still items in states \"returned to proposing group xxx\"."
 msgid "wa_removed_return_to_proposing_group_with_all_validations_error"
 msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec toutes les validations)\" car il reste des points dans un des états \"Renvoyé au groupe proposant pour corrections (...)\"."
-
-#. Default: "You can not unselect the \"Return to proposing group with last validation\" adaptation as there are still items in states \"returned to proposing group xxx\"."
-msgid "wa_removed_return_to_proposing_group_with_last_validation_error"
-msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec la dernière validation)\" car il reste des points dans un des états \"Renvoyé au groupe proposant pour corrections (...)\"."
 
 #. Default: "You can not unselect the \"Wait advices\" adaptation as there are still items in state \"wait advices\"."
 msgid "wa_removed_waiting_advices_error"

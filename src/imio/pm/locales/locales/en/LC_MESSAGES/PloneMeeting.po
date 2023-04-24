@@ -1550,7 +1550,7 @@ msgstr "Next linked votes values"
 
 #. Default: "Actions to execute on items of a meeting when a transition is triggered on that meeting"
 msgid "PloneMeeting_label_onMeetingTransitionItemActionToExecute"
-msgstr "Actions à exécuter sur les points d'une séance lorsqu'une transition est déclenchée sur cette séance"
+msgstr "Actions to execute on items of a meeting when a transition is triggered on that meeting"
 
 #. Default: "Transforms to apply to rich text fields of an item after a workflow transition"
 msgid "PloneMeeting_label_onTransitionFieldTransforms"
@@ -4504,10 +4504,6 @@ msgstr "Every values of the \"Back transition if\" column must start with \"back
 msgid "item_wf_val_states_can_not_be_removed_in_use"
 msgstr "You can not disable or remove a line that is currently used by an item in the application, checkout configuration about state \"${item_state}\" that is used for example by item at \"${item_url}\""
 
-#. Default: "You can not disable or remove a line that is currently used by a parameter in this configuration, checkout configuration about state \"${state_or_transition}\" that is used for example by parameter \"${cfg_field_name}\""
-msgid "item_wf_val_states_can_not_be_removed_in_use_config"
-msgstr "You can not disable or remove a line that is currently used by a parameter in this configuration, checkout configuration about state \"${state_or_transition}\" that is used for example by parameter \"${cfg_field_name}\""
-
 #. Default: "If you enable some validation levels, then the \"Item created\" level must mandatorily be the first level (item initial state)."
 msgid "item_wf_val_states_itemcreated_mandatory"
 msgstr "If you enable some validation levels, then the \"Item created\" level must mandatorily be the first level (item initial state)."
@@ -5911,6 +5907,14 @@ msgstr "Check this box if you want to sort the tags in alphabetic order."
 msgid "start_date_after_end_date"
 msgstr "The meeting start date must occur before the end date."
 
+#. Default: "These change would remove or disable a value that is currently used by a parameter in this configuration, checkout configuration about state or transition \"${state_or_transition}\" that is used for example by parameter \"${cfg_field_name}\""
+msgid "state_or_transition_can_not_be_removed_in_use_config"
+msgstr "These change would remove or disable a value that is currently used by a parameter in this configuration, checkout configuration about state or transition \"${state_or_transition}\" that is used for example by parameter \"${cfg_field_name}\""
+
+#. Default: "The disabled or removed transition \"${transition}\" is used by parameter \"${parameter_label}\" of configuration \"${other_cfg_title}\""
+msgid "state_or_transition_can_not_be_removed_in_use_other_config"
+msgstr "The disabled or removed transition \"${transition}\" is used by parameter \"${parameter_label}\" of configuration \"${other_cfg_title}\""
+
 #. Default: "Store as annex of type \"${annex_type_title}\" with format \"${output_format}\""
 msgid "store_as_annex_type_title"
 msgstr "Store as annex of type \"${annex_type_title}\" with format \"${output_format}\""
@@ -6747,41 +6751,13 @@ msgstr "Removed"
 msgid "wa_removed_and_duplicated"
 msgstr "Removed (and duplicated)"
 
-#. Default: "You can not unselect the \"Archiving\" adaptation, when selected, there is no way back."
-msgid "wa_removed_archiving_error"
-msgstr "You can not unselect the \"Archiving\" adaptation, when selected, there is no way back."
-
-#. Default: "You can not unselect the \"Hide decisions during redaction\" adaptation as there are still meetings in state \"decisions published\"."
-msgid "wa_removed_hide_decisions_when_under_writing_error"
-msgstr "You can not unselect the \"Hide decisions during redaction\" adaptation as there are still meetings in state \"decisions published\"."
-
-#. Default: "You can not unselect the \"Mark not applicable\" adaptation as there are still items in state \"marked not applicable\"."
-msgid "wa_removed_mark_not_applicable_error"
-msgstr "You can not unselect the \"Mark not applicable\" adaptation as there are still items in state \"marked not applicable\"."
-
-#. Default: "You can not unselect the \"Postpone next meeting\" adaptation as there are still items in state \"postponed next meeting\"."
-msgid "wa_removed_postpone_next_meeting_error"
-msgstr "You can not unselect the \"Postpone next meeting\" adaptation as there are still items in state \"postponed next meeting\"."
-
-#. Default: "You can not unselect the \"Refused\" adaptation as there are still items in state \"refused\"."
-msgid "wa_removed_refused_error"
-msgstr "You can not unselect the \"Refused\" adaptation as there are still items in state \"refused\"."
-
-#. Default: "You can not unselect the \"Removed\" adaptation as there are still items in state \"removed\"."
-msgid "wa_removed_removed_error"
-msgstr "You can not unselect the \"Removed\" adaptation as there are still items in state \"removed\"."
-
-#. Default: "You can not unselect the \"Return to proposing group\" adaptation as there are still items in state \"returned to proposing group\"."
-msgid "wa_removed_return_to_proposing_group_error"
-msgstr "You can not unselect the \"Return to proposing group\" adaptation as there are still items in state \"returned to proposing group\"."
+#. Default: "You can not unselect the \"${wfa}\" adaptation as there are still elements in state \"${review_state}\"."
+msgid "wa_removed_found_elements_error"
+msgstr "You can not unselect the \"${wfa}\" adaptation as there are still elements in state \"${review_state}\"."
 
 #. Default: "You can not unselect the \"Return to proposing group with all validations\" adaptation as there are still items in states \"returned to proposing group xxx\"."
 msgid "wa_removed_return_to_proposing_group_with_all_validations_error"
 msgstr "You can not unselect the \"Return to proposing group with all validations\" adaptation as there are still items in states \"returned to proposing group xxx\"."
-
-#. Default: "You can not unselect the \"Return to proposing group with last validation\" adaptation as there are still items in states \"returned to proposing group xxx\"."
-msgid "wa_removed_return_to_proposing_group_with_last_validation_error"
-msgstr "You can not unselect the \"Return to proposing group with last validation\" adaptation as there are still items in states \"returned to proposing group xxx\"."
 
 #. Default: "You can not unselect the \"Wait advices\" adaptation as there are still items in state \"wait advices\"."
 msgid "wa_removed_waiting_advices_error"
