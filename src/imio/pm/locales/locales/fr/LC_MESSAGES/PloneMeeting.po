@@ -5939,6 +5939,10 @@ msgstr "La date de début doit être avant la date de fin."
 msgid "state_or_transition_can_not_be_removed_in_use_config"
 msgstr "Ces changements vont enlever ou désactiver un état ou une transition actuellement utilisé dans la configuration.  L'état ou transition \"${state_or_transition}\" est utilisé par exemple par le paramètre \"${cfg_field_name}\""
 
+#. Default: "The disabled or removed transition \"${transition}\" is used by parameter \"${parameter_label}\" of configuration \"${other_cfg_title}\""
+msgid "state_or_transition_can_not_be_removed_in_use_other_config"
+msgstr "La transition \"${transition}\" ne peut pas être désactivée ou supprimée car elle est utilisée par le paramètre \"${parameter_label}\" de la configuration \"${other_cfg_title}\""
+
 #. Default: "Store as annex of type \"${annex_type_title}\" with format \"${output_format}\""
 msgid "store_as_annex_type_title"
 msgstr "Stocker en tant qu'annexe de type \"${annex_type_title}\" au format \"${output_format}\""

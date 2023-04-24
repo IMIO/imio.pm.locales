@@ -5911,6 +5911,10 @@ msgstr "The meeting start date must occur before the end date."
 msgid "state_or_transition_can_not_be_removed_in_use_config"
 msgstr "These change would remove or disable a value that is currently used by a parameter in this configuration, checkout configuration about state or transition \"${state_or_transition}\" that is used for example by parameter \"${cfg_field_name}\""
 
+#. Default: "The disabled or removed transition \"${transition}\" is used by parameter \"${parameter_label}\" of configuration \"${other_cfg_title}\""
+msgid "state_or_transition_can_not_be_removed_in_use_other_config"
+msgstr "The disabled or removed transition \"${transition}\" is used by parameter \"${parameter_label}\" of configuration \"${other_cfg_title}\""
+
 #. Default: "Store as annex of type \"${annex_type_title}\" with format \"${output_format}\""
 msgid "store_as_annex_type_title"
 msgstr "Store as annex of type \"${annex_type_title}\" with format \"${output_format}\""
