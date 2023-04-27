@@ -4783,15 +4783,17 @@ msgstr ""
 msgid "marginal_notes_descr"
 msgstr ""
 
-#. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
+#. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value.  <span class='highlightValue'>Note that using a value bigger than 40 will slow down the application.</span>"
+#, fuzzy
 msgid "max_shown_available_items_descr"
 msgstr "Bei der Anzeige einer Sitzung kann die Liste der angezeigten Punkte auf mehrere Seiten aufgeteilt werden wenn Sie hier die maximale Anzahl Punkte pro Seite angeben."
 
-#. Default: "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value."
+#. Default: "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value.  <span class='highlightValue'>Note that using a value bigger than 40 will slow down the application.</span>"
 msgid "max_shown_listings_descr"
 msgstr ""
 
-#. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value."
+#. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value.  <span class='highlightValue'>Note that using a value bigger than 40 will slow down the application.</span>"
+#, fuzzy
 msgid "max_shown_meeting_items_descr"
 msgstr "Bei der Anzeige einer Sitzunge, kann die Liste der TOP auf mehrere Seiten aufgeteilt werden, wenn Sie hier die maximale Anzahl TOP die gleichzeitig angezeigt werden sollen angeben."
 

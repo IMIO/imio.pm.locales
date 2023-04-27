@@ -2344,7 +2344,7 @@ msgstr ""
 msgid "PloneMeeting_label_maxShownListings"
 msgstr ""
 
-#. Default: "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value."
+#. Default: "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value.  <span class='highlightValue'>Note that using a value bigger than 40 will slow down the application.</span>"
 msgid "max_shown_listings_descr"
 msgstr ""
 
@@ -2352,7 +2352,7 @@ msgstr ""
 msgid "PloneMeeting_label_maxShownAvailableItems"
 msgstr ""
 
-#. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
+#. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value.  <span class='highlightValue'>Note that using a value bigger than 40 will slow down the application.</span>"
 msgid "max_shown_available_items_descr"
 msgstr ""
 
@@ -2360,7 +2360,7 @@ msgstr ""
 msgid "PloneMeeting_label_maxShownMeetingItems"
 msgstr ""
 
-#. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value."
+#. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value.  <span class='highlightValue'>Note that using a value bigger than 40 will slow down the application.</span>"
 msgid "max_shown_meeting_items_descr"
 msgstr ""
 
@@ -6005,10 +6005,6 @@ msgstr ""
 
 #. Default: "Display available items to"
 msgid "PloneMeeting_label_displayAvailableItemsTo"
-msgstr ""
-
-#. Default: "By default only MeetingManagers will see the available items panel on a meeting as long as the meeting is accepting items.  This let's you show this panel to selected profiles.  Note that if you enable this, the meeting view will be displayed slower."
-msgid "display_available_items_to_descr"
 msgstr ""
 
 #. Default: "By default only MeetingManagers will see the available items panel on a meeting as long as the meeting is accepting items.  This let's you show this panel to selected profiles.  Note that if you enable this, the meeting view will be displayed slower."

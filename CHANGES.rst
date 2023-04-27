@@ -17,6 +17,8 @@ Changelog
   and `MeetingConfig.validate_itemWFValidationLevels` now that states/transitions
   are checked in datagridfields.
   [gbastien]
+- Completed `max_shown_...` translations to add warning about selecting a too high value.
+  [gbastien]
 
 4.2 (2023-03-06)
 ----------------
