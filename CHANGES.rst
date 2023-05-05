@@ -19,6 +19,8 @@ Changelog
   [gbastien]
 - Completed `max_shown_...` translations to add warning about selecting a too high value.
   [gbastien]
+- Fixed some typos in french translations.
+  [gbastien]
 
 4.2 (2023-03-06)
 ----------------
