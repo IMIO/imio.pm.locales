@@ -4730,17 +4730,17 @@ msgstr "Select here items that are linked to this item.  These items will appear
 msgid "marginal_notes_descr"
 msgstr "This field will still be editable by meeting managers when the item will be decided."
 
-#. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
+#. Default: "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value.  <span class='highlightValue'>Note that using a value bigger than 40 will slow down the application.</span>"
 msgid "max_shown_available_items_descr"
-msgstr "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value."
+msgstr "When displaying a meeting, the list of items that one may present to the meeting is paginated, define here the default pagination value.  <span class='highlightValue'>Note that using a value bigger than 40 will slow down the application.</span>"
 
-#. Default: "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value."
+#. Default: "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value.  <span class='highlightValue'>Note that using a value bigger than 40 will slow down the application.</span>"
 msgid "max_shown_listings_descr"
-msgstr "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value."
+msgstr "When displaying a listing of elements using the dashboard (my items, all items, all decisions, ...), the list of elements is paginated, define here the default pagination value.  <span class='highlightValue'>Note that using a value bigger than 40 will slow down the application.</span>"
 
-#. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value."
+#. Default: "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value.  <span class='highlightValue'>Note that using a value bigger than 40 will slow down the application.</span>"
 msgid "max_shown_meeting_items_descr"
-msgstr "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value."
+msgstr "When displaying a meeting, the list of items in the meeting is paginated, define here the default pagination value.  <span class='highlightValue'>Note that using a value bigger than 40 will slow down the application.</span>"
 
 #. Default: "If the number of meetings to display in any of those 2 portlets is higher than this number, a dropdown list will be shown."
 msgid "max_shown_meetings_descr"
