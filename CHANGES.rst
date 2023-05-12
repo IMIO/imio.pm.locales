@@ -21,6 +21,9 @@ Changelog
   [gbastien]
 - Fixed some typos in french translations.
   [gbastien]
+- Adpated translation of `compute_item_reference_for_items_out_of_meeting_descr`
+  to specify that it will update item reference of items out of meeting.
+  [gbastien]
 
 4.2 (2023-03-06)
 ----------------
