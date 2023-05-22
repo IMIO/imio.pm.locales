@@ -983,9 +983,9 @@ msgstr "Committees"
 msgid "PloneMeeting_label_completeness"
 msgstr "Completeness"
 
-#. Default: "Compute item reference for items decided out of meeting ?"
+#. Default: "Compute item reference for items out of meeting ?"
 msgid "PloneMeeting_label_computeItemReferenceForItemsOutOfMeeting"
-msgstr "Compute item reference for items decided out of meeting ?"
+msgstr "Compute item reference for items out of meeting ?"
 
 #. Default: "Group of meeting configurations"
 msgid "PloneMeeting_label_configGroup"
@@ -3090,9 +3090,9 @@ msgstr "Incomplete"
 msgid "completeness_not_yet_evaluated"
 msgstr "Not yet evaluated"
 
-#. Default: "By default, only items presented to a meeting that is a least \"Frozen\" will get a reference.  This enable computation of reference on items decided out of a meeting.  In this case, the \"Item reference format\" defined here above must take into account that item may not be linked to a meeting."
+#. Default: "By default, only items presented to a meeting that is a least \"Frozen\" will get a reference.  This enable computation of reference on items out of a meeting.  In this case, the \"Item reference format\" defined here above must take into account that item may not be linked to a meeting."
 msgid "compute_item_reference_for_items_out_of_meeting_descr"
-msgstr "By default, only items presented to a meeting that is a least \"Frozen\" will get a reference.  This enable computation of reference on items decided out of a meeting.  In this case, the \"Item reference format\" defined here above must take into account that item may not be linked to a meeting."
+msgstr "By default, only items presented to a meeting that is a least \"Frozen\" will get a reference.  This enable computation of reference on items out of a meeting.  In this case, the \"Item reference format\" defined here above must take into account that item may not be linked to a meeting."
 
 #. Default: "Confidentiality (displayed)"
 msgid "confidentiality_display"
