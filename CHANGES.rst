@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.1 (unreleased)
+4.2.1 (2023-05-31)
 ------------------
 
 - Adapted translations regarding `@attendees` restapi endpoints.
