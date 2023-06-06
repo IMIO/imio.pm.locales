@@ -1410,7 +1410,7 @@ msgstr "Colonnes à afficher pour les points présentés dans une séance"
 
 #. Default: "Fields of the items to show/hide in the dashboards"
 msgid "PloneMeeting_label_itemsListVisibleFields"
-msgstr "Champs des points à Afficher/masquer dans les tableaux de bords"
+msgstr "Champs des points à \"Afficher/masquer\" dans les tableaux de bords"
 
 #. Default: "Fields to display on not visible linked items"
 msgid "PloneMeeting_label_itemsNotViewableVisibleFields"
@@ -2175,11 +2175,6 @@ msgstr "À faire"
 #. Default: "To own organization"
 msgid "To own organization"
 msgstr "Vers \"Mon organisation\""
-
-# This way, the "typedescription macro in base_edit does not display 'Meeting' above the title.
-#. Default: "Show / hide details"
-msgid "Toggle descriptions of items"
-msgstr "Afficher / masquer les détails des points dans les tableaux de recherche ou sur les séances"
 
 #. Default: "Usages"
 msgid "Usages"
@@ -5906,10 +5901,6 @@ msgstr "Si vous cochez cette case, sur l'écran de recherche, des boutons radios
 #. Default: "Show / hide details"
 msgid "show_or_hide_details"
 msgstr "Afficher / masquer les détails"
-
-#. Default: "Show / hide poll type observations"
-msgid "show_or_hide_pollTypeObservations"
-msgstr "Afficher / masquer les \"Observations sur le mode de scrutin\""
 
 #. Default: "Signatures as defined on the linked meeting"
 msgid "signatures_defined_on_meeting"
