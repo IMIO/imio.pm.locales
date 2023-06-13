@@ -501,6 +501,10 @@ msgstr "Paswoord vergeten?"
 msgid "can_not_delete_meeting_container"
 msgstr "Kan deze vergadering niet verwijderen"
 
+#. Default: "This category can not be deleted, at least one meeting is linked to this category, please check ${url}!"
+msgid "can_not_delete_meetingcategory_meeting"
+msgstr ""
+
 #. Default: "This category can not be deleted, at least one item is linked to this category, please check ${url}!"
 msgid "can_not_delete_meetingcategory_meetingitem"
 msgstr ""

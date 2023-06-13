@@ -702,6 +702,10 @@ msgstr ""
 msgid "Meeting annexes"
 msgstr ""
 
+#. Default: "Meeting categories"
+msgid "Meeting categories"
+msgstr ""
+
 # plone.app.querystring
 #. Default: "Meeting date (used for meetings)"
 msgid "Meeting date"
@@ -4849,6 +4853,10 @@ msgstr "Selecciona aquí con qué página se mostrará después del inicio de se
 msgid "meeting_attendees_and_signatories"
 msgstr ""
 
+#. Default: "When enabled, a single optional category may be selected on the meetings."
+msgid "meeting_categories_descr"
+msgstr ""
+
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 msgid "meeting_columns_descr"
 msgstr "Seleccione aquí cuales columnas se mostrarán en la lista de reuniones (es decir, cuando muestra la lista de reuniones disponibles o decisiones, o cuando ejecutaba búsqueda personalizadas)."
@@ -6210,6 +6218,10 @@ msgstr ""
 
 #. Default: "Authority notice"
 msgid "title_authority_notice"
+msgstr ""
+
+#. Default: "Category"
+msgid "title_category"
 msgstr ""
 
 #. Default: "Committees"

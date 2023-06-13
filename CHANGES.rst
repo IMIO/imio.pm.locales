@@ -7,6 +7,8 @@ Changelog
 
 - Removed unused translations `show_or_hide_pollTypeObservations` and `Toggle descriptions of items`.
   [gbastien]
+- Added translations for `meeting.category` related functionality.
+  [gbastien]
 
 4.2.1 (2023-05-31)
 ------------------

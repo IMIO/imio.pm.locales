@@ -278,7 +278,7 @@ msgstr "Choisissez un type d'avis."
 
 #. Default: "Item classifiers"
 msgid "Classifiers"
-msgstr "Classificateurs"
+msgstr "Classificateurs de points"
 
 #. Default: "Close"
 msgid "Close"
@@ -697,6 +697,10 @@ msgstr "Gérer les modèles de points"
 #. Default: "Meeting annexes"
 msgid "Meeting annexes"
 msgstr "Annexes aux séances"
+
+#. Default: "Meeting categories"
+msgid "Meeting categories"
+msgstr "Catégories de séances"
 
 # plone.app.querystring
 #. Default: "Meeting date (used for meetings)"
@@ -3047,7 +3051,7 @@ msgstr "Veuillez sélectionner un classificateur."
 
 #. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
 msgid "classifiers_descr"
-msgstr "Un classificateur fonctionne comme une seconde catégorie. Vous pouvez assigner un classificateur à un point de la même manière que vous lui assignez une catégorie."
+msgstr "Un classificateur fonctionne comme une seconde catégorie sur le point. Vous pouvez assigner un classificateur à un point de la même manière que vous lui assignez une catégorie."
 
 #. Default: "Clone to ${meetingConfigTitle}"
 msgid "clone_to"
@@ -4789,6 +4793,10 @@ msgstr "Choisissez ici la page qui s'affiche directement après connexion."
 msgid "meeting_attendees_and_signatories"
 msgstr "Assemblée (${number_of_attendees}) et signataires (${number_of_signatories})"
 
+#. Default: "When enabled, a single optional category may be selected on the meetings."
+msgid "meeting_categories_descr"
+msgstr "Chaque séance peut être associée à une catégorie si le champ est activé.  Définissez les catégories ici.  Si le champ \"Identifiant secondaire de la catégorie\" est encodé, il sera affiché devant le titre de la séance dans l'application."
+
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 msgid "meeting_columns_descr"
 msgstr "Choisissez ici les colonnes à afficher sur les listes de séances (par exemple, sur la liste des séances disponibles ou passées, ou encore sur des résultats de recherches avancées)."
@@ -6121,6 +6129,10 @@ msgstr "Présents"
 #. Default: "Authority notice"
 msgid "title_authority_notice"
 msgstr "Avis de tutelle"
+
+#. Default: "Category"
+msgid "title_category"
+msgstr "Catégorie"
 
 #. Default: "Committees"
 msgid "title_committees"
