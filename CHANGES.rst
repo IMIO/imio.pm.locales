@@ -9,6 +9,8 @@ Changelog
   [gbastien]
 - Added translations for `meeting.category` related functionality.
   [gbastien]
+- Reworked `dvice_given_or_modified` french translation so it is more clear to the user.
+  [gbastien]
 
 4.2.1 (2023-05-31)
 ------------------
