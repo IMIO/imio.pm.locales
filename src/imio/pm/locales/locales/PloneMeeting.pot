@@ -2104,6 +2104,10 @@ msgstr ""
 msgid "wa_removed_found_elements_error"
 msgstr ""
 
+#. Default: "You can not select or unselect the \"meeting_remove_global_access\" adaptation, it is managed automatically by the application."
+msgid "wa_meeting_remove_mog_error"
+msgstr ""
+
 #. Default: "You can not unselect the \"Wait advices\" adaptation as there are still items in state \"wait advices\"."
 msgid "wa_removed_waiting_advices_error"
 msgstr ""
@@ -5080,6 +5084,10 @@ msgstr ""
 
 #. Default: "Decide items when they come back in meeting after correction."
 msgid "wa_decide_item_when_back_to_meeting_from_returned_to_proposing_group"
+msgstr ""
+
+#. Default: "Remove access to MeetingObserverGlobal to the meetings"
+msgid "wa_meeting_remove_global_access"
 msgstr ""
 
 #. Default: "MeetingManagers may correct a closed meeting"

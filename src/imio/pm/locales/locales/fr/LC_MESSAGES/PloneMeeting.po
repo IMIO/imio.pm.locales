@@ -6718,6 +6718,14 @@ msgstr "Les points arrivent validés"
 msgid "wa_mark_not_applicable"
 msgstr "Ajouter l'état de décision \"Marqué sans objet\" sur un point"
 
+#. Default: "Remove access to MeetingObserverGlobal to the meetings"
+msgid "wa_meeting_remove_global_access"
+msgstr "Enlever l'accès global aux séances aux groupes proposant (activée automatiquement lors de l'utilisation du champ \"Restreindre l'accès à cette configuration de séance aux groupes suivants\")"
+
+#. Default: "You can not select or unselect the \"meeting_remove_global_access\" adaptation, it is managed automatically by the application."
+msgid "wa_meeting_remove_mog_error"
+msgstr "Vous ne pouvez pas sélectionner/désélectionner l'adaptation \"(meeting_remove_global_access)\", ceci est géré automatiquement par l'application."
+
 #. Default: "MeetingManagers may correct a closed meeting"
 msgid "wa_meetingmanager_correct_closed_meeting"
 msgstr "Les gestionnaires de séances peuvent corriger une séance clôturée"

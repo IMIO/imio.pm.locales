@@ -700,7 +700,7 @@ msgstr "Meeting annexes"
 
 #. Default: "Meeting categories"
 msgid "Meeting categories"
-msgstr ""
+msgstr "Meeting categories"
 
 # plone.app.querystring
 #. Default: "Meeting date (used for meetings)"
@@ -4770,7 +4770,7 @@ msgstr "Meeting assembly (${number_of_attendees}) and signatories (${number_of_s
 
 #. Default: "When enabled, a single optional category may be selected on the meetings."
 msgid "meeting_categories_descr"
-msgstr ""
+msgstr "When enabled, a single optional category may be selected on the meetings."
 
 #. Default: "Choose here which columns to display when listing meetings (ie, when displaying the list of available meetings or decisions, or when performing custom searches)."
 msgid "meeting_columns_descr"
@@ -6104,7 +6104,7 @@ msgstr "Authority notice"
 
 #. Default: "Category"
 msgid "title_category"
-msgstr ""
+msgstr "Category"
 
 #. Default: "Committees"
 msgid "title_committees"
@@ -6689,6 +6689,14 @@ msgstr "Items come validated"
 #. Default: "Mark not applicable"
 msgid "wa_mark_not_applicable"
 msgstr "Mark not applicable"
+
+#. Default: "Remove access to MeetingObserverGlobal to the meetings"
+msgid "wa_meeting_remove_global_access"
+msgstr "Remove access to MeetingObserverGlobal to the meetings"
+
+#. Default: "You can not select or unselect the \"meeting_remove_global_access\" adaptation, it is managed automatically by the application."
+msgid "wa_meeting_remove_mog_error"
+msgstr "You can not select or unselect the \"meeting_remove_global_access\" adaptation, it is managed automatically by the application."
 
 #. Default: "MeetingManagers may correct a closed meeting"
 msgid "wa_meetingmanager_correct_closed_meeting"

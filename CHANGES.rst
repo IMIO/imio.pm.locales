@@ -13,6 +13,8 @@ Changelog
   [gbastien]
 - Make french translation for `wa_only_creator_may_delete` more accurate.
   [gbastien]
+- Added translations related to `meeting_remove_global_access` WFA.
+  [gbastien]
 
 4.2.1 (2023-05-31)
 ------------------
