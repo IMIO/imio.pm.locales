@@ -9,7 +9,7 @@ Changelog
   [gbastien]
 - Added translations for `meeting.category` related functionality.
   [gbastien]
-- Reworked `dvice_given_or_modified` french translation so it is more clear to the user.
+- Reworked `advice_given_or_modified` french translation so it is more clear to the user.
   [gbastien]
 - Make french translation for `wa_only_creator_may_delete` more accurate.
   [gbastien]
