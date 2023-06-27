@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.2 (unreleased)
+4.2.2 (2023-06-27)
 ------------------
 
 - Removed unused translations `show_or_hide_pollTypeObservations` and `Toggle descriptions of items`.
