@@ -5,8 +5,8 @@ Changelog
 4.2.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Completed translations related to the `meeting.category` functionality.
+  [gbastien]
 
 4.2.2 (2023-06-27)
 ------------------

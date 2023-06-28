@@ -1035,6 +1035,10 @@ msgstr "Filtres avancés à afficher pour les \"Points disponibles\" d'une séan
 msgid "PloneMeeting_label_dashboardMeetingLinkedItemsFilters"
 msgstr "Filtres avancés à afficher pour les points présentés dans une séance"
 
+#. Default: "Advanced filters to show on listings of meetings"
+msgid "PloneMeeting_label_dashboardMeetingsListingsFilters"
+msgstr "Filtres avancés à afficher pour les tableaux de bord de séances"
+
 #. Default: "Decision"
 msgid "PloneMeeting_label_decision"
 msgstr "Décision"
@@ -3293,15 +3297,19 @@ msgstr "<p>Cette partie de la configuration vous permet de définir certains com
 
 #. Default: "Select here filters that will be shown when using the \"More filters\" link on listings of items (my items, all items, ...)."
 msgid "dashboard_items_listings_filters_descr"
-msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien \"Plus de filtres\" sur les tableaux de bord de points (mes points, tous les points, ...)."
+msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien \"Recherche avancée\" sur les tableaux de bord de points (mes points, tous les points, ...)."
 
 #. Default: "Select here filters that will be shown when using the \"More filters\" link on the \"Available items\" of the meeting view."
 msgid "dashboard_meeting_available_items_filters_descr"
-msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien \"Plus de filtres\" sur le tableau de bord affichant les points disponibles pour une séance."
+msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien \"Recherche avancée\" sur le tableau de bord affichant les points disponibles pour une séance."
 
 #. Default: "Select here filters that will be shown when using the \"More filters\" link on the \"Linked items\" of the meeting view."
 msgid "dashboard_meeting_linked_items_filters_descr"
-msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien \"Plus de filtres\" sur le tableau de bord affichant les points présentés dans une séance."
+msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien \"Recherche avancée\" sur le tableau de bord affichant les points présentés dans une séance."
+
+#. Default: "Select here filters that will be shown when using the \"More filters\" link on listings of meetings (every meetings)."
+msgid "dashboard_meetings_listings_filters_descr"
+msgstr "Sélectionnez ici les filtres qui seront affichés lors de l'utilisation du lien \"Recherche avancée\" sur le tableau de bord affichant \"toutes les séances\"."
 
 #. Default: "Data"
 msgid "data"

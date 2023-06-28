@@ -1035,6 +1035,10 @@ msgstr "Advanced filters to show on \"Available items\""
 msgid "PloneMeeting_label_dashboardMeetingLinkedItemsFilters"
 msgstr "Advanced filters to show on \"Items of a meeting\""
 
+#. Default: "Advanced filters to show on listings of meetings"
+msgid "PloneMeeting_label_dashboardMeetingsListingsFilters"
+msgstr "Advanced filters to show on listings of meetings"
+
 #. Default: "Decision"
 msgid "PloneMeeting_label_decision"
 msgstr "Decision"
@@ -3286,6 +3290,10 @@ msgstr "Select here filters that will be shown when using the \"More filters\" l
 #. Default: "Select here filters that will be shown when using the \"More filters\" link on the \"Linked items\" of the meeting view."
 msgid "dashboard_meeting_linked_items_filters_descr"
 msgstr "Select here filters that will be shown when using the \"More filters\" link on the \"Linked items\" of the meeting view."
+
+#. Default: "Select here filters that will be shown when using the \"More filters\" link on listings of meetings (every meetings)."
+msgid "dashboard_meetings_listings_filters_descr"
+msgstr "Select here filters that will be shown when using the \"More filters\" link on listings of meetings (every meetings)."
 
 #. Default: "Data"
 msgid "data"
