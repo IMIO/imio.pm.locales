@@ -40,30 +40,14 @@ msgstr "Die Archivierung der definitiven Beschlüsse wurde abgebrochen."
 msgid "backToConfirmed_done_descr"
 msgstr "Die Archivierung dieses TOPs und des zugehörigen Beschlusses wurde zurückgezogen."
 
-#. Default: "The publication of the meeting agenda has been canceled."
-msgid "backToCreated_done_descr"
-msgstr "Die Veröffentlichung der Tagesordnung wurde abgebrochen."
-
-#. Default: "The publication of definitive decisions has been canceled."
-msgid "backToDecided_done_descr"
-msgstr "Die Veröffentlichung der definitiven Beschlüsse wurde abgebrochen."
-
 #. Default: "The archiving of this item and its decision has been canceled."
 msgid "backToDelayed_done_descr"
 msgstr "Die Archivierung dieses TOPs und des zugehörigen Beschlusses wurde zurückgezogen."
-
-#. Default: "The publication of temporary decisions has been canceled."
-msgid "backToFrozen_done_descr"
-msgstr "Die Veröffentlichung der vorläufigen Beschlüsse wurde abgebrochen."
 
 #. Default: "The item has been sent back to 'item created'."
 #, fuzzy
 msgid "backToItemCreated_done_descr"
 msgstr "Der TOP ist wieder in seinem Ausgangsstatus. Die Person die ihn erstellt hat (oder ein anderer Ersteller in derselben Gruppe) kann ihn nun anpassen und muss ihn erneut vorschlagen wenn die Änderungen vollständig sind."
-
-#. Default: "The decision taken on this item has been canceled."
-msgid "backToItemFrozen_done_descr"
-msgstr "Der Beschluss über diesen TOP wurde zurückgezogen."
 
 #. Default: "This published item is not frozen anymore."
 msgid "backToItemPublished_done_descr"
@@ -80,10 +64,6 @@ msgstr "Die Validierung wurde annuliert."
 #. Default: "This item is not reviewed anymore: (the) meeting manager(s) can't see it anymore. After the needed modification will have been done on it, this item will need to be reviewed again."
 msgid "backToProposed_done_descr"
 msgstr "Dieser TOP ist nicht mehr validiert: Die Sitzungsleitung kann ihn nicht mehr sehen. Nachdem die nötigen Anpassungen daran erledigt wurden, muss der TOP erneut validiert werden."
-
-#. Default: "The meeting agenda is not frozen anymore."
-msgid "backToPublished_done_descr"
-msgstr "Die Tagesordnung ist nicht mehr gesperrt."
 
 #. Default: "The archiving of this item and its decision has been canceled."
 msgid "backToRefused_done_descr"

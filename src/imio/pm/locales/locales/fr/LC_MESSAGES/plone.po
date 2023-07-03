@@ -368,6 +368,10 @@ msgstr "Remettre en \"Gelé\""
 msgid "backToItemCreated"
 msgstr "Remettre \"En création\""
 
+#. Default: "Back to 'Decided'"
+msgid "backToItemDecided"
+msgstr "Remettre \"En rédaction du PV\""
+
 #. Default: "Back to 'Frozen'"
 msgid "backToItemFrozen"
 msgstr "Remettre en \"Gelé\""
@@ -744,6 +748,14 @@ msgstr "En attente des avis"
 #. Default: "Waiting advices (itemcreated)"
 msgid "itemcreated_waiting_advices"
 msgstr "En attente des avis (En création)"
+
+#. Default: "Decide item"
+msgid "itemdecide"
+msgstr "Rédiger le PV"
+
+#. Default: "Decided"
+msgid "itemdecided"
+msgstr "En rédaction du PV"
 
 #. Default: "Freeze"
 msgid "itemfreeze"

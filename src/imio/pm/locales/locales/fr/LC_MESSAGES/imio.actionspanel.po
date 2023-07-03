@@ -39,29 +39,13 @@ msgstr "Vous venez d'annuler l'archivage des décisions définitives de cette s�
 msgid "backToConfirmed_done_descr"
 msgstr "Vous venez d'annuler l'archivage de ce point et de sa décision."
 
-#. Default: "The publication of the meeting agenda has been canceled."
-msgid "backToCreated_done_descr"
-msgstr "Vous venez d'annuler la publication de l'ordre du jour."
-
-#. Default: "The publication of definitive decisions has been canceled."
-msgid "backToDecided_done_descr"
-msgstr "Vous venez d'annuler la publication des décisions définitives."
-
 #. Default: "The archiving of this item and its decision has been canceled."
 msgid "backToDelayed_done_descr"
 msgstr "Vous venez d'annuler l'archivage de ce point et de sa décision."
 
-#. Default: "The publication of temporary decisions has been canceled."
-msgid "backToFrozen_done_descr"
-msgstr "Vous venez d'annuler la publication des décisions provisoires."
-
 #. Default: "The item has been sent back to 'item created'."
 msgid "backToItemCreated_done_descr"
 msgstr "Le point a été renvoyé 'en création'."
-
-#. Default: "The decision taken on this item has been canceled."
-msgid "backToItemFrozen_done_descr"
-msgstr "Vous venez d'annuler la décision prise sur ce point."
 
 #. Default: "This published item is not frozen anymore."
 msgid "backToItemPublished_done_descr"
@@ -78,10 +62,6 @@ msgstr "La validation a été annulée."
 #. Default: "This item is not reviewed anymore: (the) meeting manager(s) can't see it anymore. After the needed modification will have been done on it, this item will need to be reviewed again."
 msgid "backToProposed_done_descr"
 msgstr "Vous venez d'annuler la validation du point. Le(s) gestionnaire(s) de séance ne le voi(en)t plus. Lorsque les corrections sur ce point seront terminées, ce point devra être à nouveau validé afin qu'un gestionnaire de séance puisse le présenter à un ordre du jour."
-
-#. Default: "The meeting agenda is not frozen anymore."
-msgid "backToPublished_done_descr"
-msgstr "Vous venez d'annuler le gel de la publication de l'ordre du jour."
 
 #. Default: "The archiving of this item and its decision has been canceled."
 msgid "backToRefused_done_descr"

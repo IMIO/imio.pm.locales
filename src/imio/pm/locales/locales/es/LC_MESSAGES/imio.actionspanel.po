@@ -43,30 +43,14 @@ msgstr "El archivo de las decisiones definitivas han sido cancelada."
 msgid "backToConfirmed_done_descr"
 msgstr "El archivo de este tema y su decisión han sido cancelada."
 
-#. Default: "The publication of the meeting agenda has been canceled."
-msgid "backToCreated_done_descr"
-msgstr "La publicación de la agenda de reuniones han sido cancelada."
-
-#. Default: "The publication of definitive decisions has been canceled."
-msgid "backToDecided_done_descr"
-msgstr "La publicación de las decisiones definitivas han sido canceladas."
-
 #. Default: "The archiving of this item and its decision has been canceled."
 msgid "backToDelayed_done_descr"
 msgstr "El archivo de este tema y su decisión han sido cancelada."
-
-#. Default: "The publication of temporary decisions has been canceled."
-msgid "backToFrozen_done_descr"
-msgstr "La publicación de decisiones temporarias ha sido cancelada."
 
 #. Default: "The item has been sent back to 'item created'."
 #, fuzzy
 msgid "backToItemCreated_done_descr"
 msgstr "Este tema vuelve a su estado inicial. La persona quien creo esto (o otro creador con el mismo grupo) puede ahora modificarlo y necesitará proponerlo otra ves una ves finalizado."
-
-#. Default: "The decision taken on this item has been canceled."
-msgid "backToItemFrozen_done_descr"
-msgstr "La decisión tomada en este tema ha sido cancelada."
 
 #. Default: "This published item is not frozen anymore."
 msgid "backToItemPublished_done_descr"
@@ -83,10 +67,6 @@ msgstr "Validación ha sido cancelada."
 #. Default: "This item is not reviewed anymore: (the) meeting manager(s) can't see it anymore. After the needed modification will have been done on it, this item will need to be reviewed again."
 msgid "backToProposed_done_descr"
 msgstr "Este tema no es revisado nunca más: (El/Los) administrador(es) de reuniones no puede ver eso nunca más. Después de la modificación necesaria tendrá que terminarlo, este tema necesitará revisarse a través."
-
-#. Default: "The meeting agenda is not frozen anymore."
-msgid "backToPublished_done_descr"
-msgstr "La agenda de reunión ya no estará más congelado."
 
 #. Default: "The archiving of this item and its decision has been canceled."
 msgid "backToRefused_done_descr"

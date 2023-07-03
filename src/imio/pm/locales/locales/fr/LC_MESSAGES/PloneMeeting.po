@@ -6718,6 +6718,10 @@ msgstr "Ajouter des raccourcis lors du processus de validation du point (configu
 msgid "wa_item_validation_shortcuts"
 msgstr "Ajouter des raccourcis lors du processus de validation du point (base: tous les états entre \"En création\" et \"Validé\")"
 
+#. Default: "Add \"Item decided\" state to the item workflow"
+msgid "wa_itemdecided"
+msgstr "Ajouter l'état \"En rédaction du PV\" sur un point"
+
 #. Default: "Items come validated"
 msgid "wa_items_come_validated"
 msgstr "Les points arrivent validés"

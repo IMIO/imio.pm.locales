@@ -7,6 +7,8 @@ Changelog
 
 - Completed translations related to the `meeting.category` functionality.
   [gbastien]
+- Added translations related to `itemdecided` WFA.
+  [gbastien]
 
 4.2.2 (2023-06-27)
 ------------------
