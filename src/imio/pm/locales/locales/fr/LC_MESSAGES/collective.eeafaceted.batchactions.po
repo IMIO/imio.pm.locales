@@ -18,13 +18,21 @@ msgstr ""
 msgid "Store POD template as annex for selected elements"
 msgstr "Annexer un document généré aux éléments sélectionnés"
 
-#. Default: "Update accessed of selected elements"
+#. Default: "Update accesses for selected elements"
 msgid "Update accesses for selected elements"
-msgstr "Mettre à jour les accès des éléments par lot"
+msgstr "Mettre à jour les accès par lot"
+
+#. Default: "Update groups in charge for selected elements"
+msgid "Update groups in charge for selected elements"
+msgstr "Changer les groupes en charge par lot"
 
 #. Default: "Store relevant POD template as annex"
 msgid "store-items-template-as-annex-batch-action-but"
 msgstr "Annexer un document généré"
+
+#. Default: "Update groups in charge"
+msgid "update-groups-in-charge-batch-action-but"
+msgstr "Changer les groupes en charge"
 
 #. Default: "Update accesses"
 msgid "update-local-roles-batch-action-but"

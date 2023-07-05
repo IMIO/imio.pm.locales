@@ -7,7 +7,9 @@ Changelog
 
 - Completed translations related to the `meeting.category` functionality.
   [gbastien]
-- Added translations related to `itemdecided` WFA.
+- Added translations related to the `itemdecided` workflow adaptation.
+  [gbastien]
+- Added translations related to the `Update groups in charge` batch action.
   [gbastien]
 
 4.2.2 (2023-06-27)
