@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.3 (unreleased)
+4.2.3 (2023-07-07)
 ------------------
 
 - Completed translations related to the `meeting.category` functionality.
