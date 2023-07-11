@@ -26,10 +26,6 @@ msgstr "Mettre à jour les accès par lot"
 msgid "Update groups in charge for selected elements"
 msgstr "Changer les groupes en charge par lot"
 
-#. Default: "\"Groups is charge\" is a required field. Action to \"Remove values\" that will result on no more selected values will not be applied."
-msgid "groups_in_charge_can_not_be_empty_batch_action_warning"
-msgstr "<p class='highlightValue'>Le champ \"Groupes en charge\" est requis sur le point. Si l'action \"Retirer des éléments\" enlève toutes les valeurs sélectionnées sur le point, l'action ne sera pas appliquée et le point ne sera pas modifié!</p>"
-
 #. Default: "Store relevant POD template as annex"
 msgid "store-items-template-as-annex-batch-action-but"
 msgstr "Annexer un document généré"

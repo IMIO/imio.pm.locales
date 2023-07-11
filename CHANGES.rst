@@ -5,8 +5,9 @@ Changelog
 4.2.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Removed unused translation `groups_in_charge_can_not_be_empty_batch_action_warning`,
+  is managed by `collective.eeafaceted.batchations` now.
+  [gbastien]
 
 4.2.3 (2023-07-07)
 ------------------
