@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.4 (unreleased)
+4.2.4 (2023-07-12)
 ------------------
 
 - Removed unused translation `groups_in_charge_can_not_be_empty_batch_action_warning`,
