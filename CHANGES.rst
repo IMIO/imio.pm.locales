@@ -5,8 +5,9 @@ Changelog
 4.2.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Adapted translations regarding `ContentCategory` refactoring and possibility
+  to not keep an annex when item sent to other MC.
+  [gbastien]
 
 4.2.4 (2023-07-12)
 ------------------

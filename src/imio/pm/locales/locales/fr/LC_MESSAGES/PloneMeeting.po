@@ -2500,6 +2500,14 @@ msgstr "Bien que tous les émetteurs d'avis du groupe puissent rendre cet avis, 
 msgid "advisers"
 msgstr "Émetteurs d'avis"
 
+#. Default: "When an annex using this annex type will be updated by the scan document automatic process, the annex type will be changed to the selected category.  If nothing is selected, the original annex type will remain"
+msgid "after_scan_change_annex_type_to_descr"
+msgstr "Lorsqu'une annexe qui utilise ce type d'annexe sera mise à jour par la procédure de scan de documents, le type d'annexe sera automatiquement changé vers celui sélectionné ici.  Si rien n'est sélectionné, le type d'annexe original sera gardé."
+
+#. Default: "New annex type when annex is update by the scan document process"
+msgid "after_scan_change_annex_type_to_title"
+msgstr "Nouveau type d'annexe à utiliser après mise à jour par la procédure de scan de documents"
+
 #. Default: "Agenda"
 msgid "agenda"
 msgstr "Ordre du jour"
@@ -2530,10 +2538,6 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - Une annexe vient d'être ajout
 msgid "annex_confidential_for_descr"
 msgstr "Si une annexe est marquée comme \"Confidentielle\" par un gestionnaire des séances, les profils sélectionnés ci-dessous ne pourront pas la voir."
 
-#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
-msgid "annex_not_kept_because_no_available_annex_type_warning"
-msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée car aucun type d'annexe n'a pu être utilisé dans la configuration de séance de destination, contactez votre administrateur système si nécessaire."
-
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not be kept because it requires a PDF file in the destination configuration, please contact system administrator."
 msgid "annex_not_kept_because_only_pdf_annex_type_warning"
 msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée car le type d'annexe utilisé dans la configuration de séance de destination requiert un fichier PDF, contactez votre administrateur système si nécessaire."
@@ -2541,6 +2545,10 @@ msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because using a scan_id, please contact system administrator."
 msgid "annex_not_kept_because_using_scan_id"
 msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée car elle intègre un QR code qui doit rester unique, contactez votre administrateur système si nécessaire."
+
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept, please contact system administrator if necessary."
+msgid "annex_not_kept_item_paste_info"
+msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée, contactez votre administrateur système si nécessaire."
 
 #. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
 msgid "annex_restrict_shown_and_editable_attributes_descr"
@@ -3456,6 +3464,10 @@ msgstr "Signatures définies sur la séance"
 msgid "display_voting_group_descr"
 msgstr "Affichera le \"Groupe votant\" dans l'interface (Assemblée et signatures)."
 
+#. Default: "*** Do not keep annex ***"
+msgid "do_not_keep_annex"
+msgstr "*** Ne pas garder l'annexe ***"
+
 #. Default: "Documents"
 msgid "doc"
 msgstr "Documents"
@@ -3560,9 +3572,9 @@ msgstr "Quand le caractère obligatoire des avis est d'application, un point ne 
 msgid "error_can_not_encode_more_than_max_voters"
 msgstr "Vous ne pouvez pas encoder plus de ${max_voters} votes."
 
-#. Default: "You can not select several categories for the same meeting config."
-msgid "error_can_not_select_several_cat_for_same_mc"
-msgstr "Vous ne pouvez pas sélectionner plusieurs catégories pour la même configuration de séance."
+#. Default: "You can not select several values for the same meeting config."
+msgid "error_can_not_select_several_values_for_same_mc"
+msgstr "Vous ne pouvez pas sélectionner plusieurs valeurs pour la même configuration de séance."
 
 #. Default: "If you define a validity date for a signature, you need to define both from and to dates at row number ${row_number}.  If a signature is always valid, just leave dates fields empty."
 msgid "error_certified_signatures_both_dates_required"
