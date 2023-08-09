@@ -2511,6 +2511,14 @@ msgstr ""
 msgid "advisers"
 msgstr "Consejeros"
 
+#. Default: "When an annex using this annex type will be updated by the scan document automatic process, the annex type will be changed to the selected category.  If nothing is selected, the original annex type will remain"
+msgid "after_scan_change_annex_type_to_descr"
+msgstr ""
+
+#. Default: "New annex type when annex is update by the scan document process"
+msgid "after_scan_change_annex_type_to_title"
+msgstr ""
+
 #. Default: "Agenda"
 msgid "agenda"
 msgstr "Agenda"
@@ -2541,16 +2549,16 @@ msgstr "${portalTitle} - ${meetingTitle} - Un anexo se acaba de agregar a un tem
 msgid "annex_confidential_for_descr"
 msgstr ""
 
-#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
-msgid "annex_not_kept_because_no_available_annex_type_warning"
-msgstr ""
-
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not be kept because it requires a PDF file in the destination configuration, please contact system administrator."
 msgid "annex_not_kept_because_only_pdf_annex_type_warning"
 msgstr ""
 
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because using a scan_id, please contact system administrator."
 msgid "annex_not_kept_because_using_scan_id"
+msgstr ""
+
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept, please contact system administrator if necessary."
+msgid "annex_not_kept_item_paste_info"
 msgstr ""
 
 #. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
@@ -3474,6 +3482,10 @@ msgstr "firmas almacena en la reunión vinculada"
 msgid "display_voting_group_descr"
 msgstr ""
 
+#. Default: "*** Do not keep annex ***"
+msgid "do_not_keep_annex"
+msgstr ""
+
 #. Default: "Documents"
 msgid "doc"
 msgstr "Documentos"
@@ -3579,8 +3591,8 @@ msgstr "Cuando el consejo obligatorio es forzado, un tema no puede ser insertado
 msgid "error_can_not_encode_more_than_max_voters"
 msgstr ""
 
-#. Default: "You can not select several categories for the same meeting config."
-msgid "error_can_not_select_several_cat_for_same_mc"
+#. Default: "You can not select several values for the same meeting config."
+msgid "error_can_not_select_several_values_for_same_mc"
 msgstr ""
 
 #. Default: "If you define a validity date for a signature, you need to define both from and to dates at row number ${row_number}.  If a signature is always valid, just leave dates fields empty."

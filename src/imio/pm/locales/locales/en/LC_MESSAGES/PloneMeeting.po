@@ -2488,6 +2488,14 @@ msgstr "User will be notified for this advice (by e-mail or thru the search \"my
 msgid "advisers"
 msgstr "Advisers"
 
+#. Default: "When an annex using this annex type will be updated by the scan document automatic process, the annex type will be changed to the selected category.  If nothing is selected, the original annex type will remain"
+msgid "after_scan_change_annex_type_to_descr"
+msgstr "When an annex using this annex type will be updated by the scan document automatic process, the annex type will be changed to the selected category.  If nothing is selected, the original annex type will remain"
+
+#. Default: "New annex type when annex is update by the scan document process"
+msgid "after_scan_change_annex_type_to_title"
+msgstr "New annex type when annex is update by the scan document process"
+
 #. Default: "Agenda"
 msgid "agenda"
 msgstr "Agenda"
@@ -2516,10 +2524,6 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - An annex was just added to an 
 msgid "annex_confidential_for_descr"
 msgstr "If an annex is marked as \"Confidential\" by a meeting manager, following selected profiles will not be able to see it."
 
-#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
-msgid "annex_not_kept_because_no_available_annex_type_warning"
-msgstr "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was not possible to find a corresponding annex type in the destination meeting configuration, please contact system administrator."
-
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not be kept because it requires a PDF file in the destination configuration, please contact system administrator."
 msgid "annex_not_kept_because_only_pdf_annex_type_warning"
 msgstr "The item was duplicated but the annex with title \"${annexTitle}\" was not be kept because it requires a PDF file in the destination configuration, please contact system administrator."
@@ -2527,6 +2531,10 @@ msgstr "The item was duplicated but the annex with title \"${annexTitle}\" was n
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because using a scan_id, please contact system administrator."
 msgid "annex_not_kept_because_using_scan_id"
 msgstr "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because using a scan_id, please contact system administrator."
+
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept, please contact system administrator if necessary."
+msgid "annex_not_kept_item_paste_info"
+msgstr "The item was duplicated but the annex with title \"${annexTitle}\" was not kept, please contact system administrator if necessary."
 
 #. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
 msgid "annex_restrict_shown_and_editable_attributes_descr"
@@ -3440,6 +3448,10 @@ msgstr "signatures stored on the linked meeting"
 msgid "display_voting_group_descr"
 msgstr "Display voting group in assemblies."
 
+#. Default: "*** Do not keep annex ***"
+msgid "do_not_keep_annex"
+msgstr "*** Do not keep annex ***"
+
 #. Default: "Documents"
 msgid "doc"
 msgstr "Documents"
@@ -3544,9 +3556,9 @@ msgstr "When advice mandatoriness is enforced, an item can't be inserted into a 
 msgid "error_can_not_encode_more_than_max_voters"
 msgstr "You can not encode more than ${max_voters} voters."
 
-#. Default: "You can not select several categories for the same meeting config."
-msgid "error_can_not_select_several_cat_for_same_mc"
-msgstr "You can not select several categories for the same meeting config."
+#. Default: "You can not select several values for the same meeting config."
+msgid "error_can_not_select_several_values_for_same_mc"
+msgstr "You can not select several values for the same meeting config."
 
 #. Default: "If you define a validity date for a signature, you need to define both from and to dates at row number ${row_number}.  If a signature is always valid, just leave dates fields empty."
 msgid "error_certified_signatures_both_dates_required"
@@ -6692,7 +6704,7 @@ msgstr "Add shortcuts in the item validation process"
 
 #. Default: "Add \"Item decided\" state to the item workflow"
 msgid "wa_itemdecided"
-msgstr ""
+msgstr "Add \"Item decided\" state to the item workflow"
 
 #. Default: "Items come validated"
 msgid "wa_items_come_validated"
