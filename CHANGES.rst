@@ -8,6 +8,8 @@ Changelog
 - Adapted translations regarding `ContentCategory` refactoring and possibility
   to not keep an annex when item sent to other MC.
   [gbastien]
+- Adapted `other_mc_correspondences_descr` regarding last changes.
+  [gbastien]
 
 4.2.4 (2023-07-12)
 ------------------
