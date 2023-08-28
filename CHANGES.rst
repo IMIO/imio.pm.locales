@@ -10,6 +10,8 @@ Changelog
   [gbastien]
 - Adapted `other_mc_correspondences_descr` regarding last changes.
   [gbastien]
+- Added translations for new `Copy groups` column and `Change copy groups` batch action.
+  [gbastien]
 
 4.2.4 (2023-07-12)
 ------------------

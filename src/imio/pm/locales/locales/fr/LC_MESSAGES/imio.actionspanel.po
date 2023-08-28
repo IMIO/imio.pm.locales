@@ -61,7 +61,7 @@ msgstr "La validation a été annulée."
 
 #. Default: "This item is not reviewed anymore: (the) meeting manager(s) can't see it anymore. After the needed modification will have been done on it, this item will need to be reviewed again."
 msgid "backToProposed_done_descr"
-msgstr "Vous venez d'annuler la validation du point. Le(s) gestionnaire(s) de séance ne le voi(en)t plus. Lorsque les corrections sur ce point seront terminées, ce point devra être à nouveau validé afin qu'un gestionnaire de séance puisse le présenter à un ordre du jour."
+msgstr "Vous venez d'annuler la validation du point. Le(s) gestionnaire(s) de séance ne le voi(en)t plus. Lorsque les corrections sur ce point seront terminées, ce point devra être à nouveau validé afin qu'un gestionnaire de séances puisse le présenter à un ordre du jour."
 
 #. Default: "The archiving of this item and its decision has been canceled."
 msgid "backToRefused_done_descr"
@@ -113,7 +113,7 @@ msgstr "Votre point a été pré-validé. Un validateur peut maintenant décider
 
 #. Default: "Your item has been proposed. It must now be reviewed by someone in your group before being visible to a meeting manager. If you are yourself reviewer in your group, the 'validate' button is shown below."
 msgid "propose_done_descr"
-msgstr "Votre point a été proposé. Il doit maintenant faire l'objet d'une validation au sein de votre groupe avant de pouvoir être vu par un gestionnaire de séance et affecté à l'ordre du jour d'une séance. Si vous avez vous-même ce rôle, le bouton correspondant est disponible ci-dessous."
+msgstr "Votre point a été proposé. Il doit maintenant faire l'objet d'une validation au sein de votre groupe avant de pouvoir être vu par un gestionnaire de séances et affecté à l'ordre du jour d'une séance. Si vous avez vous-même ce rôle, le bouton correspondant est disponible ci-dessous."
 
 #. Default: "The meeting agenda has been published."
 msgid "publish_done_descr"
@@ -137,4 +137,4 @@ msgstr "Le point a été renvoyé pour corrections au groupe proposant.  Lorsque
 
 #. Default: "Your item has been reviewed: it is now visible to (a) meeting manager(s), that may decide to present it to a meeting."
 msgid "validate_done_descr"
-msgstr "Votre point a été validé: il est maintenant visible par le gestionnaire de séance, qui peut décider de le présenter à l'ordre du jour d'une séance."
+msgstr "Votre point a été validé: il est maintenant visible par les gestionnaires de séances, qui peuvent décider de le présenter à l'ordre du jour d'une séance."

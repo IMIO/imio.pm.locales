@@ -1534,7 +1534,7 @@ msgstr "Notes gestionnaires de séances (suite)"
 
 #. Default: "States of the meeting to insert an item into from everywhere"
 msgid "PloneMeeting_label_meetingPresentItemWhenNoCurrentMeetingStates"
-msgstr "États des séances pris en compte pour déterminer la séance dans laquelle doit être présenté un point (lorsque le gestionnaire de séance n'est pas sur une séance)"
+msgstr "États des séances pris en compte pour déterminer la séance dans laquelle doit être présenté un point (lorsque le gestionnaire de séances n'est pas sur une séance)"
 
 #. Default: "Meeting transition that triggers the insertion of this item as a recurring item"
 msgid "PloneMeeting_label_meetingTransitionInsertingMe"
@@ -2266,7 +2266,7 @@ msgstr "Configurations de séances non groupées"
 
 #. Default: "A meeting manager"
 msgid "a_meeting_manager"
-msgstr "Un gestionnaire de séance"
+msgstr "Un gestionnaire de séances"
 
 #. Default: "Absent"
 msgid "absent"
@@ -4282,7 +4282,7 @@ msgstr "${meetingConfigTitle} - Point reporté à une prochaine séance - ${item
 
 #. Default: "This allow to select a preferred meeting that are in theses selected states."
 msgid "itemPreferredMeetingStates_descr"
-msgstr "Les séances qui seront dans ces états pourront être sélectionnées comme séance souhaitée par les utlisateurs qui ne sont pas gestionnaire de séance. Le gestionnaire de séance pourra toujours sélectionner les séances qui ne sont pas dans l'état \"clôturé\"."
+msgstr "Les séances qui seront dans ces états pourront être sélectionnées comme séance souhaitée par les utlisateurs qui ne sont pas gestionnaire de séance. Le gestionnaire de séances pourra toujours sélectionner les séances qui ne sont pas dans l'état \"clôturé\"."
 
 #. Default: "This meeting may still be under construction and is potentially inaccessible.  The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "itemPresented_mail_body"
@@ -4871,7 +4871,7 @@ msgstr "Organisations"
 
 #. Default: "When an item is inserted in a meeting from everywhere (so not when on a meeting view), this will take the very next meeting still accepting items.  Define here states to take into account to get this very next meeting."
 msgid "meeting_present_item_when_no_current_meeting_states_descr"
-msgstr "Lorsqu'un gestionnaire de séance souhaite présenter un point dans une séance sans être sur la vue de la séance, donc par exemple lorsqu'il est sur la vue d'un point, via l'action \"Présenter\", ou lorsqu'il est dans les tableaux de bords, le point sera présenté automatiquement dans la prochaine séance (dont la date est dans le futur) dans laquelle des points peuvent toujours être présentés et dont l'état est un des états sélectionnés ici."
+msgstr "Lorsqu'un gestionnaire de séances souhaite présenter un point dans une séance sans être sur la vue de la séance, donc par exemple lorsqu'il est sur la vue d'un point, via l'action \"Présenter\", ou lorsqu'il est dans les tableaux de bords, le point sera présenté automatiquement dans la prochaine séance (dont la date est dans le futur) dans laquelle des points peuvent toujours être présentés et dont l'état est un des états sélectionnés ici."
 
 #. Default: "Warning, you deleted a meeting but fields \"First item number\" and \"Meeting number\" were already initialized, please check that other meeting are consistent!"
 msgid "meeting_removed_verify_numbers"
@@ -6356,7 +6356,7 @@ msgstr "Un mail a été envoyé aux gestionnaires de séance pour exprimer votre
 
 #. Default: "The optional item attribute \"to discuss\" allows the meeting manager to specify if an item presented to a meeting should be discussed during this meeting or if, simply, it must appear in the agenda and the meeting decisions for traceability purposes but has already led to a decision before the meeting occurrence. Check the box if you want the items to be set to \"discussed\" by default."
 msgid "to_discuss_default_descr"
-msgstr "L'attribut optionnel \"A évoquer en séance?\" permet au gestionnaire de séance de spécifier si un point présenté à une séance doit être discuté durant celle-ci ou si simplement il doit figurer dans l'ordre du jour et les décisions à des fins de traçabilité mais qu'il a déjà fait l'objet d'un consensus préalable et n'a pas besoin d'être abordé en séance. Cochez la case si vous voulez que les points soient, par défaut, discutés."
+msgstr "L'attribut optionnel \"A évoquer en séance?\" permet au gestionnaire de séances de spécifier si un point présenté à une séance doit être discuté durant celle-ci ou si simplement il doit figurer dans l'ordre du jour et les décisions à des fins de traçabilité mais qu'il a déjà fait l'objet d'un consensus préalable et n'a pas besoin d'être abordé en séance. Cochez la case si vous voulez que les points soient, par défaut, discutés."
 
 #. Default: "Check the box if you want the \"late\" items to be set to \"discussed\" by default."
 msgid "to_discuss_late_default_descr"
@@ -6572,7 +6572,7 @@ msgstr "Les membres du sous-groupe \"${meeting_group_suffix}\" du groupe proposa
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name \"item\"). If it returns False, no vote may occur on the item."
 msgid "vote_condition_descr"
-msgstr "Encodez une expression TAL qui complète le condition permettant de définir quand un point est \"votable\".  Par défaut tant que le point est dans une séance et modifiable par le gestionnaire de séance."
+msgstr "Encodez une expression TAL qui complète le condition permettant de définir quand un point est \"votable\".  Par défaut tant que le point soit dans une séance et modifiable par les gestionnaires de séances."
 
 #. Default: "Number of votes"
 msgid "vote_count"

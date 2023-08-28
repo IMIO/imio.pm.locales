@@ -66,6 +66,10 @@ msgstr "Comm."
 msgid "header_committees_index_acronym_help"
 msgstr "Commissions"
 
+#. Default: "Copy groups in charge"
+msgid "header_copyGroups"
+msgstr "En copie"
+
 #. Default: "Associated groups"
 msgid "header_getAssociatedGroups"
 msgstr "G.A."
@@ -80,11 +84,7 @@ msgstr "Catégorie"
 
 #. Default: "Groups in charge"
 msgid "header_getGroupsInCharge"
-msgstr "G.C."
-
-#. Default: "Groups in charge help"
-msgid "header_getGroupsInCharge_help"
-msgstr "Groupes en charge"
+msgstr "En charge"
 
 #. Default: "Item is signed?"
 msgid "header_getItemIsSigned"
