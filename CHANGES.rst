@@ -12,6 +12,8 @@ Changelog
   [gbastien]
 - Added translations for new `Copy groups` column and `Change copy groups` batch action.
   [gbastien]
+- Removed translations for `MeetingConfig.useCopies` as field was removed.
+  [gbastien]
 
 4.2.4 (2023-07-12)
 ------------------
