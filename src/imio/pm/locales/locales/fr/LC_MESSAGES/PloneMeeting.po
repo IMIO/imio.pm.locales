@@ -915,6 +915,10 @@ msgstr "Avis à garder lors de l'envoi d'un point vers une autre configuration d
 msgid "PloneMeeting_label_allItemTags"
 msgstr "Marqueurs"
 
+#. Default: "Editor of an annex may insert a barcode?"
+msgid "PloneMeeting_label_annexEditorMayInsertBarcode"
+msgstr "N'importe quel utilisateur capable d'éditer une annexe peut y insérer un QR code?"
+
 #. Default: "Attributes of annexes only displayed and/or editable by MeetingManagers"
 msgid "PloneMeeting_label_annexRestrictShownAndEditableAttributes"
 msgstr "Attributs des annexes affichés ou éditables seulement pas les gestionnaires de séances"
@@ -1612,7 +1616,7 @@ msgstr "Présenter dans la prochaine séance acceptant des points"
 msgid "PloneMeeting_label_otherMeetingConfigsClonableToPrivacy"
 msgstr "Non coché = séance publique"
 
-#. Default: "Owner of a annex decision may delete it when item is no more editable?"
+#. Default: "Owner of an annex decision may delete it when item is no more editable?"
 msgid "PloneMeeting_label_ownerMayDeleteAnnexDecision"
 msgstr "L'utilisateur ayant ajouté une \"Annexe (après décision)\" peut la supprimer lorsque le point n'est plus éditable?"
 
@@ -2533,6 +2537,10 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - Une annexe vient d'être ajout
 #. Default: "If an annex is marked as \"Confidential\" by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"
 msgstr "Si une annexe est marquée comme \"Confidentielle\" par un gestionnaire des séances, les profils sélectionnés ci-dessous ne pourront pas la voir."
+
+#. Default: "When using documents scanning, by default only MeetingManagers may insert a barcode.  When checked, any annex editor will be able to insert a barcode into it."
+msgid "annex_editor_may_insert_barcode_descr"
+msgstr "Lorsque le scanning de documents est activé, les gestionnaires de séances peuvent insérer un QR code dans une annexe PDF éditable.  Si coché, les membres du groupe proposant pouvant éditer l'annexe pourront également y insérer un QR code."
 
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not be kept because it requires a PDF file in the destination configuration, please contact system administrator."
 msgid "annex_not_kept_because_only_pdf_annex_type_warning"

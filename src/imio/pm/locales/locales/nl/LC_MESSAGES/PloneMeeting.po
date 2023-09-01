@@ -918,6 +918,10 @@ msgstr ""
 msgid "PloneMeeting_label_allItemTags"
 msgstr ""
 
+#. Default: "Editor of an annex may insert a barcode?"
+msgid "PloneMeeting_label_annexEditorMayInsertBarcode"
+msgstr ""
+
 #. Default: "Attributes of annexes only displayed and/or editable by MeetingManagers"
 msgid "PloneMeeting_label_annexRestrictShownAndEditableAttributes"
 msgstr ""
@@ -1618,7 +1622,7 @@ msgstr ""
 msgid "PloneMeeting_label_otherMeetingConfigsClonableToPrivacy"
 msgstr ""
 
-#. Default: "Owner of a annex decision may delete it when item is no more editable?"
+#. Default: "Owner of an annex decision may delete it when item is no more editable?"
 msgid "PloneMeeting_label_ownerMayDeleteAnnexDecision"
 msgstr ""
 
@@ -2528,6 +2532,10 @@ msgstr "${portalTitle} - ${meetingTitle} - An annex was just added to an item."
 
 #. Default: "If an annex is marked as \"Confidential\" by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"
+msgstr ""
+
+#. Default: "When using documents scanning, by default only MeetingManagers may insert a barcode.  When checked, any annex editor will be able to insert a barcode into it."
+msgid "annex_editor_may_insert_barcode_descr"
 msgstr ""
 
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not be kept because it requires a PDF file in the destination configuration, please contact system administrator."

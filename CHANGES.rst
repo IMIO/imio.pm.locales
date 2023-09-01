@@ -14,6 +14,8 @@ Changelog
   [gbastien]
 - Removed translations for `MeetingConfig.useCopies` as field was removed.
   [gbastien]
+- Added translations for `MeetingConfig.annexEditorMayInsertBarcode`.
+  [gbastien]
 
 4.2.4 (2023-07-12)
 ------------------
