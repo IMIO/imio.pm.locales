@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.5 (unreleased)
+4.2.5 (2023-09-12)
 ------------------
 
 - Adapted translations regarding `ContentCategory` refactoring and possibility
