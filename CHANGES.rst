@@ -5,8 +5,8 @@ Changelog
 4.2.6 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Added translation for `Item completeness changed`.
+  [gbastien]
 
 4.2.5 (2023-09-12)
 ------------------

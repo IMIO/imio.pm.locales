@@ -597,6 +597,10 @@ msgstr "Item assembly to apply"
 msgid "Item attendees to apply"
 msgstr "Item attendees to apply"
 
+#. Default: "Item completeness changed."
+msgid "Item completeness changed."
+msgstr "Item completeness changed."
+
 #. Default: "Item data"
 msgid "Item data"
 msgstr "Item data"
@@ -917,7 +921,7 @@ msgstr "Tags"
 
 #. Default: "Editor of an annex may insert a barcode?"
 msgid "PloneMeeting_label_annexEditorMayInsertBarcode"
-msgstr ""
+msgstr "Editor of an annex may insert a barcode?"
 
 #. Default: "Attributes of annexes only displayed and/or editable by MeetingManagers"
 msgid "PloneMeeting_label_annexRestrictShownAndEditableAttributes"
@@ -2526,7 +2530,7 @@ msgstr "If an annex is marked as \"Confidential\" by a meeting manager, followin
 
 #. Default: "When using documents scanning, by default only MeetingManagers may insert a barcode.  When checked, any annex editor will be able to insert a barcode into it."
 msgid "annex_editor_may_insert_barcode_descr"
-msgstr ""
+msgstr "When using documents scanning, by default only MeetingManagers may insert a barcode.  When checked, any annex editor will be able to insert a barcode into it."
 
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not be kept because it requires a PDF file in the destination configuration, please contact system administrator."
 msgid "annex_not_kept_because_only_pdf_annex_type_warning"
