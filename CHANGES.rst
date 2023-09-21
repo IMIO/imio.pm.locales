@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.6 (unreleased)
+4.2.6 (2023-09-21)
 ------------------
 
 - Added translation for `Item completeness changed`.
