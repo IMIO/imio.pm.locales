@@ -5,8 +5,9 @@ Changelog
 4.2.7 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Adapted translations as now we do not use brackets to manage optional advisers
+  but label `[auto]` for automatically asked advices.
+  [gbastien]
 
 4.2.6 (2023-09-21)
 ------------------
