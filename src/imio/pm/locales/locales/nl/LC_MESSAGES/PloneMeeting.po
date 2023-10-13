@@ -1525,6 +1525,10 @@ msgstr ""
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
 msgstr ""
 
+#. Default: "Meeting deadline date"
+msgid "PloneMeeting_label_meetingDeadlineDate"
+msgstr ""
+
 #. Default: "Title of the folder created in each user folder"
 #, fuzzy
 msgid "PloneMeeting_label_meetingFolderTitle"
@@ -4840,6 +4844,10 @@ msgstr "Management of meeting configurations"
 #, fuzzy
 msgid "meeting_configurations_descr"
 msgstr "Several meeting configurations canbe managed by PloneMeeting. A meeting configuration defines a 'type of meeting' that has its associated set of parameters. Each meeting configuration is completely independant and produces a tab among the main Plone tabs. If your organization manages several distinct meeting types, she can define corresponding meeting configurations here."
+
+#. Default: "Date of a deadline date the item should be prenseted in a meeting.  This date is just informational."
+msgid "meeting_deadline_date_descr"
+msgstr ""
 
 #. Default: "For each member folder having access to the application, a folder containing one sub-folder for each meeting configuration is created. Into each subfolder, the application stores elements created by this user."
 #, fuzzy

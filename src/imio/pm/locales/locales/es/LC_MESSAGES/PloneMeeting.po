@@ -1531,6 +1531,10 @@ msgstr "La interfaz siguiente es usada para un especifico adaptador de Zope3 par
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
 msgstr "Configuraciones de reuniones para clonar los temas hacia"
 
+#. Default: "Meeting deadline date"
+msgid "PloneMeeting_label_meetingDeadlineDate"
+msgstr ""
+
 #. Default: "Title of the folder created in each user folder"
 #, fuzzy
 msgid "PloneMeeting_label_meetingFolderTitle"
@@ -4905,6 +4909,10 @@ msgstr "Administrador de configuraciones de reuniones"
 #, fuzzy
 msgid "meeting_configurations_descr"
 msgstr "Varias configuraciones de reunión pueden ser gestionadas por PloneMeeting. Una configuración de reunión define un \"tipo de reunión\" que tiene su conjunto de parámetros asociados. Cada configuración de reunión es completamente independiente y produce una pestaña entre en las pestañas principales de Plone. Si su organización gestiona varios tipos de reuniones distintas, ella puede definir sus correspondiente configuraciones de reuniones aquí."
+
+#. Default: "Date of a deadline date the item should be prenseted in a meeting.  This date is just informational."
+msgid "meeting_deadline_date_descr"
+msgstr ""
 
 #. Default: "For each member folder having access to the application, a folder containing one sub-folder for each meeting configuration is created. Into each subfolder, the application stores elements created by this user."
 #, fuzzy

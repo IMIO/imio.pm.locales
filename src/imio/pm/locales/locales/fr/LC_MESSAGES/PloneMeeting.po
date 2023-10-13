@@ -1520,6 +1520,10 @@ msgstr "Interface permettant d'utiliser un adapter Zope3 spécifique pour modifi
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
 msgstr "Configurations de séance vers lesquelles les points de cette configuration de séance peuvent être envoyés"
 
+#. Default: "Meeting deadline date"
+msgid "PloneMeeting_label_meetingDeadlineDate"
+msgstr "Date limite passage séance"
+
 #. Default: "Title of the folder created in each user folder"
 msgid "PloneMeeting_label_meetingFolderTitle"
 msgstr "Titre du répertoire créé dans chaque répertoire d'utilisateur"
@@ -4844,6 +4848,10 @@ msgstr "Gestion des configurations de séances"
 #. Default: "Several meeting configurations can be managed. A meeting configuration defines a \"type of meeting\" that has its associated set of parameters. Each meeting configuration is completely independant and produces a tab among the main Plone tabs. If your organization manages several distinct meeting types, she can define corresponding meeting configurations here."
 msgid "meeting_configurations_descr"
 msgstr "Plusieurs configurations de séances peuvent être gérées. Une configuration de séance définit un \"type de séance\", auquel est associé une série de paramètres de configuration. Chaque configuration est totalement indépendante, et donne lieu à un onglet général sur le site Plone. Si votre organisation gère plusieurs types de séances distincts, elle peut définir plusieurs configurations de séances ici."
+
+#. Default: "Date of a deadline date the item should be prenseted in a meeting.  This date is just informational."
+msgid "meeting_deadline_date_descr"
+msgstr "Date informative avant laquelle ce point devrait être présenté dans une séance."
 
 #. Default: "For each member folder having access to the application, a folder containing one sub-folder for each meeting configuration is created. Into each subfolder, the application stores elements created by this user."
 msgid "meeting_folder_title"
