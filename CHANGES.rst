@@ -8,7 +8,8 @@ Changelog
 - Adapted translations as now we do not use brackets to manage optional advisers
   but label `[auto]` for automatically asked advices.
   [gbastien]
-- Added translations for new field `MeetingItem.meetingDeadlineDate`.
+- Added translations for new field `MeetingItem.meetingDeadlineDate` and
+  related faceted dashboard column.
   [gbastien]
 
 4.2.6 (2023-09-21)
