@@ -11,6 +11,9 @@ Changelog
 - Added translations for new field `MeetingItem.meetingDeadlineDate` and
   related faceted dashboard column.
   [gbastien]
+- Added translations for new advice types `negative_with_remarks` and
+  `back_to_proposing_group`.
+  [gbastien]
 
 4.2.6 (2023-09-21)
 ------------------
