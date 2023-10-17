@@ -1520,6 +1520,10 @@ msgstr "Interface permettant d'utiliser un adapter Zope3 spécifique pour modifi
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
 msgstr "Configurations de séance vers lesquelles les points de cette configuration de séance peuvent être envoyés"
 
+#. Default: "Meeting deadline date"
+msgid "PloneMeeting_label_meetingDeadlineDate"
+msgstr "Date limite passage séance"
+
 #. Default: "Title of the folder created in each user folder"
 msgid "PloneMeeting_label_meetingFolderTitle"
 msgstr "Titre du répertoire créé dans chaque répertoire d'utilisateur"
@@ -2764,6 +2768,10 @@ msgstr "Cliquez pour voir les listes de diffusion disponible pour ce document à
 #. Default: "Back"
 msgid "back"
 msgstr "Retour"
+
+#. Default: "Back to the proposing group"
+msgid "back_to_proposing_group"
+msgstr "Renvoyé au groupe proposant"
 
 #. Default: "Blank line"
 msgid "blank_line"
@@ -4845,6 +4853,10 @@ msgstr "Gestion des configurations de séances"
 msgid "meeting_configurations_descr"
 msgstr "Plusieurs configurations de séances peuvent être gérées. Une configuration de séance définit un \"type de séance\", auquel est associé une série de paramètres de configuration. Chaque configuration est totalement indépendante, et donne lieu à un onglet général sur le site Plone. Si votre organisation gère plusieurs types de séances distincts, elle peut définir plusieurs configurations de séances ici."
 
+#. Default: "Date of a deadline date the item should be prenseted in a meeting.  This date is just informational."
+msgid "meeting_deadline_date_descr"
+msgstr "Date informative avant laquelle ce point devrait être présenté dans une séance."
+
 #. Default: "For each member folder having access to the application, a folder containing one sub-folder for each meeting configuration is created. Into each subfolder, the application stores elements created by this user."
 msgid "meeting_folder_title"
 msgstr "Dans chaque répertoire d'utilisateur ayant accès à l'application, un répertoire est créé avec un sous-répertoire par configuration de séance. Dans chaque sous-répertoire seront stockés les éléments créés par cet utilisateur."
@@ -4991,6 +5003,10 @@ msgstr "Déplace ce point à la position qui précède le numéro que vous intro
 #. Default: "Negative"
 msgid "negative"
 msgstr "Négatif"
+
+#. Default: "Negative with remarks"
+msgid "negative_with_remarks"
+msgstr "Négatif en l'état"
 
 #. Default: "While using linked vote values, select here values that will be selectable for the next votes (so votes after the first)"
 msgid "next_linked_votes_used_vote_values_descr"

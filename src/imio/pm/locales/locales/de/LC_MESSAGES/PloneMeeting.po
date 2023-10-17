@@ -1526,6 +1526,10 @@ msgstr "Interface das es erlaubt einen speziellen Zope 3-Adapter zu verwenden um
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
 msgstr ""
 
+#. Default: "Meeting deadline date"
+msgid "PloneMeeting_label_meetingDeadlineDate"
+msgstr ""
+
 #. Default: "Title of the folder created in each user folder"
 #, fuzzy
 msgid "PloneMeeting_label_meetingFolderTitle"
@@ -2768,6 +2772,10 @@ msgstr ""
 #. Default: "Back"
 msgid "back"
 msgstr "Zurück"
+
+#. Default: "Back to the proposing group"
+msgid "back_to_proposing_group"
+msgstr ""
 
 #. Default: "Blank line"
 msgid "blank_line"
@@ -4877,6 +4885,10 @@ msgstr "Verwaltung der Sitzungs-Konfigurationen"
 msgid "meeting_configurations_descr"
 msgstr "Es können mehrere Sitzungs-Konfigurationen von PloneMeeting verwaltet werden. Eine Sitzungs-Konfiguration definiert verschiedene Arten von Sitzungen die bestimmte Einstellungen gemeinsam haben. Die Sitzungs-Konfigurationen sind komplett unabhängig von einander und erzeugen einen Karteireiter unterhalb der Plone Navigations-Reiter. Wenn Ihre Organisation mehrere verschiedene Sitzungstypen verwaltet dann können entsprechende Konfigurationen hier definiert werden."
 
+#. Default: "Date of a deadline date the item should be prenseted in a meeting.  This date is just informational."
+msgid "meeting_deadline_date_descr"
+msgstr ""
+
 #. Default: "For each member folder having access to the application, a folder containing one sub-folder for each meeting configuration is created. Into each subfolder, the application stores elements created by this user."
 #, fuzzy
 msgid "meeting_folder_title"
@@ -5029,6 +5041,10 @@ msgstr "Bewegt den TOP zu der Position die Sie angegeben haben. Wenn Sie den TOP
 #. Default: "Negative"
 msgid "negative"
 msgstr "Negativ"
+
+#. Default: "Negative with remarks"
+msgid "negative_with_remarks"
+msgstr ""
 
 #. Default: "While using linked vote values, select here values that will be selectable for the next votes (so votes after the first)"
 msgid "next_linked_votes_used_vote_values_descr"
