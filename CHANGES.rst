@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.7 (unreleased)
+4.2.7 (2023-10-19)
 ------------------
 
 - Adapted translations as now we do not use brackets to manage optional advisers
