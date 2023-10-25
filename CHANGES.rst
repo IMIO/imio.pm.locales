@@ -7,6 +7,8 @@ Changelog
 
 - Added translation for new advice type `Read`.
   [gbastien]
+- Added translation for advice behavior `title_advice_accounting_commitment`.
+  [gbastien]
 
 4.2.7 (2023-10-19)
 ------------------
