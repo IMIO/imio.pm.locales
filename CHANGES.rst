@@ -9,6 +9,8 @@ Changelog
   [gbastien]
 - Added translation for advice behavior `title_advice_accounting_commitment`.
   [gbastien]
+- Added translation for `label_advice_given_by`.
+  [gbastien]
 
 4.2.7 (2023-10-19)
 ------------------

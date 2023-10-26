@@ -4638,6 +4638,10 @@ msgstr "L'avis a pu être rendu à un moment (le point est passé par un des ét
 msgid "keep_original_to_print_of_cloned_items_descr"
 msgstr "Si activé, lorsqu'un point est dupliqué dans ou vers cette configuration de séance, l'information \"A imprimer?\" définie sur les annexes sera gardée.  Si désactivé, ce sont les valeurs par défaut définies dans les champs \"Marquer les annexes comme \"à imprimer\" par défaut?\" et \"Marquer les annexes après décision comme \"à imprimer\" par défaut?\" ci-dessous qui seront utilisées."
 
+#. Default: "Given by ${author}"
+msgid "label_advice_given_by"
+msgstr "Rendu par ${author}"
+
 #. Default: "Choose an element in the list"
 msgid "label_choose_element_in_list"
 msgstr "Choisissez un élément dans la liste"
