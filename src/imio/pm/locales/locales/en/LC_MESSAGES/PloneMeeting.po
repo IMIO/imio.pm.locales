@@ -3696,6 +3696,10 @@ msgstr "An item has been delayed (notify the \"Owner\")"
 msgid "event_item_postponed_next_meeting"
 msgstr "An item has been postponed (notify the \"Creators\")"
 
+#. Default: "An item has been postponed (notify the \"Owner\")"
+msgid "event_item_postponed_next_meeting_owner"
+msgstr ""
+
 #. Default: "An item has been inserted into a meeting (notify the \"Creators\")"
 msgid "event_item_presented"
 msgstr "An item has been inserted into a meeting (notify the \"Creators\")"
@@ -4262,17 +4266,17 @@ msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${
 msgid "itemClonedToThisMC_mail_subject"
 msgstr "${meetingConfigTitle} - Item received from ${originMeetingConfigTitle} - ${itemTitle}"
 
-#. Default: "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${objectUrl}. You can work on it again and propose it to another meeting."
+#. Default: "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${clonedItemUrl}. You can work on it again and propose it to another meeting.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "itemDelayed_mail_body"
-msgstr "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${objectUrl}. You can work on it again and propose it to another meeting."
+msgstr "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${clonedItemUrl}. You can work on it again and propose it to another meeting.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 
 #. Default: "${meetingConfigTitle} - Item delayed - ${itemTitle}"
 msgid "itemDelayed_mail_subject"
 msgstr "${meetingConfigTitle} - Item delayed - ${itemTitle}"
 
-#. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${objectUrl} and it has been validated automatically for a next meeting."
+#. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${clonedItemUrl} and it has been validated automatically for a next meeting.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "itemPostponedNextMeeting_mail_body"
-msgstr "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${objectUrl} and it has been validated automatically for a next meeting."
+msgstr "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${clonedItemUrl} and it has been validated automatically for a next meeting.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 
 #. Default: "${meetingConfigTitle} - Item postponed to the next meeting - ${itemTitle}"
 msgid "itemPostponedNextMeeting_mail_subject"
@@ -4290,9 +4294,9 @@ msgstr "This meeting may still be under construction and is potentially inaccess
 msgid "itemPresented_mail_subject"
 msgstr "${meetingConfigTitle} - Item has been inserted into a meeting - ${itemTitle}"
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "itemUnpresented_mail_body"
-msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 
 #. Default: "${meetingConfigTitle} - Item was removed from meeting - ${itemTitle}"
 msgid "itemUnpresented_mail_subject"
@@ -4651,9 +4655,9 @@ msgstr "Within every meeting configuration, meetings are numbered sequentially."
 msgid "late"
 msgstr "Late item"
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "lateItem_mail_body"
-msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 
 # Mails (item-related)
 #. Default: "${meetingConfigTitle} - A \"late\" item has been validated."
@@ -5692,17 +5696,17 @@ msgstr "If you check this box, the application will enter into a kind of \"emerg
 msgid "restrictedpowerobservers"
 msgstr "Restricted power observers"
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "returnedToMeetingManagers_mail_body"
-msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 
 #. Default: "${meetingConfigTitle} - Item corrected and sent back to the meeting managers - ${itemTitle}"
 msgid "returnedToMeetingManagers_mail_subject"
 msgstr "${meetingConfigTitle} - Item corrected and sent back to the meeting managers - ${itemTitle}"
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "returnedToProposingGroup_mail_body"
-msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 
 #. Default: "${meetingConfigTitle} - Item sent back to you for corrections - ${itemTitle}"
 msgid "returnedToProposingGroup_mail_subject"

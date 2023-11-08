@@ -3723,6 +3723,10 @@ msgstr ""
 msgid "event_item_postponed_next_meeting"
 msgstr ""
 
+#. Default: "An item has been postponed (notify the \"Owner\")"
+msgid "event_item_postponed_next_meeting_owner"
+msgstr ""
+
 #. Default: "An item has been inserted into a meeting (notify the \"Creators\")"
 #, fuzzy
 msgid "event_item_presented"
@@ -4299,7 +4303,7 @@ msgstr ""
 msgid "itemClonedToThisMC_mail_subject"
 msgstr ""
 
-#. Default: "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${objectUrl}. You can work on it again and propose it to another meeting."
+#. Default: "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${clonedItemUrl}. You can work on it again and propose it to another meeting.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 #, fuzzy
 msgid "itemDelayed_mail_body"
 msgstr "Dieser TOP steht noch auf eine Sitzung ist aber als 'verschoben' markiert, deshalb wurde ein Kopie auf diese URL ${objectURL} erstellt. Sie können diesen TOP nachbearbeiten und für eine andere Sitzung vorschlagen."
@@ -4309,7 +4313,7 @@ msgstr "Dieser TOP steht noch auf eine Sitzung ist aber als 'verschoben' markier
 msgid "itemDelayed_mail_subject"
 msgstr "Einer Ihrer TOP, ${itemTitle}, aus einer Sitzung wurde verschoben."
 
-#. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${objectUrl} and it has been validated automatically for a next meeting."
+#. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${clonedItemUrl} and it has been validated automatically for a next meeting.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "itemPostponedNextMeeting_mail_body"
 msgstr ""
 
@@ -4331,7 +4335,7 @@ msgstr "Die Sitzung ist folgende: ${meetingTitle}."
 msgid "itemPresented_mail_subject"
 msgstr "Einer Ihrer TOP, ${itemTitle}, wurde zu einer Sitzung hinzugefügt. Diese Sitzung kann noch im Erstellungsstatus sein und ist deshalb nicht zugreifbar."
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 #, fuzzy
 msgid "itemUnpresented_mail_body"
 msgstr "Die Sitzung ist folgende: ${meetingTitle}."
@@ -4701,7 +4705,7 @@ msgstr "In jeder Sitzungs-Konfiguration werden Sutzungen mit Hilfe einer fortlau
 msgid "late"
 msgstr ""
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 #, fuzzy
 msgid "lateItem_mail_body"
 msgstr "Der TOP trägt dem Namen '${itemTitle}'. Mehr Informationen auf ${portalUrl}."
@@ -5769,7 +5773,7 @@ msgstr "Wenn Sie diese Box auswählen, wird PloneMeeting in eine Art Alarmzustan
 msgid "restrictedpowerobservers"
 msgstr ""
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "returnedToMeetingManagers_mail_body"
 msgstr ""
 
@@ -5777,7 +5781,7 @@ msgstr ""
 msgid "returnedToMeetingManagers_mail_subject"
 msgstr ""
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "returnedToProposingGroup_mail_body"
 msgstr ""
 

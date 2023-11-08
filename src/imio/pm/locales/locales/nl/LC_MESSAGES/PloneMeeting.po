@@ -3706,6 +3706,10 @@ msgstr ""
 msgid "event_item_postponed_next_meeting"
 msgstr ""
 
+#. Default: "An item has been postponed (notify the \"Owner\")"
+msgid "event_item_postponed_next_meeting_owner"
+msgstr ""
+
 #. Default: "An item has been inserted into a meeting (notify the \"Creators\")"
 msgid "event_item_presented"
 msgstr ""
@@ -4275,7 +4279,7 @@ msgstr ""
 msgid "itemClonedToThisMC_mail_subject"
 msgstr ""
 
-#. Default: "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${objectUrl}. You can work on it again and propose it to another meeting."
+#. Default: "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${clonedItemUrl}. You can work on it again and propose it to another meeting.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "itemDelayed_mail_body"
 msgstr ""
 
@@ -4283,7 +4287,7 @@ msgstr ""
 msgid "itemDelayed_mail_subject"
 msgstr ""
 
-#. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${objectUrl} and it has been validated automatically for a next meeting."
+#. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${clonedItemUrl} and it has been validated automatically for a next meeting.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "itemPostponedNextMeeting_mail_body"
 msgstr ""
 
@@ -4303,7 +4307,7 @@ msgstr ""
 msgid "itemPresented_mail_subject"
 msgstr ""
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "itemUnpresented_mail_body"
 msgstr ""
 
@@ -4668,7 +4672,7 @@ msgstr "In iedere vergadering configuratie worden de vergaderingen sequentieel g
 msgid "late"
 msgstr ""
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 #, fuzzy
 msgid "lateItem_mail_body"
 msgstr "The item is entitled '${itemTitle}'. More information on ${portalUrl}."
@@ -5724,7 +5728,7 @@ msgstr ""
 msgid "restrictedpowerobservers"
 msgstr ""
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "returnedToMeetingManagers_mail_body"
 msgstr ""
 
@@ -5732,7 +5736,7 @@ msgstr ""
 msgid "returnedToMeetingManagers_mail_subject"
 msgstr ""
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "returnedToProposingGroup_mail_body"
 msgstr ""
 

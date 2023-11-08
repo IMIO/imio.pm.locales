@@ -3738,6 +3738,10 @@ msgstr ""
 msgid "event_item_postponed_next_meeting"
 msgstr ""
 
+#. Default: "An item has been postponed (notify the \"Owner\")"
+msgid "event_item_postponed_next_meeting_owner"
+msgstr ""
+
 #. Default: "An item has been inserted into a meeting (notify the \"Creators\")"
 #, fuzzy
 msgid "event_item_presented"
@@ -4323,7 +4327,7 @@ msgstr "Usted puede consultar el nuevo tema en ${objectUrl}."
 msgid "itemClonedToThisMC_mail_subject"
 msgstr "${itemTitle} ha sido transferido a '${meetingConfigTitle}'."
 
-#. Default: "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${objectUrl}. You can work on it again and propose it to another meeting."
+#. Default: "While this item is still in the meeting, but marked as \"delayed\", a copy of it has been created at ${clonedItemUrl}. You can work on it again and propose it to another meeting.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 #, fuzzy
 msgid "itemDelayed_mail_body"
 msgstr "Si bien este tema se encuentra aún en la reunión, pero marcado como 'demorado', una copia del mismo se ha creado en ${objectUrl}. Se puede trabajar sobre ella de nuevo, y lo propondrá en otra reunión."
@@ -4333,7 +4337,7 @@ msgstr "Si bien este tema se encuentra aún en la reunión, pero marcado como 'd
 msgid "itemDelayed_mail_subject"
 msgstr "${meetingConfigTitle} - Uno de sus temas, ${itemTitle}, han sido retardado en la reunión."
 
-#. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${objectUrl} and it has been validated automatically for a next meeting."
+#. Default: "While this item is still in the meeting, but marked as \"postponed next meeting\", a copy of it has been created at ${clonedItemUrl} and it has been validated automatically for a next meeting.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "itemPostponedNextMeeting_mail_body"
 msgstr ""
 
@@ -4355,7 +4359,7 @@ msgstr "Esta reunión puede estar todavía en construcción y es potencialmente 
 msgid "itemPresented_mail_subject"
 msgstr "${meetingConfigTitle} - Uno de sus temas, ${itemTitle}, ha sido añadido dentro de una reunión."
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 #, fuzzy
 msgid "itemUnpresented_mail_body"
 msgstr "Usted puede acceder a este tema aqui: ${objectUrl}."
@@ -4730,7 +4734,7 @@ msgstr "Con cada configuración de reunión, las reuniones son numerados secuenc
 msgid "late"
 msgstr ""
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 #, fuzzy
 msgid "lateItem_mail_body"
 msgstr "El tema se titula '${itemTitle}'. Usted puede acceder a este tema aquí: ${portalUrl}."
@@ -5802,7 +5806,7 @@ msgstr "Si usted marca esta casilla, PloneMeeting entrará en una especie de mod
 msgid "restrictedpowerobservers"
 msgstr ""
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 #, fuzzy
 msgid "returnedToMeetingManagers_mail_body"
 msgstr "Usted puede acceder este tema aquí: '${objectUrl}'."
@@ -5812,7 +5816,7 @@ msgstr "Usted puede acceder este tema aquí: '${objectUrl}'."
 msgid "returnedToMeetingManagers_mail_subject"
 msgstr "${meetingConfigTitle} - El tema '${itemTitle}' se ha corregido y enviado de vuelta a los administradores de la reunión."
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 #, fuzzy
 msgid "returnedToProposingGroup_mail_body"
 msgstr "Usted puede acceder este tema aquí: '${objectUrl}'."

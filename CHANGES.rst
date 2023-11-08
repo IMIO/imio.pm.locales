@@ -5,8 +5,12 @@ Changelog
 4.2.9 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Adapted translations for item mail events `lateItem`, `itemUnpresented`,
+  `itemDelayed`, `itemPostponedNextMeeting`, `returnedToProposingGroup`,
+  `returnedToMeetingManagers` to include last WF action author and comment.
+  Added translation for new item mail notification
+  `event_item_postponed_next_meeting_owner`.
+  [gbastien]
 
 4.2.8 (2023-10-27)
 ------------------
