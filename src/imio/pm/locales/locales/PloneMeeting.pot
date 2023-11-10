@@ -2288,6 +2288,10 @@ msgstr ""
 msgid "wa_no_freeze"
 msgstr ""
 
+#. Default: "Add \"advicecreated\" initial state"
+msgid "wa_add_advicecreated_state"
+msgstr ""
+
 #. Default: "<p class='highlightValue'>The decision is currently under edit by managers, you can not access it.</p>"
 msgid "decision_under_edit"
 msgstr ""
@@ -4718,6 +4722,14 @@ msgstr ""
 msgid "holidays_removed_date_in_use_error"
 msgstr ""
 
+#. Default: "You can not define several configuration for same \"Portal type\""
+msgid "advisersConfig_several_portal_types_error"
+msgstr ""
+
+#. Default: "You can not add, change or remove a configuration for a portal type that is already used in the application.  Portal type \"${portal_type}\" is used for example by advice at ${advice_url}."
+msgid "advisersConfig_portal_type_in_use_error"
+msgstr ""
+
 #. Default: "Keep access to item when an advice"
 msgid "PloneMeeting_label_keepAccessToItemWhenAdvice"
 msgstr ""
@@ -5784,6 +5796,14 @@ msgstr ""
 
 #. Default: "By default, annex title and item reference are indexed in parent's full text index so it is searchable. If selected here, this will defer parent's reindexation when an annex is added or when item reference is computed, optimizing performances.  Nevertheless, the info will be reindexed on appropriate time, during another reindex (parent's full text field changed) or at the latests during the night by a special process."
 msgid "defer_parent_reindex_descr"
+msgstr ""
+
+#. Default: "Advisers config"
+msgid "PloneMeeting_label_advisersConfig"
+msgstr ""
+
+#. Default: "Custom advisers configuration, useful when you have several advice portal types. <span class='highlight-red'>DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING!</span>"
+msgid "advisers_config_descr"
 msgstr ""
 
 #. Default: "You can not remove a power observer that is used in a field of this meeting configuration.  Please remove reference to this power observer in every fields of the meeting config, save it then remove this power observer."

@@ -45,7 +45,7 @@ msgstr "Vous venez d'annuler l'archivage de ce point et de sa décision."
 
 #. Default: "The item has been sent back to 'item created'."
 msgid "backToItemCreated_done_descr"
-msgstr "Le point a été renvoyé 'en création'."
+msgstr "Le point a été renvoyé \"En création\"."
 
 #. Default: "This published item is not frozen anymore."
 msgid "backToItemPublished_done_descr"
@@ -81,7 +81,7 @@ msgstr "L'élément a été désactivé."
 
 #. Default: "The item has been delayed.  It has been duplicated for the corresponding proposing group so it can propose it again easily."
 msgid "delay_done_descr"
-msgstr "Le point vient d'être mis dans l'état 'reporté'. De plus, il a été dupliqué: le groupe proposant pourra en proposer une copie à une séance ultérieure. Notez que si vous annulez cette action, la copie ne sera pas effacée."
+msgstr "Le point vient d'être mis dans l'état \"Reporté\". De plus, il a été dupliqué: le groupe proposant pourra en proposer une copie à une séance ultérieure. Notez que si vous annulez cette action, la copie ne sera pas effacée."
 
 #. Default: "The meeting has been frozen."
 msgid "freeze_done_descr"
@@ -101,7 +101,7 @@ msgstr "Le point a été publié."
 
 #. Default: "The item has been postponed for the next meeting.  It has been duplicated and automatically validated and is available for the next meeting."
 msgid "postpone_next_meeting_done_descr"
-msgstr "Le point a été mis dans l'état 'Reporté à la prochaine séance'.  Il a été automatiquement dupliqué, validé et est disponible pour une prochaine séance."
+msgstr "Le point a été mis dans l'état \"Reporté à la prochaine séance\".  Il a été automatiquement dupliqué, validé, le nouveau point a hérité des avis s'il y en avait et est disponible pour une prochaine séance."
 
 #. Default: "The item has been inserted into the meeting agenda."
 msgid "present_done_descr"

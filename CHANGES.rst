@@ -11,6 +11,8 @@ Changelog
   Added translation for new item mail notification
   `event_item_postponed_next_meeting_owner`.
   [gbastien]
+- Added translations for `ToolPloneMeeting.advisersConfig`.
+  [gbastien]
 
 4.2.8 (2023-10-27)
 ------------------

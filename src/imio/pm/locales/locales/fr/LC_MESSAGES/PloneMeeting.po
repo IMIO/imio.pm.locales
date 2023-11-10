@@ -915,6 +915,10 @@ msgstr "Avis"
 msgid "PloneMeeting_label_advicesKeptOnSentToOtherMC"
 msgstr "Avis à garder lors de l'envoi d'un point vers une autre configuration de séance"
 
+#. Default: "Advisers config"
+msgid "PloneMeeting_label_advisersConfig"
+msgstr "Configuration des types de contenu avis"
+
 #. Default: "Tags"
 msgid "PloneMeeting_label_allItemTags"
 msgstr "Marqueurs"
@@ -2507,6 +2511,18 @@ msgstr "Bien que tous les émetteurs d'avis du groupe puissent rendre cet avis, 
 #. Default: "Advisers"
 msgid "advisers"
 msgstr "Émetteurs d'avis"
+
+#. Default: "You can not add, change or remove a configuration for a portal type that is already used in the application.  Portal type \"${portal_type}\" is used for example by advice at ${advice_url}."
+msgid "advisersConfig_portal_type_in_use_error"
+msgstr "Vous ne pouvez pas ajouter, modifier ou supprimer une configuration concernant un \"Type de contenu avis\" qui est déjà utilisé.  Le type de contenu avis \"${portal_type}\" est utilisé par exemple par l'avis ${advice_url}."
+
+#. Default: "You can not define several configuration for same \"Portal type\""
+msgid "advisersConfig_several_portal_types_error"
+msgstr "Vous ne pouvez pas définir plusieurs configurations pour le même \"Type de contenu avis\"."
+
+#. Default: "Custom advisers configuration, useful when you have several advice portal types. <span class='highlight-red'>DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING!</span>"
+msgid "advisers_config_descr"
+msgstr "À utiliser uniquement pour définir plusieurs types de contenu \"Avis\", un type de contenu par défaut est déjà disponible dans l'application.  <span class='highlight-red'>NE CHANGEZ CETTE VALEUR QUE SI VOUS ETES ABSOLUMENT CERTAIN DE CE QUE VOUS FAITES!</span>"
 
 #. Default: "When an annex using this annex type will be updated by the scan document automatic process, the annex type will be changed to the selected category.  If nothing is selected, the original annex type will remain"
 msgid "after_scan_change_annex_type_to_descr"
@@ -4200,23 +4216,23 @@ msgstr "Si vous sélectionnez la méthode d'insertion \"A la fin de la séance\"
 
 #. Default: "You can not select same inserting method several times."
 msgid "inserting_methods_can_not_select_several_times_same_method_error"
-msgstr "Vous ne pouvez pas sélectionner plusieurs fois la même méthode d'insertion."
+msgstr "Vous ne pouvez pas sélectionner plusieurs fois la même méthode d'insertion!"
 
 #. Default: "You can not select \"Follow categories order\" inserting method as this meeting configuration does not use categories."
 msgid "inserting_methods_not_using_categories_error"
-msgstr "Vous ne pouvez pas sélectionner \"Suivre l'odre des catégories\" car cette configuration de séance n'utilise pas les catégories."
+msgstr "Vous ne pouvez pas sélectionner \"Suivre l'odre des catégories\" car cette configuration de séance n'utilise pas les catégories!"
 
 #. Default: "You can not select \"Follow poll type order\" inserting method as the field \"Poll type\" is not selected in the field \"Attributes used for characterizing an item\" of this meeting configuration."
 msgid "inserting_methods_not_using_poll_type_error"
-msgstr "Vous ne pouvez pas sélectionner \"Par mode de scrutin\" car \"Mode de scrutin\" n'est pas sélectionné dans le champ \"Attributs utilisés pour caractériser un point\" de cette configuration de séance."
+msgstr "Vous ne pouvez pas sélectionner \"Par mode de scrutin\" car \"Mode de scrutin\" n'est pas sélectionné dans le champ \"Attributs utilisés pour caractériser un point\" de cette configuration de séance!"
 
 #. Default: "You can not select \"Follow privacy order\" inserting method as the field \"Privacy\" is not selected in the field \"Attributes used for characterizing an item\" of this meeting configuration."
 msgid "inserting_methods_not_using_privacy_error"
-msgstr "Vous ne pouvez pas sélectionner \"Par niveau de confidentialité\" car \"Niveau de confidentialité\" n'est pas sélectionné dans le champ \"Attributs utilisés pour caractériser un point\" de cette configuration de séance."
+msgstr "Vous ne pouvez pas sélectionner \"Par niveau de confidentialité\" car \"Niveau de confidentialité\" n'est pas sélectionné dans le champ \"Attributs utilisés pour caractériser un point\" de cette configuration de séance!"
 
 #. Default: "You can not select \"Follow to discuss order\" inserting method as the field \"To discuss ?\" is not selected in the field \"Attributes used for characterizing an item\" of this meeting configuration."
 msgid "inserting_methods_not_using_to_discuss_error"
-msgstr "Vous ne pouvez pas sélectionner \"Par point A évoquer en séance? (A évoquer en séance? et ensuite pas A évoquer en séance?)\" car \"A évoquer en séance?\" n'est pas sélectionné dans le champ \"Attributs utilisés pour caractériser un point\" de cette configuration de séance."
+msgstr "Vous ne pouvez pas sélectionner \"Par point A évoquer en séance? (A évoquer en séance? et ensuite pas A évoquer en séance?)\" car \"A évoquer en séance?\" n'est pas sélectionné dans le champ \"Attributs utilisés pour caractériser un point\" de cette configuration de séance!"
 
 #. Default: "Choose the methods that will be successively applied to define where the item will be added by default when inserted into a meeting."
 msgid "inserting_methods_on_add_item_descr"
@@ -6741,6 +6757,10 @@ msgstr "Accepter un point hors séance lorsqu'il est validé lorsque l'urgence e
 #. Default: "Accept a validated item out of a meeting when emergency is asked (the item is duplicated, validated and given advices are kept)"
 msgid "wa_accepted_out_of_meeting_emergency_and_duplicated"
 msgstr "Accepter un point hors séance lorsqu'il est validé lorsque l'urgence est demandée (le point sera dupliqué, le point dupliqué sera validé et gardera les avis)"
+
+#. Default: "Add \"advicecreated\" initial state"
+msgid "wa_add_advicecreated_state"
+msgstr "Ajouter l'état initial \"En création\""
 
 #. Default: "You can not select the \"Items come validated\" adaptation as there are still items in state \"itemcreated\" or \"proposed\"."
 msgid "wa_added_items_come_validated_error"

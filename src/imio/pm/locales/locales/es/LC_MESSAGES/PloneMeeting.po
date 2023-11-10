@@ -921,6 +921,10 @@ msgstr "Consejos"
 msgid "PloneMeeting_label_advicesKeptOnSentToOtherMC"
 msgstr ""
 
+#. Default: "Advisers config"
+msgid "PloneMeeting_label_advisersConfig"
+msgstr ""
+
 #. Default: "Tags"
 msgid "PloneMeeting_label_allItemTags"
 msgstr "Etiquetas"
@@ -2518,6 +2522,18 @@ msgstr ""
 #. Default: "Advisers"
 msgid "advisers"
 msgstr "Consejeros"
+
+#. Default: "You can not add, change or remove a configuration for a portal type that is already used in the application.  Portal type \"${portal_type}\" is used for example by advice at ${advice_url}."
+msgid "advisersConfig_portal_type_in_use_error"
+msgstr ""
+
+#. Default: "You can not define several configuration for same \"Portal type\""
+msgid "advisersConfig_several_portal_types_error"
+msgstr ""
+
+#. Default: "Custom advisers configuration, useful when you have several advice portal types. <span class='highlight-red'>DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING!</span>"
+msgid "advisers_config_descr"
+msgstr ""
 
 #. Default: "When an annex using this annex type will be updated by the scan document automatic process, the annex type will be changed to the selected category.  If nothing is selected, the original annex type will remain"
 msgid "after_scan_change_annex_type_to_descr"
@@ -6821,6 +6837,10 @@ msgstr ""
 
 #. Default: "Accept a validated item out of a meeting when emergency is asked (the item is duplicated, validated and given advices are kept)"
 msgid "wa_accepted_out_of_meeting_emergency_and_duplicated"
+msgstr ""
+
+#. Default: "Add \"advicecreated\" initial state"
+msgid "wa_add_advicecreated_state"
 msgstr ""
 
 #. Default: "You can not select the \"Items come validated\" adaptation as there are still items in state \"itemcreated\" or \"proposed\"."
