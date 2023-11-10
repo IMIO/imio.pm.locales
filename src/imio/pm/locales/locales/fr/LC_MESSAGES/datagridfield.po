@@ -35,6 +35,10 @@ msgstr "Utilisé par les organisations"
 msgid "Adviser config portal_type"
 msgstr "Type de contenu \"Avis\""
 
+#. Default: "Adviser config show advice on final WF transition descr"
+msgid "Adviser config show advice on final WF transition descr"
+msgstr "Lors de l'utilisation de la fonctionnalité \"Cacher l'avis pendant sa rédaction\" si l'avis est caché lors de la dernière transition du workflow, il sera automatiquement montré/publié"
+
 #. Default: "Adviser config  show advice on final WF transition?"
 msgid "Adviser config show advice on final WF transition?"
 msgstr "\"Publier l'avis\" automatiquement lors de la dernière transition de workflow?"

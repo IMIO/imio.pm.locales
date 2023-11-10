@@ -34,6 +34,10 @@ msgstr "Adviser config org uids"
 msgid "Adviser config portal_type"
 msgstr "Adviser config portal_type"
 
+#. Default: "Adviser config show advice on final WF transition descr"
+msgid "Adviser config show advice on final WF transition descr"
+msgstr "Adviser config show advice on final WF transition descr"
+
 #. Default: "Adviser config  show advice on final WF transition?"
 msgid "Adviser config show advice on final WF transition?"
 msgstr "Adviser config  show advice on final WF transition?"
@@ -76,7 +80,7 @@ msgstr "Committee default signatures"
 
 #. Default: "Committee editors group enabled?"
 msgid "Committee editors group enabled?"
-msgstr ""
+msgstr "Committee editors group enabled?"
 
 #. Default: "Committee enabled?"
 msgid "Committee enabled?"
@@ -420,7 +424,7 @@ msgstr "Used when creating a new meeting if field \"Signatures\" is enabled for 
 
 #. Default: "When enabled, a Plone group is created and users of this group will be able to edit \"Committee\" related fields on the item."
 msgid "committees_enable_editors_col_description"
-msgstr ""
+msgstr "When enabled, a Plone group is created and users of this group will be able to edit \"Committee\" related fields on the item."
 
 #. Default: "When selecting \"Item only\" the value will only be selectable on items but not on meetings."
 msgid "committees_enabled_col_description"
