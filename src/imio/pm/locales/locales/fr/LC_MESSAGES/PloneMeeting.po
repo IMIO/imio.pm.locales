@@ -452,6 +452,10 @@ msgstr "Encodez la date depuis laquelle la signature sera valide, utilisez le fo
 msgid "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgstr "Encodez la date jusqu'à laquelle la signature sera valide, utilisez le format AAAA/MM/JJ, laissez le champ vide pour que la signature soit toujours valide."
 
+#. Default: "Everyone"
+msgid "Everyone"
+msgstr "Tout le monde"
+
 #. Default: "Filled in the \"Selectable assembly members\" for meeting configurations"
 msgid "Filled in the \"Ordered contacts\" for meeting configurations"
 msgstr "Renseigné dans le champ \"Membres d'assemblée sélectionnables\" des configurations de séances"
@@ -3980,7 +3984,7 @@ msgstr "Sélectionnez les profils pour lesquels les classes Css définies ci-des
 
 #. Default: "Hide links to the history in various place (item, meeting and advice view, dashboards, ...)."
 msgid "hide_history_to_descr"
-msgstr "Cacher les liens vers l'historique dans différents endroits (vue point, séance et avis, tableaux de bord, ...). Si l'utilisateur est dans les groupes sélectionnés mais également membre du groupe proposant du point, il aura malgré tout accès à l'historique."
+msgstr "Cacher les liens vers l'historique dans différents endroits (vue point/séance/avis, tableaux de bord, popup avis, ...). Si l'utilisateur est dans les groupes sélectionnés mais également membre gestionnaire de l'élément (membre du groupe proposant pour les points, membres émetteurs d'avis pour l'avis, membre gestionnaire de séances pour les séances), il aura malgré tout accès à l'historique. Si un utilisateur n'a pas accès à l'historique, il ne verra pas non plus l'information \"Créé par\" sur la vue de l'élément. Un gestionnaire de séances à toujours accès à l'historique de tous les éléments."
 
 #. Default: "If box is checked, when a user will access the history of an item, the comments of the listed events will only be shown if current user is part of the item's proposing group."
 msgid "hide_item_history_comments_to_users_outside_proposing_group_descr"

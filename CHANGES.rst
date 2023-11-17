@@ -13,6 +13,8 @@ Changelog
   [gbastien]
 - Added translations for `ToolPloneMeeting.advisersConfig`.
   [gbastien]
+- Added translation for `Everyone`.
+  [gbastien]
 
 4.2.8 (2023-10-27)
 ------------------

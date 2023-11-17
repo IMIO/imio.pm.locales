@@ -452,6 +452,10 @@ msgstr "Enter valid from date, use following format : YYYY/MM/DD, leave empty so
 msgid "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 msgstr "Enter valid to date, use following format : YYYY/MM/DD, leave empty so it is always valid."
 
+#. Default: "Everyone"
+msgid "Everyone"
+msgstr "Everyone"
+
 #. Default: "Filled in the \"Selectable assembly members\" for meeting configurations"
 msgid "Filled in the \"Ordered contacts\" for meeting configurations"
 msgstr "Filled in the \"Selectable assembly members\" for meeting configurations"
@@ -6736,7 +6740,7 @@ msgstr "Accept a validated item out of a meeting when emergency is asked (the it
 
 #. Default: "Add \"advicecreated\" initial state"
 msgid "wa_add_advicecreated_state"
-msgstr ""
+msgstr "Add \"advicecreated\" initial state"
 
 #. Default: "You can not select the \"Items come validated\" adaptation as there are still items in state \"itemcreated\" or \"proposed\"."
 msgid "wa_added_items_come_validated_error"
