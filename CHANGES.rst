@@ -15,6 +15,10 @@ Changelog
   [gbastien]
 - Added translation for `Everyone`.
   [gbastien]
+- Added translation for `static_item_meeting_deadline_date`.
+  [gbastien]
+- Added translation for `annexes_preview_config`.
+  [gbastien]
 
 4.2.8 (2023-10-27)
 ------------------
