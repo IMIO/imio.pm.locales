@@ -2646,7 +2646,7 @@ msgstr "Annexes preview"
 
 #. Default: "When you enable or disable the auto conversion, please <a href='./edit'>edit</a> and save the PloneMeeting configuration so some parameters are automatically configured."
 msgid "annexes_preview_config"
-msgstr ""
+msgstr "When you enable or disable the auto conversion, please <a href='./edit'>edit</a> and save the PloneMeeting configuration so some parameters are automatically configured."
 
 #. Default: "If you enable annexes preview, the annex will be converted to a previewable/printable format directly readable by the web browser.  <span style='color: red;'>If you enable this on a site that already contains items and annexes, do not forget to launch the annexes conversion process!</span>"
 msgid "annexes_preview_descr"
@@ -6837,6 +6837,14 @@ msgstr "Only creators may delete items"
 #. Default: "Postpone next meeting"
 msgid "wa_postpone_next_meeting"
 msgstr "Postpone next meeting"
+
+#. Default: "Postpone next meeting (complementary: keep same internal_number when used for the duplicated item)"
+msgid "wa_postpone_next_meeting_keep_internal_number"
+msgstr "Postpone next meeting (complementary: keep same internal_number when used for the duplicated item)"
+
+#. Default: "Postpone next meeting (complementary: transfer scan_id of original annexes to duplicated item annexes)"
+msgid "wa_postpone_next_meeting_transfer_annex_scan_id"
+msgstr "Postpone next meeting (complementary: transfer scan_id of original annexes to duplicated item annexes)"
 
 #. Default: "Pre-accepted"
 msgid "wa_pre_accepted"

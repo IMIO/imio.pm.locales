@@ -6860,7 +6860,15 @@ msgstr "Seuls les créateurs de points d'un groupe proposant peuvent supprimer l
 
 #. Default: "Postpone next meeting"
 msgid "wa_postpone_next_meeting"
-msgstr "Reporter un point à la prochaine séance (le nouveau point sera automatiquement validé et les avis rendus seront gardés (hérités))"
+msgstr "Reporter un point à la prochaine séance (base: le nouveau point sera automatiquement validé et les avis rendus seront gardés (hérités))"
+
+#. Default: "Postpone next meeting (complementary: keep same internal_number when used for the duplicated item)"
+msgid "wa_postpone_next_meeting_keep_internal_number"
+msgstr "Reporter un point à la prochaine séance (configuration complémentaire: le point nouveau point gardera le même \"Numéro interne (internal_number)\" si la fonctionnalité est utilisée)"
+
+#. Default: "Postpone next meeting (complementary: transfer scan_id of original annexes to duplicated item annexes)"
+msgid "wa_postpone_next_meeting_transfer_annex_scan_id"
+msgstr "Reporter un point à la prochaine séance (configuration complémentaire: le QR code (scan_id) des annexes est transféré vers les annexes du nouveau point)"
 
 #. Default: "Pre-accepted"
 msgid "wa_pre_accepted"

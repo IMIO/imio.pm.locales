@@ -19,6 +19,9 @@ Changelog
   [gbastien]
 - Added translation for `annexes_preview_config`.
   [gbastien]
+- Added translations for new WFA `wa_postpone_next_meeting_keep_internal_number`
+  and `wa_postpone_next_meeting_transfer_annex_scan_id`.
+  [gbastien]
 
 4.2.8 (2023-10-27)
 ------------------
