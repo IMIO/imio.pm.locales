@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.9 (unreleased)
+4.2.9 (2023-11-27)
 ------------------
 
 - Adapted translations for item mail events `lateItem`, `itemUnpresented`,
