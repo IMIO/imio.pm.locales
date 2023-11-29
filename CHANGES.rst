@@ -5,8 +5,8 @@ Changelog
 4.2.10 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations related to new `advice_hide_during_redaction_history`.
+  [gbastien]
 
 4.2.9 (2023-11-27)
 ------------------

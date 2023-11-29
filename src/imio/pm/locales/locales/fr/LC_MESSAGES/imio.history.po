@@ -71,6 +71,14 @@ msgstr "Point créé depuis un point de l'assemblée PloneMeeting."
 msgid "create_to_plonemeeting-assembly_from_plonegov-assembly_comments"
 msgstr "Point créé depuis un point de l'assemblée PloneGov."
 
+#. Default: "The advice will be considered \"not given\""
+msgid "to_hidden_during_redaction_comments"
+msgstr "Attention un avis est considéré \"non rendu\" tant qu'il est caché"
+
+#. Default: "The advice will be confirmed and considered \"given\""
+msgid "to_not_hidden_during_redaction_comments"
+msgstr "L'avis est confirmé et considéré \"rendu\""
+
 #. Default: "This transition was automatically triggered by the application."
 msgid "wf_transition_triggered_by_application"
 msgstr "Cette transition a été automatiquement exécutée par l'application."
