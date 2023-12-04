@@ -7,6 +7,10 @@ Changelog
 
 - Added translations related to new `advice_hide_during_redaction_history`.
   [gbastien]
+- Added translation for `No vote for following ${number} item(s)`.
+  [gbastien]
+- Added translation for faceted filter `Title only`.
+  [gbastien]
 
 4.2.9 (2023-11-27)
 ------------------
