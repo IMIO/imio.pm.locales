@@ -6770,10 +6770,6 @@ msgstr "Accepter un point hors séance lorsqu'il est validé lorsque l'urgence e
 msgid "wa_accepted_out_of_meeting_emergency_and_duplicated"
 msgstr "Accepter un point hors séance lorsqu'il est validé lorsque l'urgence est demandée (le point sera dupliqué, le point dupliqué sera validé et gardera les avis)"
 
-#. Default: "Add \"advicecreated\" initial state"
-msgid "wa_add_advicecreated_state"
-msgstr "Ajouter l'état initial \"En création\""
-
 #. Default: "You can not select the \"Items come validated\" adaptation as there are still items in state \"itemcreated\" or \"proposed\"."
 msgid "wa_added_items_come_validated_error"
 msgstr "Vous ne pouvez pas sélectionner l'adaptation \"Les points arrivent validés\" car il reste des points dans l'état \"en création\" ou \"proposé\"."

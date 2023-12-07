@@ -11,6 +11,8 @@ Changelog
   [gbastien]
 - Added translation for faceted filter `Title only`.
   [gbastien]
+- Removed translations for the `add_advicecreated_state` WFA.
+  [gbastien]
 
 4.2.9 (2023-11-27)
 ------------------
