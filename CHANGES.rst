@@ -5,8 +5,8 @@ Changelog
 4.2.11 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Accurate french translation for `help_given_on_before_started_on`.
+  [gbastien]
 
 4.2.10 (2023-12-11)
 -------------------
