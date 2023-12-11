@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.10 (unreleased)
+4.2.10 (2023-12-11)
 -------------------
 
 - Added translations related to new `advice_hide_during_redaction_history`.
