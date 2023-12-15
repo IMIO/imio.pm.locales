@@ -138,7 +138,7 @@ msgstr "Types d'annexes"
 
 #. Default: "Annexes to keep"
 msgid "Annexes to keep"
-msgstr "Garder les annexes suivantes"
+msgstr "Inclure les annexes suivantes"
 
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
@@ -322,7 +322,7 @@ msgstr "Nombre de jours ouvrables pour rendre l'avis : ${daysToGiveAdvice} jours
 
 #. Default: "Decision annexes to keep"
 msgid "Decision annexes to keep"
-msgstr "Garder les annexes (après décision) suivantes"
+msgstr "Inclure les annexes (après décision) suivantes"
 
 #. Default: "Decisions"
 msgid "Decisions"
@@ -355,6 +355,10 @@ msgstr "ATTENTION, les annexes grisées ne seront pas gardées si elles comporte
 #. Default: "Document templates"
 msgid "Document templates"
 msgstr "Modèles de documents"
+
+#. Default: "Documents to generate"
+msgid "Documents to generate"
+msgstr "Inclure les documents générés suivants"
 
 #. Default: "Download annex"
 msgid "Download annex"
@@ -3791,6 +3795,10 @@ msgstr "Annexes"
 #. Default: "Votes"
 msgid "existing_votes"
 msgstr "Votes"
+
+#. Default: "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
+msgid "export_pdf_descr"
+msgstr "Sélectionnez les éléments à exporter dans un document PDF unique.  Les annexes grisées ne sont pas des documents PDF."
 
 #. Default: "Cancel edit"
 msgid "fastedit_cancel"

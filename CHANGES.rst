@@ -7,6 +7,8 @@ Changelog
 
 - Accurate french translation for `help_given_on_before_started_on`.
   [gbastien]
+- Added translations for the `Export PDF` action on item.
+  [gbastien]
 
 4.2.10 (2023-12-11)
 -------------------

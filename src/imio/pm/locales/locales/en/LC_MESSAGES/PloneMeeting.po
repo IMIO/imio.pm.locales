@@ -356,6 +356,10 @@ msgstr "Disabled (greyed) annexes will not be kept on the new duplicated item."
 msgid "Document templates"
 msgstr "Document templates"
 
+#. Default: "Documents to generate"
+msgid "Documents to generate"
+msgstr ""
+
 #. Default: "Download annex"
 msgid "Download annex"
 msgstr "Download annex"
@@ -3775,6 +3779,10 @@ msgstr "Annexes"
 #. Default: "Votes"
 msgid "existing_votes"
 msgstr "Votes"
+
+#. Default: "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
+msgid "export_pdf_descr"
+msgstr ""
 
 #. Default: "Cancel edit"
 msgid "fastedit_cancel"
