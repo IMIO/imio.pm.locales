@@ -5090,12 +5090,8 @@ msgstr ""
 msgid "hide_css_classes_to_descr"
 msgstr ""
 
-#. Default: "Enable item duplication"
-msgid "PloneMeeting_label_enableItemDuplication"
-msgstr ""
-
-#. Default: "If enabled, item creators will have access to actions \"Duplicate\" and \"Duplicate and keep link\" on an item making it possible to easily create an item from another existing item."
-msgid "enable_item_duplication_descr"
+#. Default: "Actions enabled on items"
+msgid "PloneMeeting_label_enabledItemActions"
 msgstr ""
 
 #. Default: "Hide not viewable items to"
@@ -7028,4 +7024,12 @@ msgstr ""
 
 #. Default: "Documents to generate"
 msgid "Documents to generate"
+msgstr ""
+
+#. Default: "Item duplication"
+msgid "item_action_duplication"
+msgstr ""
+
+#. Default: "Item export PDF"
+msgid "item_action_export_pdf"
 msgstr ""

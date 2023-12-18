@@ -1143,10 +1143,6 @@ msgstr "Ungültig setzen von Kommentaren zulassen"
 msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
 msgstr ""
 
-#. Default: "Enable item duplication"
-msgid "PloneMeeting_label_enableItemDuplication"
-msgstr ""
-
 #. Default: "Enable labels"
 msgid "PloneMeeting_label_enableLabels"
 msgstr ""
@@ -1161,6 +1157,10 @@ msgstr ""
 
 #. Default: "Enabled annexes batch actions"
 msgid "PloneMeeting_label_enabledAnnexesBatchActions"
+msgstr ""
+
+#. Default: "Actions enabled on items"
+msgid "PloneMeeting_label_enabledItemActions"
 msgstr ""
 
 #. Default: "Enforce advice mandatoriness"
@@ -3594,10 +3594,6 @@ msgstr ""
 msgid "enable_annex_to_print_enabled_for_printing"
 msgstr ""
 
-#. Default: "If enabled, item creators will have access to actions \"Duplicate\" and \"Duplicate and keep link\" on an item making it possible to easily create an item from another existing item."
-msgid "enable_item_duplication_descr"
-msgstr ""
-
 #. Default: "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
 msgid "enable_labels_descr"
 msgstr ""
@@ -4380,6 +4376,14 @@ msgstr "Die Sitzung ist folgende: ${meetingTitle}."
 #, fuzzy
 msgid "itemUnpresented_mail_subject"
 msgstr "Einer Ihrer TOP, ${itemTitle}, wurde von einer Sitzung gestrichen. Diese Sitzung kann noch im Erstellungsstatus sein und ist deshalb nicht zugreifbar."
+
+#. Default: "Item duplication"
+msgid "item_action_duplication"
+msgstr ""
+
+#. Default: "Item export PDF"
+msgid "item_action_export_pdf"
+msgstr ""
 
 #. Default: "Select here optional actions that will appear in the \"Actions\" column of dashboards displaying items.  This column is the heaviest to display, so selecting less actions will make your dashboards display faster."
 msgid "item_actions_column_config_descr"

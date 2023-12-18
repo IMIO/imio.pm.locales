@@ -1139,10 +1139,6 @@ msgstr "Enable advice invalidation"
 msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
 msgstr "Enable advice proposing group comment"
 
-#. Default: "Enable item duplication"
-msgid "PloneMeeting_label_enableItemDuplication"
-msgstr "Enable item duplication"
-
 #. Default: "Enable labels"
 msgid "PloneMeeting_label_enableLabels"
 msgstr "Enable labels"
@@ -1158,6 +1154,10 @@ msgstr "Enable user preferences"
 #. Default: "Enabled annexes batch actions"
 msgid "PloneMeeting_label_enabledAnnexesBatchActions"
 msgstr "Enabled annexes batch actions"
+
+#. Default: "Actions enabled on items"
+msgid "PloneMeeting_label_enabledItemActions"
+msgstr ""
 
 #. Default: "Enforce advice mandatoriness"
 msgid "PloneMeeting_label_enforceAdviceMandatoriness"
@@ -3572,10 +3572,6 @@ msgstr "Enabled, for information (annexes are printed manually)"
 msgid "enable_annex_to_print_enabled_for_printing"
 msgstr "Enabled, for automated printing (annexes are printed by the application)"
 
-#. Default: "If enabled, item creators will have access to actions \"Duplicate\" and \"Duplicate and keep link\" on an item making it possible to easily create an item from another existing item."
-msgid "enable_item_duplication_descr"
-msgstr "If enabled, item creators will have access to actions \"Duplicate\" and \"Duplicate and keep link\" on an item making it possible to easily create an item from another existing item."
-
 #. Default: "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
 msgid "enable_labels_descr"
 msgstr "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
@@ -4349,6 +4345,14 @@ msgstr ""
 #. Default: "${meetingConfigTitle} - Item was removed from meeting - ${itemTitle}"
 msgid "itemUnpresented_mail_subject"
 msgstr "${meetingConfigTitle} - Item was removed from meeting - ${itemTitle}"
+
+#. Default: "Item duplication"
+msgid "item_action_duplication"
+msgstr ""
+
+#. Default: "Item export PDF"
+msgid "item_action_export_pdf"
+msgstr ""
 
 #. Default: "Select here optional actions that will appear in the \"Actions\" column of dashboards displaying items.  This column is the heaviest to display, so selecting less actions will make your dashboards display faster."
 msgid "item_actions_column_config_descr"
