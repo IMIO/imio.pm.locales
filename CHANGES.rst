@@ -9,6 +9,8 @@ Changelog
   [gbastien]
 - Added translations for the `Export PDF` action on item.
   [gbastien]
+- More accurate french translation for `copy_groups_help_msg`.
+  [gbastien]
 
 4.2.10 (2023-12-11)
 -------------------

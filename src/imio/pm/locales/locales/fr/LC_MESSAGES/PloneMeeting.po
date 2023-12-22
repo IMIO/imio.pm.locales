@@ -3247,7 +3247,7 @@ msgstr "${meetingConfigTitle} - Vous avez été mis en copie - ${itemTitle}"
 msgid "copy_groups_help_msg"
 msgstr ""
 "Les groupes en copie auront accès en lecture seule au point dans les états suivants: ${states}.\n"
-"L'icône \"?\" apparaît en vert lorsque les groupes en copie ont accès au point.\n"
+"Le libellé du champ apparaît en vert lorsque les groupes en copie ont accès au point.\n"
 "Si le libellé \"[auto]\"est affiché à la suite du titre du groupe en copie, cela signifie qu'il a été mis en copie automatiquement par l'application."
 
 #. Default: " "
@@ -3794,7 +3794,7 @@ msgstr "Votes"
 
 #. Default: "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
 msgid "export_pdf_descr"
-msgstr "Cette action permet de grouper des documents PDF dans un PDF unique.  Les annexes grisées ne sont pas des documents PDF et ne peuvent pas être sélectionnées."
+msgstr "Cette action permet de grouper des documents PDF dans un PDF unique.  Dans la liste des annexes, les annexes grisées ne sont pas des documents PDF et ne peuvent pas être sélectionnées."
 
 #. Default: "Cancel edit"
 msgid "fastedit_cancel"
