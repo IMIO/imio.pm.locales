@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.11 (unreleased)
+4.2.11 (2024-01-02)
 -------------------
 
 - Accurate french translation for `help_given_on_before_started_on`.
