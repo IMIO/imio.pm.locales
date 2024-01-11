@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.12 (unreleased)
+4.2.12 (2024-01-11)
 -------------------
 
 - Adapted translations for the `Export PDF` action on item.
