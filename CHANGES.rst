@@ -5,8 +5,8 @@ Changelog
 4.2.12 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Adapted translations for the `Export PDF` action on item.
+  [gbastien]
 
 4.2.11 (2024-01-02)
 -------------------

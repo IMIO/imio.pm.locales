@@ -356,10 +356,6 @@ msgstr "ATTENTION, les annexes grisées ne seront pas gardées si elles comporte
 msgid "Document templates"
 msgstr "Modèles de documents"
 
-#. Default: "Documents to generate"
-msgid "Documents to generate"
-msgstr "Inclure les documents générés suivants"
-
 #. Default: "Download annex"
 msgid "Download annex"
 msgstr "Télécharger"
@@ -395,6 +391,10 @@ msgstr "Éditer ce signataire redéfini sur ce point"
 #. Default: "Edit this vote"
 msgid "Edit this vote"
 msgstr "Éditer ce vote"
+
+#. Default: "Elements to export in PDF"
+msgid "Elements to export in PDF"
+msgstr "Inclure les éléments suivants"
 
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
@@ -576,6 +576,18 @@ msgstr "Dupliquer (pour les administrateurs)"
 #. Default: "Item action duplicate (MeetingManager)"
 msgid "Item action duplicate (MeetingManager)"
 msgstr "Dupliquer (pour les gestionnaires de séances)"
+
+#. Default: "Item action export PDF"
+msgid "Item action export PDF"
+msgstr "Exporter en PDF (pour tout le monde)"
+
+#. Default: "Item action export PDF (Manager)"
+msgid "Item action export PDF (Manager)"
+msgstr "Exporter en PDF (pour les administrateurs)"
+
+#. Default: "Item action export PDF (MeetingManager)"
+msgid "Item action export PDF (MeetingManager)"
+msgstr "Export en PDF (pour les gestionnaires de séances)"
 
 #. Default: "Item action history"
 msgid "Item action history"

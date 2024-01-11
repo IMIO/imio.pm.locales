@@ -356,10 +356,6 @@ msgstr "Disabled (greyed) annexes will not be kept on the new duplicated item."
 msgid "Document templates"
 msgstr "Document templates"
 
-#. Default: "Documents to generate"
-msgid "Documents to generate"
-msgstr ""
-
 #. Default: "Download annex"
 msgid "Download annex"
 msgstr "Download annex"
@@ -395,6 +391,10 @@ msgstr "Edit redefined signatory for this item"
 #. Default: "Edit this vote"
 msgid "Edit this vote"
 msgstr "Edit this vote"
+
+#. Default: "Elements to export in PDF"
+msgid "Elements to export in PDF"
+msgstr "Elements to export in PDF"
 
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
@@ -576,6 +576,18 @@ msgstr "Item action duplicate (Manager)"
 #. Default: "Item action duplicate (MeetingManager)"
 msgid "Item action duplicate (MeetingManager)"
 msgstr "Item action duplicate (MeetingManager)"
+
+#. Default: "Item action export PDF"
+msgid "Item action export PDF"
+msgstr "Item action export PDF"
+
+#. Default: "Item action export PDF (Manager)"
+msgid "Item action export PDF (Manager)"
+msgstr "Item action export PDF (Manager)"
+
+#. Default: "Item action export PDF (MeetingManager)"
+msgid "Item action export PDF (MeetingManager)"
+msgstr "Item action export PDF (MeetingManager)"
 
 #. Default: "Item action history"
 msgid "Item action history"
@@ -781,7 +793,7 @@ msgstr "No valid groupsInCharge defined for item at ${item_url}, item was insert
 
 #. Default: "<span class='item_polltype_no_vote'>No vote</span> for following ${number} item(s)"
 msgid "No vote for following ${number} item(s)"
-msgstr ""
+msgstr "<span class='item_polltype_no_vote'>No vote</span> for following ${number} item(s)"
 
 #. Default: "None"
 msgid "None"
@@ -1157,7 +1169,7 @@ msgstr "Enabled annexes batch actions"
 
 #. Default: "Actions enabled on items"
 msgid "PloneMeeting_label_enabledItemActions"
-msgstr ""
+msgstr "Actions enabled on items"
 
 #. Default: "Enforce advice mandatoriness"
 msgid "PloneMeeting_label_enforceAdviceMandatoriness"
@@ -3778,7 +3790,7 @@ msgstr "Votes"
 
 #. Default: "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
 msgid "export_pdf_descr"
-msgstr ""
+msgstr "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
 
 #. Default: "Cancel edit"
 msgid "fastedit_cancel"
@@ -4348,11 +4360,11 @@ msgstr "${meetingConfigTitle} - Item was removed from meeting - ${itemTitle}"
 
 #. Default: "Item duplication"
 msgid "item_action_duplication"
-msgstr ""
+msgstr "Item duplication"
 
 #. Default: "Item export PDF"
 msgid "item_action_export_pdf"
-msgstr ""
+msgstr "Item export PDF"
 
 #. Default: "Select here optional actions that will appear in the \"Actions\" column of dashboards displaying items.  This column is the heaviest to display, so selecting less actions will make your dashboards display faster."
 msgid "item_actions_column_config_descr"
