@@ -5332,7 +5332,7 @@ msgstr "Par point A évoquer en séance? (A évoquer en séance? et ensuite pas 
 
 #. Default: "When a workflow transition occur, you can define for every rich text field of an item, a transform to apply.  This is managed using a TAL expression."
 msgid "on_transition_field_transforms_descr"
-msgstr "Lorsqu'une transition de workflow est effectuée sur un point, vous pouvez renseigner une expression TAL qui adaptera une des zones de texte riche de ce point."
+msgstr "Lorsqu'une transition de workflow est effectuée sur un point, vous pouvez renseigner une expression TAL qui sera exécutée ou qui adaptera une des zones de texte riche de ce point."
 
 #. Default: "Only selectable by MeetingManagers"
 msgid "only_for_meeting_managers"
