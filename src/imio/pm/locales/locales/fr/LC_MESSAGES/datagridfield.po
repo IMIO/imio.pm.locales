@@ -289,7 +289,7 @@ msgstr "Expression TAL"
 
 #. Default: "Field name"
 msgid "On transition field transform field name"
-msgstr "Champ"
+msgstr "Champ à adapter ou action à exécuter"
 
 #. Default: "Transition"
 msgid "On transition field transform transition"
@@ -365,7 +365,7 @@ msgstr "Titre"
 
 #. Default: "The TAL expression.  Element \"here\" represent the item.  This expression MUST return valid HTML or it will not behave properly on the item."
 msgid "The TAL expression.  Element 'here' represent the item.  This expression MUST return valid HTML or it will not behave properly on the item."
-msgstr "Encodez une expression au format TAL. L'élément \"here\" représente le point. Cette expression DOIT retourner du HTML valide ou il ne sera pas affiché correctement sur le point."
+msgstr "Encodez une expression au format TAL. Les éléments \"member\", \"context\", \"portal\", \"tool\", \"cfg\" et \"utils\" sont disponibles dans l'expression.  Si l'action concerne un \"Champ à adapter\", cette expression DOIT retourner du HTML valide ou il ne sera pas affiché correctement sur le point."
 
 #. Default: " "
 msgid "The action that will be executed on every items of the meeting."
@@ -377,7 +377,7 @@ msgstr " "
 
 #. Default: "The item field that will be transformed."
 msgid "The item field that will be transformed."
-msgstr "Le champ du point sur lequel l'adaptation sera appliquée."
+msgstr "Le champ du point sur lequel l'adaptation sera appliquée ou l'action à appliquer."
 
 #. Default: "The meeting config the item of this meeting config will be sendable to."
 msgid "The meeting config the item of this meeting config will be sendable to."
@@ -385,7 +385,7 @@ msgstr "Le type de séance vers laquelle les points de ce type de séance pourro
 
 #. Default: "The transition that will trigger the field transform."
 msgid "The transition that will trigger the field transform."
-msgstr "La transition qui va déclencher l'adaptation de la zone de texte riche."
+msgstr "La transition qui va déclencher l'adaptation du champ ou qui va exécuter l'action renseignée."
 
 #. Default: " "
 msgid "The transition triggered on the meeting."

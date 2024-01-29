@@ -5,8 +5,8 @@ Changelog
 4.2.13 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Adapted translations for `MeetingConfig.onTransitionFieldTransforms`.
+  [gbastien]
 
 4.2.12 (2024-01-11)
 -------------------
