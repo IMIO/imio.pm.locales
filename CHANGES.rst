@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.13 (unreleased)
+4.2.13 (2024-01-31)
 -------------------
 
 - Adapted translations for `MeetingConfig.onTransitionFieldTransforms`.
