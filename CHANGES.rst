@@ -5,8 +5,9 @@ Changelog
 4.2.14 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations for `MeetingItemRecurring` and `MeetingItemTemplate`,
+  this prepare removal of every `Meeting/MeetingItem` portal_types translations.
+  [gbastien]
 
 4.2.13 (2024-01-31)
 -------------------
