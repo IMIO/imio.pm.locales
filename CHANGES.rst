@@ -8,6 +8,8 @@ Changelog
 - Added translations for `MeetingItemRecurring` and `MeetingItemTemplate`,
   this prepare removal of every `Meeting/MeetingItem` portal_types translations.
   [gbastien]
+- Added translations for `MeetingConfig.itemWFValidationLevels.groups_managing_item`.
+  [gbastien]
 
 4.2.13 (2024-01-31)
 -------------------
