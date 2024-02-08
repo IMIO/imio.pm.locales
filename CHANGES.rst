@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.14 (unreleased)
+4.2.14 (2024-02-08)
 -------------------
 
 - Added translations for `MeetingItemRecurring` and `MeetingItemTemplate`,
