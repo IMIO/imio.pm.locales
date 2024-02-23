@@ -5,8 +5,9 @@ Changelog
 4.2.15 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Adapted french translations for `considered_not_given_hidden_during_redaction`
+  and `hidden_during_redaction`.
+  [gbastien]
 
 4.2.14 (2024-02-08)
 -------------------
