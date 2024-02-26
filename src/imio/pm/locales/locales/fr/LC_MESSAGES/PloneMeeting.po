@@ -1598,7 +1598,7 @@ msgstr "Valeurs de vote utilisables sur les votes liés suivants"
 
 #. Default: "Actions to execute on items of a meeting when a transition is triggered on that meeting"
 msgid "PloneMeeting_label_onMeetingTransitionItemActionToExecute"
-msgstr "Actions à exécuter sur les points d'une séance lorsqu'une transition est déclenchée sur cette séance"
+msgstr "Actions à exécuter sur les points d'une séance lorsqu'une transition est déclenchée sur cette séance ou lors de l'insertion d'un point \"en urgence\""
 
 #. Default: "Transforms to apply to rich text fields of an item after a workflow transition"
 msgid "PloneMeeting_label_onTransitionFieldTransforms"
@@ -5312,7 +5312,7 @@ msgstr "Une \"Expression TAL\" doit être renseignée lorsque la valeur \"Exécu
 
 #. Default: "When a transition will be triggered on a meeting, you can define which action to execute on every items of the meeting.  This will make items \"follow\" the meeting state.  You can define several actions to trigger on items for the same meeting transitions, these actions will be executed sequentially on every items of the meeting."
 msgid "on_meeting_transition_item_action_to_execute_descr"
-msgstr "Lorsqu'une transition sera déclenchée sur une séance, vous pouvez définir quelle(s) action(s) devront être exécutées automatiquement sur tous les points de la séance.  Ceci permet de faire en sorte que les points \"suivent\" l'état de la séance.  Vous pouvez définir plusieurs actions à déclencher sur les points pour la même transition déclenchée sur une séance.  Ces actions seront effectuées séquentiellement sur les points de la séance."
+msgstr "Lorsqu'une transition sera déclenchée sur une séance ou lorsqu'un point \"en urgence\" est inséré dans la séance, vous pouvez définir quelle(s) action(s) devront être exécutées automatiquement sur tous les points de la séance ou sur le point \"en urgence\".  Ceci permet de faire en sorte que les points \"suivent\" l'état de la séance.  Vous pouvez définir plusieurs actions à déclencher sur les points pour la même transition déclenchée sur une séance.  Ces actions seront effectuées séquentiellement sur les points de la séance ou sur le point \"en urgence\"."
 
 #. Default: "Follow other meeting configs to clone to (items to be send to another meeting config then items not to be send to another meeting config)"
 msgid "on_other_mc_to_clone_to"
@@ -6892,7 +6892,7 @@ msgstr "Reporter un point à la prochaine séance (base: le nouveau point sera a
 
 #. Default: "Postpone next meeting (complementary: keep same internal_number when used for the duplicated item)"
 msgid "wa_postpone_next_meeting_keep_internal_number"
-msgstr "Reporter un point à la prochaine séance (configuration complémentaire: le point nouveau point gardera le même \"Numéro interne (internal_number)\" si la fonctionnalité est utilisée)"
+msgstr "Reporter un point à la prochaine séance (configuration complémentaire: le nouveau point gardera le même \"Numéro interne (internal_number)\" si la fonctionnalité est utilisée)"
 
 #. Default: "Postpone next meeting (complementary: transfer scan_id of original annexes to duplicated item annexes)"
 msgid "wa_postpone_next_meeting_transfer_annex_scan_id"
