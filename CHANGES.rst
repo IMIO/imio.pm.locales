@@ -5,8 +5,8 @@ Changelog
 4.2.16 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations for `warning_meetingconfig_edit_podtemplate_descr`.
+  [gbastien]
 
 4.2.15 (2024-02-26)
 -------------------
