@@ -3453,6 +3453,14 @@ msgstr ""
 msgid "copyGroups_mail_body"
 msgstr ""
 
+#. Default: "${meetingConfigTitle} - ${meetingTitle} - A late item has been added to the meeting."
+msgid "late_item_in_meeting_mail_subject"
+msgstr ""
+
+# Default: "The item entitled \"${itemTitle}\" has been added to the meeting. You can access this item here: ${objectUrl}."
+msgid "late_item_in_meeting_mail_body"
+msgstr ""
+
 # Other
 #. Default: "Check/uncheck items"
 msgid "helpSelectItemsIcon"

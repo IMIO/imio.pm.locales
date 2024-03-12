@@ -4736,6 +4736,14 @@ msgstr ""
 msgid "lateItem_mail_subject"
 msgstr "${meetingConfigTitle} - A \"late\" item has been validated."
 
+#. Default: "The item entitled \"${itemTitle}\" has been added to the meeting. You can access this item here: ${objectUrl}."
+msgid "late_item_in_meeting_mail_body"
+msgstr "The item entitled \"${itemTitle}\" has been added to the meeting. You can access this item here: ${objectUrl}."
+
+#. Default: "${meetingConfigTitle} - ${meetingTitle} - A late item has been added to the meeting."
+msgid "late_item_in_meeting_mail_subject"
+msgstr "${meetingConfigTitle} - ${meetingTitle} - A late item has been added to the meeting."
+
 #. Default: "--- Do nothing, let the item in the workflow initial state ---"
 msgid "let_item_in_initial_state"
 msgstr "--- Do nothing, let the item in the workflow initial state ---"

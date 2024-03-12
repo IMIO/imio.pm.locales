@@ -4801,6 +4801,14 @@ msgstr "El tema se titula '${itemTitle}'. Usted puede acceder a este tema aquí:
 msgid "lateItem_mail_subject"
 msgstr "${meetingConfigTitle} - Un tema 'tardío' ha sido validado."
 
+#. Default: "The item entitled \"${itemTitle}\" has been added to the meeting. You can access this item here: ${objectUrl}."
+msgid "late_item_in_meeting_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - ${meetingTitle} - A late item has been added to the meeting."
+msgid "late_item_in_meeting_mail_subject"
+msgstr ""
+
 #. Default: "--- Do nothing, let the item in the workflow initial state ---"
 msgid "let_item_in_initial_state"
 msgstr ""

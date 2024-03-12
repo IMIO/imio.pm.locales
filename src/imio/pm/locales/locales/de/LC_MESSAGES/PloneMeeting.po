@@ -4772,6 +4772,14 @@ msgstr "Der TOP trägt dem Namen '${itemTitle}'. Mehr Informationen auf ${portal
 msgid "lateItem_mail_subject"
 msgstr "${portalTitle} - Ein 'verspäteter' TOP wurde bestätigt."
 
+#. Default: "The item entitled \"${itemTitle}\" has been added to the meeting. You can access this item here: ${objectUrl}."
+msgid "late_item_in_meeting_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - ${meetingTitle} - A late item has been added to the meeting."
+msgid "late_item_in_meeting_mail_subject"
+msgstr ""
+
 #. Default: "--- Do nothing, let the item in the workflow initial state ---"
 msgid "let_item_in_initial_state"
 msgstr ""

@@ -4759,6 +4759,14 @@ msgstr ""
 msgid "lateItem_mail_subject"
 msgstr "${meetingConfigTitle} - Un point en urgence vient d'être validé."
 
+#. Default: "The item entitled \"${itemTitle}\" has been added to the meeting. You can access this item here: ${objectUrl}."
+msgid "late_item_in_meeting_mail_body"
+msgstr "L'objet du point est \"${itemTitle}\". Vous pouvez accéder au point ici: ${objectUrl}."
+
+#. Default: "${meetingConfigTitle} - ${meetingTitle} - A late item has been added to the meeting."
+msgid "late_item_in_meeting_mail_subject"
+msgstr "${meetingConfigTitle} - ${meetingTitle} - Un point en urgence a été ajouté à la séance."
+
 #. Default: "--- Do nothing, let the item in the workflow initial state ---"
 msgid "let_item_in_initial_state"
 msgstr "--- Ne rien faire, laisser le point dans son état initial ---"
