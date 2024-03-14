@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.16 (unreleased)
+4.2.16 (2024-03-14)
 -------------------
 
 - Added translations for `warning_meetingconfig_edit_podtemplate_descr`.
