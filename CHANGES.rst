@@ -7,6 +7,8 @@ Changelog
 
 - Added translations for `warning_meetingconfig_edit_podtemplate_descr`.
   [gbastien]
+- Added translations for `Advice accounting commitment` behavior.
+  [gbastien]
 
 4.2.15 (2024-02-26)
 -------------------
