@@ -839,6 +839,10 @@ msgstr "Rien à afficher tant que le point n'est pas présenté dans une séance
 msgid "Nothing to display."
 msgstr "Rien à afficher ou vous n'avez pas accès aux éléments."
 
+#. Default: "Nothing to export"
+msgid "Nothing to export"
+msgstr "Rien à exporter"
+
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
 msgstr "Nombre de caratère de l'objet du point à afficher"
@@ -2368,16 +2372,6 @@ msgstr ""
 msgid "adviceDelayWarning_mail_subject"
 msgstr "${meetingConfigTitle} - Avertissement expiration délai pour rendre un avis - ${itemTitle}"
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
-msgid "adviceEdited_mail_body"
-msgstr ""
-"L'objet du point est \"${itemTitle}\".\n"
-"Accédez au point ici: ${objectUrl}."
-
-#. Default: "${meetingConfigTitle} - An advice has been added or modified  - ${itemTitle}"
-msgid "adviceEdited_mail_subject"
-msgstr "${meetingConfigTitle} - Un avis a été rendu ou modifié - ${itemTitle}"
-
 #. Default: "You can consult this item at ${objectUrl}. You advice is now back in the menu with a question mark icon. You can edit it again by clicking on the pen besides it."
 msgid "adviceInvalidated_mail_body"
 msgstr ""
@@ -2447,6 +2441,26 @@ msgstr "Édition rapide de l'avis"
 #. Default: "The advice has been created or updated."
 msgid "advice_edited"
 msgstr "L'avis a été créé ou modifié."
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "advice_edited_in_meeting_mail_body"
+msgstr ""
+"L'objet du point est \"${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}."
+
+#. Default: "${meetingConfigTitle} - An advice has been added or modified on an item that was already in a meeting - ${itemTitle}"
+msgid "advice_edited_in_meeting_mail_subject"
+msgstr "${meetingConfigTitle} - Un avis a été rendu ou modifié sur un point déjà présenté dans une séance - ${itemTitle}"
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "advice_edited_mail_body"
+msgstr ""
+"L'objet du point est \"${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}."
+
+#. Default: "${meetingConfigTitle} - An advice has been added or modified - ${itemTitle}"
+msgid "advice_edited_mail_subject"
+msgstr "${meetingConfigTitle} - Un avis a été rendu ou modifié - ${itemTitle}"
 
 #. Default: "This advice is considered \"Not given\" because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
 msgid "advice_hidden_during_redaction_considered_not_given_help"
@@ -3708,14 +3722,6 @@ msgstr "Les votes du (des) point(s) \"${item_numbers}\" n'ont pas pu être encod
 msgid "error_value_removed_used_in_committees_field"
 msgstr "Vous ne pouvez utiliser que des valeurs sélectionnées dans le champ \"Membres d'assemblée des commissions sélectionnables\", vérifiez la valeur \"${hp_title}\". Si vous avez perdu les valeurs encodées, annulez l'édition et éditez à nouveau."
 
-#. Default: "An advice was added or updated on an item (notify the \"Creators\")"
-msgid "event_add_advice"
-msgstr "Un avis a été rendu ou modifié sur un point (prévient les créateurs du groupe proposant du point)"
-
-#. Default: "An advice was added or updated on an item (notify the \"Owner\")"
-msgid "event_add_advice_owner"
-msgstr "Un avis a été rendu ou modifié sur un point (prévient l'auteur du point)"
-
 #. Default: "An annex was added to an item already presented in a validated agenda (notify \"MeetingManagers\")"
 msgid "event_add_annex"
 msgstr "Une annexe a été ajoutée à un point qui était déjà présenté dans un ordre du jour (prévient les gestionnaires de séances)"
@@ -3727,6 +3733,22 @@ msgstr "Le délai pour rendre un avis est expiré (prévient les émetteurs d'av
 #. Default: "An advice delay is about to expire (notify advisers of relevant advice)"
 msgid "event_advice_delay_warning"
 msgstr "Le délai pour rendre un avis sera bientôt expiré (prévient les émetteurs d'avis concernés)"
+
+#. Default: "An advice was added or updated on an item (notify the \"${suffix}\")"
+msgid "event_advice_edited"
+msgstr "Un avis a été rendu ou modifié sur un point (prévient les \"${suffix}\" du groupe proposant du point)"
+
+#. Default: "An advice was added or updated on an item already presented in a meeting (notify the \"${suffix}\")"
+msgid "event_advice_edited_in_meeting"
+msgstr "Un avis a été rendu ou modifié sur un point déjà présenté dans une séance (prévient les \"${suffix}\" du groupe proposant du point)"
+
+#. Default: "An advice was added or updated on an item already presented in a meeting (notify the \"Author\")"
+msgid "event_advice_edited_in_meeting_owner"
+msgstr "Un avis a été rendu ou modifié sur un point déjà présenté dans une séance (prévient l'auteur du point)"
+
+#. Default: "An advice was added or updated on an item (notify the \"Author\")"
+msgid "event_advice_edited_owner"
+msgstr "Un avis a été rendu ou modifié sur un point (prévient l'auteur du point)"
 
 #. Default: "An advice needs to be given on an item (notify users able to add advice)"
 msgid "event_advice_to_give"
@@ -3799,6 +3821,10 @@ msgstr "Un point a été retiré d'une séance (prévient l'auteur du point)"
 #. Default: "A late item was just validated (notify \"MeetingManagers\")"
 msgid "event_late_item"
 msgstr "Un point en urgence vient d'être validé (prévient les gestionnaires de séances)"
+
+#. Default: "A late item was just presented into a meeting (notify the \"${po_label}\")"
+msgid "event_late_item_in_meeting"
+msgstr "Un point en urgence vient d'être présenté dans une séance (prévient les \"${po_label}\")"
 
 #. Default: "Absent (excused)"
 msgid "excused"
@@ -4766,6 +4792,20 @@ msgstr ""
 #. Default: "${meetingConfigTitle} - A \"late\" item has been validated."
 msgid "lateItem_mail_subject"
 msgstr "${meetingConfigTitle} - Un point en urgence vient d'être validé."
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
+msgid "late_item_in_meeting_mail_body"
+msgstr ""
+"L'objet du point est \"${itemTitle}\".\n"
+"Accédez au point ici: ${objectUrl}.\n"
+"Accédez à la séance ici: ${meetingUrl}.\n"
+"\n"
+"Action exécutée par \"${transitionActor}\".\n"
+"Commentaire: ${transitionComments}."
+
+#. Default: "${meetingConfigTitle} - A \"late\" item has been presented into meeting ${meetingLongTitle}."
+msgid "late_item_in_meeting_mail_subject"
+msgstr "${meetingConfigTitle} - Un point en urgence vient d'être présenté - ${meetingLongTitle}."
 
 #. Default: "--- Do nothing, let the item in the workflow initial state ---"
 msgid "let_item_in_initial_state"

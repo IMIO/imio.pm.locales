@@ -2492,12 +2492,24 @@ msgstr ""
 msgid "event_advice_to_give_by_user"
 msgstr ""
 
-#. Default: "An advice was added or updated on an item (notify the \"Creators\")"
-msgid "event_add_advice"
+#. Default: "An advice was added or updated on an item (notify the \"${suffix}\")"
+msgid "event_advice_edited"
 msgstr ""
 
-#. Default: "An advice was added or updated on an item (notify the \"Owner\")"
-msgid "event_add_advice_owner"
+#. Default: "An advice was added or updated on an item (notify the \"Author\")"
+msgid "event_advice_edited_owner"
+msgstr ""
+
+#. Default: "An advice was added or updated on an item already presented in a meeting (notify the \"${suffix}\")"
+msgid "event_advice_edited_in_meeting"
+msgstr ""
+
+#. Default: "An advice was added or updated on an item already presented in a meeting (notify the \"Author\")"
+msgid "event_advice_edited_in_meeting_owner"
+msgstr ""
+
+#. Default: "A late item was just presented into a meeting (notify the \"${po_label}\")"
+msgid "event_late_item_in_meeting"
 msgstr ""
 
 #. Default: "An advice on an item has been invalidated (notify users able to give the advice that was invalidated)"
@@ -3292,6 +3304,14 @@ msgstr ""
 msgid "lateItem_mail_body"
 msgstr ""
 
+#. Default: "${meetingConfigTitle} - A \"late\" item has been presented into meeting ${meetingLongTitle}."
+msgid "late_item_in_meeting_mail_subject"
+msgstr ""
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
+msgid "late_item_in_meeting_mail_body"
+msgstr ""
+
 #. Default: "${meetingConfigTitle} - Item has been inserted into a meeting - ${itemTitle}"
 msgid "itemPresented_mail_subject"
 msgstr ""
@@ -3380,12 +3400,20 @@ msgstr ""
 msgid "adviceDelayExpired_mail_body"
 msgstr ""
 
-#. Default: "${meetingConfigTitle} - An advice has been added or modified  - ${itemTitle}"
-msgid "adviceEdited_mail_subject"
+#. Default: "${meetingConfigTitle} - An advice has been added or modified - ${itemTitle}"
+msgid "advice_edited_mail_subject"
 msgstr ""
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
-msgid "adviceEdited_mail_body"
+msgid "advice_edited_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - An advice has been added or modified on an item that was already in a meeting - ${itemTitle}"
+msgid "advice_edited_in_meeting_mail_subject"
+msgstr ""
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "advice_edited_in_meeting_mail_body"
 msgstr ""
 
 #. Default: "${meetingConfigTitle} - One or your advices has been invalidated - ${itemTitle}"

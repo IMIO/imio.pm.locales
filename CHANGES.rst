@@ -5,8 +5,9 @@ Changelog
 4.2.17 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations related to `advice_edited`,  `advice_edited_in_meeting`
+  and `late_item_in_meeting` item mail events.
+  [gbastien]
 
 4.2.16 (2024-03-14)
 -------------------

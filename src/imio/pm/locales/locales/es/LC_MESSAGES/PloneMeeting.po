@@ -843,6 +843,10 @@ msgstr ""
 msgid "Nothing to display."
 msgstr ""
 
+#. Default: "Nothing to export"
+msgid "Nothing to export"
+msgstr ""
+
 #. Default: "Number of characters of the title to show"
 msgid "Number of characters of the title to show"
 msgstr "Numero de caracteres del titulo a mostrar"
@@ -2382,16 +2386,6 @@ msgstr ""
 msgid "adviceDelayWarning_mail_subject"
 msgstr ""
 
-#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
-#, fuzzy
-msgid "adviceEdited_mail_body"
-msgstr "Usted puede acceder a este tema aquí: ${objectUrl}."
-
-#. Default: "${meetingConfigTitle} - An advice has been added or modified  - ${itemTitle}"
-#, fuzzy
-msgid "adviceEdited_mail_subject"
-msgstr "${meetingConfigTitle} - Un consejo se ha agregado o modificado en el tema '${itemTitle}'."
-
 #. Default: "You can consult this item at ${objectUrl}. You advice is now back in the menu with a question mark icon. You can edit it again by clicking on the pen besides it."
 msgid "adviceInvalidated_mail_body"
 msgstr "Puede consultar este tema en ${objectUrl}. Su consejo es ahora de devuelto en el menú con un icono de signo de interrogación. Usted puede editar haciendo clic de nuevo en el icono del lápiz fuera de esta."
@@ -2458,6 +2452,22 @@ msgstr "Editar consejo"
 #. Default: "The advice has been created or updated."
 msgid "advice_edited"
 msgstr "El consejo ha sido creado o actualizado."
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "advice_edited_in_meeting_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - An advice has been added or modified on an item that was already in a meeting - ${itemTitle}"
+msgid "advice_edited_in_meeting_mail_subject"
+msgstr ""
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}."
+msgid "advice_edited_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - An advice has been added or modified - ${itemTitle}"
+msgid "advice_edited_mail_subject"
+msgstr ""
 
 #. Default: "This advice is considered \"Not given\" because it was still under redaction when the ability to write the advice was removed to advisers of the group. If you need this advice to be considered, contact relevant meeting managers."
 msgid "advice_hidden_during_redaction_considered_not_given_help"
@@ -3727,15 +3737,6 @@ msgstr ""
 msgid "error_value_removed_used_in_committees_field"
 msgstr ""
 
-#. Default: "An advice was added or updated on an item (notify the \"Creators\")"
-#, fuzzy
-msgid "event_add_advice"
-msgstr "Un consejo fue agregado o actualizado en un tema"
-
-#. Default: "An advice was added or updated on an item (notify the \"Owner\")"
-msgid "event_add_advice_owner"
-msgstr ""
-
 #. Default: "An annex was added to an item already presented in a validated agenda (notify \"MeetingManagers\")"
 #, fuzzy
 msgid "event_add_annex"
@@ -3747,6 +3748,22 @@ msgstr ""
 
 #. Default: "An advice delay is about to expire (notify advisers of relevant advice)"
 msgid "event_advice_delay_warning"
+msgstr ""
+
+#. Default: "An advice was added or updated on an item (notify the \"${suffix}\")"
+msgid "event_advice_edited"
+msgstr ""
+
+#. Default: "An advice was added or updated on an item already presented in a meeting (notify the \"${suffix}\")"
+msgid "event_advice_edited_in_meeting"
+msgstr ""
+
+#. Default: "An advice was added or updated on an item already presented in a meeting (notify the \"Author\")"
+msgid "event_advice_edited_in_meeting_owner"
+msgstr ""
+
+#. Default: "An advice was added or updated on an item (notify the \"Author\")"
+msgid "event_advice_edited_owner"
 msgstr ""
 
 #. Default: "An advice needs to be given on an item (notify users able to add advice)"
@@ -3830,6 +3847,10 @@ msgstr ""
 #, fuzzy
 msgid "event_late_item"
 msgstr "Un tema tarde fue validado"
+
+#. Default: "A late item was just presented into a meeting (notify the \"${po_label}\")"
+msgid "event_late_item_in_meeting"
+msgstr ""
 
 #. Default: "Absent (excused)"
 msgid "excused"
@@ -4808,6 +4829,14 @@ msgstr "El tema se titula '${itemTitle}'. Usted puede acceder a este tema aquí:
 #, fuzzy
 msgid "lateItem_mail_subject"
 msgstr "${meetingConfigTitle} - Un tema 'tardío' ha sido validado."
+
+#. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
+msgid "late_item_in_meeting_mail_body"
+msgstr ""
+
+#. Default: "${meetingConfigTitle} - A \"late\" item has been presented into meeting ${meetingLongTitle}."
+msgid "late_item_in_meeting_mail_subject"
+msgstr ""
 
 #. Default: "--- Do nothing, let the item in the workflow initial state ---"
 msgid "let_item_in_initial_state"
