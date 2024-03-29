@@ -59,9 +59,13 @@ msgstr "Delete meeting including items"
 msgid "Duplicate"
 msgstr "Duplicate"
 
+#. Default: "Duplicate and keep link"
+msgid "Duplicate and keep link"
+msgstr "Duplicate and keep link"
+
 #. Default: "Export PDF"
 msgid "Export PDF"
-msgstr ""
+msgstr "Export PDF"
 
 #. Default: "External application"
 msgid "ExternalApplication"
@@ -131,7 +135,7 @@ msgstr "Item"
 
 #. Default: "Recurring item"
 msgid "MeetingItemRecurring"
-msgstr ""
+msgstr "Recurring item"
 
 #. Default: "Recurring item"
 msgid "MeetingItemRecurringConcertation"
@@ -155,7 +159,7 @@ msgstr "Recurring item"
 
 #. Default: "Item template"
 msgid "MeetingItemTemplate"
-msgstr ""
+msgstr "Item template"
 
 #. Default: "Item template"
 msgid "MeetingItemTemplateConcertation"
@@ -998,11 +1002,11 @@ msgstr "Search everywhere"
 
 #. Default: "Hide during redaction"
 msgid "to_hidden_during_redaction_action"
-msgstr ""
+msgstr "Hide during redaction"
 
 #. Default: "Publish advice"
 msgid "to_not_hidden_during_redaction_action"
-msgstr ""
+msgstr "Publish advice"
 
 #. Default: "Tool PloneMeeting View"
 msgid "toolplonemeeting_view"
