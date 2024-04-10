@@ -5,7 +5,7 @@ Changelog
 4.2.17 (unreleased)
 -------------------
 
-- Added translations related to `advice_edited`,  `advice_edited_in_meeting`
+- Added translations related to `advice_edited`, `advice_edited_in_meeting`
   and `late_item_in_meeting` item mail events.
   [gbastien]
 - Added back wronlgy removed translations for `Duplicate and keep link`.
