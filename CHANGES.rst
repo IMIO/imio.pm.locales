@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.17 (unreleased)
+4.2.17 (2024-04-10)
 -------------------
 
 - Added translations related to `advice_edited`, `advice_edited_in_meeting`
