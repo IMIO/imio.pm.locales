@@ -977,6 +977,10 @@ msgstr ""
 msgid "PloneMeeting_label_asCopyGroupOn"
 msgstr ""
 
+#. Default: "As restricted copy group on"
+msgid "PloneMeeting_label_asRestrictedCopyGroupOn"
+msgstr ""
+
 #. Default: "Associated group(s)"
 msgid "PloneMeeting_label_associatedGroups"
 msgstr "Zugehörige Gruppe(n)"
@@ -1431,6 +1435,10 @@ msgstr ""
 msgid "PloneMeeting_label_itemReferenceFormat"
 msgstr "Format der TOP-Referenzen"
 
+#. Default: "Item states allowing restricted copy groups to view the item"
+msgid "PloneMeeting_label_itemRestrictedCopyGroupsStates"
+msgstr ""
+
 #. Default: "Signatories for the item"
 msgid "PloneMeeting_label_itemSignatories"
 msgstr "Unterzeichner für diesen TOP"
@@ -1748,6 +1756,10 @@ msgstr ""
 msgid "PloneMeeting_label_restrictUsers"
 msgstr "'Eingeschränkter Benutzer' Modus"
 
+#. Default: "Restricted copy groups"
+msgid "PloneMeeting_label_restrictedCopyGroups"
+msgstr ""
+
 #. Default: "Selectable adviser users"
 msgid "PloneMeeting_label_selectableAdviserUsers"
 msgstr ""
@@ -1766,6 +1778,10 @@ msgstr ""
 
 #. Default: "Restrict selectable redefined position types to following positions"
 msgid "PloneMeeting_label_selectableRedefinedPositionTypes"
+msgstr ""
+
+#. Default: "Groups that can be in copy for an item (restricted)"
+msgid "PloneMeeting_label_selectableRestrictedCopyGroups"
 msgstr ""
 
 #. Default: "Is group selectable in the plonegroup configuration panel?"
@@ -2734,6 +2750,10 @@ msgstr ""
 #. Default: "As recurring item"
 msgid "as_recurring_item"
 msgstr "Als wiederkehrender TOP"
+
+#. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as restrictedCopyGroup for an item.  We receive \"item\" as the meeting item and \"isCreated\" that is only True when the item is in the creation process (not while being edited after).  WARNING, if the \"suffix\" returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : \"python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []\""
+msgid "as_restricted_copy_group_on_descr"
+msgstr ""
 
 #. Default: "The item is entitled \"${itemNumber} - ${itemTitle}\". You can access this item here: ${objectUrl}."
 #, fuzzy
@@ -4527,7 +4547,7 @@ msgid "item_conditions_interface_descr"
 msgstr "Im Arbeitsablauf der TOP werden die Statusübergänge von boolschen Ausdrücken geschützt. Diese Bedingungen werden, zusammen mit anderen nützlichen Bedingungen in verschiedenen Bereichen von PloneMeeting, als Methoden eines Python interfaces definiert. Sie können diese Bedingungen anpassen indem Sie ein zusätzliches Plone-Produkt entwickeln in dem Sie: <ul><li>ein Python Interface definieren das von dem Interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (Sie müssen den vollen Paketnamen des Interfaces in dem Feld unten eintragen);</li><li>einen Adapter in ZCML erstellen und deklarieren der das Interface Products.PloneMeeting.interfaces.IMeetingItem zu dem Interface das Sie definiert haben adaptiert.</li></ul>Ihr Adapter kann vom Standardadapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions erben: das ermöglicht es Ihnen nur die Methoden für die sie ein anderes Verhalten wünschen zu überschreiben. Alle Methoden die im Interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowCondition definiert werden sind dokumentiert."
 
 #. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
-msgid "item_copygroups_states_descr"
+msgid "item_copy_groups_states_descr"
 msgstr ""
 
 #. Default: "If you check this box, item creators will only be able to create new items using an item template, no more item from scratch."
@@ -4626,6 +4646,10 @@ msgstr ""
 #, fuzzy
 msgid "item_reference_format_descr"
 msgstr "Jeder TOP wird mit einer Referenz verknüpft. Das Format der Referenz kann hier als TAL (Tag Attribute Language) Ausdruck definiert werden. Wenn Sie TAL nicht kennen können Sie <a href=\"http://zope.org/Documentation/Books/ZopeBook/2_6Edition/ZPT.stx\">hier</a> nähere Informationen erhalten."
+
+#. Default: "When an item is in one of the states you choose here, it will be viewable by restricted copy groups.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_restricted_copy_groups_states_descr"
+msgstr ""
 
 #. Default: "If you don't select anyone in this list, meeting signatory(ies) will be used for this item."
 msgid "item_signatories_descr"
@@ -5858,6 +5882,14 @@ msgstr ""
 msgid "restrict_users_descr"
 msgstr "Wenn Sie diese Box auswählen, wird PloneMeeting in eine Art Alarmzustand versetzt wenn zu viele Anfragen laufen, um die Anzahle Benutzer zu beschränken die Zugriff auf die Sitzungsseiten haben. Wenn dieser Zustand aktiviert ist, können nur die Sitzungsmanager (Rolle MeetingManager) und die Benutzer die in dem untenstehenden Feld aufgelistet sind die Sitzungen aufrufen und konsultieren."
 
+#. Default: "These groups will have read access to the item in following states: ${states}.\nWhen icon is green, this means that restricted copy groups have access to the item.\nWhen the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
+msgid "restricted_copy_groups_help_msg"
+msgstr ""
+
+#. Default: " "
+msgid "restricted_copy_groups_item_descr"
+msgstr ""
+
 #. Default: "Restricted power observers"
 msgid "restrictedpowerobservers"
 msgstr ""
@@ -6040,7 +6072,8 @@ msgstr ""
 msgid "selectable_advisers_descr"
 msgstr ""
 
-#. Default: "Select groups that the creator of an item will be able to choose"
+#. Default: "Select groups that the creator of an item will be able to choose.  This is used by item field \"Copy groups\"."
+#, fuzzy
 msgid "selectable_copy_groups_descr"
 msgstr "Gruppen die der Erstellen eines TOP auswählen kann."
 
@@ -6054,6 +6087,10 @@ msgstr ""
 
 #. Default: "Select here position types that will be selectable when redefining the position of an attendee for an item.  If nothing selected (default), then any position types is selectable."
 msgid "selectable_redefined_position_types_descr"
+msgstr ""
+
+#. Default: "Select groups that the creator of an item will be able to choose.  This is used by secondary item field \"Restricted copy groups\"."
+msgid "selectable_restricted_copy_groups_descr"
 msgstr ""
 
 #. Default: "Check the box if item needs to be send to authority, if so, a line will be automatically printed in the item deliberation document."
