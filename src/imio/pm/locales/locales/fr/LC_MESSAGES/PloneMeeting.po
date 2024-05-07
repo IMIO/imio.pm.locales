@@ -973,7 +973,11 @@ msgstr "Réponses"
 
 #. Default: "As copy group on"
 msgid "PloneMeeting_label_asCopyGroupOn"
-msgstr "Le groupe sera automatiquement mis en copie d'un point si"
+msgstr "Le groupe sera automatiquement ajouté dans les \"Groupes en copie (lecture seule)\" d'un point si"
+
+#. Default: "As restricted copy group on"
+msgid "PloneMeeting_label_asRestrictedCopyGroupOn"
+msgstr "Le groupe sera automatiquement ajouté dans les \"Groupes en copie restreints (lecture seule)\" d'un point si"
 
 #. Default: "Associated group(s)"
 msgid "PloneMeeting_label_associatedGroups"
@@ -1427,6 +1431,10 @@ msgstr "Référence du point"
 msgid "PloneMeeting_label_itemReferenceFormat"
 msgstr "Format de la référence d'un point"
 
+#. Default: "Item states allowing restricted copy groups to view the item"
+msgid "PloneMeeting_label_itemRestrictedCopyGroupsStates"
+msgstr "États des points dans lesquels les groupes en copie restreints peuvent les voir"
+
 #. Default: "Signatories for the item"
 msgid "PloneMeeting_label_itemSignatories"
 msgstr "Signataires pour ce point"
@@ -1740,6 +1748,10 @@ msgstr "Restreindre l'accès aux points à huis clos aux"
 msgid "PloneMeeting_label_restrictUsers"
 msgstr "Mode \"Utilisateurs restreints\""
 
+#. Default: "Restricted copy groups"
+msgid "PloneMeeting_label_restrictedCopyGroups"
+msgstr "Groupes en copie restreints (lecture seule)"
+
 #. Default: "Selectable adviser users"
 msgid "PloneMeeting_label_selectableAdviserUsers"
 msgstr "Groupes émetteurs d'avis pour lesquels les membres du groupe pourront être sélectionnés"
@@ -1759,6 +1771,10 @@ msgstr "Niveaux de confidentialité utilisés"
 #. Default: "Restrict selectable redefined position types to following positions"
 msgid "PloneMeeting_label_selectableRedefinedPositionTypes"
 msgstr "Restreindre les types de fonctions sélectionnables lors du changement de la fonction d'un membre d'assemblée pour un point aux fonctions suivantes"
+
+#. Default: "Groups that can be in copy for an item (restricted)"
+msgid "PloneMeeting_label_selectableRestrictedCopyGroups"
+msgstr "Groupes qui pourront être mis en copie (restreints)"
 
 #. Default: "Is group selectable in the plonegroup configuration panel?"
 msgid "PloneMeeting_label_selectable_for_plonegroup"
@@ -2156,9 +2172,9 @@ msgstr "Une erreur est survenue en essayant de définir cette annexe comme \"à 
 msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
 msgstr "Cet avis ne peut plus être rendu, il a été demandé le ${advice_delay_started_on} et pouvait l'être jusqu'au ${advice_delay_limit_date}."
 
-#. Default: "This advice is addable in following states : ${item_advice_states}."
-msgid "This advice is addable in following states : ${item_advice_states}."
-msgstr "Cet avis peut être rendu dans les états suivants : ${item_advice_states}."
+#. Default: "This advice is addable in following states: ${item_advice_states}."
+msgid "This advice is addable in following states: ${item_advice_states}."
+msgstr "Cet avis peut être rendu dans les états suivants: ${item_advice_states}."
 
 #. Default: "This advice is inherited from ${linkToItem}"
 msgid "This advice is inherited from ${linkToItem}"
@@ -2730,11 +2746,15 @@ msgstr "Êtes-vous sûr de vouloir effectuer cette action?"
 
 #. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as copyGroup for an item.  We receive \"item\" as the meeting item and \"isCreated\" that is only True when the item is in the creation process (not while being edited after).  WARNING, if the \"suffix\" returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : \"python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []\""
 msgid "as_copy_group_on_descr"
-msgstr "Spécifiez une expression TAL qui retourne une liste de suffixes de groupes Plone (par exemple ['creators', 'reviewers', ]) qui devront être automatiquement sélectionnés comme groupes en copie d'un point.  L'expression est évaluée à chaque modification du point (création et éditions suivantes).  L'élément \"item\" (point) est utilisable dans l'expression ainsi que \"isCreated\" qui est \"True\" uniquement lorsque le point est en création (\"False\" lors des éditions suivantes). ATTENTION, si le groupe Plone lié au suffixe n'est pas défini dans la liste des \"Groupes qui pourront être mis en copie\" sur la \"Configuration de séance\" du point, le groupe ne sera pas mis en copie et ce, quel que soit le résultat de l'expression.  Exemple d'expression : \"python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []\""
+msgstr "Spécifiez une expression TAL qui retourne une liste de suffixes de groupes Plone (par exemple ['creators', 'reviewers', ]) qui devront être automatiquement sélectionnés comme \"Groupes en copie (lecture seule)\" d'un point.  L'expression est évaluée à chaque modification du point (création et éditions suivantes).  L'élément \"item\" (point) est utilisable dans l'expression ainsi que \"isCreated\" qui est \"True\" uniquement lorsque le point est en création (\"False\" lors des éditions suivantes). ATTENTION, si le groupe Plone lié au suffixe n'est pas défini dans la liste des \"Groupes qui pourront être mis en copie\" sur la \"Configuration de séance\" du point, le groupe ne sera pas mis en copie et ce, quel que soit le résultat de l'expression.  Exemple d'expression : \"python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []\""
 
 #. Default: "As recurring item"
 msgid "as_recurring_item"
 msgstr "Comme point récurrent"
+
+#. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as restrictedCopyGroup for an item.  We receive \"item\" as the meeting item and \"isCreated\" that is only True when the item is in the creation process (not while being edited after).  WARNING, if the \"suffix\" returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : \"python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []\""
+msgid "as_restricted_copy_group_on_descr"
+msgstr "Spécifiez une expression TAL qui retourne une liste de suffixes de groupes Plone (par exemple ['creators', 'reviewers', ]) qui devront être automatiquement sélectionnés comme \"Groupes en copie restreints (lecture seule)\" d'un point.  L'expression est évaluée à chaque modification du point (création et éditions suivantes).  L'élément \"item\" (point) est utilisable dans l'expression ainsi que \"isCreated\" qui est \"True\" uniquement lorsque le point est en création (\"False\" lors des éditions suivantes). ATTENTION, si le groupe Plone lié au suffixe n'est pas défini dans la liste des \"Groupes qui pourront être mis en copie\" sur la \"Configuration de séance\" du point, le groupe ne sera pas mis en copie et ce, quel que soit le résultat de l'expression.  Exemple d'expression : \"python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []\""
 
 #. Default: "The item is entitled \"${itemNumber} - ${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "askDiscussItem_mail_body"
@@ -4518,8 +4538,8 @@ msgid "item_conditions_interface_descr"
 msgstr "Sur le workflow gouvernant les points, une série d'expressions booléennes conditionnent l'exécution des transitions entre états. Ces conditions, ainsi que d'autres conditions utiles à divers niveaux sont définies en tant que méthodes d'une interface Python. Vous pouvez modifier comme vous le voulez ces conditions, via le développement d'un produit Plone tiers dans lequel vous devez:<ul><li>créer une interface Python qui hérite de l'interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (c'est le nom complet de cette interface que vous devez spécifier dans ce champ);</li><li>créer et déclarer en ZCML un adapter qui adapte l'interface Products.PloneMeeting.interfaces.IMeetingItem vers l'interface que vous avez définie au point précédent.</li></ul>Vous pouvez faire hériter votre adapter de l'adapter par défaut Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: cela vous permettra d'overrider uniquement les méthodes pour lesquelles vous voulez un comportement différent. Toutes les méthodes proposées par l'interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions sont documentées."
 
 #. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
-msgid "item_copygroups_states_descr"
-msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les groupes qui sont mis \"en copie\" du point. <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter \"Mettre à jour les points et séances\"!</span>"
+msgid "item_copy_groups_states_descr"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les \"Groupes en copie (lecture seule)\" du point. <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter \"Mettre à jour les points et séances\"!</span>"
 
 #. Default: "If you check this box, item creators will only be able to create new items using an item template, no more item from scratch."
 msgid "item_created_only_using_template_descr"
@@ -4616,6 +4636,10 @@ msgstr "Les \"Observateurs\" du groupe proposant auront accès aux points dans l
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression.  <span style='color: red;'>The purpose of the item reference is to be unique, if so, it will be easy to find an item by searching on it's reference that is indexed.</span>"
 msgid "item_reference_format_descr"
 msgstr "À chaque point est associé une référence dont le format peut être défini ici, sous la forme d'une expression TAL.  Les éléments habituels (\"item\", \"here\", \"tool\", \"cfg\", \"member\", \"pm_utils\", ...) sont disponibles dans l'expression.  <span style='color: red;'>L'objectif est de générer une référence unique qui permettra de retrouver facilement un point via la recherche.</span>"
+
+#. Default: "When an item is in one of the states you choose here, it will be viewable by restricted copy groups.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_restricted_copy_groups_states_descr"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, il sera visible par les \"Groupes en copie restreints (lecture seule)\" du point. <span style='color: red;'>Si vous modifiez ce paramètre, n'oubliez pas d'exécuter \"Mettre à jour les points et séances\"!</span>"
 
 #. Default: "If you don't select anyone in this list, meeting signatory(ies) will be used for this item."
 msgid "item_signatories_descr"
@@ -5830,6 +5854,17 @@ msgstr "Sélectionnez les profils d'utilisateurs qui seront restreint quand à l
 msgid "restrict_users_descr"
 msgstr "Si vous cochez cette case, l'application entre dans une sorte de mode d'urgence qui permet, lors de fortes charges, de limiter le nombre d'utilisateurs ayant accès à la page de visualisation des séances. Si ce mode est activé, seuls les gestionnaires de séance (rôle MeetingManager) et les utilisateurs listés dans le champ ci-dessous pourront accéder aux pages de visualisation des séances."
 
+#. Default: "These groups will have read access to the item in following states: ${states}.\nWhen icon is green, this means that restricted copy groups have access to the item.\nWhen the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
+msgid "restricted_copy_groups_help_msg"
+msgstr ""
+"Les groupes en copie restreints auront accès en lecture seule au point dans les états suivants: ${states}.\n"
+"Le libellé du champ apparaît en vert lorsque les groupes en copie ont accès au point.\n"
+"Si le libellé \"[auto]\"est affiché à la suite du titre du groupe en copie, cela signifie qu'il a été mis en copie automatiquement par l'application."
+
+#. Default: " "
+msgid "restricted_copy_groups_item_descr"
+msgstr " "
+
 #. Default: "Restricted power observers"
 msgid "restrictedpowerobservers"
 msgstr "Super observateurs restreints"
@@ -6021,9 +6056,9 @@ msgstr "Ce champ est lié au champ \"Groupes auxquels un avis optionnel pourra �
 msgid "selectable_advisers_descr"
 msgstr "Choisissez les groupes qui apparaîtront sur le point dans la zone \"Demander l'avis de\" et auxquels un avis optionnel pourra être demandé par les gestionnaires du point. Si aucun utilisateur n'est dans le sous-groupe \"Émetteurs d'avis\", ce sera mentionné. Ne sélectionnez un tel groupe que si vous ajoutez des utilisateurs dans le sous-groupe juste après sinon l'avis demandé à ce groupe ne pourra jamais être rendu."
 
-#. Default: "Select groups that the creator of an item will be able to choose"
+#. Default: "Select groups that the creator of an item will be able to choose.  This is used by item field \"Copy groups\"."
 msgid "selectable_copy_groups_descr"
-msgstr "Sélectionnez les groupes que le créateur d'un point pourra sélectionner pour le mettre en copie."
+msgstr "Sélectionnez les groupes que le créateur d'un point pourra sélectionner pour le mettre en copie. Ce paramètre est utilisé par le champ \"Groupes en copie (lecture seule)\" du point."
 
 #. Default: "Uncheck this box if this organization is added for another purpose than creating Plone subgroups so it can use the application."
 msgid "selectable_for_plonegroup_descr"
@@ -6036,6 +6071,10 @@ msgstr "Spécifiez ici les niveaux de confidentialité qui pourront être sélec
 #. Default: "Select here position types that will be selectable when redefining the position of an attendee for an item.  If nothing selected (default), then any position types is selectable."
 msgid "selectable_redefined_position_types_descr"
 msgstr "Sélectionnez les types de fonctions qui pourront être utilisées lors de l'utilisation de la fonctionnalité \"Changer la fonction de ce membre pour ce point\".  Si rien n'est sélectionné (comportement par défaut), tous les types de fonctions pourront être choisis."
+
+#. Default: "Select groups that the creator of an item will be able to choose.  This is used by secondary item field \"Restricted copy groups\"."
+msgid "selectable_restricted_copy_groups_descr"
+msgstr "Sélectionnez les groupes que le créateur d'un point pourra sélectionner pour le mettre en copie. Ce paramètre est utilisé par le champ \"Groupes en copie restreints (lecture seule)\" du point."
 
 #. Default: "Check the box if item needs to be send to authority, if so, a line will be automatically printed in the item deliberation document."
 msgid "send_to_authority_descr"

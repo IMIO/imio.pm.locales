@@ -424,6 +424,14 @@ msgstr ""
 msgid "copy_groups_item_descr"
 msgstr ""
 
+#. Default: "Restricted copy groups"
+msgid "PloneMeeting_label_restrictedCopyGroups"
+msgstr ""
+
+#. Default: " "
+msgid "restricted_copy_groups_item_descr"
+msgstr ""
+
 #. Default: "Votes are secret"
 msgid "PloneMeeting_label_votesAreSecret"
 msgstr ""
@@ -1390,6 +1398,14 @@ msgstr ""
 msgid "as_copy_group_on_descr"
 msgstr ""
 
+#. Default: "As restricted copy group on"
+msgid "PloneMeeting_label_asRestrictedCopyGroupOn"
+msgstr ""
+
+#. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as restrictedCopyGroup for an item.  We receive \"item\" as the meeting item and \"isCreated\" that is only True when the item is in the creation process (not while being edited after).  WARNING, if the \"suffix\" returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : \"python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []\""
+msgid "as_restricted_copy_group_on_descr"
+msgstr ""
+
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to add an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 msgid "group_item_advice_states_descr"
 msgstr ""
@@ -2316,7 +2332,7 @@ msgstr ""
 msgid "PloneMeeting_label_selectableCopyGroups"
 msgstr ""
 
-#. Default: "Select groups that the creator of an item will be able to choose"
+#. Default: "Select groups that the creator of an item will be able to choose.  This is used by item field \"Copy groups\"."
 msgid "selectable_copy_groups_descr"
 msgstr ""
 
@@ -2325,7 +2341,23 @@ msgid "PloneMeeting_label_itemCopyGroupsStates"
 msgstr ""
 
 #. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
-msgid "item_copygroups_states_descr"
+msgid "item_copy_groups_states_descr"
+msgstr ""
+
+#. Default: "Groups that can be in copy for an item (restricted)"
+msgid "PloneMeeting_label_selectableRestrictedCopyGroups"
+msgstr ""
+
+#. Default: "Select groups that the creator of an item will be able to choose.  This is used by secondary item field \"Restricted copy groups\"."
+msgid "selectable_restricted_copy_groups_descr"
+msgstr ""
+
+#. Default: "Item states allowing restricted copy groups to view the item"
+msgid "PloneMeeting_label_itemRestrictedCopyGroupsStates"
+msgstr ""
+
+#. Default: "When an item is in one of the states you choose here, it will be viewable by restricted copy groups.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_restricted_copy_groups_states_descr"
 msgstr ""
 
 #. Default: "Maximal number of meetings shown in the \"meetings\" and \"decisions\" portlets"
@@ -4266,8 +4298,8 @@ msgstr ""
 msgid "Advice asked automatically because"
 msgstr ""
 
-#. Default: "This advice is addable in following states : ${item_advice_states}."
-msgid "This advice is addable in following states : ${item_advice_states}."
+#. Default: "This advice is addable in following states: ${item_advice_states}."
+msgid "This advice is addable in following states: ${item_advice_states}."
 msgstr ""
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
@@ -6616,6 +6648,10 @@ msgstr ""
 
 #. Default: "These groups will have read access to the item in following states: ${states}.\nWhen icon is green, this means that copy groups have access to the item.\nWhen the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
 msgid "copy_groups_help_msg"
+msgstr ""
+
+#. Default: "These groups will have read access to the item in following states: ${states}.\nWhen icon is green, this means that restricted copy groups have access to the item.\nWhen the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
+msgid "restricted_copy_groups_help_msg"
 msgstr ""
 
 #. Default: "${title} (${number} supplement)"

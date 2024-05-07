@@ -5,8 +5,8 @@ Changelog
 4.2.18 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations related to `MeetingItem.restrictedCopyGroups`.
+  [gbastien]
 
 4.2.17 (2024-04-10)
 -------------------

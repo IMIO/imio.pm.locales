@@ -975,6 +975,10 @@ msgstr "Answers"
 msgid "PloneMeeting_label_asCopyGroupOn"
 msgstr "As copy group on"
 
+#. Default: "As restricted copy group on"
+msgid "PloneMeeting_label_asRestrictedCopyGroupOn"
+msgstr ""
+
 #. Default: "Associated group(s)"
 msgid "PloneMeeting_label_associatedGroups"
 msgstr "Associated group(s)"
@@ -1427,6 +1431,10 @@ msgstr "Item reference"
 msgid "PloneMeeting_label_itemReferenceFormat"
 msgstr "Format of the item reference"
 
+#. Default: "Item states allowing restricted copy groups to view the item"
+msgid "PloneMeeting_label_itemRestrictedCopyGroupsStates"
+msgstr ""
+
 #. Default: "Signatories for the item"
 msgid "PloneMeeting_label_itemSignatories"
 msgstr "Signatories for the item"
@@ -1740,6 +1748,10 @@ msgstr "Restrict access to secret items to"
 msgid "PloneMeeting_label_restrictUsers"
 msgstr "\"Restrict users\" mode"
 
+#. Default: "Restricted copy groups"
+msgid "PloneMeeting_label_restrictedCopyGroups"
+msgstr ""
+
 #. Default: "Selectable adviser users"
 msgid "PloneMeeting_label_selectableAdviserUsers"
 msgstr "Selectable adviser users"
@@ -1759,6 +1771,10 @@ msgstr "Selectable privacies"
 #. Default: "Restrict selectable redefined position types to following positions"
 msgid "PloneMeeting_label_selectableRedefinedPositionTypes"
 msgstr "Restrict selectable redefined position types to following positions"
+
+#. Default: "Groups that can be in copy for an item (restricted)"
+msgid "PloneMeeting_label_selectableRestrictedCopyGroups"
+msgstr ""
 
 #. Default: "Is group selectable in the plonegroup configuration panel?"
 msgid "PloneMeeting_label_selectable_for_plonegroup"
@@ -2156,9 +2172,9 @@ msgstr "There was an error while trying to set this annex to printable. The erro
 msgid "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
 msgstr "This advice can not be given anymore, it was asked the ${advice_delay_started_on} and could be given until the ${advice_delay_limit_date}."
 
-#. Default: "This advice is addable in following states : ${item_advice_states}."
-msgid "This advice is addable in following states : ${item_advice_states}."
-msgstr "This advice is addable in following states : ${item_advice_states}."
+#. Default: "This advice is addable in following states: ${item_advice_states}."
+msgid "This advice is addable in following states: ${item_advice_states}."
+msgstr ""
 
 #. Default: "This advice is inherited from ${linkToItem}"
 msgid "This advice is inherited from ${linkToItem}"
@@ -2719,6 +2735,10 @@ msgstr "Specify here a TAL expression that will return a list of Plone group suf
 #. Default: "As recurring item"
 msgid "as_recurring_item"
 msgstr "As recurring item"
+
+#. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as restrictedCopyGroup for an item.  We receive \"item\" as the meeting item and \"isCreated\" that is only True when the item is in the creation process (not while being edited after).  WARNING, if the \"suffix\" returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : \"python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []\""
+msgid "as_restricted_copy_group_on_descr"
+msgstr ""
 
 #. Default: "The item is entitled \"${itemNumber} - ${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "askDiscussItem_mail_body"
@@ -4495,7 +4515,7 @@ msgid "item_conditions_interface_descr"
 msgstr "On the item workflow, some boolean expressions guard the execution of the transitions from one state to another. Those conditions, together with other conditions useful at various levels, are defined as methods of a Python interface. You can modify those conditions at will, through the development of another Plone product into which you must: <ul><li>create a Python interface that inherits from interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions (you must enter the full package name of this interface in the field below);</li><li>create and declare in ZCML an adapter that adapts the interface  Products.PloneMeeting.interfaces.IMeetingItem to the interface you have defined in the previous step.</li></ul>Your adapter may inherit from the default adapter Products.PloneMeeting.MeetingItem.MeetingItemWorkflowConditions: it will allow you to override only methods for which you want an altered behaviour. All the methods proposed by the interface Products.PloneMeeting.interfaces.IMeetingItemWorkflowConditions are documented."
 
 #. Default: "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
-msgid "item_copygroups_states_descr"
+msgid "item_copy_groups_states_descr"
 msgstr "When an item is in one of the states you choose here, it will be viewable by copy groups.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 
 #. Default: "If you check this box, item creators will only be able to create new items using an item template, no more item from scratch."
@@ -4593,6 +4613,10 @@ msgstr "The \"Observers\" suffixes will have access to the item in the selected 
 #. Default: "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression.  <span style='color: red;'>The purpose of the item reference is to be unique, if so, it will be easy to find an item by searching on it's reference that is indexed.</span>"
 msgid "item_reference_format_descr"
 msgstr "A reference is associated to every item. The reference format can be defined here, as a TAL expression.  Elements \"item\" (also available as \"here\") and \"meeting\" are available in the expression.  <span style='color: red;'>The purpose of the item reference is to be unique, if so, it will be easy to find an item by searching on it's reference that is indexed.</span>"
+
+#. Default: "When an item is in one of the states you choose here, it will be viewable by restricted copy groups.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
+msgid "item_restricted_copy_groups_states_descr"
+msgstr ""
 
 #. Default: "If you don't select anyone in this list, meeting signatory(ies) will be used for this item."
 msgid "item_signatories_descr"
@@ -5800,6 +5824,14 @@ msgstr "Restrict access to secret items to description"
 msgid "restrict_users_descr"
 msgstr "If you check this box, the application will enter into a kind of \"emergency\" mode that allows, under heavy load, to limit the number of users allowed to access the page \"Meeting view\". If this mode is enabled, only MeetingManagers and the users listed in the next field will be able to see the page \"Meeting view\"."
 
+#. Default: "These groups will have read access to the item in following states: ${states}.\nWhen icon is green, this means that restricted copy groups have access to the item.\nWhen the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
+msgid "restricted_copy_groups_help_msg"
+msgstr ""
+
+#. Default: " "
+msgid "restricted_copy_groups_item_descr"
+msgstr ""
+
 #. Default: "Restricted power observers"
 msgid "restrictedpowerobservers"
 msgstr "Restricted power observers"
@@ -5989,7 +6021,8 @@ msgstr "This field is linked to field \"Selectable advisers\" here above.  Choos
 msgid "selectable_advisers_descr"
 msgstr "Choose here advisers that will be selectable on an item in the \"Optional advisers\" field. If a group does not contains users in the \"Advisers\" sub-group, it is mentioned, only select it if you intend to add users in that sub-group or the advice will never be given."
 
-#. Default: "Select groups that the creator of an item will be able to choose"
+#. Default: "Select groups that the creator of an item will be able to choose.  This is used by item field \"Copy groups\"."
+#, fuzzy
 msgid "selectable_copy_groups_descr"
 msgstr "Select groups that the creator of an item will be able to choose"
 
@@ -6004,6 +6037,10 @@ msgstr "Select here privacies that will be selectable by users editing items of 
 #. Default: "Select here position types that will be selectable when redefining the position of an attendee for an item.  If nothing selected (default), then any position types is selectable."
 msgid "selectable_redefined_position_types_descr"
 msgstr "Select here position types that will be selectable when redefining the position of an attendee for an item.  If nothing selected (default), then any position types is selectable."
+
+#. Default: "Select groups that the creator of an item will be able to choose.  This is used by secondary item field \"Restricted copy groups\"."
+msgid "selectable_restricted_copy_groups_descr"
+msgstr ""
 
 #. Default: "Check the box if item needs to be send to authority, if so, a line will be automatically printed in the item deliberation document."
 msgid "send_to_authority_descr"
