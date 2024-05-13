@@ -977,7 +977,7 @@ msgstr "As copy group on"
 
 #. Default: "As restricted copy group on"
 msgid "PloneMeeting_label_asRestrictedCopyGroupOn"
-msgstr ""
+msgstr "As restricted copy group on"
 
 #. Default: "Associated group(s)"
 msgid "PloneMeeting_label_associatedGroups"
@@ -1433,7 +1433,7 @@ msgstr "Format of the item reference"
 
 #. Default: "Item states allowing restricted copy groups to view the item"
 msgid "PloneMeeting_label_itemRestrictedCopyGroupsStates"
-msgstr ""
+msgstr "Item states allowing restricted copy groups to view the item"
 
 #. Default: "Signatories for the item"
 msgid "PloneMeeting_label_itemSignatories"
@@ -1750,7 +1750,7 @@ msgstr "\"Restrict users\" mode"
 
 #. Default: "Restricted copy groups"
 msgid "PloneMeeting_label_restrictedCopyGroups"
-msgstr ""
+msgstr "Restricted copy groups"
 
 #. Default: "Selectable adviser users"
 msgid "PloneMeeting_label_selectableAdviserUsers"
@@ -1774,7 +1774,7 @@ msgstr "Restrict selectable redefined position types to following positions"
 
 #. Default: "Groups that can be in copy for an item (restricted)"
 msgid "PloneMeeting_label_selectableRestrictedCopyGroups"
-msgstr ""
+msgstr "Groups that can be in copy for an item (restricted)"
 
 #. Default: "Is group selectable in the plonegroup configuration panel?"
 msgid "PloneMeeting_label_selectable_for_plonegroup"
@@ -2174,7 +2174,7 @@ msgstr "This advice can not be given anymore, it was asked the ${advice_delay_st
 
 #. Default: "This advice is addable in following states: ${item_advice_states}."
 msgid "This advice is addable in following states: ${item_advice_states}."
-msgstr ""
+msgstr "This advice is addable in following states: ${item_advice_states}."
 
 #. Default: "This advice is inherited from ${linkToItem}"
 msgid "This advice is inherited from ${linkToItem}"
@@ -2738,7 +2738,7 @@ msgstr "As recurring item"
 
 #. Default: "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as restrictedCopyGroup for an item.  We receive \"item\" as the meeting item and \"isCreated\" that is only True when the item is in the creation process (not while being edited after).  WARNING, if the \"suffix\" returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : \"python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []\""
 msgid "as_restricted_copy_group_on_descr"
-msgstr ""
+msgstr "Specify here a TAL expression that will return a list of Plone group suffixes (for example : ['creators', 'reviewers', ]) if the group needs to be automatically selected as restrictedCopyGroup for an item.  We receive \"item\" as the meeting item and \"isCreated\" that is only True when the item is in the creation process (not while being edited after).  WARNING, if the \"suffix\" returned by the expression is not in the list of selectable copy groups of the meeting config, it will not be selected.  The expression could look like : \"python: item.getProposingGroup() == 'samplegroup' and ['reviewers', ] or []\""
 
 #. Default: "The item is entitled \"${itemNumber} - ${itemTitle}\". You can access this item here: ${objectUrl}."
 msgid "askDiscussItem_mail_body"
@@ -3822,7 +3822,7 @@ msgstr "A late item was just validated (notify \"MeetingManagers\")"
 
 #. Default: "A late item was just presented into a meeting (notify the \"${po_label}\")"
 msgid "event_late_item_in_meeting"
-msgstr ""
+msgstr "A late item was just presented into a meeting (notify the \"${po_label}\")"
 
 #. Default: "Absent (excused)"
 msgid "excused"
@@ -4616,7 +4616,7 @@ msgstr "A reference is associated to every item. The reference format can be def
 
 #. Default: "When an item is in one of the states you choose here, it will be viewable by restricted copy groups.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 msgid "item_restricted_copy_groups_states_descr"
-msgstr ""
+msgstr "When an item is in one of the states you choose here, it will be viewable by restricted copy groups.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 
 #. Default: "If you don't select anyone in this list, meeting signatory(ies) will be used for this item."
 msgid "item_signatories_descr"
@@ -4790,11 +4790,11 @@ msgstr "${meetingConfigTitle} - A \"late\" item has been validated."
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "late_item_in_meeting_mail_body"
-msgstr ""
+msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 
 #. Default: "${meetingConfigTitle} - A \"late\" item has been presented into meeting ${meetingLongTitle}."
 msgid "late_item_in_meeting_mail_subject"
-msgstr ""
+msgstr "${meetingConfigTitle} - A \"late\" item has been presented into meeting ${meetingLongTitle}."
 
 #. Default: "--- Do nothing, let the item in the workflow initial state ---"
 msgid "let_item_in_initial_state"
@@ -5826,11 +5826,11 @@ msgstr "If you check this box, the application will enter into a kind of \"emerg
 
 #. Default: "These groups will have read access to the item in following states: ${states}.\nWhen icon is green, this means that restricted copy groups have access to the item.\nWhen the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
 msgid "restricted_copy_groups_help_msg"
-msgstr ""
+msgstr "These groups will have read access to the item in following states: ${states}.\nWhen icon is green, this means that restricted copy groups have access to the item.\nWhen the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
 
 #. Default: " "
 msgid "restricted_copy_groups_item_descr"
-msgstr ""
+msgstr " "
 
 #. Default: "Restricted power observers"
 msgid "restrictedpowerobservers"
@@ -6040,7 +6040,7 @@ msgstr "Select here position types that will be selectable when redefining the p
 
 #. Default: "Select groups that the creator of an item will be able to choose.  This is used by secondary item field \"Restricted copy groups\"."
 msgid "selectable_restricted_copy_groups_descr"
-msgstr ""
+msgstr "Select groups that the creator of an item will be able to choose.  This is used by secondary item field \"Restricted copy groups\"."
 
 #. Default: "Check the box if item needs to be send to authority, if so, a line will be automatically printed in the item deliberation document."
 msgid "send_to_authority_descr"
@@ -6882,6 +6882,10 @@ msgstr "Hide the decision to the proposing group when it is under writing (base)
 #. Default: "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
 msgid "wa_hide_decisions_when_under_writing_check_returned_to_proposing_group"
 msgstr "Hide the decision to the proposing group when it is under writing (complementary: prevent if meeting contains items \"Returned to proposing group\")"
+
+#. Default: "Hide the decision to the proposing group when it is under writing (complementary: excepted for power observers \"${po}\")"
+msgid "wa_hide_decisions_when_under_writing_excepted_po"
+msgstr "Hide the decision to the proposing group when it is under writing (complementary: excepted for power observers \"${po}\")"
 
 #. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
 msgid "wa_item_validation_no_validate_shortcuts"

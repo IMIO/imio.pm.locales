@@ -7,6 +7,8 @@ Changelog
 
 - Added translations related to `MeetingItem.restrictedCopyGroups`.
   [gbastien]
+- Added translations related to `hide_decisions_when_under_writing__po__xxx`.
+  [gbastien]
 
 4.2.17 (2024-04-10)
 -------------------

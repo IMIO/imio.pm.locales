@@ -6917,6 +6917,10 @@ msgstr "Cacher les décisions au service pendant leur rédaction par les gestion
 msgid "wa_hide_decisions_when_under_writing_check_returned_to_proposing_group"
 msgstr "Cacher les décisions au service pendant leur rédaction par les gestionnaires de séances (configuration complémentaire: empêcher si des points sont toujours \"À corriger\")"
 
+#. Default: "Hide the decision to the proposing group when it is under writing (complementary: excepted for power observers \"${po}\")"
+msgid "wa_hide_decisions_when_under_writing_excepted_po"
+msgstr "Cacher les décisions au service pendant leur rédaction par les gestionnaires de séances (configuration complémentaire: afficher la décision aux \"${po}\")"
+
 #. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
 msgid "wa_item_validation_no_validate_shortcuts"
 msgstr "Ajouter des raccourcis lors du processus de validation du point (configuration complémentaire: excepté vers l'état \"Validé\")"
@@ -7143,7 +7147,7 @@ msgstr "Workflows"
 
 #. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red;'>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  If you unselect a workflow adaptation, take care to update fields using item and meeting states/transition BEFORE! Check tabs \"Advices and access\" and \"Workflows\" and check groups, and if necessary when permissions changed, do not forget to run \"Update security settings\" in the ZMi-->portal_workflow!</span>"
 msgid "workflow_adaptations_descr"
-msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. <span style='color: red;'>Vos changements seront appliqués dès l'enregistrement de cette configuration de séance.  Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets \"Avis et accès\", \"Workflows\" et les groupes, de plus, si des permissions sont affectées par ces changements, exécutez \"Upgrade security settings\" dans la ZMi-->portal_workflow!  ATTENTION, si vous désélectionnez des adaptations aux workflows et que ceci entraîne la suppression d'états ou transitions existantes, prenez soin d'adapter les autre paramètres utilisant ces états/transitions avant la désélectionner!</span>"
+msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. <span style='color: red;'>Vos changements seront appliqués dès l'enregistrement de cette configuration de séance.  Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets \"Avis et accès\", \"Workflows\" et les groupes, de plus, si des permissions sont affectées par ces changements, exécutez \"Upgrade security settings\" dans la ZMi-->portal_workflow!  ATTENTION, si vous désélectionnez des adaptations aux workflows et que ceci entraîne la suppression d'états ou transitions existantes, prenez soin d'adapter les autre paramètres utilisant ces états/transitions avant de la désélectionner!</span>"
 
 #. Default: "This will be used to compute advices delays.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 msgid "working_days_descr"
