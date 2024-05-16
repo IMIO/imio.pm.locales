@@ -4790,7 +4790,11 @@ msgstr "${meetingConfigTitle} - A \"late\" item has been validated."
 
 #. Default: "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
 msgid "late_item_in_meeting_mail_body"
-msgstr "The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n\nAction was done by \"${transitionActor}\".\nComments: ${transitionComments}."
+msgstr ""
+"The item is entitled \"${itemTitle}\". You can access this item here: ${objectUrl}.\n"
+"\n"
+"Action was done by \"${transitionActor}\".\n"
+"Comments: ${transitionComments}."
 
 #. Default: "${meetingConfigTitle} - A \"late\" item has been presented into meeting ${meetingLongTitle}."
 msgid "late_item_in_meeting_mail_subject"
@@ -5826,7 +5830,10 @@ msgstr "If you check this box, the application will enter into a kind of \"emerg
 
 #. Default: "These groups will have read access to the item in following states: ${states}.\nWhen icon is green, this means that restricted copy groups have access to the item.\nWhen the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
 msgid "restricted_copy_groups_help_msg"
-msgstr "These groups will have read access to the item in following states: ${states}.\nWhen icon is green, this means that restricted copy groups have access to the item.\nWhen the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
+msgstr ""
+"These groups will have read access to the item in following states: ${states}.\n"
+"When icon is green, this means that restricted copy groups have access to the item.\n"
+"When the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
 
 #. Default: " "
 msgid "restricted_copy_groups_item_descr"
@@ -6722,6 +6729,10 @@ msgstr "The copy groups set on the item"
 #. Default: "The groups in charge"
 msgid "visible_for_reader_groupsincharge"
 msgstr "The groups in charge"
+
+#. Default: "The restricted copy groups set on the item"
+msgid "visible_for_reader_restricted_copy_groups"
+msgstr "The restricted copy groups set on the item"
 
 #. Default: "The \"${meeting_group_suffix}\" of any group"
 msgid "visible_for_suffix_profile_"
