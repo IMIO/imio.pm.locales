@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.18 (unreleased)
+4.2.18 (2024-05-27)
 -------------------
 
 - Added translations related to `MeetingItem.restrictedCopyGroups`.
