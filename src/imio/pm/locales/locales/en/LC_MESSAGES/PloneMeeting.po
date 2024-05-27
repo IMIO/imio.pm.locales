@@ -2156,10 +2156,6 @@ msgstr "The order of attendees was changed for the ${number} following item(s)"
 msgid "The position of this attendee was changed for the ${number} following item(s)"
 msgstr "The position of this attendee was changed for the ${number} following item(s)"
 
-#. Default: "The proposing group"
-msgid "The proposing group"
-msgstr "The proposing group"
-
 #. Default: "There was an error during annex conversion, please contact system administrator."
 msgid "There was an error during annex conversion, please contact system administrator."
 msgstr "There was an error during annex conversion, please contact system administrator."
@@ -5695,6 +5691,10 @@ msgstr "Items presented to this meeting"
 #. Default: "Preview of annexes grouped by type"
 msgid "preview_grouped_annexes"
 msgstr "Preview of annexes grouped by type"
+
+#. Default: "The proposing group (${suffix_title})"
+msgid "proposing_group_managing_item"
+msgstr ""
 
 #. Default: "Proposing group is not available for user."
 msgid "proposing_group_not_available"

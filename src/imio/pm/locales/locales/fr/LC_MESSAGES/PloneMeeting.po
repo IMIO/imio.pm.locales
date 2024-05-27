@@ -2156,10 +2156,6 @@ msgstr "Ordre des membres d'assemblée redéfini pour ${number} point(s)"
 msgid "The position of this attendee was changed for the ${number} following item(s)"
 msgstr "La fonction de ce participant a été redéfinie pour ${number} point(s)"
 
-#. Default: "The proposing group"
-msgid "The proposing group"
-msgstr "Le groupe proposant"
-
 #. Default: "There was an error during annex conversion, please contact system administrator."
 msgid "There was an error during annex conversion, please contact system administrator."
 msgstr "Une erreur est survenue pendant la conversion de l'annexe.  Contactez votre administrateur système."
@@ -5721,6 +5717,10 @@ msgstr "Points présentés à cette séance"
 #. Default: "Preview of annexes grouped by type"
 msgid "preview_grouped_annexes"
 msgstr "Annexes groupées par type d'annexe (puis listées par ordre alphabétique)"
+
+#. Default: "The proposing group (${suffix_title})"
+msgid "proposing_group_managing_item"
+msgstr "Le groupe proposant (${suffix_title})"
 
 #. Default: "Proposing group is not available for user."
 msgid "proposing_group_not_available"
