@@ -68,10 +68,6 @@ msgstr "Kopieer met behoud van link"
 msgid "Export PDF"
 msgstr ""
 
-#. Default: "External application"
-msgid "ExternalApplication"
-msgstr "Externe applicatie"
-
 #. Default: "Give Advice"
 msgid "Give Advice"
 msgstr ""
@@ -105,10 +101,6 @@ msgstr ""
 msgid "MeetingCategory"
 msgstr "Categorie"
 
-#. Default: "Concertation assembly"
-msgid "MeetingConcertation"
-msgstr ""
-
 # Portal type names
 #. Default: "Meeting configuration"
 msgid "MeetingConfig"
@@ -117,14 +109,6 @@ msgstr "Vergaderings configuratie"
 #. Default: "Item"
 msgid "MeetingItem"
 msgstr "Onderwerp Vergadering"
-
-#. Default: "Item"
-msgid "MeetingItemConcertation"
-msgstr ""
-
-#. Default: "Item"
-msgid "MeetingItemNegociation"
-msgstr ""
 
 #. Default: "Item"
 msgid "MeetingItemPga"
@@ -139,14 +123,6 @@ msgid "MeetingItemRecurring"
 msgstr ""
 
 #. Default: "Recurring item"
-msgid "MeetingItemRecurringConcertation"
-msgstr ""
-
-#. Default: "Recurring item"
-msgid "MeetingItemRecurringNegociation"
-msgstr ""
-
-#. Default: "Recurring item"
 msgid "MeetingItemRecurringPga"
 msgstr ""
 
@@ -154,20 +130,8 @@ msgstr ""
 msgid "MeetingItemRecurringPma"
 msgstr ""
 
-#. Default: "Recurring item"
-msgid "MeetingItemRecurringadvice-committee"
-msgstr ""
-
 #. Default: "Item template"
 msgid "MeetingItemTemplate"
-msgstr ""
-
-#. Default: "Item template"
-msgid "MeetingItemTemplateConcertation"
-msgstr ""
-
-#. Default: "Item template"
-msgid "MeetingItemTemplateNegociation"
 msgstr ""
 
 #. Default: "Item template"
@@ -178,20 +142,8 @@ msgstr ""
 msgid "MeetingItemTemplatePma"
 msgstr ""
 
-#. Default: "Item template"
-msgid "MeetingItemTemplateadvice-committee"
-msgstr ""
-
-#. Default: "Item"
-msgid "MeetingItemadvice-committee"
-msgstr ""
-
 #. Default: "Meeting Manager"
 msgid "MeetingManager"
-msgstr ""
-
-#. Default: "Negociation assembly"
-msgid "MeetingNegociation"
 msgstr ""
 
 #. Default: "Meeting Observer Global"
@@ -205,10 +157,6 @@ msgstr "PloneGov assembly"
 #. Default: "PloneMeeting assembly"
 msgid "MeetingPma"
 msgstr "PloneMeeting assembly"
-
-#. Default: "Advice Committee assembly"
-msgid "Meetingadvice-committee"
-msgstr ""
 
 #. Default: "No meeting to delete."
 msgid "No meeting to delete."

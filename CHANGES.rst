@@ -5,8 +5,8 @@ Changelog
 4.2.19 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Removed every portal_types related translations as this is generated now.
+  [gbastien]
 
 4.2.18 (2024-05-27)
 -------------------

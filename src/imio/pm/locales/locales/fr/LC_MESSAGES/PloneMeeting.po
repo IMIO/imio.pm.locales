@@ -3337,6 +3337,14 @@ msgstr "Créer un point (désactivé lorsqu'une édition est en cours)"
 msgid "create_meeting_item_from_template_disabled_during_edit"
 msgstr "Créer un point depuis un modèle (désactivé lorsqu'une édition est en cours)"
 
+#. Default: "Create a ${to} from a ${from}"
+msgid "create_to_from"
+msgstr "Envoyer vers ${to}"
+
+#. Default: "Create a ${to} from a ${from} comments"
+msgid "create_to_from_comments"
+msgstr "Point ${to} créé depuis un point ${from}"
+
 #. Default: "Creator"
 msgid "creator"
 msgstr "Créateur"
