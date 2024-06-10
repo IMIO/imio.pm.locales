@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.19 (unreleased)
+4.2.19 (2024-06-10)
 -------------------
 
 - Removed every portal_types related translations as this is generated now.
