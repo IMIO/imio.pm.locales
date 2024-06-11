@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-[1;5D (unreleased)
+4.2.20 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Fixed typo in french translation of `PloneMeeting_label_itemPreferredMeetingStates`.
+  [gbastien]
 
 4.2.19 (2024-06-10)
 -------------------
