@@ -2,7 +2,19 @@ Changelog
 =========
 
 
-4.2.18 (unreleased)
+4.2.20 (unreleased)
+-------------------
+
+- Fixed typo in french translation of `PloneMeeting_label_itemPreferredMeetingStates`.
+  [gbastien]
+
+4.2.19 (2024-06-10)
+-------------------
+
+- Removed every portal_types related translations as this is generated now.
+  [gbastien]
+
+4.2.18 (2024-05-27)
 -------------------
 
 - Added translations related to `MeetingItem.restrictedCopyGroups`.

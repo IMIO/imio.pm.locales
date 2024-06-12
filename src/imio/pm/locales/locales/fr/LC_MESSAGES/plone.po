@@ -64,10 +64,6 @@ msgstr "Dupliquer et garder un lien"
 msgid "Export PDF"
 msgstr "Exporter en PDF"
 
-#. Default: "External application"
-msgid "ExternalApplication"
-msgstr "Application externe"
-
 #. Default: "Give Advice"
 msgid "Give Advice"
 msgstr "Rendre l'avis"
@@ -101,10 +97,6 @@ msgstr ""
 msgid "MeetingCategory"
 msgstr "Catégorie"
 
-#. Default: "Concertation assembly"
-msgid "MeetingConcertation"
-msgstr "Séance"
-
 # Portal type names
 #. Default: "Meeting configuration"
 msgid "MeetingConfig"
@@ -112,14 +104,6 @@ msgstr "Configuration de séance"
 
 #. Default: "Item"
 msgid "MeetingItem"
-msgstr "Point"
-
-#. Default: "Item"
-msgid "MeetingItemConcertation"
-msgstr "Point"
-
-#. Default: "Item"
-msgid "MeetingItemNegociation"
 msgstr "Point"
 
 #. Default: "Item"
@@ -135,14 +119,6 @@ msgid "MeetingItemRecurring"
 msgstr "Point récurrent"
 
 #. Default: "Recurring item"
-msgid "MeetingItemRecurringConcertation"
-msgstr "Point récurrent"
-
-#. Default: "Recurring item"
-msgid "MeetingItemRecurringNegociation"
-msgstr "Point récurrent"
-
-#. Default: "Recurring item"
 msgid "MeetingItemRecurringPga"
 msgstr "Point récurrent"
 
@@ -150,20 +126,8 @@ msgstr "Point récurrent"
 msgid "MeetingItemRecurringPma"
 msgstr "Point récurrent"
 
-#. Default: "Recurring item"
-msgid "MeetingItemRecurringadvice-committee"
-msgstr "Point récurrent"
-
 #. Default: "Item template"
 msgid "MeetingItemTemplate"
-msgstr "Modèle de point"
-
-#. Default: "Item template"
-msgid "MeetingItemTemplateConcertation"
-msgstr "Modèle de point"
-
-#. Default: "Item template"
-msgid "MeetingItemTemplateNegociation"
 msgstr "Modèle de point"
 
 #. Default: "Item template"
@@ -174,21 +138,9 @@ msgstr "Modèle de point"
 msgid "MeetingItemTemplatePma"
 msgstr "Modèle de point"
 
-#. Default: "Item template"
-msgid "MeetingItemTemplateadvice-committee"
-msgstr "Modèle de point"
-
-#. Default: "Item"
-msgid "MeetingItemadvice-committee"
-msgstr "Point"
-
 #. Default: "Meeting Manager"
 msgid "MeetingManager"
 msgstr "Gestionnaire de séance"
-
-#. Default: "Negociation assembly"
-msgid "MeetingNegociation"
-msgstr "Séance"
 
 #. Default: "Meeting Observer Global"
 msgid "MeetingObserverGlobal"
@@ -201,10 +153,6 @@ msgstr "Assemblée PloneGov"
 #. Default: "PloneMeeting assembly"
 msgid "MeetingPma"
 msgstr "Assemblée PloneMeeting"
-
-#. Default: "Advice Committee assembly"
-msgid "Meetingadvice-committee"
-msgstr "Séance"
 
 #. Default: "No meeting to delete."
 msgid "No meeting to delete."
