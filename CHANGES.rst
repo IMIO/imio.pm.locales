@@ -7,6 +7,8 @@ Changelog
 
 - Fixed typo in french translation of `PloneMeeting_label_itemPreferredMeetingStates`.
   [gbastien]
+- Added missing translation for `wa_item_validation_levels_dependency`.
+  [gbastien]
 
 4.2.19 (2024-06-10)
 -------------------

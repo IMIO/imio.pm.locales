@@ -5702,7 +5702,7 @@ msgstr "Preview of annexes grouped by type"
 
 #. Default: "The proposing group (${suffix_title})"
 msgid "proposing_group_managing_item"
-msgstr ""
+msgstr "The proposing group (${suffix_title})"
 
 #. Default: "Proposing group is not available for user."
 msgid "proposing_group_not_available"
@@ -6905,6 +6905,10 @@ msgstr "Hide the decision to the proposing group when it is under writing (compl
 #. Default: "Hide the decision to the proposing group when it is under writing (complementary: excepted for power observers \"${po}\")"
 msgid "wa_hide_decisions_when_under_writing_excepted_po"
 msgstr "Hide the decision to the proposing group when it is under writing (complementary: excepted for power observers \"${po}\")"
+
+#. Default: "You selected some workflow adaptations that are not compatible with configuration of field \"Item workflow validation levels\" here under, please correct."
+msgid "wa_item_validation_levels_dependency"
+msgstr "You selected some workflow adaptations that are not compatible with configuration of field \"Item workflow validation levels\" here under, please correct."
 
 #. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
 msgid "wa_item_validation_no_validate_shortcuts"
