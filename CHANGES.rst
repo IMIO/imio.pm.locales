@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.20 (unreleased)
+4.2.20 (2024-09-25)
 -------------------
 
 - Fixed typo in french translation of `PloneMeeting_label_itemPreferredMeetingStates`.
