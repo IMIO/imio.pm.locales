@@ -5,8 +5,8 @@ Changelog
 4.2.21 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translation for `any_validation_state_waiting_advices`.
+  [gbastien]
 
 4.2.20 (2024-09-25)
 -------------------
