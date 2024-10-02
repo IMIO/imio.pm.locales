@@ -9,7 +9,8 @@ Changelog
   [gbastien]
 - Added translations for `PloneMeeting_label_emergencyMotivation`.
   [gbastien]
-- Added translation for `any_validation_state_waiting_advices`.
+- Added translation for `any_validation_state_waiting_advices`,
+  removed every `...__or__proposed__or__..._waiting_advices` translations.
   [gbastien]
 
 4.2.20 (2024-09-25)
