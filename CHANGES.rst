@@ -5,13 +5,17 @@ Changelog
 4.2.21 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Removed unused translation `restricted_copy_groups_item_descr`.
+  [gbastien]
+- Added translations for `PloneMeeting_label_emergencyMotivation`.
+  [gbastien]
 
 4.2.20 (2024-09-25)
 -------------------
 
 - Fixed typo in french translation of `PloneMeeting_label_itemPreferredMeetingStates`.
+  [gbastien]
+- Added translation for new `MeetingItem.emergencyMotivation` field.
   [gbastien]
 
 4.2.19 (2024-06-10)
