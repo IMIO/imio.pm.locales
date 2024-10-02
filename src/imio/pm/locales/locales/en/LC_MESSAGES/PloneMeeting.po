@@ -1151,6 +1151,10 @@ msgstr "Display voting group"
 msgid "PloneMeeting_label_emergency"
 msgstr "Emergency"
 
+#. Default: "Emergency motivation"
+msgid "PloneMeeting_label_emergencyMotivation"
+msgstr ""
+
 #. Default: "Enable advice confidentiality"
 msgid "PloneMeeting_label_enableAdviceConfidentiality"
 msgstr "Enable advice confidentiality"
@@ -5842,10 +5846,6 @@ msgstr ""
 "These groups will have read access to the item in following states: ${states}.\n"
 "When icon is green, this means that restricted copy groups have access to the item.\n"
 "When the label \"[auto]\" is displayed next to the group title, it means that the group was set as copy group automatically by the application."
-
-#. Default: " "
-msgid "restricted_copy_groups_item_descr"
-msgstr " "
 
 #. Default: "Restricted power observers"
 msgid "restrictedpowerobservers"

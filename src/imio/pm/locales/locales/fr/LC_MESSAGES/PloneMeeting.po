@@ -1151,6 +1151,10 @@ msgstr "Afficher le \"Groupe votant\"?"
 msgid "PloneMeeting_label_emergency"
 msgstr "Urgence"
 
+#. Default: "Emergency motivation"
+msgid "PloneMeeting_label_emergencyMotivation"
+msgstr "Motivation de l'urgence"
+
 #. Default: "Enable advice confidentiality"
 msgid "PloneMeeting_label_enableAdviceConfidentiality"
 msgstr "Activer la confidentialité des avis "
@@ -5868,10 +5872,6 @@ msgstr ""
 "Les groupes en copie restreints auront accès en lecture seule au point dans les états suivants: ${states}.\n"
 "Le libellé du champ apparaît en vert lorsque les groupes en copie ont accès au point.\n"
 "Si le libellé \"[auto]\"est affiché à la suite du titre du groupe en copie, cela signifie qu'il a été mis en copie automatiquement par l'application."
-
-#. Default: " "
-msgid "restricted_copy_groups_item_descr"
-msgstr " "
 
 #. Default: "Restricted power observers"
 msgid "restrictedpowerobservers"

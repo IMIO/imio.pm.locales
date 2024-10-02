@@ -5,6 +5,10 @@ Changelog
 4.2.21 (unreleased)
 -------------------
 
+- Removed unused translation `restricted_copy_groups_item_descr`.
+  [gbastien]
+- Added translations for `PloneMeeting_label_emergencyMotivation`.
+  [gbastien]
 - Added translation for `any_validation_state_waiting_advices`.
   [gbastien]
 
@@ -12,8 +16,6 @@ Changelog
 -------------------
 
 - Fixed typo in french translation of `PloneMeeting_label_itemPreferredMeetingStates`.
-  [gbastien]
-- Added missing translation for `wa_item_validation_levels_dependency`.
   [gbastien]
 
 4.2.19 (2024-06-10)
