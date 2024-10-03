@@ -5,8 +5,8 @@ Changelog
 4.2.20.2 (unreleased)
 ---------------------
 
-- Nothing changed yet.
-
+- Added translations for `PloneMeeting_label_motivationSuite`.
+  [gbastien]
 
 4.2.20.1 (2024-10-02)
 ---------------------
