@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.20.2 (unreleased)
+4.2.20.2 (2024-10-16)
 ---------------------
 
 - Added translations for `PloneMeeting_label_motivationSuite`.
