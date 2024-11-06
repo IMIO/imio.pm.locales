@@ -1568,6 +1568,10 @@ msgstr "Interface permettant d'utiliser un adapter Zope3 spécifique pour modifi
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
 msgstr "Configurations de séance vers lesquelles les points de cette configuration de séance peuvent être envoyés"
 
+#. Default: "Meeting configs to clone to fields editable if"
+msgid "PloneMeeting_label_meetingConfigsToCloneToEditFieldsTALExpr"
+msgstr "Champs \"Données utilisées lors de l'envoi vers une autre configuration de séance\" éditables si"
+
 #. Default: "Meeting deadline date"
 msgid "PloneMeeting_label_meetingDeadlineDate"
 msgstr "Date limite passage séance"
@@ -5002,6 +5006,10 @@ msgstr "À l'instar des interfaces pour points, les conditions exprimées sur le
 #. Default: "Select here the other meetingConfigs the user will be able to clone an item of this meetingConfig to"
 msgid "meeting_configs_to_clone_to_descr"
 msgstr "Sélectionnez les configurations de séances vers lesquelles les points de cette séance pourront être envoyés si l'utilisateur en a le droit."
+
+#. Default: "Specify here a TAL expression that will make every meeting configs to clone to fields editable.  Leave empty if fields are editable when the item is editable."
+msgid "meeting_configs_to_clone_to_edit_fields_tal_expr_descr"
+msgstr "Spécifiez une expression TAL qui retourne \"True\" si les champs \"Données utilisées pour le nouveau point\" peuvent être édités.  La variable \"field_name\" (\"title\", \"motivation\", \"decision\", ...) est disponible en plus des variables habituelles. Laissez vide si les champs doivent être éditables lorsque le point est éditable."
 
 #. Default: "Management of meeting configurations"
 msgid "meeting_configurations"

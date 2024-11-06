@@ -1574,6 +1574,10 @@ msgstr "Interface das es erlaubt einen speziellen Zope 3-Adapter zu verwenden um
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
 msgstr ""
 
+#. Default: "Meeting configs to clone to fields editable if"
+msgid "PloneMeeting_label_meetingConfigsToCloneToEditFieldsTALExpr"
+msgstr ""
+
 #. Default: "Meeting deadline date"
 msgid "PloneMeeting_label_meetingDeadlineDate"
 msgstr ""
@@ -5007,6 +5011,10 @@ msgstr "Ähnlich wie bei den Interfaces für TOP können die Statusübergänge i
 
 #. Default: "Select here the other meetingConfigs the user will be able to clone an item of this meetingConfig to"
 msgid "meeting_configs_to_clone_to_descr"
+msgstr ""
+
+#. Default: "Specify here a TAL expression that will make every meeting configs to clone to fields editable.  Leave empty if fields are editable when the item is editable."
+msgid "meeting_configs_to_clone_to_edit_fields_tal_expr_descr"
 msgstr ""
 
 #. Default: "Management of meeting configurations"

@@ -1579,6 +1579,10 @@ msgstr "La interfaz siguiente es usada para un especifico adaptador de Zope3 par
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
 msgstr "Configuraciones de reuniones para clonar los temas hacia"
 
+#. Default: "Meeting configs to clone to fields editable if"
+msgid "PloneMeeting_label_meetingConfigsToCloneToEditFieldsTALExpr"
+msgstr ""
+
 #. Default: "Meeting deadline date"
 msgid "PloneMeeting_label_meetingDeadlineDate"
 msgstr ""
@@ -5037,6 +5041,10 @@ msgstr "Similarmente a las interfaces definidas por los temas, las condiciones e
 #. Default: "Select here the other meetingConfigs the user will be able to clone an item of this meetingConfig to"
 msgid "meeting_configs_to_clone_to_descr"
 msgstr "Seleccione aquí el resto de configuraciones de reuniones que el usuario será capaz de clonar un tema de esta configuración de reunión a otra"
+
+#. Default: "Specify here a TAL expression that will make every meeting configs to clone to fields editable.  Leave empty if fields are editable when the item is editable."
+msgid "meeting_configs_to_clone_to_edit_fields_tal_expr_descr"
+msgstr ""
 
 #. Default: "Management of meeting configurations"
 msgid "meeting_configurations"
