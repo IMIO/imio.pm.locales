@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.21 (unreleased)
+4.2.21 (2024-11-07)
 -------------------
 
 - Removed unused translation `restricted_copy_groups_item_descr`.
