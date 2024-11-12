@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.20.3 (unreleased)
+4.2.20.3 (2024-11-12)
 ---------------------
 
 - Added translations for `MeetingConfig.meetingConfigsToCloneToEditFieldsTALExpr`.
