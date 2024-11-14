@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.20.4 (unreleased)
+4.2.20.4 (2024-11-14)
 ---------------------
 
 - Added translations for new privacies `public_ending` and `secret_ending`.
