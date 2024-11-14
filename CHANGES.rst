@@ -5,8 +5,8 @@ Changelog
 4.2.20.4 (unreleased)
 ---------------------
 
-- Nothing changed yet.
-
+- Added translations for new privacies `public_ending` and `secret_ending`.
+  [gbastien]
 
 4.2.20.3 (2024-11-12)
 ---------------------
