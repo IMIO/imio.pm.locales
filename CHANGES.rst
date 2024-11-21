@@ -7,7 +7,6 @@ Changelog
 
 - Nothing changed yet.
 
-
 4.2.20.4 (2024-11-14)
 ---------------------
 
