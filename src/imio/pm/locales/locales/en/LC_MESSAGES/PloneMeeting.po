@@ -1153,7 +1153,7 @@ msgstr "Emergency"
 
 #. Default: "Emergency motivation"
 msgid "PloneMeeting_label_emergencyMotivation"
-msgstr ""
+msgstr "Emergency motivation"
 
 #. Default: "Enable advice confidentiality"
 msgid "PloneMeeting_label_enableAdviceConfidentiality"
@@ -2968,6 +2968,10 @@ msgstr "Can not switch a vote poll type (no vote/public/secret) as this vote is 
 #. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
 msgid "can_not_unselect_already_given_advice"
 msgstr "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
+
+#. Default: "You can not unselect an organization that is in use by a MeetingConfig.  Please check ${cfg_title}."
+msgid "can_not_unselect_plone_group_meetingconfig"
+msgstr "You can not unselect an organization that is in use by a MeetingConfig.  Please check ${cfg_title}."
 
 #. Default: "You can not unselect an organization that is in use by another organization, please check.  Please check ${org_url}."
 msgid "can_not_unselect_plone_group_org"

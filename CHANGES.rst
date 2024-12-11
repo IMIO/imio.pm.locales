@@ -5,8 +5,8 @@ Changelog
 4.2.22 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations for `can_not_unselect_plone_group_meetingconfig`.
+  [gbastien]
 
 4.2.21 (2024-11-07)
 -------------------

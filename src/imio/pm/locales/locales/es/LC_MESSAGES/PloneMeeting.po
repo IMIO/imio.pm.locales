@@ -2997,6 +2997,10 @@ msgstr ""
 msgid "can_not_unselect_already_given_advice"
 msgstr "No se puede cancelar la selección de un asesor opcional que ya dio su consejo. Por favor, marque la casilla valor' ${removedAdviser}'."
 
+#. Default: "You can not unselect an organization that is in use by a MeetingConfig.  Please check ${cfg_title}."
+msgid "can_not_unselect_plone_group_meetingconfig"
+msgstr ""
+
 #. Default: "You can not unselect an organization that is in use by another organization, please check.  Please check ${org_url}."
 msgid "can_not_unselect_plone_group_org"
 msgstr ""

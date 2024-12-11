@@ -2987,6 +2987,10 @@ msgstr "Vous ne pouvez pas changer le mode de scrutin (public/secret/pas de vote
 msgid "can_not_unselect_already_given_advice"
 msgstr "Vous ne pouvez pas désélectionner un avis optionnel qui a déjà été rendu.  Vérifiez l'avis \"${removedAdviser}\"."
 
+#. Default: "You can not unselect an organization that is in use by a MeetingConfig.  Please check ${cfg_title}."
+msgid "can_not_unselect_plone_group_meetingconfig"
+msgstr "Vous ne pouvez pas désélectionner une organisation renseignée dans les champs d'une configuration de séance.  Vérifiez la configuration de séance \"${cfg_title}\"."
+
 #. Default: "You can not unselect an organization that is in use by another organization, please check.  Please check ${org_url}."
 msgid "can_not_unselect_plone_group_org"
 msgstr "Vous ne pouvez pas désélectionner une organisation utilisée par une autre organisation.  Vérifiez l'organisation \"${org_url}\"."
