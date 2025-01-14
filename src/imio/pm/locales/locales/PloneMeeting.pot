@@ -4602,6 +4602,10 @@ msgstr ""
 msgid "annex_not_kept_item_paste_info"
 msgstr ""
 
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was only previewable, please contact system administrator if necessary."
+msgid "annex_show_preview_not_kept"
+msgstr ""
+
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not be kept because it requires a PDF file in the destination configuration, please contact system administrator."
 msgid "annex_not_kept_because_only_pdf_annex_type_warning"
 msgstr ""
@@ -6168,6 +6172,10 @@ msgstr ""
 
 #. Default: " [PDF required]"
 msgid " [PDF required]"
+msgstr ""
+
+#. Default: " [only previewable]"
+msgid " [only previewable]"
 msgstr ""
 
 #. Default: "Display available items to"

@@ -23,6 +23,10 @@ msgstr ""
 msgid " [holds scan_id]"
 msgstr ""
 
+#. Default: " [only previewable]"
+msgid " [only previewable]"
+msgstr ""
+
 #. Default: " [reserved MeetingManagers]"
 msgid " [reserved MeetingManagers]"
 msgstr ""
@@ -2645,6 +2649,10 @@ msgstr ""
 
 #. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
 msgid "annex_restrict_shown_and_editable_attributes_descr"
+msgstr ""
+
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was only previewable, please contact system administrator if necessary."
+msgid "annex_show_preview_not_kept"
 msgstr ""
 
 #. Default: "Confidential"

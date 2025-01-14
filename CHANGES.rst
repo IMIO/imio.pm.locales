@@ -7,6 +7,8 @@ Changelog
 
 - Added translations for `can_not_unselect_plone_group_meetingconfig`.
   [gbastien]
+- Added translations related to only previewable annexes not duplicated.
+  [gbastien]
 
 4.2.21 (2024-11-07)
 -------------------

@@ -23,6 +23,10 @@ msgstr " [format PDF requis]"
 msgid " [holds scan_id]"
 msgstr " [contient un QR code]"
 
+#. Default: " [only previewable]"
+msgid " [only previewable]"
+msgstr " [seulement en prévisualisation]"
+
 #. Default: " [reserved MeetingManagers]"
 msgid " [reserved MeetingManagers]"
 msgstr " [réservé aux gestionnaires de séances]"
@@ -2647,6 +2651,10 @@ msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\
 #. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
 msgid "annex_restrict_shown_and_editable_attributes_descr"
 msgstr "Sélectionnez ici pour les attributs activables sur les annexes, lesquels seront affichés ou éditables seulement par les gestionnaires de séances."
+
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was only previewable, please contact system administrator if necessary."
+msgid "annex_show_preview_not_kept"
+msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée car elle était seulement en prévisualisation, contactez votre administrateur système si nécessaire."
 
 #. Default: "Confidential"
 msgid "annex_term_confidential"
