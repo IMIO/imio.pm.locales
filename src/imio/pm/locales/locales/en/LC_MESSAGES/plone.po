@@ -411,29 +411,17 @@ msgstr "Back to 'Prevalidated'"
 msgid "backTo_proposed_from_waiting_advices"
 msgstr "Back to 'Proposed'"
 
-#. Default: "Back to proposing group from prevalidated"
-msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_prevalidated"
-msgstr "Back to proposing group from prevalidated"
-
-#. Default: "Back to proposing group from proposed"
-msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposed"
-msgstr "Back to proposing group from proposed"
-
-#. Default: "Back to proposing group from proposed to level 1"
-msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposedToValidationLevel1"
-msgstr "Back to proposing group from proposed to level 1"
-
-#. Default: "Back to proposing group (proposed to level 1) from proposed to level 2"
-msgid "backTo_returned_to_proposing_group_proposedToValidationLevel1_from_returned_to_proposing_group_proposedToValidationLevel2"
-msgstr "Back to proposing group (proposed to level 1) from proposed to level 2"
-
-#. Default: "Back to proposing group (proposed) from prevalidated"
-msgid "backTo_returned_to_proposing_group_proposed_from_returned_to_proposing_group_prevalidated"
-msgstr "Back to proposing group (proposed) from prevalidated"
-
 #. Default: "Validate"
 msgid "backTo_validated_from_waiting_advices"
 msgstr "Validate"
+
+#. Default: "Back to returned proposing group"
+msgid "back_to_returned_to_proposing_group"
+msgstr ""
+
+#. Default: "Back to returned to proposing group (${validation_state})"
+msgid "back_to_returned_to_proposing_group_with_validation_state"
+msgstr ""
 
 #. Default: "Base View"
 msgid "base_view"
@@ -646,17 +634,9 @@ msgstr "Published (frozen)"
 msgid "giveAdvice"
 msgstr "Give Advice"
 
-#. Default: "Go to returned to proposing group (prevalidated)"
-msgid "goTo_returned_to_proposing_group_prevalidated"
-msgstr "Go to returned to proposing group (prevalidated)"
-
-#. Default: "Go to returned to proposing group (proposed)"
-msgid "goTo_returned_to_proposing_group_proposed"
-msgstr "Go to returned to proposing group (proposed)"
-
-#. Default: "Go to returned to proposing group (proposed to level 1)"
-msgid "goTo_returned_to_proposing_group_proposedToValidationLevel1"
-msgstr "Go to returned to proposing group (proposed to level 1)"
+#. Default: "Go to returned to proposing group (${validation_state})"
+msgid "goTo_returned_to_proposing_group_with_validation_state"
+msgstr ""
 
 #. Default: "User interface"
 msgid "gui"
@@ -926,21 +906,10 @@ msgstr "Return to meeting managers"
 msgid "return_to_proposing_group"
 msgstr "Return to proposing group for corrections"
 
-#. Default: "Returned to proposing group for corrections"
+#. Default: "Returned to proposing group"
+#, fuzzy
 msgid "returned_to_proposing_group"
 msgstr "Returned to proposing group for corrections"
-
-#. Default: "Returned to proposing group (prevalidated)"
-msgid "returned_to_proposing_group_prevalidated"
-msgstr "Returned to proposing group (prevalidated)"
-
-#. Default: "Returned to proposing group (proposed)"
-msgid "returned_to_proposing_group_proposed"
-msgstr "Returned to proposing group (proposed)"
-
-#. Default: "Returned to proposing group (proposed to level 1)"
-msgid "returned_to_proposing_group_proposedToValidationLevel1"
-msgstr "Returned to proposing group (proposed to level 1)"
 
 #. Default: "Search everywhere"
 #: plone.app.layout/plone/app/layout/viewlets/searchbox.pt:16

@@ -9,6 +9,8 @@ Changelog
   [gbastien]
 - Added translations related to only previewable annexes not duplicated.
   [gbastien]
+- Adapted `return_to_proposing_group` with validation WFA related translations.
+  [gbastien]
 
 4.2.21 (2024-11-07)
 -------------------

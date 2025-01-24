@@ -4254,10 +4254,6 @@ msgstr "Removed"
 msgid "icon_help_returned_to_proposing_group"
 msgstr "Returned to proposing group for corrections"
 
-#. Default: "Returned to proposing group for corrections ($validation_state)"
-msgid "icon_help_returned_to_proposing_group_with_validation_state"
-msgstr "Returned to proposing group for corrections ($validation_state)"
-
 #. Default: "This item was validated after the validation deadline defined on this meeting"
 msgid "icon_help_validation_deadline_ko"
 msgstr "This item was validated after the validation deadline defined on this meeting"
@@ -5886,6 +5882,10 @@ msgstr ""
 #. Default: "${meetingConfigTitle} - Item sent back to you for corrections - ${itemTitle}"
 msgid "returnedToProposingGroup_mail_subject"
 msgstr "${meetingConfigTitle} - Item sent back to you for corrections - ${itemTitle}"
+
+#. Default: "Returned to proposing group for corrections ($validation_state)"
+msgid "returned_to_proposing_group_with_validation_state"
+msgstr "Returned to proposing group for corrections ($validation_state)"
 
 #. Default: "Validator"
 msgid "reviewer"

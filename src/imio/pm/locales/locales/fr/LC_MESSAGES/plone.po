@@ -408,29 +408,21 @@ msgstr "Remettre en \"Pré-validé\""
 msgid "backTo_proposed_from_waiting_advices"
 msgstr "Remettre en \"Proposé\""
 
-#. Default: "Back to proposing group from prevalidated"
-msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_prevalidated"
-msgstr "Remettre en \"À corriger\""
-
-#. Default: "Back to proposing group from proposed"
-msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposed"
-msgstr "Remettre en \"À corriger\""
-
-#. Default: "Back to proposing group from proposed to level 1"
-msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposedToValidationLevel1"
-msgstr "Remettre en \"À corriger\""
-
-#. Default: "Back to proposing group (proposed to level 1) from proposed to level 2"
-msgid "backTo_returned_to_proposing_group_proposedToValidationLevel1_from_returned_to_proposing_group_proposedToValidationLevel2"
-msgstr "Remettre en \"À corriger (Proposé au N+1)\""
-
-#. Default: "Back to proposing group (proposed) from prevalidated"
-msgid "backTo_returned_to_proposing_group_proposed_from_returned_to_proposing_group_prevalidated"
-msgstr "Remettre en \"À corriger (Proposé)\""
-
 #. Default: "Validate"
 msgid "backTo_validated_from_waiting_advices"
 msgstr "Valider"
+
+#. Default: "Back to returned proposing group"
+msgid "back_to_returned_to_proposing_group"
+msgstr "Remettre en \"À corriger\""
+
+#. Default: "Back to returned to proposing group (${validation_state})"
+msgid "back_to_returned_to_proposing_group_with_validation_state"
+msgstr "Remettre en \"À corriger (${validation_state})\""
+
+#. Default: "Returned to proposing group for corrections ($validation_state)"
+msgid "returned_to_proposing_group_with_validation_state"
+msgstr "À corriger ($validation_state)"
 
 #. Default: "Base View"
 msgid "base_view"
@@ -642,18 +634,6 @@ msgstr "Gelée"
 #. Default: "Give Advice"
 msgid "giveAdvice"
 msgstr "Rendre l'avis"
-
-#. Default: "Go to returned to proposing group (prevalidated)"
-msgid "goTo_returned_to_proposing_group_prevalidated"
-msgstr "Pré-valider (À corriger)"
-
-#. Default: "Go to returned to proposing group (proposed)"
-msgid "goTo_returned_to_proposing_group_proposed"
-msgstr "Proposer (À corriger)"
-
-#. Default: "Go to returned to proposing group (proposed to level 1)"
-msgid "goTo_returned_to_proposing_group_proposedToValidationLevel1"
-msgstr "Proposer au N+1 (À corriger)"
 
 #. Default: "User interface"
 msgid "gui"
@@ -923,21 +903,9 @@ msgstr "Renvoyer aux gestionnaires de séances"
 msgid "return_to_proposing_group"
 msgstr "À corriger"
 
-#. Default: "Returned to proposing group for corrections"
+#. Default: "Returned to proposing group"
 msgid "returned_to_proposing_group"
 msgstr "À corriger"
-
-#. Default: "Returned to proposing group (prevalidated)"
-msgid "returned_to_proposing_group_prevalidated"
-msgstr "À corriger (Pré-validé)"
-
-#. Default: "Returned to proposing group (proposed)"
-msgid "returned_to_proposing_group_proposed"
-msgstr "À corriger (Proposé)"
-
-#. Default: "Returned to proposing group (proposed to level 1)"
-msgid "returned_to_proposing_group_proposedToValidationLevel1"
-msgstr "À corriger (Proposé au N+1)"
 
 #. Default: "Search everywhere"
 #: plone.app.layout/plone/app/layout/viewlets/searchbox.pt:16
