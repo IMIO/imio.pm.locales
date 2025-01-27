@@ -652,10 +652,6 @@ msgstr "Veröffentlicht (gesperrt)"
 msgid "giveAdvice"
 msgstr ""
 
-#. Default: "Go to returned to proposing group (${validation_state})"
-msgid "goTo_returned_to_proposing_group_with_validation_state"
-msgstr ""
-
 #. Default: "User interface"
 msgid "gui"
 msgstr "Bedieneroberfläche"
@@ -927,6 +923,10 @@ msgstr ""
 
 #. Default: "Returned to proposing group"
 msgid "returned_to_proposing_group"
+msgstr ""
+
+#. Default: "Returned to proposing group for corrections (${validation_state})"
+msgid "returned_to_proposing_group_with_validation_state"
 msgstr ""
 
 #. Default: "Search everywhere"

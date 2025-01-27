@@ -643,10 +643,6 @@ msgstr "Publicado (congelado)"
 msgid "giveAdvice"
 msgstr "Dar Consejo"
 
-#. Default: "Go to returned to proposing group (${validation_state})"
-msgid "goTo_returned_to_proposing_group_with_validation_state"
-msgstr ""
-
 #. Default: "User interface"
 msgid "gui"
 msgstr "Interfaz de usuario"
@@ -919,6 +915,10 @@ msgstr "Volver a grupo proponente para correcciones"
 #, fuzzy
 msgid "returned_to_proposing_group"
 msgstr "Volver a grupo proponente para correcciones"
+
+#. Default: "Returned to proposing group for corrections (${validation_state})"
+msgid "returned_to_proposing_group_with_validation_state"
+msgstr ""
 
 #. Default: "Search everywhere"
 #: plone.app.layout/plone/app/layout/viewlets/searchbox.pt:16

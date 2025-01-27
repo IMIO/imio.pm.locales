@@ -420,10 +420,6 @@ msgstr "Remettre en \"À corriger\""
 msgid "back_to_returned_to_proposing_group_with_validation_state"
 msgstr "Remettre en \"À corriger (${validation_state})\""
 
-#. Default: "Returned to proposing group for corrections ($validation_state)"
-msgid "returned_to_proposing_group_with_validation_state"
-msgstr "À corriger ($validation_state)"
-
 #. Default: "Base View"
 msgid "base_view"
 msgstr "Vue"
@@ -906,6 +902,10 @@ msgstr "À corriger"
 #. Default: "Returned to proposing group"
 msgid "returned_to_proposing_group"
 msgstr "À corriger"
+
+#. Default: "Returned to proposing group for corrections (${validation_state})"
+msgid "returned_to_proposing_group_with_validation_state"
+msgstr "À corriger (${validation_state})"
 
 #. Default: "Search everywhere"
 #: plone.app.layout/plone/app/layout/viewlets/searchbox.pt:16
