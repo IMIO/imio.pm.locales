@@ -144,7 +144,7 @@ msgstr ""
 msgid "removed"
 msgstr ""
 
-#. Default: "Returned to proposing group for corrections"
+#. Default: "Returned to proposing group"
 msgid "returned_to_proposing_group"
 msgstr ""
 
@@ -920,48 +920,16 @@ msgstr ""
 msgid "Annex decision"
 msgstr ""
 
-#. Default: "Back to proposing group (proposed) from prevalidated"
-msgid "backTo_returned_to_proposing_group_proposed_from_returned_to_proposing_group_prevalidated"
+#. Default: "Returned to proposing group for corrections (${validation_state})"
+msgid "returned_to_proposing_group_with_validation_state"
 msgstr ""
 
-#. Default: "Back to proposing group from proposed"
-msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposed"
+#. Default: "Back to returned proposing group"
+msgid "back_to_returned_to_proposing_group"
 msgstr ""
 
-#. Default: "Back to proposing group from prevalidated"
-msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_prevalidated"
-msgstr ""
-
-#. Default: "Back to proposing group from proposed to level 1"
-msgid "backTo_returned_to_proposing_group_from_returned_to_proposing_group_proposedToValidationLevel1"
-msgstr ""
-
-#. Default: "Back to proposing group (proposed to level 1) from proposed to level 2"
-msgid "backTo_returned_to_proposing_group_proposedToValidationLevel1_from_returned_to_proposing_group_proposedToValidationLevel2"
-msgstr ""
-
-#. Default: "Go to returned to proposing group (proposed)"
-msgid "goTo_returned_to_proposing_group_proposed"
-msgstr ""
-
-#. Default: "Returned to proposing group (proposed)"
-msgid "returned_to_proposing_group_proposed"
-msgstr ""
-
-#. Default: "Go to returned to proposing group (prevalidated)"
-msgid "goTo_returned_to_proposing_group_prevalidated"
-msgstr ""
-
-#. Default: "Returned to proposing group (prevalidated)"
-msgid "returned_to_proposing_group_prevalidated"
-msgstr ""
-
-#. Default: "Go to returned to proposing group (proposed to level 1)"
-msgid "goTo_returned_to_proposing_group_proposedToValidationLevel1"
-msgstr ""
-
-#. Default: "Returned to proposing group (proposed to level 1)"
-msgid "returned_to_proposing_group_proposedToValidationLevel1"
+#. Default: "Back to returned to proposing group (${validation_state})"
+msgid "back_to_returned_to_proposing_group_with_validation_state"
 msgstr ""
 
 #. Default: "Update item references"
