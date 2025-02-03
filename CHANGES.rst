@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.22 (unreleased)
+4.2.22 (2025-02-03)
 -------------------
 
 - Added translations for `can_not_unselect_plone_group_meetingconfig`.
