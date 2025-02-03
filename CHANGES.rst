@@ -12,6 +12,9 @@ Changelog
 - Adapted `return_to_proposing_group` with validation WFA related translations.
   Removed no more used `returned_to_proposing_group_with_validation_state`.
   [gbastien]
+- Overrided `collective.iconifiedcategory` translation of
+  `Show preview description.` to be more specific regarding `PloneMeeting`.
+  [gbastien]
 
 4.2.21 (2024-11-07)
 -------------------
