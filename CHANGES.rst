@@ -5,8 +5,8 @@ Changelog
 4.2.23 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations for `Change committees` batch action.
+  [gbastien]
 
 4.2.22 (2025-02-03)
 -------------------
