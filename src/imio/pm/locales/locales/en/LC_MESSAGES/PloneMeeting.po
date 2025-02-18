@@ -25,7 +25,7 @@ msgstr " [holds scan_id]"
 
 #. Default: " [only previewable]"
 msgid " [only previewable]"
-msgstr ""
+msgstr " [only previewable]"
 
 #. Default: " [reserved MeetingManagers]"
 msgid " [reserved MeetingManagers]"
@@ -2638,7 +2638,7 @@ msgstr "Select for each optional annexes attributes which are only displayed or 
 
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was only previewable, please contact system administrator if necessary."
 msgid "annex_show_preview_not_kept"
-msgstr ""
+msgstr "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was only previewable, please contact system administrator if necessary."
 
 #. Default: "Confidential"
 msgid "annex_term_confidential"
@@ -5639,6 +5639,10 @@ msgstr "Secret separated"
 #. Default: "Positive"
 msgid "positive"
 msgstr "Positive"
+
+#. Default: "Positive after modification"
+msgid "positive_after_modification"
+msgstr "Positive after modification"
 
 #. Default: "Positive with comments"
 msgid "positive_with_comments"

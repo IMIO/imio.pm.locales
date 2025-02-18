@@ -7,6 +7,8 @@ Changelog
 
 - Added translations for `Change committees` batch action.
   [gbastien]
+- Added translations for new advice type `Positive after modification`.
+  [gbastien]
 
 4.2.22 (2025-02-03)
 -------------------
