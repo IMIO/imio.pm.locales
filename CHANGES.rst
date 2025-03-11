@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.23 (unreleased)
+4.2.23 (2025-03-11)
 -------------------
 
 - Added translations for `Change committees` batch action.
