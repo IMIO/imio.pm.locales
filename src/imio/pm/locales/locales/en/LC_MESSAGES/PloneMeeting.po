@@ -5732,9 +5732,13 @@ msgstr "A proposing group is required."
 msgid "proposing_group_with_group_in_charge_required"
 msgstr "Please select a proposing group with a group in charge."
 
-#. Default: "The document has been sent."
+#. Default: "The document has been sent (${recipients})."
 msgid "pt_mailing_sent"
-msgstr "The document has been sent."
+msgstr "The document has been sent (${recipients})."
+
+#. Default: "The document will be sent to: ${recipients}."
+msgid "pt_mailing_will_be_sent_to"
+msgstr "The document will be sent to: ${recipients}."
 
 #. Default: "Public meeting"
 msgid "public"
@@ -6049,7 +6053,6 @@ msgid "selectable_advisers_descr"
 msgstr "Choose here advisers that will be selectable on an item in the \"Optional advisers\" field. If a group does not contains users in the \"Advisers\" sub-group, it is mentioned, only select it if you intend to add users in that sub-group or the advice will never be given."
 
 #. Default: "Select groups that the creator of an item will be able to choose.  This is used by item field \"Copy groups\"."
-#, fuzzy
 msgid "selectable_copy_groups_descr"
 msgstr "Select groups that the creator of an item will be able to choose"
 

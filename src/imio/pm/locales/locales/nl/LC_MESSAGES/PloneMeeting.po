@@ -5742,8 +5742,12 @@ msgstr ""
 msgid "proposing_group_with_group_in_charge_required"
 msgstr ""
 
-#. Default: "The document has been sent."
+#. Default: "The document has been sent (${recipients})."
 msgid "pt_mailing_sent"
+msgstr ""
+
+#. Default: "The document will be sent to: ${recipients}."
+msgid "pt_mailing_will_be_sent_to"
 msgstr ""
 
 #. Default: "Public meeting"

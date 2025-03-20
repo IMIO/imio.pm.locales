@@ -5816,9 +5816,13 @@ msgstr "Como el tema es usado como tema recurrente, el grupo proponente es oblig
 msgid "proposing_group_with_group_in_charge_required"
 msgstr ""
 
-#. Default: "The document has been sent."
+#. Default: "The document has been sent (${recipients})."
 msgid "pt_mailing_sent"
-msgstr "El documento ha sido enviado."
+msgstr "El documento ha sido enviado (${recipients})."
+
+#. Default: "The document will be sent to: ${recipients}."
+msgid "pt_mailing_will_be_sent_to"
+msgstr ""
 
 #. Default: "Public meeting"
 msgid "public"

@@ -3650,8 +3650,12 @@ msgstr ""
 msgid "icon_color_yellow"
 msgstr ""
 
-#. Default: "The document has been sent."
+#. Default: "The document has been sent (${recipients})."
 msgid "pt_mailing_sent"
+msgstr ""
+
+#. Default: "The document will be sent to: ${recipients}."
+msgid "pt_mailing_will_be_sent_to"
 msgstr ""
 
 #. Default: "Document templates"

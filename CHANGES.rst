@@ -5,8 +5,8 @@ Changelog
 4.2.24 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translation for `pt_mailing_will_be_sent_to`.
+  [gbastien]
 
 4.2.23 (2025-03-11)
 -------------------
