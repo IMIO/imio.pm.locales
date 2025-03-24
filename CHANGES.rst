@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.24 (unreleased)
+4.2.24 (2025-03-24)
 -------------------
 
 - Added translation for `pt_mailing_will_be_sent_to`.
