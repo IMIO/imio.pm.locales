@@ -404,6 +404,10 @@ msgstr "Edit redefined signatory for this item"
 msgid "Edit this vote"
 msgstr "Edit this vote"
 
+#. Default: "Elements displayed are only elements you can access in iA.Vision."
+msgid "Elements displayed are only elements you can access in iA.Vision."
+msgstr ""
+
 #. Default: "Elements to export in PDF"
 msgid "Elements to export in PDF"
 msgstr "Elements to export in PDF"
@@ -684,6 +688,10 @@ msgstr "Limit date ${advice_limit_date}"
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
+
+#. Default: "Link with iA.Vision"
+msgid "Link with iA.Vision"
+msgstr ""
 
 # plone.app.querystring
 #. Default: "Linked meeting date (used for items)"
@@ -1985,6 +1993,10 @@ msgstr "Preview of annexes were deleted upon meeting closure."
 msgid "Previous review state"
 msgstr "Previous review state"
 
+#. Default: "Projects"
+msgid "Projects"
+msgstr ""
+
 #. Default: "Recurring items"
 msgid "RecurringItems"
 msgstr "Recurring items"
@@ -2112,6 +2124,10 @@ msgstr "Style templates"
 #. Default: "Taken over by ${fullname}"
 msgid "Taken over by ${fullname}"
 msgstr "Taken over by ${fullname}"
+
+#. Default: "Tasks"
+msgid "Tasks"
+msgstr ""
 
 #. Default: "Temporary QR code!"
 msgid "Temporary QR code!"
@@ -3868,6 +3884,10 @@ msgstr "Votes"
 msgid "export_pdf_descr"
 msgstr "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
 
+#. Default: "External linked elements"
+msgid "external_linked_elements"
+msgstr ""
+
 #. Default: "Cancel edit"
 msgid "fastedit_cancel"
 msgstr "Cancel edit."
@@ -5516,6 +5536,10 @@ msgstr "Convert annexes for preview"
 msgid "pm_creation_date"
 msgstr "Creation date"
 
+#. Default: "Elements linked from iA.Vision"
+msgid "pm_external_vision_help"
+msgstr ""
+
 #. Default: "Go to the first one"
 msgid "pm_goto_first"
 msgstr "Go to the first one"
@@ -6764,6 +6788,10 @@ msgstr "The \"${meeting_group_suffix}\" of any group"
 #. Default: "The \"${meeting_group_suffix}\" of the proposing group"
 msgid "visible_for_suffix_proposing_group_"
 msgstr "The \"${meeting_group_suffix}\" of the proposing group"
+
+#. Default: "iA.Vision start date"
+msgid "vision_start_date"
+msgstr ""
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name \"item\"). If it returns False, no vote may occur on the item."
 msgid "vote_condition_descr"

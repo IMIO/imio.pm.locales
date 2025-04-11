@@ -5,8 +5,8 @@ Changelog
 4.2.25 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations for `external` linked elements.
+  [gbastien]
 
 4.2.24 (2025-03-24)
 -------------------

@@ -408,6 +408,10 @@ msgstr ""
 msgid "Edit this vote"
 msgstr ""
 
+#. Default: "Elements displayed are only elements you can access in iA.Vision."
+msgid "Elements displayed are only elements you can access in iA.Vision."
+msgstr ""
+
 #. Default: "Elements to export in PDF"
 msgid "Elements to export in PDF"
 msgstr ""
@@ -688,6 +692,10 @@ msgstr ""
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr "Limite el número de caracteres que se muestran del título para evitar títulos demasiado largos se muestran en el portlet."
+
+#. Default: "Link with iA.Vision"
+msgid "Link with iA.Vision"
+msgstr ""
 
 # plone.app.querystring
 #. Default: "Linked meeting date (used for items)"
@@ -2003,6 +2011,10 @@ msgstr ""
 msgid "Previous review state"
 msgstr ""
 
+#. Default: "Projects"
+msgid "Projects"
+msgstr ""
+
 #. Default: "Recurring items"
 msgid "RecurringItems"
 msgstr "Temas predefinidos"
@@ -2129,6 +2141,10 @@ msgstr ""
 
 #. Default: "Taken over by ${fullname}"
 msgid "Taken over by ${fullname}"
+msgstr ""
+
+#. Default: "Tasks"
+msgid "Tasks"
 msgstr ""
 
 #. Default: "Temporary QR code!"
@@ -3912,6 +3928,10 @@ msgstr "Votos"
 msgid "export_pdf_descr"
 msgstr ""
 
+#. Default: "External linked elements"
+msgid "external_linked_elements"
+msgstr ""
+
 #. Default: "Cancel edit"
 #, fuzzy
 msgid "fastedit_cancel"
@@ -5593,6 +5613,10 @@ msgstr "Convertir los anexos para la vista previa"
 msgid "pm_creation_date"
 msgstr "Fecha de creación"
 
+#. Default: "Elements linked from iA.Vision"
+msgid "pm_external_vision_help"
+msgstr ""
+
 #. Default: "Go to the first one"
 #, fuzzy
 msgid "pm_goto_first"
@@ -6857,6 +6881,10 @@ msgstr ""
 
 #. Default: "The \"${meeting_group_suffix}\" of the proposing group"
 msgid "visible_for_suffix_proposing_group_"
+msgstr ""
+
+#. Default: "iA.Vision start date"
+msgid "vision_start_date"
 msgstr ""
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name \"item\"). If it returns False, no vote may occur on the item."
