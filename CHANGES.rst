@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-4.2.25 (unreleased)
--------------------
+4.2.25.visiona1 (unreleased)
+----------------------------
 
 - Added translations for `external` linked elements.
   [gbastien]
