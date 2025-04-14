@@ -404,9 +404,17 @@ msgstr "Éditer ce signataire redéfini sur ce point"
 msgid "Edit this vote"
 msgstr "Éditer ce vote"
 
+#. Default: "Element "${element}" has been linked."
+msgid "Element \"${element}\" has been linked."
+msgstr "L'élément \"${element}\" a été lié."
+
+#. Default: "Element "${element}" has been unlinked."
+msgid "Element \"${element}\" has been unlinked."
+msgstr "L'élément \"${element}\" a été délié."
+
 #. Default: "Elements displayed are only elements you can access in iA.Vision."
 msgid "Elements displayed are only elements you can access in iA.Vision."
-msgstr "Les éléments affichés sont ceux auxquels vous avez accès dans iA.Vision."
+msgstr "Les éléments affichés sont ceux auxquels vous avez accès dans iA.Vision.<br />Cochez les élément à lier et décochez les éléments déjà liés que vous souhaitez délier."
 
 #. Default: "Elements to export in PDF"
 msgid "Elements to export in PDF"
@@ -691,7 +699,7 @@ msgstr "Limite le nombre de caractères de l'objet du point qui seront affichés
 
 #. Default: "Link with iA.Vision"
 msgid "Link with iA.Vision"
-msgstr "Lier des éléments de iA.Vision"
+msgstr "Lier/délier des éléments de iA.Vision"
 
 # plone.app.querystring
 #. Default: "Linked meeting date (used for items)"
@@ -1993,6 +2001,10 @@ msgstr "Les prévisualisations des annexes de tous les points ont été supprim�
 msgid "Previous review state"
 msgstr "État précédent"
 
+#. Default: "Project"
+msgid "Project"
+msgstr "Projet"
+
 #. Default: "Projects"
 msgid "Projects"
 msgstr "Projets"
@@ -2124,6 +2136,10 @@ msgstr "Modèles de style"
 #. Default: "Taken over by ${fullname}"
 msgid "Taken over by ${fullname}"
 msgstr "Pris en charge par ${fullname}"
+
+#. Default: "Task"
+msgid "Task"
+msgstr "Tâche"
 
 #. Default: "Tasks"
 msgid "Tasks"
@@ -4914,6 +4930,10 @@ msgstr "Taille"
 #. Default: "Title"
 msgid "listingheader_title"
 msgstr "Titre"
+
+#. Default: "Title (from iA.Vision)"
+msgid "listingheader_title_from_vision"
+msgstr "Titre (dans iA.Vision)"
 
 #. Default: "Manage content in a second language"
 msgid "ma_second_language"
