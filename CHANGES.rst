@@ -5,8 +5,8 @@ Changelog
 4.2.25 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translation for `icon_help_isAcceptableOutOfMeeting`.
+  [gbastien]
 
 4.2.24 (2025-03-24)
 -------------------
