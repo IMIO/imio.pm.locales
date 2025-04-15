@@ -5,6 +5,8 @@ Changelog
 4.2.25.visiona1 (unreleased)
 ----------------------------
 
+- Added translation for `icon_help_isAcceptableOutOfMeeting`.
+  [gbastien]
 - Added translations for `external` linked elements.
   [gbastien]
 
