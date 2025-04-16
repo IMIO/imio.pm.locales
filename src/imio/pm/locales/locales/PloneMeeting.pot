@@ -2764,6 +2764,10 @@ msgstr ""
 msgid "positive_with_remarks"
 msgstr ""
 
+#. Default: "Positive after modification"
+msgid "positive_after_modification"
+msgstr ""
+
 #. Default: "Cautious"
 msgid "cautious"
 msgstr ""
@@ -3662,8 +3666,12 @@ msgstr ""
 msgid "icon_color_yellow"
 msgstr ""
 
-#. Default: "The document has been sent."
+#. Default: "The document has been sent (${recipients})."
 msgid "pt_mailing_sent"
+msgstr ""
+
+#. Default: "The document will be sent to: ${recipients}."
+msgid "pt_mailing_will_be_sent_to"
 msgstr ""
 
 #. Default: "Document templates"
@@ -3900,10 +3908,6 @@ msgstr ""
 
 #. Default: "Returned to proposing group for corrections"
 msgid "icon_help_returned_to_proposing_group"
-msgstr ""
-
-#. Default: "Returned to proposing group for corrections ($validation_state)"
-msgid "icon_help_returned_to_proposing_group_with_validation_state"
 msgstr ""
 
 #. Default: "In order to perform this action, the meeting date must be in the past."
@@ -4616,6 +4620,10 @@ msgstr ""
 
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept, please contact system administrator if necessary."
 msgid "annex_not_kept_item_paste_info"
+msgstr ""
+
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was only previewable, please contact system administrator if necessary."
+msgid "annex_show_preview_not_kept"
 msgstr ""
 
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not be kept because it requires a PDF file in the destination configuration, please contact system administrator."
@@ -5438,6 +5446,10 @@ msgstr ""
 msgid "is_acceptable_out_of_meeting_descr"
 msgstr ""
 
+#. Default: "Acceptable out of a meeting"
+msgid "icon_help_isAcceptableOutOfMeeting"
+msgstr ""
+
 #. Default: "The annexes"
 msgid "content_kept_annexes"
 msgstr ""
@@ -6186,6 +6198,10 @@ msgstr ""
 msgid " [PDF required]"
 msgstr ""
 
+#. Default: " [only previewable]"
+msgid " [only previewable]"
+msgstr ""
+
 #. Default: "Display available items to"
 msgid "PloneMeeting_label_displayAvailableItemsTo"
 msgstr ""
@@ -6284,6 +6300,10 @@ msgstr ""
 
 #. Default: "You can not remove/disable a function that is used by a parameter of a configuration.  Please check ${cfg_title}."
 msgid "can_not_delete_plone_group_meetingconfig"
+msgstr ""
+
+#. Default: "You can not unselect an organization that is in use by a MeetingConfig.  Please check ${cfg_title}."
+msgid "can_not_unselect_plone_group_meetingconfig"
 msgstr ""
 
 #. Default: "You can not unselect an organization that is in use by another organization, please check.  Please check ${org_url}."

@@ -27,6 +27,10 @@ msgstr ""
 msgid " [holds scan_id]"
 msgstr ""
 
+#. Default: " [only previewable]"
+msgid " [only previewable]"
+msgstr ""
+
 #. Default: " [reserved MeetingManagers]"
 msgid " [reserved MeetingManagers]"
 msgstr ""
@@ -2659,6 +2663,10 @@ msgstr ""
 msgid "annex_restrict_shown_and_editable_attributes_descr"
 msgstr ""
 
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was only previewable, please contact system administrator if necessary."
+msgid "annex_show_preview_not_kept"
+msgstr ""
+
 #. Default: "Confidential"
 msgid "annex_term_confidential"
 msgstr ""
@@ -3000,6 +3008,10 @@ msgstr ""
 #, fuzzy
 msgid "can_not_unselect_already_given_advice"
 msgstr "No se puede cancelar la selección de un asesor opcional que ya dio su consejo. Por favor, marque la casilla valor' ${removedAdviser}'."
+
+#. Default: "You can not unselect an organization that is in use by a MeetingConfig.  Please check ${cfg_title}."
+msgid "can_not_unselect_plone_group_meetingconfig"
+msgstr ""
 
 #. Default: "You can not unselect an organization that is in use by another organization, please check.  Please check ${org_url}."
 msgid "can_not_unselect_plone_group_org"
@@ -4262,6 +4274,10 @@ msgstr "Demorado"
 msgid "icon_help_freeze_deadline_ko"
 msgstr ""
 
+#. Default: "Acceptable out of a meeting"
+msgid "icon_help_isAcceptableOutOfMeeting"
+msgstr ""
+
 #. Default: "Late"
 msgid "icon_help_late"
 msgstr "Tardío"
@@ -4301,10 +4317,6 @@ msgstr ""
 #. Default: "Returned to proposing group for corrections"
 msgid "icon_help_returned_to_proposing_group"
 msgstr "Volver a grupo proponente para correcciones"
-
-#. Default: "Returned to proposing group for corrections ($validation_state)"
-msgid "icon_help_returned_to_proposing_group_with_validation_state"
-msgstr ""
 
 #. Default: "This item was validated after the validation deadline defined on this meeting"
 msgid "icon_help_validation_deadline_ko"
@@ -5724,6 +5736,10 @@ msgstr ""
 msgid "positive"
 msgstr "Positivo"
 
+#. Default: "Positive after modification"
+msgid "positive_after_modification"
+msgstr ""
+
 #. Default: "Positive with comments"
 msgid "positive_with_comments"
 msgstr ""
@@ -5816,9 +5832,13 @@ msgstr "Como el tema es usado como tema recurrente, el grupo proponente es oblig
 msgid "proposing_group_with_group_in_charge_required"
 msgstr ""
 
-#. Default: "The document has been sent."
+#. Default: "The document has been sent (${recipients})."
 msgid "pt_mailing_sent"
-msgstr "El documento ha sido enviado."
+msgstr "El documento ha sido enviado (${recipients})."
+
+#. Default: "The document will be sent to: ${recipients}."
+msgid "pt_mailing_will_be_sent_to"
+msgstr ""
 
 #. Default: "Public meeting"
 msgid "public"

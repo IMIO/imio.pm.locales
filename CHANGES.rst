@@ -2,14 +2,38 @@ Changelog
 =========
 
 
-4.2.20.5 (unreleased)
+4.2.24.1 (unreleased)
 ---------------------
 
-- Nothing changed yet.
+- Added translation for `icon_help_isAcceptableOutOfMeeting`.
+  [gbastien]
 
-4.2.20.4 (2024-11-14)
----------------------
+4.2.24 (2025-03-24)
+-------------------
 
+- Added translation for `pt_mailing_will_be_sent_to`.
+  [gbastien]
+
+4.2.23 (2025-03-11)
+-------------------
+
+- Added translations for `Change committees` batch action.
+  [gbastien]
+- Added translations for new advice type `Positive after modification`.
+  [gbastien]
+
+4.2.22 (2025-02-03)
+-------------------
+- Added translations for `can_not_unselect_plone_group_meetingconfig`.
+  [gbastien]
+- Added translations related to only previewable annexes not duplicated.
+  [gbastien]
+- Adapted `return_to_proposing_group` with validation WFA related translations.
+  Removed no more used `returned_to_proposing_group_with_validation_state`.
+  [gbastien]
+- Overrided `collective.iconifiedcategory` translation of
+  `Show preview description.` to be more specific regarding `PloneMeeting`.
+  [gbastien]
 - Added translations for new privacies `public_ending` and `secret_ending`.
   [gbastien]
 

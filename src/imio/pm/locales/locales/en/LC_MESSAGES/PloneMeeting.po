@@ -23,6 +23,10 @@ msgstr " [PDF required]"
 msgid " [holds scan_id]"
 msgstr " [holds scan_id]"
 
+#. Default: " [only previewable]"
+msgid " [only previewable]"
+msgstr " [only previewable]"
+
 #. Default: " [reserved MeetingManagers]"
 msgid " [reserved MeetingManagers]"
 msgstr " [reserved MeetingManagers]"
@@ -2636,6 +2640,10 @@ msgstr "The item was duplicated but the annex with title \"${annexTitle}\" was n
 msgid "annex_restrict_shown_and_editable_attributes_descr"
 msgstr "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
 
+#. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was only previewable, please contact system administrator if necessary."
+msgid "annex_show_preview_not_kept"
+msgstr "The item was duplicated but the annex with title \"${annexTitle}\" was not kept because it was only previewable, please contact system administrator if necessary."
+
 #. Default: "Confidential"
 msgid "annex_term_confidential"
 msgstr "Confidential"
@@ -2972,6 +2980,10 @@ msgstr "Can not switch a vote poll type (no vote/public/secret) as this vote is 
 #. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
 msgid "can_not_unselect_already_given_advice"
 msgstr "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
+
+#. Default: "You can not unselect an organization that is in use by a MeetingConfig.  Please check ${cfg_title}."
+msgid "can_not_unselect_plone_group_meetingconfig"
+msgstr "You can not unselect an organization that is in use by a MeetingConfig.  Please check ${cfg_title}."
 
 #. Default: "You can not unselect an organization that is in use by another organization, please check.  Please check ${org_url}."
 msgid "can_not_unselect_plone_group_org"
@@ -4206,6 +4218,10 @@ msgstr "Delayed"
 msgid "icon_help_freeze_deadline_ko"
 msgstr "This item was validated after the freeze deadline defined on this meeting"
 
+#. Default: "Acceptable out of a meeting"
+msgid "icon_help_isAcceptableOutOfMeeting"
+msgstr ""
+
 #. Default: "Late"
 msgid "icon_help_late"
 msgstr "Late"
@@ -4245,10 +4261,6 @@ msgstr "Removed"
 #. Default: "Returned to proposing group for corrections"
 msgid "icon_help_returned_to_proposing_group"
 msgstr "Returned to proposing group for corrections"
-
-#. Default: "Returned to proposing group for corrections ($validation_state)"
-msgid "icon_help_returned_to_proposing_group_with_validation_state"
-msgstr "Returned to proposing group for corrections ($validation_state)"
 
 #. Default: "This item was validated after the validation deadline defined on this meeting"
 msgid "icon_help_validation_deadline_ko"
@@ -5640,6 +5652,10 @@ msgstr "Secret separated"
 msgid "positive"
 msgstr "Positive"
 
+#. Default: "Positive after modification"
+msgid "positive_after_modification"
+msgstr "Positive after modification"
+
 #. Default: "Positive with comments"
 msgid "positive_with_comments"
 msgstr "Positive with comments"
@@ -5732,9 +5748,13 @@ msgstr "A proposing group is required."
 msgid "proposing_group_with_group_in_charge_required"
 msgstr "Please select a proposing group with a group in charge."
 
-#. Default: "The document has been sent."
+#. Default: "The document has been sent (${recipients})."
 msgid "pt_mailing_sent"
-msgstr "The document has been sent."
+msgstr "The document has been sent (${recipients})."
+
+#. Default: "The document will be sent to: ${recipients}."
+msgid "pt_mailing_will_be_sent_to"
+msgstr "The document will be sent to: ${recipients}."
 
 #. Default: "Public meeting"
 msgid "public"
@@ -6057,7 +6077,6 @@ msgid "selectable_advisers_descr"
 msgstr "Choose here advisers that will be selectable on an item in the \"Optional advisers\" field. If a group does not contains users in the \"Advisers\" sub-group, it is mentioned, only select it if you intend to add users in that sub-group or the advice will never be given."
 
 #. Default: "Select groups that the creator of an item will be able to choose.  This is used by item field \"Copy groups\"."
-#, fuzzy
 msgid "selectable_copy_groups_descr"
 msgstr "Select groups that the creator of an item will be able to choose"
 
