@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.24.1 (unreleased)
+4.2.24.1 (2025-04-16)
 ---------------------
 
 - Added translation for `icon_help_isAcceptableOutOfMeeting`.
