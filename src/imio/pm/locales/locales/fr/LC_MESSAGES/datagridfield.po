@@ -171,6 +171,10 @@ msgstr "Si la méthode de tri \"Par type de point (normal, en urgence, ...)\" es
 msgid "Inserting method"
 msgstr "Méthode d'insertion"
 
+#. Default: "Is delay computed in calendar days?"
+msgid "Is delay computed in calendar days?"
+msgstr "Délai calculé en jours calendrier?"
+
 #. Default: "Set to \"Yes\" if you want to make a logical link between a row and the previous one.  This will manage the fact of easily being able to change a delay for an asked advice.  The linked rows will make the user being able to select between those different delays in the advice vizualisation popup.  This is only relevant for delay-aware advices, to link differents delays together."
 msgid "Is linked to previous row description"
 msgstr "Sélectionnez \"Oui\" si vous souhaitez faire un lien logique entre une ligne et la ligne précédente.  Ceci permet de gérer le changement de délai pour un avis et permettra aux utilisateurs de changer le délai d'un avis via le popup affiché au clic sur un avis à rendre.  Ceci n'est utilisé que pour les avis avec délai."
@@ -478,6 +482,10 @@ msgstr "Si vous souhaitez qu'un message d'aide spécifique soit affiché au surv
 #. Default: "Please use following format : YYYY/MM/DD.  Dates must be sorted (from older to newer)."
 msgid "holiday_date_col_descr"
 msgstr "Utilisez le format suivant : AAAA/MM/DD.  Les dates doivent être triées dans un ordre croissant (de la plus ancienne à la plus récente)."
+
+#. Default: "Set to \"Yes\" if you want to compute delay in calendar days, so ignoring weekends and holidays."
+msgid "is_delay_calendar_days_col_description"
+msgstr "Sélectionnez \"Oui\" si le délai doit être calculé en jours calendriers, donc en prenant les 7 jours de la semaine comme jours ouvrables et en ignorant les week-ends, jours fériés et jours non ouvrables."
 
 #. Default: "Power observer item access TAL expression description"
 msgid "power_observers_item_access_on_col_description"
