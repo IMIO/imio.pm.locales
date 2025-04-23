@@ -2430,6 +2430,14 @@ msgstr "${meetingConfigTitle} - Votre avis est demandé - ${itemTitle}"
 msgid "advice_annex_confidential_visible_for_descr"
 msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des avis et définies comme confidentielles.  <span style='color: red;'>Si vous changez ces valeurs et que des annexes confidentielles existent, exécutez l'action \"Mise à jour des éléments catégorisés\" dans la configuration des \"Annexes aux avis\"!</span>"
 
+#. Default: "${org_title} - ${delay} calendar day(s) (${delay_label})"
+msgid "advice_calendar_days_delay_with_label"
+msgstr "${org_title} - ${delay} jour(s) calendrier (${delay_label})"
+
+#. Default: "${org_title} - ${delay} calendar day(s)"
+msgid "advice_calendar_days_delay_without_label"
+msgstr "${org_title} - ${delay} jour(s) calendrier"
+
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
 msgstr "Cet avis ne peut plus être rendu dans l'état actuel du point (${item_review_state})"
