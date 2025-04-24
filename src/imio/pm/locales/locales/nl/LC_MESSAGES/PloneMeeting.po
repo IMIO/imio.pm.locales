@@ -353,6 +353,10 @@ msgstr ""
 msgid "Define this attendee as signatory for this item"
 msgstr ""
 
+#. Default: "Delay computed in calendar days"
+msgid "Delay computed in calendar days"
+msgstr ""
+
 #. Default: "Delete advice"
 msgid "Delete advice"
 msgstr ""
@@ -2424,6 +2428,14 @@ msgstr ""
 msgid "advice_annex_confidential_visible_for_descr"
 msgstr ""
 
+#. Default: "${org_title} - ${delay} calendar day(s) (${delay_label})"
+msgid "advice_calendar_days_delay_with_label"
+msgstr ""
+
+#. Default: "${org_title} - ${delay} calendar day(s)"
+msgid "advice_calendar_days_delay_without_label"
+msgstr ""
+
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
 msgstr ""
@@ -3053,7 +3065,7 @@ msgstr ""
 msgid "certified_signatures_descr"
 msgstr ""
 
-#. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
+#. Default: "You are about to change delay for this advice to ${new_advice_is_delay_calendar_days} <span style='font-weight: bold;'>${new_advice_delay} days</span> (${new_advice_delay_label}), please enter a comment."
 msgid "change_advice_delay_descr"
 msgstr ""
 

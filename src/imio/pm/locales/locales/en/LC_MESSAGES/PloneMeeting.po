@@ -352,6 +352,10 @@ msgstr "Defaults"
 msgid "Define this attendee as signatory for this item"
 msgstr "Define this attendee as signatory for this item"
 
+#. Default: "Delay computed in calendar days"
+msgid "Delay computed in calendar days"
+msgstr ""
+
 #. Default: "Delete advice"
 msgid "Delete advice"
 msgstr "Delete advice"
@@ -2416,6 +2420,14 @@ msgstr "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
 msgid "advice_annex_confidential_visible_for_descr"
 msgstr "Select here profiles of users that will be able to see an annex added to an advice that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action \"Update categorized elements\" in the \"Advice annnex types\" configuration.</span>"
 
+#. Default: "${org_title} - ${delay} calendar day(s) (${delay_label})"
+msgid "advice_calendar_days_delay_with_label"
+msgstr ""
+
+#. Default: "${org_title} - ${delay} calendar day(s)"
+msgid "advice_calendar_days_delay_without_label"
+msgstr ""
+
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
 msgstr "This advice can no more be given in current item state (${item_review_state})"
@@ -3041,9 +3053,9 @@ msgstr "Cautious"
 msgid "certified_signatures_descr"
 msgstr "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  <span style='color: red;'>By signature number, the first valid signature found will be used.</span>"
 
-#. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
+#. Default: "You are about to change delay for this advice to ${new_advice_is_delay_calendar_days} <span style='font-weight: bold;'>${new_advice_delay} days</span> (${new_advice_delay_label}), please enter a comment."
 msgid "change_advice_delay_descr"
-msgstr "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
+msgstr "You are about to change delay for this advice to ${new_advice_is_delay_calendar_days} <span style='font-weight: bold;'>${new_advice_delay} days</span> (${new_advice_delay_label}), please enter a comment."
 
 #. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
 msgid "change_completeness_comment"
