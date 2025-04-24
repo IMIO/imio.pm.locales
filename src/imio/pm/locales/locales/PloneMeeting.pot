@@ -4258,8 +4258,16 @@ msgstr ""
 msgid "advice_delay_with_label"
 msgstr ""
 
+#. Default: "${org_title} - ${delay} calendar day(s) (${delay_label})"
+msgid "advice_calendar_days_delay_with_label"
+msgstr ""
+
 #. Default: "${org_title} - ${delay} day(s)"
 msgid "advice_delay_without_label"
+msgstr ""
+
+#. Default: "${org_title} - ${delay} calendar day(s)"
+msgid "advice_calendar_days_delay_without_label"
 msgstr ""
 
 #. Default: "You can not unselect an optional adviser that already gave his advice.  Please check the \"${removedAdviser}\" value."
@@ -4450,7 +4458,7 @@ msgstr ""
 msgid "Change delay for this advice from ${from} days to ${to} days"
 msgstr ""
 
-#. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
+#. Default: "You are about to change delay for this advice to ${new_advice_is_delay_calendar_days} <span style='font-weight: bold;'>${new_advice_delay} days</span> (${new_advice_delay_label}), please enter a comment."
 msgid "change_advice_delay_descr"
 msgstr ""
 
@@ -7185,3 +7193,8 @@ msgstr ""
 #. Default: "Specify here a TAL expression that will make every meeting configs to clone to fields editable.  Leave empty if fields are editable when the item is editable."
 msgid "meeting_configs_to_clone_to_edit_fields_tal_expr_descr"
 msgstr ""
+
+#. Default: "Delay computed in calendar days"
+msgid "Delay computed in calendar days"
+msgstr ""
+

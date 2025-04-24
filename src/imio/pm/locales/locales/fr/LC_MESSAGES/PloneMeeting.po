@@ -352,6 +352,10 @@ msgstr "Par défaut"
 msgid "Define this attendee as signatory for this item"
 msgstr "Définir ce membre comme signataire pour ce point"
 
+#. Default: "Delay computed in calendar days"
+msgid "Delay computed in calendar days"
+msgstr "Délai calculé en jours calendrier"
+
 #. Default: "Delete advice"
 msgid "Delete advice"
 msgstr "Supprimer l'avis"
@@ -2430,6 +2434,14 @@ msgstr "${meetingConfigTitle} - Votre avis est demandé - ${itemTitle}"
 msgid "advice_annex_confidential_visible_for_descr"
 msgstr "Sélectionnez ici les profils d'utilisateurs qui pourront voir les annexes ajoutées à des avis et définies comme confidentielles.  <span style='color: red;'>Si vous changez ces valeurs et que des annexes confidentielles existent, exécutez l'action \"Mise à jour des éléments catégorisés\" dans la configuration des \"Annexes aux avis\"!</span>"
 
+#. Default: "${org_title} - ${delay} calendar day(s) (${delay_label})"
+msgid "advice_calendar_days_delay_with_label"
+msgstr "${org_title} - ${delay} jour(s) calendrier (${delay_label})"
+
+#. Default: "${org_title} - ${delay} calendar day(s)"
+msgid "advice_calendar_days_delay_without_label"
+msgstr "${org_title} - ${delay} jour(s) calendrier"
+
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
 msgstr "Cet avis ne peut plus être rendu dans l'état actuel du point (${item_review_state})"
@@ -3063,9 +3075,9 @@ msgstr "Réservé"
 msgid "certified_signatures_descr"
 msgstr "Définissez ici les signatures certifiées conformes qui pourront être utilisées lors de la génération de divers documents.  Vous pouvez définir plusieurs lignes pour la même signature (même numéro) avec une période de validité différente.  <span style='color: red;'>Par numéro de signature, la première signature trouvée et valide sera utilisée.</span>"
 
-#. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
+#. Default: "You are about to change delay for this advice to ${new_advice_is_delay_calendar_days} <span style='font-weight: bold;'>${new_advice_delay} days</span> (${new_advice_delay_label}), please enter a comment."
 msgid "change_advice_delay_descr"
-msgstr "Vous êtes sur le point de changer le délai de cet avis vers <span style='font-weight: bold;'>${new_advice_delay} jours</span>, veuillez entrer un commentaire."
+msgstr "Vous êtes sur le point de changer le délai de cet avis vers ${new_advice_is_delay_calendar_days} <span style='font-weight: bold;'>${new_advice_delay} jours</span> (${new_advice_delay_label}), veuillez entrer un commentaire."
 
 #. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
 msgid "change_completeness_comment"
