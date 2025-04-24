@@ -8,7 +8,7 @@ Changelog
 - Added translation for `icon_help_isAcceptableOutOfMeeting`.
   [gbastien]
 - Added translations for `MeetingConfig.customAdvisers`
-  for new `is_delay_calendar_days` column.
+  new `is_delay_calendar_days` column related functionality.
   [gbastien]
 
 4.2.24 (2025-03-24)
