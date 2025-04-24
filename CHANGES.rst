@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.24.2 (unreleased)
+4.2.24.2 (2025-04-24)
 ---------------------
 
 - Added translations for `MeetingConfig.customAdvisers`
