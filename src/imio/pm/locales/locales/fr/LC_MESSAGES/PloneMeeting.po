@@ -3071,9 +3071,9 @@ msgstr "Réservé"
 msgid "certified_signatures_descr"
 msgstr "Définissez ici les signatures certifiées conformes qui pourront être utilisées lors de la génération de divers documents.  Vous pouvez définir plusieurs lignes pour la même signature (même numéro) avec une période de validité différente.  <span style='color: red;'>Par numéro de signature, la première signature trouvée et valide sera utilisée.</span>"
 
-#. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
+#. Default: "You are about to change delay for this advice to ${new_advice_is_delay_calendar_days} <span style='font-weight: bold;'>${new_advice_delay} days</span> (${new_advice_delay_label}), please enter a comment."
 msgid "change_advice_delay_descr"
-msgstr "Vous êtes sur le point de changer le délai de cet avis vers <span style='font-weight: bold;'>${new_advice_delay} jours</span>, veuillez entrer un commentaire."
+msgstr "Vous êtes sur le point de changer le délai de cet avis vers ${new_advice_is_delay_calendar_days} <span style='font-weight: bold;'>${new_advice_delay} jours</span> (${new_advice_delay_label}), veuillez entrer un commentaire."
 
 #. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
 msgid "change_completeness_comment"

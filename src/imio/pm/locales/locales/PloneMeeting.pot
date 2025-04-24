@@ -4442,7 +4442,7 @@ msgstr ""
 msgid "Change delay for this advice from ${from} days to ${to} days"
 msgstr ""
 
-#. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
+#. Default: "You are about to change delay for this advice to ${new_advice_is_delay_calendar_days} <span style='font-weight: bold;'>${new_advice_delay} days</span> (${new_advice_delay_label}), please enter a comment."
 msgid "change_advice_delay_descr"
 msgstr ""
 
