@@ -5,16 +5,14 @@ Changelog
 4.2.24.2 (unreleased)
 ---------------------
 
-- Nothing changed yet.
-
+- Added translations for `MeetingConfig.customAdvisers`
+  new `is_delay_calendar_days` column related functionality.
+  [gbastien]
 
 4.2.24.1 (2025-04-16)
 ---------------------
 
 - Added translation for `icon_help_isAcceptableOutOfMeeting`.
-  [gbastien]
-- Added translations for `MeetingConfig.customAdvisers`
-  new `is_delay_calendar_days` column related functionality.
   [gbastien]
 
 4.2.24 (2025-03-24)
