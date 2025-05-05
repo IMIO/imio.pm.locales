@@ -2,14 +2,13 @@ Changelog
 =========
 
 
-4.2.24.3 (unreleased)
+4.2.25.1 (unreleased)
 ---------------------
 
 - Nothing changed yet.
 
-
-4.2.24.2 (2025-04-24)
----------------------
+4.2.25 (2025-05-05)
+-------------------
 
 - Added translations for `MeetingConfig.customAdvisers`
   new `is_delay_calendar_days` column related functionality.
