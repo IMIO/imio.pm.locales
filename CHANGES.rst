@@ -5,7 +5,8 @@ Changelog
 4.2.25.1 (unreleased)
 ---------------------
 
-- Nothing changed yet.
+- Release.
+  [gbastien]
 
 4.2.25 (2025-05-05)
 -------------------
