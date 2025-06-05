@@ -5,8 +5,11 @@ Changelog
 4.2.26 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- More accurate french translations for
+  `This attendee is marked as signatory for the ${number} following item(s)` and
+  `This attendee is marked as ${not_present_type} for the ${number}
+  following items (${clusters})`.
+  [gbastien]
 
 4.2.25 (2025-05-05)
 -------------------
