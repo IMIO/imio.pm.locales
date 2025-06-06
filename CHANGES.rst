@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.26 (unreleased)
+4.2.26 (2025-06-06)
 -------------------
 
 - More accurate french translations for
