@@ -5,8 +5,9 @@ Changelog
 4.2.27 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- More accurate french translation for
+  `advice_asked_again_and_historized_comments`.
+  [gbastien]
 
 4.2.26 (2025-06-06)
 -------------------
