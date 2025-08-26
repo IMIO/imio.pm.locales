@@ -8,6 +8,8 @@ Changelog
 - More accurate french translation for
   `advice_asked_again_and_historized_comments`.
   [gbastien]
+- Adapted translation of votes form label field to explain use of `|`.
+  [gbastien]
 
 4.2.26 (2025-06-06)
 -------------------

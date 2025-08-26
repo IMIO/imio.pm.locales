@@ -486,7 +486,7 @@ msgstr "Prénom (abréviation)"
 
 #. Default: "Free label that will identify the vote, useful when several votes are defined on an item. Leave empty if not used."
 msgid "Free label that will identify the vote, useful when several votes are defined on an item. Leave empty if not used."
-msgstr "Libellé libre qui permet d'identifier un vote, particulièrement lorsque plusieurs votes sont encodés pour le même point.  Laissez vide si pas utilisé."
+msgstr "Texte libre qui permet d'identifier un vote, particulièrement lorsque plusieurs votes sont encodés pour le même point.  Un fonctionnement spécial est disponible en utilisant le caractère \"|\" pour renseigner plusieurs libellés les uns à la suite des autres, ces libellés peuvent alors être utilisés indépendamment dans le rendu du vote. Laissez vide si pas utilisé."
 
 #. Default: "Free text fields"
 msgid "Free text fields"
