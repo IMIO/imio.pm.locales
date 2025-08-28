@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.27 (unreleased)
+4.2.27 (2025-08-28)
 -------------------
 
 - More accurate french translation for

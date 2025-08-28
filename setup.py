@@ -2,7 +2,7 @@ from io import open
 from setuptools import setup, find_packages
 import os
 
-version = '4.2.27.dev0'
+version = '4.2.27'
 
 setup(name='imio.pm.locales',
       version=version,
