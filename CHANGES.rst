@@ -5,8 +5,8 @@ Changelog
 4.2.28 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations related to `MeetingConfig.labelsConfig`.
+  [gbastien]
 
 4.2.27 (2025-08-28)
 -------------------

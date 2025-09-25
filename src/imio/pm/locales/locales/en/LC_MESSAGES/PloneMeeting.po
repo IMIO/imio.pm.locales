@@ -354,7 +354,7 @@ msgstr "Define this attendee as signatory for this item"
 
 #. Default: "Delay computed in calendar days"
 msgid "Delay computed in calendar days"
-msgstr ""
+msgstr "Delay computed in calendar days"
 
 #. Default: "Delete advice"
 msgid "Delete advice"
@@ -1504,6 +1504,10 @@ msgstr "Keep access to item when an advice"
 msgid "PloneMeeting_label_keepOriginalToPrintOfClonedItems"
 msgstr "Keep info \"to print?\" of annexes when duplicating items"
 
+#. Default: "Labels config"
+msgid "PloneMeeting_label_labelsConfig"
+msgstr "Labels config"
+
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
 msgstr "Number of the last meeting in this config"
@@ -2328,6 +2332,10 @@ msgstr "Voting group descr"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 
+#. Default: "You can not manage labels ${not_manageable_label_titles}!"
+msgid "You can not manage labels ${not_manageable_label_titles}!"
+msgstr "You can not manage labels ${not_manageable_label_titles}!"
+
 #. Default: "You cannot delete or move the default item template, but you can deactivate it if necessary!"
 msgid "You cannot delete or move the default item template, but you can deactivate it if necessary!"
 msgstr "You cannot delete or move the default item template, but you can deactivate it if necessary!"
@@ -2422,11 +2430,11 @@ msgstr "Select here profiles of users that will be able to see an annex added to
 
 #. Default: "${org_title} - ${delay} calendar day(s) (${delay_label})"
 msgid "advice_calendar_days_delay_with_label"
-msgstr ""
+msgstr "${org_title} - ${delay} calendar day(s) (${delay_label})"
 
 #. Default: "${org_title} - ${delay} calendar day(s)"
 msgid "advice_calendar_days_delay_without_label"
-msgstr ""
+msgstr "${org_title} - ${delay} calendar day(s)"
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
@@ -3488,6 +3496,10 @@ msgstr "The default advice type will be preselected on the form for adding an ad
 msgid "default_for_all_items"
 msgstr "Default, for all items:"
 
+#. Default: "Default"
+msgid "default_for_all_labels"
+msgstr "Default"
+
 #. Default: "The default poll type will be preselected on the form when adding an item."
 msgid "default_poll_type_descr"
 msgstr "The default poll type will be preselected on the form when adding an item."
@@ -4228,7 +4240,7 @@ msgstr "This item was validated after the freeze deadline defined on this meetin
 
 #. Default: "Acceptable out of a meeting"
 msgid "icon_help_isAcceptableOutOfMeeting"
-msgstr ""
+msgstr "Acceptable out of a meeting"
 
 #. Default: "Late"
 msgid "icon_help_late"
@@ -4802,6 +4814,18 @@ msgstr "Main information"
 #. Default: "Search"
 msgid "label_schema_pm_search"
 msgstr "Search"
+
+#. Default: "Can only have one config row about the same label!"
+msgid "labels_config_can_not_have_several_config_for_same_label"
+msgstr "Can only have one config row about the same label!"
+
+#. Default: "Define here who will be able to view/edit labels"
+msgid "labels_config_descr"
+msgstr "Define here who will be able to view/edit labels"
+
+#. Default: "The first row must be about the \"Default (*)\" configuration"
+msgid "labels_config_first_row_must_be_default_config"
+msgstr "The first row must be about the \"Default (*)\" configuration"
 
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
@@ -5599,6 +5623,10 @@ msgstr "Warning: the action \"Initialize existing annexes confidentiality\" will
 #. Default: "Update annex indexes"
 msgid "pm_update_annex_indexes"
 msgstr "Update annex indexes"
+
+#. Default: "Update labels access cache"
+msgid "pm_update_labels_access_cache"
+msgstr "Update labels access cache"
 
 #. Default: "Initialize personal label on existing items"
 msgid "pm_update_personal_labels"

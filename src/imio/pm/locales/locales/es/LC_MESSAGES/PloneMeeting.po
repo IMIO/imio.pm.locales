@@ -1514,6 +1514,10 @@ msgstr ""
 msgid "PloneMeeting_label_keepOriginalToPrintOfClonedItems"
 msgstr ""
 
+#. Default: "Labels config"
+msgid "PloneMeeting_label_labelsConfig"
+msgstr ""
+
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
 msgstr "Número de la ultima reunión en esta configuración"
@@ -2344,6 +2348,10 @@ msgstr ""
 
 #. Default: "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
+msgstr ""
+
+#. Default: "You can not manage labels ${not_manageable_label_titles}!"
+msgid "You can not manage labels ${not_manageable_label_titles}!"
 msgstr ""
 
 #. Default: "You cannot delete or move the default item template, but you can deactivate it if necessary!"
@@ -3517,6 +3525,10 @@ msgstr "El tipo de consejo por defecto será preseleccionado en el formulario pa
 
 #. Default: "Default, for all items:"
 msgid "default_for_all_items"
+msgstr ""
+
+#. Default: "Default"
+msgid "default_for_all_labels"
 msgstr ""
 
 #. Default: "The default poll type will be preselected on the form when adding an item."
@@ -4867,6 +4879,18 @@ msgstr "Información principal"
 msgid "label_schema_pm_search"
 msgstr "Búsqueda avanzada"
 
+#. Default: "Can only have one config row about the same label!"
+msgid "labels_config_can_not_have_several_config_for_same_label"
+msgstr ""
+
+#. Default: "Define here who will be able to view/edit labels"
+msgid "labels_config_descr"
+msgstr ""
+
+#. Default: "The first row must be about the \"Default (*)\" configuration"
+msgid "labels_config_first_row_must_be_default_config"
+msgstr ""
+
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
 msgstr "Con cada configuración de reunión, las reuniones son numerados secuencialmente."
@@ -5682,6 +5706,10 @@ msgstr ""
 #. Default: "Update annex indexes"
 msgid "pm_update_annex_indexes"
 msgstr "Actualizar los índices de los anexos"
+
+#. Default: "Update labels access cache"
+msgid "pm_update_labels_access_cache"
+msgstr ""
 
 #. Default: "Initialize personal label on existing items"
 msgid "pm_update_personal_labels"
