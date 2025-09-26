@@ -2143,10 +2143,6 @@ msgstr "La date à laquelle la séance a lieu"
 msgid "The default item template ${default_template_title} is ${default_template_review_state}."
 msgstr "Le modèle de point par défaut ${default_template_title} est ${default_template_review_state}."
 
-#. Default: "The field here above is not used, check the \"users\" tab."
-msgid "The field here above is not used, check the 'users' tab."
-msgstr "Ce champ n'est pas utilisé, vérifiez l'onglet \"Utilisateurs\"."
-
 #. Default: "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
 msgid "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
 msgstr "Le point est accessible par les émetteurs d'avis de ce groupe mais l'avis n'a pas encore été rendu, il peut l'être jusqu'au ${advice_delay_limit_date}."
@@ -4185,7 +4181,7 @@ msgid "hs_name"
 msgstr "Nom"
 
 #. Default: "This application allows you to manage your official meetings."
-msgid "hs_welcome_body"
+msgid "pm_welcome_body"
 msgstr "Cette application vous permet de gérer vos séances délibératoires."
 
 #. Default: "iA.Delib documentation"
@@ -4845,7 +4841,7 @@ msgstr "Il ne peut y avoir qu'une seule ligne de configuration pour une même é
 
 #. Default: "Define here who will be able to view/edit labels"
 msgid "labels_config_descr"
-msgstr "Définissez ici qui peut voir et éditer les étiquettes. <span style='color: red;'>Si vous ajoutez/supprimez une configuration, exécutez l'action \Mettre à jour les étiquettes sur les points\"!</span>"
+msgstr "Définissez ici qui peut voir et éditer les étiquettes. <span style='color: red;'>Si vous ajoutez/supprimez une configuration, exécutez l'action \"Mettre à jour les étiquettes sur les points\"!</span>"
 
 #. Default: "The first row must be about the \"Default (*)\" configuration"
 msgid "labels_config_first_row_must_be_default_config"
@@ -5653,6 +5649,10 @@ msgstr "Recalculer les index des annexes"
 #. Default: "Update labels access cache"
 msgid "pm_update_labels_access_cache"
 msgstr "Mettre à jour les étiquettes sur les points"
+
+#. Default: "Warning: the action 'Update labels access cache' will update every items labels access, this needs to be done when labels are activated or when labels config changed."
+msgid "pm_update_labels_access_cache_warning"
+msgstr "Attention, l'action \"Mettre à jour les étiquettes sur les points\" va configurer les accès en édition/lecture des étiquettes sur les points en fonction de la \"Configuration des étiquettes\" définie dans l'onglet \"[Avis et Accès]\"."
 
 #. Default: "Initialize personal label on existing items"
 msgid "pm_update_personal_labels"
@@ -7219,7 +7219,7 @@ msgstr "Workflows"
 
 #. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red;'>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  If you unselect a workflow adaptation, take care to update fields using item and meeting states/transition BEFORE! Check tabs \"Advices and access\" and \"Workflows\" and check groups, and if necessary when permissions changed, do not forget to run \"Update security settings\" in the ZMi-->portal_workflow!</span>"
 msgid "workflow_adaptations_descr"
-msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. <span style='color: red;'>Vos changements seront appliqués dès l'enregistrement de cette configuration de séance.  Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets \"Avis et accès\", \"Workflows\" et les groupes, de plus, si des permissions sont affectées par ces changements, exécutez \"Upgrade security settings\" dans la ZMi-->portal_workflow!  ATTENTION, si vous désélectionnez des adaptations aux workflows et que ceci entraîne la suppression d'états ou transitions existantes, prenez soin d'adapter les autre paramètres utilisant ces états/transitions avant de la désélectionner!</span>"
+msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. <span style='color: red;'>Vos changements seront appliqués dès l'enregistrement de cette configuration de séance.  Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets \"[Avis et accès]\", \"[Workflows]\" et les groupes, de plus, si des permissions sont affectées par ces changements, exécutez \"Upgrade security settings\" dans la ZMi-->portal_workflow!  ATTENTION, si vous désélectionnez des adaptations aux workflows et que ceci entraîne la suppression d'états ou transitions existantes, prenez soin d'adapter les autre paramètres utilisant ces états/transitions avant de la désélectionner!</span>"
 
 #. Default: "This will be used to compute advices delays.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 msgid "working_days_descr"

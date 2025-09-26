@@ -1871,14 +1871,6 @@ msgstr ""
 msgid "compute_item_reference_for_items_out_of_meeting_descr"
 msgstr ""
 
-#. Default: "Enable labels"
-msgid "PloneMeeting_label_enableLabels"
-msgstr ""
-
-#. Default: "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
-msgid "enable_labels_descr"
-msgstr ""
-
 #. Default: "Sort order(s) to apply when adding an item to a meeting"
 msgid "PloneMeeting_label_insertingMethodsOnAddItem"
 msgstr ""
@@ -3739,23 +3731,11 @@ msgid "This portlet shows controls of PloneMeeting."
 msgstr ""
 
 #. Default: "This application allows you to manage your official meetings."
-msgid "hs_welcome_body"
-msgstr ""
-
-#. Default: "You are now disconnected."
-msgid "hs_logged_out_title"
-msgstr ""
-
-#. Default: "Thank you for your visit."
-msgid "hs_logged_out_body"
+msgid "pm_welcome_body"
 msgstr ""
 
 #. Default: "Other"
 msgid "other_place"
-msgstr ""
-
-#. Default: "Name"
-msgid "hs_name"
 msgstr ""
 
 #. Default: "Inserted by ${userName}"
@@ -3854,14 +3834,6 @@ msgstr ""
 msgid "inserting_methods_on_privacy_reverse_error"
 msgstr ""
 
-#. Default: "The validation deadline for meeting publication has not been respected"
-msgid "icon_help_publish_freeze_ko"
-msgstr ""
-
-#. Default: "The validation deadline for meeting freezing has not been respected"
-msgid "icon_help_publish_deadline_ko"
-msgstr ""
-
 #. Default: "A category must be selected on this item so it may evolve in the workflow"
 msgid "required_category_ko"
 msgstr ""
@@ -3876,10 +3848,6 @@ msgstr ""
 
 #. Default: "The emergency must be accepted in order to be able to decide the item out of meeting emergency"
 msgid "emergency_accepted_required_to_accept_out_of_meeting_emergency"
-msgstr ""
-
-#. Default: "Pre-validated"
-msgid "icon_help_prevalidated"
 msgstr ""
 
 #. Default: "Delayed"
@@ -3998,10 +3966,6 @@ msgstr ""
 msgid "meeting_with_same_date_exists"
 msgstr ""
 
-#. Default: "This removal may not occur. Possible reasons: you try to remove a meeting already containing items, or an item already presented into a meeting."
-msgid "cant_delete_object"
-msgstr ""
-
 #. Default: "Annexes (decision)"
 msgid "AnnexesDecisionShort"
 msgstr ""
@@ -4010,16 +3974,8 @@ msgstr ""
 msgid "show_or_hide_details"
 msgstr ""
 
-#. Default: "Copy PloneMeeting"
-msgid "Copy PloneMeeting"
-msgstr ""
-
 #. Default: "Main information"
 msgid "label_schema_default"
-msgstr ""
-
-#. Default: "Search"
-msgid "label_schema_pm_search"
 msgstr ""
 
 #. Default: "To do"
@@ -4104,10 +4060,6 @@ msgstr ""
 
 #. Default: "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
 msgid "Please specify a default meeting config upon active existing meeting configs to be automaatically redirected to it."
-msgstr ""
-
-#. Default: "The field here above is not used, check the \"users\" tab."
-msgid "The field here above is not used, check the 'users' tab."
 msgstr ""
 
 #. Default: "Download annex"
@@ -5780,14 +5732,6 @@ msgstr ""
 
 #. Default: "Edit contacts"
 msgid "Edit contacts"
-msgstr ""
-
-#. Default: "Are item labels editable by proposing group forever?"
-msgid "PloneMeeting_label_itemLabelsEditableByProposingGroupForever"
-msgstr ""
-
-#. Default: "By default item labels are editable by the item proposing group as long as it may edit the item, after, only meeting managers may edit the item labels.  If checked, item labels will be editable by proposing group members forever."
-msgid "item_labels_editable_by_proposing_group_forever_descr"
 msgstr ""
 
 #. Default: "The \"Internal notes\" field on items is editable by"

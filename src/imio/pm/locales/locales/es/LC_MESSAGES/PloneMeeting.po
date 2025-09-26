@@ -2161,10 +2161,6 @@ msgstr ""
 msgid "The default item template ${default_template_title} is ${default_template_review_state}."
 msgstr ""
 
-#. Default: "The field here above is not used, check the \"users\" tab."
-msgid "The field here above is not used, check the 'users' tab."
-msgstr ""
-
 #. Default: "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
 msgid "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
 msgstr ""
@@ -5709,6 +5705,10 @@ msgstr "Actualizar los índices de los anexos"
 
 #. Default: "Update labels access cache"
 msgid "pm_update_labels_access_cache"
+msgstr ""
+
+#. Default: "Warning: the action 'Update labels access cache' will update every items labels access, this needs to be done when labels are activated or when labels config changed."
+msgid "pm_update_labels_access_cache_warning"
 msgstr ""
 
 #. Default: "Initialize personal label on existing items"
