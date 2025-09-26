@@ -5,8 +5,8 @@ Changelog
 4.2.29 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Cleanup.
+  [gbastien]
 
 4.2.28 (2025-09-26)
 -------------------
