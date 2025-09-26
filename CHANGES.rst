@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.28 (unreleased)
+4.2.28 (2025-09-26)
 -------------------
 
 - Added translations related to `MeetingConfig.labelsConfig`.
