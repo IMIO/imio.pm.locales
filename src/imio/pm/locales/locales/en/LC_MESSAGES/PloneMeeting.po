@@ -2143,10 +2143,6 @@ msgstr "The date the meeting occurs"
 msgid "The default item template ${default_template_title} is ${default_template_review_state}."
 msgstr "The default item template ${default_template_title} is ${default_template_review_state}."
 
-#. Default: "The field here above is not used, check the \"users\" tab."
-msgid "The field here above is not used, check the 'users' tab."
-msgstr "The field here above is not used, check the \"users\" tab."
-
 #. Default: "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
 msgid "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
 msgstr "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
@@ -4167,7 +4163,7 @@ msgid "hs_name"
 msgstr "Name"
 
 #. Default: "This application allows you to manage your official meetings."
-msgid "hs_welcome_body"
+msgid "pm_welcome_body"
 msgstr "This application allows you to manage your official meetings."
 
 #. Default: "iA.Delib documentation"
@@ -5627,6 +5623,10 @@ msgstr "Update annex indexes"
 #. Default: "Update labels access cache"
 msgid "pm_update_labels_access_cache"
 msgstr "Update labels access cache"
+
+#. Default: "Warning: the action 'Update labels access cache' will update every items labels access, this needs to be done when labels are activated or when labels config changed."
+msgid "pm_update_labels_access_cache_warning"
+msgstr ""
 
 #. Default: "Initialize personal label on existing items"
 msgid "pm_update_personal_labels"
