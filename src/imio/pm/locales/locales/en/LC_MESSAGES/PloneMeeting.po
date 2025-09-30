@@ -308,10 +308,6 @@ msgstr "Completed votes"
 msgid "Contacts fields"
 msgstr "Contacts fields"
 
-#. Default: "Copy PloneMeeting"
-msgid "Copy PloneMeeting"
-msgstr "Copy PloneMeeting"
-
 #. Default: "Create an item from an item template"
 msgid "Create an item from an item template"
 msgstr "Create an item from an item template"
@@ -351,6 +347,10 @@ msgstr "Defaults"
 #. Default: "Define this attendee as signatory for this item"
 msgid "Define this attendee as signatory for this item"
 msgstr "Define this attendee as signatory for this item"
+
+#. Default: "Delay computed in calendar days"
+msgid "Delay computed in calendar days"
+msgstr "Delay computed in calendar days"
 
 #. Default: "Delete advice"
 msgid "Delete advice"
@@ -1187,10 +1187,6 @@ msgstr "Enable advice invalidation"
 msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
 msgstr "Enable advice proposing group comment"
 
-#. Default: "Enable labels"
-msgid "PloneMeeting_label_enableLabels"
-msgstr "Enable labels"
-
 #. Default: "Enable documents scanning?"
 msgid "PloneMeeting_label_enableScanDocs"
 msgstr "Enable documents scanning?"
@@ -1427,10 +1423,6 @@ msgstr "Item is signed ?"
 msgid "PloneMeeting_label_itemKeywords"
 msgstr "Keywords"
 
-#. Default: "Are item labels editable by proposing group forever?"
-msgid "PloneMeeting_label_itemLabelsEditableByProposingGroupForever"
-msgstr "Are item labels editable by proposing group forever?"
-
 #. Default: "States in which an item may be manually sent to selected other meeting configurations"
 msgid "PloneMeeting_label_itemManualSentToOtherMCStates"
 msgstr "States in which an item may be manually sent to selected other meeting configurations"
@@ -1515,6 +1507,10 @@ msgstr "Keep access to item when an advice"
 #. Default: "Keep info \"to print?\" of annexes when duplicating items"
 msgid "PloneMeeting_label_keepOriginalToPrintOfClonedItems"
 msgstr "Keep info \"to print?\" of annexes when duplicating items"
+
+#. Default: "Labels config"
+msgid "PloneMeeting_label_labelsConfig"
+msgstr "Labels config"
 
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
@@ -2167,10 +2163,6 @@ msgstr "The date the meeting occurs"
 msgid "The default item template ${default_template_title} is ${default_template_review_state}."
 msgstr "The default item template ${default_template_title} is ${default_template_review_state}."
 
-#. Default: "The field here above is not used, check the \"users\" tab."
-msgid "The field here above is not used, check the 'users' tab."
-msgstr "The field here above is not used, check the \"users\" tab."
-
 #. Default: "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
 msgid "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
 msgstr "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
@@ -2356,6 +2348,10 @@ msgstr "Voting group descr"
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 
+#. Default: "You can not manage labels ${not_manageable_label_titles}!"
+msgid "You can not manage labels ${not_manageable_label_titles}!"
+msgstr "You can not manage labels ${not_manageable_label_titles}!"
+
 #. Default: "You cannot delete or move the default item template, but you can deactivate it if necessary!"
 msgid "You cannot delete or move the default item template, but you can deactivate it if necessary!"
 msgstr "You cannot delete or move the default item template, but you can deactivate it if necessary!"
@@ -2447,6 +2443,14 @@ msgstr "${meetingConfigTitle} - Your advice is requested - ${itemTitle}"
 #. Default: "Select here profiles of users that will be able to see an annex added to an advice that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action \"Update categorized elements\" in the \"Advice annnex types\" configuration.</span>"
 msgid "advice_annex_confidential_visible_for_descr"
 msgstr "Select here profiles of users that will be able to see an annex added to an advice that is set confidential.  <span style='color: red;'>If you change this and there are existing confidential annexes, please run the action \"Update categorized elements\" in the \"Advice annnex types\" configuration.</span>"
+
+#. Default: "${org_title} - ${delay} calendar day(s) (${delay_label})"
+msgid "advice_calendar_days_delay_with_label"
+msgstr "${org_title} - ${delay} calendar day(s) (${delay_label})"
+
+#. Default: "${org_title} - ${delay} calendar day(s)"
+msgid "advice_calendar_days_delay_without_label"
+msgstr "${org_title} - ${delay} calendar day(s)"
 
 #. Default: "This advice can no more be given in current item state (${item_review_state})"
 msgid "advice_can_no_more_be_given_in_current_item_state"
@@ -3029,10 +3033,6 @@ msgstr "You can not change this value because this meeting file type is already 
 msgid "cannot_paste_item_from_other_mc"
 msgstr "You can not paste an item coming from another meeting configuration !"
 
-#. Default: "This removal may not occur. Possible reasons: you try to remove a meeting already containing items, or an item already presented into a meeting."
-msgid "cant_delete_object"
-msgstr "This removal may not occur. Possible reasons: you try to remove a meeting already containing items, or an item already presented into a meeting."
-
 #. Default: "Every item, within this meeting configuration, can only belong to one category. Those categories are defined here (by a title and a description). The order into which they appear in this folder is important. Indeed, if we make the assumption that you desire it (it depends on a parameter you may modify in the \"data\" section), when an item is added to a meeting, it can be inserted at the end of the items belonging to the same category, those items being themselves inserted at a place that corresponds to the position of their category among the list of categories defined here. That being said, if you tell that you want to use the groups as categories (another parameter of the \"data\" section), the categories defined here will be ignored."
 msgid "categories_descr"
 msgstr "Every item, within this meeting configuration, can only belong to one category. Those categories are defined here (by a title and a description). The order into which they appear in this folder is important. Indeed, if we make the assumption that you desire it (it depends on a parameter you may modify in the \"data\" section), when an item is added to a meeting, it can be inserted at the end of the items belonging to the same category, those items being themselves inserted at a place that corresponds to the position of their category among the list of categories defined here. That being said, if you tell that you want to use the groups as categories (another parameter of the \"data\" section), the categories defined here will be ignored."
@@ -3073,9 +3073,9 @@ msgstr "Cautious"
 msgid "certified_signatures_descr"
 msgstr "Define here the signatures that will be used on templates as certified signatures.  You can define several signature that will be used for a defined valid period.  <span style='color: red;'>By signature number, the first valid signature found will be used.</span>"
 
-#. Default: "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
+#. Default: "You are about to change delay for this advice to ${new_advice_is_delay_calendar_days} <span style='font-weight: bold;'>${new_advice_delay} days</span> (${new_advice_delay_label}), please enter a comment."
 msgid "change_advice_delay_descr"
-msgstr "You are about to change delay for this advice to <span style='font-weight: bold;'>${new_advice_delay} days</span>, please enter a comment."
+msgstr "You are about to change delay for this advice to ${new_advice_is_delay_calendar_days} <span style='font-weight: bold;'>${new_advice_delay} days</span> (${new_advice_delay_label}), please enter a comment."
 
 #. Default: "You are about to set completeness to \"${completeness_value}\", you can add a comment if necessary."
 msgid "change_completeness_comment"
@@ -3508,6 +3508,10 @@ msgstr "The default advice type will be preselected on the form for adding an ad
 msgid "default_for_all_items"
 msgstr "Default, for all items:"
 
+#. Default: "Default"
+msgid "default_for_all_labels"
+msgstr "Default"
+
 #. Default: "The default poll type will be preselected on the form when adding an item."
 msgid "default_poll_type_descr"
 msgstr "The default poll type will be preselected on the form when adding an item."
@@ -3679,10 +3683,6 @@ msgstr "Enabled, for information (annexes are printed manually)"
 #. Default: "Enabled, for automated printing (annexes are printed by the application)"
 msgid "enable_annex_to_print_enabled_for_printing"
 msgstr "Enabled, for automated printing (annexes are printed by the application)"
-
-#. Default: "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
-msgid "enable_labels_descr"
-msgstr "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
 
 #. Default: "Check this box if you use the documents scanning functionnality."
 msgid "enable_scan_docs_descr"
@@ -4166,22 +4166,6 @@ msgstr "There are not enough holidays defined in the configuration.  These days 
 msgid "holidays_wrong_date_format_error"
 msgstr "Wrong date format, please use following format : \"YYYY/MM/DD\"."
 
-#. Default: "Thank you for your visit."
-msgid "hs_logged_out_body"
-msgstr "Thank you for your visit."
-
-#. Default: "You are now disconnected."
-msgid "hs_logged_out_title"
-msgstr "You are now disconnected."
-
-#. Default: "Name"
-msgid "hs_name"
-msgstr "Name"
-
-#. Default: "This application allows you to manage your official meetings."
-msgid "hs_welcome_body"
-msgstr "This application allows you to manage your official meetings."
-
 #. Default: "iA.Delib documentation"
 msgid "iA.Delib documentation"
 msgstr "iA.Delib documentation"
@@ -4252,7 +4236,7 @@ msgstr "This item was validated after the freeze deadline defined on this meetin
 
 #. Default: "Acceptable out of a meeting"
 msgid "icon_help_isAcceptableOutOfMeeting"
-msgstr ""
+msgstr "Acceptable out of a meeting"
 
 #. Default: "Late"
 msgid "icon_help_late"
@@ -4269,10 +4253,6 @@ msgstr "Postponed next meeting"
 #. Default: "Pre accepted"
 msgid "icon_help_pre_accepted"
 msgstr "Pre accepted"
-
-#. Default: "Pre-validated"
-msgid "icon_help_prevalidated"
-msgstr "Pre-validated"
 
 #. Default: "The validation deadline for meeting freezing has not been respected"
 msgid "icon_help_publish_deadline_ko"
@@ -4646,10 +4626,6 @@ msgstr "The item is signed."
 msgid "item_is_signed_yes_edit"
 msgstr "The item is signed. Click on the image to remove signature."
 
-#. Default: "By default item labels are editable by the item proposing group as long as it may edit the item, after, only meeting managers may edit the item labels.  If checked, item labels will be editable by proposing group members forever."
-msgid "item_labels_editable_by_proposing_group_forever_descr"
-msgstr "By default item labels are editable by the item proposing group as long as it may edit the item, after, only meeting managers may edit the item labels.  If checked, item labels will be editable by proposing group members forever."
-
 #. Default: "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
 msgid "item_manual_sent_to_other_mc_states_descr"
 msgstr "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
@@ -4823,9 +4799,17 @@ msgstr "Annexes"
 msgid "label_schema_default"
 msgstr "Main information"
 
-#. Default: "Search"
-msgid "label_schema_pm_search"
-msgstr "Search"
+#. Default: "Can only have one config row about the same label!"
+msgid "labels_config_can_not_have_several_config_for_same_label"
+msgstr "Can only have one config row about the same label!"
+
+#. Default: "Define here who will be able to view/edit labels"
+msgid "labels_config_descr"
+msgstr "Define here who will be able to view/edit labels"
+
+#. Default: "The first row must be about the \"Default (*)\" configuration"
+msgid "labels_config_first_row_must_be_default_config"
+msgstr "The first row must be about the \"Default (*)\" configuration"
 
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
@@ -5560,10 +5544,6 @@ msgstr "Convert annexes for preview"
 msgid "pm_creation_date"
 msgstr "Creation date"
 
-#. Default: "Elements linked from iA.Vision"
-msgid "pm_external_vision_help"
-msgstr ""
-
 #. Default: "Go to the first one"
 msgid "pm_goto_first"
 msgstr "Go to the first one"
@@ -5632,6 +5612,14 @@ msgstr "Warning: the action \"Initialize existing annexes confidentiality\" will
 msgid "pm_update_annex_indexes"
 msgstr "Update annex indexes"
 
+#. Default: "Update labels access cache"
+msgid "pm_update_labels_access_cache"
+msgstr "Update labels access cache"
+
+#. Default: "Warning: the action 'Update labels access cache' will update every items labels access, this needs to be done when labels are activated or when labels config changed."
+msgid "pm_update_labels_access_cache_warning"
+msgstr ""
+
 #. Default: "Initialize personal label on existing items"
 msgid "pm_update_personal_labels"
 msgstr "Initialize personal label on existing items"
@@ -5639,6 +5627,10 @@ msgstr "Initialize personal label on existing items"
 #. Default: "Warning: the action \"Initialize personal labels\" will activate selected labels on every existing items that were last modified before given number of days for every users able to see these items."
 msgid "pm_update_personal_labels_warning"
 msgstr "Warning: the action \"Initialize personal labels\" will activate selected labels on every existing items that were last modified before given number of days for every users able to see these items."
+
+#. Default: "This application allows you to manage your official meetings."
+msgid "pm_welcome_body"
+msgstr "This application allows you to manage your official meetings."
 
 #. Default: "Please consult the attached document."
 msgid "podItemByMail_mail_body"
