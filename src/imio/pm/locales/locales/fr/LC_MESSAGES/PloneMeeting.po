@@ -649,6 +649,10 @@ msgstr "L'urgence a été changée pour ce point."
 msgid "Item excused to apply"
 msgstr "Excusés à appliquer"
 
+#. Default: "Item fields config name"
+msgid "Item fields config name"
+msgstr "Nom du champ"
+
 #. Default: "Item guests to apply"
 msgid "Item guests to apply"
 msgstr "Invités à appliquer"
@@ -1378,6 +1382,10 @@ msgstr "Les points sont créés uniquement depuis un modèle"
 #. Default: "Description"
 msgid "PloneMeeting_label_itemDescription"
 msgstr "Description"
+
+#. Default: "Item fields configuration"
+msgid "PloneMeeting_label_itemFieldsConfig"
+msgstr "Configuration des accès des champs du point"
 
 #. Default: "Item fields to keep configuration sorting for"
 msgid "PloneMeeting_label_itemFieldsToKeepConfigSortingFor"
@@ -4572,6 +4580,14 @@ msgstr "Point dupliqué : vous voyez actuellement le nouveau point."
 #. Default: "The item has been duplicated and a link to the original item has been kept: you currently see the duplicated item."
 msgid "item_duplicated_and_link_kept"
 msgstr "Point dupliqué et lien vers le point original gardé : vous voyez actuellement le nouveau point."
+
+#. Default: "This field let's you configure \"View\" and \"Edit\" item's fields."
+msgid "item_fields_config_descr"
+msgstr "Définissez ici les conditions de \"Vue\" et \"Édition\" des champs du point."
+
+#. Default: " "
+msgid "item_fields_config_name_description"
+msgstr " "
 
 #. Default: "By default, vocabularies used for selectable fields are sorted alphabetically, if checked, vocabulary will not be sorted and display terms as encoded in the configuration."
 msgid "item_fields_to_keep_config_sorting_for_descr"
