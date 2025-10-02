@@ -312,10 +312,6 @@ msgstr ""
 msgid "Contacts fields"
 msgstr ""
 
-#. Default: "Copy PloneMeeting"
-msgid "Copy PloneMeeting"
-msgstr "Copiar PloneMeeting"
-
 #. Default: "Create an item from an item template"
 msgid "Create an item from an item template"
 msgstr ""
@@ -1183,10 +1179,6 @@ msgstr "Habilitar invalidación consejos"
 msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
 msgstr ""
 
-#. Default: "Enable labels"
-msgid "PloneMeeting_label_enableLabels"
-msgstr ""
-
 #. Default: "Enable documents scanning?"
 msgid "PloneMeeting_label_enableScanDocs"
 msgstr ""
@@ -1423,10 +1415,6 @@ msgstr "¿El tema se firmó?"
 #. Default: "Keywords"
 msgid "PloneMeeting_label_itemKeywords"
 msgstr "Palabras claves"
-
-#. Default: "Are item labels editable by proposing group forever?"
-msgid "PloneMeeting_label_itemLabelsEditableByProposingGroupForever"
-msgstr ""
 
 #. Default: "States in which an item may be manually sent to selected other meeting configurations"
 msgid "PloneMeeting_label_itemManualSentToOtherMCStates"
@@ -3041,10 +3029,6 @@ msgstr "No se puede cambiar este valor, porque este tipo de archivos de reunión
 msgid "cannot_paste_item_from_other_mc"
 msgstr "¡Usted no puede pegar un tema que viene de otra configuración de reunión!"
 
-#. Default: "This removal may not occur. Possible reasons: you try to remove a meeting already containing items, or an item already presented into a meeting."
-msgid "cant_delete_object"
-msgstr "Esta eliminación tal ves no ocurrió. Posibles razones: usted trato de remover una reunión existente que contiene temas, o un tema que se esta presentando en una reunión."
-
 #. Default: "Every item, within this meeting configuration, can only belong to one category. Those categories are defined here (by a title and a description). The order into which they appear in this folder is important. Indeed, if we make the assumption that you desire it (it depends on a parameter you may modify in the \"data\" section), when an item is added to a meeting, it can be inserted at the end of the items belonging to the same category, those items being themselves inserted at a place that corresponds to the position of their category among the list of categories defined here. That being said, if you tell that you want to use the groups as categories (another parameter of the \"data\" section), the categories defined here will be ignored."
 #, fuzzy
 msgid "categories_descr"
@@ -3701,10 +3685,6 @@ msgstr ""
 msgid "enable_annex_to_print_enabled_for_printing"
 msgstr ""
 
-#. Default: "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
-msgid "enable_labels_descr"
-msgstr ""
-
 #. Default: "Check this box if you use the documents scanning functionnality."
 msgid "enable_scan_docs_descr"
 msgstr ""
@@ -4205,23 +4185,6 @@ msgstr ""
 msgid "holidays_wrong_date_format_error"
 msgstr ""
 
-#. Default: "Thank you for your visit."
-msgid "hs_logged_out_body"
-msgstr "Gracias por su visita."
-
-#. Default: "You are now disconnected."
-msgid "hs_logged_out_title"
-msgstr "Usted esta ahora desconectado."
-
-#. Default: "Name"
-msgid "hs_name"
-msgstr "Nombre"
-
-#. Default: "This application allows you to manage your official meetings."
-#, fuzzy
-msgid "hs_welcome_body"
-msgstr "Este sitio le permite administrar sus reuniones oficiales."
-
 #. Default: "iA.Delib documentation"
 msgid "iA.Delib documentation"
 msgstr ""
@@ -4308,10 +4271,6 @@ msgstr ""
 
 #. Default: "Pre accepted"
 msgid "icon_help_pre_accepted"
-msgstr ""
-
-#. Default: "Pre-validated"
-msgid "icon_help_prevalidated"
 msgstr ""
 
 #. Default: "The validation deadline for meeting freezing has not been respected"
@@ -4689,10 +4648,6 @@ msgstr "El tema ha sido firmado."
 msgid "item_is_signed_yes_edit"
 msgstr "El tema ha sido firmado. Haga clic en la imagen para eliminar la firma."
 
-#. Default: "By default item labels are editable by the item proposing group as long as it may edit the item, after, only meeting managers may edit the item labels.  If checked, item labels will be editable by proposing group members forever."
-msgid "item_labels_editable_by_proposing_group_forever_descr"
-msgstr ""
-
 #. Default: "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
 msgid "item_manual_sent_to_other_mc_states_descr"
 msgstr ""
@@ -4870,10 +4825,6 @@ msgstr "Anexos"
 #. Default: "Main information"
 msgid "label_schema_default"
 msgstr "Información principal"
-
-#. Default: "Search"
-msgid "label_schema_pm_search"
-msgstr "Búsqueda avanzada"
 
 #. Default: "Can only have one config row about the same label!"
 msgid "labels_config_can_not_have_several_config_for_same_label"
@@ -5717,6 +5668,10 @@ msgstr ""
 
 #. Default: "Warning: the action \"Initialize personal labels\" will activate selected labels on every existing items that were last modified before given number of days for every users able to see these items."
 msgid "pm_update_personal_labels_warning"
+msgstr ""
+
+#. Default: "This application allows you to manage your official meetings."
+msgid "pm_welcome_body"
 msgstr ""
 
 #. Default: "Please consult the attached document."

@@ -308,10 +308,6 @@ msgstr "Votes complétés"
 msgid "Contacts fields"
 msgstr "Champs utilisant des contacts"
 
-#. Default: "Copy PloneMeeting"
-msgid "Copy PloneMeeting"
-msgstr "Copier points"
-
 #. Default: "Create an item from an item template"
 msgid "Create an item from an item template"
 msgstr "Créer un point depuis un modèle"
@@ -1175,10 +1171,6 @@ msgstr "Activer l'invalidation des avis"
 msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
 msgstr "Activer le champ \"Commentaire du groupe proposant\""
 
-#. Default: "Enable labels"
-msgid "PloneMeeting_label_enableLabels"
-msgstr "Activer les étiquettes"
-
 #. Default: "Enable documents scanning?"
 msgid "PloneMeeting_label_enableScanDocs"
 msgstr "Activer le scanning de documents?"
@@ -1414,10 +1406,6 @@ msgstr "Point signé?"
 #. Default: "Keywords"
 msgid "PloneMeeting_label_itemKeywords"
 msgstr "Mots-clé"
-
-#. Default: "Are item labels editable by proposing group forever?"
-msgid "PloneMeeting_label_itemLabelsEditableByProposingGroupForever"
-msgstr "Les étiquettes des points sont éditables par le groupe proposant indéfiniment?"
 
 #. Default: "States in which an item may be manually sent to selected other meeting configurations"
 msgid "PloneMeeting_label_itemManualSentToOtherMCStates"
@@ -3031,10 +3019,6 @@ msgstr "Vous ne pouvez pas changer cette valeur car ce type d'annexe est déjà 
 msgid "cannot_paste_item_from_other_mc"
 msgstr "Vous ne pouvez pas coller un point provenant d'un autre type de séance !"
 
-#. Default: "This removal may not occur. Possible reasons: you try to remove a meeting already containing items, or an item already presented into a meeting."
-msgid "cant_delete_object"
-msgstr "Cette suppression ne peut avoir lieu. Raisons possibles: vous tentez de supprimer une séance comportant déjà des points ou un point déjà présenté à un ordre du jour."
-
 #. Default: "Every item, within this meeting configuration, can only belong to one category. Those categories are defined here (by a title and a description). The order into which they appear in this folder is important. Indeed, if we make the assumption that you desire it (it depends on a parameter you may modify in the \"data\" section), when an item is added to a meeting, it can be inserted at the end of the items belonging to the same category, those items being themselves inserted at a place that corresponds to the position of their category among the list of categories defined here. That being said, if you tell that you want to use the groups as categories (another parameter of the \"data\" section), the categories defined here will be ignored."
 msgid "categories_descr"
 msgstr "Chaque point, au sein de cette configuration de séance, peut appartenir à une et une seule catégorie. Ces catégories sont définies ici (par un titre et une description). L'ordre dans lequel elles sont reprises dans ce répertoire est important. En effet, pour autant que vous le désiriez (un paramètre définit cela dans la section \"Données\"), lors de l'ajout d'un point à une séance, celui-ci peut s'insérer à la suite des points appartenant à la même catégorie, ceux-ci étant déjà insérés à l'endroit correspondant à la position de leur catégorie parmi la liste des catégories définies ici. Ceci dit, si vous spécifiez que vous voulez utiliser les groupes comme catégories (un autre paramètre de la section \"Données\"), les catégories définies ici ne seront pas utilisées."
@@ -3686,10 +3670,6 @@ msgstr "Activé, pour information (les annexes sont imprimées manuellement)"
 msgid "enable_annex_to_print_enabled_for_printing"
 msgstr "Activé, pour impression automatisée (les annexes sont imprimées par l'application)"
 
-#. Default: "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
-msgid "enable_labels_descr"
-msgstr "Une fois activé, une boîte de configuration apparaîtra dans l'onglet \"[Données]\" permettant de renseigner les étiquettes qui pourront être sélectionnées sur un point."
-
 #. Default: "Check this box if you use the documents scanning functionnality."
 msgid "enable_scan_docs_descr"
 msgstr "Cochez la case si vous utilisez la fonctionnalité de scanning de documents."
@@ -4168,22 +4148,6 @@ msgstr "Il n'y a plus suffisamment de jours fériés définis dans la configurat
 msgid "holidays_wrong_date_format_error"
 msgstr "Mauvais format de date, utilisez le format \"AAAA/MM/JJ\"."
 
-#. Default: "Thank you for your visit."
-msgid "hs_logged_out_body"
-msgstr "Merci pour votre visite."
-
-#. Default: "You are now disconnected."
-msgid "hs_logged_out_title"
-msgstr "Vous êtes maintenant déconnecté."
-
-#. Default: "Name"
-msgid "hs_name"
-msgstr "Nom"
-
-#. Default: "This application allows you to manage your official meetings."
-msgid "pm_welcome_body"
-msgstr "Cette application vous permet de gérer vos séances délibératoires."
-
 #. Default: "iA.Delib documentation"
 msgid "iA.Delib documentation"
 msgstr "Documentation iA.Délib"
@@ -4271,10 +4235,6 @@ msgstr "Reporté à la prochaine séance"
 #. Default: "Pre accepted"
 msgid "icon_help_pre_accepted"
 msgstr "Accepté provisoirement"
-
-#. Default: "Pre-validated"
-msgid "icon_help_prevalidated"
-msgstr "Pré-validé"
 
 #. Default: "The validation deadline for meeting freezing has not been respected"
 msgid "icon_help_publish_deadline_ko"
@@ -4653,10 +4613,6 @@ msgstr "Le point est signé."
 msgid "item_is_signed_yes_edit"
 msgstr "Le point est signé, cliquez sur l'image pour enlever la signature."
 
-#. Default: "By default item labels are editable by the item proposing group as long as it may edit the item, after, only meeting managers may edit the item labels.  If checked, item labels will be editable by proposing group members forever."
-msgid "item_labels_editable_by_proposing_group_forever_descr"
-msgstr "Par défaut, le groupe proposant peut éditer les étiquettes du point tant qu'il peut éditer le point, ensuite seuls les gestionnaires de séances peuvent gérer les étiquettes. Si cette case est cochée, les étiquettes pourront être éditées sur les points par le groupe proposant même lorsqu'il ne sera plus éditable."
-
 #. Default: "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
 msgid "item_manual_sent_to_other_mc_states_descr"
 msgstr "Lorsqu'un point sera dans un des états cochés ci-dessous, les utilisateurs ayant le droit d'édition sur le point auront la possibilité de l'envoyer manuellement vers les autres configurations de séances sélectionnées sur celui-ci."
@@ -4830,10 +4786,6 @@ msgstr "Annexes"
 #. Default: "Main information"
 msgid "label_schema_default"
 msgstr "Information principale"
-
-#. Default: "Search"
-msgid "label_schema_pm_search"
-msgstr "Recherche"
 
 #. Default: "Can only have one config row about the same label!"
 msgid "labels_config_can_not_have_several_config_for_same_label"
@@ -5661,6 +5613,10 @@ msgstr "Initialiser l'étiquette sur les points existants"
 #. Default: "Warning: the action \"Initialize personal labels\" will activate selected labels on every existing items that were last modified before given number of days for every users able to see these items."
 msgid "pm_update_personal_labels_warning"
 msgstr "Attention, l'action \"Initialiser l'étiquette sur les points existants\" va activer l'étiquette sélectionnée sur tous les points existants qui n'ont plus été modifiés depuis le nombre de jours choisi, et ce, pour tous les utilisateurs qui peuvent voir ces points."
+
+#. Default: "This application allows you to manage your official meetings."
+msgid "pm_welcome_body"
+msgstr "Cette application vous permet de gérer vos séances délibératoires."
 
 #. Default: "Please consult the attached document."
 msgid "podItemByMail_mail_body"

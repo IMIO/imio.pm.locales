@@ -5,8 +5,8 @@ Changelog
 4.2.30 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Adapted footer translations to remove no more working links and simplify it.
+  [gbastien]
 
 4.2.29 (2025-09-26)
 -------------------
