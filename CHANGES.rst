@@ -5,6 +5,8 @@ Changelog
 4.2.30 (unreleased)
 -------------------
 
+- Adapted footer translations to remove no more working links and simplify it.
+  [gbastien]
 - Added translations related to `item follow-up`.
   [gbastien]
 
