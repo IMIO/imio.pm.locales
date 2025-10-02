@@ -590,9 +590,9 @@ msgstr "Reporter"
 msgid "delayed"
 msgstr "Reporté"
 
-#. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
+#. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>."
 msgid "description_copyright"
-msgstr "Cette application est maintenue par <a href='http://www.imio.be'>IMIO</a>, membre de la communauté <a href='http://www.plonegov.org'>PloneGov</a>."
+msgstr "Site réalisé avec <a href='https://plone.org' target='_blank'>Plone</a> et maintenu par <a href='http://www.imio.be' target='_blank'>IMIO</a>."
 
 # Meeting-related vocabulary
 #. Default: " "
@@ -608,6 +608,10 @@ msgstr " "
 #: plone.app.controlpanel/plone/app/controlpanel/usergroups_groupsoverview.pt:69
 msgid "description_groups_management"
 msgstr "Un groupe est un ensemble d'utilisateurs, par exemple les membres d'un département ou d'une unité. Les groupes ne sont pas directement liés aux permissions (ce sont les rôles qui le sont), mais vous pouvez affecter des rôles particuliers à des utilisateurs via des groupes. <p class='highlightValue'><strong>Un groupe existant ne peut être supprimé.</strong></p><p class='highlightValue'>Les sous-groupes (créateurs, validateurs, ...) seront supprimés lors de la suppression/désactivation de l'organisation correspondante dans <a href='@@contact-plonegroup-settings'>\"Configuration des groupes plone via contact\"</a></p>"
+
+#. Default: " "
+msgid "description_license"
+msgstr " "
 
 #. Default: "Click the user's name to see and change the details of a specific user. You can also add and remove users."
 #: CMFPlone/skins/plone_deprecated/prefs_users_overview.cpt:60
@@ -712,6 +716,10 @@ msgstr "Publié"
 #. Default: "Edit"
 msgid "label_edit"
 msgstr "Éditer"
+
+#. Default: " "
+msgid "label_powered_by_plone"
+msgstr " "
 
 #. Default: "Delete"
 msgid "label_remove"
