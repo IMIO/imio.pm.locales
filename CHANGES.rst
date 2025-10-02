@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.30rc1 (unreleased)
+4.2.30rc1 (2025-10-02)
 ----------------------
 
 - Adapted footer translations to remove no more working links and simplify it.
