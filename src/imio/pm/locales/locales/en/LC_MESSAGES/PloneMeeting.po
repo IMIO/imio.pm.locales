@@ -406,15 +406,15 @@ msgstr "Edit this vote"
 
 #. Default: "Element "${element}" has been linked."
 msgid "Element \"${element}\" has been linked."
-msgstr ""
+msgstr "Element \"${element}\" has been linked."
 
 #. Default: "Element "${element}" has been unlinked."
 msgid "Element \"${element}\" has been unlinked."
-msgstr ""
+msgstr "Element \"${element}\" has been unlinked."
 
 #. Default: "Elements displayed are only elements you can access in iA.Vision."
 msgid "Elements displayed are only elements you can access in iA.Vision."
-msgstr ""
+msgstr "Elements displayed are only elements you can access in iA.Vision."
 
 #. Default: "Elements to export in PDF"
 msgid "Elements to export in PDF"
@@ -431,6 +431,10 @@ msgstr "Enabled?"
 #. Default: "Encode secret votes"
 msgid "Encode secret votes"
 msgstr "Encode secret votes"
+
+#. Default: "Encode terms to filter"
+msgid "Encode terms to filter"
+msgstr "Encode terms to filter"
 
 #. Default: "Encode votes"
 msgid "Encode votes"
@@ -699,7 +703,11 @@ msgstr "Limit the number of shown characters of the title to avoid too long titl
 
 #. Default: "Link with iA.Vision"
 msgid "Link with iA.Vision"
-msgstr ""
+msgstr "Link with iA.Vision"
+
+#. Default: "Linked"
+msgid "Linked"
+msgstr "Linked"
 
 # plone.app.querystring
 #. Default: "Linked meeting date (used for items)"
@@ -1999,11 +2007,15 @@ msgstr "Previous review state"
 
 #. Default: "Project"
 msgid "Project"
-msgstr ""
+msgstr "Project"
 
 #. Default: "Projects"
 msgid "Projects"
-msgstr ""
+msgstr "Projects"
+
+#. Default: "Quick filter"
+msgid "Quick filter"
+msgstr "Quick filter"
 
 #. Default: "Recurring items"
 msgid "RecurringItems"
@@ -2135,11 +2147,11 @@ msgstr "Taken over by ${fullname}"
 
 #. Default: "Task"
 msgid "Task"
-msgstr ""
+msgstr "Task"
 
 #. Default: "Tasks"
 msgid "Tasks"
-msgstr ""
+msgstr "Tasks"
 
 #. Default: "Temporary QR code!"
 msgid "Temporary QR code!"
@@ -3902,7 +3914,7 @@ msgstr "Select elements to export in the unique PDF file, disabled (greyed) anne
 
 #. Default: "External linked elements"
 msgid "external_linked_elements"
-msgstr ""
+msgstr "External linked elements"
 
 #. Default: "Cancel edit"
 msgid "fastedit_cancel"
@@ -4894,7 +4906,7 @@ msgstr "Title"
 
 #. Default: "Title (from iA.Vision)"
 msgid "listingheader_title_from_vision"
-msgstr ""
+msgstr "Title (from iA.Vision)"
 
 #. Default: "Manage content in a second language"
 msgid "ma_second_language"
@@ -5618,7 +5630,7 @@ msgstr "Update labels access cache"
 
 #. Default: "Warning: the action 'Update labels access cache' will update every items labels access, this needs to be done when labels are activated or when labels config changed."
 msgid "pm_update_labels_access_cache_warning"
-msgstr ""
+msgstr "Warning: the action 'Update labels access cache' will update every items labels access, this needs to be done when labels are activated or when labels config changed."
 
 #. Default: "Initialize personal label on existing items"
 msgid "pm_update_personal_labels"
@@ -6807,7 +6819,7 @@ msgstr "The \"${meeting_group_suffix}\" of the proposing group"
 
 #. Default: "iA.Vision start date"
 msgid "vision_start_date"
-msgstr ""
+msgstr "iA.Vision start date"
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name \"item\"). If it returns False, no vote may occur on the item."
 msgid "vote_condition_descr"
