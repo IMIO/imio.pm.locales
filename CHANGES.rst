@@ -4,8 +4,9 @@ Changelog
 
 4.2.30 (unreleased)
 -------------------
-
 - Adapted footer translations to remove no more working links and simplify it.
+  [gbastien]
+- Added translations for `external` linked elements.
   [gbastien]
 
 4.2.29 (2025-09-26)

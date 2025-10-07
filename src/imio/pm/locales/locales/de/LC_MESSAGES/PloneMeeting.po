@@ -404,6 +404,18 @@ msgstr ""
 msgid "Edit this vote"
 msgstr ""
 
+#. Default: "Element "${element}" has been linked."
+msgid "Element \"${element}\" has been linked."
+msgstr ""
+
+#. Default: "Element "${element}" has been unlinked."
+msgid "Element \"${element}\" has been unlinked."
+msgstr ""
+
+#. Default: "Elements displayed are only elements you can access in iA.Vision."
+msgid "Elements displayed are only elements you can access in iA.Vision."
+msgstr ""
+
 #. Default: "Elements to export in PDF"
 msgid "Elements to export in PDF"
 msgstr ""
@@ -418,6 +430,10 @@ msgstr ""
 
 #. Default: "Encode secret votes"
 msgid "Encode secret votes"
+msgstr ""
+
+#. Default: "Encode terms to filter"
+msgid "Encode terms to filter"
 msgstr ""
 
 #. Default: "Encode votes"
@@ -683,6 +699,14 @@ msgstr ""
 
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
+msgstr ""
+
+#. Default: "Link with iA.Vision"
+msgid "Link with iA.Vision"
+msgstr ""
+
+#. Default: "Linked"
+msgid "Linked"
 msgstr ""
 
 # plone.app.querystring
@@ -1993,6 +2017,18 @@ msgstr ""
 msgid "Previous review state"
 msgstr ""
 
+#. Default: "Project"
+msgid "Project"
+msgstr ""
+
+#. Default: "Projects"
+msgid "Projects"
+msgstr ""
+
+#. Default: "Quick filter"
+msgid "Quick filter"
+msgstr ""
+
 #. Default: "Recurring items"
 msgid "RecurringItems"
 msgstr "Sich wiederholende TOP"
@@ -2119,6 +2155,14 @@ msgstr ""
 
 #. Default: "Taken over by ${fullname}"
 msgid "Taken over by ${fullname}"
+msgstr ""
+
+#. Default: "Task"
+msgid "Task"
+msgstr ""
+
+#. Default: "Tasks"
+msgid "Tasks"
 msgstr ""
 
 #. Default: "Temporary QR code!"
@@ -3895,6 +3939,10 @@ msgstr "Abstimmungen"
 msgid "export_pdf_descr"
 msgstr ""
 
+#. Default: "External linked elements"
+msgid "external_linked_elements"
+msgstr ""
+
 #. Default: "Cancel edit"
 msgid "fastedit_cancel"
 msgstr ""
@@ -4882,6 +4930,10 @@ msgstr "Größe"
 
 #. Default: "Title"
 msgid "listingheader_title"
+msgstr ""
+
+#. Default: "Title (from iA.Vision)"
+msgid "listingheader_title_from_vision"
 msgstr ""
 
 #. Default: "Manage content in a second language"
@@ -6820,6 +6872,10 @@ msgstr ""
 
 #. Default: "The \"${meeting_group_suffix}\" of the proposing group"
 msgid "visible_for_suffix_proposing_group_"
+msgstr ""
+
+#. Default: "iA.Vision start date"
+msgid "vision_start_date"
 msgstr ""
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name \"item\"). If it returns False, no vote may occur on the item."
