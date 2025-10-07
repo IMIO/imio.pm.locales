@@ -46,7 +46,6 @@ Changelog
   [gbastien]
 - Added translations for `MeetingConfig.customAdvisers`
   new `is_delay_calendar_days` column related functionality.
->>>>>>> origin/master
   [gbastien]
 
 4.2.24 (2025-03-24)
