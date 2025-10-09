@@ -2,18 +2,17 @@ Changelog
 =========
 
 
-4.2.30rc2 (unreleased)
-----------------------
+4.2.31 (unreleased)
+-------------------
 
-- Nothing changed yet.
+- Added translations related to `item follow-up`.
+  [gbastien]
 
-
-4.2.30rc1 (2025-10-02)
-----------------------
-
+4.2.30 (2025-10-07)
+-------------------
 - Adapted footer translations to remove no more working links and simplify it.
   [gbastien]
-- Added translations related to `item follow-up`.
+- Added translations for `external` linked elements.
   [gbastien]
 
 4.2.29 (2025-09-26)

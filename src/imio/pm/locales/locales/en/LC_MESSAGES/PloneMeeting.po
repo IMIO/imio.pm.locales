@@ -404,6 +404,18 @@ msgstr "Edit redefined signatory for this item"
 msgid "Edit this vote"
 msgstr "Edit this vote"
 
+#. Default: "Element "${element}" has been linked."
+msgid "Element \"${element}\" has been linked."
+msgstr "Element \"${element}\" has been linked."
+
+#. Default: "Element "${element}" has been unlinked."
+msgid "Element \"${element}\" has been unlinked."
+msgstr "Element \"${element}\" has been unlinked."
+
+#. Default: "Elements displayed are only elements you can access in iA.Vision."
+msgid "Elements displayed are only elements you can access in iA.Vision."
+msgstr "Elements displayed are only elements you can access in iA.Vision."
+
 #. Default: "Elements to export in PDF"
 msgid "Elements to export in PDF"
 msgstr "Elements to export in PDF"
@@ -419,6 +431,10 @@ msgstr "Enabled?"
 #. Default: "Encode secret votes"
 msgid "Encode secret votes"
 msgstr "Encode secret votes"
+
+#. Default: "Encode terms to filter"
+msgid "Encode terms to filter"
+msgstr "Encode terms to filter"
 
 #. Default: "Encode votes"
 msgid "Encode votes"
@@ -688,6 +704,14 @@ msgstr "Limit date ${advice_limit_date}"
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
+
+#. Default: "Link with iA.Vision"
+msgid "Link with iA.Vision"
+msgstr "Link with iA.Vision"
+
+#. Default: "Linked"
+msgid "Linked"
+msgstr "Linked"
 
 # plone.app.querystring
 #. Default: "Linked meeting date (used for items)"
@@ -1997,6 +2021,18 @@ msgstr "Preview of annexes were deleted upon meeting closure."
 msgid "Previous review state"
 msgstr "Previous review state"
 
+#. Default: "Project"
+msgid "Project"
+msgstr "Project"
+
+#. Default: "Projects"
+msgid "Projects"
+msgstr "Projects"
+
+#. Default: "Quick filter"
+msgid "Quick filter"
+msgstr "Quick filter"
+
 #. Default: "Recurring items"
 msgid "RecurringItems"
 msgstr "Recurring items"
@@ -2124,6 +2160,14 @@ msgstr "Style templates"
 #. Default: "Taken over by ${fullname}"
 msgid "Taken over by ${fullname}"
 msgstr "Taken over by ${fullname}"
+
+#. Default: "Task"
+msgid "Task"
+msgstr "Task"
+
+#. Default: "Tasks"
+msgid "Tasks"
+msgstr "Tasks"
 
 #. Default: "Temporary QR code!"
 msgid "Temporary QR code!"
@@ -3884,6 +3928,10 @@ msgstr "Votes"
 msgid "export_pdf_descr"
 msgstr "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
 
+#. Default: "External linked elements"
+msgid "external_linked_elements"
+msgstr "External linked elements"
+
 #. Default: "Cancel edit"
 msgid "fastedit_cancel"
 msgstr "Cancel edit."
@@ -4879,6 +4927,10 @@ msgstr "Size"
 #. Default: "Title"
 msgid "listingheader_title"
 msgstr "Title"
+
+#. Default: "Title (from iA.Vision)"
+msgid "listingheader_title_from_vision"
+msgstr "Title (from iA.Vision)"
 
 #. Default: "Manage content in a second language"
 msgid "ma_second_language"
@@ -6804,6 +6856,10 @@ msgstr "The \"${meeting_group_suffix}\" of any group"
 #. Default: "The \"${meeting_group_suffix}\" of the proposing group"
 msgid "visible_for_suffix_proposing_group_"
 msgstr "The \"${meeting_group_suffix}\" of the proposing group"
+
+#. Default: "iA.Vision start date"
+msgid "vision_start_date"
+msgstr "iA.Vision start date"
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name \"item\"). If it returns False, no vote may occur on the item."
 msgid "vote_condition_descr"

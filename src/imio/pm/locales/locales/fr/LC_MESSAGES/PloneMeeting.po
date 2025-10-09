@@ -404,6 +404,18 @@ msgstr "Éditer ce signataire redéfini sur ce point"
 msgid "Edit this vote"
 msgstr "Éditer ce vote"
 
+#. Default: "Element "${element}" has been linked."
+msgid "Element \"${element}\" has been linked."
+msgstr "L'élément \"${element}\" a été lié."
+
+#. Default: "Element "${element}" has been unlinked."
+msgid "Element \"${element}\" has been unlinked."
+msgstr "L'élément \"${element}\" a été délié."
+
+#. Default: "Elements displayed are only elements you can access in iA.Vision."
+msgid "Elements displayed are only elements you can access in iA.Vision."
+msgstr "Les éléments affichés sont ceux auxquels vous avez accès dans iA.Vision.<br />Cochez les élément à lier et décochez les éléments déjà liés que vous souhaitez délier."
+
 #. Default: "Elements to export in PDF"
 msgid "Elements to export in PDF"
 msgstr "Inclure les éléments suivants"
@@ -419,6 +431,10 @@ msgstr "Activé?"
 #. Default: "Encode secret votes"
 msgid "Encode secret votes"
 msgstr "Encoder les votes secrets"
+
+#. Default: "Encode terms to filter"
+msgid "Encode terms to filter"
+msgstr "Encodez un terme de recherche"
 
 #. Default: "Encode votes"
 msgid "Encode votes"
@@ -688,6 +704,14 @@ msgstr "Date limite le ${advice_limit_date}"
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr "Limite le nombre de caractères de l'objet du point qui seront affichés dans le portlet pour éviter les libellés trop longs."
+
+#. Default: "Link with iA.Vision"
+msgid "Link with iA.Vision"
+msgstr "Lier/délier des éléments de iA.Vision"
+
+#. Default: "Linked"
+msgid "Linked"
+msgstr "Lié"
 
 # plone.app.querystring
 #. Default: "Linked meeting date (used for items)"
@@ -1997,6 +2021,18 @@ msgstr "Les prévisualisations des annexes de tous les points ont été supprim�
 msgid "Previous review state"
 msgstr "État précédent"
 
+#. Default: "Project"
+msgid "Project"
+msgstr "Projet"
+
+#. Default: "Projects"
+msgid "Projects"
+msgstr "Projets"
+
+#. Default: "Quick filter"
+msgid "Quick filter"
+msgstr "Filtre rapide"
+
 #. Default: "Recurring items"
 msgid "RecurringItems"
 msgstr "Points récurrents"
@@ -2124,6 +2160,14 @@ msgstr "Modèles de style"
 #. Default: "Taken over by ${fullname}"
 msgid "Taken over by ${fullname}"
 msgstr "Pris en charge par ${fullname}"
+
+#. Default: "Task"
+msgid "Task"
+msgstr "Tâche"
+
+#. Default: "Tasks"
+msgid "Tasks"
+msgstr "Tâches"
 
 #. Default: "Temporary QR code!"
 msgid "Temporary QR code!"
@@ -2512,7 +2556,7 @@ msgstr "Cet avis est en cours de rédaction par les émetteurs d'avis du groupe 
 
 #. Default: "The advice was automatically hidden during redaction, do not forget to unhide it when advice will be ready."
 msgid "advice_hide_during_redaction_set_auto_to_true"
-msgstr "L'option \"Cacher l'avis pendant sa rédaction\" a été automatiquement cochée, vous pouvez la décocher maintenant ou utiliser l'action \"Publier l'avis\" lorsqu'il sera prêt."
+msgstr "L'option \"Cacher l'avis pendant sa rédaction\" a été automatiquement cochée, vous pouvez la décocher maintenant ou utiliser l'action \"Montrer l'avis\" lorsqu'il sera prêt."
 
 #. Default: "Informations displayed regarding advice are taken from the other item including informations about dates, delay and states."
 msgid "advice_inherited_popup_descr"
@@ -3902,6 +3946,10 @@ msgstr "Votes"
 msgid "export_pdf_descr"
 msgstr "Cette action permet de grouper des documents PDF dans un PDF unique.  Dans la liste des annexes, les annexes grisées ne sont pas des documents PDF et ne peuvent pas être sélectionnées."
 
+#. Default: "External linked elements"
+msgid "external_linked_elements"
+msgstr "Éléments externes liés"
+
 #. Default: "Cancel edit"
 msgid "fastedit_cancel"
 msgstr "Annuler l'édition"
@@ -4907,6 +4955,10 @@ msgstr "Taille"
 msgid "listingheader_title"
 msgstr "Titre"
 
+#. Default: "Title (from iA.Vision)"
+msgid "listingheader_title_from_vision"
+msgstr "Titre (dans iA.Vision)"
+
 #. Default: "Manage content in a second language"
 msgid "ma_second_language"
 msgstr "Gérer le contenu dans une seconde langue"
@@ -5204,7 +5256,7 @@ msgstr "Néant"
 
 #. Default: "No annex is currently defined for this element."
 msgid "no_annexes"
-msgstr "Aucune."
+msgstr "Aucun(e)."
 
 #. Default: "Attributes \"assembly\" and \"attendees\" can't be used together."
 msgid "no_assembly_and_attendees"
@@ -6659,7 +6711,7 @@ msgstr "Cacher l'avis pendant sa rédaction, attention un avis est considéré \
 
 #. Default: "Publish advice, the advice will be confirmed and considered \"given\""
 msgid "to_not_hidden_during_redaction"
-msgstr "Publier l'avis, l'avis sera confirmé et considéré \"rendu\""
+msgstr "Montrer l'avis, l'avis sera confirmé et considéré \"rendu\""
 
 #. Default: "Back to previous given advice"
 msgid "to_previous_given_advice"
@@ -6832,6 +6884,10 @@ msgstr "Les membres du sous-groupe \"${meeting_group_suffix}\" de n'importe quel
 #. Default: "The \"${meeting_group_suffix}\" of the proposing group"
 msgid "visible_for_suffix_proposing_group_"
 msgstr "Les membres du sous-groupe \"${meeting_group_suffix}\" du groupe proposant"
+
+#. Default: "iA.Vision start date"
+msgid "vision_start_date"
+msgstr "Date planifiée"
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name \"item\"). If it returns False, no vote may occur on the item."
 msgid "vote_condition_descr"
