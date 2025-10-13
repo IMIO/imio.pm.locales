@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-4.2.31 (unreleased)
--------------------
+4.2.31rc1 (unreleased)
+----------------------
 
 - Added translations related to `item follow-up`.
   [gbastien]
