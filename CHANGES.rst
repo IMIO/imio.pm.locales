@@ -2,16 +2,46 @@ Changelog
 =========
 
 
-4.2.25.2 (unreleased)
----------------------
+4.2.31 (unreleased)
+-------------------
 
 - Nothing changed yet.
 
+4.2.30 (2025-10-07)
+-------------------
+- Adapted footer translations to remove no more working links and simplify it.
+  [gbastien]
+- Added translations for `external` linked elements.
+  [gbastien]
 
-4.2.25.1 (2025-05-05)
----------------------
+4.2.29 (2025-09-26)
+-------------------
 
-- Release.
+- Cleanup.
+  [gbastien]
+
+4.2.28 (2025-09-26)
+-------------------
+
+- Added translations related to `MeetingConfig.labelsConfig`.
+  [gbastien]
+
+4.2.27 (2025-08-28)
+-------------------
+
+- More accurate french translation for
+  `advice_asked_again_and_historized_comments`.
+  [gbastien]
+- Adapted translation of votes form label field to explain use of `|`.
+  [gbastien]
+
+4.2.26 (2025-06-06)
+-------------------
+
+- More accurate french translations for
+  `This attendee is marked as signatory for the ${number} following item(s)` and
+  `This attendee is marked as ${not_present_type} for the ${number}
+  following items (${clusters})`.
   [gbastien]
 
 4.2.25 (2025-05-05)

@@ -41,7 +41,7 @@ msgstr "Lors de l'utilisation de la fonctionnalité \"Cacher l'avis pendant sa r
 
 #. Default: "Adviser config  show advice on final WF transition?"
 msgid "Adviser config show advice on final WF transition?"
-msgstr "\"Publier l'avis\" automatiquement lors de la dernière transition de workflow?"
+msgstr "\"Montrer l'avis\" automatiquement lors de la dernière transition de workflow?"
 
 #. Default: "Adviser config workflow adaptations"
 msgid "Adviser config workflow adaptations"
@@ -262,6 +262,54 @@ msgstr "Suffixe"
 #. Default: "Item WF validation levels suffix description."
 msgid "Item WF validation levels suffix description."
 msgstr "Suffixe principal ayant la main sur le point dans cet état."
+
+#. Default: "Labels config edit access TAL expression"
+msgid "Labels config edit access TAL expression"
+msgstr "Éditable si"
+
+#. Default: "Labels config edit access TAL expression cache"
+msgid "Labels config edit access TAL expression cache"
+msgstr "Mettre en cache \"Éditable si\"?"
+
+#. Default: "Labels config edit groups"
+msgid "Labels config edit groups"
+msgstr "Éditable par"
+
+#. Default: "Labels config edit groups excluding"
+msgid "Labels config edit groups excluding"
+msgstr "Exclure \"Éditable par\""
+
+#. Default: "Labels config edit states"
+msgid "Labels config edit states"
+msgstr "États éditables"
+
+#. Default: "Labels config label id"
+msgid "Labels config label id"
+msgstr "Étiquette"
+
+#. Default: "Labels config update local roles?"
+msgid "Labels config update local roles?"
+msgstr "Mettre à jour les rôles locaux?"
+
+#. Default: "Labels config view access TAL expression"
+msgid "Labels config view access TAL expression"
+msgstr "Visible si"
+
+#. Default: "Labels config view access TAL expression cache"
+msgid "Labels config view access TAL expression cache"
+msgstr "Mettre en cache \"Visible si\"?"
+
+#. Default: "Labels config view groups"
+msgid "Labels config view groups"
+msgstr "Visible par"
+
+#. Default: "Labels config view groups excluding"
+msgid "Labels config view groups excluding"
+msgstr "Exclure \"Visible par\""
+
+#. Default: "Labels config view states"
+msgid "Labels config view states"
+msgstr "États visibles"
 
 #. Default: "List type identifier"
 msgid "List type identifier"
@@ -486,6 +534,54 @@ msgstr "Utilisez le format suivant : AAAA/MM/DD.  Les dates doivent être triée
 #. Default: "Set to \"Yes\" if you want to compute delay in calendar days, so ignoring weekends and holidays."
 msgid "is_delay_calendar_days_col_description"
 msgstr "Sélectionnez \"Oui\" si le délai doit être calculé en jours calendrier, donc en prenant les 7 jours de la semaine comme jours ouvrables et en ignorant les week-ends, jours fériés et jours non ouvrables."
+
+#. Default: "Labels config edit access on cache col description"
+msgid "labels_config_edit_access_on_cache_col_description"
+msgstr "Si le résultat de l'expression \"Éditable si\" sera toujours identique et dépend d'éléments stockés (groupe proposant, ...) il peut être mis en cache, s'il dépend d'éléments changeant (groupes de l'utilisateur courant par exemple), il ne peut pas être mis en cache."
+
+#. Default: "Labels config edit access on col description"
+msgid "labels_config_edit_access_on_col_description"
+msgstr "Expression TAL permettant de spécifier quand l'étiquette est éditable.  Essayez de faire une expression qui peut être mise en cache, ou la plus simple possible."
+
+#. Default: "Labels config edit groups col description"
+msgid "labels_config_edit_groups_col_description"
+msgstr "Groupes pouvant éditer l'étiquettes."
+
+#. Default: "Labels config edit groups excluding col description"
+msgid "labels_config_edit_groups_excluding_col_description"
+msgstr "Sélectionnez \"Oui\" s'il faut exclure les groupes sélectionnés dans \"Éditable par\"."
+
+#. Default: "Labels config edit states col description"
+msgid "labels_config_edit_states_col_description"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, l'étiquette sera éditable."
+
+#. Default: "Labels config label id col description"
+msgid "labels_config_label_id_col_description"
+msgstr "Sélectionnez l'étiquette à configurer.  La valeur \"Par défaut (*)\" est la configuration par défaut pour toutes les étiquettes, vous pouvez alors spécifier une configuration propre à une étiquette si nécessaire.  La première ligne doit concerner la configuration \"Par défaut (*)\", ensuite il peut y avoir une ligne maximum par étiquette."
+
+#. Default: "Labels config update local_roles col description"
+msgid "labels_config_update_local_roles_col_description"
+msgstr "Sélectionnez \"Oui\" si l'ajout/suppression de l'étiquette doit provoquer une mise à jour des accès du point (configuration secondaire basée sur la présence ou non de l'étiquette)."
+
+#. Default: "Labels config view access on cache col description"
+msgid "labels_config_view_access_on_cache_col_description"
+msgstr "Si le résultat de l'expression \"Visible si\" sera toujours identique et dépend d'éléments stockés (groupe proposant, ...) il peut être mis en cache, s'il dépend d'éléments changeant (groupes de l'utilisateur courant par exemple), il ne peut pas être mis en cache."
+
+#. Default: "Labels config view access on col description"
+msgid "labels_config_view_access_on_col_description"
+msgstr "Expression TAL permettant de spécifier quand l'étiquette est visible.  Essayez de faire une expression qui peut être mise en cache, ou la plus simple possible."
+
+#. Default: "Labels config view groups col description"
+msgid "labels_config_view_groups_col_description"
+msgstr "Groupes pouvant voir l'étiquettes."
+
+#. Default: "Labels config view groups excluding col description"
+msgid "labels_config_view_groups_excluding_col_description"
+msgstr "Sélectionnez \"Oui\" s'il faut exclure les groupes sélectionnés dans \"Visible par\"."
+
+#. Default: "Labels config view states col description"
+msgid "labels_config_view_states_col_description"
+msgstr "Quand un point est dans un des états que vous sélectionnez ici, l'étiquette sera visible."
 
 #. Default: "Power observer item access TAL expression description"
 msgid "power_observers_item_access_on_col_description"

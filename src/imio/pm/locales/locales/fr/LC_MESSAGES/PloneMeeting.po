@@ -308,10 +308,6 @@ msgstr "Votes complétés"
 msgid "Contacts fields"
 msgstr "Champs utilisant des contacts"
 
-#. Default: "Copy PloneMeeting"
-msgid "Copy PloneMeeting"
-msgstr "Copier points"
-
 #. Default: "Create an item from an item template"
 msgid "Create an item from an item template"
 msgstr "Créer un point depuis un modèle"
@@ -408,6 +404,18 @@ msgstr "Éditer ce signataire redéfini sur ce point"
 msgid "Edit this vote"
 msgstr "Éditer ce vote"
 
+#. Default: "Element "${element}" has been linked."
+msgid "Element \"${element}\" has been linked."
+msgstr "L'élément \"${element}\" a été lié."
+
+#. Default: "Element "${element}" has been unlinked."
+msgid "Element \"${element}\" has been unlinked."
+msgstr "L'élément \"${element}\" a été délié."
+
+#. Default: "Elements displayed are only elements you can access in iA.Vision."
+msgid "Elements displayed are only elements you can access in iA.Vision."
+msgstr "Les éléments affichés sont ceux auxquels vous avez accès dans iA.Vision.<br />Cochez les élément à lier et décochez les éléments déjà liés que vous souhaitez délier."
+
 #. Default: "Elements to export in PDF"
 msgid "Elements to export in PDF"
 msgstr "Inclure les éléments suivants"
@@ -423,6 +431,10 @@ msgstr "Activé?"
 #. Default: "Encode secret votes"
 msgid "Encode secret votes"
 msgstr "Encoder les votes secrets"
+
+#. Default: "Encode terms to filter"
+msgid "Encode terms to filter"
+msgstr "Encodez un terme de recherche"
 
 #. Default: "Encode votes"
 msgid "Encode votes"
@@ -486,7 +498,7 @@ msgstr "Prénom (abréviation)"
 
 #. Default: "Free label that will identify the vote, useful when several votes are defined on an item. Leave empty if not used."
 msgid "Free label that will identify the vote, useful when several votes are defined on an item. Leave empty if not used."
-msgstr "Libellé libre qui permet d'identifier un vote, particulièrement lorsque plusieurs votes sont encodés pour le même point.  Laissez vide si pas utilisé."
+msgstr "Texte libre qui permet d'identifier un vote, particulièrement lorsque plusieurs votes sont encodés pour le même point.  Un fonctionnement spécial est disponible en utilisant le caractère \"|\" pour renseigner plusieurs libellés les uns à la suite des autres, ces libellés peuvent alors être utilisés indépendamment dans le rendu du vote. Laissez vide si pas utilisé."
 
 #. Default: "Free text fields"
 msgid "Free text fields"
@@ -688,6 +700,14 @@ msgstr "Date limite le ${advice_limit_date}"
 #. Default: "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgid "Limit the number of shown characters of the title to avoid too long titles displayed in the portlet."
 msgstr "Limite le nombre de caractères de l'objet du point qui seront affichés dans le portlet pour éviter les libellés trop longs."
+
+#. Default: "Link with iA.Vision"
+msgid "Link with iA.Vision"
+msgstr "Lier/délier des éléments de iA.Vision"
+
+#. Default: "Linked"
+msgid "Linked"
+msgstr "Lié"
 
 # plone.app.querystring
 #. Default: "Linked meeting date (used for items)"
@@ -1175,10 +1195,6 @@ msgstr "Activer l'invalidation des avis"
 msgid "PloneMeeting_label_enableAdviceProposingGroupComment"
 msgstr "Activer le champ \"Commentaire du groupe proposant\""
 
-#. Default: "Enable labels"
-msgid "PloneMeeting_label_enableLabels"
-msgstr "Activer les étiquettes"
-
 #. Default: "Enable documents scanning?"
 msgid "PloneMeeting_label_enableScanDocs"
 msgstr "Activer le scanning de documents?"
@@ -1415,10 +1431,6 @@ msgstr "Point signé?"
 msgid "PloneMeeting_label_itemKeywords"
 msgstr "Mots-clé"
 
-#. Default: "Are item labels editable by proposing group forever?"
-msgid "PloneMeeting_label_itemLabelsEditableByProposingGroupForever"
-msgstr "Les étiquettes des points sont éditables par le groupe proposant indéfiniment?"
-
 #. Default: "States in which an item may be manually sent to selected other meeting configurations"
 msgid "PloneMeeting_label_itemManualSentToOtherMCStates"
 msgstr "États dans lesquels un point pourra être manuellement envoyé vers les autres configurations de séances"
@@ -1503,6 +1515,10 @@ msgstr "Complémentairement, l'accès au point sera gardé si"
 #. Default: "Keep info \"to print?\" of annexes when duplicating items"
 msgid "PloneMeeting_label_keepOriginalToPrintOfClonedItems"
 msgstr "Garder l'information \"A imprimer?\" des annexes des points dupliqués"
+
+#. Default: "Labels config"
+msgid "PloneMeeting_label_labelsConfig"
+msgstr "Configuration des étiquettes"
 
 #. Default: "Number of the last meeting in this config"
 msgid "PloneMeeting_label_lastMeetingNumber"
@@ -1997,6 +2013,18 @@ msgstr "Les prévisualisations des annexes de tous les points ont été supprim�
 msgid "Previous review state"
 msgstr "État précédent"
 
+#. Default: "Project"
+msgid "Project"
+msgstr "Projet"
+
+#. Default: "Projects"
+msgid "Projects"
+msgstr "Projets"
+
+#. Default: "Quick filter"
+msgid "Quick filter"
+msgstr "Filtre rapide"
+
 #. Default: "Recurring items"
 msgid "RecurringItems"
 msgstr "Points récurrents"
@@ -2125,6 +2153,14 @@ msgstr "Modèles de style"
 msgid "Taken over by ${fullname}"
 msgstr "Pris en charge par ${fullname}"
 
+#. Default: "Task"
+msgid "Task"
+msgstr "Tâche"
+
+#. Default: "Tasks"
+msgid "Tasks"
+msgstr "Tâches"
+
 #. Default: "Temporary QR code!"
 msgid "Temporary QR code!"
 msgstr "QR code temporaire!"
@@ -2146,10 +2182,6 @@ msgstr "La date à laquelle la séance a lieu"
 #. Default: "The default item template ${default_template_title} is ${default_template_review_state}."
 msgid "The default item template ${default_template_title} is ${default_template_review_state}."
 msgstr "Le modèle de point par défaut ${default_template_title} est ${default_template_review_state}."
-
-#. Default: "The field here above is not used, check the \"users\" tab."
-msgid "The field here above is not used, check the 'users' tab."
-msgstr "Ce champ n'est pas utilisé, vérifiez l'onglet \"Utilisateurs\"."
 
 #. Default: "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
 msgid "The item is viewable by the advisers of this group but the advice has not been given yet, it can still be given until the ${advice_delay_limit_date}."
@@ -2210,11 +2242,11 @@ msgstr "Cet avis a été rendu d'initiative"
 
 #. Default: "This attendee is marked as ${not_present_type} for the ${number} following items (${clusters})"
 msgid "This attendee is marked as ${not_present_type} for the ${number} following items (${clusters})"
-msgstr "Ce membre est marqué \"${not_present_type}\" pour ${number} point(s) (${clusters})"
+msgstr "Ce membre est marqué \"${not_present_type}\" pour ${number} point(s) (${clusters}) auxquels vous avez accès"
 
 #. Default: "This attendee is marked as signatory for the ${number} following item(s)"
 msgid "This attendee is marked as signatory for the ${number} following item(s)"
-msgstr "Ce membre est spécifiquement défini signataire pour ${number} point(s)"
+msgstr "Ce membre est spécifiquement défini signataire pour ${number} point(s) auxquels vous avez accès"
 
 #. Default: "This automatic advice has been asked by the application"
 msgid "This automatic advice has been asked by the application"
@@ -2332,6 +2364,10 @@ msgstr "Si nécessaire, sélectionnez une organisation qui permettra de grouper 
 msgid "You are about to change delay for this advice to ${new_advice_delay} days, you can enter a comment if necessary."
 msgstr "Vous êtes sur le point de changer le délai de cet avis pour ${new_advice_delay} jours, vous pouvez entrer un commentaire si nécessaire."
 
+#. Default: "You can not manage labels ${not_manageable_label_titles}!"
+msgid "You can not manage labels ${not_manageable_label_titles}!"
+msgstr "Vous ne pouvez pas gérer les étiquettes suivantes: ${not_manageable_label_titles}!"
+
 #. Default: "You cannot delete or move the default item template, but you can deactivate it if necessary!"
 msgid "You cannot delete or move the default item template, but you can deactivate it if necessary!"
 msgstr "Vous ne pouvez pas supprimer ou déplacer le modèle de point par défaut, mais vous pouvez le désactiver si nécessaire!"
@@ -2370,7 +2406,7 @@ msgstr "Ajouter un avis"
 
 #. Default: "Add a new one"
 msgid "add_object"
-msgstr "En ajouter un(e)"
+msgstr "En ajouter un·e"
 
 #. Default: "Add several annexes at the same time"
 msgid "add_several_annexes"
@@ -2508,7 +2544,7 @@ msgstr "Cet avis est en cours de rédaction par les émetteurs d'avis du groupe 
 
 #. Default: "The advice was automatically hidden during redaction, do not forget to unhide it when advice will be ready."
 msgid "advice_hide_during_redaction_set_auto_to_true"
-msgstr "L'option \"Cacher l'avis pendant sa rédaction\" a été automatiquement cochée, vous pouvez la décocher maintenant ou utiliser l'action \"Publier l'avis\" lorsqu'il sera prêt."
+msgstr "L'option \"Cacher l'avis pendant sa rédaction\" a été automatiquement cochée, vous pouvez la décocher maintenant ou utiliser l'action \"Montrer l'avis\" lorsqu'il sera prêt."
 
 #. Default: "Informations displayed regarding advice are taken from the other item including informations about dates, delay and states."
 msgid "advice_inherited_popup_descr"
@@ -3031,10 +3067,6 @@ msgstr "Vous ne pouvez pas changer cette valeur car ce type d'annexe est déjà 
 msgid "cannot_paste_item_from_other_mc"
 msgstr "Vous ne pouvez pas coller un point provenant d'un autre type de séance !"
 
-#. Default: "This removal may not occur. Possible reasons: you try to remove a meeting already containing items, or an item already presented into a meeting."
-msgid "cant_delete_object"
-msgstr "Cette suppression ne peut avoir lieu. Raisons possibles: vous tentez de supprimer une séance comportant déjà des points ou un point déjà présenté à un ordre du jour."
-
 #. Default: "Every item, within this meeting configuration, can only belong to one category. Those categories are defined here (by a title and a description). The order into which they appear in this folder is important. Indeed, if we make the assumption that you desire it (it depends on a parameter you may modify in the \"data\" section), when an item is added to a meeting, it can be inserted at the end of the items belonging to the same category, those items being themselves inserted at a place that corresponds to the position of their category among the list of categories defined here. That being said, if you tell that you want to use the groups as categories (another parameter of the \"data\" section), the categories defined here will be ignored."
 msgid "categories_descr"
 msgstr "Chaque point, au sein de cette configuration de séance, peut appartenir à une et une seule catégorie. Ces catégories sont définies ici (par un titre et une description). L'ordre dans lequel elles sont reprises dans ce répertoire est important. En effet, pour autant que vous le désiriez (un paramètre définit cela dans la section \"Données\"), lors de l'ajout d'un point à une séance, celui-ci peut s'insérer à la suite des points appartenant à la même catégorie, ceux-ci étant déjà insérés à l'endroit correspondant à la position de leur catégorie parmi la liste des catégories définies ici. Ceci dit, si vous spécifiez que vous voulez utiliser les groupes comme catégories (un autre paramètre de la section \"Données\"), les catégories définies ici ne seront pas utilisées."
@@ -3510,6 +3542,10 @@ msgstr "Le type d'avis par défaut sera présélectionné sur le formulaire perm
 msgid "default_for_all_items"
 msgstr "Par défaut pour tous les points:"
 
+#. Default: "Default"
+msgid "default_for_all_labels"
+msgstr "Par défaut"
+
 #. Default: "The default poll type will be preselected on the form when adding an item."
 msgid "default_poll_type_descr"
 msgstr "Le mode de scrutin par défaut sera présélectionné sur le formulaire lors de l'ajout d'un point."
@@ -3681,10 +3717,6 @@ msgstr "Activé, pour information (les annexes sont imprimées manuellement)"
 #. Default: "Enabled, for automated printing (annexes are printed by the application)"
 msgid "enable_annex_to_print_enabled_for_printing"
 msgstr "Activé, pour impression automatisée (les annexes sont imprimées par l'application)"
-
-#. Default: "When enabled, a configuration box will appear in the [Data] configuration space to define labels useable on items."
-msgid "enable_labels_descr"
-msgstr "Une fois activé, une boîte de configuration apparaîtra dans l'onglet \"[Données]\" permettant de renseigner les étiquettes qui pourront être sélectionnées sur un point."
 
 #. Default: "Check this box if you use the documents scanning functionnality."
 msgid "enable_scan_docs_descr"
@@ -3901,6 +3933,10 @@ msgstr "Votes"
 #. Default: "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
 msgid "export_pdf_descr"
 msgstr "Cette action permet de grouper des documents PDF dans un PDF unique.  Dans la liste des annexes, les annexes grisées ne sont pas des documents PDF et ne peuvent pas être sélectionnées."
+
+#. Default: "External linked elements"
+msgid "external_linked_elements"
+msgstr "Éléments externes liés"
 
 #. Default: "Cancel edit"
 msgid "fastedit_cancel"
@@ -4164,22 +4200,6 @@ msgstr "Il n'y a plus suffisamment de jours fériés définis dans la configurat
 msgid "holidays_wrong_date_format_error"
 msgstr "Mauvais format de date, utilisez le format \"AAAA/MM/JJ\"."
 
-#. Default: "Thank you for your visit."
-msgid "hs_logged_out_body"
-msgstr "Merci pour votre visite."
-
-#. Default: "You are now disconnected."
-msgid "hs_logged_out_title"
-msgstr "Vous êtes maintenant déconnecté."
-
-#. Default: "Name"
-msgid "hs_name"
-msgstr "Nom"
-
-#. Default: "This application allows you to manage your official meetings."
-msgid "hs_welcome_body"
-msgstr "Cette application vous permet de gérer vos séances délibératoires."
-
 #. Default: "iA.Delib documentation"
 msgid "iA.Delib documentation"
 msgstr "Documentation iA.Délib"
@@ -4267,10 +4287,6 @@ msgstr "Reporté à la prochaine séance"
 #. Default: "Pre accepted"
 msgid "icon_help_pre_accepted"
 msgstr "Accepté provisoirement"
-
-#. Default: "Pre-validated"
-msgid "icon_help_prevalidated"
-msgstr "Pré-validé"
 
 #. Default: "The validation deadline for meeting freezing has not been respected"
 msgid "icon_help_publish_deadline_ko"
@@ -4649,10 +4665,6 @@ msgstr "Le point est signé."
 msgid "item_is_signed_yes_edit"
 msgstr "Le point est signé, cliquez sur l'image pour enlever la signature."
 
-#. Default: "By default item labels are editable by the item proposing group as long as it may edit the item, after, only meeting managers may edit the item labels.  If checked, item labels will be editable by proposing group members forever."
-msgid "item_labels_editable_by_proposing_group_forever_descr"
-msgstr "Par défaut, le groupe proposant peut éditer les étiquettes du point tant qu'il peut éditer le point, ensuite seuls les gestionnaires de séances peuvent gérer les étiquettes. Si cette case est cochée, les étiquettes pourront être éditées sur les points par le groupe proposant même lorsqu'il ne sera plus éditable."
-
 #. Default: "When an item is in the states you check here, users having edit rights on the item will have the possibility to send the item to the other meeting configurations selected on it."
 msgid "item_manual_sent_to_other_mc_states_descr"
 msgstr "Lorsqu'un point sera dans un des états cochés ci-dessous, les utilisateurs ayant le droit d'édition sur le point auront la possibilité de l'envoyer manuellement vers les autres configurations de séances sélectionnées sur celui-ci."
@@ -4827,9 +4839,17 @@ msgstr "Annexes"
 msgid "label_schema_default"
 msgstr "Information principale"
 
-#. Default: "Search"
-msgid "label_schema_pm_search"
-msgstr "Recherche"
+#. Default: "Can only have one config row about the same label!"
+msgid "labels_config_can_not_have_several_config_for_same_label"
+msgstr "Il ne peut y avoir qu'une seule ligne de configuration pour une même étiquette!"
+
+#. Default: "Define here who will be able to view/edit labels"
+msgid "labels_config_descr"
+msgstr "Définissez ici qui peut voir et éditer les étiquettes. <span style='color: red;'>Si vous ajoutez/supprimez une configuration, exécutez l'action \"Mettre à jour les étiquettes sur les points\"!</span>"
+
+#. Default: "The first row must be about the \"Default (*)\" configuration"
+msgid "labels_config_first_row_must_be_default_config"
+msgstr "La première ligne est obligatoire et doit concerner la configuration \"Par défaut (*)\"!"
 
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
@@ -4914,6 +4934,10 @@ msgstr "Taille"
 #. Default: "Title"
 msgid "listingheader_title"
 msgstr "Titre"
+
+#. Default: "Title (from iA.Vision)"
+msgid "listingheader_title_from_vision"
+msgstr "Titre (dans iA.Vision)"
 
 #. Default: "Manage content in a second language"
 msgid "ma_second_language"
@@ -5212,7 +5236,7 @@ msgstr "Néant"
 
 #. Default: "No annex is currently defined for this element."
 msgid "no_annexes"
-msgstr "Aucune."
+msgstr "Aucun(e)."
 
 #. Default: "Attributes \"assembly\" and \"attendees\" can't be used together."
 msgid "no_assembly_and_attendees"
@@ -5634,6 +5658,14 @@ msgstr "Attention, l'action \"Initialiser la confidentialité des annexes exista
 msgid "pm_update_annex_indexes"
 msgstr "Recalculer les index des annexes"
 
+#. Default: "Update labels access cache"
+msgid "pm_update_labels_access_cache"
+msgstr "Mettre à jour les étiquettes sur les points"
+
+#. Default: "Warning: the action 'Update labels access cache' will update every items labels access, this needs to be done when labels are activated or when labels config changed."
+msgid "pm_update_labels_access_cache_warning"
+msgstr "Attention, l'action \"Mettre à jour les étiquettes sur les points\" va configurer les accès en édition/lecture des étiquettes sur les points en fonction de la \"Configuration des étiquettes\" définie dans l'onglet \"[Avis et Accès]\"."
+
 #. Default: "Initialize personal label on existing items"
 msgid "pm_update_personal_labels"
 msgstr "Initialiser l'étiquette sur les points existants"
@@ -5641,6 +5673,10 @@ msgstr "Initialiser l'étiquette sur les points existants"
 #. Default: "Warning: the action \"Initialize personal labels\" will activate selected labels on every existing items that were last modified before given number of days for every users able to see these items."
 msgid "pm_update_personal_labels_warning"
 msgstr "Attention, l'action \"Initialiser l'étiquette sur les points existants\" va activer l'étiquette sélectionnée sur tous les points existants qui n'ont plus été modifiés depuis le nombre de jours choisi, et ce, pour tous les utilisateurs qui peuvent voir ces points."
+
+#. Default: "This application allows you to manage your official meetings."
+msgid "pm_welcome_body"
+msgstr "Cette application vous permet de gérer vos séances délibératoires."
 
 #. Default: "Please consult the attached document."
 msgid "podItemByMail_mail_body"
@@ -6655,7 +6691,7 @@ msgstr "Cacher l'avis pendant sa rédaction, attention un avis est considéré \
 
 #. Default: "Publish advice, the advice will be confirmed and considered \"given\""
 msgid "to_not_hidden_during_redaction"
-msgstr "Publier l'avis, l'avis sera confirmé et considéré \"rendu\""
+msgstr "Montrer l'avis, l'avis sera confirmé et considéré \"rendu\""
 
 #. Default: "Back to previous given advice"
 msgid "to_previous_given_advice"
@@ -6828,6 +6864,10 @@ msgstr "Les membres du sous-groupe \"${meeting_group_suffix}\" de n'importe quel
 #. Default: "The \"${meeting_group_suffix}\" of the proposing group"
 msgid "visible_for_suffix_proposing_group_"
 msgstr "Les membres du sous-groupe \"${meeting_group_suffix}\" du groupe proposant"
+
+#. Default: "iA.Vision start date"
+msgid "vision_start_date"
+msgstr "Date planifiée"
 
 #. Default: "The Python expression you can define here will be evaluated on every individual item (given to the expression as name \"item\"). If it returns False, no vote may occur on the item."
 msgid "vote_condition_descr"
@@ -7215,7 +7255,7 @@ msgstr "Workflows"
 
 #. Default: "Choose here one or more standard sets of changes that will be applied to the selected item and/or meeting workflows.  <span style='color: red;'>Your changes will be applied when saving this meetingConfig.  If you change this parameter, do not forget to update fields using item and meeting states/transitions!  If you unselect a workflow adaptation, take care to update fields using item and meeting states/transition BEFORE! Check tabs \"Advices and access\" and \"Workflows\" and check groups, and if necessary when permissions changed, do not forget to run \"Update security settings\" in the ZMi-->portal_workflow!</span>"
 msgid "workflow_adaptations_descr"
-msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. <span style='color: red;'>Vos changements seront appliqués dès l'enregistrement de cette configuration de séance.  Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets \"Avis et accès\", \"Workflows\" et les groupes, de plus, si des permissions sont affectées par ces changements, exécutez \"Upgrade security settings\" dans la ZMi-->portal_workflow!  ATTENTION, si vous désélectionnez des adaptations aux workflows et que ceci entraîne la suppression d'états ou transitions existantes, prenez soin d'adapter les autre paramètres utilisant ces états/transitions avant de la désélectionner!</span>"
+msgstr "Choisissez ici un ou plusieurs jeu(x) de changements à appliquer aux workflows définis ci-dessus. <span style='color: red;'>Vos changements seront appliqués dès l'enregistrement de cette configuration de séance.  Si vous appliquez des adaptations aux workflows, n'oubliez pas de mettre à jour les autres paramètres liés aux états/transitions, notamment dans les onglets \"[Avis et accès]\", \"[Workflows]\" et les groupes, de plus, si des permissions sont affectées par ces changements, exécutez \"Upgrade security settings\" dans la ZMi-->portal_workflow!  ATTENTION, si vous désélectionnez des adaptations aux workflows et que ceci entraîne la suppression d'états ou transitions existantes, prenez soin d'adapter les autre paramètres utilisant ces états/transitions avant de la désélectionner!</span>"
 
 #. Default: "This will be used to compute advices delays.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 msgid "working_days_descr"

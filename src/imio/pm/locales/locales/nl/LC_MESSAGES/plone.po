@@ -616,7 +616,7 @@ msgstr "Uitstel"
 msgid "delayed"
 msgstr "Uitgesteld"
 
-#. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
+#. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>."
 msgid "description_copyright"
 msgstr ""
 
@@ -635,6 +635,10 @@ msgstr " beschrijving aanpassing agendapunt"
 #: CMFPlone/skins/plone_deprecated/prefs_groups_overview.cpt:68
 #: plone.app.controlpanel/plone/app/controlpanel/usergroups_groupsoverview.pt:69
 msgid "description_groups_management"
+msgstr ""
+
+#. Default: " "
+msgid "description_license"
 msgstr ""
 
 #. Default: "Click the user's name to see and change the details of a specific user. You can also add and remove users."
@@ -721,6 +725,10 @@ msgstr "Gepubliceerd"
 #. Default: "Edit"
 msgid "label_edit"
 msgstr "Bewerken"
+
+#. Default: " "
+msgid "label_powered_by_plone"
+msgstr ""
 
 #. Default: "Delete"
 msgid "label_remove"

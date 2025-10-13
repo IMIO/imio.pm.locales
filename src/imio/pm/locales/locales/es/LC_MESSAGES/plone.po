@@ -604,7 +604,8 @@ msgstr "Demora"
 msgid "delayed"
 msgstr "Demorado"
 
-#. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
+#. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>."
+#, fuzzy
 msgid "description_copyright"
 msgstr "Esta aplicación es mantenida por <a href='http://www.imio.be'>IMIO</a>, miembro de la comunidad <a href='http://www.plonegov.org'>PloneGov</a>."
 
@@ -623,6 +624,10 @@ msgstr "Tema de reunión"
 #: CMFPlone/skins/plone_deprecated/prefs_groups_overview.cpt:68
 #: plone.app.controlpanel/plone/app/controlpanel/usergroups_groupsoverview.pt:69
 msgid "description_groups_management"
+msgstr ""
+
+#. Default: " "
+msgid "description_license"
 msgstr ""
 
 #. Default: "Click the user's name to see and change the details of a specific user. You can also add and remove users."
@@ -708,6 +713,10 @@ msgstr "Publicado"
 #. Default: "Edit"
 msgid "label_edit"
 msgstr "Editar"
+
+#. Default: " "
+msgid "label_powered_by_plone"
+msgstr ""
 
 #. Default: "Delete"
 msgid "label_remove"

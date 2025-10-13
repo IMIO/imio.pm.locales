@@ -597,7 +597,8 @@ msgstr "Delay"
 msgid "delayed"
 msgstr "Delayed"
 
-#. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
+#. Default: "This application is maintened by <a href='http://www.imio.be'>IMIO</a>."
+#, fuzzy
 msgid "description_copyright"
 msgstr "This application is maintened by <a href='http://www.imio.be'>IMIO</a>, member of the <a href='http://www.plonegov.org'>PloneGov</a> community."
 
@@ -615,6 +616,10 @@ msgstr " "
 #: plone.app.controlpanel/plone/app/controlpanel/usergroups_groupsoverview.pt:69
 msgid "description_groups_management"
 msgstr "Groups are logical collections of users, such as departments and business units. Groups are not directly related to permissions on a global level, you normally use Roles for that - and let certain Groups have a particular role."
+
+#. Default: " "
+msgid "description_license"
+msgstr ""
 
 #. Default: "Click the user's name to see and change the details of a specific user. You can also add and remove users."
 #: CMFPlone/skins/plone_deprecated/prefs_users_overview.cpt:60
@@ -699,6 +704,10 @@ msgstr "Published"
 #. Default: "Edit"
 msgid "label_edit"
 msgstr "Edit"
+
+#. Default: " "
+msgid "label_powered_by_plone"
+msgstr ""
 
 #. Default: "Delete"
 msgid "label_remove"
