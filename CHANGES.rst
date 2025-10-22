@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.31 (unreleased)
+4.2.31 (2025-10-22)
 -------------------
 
 - Added translations related to `item follow-up`.
