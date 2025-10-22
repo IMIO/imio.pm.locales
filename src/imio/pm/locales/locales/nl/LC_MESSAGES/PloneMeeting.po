@@ -666,6 +666,10 @@ msgstr ""
 msgid "Item excused to apply"
 msgstr ""
 
+#. Default: "Item fields config name"
+msgid "Item fields config name"
+msgstr ""
+
 #. Default: "Item guests to apply"
 msgid "Item guests to apply"
 msgstr ""
@@ -1406,6 +1410,10 @@ msgstr ""
 msgid "PloneMeeting_label_itemDescription"
 msgstr ""
 
+#. Default: "Item fields configuration"
+msgid "PloneMeeting_label_itemFieldsConfig"
+msgstr ""
+
 #. Default: "Item fields to keep configuration sorting for"
 msgid "PloneMeeting_label_itemFieldsToKeepConfigSortingFor"
 msgstr ""
@@ -1642,6 +1650,10 @@ msgstr ""
 msgid "PloneMeeting_label_motivation"
 msgstr ""
 
+#. Default: "Needed follow-up"
+msgid "PloneMeeting_label_neededFollowUp"
+msgstr ""
+
 #. Default: "Next linked votes values"
 msgid "PloneMeeting_label_nextLinkedVotesUsedVoteValues"
 msgstr ""
@@ -1744,6 +1756,10 @@ msgstr "Voorstellende groep"
 
 #. Default: "Proposing group (Group in charge)"
 msgid "PloneMeeting_label_proposingGroupWithGroupInCharge"
+msgstr ""
+
+#. Default: "Provided follow-up"
+msgid "PloneMeeting_label_providedFollowUp"
 msgstr ""
 
 #. Default: "Public URL"
@@ -4592,6 +4608,14 @@ msgstr ""
 msgid "item_duplicated_and_link_kept"
 msgstr ""
 
+#. Default: "This field let's you configure \"View\" and \"Edit\" item's fields."
+msgid "item_fields_config_descr"
+msgstr ""
+
+#. Default: " "
+msgid "item_fields_config_name_description"
+msgstr ""
+
 #. Default: "By default, vocabularies used for selectable fields are sorted alphabetically, if checked, vocabulary will not be sorted and display terms as encoded in the configuration."
 msgid "item_fields_to_keep_config_sorting_for_descr"
 msgstr ""
@@ -5185,6 +5209,10 @@ msgstr ""
 #. Default: "Moves this item to the position that precedes the number you have introduced besides. If you want to move the item at the end of the list, specify the number of the last item plus one."
 msgid "move_several"
 msgstr "Moves this item to the position that precedes the number you have introduced besides. If you want to move the item at the end of the list, specify the number of the last item plus one."
+
+#. Default: " "
+msgid "needed_follow_up_descr"
+msgstr ""
 
 #. Default: "Negative"
 msgid "negative"
@@ -5794,6 +5822,10 @@ msgstr ""
 msgid "proposing_group_with_group_in_charge_required"
 msgstr ""
 
+#. Default: " "
+msgid "provided_follow_up_descr"
+msgstr ""
+
 #. Default: "The document has been sent (${recipients})."
 msgid "pt_mailing_sent"
 msgstr ""
@@ -6043,6 +6075,14 @@ msgstr ""
 
 #. Default: "Items to validate"
 msgid "searchitemstovalidate"
+msgstr ""
+
+#. Default: "Items with needed follow-up"
+msgid "searchitemswithneededfollowup"
+msgstr ""
+
+#. Default: "Items with provided follow-up"
+msgid "searchitemswithprovidedfollowup"
 msgstr ""
 
 #. Default: "Last decisions"

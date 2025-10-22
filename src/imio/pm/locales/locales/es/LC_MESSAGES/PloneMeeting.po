@@ -669,6 +669,10 @@ msgstr ""
 msgid "Item excused to apply"
 msgstr ""
 
+#. Default: "Item fields config name"
+msgid "Item fields config name"
+msgstr ""
+
 #. Default: "Item guests to apply"
 msgid "Item guests to apply"
 msgstr ""
@@ -1412,6 +1416,10 @@ msgstr ""
 msgid "PloneMeeting_label_itemDescription"
 msgstr ""
 
+#. Default: "Item fields configuration"
+msgid "PloneMeeting_label_itemFieldsConfig"
+msgstr ""
+
 #. Default: "Item fields to keep configuration sorting for"
 msgid "PloneMeeting_label_itemFieldsToKeepConfigSortingFor"
 msgstr ""
@@ -1648,6 +1656,10 @@ msgstr "Adaptaciones del Modelo"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivación"
 
+#. Default: "Needed follow-up"
+msgid "PloneMeeting_label_neededFollowUp"
+msgstr ""
+
 #. Default: "Next linked votes values"
 msgid "PloneMeeting_label_nextLinkedVotesUsedVoteValues"
 msgstr ""
@@ -1751,6 +1763,10 @@ msgstr "Grupo propuesto"
 
 #. Default: "Proposing group (Group in charge)"
 msgid "PloneMeeting_label_proposingGroupWithGroupInCharge"
+msgstr ""
+
+#. Default: "Provided follow-up"
+msgid "PloneMeeting_label_providedFollowUp"
 msgstr ""
 
 #. Default: "Public URL"
@@ -4648,6 +4664,14 @@ msgstr "Este tema ha sito eliminado: usted actualmente ve el tema duplicado."
 msgid "item_duplicated_and_link_kept"
 msgstr "El tema ha sido duplicado y un enlace a el tema original se ha mantenido: ve actualmente el tema duplicado."
 
+#. Default: "This field let's you configure \"View\" and \"Edit\" item's fields."
+msgid "item_fields_config_descr"
+msgstr ""
+
+#. Default: " "
+msgid "item_fields_config_name_description"
+msgstr ""
+
 #. Default: "By default, vocabularies used for selectable fields are sorted alphabetically, if checked, vocabulary will not be sorted and display terms as encoded in the configuration."
 msgid "item_fields_to_keep_config_sorting_for_descr"
 msgstr ""
@@ -5247,6 +5271,10 @@ msgstr ""
 #. Default: "Moves this item to the position that precedes the number you have introduced besides. If you want to move the item at the end of the list, specify the number of the last item plus one."
 msgid "move_several"
 msgstr "Mover este tema a la posición que precede al número que ha introducido. Además, si usted desea mover este tema al final de la lista, especifique le número del último temas mas uno (por ejemplo 3 + 1  = 4)."
+
+#. Default: " "
+msgid "needed_follow_up_descr"
+msgstr ""
 
 #. Default: "Negative"
 msgid "negative"
@@ -5867,6 +5895,10 @@ msgstr "Como el tema es usado como tema recurrente, el grupo proponente es oblig
 msgid "proposing_group_with_group_in_charge_required"
 msgstr ""
 
+#. Default: " "
+msgid "provided_follow_up_descr"
+msgstr ""
+
 #. Default: "The document has been sent (${recipients})."
 msgid "pt_mailing_sent"
 msgstr "El documento ha sido enviado (${recipients})."
@@ -6122,6 +6154,14 @@ msgstr ""
 #. Default: "Items to validate"
 msgid "searchitemstovalidate"
 msgstr "temas a validar"
+
+#. Default: "Items with needed follow-up"
+msgid "searchitemswithneededfollowup"
+msgstr ""
+
+#. Default: "Items with provided follow-up"
+msgid "searchitemswithprovidedfollowup"
+msgstr ""
 
 #. Default: "Last decisions"
 msgid "searchlastdecisions"

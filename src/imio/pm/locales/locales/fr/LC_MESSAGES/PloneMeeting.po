@@ -665,6 +665,10 @@ msgstr "L'urgence a été changée pour ce point."
 msgid "Item excused to apply"
 msgstr "Excusés à appliquer"
 
+#. Default: "Item fields config name"
+msgid "Item fields config name"
+msgstr "Nom du champ"
+
 #. Default: "Item guests to apply"
 msgid "Item guests to apply"
 msgstr "Invités à appliquer"
@@ -1403,6 +1407,10 @@ msgstr "Les points sont créés uniquement depuis un modèle"
 msgid "PloneMeeting_label_itemDescription"
 msgstr "Description"
 
+#. Default: "Item fields configuration"
+msgid "PloneMeeting_label_itemFieldsConfig"
+msgstr "Configuration des accès des champs du point"
+
 #. Default: "Item fields to keep configuration sorting for"
 msgid "PloneMeeting_label_itemFieldsToKeepConfigSortingFor"
 msgstr "Champs du point dont le vocabulaire doit garder l'ordre des termes définis dans la configuration"
@@ -1636,6 +1644,10 @@ msgstr "Adaptations au modèle de données"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivation"
 
+#. Default: "Needed follow-up"
+msgid "PloneMeeting_label_neededFollowUp"
+msgstr "Suivi à apporter"
+
 #. Default: "Next linked votes values"
 msgid "PloneMeeting_label_nextLinkedVotesUsedVoteValues"
 msgstr "Valeurs de vote utilisables sur les votes liés suivants"
@@ -1739,6 +1751,10 @@ msgstr "Groupe proposant"
 #. Default: "Proposing group (Group in charge)"
 msgid "PloneMeeting_label_proposingGroupWithGroupInCharge"
 msgstr "Groupe proposant (Groupe en charge)"
+
+#. Default: "Provided follow-up"
+msgid "PloneMeeting_label_providedFollowUp"
+msgstr "Suivi apporté"
 
 #. Default: "Public URL"
 msgid "PloneMeeting_label_publicUrl"
@@ -4613,6 +4629,14 @@ msgstr "Point dupliqué : vous voyez actuellement le nouveau point."
 msgid "item_duplicated_and_link_kept"
 msgstr "Point dupliqué et lien vers le point original gardé : vous voyez actuellement le nouveau point."
 
+#. Default: "This field let's you configure \"View\" and \"Edit\" item's fields."
+msgid "item_fields_config_descr"
+msgstr "Définissez ici les conditions de \"Vue\" et \"Édition\" des champs du point."
+
+#. Default: " "
+msgid "item_fields_config_name_description"
+msgstr " "
+
 #. Default: "By default, vocabularies used for selectable fields are sorted alphabetically, if checked, vocabulary will not be sorted and display terms as encoded in the configuration."
 msgid "item_fields_to_keep_config_sorting_for_descr"
 msgstr "Par défaut, les vocabulaires des champs du point sont triés par ordre alphabétique.  Vous pouvez sélectionner ici les champs du points pour lesquels les termes affichés dans le vocabulaire doivent garder l'ordre défini dans la configuration."
@@ -5205,6 +5229,10 @@ msgstr "Sauvegarder le numéro du point (vous pouvez aussi utiliser la touche [E
 #. Default: "Moves this item to the position that precedes the number you have introduced besides. If you want to move the item at the end of the list, specify the number of the last item plus one."
 msgid "move_several"
 msgstr "Déplace ce point à la position qui précède le numéro que vous introduisez ci-contre. Pour déplacer le point en fin de liste, spécifiez un de plus que le numéro du dernier point."
+
+#. Default: " "
+msgid "needed_follow_up_descr"
+msgstr " "
 
 #. Default: "Negative"
 msgid "negative"
@@ -5810,6 +5838,10 @@ msgstr "Un groupe proposant est requis."
 msgid "proposing_group_with_group_in_charge_required"
 msgstr "Un groupe proposant avec groupe en charge est requis."
 
+#. Default: " "
+msgid "provided_follow_up_descr"
+msgstr " "
+
 #. Default: "The document has been sent (${recipients})."
 msgid "pt_mailing_sent"
 msgstr "Le document a été envoyé (${recipients})."
@@ -6070,6 +6102,14 @@ msgstr "Points à pré-valider"
 #. Default: "Items to validate"
 msgid "searchitemstovalidate"
 msgstr "Points à valider"
+
+#. Default: "Items with needed follow-up"
+msgid "searchitemswithneededfollowup"
+msgstr "Suivi à apporter"
+
+#. Default: "Items with provided follow-up"
+msgid "searchitemswithprovidedfollowup"
+msgstr "Suivi apporté"
 
 #. Default: "Last decisions"
 msgid "searchlastdecisions"

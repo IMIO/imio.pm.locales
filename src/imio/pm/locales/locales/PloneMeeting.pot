@@ -3227,6 +3227,14 @@ msgstr ""
 msgid "searchitemsofmycommitteeseditable"
 msgstr ""
 
+#. Default: "Items with needed follow-up"
+msgid "searchitemswithneededfollowup"
+msgstr ""
+
+#. Default: "Items with provided follow-up"
+msgid "searchitemswithprovidedfollowup"
+msgstr ""
+
 #. Default: "What kind of item would you like to create?"
 msgid "choose_item_template"
 msgstr ""
@@ -7192,6 +7200,38 @@ msgstr ""
 
 #. Default: "Warning: the action 'Update labels access cache' will update every items labels access, this needs to be done when labels are activated or when labels config changed."
 msgid "pm_update_labels_access_cache_warning"
+msgstr ""
+
+#. Default: "Needed follow-up"
+msgid "PloneMeeting_label_neededFollowUp"
+msgstr ""
+
+#. Default: " "
+msgid "needed_follow_up_descr"
+msgstr ""
+
+#. Default: "Provided follow-up"
+msgid "PloneMeeting_label_providedFollowUp"
+msgstr ""
+
+#. Default: " "
+msgid "provided_follow_up_descr"
+msgstr ""
+
+#. Default: "Item fields configuration"
+msgid "PloneMeeting_label_itemFieldsConfig"
+msgstr ""
+
+#. Default: "This field let's you configure \"View\" and \"Edit\" item's fields."
+msgid "item_fields_config_descr"
+msgstr ""
+
+#. Default: "Item fields config name"
+msgid "Item fields config name"
+msgstr ""
+
+#. Default: " "
+msgid "item_fields_config_name_description"
 msgstr ""
 
 #. Default: "Encode terms to filter"
