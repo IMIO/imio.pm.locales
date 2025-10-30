@@ -5,8 +5,8 @@ Changelog
 4.2.32 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations related to `Add advices batch action`.
+  [gbastien]
 
 4.2.31 (2025-10-22)
 -------------------
