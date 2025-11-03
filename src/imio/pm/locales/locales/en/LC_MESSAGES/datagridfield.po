@@ -262,6 +262,18 @@ msgstr "Item WF validation levels suffix"
 msgid "Item WF validation levels suffix description."
 msgstr "Item WF validation levels suffix description."
 
+#. Default: "Item fields config edit TAL expression"
+msgid "Item fields config edit TAL expression"
+msgstr "Item fields config edit TAL expression"
+
+#. Default: "Item fields config name"
+msgid "Item fields config name"
+msgstr "Item fields config name"
+
+#. Default: "Item fields config view TAL expression"
+msgid "Item fields config view TAL expression"
+msgstr "Item fields config view TAL expression"
+
 #. Default: "Labels config edit access TAL expression"
 msgid "Labels config edit access TAL expression"
 msgstr "Labels config edit access TAL expression"
@@ -533,6 +545,18 @@ msgstr "Please use following format : YYYY/MM/DD.  Dates must be sorted (from ol
 #. Default: "Set to \"Yes\" if you want to compute delay in calendar days, so ignoring weekends and holidays."
 msgid "is_delay_calendar_days_col_description"
 msgstr "Set to \"Yes\" if you want to compute delay in calendar days, so ignoring weekends and holidays."
+
+#. Default: "Item fields config edit TAL expression description"
+msgid "item_fields_config_edit_tal_expr_description"
+msgstr "Item fields config edit TAL expression description"
+
+#. Default: " "
+msgid "item_fields_config_name_description"
+msgstr " "
+
+#. Default: "Item fields config view TAL expression description"
+msgid "item_fields_config_view_tal_expr_description"
+msgstr "Item fields config view TAL expression description"
 
 #. Default: "Labels config edit access on cache col description"
 msgid "labels_config_edit_access_on_cache_col_description"
