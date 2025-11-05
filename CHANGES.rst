@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-4.2.32 (unreleased)
--------------------
+4.2.32rc1 (unreleased)
+----------------------
 
 - Added translations related to `Add advices batch action`.
   [gbastien]
