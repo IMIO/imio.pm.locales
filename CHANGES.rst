@@ -5,8 +5,8 @@ Changelog
 4.2.32rc2 (unreleased)
 ----------------------
 
-- Nothing changed yet.
-
+- Added translations related to `Add quick/complete advice`.
+  [gbastien]
 
 4.2.32rc1 (2025-11-05)
 ----------------------
