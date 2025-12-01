@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.32rc2 (unreleased)
+4.2.32rc2 (2025-12-01)
 ----------------------
 
 - Added translations related to `Add quick/complete advice`.
