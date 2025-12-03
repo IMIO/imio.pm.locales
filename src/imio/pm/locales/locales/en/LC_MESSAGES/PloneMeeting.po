@@ -61,7 +61,7 @@ msgstr "Add a rich text field to encode advice accounting commitment."
 
 #. Default: "Add complete advice"
 msgid "Add complete advice"
-msgstr ""
+msgstr "Add complete advice"
 
 #. Default: "Add new linked vote"
 msgid "Add new linked vote"
@@ -77,7 +77,7 @@ msgstr "Add organization outside \"My organization\""
 
 #. Default: "Add quick advice"
 msgid "Add quick advice"
-msgstr ""
+msgstr "Add quick advice"
 
 #. Default: "Advice ${advice_label} given on item ${item_title}"
 msgid "Advice ${advice_label} given on item ${item_title}"
@@ -134,6 +134,10 @@ msgstr "Advice proposing group comment"
 #. Default: "Advice proposing group comment description"
 msgid "Advice proposing group comment description"
 msgstr "Advice proposing group comment description"
+
+#. Default: "Advice was quick added."
+msgid "Advice was quick added."
+msgstr "Advice was quick added."
 
 # plone.app.querystring
 #. Default: "Advisers index"
@@ -675,7 +679,7 @@ msgstr "Item excused to apply"
 
 #. Default: "Item fields config name"
 msgid "Item fields config name"
-msgstr ""
+msgstr "Item fields config name"
 
 #. Default: "Item guests to apply"
 msgid "Item guests to apply"
@@ -821,7 +825,7 @@ msgstr "No annex types."
 
 #. Default: "No common or available advice group. Modify your selection."
 msgid "No common or available advice group. Modify your selection."
-msgstr ""
+msgstr "No common or available advice group. Modify your selection."
 
 #. Default: "No complementary comment has been given on this advice."
 msgid "No complementary comment has been given on this advice."
@@ -857,7 +861,7 @@ msgstr "Not able to add new linked votes because incompatible vote vales have be
 
 #. Default: "Not asked advice"
 msgid "Not asked advice"
-msgstr ""
+msgstr "Not asked advice"
 
 #. Default: "Not available when using several votes on same item."
 msgid "Not available when using several votes on same item."
@@ -1205,7 +1209,7 @@ msgstr "Emergency motivation"
 
 #. Default: "Enable add quick advice"
 msgid "PloneMeeting_label_enableAddQuickAdvice"
-msgstr ""
+msgstr "Enable add quick advice"
 
 #. Default: "Enable advice confidentiality"
 msgid "PloneMeeting_label_enableAdviceConfidentiality"
@@ -1429,7 +1433,7 @@ msgstr "Description"
 
 #. Default: "Item fields configuration"
 msgid "PloneMeeting_label_itemFieldsConfig"
-msgstr ""
+msgstr "Item fields configuration"
 
 #. Default: "Item fields to keep configuration sorting for"
 msgid "PloneMeeting_label_itemFieldsToKeepConfigSortingFor"
@@ -3706,7 +3710,7 @@ msgstr "Sub-group \"${suffix}\" is empty"
 
 #. Default: "When enabled it will be possible to add a quick advice of a given type, yet after quick add it is still possible to edit it if necessary."
 msgid "enable_add_quick_advice_descr"
-msgstr ""
+msgstr "When enabled it will be possible to add a quick advice of a given type, yet after quick add it is still possible to edit it if necessary."
 
 #. Default: "If you enable advice confidentiality, it will be possible for meeting managers to select on every advices if it is confidential or not.  This information is only visible to meeting managers."
 msgid "enable_advice_confidentiality_descr"
@@ -4632,11 +4636,11 @@ msgstr "The item has been duplicated and a link to the original item has been ke
 
 #. Default: "This field let's you configure \"View\" and \"Edit\" item's fields."
 msgid "item_fields_config_descr"
-msgstr ""
+msgstr "This field let's you configure \"View\" and \"Edit\" item's fields."
 
 #. Default: " "
 msgid "item_fields_config_name_description"
-msgstr ""
+msgstr " "
 
 #. Default: "By default, vocabularies used for selectable fields are sorted alphabetically, if checked, vocabulary will not be sorted and display terms as encoded in the configuration."
 msgid "item_fields_to_keep_config_sorting_for_descr"
@@ -6101,11 +6105,11 @@ msgstr "Items to validate"
 
 #. Default: "Items with needed follow-up"
 msgid "searchitemswithneededfollowup"
-msgstr ""
+msgstr "Items with needed follow-up"
 
 #. Default: "Items with provided follow-up"
 msgid "searchitemswithprovidedfollowup"
-msgstr ""
+msgstr "Items with provided follow-up"
 
 #. Default: "Last decisions"
 msgid "searchlastdecisions"

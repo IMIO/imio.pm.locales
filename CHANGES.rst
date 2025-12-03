@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-[D[D (unreleased)
--------------------
+4.2.32rc3 (unreleased)
+----------------------
 
-- Nothing changed yet.
-
+- Completed translations related to `Add quick/complete advice`.
+  [gbastien]
 
 4.2.32rc2 (2025-12-01)
 ----------------------
