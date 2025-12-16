@@ -7169,6 +7169,10 @@ msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans 
 msgid "wa_return_to_proposing_group_with_last_validation"
 msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec validation du dernier niveau)"
 
+#. Default: "Return to proposing group for corrections with one validation (the last)"
+msgid "wa_return_to_proposing_group_with_before_last_validation"
+msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec validation de l'avant-dernier niveau)"
+
 #. Default: "Reviewers may take back validated item"
 msgid "wa_reviewers_take_back_validated_item"
 msgstr "Les validateurs peuvent reprendre un point validé"
