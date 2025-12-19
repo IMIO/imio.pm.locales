@@ -8,6 +8,24 @@ Changelog
 - Nothing changed yet.
 
 
+4.2.32rc3 (2025-12-03)
+----------------------
+
+- Completed translations related to `Add quick/complete advice`.
+  [gbastien]
+
+4.2.32rc2 (2025-12-01)
+----------------------
+
+- Added translations related to `Add quick/complete advice`.
+  [gbastien]
+
+4.2.32rc1 (2025-11-05)
+----------------------
+
+- Added translations related to `Add advices batch action`.
+  [gbastien]
+
 4.2.31 (2025-10-22)
 -------------------
 
