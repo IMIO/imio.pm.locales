@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-4.2.32rc4 (unreleased)
-----------------------
+4.2.32 (unreleased)
+-------------------
 
 - Nothing changed yet.
 
