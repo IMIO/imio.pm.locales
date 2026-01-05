@@ -5,8 +5,8 @@ Changelog
 4.2.32 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added translations for `approved_display/approved_edit`.
+  [gbastien]
 
 4.2.32rc3 (2025-12-03)
 ----------------------

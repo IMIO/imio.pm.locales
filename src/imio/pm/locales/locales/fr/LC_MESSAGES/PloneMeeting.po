@@ -1013,7 +1013,7 @@ msgstr "N'importe quel utilisateur capable d'éditer une annexe peut y insérer 
 
 #. Default: "Attributes of annexes only displayed and/or editable by MeetingManagers"
 msgid "PloneMeeting_label_annexRestrictShownAndEditableAttributes"
-msgstr "Attributs des annexes affichés ou éditables seulement pas les gestionnaires de séances"
+msgstr "Attributs des annexes affichés ou éditables seulement par les gestionnaires de séances"
 
 #. Default: "Annex to print mode"
 msgid "PloneMeeting_label_annexToPrintMode"
@@ -2839,6 +2839,14 @@ msgstr "Les types d'annexes sont cachés par défaut, vous pouvez cependant en $
 #. Default: "Application users"
 msgid "app_users"
 msgstr "Utilisateurs de l'application (créateurs, validateurs, ...)"
+
+#. Default: "Approved (displayed)"
+msgid "approved_display"
+msgstr "À approuver/Approuvé (affiché seulement aux gestionnaires de séances)"
+
+#. Default: "Approved (editable)"
+msgid "approved_edit"
+msgstr "À approuver/Approuvé (éditable seulement par les gestionnaires de séances)"
 
 #. Default: "Are you sure?"
 msgid "are_you_sure"
