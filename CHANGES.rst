@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.32 (unreleased)
+4.2.32 (2026-01-05)
 -------------------
 
 - Added translations for `approved_display/approved_edit`.
