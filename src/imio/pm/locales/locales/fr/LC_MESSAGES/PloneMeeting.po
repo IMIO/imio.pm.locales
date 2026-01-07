@@ -59,6 +59,10 @@ msgstr "Ajout d'un portlet \"À faire\""
 msgid "Add a rich text field to encode advice accounting commitment."
 msgstr "Ajout d'un champ de texte riche \"Numéro d'engagement\""
 
+#. Default: "Add complete advice"
+msgid "Add complete advice"
+msgstr "Ajouter un avis complet"
+
 #. Default: "Add new linked vote"
 msgid "Add new linked vote"
 msgstr "Ajouter un nouveau vote lié"
@@ -70,6 +74,10 @@ msgstr "Ajouter un nouveau vote"
 #. Default: "Add organization outside \"My organization\""
 msgid "Add organization outside \"My organization\""
 msgstr "Ajouter une organisation hors de \"Mon organisation\""
+
+#. Default: "Add quick advice"
+msgid "Add quick advice"
+msgstr "Ajouter un avis rapide"
 
 #. Default: "Advice ${advice_label} given on item ${item_title}"
 msgid "Advice ${advice_label} given on item ${item_title}"
@@ -126,6 +134,10 @@ msgstr "Commentaire du groupe proposant"
 #. Default: "Advice proposing group comment description"
 msgid "Advice proposing group comment description"
 msgstr "Le commentaire du groupe proposant n'est éditable que par le groupe proposant du point et les gestionnaires de séances (quand c'est nécessaire).  Il sera visible par les émetteurs d'avis du groupe auquel l'avis est demandé."
+
+#. Default: "Advice was quick added."
+msgid "Advice was quick added."
+msgstr "L'avis a été ajouté."
 
 # plone.app.querystring
 #. Default: "Advisers index"
@@ -811,6 +823,10 @@ msgstr "Aucun sous-type d'annexe."
 msgid "No annex types."
 msgstr "Aucun type d'annexe."
 
+#. Default: "No common or available advice group. Modify your selection."
+msgid "No common or available advice group. Modify your selection."
+msgstr "<span class='highlight-red'>Aucun groupe commun ou valide. Recommencez en modifiant votre sélection.</span>"
+
 #. Default: "No complementary comment has been given on this advice."
 msgid "No complementary comment has been given on this advice."
 msgstr "Aucun commentaire complémentaire n'a été ajouté sur cet avis."
@@ -842,6 +858,10 @@ msgstr "Aucun"
 #. Default: "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
 msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote or poll type for current vote was redefined"
 msgstr "Impossible d'ajouter un vote lié car des valeurs incompatibles ont déjà été encodées sur le vote courant ou le \"Mode de scrutin\" a été redéfini pour le vote courant"
+
+#. Default: "Not asked advice"
+msgid "Not asked advice"
+msgstr "Avis d'initiative"
 
 #. Default: "Not available when using several votes on same item."
 msgid "Not available when using several votes on same item."
@@ -993,7 +1013,7 @@ msgstr "N'importe quel utilisateur capable d'éditer une annexe peut y insérer 
 
 #. Default: "Attributes of annexes only displayed and/or editable by MeetingManagers"
 msgid "PloneMeeting_label_annexRestrictShownAndEditableAttributes"
-msgstr "Attributs des annexes affichés ou éditables seulement pas les gestionnaires de séances"
+msgstr "Attributs des annexes affichés ou éditables seulement par les gestionnaires de séances"
 
 #. Default: "Annex to print mode"
 msgid "PloneMeeting_label_annexToPrintMode"
@@ -1186,6 +1206,10 @@ msgstr "Urgence"
 #. Default: "Emergency motivation"
 msgid "PloneMeeting_label_emergencyMotivation"
 msgstr "Motivation de l'urgence"
+
+#. Default: "Enable add quick advice"
+msgid "PloneMeeting_label_enableAddQuickAdvice"
+msgstr "Activer l'ajout d'avis rapide"
 
 #. Default: "Enable advice confidentiality"
 msgid "PloneMeeting_label_enableAdviceConfidentiality"
@@ -2820,6 +2844,14 @@ msgstr "Les types d'annexes sont cachés par défaut, vous pouvez cependant en $
 msgid "app_users"
 msgstr "Utilisateurs de l'application (créateurs, validateurs, ...)"
 
+#. Default: "Approved (displayed)"
+msgid "approved_display"
+msgstr "À approuver/Approuvé (affiché seulement aux gestionnaires de séances)"
+
+#. Default: "Approved (editable)"
+msgid "approved_edit"
+msgstr "À approuver/Approuvé (éditable seulement par les gestionnaires de séances)"
+
 #. Default: "Are you sure?"
 msgid "are_you_sure"
 msgstr "Êtes-vous sûr de vouloir effectuer cette action?"
@@ -3706,6 +3738,10 @@ msgstr " "
 msgid "empty_suffixed_group"
 msgstr "Le sous-groupe \"${suffix}\" est vide"
 
+#. Default: "When enabled it will be possible to add a quick advice of a given type, yet after quick add it is still possible to edit it if necessary."
+msgid "enable_add_quick_advice_descr"
+msgstr "Si activé, un menu déroulant sera affiché lors de l'ajout d'un avis et permettra d'ajouter soit un avis complet, soit un avis rapide d'un des types d'avis activés (positif, négatif, ...).  Après ajout d'un avis rapide ce dernier reste cependant éditable si nécessaire."
+
 #. Default: "If you enable advice confidentiality, it will be possible for meeting managers to select on every advices if it is confidential or not.  This information is only visible to meeting managers."
 msgid "enable_advice_confidentiality_descr"
 msgstr "Si vous activez la confidentialité des avis, il sera possible pour les gestionnaires de séances de définir pour chaque avis si il est confidentiel ou non.  Cette information ne sera visible que par les gestionnaires de séances."
@@ -3948,7 +3984,7 @@ msgstr "Votes"
 
 #. Default: "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
 msgid "export_pdf_descr"
-msgstr "Cette action permet de grouper des documents PDF dans un PDF unique.  Dans la liste des annexes, les annexes grisées ne sont pas des documents PDF et ne peuvent pas être sélectionnées."
+msgstr "<p class='discreet'>Cette action permet de grouper des documents PDF dans un PDF unique.  Dans la liste des annexes, les annexes grisées ne sont pas des documents PDF et ne peuvent pas être sélectionnées.</p>"
 
 #. Default: "External linked elements"
 msgid "external_linked_elements"

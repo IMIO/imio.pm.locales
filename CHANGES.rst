@@ -2,11 +2,35 @@ Changelog
 =========
 
 
-4.2.32 (unreleased)
+4.2.33 (unreleased)
 -------------------
 
 - Nothing changed yet.
 
+
+4.2.32 (2026-01-05)
+-------------------
+
+- Added translations for `approved_display/approved_edit`.
+  [gbastien]
+
+4.2.32rc3 (2025-12-03)
+----------------------
+
+- Completed translations related to `Add quick/complete advice`.
+  [gbastien]
+
+4.2.32rc2 (2025-12-01)
+----------------------
+
+- Added translations related to `Add quick/complete advice`.
+  [gbastien]
+
+4.2.32rc1 (2025-11-05)
+----------------------
+
+- Added translations related to `Add advices batch action`.
+  [gbastien]
 
 4.2.31 (2025-10-22)
 -------------------

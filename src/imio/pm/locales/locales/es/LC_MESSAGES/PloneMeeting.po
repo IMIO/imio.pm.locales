@@ -63,6 +63,10 @@ msgstr "Agregar Portlet Todo"
 msgid "Add a rich text field to encode advice accounting commitment."
 msgstr ""
 
+#. Default: "Add complete advice"
+msgid "Add complete advice"
+msgstr ""
+
 #. Default: "Add new linked vote"
 msgid "Add new linked vote"
 msgstr ""
@@ -73,6 +77,10 @@ msgstr ""
 
 #. Default: "Add organization outside \"My organization\""
 msgid "Add organization outside \"My organization\""
+msgstr ""
+
+#. Default: "Add quick advice"
+msgid "Add quick advice"
 msgstr ""
 
 #. Default: "Advice ${advice_label} given on item ${item_title}"
@@ -129,6 +137,10 @@ msgstr ""
 
 #. Default: "Advice proposing group comment description"
 msgid "Advice proposing group comment description"
+msgstr ""
+
+#. Default: "Advice was quick added."
+msgid "Advice was quick added."
 msgstr ""
 
 # plone.app.querystring
@@ -815,6 +827,10 @@ msgstr ""
 msgid "No annex types."
 msgstr ""
 
+#. Default: "No common or available advice group. Modify your selection."
+msgid "No common or available advice group. Modify your selection."
+msgstr ""
+
 #. Default: "No complementary comment has been given on this advice."
 msgid "No complementary comment has been given on this advice."
 msgstr "Ningún comentario complementario se ha dado en este consejo."
@@ -845,6 +861,10 @@ msgstr ""
 
 #. Default: "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
 msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote or poll type for current vote was redefined"
+msgstr ""
+
+#. Default: "Not asked advice"
+msgid "Not asked advice"
 msgstr ""
 
 #. Default: "Not available when using several votes on same item."
@@ -1193,6 +1213,10 @@ msgstr ""
 
 #. Default: "Emergency motivation"
 msgid "PloneMeeting_label_emergencyMotivation"
+msgstr ""
+
+#. Default: "Enable add quick advice"
+msgid "PloneMeeting_label_enableAddQuickAdvice"
 msgstr ""
 
 #. Default: "Enable advice confidentiality"
@@ -2827,6 +2851,14 @@ msgstr ""
 msgid "app_users"
 msgstr ""
 
+#. Default: "Approved (displayed)"
+msgid "approved_display"
+msgstr ""
+
+#. Default: "Approved (editable)"
+msgid "approved_edit"
+msgstr ""
+
 #. Default: "Are you sure?"
 msgid "are_you_sure"
 msgstr "¿Está seguro?"
@@ -3718,6 +3750,10 @@ msgstr ""
 
 #. Default: "Sub-group \"${suffix}\" is empty"
 msgid "empty_suffixed_group"
+msgstr ""
+
+#. Default: "When enabled it will be possible to add a quick advice of a given type, yet after quick add it is still possible to edit it if necessary."
+msgid "enable_add_quick_advice_descr"
 msgstr ""
 
 #. Default: "If you enable advice confidentiality, it will be possible for meeting managers to select on every advices if it is confidential or not.  This information is only visible to meeting managers."
