@@ -5,8 +5,8 @@ Changelog
 4.2.33 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Accurate french translation for `labels_config_descr`.
+  [gbastien]
 
 4.2.32 (2026-01-05)
 -------------------
