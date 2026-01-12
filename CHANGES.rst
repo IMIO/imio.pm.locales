@@ -7,6 +7,8 @@ Changelog
 
 - Accurate french translation for `labels_config_descr`.
   [gbastien]
+- Accurate french translation for `No common or available advice group. Modify your selection.`.
+  [gbastien]
 
 4.2.32 (2026-01-05)
 -------------------
