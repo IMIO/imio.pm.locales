@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.33 (unreleased)
+4.2.33 (2026-01-13)
 -------------------
 
 - Accurate french translation for `labels_config_descr`.
