@@ -6321,6 +6321,10 @@ msgstr "Vous n'avez pas la permission d'ajouter une annexe à cet élément."
 msgid "store_podtemplate_as_annex_can_not_store_several_times"
 msgstr "Impossible de stocker plusieurs fois le même document généré."
 
+#. Default: "Not able to get signer, error is: \"${msg}\"."
+msgid "store_podtemplate_as_annex_signers_error"
+msgstr "e-signature non disponible: impossible d'obtenir les signataires, l'erreur est: \"${msg}\"."
+
 #. Default: "Can not store annex using annex type selected in the configuration.  Please contact the system administrator."
 msgid "store_podtemplate_as_annex_wrong_annex_type_on_pod_template"
 msgstr "Impossible de stocker l'annexe en utilisant le type d'annexe défini dans la configuration.  Contactez votre administrateur système."
