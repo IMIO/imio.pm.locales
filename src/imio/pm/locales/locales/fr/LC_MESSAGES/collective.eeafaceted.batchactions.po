@@ -18,9 +18,9 @@ msgstr ""
 msgid "Add common advice for selected elements"
 msgstr "Ajouter un avis commun par lot"
 
-#. Default: "Store POD template as annex for selected elements"
-msgid "Store POD template as annex for selected elements"
-msgstr "Annexer un document généré aux éléments sélectionnés"
+#. Default: "Store POD template as annex"
+msgid "Store POD template as annex"
+msgstr "Préparer pour signature"
 
 #. Default: "Update accesses for selected elements"
 msgid "Update accesses for selected elements"
@@ -44,7 +44,11 @@ msgstr "Ajouter un avis commun"
 
 #. Default: "Store relevant POD template as annex"
 msgid "store-items-template-as-annex-batch-action-but"
-msgstr "Annexer un document généré"
+msgstr "Préparer pour signature"
+
+#. Default: "<p class='discreet'>This will store the selected generable document as annex on selected elements.</p>"
+msgid "store_pod_template_as_annex_batch_action_descr"
+msgstr "<p class='discreet'>Cette action stockera en annexe le \"Modèle de document à annexer\" choisi ci-dessous aux éléments sélectionnés.</p>"
 
 #. Default: "Update committees"
 msgid "update-committees-batch-action-but"

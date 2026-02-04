@@ -2177,6 +2177,10 @@ msgstr ""
 msgid "Signature position type"
 msgstr ""
 
+#. Default: "Signers that will be used in the generated document:"
+msgid "Signers that will be used in the generated document:"
+msgstr ""
+
 #. Default: "Specify a number to which this will be applied. Field default is current item number."
 msgid "Specify a number to which this will be applied. Field default is current item number."
 msgstr ""
@@ -3624,6 +3628,14 @@ msgstr ""
 msgid "delay_unavailable_end_days_descr"
 msgstr ""
 
+#. Default: "This will add the annexes marked as \"To sign\" to the e-signing session."
+msgid "descr_add_annexes_to_sign_session"
+msgstr ""
+
+#. Default: "This will add the annexes to a e-signing session that will be selected automatically depending on your configuration."
+msgid "descr_add_to_sign_session"
+msgstr ""
+
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
 msgid "descr_assembly"
 msgstr ""
@@ -3670,6 +3682,10 @@ msgstr ""
 
 #. Default: "signatures stored on the linked meeting"
 msgid "display_meeting_signatures_legend"
+msgstr ""
+
+#. Default: "Not correct?  Configure signatories"
+msgid "display_signers_configure_signatories"
 msgstr ""
 
 #. Default: "Display voting group in assemblies."
@@ -3846,6 +3862,10 @@ msgstr ""
 
 #. Default: "Some selected values are no more selectable (no more selected in the \"Ordered committees contacts\" field), please check value \"${hp_title}\".  You can not select \"No committee\" and a committee.  If you lost encoded values, just cancel edition and edit again correctly."
 msgid "error_value_removed_used_in_committees_field"
+msgstr ""
+
+#. Default: "e-Signature:"
+msgid "esign_label"
 msgstr ""
 
 #. Default: "An annex was added to an item already presented in a validated agenda (notify \"MeetingManagers\")"
@@ -6290,6 +6310,10 @@ msgstr ""
 msgid "store_as_annex_type_title"
 msgstr ""
 
+#. Default: "Store pod template as annex so it can be printed or sent to a e-signing session."
+msgid "store_pod_template_as_annex_descr"
+msgstr ""
+
 #. Default: "Not allowed to add annex in this element."
 msgid "store_podtemplate_as_annex_can_not_add_annex"
 msgstr ""
@@ -6404,6 +6428,14 @@ msgstr ""
 
 #. Default: "Absents"
 msgid "title_absents"
+msgstr ""
+
+#. Default: "Add annexes \"To sign\" to the e-sign session"
+msgid "title_add_annexes_to_sign_session"
+msgstr ""
+
+#. Default: "Add generated annex to a e-sign session"
+msgid "title_add_to_sign_session"
 msgstr ""
 
 #. Default: "Adopts next agenda of"
