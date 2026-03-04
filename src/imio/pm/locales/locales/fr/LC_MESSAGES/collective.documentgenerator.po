@@ -14,6 +14,22 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
+#. Default: "eSign include seal?"
+msgid "esign_include_seal"
+msgstr "Signature électronique: inclure le sceau?"
+
+#. Default: "eSign include seal descr"
+msgid "esign_include_seal_descr"
+msgstr "Permet d'inclure automatiquement le sceau dans les documents envoyés pour signature dans Paraphéo."
+
+#. Default: "eSign signer TAL expression"
+msgid "esign_signers_expr"
+msgstr "Signature électronique: expression au format TAL permettant de définir les signataires"
+
+#. Default: "eSign signer TAL expression description"
+msgid "esign_signers_expr_descr"
+msgstr "Encodez ici une expression au format TAL permettant de définir quels seront les signataires pour ce document.  Ceux-ci doivent correspondre aux signataires repris dans le document."
+
 #. Default: "Mailing lists"
 msgid "mailing_lists"
 msgstr "Listes de diffusion"

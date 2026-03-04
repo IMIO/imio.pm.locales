@@ -3694,10 +3694,6 @@ msgstr "Présents définis sur la séance"
 msgid "display_meeting_signatures_legend"
 msgstr "Signatures définies sur la séance"
 
-#. Default: "Not correct?  Configure signatories"
-msgid "display_signers_configure_signatories"
-msgstr "Pas correct?  Éditez les signataires"
-
 #. Default: "Display voting group in assemblies."
 msgid "display_voting_group_descr"
 msgstr "Affichera le \"Groupe votant\" dans l'interface (Assemblée et signatures)."
@@ -6320,6 +6316,10 @@ msgstr "À signer/Signé (affiché seulement aux gestionnaires de séances)"
 #. Default: "Signed (editable)"
 msgid "signed_edit"
 msgstr "À signer/Signé (éditable seulement par les gestionnaires de séances)"
+
+#. Default: "Signer"
+msgid "signer"
+msgstr "Signataire"
 
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
