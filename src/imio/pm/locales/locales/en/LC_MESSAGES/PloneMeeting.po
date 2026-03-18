@@ -320,6 +320,10 @@ msgstr "Completed votes"
 msgid "Contacts fields"
 msgstr "Contacts fields"
 
+#. Default: "Could not find a user with userid \"${userid}\" defined on person at \"${person_url}\"!"
+msgid "Could not find a user with userid \"${userid}\" defined on person at \"${person_url}\"!"
+msgstr ""
+
 #. Default: "Create an item from an item template"
 msgid "Create an item from an item template"
 msgstr "Create an item from an item template"
@@ -831,6 +835,10 @@ msgstr "No common or available advice group. Modify your selection."
 msgid "No complementary comment has been given on this advice."
 msgstr "No complementary comment has been given on this advice."
 
+#. Default: "No held position for signer number \"${signature_number}\" (${signer})!"
+msgid "No held position for signer number \"${signature_number}\" (${signer})!"
+msgstr ""
+
 #. Default: "No historized data for this advice."
 msgid "No historized data for this advice."
 msgstr "No historized data for this advice."
@@ -842,6 +850,10 @@ msgstr "No history informations are available for now."
 #. Default: "No label defined on held position"
 msgid "No label defined on held position"
 msgstr "No label defined on held position"
+
+#. Default: "No userid for person at \"${person_url}\"!"
+msgid "No userid for person at \"${person_url}\"!"
+msgstr ""
 
 #. Default: "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
 msgid "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
@@ -2113,6 +2125,14 @@ msgstr "Remove redefined attendee position for this item"
 msgid "Represented organizations"
 msgstr "Represented organizations"
 
+#. Default: "Same email address for users \"${userid1}\" and \"${userid2}\"!"
+msgid "Same email address for users \"${userid1}\" and \"${userid2}\"!"
+msgstr ""
+
+#. Default: "Same userid for signers \"${person1_url}\" and \"${person2_url}\"!"
+msgid "Same userid for signers \"${person1_url}\" and \"${person2_url}\"!"
+msgstr ""
+
 #. Default: "Searches"
 msgid "Searches"
 msgstr "Searches"
@@ -2351,6 +2371,10 @@ msgstr "Used by following contents"
 #. Default: "Used in the assembly for meetings"
 msgid "Used in the assembly for meetings"
 msgstr "Used in the assembly for meetings"
+
+#. Default: "User \"${userid}\" does not have an email address!"
+msgid "User \"${userid}\" does not have an email address!"
+msgstr ""
 
 #. Default: "Vote count"
 msgid "Vote count"
@@ -2704,6 +2728,14 @@ msgstr "An annex has been added to the item \"${itemTitle}\" that was already pr
 msgid "annexAdded_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - An annex was just added to an item."
 
+#. Default: "Annex \"${annex_title}\" was added to session \"${session_id}\"."
+msgid "annex_added_to_session"
+msgstr ""
+
+#. Default: "Annex \"${annex_title}\" is already in draft session \"${session_id}\"!"
+msgid "annex_already_in_draft_session_error"
+msgstr ""
+
 #. Default: "If an annex is marked as \"Confidential\" by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"
 msgstr "If an annex is marked as \"Confidential\" by a meeting manager, following selected profiles will not be able to see it."
@@ -2723,6 +2755,10 @@ msgstr "The item was duplicated but the annex with title \"${annexTitle}\" was n
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept, please contact system administrator if necessary."
 msgid "annex_not_kept_item_paste_info"
 msgstr "The item was duplicated but the annex with title \"${annexTitle}\" was not kept, please contact system administrator if necessary."
+
+#. Default: "Annex \"${annex_title}\" must be PDF to be added to a session!"
+msgid "annex_not_pdf_error"
+msgstr ""
 
 #. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
 msgid "annex_restrict_shown_and_editable_attributes_descr"
@@ -3655,6 +3691,10 @@ msgstr "<span style='color: green;'>This field is only editable by meeting manag
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
 msgid "descr_field_vieawable_by_everyone_once_meeting_decided"
 msgstr "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
+
+#. Default: "You can choose to not store the generated document, if selected, annexes to sign will be stored and will use the proposed signatories."
+msgid "descr_store_generated_document"
+msgstr ""
 
 #. Default: "You are just able to see visible elements here. Please consult the \"manage\" box here opposite."
 msgid "description_only_see_visible_items"
@@ -5312,9 +5352,9 @@ msgstr "No committee"
 msgid "no_committees_assembly_and_committees_attendees"
 msgstr "Attributes \"committees_assembly\" and \"committees_attendees\" can't be used together."
 
-#. Default: "Attributes \"committees_sigantures\" and \"committees_signatories\" can't be used together."
+#. Default: "Attributes \"committees_signatures\" and \"committees_signatories\" can't be used together."
 msgid "no_committees_signatures_and_committees_signatories"
-msgstr "Attributes \"committees_sigantures\" and \"committees_signatories\" can't be used together."
+msgstr "Attributes \"committees_signatures\" and \"committees_signatories\" can't be used together."
 
 #. Default: "None"
 msgid "no_config_group"
@@ -6684,6 +6724,10 @@ msgstr "Signatures"
 #. Default: "Start date"
 msgid "title_start_date"
 msgstr "Start date"
+
+#. Default: "Store generated document?"
+msgid "title_store_generated_document"
+msgstr ""
 
 #. Default: "Deadline for validating items"
 msgid "title_validation_deadline"

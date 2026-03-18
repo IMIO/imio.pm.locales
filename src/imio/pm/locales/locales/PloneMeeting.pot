@@ -6758,7 +6758,7 @@ msgstr ""
 msgid "no_committees_assembly_and_committees_attendees"
 msgstr ""
 
-#. Default: "Attributes \"committees_sigantures\" and \"committees_signatories\" can't be used together."
+#. Default: "Attributes \"committees_signatures\" and \"committees_signatories\" can't be used together."
 msgid "no_committees_signatures_and_committees_signatories"
 msgstr ""
 
@@ -7324,4 +7324,48 @@ msgstr ""
 
 #. Default: "Store pod template as annex so it can be printed or sent to a e-signing session."
 msgid "store_pod_template_as_annex_descr"
+msgstr ""
+
+#. Default: "Store generated document?"
+msgid "title_store_generated_document"
+msgstr ""
+
+#. Default: "You can choose to not store the generated document, if selected, annexes to sign will be stored and will use the proposed signatories."
+msgid "descr_store_generated_document"
+msgstr ""
+
+#. Default: "No userid for person at \"${person_url}\"!"
+msgid "No userid for person at \"${person_url}\"!"
+msgstr ""
+
+#. Default: "Same userid for signers \"${person1_url}\" and \"${person2_url}\"!"
+msgid "Same userid for signers \"${person1_url}\" and \"${person2_url}\"!"
+msgstr ""
+
+#. Default: "Could not find a user with userid \"${userid}\" defined on person at \"${person_url}\"!"
+msgid "Could not find a user with userid \"${userid}\" defined on person at \"${person_url}\"!"
+msgstr ""
+
+#. Default: "User \"${userid}\" does not have an email address!"
+msgid "User \"${userid}\" does not have an email address!"
+msgstr ""
+
+#. Default: "Same email address for users \"${userid1}\" and \"${userid2}\"!"
+msgid "Same email address for users \"${userid1}\" and \"${userid2}\"!"
+msgstr ""
+
+#. Default: "No held position for signer number \"${signature_number}\" (${signer})!"
+msgid "No held position for signer number \"${signature_number}\" (${signer})!"
+msgstr ""
+
+#. Default: "Annex \"${annex_title}\" was added to session \"${session_id}\"."
+msgid "annex_added_to_session"
+msgstr ""
+
+#. Default: "Annex \"${annex_title}\" must be PDF to be added to a session!"
+msgid "annex_not_pdf_error"
+msgstr ""
+
+#. Default: "Annex \"${annex_title}\" is already in draft session \"${session_id}\"!"
+msgid "annex_already_in_draft_session_error"
 msgstr ""

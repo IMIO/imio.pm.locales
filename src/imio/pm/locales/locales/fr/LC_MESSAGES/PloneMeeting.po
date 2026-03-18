@@ -320,6 +320,10 @@ msgstr "Votes complétés"
 msgid "Contacts fields"
 msgstr "Champs utilisant des contacts"
 
+#. Default: "Could not find a user with userid \"${userid}\" defined on person at \"${person_url}\"!"
+msgid "Could not find a user with userid \"${userid}\" defined on person at \"${person_url}\"!"
+msgstr "Impossible de trouve l'utilisateur Plone \"${userid}\" défini sur la personne \"${person_url}\"!"
+
 #. Default: "Create an item from an item template"
 msgid "Create an item from an item template"
 msgstr "Créer un point depuis un modèle"
@@ -831,6 +835,10 @@ msgstr "<span class='highlight-red'>Aucun groupe commun ou valide. Veuillez ne s
 msgid "No complementary comment has been given on this advice."
 msgstr "Aucun commentaire complémentaire n'a été ajouté sur cet avis."
 
+#. Default: "No held position for signer number \"${signature_number}\" (${signer})!"
+msgid "No held position for signer number \"${signature_number}\" (${signer})!"
+msgstr "Aucune fonction occupée définie pour la signature numéro \"${signature_number}\" (${signer})!"
+
 #. Default: "No historized data for this advice."
 msgid "No historized data for this advice."
 msgstr "Aucune donnée historisée pour cet avis."
@@ -842,6 +850,10 @@ msgstr "Aucune information d'historique disponible pour l'instant."
 #. Default: "No label defined on held position"
 msgid "No label defined on held position"
 msgstr "Sans libellé?"
+
+#. Default: "No userid for person at \"${person_url}\"!"
+msgid "No userid for person at \"${person_url}\"!"
+msgstr "Aucun \"Utilisateur Plone\" pour la personne \"${person_url}\"!"
 
 #. Default: "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
 msgid "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
@@ -2113,6 +2125,14 @@ msgstr "Enlever la fonction redéfinie pour ce membre pour ce point"
 msgid "Represented organizations"
 msgstr "Organisations représentées"
 
+#. Default: "Same email address for users \"${userid1}\" and \"${userid2}\"!"
+msgid "Same email address for users \"${userid1}\" and \"${userid2}\"!"
+msgstr "Même adresse e-mail pour les utilisateurs \"${userid1}\" et \"${userid2}\"!"
+
+#. Default: "Same userid for signers \"${person1_url}\" and \"${person2_url}\"!"
+msgid "Same userid for signers \"${person1_url}\" and \"${person2_url}\"!"
+msgstr "Même utilisateur Plone sélectionné pour les 2 personnes \"${person1_url}\" et \"${person2_url}\"!"
+
 #. Default: "Searches"
 msgid "Searches"
 msgstr "Recherches"
@@ -2351,6 +2371,10 @@ msgstr "Contact utilisé par"
 #. Default: "Used in the assembly for meetings"
 msgid "Used in the assembly for meetings"
 msgstr "Renseigné dans l'assemblée/signatures des séances"
+
+#. Default: "User \"${userid}\" does not have an email address!"
+msgid "User \"${userid}\" does not have an email address!"
+msgstr "L'utilisateur Plone \"${userid}\" n'a pas d'adresse e-mail!"
 
 #. Default: "Vote count"
 msgid "Vote count"
@@ -2720,6 +2744,14 @@ msgstr ""
 msgid "annexAdded_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - Une annexe vient d'être ajoutée à un point."
 
+#. Default: "Annex \"${annex_title}\" was added to session \"${session_id}\"."
+msgid "annex_added_to_session"
+msgstr "L'annexe \"${annex_title}\" a été ajoutée à la session \"${session_id}\"."
+
+#. Default: "Annex \"${annex_title}\" is already in draft session \"${session_id}\"!"
+msgid "annex_already_in_draft_session_error"
+msgstr "L'annexe \"${annex_title}\" est déjà dans la session en création \"${session_id}\"!"
+
 #. Default: "If an annex is marked as \"Confidential\" by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"
 msgstr "Si une annexe est marquée comme \"Confidentielle\" par un gestionnaire des séances, les profils sélectionnés ci-dessous ne pourront pas la voir."
@@ -2739,6 +2771,10 @@ msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept, please contact system administrator if necessary."
 msgid "annex_not_kept_item_paste_info"
 msgstr "Le point a été dupliqué mais l'annexe ayant le titre \"${annexTitle}\" n'a pas été gardée, contactez votre administrateur système si nécessaire."
+
+#. Default: "Annex \"${annex_title}\" must be PDF to be added to a session!"
+msgid "annex_not_pdf_error"
+msgstr "L'annexe \"${annex_title}\" doit être au format PDF pour être ajoutée dans une session!"
 
 #. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
 msgid "annex_restrict_shown_and_editable_attributes_descr"
@@ -3673,6 +3709,10 @@ msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestion
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
 msgid "descr_field_vieawable_by_everyone_once_meeting_decided"
 msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestionnaires de séances, consultable par les super observateurs ayant accès à la séance et <strong>consultable par tout le monde seulement lorsque la séance est décidée</strong></span>"
+
+#. Default: "You can choose to not store the generated document, if selected, annexes to sign will be stored and will use the proposed signatories."
+msgid "descr_store_generated_document"
+msgstr "Par défaut le document généré sera stocké comme annexe sur le point, si décoché, le document ne sera pas stocké, par contre si vous avez coché \"Ajouter les annexes \"À signer\" à la session de signature électronique?\", celles-ci seront ajoutées à une session de signature électronique avec les signataires définis ci-dessus."
 
 #. Default: "You are just able to see visible elements here. Please consult the \"manage\" box here opposite."
 msgid "description_only_see_visible_items"
@@ -5157,7 +5197,7 @@ msgstr "Paramètre(s) définis dans la configuration qui influent sur l'ordre d'
 
 #. Default: "This enable an action on the meeting to be able to store as annex a selected POD template if field \"Store this POD template as annex\" is defined on a POD template."
 msgid "meeting_item_templates_to_store_as_annex_descr"
-msgstr "Ceci activera une action sur les séances permettant de stocker en tant qu'annexe les modèles de document POD sélectionnés.  Ce champ n'est utile que si vous avez utilisez le champ \"Stocker le modèle de document POD généré en tant qu'annexe\" sur un modèle de document POD."
+msgstr "Ceci activera une action sur les séances permettant de stocker en tant qu'annexe les modèles de document POD sélectionnés.  Ce champ n'est utile que si vous avez utilisez le champ \"Stocker un document généré: type d'annexe à utiliser pour le document stocké\" sur un modèle de document POD."
 
 #. Default: "Warning, the meeting number is inconsistent with previous meeting number that is \"${previous_meeting_number}\", please check meetings numbers consitency manually and adapt field \"Last meeting number\" in the configuration if necessary!."
 msgid "meeting_number_inconsistent"
@@ -5338,7 +5378,7 @@ msgstr "Ne passe pas en commission"
 msgid "no_committees_assembly_and_committees_attendees"
 msgstr "Les attributs \"Assemblée (committees_assembly)\" et \"Présents (committees_attendees)\" ne peuvent être utilisés ensemble."
 
-#. Default: "Attributes \"committees_sigantures\" and \"committees_signatories\" can't be used together."
+#. Default: "Attributes \"committees_signatures\" and \"committees_signatories\" can't be used together."
 msgid "no_committees_signatures_and_committees_signatories"
 msgstr "Les attributs \"Signatures (committees_signatures)\" et \"Présents (committees_attendees)\" ne peuvent être utilisés ensemble."
 
@@ -6712,6 +6752,10 @@ msgstr "Signatures"
 #. Default: "Start date"
 msgid "title_start_date"
 msgstr "Date et heure de début"
+
+#. Default: "Store generated document?"
+msgid "title_store_generated_document"
+msgstr "Stocker le document généré?"
 
 #. Default: "Deadline for validating items"
 msgid "title_validation_deadline"

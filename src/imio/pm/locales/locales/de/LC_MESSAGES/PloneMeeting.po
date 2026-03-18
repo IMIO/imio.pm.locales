@@ -320,6 +320,10 @@ msgstr ""
 msgid "Contacts fields"
 msgstr ""
 
+#. Default: "Could not find a user with userid \"${userid}\" defined on person at \"${person_url}\"!"
+msgid "Could not find a user with userid \"${userid}\" defined on person at \"${person_url}\"!"
+msgstr ""
+
 #. Default: "Create an item from an item template"
 msgid "Create an item from an item template"
 msgstr ""
@@ -831,6 +835,10 @@ msgstr ""
 msgid "No complementary comment has been given on this advice."
 msgstr ""
 
+#. Default: "No held position for signer number \"${signature_number}\" (${signer})!"
+msgid "No held position for signer number \"${signature_number}\" (${signer})!"
+msgstr ""
+
 #. Default: "No historized data for this advice."
 msgid "No historized data for this advice."
 msgstr ""
@@ -841,6 +849,10 @@ msgstr ""
 
 #. Default: "No label defined on held position"
 msgid "No label defined on held position"
+msgstr ""
+
+#. Default: "No userid for person at \"${person_url}\"!"
+msgid "No userid for person at \"${person_url}\"!"
 msgstr ""
 
 #. Default: "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
@@ -2125,6 +2137,14 @@ msgstr ""
 msgid "Represented organizations"
 msgstr ""
 
+#. Default: "Same email address for users \"${userid1}\" and \"${userid2}\"!"
+msgid "Same email address for users \"${userid1}\" and \"${userid2}\"!"
+msgstr ""
+
+#. Default: "Same userid for signers \"${person1_url}\" and \"${person2_url}\"!"
+msgid "Same userid for signers \"${person1_url}\" and \"${person2_url}\"!"
+msgstr ""
+
 #. Default: "Searches"
 msgid "Searches"
 msgstr ""
@@ -2362,6 +2382,10 @@ msgstr ""
 
 #. Default: "Used in the assembly for meetings"
 msgid "Used in the assembly for meetings"
+msgstr ""
+
+#. Default: "User \"${userid}\" does not have an email address!"
+msgid "User \"${userid}\" does not have an email address!"
 msgstr ""
 
 #. Default: "Vote count"
@@ -2719,6 +2743,14 @@ msgstr "Der TOP trägt dem Namen '${itemTitle}'. Mehr Informationen auf ${portal
 msgid "annexAdded_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - Ein Anhang wurde gerade zu einem TOP zugefügt."
 
+#. Default: "Annex \"${annex_title}\" was added to session \"${session_id}\"."
+msgid "annex_added_to_session"
+msgstr ""
+
+#. Default: "Annex \"${annex_title}\" is already in draft session \"${session_id}\"!"
+msgid "annex_already_in_draft_session_error"
+msgstr ""
+
 #. Default: "If an annex is marked as \"Confidential\" by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"
 msgstr ""
@@ -2737,6 +2769,10 @@ msgstr ""
 
 #. Default: "The item was duplicated but the annex with title \"${annexTitle}\" was not kept, please contact system administrator if necessary."
 msgid "annex_not_kept_item_paste_info"
+msgstr ""
+
+#. Default: "Annex \"${annex_title}\" must be PDF to be added to a session!"
+msgid "annex_not_pdf_error"
 msgstr ""
 
 #. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
@@ -3672,6 +3708,10 @@ msgstr ""
 
 #. Default: "<span style='color: green;'>This field is only editable by meeting managers but viewable by everyone once meeting is decided</span>"
 msgid "descr_field_vieawable_by_everyone_once_meeting_decided"
+msgstr ""
+
+#. Default: "You can choose to not store the generated document, if selected, annexes to sign will be stored and will use the proposed signatories."
+msgid "descr_store_generated_document"
 msgstr ""
 
 #. Default: "You are just able to see visible elements here. Please consult the \"manage\" box here opposite."
@@ -5351,7 +5391,7 @@ msgstr ""
 msgid "no_committees_assembly_and_committees_attendees"
 msgstr ""
 
-#. Default: "Attributes \"committees_sigantures\" and \"committees_signatories\" can't be used together."
+#. Default: "Attributes \"committees_signatures\" and \"committees_signatories\" can't be used together."
 msgid "no_committees_signatures_and_committees_signatories"
 msgstr ""
 
@@ -6729,6 +6769,10 @@ msgstr ""
 
 #. Default: "Start date"
 msgid "title_start_date"
+msgstr ""
+
+#. Default: "Store generated document?"
+msgid "title_store_generated_document"
 msgstr ""
 
 #. Default: "Deadline for validating items"
