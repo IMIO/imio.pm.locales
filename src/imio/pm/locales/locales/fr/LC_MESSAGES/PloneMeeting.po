@@ -2748,9 +2748,9 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - Une annexe vient d'être ajout
 msgid "annex_added_to_session"
 msgstr "L'annexe \"${annex_title}\" a été ajoutée à la session \"${session_id}\"."
 
-#. Default: "Annex \"${annex_title}\" is already in draft session \"${session_id}\"!"
-msgid "annex_already_in_draft_session_error"
-msgstr "L'annexe \"${annex_title}\" est déjà dans la session en création \"${session_id}\"!"
+#. Default: "Annex \"${annex_title}\" is already in session \"${session_id}\"  that is not finalized!"
+msgid "annex_already_in_not_finalized_session_error"
+msgstr "L'annexe \"${annex_title}\" est déjà dans la session \"${session_id}\" qui n'est pas encore \"finalisée\"!  Enlevez l'annexe de toute session en cours pour pouvoir l'ajouter dans une autre session \"en création\"!"
 
 #. Default: "If an annex is marked as \"Confidential\" by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"

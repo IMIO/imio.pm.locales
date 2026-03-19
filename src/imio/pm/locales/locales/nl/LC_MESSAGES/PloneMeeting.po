@@ -2742,8 +2742,8 @@ msgstr "${portalTitle} - ${meetingTitle} - An annex was just added to an item."
 msgid "annex_added_to_session"
 msgstr ""
 
-#. Default: "Annex \"${annex_title}\" is already in draft session \"${session_id}\"!"
-msgid "annex_already_in_draft_session_error"
+#. Default: "Annex \"${annex_title}\" is already in session \"${session_id}\"  that is not finalized!"
+msgid "annex_already_in_not_finalized_session_error"
 msgstr ""
 
 #. Default: "If an annex is marked as \"Confidential\" by a meeting manager, following selected profiles will not be able to see it."
