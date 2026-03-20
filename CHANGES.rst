@@ -5,8 +5,8 @@ Changelog
 4.2.34rc3 (unreleased)
 ----------------------
 
-- Nothing changed yet.
-
+- Added translation for `Could not get any signers, please check configuration!`.
+  [gbastien]
 
 4.2.34rc2 (2026-03-20)
 ----------------------

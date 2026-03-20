@@ -324,6 +324,10 @@ msgstr "Champs utilisant des contacts"
 msgid "Could not find a user with userid \"${userid}\" defined on person at \"${person_url}\"!"
 msgstr "Impossible de trouve l'utilisateur Plone \"${userid}\" défini sur la personne \"${person_url}\"!"
 
+#. Default: "Could not get any signers, please check configuration!"
+msgid "Could not get any signers, please check configuration!"
+msgstr "Impossible d'obtenir le moindre signataire, vérifiez la configuration!"
+
 #. Default: "Create an item from an item template"
 msgid "Create an item from an item template"
 msgstr "Créer un point depuis un modèle"
