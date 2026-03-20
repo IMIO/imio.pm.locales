@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.34rc3 (unreleased)
+4.2.34rc3 (2026-03-20)
 ----------------------
 
 - Added translation for `Could not get any signers, please check configuration!`.
