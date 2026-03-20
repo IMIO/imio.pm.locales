@@ -5,8 +5,8 @@ Changelog
 4.2.34rc2 (unreleased)
 ----------------------
 
-- Nothing changed yet.
-
+- Completed translations related to `imio.esign`.
+  [gbastien]
 
 4.2.34rc1 (2026-02-06)
 ----------------------
