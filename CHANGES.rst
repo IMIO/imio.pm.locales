@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.34rc2 (unreleased)
+4.2.34rc2 (2026-03-20)
 ----------------------
 
 - Completed translations related to `imio.esign`.
