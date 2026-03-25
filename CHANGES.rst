@@ -5,8 +5,10 @@ Changelog
 4.2.34rc4 (unreleased)
 ----------------------
 
-- Nothing changed yet.
-
+- Added translation for `held_position.usages` description.
+  [gbastien]
+- Added translation for `store_podtemplate_as_annex_output_format_error` description.
+  [gbastien]
 
 4.2.34rc3 (2026-03-20)
 ----------------------

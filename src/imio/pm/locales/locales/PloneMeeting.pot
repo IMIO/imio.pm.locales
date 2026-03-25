@@ -1116,6 +1116,10 @@ msgstr ""
 msgid "Usages"
 msgstr ""
 
+#. Default: "Usages description"
+msgid "descr_usages"
+msgstr ""
+
 #. Default: "Defaults"
 msgid "Defaults"
 msgstr ""
@@ -5252,6 +5256,10 @@ msgstr ""
 
 #. Default: "Not able to get signer, error is: \"${msg}\"."
 msgid "store_podtemplate_as_annex_signers_error"
+msgstr ""
+
+#. Default: "Only available when using output format PDF!"
+msgid "store_podtemplate_as_annex_output_format_error"
 msgstr ""
 
 #. Default: "Stored ${number_of_annexes} annexes."

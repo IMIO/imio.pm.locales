@@ -3731,6 +3731,10 @@ msgstr ""
 msgid "descr_store_generated_document"
 msgstr ""
 
+#. Default: "Usages description"
+msgid "descr_usages"
+msgstr ""
+
 #. Default: "You are just able to see visible elements here. Please consult the \"manage\" box here opposite."
 #, fuzzy
 msgid "description_only_see_visible_items"
@@ -6451,6 +6455,10 @@ msgstr ""
 
 #. Default: "Can not store same a generated document as annex several times."
 msgid "store_podtemplate_as_annex_can_not_store_several_times"
+msgstr ""
+
+#. Default: "Only available when using output format PDF!"
+msgid "store_podtemplate_as_annex_output_format_error"
 msgstr ""
 
 #. Default: "Not able to get signer, error is: \"${msg}\"."

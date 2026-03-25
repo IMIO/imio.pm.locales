@@ -3718,6 +3718,10 @@ msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestion
 msgid "descr_store_generated_document"
 msgstr "Par défaut le document généré sera stocké comme annexe sur le point, si décoché, le document ne sera pas stocké, par contre si vous avez coché \"Ajouter les annexes \"À signer\" à la session de signature électronique?\", celles-ci seront ajoutées à une session de signature électronique avec les signataires définis ci-dessus."
 
+#. Default: "Usages description"
+msgid "descr_usages"
+msgstr "La valeur \"Signataire\" permet de savoir qui sera un signataire par défaut, sélectionnable comme signataire conforme ou pour la signature numérique."
+
 #. Default: "You are just able to see visible elements here. Please consult the \"manage\" box here opposite."
 msgid "description_only_see_visible_items"
 msgstr "Vous êtes seulement autorisé à consulter les éléments visibles.  Utilisez la boîte \"Gestion\" ci-contre pour consulter le contenu que vous pouvez voir."
@@ -6396,6 +6400,10 @@ msgstr "Vous n'avez pas la permission d'ajouter une annexe à cet élément."
 #. Default: "Can not store same a generated document as annex several times."
 msgid "store_podtemplate_as_annex_can_not_store_several_times"
 msgstr "Impossible de stocker plusieurs fois le même document généré."
+
+#. Default: "Only available when using output format PDF!"
+msgid "store_podtemplate_as_annex_output_format_error"
+msgstr "Signature électronique non disponible: uniquement disponible sur un document généré au format PDF, veuillez adapter votre configuration pour éviter ce message!"
 
 #. Default: "Not able to get signer, error is: \"${msg}\"."
 msgid "store_podtemplate_as_annex_signers_error"
