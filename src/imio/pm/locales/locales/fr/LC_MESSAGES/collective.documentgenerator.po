@@ -28,7 +28,7 @@ msgstr "Signature électronique: expression au format TAL permettant de définir
 
 #. Default: "eSign signer TAL expression description"
 msgid "esign_signers_expr_descr"
-msgstr "Encodez ici une expression au format TAL permettant de définir quels seront les signataires pour ce document.  Ceux-ci doivent correspondre aux signataires repris dans le document."
+msgstr "Encodez ici une expression au format TAL permettant de définir quels seront les signataires pour ce document.  Ceux-ci doivent correspondre aux signataires repris dans le document. Les valeurs (\"obj\", \"tool\", \"cfg\", \"member\", \"utils\", \"pod_template\", \"annex\", ...) sont disponibles dans l'expression."
 
 #. Default: "Mailing lists"
 msgid "mailing_lists"

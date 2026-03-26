@@ -3924,7 +3924,7 @@ msgstr "Vous ne pouvez utiliser que des valeurs sélectionnées dans le champ \"
 
 #. Default: "Esign discriminators TAL expression"
 msgid "esign_discriminators_tal_expr_descr"
-msgstr "Une session de signature électronique concerne toujours les documents qui utilisent les mêmes signataires.  Vous pouvez définir des valeurs pour définir plus finement ce qui regroupe les documents dans une même session. Encodez une expression TAL qui retourne une liste de valeurs de type caractère (string).  Par exemple, pour grouper par type de séance, utilisez l'expression suivante: \"python: [cfg.getId()]\"."
+msgstr "Une session de signature électronique concerne toujours les documents qui utilisent les mêmes signataires.  Vous pouvez définir des valeurs pour définir plus finement ce qui regroupe les documents dans une même session. Encodez une expression TAL qui retourne une liste de valeurs de type caractère (string).  Par exemple, pour grouper par type de séance, utilisez l'expression suivante: \"python: [cfg.getId()]\". Les valeurs (\"obj\", \"tool\", \"cfg\", \"member\", \"utils\", \"pod_template\", \"annex\", ...) sont disponibles dans l'expression."
 
 #. Default: "e-Signature:"
 msgid "esign_label"
