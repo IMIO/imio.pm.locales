@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.34rc4 (unreleased)
+4.2.34rc4 (2026-03-26)
 ----------------------
 
 - Added translation for `held_position.usages` description.
