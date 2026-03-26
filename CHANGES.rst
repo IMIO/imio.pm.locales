@@ -9,6 +9,8 @@ Changelog
   [gbastien]
 - Added translation for `store_podtemplate_as_annex_output_format_error` description.
   [gbastien]
+- Added translations for field `MeetingConfig.eSignDiscriminatorsTALExpr`.
+  [gbastien]
 
 4.2.34rc3 (2026-03-20)
 ----------------------
