@@ -3251,6 +3251,10 @@ msgstr ""
 msgid "searchitemsinesignsessions"
 msgstr ""
 
+#. Default: "Meetings in esign sessions"
+msgid "searchmeetingsinesignsessions"
+msgstr ""
+
 #. Default: "What kind of item would you like to create?"
 msgid "choose_item_template"
 msgstr ""
@@ -5260,6 +5264,10 @@ msgstr ""
 
 #. Default: "Only available when using output format PDF!"
 msgid "store_podtemplate_as_annex_output_format_error"
+msgstr ""
+
+#. Default: "Only available when annex type used to store generated document uses \"to sign\" by default!"
+msgid "store_podtemplate_as_annex_type_error"
 msgstr ""
 
 #. Default: "Stored ${number_of_annexes} annexes."
@@ -7388,4 +7396,20 @@ msgstr ""
 
 #. Default: "Esign discriminators TAL expression"
 msgid "esign_discriminators_tal_expr_descr"
+msgstr ""
+
+#. Default: "Esign discriminators TAL expression"
+msgid "esign_discriminators_tal_expr_descr"
+msgstr ""
+
+#. Default: "Annexes to add to sign session"
+msgid "title_annex_ids_to_add_to_sign_session"
+msgstr ""
+
+#. Default: "Select annexes defined as \"to sign\" that will be added to the esign session.  Annexes must be PDF and not already belong to a esgin session that is not finalized."
+msgid "descr_annex_ids_to_add_to_sign_session"
+msgstr ""
+
+#. Default: " [already in esign session]"
+msgid " [already_in_esign_session]"
 msgstr ""

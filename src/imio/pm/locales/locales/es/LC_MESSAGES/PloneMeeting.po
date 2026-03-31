@@ -23,6 +23,10 @@ msgstr ""
 msgid " [PDF required]"
 msgstr ""
 
+#. Default: " [already in esign session]"
+msgid " [already_in_esign_session]"
+msgstr ""
+
 #. Default: " [holds scan_id]"
 msgid " [holds scan_id]"
 msgstr ""
@@ -3703,6 +3707,10 @@ msgstr ""
 msgid "descr_add_to_sign_session"
 msgstr ""
 
+#. Default: "Select annexes defined as \"to sign\" that will be added to the esign session.  Annexes must be PDF and not already belong to a esgin session that is not finalized."
+msgid "descr_annex_ids_to_add_to_sign_session"
+msgstr ""
+
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
 msgid "descr_assembly"
 msgstr ""
@@ -6287,6 +6295,10 @@ msgstr ""
 msgid "searchlivingitems"
 msgstr ""
 
+#. Default: "Meetings in esign sessions"
+msgid "searchmeetingsinesignsessions"
+msgstr ""
+
 #. Default: "My items"
 msgid "searchmyitems"
 msgstr "mis temas"
@@ -6473,6 +6485,10 @@ msgstr ""
 msgid "store_podtemplate_as_annex_signers_error"
 msgstr ""
 
+#. Default: "Only available when annex type used to store generated document uses \"to sign\" by default!"
+msgid "store_podtemplate_as_annex_type_error"
+msgstr ""
+
 #. Default: "Can not store annex using annex type selected in the configuration.  Please contact the system administrator."
 msgid "store_podtemplate_as_annex_wrong_annex_type_on_pod_template"
 msgstr ""
@@ -6619,6 +6635,10 @@ msgstr ""
 
 #. Default: "Advice type"
 msgid "title_advice_type"
+msgstr ""
+
+#. Default: "Annexes to add to sign session"
+msgid "title_annex_ids_to_add_to_sign_session"
 msgstr ""
 
 #. Default: "Approval date"

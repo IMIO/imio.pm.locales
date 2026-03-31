@@ -5,8 +5,10 @@ Changelog
 4.2.34rc5 (unreleased)
 ----------------------
 
-- Nothing changed yet.
-
+- Added translation for `store_podtemplate_as_annex_type_error`.
+  [gbastien]
+- Added translations for `Annexes to store/Annex types to store`.
+  [gbastien]
 
 4.2.34rc4 (2026-03-26)
 ----------------------

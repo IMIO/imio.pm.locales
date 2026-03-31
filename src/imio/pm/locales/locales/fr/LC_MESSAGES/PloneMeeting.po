@@ -19,6 +19,10 @@ msgstr ""
 msgid " [PDF required]"
 msgstr " [format PDF requis]"
 
+#. Default: " [already in esign session]"
+msgid " [already_in_esign_session]"
+msgstr " [déjà dans une session de signature électronique non \"finalisée\"]"
+
 #. Default: " [holds scan_id]"
 msgid " [holds scan_id]"
 msgstr " [contient un QR code]"
@@ -3690,6 +3694,10 @@ msgstr "Ceci ajoutera les annexes des points marquées \"À signer\" à la sessi
 msgid "descr_add_to_sign_session"
 msgstr "Ceci ajoutera le document généré à une session de signature électronique, cette session sera créée ou sélectionnée automatiquement en fonction de votre configuration."
 
+#. Default: "Select annexes defined as \"to sign\" that will be added to the esign session.  Annexes must be PDF and not already belong to a esgin session that is not finalized."
+msgid "descr_annex_ids_to_add_to_sign_session"
+msgstr "Sélectionnez les annexes marquées \"à signer\".  Les annexes peuvent apparaître grisées si elles ne sont pas au format PDF ou si elle font déjà partie d'une session de signature électronique non \"finalisée\"."
+
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
 msgid "descr_assembly"
 msgstr "Ajoutez des double crochets [[ ]] autour des personnes absentes, par exemple : [[Mr. Untel Didier]] si vous n'utilisez pas les champs \"Excusés\" et \"Absents\""
@@ -3720,7 +3728,7 @@ msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestion
 
 #. Default: "You can choose to not store the generated document, if selected, annexes to sign will be stored and will use the proposed signatories."
 msgid "descr_store_generated_document"
-msgstr "Par défaut le document généré sera stocké comme annexe sur le point, si décoché, le document ne sera pas stocké, par contre si vous avez coché \"Ajouter les annexes \"À signer\" à la session de signature électronique?\", celles-ci seront ajoutées à une session de signature électronique avec les signataires définis ci-dessus."
+msgstr "Par défaut le document généré sera stocké comme annexe sur le point, si décoché, le document ne sera pas stocké."
 
 #. Default: "Usages description"
 msgid "descr_usages"
@@ -3932,7 +3940,7 @@ msgstr "Paraphéo (signature électronique)"
 
 #. Default: "eSign watchers"
 msgid "esignwatchers"
-msgstr "Observateurs module signature"
+msgstr "Observateurs module signature (Paraphéo)"
 
 #. Default: "An annex was added to an item already presented in a validated agenda (notify \"MeetingManagers\")"
 msgid "event_add_annex"
@@ -6235,6 +6243,10 @@ msgstr "Dernières décisions"
 msgid "searchlivingitems"
 msgstr "Points en cours"
 
+#. Default: "Meetings in esign sessions"
+msgid "searchmeetingsinesignsessions"
+msgstr "Dans session de signature"
+
 #. Default: "My items"
 msgid "searchmyitems"
 msgstr "Mes points"
@@ -6417,6 +6429,10 @@ msgstr "Signature électronique non disponible: uniquement disponible sur un doc
 msgid "store_podtemplate_as_annex_signers_error"
 msgstr "Signature électronique non disponible: impossible d'obtenir les signataires, l'erreur est: \"${msg}\"."
 
+#. Default: "Only available when annex type used to store generated document uses \"to sign\" by default!"
+msgid "store_podtemplate_as_annex_type_error"
+msgstr "Signature électronique non disponible: le type d'annexe utilisé pour le document généré doit être \"à signer\" par défaut, vérifiez \"${annex_type_url}\"."
+
 #. Default: "Can not store annex using annex type selected in the configuration.  Please contact the system administrator."
 msgid "store_podtemplate_as_annex_wrong_annex_type_on_pod_template"
 msgstr "Impossible de stocker l'annexe en utilisant le type d'annexe défini dans la configuration.  Contactez votre administrateur système."
@@ -6564,6 +6580,10 @@ msgstr "Identifiant (row_id)"
 #. Default: "Advice type"
 msgid "title_advice_type"
 msgstr "Type d'avis"
+
+#. Default: "Annexes to add to sign session"
+msgid "title_annex_ids_to_add_to_sign_session"
+msgstr "Signature électronique: ajouter les annexes suivantes"
 
 #. Default: "Approval date"
 msgid "title_approval_date"
@@ -6775,7 +6795,7 @@ msgstr "Date et heure de début"
 
 #. Default: "Store generated document?"
 msgid "title_store_generated_document"
-msgstr "Stocker le document généré?"
+msgstr "Stocker le document généré en annexe?"
 
 #. Default: "Deadline for validating items"
 msgid "title_validation_deadline"
