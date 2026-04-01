@@ -3696,7 +3696,11 @@ msgstr "Ceci ajoutera le document généré à une session de signature électro
 
 #. Default: "Select annexes defined as \"to sign\" that will be added to the esign session.  Annexes must be PDF and not already belong to a esgin session that is not finalized."
 msgid "descr_annex_ids_to_add_to_sign_session"
-msgstr "Sélectionnez les annexes marquées \"à signer\".  Les annexes peuvent apparaître grisées si elles ne sont pas au format PDF ou si elle font déjà partie d'une session de signature électronique non \"finalisée\"."
+msgstr "Ce champ affiche les annexes marquées \"à signer\".  Une annexe apparaît grisée (non sélectionnable) si elle n'est pas au format PDF ou si elle fait déjà partie d'une session de signature électronique non \"finalisée\"."
+
+#. Default: "Select annexes defined as \"to sign\" that will be added to the esign session.  Annexes must be PDF and not already belong to a esgin session that is not finalized."
+msgid "descr_annex_types_to_add_to_sign_session"
+msgstr "Les annexes marquées \"à signer\" qui utilisent les types d'annexes sélectionnés ici seront ajoutées à la session de signature électronique si elles sont au format PDF et si elles ne sont pas déjà dans une session de signature électronique non \"finalisée\"."
 
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
 msgid "descr_assembly"
@@ -6584,6 +6588,10 @@ msgstr "Type d'avis"
 #. Default: "Annexes to add to sign session"
 msgid "title_annex_ids_to_add_to_sign_session"
 msgstr "Signature électronique: ajouter les annexes suivantes"
+
+#. Default: "Annex types to add to sign session"
+msgid "title_annex_types_to_add_to_sign_session"
+msgstr "Signature électronique: ajouter les annexes utilisant les types d'annexes suivants"
 
 #. Default: "Approval date"
 msgid "title_approval_date"
