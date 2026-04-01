@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.34rc5 (unreleased)
+4.2.34rc5 (2026-04-01)
 ----------------------
 
 - Added translation for `store_podtemplate_as_annex_type_error`.
