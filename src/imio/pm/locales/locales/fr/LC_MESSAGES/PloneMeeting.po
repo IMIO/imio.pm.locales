@@ -3732,7 +3732,7 @@ msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestion
 
 #. Default: "You can choose to not store the generated document, if selected, annexes to sign will be stored and will use the proposed signatories."
 msgid "descr_store_generated_document"
-msgstr "Par défaut le document généré sera stocké comme annexe sur le point, si décoché, le document ne sera pas stocké."
+msgstr "Par défaut le document généré sera stocké comme annexe sur le point, si décoché, le document ne sera pas stocké. <span class='highlight-red'>Attention pour éviter les erreurs, si la case est cochée et que le document est déjà stocké, rien ne sera fait, pour ajouter des annexes à signer sur un élément déjà dans une session, décochez cette case!</span>"
 
 #. Default: "Usages description"
 msgid "descr_usages"
