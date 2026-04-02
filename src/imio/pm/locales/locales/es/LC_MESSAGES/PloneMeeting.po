@@ -1870,6 +1870,10 @@ msgstr ""
 msgid "PloneMeeting_label_shortName"
 msgstr "Nombre corto para la configuración de la reunión"
 
+#. Default: "Show external links section"
+msgid "PloneMeeting_label_showExternalLinksSection"
+msgstr ""
+
 #. Default: "Show possible targets for item keywords"
 msgid "PloneMeeting_label_showItemKeywordsTargets"
 msgstr "Mostrar los posibles objetivos para palabras clave del tema"
@@ -6321,6 +6325,10 @@ msgstr ""
 #, fuzzy
 msgid "short_name_descr"
 msgstr "Esta nombre corto (3 a 4 letras como máximo, sin caracteres especiales o acentos) e usado internamente por PloneMeeting, por ejemplo, para obtener la configuración de reunión específica de los tipos de contenidos de temas y reuniones. Tenga en cuenta que todos los tipos de contenidos que representan 'temas' comparten la misma meta-data (es la misma clase Python). El mismo valor es verdadero / true para todos los tipos de contenidos que representan 'reuniones'."
+
+#. Default: "Displays the \"External links\" section on the item view.  This is only relevant if external links are configured."
+msgid "show_external_links_section_descr"
+msgstr ""
 
 #. Default: "If you check this box, on the search screen, radio buttons will appear, allowing the user to choose the item-related field that will become the target for item keywords. If these radio buttons are not shown, the search will encompass all fields indexed in the global index \"SearchableText\"."
 #, fuzzy
