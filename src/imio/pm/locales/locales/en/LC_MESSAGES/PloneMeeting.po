@@ -1119,6 +1119,10 @@ msgstr "Copy groups"
 msgid "PloneMeeting_label_cssClassesToHide"
 msgstr "Css classes to hide"
 
+#. Default: "CSS transforms"
+msgid "PloneMeeting_label_cssTransforms"
+msgstr ""
+
 #. Default: "Custom advisers"
 msgid "PloneMeeting_label_customAdvisers"
 msgstr "Custom advisers"
@@ -3450,6 +3454,18 @@ msgstr "Creators"
 #. Default: "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
 msgid "css_classes_to_hide_descr"
 msgstr "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
+
+#. Default: "CSS action remove"
+msgid "css_transform_action_remove"
+msgstr ""
+
+#. Default: "CSS action replace"
+msgid "css_transform_action_replace"
+msgstr ""
+
+#. Default: "CSS transforms descr"
+msgid "css_transforms_descr"
+msgstr ""
 
 #. Default: "You can not define a value in the \"Available on\" column if a value is in the \"Advice will be automatically asked if\" column, please check defined values for group \"${groupName}\"."
 msgid "custom_adviser_can_not_available_on_and_gives_auto_advice_on"
