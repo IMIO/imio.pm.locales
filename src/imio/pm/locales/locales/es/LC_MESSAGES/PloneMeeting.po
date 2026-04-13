@@ -1127,6 +1127,10 @@ msgstr "Copia de grupos"
 msgid "PloneMeeting_label_cssClassesToHide"
 msgstr ""
 
+#. Default: "CSS transforms"
+msgid "PloneMeeting_label_cssTransforms"
+msgstr ""
+
 #. Default: "Custom advisers"
 msgid "PloneMeeting_label_customAdvisers"
 msgstr "Asesores personalizados"
@@ -1877,6 +1881,10 @@ msgstr ""
 #. Default: "Short name for the meeting configuration"
 msgid "PloneMeeting_label_shortName"
 msgstr "Nombre corto para la configuración de la reunión"
+
+#. Default: "Show external links section"
+msgid "PloneMeeting_label_showExternalLinksSection"
+msgstr ""
 
 #. Default: "Show possible targets for item keywords"
 msgid "PloneMeeting_label_showItemKeywordsTargets"
@@ -3479,6 +3487,18 @@ msgstr "Creadores"
 
 #. Default: "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
 msgid "css_classes_to_hide_descr"
+msgstr ""
+
+#. Default: "CSS action remove"
+msgid "css_transform_action_remove"
+msgstr ""
+
+#. Default: "CSS action replace"
+msgid "css_transform_action_replace"
+msgstr ""
+
+#. Default: "CSS transforms descr"
+msgid "css_transforms_descr"
 msgstr ""
 
 #. Default: "You can not define a value in the \"Available on\" column if a value is in the \"Advice will be automatically asked if\" column, please check defined values for group \"${groupName}\"."
@@ -6341,6 +6361,10 @@ msgstr ""
 #, fuzzy
 msgid "short_name_descr"
 msgstr "Esta nombre corto (3 a 4 letras como máximo, sin caracteres especiales o acentos) e usado internamente por PloneMeeting, por ejemplo, para obtener la configuración de reunión específica de los tipos de contenidos de temas y reuniones. Tenga en cuenta que todos los tipos de contenidos que representan 'temas' comparten la misma meta-data (es la misma clase Python). El mismo valor es verdadero / true para todos los tipos de contenidos que representan 'reuniones'."
+
+#. Default: "Displays the \"External links\" section on the item view.  This is only relevant if external links are configured."
+msgid "show_external_links_section_descr"
+msgstr ""
 
 #. Default: "If you check this box, on the search screen, radio buttons will appear, allowing the user to choose the item-related field that will become the target for item keywords. If these radio buttons are not shown, the search will encompass all fields indexed in the global index \"SearchableText\"."
 #, fuzzy

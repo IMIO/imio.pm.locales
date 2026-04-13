@@ -825,7 +825,7 @@ msgstr "Aucun type d'annexe."
 
 #. Default: "No common or available advice group. Modify your selection."
 msgid "No common or available advice group. Modify your selection."
-msgstr "<span class='highlight-red'>Aucun groupe commun ou valide. Recommencez en modifiant votre sélection.</span>"
+msgstr "<span class='highlight-red'>Aucun groupe commun ou valide. Veuillez ne sélectionner que des points pour lesquels l'avis n'a jamais été rendu (icône \"?\", pas d'avis déjà rendu ou \"Demandé à nouveau\").</span>"
 
 #. Default: "No complementary comment has been given on this advice."
 msgid "No complementary comment has been given on this advice."
@@ -1118,6 +1118,10 @@ msgstr "Groupes en copie (lecture seule)"
 #. Default: "Css classes to hide"
 msgid "PloneMeeting_label_cssClassesToHide"
 msgstr "Classes Css à cacher"
+
+#. Default: "CSS transforms"
+msgid "PloneMeeting_label_cssTransforms"
+msgstr "Transformations CSS"
 
 #. Default: "Custom advisers"
 msgid "PloneMeeting_label_customAdvisers"
@@ -1863,6 +1867,10 @@ msgstr "À transmettre à la tutelle?"
 #. Default: "Short name for the meeting configuration"
 msgid "PloneMeeting_label_shortName"
 msgstr "Nom court pour la configuration de séance"
+
+#. Default: "Show external links section"
+msgid "PloneMeeting_label_showExternalLinksSection"
+msgstr "Afficher les \"Éléments externes liés\" sur les points"
 
 #. Default: "Show possible targets for item keywords"
 msgid "PloneMeeting_label_showItemKeywordsTargets"
@@ -3469,6 +3477,18 @@ msgstr "Créateurs"
 msgid "css_classes_to_hide_descr"
 msgstr "Encodez les classes Css utilisées dans l'application qui ne doivent pas être rendues pour les profils sélectionnés ci-dessous dans le champ \"Cacher les classes Css à\".  Encodez une classe Css par ligne.  <span style='color: red;'>Si vous activez cela sur un site contenant déjà des points et avis, allez à la racine de Zope --> Control_Panel --> Database Mangement --> sélectionnez la bonne base de données, allez sur l'onglet \"Flush Cache\" et cliquez sur le bouton \"Minimize\".</span>"
 
+#. Default: "CSS action remove"
+msgid "css_transform_action_remove"
+msgstr "Enlever la classe CSS"
+
+#. Default: "CSS action replace"
+msgid "css_transform_action_replace"
+msgstr "Remplacer le contenu"
+
+#. Default: "CSS transforms descr"
+msgid "css_transforms_descr"
+msgstr "Configurez ici les transformations qui seront appliquées sur les champs de texte riche utilisant les classes CSS renseignées.  Ces transformations seront appliquées aux profils \"Super observateurs\" sélectionnés.  Vous pouvez soit \"Enlever la classe CSS\" utilisée dans le point ou \"Remplacer le contenu\" utilisant la classe CSS (ceci peut être utilisé par exemple pour anonymiser du contenu)."
+
 #. Default: "You can not define a value in the \"Available on\" column if a value is in the \"Advice will be automatically asked if\" column, please check defined values for group \"${groupName}\"."
 msgid "custom_adviser_can_not_available_on_and_gives_auto_advice_on"
 msgstr "Vous ne pouvez pas définir une valeur dans la colonne \"Disponible si\" si une valeur est définie dans la colonne \"L'avis sera automatiquement demandé si\" pour la même ligne, vérifiez les valeurs pour le groupe \"${groupName}\"."
@@ -4905,7 +4925,7 @@ msgstr "Il ne peut y avoir qu'une seule ligne de configuration pour une même é
 
 #. Default: "Define here who will be able to view/edit labels"
 msgid "labels_config_descr"
-msgstr "Définissez ici qui peut voir et éditer les étiquettes. <span style='color: red;'>Si vous ajoutez/supprimez une configuration, exécutez l'action \"Mettre à jour les étiquettes sur les points\"!</span>"
+msgstr "Définissez ici qui peut voir et éditer les étiquettes. <span style='color: red;'>Si vous ajoutez/modifiez/supprimez une configuration, exécutez l'action \"Mettre à jour les étiquettes sur les points\"!</span>"
 
 #. Default: "The first row must be about the \"Default (*)\" configuration"
 msgid "labels_config_first_row_must_be_default_config"
@@ -6287,6 +6307,10 @@ msgstr "Envoyé vers ${meetingConfigTitle} (Urgence)"
 #. Default: "This short name (3 or 4 letters maximum, without special characters or accents) is used internally by PloneMeeting, ie for deriving meeting-configuration-specific item and meeting content types. Note that all content types representing \"items\" share the same meta-type (=the same Python class). The same is true for all content types representing \"meetings\"."
 msgid "short_name_descr"
 msgstr "Ce nom court (trois ou quatre lettres maximum, sans accents ou caractères spéciaux) est utilisé en interne par l'application, notamment pour dériver des types de contenu pour les points et les séances qui soient propres à chaque configuration de séance. Notez que tous les types de contenu définissant des \"points\" partagent tous le même méta-type (c'est-à-dire la même classe Python). La même chose est vraie pour tous les types de contenu définissant des \"séances\"."
+
+#. Default: "Displays the \"External links\" section on the item view.  This is only relevant if external links are configured."
+msgid "show_external_links_section_descr"
+msgstr "Sélectionnez les configurations dans lesquelles afficher la zone \"Éléments externes liés\" sur les points.  Ceci ne fonctionnera que si les liens externes sont configurés."
 
 #. Default: "If you check this box, on the search screen, radio buttons will appear, allowing the user to choose the item-related field that will become the target for item keywords. If these radio buttons are not shown, the search will encompass all fields indexed in the global index \"SearchableText\"."
 msgid "show_item_keywords_targets_descr"

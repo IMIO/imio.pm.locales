@@ -2,11 +2,21 @@ Changelog
 =========
 
 
-4.2.33 (unreleased)
+4.2.33.1 (unreleased)
+---------------------
+
+- Added translations for new field `ToolPloneMeeting.showExternalLinksSection`.
+  [gbastien]
+- Added translations for new field `MeetingConfig.CssTransforms`.
+  [gbastien]
+
+4.2.33 (2026-01-13)
 -------------------
 
-- Nothing changed yet.
-
+- Accurate french translation for `labels_config_descr`.
+  [gbastien]
+- Accurate french translation for `No common or available advice group. Modify your selection.`.
+  [gbastien]
 
 4.2.32 (2026-01-05)
 -------------------

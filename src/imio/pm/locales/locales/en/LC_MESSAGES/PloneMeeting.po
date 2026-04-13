@@ -1119,6 +1119,10 @@ msgstr "Copy groups"
 msgid "PloneMeeting_label_cssClassesToHide"
 msgstr "Css classes to hide"
 
+#. Default: "CSS transforms"
+msgid "PloneMeeting_label_cssTransforms"
+msgstr ""
+
 #. Default: "Custom advisers"
 msgid "PloneMeeting_label_customAdvisers"
 msgstr "Custom advisers"
@@ -1863,6 +1867,10 @@ msgstr "Send to authority?"
 #. Default: "Short name for the meeting configuration"
 msgid "PloneMeeting_label_shortName"
 msgstr "Short name for the meeting configuration"
+
+#. Default: "Show external links section"
+msgid "PloneMeeting_label_showExternalLinksSection"
+msgstr ""
 
 #. Default: "Show possible targets for item keywords"
 msgid "PloneMeeting_label_showItemKeywordsTargets"
@@ -3450,6 +3458,18 @@ msgstr "Creators"
 #. Default: "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
 msgid "css_classes_to_hide_descr"
 msgstr "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
+
+#. Default: "CSS action remove"
+msgid "css_transform_action_remove"
+msgstr ""
+
+#. Default: "CSS action replace"
+msgid "css_transform_action_replace"
+msgstr ""
+
+#. Default: "CSS transforms descr"
+msgid "css_transforms_descr"
+msgstr ""
 
 #. Default: "You can not define a value in the \"Available on\" column if a value is in the \"Advice will be automatically asked if\" column, please check defined values for group \"${groupName}\"."
 msgid "custom_adviser_can_not_available_on_and_gives_auto_advice_on"
@@ -6259,6 +6279,10 @@ msgstr "Item sent to ${meetingConfigTitle} (Emergency)"
 #. Default: "This short name (3 or 4 letters maximum, without special characters or accents) is used internally by PloneMeeting, ie for deriving meeting-configuration-specific item and meeting content types. Note that all content types representing \"items\" share the same meta-type (=the same Python class). The same is true for all content types representing \"meetings\"."
 msgid "short_name_descr"
 msgstr "This short name (3 or 4 letters maximum, without special characters or accents) is used internally by PloneMeeting, ie for deriving meeting-configuration-specific item and meeting content types. Note that all content types representing \"items\" share the same meta-type (=the same Python class). The same is true for all content types representing \"meetings\"."
+
+#. Default: "Displays the \"External links\" section on the item view.  This is only relevant if external links are configured."
+msgid "show_external_links_section_descr"
+msgstr ""
 
 #. Default: "If you check this box, on the search screen, radio buttons will appear, allowing the user to choose the item-related field that will become the target for item keywords. If these radio buttons are not shown, the search will encompass all fields indexed in the global index \"SearchableText\"."
 msgid "show_item_keywords_targets_descr"
