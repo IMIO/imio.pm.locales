@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-4.2.33.1 (unreleased)
----------------------
+4.2.31rc2 (unreleased)
+----------------------
 
 - Added translations for new field `ToolPloneMeeting.showExternalLinksSection`.
   [gbastien]
