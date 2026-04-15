@@ -7,7 +7,7 @@ Changelog
 
 - Added translations for new field `ToolPloneMeeting.showExternalLinksSection`.
   [gbastien]
-- Added translations for new field `MeetingConfig.CssTransforms`.
+- Added translations for new field `MeetingConfig.cssTransforms`.
   [gbastien]
 
 4.2.33 (2026-01-13)
