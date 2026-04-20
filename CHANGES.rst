@@ -2,8 +2,14 @@ Changelog
 =========
 
 
-4.2.33.1 (unreleased)
----------------------
+4.2.31rc3 (unreleased)
+----------------------
+
+- Nothing changed yet.
+
+
+4.2.31rc2 (2026-04-13)
+----------------------
 
 - Added translations for new field `ToolPloneMeeting.showExternalLinksSection`.
   [gbastien]
@@ -89,10 +95,14 @@ Changelog
 4.2.25 (2025-05-05)
 -------------------
 
-- Added translation for `icon_help_isAcceptableOutOfMeeting`.
-  [gbastien]
 - Added translations for `MeetingConfig.customAdvisers`
   new `is_delay_calendar_days` column related functionality.
+  [gbastien]
+
+4.2.24.1 (2025-04-16)
+---------------------
+
+- Added translation for `icon_help_isAcceptableOutOfMeeting`.
   [gbastien]
 
 4.2.24 (2025-03-24)
@@ -111,7 +121,6 @@ Changelog
 
 4.2.22 (2025-02-03)
 -------------------
-
 - Added translations for `can_not_unselect_plone_group_meetingconfig`.
   [gbastien]
 - Added translations related to only previewable annexes not duplicated.
@@ -122,21 +131,36 @@ Changelog
 - Overrided `collective.iconifiedcategory` translation of
   `Show preview description.` to be more specific regarding `PloneMeeting`.
   [gbastien]
+- Added translations for new privacies `public_ending` and `secret_ending`.
+  [gbastien]
 
-4.2.21 (2024-11-07)
--------------------
+4.2.20.3 (2024-11-12)
+---------------------
+
+- Added translations for `MeetingConfig.meetingConfigsToCloneToEditFieldsTALExpr`.
+  [gbastien]
+
+4.2.20.2 (2024-10-16)
+---------------------
+
+- Added translations for `PloneMeeting_label_motivationSuite`.
+  [gbastien]
+
+4.2.20.1 (2024-10-02)
+---------------------
 
 - Removed unused translation `restricted_copy_groups_item_descr`.
   [gbastien]
 - Added translations for `PloneMeeting_label_emergencyMotivation`.
+  [gbastien]
+- Added translation for `any_validation_state_waiting_advices`,
+  removed every `...__or__proposed__or__..._waiting_advices` translations.
   [gbastien]
 
 4.2.20 (2024-09-25)
 -------------------
 
 - Fixed typo in french translation of `PloneMeeting_label_itemPreferredMeetingStates`.
-  [gbastien]
-- Added translation for new `MeetingItem.emergencyMotivation` field.
   [gbastien]
 
 4.2.19 (2024-06-10)

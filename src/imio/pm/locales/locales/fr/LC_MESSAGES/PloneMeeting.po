@@ -1628,6 +1628,10 @@ msgstr "Interface permettant d'utiliser un adapter Zope3 spécifique pour modifi
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
 msgstr "Configurations de séance vers lesquelles les points de cette configuration de séance peuvent être envoyés"
 
+#. Default: "Meeting configs to clone to fields editable if"
+msgid "PloneMeeting_label_meetingConfigsToCloneToEditFieldsTALExpr"
+msgstr "Champs \"Données utilisées lors de l'envoi vers une autre configuration de séance\" éditables si"
+
 #. Default: "Meeting deadline date"
 msgid "PloneMeeting_label_meetingDeadlineDate"
 msgstr "Date limite passage séance"
@@ -1671,6 +1675,10 @@ msgstr "Adaptations au modèle de données"
 #. Default: "Motivation"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivation"
+
+#. Default: "Motivation (suite)"
+msgid "PloneMeeting_label_motivationSuite"
+msgstr "Motivation (suite)"
 
 #. Default: "Needed follow-up"
 msgid "PloneMeeting_label_neededFollowUp"
@@ -2247,10 +2255,6 @@ msgstr "Ordre des membres d'assemblée redéfini pour ${number} point(s)"
 #. Default: "The position of this attendee was changed for the ${number} following item(s)"
 msgid "The position of this attendee was changed for the ${number} following item(s)"
 msgstr "La fonction de ce participant a été redéfinie pour ${number} point(s)"
-
-#. Default: "The proposing group"
-msgid "The proposing group"
-msgstr "Le groupe proposant"
 
 #. Default: "There was an error during annex conversion, please contact system administrator."
 msgid "There was an error during annex conversion, please contact system administrator."
@@ -5131,6 +5135,10 @@ msgstr "À l'instar des interfaces pour points, les conditions exprimées sur le
 msgid "meeting_configs_to_clone_to_descr"
 msgstr "Sélectionnez les configurations de séances vers lesquelles les points de cette séance pourront être envoyés si l'utilisateur en a le droit."
 
+#. Default: "Specify here a TAL expression that will make every meeting configs to clone to fields editable.  Leave empty if fields are editable when the item is editable."
+msgid "meeting_configs_to_clone_to_edit_fields_tal_expr_descr"
+msgstr "Spécifiez une expression TAL qui retourne \"True\" si les champs \"Données utilisées pour le nouveau point\" peuvent être édités.  La variable \"field_name\" (\"title\", \"motivation\", \"decision\", ...) est disponible en plus des variables habituelles. Laissez vide si les champs doivent être éditables lorsque le point est éditable."
+
 #. Default: "Management of meeting configurations"
 msgid "meeting_configurations"
 msgstr "Gestion des configurations de séances"
@@ -5882,6 +5890,10 @@ msgstr "Points présentés à cette séance"
 msgid "preview_grouped_annexes"
 msgstr "Annexes groupées par type d'annexe (puis listées par ordre alphabétique)"
 
+#. Default: "The proposing group (${suffix_title})"
+msgid "proposing_group_managing_item"
+msgstr "Le groupe proposant (${suffix_title})"
+
 #. Default: "Proposing group is not available for user."
 msgid "proposing_group_not_available"
 msgstr "Groupe proposant non disponible pour cet utilisateur."
@@ -5909,6 +5921,10 @@ msgstr "Ce document sera envoyé à: ${recipients}."
 #. Default: "Public meeting"
 msgid "public"
 msgstr "Séance publique"
+
+#. Default: "Public meeting (ending)"
+msgid "public_ending"
+msgstr "Séance publique (fin de séance)"
 
 #. Default: "Public meeting (heading)"
 msgid "public_heading"
@@ -6210,6 +6226,10 @@ msgstr "Points validables"
 #. Default: "Closed door"
 msgid "secret"
 msgstr "Huis clos"
+
+#. Default: "Closed door (ending)"
+msgid "secret_ending"
+msgstr "Huis clos (fin de séance)"
 
 #. Default: "Closed door (heading)"
 msgid "secret_heading"
@@ -7104,6 +7124,10 @@ msgstr "Cacher les décisions au service pendant leur rédaction par les gestion
 #. Default: "Hide the decision to the proposing group when it is under writing (complementary: excepted for power observers \"${po}\")"
 msgid "wa_hide_decisions_when_under_writing_excepted_po"
 msgstr "Cacher les décisions au service pendant leur rédaction par les gestionnaires de séances (configuration complémentaire: afficher la décision aux \"${po}\")"
+
+#. Default: "You selected some workflow adaptations that are not compatible with configuration of field \"Item workflow validation levels\" here under, please correct."
+msgid "wa_item_validation_levels_dependency"
+msgstr "Certaines adaptations sélectionnées sont incompatibles avec la configuration du champ \"Étapes du workflow de validation des points\" ci-dessous."
 
 #. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
 msgid "wa_item_validation_no_validate_shortcuts"

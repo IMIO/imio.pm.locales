@@ -1639,6 +1639,10 @@ msgstr "La interfaz siguiente es usada para un especifico adaptador de Zope3 par
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
 msgstr "Configuraciones de reuniones para clonar los temas hacia"
 
+#. Default: "Meeting configs to clone to fields editable if"
+msgid "PloneMeeting_label_meetingConfigsToCloneToEditFieldsTALExpr"
+msgstr ""
+
 #. Default: "Meeting deadline date"
 msgid "PloneMeeting_label_meetingDeadlineDate"
 msgstr ""
@@ -1683,6 +1687,10 @@ msgstr "Adaptaciones del Modelo"
 #. Default: "Motivation"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivación"
+
+#. Default: "Motivation (suite)"
+msgid "PloneMeeting_label_motivationSuite"
+msgstr ""
 
 #. Default: "Needed follow-up"
 msgid "PloneMeeting_label_neededFollowUp"
@@ -2264,10 +2272,6 @@ msgstr ""
 
 #. Default: "The position of this attendee was changed for the ${number} following item(s)"
 msgid "The position of this attendee was changed for the ${number} following item(s)"
-msgstr ""
-
-#. Default: "The proposing group"
-msgid "The proposing group"
 msgstr ""
 
 #. Default: "There was an error during annex conversion, please contact system administrator."
@@ -5165,6 +5169,10 @@ msgstr "Similarmente a las interfaces definidas por los temas, las condiciones e
 msgid "meeting_configs_to_clone_to_descr"
 msgstr "Seleccione aquí el resto de configuraciones de reuniones que el usuario será capaz de clonar un tema de esta configuración de reunión a otra"
 
+#. Default: "Specify here a TAL expression that will make every meeting configs to clone to fields editable.  Leave empty if fields are editable when the item is editable."
+msgid "meeting_configs_to_clone_to_edit_fields_tal_expr_descr"
+msgstr ""
+
 #. Default: "Management of meeting configurations"
 msgid "meeting_configurations"
 msgstr "Administrador de configuraciones de reuniones"
@@ -5939,6 +5947,10 @@ msgstr "Temas presentado a esta reunión"
 msgid "preview_grouped_annexes"
 msgstr ""
 
+#. Default: "The proposing group (${suffix_title})"
+msgid "proposing_group_managing_item"
+msgstr ""
+
 #. Default: "Proposing group is not available for user."
 msgid "proposing_group_not_available"
 msgstr ""
@@ -5965,6 +5977,10 @@ msgstr ""
 
 #. Default: "Public meeting"
 msgid "public"
+msgstr ""
+
+#. Default: "Public meeting (ending)"
+msgid "public_ending"
 msgstr ""
 
 #. Default: "Public meeting (heading)"
@@ -6261,6 +6277,10 @@ msgstr ""
 
 #. Default: "Closed door"
 msgid "secret"
+msgstr ""
+
+#. Default: "Closed door (ending)"
+msgid "secret_ending"
 msgstr ""
 
 #. Default: "Closed door (heading)"
@@ -7171,6 +7191,10 @@ msgstr ""
 
 #. Default: "Hide the decision to the proposing group when it is under writing (complementary: excepted for power observers \"${po}\")"
 msgid "wa_hide_decisions_when_under_writing_excepted_po"
+msgstr ""
+
+#. Default: "You selected some workflow adaptations that are not compatible with configuration of field \"Item workflow validation levels\" here under, please correct."
+msgid "wa_item_validation_levels_dependency"
 msgstr ""
 
 #. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"

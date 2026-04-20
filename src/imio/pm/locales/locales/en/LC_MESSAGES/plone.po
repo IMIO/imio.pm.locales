@@ -274,6 +274,10 @@ msgstr "Advice still editable by advisers of the group"
 msgid "advices"
 msgstr "Advices and access"
 
+#. Default: "Waiting advices"
+msgid "any_validation_state_waiting_advices"
+msgstr ""
+
 #. Default: "Archive"
 msgid "archive"
 msgstr "Archive"
@@ -669,26 +673,6 @@ msgstr "Archived"
 msgid "itemcreated"
 msgstr "Created"
 
-#. Default: "Waiting advices"
-msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4__or__proposedToValidationLevel5_waiting_advices"
-msgstr "Waiting advices"
-
-#. Default: "Waiting advices"
-msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4_waiting_advices"
-msgstr "Waiting advices"
-
-#. Default: "Waiting advices"
-msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3_waiting_advices"
-msgstr "Waiting advices"
-
-#. Default: "Waiting advices"
-msgid "itemcreated__or__proposedToValidationLevel1__or__proposedToValidationLevel2_waiting_advices"
-msgstr "Waiting advices"
-
-#. Default: "Waiting advices"
-msgid "itemcreated__or__proposedToValidationLevel1_waiting_advices"
-msgstr "Waiting advices"
-
 #. Default: "Waiting advices (itemcreated)"
 msgid "itemcreated_waiting_advices"
 msgstr "Waiting advices (itemcreated)"
@@ -826,22 +810,6 @@ msgstr "Proposed"
 #. Default: "Proposed to level 1"
 msgid "proposedToValidationLevel1"
 msgstr "Proposed to level 1"
-
-#. Default: "Waiting advices"
-msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4__or__proposedToValidationLevel5_waiting_advices"
-msgstr "Waiting advices"
-
-#. Default: "Waiting advices"
-msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3__or__proposedToValidationLevel4_waiting_advices"
-msgstr "Waiting advices"
-
-#. Default: "Waiting advices"
-msgid "proposedToValidationLevel1__or__proposedToValidationLevel2__or__proposedToValidationLevel3_waiting_advices"
-msgstr "Waiting advices"
-
-#. Default: "Waiting advices"
-msgid "proposedToValidationLevel1__or__proposedToValidationLevel2_waiting_advices"
-msgstr "Waiting advices"
 
 #. Default: "Waiting advices"
 msgid "proposedToValidationLevel1_waiting_advices"
