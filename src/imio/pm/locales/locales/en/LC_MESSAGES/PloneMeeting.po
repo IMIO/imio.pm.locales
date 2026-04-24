@@ -1283,6 +1283,10 @@ msgstr "Groups not to be displayed in the \"Group\" dashboard filter"
 msgid "PloneMeeting_label_groupsInCharge"
 msgstr "Groups in charge"
 
+#. Default: "Notes groups in charge"
+msgid "PloneMeeting_label_groupsInChargeNotes"
+msgstr ""
+
 #. Default: "Hide Css classes to"
 msgid "PloneMeeting_label_hideCssClassesTo"
 msgstr "Hide Css classes to"
@@ -4127,6 +4131,10 @@ msgstr "If you do not select anything, every groups will be displayed."
 #. Default: "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
 msgid "groups_in_charge_descr"
 msgstr "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
+
+#. Default: "This field is only editable and viewable by profiles defined in the configuration"
+msgid "groups_in_charge_notes_descr"
+msgstr ""
 
 #. Default: "User interface"
 msgid "gui"

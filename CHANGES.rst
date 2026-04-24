@@ -9,6 +9,8 @@ Changelog
   [gbastien]
 - Added translations for new field `MeetingConfig.cssTransforms`.
   [gbastien]
+- Added translations for new field `MeetingItem.groupsInChargeNotes`.
+  [gbastien]
 
 4.2.33 (2026-01-13)
 -------------------

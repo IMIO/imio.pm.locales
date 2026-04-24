@@ -1283,6 +1283,10 @@ msgstr "Groupes à ne pas afficher dans le filtre \"Groupe\" des tableaux de bor
 msgid "PloneMeeting_label_groupsInCharge"
 msgstr "Groupes en charge"
 
+#. Default: "Notes groups in charge"
+msgid "PloneMeeting_label_groupsInChargeNotes"
+msgstr "Notes groupes en charge"
+
 #. Default: "Hide Css classes to"
 msgid "PloneMeeting_label_hideCssClassesTo"
 msgstr "Cacher les classes Css à"
@@ -4145,6 +4149,10 @@ msgstr "Si vous ne sélectionnez rien (par défaut), tous les groupes seront aff
 #. Default: "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
 msgid "groups_in_charge_descr"
 msgstr "Sélectionnez le(s) groupe(s) en charge de ce groupe.  Cette information pourra être affichée sur un document ou pourra être utilisée dans le champ \"Méthode(s) de tri lors de l'ajout d'un point dans une séance\" des configurations de séance.  <span style='color: red;'>ATTENTION, ajouter ou supprimer des groupes en charge n'affectera pas les points existants, y compris les points récurrents et les modèles de points, adaptez les manuellement si nécessaire.</span>"
+
+#. Default: "This field is only editable and viewable by profiles defined in the configuration"
+msgid "groups_in_charge_notes_descr"
+msgstr "Ce champ est visible et éditable seulement par certains profils définis dans la configuration"
 
 #. Default: "User interface"
 msgid "gui"
