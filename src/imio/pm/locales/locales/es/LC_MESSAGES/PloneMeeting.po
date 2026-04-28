@@ -1147,6 +1147,10 @@ msgstr "Copia de grupos"
 msgid "PloneMeeting_label_cssClassesToHide"
 msgstr ""
 
+#. Default: "CSS transforms"
+msgid "PloneMeeting_label_cssTransforms"
+msgstr ""
+
 #. Default: "Custom advisers"
 msgid "PloneMeeting_label_customAdvisers"
 msgstr "Asesores personalizados"
@@ -1309,6 +1313,10 @@ msgstr ""
 
 #. Default: "Groups in charge"
 msgid "PloneMeeting_label_groupsInCharge"
+msgstr ""
+
+#. Default: "Notes groups in charge"
+msgid "PloneMeeting_label_groupsInChargeNotes"
 msgstr ""
 
 #. Default: "Hide Css classes to"
@@ -1893,6 +1901,10 @@ msgstr ""
 #. Default: "Short name for the meeting configuration"
 msgid "PloneMeeting_label_shortName"
 msgstr "Nombre corto para la configuración de la reunión"
+
+#. Default: "Show external links section"
+msgid "PloneMeeting_label_showExternalLinksSection"
+msgstr ""
 
 #. Default: "Show possible targets for item keywords"
 msgid "PloneMeeting_label_showItemKeywordsTargets"
@@ -3529,6 +3541,18 @@ msgstr "Creadores"
 msgid "css_classes_to_hide_descr"
 msgstr ""
 
+#. Default: "CSS action remove"
+msgid "css_transform_action_remove"
+msgstr ""
+
+#. Default: "CSS action replace"
+msgid "css_transform_action_replace"
+msgstr ""
+
+#. Default: "CSS transforms descr"
+msgid "css_transforms_descr"
+msgstr ""
+
 #. Default: "You can not define a value in the \"Available on\" column if a value is in the \"Advice will be automatically asked if\" column, please check defined values for group \"${groupName}\"."
 msgid "custom_adviser_can_not_available_on_and_gives_auto_advice_on"
 msgstr ""
@@ -4248,6 +4272,10 @@ msgstr ""
 
 #. Default: "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
 msgid "groups_in_charge_descr"
+msgstr ""
+
+#. Default: "This field is only editable and viewable by profiles defined in the configuration"
+msgid "groups_in_charge_notes_descr"
 msgstr ""
 
 #. Default: "User interface"
@@ -6417,6 +6445,10 @@ msgstr ""
 #, fuzzy
 msgid "short_name_descr"
 msgstr "Esta nombre corto (3 a 4 letras como máximo, sin caracteres especiales o acentos) e usado internamente por PloneMeeting, por ejemplo, para obtener la configuración de reunión específica de los tipos de contenidos de temas y reuniones. Tenga en cuenta que todos los tipos de contenidos que representan 'temas' comparten la misma meta-data (es la misma clase Python). El mismo valor es verdadero / true para todos los tipos de contenidos que representan 'reuniones'."
+
+#. Default: "Displays the \"External links\" section on the item view.  This is only relevant if external links are configured."
+msgid "show_external_links_section_descr"
+msgstr ""
 
 #. Default: "If you check this box, on the search screen, radio buttons will appear, allowing the user to choose the item-related field that will become the target for item keywords. If these radio buttons are not shown, the search will encompass all fields indexed in the global index \"SearchableText\"."
 #, fuzzy

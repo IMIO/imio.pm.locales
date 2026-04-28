@@ -115,6 +115,46 @@ msgstr "Libellé"
 msgid "Config group row id"
 msgstr "Identifiant (row_id)"
 
+#. Default: "Action"
+msgid "Css transform action"
+msgstr "Action"
+
+#. Default: "Action descr"
+msgid "Css transform action descr"
+msgstr "\"Enlever la classe CSS\" ou \"Remplacer le contenu\" d'une zone utilisant la classe CSS."
+
+#. Default: "CSS class"
+msgid "Css transform css class"
+msgstr "Classe CSS"
+
+#. Default: "CSS class descr"
+msgid "Css transform css class descr"
+msgstr "Renseignez le nom de la classe CSS à cibler."
+
+#. Default: "Power observers"
+msgid "Css transform powerobservers"
+msgstr "Super observateurs"
+
+#. Default: "Power observers descr"
+msgid "Css transform powerobservers descr"
+msgstr "Sélectionnez les super observateurs pour lesquels la règle s'appliquera."
+
+#. Default: "Replace new content"
+msgid "Css transform replace new content"
+msgstr "Nouveau contenu"
+
+#. Default: "Replace new content descr"
+msgid "Css transform replace new content descr"
+msgstr "Dans le cas de l'action \"Remplacer le contenu\", renseignez ici le nouveau contenu à afficher."
+
+#. Default: "New CSS class"
+msgid "Css transform replace new css class"
+msgstr "Nouvelle classe CSS"
+
+#. Default: "New CSS class descr"
+msgid "Css transform replace new css class descr"
+msgstr "Dans le cas de l'action \"Remplacer le contenu\", renseignez ici une nouvelle classe CSS à utiliser. Ce champ est optionnel, la classe CSS originale peut continuer à être utilisée."
+
 #. Default: "Advice with delay label"
 msgid "Custom adviser delay label"
 msgstr "Libellé pour un avis avec délai"

@@ -7,7 +7,6 @@ Changelog
 
 - Nothing changed yet.
 
-
 4.2.34rc5 (2026-04-01)
 ----------------------
 
@@ -42,6 +41,16 @@ Changelog
 ----------------------
 
 - Added translations related to `imio.esign`.
+  [gbastien]
+
+4.2.33.1 (2026-04-24)
+---------------------
+
+- Added translations for new field `ToolPloneMeeting.showExternalLinksSection`.
+  [gbastien]
+- Added translations for new field `MeetingConfig.cssTransforms`.
+  [gbastien]
+- Added translations for new field `MeetingItem.groupsInChargeNotes`.
   [gbastien]
 
 4.2.33 (2026-01-13)
