@@ -5,8 +5,9 @@ Changelog
 4.2.33.2 (unreleased)
 ---------------------
 
-- Nothing changed yet.
-
+- Added translations for new value `labels_config_update_labels_access_cache` used in
+  `MeetingConfig.labelsConfig.update_local_roles`.
+  [gbastien]
 
 4.2.33.1 (2026-04-24)
 ---------------------

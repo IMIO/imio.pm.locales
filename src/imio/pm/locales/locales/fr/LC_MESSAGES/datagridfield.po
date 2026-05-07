@@ -589,7 +589,7 @@ msgstr "Sélectionnez \"Oui\" si le délai doit être calculé en jours calendri
 
 #. Default: "Item fields config edit TAL expression description"
 msgid "item_fields_config_edit_tal_expr_description"
-msgstr "Expression TAL permettant de spécifier quand le champ est éditable."
+msgstr "Expression TAL permettant de spécifier quand le champ est éditable.  Cette expression reçoit \"item\" qui peut être \"None\" si c'est utilisé pour calculer les valeurs dans l'action par lot \"Changer les étiquettes\" du tableau de bord (dans ce cas, \"item=None\") donc faites une expression du type \"python: item.id == '123' if item else True\"."
 
 #. Default: " "
 msgid "item_fields_config_name_description"
@@ -625,7 +625,7 @@ msgstr "Sélectionnez l'étiquette à configurer.  La valeur \"Par défaut (*)\"
 
 #. Default: "Labels config update local_roles col description"
 msgid "labels_config_update_local_roles_col_description"
-msgstr "Sélectionnez \"Oui\" si l'ajout/suppression de l'étiquette doit provoquer une mise à jour des accès du point (configuration secondaire basée sur la présence ou non de l'étiquette)."
+msgstr "Sélectionnez \"Oui\" si l'ajout/suppression de l'étiquette doit provoquer une mise à jour des accès du point (configuration secondaire basée sur la présence ou non de l'étiquette).  Sélectionnez \"Seulement les étiquettes\" si l'ajout/suppression de cette étiquette est utilisée comme condition d'une autre étiquette."
 
 #. Default: "Labels config view access on cache col description"
 msgid "labels_config_view_access_on_cache_col_description"
@@ -633,7 +633,7 @@ msgstr "Si le résultat de l'expression \"Visible si\" sera toujours identique e
 
 #. Default: "Labels config view access on col description"
 msgid "labels_config_view_access_on_col_description"
-msgstr "Expression TAL permettant de spécifier quand l'étiquette est visible.  Essayez de faire une expression qui peut être mise en cache, ou la plus simple possible."
+msgstr "Expression TAL permettant de spécifier quand l'étiquette est visible.  Essayez de faire une expression qui peut être mise en cache, ou la plus simple possible.  Cette expression reçoit \"item\" qui peut être \"None\" si c'est utilisé pour calculer les valeurs dans le filtre \"Étiquettes\" du tableau de bord (dans ce cas, \"item=None\") donc faites une expression du type \"python: item.id == '123' if item else True\"."
 
 #. Default: "Labels config view groups col description"
 msgid "labels_config_view_groups_col_description"
