@@ -2767,8 +2767,8 @@ msgstr "Der TOP trägt dem Namen '${itemTitle}'. Mehr Informationen auf ${portal
 msgid "annexAdded_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - Ein Anhang wurde gerade zu einem TOP zugefügt."
 
-#. Default: "Annex \"${annex_title}\" was added to session \"${session_id}\"."
-msgid "annex_added_to_session"
+#. Default: "Annexes were added to the following sessions: \"${session_ids}\"."
+msgid "annex_added_to_sessions"
 msgstr ""
 
 #. Default: "Annex \"${annex_title}\" is already in session \"${session_id}\"  that is not finalized!"

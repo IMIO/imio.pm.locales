@@ -2768,9 +2768,9 @@ msgstr ""
 msgid "annexAdded_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - Une annexe vient d'être ajoutée à un point."
 
-#. Default: "Annex \"${annex_title}\" was added to session \"${session_id}\"."
-msgid "annex_added_to_session"
-msgstr "L'annexe \"${annex_title}\" a été ajoutée à la session \"${session_id}\"."
+#. Default: "Annexes were added to the following sessions: \"${session_ids}\"."
+msgid "annex_added_to_sessions"
+msgstr "Les annexes ont été ajoutées aux sessions suivantes: \"${session_ids}\"."
 
 #. Default: "Annex \"${annex_title}\" is already in session \"${session_id}\"  that is not finalized!"
 msgid "annex_already_in_not_finalized_session_error"

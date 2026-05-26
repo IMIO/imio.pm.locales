@@ -2775,8 +2775,8 @@ msgstr "Un anexo se ha añadido al tema '${itemTitle}' que ya se presentó a la 
 msgid "annexAdded_mail_subject"
 msgstr "${portalTitle} - ${meetingTitle} - Un anexo se acaba de agregar a un tema."
 
-#. Default: "Annex \"${annex_title}\" was added to session \"${session_id}\"."
-msgid "annex_added_to_session"
+#. Default: "Annexes were added to the following sessions: \"${session_ids}\"."
+msgid "annex_added_to_sessions"
 msgstr ""
 
 #. Default: "Annex \"${annex_title}\" is already in session \"${session_id}\"  that is not finalized!"

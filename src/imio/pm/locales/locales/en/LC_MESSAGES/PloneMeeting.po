@@ -2752,8 +2752,8 @@ msgstr "An annex has been added to the item \"${itemTitle}\" that was already pr
 msgid "annexAdded_mail_subject"
 msgstr "${meetingConfigTitle} - ${meetingTitle} - An annex was just added to an item."
 
-#. Default: "Annex \"${annex_title}\" was added to session \"${session_id}\"."
-msgid "annex_added_to_session"
+#. Default: "Annexes were added to the following sessions: \"${session_ids}\"."
+msgid "annex_added_to_sessions"
 msgstr ""
 
 #. Default: "Annex \"${annex_title}\" is already in session \"${session_id}\"  that is not finalized!"
