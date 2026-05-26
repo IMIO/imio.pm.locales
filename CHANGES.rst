@@ -5,7 +5,8 @@ Changelog
 4.2.34rc6 (unreleased)
 ----------------------
 
-- Nothing changed yet.
+- Renamed `annex_added_to_session` to `annex_added_to_sessions`.
+  [gbastien]
 
 4.2.34rc5 (2026-04-01)
 ----------------------
@@ -41,6 +42,13 @@ Changelog
 ----------------------
 
 - Added translations related to `imio.esign`.
+  [gbastien]
+
+4.2.33.2 (2026-05-20)
+---------------------
+
+- Added translations for new value `labels_config_update_labels_access_cache` used in
+  `MeetingConfig.labelsConfig.update_local_roles`.
   [gbastien]
 
 4.2.33.1 (2026-04-24)

@@ -5017,11 +5017,15 @@ msgstr "Il ne peut y avoir qu'une seule ligne de configuration pour une même é
 
 #. Default: "Define here who will be able to view/edit labels"
 msgid "labels_config_descr"
-msgstr "Définissez ici qui peut voir et éditer les étiquettes. <span style='color: red;'>Si vous ajoutez/modifiez/supprimez une configuration, exécutez l'action \"Mettre à jour les étiquettes sur les points\"!</span>"
+msgstr "Définissez ici qui peut voir et éditer les étiquettes. Les colonnes sont évaluées l'une après l'autre \"états visibles/visible par/visible si\" et \"états éditables/éditable par/éditable si\", dès que la condition d'une colonne n'est pas rencontrée, la suivante n'est pas évaluée, définir dès lors des valeurs pour \"états visibles/éditables\" et \"visible/éditable par\" permet d'être plus efficace car ces valeurs sont mises en cache sur le point. <span style='color: red;'>Si vous ajoutez/modifiez/supprimez une configuration, exécutez l'action \"Mettre à jour les étiquettes sur les points\"!</span>"
 
 #. Default: "The first row must be about the \"Default (*)\" configuration"
 msgid "labels_config_first_row_must_be_default_config"
 msgstr "La première ligne est obligatoire et doit concerner la configuration \"Par défaut (*)\"!"
+
+#. Default: "Update labels only"
+msgid "labels_config_update_labels_access_cache"
+msgstr "Seulement les étiquettes"
 
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
