@@ -21,7 +21,7 @@ msgstr " [PDF required]"
 
 #. Default: " [already in esign session]"
 msgid " [already_in_esign_session]"
-msgstr ""
+msgstr " [already in esign session]"
 
 #. Default: " [holds scan_id]"
 msgid " [holds scan_id]"
@@ -326,11 +326,11 @@ msgstr "Contacts fields"
 
 #. Default: "Could not find a user with userid \"${userid}\" defined on person at \"${person_url}\"!"
 msgid "Could not find a user with userid \"${userid}\" defined on person at \"${person_url}\"!"
-msgstr ""
+msgstr "Could not find a user with userid \"${userid}\" defined on person at \"${person_url}\"!"
 
 #. Default: "Could not get any signers, please check configuration!"
 msgid "Could not get any signers, please check configuration!"
-msgstr ""
+msgstr "Could not get any signers, please check configuration!"
 
 #. Default: "Create an item from an item template"
 msgid "Create an item from an item template"
@@ -845,7 +845,7 @@ msgstr "No complementary comment has been given on this advice."
 
 #. Default: "No held position for signer number \"${signature_number}\" (${signer})!"
 msgid "No held position for signer number \"${signature_number}\" (${signer})!"
-msgstr ""
+msgstr "No held position for signer number \"${signature_number}\" (${signer})!"
 
 #. Default: "No historized data for this advice."
 msgid "No historized data for this advice."
@@ -861,7 +861,7 @@ msgstr "No label defined on held position"
 
 #. Default: "No userid for person at \"${person_url}\"!"
 msgid "No userid for person at \"${person_url}\"!"
-msgstr ""
+msgstr "No userid for person at \"${person_url}\"!"
 
 #. Default: "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
 msgid "No valid groupsInCharge defined for item at ${item_url}, item was inserted at the beginning."
@@ -1141,7 +1141,7 @@ msgstr "Css classes to hide"
 
 #. Default: "CSS transforms"
 msgid "PloneMeeting_label_cssTransforms"
-msgstr ""
+msgstr "CSS transforms"
 
 #. Default: "Custom advisers"
 msgid "PloneMeeting_label_customAdvisers"
@@ -1225,7 +1225,7 @@ msgstr "Display voting group"
 
 #. Default: "Esign discriminators"
 msgid "PloneMeeting_label_eSignDiscriminatorsTALExpr"
-msgstr ""
+msgstr "Esign discriminators"
 
 #. Default: "Emergency"
 msgid "PloneMeeting_label_emergency"
@@ -1309,7 +1309,7 @@ msgstr "Groups in charge"
 
 #. Default: "Notes groups in charge"
 msgid "PloneMeeting_label_groupsInChargeNotes"
-msgstr ""
+msgstr "Notes groups in charge"
 
 #. Default: "Hide Css classes to"
 msgid "PloneMeeting_label_hideCssClassesTo"
@@ -1890,7 +1890,7 @@ msgstr "Short name for the meeting configuration"
 
 #. Default: "Show external links section"
 msgid "PloneMeeting_label_showExternalLinksSection"
-msgstr ""
+msgstr "Show external links section"
 
 #. Default: "Show possible targets for item keywords"
 msgid "PloneMeeting_label_showItemKeywordsTargets"
@@ -2151,11 +2151,11 @@ msgstr "Represented organizations"
 
 #. Default: "Same email address for users \"${userid1}\" and \"${userid2}\"!"
 msgid "Same email address for users \"${userid1}\" and \"${userid2}\"!"
-msgstr ""
+msgstr "Same email address for users \"${userid1}\" and \"${userid2}\"!"
 
 #. Default: "Same userid for signers \"${person1_url}\" and \"${person2_url}\"!"
 msgid "Same userid for signers \"${person1_url}\" and \"${person2_url}\"!"
-msgstr ""
+msgstr "Same userid for signers \"${person1_url}\" and \"${person2_url}\"!"
 
 #. Default: "Searches"
 msgid "Searches"
@@ -2215,7 +2215,7 @@ msgstr "Signature position type"
 
 #. Default: "Signers that will be used in the generated document:"
 msgid "Signers that will be used in the generated document:"
-msgstr ""
+msgstr "Signers that will be used in the generated document:"
 
 #. Default: "Specify a number to which this will be applied. Field default is current item number."
 msgid "Specify a number to which this will be applied. Field default is current item number."
@@ -2398,7 +2398,7 @@ msgstr "Used in the assembly for meetings"
 
 #. Default: "User \"${userid}\" does not have an email address!"
 msgid "User \"${userid}\" does not have an email address!"
-msgstr ""
+msgstr "User \"${userid}\" does not have an email address!"
 
 #. Default: "Vote count"
 msgid "Vote count"
@@ -2754,11 +2754,11 @@ msgstr "${meetingConfigTitle} - ${meetingTitle} - An annex was just added to an 
 
 #. Default: "Annexes were added to the following sessions: \"${session_ids}\"."
 msgid "annex_added_to_sessions"
-msgstr ""
+msgstr "Annexes were added to the following sessions: \"${session_ids}\"."
 
 #. Default: "Annex \"${annex_title}\" is already in session \"${session_id}\"  that is not finalized!"
 msgid "annex_already_in_not_finalized_session_error"
-msgstr ""
+msgstr "Annex \"${annex_title}\" is already in session \"${session_id}\"  that is not finalized!"
 
 #. Default: "If an annex is marked as \"Confidential\" by a meeting manager, following selected profiles will not be able to see it."
 msgid "annex_confidential_for_descr"
@@ -2782,7 +2782,7 @@ msgstr "The item was duplicated but the annex with title \"${annexTitle}\" was n
 
 #. Default: "Annex \"${annex_title}\" must be PDF to be added to a session!"
 msgid "annex_not_pdf_error"
-msgstr ""
+msgstr "Annex \"${annex_title}\" must be PDF to be added to a session!"
 
 #. Default: "Select for each optional annexes attributes which are only displayed or editable by MeetingManagers.  If an attribute is only displayed to MeetingManagers it will be automatically considered as only editable by MeetingManagers as well."
 msgid "annex_restrict_shown_and_editable_attributes_descr"
@@ -2890,11 +2890,11 @@ msgstr "Application users"
 
 #. Default: "Approved (displayed)"
 msgid "approved_display"
-msgstr ""
+msgstr "Approved (displayed)"
 
 #. Default: "Approved (editable)"
 msgid "approved_edit"
-msgstr ""
+msgstr "Approved (editable)"
 
 #. Default: "Are you sure?"
 msgid "are_you_sure"
@@ -3513,15 +3513,15 @@ msgstr "Enter Css classes used in the application that will be hidden to profile
 
 #. Default: "CSS action remove"
 msgid "css_transform_action_remove"
-msgstr ""
+msgstr "CSS action remove"
 
 #. Default: "CSS action replace"
 msgid "css_transform_action_replace"
-msgstr ""
+msgstr "CSS action replace"
 
 #. Default: "CSS transforms descr"
 msgid "css_transforms_descr"
-msgstr ""
+msgstr "CSS transforms descr"
 
 #. Default: "You can not define a value in the \"Available on\" column if a value is in the \"Advice will be automatically asked if\" column, please check defined values for group \"${groupName}\"."
 msgid "custom_adviser_can_not_available_on_and_gives_auto_advice_on"
@@ -3694,19 +3694,19 @@ msgstr "Select here the days a computed delay can not ends with.  If a computed 
 
 #. Default: "This will add the annexes marked as \"To sign\" to the e-signing session."
 msgid "descr_add_annexes_to_sign_session"
-msgstr ""
+msgstr "This will add the annexes marked as \"To sign\" to the e-signing session."
 
 #. Default: "This will add the annexes to a e-signing session that will be selected automatically depending on your configuration."
 msgid "descr_add_to_sign_session"
-msgstr ""
+msgstr "This will add the annexes to a e-signing session that will be selected automatically depending on your configuration."
 
 #. Default: "Select annexes defined as \"to sign\" that will be added to the esign session.  Annexes must be PDF and not already belong to a esgin session that is not finalized."
 msgid "descr_annex_ids_to_add_to_sign_session"
-msgstr ""
+msgstr "Select annexes defined as \"to sign\" that will be added to the esign session.  Annexes must be PDF and not already belong to a esgin session that is not finalized."
 
 #. Default: "Select annexes defined as \"to sign\" that will be added to the esign session.  Annexes must be PDF and not already belong to a esgin session that is not finalized."
 msgid "descr_annex_types_to_add_to_sign_session"
-msgstr ""
+msgstr "Select annexes defined as \"to sign\" that will be added to the esign session.  Annexes must be PDF and not already belong to a esgin session that is not finalized."
 
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
 msgid "descr_assembly"
@@ -3738,11 +3738,11 @@ msgstr "<span style='color: green;'>This field is only editable by meeting manag
 
 #. Default: "You can choose to not store the generated document, if selected, annexes to sign will be stored and will use the proposed signatories."
 msgid "descr_store_generated_document"
-msgstr ""
+msgstr "You can choose to not store the generated document, if selected, annexes to sign will be stored and will use the proposed signatories."
 
 #. Default: "Usages description"
 msgid "descr_usages"
-msgstr ""
+msgstr "Usages description"
 
 #. Default: "You are just able to see visible elements here. Please consult the \"manage\" box here opposite."
 msgid "description_only_see_visible_items"
@@ -3942,15 +3942,15 @@ msgstr "Some selected values are no more selectable (no more selected in the \"O
 
 #. Default: "Esign discriminators TAL expression"
 msgid "esign_discriminators_tal_expr_descr"
-msgstr ""
+msgstr "Esign discriminators TAL expression"
 
 #. Default: "e-Signature:"
 msgid "esign_label"
-msgstr ""
+msgstr "e-Signature:"
 
 #. Default: "eSign watchers"
 msgid "esignwatchers"
-msgstr ""
+msgstr "eSign watchers"
 
 #. Default: "An annex was added to an item already presented in a validated agenda (notify \"MeetingManagers\")"
 msgid "event_add_annex"
@@ -4222,7 +4222,7 @@ msgstr "Select here the groups that are in charge of the current group.  This wi
 
 #. Default: "This field is only editable and viewable by profiles defined in the configuration"
 msgid "groups_in_charge_notes_descr"
-msgstr ""
+msgstr "This field is only editable and viewable by profiles defined in the configuration"
 
 #. Default: "User interface"
 msgid "gui"
@@ -5001,7 +5001,7 @@ msgstr "The first row must be about the \"Default (*)\" configuration"
 
 #. Default: "Update labels only"
 msgid "labels_config_update_labels_access_cache"
-msgstr ""
+msgstr "Update labels only"
 
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
@@ -6185,7 +6185,7 @@ msgstr "Searches defined here are used in the main portlet. We recommand not mod
 
 #. Default: "Items in esign sessions"
 msgid "searchitemsinesignsessions"
-msgstr ""
+msgstr "Items in esign sessions"
 
 #. Default: "Items of my committees"
 msgid "searchitemsofmycommittees"
@@ -6253,7 +6253,7 @@ msgstr "Living items"
 
 #. Default: "Meetings in esign sessions"
 msgid "searchmeetingsinesignsessions"
-msgstr ""
+msgstr "Meetings in esign sessions"
 
 #. Default: "My items"
 msgid "searchmyitems"
@@ -6370,7 +6370,7 @@ msgstr "This short name (3 or 4 letters maximum, without special characters or a
 
 #. Default: "Displays the \"External links\" section on the item view.  This is only relevant if external links are configured."
 msgid "show_external_links_section_descr"
-msgstr ""
+msgstr "Displays the \"External links\" section on the item view.  This is only relevant if external links are configured."
 
 #. Default: "If you check this box, on the search screen, radio buttons will appear, allowing the user to choose the item-related field that will become the target for item keywords. If these radio buttons are not shown, the search will encompass all fields indexed in the global index \"SearchableText\"."
 msgid "show_item_keywords_targets_descr"
@@ -6399,7 +6399,7 @@ msgstr "Signed (editable)"
 
 #. Default: "Signer"
 msgid "signer"
-msgstr ""
+msgstr "Signer"
 
 #. Default: "Check this box if you want to sort the tags in alphabetic order."
 msgid "sort_all_item_tags_descr"
@@ -6423,7 +6423,7 @@ msgstr "Store as annex of type \"${annex_type_title}\" with format \"${output_fo
 
 #. Default: "Store pod template as annex so it can be printed or sent to a e-signing session."
 msgid "store_pod_template_as_annex_descr"
-msgstr ""
+msgstr "Store pod template as annex so it can be printed or sent to a e-signing session."
 
 #. Default: "Not allowed to add annex in this element."
 msgid "store_podtemplate_as_annex_can_not_add_annex"
@@ -6435,15 +6435,15 @@ msgstr "Can not store same a generated document as annex several times."
 
 #. Default: "Only available when using output format PDF!"
 msgid "store_podtemplate_as_annex_output_format_error"
-msgstr ""
+msgstr "Only available when using output format PDF!"
 
 #. Default: "Not able to get signer, error is: \"${msg}\"."
 msgid "store_podtemplate_as_annex_signers_error"
-msgstr ""
+msgstr "Not able to get signer, error is: \"${msg}\"."
 
 #. Default: "Only available when annex type used to store generated document uses \"to sign\" by default!"
 msgid "store_podtemplate_as_annex_type_error"
-msgstr ""
+msgstr "Only available when annex type used to store generated document uses \"to sign\" by default!"
 
 #. Default: "Can not store annex using annex type selected in the configuration.  Please contact the system administrator."
 msgid "store_podtemplate_as_annex_wrong_annex_type_on_pod_template"
@@ -6551,11 +6551,11 @@ msgstr "Absents"
 
 #. Default: "Add annexes \"To sign\" to the e-sign session"
 msgid "title_add_annexes_to_sign_session"
-msgstr ""
+msgstr "Add annexes \"To sign\" to the e-sign session"
 
 #. Default: "Add generated annex to a e-sign session"
 msgid "title_add_to_sign_session"
-msgstr ""
+msgstr "Add generated annex to a e-sign session"
 
 #. Default: "Adopts next agenda of"
 msgid "title_adopts_next_agenda_of"
@@ -6595,11 +6595,11 @@ msgstr "Advice type"
 
 #. Default: "Annexes to add to sign session"
 msgid "title_annex_ids_to_add_to_sign_session"
-msgstr ""
+msgstr "Annexes to add to sign session"
 
 #. Default: "Annex types to add to sign session"
 msgid "title_annex_types_to_add_to_sign_session"
-msgstr ""
+msgstr "Annex types to add to sign session"
 
 #. Default: "Approval date"
 msgid "title_approval_date"
@@ -6811,7 +6811,7 @@ msgstr "Start date"
 
 #. Default: "Store generated document?"
 msgid "title_store_generated_document"
-msgstr ""
+msgstr "Store generated document?"
 
 #. Default: "Deadline for validating items"
 msgid "title_validation_deadline"
