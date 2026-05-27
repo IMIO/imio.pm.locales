@@ -7,6 +7,9 @@ Changelog
 
 - Renamed `annex_added_to_session` to `annex_added_to_sessions`.
   [gbastien]
+- Added translations for `esign_session_title_expr` and
+  `esign_session_title_expr_descr`.
+  [gbastien]
 
 4.2.34rc5 (2026-04-01)
 ----------------------

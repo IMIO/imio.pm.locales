@@ -22,6 +22,14 @@ msgstr "Signature électronique: inclure le sceau?"
 msgid "esign_include_seal_descr"
 msgstr "Permet d'inclure automatiquement le sceau dans les documents envoyés pour signature dans Paraphéo."
 
+#. Default: "eSign session title TAL expression"
+msgid "esign_session_title_expr"
+msgstr "Signature électronique: expression au format TAL permettant de générer le titre de la session"
+
+#. Default: "eSign session title TAL expression description"
+msgid "esign_session_title_expr_descr"
+msgstr "Encodez ici une expression au format TAL permettant de définir le titre de la session Paraphéo qui sera créée.  Ce titre apparaîtra également aux signataires dans l'outil de signature électronique. Laissez vide pour utiliser le format par défaut: \"[iA.Délib] Titre type de séance - Session 013999900000\". Les valeurs (\"obj\", \"tool\", \"cfg\", \"member\", \"utils\", \"pod_template\", \"annex\", ...) sont disponibles dans l'expression."
+
 #. Default: "eSign signer TAL expression"
 msgid "esign_signers_expr"
 msgstr "Signature électronique: expression au format TAL permettant de définir les signataires"
