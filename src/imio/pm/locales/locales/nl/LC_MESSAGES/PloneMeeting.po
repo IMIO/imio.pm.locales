@@ -6426,12 +6426,20 @@ msgstr ""
 msgid "store_as_annex_type_title"
 msgstr ""
 
+#. Default: "Yes and overwrite if exist"
+msgid "store_generated_document_overwrite"
+msgstr ""
+
 #. Default: "Store pod template as annex so it can be printed or sent to a e-signing session."
 msgid "store_pod_template_as_annex_descr"
 msgstr ""
 
 #. Default: "Not allowed to add annex in this element."
 msgid "store_podtemplate_as_annex_can_not_add_annex"
+msgstr ""
+
+#. Default: "Can not overwrite a stored generated document that is marked as signed, remove it manually first."
+msgid "store_podtemplate_as_annex_can_not_overwrite_signed_annex"
 msgstr ""
 
 #. Default: "Can not store same a generated document as annex several times."

@@ -5254,6 +5254,10 @@ msgstr ""
 msgid "store_podtemplate_as_annex_can_not_store_several_times"
 msgstr ""
 
+#. Default: "Can not overwrite a stored generated document that is marked as signed, remove it manually first."
+msgid "store_podtemplate_as_annex_can_not_overwrite_signed_annex"
+msgstr ""
+
 #. Default: "Not allowed to add annex in this element."
 msgid "store_podtemplate_as_annex_can_not_add_annex"
 msgstr ""
@@ -7240,6 +7244,10 @@ msgstr ""
 
 #. Default: "Define here who will be able to view/edit labels"
 msgid "labels_config_descr"
+msgstr ""
+
+#. Default: "Yes and overwrite if exist"
+msgid "store_generated_document_overwrite"
 msgstr ""
 
 #. Default: "Warning: the action 'Update labels access cache' will update every items labels access, this needs to be done when labels are activated or when labels config changed."

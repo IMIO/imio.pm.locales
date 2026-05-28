@@ -3756,7 +3756,7 @@ msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestion
 
 #. Default: "You can choose to not store the generated document, if selected, annexes to sign will be stored and will use the proposed signatories."
 msgid "descr_store_generated_document"
-msgstr "Par défaut le document généré sera stocké comme annexe sur le point, si décoché, le document ne sera pas stocké. <span class='highlight-red'>Attention pour éviter les erreurs, si la case est cochée et que le document est déjà stocké, rien ne sera fait, pour ajouter des annexes à signer sur un élément déjà dans une session, décochez cette case!</span>"
+msgstr "Par défaut le document généré sera stocké comme annexe sur le point, si décoché, le document ne sera pas stocké. <span class='highlight-red'>Attention si vous sélectionnez \"Oui\" et que le document est déjà stocké, rien ne sera fait, pour ajouter des annexes à signer sur un élément déjà dans une session, sélectionnez \"Non\". Si vous sélectionnez \"Oui et écraser si existant\" ceci ne sera fait que si l'annexe n'est pas marquée comme \"Signée\", si une annexe signée doit être refaite, il faut la supprimer auparavant.</span>"
 
 #. Default: "Usages description"
 msgid "descr_usages"
@@ -6449,6 +6449,10 @@ msgstr "La transition \"${transition}\" ne peut pas être désactivée ou suppri
 msgid "store_as_annex_type_title"
 msgstr "Préparer pour signature en stockant en tant qu'annexe de type \"${annex_type_title}\" au format \"${output_format}\""
 
+#. Default: "Yes and overwrite if exist"
+msgid "store_generated_document_overwrite"
+msgstr "Oui et écraser si existant"
+
 #. Default: "Store pod template as annex so it can be printed or sent to a e-signing session."
 msgid "store_pod_template_as_annex_descr"
 msgstr "Cette action stockera le document généré en annexe afin qu'il puisse être signé."
@@ -6456,6 +6460,10 @@ msgstr "Cette action stockera le document généré en annexe afin qu'il puisse 
 #. Default: "Not allowed to add annex in this element."
 msgid "store_podtemplate_as_annex_can_not_add_annex"
 msgstr "Vous n'avez pas la permission d'ajouter une annexe à cet élément."
+
+#. Default: "Can not overwrite a stored generated document that is marked as signed, remove it manually first."
+msgid "store_podtemplate_as_annex_can_not_overwrite_signed_annex"
+msgstr "Impossible d'écraser le document car il est marqué \"Signé\", supprimez-le manuellement si nécessaire et ré-essayez."
 
 #. Default: "Can not store same a generated document as annex several times."
 msgid "store_podtemplate_as_annex_can_not_store_several_times"

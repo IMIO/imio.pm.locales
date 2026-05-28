@@ -10,6 +10,8 @@ Changelog
 - Added translations for `esign_session_title_expr` and
   `esign_session_title_expr_descr`.
   [gbastien]
+- Added `store_generated_document_overwrite` related translations.
+  [gbastien]
 
 4.2.34rc5 (2026-04-01)
 ----------------------
