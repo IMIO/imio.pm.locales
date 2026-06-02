@@ -6479,6 +6479,10 @@ msgstr ""
 msgid "store_podtemplate_as_annex_can_not_add_annex"
 msgstr ""
 
+#. Default: "You can not delete the annex that you want to overwrite. Please contact the system administrator."
+msgid "store_podtemplate_as_annex_can_not_delete_annex_overwrite"
+msgstr ""
+
 #. Default: "Can not overwrite a stored generated document that is marked as signed, remove it manually first."
 msgid "store_podtemplate_as_annex_can_not_overwrite_signed_annex"
 msgstr ""
@@ -6499,7 +6503,7 @@ msgstr ""
 msgid "store_podtemplate_as_annex_type_error"
 msgstr ""
 
-#. Default: "Can not store annex using annex type selected in the configuration.  Please contact the system administrator."
+#. Default: "Can not store annex using annex type selected in the configuration. Please contact the system administrator."
 msgid "store_podtemplate_as_annex_wrong_annex_type_on_pod_template"
 msgstr ""
 

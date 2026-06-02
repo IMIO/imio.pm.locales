@@ -3756,7 +3756,7 @@ msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestion
 
 #. Default: "You can choose to not store the generated document, if selected, annexes to sign will be stored and will use the proposed signatories."
 msgid "descr_store_generated_document"
-msgstr "Par défaut le document généré sera stocké comme annexe sur le point, si décoché, le document ne sera pas stocké. <span class='highlight-red'>Attention si vous sélectionnez \"Oui\" et que le document est déjà stocké, rien ne sera fait, pour ajouter des annexes à signer sur un élément déjà dans une session, sélectionnez \"Non\". Si vous sélectionnez \"Oui et écraser si existant\" ceci ne sera fait que si l'annexe n'est pas marquée comme \"Signée\", si une annexe signée doit être refaite, il faut la supprimer auparavant.</span>"
+msgstr "Par défaut le document généré sera stocké comme annexe sur le point, sélectionnez \"Non\" si le document ne doit pas être stocké. <span class='highlight-red'>Attention si vous sélectionnez \"Oui\" et que le document est déjà stocké, rien ne sera fait. Si vous sélectionnez \"Oui et écraser si existant\" ceci ne sera pas appliqué si l'annexe est marquée \"Signée\", si une annexe signée doit être signée à nouveau, il faut la supprimer auparavant. Si vous utilisez la signature électronique, pour ajouter des annexes à signer sur un élément déjà dans une session (sans le stocker à nouveau), sélectionnez \"Non\".</span>"
 
 #. Default: "Usages description"
 msgid "descr_usages"
@@ -6461,6 +6461,10 @@ msgstr "Cette action stockera le document généré en annexe afin qu'il puisse 
 msgid "store_podtemplate_as_annex_can_not_add_annex"
 msgstr "Vous n'avez pas la permission d'ajouter une annexe à cet élément."
 
+#. Default: "You can not delete the annex that you want to overwrite. Please contact the system administrator."
+msgid "store_podtemplate_as_annex_can_not_delete_annex_overwrite"
+msgstr "Impossible d'écraser le document vous n'avez pas la permission de supprimer l'annexe existante. Contactez votre administrateur système."
+
 #. Default: "Can not overwrite a stored generated document that is marked as signed, remove it manually first."
 msgid "store_podtemplate_as_annex_can_not_overwrite_signed_annex"
 msgstr "Impossible d'écraser le document car il est marqué \"Signé\", supprimez-le manuellement si nécessaire et ré-essayez."
@@ -6481,9 +6485,9 @@ msgstr "Signature électronique non disponible: impossible d'obtenir les signata
 msgid "store_podtemplate_as_annex_type_error"
 msgstr "Signature électronique non disponible: le type d'annexe utilisé pour le document généré doit être \"à signer\" par défaut, vérifiez \"${annex_type_url}\"."
 
-#. Default: "Can not store annex using annex type selected in the configuration.  Please contact the system administrator."
+#. Default: "Can not store annex using annex type selected in the configuration. Please contact the system administrator."
 msgid "store_podtemplate_as_annex_wrong_annex_type_on_pod_template"
-msgstr "Impossible de stocker l'annexe en utilisant le type d'annexe défini dans la configuration.  Contactez votre administrateur système."
+msgstr "Impossible de stocker l'annexe en utilisant le type d'annexe défini dans la configuration. Contactez votre administrateur système."
 
 #. Default: "Stored ${number_of_annexes} annexes."
 msgid "stored_item_template_as_annex"

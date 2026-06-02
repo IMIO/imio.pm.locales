@@ -6423,7 +6423,7 @@ msgstr "Store as annex of type \"${annex_type_title}\" with format \"${output_fo
 
 #. Default: "Yes and overwrite if exist"
 msgid "store_generated_document_overwrite"
-msgstr ""
+msgstr "Yes and overwrite if exist"
 
 #. Default: "Store pod template as annex so it can be printed or sent to a e-signing session."
 msgid "store_pod_template_as_annex_descr"
@@ -6433,9 +6433,13 @@ msgstr "Store pod template as annex so it can be printed or sent to a e-signing 
 msgid "store_podtemplate_as_annex_can_not_add_annex"
 msgstr "Not allowed to add annex in this element."
 
+#. Default: "You can not delete the annex that you want to overwrite. Please contact the system administrator."
+msgid "store_podtemplate_as_annex_can_not_delete_annex_overwrite"
+msgstr "You can not delete the annex that you want to overwrite. Please contact the system administrator."
+
 #. Default: "Can not overwrite a stored generated document that is marked as signed, remove it manually first."
 msgid "store_podtemplate_as_annex_can_not_overwrite_signed_annex"
-msgstr ""
+msgstr "Can not overwrite a stored generated document that is marked as signed, remove it manually first."
 
 #. Default: "Can not store same a generated document as annex several times."
 msgid "store_podtemplate_as_annex_can_not_store_several_times"
@@ -6453,9 +6457,9 @@ msgstr "Not able to get signer, error is: \"${msg}\"."
 msgid "store_podtemplate_as_annex_type_error"
 msgstr "Only available when annex type used to store generated document uses \"to sign\" by default!"
 
-#. Default: "Can not store annex using annex type selected in the configuration.  Please contact the system administrator."
+#. Default: "Can not store annex using annex type selected in the configuration. Please contact the system administrator."
 msgid "store_podtemplate_as_annex_wrong_annex_type_on_pod_template"
-msgstr "Can not store annex using annex type selected in the configuration.  Please contact the system administrator."
+msgstr "Can not store annex using annex type selected in the configuration. Please contact the system administrator."
 
 #. Default: "Stored ${number_of_annexes} annexes."
 msgid "stored_item_template_as_annex"
