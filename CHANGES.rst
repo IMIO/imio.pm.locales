@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.34rc6 (unreleased)
+4.2.34rc6 (2026-06-02)
 ----------------------
 
 - Renamed `annex_added_to_session` to `annex_added_to_sessions`.
