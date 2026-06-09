@@ -1287,6 +1287,10 @@ msgstr ""
 msgid "PloneMeeting_label_groupsInCharge"
 msgstr ""
 
+#. Default: "Notes groups in charge"
+msgid "PloneMeeting_label_groupsInChargeNotes"
+msgstr ""
+
 #. Default: "Hide Css classes to"
 msgid "PloneMeeting_label_hideCssClassesTo"
 msgstr ""
@@ -4165,6 +4169,10 @@ msgstr ""
 msgid "groups_in_charge_descr"
 msgstr ""
 
+#. Default: "This field is only editable and viewable by profiles defined in the configuration"
+msgid "groups_in_charge_notes_descr"
+msgstr ""
+
 #. Default: "User interface"
 msgid "gui"
 msgstr "Bedieneroberfläche"
@@ -4939,6 +4947,10 @@ msgstr ""
 
 #. Default: "The first row must be about the \"Default (*)\" configuration"
 msgid "labels_config_first_row_must_be_default_config"
+msgstr ""
+
+#. Default: "Update labels only"
+msgid "labels_config_update_labels_access_cache"
 msgstr ""
 
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."

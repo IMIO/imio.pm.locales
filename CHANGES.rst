@@ -5,15 +5,18 @@ Changelog
 4.2.31rc3 (unreleased)
 ----------------------
 
-- Nothing changed yet.
+- Added translations for new value `labels_config_update_labels_access_cache` used in
+  `MeetingConfig.labelsConfig.update_local_roles`.
+  [gbastien]
 
-
-4.2.31rc2 (2026-04-13)
-----------------------
+4.2.33.1 (2026-04-24)
+---------------------
 
 - Added translations for new field `ToolPloneMeeting.showExternalLinksSection`.
   [gbastien]
 - Added translations for new field `MeetingConfig.cssTransforms`.
+  [gbastien]
+- Added translations for new field `MeetingItem.groupsInChargeNotes`.
   [gbastien]
 
 4.2.33 (2026-01-13)

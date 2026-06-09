@@ -1283,6 +1283,10 @@ msgstr "Groupes à ne pas afficher dans le filtre \"Groupe\" des tableaux de bor
 msgid "PloneMeeting_label_groupsInCharge"
 msgstr "Groupes en charge"
 
+#. Default: "Notes groups in charge"
+msgid "PloneMeeting_label_groupsInChargeNotes"
+msgstr "Notes groupes en charge"
+
 #. Default: "Hide Css classes to"
 msgid "PloneMeeting_label_hideCssClassesTo"
 msgstr "Cacher les classes Css à"
@@ -4150,6 +4154,10 @@ msgstr "Si vous ne sélectionnez rien (par défaut), tous les groupes seront aff
 msgid "groups_in_charge_descr"
 msgstr "Sélectionnez le(s) groupe(s) en charge de ce groupe.  Cette information pourra être affichée sur un document ou pourra être utilisée dans le champ \"Méthode(s) de tri lors de l'ajout d'un point dans une séance\" des configurations de séance.  <span style='color: red;'>ATTENTION, ajouter ou supprimer des groupes en charge n'affectera pas les points existants, y compris les points récurrents et les modèles de points, adaptez les manuellement si nécessaire.</span>"
 
+#. Default: "This field is only editable and viewable by profiles defined in the configuration"
+msgid "groups_in_charge_notes_descr"
+msgstr "Ce champ est visible et éditable seulement par certains profils définis dans la configuration"
+
 #. Default: "User interface"
 msgid "gui"
 msgstr "Interface utilisateur"
@@ -4925,11 +4933,15 @@ msgstr "Il ne peut y avoir qu'une seule ligne de configuration pour une même é
 
 #. Default: "Define here who will be able to view/edit labels"
 msgid "labels_config_descr"
-msgstr "Définissez ici qui peut voir et éditer les étiquettes. <span style='color: red;'>Si vous ajoutez/modifiez/supprimez une configuration, exécutez l'action \"Mettre à jour les étiquettes sur les points\"!</span>"
+msgstr "Définissez ici qui peut voir et éditer les étiquettes. Les colonnes sont évaluées l'une après l'autre \"états visibles/visible par/visible si\" et \"états éditables/éditable par/éditable si\", dès que la condition d'une colonne n'est pas rencontrée, la suivante n'est pas évaluée, définir dès lors des valeurs pour \"états visibles/éditables\" et \"visible/éditable par\" permet d'être plus efficace car ces valeurs sont mises en cache sur le point. <span style='color: red;'>Si vous ajoutez/modifiez/supprimez une configuration, exécutez l'action \"Mettre à jour les étiquettes sur les points\"!</span>"
 
 #. Default: "The first row must be about the \"Default (*)\" configuration"
 msgid "labels_config_first_row_must_be_default_config"
 msgstr "La première ligne est obligatoire et doit concerner la configuration \"Par défaut (*)\"!"
+
+#. Default: "Update labels only"
+msgid "labels_config_update_labels_access_cache"
+msgstr "Seulement les étiquettes"
 
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
