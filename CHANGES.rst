@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.31rc3 (unreleased)
+4.2.31rc3 (2026-06-09)
 ----------------------
 
 - Added translations for new value `labels_config_update_labels_access_cache` used in
