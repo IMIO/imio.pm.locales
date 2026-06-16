@@ -5,8 +5,8 @@ Changelog
 4.2.34rc7 (unreleased)
 ----------------------
 
-- Nothing changed yet.
-
+- Added translation for `esign_session_title`.
+  [gbastien]
 
 4.2.34rc6 (2026-06-02)
 ----------------------

@@ -3756,7 +3756,7 @@ msgstr "<span style='color: green;'>Ce champ n'est éditable que par les gestion
 
 #. Default: "You can choose to not store the generated document, if selected, annexes to sign will be stored and will use the proposed signatories."
 msgid "descr_store_generated_document"
-msgstr "Par défaut le document généré sera stocké comme annexe sur le point, sélectionnez \"Non\" si le document ne doit pas être stocké. <span class='highlight-red'>Attention si vous sélectionnez \"Oui\" et que le document est déjà stocké, rien ne sera fait. Si vous sélectionnez \"Oui et écraser si existant\" ceci ne sera pas appliqué si l'annexe est marquée \"Signée\", si une annexe signée doit être signée à nouveau, il faut la supprimer auparavant. Si vous utilisez la signature électronique, pour ajouter des annexes à signer sur un élément déjà dans une session (sans le stocker à nouveau), sélectionnez \"Non\".</span>"
+msgstr "Par défaut le document généré sera stocké comme annexe sur le point, sélectionnez \"Non\" si le document ne doit pas être stocké. <span class='highlight-red'>Attention si vous sélectionnez \"Oui\" et que le document est déjà stocké, rien ne sera fait. Si vous sélectionnez \"Oui et écraser si existant\" ceci ne sera pas appliqué si l'annexe existante est \"Signée\" ou que vous n'avez pas la permission de la supprimer, si une annexe signée doit être signée à nouveau, il faut la supprimer auparavant. Si vous utilisez la signature électronique, pour ajouter des annexes à signer sur un élément déjà dans une session (sans le stocker à nouveau), sélectionnez \"Non\".</span>"
 
 #. Default: "Usages description"
 msgid "descr_usages"
@@ -3965,6 +3965,10 @@ msgstr "Une session de signature électronique concerne toujours les documents q
 #. Default: "e-Signature:"
 msgid "esign_label"
 msgstr "Paraphéo (signature électronique)"
+
+#. Default: "Seession title: ${session_title}"
+msgid "esign_session_title"
+msgstr "Titre de la session: ${session_title}"
 
 #. Default: "eSign watchers"
 msgid "esignwatchers"
