@@ -5,8 +5,9 @@ Changelog
 4.2.33.3 (unreleased)
 ---------------------
 
-- Nothing changed yet.
-
+- Added translations for `searchitemsofmygroupswithneededfollowup` and
+  `searchitemsofmygroupswithprovidedfollowup`.
+  [gbastien]
 
 4.2.33.2 (2026-05-20)
 ---------------------
