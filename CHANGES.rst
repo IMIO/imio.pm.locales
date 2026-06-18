@@ -54,6 +54,9 @@ Changelog
 
 - Added translations related to `imio.esign`.
   [gbastien]
+- Added translations for `searchitemsofmygroupswithneededfollowup` and
+  `searchitemsofmygroupswithprovidedfollowup`.
+  [gbastien]
 
 4.2.33.2 (2026-05-20)
 ---------------------
