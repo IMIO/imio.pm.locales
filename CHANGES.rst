@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.34rc7 (unreleased)
+4.2.34rc7 (2026-06-19)
 ----------------------
 
 - Added translation for `esign_session_title`.
