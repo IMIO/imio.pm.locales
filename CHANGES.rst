@@ -7,6 +7,9 @@ Changelog
 
 - Added translation for `esign_session_title`.
   [gbastien]
+- Added translations for `store_podtemplate_as_annex_can_not_be_generated`
+  and `store_podtemplate_as_annex_generation_error`.
+  [gbastien]
 
 4.2.34rc6 (2026-06-02)
 ----------------------

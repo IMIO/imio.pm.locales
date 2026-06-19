@@ -5274,6 +5274,14 @@ msgstr ""
 msgid "store_podtemplate_as_annex_can_not_add_annex"
 msgstr ""
 
+#. Default: "The \"${pod_template_title}\" template can not be generated for element at ${obj_url}."
+msgid "store_podtemplate_as_annex_can_not_be_generated"
+msgstr ""
+
+#. Default: "Not able to generate template ${pod_template_title} for element at ${obj_url}, technical error message was \"${error_msg}\"."
+msgid "store_podtemplate_as_annex_generation_error"
+msgstr ""
+
 #. Default: "Not able to get signer, error is: \"${msg}\"."
 msgid "store_podtemplate_as_annex_signers_error"
 msgstr ""
@@ -7446,7 +7454,7 @@ msgstr ""
 msgid "descr_annex_types_to_add_to_sign_session"
 msgstr ""
 
-#. Default: "Seession title: ${session_title}"
+#. Default: "Session title: ${session_title}"
 msgid "esign_session_title"
 msgstr ""
 

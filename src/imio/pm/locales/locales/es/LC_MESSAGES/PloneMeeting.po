@@ -3981,7 +3981,7 @@ msgstr ""
 msgid "esign_label"
 msgstr ""
 
-#. Default: "Seession title"
+#. Default: "Session title: ${session_title}"
 msgid "esign_session_title"
 msgstr ""
 
@@ -6529,6 +6529,10 @@ msgstr ""
 msgid "store_podtemplate_as_annex_can_not_add_annex"
 msgstr ""
 
+#. Default: "The \"${pod_template_title}\" template can not be generated for element at ${obj_url}."
+msgid "store_podtemplate_as_annex_can_not_be_generated"
+msgstr ""
+
 #. Default: "You can not delete the annex that you want to overwrite. Please contact the system administrator."
 msgid "store_podtemplate_as_annex_can_not_delete_annex_overwrite"
 msgstr ""
@@ -6539,6 +6543,10 @@ msgstr ""
 
 #. Default: "Can not store same a generated document as annex several times."
 msgid "store_podtemplate_as_annex_can_not_store_several_times"
+msgstr ""
+
+#. Default: "Not able to generate template ${pod_template_title} for element at ${obj_url}, technical error message was \"${error_msg}\"."
+msgid "store_podtemplate_as_annex_generation_error"
 msgstr ""
 
 #. Default: "Only available when using output format PDF!"

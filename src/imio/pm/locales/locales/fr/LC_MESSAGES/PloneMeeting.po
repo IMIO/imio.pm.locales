@@ -3966,7 +3966,7 @@ msgstr "Une session de signature électronique concerne toujours les documents q
 msgid "esign_label"
 msgstr "Paraphéo (signature électronique)"
 
-#. Default: "Seession title: ${session_title}"
+#. Default: "Session title: ${session_title}"
 msgid "esign_session_title"
 msgstr "Titre de la session: ${session_title}"
 
@@ -6473,6 +6473,10 @@ msgstr "Cette action stockera le document généré en annexe afin qu'il puisse 
 msgid "store_podtemplate_as_annex_can_not_add_annex"
 msgstr "Vous n'avez pas la permission d'ajouter une annexe à cet élément."
 
+#. Default: "The \"${pod_template_title}\" template can not be generated for element at ${obj_url}."
+msgid "store_podtemplate_as_annex_can_not_be_generated"
+msgstr "Le document \"${pod_template_title}\" ne pas pas être généré pour l'élément ${obj_url}, vérifiez que vous y avez bien accès sur le point."
+
 #. Default: "You can not delete the annex that you want to overwrite. Please contact the system administrator."
 msgid "store_podtemplate_as_annex_can_not_delete_annex_overwrite"
 msgstr "Impossible d'écraser le document vous n'avez pas la permission de supprimer l'annexe existante. Contactez votre administrateur système."
@@ -6484,6 +6488,10 @@ msgstr "Impossible d'écraser le document car il est marqué \"Signé\", supprim
 #. Default: "Can not store same a generated document as annex several times."
 msgid "store_podtemplate_as_annex_can_not_store_several_times"
 msgstr "Impossible de stocker plusieurs fois le même document généré."
+
+#. Default: "Not able to generate template ${pod_template_title} for element at ${obj_url}, technical error message was \"${error_msg}\"."
+msgid "store_podtemplate_as_annex_generation_error"
+msgstr "Impossible de générer le document \"${pod_template_title}\" pour l'élément ${obj_url}, le message d'erreur technique est \"${error_msg}\"."
 
 #. Default: "Only available when using output format PDF!"
 msgid "store_podtemplate_as_annex_output_format_error"

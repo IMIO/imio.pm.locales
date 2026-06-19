@@ -3948,9 +3948,9 @@ msgstr "Esign discriminators TAL expression"
 msgid "esign_label"
 msgstr "e-Signature:"
 
-#. Default: "Seession title"
+#. Default: "Session title: ${session_title}"
 msgid "esign_session_title"
-msgstr ""
+msgstr "Session title: ${session_title}"
 
 #. Default: "eSign watchers"
 msgid "esignwatchers"
@@ -6205,11 +6205,11 @@ msgstr "Items of my groups"
 
 #. Default: "Items of my groups with needed follow-up"
 msgid "searchitemsofmygroupswithneededfollowup"
-msgstr ""
+msgstr "Items of my groups with needed follow-up"
 
 #. Default: "Items of my groups with provided follow-up"
 msgid "searchitemsofmygroupswithprovidedfollowup"
-msgstr ""
+msgstr "Items of my groups with provided follow-up"
 
 #. Default: "Items to advice with delay"
 msgid "searchitemstoadvicewithdelay"
@@ -6445,6 +6445,10 @@ msgstr "Store pod template as annex so it can be printed or sent to a e-signing 
 msgid "store_podtemplate_as_annex_can_not_add_annex"
 msgstr "Not allowed to add annex in this element."
 
+#. Default: "The \"${pod_template_title}\" template can not be generated for element at ${obj_url}."
+msgid "store_podtemplate_as_annex_can_not_be_generated"
+msgstr "The \"${pod_template_title}\" template can not be generated for element at ${obj_url}."
+
 #. Default: "You can not delete the annex that you want to overwrite. Please contact the system administrator."
 msgid "store_podtemplate_as_annex_can_not_delete_annex_overwrite"
 msgstr "You can not delete the annex that you want to overwrite. Please contact the system administrator."
@@ -6456,6 +6460,10 @@ msgstr "Can not overwrite a stored generated document that is marked as signed, 
 #. Default: "Can not store same a generated document as annex several times."
 msgid "store_podtemplate_as_annex_can_not_store_several_times"
 msgstr "Can not store same a generated document as annex several times."
+
+#. Default: "Not able to generate template ${pod_template_title} for element at ${obj_url}, technical error message was \"${error_msg}\"."
+msgid "store_podtemplate_as_annex_generation_error"
+msgstr "Not able to generate template ${pod_template_title} for element at ${obj_url}, technical error message was \"${error_msg}\"."
 
 #. Default: "Only available when using output format PDF!"
 msgid "store_podtemplate_as_annex_output_format_error"
