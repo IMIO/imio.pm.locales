@@ -8,6 +8,8 @@ Changelog
 - Added translations for `searchitemsofmygroupswithneededfollowup` and
   `searchitemsofmygroupswithprovidedfollowup`.
   [gbastien]
+- Added translations for `MeetingItem.privacy` new values.
+  [gbastien]
 
 4.2.33.2 (2026-05-20)
 ---------------------

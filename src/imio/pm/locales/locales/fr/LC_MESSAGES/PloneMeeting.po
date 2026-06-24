@@ -5922,9 +5922,17 @@ msgstr "Ce document sera envoyé à: ${recipients}."
 msgid "public"
 msgstr "Séance publique"
 
+#. Default: "Public meeting (advice)"
+msgid "public_advice"
+msgstr "Séance publique (avis)"
+
 #. Default: "Public meeting (heading)"
 msgid "public_heading"
 msgstr "Séance publique (entête)"
+
+#. Default: "Public meeting (info)"
+msgid "public_info"
+msgstr "Séance publique (info)"
 
 #. Default: "Publishable (displayed)"
 msgid "publishable_display"
@@ -6231,9 +6239,17 @@ msgstr "Points validables"
 msgid "secret"
 msgstr "Huis clos"
 
+#. Default: "Closed door (advice)"
+msgid "secret_advice"
+msgstr "Huis clos (avis)"
+
 #. Default: "Closed door (heading)"
 msgid "secret_heading"
 msgstr "Huis clos (entête)"
+
+#. Default: "Closed door (info)"
+msgid "secret_info"
+msgstr "Huis clos (info)"
 
 # Portlet "meeting items"
 #. Default: "See everything..."
