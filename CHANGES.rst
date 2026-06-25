@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.33.3 (unreleased)
+4.2.33.3 (2026-06-25)
 ---------------------
 
 - Added translations for `searchitemsofmygroupswithneededfollowup` and
