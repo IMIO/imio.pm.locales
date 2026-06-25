@@ -5,8 +5,8 @@ Changelog
 4.2.34rc8 (unreleased)
 ----------------------
 
-- Nothing changed yet.
-
+- Added translations for `MeetingItem.privacy` new values.
+  [gbastien]
 
 4.2.34rc7 (2026-06-19)
 ----------------------
