@@ -59,6 +59,10 @@ msgstr "Ajout d'un portlet \"À faire\""
 msgid "Add a rich text field to encode advice accounting commitment."
 msgstr "Ajout d'un champ de texte riche \"Numéro d'engagement\""
 
+#. Default: "Add complete advice"
+msgid "Add complete advice"
+msgstr "Ajouter un avis complet"
+
 #. Default: "Add new linked vote"
 msgid "Add new linked vote"
 msgstr "Ajouter un nouveau vote lié"
@@ -70,6 +74,10 @@ msgstr "Ajouter un nouveau vote"
 #. Default: "Add organization outside \"My organization\""
 msgid "Add organization outside \"My organization\""
 msgstr "Ajouter une organisation hors de \"Mon organisation\""
+
+#. Default: "Add quick advice"
+msgid "Add quick advice"
+msgstr "Ajouter un avis rapide"
 
 #. Default: "Advice ${advice_label} given on item ${item_title}"
 msgid "Advice ${advice_label} given on item ${item_title}"
@@ -126,6 +134,10 @@ msgstr "Commentaire du groupe proposant"
 #. Default: "Advice proposing group comment description"
 msgid "Advice proposing group comment description"
 msgstr "Le commentaire du groupe proposant n'est éditable que par le groupe proposant du point et les gestionnaires de séances (quand c'est nécessaire).  Il sera visible par les émetteurs d'avis du groupe auquel l'avis est demandé."
+
+#. Default: "Advice was quick added."
+msgid "Advice was quick added."
+msgstr "L'avis a été ajouté."
 
 # plone.app.querystring
 #. Default: "Advisers index"
@@ -811,6 +823,10 @@ msgstr "Aucun sous-type d'annexe."
 msgid "No annex types."
 msgstr "Aucun type d'annexe."
 
+#. Default: "No common or available advice group. Modify your selection."
+msgid "No common or available advice group. Modify your selection."
+msgstr "<span class='highlight-red'>Aucun groupe commun ou valide. Veuillez ne sélectionner que des points pour lesquels l'avis n'a jamais été rendu (icône \"?\", pas d'avis déjà rendu ou \"Demandé à nouveau\").</span>"
+
 #. Default: "No complementary comment has been given on this advice."
 msgid "No complementary comment has been given on this advice."
 msgstr "Aucun commentaire complémentaire n'a été ajouté sur cet avis."
@@ -842,6 +858,10 @@ msgstr "Aucun"
 #. Default: "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
 msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote or poll type for current vote was redefined"
 msgstr "Impossible d'ajouter un vote lié car des valeurs incompatibles ont déjà été encodées sur le vote courant ou le \"Mode de scrutin\" a été redéfini pour le vote courant"
+
+#. Default: "Not asked advice"
+msgid "Not asked advice"
+msgstr "Avis d'initiative"
 
 #. Default: "Not available when using several votes on same item."
 msgid "Not available when using several votes on same item."
@@ -993,7 +1013,7 @@ msgstr "N'importe quel utilisateur capable d'éditer une annexe peut y insérer 
 
 #. Default: "Attributes of annexes only displayed and/or editable by MeetingManagers"
 msgid "PloneMeeting_label_annexRestrictShownAndEditableAttributes"
-msgstr "Attributs des annexes affichés ou éditables seulement pas les gestionnaires de séances"
+msgstr "Attributs des annexes affichés ou éditables seulement par les gestionnaires de séances"
 
 #. Default: "Annex to print mode"
 msgid "PloneMeeting_label_annexToPrintMode"
@@ -1099,6 +1119,10 @@ msgstr "Groupes en copie (lecture seule)"
 msgid "PloneMeeting_label_cssClassesToHide"
 msgstr "Classes Css à cacher"
 
+#. Default: "CSS transforms"
+msgid "PloneMeeting_label_cssTransforms"
+msgstr "Transformations CSS"
+
 #. Default: "Custom advisers"
 msgid "PloneMeeting_label_customAdvisers"
 msgstr "Configuration des avis automatiques et avec délai"
@@ -1187,6 +1211,10 @@ msgstr "Urgence"
 msgid "PloneMeeting_label_emergencyMotivation"
 msgstr "Motivation de l'urgence"
 
+#. Default: "Enable add quick advice"
+msgid "PloneMeeting_label_enableAddQuickAdvice"
+msgstr "Activer l'ajout d'avis rapide"
+
 #. Default: "Enable advice confidentiality"
 msgid "PloneMeeting_label_enableAdviceConfidentiality"
 msgstr "Activer la confidentialité des avis "
@@ -1254,6 +1282,10 @@ msgstr "Groupes à ne pas afficher dans le filtre \"Groupe\" des tableaux de bor
 #. Default: "Groups in charge"
 msgid "PloneMeeting_label_groupsInCharge"
 msgstr "Groupes en charge"
+
+#. Default: "Notes groups in charge"
+msgid "PloneMeeting_label_groupsInChargeNotes"
+msgstr "Notes groupes en charge"
 
 #. Default: "Hide Css classes to"
 msgid "PloneMeeting_label_hideCssClassesTo"
@@ -1831,6 +1863,10 @@ msgstr "À transmettre à la tutelle?"
 #. Default: "Short name for the meeting configuration"
 msgid "PloneMeeting_label_shortName"
 msgstr "Nom court pour la configuration de séance"
+
+#. Default: "Show external links section"
+msgid "PloneMeeting_label_showExternalLinksSection"
+msgstr "Afficher les \"Éléments externes liés\" sur les points"
 
 #. Default: "Show possible targets for item keywords"
 msgid "PloneMeeting_label_showItemKeywordsTargets"
@@ -2816,6 +2852,14 @@ msgstr "Les types d'annexes sont cachés par défaut, vous pouvez cependant en $
 msgid "app_users"
 msgstr "Utilisateurs de l'application (créateurs, validateurs, ...)"
 
+#. Default: "Approved (displayed)"
+msgid "approved_display"
+msgstr "À approuver/Approuvé (affiché seulement aux gestionnaires de séances)"
+
+#. Default: "Approved (editable)"
+msgid "approved_edit"
+msgstr "À approuver/Approuvé (éditable seulement par les gestionnaires de séances)"
+
 #. Default: "Are you sure?"
 msgid "are_you_sure"
 msgstr "Êtes-vous sûr de vouloir effectuer cette action?"
@@ -3433,6 +3477,18 @@ msgstr "Créateurs"
 msgid "css_classes_to_hide_descr"
 msgstr "Encodez les classes Css utilisées dans l'application qui ne doivent pas être rendues pour les profils sélectionnés ci-dessous dans le champ \"Cacher les classes Css à\".  Encodez une classe Css par ligne.  <span style='color: red;'>Si vous activez cela sur un site contenant déjà des points et avis, allez à la racine de Zope --> Control_Panel --> Database Mangement --> sélectionnez la bonne base de données, allez sur l'onglet \"Flush Cache\" et cliquez sur le bouton \"Minimize\".</span>"
 
+#. Default: "CSS action remove"
+msgid "css_transform_action_remove"
+msgstr "Enlever la classe CSS"
+
+#. Default: "CSS action replace"
+msgid "css_transform_action_replace"
+msgstr "Remplacer le contenu"
+
+#. Default: "CSS transforms descr"
+msgid "css_transforms_descr"
+msgstr "Configurez ici les transformations qui seront appliquées sur les champs de texte riche utilisant les classes CSS renseignées.  Ces transformations seront appliquées aux profils \"Super observateurs\" sélectionnés.  Vous pouvez soit \"Enlever la classe CSS\" utilisée dans le point ou \"Remplacer le contenu\" utilisant la classe CSS (ceci peut être utilisé par exemple pour anonymiser du contenu)."
+
 #. Default: "You can not define a value in the \"Available on\" column if a value is in the \"Advice will be automatically asked if\" column, please check defined values for group \"${groupName}\"."
 msgid "custom_adviser_can_not_available_on_and_gives_auto_advice_on"
 msgstr "Vous ne pouvez pas définir une valeur dans la colonne \"Disponible si\" si une valeur est définie dans la colonne \"L'avis sera automatiquement demandé si\" pour la même ligne, vérifiez les valeurs pour le groupe \"${groupName}\"."
@@ -3702,6 +3758,10 @@ msgstr " "
 msgid "empty_suffixed_group"
 msgstr "Le sous-groupe \"${suffix}\" est vide"
 
+#. Default: "When enabled it will be possible to add a quick advice of a given type, yet after quick add it is still possible to edit it if necessary."
+msgid "enable_add_quick_advice_descr"
+msgstr "Si activé, un menu déroulant sera affiché lors de l'ajout d'un avis et permettra d'ajouter soit un avis complet, soit un avis rapide d'un des types d'avis activés (positif, négatif, ...).  Après ajout d'un avis rapide ce dernier reste cependant éditable si nécessaire."
+
 #. Default: "If you enable advice confidentiality, it will be possible for meeting managers to select on every advices if it is confidential or not.  This information is only visible to meeting managers."
 msgid "enable_advice_confidentiality_descr"
 msgstr "Si vous activez la confidentialité des avis, il sera possible pour les gestionnaires de séances de définir pour chaque avis si il est confidentiel ou non.  Cette information ne sera visible que par les gestionnaires de séances."
@@ -3944,7 +4004,7 @@ msgstr "Votes"
 
 #. Default: "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
 msgid "export_pdf_descr"
-msgstr "Cette action permet de grouper des documents PDF dans un PDF unique.  Dans la liste des annexes, les annexes grisées ne sont pas des documents PDF et ne peuvent pas être sélectionnées."
+msgstr "<p class='discreet'>Cette action permet de grouper des documents PDF dans un PDF unique.  Dans la liste des annexes, les annexes grisées ne sont pas des documents PDF et ne peuvent pas être sélectionnées.</p>"
 
 #. Default: "External linked elements"
 msgid "external_linked_elements"
@@ -4089,6 +4149,10 @@ msgstr "Si vous ne sélectionnez rien (par défaut), tous les groupes seront aff
 #. Default: "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
 msgid "groups_in_charge_descr"
 msgstr "Sélectionnez le(s) groupe(s) en charge de ce groupe.  Cette information pourra être affichée sur un document ou pourra être utilisée dans le champ \"Méthode(s) de tri lors de l'ajout d'un point dans une séance\" des configurations de séance.  <span style='color: red;'>ATTENTION, ajouter ou supprimer des groupes en charge n'affectera pas les points existants, y compris les points récurrents et les modèles de points, adaptez les manuellement si nécessaire.</span>"
+
+#. Default: "This field is only editable and viewable by profiles defined in the configuration"
+msgid "groups_in_charge_notes_descr"
+msgstr "Ce champ est visible et éditable seulement par certains profils définis dans la configuration"
 
 #. Default: "User interface"
 msgid "gui"
@@ -4865,11 +4929,15 @@ msgstr "Il ne peut y avoir qu'une seule ligne de configuration pour une même é
 
 #. Default: "Define here who will be able to view/edit labels"
 msgid "labels_config_descr"
-msgstr "Définissez ici qui peut voir et éditer les étiquettes. <span style='color: red;'>Si vous ajoutez/supprimez une configuration, exécutez l'action \"Mettre à jour les étiquettes sur les points\"!</span>"
+msgstr "Définissez ici qui peut voir et éditer les étiquettes. Les colonnes sont évaluées l'une après l'autre \"états visibles/visible par/visible si\" et \"états éditables/éditable par/éditable si\", dès que la condition d'une colonne n'est pas rencontrée, la suivante n'est pas évaluée, définir dès lors des valeurs pour \"états visibles/éditables\" et \"visible/éditable par\" permet d'être plus efficace car ces valeurs sont mises en cache sur le point. <span style='color: red;'>Si vous ajoutez/modifiez/supprimez une configuration, exécutez l'action \"Mettre à jour les étiquettes sur les points\"!</span>"
 
 #. Default: "The first row must be about the \"Default (*)\" configuration"
 msgid "labels_config_first_row_must_be_default_config"
 msgstr "La première ligne est obligatoire et doit concerner la configuration \"Par défaut (*)\"!"
+
+#. Default: "Update labels only"
+msgid "labels_config_update_labels_access_cache"
+msgstr "Seulement les étiquettes"
 
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
@@ -5854,9 +5922,17 @@ msgstr "Ce document sera envoyé à: ${recipients}."
 msgid "public"
 msgstr "Séance publique"
 
+#. Default: "Public meeting (advice)"
+msgid "public_advice"
+msgstr "Séance publique (avis)"
+
 #. Default: "Public meeting (heading)"
 msgid "public_heading"
 msgstr "Séance publique (entête)"
+
+#. Default: "Public meeting (info)"
+msgid "public_info"
+msgstr "Séance publique (info)"
 
 #. Default: "Publishable (displayed)"
 msgid "publishable_display"
@@ -6067,6 +6143,14 @@ msgstr "Points de mes commissions éditables"
 msgid "searchitemsofmygroups"
 msgstr "Points de mes groupes"
 
+#. Default: "Items of my groups with needed follow-up"
+msgid "searchitemsofmygroupswithneededfollowup"
+msgstr "Suivi à apporter de mes groupes"
+
+#. Default: "Items of my groups with provided follow-up"
+msgid "searchitemsofmygroupswithprovidedfollowup"
+msgstr "Suivi apporté de mes groupes"
+
 #. Default: "Items to advice with delay"
 msgid "searchitemstoadvicewithdelay"
 msgstr "Avis à donner (avec délai)"
@@ -6155,9 +6239,17 @@ msgstr "Points validables"
 msgid "secret"
 msgstr "Huis clos"
 
+#. Default: "Closed door (advice)"
+msgid "secret_advice"
+msgstr "Huis clos (avis)"
+
 #. Default: "Closed door (heading)"
 msgid "secret_heading"
 msgstr "Huis clos (entête)"
+
+#. Default: "Closed door (info)"
+msgid "secret_info"
+msgstr "Huis clos (info)"
 
 # Portlet "meeting items"
 #. Default: "See everything..."
@@ -6231,6 +6323,10 @@ msgstr "Envoyé vers ${meetingConfigTitle} (Urgence)"
 #. Default: "This short name (3 or 4 letters maximum, without special characters or accents) is used internally by PloneMeeting, ie for deriving meeting-configuration-specific item and meeting content types. Note that all content types representing \"items\" share the same meta-type (=the same Python class). The same is true for all content types representing \"meetings\"."
 msgid "short_name_descr"
 msgstr "Ce nom court (trois ou quatre lettres maximum, sans accents ou caractères spéciaux) est utilisé en interne par l'application, notamment pour dériver des types de contenu pour les points et les séances qui soient propres à chaque configuration de séance. Notez que tous les types de contenu définissant des \"points\" partagent tous le même méta-type (c'est-à-dire la même classe Python). La même chose est vraie pour tous les types de contenu définissant des \"séances\"."
+
+#. Default: "Displays the \"External links\" section on the item view.  This is only relevant if external links are configured."
+msgid "show_external_links_section_descr"
+msgstr "Sélectionnez les configurations dans lesquelles afficher la zone \"Éléments externes liés\" sur les points.  Ceci ne fonctionnera que si les liens externes sont configurés."
 
 #. Default: "If you check this box, on the search screen, radio buttons will appear, allowing the user to choose the item-related field that will become the target for item keywords. If these radio buttons are not shown, the search will encompass all fields indexed in the global index \"SearchableText\"."
 msgid "show_item_keywords_targets_descr"

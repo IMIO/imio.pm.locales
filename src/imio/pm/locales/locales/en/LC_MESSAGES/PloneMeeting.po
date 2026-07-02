@@ -59,6 +59,10 @@ msgstr "Add Todo Portlet"
 msgid "Add a rich text field to encode advice accounting commitment."
 msgstr "Add a rich text field to encode advice accounting commitment."
 
+#. Default: "Add complete advice"
+msgid "Add complete advice"
+msgstr "Add complete advice"
+
 #. Default: "Add new linked vote"
 msgid "Add new linked vote"
 msgstr "Add new linked vote"
@@ -70,6 +74,10 @@ msgstr "Add new vote"
 #. Default: "Add organization outside \"My organization\""
 msgid "Add organization outside \"My organization\""
 msgstr "Add organization outside \"My organization\""
+
+#. Default: "Add quick advice"
+msgid "Add quick advice"
+msgstr "Add quick advice"
 
 #. Default: "Advice ${advice_label} given on item ${item_title}"
 msgid "Advice ${advice_label} given on item ${item_title}"
@@ -126,6 +134,10 @@ msgstr "Advice proposing group comment"
 #. Default: "Advice proposing group comment description"
 msgid "Advice proposing group comment description"
 msgstr "Advice proposing group comment description"
+
+#. Default: "Advice was quick added."
+msgid "Advice was quick added."
+msgstr "Advice was quick added."
 
 # plone.app.querystring
 #. Default: "Advisers index"
@@ -667,7 +679,7 @@ msgstr "Item excused to apply"
 
 #. Default: "Item fields config name"
 msgid "Item fields config name"
-msgstr ""
+msgstr "Item fields config name"
 
 #. Default: "Item guests to apply"
 msgid "Item guests to apply"
@@ -811,6 +823,10 @@ msgstr "No annex subtypes."
 msgid "No annex types."
 msgstr "No annex types."
 
+#. Default: "No common or available advice group. Modify your selection."
+msgid "No common or available advice group. Modify your selection."
+msgstr "No common or available advice group. Modify your selection."
+
 #. Default: "No complementary comment has been given on this advice."
 msgid "No complementary comment has been given on this advice."
 msgstr "No complementary comment has been given on this advice."
@@ -842,6 +858,10 @@ msgstr "None"
 #. Default: "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
 msgid "Not able to add new linked votes because incompatible vote vales have been encoded on current vote or poll type for current vote was redefined"
 msgstr "Not able to add new linked votes because incompatible vote vales have been encoded on current vote"
+
+#. Default: "Not asked advice"
+msgid "Not asked advice"
+msgstr "Not asked advice"
 
 #. Default: "Not available when using several votes on same item."
 msgid "Not available when using several votes on same item."
@@ -1099,6 +1119,10 @@ msgstr "Copy groups"
 msgid "PloneMeeting_label_cssClassesToHide"
 msgstr "Css classes to hide"
 
+#. Default: "CSS transforms"
+msgid "PloneMeeting_label_cssTransforms"
+msgstr ""
+
 #. Default: "Custom advisers"
 msgid "PloneMeeting_label_customAdvisers"
 msgstr "Custom advisers"
@@ -1187,6 +1211,10 @@ msgstr "Emergency"
 msgid "PloneMeeting_label_emergencyMotivation"
 msgstr "Emergency motivation"
 
+#. Default: "Enable add quick advice"
+msgid "PloneMeeting_label_enableAddQuickAdvice"
+msgstr "Enable add quick advice"
+
 #. Default: "Enable advice confidentiality"
 msgid "PloneMeeting_label_enableAdviceConfidentiality"
 msgstr "Enable advice confidentiality"
@@ -1254,6 +1282,10 @@ msgstr "Groups not to be displayed in the \"Group\" dashboard filter"
 #. Default: "Groups in charge"
 msgid "PloneMeeting_label_groupsInCharge"
 msgstr "Groups in charge"
+
+#. Default: "Notes groups in charge"
+msgid "PloneMeeting_label_groupsInChargeNotes"
+msgstr ""
 
 #. Default: "Hide Css classes to"
 msgid "PloneMeeting_label_hideCssClassesTo"
@@ -1409,7 +1441,7 @@ msgstr "Description"
 
 #. Default: "Item fields configuration"
 msgid "PloneMeeting_label_itemFieldsConfig"
-msgstr ""
+msgstr "Item fields configuration"
 
 #. Default: "Item fields to keep configuration sorting for"
 msgid "PloneMeeting_label_itemFieldsToKeepConfigSortingFor"
@@ -1831,6 +1863,10 @@ msgstr "Send to authority?"
 #. Default: "Short name for the meeting configuration"
 msgid "PloneMeeting_label_shortName"
 msgstr "Short name for the meeting configuration"
+
+#. Default: "Show external links section"
+msgid "PloneMeeting_label_showExternalLinksSection"
+msgstr ""
 
 #. Default: "Show possible targets for item keywords"
 msgid "PloneMeeting_label_showItemKeywordsTargets"
@@ -2800,6 +2836,14 @@ msgstr "Annexes types are hidden by default, you can ${force_display} of it (may
 msgid "app_users"
 msgstr "Application users"
 
+#. Default: "Approved (displayed)"
+msgid "approved_display"
+msgstr ""
+
+#. Default: "Approved (editable)"
+msgid "approved_edit"
+msgstr ""
+
 #. Default: "Are you sure?"
 msgid "are_you_sure"
 msgstr "Are you sure?"
@@ -3415,6 +3459,18 @@ msgstr "Creators"
 msgid "css_classes_to_hide_descr"
 msgstr "Enter Css classes used in the application that will be hidden to profiles selected here under in the \"Hide Css classes to\" field.  Please type one Css class per line.  <span style='color: red;'>If you enable this on a site that already contains items and advices, go to the Zope root --> Control_Panel --> Database Mangement --> select the correct database then go to the \"Flush Cache\" tab and hit the \"Minimize\" button.</span>"
 
+#. Default: "CSS action remove"
+msgid "css_transform_action_remove"
+msgstr ""
+
+#. Default: "CSS action replace"
+msgid "css_transform_action_replace"
+msgstr ""
+
+#. Default: "CSS transforms descr"
+msgid "css_transforms_descr"
+msgstr ""
+
 #. Default: "You can not define a value in the \"Available on\" column if a value is in the \"Advice will be automatically asked if\" column, please check defined values for group \"${groupName}\"."
 msgid "custom_adviser_can_not_available_on_and_gives_auto_advice_on"
 msgstr "You can not define a value in the \"Available on\" column if a value is in the \"Advice will be automatically asked if\" column, please check defined values for group \"${groupName}\"."
@@ -3683,6 +3739,10 @@ msgstr " "
 #. Default: "Sub-group \"${suffix}\" is empty"
 msgid "empty_suffixed_group"
 msgstr "Sub-group \"${suffix}\" is empty"
+
+#. Default: "When enabled it will be possible to add a quick advice of a given type, yet after quick add it is still possible to edit it if necessary."
+msgid "enable_add_quick_advice_descr"
+msgstr "When enabled it will be possible to add a quick advice of a given type, yet after quick add it is still possible to edit it if necessary."
 
 #. Default: "If you enable advice confidentiality, it will be possible for meeting managers to select on every advices if it is confidential or not.  This information is only visible to meeting managers."
 msgid "enable_advice_confidentiality_descr"
@@ -4071,6 +4131,10 @@ msgstr "If you do not select anything, every groups will be displayed."
 #. Default: "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
 msgid "groups_in_charge_descr"
 msgstr "Select here the groups that are in charge of the current group.  This will be useable to be printed on documents or as inserting method when presenting items in the meeting.  <span style='color: red;'>WARNING, adding or removing groups in charge will not affect existing items, including items defined in the configuration like recurring items or item templates, do not forget to update it if necessary.</span>"
+
+#. Default: "This field is only editable and viewable by profiles defined in the configuration"
+msgid "groups_in_charge_notes_descr"
+msgstr ""
 
 #. Default: "User interface"
 msgid "gui"
@@ -4608,11 +4672,11 @@ msgstr "The item has been duplicated and a link to the original item has been ke
 
 #. Default: "This field let's you configure \"View\" and \"Edit\" item's fields."
 msgid "item_fields_config_descr"
-msgstr ""
+msgstr "This field let's you configure \"View\" and \"Edit\" item's fields."
 
 #. Default: " "
 msgid "item_fields_config_name_description"
-msgstr ""
+msgstr " "
 
 #. Default: "By default, vocabularies used for selectable fields are sorted alphabetically, if checked, vocabulary will not be sorted and display terms as encoded in the configuration."
 msgid "item_fields_to_keep_config_sorting_for_descr"
@@ -4846,6 +4910,10 @@ msgstr "Define here who will be able to view/edit labels"
 #. Default: "The first row must be about the \"Default (*)\" configuration"
 msgid "labels_config_first_row_must_be_default_config"
 msgstr "The first row must be about the \"Default (*)\" configuration"
+
+#. Default: "Update labels only"
+msgid "labels_config_update_labels_access_cache"
+msgstr ""
 
 #. Default: "Within every meeting configuration, meetings are numbered sequentially."
 msgid "last_meeting_number_descr"
@@ -5828,9 +5896,17 @@ msgstr "The document will be sent to: ${recipients}."
 msgid "public"
 msgstr "Public meeting"
 
+#. Default: "Public meeting (advice)"
+msgid "public_advice"
+msgstr ""
+
 #. Default: "Public meeting (heading)"
 msgid "public_heading"
 msgstr "Public meeting (heading)"
+
+#. Default: "Public meeting (info)"
+msgid "public_info"
+msgstr ""
 
 #. Default: "Publishable (displayed)"
 msgid "publishable_display"
@@ -6039,6 +6115,14 @@ msgstr "Items of my committees editable"
 msgid "searchitemsofmygroups"
 msgstr "Items of my groups"
 
+#. Default: "Items of my groups with needed follow-up"
+msgid "searchitemsofmygroupswithneededfollowup"
+msgstr ""
+
+#. Default: "Items of my groups with provided follow-up"
+msgid "searchitemsofmygroupswithprovidedfollowup"
+msgstr ""
+
 #. Default: "Items to advice with delay"
 msgid "searchitemstoadvicewithdelay"
 msgstr "Items to advice with delay"
@@ -6077,11 +6161,11 @@ msgstr "Items to validate"
 
 #. Default: "Items with needed follow-up"
 msgid "searchitemswithneededfollowup"
-msgstr ""
+msgstr "Items with needed follow-up"
 
 #. Default: "Items with provided follow-up"
 msgid "searchitemswithprovidedfollowup"
-msgstr ""
+msgstr "Items with provided follow-up"
 
 #. Default: "Last decisions"
 msgid "searchlastdecisions"
@@ -6127,9 +6211,17 @@ msgstr "Validable items"
 msgid "secret"
 msgstr "Closed door"
 
+#. Default: "Closed door (advice)"
+msgid "secret_advice"
+msgstr ""
+
 #. Default: "Closed door (heading)"
 msgid "secret_heading"
 msgstr "Closed door (heading)"
+
+#. Default: "Closed door (info)"
+msgid "secret_info"
+msgstr ""
 
 # Portlet "meeting items"
 #. Default: "See everything..."
@@ -6203,6 +6295,10 @@ msgstr "Item sent to ${meetingConfigTitle} (Emergency)"
 #. Default: "This short name (3 or 4 letters maximum, without special characters or accents) is used internally by PloneMeeting, ie for deriving meeting-configuration-specific item and meeting content types. Note that all content types representing \"items\" share the same meta-type (=the same Python class). The same is true for all content types representing \"meetings\"."
 msgid "short_name_descr"
 msgstr "This short name (3 or 4 letters maximum, without special characters or accents) is used internally by PloneMeeting, ie for deriving meeting-configuration-specific item and meeting content types. Note that all content types representing \"items\" share the same meta-type (=the same Python class). The same is true for all content types representing \"meetings\"."
+
+#. Default: "Displays the \"External links\" section on the item view.  This is only relevant if external links are configured."
+msgid "show_external_links_section_descr"
+msgstr ""
 
 #. Default: "If you check this box, on the search screen, radio buttons will appear, allowing the user to choose the item-related field that will become the target for item keywords. If these radio buttons are not shown, the search will encompass all fields indexed in the global index \"SearchableText\"."
 msgid "show_item_keywords_targets_descr"

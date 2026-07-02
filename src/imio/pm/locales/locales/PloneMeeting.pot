@@ -544,12 +544,28 @@ msgstr ""
 msgid "public_heading"
 msgstr ""
 
+#. Default: "Public meeting (info)"
+msgid "public_info"
+msgstr ""
+
+#. Default: "Public meeting (advice)"
+msgid "public_advice"
+msgstr ""
+
 #. Default: "Closed door"
 msgid "secret"
 msgstr ""
 
 #. Default: "Closed door (heading)"
 msgid "secret_heading"
+msgstr ""
+
+#. Default: "Closed door (info)"
+msgid "secret_info"
+msgstr ""
+
+#. Default: "Closed door (advice)"
+msgid "secret_advice"
 msgstr ""
 
 #. Default: "Meeting transition that triggers the insertion of this item as a recurring item"
@@ -3231,8 +3247,16 @@ msgstr ""
 msgid "searchitemswithneededfollowup"
 msgstr ""
 
+#. Default: "Items of my groups with needed follow-up"
+msgid "searchitemsofmygroupswithneededfollowup"
+msgstr ""
+
 #. Default: "Items with provided follow-up"
 msgid "searchitemswithprovidedfollowup"
+msgstr ""
+
+#. Default: "Items of my groups with provided follow-up"
+msgid "searchitemsofmygroupswithprovidedfollowup"
 msgstr ""
 
 #. Default: "What kind of item would you like to create?"
@@ -6046,6 +6070,14 @@ msgstr ""
 msgid "publishable_edit"
 msgstr ""
 
+#. Default: "Approved (displayed)"
+msgid "approved_display"
+msgstr ""
+
+#. Default: "Approved (editable)"
+msgid "approved_edit"
+msgstr ""
+
 #. Default: "Decision (suite)"
 msgid "PloneMeeting_label_decisionSuite"
 msgstr ""
@@ -7198,6 +7230,10 @@ msgstr ""
 msgid "labels_config_can_not_have_several_config_for_same_label"
 msgstr ""
 
+#. Default: "Update labels only"
+msgid "labels_config_update_labels_access_cache"
+msgstr ""
+
 #. Default: "Labels config"
 msgid "PloneMeeting_label_labelsConfig"
 msgstr ""
@@ -7252,4 +7288,64 @@ msgstr ""
 
 #. Default: "Linked"
 msgid "Linked"
+msgstr ""
+
+#. Default: "No common or available advice group. Modify your selection."
+msgid "No common or available advice group. Modify your selection."
+msgstr ""
+
+#. Default: "Add complete advice"
+msgid "Add complete advice"
+msgstr ""
+
+#. Default: "Add quick advice"
+msgid "Add quick advice"
+msgstr ""
+
+#. Default: "Not asked advice"
+msgid "Not asked advice"
+msgstr ""
+
+#. Default: "Enable add quick advice"
+msgid "PloneMeeting_label_enableAddQuickAdvice"
+msgstr ""
+
+#. Default: "When enabled it will be possible to add a quick advice of a given type, yet after quick add it is still possible to edit it if necessary."
+msgid "enable_add_quick_advice_descr"
+msgstr ""
+
+#. Default: "Advice was quick added."
+msgid "Advice was quick added."
+msgstr ""
+
+#. Default: "Show external links section"
+msgid "PloneMeeting_label_showExternalLinksSection"
+msgstr ""
+
+#. Default: "Displays the \"External links\" section on the item view.  This is only relevant if external links are configured."
+msgid "show_external_links_section_descr"
+msgstr ""
+
+#. Default: "CSS transforms"
+msgid "PloneMeeting_label_cssTransforms"
+msgstr ""
+
+#. Default: "CSS transforms descr"
+msgid "css_transforms_descr"
+msgstr ""
+
+#. Default: "CSS action remove"
+msgid "css_transform_action_remove"
+msgstr ""
+
+#. Default: "CSS action replace"
+msgid "css_transform_action_replace"
+msgstr ""
+
+#. Default: "Notes groups in charge"
+msgid "PloneMeeting_label_groupsInChargeNotes"
+msgstr ""
+
+#. Default: "This field is only editable and viewable by profiles defined in the configuration"
+msgid "groups_in_charge_notes_descr"
 msgstr ""

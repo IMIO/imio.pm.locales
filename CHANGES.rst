@@ -2,11 +2,69 @@ Changelog
 =========
 
 
-4.2.32 (unreleased)
--------------------
+4.2.33.4 (unreleased)
+---------------------
 
 - Nothing changed yet.
 
+
+4.2.33.3 (2026-06-25)
+---------------------
+
+- Added translations for `searchitemsofmygroupswithneededfollowup` and
+  `searchitemsofmygroupswithprovidedfollowup`.
+  [gbastien]
+- Added translations for `MeetingItem.privacy` new values.
+  [gbastien]
+
+4.2.33.2 (2026-05-20)
+---------------------
+
+- Added translations for new value `labels_config_update_labels_access_cache` used in
+  `MeetingConfig.labelsConfig.update_local_roles`.
+  [gbastien]
+
+4.2.33.1 (2026-04-24)
+---------------------
+
+- Added translations for new field `ToolPloneMeeting.showExternalLinksSection`.
+  [gbastien]
+- Added translations for new field `MeetingConfig.cssTransforms`.
+  [gbastien]
+- Added translations for new field `MeetingItem.groupsInChargeNotes`.
+  [gbastien]
+
+4.2.33 (2026-01-13)
+-------------------
+
+- Accurate french translation for `labels_config_descr`.
+  [gbastien]
+- Accurate french translation for `No common or available advice group. Modify your selection.`.
+  [gbastien]
+
+4.2.32 (2026-01-05)
+-------------------
+
+- Added translations for `approved_display/approved_edit`.
+  [gbastien]
+
+4.2.32rc3 (2025-12-03)
+----------------------
+
+- Completed translations related to `Add quick/complete advice`.
+  [gbastien]
+
+4.2.32rc2 (2025-12-01)
+----------------------
+
+- Added translations related to `Add quick/complete advice`.
+  [gbastien]
+
+4.2.32rc1 (2025-11-05)
+----------------------
+
+- Added translations related to `Add advices batch action`.
+  [gbastien]
 
 4.2.31 (2025-10-22)
 -------------------
