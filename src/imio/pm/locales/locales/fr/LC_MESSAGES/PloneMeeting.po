@@ -7249,6 +7249,10 @@ msgstr "Vous ne pouvez pas désélectionner l'adaptation \"${wfa}\" car il reste
 msgid "wa_removed_return_to_proposing_group_with_all_validations_error"
 msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec toutes les validations)\" car il reste des points dans un des états \"Renvoyé au groupe proposant pour corrections (...)\"."
 
+#. Default: "You can not unselect the \"Return to proposing group with before last validations\" adaptation as there are still items in states \"returned to proposing group xxx\"."
+msgid "wa_removed_return_to_proposing_group_before_last_validation_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec renvoi en séance possible à partir de l'avant dernier niveau)\" car il reste des points dans un des états \"Renvoyé au groupe proposant pour corrections (...)\"."
+
 #. Default: "You can not unselect the \"Wait advices\" adaptation as there are still items in state \"wait advices\"."
 msgid "wa_removed_waiting_advices_error"
 msgstr "Vous ne pouvez pas désélectionner une adaptation \"État supplémentaire pour demander les avis\" tant qu'il reste des points dans un état \"En attente des avis\"."
@@ -7264,6 +7268,10 @@ msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans 
 #. Default: "Return to proposing group for corrections with one validation (the last)"
 msgid "wa_return_to_proposing_group_with_last_validation"
 msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec validation du dernier niveau)"
+
+#. Default: "Return to proposing group for corrections with second-to-last validation"
+msgid "wa_return_to_proposing_group_with_before_last_validation"
+msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec validation de l'avant-dernier niveau)"
 
 #. Default: "Reviewers may take back validated item"
 msgid "wa_reviewers_take_back_validated_item"

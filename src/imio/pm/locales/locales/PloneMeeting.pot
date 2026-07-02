@@ -5204,11 +5204,15 @@ msgstr ""
 
 #. Default: "Return to proposing group for corrections with one validation (the last)"
 msgid "wa_return_to_proposing_group_with_last_validation"
-msgstr "
+msgstr ""
+
+#. Default: "Return to proposing group for corrections with second-to-last validation"
+msgid "wa_return_to_proposing_group_with_before_last_validation"
+msgstr ""
 
 #. Default: "Return to proposing group for corrections with all validations"
 msgid "wa_return_to_proposing_group_with_all_validations"
-msgstr "
+msgstr ""
 
 #. Default: "Items to correct to validate"
 msgid "searchitemstocorrecttovalidate"
@@ -5220,6 +5224,10 @@ msgstr ""
 
 #. Default: "You can not unselect the \"Return to proposing group with all validations\" adaptation as there are still items in states \"returned to proposing group xxx\"."
 msgid "wa_removed_return_to_proposing_group_with_all_validations_error"
+msgstr ""
+
+#. Default: "You can not unselect the \"Return to proposing group with before last validations\" adaptation as there are still items in states \"returned to proposing group xxx\"."
+msgid "wa_removed_return_to_proposing_group_before_last_validation_error"
 msgstr ""
 
 #. Default: "Decide items when they come back in meeting after correction."
