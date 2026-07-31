@@ -5,8 +5,9 @@ Changelog
 4.2.34rc9 (unreleased)
 ----------------------
 
-- Nothing changed yet.
-
+- Removed `wa_no_global_observation` and `wa_creator_initiated_decisions`
+  that were removed a long time ago.
+  [gbastien]
 
 4.2.34rc8 (2026-06-25)
 ----------------------
