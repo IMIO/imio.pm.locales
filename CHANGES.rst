@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.33.4 (unreleased)
+4.2.33.4 (2026-09-02)
 ---------------------
 
 - Removed `wa_no_global_observation` and `wa_creator_initiated_decisions`
