@@ -8,6 +8,10 @@ Changelog
 - Removed `wa_no_global_observation` and `wa_creator_initiated_decisions`
   that were removed a long time ago.
   [gbastien]
+- Added translation for `utils.anonymize_raw_text` `new_text` value.
+  [gbastien]
+- Completed french translation for `item_with_given_advice_is_not_deletable_descr`.
+  [gbastien]
 
 4.2.33.3 (2026-06-25)
 ---------------------
