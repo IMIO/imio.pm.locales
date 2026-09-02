@@ -2424,6 +2424,10 @@ msgstr "Vous ne pouvez pas supprimer ou déplacer le modèle de point par défau
 msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgstr "Vous ne pouvez pas supprimer la fonction occupée \"${held_position_title}\" car elle est utilisée par l'élement \"${obj_url}\" !"
 
+#. Default: "[[DGPR]]"
+msgid "[[DGPR]]"
+msgstr "[[RGPD]]"
+
 #. Default: "Not grouped meeting configurations"
 msgid "_no_config_group_"
 msgstr "Configurations de séances non groupées"
@@ -4841,7 +4845,7 @@ msgstr "Ceci génère la partie du workflow du point avant l'état \"Validé\". 
 
 #. Default: "If checked, an item that contains given advices will no more be deletable, except by MeetingManagers and Managers."
 msgid "item_with_given_advice_is_not_deletable_descr"
-msgstr "Si la case est cochée, un point sur lequel des avis ont été rendus ne pourra plus être supprimé, excepté par les gestionnaires de séances et les administrateurs."
+msgstr "Si la case est cochée, un point sur lequel des avis ont été rendus ne pourra plus être supprimé, excepté par les gestionnaires de séances et les administrateurs ou si le point est remis \"en création\"."
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of an item: either \"meetingitem_workflow\", the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
 msgid "item_workflow_descr"
