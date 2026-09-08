@@ -3723,8 +3723,8 @@ msgid "descr_annex_ids_to_add_to_sign_session"
 msgstr "Ce champ affiche les annexes marquées \"à signer\".  Une annexe apparaît grisée (non sélectionnable) si elle n'est pas au format PDF ou si elle fait déjà partie d'une session de signature électronique non \"finalisée\"."
 
 #. Default: "Select annexes defined as \"to sign\" that will be added to the esign session.  Annexes must be PDF and not already belong to a esgin session that is not finalized."
-msgid "descr_annex_types_to_add_to_sign_session"
-msgstr "Les annexes marquées \"à signer\" qui utilisent les types d'annexes sélectionnés ici seront ajoutées à la session de signature électronique si elles sont au format PDF et si elles ne sont pas déjà dans une session de signature électronique non \"finalisée\"."
+msgid "descr_annexes_to_add_to_sign_session"
+msgstr "Les annexes marquées \"à signer\" sélectionnées seront ajoutées à la session de signature électronique si elles sont au format PDF et si elles ne sont pas déjà dans une session de signature électronique non \"finalisée\"."
 
 #. Default: "Add [[ ]] around absent people (like [[Mister Sample Peter]]) if you do not use \"Excused\" and \"Absents\" fields"
 msgid "descr_assembly"
@@ -6527,7 +6527,7 @@ msgstr "Impossible de stocker l'annexe en utilisant le type d'annexe défini dan
 
 #. Default: "Stored ${number_of_annexes} annexes."
 msgid "stored_item_template_as_annex"
-msgstr "${number_of_annexes} annexes ont été stockées."
+msgstr "${number_of_annexes} annexes générées ont été stockées."
 
 #. Default: "The annex was stored."
 msgid "stored_single_item_template_as_annex"
@@ -6673,9 +6673,9 @@ msgstr "Type d'avis"
 msgid "title_annex_ids_to_add_to_sign_session"
 msgstr "Signature électronique: ajouter les annexes suivantes"
 
-#. Default: "Annex types to add to sign session"
-msgid "title_annex_types_to_add_to_sign_session"
-msgstr "Signature électronique: ajouter les annexes utilisant les types d'annexes suivants"
+#. Default: "Annexes to add to sign session"
+msgid "title_annexes_to_add_to_sign_session"
+msgstr "Signature électronique: ajouter les annexes suivantes"
 
 #. Default: "Approval date"
 msgid "title_approval_date"

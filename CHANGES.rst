@@ -8,6 +8,9 @@ Changelog
 - Removed `wa_no_global_observation` and `wa_creator_initiated_decisions`
   that were removed a long time ago.
   [gbastien]
+- On `store-items-template-as-annex-batch-action`, field `annex_types`
+  was renamed to `annexes`, adapted translations.
+  [gbastien]
 
 4.2.34rc8 (2026-06-25)
 ----------------------
