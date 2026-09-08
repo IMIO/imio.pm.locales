@@ -11,6 +11,10 @@ Changelog
 - On `store-items-template-as-annex-batch-action`, field `annex_types`
   was renamed to `annexes`, adapted translations.
   [gbastien]
+- Added translation for `utils.anonymize_raw_text` `new_text` value.
+  [gbastien]
+- Completed french translation for `item_with_given_advice_is_not_deletable_descr`.
+  [gbastien]
 
 4.2.34rc8 (2026-06-25)
 ----------------------
