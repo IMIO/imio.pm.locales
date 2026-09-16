@@ -5,8 +5,8 @@ Changelog
 4.2.34rc10 (unreleased)
 -----------------------
 
-- Nothing changed yet.
-
+- Added translation for `This label can not be removed as it is used in "Labels config" field!`.
+  [gbastien]
 
 4.2.34rc9 (2026-09-14)
 ----------------------
