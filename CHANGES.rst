@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.34rc10 (unreleased)
+4.2.34rc10 (2026-09-16)
 -----------------------
 
 - Added translation for `This label can not be removed as it is used in "Labels config" field!`.
