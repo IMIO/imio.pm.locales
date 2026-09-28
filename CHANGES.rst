@@ -7,6 +7,9 @@ Changelog
 
 - Added translation for `This label can not be removed as it is used in "Labels config" field!`.
   [gbastien]
+- Added translations related to workflow adaptation
+  `return_to_proposing_group_with_before_last_validation`.
+  [aduchene]
 
 4.2.33.4 (2026-09-02)
 ---------------------
