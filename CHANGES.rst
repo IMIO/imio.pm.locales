@@ -5,8 +5,8 @@ Changelog
 4.2.33.6 (unreleased)
 ---------------------
 
-- Nothing changed yet.
-
+- Empty release due to pypi outage previous release not available.
+  [gbastien]
 
 4.2.33.5 (2026-09-28)
 ---------------------
