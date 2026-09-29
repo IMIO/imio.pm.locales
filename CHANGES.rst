@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.33.6 (unreleased)
+4.2.33.6 (2026-09-29)
 ---------------------
 
 - Empty release due to pypi outage previous release not available.
