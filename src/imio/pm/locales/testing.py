@@ -16,4 +16,6 @@ class ImioPmLocalesLayer(PloneSandboxLayer):
 
 FIXTURE = ImioPmLocalesLayer()
 
-INTEGRATION_TESTING = IntegrationTesting(bases=(FIXTURE,), name="ImioPmLocalesLayer:IntegrationTesting")
+INTEGRATION_TESTING = IntegrationTesting(
+    bases=(FIXTURE,), name="ImioPmLocalesLayer:IntegrationTesting"
+)

@@ -27,11 +27,15 @@ class TestLocales(unittest.TestCase):
                 if name.endswith(".po"):
                     domain = name[:-3]
                     pos.append((domain, lang))
-                    catalogs = getUtility(ITranslationDomain, domain).getCatalogsInfo()[lang]
-                    self.assertIn(os.path.join(lc_messages, domain + ".mo"), catalogs)
+                    infos = getUtility(ITranslationDomain, domain).getCatalogsInfo()
+                    self.assertIn(
+                        os.path.join(lc_messages, domain + ".mo"), infos[lang]
+                    )
         # 13 domains in de, en, es, fr and nl
         self.assertEqual(len(pos), 65)
-        self.assertEqual(sorted(set(lang for domain, lang in pos)), ["de", "en", "es", "fr", "nl"])
+        self.assertEqual(
+            sorted(set(lang for domain, lang in pos)), ["de", "en", "es", "fr", "nl"]
+        )
 
         # known msgids translate
         expected = {
@@ -42,10 +46,22 @@ class TestLocales(unittest.TestCase):
             "nl": u"Voeg een bijlage toe",
         }
         for lang, msgstr in expected.items():
-            self.assertEqual(translate("add_annex", domain="PloneMeeting", target_language=lang), msgstr)
-        self.assertEqual(translate("MeetingItem", domain="plone", target_language="fr"), u"Point")
-        self.assertEqual(translate("MeetingItem", domain="plone", target_language="es"), u"Tema de reunión")
+            self.assertEqual(
+                translate("add_annex", domain="PloneMeeting", target_language=lang),
+                msgstr,
+            )
         self.assertEqual(
-            translate("Add recurring item_comments", domain="imio.history", target_language="fr"),
+            translate("MeetingItem", domain="plone", target_language="fr"), u"Point"
+        )
+        self.assertEqual(
+            translate("MeetingItem", domain="plone", target_language="es"),
+            u"Tema de reunión",
+        )
+        self.assertEqual(
+            translate(
+                "Add recurring item_comments",
+                domain="imio.history",
+                target_language="fr",
+            ),
             u"Ce point a été automatiquement ajouté comme point récurrent à la séance.",
         )
