@@ -1,0 +1,14 @@
+name: Package Test Workflow
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+
+jobs:
+    tests-plone4:
+        uses: IMIO/gha-workflows/.github/workflows/package-test-legacy.yml@v1
+        with:
+            buildout_config_file: test-4.3.cfg
+            continue_on_error: false
+            requirements_file: requirements-4.3.txt
+            test_command: 'TZ=UTC bin/test -t !robot'
