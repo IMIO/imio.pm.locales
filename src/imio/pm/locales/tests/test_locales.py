@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from imio.pm.locales.testing import INTEGRATION_TESTING
 from zope.component import getUtility
 from zope.i18n import translate
@@ -39,11 +38,11 @@ class TestLocales(unittest.TestCase):
 
         # known msgids translate
         expected = {
-            "de": u"Anhang hinzufügen",
-            "en": u"Add an annex",
-            "es": u"Agregar un anexo",
-            "fr": u"Ajouter une annexe",
-            "nl": u"Voeg een bijlage toe",
+            "de": "Anhang hinzufügen",
+            "en": "Add an annex",
+            "es": "Agregar un anexo",
+            "fr": "Ajouter une annexe",
+            "nl": "Voeg een bijlage toe",
         }
         for lang, msgstr in expected.items():
             self.assertEqual(
@@ -51,11 +50,11 @@ class TestLocales(unittest.TestCase):
                 msgstr,
             )
         self.assertEqual(
-            translate("MeetingItem", domain="plone", target_language="fr"), u"Point"
+            translate("MeetingItem", domain="plone", target_language="fr"), "Point"
         )
         self.assertEqual(
             translate("MeetingItem", domain="plone", target_language="es"),
-            u"Tema de reunión",
+            "Tema de reunión",
         )
         self.assertEqual(
             translate(
@@ -63,5 +62,5 @@ class TestLocales(unittest.TestCase):
                 domain="imio.history",
                 target_language="fr",
             ),
-            u"Ce point a été automatiquement ajouté comme point récurrent à la séance.",
+            "Ce point a été automatiquement ajouté comme point récurrent à la séance.",
         )
