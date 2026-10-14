@@ -1,14 +1,4 @@
-include *.ignore
-include *.py
 include *.rst
-include Makefile
-include base.cfg
-include buildout.cfg
-include dev.cfg
-include versions-base.cfg
-include versions-dev.cfg
-recursive-exclude src svnignore
-recursive-include docs *.txt
 recursive-include src *.po
 recursive-include src *.pot
 recursive-include src *.sh
