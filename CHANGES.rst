@@ -5,8 +5,9 @@ Changelog
 4.2.33.7 (unreleased)
 ---------------------
 
-- Nothing changed yet.
-
+- Added msgids `category_not_available_for_proposing_group` and
+  `classifier_not_available_for_proposing_group`.
+  [gbastien]
 
 4.2.33.6 (2026-09-29)
 ---------------------

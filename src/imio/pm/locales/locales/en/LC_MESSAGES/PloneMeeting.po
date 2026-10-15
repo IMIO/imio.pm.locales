@@ -3141,6 +3141,10 @@ msgstr "When an item of this meeting config using this category will sent to ano
 msgid "category_required"
 msgstr "Please select a category."
 
+#. Default: "This category is not available for the selected proposing group."
+msgid "category_not_available_for_proposing_group"
+msgstr ""
+
 #. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything."
 msgid "category_using_groups_descr"
 msgstr "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
@@ -3272,6 +3276,10 @@ msgstr "X-small text"
 #. Default: "Please select a classifier."
 msgid "classifier_required"
 msgstr "Please select a classifier."
+
+#. Default: "This classifier is not available for the selected proposing group."
+msgid "classifier_not_available_for_proposing_group"
+msgstr ""
 
 #. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
 msgid "classifiers_descr"

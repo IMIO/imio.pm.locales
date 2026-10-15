@@ -3159,6 +3159,10 @@ msgstr "Lorsqu'un point de cette configuration de séance utilisant cette catég
 msgid "category_required"
 msgstr "Veuillez sélectionner une catégorie."
 
+#. Default: "This category is not available for the selected proposing group."
+msgid "category_not_available_for_proposing_group"
+msgstr "Cette catégorie ne peut pas être utilisée par le service proposant sélectionné."
+
 #. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything."
 msgid "category_using_groups_descr"
 msgstr "Sélectionnez les groupes qui pourront utiliser cette catégorie.  Si tous les groupes doivent pouvoir utiliser cette catégorie, ne sélectionnez aucun groupe."
@@ -3290,6 +3294,10 @@ msgstr "Très petit texte"
 #. Default: "Please select a classifier."
 msgid "classifier_required"
 msgstr "Veuillez sélectionner un classificateur."
+
+#. Default: "This classifier is not available for the selected proposing group."
+msgid "classifier_not_available_for_proposing_group"
+msgstr "Ce classificateur ne peut pas être utilisé par le service proposant sélectionné."
 
 #. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
 msgid "classifiers_descr"
