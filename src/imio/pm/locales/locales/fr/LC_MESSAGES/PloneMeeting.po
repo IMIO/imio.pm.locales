@@ -2314,7 +2314,11 @@ msgstr "Ce point n'est pas visible par les émetteurs d'avis de ce groupe dans s
 
 #. Default: "This label can not be removed as it is used by some items, for example ${item_url}"
 msgid "This label can not be removed as it is used by some items, for example ${item_url}"
-msgstr "Cette étiquette ne peut pas être supprimée car elle est utilisées par certains points, par exemple ${item_url}"
+msgstr "Cette étiquette ne peut pas être supprimée car elle est utilisée par certains points, par exemple ${item_url}"
+
+#. Default: "This label can not be removed as it is used in "Labels config" field!"
+msgid "This label can not be removed as it is used in \"Labels config\" field!"
+msgstr "Cette étiquette ne peut pas être supprimée car elle est utilisée dans le champ \"Configuration des étiquettes\" de cette configuration!"
 
 #. Default: "This meeting configuration uses following fields to manage assemblies and signatures"
 msgid "This meeting configuration uses following fields to manage assemblies and signatures"
@@ -2427,6 +2431,10 @@ msgstr "Vous ne pouvez pas supprimer ou déplacer le modèle de point par défau
 #. Default: "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgstr "Vous ne pouvez pas supprimer la fonction occupée \"${held_position_title}\" car elle est utilisée par l'élement \"${obj_url}\" !"
+
+#. Default: "[[DGPR]]"
+msgid "[[DGPR]]"
+msgstr "[[RGPD]]"
 
 #. Default: "Not grouped meeting configurations"
 msgid "_no_config_group_"
@@ -3155,6 +3163,10 @@ msgstr "Lorsqu'un point de cette configuration de séance utilisant cette catég
 msgid "category_required"
 msgstr "Veuillez sélectionner une catégorie."
 
+#. Default: "This category is not available for the selected proposing group."
+msgid "category_not_available_for_proposing_group"
+msgstr "Cette catégorie ne peut pas être utilisée par le service proposant sélectionné."
+
 #. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything."
 msgid "category_using_groups_descr"
 msgstr "Sélectionnez les groupes qui pourront utiliser cette catégorie.  Si tous les groupes doivent pouvoir utiliser cette catégorie, ne sélectionnez aucun groupe."
@@ -3286,6 +3298,10 @@ msgstr "Très petit texte"
 #. Default: "Please select a classifier."
 msgid "classifier_required"
 msgstr "Veuillez sélectionner un classificateur."
+
+#. Default: "This classifier is not available for the selected proposing group."
+msgid "classifier_not_available_for_proposing_group"
+msgstr "Ce classificateur ne peut pas être utilisé par le service proposant sélectionné."
 
 #. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
 msgid "classifiers_descr"
@@ -4128,7 +4144,7 @@ msgstr "Consulter les ${number} éléments précédents"
 
 #. Default: "Leave empty to use the signatures defined on the meeting configuration.  You may only redefine the certified signatures partially, for example, you may redefine signature number \"2\", the signature number \"1\" will still be taken from the meeting configuration."
 msgid "group_certified_signatures_descr"
-msgstr "Si vous spécifiez des signatures dans ce champ, elle seront utilisées pour les points proposés par ce groupe, si le champ est vide, les signatures définies dans la configuration de séance seront utilisées.  Vous pouvez redéfinir partiellement les signatures, par exemple, si vous ne redéfinissez que la signature numéro \"2\", la signature numéro \"1\" définie sur la configuration de séance sera utilisée."
+msgstr "Si vous spécifiez des signatures dans ce champ, elles seront utilisées pour les points proposés par ce groupe, si le champ est vide, les signatures définies dans la configuration de séance seront utilisées.  Vous pouvez redéfinir partiellement les signatures, par exemple, si vous ne redéfinissez que la signature numéro \"2\", la signature numéro \"1\" définie sur la configuration de séance sera utilisée."
 
 #. Default: "When an item is in one of the states you choose here, it will be possible for an adviser of this group to modify or delete an advice on this item. If you don't specify any state here, a list of states, global to all groups, defined at the config level will be used instead.  <span style='color: red;'>If you change this parameter, do not forget to run \"Update items and meetings\"!</span>"
 msgid "group_item_advice_edit_states_descr"
@@ -4845,7 +4861,7 @@ msgstr "Ceci génère la partie du workflow du point avant l'état \"Validé\". 
 
 #. Default: "If checked, an item that contains given advices will no more be deletable, except by MeetingManagers and Managers."
 msgid "item_with_given_advice_is_not_deletable_descr"
-msgstr "Si la case est cochée, un point sur lequel des avis ont été rendus ne pourra plus être supprimé, excepté par les gestionnaires de séances et les administrateurs."
+msgstr "Si la case est cochée, un point sur lequel des avis ont été rendus ne pourra plus être supprimé, excepté par les gestionnaires de séances et les administrateurs ou si le point est remis \"en création\"."
 
 #. Default: "In this list, you see all workflows defined in your Plone site. Choose one that was specifically designed for managing the life cycle of an item: either \"meetingitem_workflow\", the default item workflow that ships with PloneMeeting, or another workflow that was specifically created by developers within another Plone product for the items of this meeting configuration."
 msgid "item_workflow_descr"
@@ -5938,9 +5954,17 @@ msgstr "Séance publique"
 msgid "public_ending"
 msgstr "Séance publique (fin de séance)"
 
+#. Default: "Public meeting (advice)"
+msgid "public_advice"
+msgstr "Séance publique (avis)"
+
 #. Default: "Public meeting (heading)"
 msgid "public_heading"
 msgstr "Séance publique (entête)"
+
+#. Default: "Public meeting (info)"
+msgid "public_info"
+msgstr "Séance publique (info)"
 
 #. Default: "Publishable (displayed)"
 msgid "publishable_display"
@@ -6151,6 +6175,14 @@ msgstr "Points de mes commissions éditables"
 msgid "searchitemsofmygroups"
 msgstr "Points de mes groupes"
 
+#. Default: "Items of my groups with needed follow-up"
+msgid "searchitemsofmygroupswithneededfollowup"
+msgstr "Suivi à apporter de mes groupes"
+
+#. Default: "Items of my groups with provided follow-up"
+msgid "searchitemsofmygroupswithprovidedfollowup"
+msgstr "Suivi apporté de mes groupes"
+
 #. Default: "Items to advice with delay"
 msgid "searchitemstoadvicewithdelay"
 msgstr "Avis à donner (avec délai)"
@@ -6243,9 +6275,17 @@ msgstr "Huis clos"
 msgid "secret_ending"
 msgstr "Huis clos (fin de séance)"
 
+#. Default: "Closed door (advice)"
+msgid "secret_advice"
+msgstr "Huis clos (avis)"
+
 #. Default: "Closed door (heading)"
 msgid "secret_heading"
 msgstr "Huis clos (entête)"
+
+#. Default: "Closed door (info)"
+msgid "secret_info"
+msgstr "Huis clos (info)"
 
 # Portlet "meeting items"
 #. Default: "See everything..."
@@ -7109,10 +7149,6 @@ msgstr "Vous ne pouvez pas sélectionner l'adaptation \"Sauter l'étape de publi
 msgid "wa_conflicts"
 msgstr "Cette combinaison d'adaptations est invalide."
 
-#. Default: "Item decision is pre-encoded by item creator"
-msgid "wa_creator_initiated_decisions"
-msgstr "Les décisions d'un point sont pré-encodées par le créateur de ce point"
-
 #. Default: "Decide items when they come back in meeting after correction."
 msgid "wa_decide_item_when_back_to_meeting_from_returned_to_proposing_group"
 msgstr "Décider les points automatiquement quand ils reviennent dans la séance après correction"
@@ -7181,10 +7217,6 @@ msgstr "Sauter l'étape de rédaction du PV"
 msgid "wa_no_freeze"
 msgstr "Sauter l'étape de gel"
 
-#. Default: "No global items observation"
-msgid "wa_no_global_observation"
-msgstr "Pas d'observation globale des points"
-
 #. Default: "Skip publication step"
 msgid "wa_no_publication"
 msgstr "Sauter l'étape de publication"
@@ -7249,6 +7281,10 @@ msgstr "Vous ne pouvez pas désélectionner l'adaptation \"${wfa}\" car il reste
 msgid "wa_removed_return_to_proposing_group_with_all_validations_error"
 msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec toutes les validations)\" car il reste des points dans un des états \"Renvoyé au groupe proposant pour corrections (...)\"."
 
+#. Default: "You can not unselect the \"Return to proposing group with before last validations\" adaptation as there are still items in states \"returned to proposing group xxx\"."
+msgid "wa_removed_return_to_proposing_group_before_last_validation_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec renvoi en séance possible à partir de l'avant dernier niveau)\" car il reste des points dans un des états \"Renvoyé au groupe proposant pour corrections (...)\"."
+
 #. Default: "You can not unselect the \"Wait advices\" adaptation as there are still items in state \"wait advices\"."
 msgid "wa_removed_waiting_advices_error"
 msgstr "Vous ne pouvez pas désélectionner une adaptation \"État supplémentaire pour demander les avis\" tant qu'il reste des points dans un état \"En attente des avis\"."
@@ -7264,6 +7300,10 @@ msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans 
 #. Default: "Return to proposing group for corrections with one validation (the last)"
 msgid "wa_return_to_proposing_group_with_last_validation"
 msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec validation du dernier niveau)"
+
+#. Default: "Return to proposing group for corrections with second-to-last validation"
+msgid "wa_return_to_proposing_group_with_before_last_validation"
+msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec validation de l'avant-dernier niveau)"
 
 #. Default: "Reviewers may take back validated item"
 msgid "wa_reviewers_take_back_validated_item"

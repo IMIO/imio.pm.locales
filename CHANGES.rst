@@ -5,8 +5,44 @@ Changelog
 4.2.31rc4 (unreleased)
 ----------------------
 
-- Nothing changed yet.
+- Added msgids `category_not_available_for_proposing_group` and
+  `classifier_not_available_for_proposing_group`.
+  [gbastien]
 
+4.2.33.6 (2026-09-29)
+---------------------
+
+- Empty release due to pypi outage previous release not available.
+  [gbastien]
+
+4.2.33.5 (2026-09-28)
+---------------------
+
+- Added translation for `This label can not be removed as it is used in "Labels config" field!`.
+  [gbastien]
+- Added translations related to workflow adaptation
+  `return_to_proposing_group_with_before_last_validation`.
+  [aduchene]
+
+4.2.33.4 (2026-09-02)
+---------------------
+
+- Removed `wa_no_global_observation` and `wa_creator_initiated_decisions`
+  that were removed a long time ago.
+  [gbastien]
+- Added translation for `utils.anonymize_raw_text` `new_text` value.
+  [gbastien]
+- Completed french translation for `item_with_given_advice_is_not_deletable_descr`.
+  [gbastien]
+
+4.2.33.3 (2026-06-25)
+---------------------
+
+- Added translations for `searchitemsofmygroupswithneededfollowup` and
+  `searchitemsofmygroupswithprovidedfollowup`.
+  [gbastien]
+- Added translations for `MeetingItem.privacy` new values.
+  [gbastien]
 
 4.2.31rc3 (2026-06-09)
 ----------------------

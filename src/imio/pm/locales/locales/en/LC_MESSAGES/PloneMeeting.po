@@ -2316,6 +2316,10 @@ msgstr "This item is not viewable by the advisers of this group in the current r
 msgid "This label can not be removed as it is used by some items, for example ${item_url}"
 msgstr "This label can not be removed as it is used by some items, for example ${item_url}"
 
+#. Default: "This label can not be removed as it is used in "Labels config" field!"
+msgid "This label can not be removed as it is used in \"Labels config\" field!"
+msgstr ""
+
 #. Default: "This meeting configuration uses following fields to manage assemblies and signatures"
 msgid "This meeting configuration uses following fields to manage assemblies and signatures"
 msgstr "This meeting configuration uses following fields to manage assemblies and signatures"
@@ -2427,6 +2431,10 @@ msgstr "You cannot delete or move the default item template, but you can deactiv
 #. Default: "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgid "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
 msgstr "You cannot delete the held position \"${held_position_title}\", because it is used by element at \"${obj_url}\" !"
+
+#. Default: "[[DGPR]]"
+msgid "[[DGPR]]"
+msgstr ""
 
 #. Default: "Not grouped meeting configurations"
 msgid "_no_config_group_"
@@ -3137,6 +3145,10 @@ msgstr "When an item of this meeting config using this category will sent to ano
 msgid "category_required"
 msgstr "Please select a category."
 
+#. Default: "This category is not available for the selected proposing group."
+msgid "category_not_available_for_proposing_group"
+msgstr ""
+
 #. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything."
 msgid "category_using_groups_descr"
 msgstr "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
@@ -3268,6 +3280,10 @@ msgstr "X-small text"
 #. Default: "Please select a classifier."
 msgid "classifier_required"
 msgstr "Please select a classifier."
+
+#. Default: "This classifier is not available for the selected proposing group."
+msgid "classifier_not_available_for_proposing_group"
+msgstr ""
 
 #. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
 msgid "classifiers_descr"
@@ -5910,11 +5926,19 @@ msgstr "Public meeting"
 
 #. Default: "Public meeting (ending)"
 msgid "public_ending"
-msgstr ""
+msgstr "Public meeting (ending)"
+
+#. Default: "Public meeting (advice)"
+msgid "public_advice"
+msgstr "Public meeting (advice)"
 
 #. Default: "Public meeting (heading)"
 msgid "public_heading"
 msgstr "Public meeting (heading)"
+
+#. Default: "Public meeting (info)"
+msgid "public_info"
+msgstr "Public meeting (info)"
 
 #. Default: "Publishable (displayed)"
 msgid "publishable_display"
@@ -6123,6 +6147,14 @@ msgstr "Items of my committees editable"
 msgid "searchitemsofmygroups"
 msgstr "Items of my groups"
 
+#. Default: "Items of my groups with needed follow-up"
+msgid "searchitemsofmygroupswithneededfollowup"
+msgstr ""
+
+#. Default: "Items of my groups with provided follow-up"
+msgid "searchitemsofmygroupswithprovidedfollowup"
+msgstr ""
+
 #. Default: "Items to advice with delay"
 msgid "searchitemstoadvicewithdelay"
 msgstr "Items to advice with delay"
@@ -6213,11 +6245,19 @@ msgstr "Closed door"
 
 #. Default: "Closed door (ending)"
 msgid "secret_ending"
-msgstr ""
+msgstr "Closed door (ending)"
+
+#. Default: "Closed door (advice)"
+msgid "secret_advice"
+msgstr "Closed door (advice)"
 
 #. Default: "Closed door (heading)"
 msgid "secret_heading"
 msgstr "Closed door (heading)"
+
+#. Default: "Closed door (info)"
+msgid "secret_info"
+msgstr "Closed door (info)"
 
 # Portlet "meeting items"
 #. Default: "See everything..."
@@ -7081,10 +7121,6 @@ msgstr "You can not select the \"No publication\" adaptation as there are still 
 msgid "wa_conflicts"
 msgstr "This combination of workflow adaptations is invalid."
 
-#. Default: "Item decision is pre-encoded by item creator"
-msgid "wa_creator_initiated_decisions"
-msgstr "Item decision is pre-encoded by item creator"
-
 #. Default: "Decide items when they come back in meeting after correction."
 msgid "wa_decide_item_when_back_to_meeting_from_returned_to_proposing_group"
 msgstr "Decide items when they come back in meeting after correction."
@@ -7152,10 +7188,6 @@ msgstr "No decide"
 #. Default: "No freeze"
 msgid "wa_no_freeze"
 msgstr "No freeze"
-
-#. Default: "No global items observation"
-msgid "wa_no_global_observation"
-msgstr "No global items observation"
 
 #. Default: "Skip publication step"
 msgid "wa_no_publication"
@@ -7232,6 +7264,10 @@ msgstr "Return to proposing group for corrections"
 #. Default: "Return to proposing group for corrections with all validations"
 msgid "wa_return_to_proposing_group_with_all_validations"
 msgstr "Return to proposing group for corrections with all validations"
+
+#. Default: "Return to proposing group for corrections with second-to-last validation"
+msgid "wa_return_to_proposing_group_with_before_last_validation"
+msgstr "Return to proposing group for corrections with second-to-last validation"
 
 #. Default: "Return to proposing group for corrections with one validation (the last)"
 msgid "wa_return_to_proposing_group_with_last_validation"
