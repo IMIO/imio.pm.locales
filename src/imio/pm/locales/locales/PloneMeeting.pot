@@ -212,6 +212,10 @@ msgstr ""
 msgid "PloneMeeting_label_motivation"
 msgstr ""
 
+#. Default: "Motivation (suite)"
+msgid "PloneMeeting_label_motivationSuite"
+msgstr ""
+
 #. Default: "This item is NOT an oral question"
 msgid "this_item_is_not_an_oral_question"
 msgstr ""
@@ -540,6 +544,10 @@ msgstr ""
 msgid "public"
 msgstr ""
 
+#. Default: "Public meeting (ending)"
+msgid "public_ending"
+msgstr ""
+
 #. Default: "Public meeting (heading)"
 msgid "public_heading"
 msgstr ""
@@ -554,6 +562,10 @@ msgstr ""
 
 #. Default: "Closed door"
 msgid "secret"
+msgstr ""
+
+#. Default: "Closed door (ending)"
+msgid "secret_ending"
 msgstr ""
 
 #. Default: "Closed door (heading)"
@@ -2326,6 +2338,10 @@ msgstr ""
 
 #. Default: "Add shortcuts in the item validation process"
 msgid "wa_item_validation_shortcuts"
+msgstr ""
+
+#. Default: "You selected some workflow adaptations that are not compatible with configuration of field \"Item workflow validation levels\" here under, please correct."
+msgid "wa_item_validation_levels_dependency"
 msgstr ""
 
 #. Default: "Add \"Item decided\" state to the item workflow"
@@ -6006,6 +6022,10 @@ msgstr ""
 msgid "item_wf_val_states_back_transition_must_start_with_back"
 msgstr ""
 
+#. Default: "The \"validated\" line may only be defined once, must be the last line, can not be enabled, must use \"validate\" as transition, \"backToValidated\" as back transition, \"proposing_group__observers\" as group managing item and no extra groups managing item (only titles and condition may be changed)."
+msgid "item_wf_val_states_validated_wrong_definition"
+msgstr ""
+
 #. Default: "Identifiers used in the configuration must respect following format: one single word (no spaces) without accents or special characters."
 msgid "item_wf_val_states_wrong_identifier_format"
 msgstr ""
@@ -6026,7 +6046,7 @@ msgstr ""
 msgid "PloneMeeting_label_itemWFValidationLevels"
 msgstr ""
 
-#. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
+#. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected.  A \"validated\" line may optionally be added as last line, it does not create a new state and can not be enabled, it is used to change the \"Validated\" state title, the \"validate\" and \"backToValidated\" transitions titles and to define a condition (\"available_on\") on the \"validate\" transition, it must use \"validate\" as transition, \"backToValidated\" as back transition, \"proposing_group__observers\" as group managing item and no extra groups managing item.  The condition is not checked for Managers, \"shortcut\" and \"back_transition\" variables are available in the condition.  Note that the \"backToValidated\" transition is the \"Remove from meeting\" action, changing its title will change it everywhere."
 msgid "item_wf_validation_levels_descr"
 msgstr ""
 
@@ -6236,6 +6256,10 @@ msgstr ""
 
 #. Default: "POD template to annex"
 msgid "POD template to annex"
+msgstr ""
+
+#. Default: "The condition defined in the configuration for this transition is not satisfied."
+msgid "validation_level_available_on_not_satisfied"
 msgstr ""
 
 #. Default: "Some required advices must still be given before you may validate this item.  Please check other transitions about \"Ask advices\" or unselect asked advices from item to be able to validate."
@@ -7150,8 +7174,8 @@ msgstr ""
 msgid "item_action_export_pdf"
 msgstr ""
 
-#. Default: "The proposing group"
-msgid "The proposing group"
+#. Default: "The proposing group (${suffix_title})"
+msgid "proposing_group_managing_item"
 msgstr ""
 
 #. Default: "Advice accounting commitment field"
@@ -7164,6 +7188,14 @@ msgstr ""
 
 #. Default: "Emergency motivation"
 msgid "PloneMeeting_label_emergencyMotivation"
+msgstr ""
+
+#. Default: "Meeting configs to clone to fields editable if"
+msgid "PloneMeeting_label_meetingConfigsToCloneToEditFieldsTALExpr"
+msgstr ""
+
+#. Default: "Specify here a TAL expression that will make every meeting configs to clone to fields editable.  Leave empty if fields are editable when the item is editable."
+msgid "meeting_configs_to_clone_to_edit_fields_tal_expr_descr"
 msgstr ""
 
 #. Default: "Projects"
