@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.31rc4 (unreleased)
+4.2.31rc4 (2026-10-16)
 ----------------------
 
 - Added msgids `category_not_available_for_proposing_group` and
