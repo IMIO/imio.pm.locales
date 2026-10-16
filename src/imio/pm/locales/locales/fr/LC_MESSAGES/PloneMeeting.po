@@ -4178,6 +4178,10 @@ msgstr "Ce champ est visible et éditable seulement par certains profils défini
 msgid "gui"
 msgstr "Interface utilisateur"
 
+#. Default: "The condition defined in the configuration for this transition is not satisfied."
+msgid "validation_level_available_on_not_satisfied"
+msgstr "La condition définie dans la configuration pour cette transition n'est pas remplie."
+
 #. Default: "Some required advices must still be given before you may validate this item.  Please check other transitions about \"Ask advices\" or unselect asked advices from item to be able to validate."
 msgid "has_required_waiting_advices"
 msgstr "Certains avis doivent toujours être rendus sur ce point avant que vous puissiez le valider.  Vérifiez les autres actions disponibles sur le point de type \"Demander les avis\" ou désélectionnez les avis demandés sur le point. Si les avis sont rendus, vérifiez dans l'historique des avis qu'ils ont bien atteint la dernière étape de leur workflow."
@@ -4851,13 +4855,17 @@ msgstr "Si certains niveaux de validations sont activés, la première ligne \"i
 msgid "item_wf_val_states_itemcreated_must_exist"
 msgstr "La ligne \"itemcreated (en création)\" ne peut pas être supprimée (vous pouvez la désactiver) et doit être la première ligne renseignée."
 
+#. Default: "The \"validated\" line may only be defined once, must be the last line, can not be enabled, must use \"validate\" as transition, \"backToValidated\" as back transition, \"proposing_group__observers\" as group managing item and no extra groups managing item (only titles and condition may be changed)."
+msgid "item_wf_val_states_validated_wrong_definition"
+msgstr "La ligne \"validated\" ne peut être définie qu'une seule fois, doit être la dernière ligne, ne peut pas être activée, doit utiliser \"validate\" comme transition, \"backToValidated\" comme transition retour, \"Le groupe proposant (Observateurs)\" comme groupe gérant le point et aucun groupe supplémentaire gérant le point (seuls les titres et la condition peuvent être modifiés)."
+
 #. Default: "Identifiers used in the configuration must respect following format: one single word (no spaces) without accents or special characters."
 msgid "item_wf_val_states_wrong_identifier_format"
 msgstr "Les colonnes \"(Identifiant)\" doivent respecter le format suivant: un seul mot (sans espace), uniquement lettres et chiffres sans caractères spéciaux."
 
-#. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
+#. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected.  A \"validated\" line may optionally be added as last line, it does not create a new state and can not be enabled, it is used to change the \"Validated\" state title, the \"validate\" and \"backToValidated\" transitions titles and to define a condition (\"available_on\") on the \"validate\" transition, it must use \"validate\" as transition, \"backToValidated\" as back transition, \"proposing_group__observers\" as group managing item and no extra groups managing item.  The condition is not checked for Managers, \"shortcut\" and \"back_transition\" variables are available in the condition.  Note that the \"backToValidated\" transition is the \"Remove from meeting\" action, changing its title will change it everywhere."
 msgid "item_wf_validation_levels_descr"
-msgstr "Ceci génère la partie du workflow du point avant l'état \"Validé\".  Si rien n'est sélectionné, les points seront créés dans l'état \"Validé\".  Si certaines lignes sont activées, la première (état \"En création\") est obligatoire."
+msgstr "Ceci génère la partie du workflow du point avant l'état \"Validé\".  Si rien n'est sélectionné, les points seront créés dans l'état \"Validé\".  Si certaines lignes sont activées, la première (état \"En création\") est obligatoire.  Une ligne \"validated\" peut éventuellement être ajoutée en dernière ligne, elle ne crée pas de nouvel état et ne peut pas être activée, elle permet de modifier le titre de l'état \"Validé\", les titres des transitions \"validate\" et \"backToValidated\" et de définir une condition (\"available_on\") sur la transition \"validate\", elle doit utiliser \"validate\" comme transition, \"backToValidated\" comme transition retour, \"Le groupe proposant (Observateurs)\" comme groupe gérant le point et aucun groupe supplémentaire gérant le point.  La condition n'est pas vérifiée pour les Managers, les variables \"shortcut\" et \"back_transition\" sont disponibles dans la condition.  Notez que la transition \"backToValidated\" correspond à l'action \"Retirer de la séance\", modifier son titre le modifiera partout."
 
 #. Default: "If checked, an item that contains given advices will no more be deletable, except by MeetingManagers and Managers."
 msgid "item_with_given_advice_is_not_deletable_descr"

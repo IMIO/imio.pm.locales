@@ -6022,6 +6022,10 @@ msgstr ""
 msgid "item_wf_val_states_back_transition_must_start_with_back"
 msgstr ""
 
+#. Default: "The \"validated\" line may only be defined once, must be the last line, can not be enabled, must use \"validate\" as transition, \"backToValidated\" as back transition, \"proposing_group__observers\" as group managing item and no extra groups managing item (only titles and condition may be changed)."
+msgid "item_wf_val_states_validated_wrong_definition"
+msgstr ""
+
 #. Default: "Identifiers used in the configuration must respect following format: one single word (no spaces) without accents or special characters."
 msgid "item_wf_val_states_wrong_identifier_format"
 msgstr ""
@@ -6042,7 +6046,7 @@ msgstr ""
 msgid "PloneMeeting_label_itemWFValidationLevels"
 msgstr ""
 
-#. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
+#. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected.  A \"validated\" line may optionally be added as last line, it does not create a new state and can not be enabled, it is used to change the \"Validated\" state title, the \"validate\" and \"backToValidated\" transitions titles and to define a condition (\"available_on\") on the \"validate\" transition, it must use \"validate\" as transition, \"backToValidated\" as back transition, \"proposing_group__observers\" as group managing item and no extra groups managing item.  The condition is not checked for Managers, \"shortcut\" and \"back_transition\" variables are available in the condition.  Note that the \"backToValidated\" transition is the \"Remove from meeting\" action, changing its title will change it everywhere."
 msgid "item_wf_validation_levels_descr"
 msgstr ""
 
@@ -6252,6 +6256,10 @@ msgstr ""
 
 #. Default: "POD template to annex"
 msgid "POD template to annex"
+msgstr ""
+
+#. Default: "The condition defined in the configuration for this transition is not satisfied."
+msgid "validation_level_available_on_not_satisfied"
 msgstr ""
 
 #. Default: "Some required advices must still be given before you may validate this item.  Please check other transitions about \"Ask advices\" or unselect asked advices from item to be able to validate."

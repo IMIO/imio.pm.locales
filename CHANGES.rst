@@ -8,6 +8,11 @@ Changelog
 - Added msgids `category_not_available_for_proposing_group` and
   `classifier_not_available_for_proposing_group`.
   [gbastien]
+- Added msgids `item_wf_val_states_validated_wrong_definition` and
+  `validation_level_available_on_not_satisfied` and adapted
+  `item_wf_validation_levels_descr` to explain the optional `validated` row
+  of `MeetingConfig.itemWFValidationLevels`. See #DLIBBDC-3383.
+  [gbastien]
 
 4.2.33.6 (2026-09-29)
 ---------------------
