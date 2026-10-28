@@ -7093,6 +7093,10 @@ msgstr "Accept a validated item out of a meeting when emergency is asked (the it
 msgid "wa_added_items_come_validated_error"
 msgstr "You can not select the \"Items come validated\" adaptation as there are still items in state \"itemcreated\" or \"proposed\"."
 
+#. Default: "You can not select the \"No meeting\" adaptation as there are still meetings or items linked to a meeting."
+msgid "wa_added_no_meeting_error"
+msgstr "You can not select the \"No meeting\" adaptation as there are still meetings or items linked to a meeting."
+
 #. Default: "You can not select the \"No publication\" adaptation as there are still items or meetings in state \"published\"."
 msgid "wa_added_no_publication_error"
 msgstr "You can not select the \"No publication\" adaptation as there are still items or meetings in state \"published\"."
@@ -7164,6 +7168,14 @@ msgstr "No decide"
 #. Default: "No freeze"
 msgid "wa_no_freeze"
 msgstr "No freeze"
+
+#. Default: "No meeting (items workflow ends at validation)"
+msgid "wa_no_meeting"
+msgstr "No meeting (items workflow ends at validation)"
+
+#. Default: "The \"No meeting\" adaptation can not be selected together with the \"${wfa}\" adaptation."
+msgid "wa_no_meeting_conflicts"
+msgstr "The \"No meeting\" adaptation can not be selected together with the \"${wfa}\" adaptation."
 
 #. Default: "Skip publication step"
 msgid "wa_no_publication"
