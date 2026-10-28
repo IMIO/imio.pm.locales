@@ -36,7 +36,7 @@ help:
 	@awk 'BEGIN {FS = ":.*##"; printf "\nUsage:\n  make \033[36m<target>\033[0m\n\nTargets:\n"} /^[a-zA-Z_-]+:.*?##/ { printf "  \033[36m%-10s\033[0m %s\n", $$1, $$2 }' $(MAKEFILE_LIST)
 
 .python-version:  ## Setups pyenv version
-	@pyenv local `pyenv versions |grep "  $(python)" |tail -1 |xargs`
+	@pyenv local `pyenv versions --bare |grep "^$(python)" |tail -1`
 	@echo "Local pyenv version is `cat .python-version`"
 	@ if [[ `pyenv which virtualenv` != `pyenv prefix`* ]] ; then echo "You need to install virtualenv in `cat .python-version` pyenv python (pip install virtualenv)"; exit 1; fi
 
