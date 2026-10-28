@@ -2340,6 +2340,18 @@ msgstr ""
 msgid "wa_no_freeze"
 msgstr ""
 
+#. Default: "No meeting (items workflow ends at validation)"
+msgid "wa_no_meeting"
+msgstr ""
+
+#. Default: "The \"No meeting\" adaptation can not be selected together with the \"${wfa}\" adaptation."
+msgid "wa_no_meeting_conflicts"
+msgstr ""
+
+#. Default: "You can not select the \"No meeting\" adaptation as there are still meetings or items linked to a meeting."
+msgid "wa_added_no_meeting_error"
+msgstr ""
+
 #. Default: "<p class='highlightValue'>The decision is currently under edit by managers, you can not access it.</p>"
 msgid "decision_under_edit"
 msgstr ""

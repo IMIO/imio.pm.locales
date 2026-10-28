@@ -7121,6 +7121,10 @@ msgstr "Accepter un point hors séance lorsqu'il est validé lorsque l'urgence e
 msgid "wa_added_items_come_validated_error"
 msgstr "Vous ne pouvez pas sélectionner l'adaptation \"Les points arrivent validés\" car il reste des points dans l'état \"en création\" ou \"proposé\"."
 
+#. Default: "You can not select the \"No meeting\" adaptation as there are still meetings or items linked to a meeting."
+msgid "wa_added_no_meeting_error"
+msgstr "Vous ne pouvez pas sélectionner l'adaptation \"Pas de séance\" car il existe encore des séances ou des points liés à une séance."
+
 #. Default: "You can not select the \"No publication\" adaptation as there are still items or meetings in state \"published\"."
 msgid "wa_added_no_publication_error"
 msgstr "Vous ne pouvez pas sélectionner l'adaptation \"Sauter l'étape de publication\" car il reste des points ou des séances dans l'état \"publié\"."
@@ -7192,6 +7196,14 @@ msgstr "Sauter l'étape de rédaction du PV"
 #. Default: "No freeze"
 msgid "wa_no_freeze"
 msgstr "Sauter l'étape de gel"
+
+#. Default: "No meeting (items workflow ends at validation)"
+msgid "wa_no_meeting"
+msgstr "Pas de séance (le workflow des points s'arrête à la validation)"
+
+#. Default: "The \"No meeting\" adaptation can not be selected together with the \"${wfa}\" adaptation."
+msgid "wa_no_meeting_conflicts"
+msgstr "L'adaptation \"Pas de séance\" ne peut pas être sélectionnée avec l'adaptation \"${wfa}\"."
 
 #. Default: "Skip publication step"
 msgid "wa_no_publication"

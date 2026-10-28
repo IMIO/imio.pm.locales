@@ -8,6 +8,9 @@ Changelog
 - Added msgids `category_not_available_for_proposing_group` and
   `classifier_not_available_for_proposing_group`.
   [gbastien]
+- Added msgids `wa_no_meeting`, `wa_no_meeting_conflicts` and
+  `wa_added_no_meeting_error` for the `no_meeting` workflow adaptation.
+  [gbastien]
 
 4.2.33.6 (2026-09-29)
 ---------------------
