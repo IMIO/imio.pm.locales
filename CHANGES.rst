@@ -17,6 +17,10 @@ Changelog
   [gbastien]
 - Added msgid `proposing_group_batch_action_different_proposing_groups`.
   [gbastien]
+- Added msgids `Update restricted copy groups for selected elements` and
+  `update-restricted-copy-groups-batch-action-but` for the new
+  `update-restricted-copy-groups-batch-action` batch action.
+  [gbastien]
 
 4.2.33.6 (2026-09-29)
 ---------------------
