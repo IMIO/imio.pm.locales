@@ -1632,6 +1632,10 @@ msgstr "Interface allowing to use a specific Zope3 adapter for modifying the con
 msgid "PloneMeeting_label_meetingConfigsToCloneTo"
 msgstr "Meeting configs to clone items to"
 
+#. Default: "Meeting configs to clone to fields editable if"
+msgid "PloneMeeting_label_meetingConfigsToCloneToEditFieldsTALExpr"
+msgstr ""
+
 #. Default: "Meeting deadline date"
 msgid "PloneMeeting_label_meetingDeadlineDate"
 msgstr "Meeting deadline date"
@@ -1675,6 +1679,10 @@ msgstr "Model adaptations"
 #. Default: "Motivation"
 msgid "PloneMeeting_label_motivation"
 msgstr "Motivation"
+
+#. Default: "Motivation (suite)"
+msgid "PloneMeeting_label_motivationSuite"
+msgstr "Motivation (suite)"
 
 #. Default: "Needed follow-up"
 msgid "PloneMeeting_label_neededFollowUp"
@@ -2251,10 +2259,6 @@ msgstr "The order of attendees was changed for the ${number} following item(s)"
 #. Default: "The position of this attendee was changed for the ${number} following item(s)"
 msgid "The position of this attendee was changed for the ${number} following item(s)"
 msgstr "The position of this attendee was changed for the ${number} following item(s)"
-
-#. Default: "The proposing group"
-msgid "The proposing group"
-msgstr "The proposing group"
 
 #. Default: "There was an error during annex conversion, please contact system administrator."
 msgid "There was an error during annex conversion, please contact system administrator."
@@ -4156,6 +4160,10 @@ msgstr ""
 msgid "gui"
 msgstr "User interface"
 
+#. Default: "The condition defined in the configuration for this transition is not satisfied."
+msgid "validation_level_available_on_not_satisfied"
+msgstr "The condition defined in the configuration for this transition is not satisfied."
+
 #. Default: "Some required advices must still be given before you may validate this item.  Please check other transitions about \"Ask advices\" or unselect asked advices from item to be able to validate."
 msgid "has_required_waiting_advices"
 msgstr "Some required advices must still be given before you may validate this item.  Please check other transitions about \"Ask advices\" or unselect asked advices from item to be able to validate."
@@ -4819,17 +4827,25 @@ msgstr "You can not disable or remove a line that is currently used by an item i
 msgid "item_wf_val_states_itemcreated_mandatory"
 msgstr "If you enable some validation levels, then the \"Item created\" level must mandatorily be the first level (item initial state)."
 
+#. Default: "The group managing item of the \"Item created\" level must be \"The proposing group (Creators)\"."
+msgid "item_wf_val_states_itemcreated_group_managing_item_creators_error"
+msgstr "The group managing item of the \"Item created\" level must be \"The proposing group (Creators)\"."
+
 #. Default: "You can not remove the \"Item created\" line that but mandatorily be the first line."
 msgid "item_wf_val_states_itemcreated_must_exist"
 msgstr "You can not remove the \"Item created\" line that but mandatorily be the first line."
+
+#. Default: "The \"validated\" line may only be defined once, must be the last line, can not be enabled, must use \"validate\" as transition, \"backToValidated\" as back transition, \"proposing_group__observers\" as group managing item and no extra groups managing item (only titles and condition may be changed)."
+msgid "item_wf_val_states_validated_wrong_definition"
+msgstr "The \"validated\" line may only be defined once, must be the last line, can not be enabled, must use \"validate\" as transition, \"backToValidated\" as back transition, \"proposing_group__observers\" as group managing item and no extra groups managing item (only titles and condition may be changed)."
 
 #. Default: "Identifiers used in the configuration must respect following format: one single word (no spaces) without accents or special characters."
 msgid "item_wf_val_states_wrong_identifier_format"
 msgstr "Identifiers used in the configuration must respect following format: one single word (no spaces) without accents or special characters."
 
-#. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
+#. Default: "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected.  A \"validated\" line may optionally be added as last line, it does not create a new state and can not be enabled, it is used to change the \"Validated\" state title, the \"validate\" and \"backToValidated\" transitions titles and to define a condition (\"available_on\") on the \"validate\" transition, it must use \"validate\" as transition, \"backToValidated\" as back transition, \"proposing_group__observers\" as group managing item and no extra groups managing item.  The condition is not checked for Managers, \"shortcut\" and \"back_transition\" variables are available in the condition.  Note that the \"backToValidated\" transition is the \"Remove from meeting\" action, changing its title will change it everywhere."
 msgid "item_wf_validation_levels_descr"
-msgstr "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected."
+msgstr "This will generate the item validation part before the \"Validated\" state.  When nothing enabled, items will be created \"Validated\", if some values are selected, then the first (\"itemcreated\") must be selected.  A \"validated\" line may optionally be added as last line, it does not create a new state and can not be enabled, it is used to change the \"Validated\" state title, the \"validate\" and \"backToValidated\" transitions titles and to define a condition (\"available_on\") on the \"validate\" transition, it must use \"validate\" as transition, \"backToValidated\" as back transition, \"proposing_group__observers\" as group managing item and no extra groups managing item.  The condition is not checked for Managers, \"shortcut\" and \"back_transition\" variables are available in the condition.  Note that the \"backToValidated\" transition is the \"Remove from meeting\" action, changing its title will change it everywhere."
 
 #. Default: "If checked, an item that contains given advices will no more be deletable, except by MeetingManagers and Managers."
 msgid "item_with_given_advice_is_not_deletable_descr"
@@ -5131,6 +5147,10 @@ msgstr "Similarly to interfaces defined for items, the conditions expressed on t
 #. Default: "Select here the other meetingConfigs the user will be able to clone an item of this meetingConfig to"
 msgid "meeting_configs_to_clone_to_descr"
 msgstr "Select here the other meetingConfigs the user will be able to clone an item of this meetingConfig to"
+
+#. Default: "Specify here a TAL expression that will make every meeting configs to clone to fields editable.  Leave empty if fields are editable when the item is editable."
+msgid "meeting_configs_to_clone_to_edit_fields_tal_expr_descr"
+msgstr ""
 
 #. Default: "Management of meeting configurations"
 msgid "meeting_configurations"
@@ -5884,6 +5904,10 @@ msgstr "Items presented to this meeting"
 msgid "preview_grouped_annexes"
 msgstr "Preview of annexes grouped by type"
 
+#. Default: "The proposing group (${suffix_title})"
+msgid "proposing_group_managing_item"
+msgstr "The proposing group (${suffix_title})"
+
 #. Default: "Proposing group is not available for user."
 msgid "proposing_group_not_available"
 msgstr "Proposing group is not available for user."
@@ -5916,9 +5940,13 @@ msgstr "The document will be sent to: ${recipients}."
 msgid "public"
 msgstr "Public meeting"
 
+#. Default: "Public meeting (ending)"
+msgid "public_ending"
+msgstr "Public meeting (ending)"
+
 #. Default: "Public meeting (advice)"
 msgid "public_advice"
-msgstr ""
+msgstr "Public meeting (advice)"
 
 #. Default: "Public meeting (heading)"
 msgid "public_heading"
@@ -5926,7 +5954,7 @@ msgstr "Public meeting (heading)"
 
 #. Default: "Public meeting (info)"
 msgid "public_info"
-msgstr ""
+msgstr "Public meeting (info)"
 
 #. Default: "Publishable (displayed)"
 msgid "publishable_display"
@@ -6231,9 +6259,13 @@ msgstr "Validable items"
 msgid "secret"
 msgstr "Closed door"
 
+#. Default: "Closed door (ending)"
+msgid "secret_ending"
+msgstr "Closed door (ending)"
+
 #. Default: "Closed door (advice)"
 msgid "secret_advice"
-msgstr ""
+msgstr "Closed door (advice)"
 
 #. Default: "Closed door (heading)"
 msgid "secret_heading"
@@ -6241,7 +6273,7 @@ msgstr "Closed door (heading)"
 
 #. Default: "Closed door (info)"
 msgid "secret_info"
-msgstr ""
+msgstr "Closed door (info)"
 
 # Portlet "meeting items"
 #. Default: "See everything..."
@@ -7132,6 +7164,10 @@ msgstr "Hide the decision to the proposing group when it is under writing (compl
 #. Default: "Hide the decision to the proposing group when it is under writing (complementary: excepted for power observers \"${po}\")"
 msgid "wa_hide_decisions_when_under_writing_excepted_po"
 msgstr "Hide the decision to the proposing group when it is under writing (complementary: excepted for power observers \"${po}\")"
+
+#. Default: "You selected some workflow adaptations that are not compatible with configuration of field \"Item workflow validation levels\" here under, please correct."
+msgid "wa_item_validation_levels_dependency"
+msgstr "You selected some workflow adaptations that are not compatible with configuration of field \"Item workflow validation levels\" here under, please correct."
 
 #. Default: "Add shortcuts in the item validation process (excepted to the \"validated\" state)"
 msgid "wa_item_validation_no_validate_shortcuts"
