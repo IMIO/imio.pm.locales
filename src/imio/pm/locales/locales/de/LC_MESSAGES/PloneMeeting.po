@@ -5966,6 +5966,10 @@ msgstr ""
 msgid "proposing_group_with_group_in_charge_required"
 msgstr ""
 
+#. Default: "<p class='discreet'><strong>Warning</strong>, selected elements must have the same proposing group, modify your selection.</p>"
+msgid "proposing_group_batch_action_different_proposing_groups"
+msgstr ""
+
 #. Default: " "
 msgid "provided_follow_up_descr"
 msgstr ""
@@ -7179,6 +7183,10 @@ msgstr ""
 msgid "wa_added_items_come_validated_error"
 msgstr ""
 
+#. Default: "You can not select the \"No meeting\" adaptation as there are still meetings or items linked to a meeting."
+msgid "wa_added_no_meeting_error"
+msgstr ""
+
 #. Default: "You can not select the \"No publication\" adaptation as there are still items or meetings in state \"published\"."
 msgid "wa_added_no_publication_error"
 msgstr ""
@@ -7253,6 +7261,14 @@ msgstr ""
 
 #. Default: "No freeze"
 msgid "wa_no_freeze"
+msgstr ""
+
+#. Default: "No meeting (items workflow ends at validation)"
+msgid "wa_no_meeting"
+msgstr ""
+
+#. Default: "The \"No meeting\" adaptation can not be selected together with the \"${wfa}\" adaptation."
+msgid "wa_no_meeting_conflicts"
 msgstr ""
 
 #. Default: "Skip publication step"

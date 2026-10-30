@@ -648,6 +648,10 @@ msgstr ""
 msgid "proposing_group_with_group_in_charge_required"
 msgstr ""
 
+#. Default: "<p class='discreet'><strong>Warning</strong>, selected elements must have the same proposing group, modify your selection.</p>"
+msgid "proposing_group_batch_action_different_proposing_groups"
+msgstr ""
+
 #. Default: "A proposing group is required."
 msgid "proposing_group_required"
 msgstr ""
@@ -2354,6 +2358,18 @@ msgstr ""
 
 #. Default: "No freeze"
 msgid "wa_no_freeze"
+msgstr ""
+
+#. Default: "No meeting (items workflow ends at validation)"
+msgid "wa_no_meeting"
+msgstr ""
+
+#. Default: "The \"No meeting\" adaptation can not be selected together with the \"${wfa}\" adaptation."
+msgid "wa_no_meeting_conflicts"
+msgstr ""
+
+#. Default: "You can not select the \"No meeting\" adaptation as there are still meetings or items linked to a meeting."
+msgid "wa_added_no_meeting_error"
 msgstr ""
 
 #. Default: "<p class='highlightValue'>The decision is currently under edit by managers, you can not access it.</p>"

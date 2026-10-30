@@ -34,9 +34,17 @@ msgstr "Update committees for selected elements"
 msgid "Update copy groups for selected elements"
 msgstr "Update copy groups for selected elements"
 
+#. Default: "Update restricted copy groups for selected elements"
+msgid "Update restricted copy groups for selected elements"
+msgstr "Update restricted copy groups for selected elements"
+
 #. Default: "Update groups in charge for selected elements"
 msgid "Update groups in charge for selected elements"
 msgstr "Update groups in charge for selected elements"
+
+#. Default: "Update proposing group for selected elements"
+msgid "Update proposing group for selected elements"
+msgstr "Update proposing group for selected elements"
 
 #. Default: "Add common advice"
 msgid "add-advice-batch-action-but"
@@ -54,6 +62,10 @@ msgstr "Update committees"
 msgid "update-copy-groups-batch-action-but"
 msgstr "Update copy groups"
 
+#. Default: "Update restricted copy groups"
+msgid "update-restricted-copy-groups-batch-action-but"
+msgstr "Update restricted copy groups"
+
 #. Default: "Update groups in charge"
 msgid "update-groups-in-charge-batch-action-but"
 msgstr "Update groups in charge"
@@ -61,3 +73,7 @@ msgstr "Update groups in charge"
 #. Default: "Update accesses"
 msgid "update-local-roles-batch-action-but"
 msgstr "Update accesses"
+
+#. Default: "Update proposing group"
+msgid "update-proposing-group-batch-action-but"
+msgstr "Update proposing group"

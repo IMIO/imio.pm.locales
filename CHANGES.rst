@@ -5,8 +5,19 @@ Changelog
 4.2.31rc5 (unreleased)
 ----------------------
 
-- Nothing changed yet.
-
+- Added msgids `wa_no_meeting`, `wa_no_meeting_conflicts` and
+  `wa_added_no_meeting_error` for the `no_meeting` workflow adaptation.
+  [gbastien]
+- Added msgids `Update proposing group for selected elements` and
+  `update-proposing-group-batch-action-but` for the new
+  `update-proposing-group-batch-action` batch action.
+  [gbastien]
+- Added msgid `proposing_group_batch_action_different_proposing_groups`.
+  [gbastien]
+- Added msgids `Update restricted copy groups for selected elements` and
+  `update-restricted-copy-groups-batch-action-but` for the new
+  `update-restricted-copy-groups-batch-action` batch action.
+  [gbastien]
 
 4.2.31rc4 (2026-10-16)
 ----------------------
