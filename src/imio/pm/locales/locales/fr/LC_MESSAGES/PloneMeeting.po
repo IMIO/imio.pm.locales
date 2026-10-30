@@ -4851,6 +4851,10 @@ msgstr "Vous ne pouvez pas désactiver ou supprimer une ligne correspondant à u
 msgid "item_wf_val_states_itemcreated_mandatory"
 msgstr "Si certains niveaux de validations sont activés, la première ligne \"itemcreated (en création)\" doit obligatoirement être activée."
 
+#. Default: "The group managing item of the \"Item created\" level must be \"The proposing group (Creators)\"."
+msgid "item_wf_val_states_itemcreated_group_managing_item_creators_error"
+msgstr "Le groupe qui gère le point de la ligne \"itemcreated (en création)\" doit être \"Le groupe proposant (Créateurs)\"."
+
 #. Default: "You can not remove the \"Item created\" line that but mandatorily be the first line."
 msgid "item_wf_val_states_itemcreated_must_exist"
 msgstr "La ligne \"itemcreated (en création)\" ne peut pas être supprimée (vous pouvez la désactiver) et doit être la première ligne renseignée."

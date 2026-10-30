@@ -4827,6 +4827,10 @@ msgstr "You can not disable or remove a line that is currently used by an item i
 msgid "item_wf_val_states_itemcreated_mandatory"
 msgstr "If you enable some validation levels, then the \"Item created\" level must mandatorily be the first level (item initial state)."
 
+#. Default: "The group managing item of the \"Item created\" level must be \"The proposing group (Creators)\"."
+msgid "item_wf_val_states_itemcreated_group_managing_item_creators_error"
+msgstr "The group managing item of the \"Item created\" level must be \"The proposing group (Creators)\"."
+
 #. Default: "You can not remove the \"Item created\" line that but mandatorily be the first line."
 msgid "item_wf_val_states_itemcreated_must_exist"
 msgstr "You can not remove the \"Item created\" line that but mandatorily be the first line."

@@ -18,6 +18,12 @@ Changelog
   `update-restricted-copy-groups-batch-action-but` for the new
   `update-restricted-copy-groups-batch-action` batch action.
   [gbastien]
+- Added msgids for the `MeetingConfig.itemWFValidationLevels` columns
+  `group_managing_item`, `extra_groups_managing_item` and `available_on`
+  (`datagridfield` domain) and msgid
+  `item_wf_val_states_itemcreated_group_managing_item_creators_error`.
+  See #MPMCHAC-5.
+  [gbastien]
 
 4.2.31rc4 (2026-10-16)
 ----------------------
