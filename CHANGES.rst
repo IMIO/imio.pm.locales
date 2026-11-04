@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.31rc5 (unreleased)
+4.2.31rc5 (2026-11-04)
 ----------------------
 
 - Added msgids `wa_no_meeting`, `wa_no_meeting_conflicts` and
