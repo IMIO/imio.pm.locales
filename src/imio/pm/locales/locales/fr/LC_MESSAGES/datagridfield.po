@@ -223,6 +223,14 @@ msgstr "Sélectionnez \"Oui\" si vous souhaitez faire un lien logique entre une 
 msgid "Is linked to previous row?"
 msgstr "Lié à la ligne précédente?"
 
+#. Default: "Item WF validation levels available on"
+msgid "Item WF validation levels available on"
+msgstr "Condition"
+
+#. Default: "Item WF validation levels available on description."
+msgid "Item WF validation levels available on description."
+msgstr "Expression TAL facultative qui doit être vraie pour que cette étape soit utilisée, si elle est fausse, la transition menant à cette étape n'est pas disponible et l'étape est ignorée. Les variables \"item\", \"meeting\", \"cfg\", \"tool\" et \"user\" sont disponibles ainsi que \"shortcut\" (vrai si la transition est un raccourci) et \"back_transition\" (vrai s'il s'agit d'une transition de retour vers cette étape). Pour la ligne \"validated\", la condition porte sur la transition \"validate\" et n'est pas vérifiée pour les administrateurs (Managers)."
+
 #. Default: "Item WF validation levels back transition"
 msgid "Item WF validation levels back transition"
 msgstr "Transition retour (Identifiant)"
@@ -247,6 +255,14 @@ msgstr "Activé?"
 msgid "Item WF validation levels enabled description."
 msgstr "Si activé, le niveau de validation sera pris en compte.  Préférez une désactivation à une suppression de la ligne."
 
+#. Default: "Item WF validation levels extra groups managing item"
+msgid "Item WF validation levels extra groups managing item"
+msgstr "Groupes supplémentaires qui gèrent le point"
+
+#. Default: "Item WF validation levels extra groups managing item description."
+msgid "Item WF validation levels extra groups managing item description."
+msgstr "Groupes supplémentaires qui auront la main sur le point lorsqu'il sera dans cet état, au même format que le groupe qui gère le point. CAS PARTICULIER: si aucune étape n'est activée (les points sont créés dans l'état \"validé (validated)\"), les groupes supplémentaires renseignés sur l'étape \"itemcreated\" auront accès au point en lecture."
+
 #. Default: "Item WF validation levels extra suffixes"
 msgid "Item WF validation levels extra suffixes"
 msgstr "Suffixes supplémentaires"
@@ -254,6 +270,14 @@ msgstr "Suffixes supplémentaires"
 #. Default: "Item WF validation levels extra suffixes description."
 msgid "Item WF validation levels extra suffixes description."
 msgstr "Suffixes supplémentaires qui auront la main sur le point lorsqu'il sera dans cet état. CAS PARTICULIER: si aucune étape n'est activée (les points sont créés dans l'état \"validé (validated)\"), les \"Suffixes supplémentaires\" renseignés sur l'étape \"itemcreated\" auront accès au point en lecture."
+
+#. Default: "Item WF validation levels group managing item"
+msgid "Item WF validation levels group managing item"
+msgstr "Groupe qui gère le point"
+
+#. Default: "Item WF validation levels group managing item description."
+msgid "Item WF validation levels group managing item description."
+msgstr "Groupe qui a la main sur le point lorsqu'il est dans cet état : soit une valeur \"Le groupe proposant (...)\" pour utiliser le groupe correspondant du groupe proposant du point, soit un groupe fixe."
 
 #. Default: "Item WF validation levels groups managing item"
 msgid "Item WF validation levels groups managing item"
