@@ -5,6 +5,9 @@ Changelog
 4.2.33.7 (unreleased)
 ---------------------
 
+- Added msgid `Annex types` in `eea` domain for the new items dashboard
+  faceted filter.
+  [gbastien]
 - Added msgids `category_not_available_for_proposing_group` and
   `classifier_not_available_for_proposing_group`.
   [gbastien]
