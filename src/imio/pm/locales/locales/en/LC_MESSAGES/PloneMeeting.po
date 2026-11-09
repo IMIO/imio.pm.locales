@@ -15,17 +15,9 @@ msgstr ""
 "Domain: PloneMeeting\n"
 "X-is-fallback-for: en-us en-ca\n"
 
-#. Default: " [PDF required]"
-msgid " [PDF required]"
-msgstr " [PDF required]"
-
 #. Default: " [holds scan_id]"
 msgid " [holds scan_id]"
 msgstr " [holds scan_id]"
-
-#. Default: " [only previewable]"
-msgid " [only previewable]"
-msgstr " [only previewable]"
 
 #. Default: " [reserved MeetingManagers]"
 msgid " [reserved MeetingManagers]"
@@ -427,10 +419,6 @@ msgstr "Element \"${element}\" has been unlinked."
 #. Default: "Elements displayed are only elements you can access in iA.Vision."
 msgid "Elements displayed are only elements you can access in iA.Vision."
 msgstr "Elements displayed are only elements you can access in iA.Vision."
-
-#. Default: "Elements to export in PDF"
-msgid "Elements to export in PDF"
-msgstr "Elements to export in PDF"
 
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
@@ -4000,10 +3988,6 @@ msgstr "Annexes"
 msgid "existing_votes"
 msgstr "Votes"
 
-#. Default: "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
-msgid "export_pdf_descr"
-msgstr "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
-
 #. Default: "External linked elements"
 msgid "external_linked_elements"
 msgstr "External linked elements"
@@ -5311,10 +5295,6 @@ msgstr "There are ${nb} task(s) foreseen for next night."
 #. Default: "Nil"
 msgid "nil"
 msgstr "Nil"
-
-#. Default: "No annex is currently defined for this element."
-msgid "no_annexes"
-msgstr "No annex is currently defined for this element."
 
 #. Default: "Attributes \"assembly\" and \"attendees\" can't be used together."
 msgid "no_assembly_and_attendees"

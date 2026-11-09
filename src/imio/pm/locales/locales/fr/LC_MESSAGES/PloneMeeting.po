@@ -15,17 +15,9 @@ msgstr ""
 "Domain: PloneMeeting\n"
 "X-is-fallback-for: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
 
-#. Default: " [PDF required]"
-msgid " [PDF required]"
-msgstr " [format PDF requis]"
-
 #. Default: " [holds scan_id]"
 msgid " [holds scan_id]"
 msgstr " [contient un QR code]"
-
-#. Default: " [only previewable]"
-msgid " [only previewable]"
-msgstr " [seulement en prévisualisation]"
 
 #. Default: " [reserved MeetingManagers]"
 msgid " [reserved MeetingManagers]"
@@ -427,10 +419,6 @@ msgstr "L'élément \"${element}\" a été délié."
 #. Default: "Elements displayed are only elements you can access in iA.Vision."
 msgid "Elements displayed are only elements you can access in iA.Vision."
 msgstr "Les éléments affichés sont ceux auxquels vous avez accès dans iA.Vision.<br />Cochez les élément à lier et décochez les éléments déjà liés que vous souhaitez délier."
-
-#. Default: "Elements to export in PDF"
-msgid "Elements to export in PDF"
-msgstr "Inclure les éléments suivants"
 
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
@@ -4018,10 +4006,6 @@ msgstr "Annexes"
 msgid "existing_votes"
 msgstr "Votes"
 
-#. Default: "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
-msgid "export_pdf_descr"
-msgstr "<p class='discreet'>Cette action permet de grouper des documents PDF dans un PDF unique.  Dans la liste des annexes, les annexes grisées ne sont pas des documents PDF et ne peuvent pas être sélectionnées.</p>"
-
 #. Default: "External linked elements"
 msgid "external_linked_elements"
 msgstr "Éléments externes liés"
@@ -5337,10 +5321,6 @@ msgstr "Il y a ${nb} tâche(s) prévues pour cette nuit."
 #. Default: "Nil"
 msgid "nil"
 msgstr "Néant"
-
-#. Default: "No annex is currently defined for this element."
-msgid "no_annexes"
-msgstr "Aucun(e)."
 
 #. Default: "Attributes \"assembly\" and \"attendees\" can't be used together."
 msgid "no_assembly_and_attendees"
