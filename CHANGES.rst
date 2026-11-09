@@ -5,6 +5,11 @@ Changelog
 4.2.33.7 (unreleased)
 ---------------------
 
+- Removed msgids ` [only previewable]`, ` [PDF required]`, `Elements to export in PDF`,
+  `export_pdf_descr` and `no_annexes` from `PloneMeeting` domain, the item export
+  PDF form, its vocabulary and the checkbox widget now come from `imio.annex`
+  that provides these translations in the `imio.annex` domain.
+  [gbastien]
 - Added msgid `Annex types` in `eea` domain for the new items dashboard
   faceted filter.
   [gbastien]
