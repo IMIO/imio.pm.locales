@@ -5,7 +5,11 @@ Changelog
 4.2.31rc6 (unreleased)
 ----------------------
 
-- Nothing changed yet.
+- Adapted `item_wf_validation_levels_descr` and the `Item WF validation levels available on description.`
+  translations as the `available_on` of the `validated` level of `MeetingConfig.itemWFValidationLevels`
+  receives the `may_validate` default result and decides, it may restrict or bypass it.
+  See #DLIBBDC-3383.
+  [gbastien]
 
 
 4.2.31rc5 (2026-11-04)

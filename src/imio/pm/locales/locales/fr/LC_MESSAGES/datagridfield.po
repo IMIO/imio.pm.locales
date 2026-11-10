@@ -229,7 +229,7 @@ msgstr "Condition"
 
 #. Default: "Item WF validation levels available on description."
 msgid "Item WF validation levels available on description."
-msgstr "Expression TAL facultative qui doit être vraie pour que cette étape soit utilisée, si elle est fausse, la transition menant à cette étape n'est pas disponible et l'étape est ignorée. Les variables \"item\", \"meeting\", \"cfg\", \"tool\" et \"user\" sont disponibles ainsi que \"shortcut\" (vrai si la transition est un raccourci) et \"back_transition\" (vrai s'il s'agit d'une transition de retour vers cette étape). Pour la ligne \"validated\", la condition porte sur la transition \"validate\" et n'est pas vérifiée pour les administrateurs (Managers)."
+msgstr "Expression TAL facultative qui doit être vraie pour que cette étape soit utilisée, si elle est fausse, la transition menant à cette étape n'est pas disponible et l'étape est ignorée. Les variables \"item\", \"meeting\", \"cfg\", \"tool\" et \"user\" sont disponibles ainsi que \"shortcut\" (vrai si la transition est un raccourci) et \"back_transition\" (vrai s'il s'agit d'une transition de retour vers cette étape). Pour la ligne \"validated\", la condition porte sur la transition \"validate\" et n'est pas vérifiée pour les administrateurs (Managers), la variable \"may_validate\" contient le résultat par défaut (vrai si l'utilisateur peut valider le point) et c'est la condition qui décide, elle peut le restreindre (python: may_validate and ...) ou le contourner (python: may_validate or ...), elle est évaluée même si l'utilisateur ne peut pas valider le point."
 
 #. Default: "Item WF validation levels back transition"
 msgid "Item WF validation levels back transition"
