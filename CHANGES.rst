@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.31rc6 (unreleased)
+4.2.31rc6 (2026-11-16)
 ----------------------
 
 - Adapted `item_wf_validation_levels_descr` and the `Item WF validation levels available on description.`
