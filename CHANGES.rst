@@ -10,6 +10,13 @@ Changelog
   receives the `may_validate` default result and decides, it may restrict or bypass it.
   See #DLIBBDC-3383.
   [gbastien]
+- Removed msgid `validation_level_available_on_not_satisfied` and completed
+  `item_wf_validation_levels_descr` and the `Item WF validation levels available on description.`
+  translations to explain that when the `available_on` of the `validated` level is `False`
+  the transition is not displayed and that it may return `pm_utils.no('My message')`
+  so the transition is displayed but not triggerable with an explanation message.
+  See #DLIBBDC-3383.
+  [gbastien]
 
 
 4.2.31rc5 (2026-11-04)
