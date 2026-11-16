@@ -18,7 +18,6 @@ Changelog
   See #DLIBBDC-3383.
   [gbastien]
 
-
 4.2.31rc5 (2026-11-04)
 ----------------------
 
