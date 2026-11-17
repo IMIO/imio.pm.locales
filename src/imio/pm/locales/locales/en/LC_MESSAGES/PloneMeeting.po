@@ -3523,6 +3523,10 @@ msgstr "You can not set \"Is linked to previous row\" to \"Yes\" if it is not a 
 msgid "custom_adviser_is_linked_to_previous_row_with_non_delay_aware_adviser_previous_row"
 msgstr "You can not set \"Is linked to previous row\" to \"Yes\" if the previous row is not a delay-aware adviser, check row for group \"${groupName}\"."
 
+#. Default: "You can not set \"Is linked to previous row\" to \"Yes\" if the previous row is not for the same group, check row for group \"${groupName}\"."
+msgid "custom_adviser_can_not_is_linked_to_previous_row_with_other_group"
+msgstr "You can not set \"Is linked to previous row\" to \"Yes\" if the previous row is not for the same group, check row for group \"${groupName}\"."
+
 #. Default: "There is a problem with a delay in the \"Delay left alert\" column, please check encoded value for group \"${groupName}\", you can not enter a value in this column if no value is defined in the \"Delay\" column.  Leave field empty if not relevant."
 msgid "custom_adviser_no_delay_left_if_no_delay"
 msgstr "There is a problem with a delay in the \"Delay left alert\" column, please check encoded value for group \"${groupName}\", you can not enter a value in this column if no value is defined in the \"Delay\" column.  Leave field empty if not relevant."

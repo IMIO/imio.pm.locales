@@ -3541,6 +3541,10 @@ msgstr "Vous ne pouvez pas mettre \"Oui\" pour la colonne \"Lié à la ligne pr�
 msgid "custom_adviser_is_linked_to_previous_row_with_non_delay_aware_adviser_previous_row"
 msgstr "Vous ne pouvez pas mettre \"Oui\" pour la colonne \"Lié à la ligne précédente?\" d'une ligne si la ligne précédente n'a pas de délai défini, vérifiez les lignes pour le groupe \"${groupName}\"."
 
+#. Default: "You can not set \"Is linked to previous row\" to \"Yes\" if the previous row is not for the same group, check row for group \"${groupName}\"."
+msgid "custom_adviser_can_not_is_linked_to_previous_row_with_other_group"
+msgstr "Vous ne pouvez pas mettre \"Oui\" pour la colonne \"Lié à la ligne précédente?\" d'une ligne si la ligne précédente ne concerne pas le même groupe, vérifiez les lignes pour le groupe \"${groupName}\"."
+
 #. Default: "There is a problem with a delay in the \"Delay left alert\" column, please check encoded value for group \"${groupName}\", you can not enter a value in this column if no value is defined in the \"Delay\" column.  Leave field empty if not relevant."
 msgid "custom_adviser_no_delay_left_if_no_delay"
 msgstr "Il y a un problème avec la valeur encodée dans le champ \"Seuil d'alerte pour le délai\" pour le groupe \"${groupName}\", vous ne pouvez encoder une valeur dans ce champ que si une valeur a été encodée dans le champ \"Délai pour rendre l'avis\".  Laissez ce champ vide si vous ne souhaitez pas l'utiliser."

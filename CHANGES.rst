@@ -5,7 +5,8 @@ Changelog
 4.2.31rc7 (unreleased)
 ----------------------
 
-- Nothing changed yet.
+- Added missing msgid `custom_adviser_can_not_is_linked_to_previous_row_with_other_group`.
+  [gbastien]
 
 
 4.2.31rc6 (2026-11-16)
