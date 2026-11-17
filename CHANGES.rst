@@ -8,6 +8,8 @@ Changelog
 - Plone 6.2 / Python 3.10-3.13, drop Plone 4 and Python 2: pkgutil-style `imio` and `imio.pm` namespaces,
   test buildout, GitHub Actions and a test of the registered translations.
   [chris-adam]
+- Dropped support for Plone versions below 6.2.
+  [chris-adam]
 
 
 4.2.33.6 (2026-09-29)
