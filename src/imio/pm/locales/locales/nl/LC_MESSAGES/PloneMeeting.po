@@ -16,20 +16,12 @@ msgstr ""
 "X-is-fallback-for: nl-be\n"
 "X-Generator: Poedit 1.5.5\n"
 
-#. Default: " [PDF required]"
-msgid " [PDF required]"
-msgstr ""
-
 #. Default: " [already in esign session]"
 msgid " [already_in_esign_session]"
 msgstr ""
 
 #. Default: " [holds scan_id]"
 msgid " [holds scan_id]"
-msgstr ""
-
-#. Default: " [only previewable]"
-msgid " [only previewable]"
 msgstr ""
 
 #. Default: " [reserved MeetingManagers]"
@@ -439,10 +431,6 @@ msgstr ""
 
 #. Default: "Elements displayed are only elements you can access in iA.Vision."
 msgid "Elements displayed are only elements you can access in iA.Vision."
-msgstr ""
-
-#. Default: "Elements to export in PDF"
-msgid "Elements to export in PDF"
 msgstr ""
 
 #. Default: "Emergency"
@@ -3205,6 +3193,10 @@ msgstr ""
 msgid "category_required"
 msgstr "Gelieve een categorie te specificeren."
 
+#. Default: "This category is not available for the selected proposing group."
+msgid "category_not_available_for_proposing_group"
+msgstr ""
+
 #. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything."
 msgid "category_using_groups_descr"
 msgstr ""
@@ -3335,6 +3327,10 @@ msgstr ""
 
 #. Default: "Please select a classifier."
 msgid "classifier_required"
+msgstr ""
+
+#. Default: "This classifier is not available for the selected proposing group."
+msgid "classifier_not_available_for_proposing_group"
 msgstr ""
 
 #. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
@@ -4094,10 +4090,6 @@ msgstr "Bijlagen"
 #. Default: "Votes"
 msgid "existing_votes"
 msgstr "Bestaande stemmen"
-
-#. Default: "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
-msgid "export_pdf_descr"
-msgstr ""
 
 #. Default: "External linked elements"
 msgid "external_linked_elements"
@@ -5402,10 +5394,6 @@ msgstr ""
 msgid "nil"
 msgstr "visa"
 
-#. Default: "No annex is currently defined for this element."
-msgid "no_annexes"
-msgstr "Geen bijlage wordt momenteel bepaald voor dit punt."
-
 #. Default: "Attributes \"assembly\" and \"attendees\" can't be used together."
 msgid "no_assembly_and_attendees"
 msgstr ""
@@ -5988,6 +5976,10 @@ msgstr ""
 
 #. Default: "Please select a proposing group with a group in charge."
 msgid "proposing_group_with_group_in_charge_required"
+msgstr ""
+
+#. Default: "<p class='discreet'><strong>Warning</strong>, selected elements must have the same proposing group, modify your selection.</p>"
+msgid "proposing_group_batch_action_different_proposing_groups"
 msgstr ""
 
 #. Default: " "
@@ -7257,6 +7249,10 @@ msgstr ""
 msgid "wa_added_items_come_validated_error"
 msgstr ""
 
+#. Default: "You can not select the \"No meeting\" adaptation as there are still meetings or items linked to a meeting."
+msgid "wa_added_no_meeting_error"
+msgstr ""
+
 #. Default: "You can not select the \"No publication\" adaptation as there are still items or meetings in state \"published\"."
 msgid "wa_added_no_publication_error"
 msgstr ""
@@ -7327,6 +7323,14 @@ msgstr ""
 
 #. Default: "No freeze"
 msgid "wa_no_freeze"
+msgstr ""
+
+#. Default: "No meeting (items workflow ends at validation)"
+msgid "wa_no_meeting"
+msgstr ""
+
+#. Default: "The \"No meeting\" adaptation can not be selected together with the \"${wfa}\" adaptation."
+msgid "wa_no_meeting_conflicts"
 msgstr ""
 
 #. Default: "Skip publication step"
@@ -7403,6 +7407,10 @@ msgstr ""
 
 #. Default: "Return to proposing group for corrections with all validations"
 msgid "wa_return_to_proposing_group_with_all_validations"
+msgstr ""
+
+#. Default: "Return to proposing group for corrections with second-to-last validation"
+msgid "wa_return_to_proposing_group_with_before_last_validation"
 msgstr ""
 
 #. Default: "Return to proposing group for corrections with one validation (the last)"

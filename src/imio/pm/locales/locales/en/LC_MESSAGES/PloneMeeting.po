@@ -15,10 +15,6 @@ msgstr ""
 "Domain: PloneMeeting\n"
 "X-is-fallback-for: en-us en-ca\n"
 
-#. Default: " [PDF required]"
-msgid " [PDF required]"
-msgstr " [PDF required]"
-
 #. Default: " [already in esign session]"
 msgid " [already_in_esign_session]"
 msgstr " [already in esign session]"
@@ -26,10 +22,6 @@ msgstr " [already in esign session]"
 #. Default: " [holds scan_id]"
 msgid " [holds scan_id]"
 msgstr " [holds scan_id]"
-
-#. Default: " [only previewable]"
-msgid " [only previewable]"
-msgstr " [only previewable]"
 
 #. Default: " [reserved MeetingManagers]"
 msgid " [reserved MeetingManagers]"
@@ -439,10 +431,6 @@ msgstr "Element \"${element}\" has been unlinked."
 #. Default: "Elements displayed are only elements you can access in iA.Vision."
 msgid "Elements displayed are only elements you can access in iA.Vision."
 msgstr "Elements displayed are only elements you can access in iA.Vision."
-
-#. Default: "Elements to export in PDF"
-msgid "Elements to export in PDF"
-msgstr "Elements to export in PDF"
 
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
@@ -3193,6 +3181,10 @@ msgstr "When an item of this meeting config using this category will sent to ano
 msgid "category_required"
 msgstr "Please select a category."
 
+#. Default: "This category is not available for the selected proposing group."
+msgid "category_not_available_for_proposing_group"
+msgstr ""
+
 #. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything."
 msgid "category_using_groups_descr"
 msgstr "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything.  Use CTRL+click to select several categories."
@@ -3324,6 +3316,10 @@ msgstr "X-small text"
 #. Default: "Please select a classifier."
 msgid "classifier_required"
 msgstr "Please select a classifier."
+
+#. Default: "This classifier is not available for the selected proposing group."
+msgid "classifier_not_available_for_proposing_group"
+msgstr ""
 
 #. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
 msgid "classifiers_descr"
@@ -4083,10 +4079,6 @@ msgstr "Annexes"
 #. Default: "Votes"
 msgid "existing_votes"
 msgstr "Votes"
-
-#. Default: "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
-msgid "export_pdf_descr"
-msgstr "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
 
 #. Default: "External linked elements"
 msgid "external_linked_elements"
@@ -5396,10 +5388,6 @@ msgstr "There are ${nb} task(s) foreseen for next night."
 msgid "nil"
 msgstr "Nil"
 
-#. Default: "No annex is currently defined for this element."
-msgid "no_annexes"
-msgstr "No annex is currently defined for this element."
-
 #. Default: "Attributes \"assembly\" and \"attendees\" can't be used together."
 msgid "no_assembly_and_attendees"
 msgstr "Attributes \"assembly\" and \"attendees\" can't be used together."
@@ -5979,6 +5967,10 @@ msgstr "A proposing group is required."
 #. Default: "Please select a proposing group with a group in charge."
 msgid "proposing_group_with_group_in_charge_required"
 msgstr "Please select a proposing group with a group in charge."
+
+#. Default: "<p class='discreet'><strong>Warning</strong>, selected elements must have the same proposing group, modify your selection.</p>"
+msgid "proposing_group_batch_action_different_proposing_groups"
+msgstr "<p class='discreet'><strong>Warning</strong>, selected elements must have the same proposing group, modify your selection.</p>"
 
 #. Default: " "
 msgid "provided_follow_up_descr"
@@ -7245,6 +7237,10 @@ msgstr "Accept a validated item out of a meeting when emergency is asked (the it
 msgid "wa_added_items_come_validated_error"
 msgstr "You can not select the \"Items come validated\" adaptation as there are still items in state \"itemcreated\" or \"proposed\"."
 
+#. Default: "You can not select the \"No meeting\" adaptation as there are still meetings or items linked to a meeting."
+msgid "wa_added_no_meeting_error"
+msgstr "You can not select the \"No meeting\" adaptation as there are still meetings or items linked to a meeting."
+
 #. Default: "You can not select the \"No publication\" adaptation as there are still items or meetings in state \"published\"."
 msgid "wa_added_no_publication_error"
 msgstr "You can not select the \"No publication\" adaptation as there are still items or meetings in state \"published\"."
@@ -7316,6 +7312,14 @@ msgstr "No decide"
 #. Default: "No freeze"
 msgid "wa_no_freeze"
 msgstr "No freeze"
+
+#. Default: "No meeting (items workflow ends at validation)"
+msgid "wa_no_meeting"
+msgstr "No meeting (items workflow ends at validation)"
+
+#. Default: "The \"No meeting\" adaptation can not be selected together with the \"${wfa}\" adaptation."
+msgid "wa_no_meeting_conflicts"
+msgstr "The \"No meeting\" adaptation can not be selected together with the \"${wfa}\" adaptation."
 
 #. Default: "Skip publication step"
 msgid "wa_no_publication"
@@ -7392,6 +7396,10 @@ msgstr "Return to proposing group for corrections"
 #. Default: "Return to proposing group for corrections with all validations"
 msgid "wa_return_to_proposing_group_with_all_validations"
 msgstr "Return to proposing group for corrections with all validations"
+
+#. Default: "Return to proposing group for corrections with second-to-last validation"
+msgid "wa_return_to_proposing_group_with_before_last_validation"
+msgstr "Return to proposing group for corrections with second-to-last validation"
 
 #. Default: "Return to proposing group for corrections with one validation (the last)"
 msgid "wa_return_to_proposing_group_with_last_validation"

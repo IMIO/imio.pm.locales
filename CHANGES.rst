@@ -5,7 +5,33 @@ Changelog
 4.2.34rc11 (unreleased)
 -----------------------
 
-- Nothing changed yet.
+- Removed msgids ` [only previewable]`, ` [PDF required]`, `Elements to export in PDF`,
+  `export_pdf_descr` and `no_annexes` from `PloneMeeting` domain, the item export
+  PDF form, its vocabulary and the checkbox widget now come from `imio.annex`
+  that provides these translations in the `imio.annex` domain.
+  [gbastien]
+- Added msgid `Annex types` in `eea` domain for the new items dashboard
+  faceted filter.
+  [gbastien]
+- Added msgids `category_not_available_for_proposing_group` and
+  `classifier_not_available_for_proposing_group`.
+  [gbastien]
+- Added msgids `wa_no_meeting`, `wa_no_meeting_conflicts` and
+  `wa_added_no_meeting_error` for the `no_meeting` workflow adaptation.
+  [gbastien]
+- Added msgids `Update proposing group for selected elements` and
+  `update-proposing-group-batch-action-but` for the new
+  `update-proposing-group-batch-action` batch action.
+  [gbastien]
+- Added msgid `proposing_group_batch_action_different_proposing_groups`.
+  [gbastien]
+- Added msgids `Update restricted copy groups for selected elements` and
+  `update-restricted-copy-groups-batch-action-but` for the new
+  `update-restricted-copy-groups-batch-action` batch action.
+  [gbastien]
+- Added translations related to workflow adaptation
+  `return_to_proposing_group_with_before_last_validation`.
+  [aduchene]
 
 
 4.2.34rc10 (2026-09-16)

@@ -15,10 +15,6 @@ msgstr ""
 "Domain: PloneMeeting\n"
 "X-is-fallback-for: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
 
-#. Default: " [PDF required]"
-msgid " [PDF required]"
-msgstr " [format PDF requis]"
-
 #. Default: " [already in esign session]"
 msgid " [already_in_esign_session]"
 msgstr " [déjà dans une session de signature électronique non \"finalisée\"]"
@@ -26,10 +22,6 @@ msgstr " [déjà dans une session de signature électronique non \"finalisée\"]
 #. Default: " [holds scan_id]"
 msgid " [holds scan_id]"
 msgstr " [contient un QR code]"
-
-#. Default: " [only previewable]"
-msgid " [only previewable]"
-msgstr " [seulement en prévisualisation]"
 
 #. Default: " [reserved MeetingManagers]"
 msgid " [reserved MeetingManagers]"
@@ -439,10 +431,6 @@ msgstr "L'élément \"${element}\" a été délié."
 #. Default: "Elements displayed are only elements you can access in iA.Vision."
 msgid "Elements displayed are only elements you can access in iA.Vision."
 msgstr "Les éléments affichés sont ceux auxquels vous avez accès dans iA.Vision.<br />Cochez les élément à lier et décochez les éléments déjà liés que vous souhaitez délier."
-
-#. Default: "Elements to export in PDF"
-msgid "Elements to export in PDF"
-msgstr "Inclure les éléments suivants"
 
 #. Default: "Emergency"
 msgid "Emergency while presenting in other MC"
@@ -3211,6 +3199,10 @@ msgstr "Lorsqu'un point de cette configuration de séance utilisant cette catég
 msgid "category_required"
 msgstr "Veuillez sélectionner une catégorie."
 
+#. Default: "This category is not available for the selected proposing group."
+msgid "category_not_available_for_proposing_group"
+msgstr "Cette catégorie ne peut pas être utilisée par le service proposant sélectionné."
+
 #. Default: "Select groups that will be able to select this category.  If every groups must be able to use this catgory, do not select anything."
 msgid "category_using_groups_descr"
 msgstr "Sélectionnez les groupes qui pourront utiliser cette catégorie.  Si tous les groupes doivent pouvoir utiliser cette catégorie, ne sélectionnez aucun groupe."
@@ -3342,6 +3334,10 @@ msgstr "Très petit texte"
 #. Default: "Please select a classifier."
 msgid "classifier_required"
 msgstr "Veuillez sélectionner un classificateur."
+
+#. Default: "This classifier is not available for the selected proposing group."
+msgid "classifier_not_available_for_proposing_group"
+msgstr "Ce classificateur ne peut pas être utilisé par le service proposant sélectionné."
 
 #. Default: "A classifier may be used as a secondary catagory. You can assign an item a given classifier the same way you can assign it a given category."
 msgid "classifiers_descr"
@@ -4101,10 +4097,6 @@ msgstr "Annexes"
 #. Default: "Votes"
 msgid "existing_votes"
 msgstr "Votes"
-
-#. Default: "Select elements to export in the unique PDF file, disabled (greyed) annexes are not PDF documents."
-msgid "export_pdf_descr"
-msgstr "<p class='discreet'>Cette action permet de grouper des documents PDF dans un PDF unique.  Dans la liste des annexes, les annexes grisées ne sont pas des documents PDF et ne peuvent pas être sélectionnées.</p>"
 
 #. Default: "External linked elements"
 msgid "external_linked_elements"
@@ -5422,10 +5414,6 @@ msgstr "Il y a ${nb} tâche(s) prévues pour cette nuit."
 msgid "nil"
 msgstr "Néant"
 
-#. Default: "No annex is currently defined for this element."
-msgid "no_annexes"
-msgstr "Aucun(e)."
-
 #. Default: "Attributes \"assembly\" and \"attendees\" can't be used together."
 msgid "no_assembly_and_attendees"
 msgstr "Les attributs \"Assemblée (assembly)\" et \"Présents (attendees)\" ne peuvent être utilisés ensemble."
@@ -6005,6 +5993,10 @@ msgstr "Un groupe proposant est requis."
 #. Default: "Please select a proposing group with a group in charge."
 msgid "proposing_group_with_group_in_charge_required"
 msgstr "Un groupe proposant avec groupe en charge est requis."
+
+#. Default: "<p class='discreet'><strong>Warning</strong>, selected elements must have the same proposing group, modify your selection.</p>"
+msgid "proposing_group_batch_action_different_proposing_groups"
+msgstr "<p class='discreet'><strong>Attention</strong>, les éléments sélectionnés doivent avoir le même groupe proposant, modifiez votre sélection.</p>"
 
 #. Default: " "
 msgid "provided_follow_up_descr"
@@ -7273,6 +7265,10 @@ msgstr "Accepter un point hors séance lorsqu'il est validé lorsque l'urgence e
 msgid "wa_added_items_come_validated_error"
 msgstr "Vous ne pouvez pas sélectionner l'adaptation \"Les points arrivent validés\" car il reste des points dans l'état \"en création\" ou \"proposé\"."
 
+#. Default: "You can not select the \"No meeting\" adaptation as there are still meetings or items linked to a meeting."
+msgid "wa_added_no_meeting_error"
+msgstr "Vous ne pouvez pas sélectionner l'adaptation \"Pas de séance\" car il existe encore des séances ou des points liés à une séance."
+
 #. Default: "You can not select the \"No publication\" adaptation as there are still items or meetings in state \"published\"."
 msgid "wa_added_no_publication_error"
 msgstr "Vous ne pouvez pas sélectionner l'adaptation \"Sauter l'étape de publication\" car il reste des points ou des séances dans l'état \"publié\"."
@@ -7345,6 +7341,14 @@ msgstr "Sauter l'étape de rédaction du PV"
 msgid "wa_no_freeze"
 msgstr "Sauter l'étape de gel"
 
+#. Default: "No meeting (items workflow ends at validation)"
+msgid "wa_no_meeting"
+msgstr "Pas de séance (le workflow des points s'arrête à la validation)"
+
+#. Default: "The \"No meeting\" adaptation can not be selected together with the \"${wfa}\" adaptation."
+msgid "wa_no_meeting_conflicts"
+msgstr "L'adaptation \"Pas de séance\" ne peut pas être sélectionnée avec l'adaptation \"${wfa}\"."
+
 #. Default: "Skip publication step"
 msgid "wa_no_publication"
 msgstr "Sauter l'étape de publication"
@@ -7409,6 +7413,10 @@ msgstr "Vous ne pouvez pas désélectionner l'adaptation \"${wfa}\" car il reste
 msgid "wa_removed_return_to_proposing_group_with_all_validations_error"
 msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec toutes les validations)\" car il reste des points dans un des états \"Renvoyé au groupe proposant pour corrections (...)\"."
 
+#. Default: "You can not unselect the \"Return to proposing group with before last validations\" adaptation as there are still items in states \"returned to proposing group xxx\"."
+msgid "wa_removed_return_to_proposing_group_before_last_validation_error"
+msgstr "Vous ne pouvez pas désélectionner l'adaptation \"Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec renvoi en séance possible à partir de l'avant dernier niveau)\" car il reste des points dans un des états \"Renvoyé au groupe proposant pour corrections (...)\"."
+
 #. Default: "You can not unselect the \"Wait advices\" adaptation as there are still items in state \"wait advices\"."
 msgid "wa_removed_waiting_advices_error"
 msgstr "Vous ne pouvez pas désélectionner une adaptation \"État supplémentaire pour demander les avis\" tant qu'il reste des points dans un état \"En attente des avis\"."
@@ -7424,6 +7432,10 @@ msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans 
 #. Default: "Return to proposing group for corrections with one validation (the last)"
 msgid "wa_return_to_proposing_group_with_last_validation"
 msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec validation du dernier niveau)"
+
+#. Default: "Return to proposing group for corrections with second-to-last validation"
+msgid "wa_return_to_proposing_group_with_before_last_validation"
+msgstr "Renvoyer au groupe proposant pour corrections lorsque le point est dans une séance (avec validation de l'avant-dernier niveau)"
 
 #. Default: "Reviewers may take back validated item"
 msgid "wa_reviewers_take_back_validated_item"
