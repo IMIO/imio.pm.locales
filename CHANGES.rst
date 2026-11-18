@@ -7,6 +7,11 @@ Changelog
 
 - Added missing msgid `custom_adviser_can_not_is_linked_to_previous_row_with_other_group`.
   [gbastien]
+- Added msgid `associated_groups_managing_item` and adapted the
+  `Item WF validation levels extra groups managing item description.` translation
+  as the item associated groups may be used as extra groups managing item.
+  See #DLIBBDC-3383.
+  [gbastien]
 
 
 4.2.31rc6 (2026-11-16)

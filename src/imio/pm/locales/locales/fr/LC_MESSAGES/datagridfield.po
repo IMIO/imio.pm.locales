@@ -261,7 +261,7 @@ msgstr "Groupes supplémentaires qui gèrent le point"
 
 #. Default: "Item WF validation levels extra groups managing item description."
 msgid "Item WF validation levels extra groups managing item description."
-msgstr "Groupes supplémentaires qui auront la main sur le point lorsqu'il sera dans cet état, au même format que le groupe qui gère le point. CAS PARTICULIER: si aucune étape n'est activée (les points sont créés dans l'état \"validé (validated)\"), les groupes supplémentaires renseignés sur l'étape \"itemcreated\" auront accès au point en lecture."
+msgstr "Groupes supplémentaires qui auront la main sur le point lorsqu'il sera dans cet état, au même format que le groupe qui gère le point, il est également possible de sélectionner \"Les groupes associés (...)\" pour que chaque groupe associé du point ait la main sur le point avec le sous-groupe choisi, en plus du groupe qui gère le point. CAS PARTICULIER: si aucune étape n'est activée (les points sont créés dans l'état \"validé (validated)\"), les groupes supplémentaires renseignés sur l'étape \"itemcreated\" auront accès au point en lecture."
 
 #. Default: "Item WF validation levels extra suffixes"
 msgid "Item WF validation levels extra suffixes"
