@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.34rc11 (unreleased)
+4.2.34rc11 (2026-11-20)
 -----------------------
 
 - Removed msgids ` [only previewable]`, ` [PDF required]`, `Elements to export in PDF`,
