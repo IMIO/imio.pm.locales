@@ -3491,7 +3491,7 @@ msgstr "Remplacer le contenu"
 
 #. Default: "CSS transforms descr"
 msgid "css_transforms_descr"
-msgstr "Configurez ici les transformations qui seront appliquées sur les champs de texte riche utilisant les classes CSS renseignées.  Ces transformations seront appliquées aux profils \"Super observateurs\" sélectionnés.  Vous pouvez soit \"Enlever la classe CSS\" utilisée dans le point ou \"Remplacer le contenu\" utilisant la classe CSS (ceci peut être utilisé par exemple pour anonymiser du contenu)."
+msgstr "Configurez ici les transformations qui seront appliquées sur les champs de texte riche utilisant les classes CSS renseignées.  Ces transformations seront appliquées aux profils \"Super observateurs\" sélectionnés.  Vous pouvez soit \"Enlever la classe CSS\" utilisée dans le point ou \"Remplacer le contenu\" utilisant la classe CSS (ceci peut être utilisé par exemple pour anonymiser du contenu).  Le contenu remplacé n'est pas non plus trouvé par ces profils lors d'une recherche.  ATTENTION, lorsque les classes CSS dont le contenu est remplacé sont modifiées, le texte de tous les points et de toutes les séances de cette configuration est réindexé immédiatement lors de l'enregistrement, ce qui peut prendre plusieurs minutes si la configuration contient beaucoup d'éléments."
 
 #. Default: "You can not define a value in the \"Available on\" column if a value is in the \"Advice will be automatically asked if\" column, please check defined values for group \"${groupName}\"."
 msgid "custom_adviser_can_not_available_on_and_gives_auto_advice_on"

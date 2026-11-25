@@ -13,6 +13,11 @@ Changelog
 - Added msgid `Annex types` in `eea` domain for the new items dashboard
   faceted filter.
   [gbastien]
+- Completed `css_transforms_descr` French translation, replaced content is not
+  found when searching and items and meetings are reindexed when replaced CSS
+  classes change.
+  See #DLIBBDC-4243.
+  [gbastien]
 - Added msgids `category_not_available_for_proposing_group` and
   `classifier_not_available_for_proposing_group`.
   [gbastien]
