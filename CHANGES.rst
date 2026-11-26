@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-4.2.34rc12 (unreleased)
+4.2.34rc12 (2026-11-26)
 -----------------------
 
 - Added msgid `The "${field_title}" of meeting configuration "${cfg_title}" must return
