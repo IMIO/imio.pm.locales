@@ -5,7 +5,12 @@ Changelog
 4.2.34rc12 (unreleased)
 -----------------------
 
-- Nothing changed yet.
+- Added msgid `The "${field_title}" of meeting configuration "${cfg_title}" must return
+  a tuple or a list of strings, returned value is "${value}"!` raised when
+  `MeetingConfig.eSignDiscriminatorsTALExpr` returns a wrong value.
+  Adapted `esign_discriminators_tal_expr_descr` (fr), the expression may return
+  a tuple or a list, example is now `python: (cfg.getId(), )`.
+  [gbastien]
 
 
 4.2.34rc11 (2026-11-20)

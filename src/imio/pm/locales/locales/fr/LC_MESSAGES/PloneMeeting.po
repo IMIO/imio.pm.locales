@@ -2233,6 +2233,10 @@ msgstr "Tâches"
 msgid "Temporary QR code!"
 msgstr "QR code temporaire!"
 
+#. Default: "The \"${field_title}\" of meeting configuration \"${cfg_title}\" must return a tuple or a list of strings, returned value is \"${value}\"!"
+msgid "The \"${field_title}\" of meeting configuration \"${cfg_title}\" must return a tuple or a list of strings, returned value is \"${value}\"!"
+msgstr "Le champ \"${field_title}\" de la configuration de séance \"${cfg_title}\" doit retourner un tuple ou une liste de valeurs de type caractère (string), la valeur retournée est \"${value}\"!"
+
 #. Default: "The configuration does not let you add annexes."
 msgid "The configuration does not let you add annexes."
 msgstr "La configuration ne permet pas l'ajout d'annexes."
@@ -3964,7 +3968,7 @@ msgstr "Vous ne pouvez utiliser que des valeurs sélectionnées dans le champ \"
 
 #. Default: "Esign discriminators TAL expression"
 msgid "esign_discriminators_tal_expr_descr"
-msgstr "Une session de signature électronique concerne toujours les documents qui utilisent les mêmes signataires.  Vous pouvez définir des valeurs pour définir plus finement ce qui regroupe les documents dans une même session. Encodez une expression TAL qui retourne une liste de valeurs de type caractère (string).  Par exemple, pour grouper par type de séance, utilisez l'expression suivante: \"python: [cfg.getId()]\". Les valeurs (\"obj\", \"tool\", \"cfg\", \"member\", \"utils\", \"pod_template\", \"annex\", ...) sont disponibles dans l'expression."
+msgstr "Une session de signature électronique concerne toujours les documents qui utilisent les mêmes signataires.  Vous pouvez définir des valeurs pour définir plus finement ce qui regroupe les documents dans une même session. Encodez une expression TAL qui retourne un tuple ou une liste de valeurs de type caractère (string).  Par exemple, pour grouper par type de séance, utilisez l'expression suivante: \"python: (cfg.getId(), )\". Les valeurs (\"obj\", \"tool\", \"cfg\", \"member\", \"utils\", \"pod_template\", \"annex\", ...) sont disponibles dans l'expression."
 
 #. Default: "e-Signature:"
 msgid "esign_label"

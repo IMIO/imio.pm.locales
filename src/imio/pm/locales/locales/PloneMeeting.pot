@@ -7446,12 +7446,12 @@ msgstr ""
 msgid "Could not get any signers, please check configuration!"
 msgstr ""
 
-#. Default: "Esign discriminators"
-msgid "PloneMeeting_label_eSignDiscriminatorsTALExpr"
+#. Default: "The \"${field_title}\" of meeting configuration \"${cfg_title}\" must return a tuple or a list of strings, returned value is \"${value}\"!"
+msgid "The \"${field_title}\" of meeting configuration \"${cfg_title}\" must return a tuple or a list of strings, returned value is \"${value}\"!"
 msgstr ""
 
-#. Default: "Esign discriminators TAL expression"
-msgid "esign_discriminators_tal_expr_descr"
+#. Default: "Esign discriminators"
+msgid "PloneMeeting_label_eSignDiscriminatorsTALExpr"
 msgstr ""
 
 #. Default: "Esign discriminators TAL expression"
